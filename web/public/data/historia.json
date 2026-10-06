@@ -1,0 +1,3011 @@
+{
+ "meta": {
+  "gerado_em": "2026-10-06",
+  "aviso": "Revisão histórica compilada de fontes públicas (legislação do Planalto, Wikipedia, imprensa e DOIs). 'verificado: true' significa que a URL foi acessada com sucesso (HTTP 200) e corresponde ao tema; não significa leitura integral nem validação de cada número. Itens marcados no texto como 'de memória' ou 'aproximado' devem ser conferidos em fonte primária. Fontes com verificado:false retornaram erro (403/500) ou não foram abertas. Resultados das eleições de 2026 não foram verificados. Não substitui pesquisa historiográfica.",
+  "criterio_verificacao": "HTTP 200 e correspondência temática; fatos não lidos integralmente marcados na própria descrição."
+ },
+ "periodos": [
+  {
+   "id": "colonia",
+   "rotulo": "Colônia (1500-1822)",
+   "inicio": "1500",
+   "fim": "1822",
+   "regime": "Colonial português (monarquia absoluta no reino)",
+   "descricao": "Poder concentrado na Coroa; governadores-gerais, capitanias e câmaras municipais exerciam funções administrativas, judiciais e fiscais sem separação formal. Ouvidores e Relações (tribunais) integravam a máquina administrativa, não um 'poder' autônomo.",
+   "poderes": {
+    "executivo": "Coroa, governadores-gerais e capitães; funções fundidas com a justiça e a fazenda.",
+    "legislativo": "Inexistente como órgão representativo; Ordenações do Reino e alvarás régios; câmaras municipais com competência local.",
+    "judiciario": "Ouvidores, juízes de fora e Relações subordinados à Coroa."
+   },
+   "constituicao": "Sem constituição; Ordenações Filipinas e legislação régia.",
+   "povos_indigenas_quilombolas": "Indígenas: escravização legal só em 'guerra justa' (lei de 1570, com burlas), aldeamentos missionários, Diretório dos Índios (1757/58) que laicizou as aldeias e incentivou a miscigenação e a língua portuguesa. Africanos escravizados: tráfico atlântico; quilombos como formas de resistência e organização, sendo Palmares (Serra da Barriga) o maior, destruído em 1694-95."
+  },
+  {
+   "id": "imperio",
+   "rotulo": "Império (1822-1889)",
+   "inicio": "1822",
+   "fim": "1889-11-15",
+   "regime": "Monarquia constitucional unitária",
+   "descricao": "Constituição outorgada de 1824, com quatro poderes: Legislativo, Moderador, Executivo e Judicial. O Poder Moderador, privativo do Imperador, permitia dissolver a Câmara, nomear senadores vitalícios e escolher ministros. Voto censitário; Estado confessional; sistema de gabinete de fato parlamentarista a partir de 1847.",
+   "poderes": {
+    "executivo": "Imperador chefia o Executivo (por meio de ministros) e exerce o Moderador.",
+    "legislativo": "Assembleia Geral: Câmara temporária e Senado vitalício; dissolvível pelo Moderador.",
+    "judiciario": "Juízes vitalícios, mas o Imperador podia suspendê-los (art. 154); Supremo Tribunal de Justiça sem controle de constitucionalidade."
+   },
+   "constituicao": "Constituição de 25/03/1824.",
+   "povos_indigenas_quilombolas": "Indígenas: Regulamento das Missões (1845) e Lei de Terras (1850), que converteu terras devolutas em mercadoria e abriu a disputa por terras indígenas. Escravizados: leis de 1831 (tráfico, pouco cumprida) e de 1850 (Eusébio de Queirós), Ventre Livre (1871), Sexagenários (1885) e Lei Áurea (13/05/1888), sem reparação nem acesso à terra."
+  },
+  {
+   "id": "republica-velha",
+   "rotulo": "República Velha (1889-1930)",
+   "inicio": "1889-11-15",
+   "fim": "1930-10-24",
+   "regime": "República federativa presidencialista oligárquica",
+   "descricao": "Constituição de 1891 (modelo dos EUA): três poderes, federalismo com ampla autonomia estadual, presidencialismo, Supremo Tribunal Federal com controle difuso de constitucionalidade. Na prática, a 'política dos governadores' e o controle do reconhecimento de diplomas pelo Congresso sustentaram a hegemonia das oligarquias; voto aberto, sem analfabetos e sem mulheres.",
+   "poderes": {
+    "executivo": "Presidente eleito diretamente, mandato de 4 anos, sem reeleição imediata; recorrência do estado de sítio.",
+    "legislativo": "Congresso bicameral; Senado com igualdade entre estados; Comissão Verificadora de Poderes controlava diplomas.",
+    "judiciario": "STF e justiça federal; controle difuso (art. 59); 'doutrina brasileira do habeas corpus' até a reforma de 1926."
+   },
+   "constituicao": "Constituição de 24/02/1891.",
+   "povos_indigenas_quilombolas": "Indígenas: criação do SPI (1910) sob Rondon, política de tutela e 'pacificação'; conflitos fundiários e violência em frentes de expansão. Afro-brasileiros: abolição sem políticas de inclusão; exclusão do voto por analfabetismo; resistências como a Revolta da Chibata (1910)."
+  },
+  {
+   "id": "vargas",
+   "rotulo": "Era Vargas (1930-1945)",
+   "inicio": "1930-10-24",
+   "fim": "1945-10-29",
+   "regime": "Governo Provisório, Constitucional (1934-37) e Estado Novo (1937-45)",
+   "descricao": "Revolução de 1930 e fechamento do Congresso; Constituição de 1934 (Justiça Eleitoral e do Trabalho, voto feminino, direitos sociais). Em 10/11/1937, golpe do Estado Novo, Constituição de 1937 (Executivo hipertrofiado, Congresso fechado, decretos-lei).",
+   "poderes": {
+    "executivo": "Concentração no Presidente; interventores nos estados; decretos-lei (1937-45).",
+    "legislativo": "Dissolvido em 1930 e de novo em 1937; funções legislativas assumidas pelo Executivo.",
+    "judiciario": "Constituição de 1937 permitia ao Parlamento (inexistente) rever decisões do STF sobre inconstitucionalidade; Tribunal de Segurança Nacional (1936)."
+   },
+   "constituicao": "Constituições de 16/07/1934 e 10/11/1937.",
+   "povos_indigenas_quilombolas": "Indígenas: Marcha para o Oeste (a partir de 1938-43), Fundação Brasil Central (1943) e Expedição Roncador-Xingu; constituições de 1934 e 1937 asseguram a posse de terras de 'silvícolas'. Afro-brasileiros: Frente Negra Brasileira (1931), extinta com o Estado Novo em 1937."
+  },
+  {
+   "id": "republica-1946",
+   "rotulo": "República de 1946 (1946-1964)",
+   "inicio": "1946-09-18",
+   "fim": "1964-03-31",
+   "regime": "Democracia presidencialista (com interlúdio parlamentarista 1961-63)",
+   "descricao": "Constituição de 1946 restaura federalismo, eleições e controle de constitucionalidade; sistema multipartidário. Crises recorrentes: suicídio de Vargas (1954), contragolpe de 1955, renúncia de Jânio (1961), parlamentarismo por emenda (1961) e retorno ao presidencialismo por plebiscito (1963).",
+   "poderes": {
+    "executivo": "Presidente eleito diretamente; Presidente sem maioria própria no Congresso em vários momentos.",
+    "legislativo": "Congresso bicameral; Lei de Responsabilidade (Lei 1.079/1950) define crimes de responsabilidade.",
+    "judiciario": "STF com controle difuso e representação interventiva (EC 16/1965 depois criaria a ação direta genérica)."
+   },
+   "constituicao": "Constituição de 18/09/1946.",
+   "povos_indigenas_quilombolas": "Indígenas: Constituição de 1946 mantém o reconhecimento da posse; criação do Parque Indígena do Xingu (1961). Afro-brasileiros: Lei Afonso Arinos (1951) tipifica como contravenção a discriminação racial."
+  },
+  {
+   "id": "ditadura",
+   "rotulo": "Ditadura civil-militar (1964-1985)",
+   "inicio": "1964-03-31",
+   "fim": "1985-03-15",
+   "regime": "Regime autoritário civil-militar",
+   "descricao": "Golpe de 31/03-01/04/1964; Atos Institucionais (AI-1, 1964; AI-2, 1965; AI-5, 1968) concentram poder no Executivo, com cassações, censura, eleições indiretas e bipartidarismo. Constituição de 1967 e EC 1/1969. Repressão política com tortura, mortes e desaparecimentos; luta armada de organizações de esquerda; aparato DOI-CODI. Abertura 'lenta, gradual e segura' a partir de 1974.",
+   "poderes": {
+    "executivo": "Presidentes-generais; AI-5 autoriza fechar o Congresso, decretar intervenção, cassar mandatos e suspender garantias.",
+    "legislativo": "Congresso recessado (13/12/1968-21/10/1969) e reduzido; bipartidarismo (ARENA e MDB); 'Pacote de Abril' de 1977.",
+    "judiciario": "STF ampliado a 16 ministros (AI-2) e depois reduzido a 11 (AI-6); aposentadorias compulsórias (1969); habeas corpus suspenso para crimes políticos; Justiça Militar julga civis."
+   },
+   "constituicao": "Constituição de 24/01/1967 e Emenda Constitucional nº 1 de 17/10/1969.",
+   "povos_indigenas_quilombolas": "Indígenas: Relatório Figueiredo (1967) documenta abusos do SPI; criação da FUNAI (1967); Estatuto do Índio (1973); rodovias (Transamazônica, BR-174) e projetos de integração causam remoções e mortes; CNV estima ao menos 8.350 indígenas mortos no período investigado. Afro-brasileiros: censura ao tema racial ('democracia racial'); Movimento Negro Unificado (1978) reorganiza o movimento."
+  },
+  {
+   "id": "abertura",
+   "rotulo": "Abertura e redemocratização (1974-1988)",
+   "inicio": "1974",
+   "fim": "1988-10-05",
+   "regime": "Transição negociada",
+   "descricao": "Distensão (Geisel), Pacote de Abril (1977), fim do AI-5 (1979), Lei da Anistia (1979), multipartidarismo (1979), Diretas Já (1983-84), eleição indireta de Tancredo Neves (15/01/1985) e Constituinte (1987-88).",
+   "poderes": {
+    "executivo": "Presidentes militares até 1985; Sarney (1985-90) governa em transição.",
+    "legislativo": "Retomada de prerrogativas; Congresso eleito em 1986 acumula função constituinte.",
+    "judiciario": "Fim do AI-5 restitui habeas corpus; STF mantém composição de 11 ministros."
+   },
+   "constituicao": "Constituição de 05/10/1988 promulgada.",
+   "povos_indigenas_quilombolas": "Indígenas: mobilização nacional (União das Nações Indígenas, 1980); Aílton Krenak na tribuna da Constituinte (04/09/1987). Afro-brasileiros: MNU, Convenção Nacional do Negro (1986) e atuação na Constituinte, com o art. 68 do ADCT."
+  },
+  {
+   "id": "nova-republica",
+   "rotulo": "Nova República (1988-2026)",
+   "inicio": "1988-10-05",
+   "fim": "2026",
+   "regime": "Democracia constitucional presidencialista com multipartidarismo fragmentado",
+   "descricao": "CF/88 consagra separação de poderes (art. 2º), cláusulas pétreas, Ministério Público independente e controle de constitucionalidade concentrado e difuso. Estabilização (Plano Real), reeleição (EC 16/1997), LRF (2000), impeachments de Collor e Dilma, Mensalão, Lava Jato, protagonismo do STF e do Congresso sobre o orçamento, 8 de janeiro de 2023 e condenações de 2025.",
+   "poderes": {
+    "executivo": "Poder de agenda forte (medidas provisórias, iniciativa privativa, veto, controle da agenda) e coalizões amplas.",
+    "legislativo": "Controle crescente do orçamento (emendas individuais, de bancada e de relator); CPIs, fiscalização com apoio do TCU.",
+    "judiciario": "STF como corte constitucional, penal (foro) e árbitro político; CNJ (2004); súmula vinculante; decisões monocráticas."
+   },
+   "constituicao": "Constituição de 05/10/1988 (mais de uma centena de emendas).",
+   "povos_indigenas_quilombolas": "Indígenas: arts. 231-232 (direitos originários e capacidade processual); demarcações (Decreto 1.775/1996), Raposa Serra do Sol (2009), conflito do marco temporal (RE 1.017.365, 2023; Lei 14.701/2023; PEC 48/2023), crise Yanomami (2023). Quilombolas: art. 68 do ADCT, Decreto 4.887/2003 (validado na ADI 3239), cotas (Lei 12.711/2012), primeira contagem quilombola no Censo 2022."
+  }
+ ],
+ "eventos": [
+  {
+   "id": "lei-1570",
+   "data": "1570-03-20",
+   "periodo": "colonia",
+   "trilha": "indigena",
+   "categoria": "crise",
+   "titulo": "Lei de 1570 restringe a escravização indígena à 'guerra justa'",
+   "resumo": "Lei de D. Sebastião proíbe a escravização de indígenas, salvo em guerra justa (defesa ou resistência à evangelização). Na prática, a categoria foi usada de forma ampla para justificar cativeiros.",
+   "impacto_poderes": "Mostra o Estado colonial regulando por ato real (sem separação de poderes) o estatuto jurídico de povos nativos; a exceção tornou-se regra por decisão de autoridades locais.",
+   "controversias": "Historiadores divergem sobre o grau de efetividade; a data e o alcance exatos da norma variam em síntese secundária (verificar fonte primária).",
+   "fontes": [
+    {
+     "titulo": "Guerra justa - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Guerra_justa",
+     "verificado": true
+    },
+    {
+     "titulo": "Escravidão indígena no Brasil - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Escravid%C3%A3o_ind%C3%ADgena_no_Brasil",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "palmares-1695",
+   "data": "1695-11-20",
+   "periodo": "colonia",
+   "trilha": "quilombola",
+   "categoria": "resistencia",
+   "titulo": "Morte de Zumbi e fim do Quilombo dos Palmares",
+   "resumo": "Palmares (Serra da Barriga, atual Alagoas) resistiu por quase um século; foi atacado por expedições paulistas lideradas por Domingos Jorge Velho (cerco da Cerca do Macaco em 1694) e Zumbi foi morto em 20/11/1695.",
+   "impacto_poderes": "Quilombo como organização política e territorial alternativa; o Estado colonial respondeu com campanhas militares custeadas pela Coroa.",
+   "controversias": "Nº de habitantes e duração são estimativas; memória de Zumbi disputada. 20 de novembro é Dia da Consciência Negra (Lei 12.519/2011).",
+   "fontes": [
+    {
+     "titulo": "Quilombo dos Palmares - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Quilombo_dos_Palmares",
+     "verificado": true
+    },
+    {
+     "titulo": "Zumbi dos Palmares - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Zumbi_dos_Palmares",
+     "verificado": true
+    },
+    {
+     "titulo": "Dia da Consciência Negra - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Dia_da_Consci%C3%AAncia_Negra",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "diretorio-1757",
+   "data": "1757-05-03",
+   "periodo": "colonia",
+   "trilha": "indigena",
+   "categoria": "reforma",
+   "titulo": "Diretório dos Índios (Pombal)",
+   "resumo": "Diretório criado para o Grão-Pará e Maranhão (1757) e estendido a todo o Brasil em 1758; retira poder temporal dos missionários, transforma aldeias em vilas, impõe o português e estimula casamentos mistos. Revogado em 1798.",
+   "impacto_poderes": "Estado assume diretamente a tutela das aldeias, secularizando a administração e criando a figura do diretor (funcionário régio).",
+   "controversias": "Visto ora como política 'civilizadora' ora como instrumento de assimilação e espoliação.",
+   "fontes": [
+    {
+     "titulo": "Diretório dos Índios - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Diret%C3%B3rio_dos_%C3%8Dndios",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "indep-1822",
+   "data": "1822-09-07",
+   "periodo": "imperio",
+   "trilha": "estado",
+   "categoria": "constituicao",
+   "titulo": "Independência e dissolução da Constituinte de 1823",
+   "resumo": "Independência proclamada em 07/09/1822; a Assembleia Constituinte é dissolvida por D. Pedro I em 12/11/1823 (Noite da Agonia), que nomeia um Conselho de Estado para redigir o projeto.",
+   "impacto_poderes": "Marca a origem outorgada da ordem constitucional: o Executivo dissolve o órgão constituinte.",
+   "controversias": "Interpretações divergem sobre a natureza da independência (continuidade monárquica versus ruptura).",
+   "fontes": [
+    {
+     "titulo": "Constituição brasileira de 1824 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Constitui%C3%A7%C3%A3o_brasileira_de_1824",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "c1824",
+   "data": "1824-03-25",
+   "periodo": "imperio",
+   "trilha": "estado",
+   "categoria": "constituicao",
+   "titulo": "Constituição do Império outorgada: quatro poderes e Poder Moderador",
+   "resumo": "Art. 10 lista quatro poderes (Legislativo, Moderador, Executivo e Judicial); art. 98 define o Moderador como 'chave de toda a organização política', privativo do Imperador. Voto censitário, religião de Estado.",
+   "impacto_poderes": "Imperador pode dissolver a Câmara, nomear senadores, suspender magistrados e sancionar leis; inspirada na teoria do 'poder neutro' de Benjamin Constant.",
+   "controversias": "Debate historiográfico: o Moderador como garantia de estabilidade ou como poder pessoal. Parlamentarismo de fato desde 1847 reduz o uso discricionário.",
+   "fontes": [
+    {
+     "titulo": "Constituição Política do Império do Brasil (1824) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao24.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Poder moderador - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Poder_moderador",
+     "verificado": true
+    },
+    {
+     "titulo": "Benjamin Constant - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Benjamin_Constant",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "lei-1831",
+   "data": "1831-11-07",
+   "periodo": "imperio",
+   "trilha": "quilombola",
+   "categoria": "reforma",
+   "titulo": "Lei de 7 de novembro de 1831 proíbe o tráfico",
+   "resumo": "Declara livres os africanos que entrassem no Brasil; a lei foi amplamente descumprida (tráfico clandestino prosseguiu por quase duas décadas) e ficou conhecida como lei 'para inglês ver'.",
+   "impacto_poderes": "Exemplo de lei sem eficácia por omissão do Executivo e conivência de autoridades locais.",
+   "controversias": "Historiografia recente discute as consequências jurídicas posteriores (libertação de africanos ilegalmente escravizados).",
+   "fontes": [
+    {
+     "titulo": "Escravidão no Brasil - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Escravid%C3%A3o_no_Brasil",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei Eusébio de Queirós - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Lei_Eus%C3%A9bio_de_Queir%C3%B3s",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "moderador-uso-1840",
+   "data": "1840-07-23",
+   "periodo": "imperio",
+   "trilha": "estado",
+   "categoria": "crise",
+   "titulo": "Maioridade de Pedro II e fim da Regência",
+   "resumo": "Golpe da Maioridade antecipa para 1840 o início do reinado de Pedro II; após o período regencial, o Poder Moderador passa a ser exercido plenamente.",
+   "impacto_poderes": "Retorna a centralização do poder no Imperador e no Conselho de Estado (restabelecido em 1841).",
+   "controversias": "—",
+   "fontes": [
+    {
+     "titulo": "Poder moderador - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Poder_moderador",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "missoes-1845",
+   "data": "1845-07-24",
+   "periodo": "imperio",
+   "trilha": "indigena",
+   "categoria": "reforma",
+   "titulo": "Regulamento das Missões (Decreto 426)",
+   "resumo": "Reestabelece o aldeamento com diretores gerais e missionários capuchinhos, em nova política indigenista imperial.",
+   "impacto_poderes": "Estado administra aldeamentos por decreto do Executivo, sem participação do Legislativo.",
+   "controversias": "Data e número do decreto citados de memória; não confirmados em fonte aberta nesta rodada.",
+   "fontes": [
+    {
+     "titulo": "Aldeamento - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Aldeamento",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "parlam-1847",
+   "data": "1847-07-20",
+   "periodo": "imperio",
+   "trilha": "estado",
+   "categoria": "reforma",
+   "titulo": "Criação da Presidência do Conselho de Ministros",
+   "resumo": "Decreto de 20/07/1847 cria o cargo de Presidente do Conselho, inaugurando o 'parlamentarismo às avessas': o Imperador escolhia o gabinete e dissolvia a Câmara, que depois elegia o governo.",
+   "impacto_poderes": "Controle do Executivo sobre o Legislativo pelo Moderador.",
+   "controversias": "Historiografia debate se havia parlamentarismo ou simples fachada.",
+   "fontes": [
+    {
+     "titulo": "Poder moderador - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Poder_moderador",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "eusebio-1850",
+   "data": "1850-09-04",
+   "periodo": "imperio",
+   "trilha": "quilombola",
+   "categoria": "reforma",
+   "titulo": "Lei Eusébio de Queirós extingue o tráfico atlântico",
+   "resumo": "Lei nº 581/1850 estabelece medidas para repressão do tráfico de africanos, sob pressão britânica (Bill Aberdeen, 1845).",
+   "impacto_poderes": "Redefine a política interna; amplia o tráfico interprovincial.",
+   "controversias": "Debate sobre o peso da pressão externa versus fatores internos.",
+   "fontes": [
+    {
+     "titulo": "Lei nº 581/1850 (Eusébio de Queirós) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lim/lim581.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei Eusébio de Queirós - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Lei_Eus%C3%A9bio_de_Queir%C3%B3s",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "terras-1850",
+   "data": "1850-09-18",
+   "periodo": "imperio",
+   "trilha": "indigena",
+   "categoria": "reforma",
+   "titulo": "Lei de Terras (Lei 601)",
+   "resumo": "Proíbe a aquisição de terras devolutas por outro meio que não a compra e regulariza sesmarias e posses; terras de aldeamentos tornam-se potencialmente devolutas. Contexto de substituição do trabalho escravo.",
+   "impacto_poderes": "Cria o regime fundiário moderno; o Estado passa a decidir o que é 'devoluto', com impacto sobre territórios indígenas e de libertos.",
+   "controversias": "Há debate sobre a efetividade da lei e sobre seu efeito de exclusão de libertos e indígenas do acesso à terra.",
+   "fontes": [
+    {
+     "titulo": "Lei nº 601/1850 (Lei de Terras) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lim/lim601.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ventre-1871",
+   "data": "1871-09-28",
+   "periodo": "imperio",
+   "trilha": "quilombola",
+   "categoria": "reforma",
+   "titulo": "Lei do Ventre Livre",
+   "resumo": "Lei nº 2.040 declara livres os filhos de escravizadas nascidos a partir da data, com obrigações de criação.",
+   "impacto_poderes": "Abolição gradual conduzida pelo gabinete conservador (Rio Branco), sem rupturas no pacto político.",
+   "controversias": "Críticas: manteve na prática a tutela dos filhos pelos senhores até os 8 ou 21 anos.",
+   "fontes": [
+    {
+     "titulo": "Lei nº 2.040/1871 (Ventre Livre) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lim/lim2040.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei do Ventre Livre - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Lei_do_Ventre_Livre",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "sexa-1885",
+   "data": "1885-09-28",
+   "periodo": "imperio",
+   "trilha": "quilombola",
+   "categoria": "reforma",
+   "titulo": "Lei dos Sexagenários",
+   "resumo": "Lei nº 3.270 (Saraiva-Cotegipe) liberta escravizados com mais de 60 anos, com indenização por serviços.",
+   "impacto_poderes": "Etapa do gradualismo; ampliou a pressão abolicionista.",
+   "controversias": "Poucos escravizados chegavam aos 60 anos; críticos veem alcance limitado.",
+   "fontes": [
+    {
+     "titulo": "Lei nº 3.270/1885 (Sexagenários) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lim/lim3270.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "aurea-1888",
+   "data": "1888-05-13",
+   "periodo": "imperio",
+   "trilha": "quilombola",
+   "categoria": "reforma",
+   "titulo": "Lei Áurea",
+   "resumo": "Lei nº 3.353 extingue a escravidão no Brasil, sem indenização aos libertos nem política de acesso à terra ou à educação.",
+   "impacto_poderes": "Última nação independente das Américas a abolir; a abolição precede a queda da monarquia em 18 meses.",
+   "controversias": "Debate sobre ausência de reparação e relação com a queda do Império (a 'questão servil' e o apoio de fazendeiros).",
+   "fontes": [
+    {
+     "titulo": "Lei nº 3.353/1888 (Lei Áurea) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lim/lim3353.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei Áurea - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Lei_%C3%81urea",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "rep-1889",
+   "data": "1889-11-15",
+   "periodo": "republica-velha",
+   "trilha": "estado",
+   "categoria": "golpe",
+   "titulo": "Proclamação da República",
+   "resumo": "Golpe militar liderado pelo marechal Deodoro da Fonseca depõe o gabinete Ouro Preto e instala Governo Provisório; federalismo e presidencialismo adotados.",
+   "impacto_poderes": "Fim do Moderador e da vitaliciedade do Senado; federalização das relações de poder.",
+   "controversias": "Discussão sobre o grau de participação popular ('bestializados').",
+   "fontes": [
+    {
+     "titulo": "República Velha - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Rep%C3%BAblica_Velha",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "c1891",
+   "data": "1891-02-24",
+   "periodo": "republica-velha",
+   "trilha": "estado",
+   "categoria": "constituicao",
+   "titulo": "Constituição de 1891",
+   "resumo": "Três poderes (art. 15), presidencialismo, federalismo (antigas províncias viram estados), Estado laico, STF com controle difuso (art. 59). Excluídos do voto analfabetos e mulheres.",
+   "impacto_poderes": "Espelha o desenho norte-americano; baixa capacidade de coordenar federalismo em favor de oligarquias estaduais.",
+   "controversias": "Federalismo forte favorecia estados mais ricos (SP, MG); críticas de Alberto Torres e outros.",
+   "fontes": [
+    {
+     "titulo": "Constituição da República (1891) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao91.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "deodoro-1891",
+   "data": "1891-11-03",
+   "periodo": "republica-velha",
+   "trilha": "estado",
+   "categoria": "crise",
+   "titulo": "Deodoro dissolve o Congresso e renuncia",
+   "resumo": "Em 03/11/1891 Deodoro fecha o Congresso; pressionado por levantes (Custódio de Melo), renuncia em 23/11/1891 e Floriano Peixoto assume.",
+   "impacto_poderes": "Primeiro conflito entre Executivo e Legislativo sob a nova Constituição.",
+   "controversias": "Interpretação sobre a validade da posse de Floriano (sem novas eleições) gerou conflito.",
+   "fontes": [
+    {
+     "titulo": "República Velha - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Rep%C3%BAblica_Velha",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "governadores-1898",
+   "data": "1898-05-01",
+   "periodo": "republica-velha",
+   "trilha": "estado",
+   "categoria": "crise",
+   "titulo": "Política dos governadores (Campos Sales)",
+   "resumo": "Acordo informal entre Presidente e oligarquias estaduais: o governo federal apoiava os grupos dominantes e a Comissão Verificadora de Poderes validava diplomas dos aliados.",
+   "impacto_poderes": "Subordinação do Legislativo ao pacto Executivo-oligarquias; eleição sem competição efetiva.",
+   "controversias": "A data é o início do mandato de Campos Sales (15/11/1898), e a formulação costuma ser atribuída a ele.",
+   "fontes": [
+    {
+     "titulo": "Política dos governadores - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Pol%C3%ADtica_dos_governadores",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "spi-1910",
+   "data": "1910-06-20",
+   "periodo": "republica-velha",
+   "trilha": "indigena",
+   "categoria": "reforma",
+   "titulo": "Criação do Serviço de Proteção aos Índios (SPI)",
+   "resumo": "Decreto nº 8.072 cria o SPI e Localização de Trabalhadores Nacionais; Cândido Rondon à frente; lema 'morrer se for preciso, matar nunca'.",
+   "impacto_poderes": "Estado centraliza a política indigenista no Executivo (Ministério da Agricultura), com tutela sobre indígenas.",
+   "controversias": "Avaliações divergem: protetor frente a massacres versus instrumento de integração forçada; denúncias de corrupção e violência nos anos 1960.",
+   "fontes": [
+    {
+     "titulo": "Decreto nº 8.072/1910 (cria o SPI) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/decreto/1910-1929/d8072.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Serviço de Proteção aos Índios - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Servi%C3%A7o_de_Prote%C3%A7%C3%A3o_aos_%C3%8Dndios",
+     "verificado": true
+    },
+    {
+     "titulo": "Cândido Rondon - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/C%C3%A2ndido_Rondon",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "chibata-1910",
+   "data": "1910-11-22",
+   "periodo": "republica-velha",
+   "trilha": "quilombola",
+   "categoria": "resistencia",
+   "titulo": "Revolta da Chibata",
+   "resumo": "Marinheiros, em sua maioria negros e pardos, liderados por João Cândido, tomam navios no Rio de Janeiro contra castigos corporais; Congresso aprova anistia e o governo depois reprime os revoltosos.",
+   "impacto_poderes": "Congresso e Executivo negociam pelo meio de anistia; depois o Executivo descumpre parcialmente o acordo.",
+   "controversias": "Número de mortos nas prisões posteriores é debatido.",
+   "fontes": [
+    {
+     "titulo": "Revolta da Chibata - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Revolta_da_Chibata",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "rev-1930",
+   "data": "1930-10-24",
+   "periodo": "vargas",
+   "trilha": "estado",
+   "categoria": "golpe",
+   "titulo": "Revolução de 1930",
+   "resumo": "Depõe o presidente Washington Luís; Getúlio Vargas assume o Governo Provisório em 03/11/1930. O Decreto 19.398 (11/11/1930) dissolve o Congresso e concentra poderes no Chefe do Governo.",
+   "impacto_poderes": "Fim da República Velha; Executivo assume funções legislativas por decreto.",
+   "controversias": "Historiografia debate se foi revolução ou golpe oligárquico dissidente.",
+   "fontes": [
+    {
+     "titulo": "Revolução de 1930 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_de_1930",
+     "verificado": true
+    },
+    {
+     "titulo": "Decreto nº 19.398/1930 (Governo Provisório) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/decreto/1930-1949/d19398.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "fnb-1931",
+   "data": "1931-09-16",
+   "periodo": "vargas",
+   "trilha": "quilombola",
+   "categoria": "resistencia",
+   "titulo": "Fundação da Frente Negra Brasileira",
+   "resumo": "Organização de massa de afro-brasileiros em São Paulo, depois partido político (1936); extinta pelo Estado Novo em 1937.",
+   "impacto_poderes": "Primeira grande organização política negra de escala nacional; fechamento por decreto do Estado Novo (partidos extintos).",
+   "controversias": "Divergências internas e avaliação da proximidade com movimentos nacionalistas da época.",
+   "fontes": [
+    {
+     "titulo": "Frente Negra Brasileira - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Frente_Negra_Brasileira",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "rev-1932",
+   "data": "1932-07-09",
+   "periodo": "vargas",
+   "trilha": "estado",
+   "categoria": "crise",
+   "titulo": "Revolução Constitucionalista",
+   "resumo": "São Paulo se levanta exigindo constituinte; derrotada militarmente em outubro, mas o Governo Provisório convoca a Constituinte (eleita em 1933).",
+   "impacto_poderes": "Pressão sobre o Executivo produz retorno ao constitucionalismo.",
+   "controversias": "Interpretação como movimento democrático versus defesa de interesses oligárquicos paulistas.",
+   "fontes": [
+    {
+     "titulo": "Revolução Constitucionalista de 1932 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Revolu%C3%A7%C3%A3o_Constitucionalista_de_1932",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "c1934",
+   "data": "1934-07-16",
+   "periodo": "vargas",
+   "trilha": "estado",
+   "categoria": "constituicao",
+   "titulo": "Constituição de 1934",
+   "resumo": "Cria Justiça Eleitoral e Justiça do Trabalho, voto feminino, mandado de segurança, ação popular; Senado reduzido a órgão de colaboração; art. 129 respeita a posse de terras de 'silvícolas'.",
+   "impacto_poderes": "Fortalece o Executivo e a representação corporativa; estabelece o reconhecimento constitucional da posse indígena (que se repetiria nas constituições seguintes).",
+   "controversias": "Vigência curta (3 anos).",
+   "fontes": [
+    {
+     "titulo": "Constituição (1934) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao34.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "estado-novo-1937",
+   "data": "1937-11-10",
+   "periodo": "vargas",
+   "trilha": "estado",
+   "categoria": "golpe",
+   "titulo": "Golpe do Estado Novo e Constituição de 1937",
+   "resumo": "Vargas fecha o Congresso, extingue partidos e outorga a Constituição de 1937 (apelidada 'Polaca'), com Presidente forte e decretos-lei; justificada por pretenso Plano Cohen.",
+   "impacto_poderes": "Executivo legisla; STF subordinado à possibilidade de reexame legislativo (art. 96); censura via DIP.",
+   "controversias": "Plano Cohen foi forjado (reconhecido posteriormente); discute-se a convergência com regimes autoritários europeus.",
+   "fontes": [
+    {
+     "titulo": "Constituição (1937) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao37.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Estado Novo (Brasil) - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Estado_Novo_(Brasil)",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "oeste-1943",
+   "data": "1943-10-04",
+   "periodo": "vargas",
+   "trilha": "indigena",
+   "categoria": "crise",
+   "titulo": "Marcha para o Oeste e Fundação Brasil Central",
+   "resumo": "Política de ocupação do Centro-Oeste e Amazônia lançada no Estado Novo; Fundação Brasil Central (1943) e Expedição Roncador-Xingu abrem a fronteira, em contato com povos isolados.",
+   "impacto_poderes": "Estado como ator de colonização; contatos e epidemias; exemplo de política conduzida por decreto.",
+   "controversias": "Narrativa oficial de integração nacional versus leitura crítica das perdas de povos indígenas.",
+   "fontes": [
+    {
+     "titulo": "Marcha para o Oeste - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Marcha_para_o_Oeste",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "depos-1945",
+   "data": "1945-10-29",
+   "periodo": "vargas",
+   "trilha": "estado",
+   "categoria": "golpe",
+   "titulo": "Deposição de Vargas",
+   "resumo": "Militares depõem Vargas; José Linhares (presidente do STF) assume interinamente; eleições de dezembro de 1945 elegem Dutra e Assembleia Constituinte.",
+   "impacto_poderes": "Transição para ordem constitucional.",
+   "controversias": "Discussão do papel do 'queremismo' e dos militares.",
+   "fontes": [
+    {
+     "titulo": "Estado Novo (Brasil) - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Estado_Novo_(Brasil)",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "c1946",
+   "data": "1946-09-18",
+   "periodo": "republica-1946",
+   "trilha": "estado",
+   "categoria": "constituicao",
+   "titulo": "Constituição de 1946",
+   "resumo": "Restaura federalismo, Executivo e Legislativo eleitos e Judiciário independente; mantém a posse de terras indígenas (art. 216) e a representação interventiva.",
+   "impacto_poderes": "Equilíbrio entre poderes recomposto; Senado com status pleno.",
+   "controversias": "Excluiu o voto de analfabetos; Partido Comunista cassado em 1947.",
+   "fontes": [
+    {
+     "titulo": "Constituição (1946) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao46.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Constituição brasileira de 1946 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Constitui%C3%A7%C3%A3o_brasileira_de_1946",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "l1079-1950",
+   "data": "1950-04-10",
+   "periodo": "republica-1946",
+   "trilha": "estado",
+   "categoria": "reforma",
+   "titulo": "Lei 1.079/1950 define os crimes de responsabilidade",
+   "resumo": "Define crimes de responsabilidade do Presidente e rito do impeachment; usada em 1992 e 2016 com adaptações do STF.",
+   "impacto_poderes": "Procedimento que organiza o controle político do Executivo pelo Legislativo.",
+   "controversias": "Rito reformado por decisões do STF (ADPF 378, 2015) quanto ao papel do Senado.",
+   "fontes": [
+    {
+     "titulo": "Lei nº 1.079/1950 (crimes de responsabilidade) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l1079.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "arinos-1951",
+   "data": "1951-07-03",
+   "periodo": "republica-1946",
+   "trilha": "quilombola",
+   "categoria": "reforma",
+   "titulo": "Lei Afonso Arinos",
+   "resumo": "Lei nº 1.390/1951 inclui entre as contravenções penais a prática de atos resultantes de preconceito de raça ou de cor.",
+   "impacto_poderes": "Marca o reconhecimento legislativo do problema; poucos casos prosperaram.",
+   "controversias": "Críticas à ineficácia (contravenção, não crime).",
+   "fontes": [
+    {
+     "titulo": "Lei nº 1.390/1951 (Afonso Arinos) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l1390.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei Afonso Arinos - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Lei_Afonso_Arinos",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "vargas-1954",
+   "data": "1954-08-24",
+   "periodo": "republica-1946",
+   "trilha": "estado",
+   "categoria": "crise",
+   "titulo": "Suicídio de Vargas",
+   "resumo": "Pressionado por militares e pela oposição após o atentado da Rua Tonelero, Vargas se suicida em 24/08/1954.",
+   "impacto_poderes": "Adia golpes; reforça o ciclo de crises entre Executivo e militares.",
+   "controversias": "Interpretação da 'carta-testamento' como ato político.",
+   "fontes": [
+    {
+     "titulo": "Constituição (1946) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao46.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "lott-1955",
+   "data": "1955-11-11",
+   "periodo": "republica-1946",
+   "trilha": "estado",
+   "categoria": "crise",
+   "titulo": "Contragolpe preventivo do marechal Lott",
+   "resumo": "Marechal Lott depõe o interino Carlos Luz para garantir posse de Juscelino Kubitschek; o Congresso declara impedimento de Carlos Luz e Café Filho.",
+   "impacto_poderes": "Militares como árbitros da sucessão.",
+   "controversias": "Legitimidade da intervenção preventiva.",
+   "fontes": [
+    {
+     "titulo": "Constituição (1946) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao46.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "xingu-1961",
+   "data": "1961-04-14",
+   "periodo": "republica-1946",
+   "trilha": "indigena",
+   "categoria": "reforma",
+   "titulo": "Criação do Parque Indígena do Xingu",
+   "resumo": "Decreto presidencial (Jânio Quadros) cria o primeiro grande território indígena demarcado (Villas-Bôas, Darcy Ribeiro, Rondon).",
+   "impacto_poderes": "Primeira grande área protegida por ato do Executivo, sem lei específica.",
+   "controversias": "Debate sobre a área reduzida em relação à proposta original.",
+   "fontes": [
+    {
+     "titulo": "Parque Indígena do Xingu - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Parque_Ind%C3%ADgena_do_Xingu",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "janio-1961",
+   "data": "1961-08-25",
+   "periodo": "republica-1946",
+   "trilha": "estado",
+   "categoria": "crise",
+   "titulo": "Renúncia de Jânio Quadros e crise da posse de Goulart",
+   "resumo": "Jânio renuncia em 25/08/1961; ministros militares tentam impedir a posse do vice João Goulart; solução: Emenda Constitucional 4 (02/09/1961) instaura o parlamentarismo.",
+   "impacto_poderes": "Mudança do sistema de governo por emenda para esvaziar o presidente.",
+   "controversias": "Interpretações de 'golpe parlamentarista' versus saída negociada.",
+   "fontes": [
+    {
+     "titulo": "Emenda Constitucional nº 4/1961 (parlamentarismo) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc04-61.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "plebiscito-1963",
+   "data": "1963-01-06",
+   "periodo": "republica-1946",
+   "trilha": "estado",
+   "categoria": "reforma",
+   "titulo": "Plebiscito restaura o presidencialismo",
+   "resumo": "Cerca de 80% votam pelo presidencialismo; EC 6/1963 revoga o ato adicional.",
+   "impacto_poderes": "Presidente recupera plenos poderes.",
+   "controversias": "Questão se Goulart manipulou a antecipação do plebiscito.",
+   "fontes": [
+    {
+     "titulo": "Emenda Constitucional nº 6/1963 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc06-63.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "golpe-1964",
+   "data": "1964-03-31",
+   "periodo": "ditadura",
+   "trilha": "estado",
+   "categoria": "golpe",
+   "titulo": "Golpe civil-militar de 1964",
+   "resumo": "Levante de tropas de Minas Gerais e São Paulo depõe João Goulart; em 02/04/1964 o Congresso declara vaga a Presidência (com o presidente ainda em território nacional) e empossa Ranieri Mazzilli.",
+   "impacto_poderes": "Executivo deposto por militares com apoio de parte do Congresso, do Judiciário e da sociedade civil.",
+   "controversias": "Termos em disputa: 'golpe', 'revolução', 'movimento'. Apoio civil (parte da imprensa, empresários, Igreja) e papel dos EUA (operação Brother Sam) são debatidos.",
+   "fontes": [
+    {
+     "titulo": "Golpe de Estado no Brasil em 1964 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Golpe_de_Estado_no_Brasil_em_1964",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ai1-1964",
+   "data": "1964-04-09",
+   "periodo": "ditadura",
+   "trilha": "estado",
+   "categoria": "ato-institucional",
+   "titulo": "Ato Institucional nº 1",
+   "resumo": "AI-1 mantém a Constituição de 1946 com modificações; permite suspender direitos políticos por 10 anos e cassar mandatos; eleição indireta do Presidente; Castelo Branco eleito em 11/04/1964.",
+   "impacto_poderes": "Poder constituinte atribuído aos comandantes militares; cassações atingem Goulart, Jânio, Prestes, Brizola e outros.",
+   "controversias": "Número de cassados sob o AI-1 varia por fonte.",
+   "fontes": [
+    {
+     "titulo": "Ato Institucional nº 1 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-01-64.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ai2-1965",
+   "data": "1965-10-27",
+   "periodo": "ditadura",
+   "trilha": "estado",
+   "categoria": "ato-institucional",
+   "titulo": "Ato Institucional nº 2",
+   "resumo": "Extingue partidos (Ato Complementar nº 4 implanta bipartidarismo), elege Presidente por voto indireto, amplia o STF de 11 a 16 ministros e transfere crimes contra segurança nacional à Justiça Militar.",
+   "impacto_poderes": "Executivo reorganiza os demais poderes.",
+   "controversias": "Interpretação do aumento do STF como 'court packing'.",
+   "fontes": [
+    {
+     "titulo": "Ato Institucional nº 2 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-02-65.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ai3-ai4-1966",
+   "data": "1966-02-05",
+   "periodo": "ditadura",
+   "trilha": "estado",
+   "categoria": "ato-institucional",
+   "titulo": "AI-3 e AI-4",
+   "resumo": "AI-3 (05/02/1966) torna indiretas as eleições para governador; AI-4 (07/12/1966) convoca o Congresso para votar uma nova Constituição.",
+   "impacto_poderes": "Federalismo reduzido; Congresso mutilado vota projeto do Executivo.",
+   "controversias": "—",
+   "fontes": [
+    {
+     "titulo": "Ato Institucional nº 3 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-03-66.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Ato Institucional nº 4 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-04-66.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "c1967",
+   "data": "1967-01-24",
+   "periodo": "ditadura",
+   "trilha": "estado",
+   "categoria": "constituicao",
+   "titulo": "Constituição de 1967",
+   "resumo": "Votada pelo Congresso mutilado (vigência em 15/03/1967); fortalece a União e o Executivo (decreto-lei, prazo de aprovação por decurso, iniciativa de leis financeiras); Presidente eleito indiretamente.",
+   "impacto_poderes": "Executivo com decreto-lei e iniciativa exclusiva; Legislativo e Judiciário subordinados.",
+   "controversias": "Questão da legitimidade do poder constituinte (Congresso expurgado).",
+   "fontes": [
+    {
+     "titulo": "Constituição (1967) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao67.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "figueiredo-1967",
+   "data": "1967-03-20",
+   "periodo": "ditadura",
+   "trilha": "indigena",
+   "categoria": "repressao",
+   "titulo": "Relatório Figueiredo",
+   "resumo": "Procurador Jader de Figueiredo Correia documenta, em mais de 5 mil páginas, corrupção, torturas, massacres e escravização de indígenas pelo SPI; o documento foi dado como perdido em incêndio e reaparece em 2012 no Museu do Índio.",
+   "impacto_poderes": "Motiva a extinção do SPI e a criação da FUNAI (05/12/1967) pelo Executivo; mostra falhas de controle sobre agentes do Estado.",
+   "controversias": "A data da apresentação do relatório (1967-68) é aproximada; número exato de páginas e vítimas aparece com variações.",
+   "fontes": [
+    {
+     "titulo": "Relatório Figueiredo - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Relat%C3%B3rio_Figueiredo",
+     "verificado": true
+    },
+    {
+     "titulo": "Serviço de Proteção aos Índios - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Servi%C3%A7o_de_Prote%C3%A7%C3%A3o_aos_%C3%8Dndios",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "funai-1967",
+   "data": "1967-12-05",
+   "periodo": "ditadura",
+   "trilha": "indigena",
+   "categoria": "reforma",
+   "titulo": "Criação da FUNAI",
+   "resumo": "Lei nº 5.371 extingue o SPI e cria a Fundação Nacional do Índio, vinculada ao Ministério do Interior (ligada depois ao Ministério da Justiça).",
+   "impacto_poderes": "Reorganização do órgão indigenista; sob a ditadura, coordenada com projetos de 'integração' e segurança nacional.",
+   "controversias": "Avaliações sobre desmonte do órgão ao longo do tempo.",
+   "fontes": [
+    {
+     "titulo": "Lei nº 5.371/1967 (cria a FUNAI) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/1950-1969/l5371.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Fundação Nacional dos Povos Indígenas - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Funda%C3%A7%C3%A3o_Nacional_dos_Povos_Ind%C3%ADgenas",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ai5-1968",
+   "data": "1968-12-13",
+   "periodo": "ditadura",
+   "trilha": "estado",
+   "categoria": "ato-institucional",
+   "titulo": "Ato Institucional nº 5",
+   "resumo": "Edição por Costa e Silva: permite ao Presidente decretar recesso do Congresso, intervir em estados e municípios, cassar mandatos, suspender direitos políticos por 10 anos e suspender habeas corpus em crimes contra a segurança nacional; Congresso é posto em recesso no mesmo dia.",
+   "impacto_poderes": "Extingue freios sobre o Executivo; amplia censura e repressão. Em 16/01/1969 aposentam-se compulsoriamente 3 ministros do STF (Victor Nunes Leal, Evandro Lins e Silva e Hermes Lima).",
+   "controversias": "Cálculo de 'endurecimento' versus 'golpe dentro do golpe'. Número de atingidos varia.",
+   "fontes": [
+    {
+     "titulo": "Ato Institucional nº 5 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-05-68.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Ato Institucional nº 5 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Ato_Institucional_n.%C2%BA_5",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ai6-1969",
+   "data": "1969-02-01",
+   "periodo": "ditadura",
+   "trilha": "estado",
+   "categoria": "ato-institucional",
+   "titulo": "AI-6 reduz o STF a 11 ministros",
+   "resumo": "O AI-6 (01/02/1969) reduz o número de ministros do STF de 16 para 11 e retira da competência do STF o julgamento de crimes contra a segurança nacional.",
+   "impacto_poderes": "Reorganiza o Judiciário em função da intervenção.",
+   "controversias": "—",
+   "fontes": [
+    {
+     "titulo": "Ato Institucional nº 6 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-06-69.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "minimanual-1969",
+   "data": "1969-06-01",
+   "periodo": "ditadura",
+   "trilha": "estado",
+   "categoria": "resistencia",
+   "titulo": "Minimanual do Guerrilheiro Urbano (Marighella)",
+   "resumo": "Carlos Marighella, ex-deputado do PCB e fundador da ALN (1967-68), escreve o 'Minimanual do Guerrilheiro Urbano' (circulou em 1969); defende ações de assalto e sequestro e urbanas contra o regime.",
+   "impacto_poderes": "Dá base teórica à luta armada urbana, usada pelo regime como justificativa para endurecer a repressão.",
+   "controversias": "A data do escrito é aproximada (junho de 1969). Legitimidade da luta armada é debatida: parte da esquerda a vê como resistência a um regime sem canais legais, outros críticos apontam que ela ocorreu majoritariamente após o AI-5 e que servia de pretexto; a CNV e organizações de direitos humanos distinguem a violência de Estado, que classificou como sistemática.",
+   "fontes": [
+    {
+     "titulo": "Carlos Marighella - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Carlos_Marighella",
+     "verificado": true
+    },
+    {
+     "titulo": "Aliança Libertadora Nacional - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Alian%C3%A7a_Libertadora_Nacional",
+     "verificado": true
+    },
+    {
+     "titulo": "Minimanual do Guerrilheiro Urbano - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Minimanual_do_Guerrilheiro_Urbano",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "elbrick-1969",
+   "data": "1969-09-04",
+   "periodo": "ditadura",
+   "trilha": "estado",
+   "categoria": "resistencia",
+   "titulo": "Sequestro do embaixador dos EUA Charles Elbrick",
+   "resumo": "ALN e MR-8 sequestram o embaixador e trocam por 15 presos políticos, que são banidos; o regime responde com AI-13 (banimento) e AI-14 (pena de morte, prisão perpétua).",
+   "impacto_poderes": "Reforça aparato repressivo e legislação de exceção.",
+   "controversias": "Número de presos libertados e a repercussão do 'banimento' são citados com variações.",
+   "fontes": [
+    {
+     "titulo": "Aliança Libertadora Nacional - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Alian%C3%A7a_Libertadora_Nacional",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ai13-14-1969",
+   "data": "1969-09-05",
+   "periodo": "ditadura",
+   "trilha": "estado",
+   "categoria": "ato-institucional",
+   "titulo": "AI-13 e AI-14 (banimento e pena de morte)",
+   "resumo": "Edição em setembro de 1969 de atos que permitem banir cidadãos e instituir pena de morte (para crimes de guerra revolucionária); a pena de morte nunca foi aplicada formalmente.",
+   "impacto_poderes": "Executivo, via Junta Militar, amplia a legislação de exceção.",
+   "controversias": "Datas do AI-13 (05/09/1969) e do AI-14 (05/09/1969) são aproximadas.",
+   "fontes": [
+    {
+     "titulo": "Ato Institucional nº 5 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Ato_Institucional_n.%C2%BA_5",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ec1-1969",
+   "data": "1969-10-17",
+   "periodo": "ditadura",
+   "trilha": "estado",
+   "categoria": "constituicao",
+   "titulo": "Emenda Constitucional nº 1 (Junta Militar)",
+   "resumo": "Emenda outorgada pela Junta Militar reescreve a Constituição de 1967 (reeditada); Médici é empossado em 30/10/1969.",
+   "impacto_poderes": "Consolida o poder do Executivo e institucionaliza medidas do AI-5.",
+   "controversias": "Juristas divergem se é emenda ou nova constituição.",
+   "fontes": [
+    {
+     "titulo": "Emenda Constitucional nº 1/1969 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc01-69.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "marighella-morte",
+   "data": "1969-11-04",
+   "periodo": "ditadura",
+   "trilha": "estado",
+   "categoria": "repressao",
+   "titulo": "Morte de Carlos Marighella",
+   "resumo": "Marighella é morto em 04/11/1969 na alameda Casa Branca (São Paulo), numa emboscada da polícia política comandada pelo delegado Sérgio Fleury (DOPS).",
+   "impacto_poderes": "Marco da repressão a luta armada urbana. Reconhecido pela CNV entre os mortos pela ditadura.",
+   "controversias": "Versão oficial (troca de tiros) contestada por testemunhas, que apontam emboscada; frades dominicanos presos serviram de isca (relatos). Marighella foi anistiado politicamente em 2012 (Comissão de Anistia).",
+   "fontes": [
+    {
+     "titulo": "Carlos Marighella - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Carlos_Marighella",
+     "verificado": true
+    },
+    {
+     "titulo": "Comissão Nacional da Verdade - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Comiss%C3%A3o_Nacional_da_Verdade",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "transam-1970",
+   "data": "1970-06-09",
+   "periodo": "ditadura",
+   "trilha": "indigena",
+   "categoria": "crise",
+   "titulo": "Transamazônica e obras de integração",
+   "resumo": "Plano de Integração Nacional (1970) e Transamazônica (inaugurada em 1972) cortam territórios; contatos forçados, epidemias e remoções afetam povos como Parakanã e Waimiri-Atroari (BR-174).",
+   "impacto_poderes": "Executivo militar decide obras sem consulta; sem controle do Legislativo.",
+   "controversias": "Governo defendia desenvolvimento e segurança nacional; críticos, e depois a CNV, apontam violações.",
+   "fontes": [
+    {
+     "titulo": "Transamazônica - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Transamaz%C3%B4nica",
+     "verificado": true
+    },
+    {
+     "titulo": "Waimiri-Atroari - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Waimiri-Atroari",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "oban-doi-1970",
+   "data": "1970-07-01",
+   "periodo": "ditadura",
+   "trilha": "estado",
+   "categoria": "repressao",
+   "titulo": "Aparato DOI-CODI",
+   "resumo": "Após a OBAN (1969), são criados em 1970 os Destacamentos de Operações de Informações - Centros de Operações de Defesa Interna (DOI-CODI), subordinados ao Exército, em integração com polícias.",
+   "impacto_poderes": "Estrutura militar de investigação e interrogatório fora do controle do Judiciário e Legislativo.",
+   "controversias": "Data exata da criação do primeiro DOI-CODI (SP) varia por fonte (1969-70).",
+   "fontes": [
+    {
+     "titulo": "DOI-CODI - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/DOI-CODI",
+     "verificado": true
+    },
+    {
+     "titulo": "Operação Bandeirante - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Bandeirante",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "araguaia-1972",
+   "data": "1972-04-12",
+   "periodo": "ditadura",
+   "trilha": "estado",
+   "categoria": "repressao",
+   "titulo": "Guerrilha do Araguaia",
+   "resumo": "Militantes do PCdoB atuam no sul do Pará (1966-74); o Exército realiza três campanhas (1972-74) e mata combatentes e camponeses; muitos desaparecem.",
+   "impacto_poderes": "Repressão sem processo judicial; a Corte IDH condenou o Brasil no caso Gomes Lund (2010).",
+   "controversias": "Data de início da campanha militar (abril de 1972) é aproximada; total de mortos e desaparecidos é estimado (dezenas).",
+   "fontes": [
+    {
+     "titulo": "Guerrilha do Araguaia - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Guerrilha_do_Araguaia",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "estatuto-1973",
+   "data": "1973-12-19",
+   "periodo": "ditadura",
+   "trilha": "indigena",
+   "categoria": "reforma",
+   "titulo": "Estatuto do Índio (Lei 6.001)",
+   "resumo": "Regula a situação jurídica dos indígenas visando a 'integrá-los à comunhão nacional'; prevê demarcação, tutela pela União e proíbe alienação.",
+   "impacto_poderes": "Define o regime de tutela e o papel do Executivo na demarcação (prazo de 5 anos, descumprido).",
+   "controversias": "Crítica à tutela e à integração; mantido parcialmente após 1988.",
+   "fontes": [
+    {
+     "titulo": "Lei nº 6.001/1973 (Estatuto do Índio) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l6001.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Estatuto do Índio - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Estatuto_do_%C3%8Dndio",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "wai-1974",
+   "data": "1974-12-31",
+   "periodo": "ditadura",
+   "trilha": "indigena",
+   "categoria": "repressao",
+   "titulo": "Waimiri-Atroari e BR-174",
+   "resumo": "Construção da BR-174 e atuação militar em território Waimiri-Atroari; população reduz-se drasticamente na década de 1970-80 (CNV).",
+   "impacto_poderes": "Obras públicas com resistência armada e força militar; exemplo de violação sem responsabilização.",
+   "controversias": "Números de mortos variam (a CNV registra estimativas); versões do regime atribuíam mortes a conflitos.",
+   "fontes": [
+    {
+     "titulo": "Waimiri-Atroari - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Waimiri-Atroari",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "pacote-1977",
+   "data": "1977-04-01",
+   "periodo": "abertura",
+   "trilha": "estado",
+   "categoria": "ato-institucional",
+   "titulo": "Pacote de Abril",
+   "resumo": "Geisel fecha o Congresso (1º/04/1977) e decreta reformas: mandato presidencial de 6 anos, senadores biônicos, mudança de quórum de emendas, Lei Falcão.",
+   "impacto_poderes": "Executivo altera regras do jogo sem o Legislativo; 'distensão' coexistindo com arbítrio.",
+   "controversias": "—",
+   "fontes": [
+    {
+     "titulo": "Pacote de Abril - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Pacote_de_Abril",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "mnu-1978",
+   "data": "1978-07-07",
+   "periodo": "abertura",
+   "trilha": "quilombola",
+   "categoria": "resistencia",
+   "titulo": "Fundação do Movimento Negro Unificado (MNU)",
+   "resumo": "Ato público no Viaduto do Chá (São Paulo) reúne organizações negras contra a discriminação racial e a violência policial, após caso Robson Silveira da Luz e discriminação no Clube Tietê.",
+   "impacto_poderes": "Reorganiza o movimento negro como ator político na transição.",
+   "controversias": "—",
+   "fontes": [
+    {
+     "titulo": "Movimento Negro Unificado - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Movimento_Negro_Unificado",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ec11-1978",
+   "data": "1978-10-13",
+   "periodo": "abertura",
+   "trilha": "estado",
+   "categoria": "abertura",
+   "titulo": "EC 11/1978 revoga o AI-5",
+   "resumo": "Emenda Constitucional 11 revoga os atos institucionais e complementares (vigência a partir de 01/01/1979), mas mantém salvaguardas de emergência.",
+   "impacto_poderes": "Restitui o habeas corpus e reduz poderes discricionários.",
+   "controversias": "Críticos apontam que as 'salvaguardas' preservaram instrumentos de exceção.",
+   "fontes": [
+    {
+     "titulo": "Emenda Constitucional nº 11/1978 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc11-78.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "anistia-1979",
+   "data": "1979-08-28",
+   "periodo": "abertura",
+   "trilha": "estado",
+   "categoria": "abertura",
+   "titulo": "Lei da Anistia (Lei 6.683)",
+   "resumo": "Concede anistia a quem cometeu crimes políticos e conexos entre 02/09/1961 e 15/08/1979; excluídos condenados por terrorismo, assalto, sequestro e atentado pessoal.",
+   "impacto_poderes": "Permite retorno de exilados e libertações; foi interpretada como também cobrindo agentes do Estado.",
+   "controversias": "Controvérsia central: 'anistia ampla, geral e irrestrita' como pacto de transição (STF, 2010) versus tese de que crimes de tortura, desaparecimento forçado e execução são imprescritíveis (Corte IDH, MPF, OAB).",
+   "fontes": [
+    {
+     "titulo": "Lei nº 6.683/1979 (Anistia) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l6683.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "dante-1984",
+   "data": "1984-04-25",
+   "periodo": "abertura",
+   "trilha": "estado",
+   "categoria": "abertura",
+   "titulo": "Rejeição da Emenda Dante de Oliveira",
+   "resumo": "Campanha das Diretas Já (1983-84) mobiliza milhões; em 25/04/1984 a emenda das eleições diretas obteve maioria simples (298 votos) mas não os 320 necessários.",
+   "impacto_poderes": "O Congresso rejeita a mudança; transição permanece via Colégio Eleitoral.",
+   "controversias": "Debate sobre se o resultado representava vontade popular ou arranjo conservador.",
+   "fontes": [
+    {
+     "titulo": "Diretas Já - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Diretas_J%C3%A1",
+     "verificado": true
+    },
+    {
+     "titulo": "Emenda Dante de Oliveira - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Emenda_Constitucional_Dante_de_Oliveira",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "colegio-1985",
+   "data": "1985-01-15",
+   "periodo": "abertura",
+   "trilha": "estado",
+   "categoria": "abertura",
+   "titulo": "Colégio Eleitoral elege Tancredo Neves",
+   "resumo": "Tancredo Neves (oposição, PMDB) vence Paulo Maluf (PDS) no Colégio Eleitoral; adoece na véspera da posse e morre em 21/04/1985; José Sarney assume a Presidência.",
+   "impacto_poderes": "Primeiro presidente civil desde 1964; legitimidade da sucessão baseada em ADCT interpretado pelo Congresso.",
+   "controversias": "Questão sobre a posse de Sarney sem eleição direta.",
+   "fontes": [
+    {
+     "titulo": "Eleição presidencial no Brasil em 1985 (Colégio Eleitoral) - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_1985",
+     "verificado": true
+    },
+    {
+     "titulo": "Tancredo Neves - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Tancredo_Neves",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "brasilnm-1985-b",
+   "data": "1985-03-15",
+   "periodo": "abertura",
+   "trilha": "estado",
+   "categoria": "abertura",
+   "titulo": "Posse de José Sarney",
+   "resumo": "José Sarney, vice de Tancredo, é empossado em 15/03/1985 na Presidência interina e, após a morte de Tancredo em 21/04/1985, assume em definitivo; fim formal do ciclo militar.",
+   "impacto_poderes": "Primeiro governo civil desde 1964.",
+   "controversias": "Debate sobre o direito de Sarney (vice, ex-presidente do PDS) à sucessão.",
+   "fontes": [
+    {
+     "titulo": "Tancredo Neves - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Tancredo_Neves",
+     "verificado": true
+    },
+    {
+     "titulo": "Eleição presidencial no Brasil em 1985 (Colégio Eleitoral) - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_1985",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "bnm-1985",
+   "data": "1985-07-15",
+   "periodo": "abertura",
+   "trilha": "estado",
+   "categoria": "resistencia",
+   "titulo": "'Brasil: Nunca Mais'",
+   "resumo": "Projeto clandestino da Arquidiocese de São Paulo (d. Paulo Evaristo Arns e pastor Jaime Wright) copia 707 processos do Superior Tribunal Militar e publica, em 1985, a síntese 'Brasil: Nunca Mais', com relatos de tortura.",
+   "impacto_poderes": "Base documental para memória e responsabilização; fonte de dados para a CNV.",
+   "controversias": "Mês e dia de lançamento aproximados; contagem de vítimas e torturadores varia nas edições.",
+   "fontes": [
+    {
+     "titulo": "Brasil: Nunca Mais - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Brasil:_Nunca_Mais",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ec25-26-1985",
+   "data": "1985-11-27",
+   "periodo": "abertura",
+   "trilha": "estado",
+   "categoria": "abertura",
+   "titulo": "EC 26/1985 convoca a Assembleia Nacional Constituinte",
+   "resumo": "EC 25 (maio de 1985) restabelece eleições diretas e o voto do analfabeto; EC 26 (27/11/1985) convoca o Congresso eleito em 1986 com poderes constituintes.",
+   "impacto_poderes": "Constituinte formada pelo Congresso (não exclusiva), o que permitiu a influência de parlamentares em exercício.",
+   "controversias": "Críticos defendem constituinte exclusiva; resultado teve forte presença do 'Centrão'.",
+   "fontes": [
+    {
+     "titulo": "Emenda Constitucional nº 25/1985 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc25-85.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Emenda Constitucional nº 26/1985 (convoca a Constituinte) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc26-85.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "constituinte-1987",
+   "data": "1987-02-01",
+   "periodo": "abertura",
+   "trilha": "estado",
+   "categoria": "constituicao",
+   "titulo": "Instalação da Assembleia Nacional Constituinte",
+   "resumo": "Instalada em 01/02/1987, sob a presidência de Ulysses Guimarães; 559 constituintes (487 deputados e 72 senadores) e emendas populares.",
+   "impacto_poderes": "Debate sobre sistema de governo (presidencialismo mantido no plebiscito de 1993).",
+   "controversias": "—",
+   "fontes": [
+    {
+     "titulo": "Assembleia Nacional Constituinte de 1987 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Assembleia_Nacional_Constituinte_de_1987",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "krenak-1987",
+   "data": "1987-09-04",
+   "periodo": "abertura",
+   "trilha": "indigena",
+   "categoria": "resistencia",
+   "titulo": "Aílton Krenak na tribuna da Constituinte",
+   "resumo": "Aílton Krenak pinta o rosto de jenipapo ao discursar em defesa de emenda popular dos povos indígenas na Constituinte.",
+   "impacto_poderes": "Povos indígenas influenciam o texto constitucional (arts. 231-232).",
+   "controversias": "—",
+   "fontes": [
+    {
+     "titulo": "Ailton Krenak - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Ailton_Krenak",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "cf88-1988",
+   "data": "1988-10-05",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "constituicao",
+   "titulo": "Constituição de 1988",
+   "resumo": "Art. 2º: Legislativo, Executivo e Judiciário independentes e harmônicos; cláusulas pétreas (art. 60, §4º); Ministério Público independente (arts. 127-130); controle externo pelo TCU; CPIs (art. 58, §3º); medidas provisórias (art. 62). Reconhece direitos originários indígenas (arts. 231-232), crime de racismo inafiançável (art. 5º, XLII) e o art. 68 do ADCT para quilombolas.",
+   "impacto_poderes": "Redistribui poderes, expandindo Judiciário e Ministério Público; Executivo mantém instrumentos de agenda (MP).",
+   "controversias": "Debate sobre 'Constituição analítica', hiperconstitucionalização e transferência de decisões ao STF.",
+   "fontes": [
+    {
+     "titulo": "Constituição Federal de 1988 (compilado) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Constituição brasileira de 1988 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Constitui%C3%A7%C3%A3o_brasileira_de_1988",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "indigena-231-1988",
+   "data": "1988-10-05",
+   "periodo": "nova-republica",
+   "trilha": "indigena",
+   "categoria": "constituicao",
+   "titulo": "Arts. 231-232: direitos originários e demarcação",
+   "resumo": "Reconhece 'direitos originários sobre as terras que tradicionalmente ocupam', cabendo à União demarcá-las (prazo de 5 anos no ADCT art. 67); indígenas, comunidades e organizações têm legitimidade processual.",
+   "impacto_poderes": "Demarcação é ato do Executivo (União); Judiciário controla; Legislativo autoriza exploração de recursos (art. 231, §3º).",
+   "controversias": "Interpretações: marco temporal (5/10/1988) versus indigenato (direito originário, independente de ocupação em 1988).",
+   "fontes": [
+    {
+     "titulo": "Constituição Federal de 1988 (compilado) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "adct68-1988",
+   "data": "1988-10-05",
+   "periodo": "nova-republica",
+   "trilha": "quilombola",
+   "categoria": "constituicao",
+   "titulo": "ADCT art. 68: terras de remanescentes de quilombos",
+   "resumo": "Reconhece a propriedade definitiva às comunidades remanescentes de quilombos que estejam ocupando suas terras, cabendo ao Estado emitir os títulos.",
+   "impacto_poderes": "Obriga o Estado a titular; execução lenta.",
+   "controversias": "Debates sobre critérios de identificação e autodefinição.",
+   "fontes": [
+    {
+     "titulo": "Constituição Federal de 1988 (compilado) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Quilombo - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Quilombo",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "l7716-1989",
+   "data": "1989-01-05",
+   "periodo": "nova-republica",
+   "trilha": "quilombola",
+   "categoria": "reforma",
+   "titulo": "Lei 7.716 (Lei Caó)",
+   "resumo": "Define os crimes resultantes de preconceito de raça ou de cor, regulamentando o art. 5º, XLII.",
+   "impacto_poderes": "Judiciário e Legislativo regulam racismo como crime.",
+   "controversias": "—",
+   "fontes": [
+    {
+     "titulo": "Lei nº 7.716/1989 (crimes de preconceito) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l7716.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "collor-1989",
+   "data": "1989-12-17",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "economia",
+   "titulo": "Primeira eleição direta pós-ditadura: Collor eleito",
+   "resumo": "Fernando Collor vence Lula no segundo turno de 17/12/1989, primeira eleição presidencial direta desde 1960.",
+   "impacto_poderes": "Início do ciclo presidencial sob a CF/88; uso intenso de medidas provisórias no Plano Collor.",
+   "controversias": "—",
+   "fontes": [
+    {
+     "titulo": "Eleição presidencial no Brasil em 1989 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_1989",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "collor-impeach-1992",
+   "data": "1992-09-29",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "crise",
+   "titulo": "Impeachment de Collor",
+   "resumo": "Câmara autoriza o processo em 29/09/1992 (441 votos); o Senado inicia o julgamento em 29/12/1992 e Collor renuncia no mesmo dia; o Senado condena-o à inabilitação por 8 anos.",
+   "impacto_poderes": "Primeiro impeachment sob a Constituição de 1988; STF fixa rito.",
+   "controversias": "Discussão sobre o efeito da renúncia (o Senado prosseguiu o julgamento).",
+   "fontes": [
+    {
+     "titulo": "Impeachment de Collor - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Impeachment_de_Collor",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "real-1994",
+   "data": "1994-07-01",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "economia",
+   "titulo": "Plano Real",
+   "resumo": "Estabilização monetária com URV (março de 1994) e nova moeda em 01/07/1994, sob o ministro Fernando Henrique Cardoso.",
+   "impacto_poderes": "Fortalece o Executivo com capital político; precondição para reformas fiscais.",
+   "controversias": "Debate sobre efeitos do câmbio e do endividamento.",
+   "fontes": [
+    {
+     "titulo": "Plano Real - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Plano_Real",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "d1775-1996",
+   "data": "1996-01-08",
+   "periodo": "nova-republica",
+   "trilha": "indigena",
+   "categoria": "reforma",
+   "titulo": "Decreto 1.775/1996 e contraditório na demarcação",
+   "resumo": "Regulamenta o procedimento administrativo de demarcação de terras indígenas, permitindo contraditório a terceiros interessados.",
+   "impacto_poderes": "Define o rito do Executivo; permite impugnações.",
+   "controversias": "Defesa de maior segurança jurídica versus crítica de que aumentou a judicialização.",
+   "fontes": [
+    {
+     "titulo": "Decreto nº 1.775/1996 (demarcação) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/decreto/d1775.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ec16-1997",
+   "data": "1997-06-04",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "reforma",
+   "titulo": "EC 16/1997: reeleição",
+   "resumo": "Permite reeleição para presidente, governadores e prefeitos; FHC reeleito em 1998.",
+   "impacto_poderes": "Reforça o poder do Executivo e a continuidade das coalizões.",
+   "controversias": "Acusações de compra de votos (denúncia de 1997); debate sobre incentivos à reeleição.",
+   "fontes": [
+    {
+     "titulo": "Emenda Constitucional nº 16/1997 (reeleição) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc16.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "leis-1999",
+   "data": "1999-11-10",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "judiciario",
+   "titulo": "Leis 9.868/1999 e 9.882/1999 (ADI, ADC e ADPF)",
+   "resumo": "Regulamentam o processo de ADI, ADC (Lei 9.868, 10/11/1999) e ADPF (Lei 9.882, 03/12/1999), ampliando o controle concentrado.",
+   "impacto_poderes": "Amplia o acesso de partidos e entidades ao STF, reforçando a judicialização.",
+   "controversias": "Críticas ao uso estratégico por partidos derrotados no Congresso.",
+   "fontes": [
+    {
+     "titulo": "Lei nº 9.868/1999 (ADI e ADC) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9868.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei nº 9.882/1999 (ADPF) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9882.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "lrf-2000",
+   "data": "2000-05-04",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "economia",
+   "titulo": "Lei de Responsabilidade Fiscal",
+   "resumo": "Lei Complementar 101/2000 estabelece limites de despesa com pessoal, metas fiscais e restrições ao endividamento para União, estados e municípios.",
+   "impacto_poderes": "Limita decisões orçamentárias de todos os poderes; sanções administrativas aos gestores.",
+   "controversias": "Debates sobre rigidez e alterações (LC 200/2023).",
+   "fontes": [
+    {
+     "titulo": "Lei Complementar nº 101/2000 (LRF) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ec32-2001",
+   "data": "2001-09-11",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "reforma",
+   "titulo": "EC 32/2001: limites às medidas provisórias",
+   "resumo": "Proíbe reedição de MPs, impõe prazo de 60+60 dias e trancamento de pauta (45 dias), e veda MPs sobre matérias específicas.",
+   "impacto_poderes": "Reduz o abuso, mas MPs continuam o principal instrumento de agenda do Executivo.",
+   "controversias": "Debate sobre se a emenda reforçou o Executivo ao legitimar a MP.",
+   "fontes": [
+    {
+     "titulo": "Emenda Constitucional nº 32/2001 (medidas provisórias) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc32.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Medida provisória - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Medida_provis%C3%B3ria",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "d4887-2003",
+   "data": "2003-11-20",
+   "periodo": "nova-republica",
+   "trilha": "quilombola",
+   "categoria": "reforma",
+   "titulo": "Decreto 4.887/2003 regulamenta a titulação quilombola",
+   "resumo": "Define o procedimento de identificação, reconhecimento, delimitação, demarcação e titulação, com autoidentificação; atribui a competência ao INCRA.",
+   "impacto_poderes": "Executivo regulamenta o ADCT art. 68; contestado na ADI 3239 (julgada improcedente em 08/02/2018, data de memória).",
+   "controversias": "Debate sobre competência regulamentar e autoidentificação.",
+   "fontes": [
+    {
+     "titulo": "Decreto nº 4.887/2003 (quilombolas) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/decreto/2003/d4887.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ec45-2004",
+   "data": "2004-12-30",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "judiciario",
+   "titulo": "EC 45/2004: Reforma do Judiciário",
+   "resumo": "Cria o CNJ e o CNMP, a súmula vinculante e a repercussão geral.",
+   "impacto_poderes": "Concentra poder do STF e cria controle administrativo do Judiciário.",
+   "controversias": "Debate sobre autonomia dos tribunais e poder normativo do CNJ.",
+   "fontes": [
+    {
+     "titulo": "Emenda Constitucional nº 45/2004 (Reforma do Judiciário) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc45.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "rss-2009",
+   "data": "2009-03-19",
+   "periodo": "nova-republica",
+   "trilha": "indigena",
+   "categoria": "judiciario",
+   "titulo": "STF julga a Raposa Serra do Sol (Pet 3388)",
+   "resumo": "STF valida a demarcação contínua da TI Raposa Serra do Sol (RR) e estabelece 19 condicionantes, incluindo a interpretação do marco da data da promulgação da CF.",
+   "impacto_poderes": "Judiciário controla ato do Executivo e fixa parâmetros.",
+   "controversias": "Os condicionantes foram usados depois por defensores do marco temporal; o STF afirmou em 2023 que o precedente não vinculava outros casos.",
+   "fontes": [
+    {
+     "titulo": "Terra Indígena Raposa Serra do Sol - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Terra_Ind%C3%ADgena_Raposa_Serra_do_Sol",
+     "verificado": true
+    },
+    {
+     "titulo": "Marco temporal das terras indígenas - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Marco_temporal_das_terras_ind%C3%ADgenas",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "adpf153-2010",
+   "data": "2010-04-29",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "judiciario",
+   "titulo": "STF julga ADPF 153",
+   "resumo": "Por 7 votos a 2 (relator Eros Grau), o STF julga improcedente a ação da OAB e mantém a interpretação ampla da Lei de Anistia; divergiram Ricardo Lewandowski e Ayres Britto.",
+   "impacto_poderes": "Judiciário valida a anistia de 1979; tema retorna com ADPF 320.",
+   "controversias": "Divergência sobre a recepção da lei pela CF/88 e sobre o controle de convencionalidade (tratados).",
+   "fontes": [
+    {
+     "titulo": "ADPF 153 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/ADPF_153",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "gomes-lund-2010",
+   "data": "2010-11-24",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "judiciario",
+   "titulo": "Corte IDH condena o Brasil no caso Gomes Lund (Araguaia)",
+   "resumo": "Corte IDH decide que a Lei de Anistia não pode impedir investigação e punição de graves violações, e determina medidas de reparação e investigação.",
+   "impacto_poderes": "Conflito entre decisão do STF e decisão de tribunal internacional, com debate sobre controle de convencionalidade.",
+   "controversias": "A data da sentença (24/11/2010) é citada de memória; conferir no texto da sentença. Posições divergentes sobre a vinculação do Brasil.",
+   "fontes": [
+    {
+     "titulo": "Corte Interamericana de Direitos Humanos - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Corte_Interamericana_de_Direitos_Humanos",
+     "verificado": true
+    },
+    {
+     "titulo": "ADPF 153 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/ADPF_153",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "cnv-lei-2011",
+   "data": "2011-11-18",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "abertura",
+   "titulo": "Lei 12.528/2011 cria a CNV",
+   "resumo": "Cria a Comissão Nacional da Verdade para examinar graves violações de direitos humanos entre 18/09/1946 e 05/10/1988; instalada em 16/05/2012.",
+   "impacto_poderes": "Comissão sem poder punitivo, para esclarecimento histórico.",
+   "controversias": "Críticas à ausência de poder de investigação coercitiva; crítica de setores militares quanto ao recorte.",
+   "fontes": [
+    {
+     "titulo": "Comissão Nacional da Verdade - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Comiss%C3%A3o_Nacional_da_Verdade",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "mensalao-2012",
+   "data": "2012-08-02",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "judiciario",
+   "titulo": "Julgamento da Ação Penal 470 (Mensalão)",
+   "resumo": "O STF recebeu a denúncia em 2007 contra 40 réus; julgamento iniciado em 02/08/2012; condenou dezenas, incluindo dirigentes do PT, por corrupção e lavagem; embargos infringentes admitidos em 18/09/2013 por 6 votos a 5.",
+   "impacto_poderes": "Primeiro grande julgamento penal de líderes políticos no STF, com transmissão pela TV Justiça.",
+   "controversias": "Críticas à aplicação da teoria do domínio do fato e ao julgamento em instância única; defesas contestam provas; apoiadores citam o combate à corrupção.",
+   "fontes": [
+    {
+     "titulo": "Mensalão - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Mensal%C3%A3o",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "l12711-2012",
+   "data": "2012-08-29",
+   "periodo": "nova-republica",
+   "trilha": "quilombola",
+   "categoria": "reforma",
+   "titulo": "Lei de Cotas (Lei 12.711)",
+   "resumo": "Reserva 50% das vagas em instituições federais de ensino a estudantes de escolas públicas, com subcotas raciais (pretos, pardos e indígenas).",
+   "impacto_poderes": "Legislativo e Executivo adotam política afirmativa após decisão do STF (ADPF 186, 2012).",
+   "controversias": "Debate sobre critérios sociais x raciais; revisão decenal prevista.",
+   "fontes": [
+    {
+     "titulo": "Lei nº 12.711/2012 (cotas) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/lei/l12711.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Cotas raciais no Brasil - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Cotas_raciais_no_Brasil",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "lj-2014",
+   "data": "2014-03-17",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "judiciario",
+   "titulo": "Início da Operação Lava Jato",
+   "resumo": "Força-tarefa da Polícia Federal e do Ministério Público Federal em Curitiba investiga corrupção na Petrobras; acordos de colaboração premiada e prisões preventivas.",
+   "impacto_poderes": "Protagonismo do Ministério Público e do Judiciário de primeira instância na política.",
+   "controversias": "Defensores: combate à corrupção sistêmica. Críticos: abusos (condução coercitiva, prisões preventivas, vazamentos); revelações de 2019 sobre conversas entre juiz e procuradores.",
+   "fontes": [
+    {
+     "titulo": "Operação Lava Jato - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Lava_Jato",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "cnv-relatorio-2014",
+   "data": "2014-12-10",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "abertura",
+   "titulo": "Relatório final da Comissão Nacional da Verdade",
+   "resumo": "Entregue em 10/12/2014: 434 mortos e desaparecidos políticos reconhecidos (191 mortos, 210 desaparecidos e 33 desaparecidos com corpo localizado), 377 agentes públicos responsabilizados e 29 recomendações; conclui que detenções ilegais, tortura, violência sexual, execuções e ocultação de cadáveres decorreram de política de Estado. Volume sobre indígenas estima ao menos 8.350 mortos.",
+   "impacto_poderes": "Reconhecimento oficial de responsabilidade do Estado; recomenda revisão da Lei de Anistia para crimes de lesa-humanidade.",
+   "controversias": "Forças Armadas e parte de militares discordaram do tom; contagem exclui vítimas de organizações armadas. A CNV analisou apenas 10 dos 305 povos indígenas existentes (estimativa de 8.350 é mínima).",
+   "fontes": [
+    {
+     "titulo": "Comissão Nacional da Verdade - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Comiss%C3%A3o_Nacional_da_Verdade",
+     "verificado": true
+    },
+    {
+     "titulo": "Comissão Nacional da Verdade - portal Memórias Reveladas (relatório final)",
+     "url": "http://cnv.memoriasreveladas.gov.br/",
+     "verificado": true
+    },
+    {
+     "titulo": "ISA: CNV reconhece violações contra povos indígenas (página fora do ar ao testar: HTTP 500)",
+     "url": "https://site-antigo.socioambiental.org/pt-br/print/4025",
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "ec86-2015",
+   "data": "2015-03-17",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "reforma",
+   "titulo": "EC 86/2015: emendas individuais impositivas",
+   "resumo": "Torna obrigatória a execução de emendas parlamentares individuais (1,2% da RCL, metade em saúde).",
+   "impacto_poderes": "Transfere poder alocativo ao Legislativo e reduz a discricionariedade do Executivo.",
+   "controversias": "Defensores: previsibilidade e federalismo; críticos: fragmentação do gasto e barganha política.",
+   "fontes": [
+    {
+     "titulo": "Emenda Constitucional nº 86/2015 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc86.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "dilma-2016",
+   "data": "2016-04-17",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "crise",
+   "titulo": "Impeachment de Dilma Rousseff",
+   "resumo": "Aceite por Eduardo Cunha (02/12/2015); Câmara autoriza em 17/04/2016 (367 a 137); o Senado afasta em 12/05/2016 e condena em 31/08/2016 (61 a 20) por crime de responsabilidade (decretos de crédito sem autorização e 'pedaladas fiscais'), mas, em votação separada (42 a 36), preserva os direitos políticos (eram necessários 54 votos).",
+   "impacto_poderes": "Congresso destitui o presidente sob a Lei 1.079; STF (ADPF 378) disciplina o rito.",
+   "controversias": "Divergência: (a) houve crime de responsabilidade; (b) golpe parlamentar sem crime comprovado. Perícia do Senado não apontou ato pessoal em pedaladas; o Senado julgou o conjunto. Debate persiste na academia e na política.",
+   "fontes": [
+    {
+     "titulo": "Impeachment de Dilma Rousseff - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Impeachment_de_Dilma_Rousseff",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei nº 1.079/1950 (crimes de responsabilidade) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l1079.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ec95-2016",
+   "data": "2016-12-15",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "economia",
+   "titulo": "EC 95/2016: teto de gastos",
+   "resumo": "Fixa por 20 anos limite às despesas primárias da União, corrigido pela inflação do ano anterior (IPCA), sem teto para juros.",
+   "impacto_poderes": "Congela a expansão do gasto, limitando os poderes de Executivo e Legislativo; substituída pelo arcabouço fiscal em 2023.",
+   "controversias": "Defensores: disciplina fiscal; críticos: restrição a saúde e educação, imposta por emenda de baixa deliberação.",
+   "fontes": [
+    {
+     "titulo": "Emenda Constitucional nº 95/2016 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc95.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Emenda Constitucional nº 95, de 2016 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Emenda_Constitucional_n%C2%BA_95,_de_2016",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "quilombola-adi3239-2018",
+   "data": "2018-02-08",
+   "periodo": "nova-republica",
+   "trilha": "quilombola",
+   "categoria": "judiciario",
+   "titulo": "STF valida o Decreto 4.887/2003 (ADI 3239)",
+   "resumo": "O STF julga improcedente a ADI do partido DEM contra o decreto sobre titulação de territórios quilombolas, com a tese do marco temporal de 1888 para ocupação (data e detalhes de memória).",
+   "impacto_poderes": "Judiciário valida regulamentação do Executivo para o ADCT art. 68.",
+   "controversias": "Posições divergentes sobre autoidentificação e prazos de titulação.",
+   "fontes": [
+    {
+     "titulo": "Decreto nº 4.887/2003 (quilombolas) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/decreto/2003/d4887.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "fake-2019",
+   "data": "2019-03-14",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "judiciario",
+   "titulo": "Inquérito das Fake News (INQ 4781)",
+   "resumo": "Aberto de ofício por Dias Toffoli para apurar ataques ao STF; relatoria de Alexandre de Moraes sem sorteio, com base no regimento interno.",
+   "impacto_poderes": "STF atua como vítima, investigador e julgador; tensões com Ministério Público e Congresso.",
+   "controversias": "Críticas ao rito de ofício e à ausência de titular da acusação; STF validou o inquérito (ADPF 572, 2020).",
+   "fontes": [
+    {
+     "titulo": "Inquérito das Fake News - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Inqu%C3%A9rito_das_Fake_News",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ec100-2019",
+   "data": "2019-06-26",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "reforma",
+   "titulo": "EC 100/2019: emendas de bancada impositivas",
+   "resumo": "Torna obrigatória a execução das emendas de bancada estadual (1% da RCL).",
+   "impacto_poderes": "Amplia o orçamento impositivo parlamentar.",
+   "controversias": "Mesmos argumentos da EC 86.",
+   "fontes": [
+    {
+     "titulo": "Emenda Constitucional nº 100/2019 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc100.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "jud-protagonismo-2019",
+   "data": "2019-11-07",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "judiciario",
+   "titulo": "STF encerra a execução de pena após condenação em 2ª instância",
+   "resumo": "Por 6 votos a 5, o STF decide nas ADCs 43, 44 e 54 que a prisão só ocorre após trânsito em julgado; Lula é solto em 08/11/2019.",
+   "impacto_poderes": "STF revê precedente de 2016; vetor de reequilíbrio entre Judiciário e Lava Jato.",
+   "controversias": "Defensores: presunção de inocência; críticos: impunidade (data e placar de memória).",
+   "fontes": [
+    {
+     "titulo": "Operação Lava Jato - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Lava_Jato",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "art142-2020",
+   "data": "2020-06-12",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "judiciario",
+   "titulo": "Liminar do ministro Fux sobre o art. 142 (ADI 6457)",
+   "resumo": "Em 12/06/2020, na ADI 6457, o ministro Luiz Fux afirma que as Forças Armadas não têm poder moderador e que o art. 142 não autoriza intervenção militar contra poderes constituídos (data e relator citados de memória).",
+   "impacto_poderes": "Interpretação do papel militar e dos limites do Executivo.",
+   "controversias": "Tese minoritária de 'moderação militar' por alguns juristas e políticos versus entendimento majoritário de que o art. 142 não confere poder moderador.",
+   "fontes": [
+    {
+     "titulo": "Constituição Federal de 1988 (compilado) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Artigo 142 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Artigo_142",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "indigena-adpf709-2020",
+   "data": "2020-07-08",
+   "periodo": "nova-republica",
+   "trilha": "indigena",
+   "categoria": "judiciario",
+   "titulo": "STF e a ADPF 709 (proteção de povos indígenas na pandemia)",
+   "resumo": "O ministro Luís Roberto Barroso determina, em 08/07/2020, medidas do governo federal para conter a covid-19 em territórios indígenas (barreiras sanitárias, plano de enfrentamento), na ação da APIB (data e relator de memória).",
+   "impacto_poderes": "Judiciário determina políticas ao Executivo (estado de coisas inconstitucional ou controle de políticas públicas).",
+   "controversias": "Debate sobre separação de poderes versus omissão do Executivo.",
+   "fontes": [
+    {
+     "titulo": "Marco temporal das terras indígenas - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Marco_temporal_das_terras_ind%C3%ADgenas",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "lc179-2021",
+   "data": "2021-02-24",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "economia",
+   "titulo": "LC 179/2021: autonomia do Banco Central",
+   "resumo": "Define mandato fixo de 4 anos para a diretoria do BC, não coincidente com o do Presidente, e objetivo de estabilidade de preços.",
+   "impacto_poderes": "Reduz poder de nomeação/demissão do Executivo.",
+   "controversias": "Debate sobre accountability e a ausência de objetivo de emprego.",
+   "fontes": [
+    {
+     "titulo": "Lei Complementar nº 179/2021 (autonomia do BC) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp179.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "lj-anulacoes-2021",
+   "data": "2021-03-08",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "judiciario",
+   "titulo": "STF anula condenações de Lula na Lava Jato e declara Moro suspeito",
+   "resumo": "Em 08/03/2021 o ministro Edson Fachin anula condenações de Lula por incompetência da 13ª Vara de Curitiba; em 23/03/2021 a Segunda Turma declara a suspeição de Sérgio Moro no caso do triplex; em 2023 o ministro Dias Toffoli anulou provas do acordo de leniência da Odebrecht (data e decisão de memória).",
+   "impacto_poderes": "Judiciário revisa a própria atuação; reforça o debate sobre competência, imparcialidade e uso de provas.",
+   "controversias": "Defensores da Lava Jato: anulações por formalidades que beneficiaram corruptos; críticos da operação: parcialidade e abusos reconhecidos. O STF não julgou o mérito dos fatos.",
+   "fontes": [
+    {
+     "titulo": "Gazeta do Povo: Fachin e a anulação das condenações de Lula (2021)",
+     "url": "https://www.gazetadopovo.com.br/republica/fachin-explica-anulacao-condenacoes-lula-lava-jato/",
+     "verificado": true
+    },
+    {
+     "titulo": "Operação Lava Jato - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Lava_Jato",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "rp9-2021",
+   "data": "2021-05-01",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "crise",
+   "titulo": "'Orçamento secreto' (emendas de relator-geral, RP9)",
+   "resumo": "Reportagens de 2021 revelam o uso de emendas do relator-geral (RP9) como instrumento de barganha, sem transparência sobre autoria dos parlamentares.",
+   "impacto_poderes": "Congresso amplia controle do orçamento sem identificar os beneficiários.",
+   "controversias": "Legislativo: instrumento de coordenação; críticos: falta de publicidade e isonomia.",
+   "fontes": [
+    {
+     "titulo": "Orçamento secreto - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Or%C3%A7amento_secreto",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "voto-impresso-2021",
+   "data": "2021-08-10",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "crise",
+   "titulo": "Câmara rejeita a PEC do voto impresso",
+   "resumo": "A PEC do voto impresso não obtém os 308 votos necessários (229 a 218); o presidente Bolsonaro e aliados haviam questionado a urna eletrônica.",
+   "impacto_poderes": "Congresso barra proposta do Executivo e freia a deslegitimação das urnas.",
+   "controversias": "—",
+   "fontes": [
+    {
+     "titulo": "Eleições gerais no Brasil em 2022 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%B5es_gerais_no_Brasil_em_2022",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "l14230-2021",
+   "data": "2021-10-25",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "reforma",
+   "titulo": "Lei 14.230/2021 altera a Lei de Improbidade",
+   "resumo": "Exige dolo específico e reduz prazos prescricionais.",
+   "impacto_poderes": "Mudança no combate à improbidade; o STF julgou irretroatividade (Tema 1199).",
+   "controversias": "Debate sobre enfraquecimento versus segurança jurídica.",
+   "fontes": [
+    {
+     "titulo": "Lei nº 14.230/2021 (improbidade) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14230.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "eleicao-2022",
+   "data": "2022-10-30",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "crise",
+   "titulo": "Eleições presidenciais de 2022",
+   "resumo": "Lula (PT) vence Jair Bolsonaro (PL) no segundo turno (30/10/2022) por cerca de 50,9% a 49,1%; Bolsonaro e aliados questionam a urna eletrônica; TSE e STF atuam contra desinformação.",
+   "impacto_poderes": "Judiciário eleitoral como árbitro e alvo de ataques; transição com acampamentos em quartéis.",
+   "controversias": "Narrativas de fraude foram rejeitadas pela Justiça Eleitoral; auditoria do Ministério da Defesa não apontou fraude.",
+   "fontes": [
+    {
+     "titulo": "Eleições gerais no Brasil em 2022 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%B5es_gerais_no_Brasil_em_2022",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "adpf854-2022",
+   "data": "2022-12-19",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "judiciario",
+   "titulo": "STF declara inconstitucional o 'orçamento secreto' (ADPF 854)",
+   "resumo": "O Plenário do STF (6 a 5) decide que as emendas do relator-geral (RP9) violam os princípios da publicidade, impessoalidade e isonomia, e determina a divulgação dos beneficiários (relatora: Rosa Weber).",
+   "impacto_poderes": "STF restringe a prática do Legislativo; Congresso responde com a EC 126/2022 e novas modalidades de emendas.",
+   "controversias": "Congresso alega interferência; críticos alegam persistência do esquema por outras emendas (comissão). A STF (Dino) voltou a suspender repasses em 2024-25.",
+   "fontes": [
+    {
+     "titulo": "Conjur: maioria do STF declara inconstitucional o orçamento secreto (19/12/2022)",
+     "url": "https://www.conjur.com.br/2022-dez-19/maioria-stf-declara-inconstitucionalidade-orcamento-secreto/",
+     "verificado": true
+    },
+    {
+     "titulo": "Emenda Constitucional nº 126/2022 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc126.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Orçamento secreto - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Or%C3%A7amento_secreto",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "oito-janeiro-2023",
+   "data": "2023-01-08",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "crise",
+   "titulo": "Ataques de 8 de janeiro de 2023",
+   "resumo": "Apoiadores de Bolsonaro invadem e depredam as sedes do Congresso, Planalto e STF; o Executivo decreta intervenção federal na segurança pública do DF; STF abre inquéritos e ações penais.",
+   "impacto_poderes": "Ataque simultâneo a três poderes; resposta do Judiciário com competência originária do STF.",
+   "controversias": "Divergências: crime de abolição violenta do Estado de Direito e golpe de Estado (acusação e STF) versus tese de manifestação desordenada e 'penas desproporcionais' (parte da direita); questões sobre foro e dosimetria.",
+   "fontes": [
+    {
+     "titulo": "Ataques de 8 de janeiro em Brasília - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Ataques_de_8_de_janeiro_em_Bras%C3%ADlia",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "yanomami-2023",
+   "data": "2023-01-20",
+   "periodo": "nova-republica",
+   "trilha": "indigena",
+   "categoria": "crise",
+   "titulo": "Emergência de saúde pública na Terra Yanomami",
+   "resumo": "Ministério da Saúde declara emergência (Portaria GM/MS 28/2023, de 20/01/2023); Decreto 11.405 (30/01/2023) adota medidas contra o garimpo ilegal; reportagens apontam desnutrição, malária e mortes de crianças.",
+   "impacto_poderes": "Executivo age após omissão anterior; STF (ADPF 709) já havia determinado medidas de proteção.",
+   "controversias": "Debates sobre a extensão do número de mortes e sobre responsabilidade do governo anterior versus omissão histórica.",
+   "fontes": [
+    {
+     "titulo": "Poder360: governo decreta emergência de saúde pública em terra Yanomami",
+     "url": "https://www.poder360.com.br/brasil/governo-decreta-emergencia-de-saude-publica-em-terra-yanomami/",
+     "verificado": true
+    },
+    {
+     "titulo": "Terra Indígena Yanomami - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Terra_Ind%C3%ADgena_Yanomami",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "tse-inelegivel-2023",
+   "data": "2023-06-30",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "judiciario",
+   "titulo": "TSE declara Bolsonaro inelegível por 8 anos",
+   "resumo": "O TSE condena Bolsonaro por abuso de poder político e uso indevido de meios de comunicação (reunião com embaixadores, 2022), declarando inelegibilidade até 2030 (placar 5 a 2, data de memória).",
+   "impacto_poderes": "Justiça Eleitoral limita candidatura de ex-presidente.",
+   "controversias": "Defensores: aplicação da lei; críticos: judicialização da política.",
+   "fontes": [
+    {
+     "titulo": "Eleições gerais no Brasil em 2022 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%B5es_gerais_no_Brasil_em_2022",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "censo-2022",
+   "data": "2023-07-27",
+   "periodo": "nova-republica",
+   "trilha": "quilombola",
+   "categoria": "reforma",
+   "titulo": "Censo 2022 conta pela primeira vez a população quilombola",
+   "resumo": "IBGE divulga em 2023-24 a primeira contagem de quilombolas (cerca de 1,33 milhão em 24 estados e no DF) e 1,69 milhão de indígenas.",
+   "impacto_poderes": "Dados informam políticas públicas e titulação.",
+   "controversias": "Valores variam entre divulgações (1.327.802 na primeira divulgação, 1.330.186 em publicação posterior).",
+   "fontes": [
+    {
+     "titulo": "IBGE: Censo 2022 - Quilombolas e Indígenas (publicação)",
+     "url": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/3107/cd_2022_quilombolas_e_indigenas.pdf",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "lc200-2023",
+   "data": "2023-08-30",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "economia",
+   "titulo": "LC 200/2023: novo arcabouço fiscal",
+   "resumo": "Substitui o teto de gastos: limita o crescimento real da despesa a 70% do aumento da receita, com banda de 0,6% a 2,5% e metas de resultado primário.",
+   "impacto_poderes": "Restringe Executivo e Legislativo; piso e teto de crescimento do gasto.",
+   "controversias": "Debate sobre credibilidade e sobre exceções (despesas fora do limite).",
+   "fontes": [
+    {
+     "titulo": "Lei Complementar nº 200/2023 (arcabouço fiscal) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Novo arcabouço fiscal - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Novo_arcabou%C3%A7o_fiscal",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "re1017365-2023",
+   "data": "2023-09-21",
+   "periodo": "nova-republica",
+   "trilha": "indigena",
+   "categoria": "judiciario",
+   "titulo": "STF rejeita o marco temporal (RE 1.017.365, Tema 1031)",
+   "resumo": "Por 9 votos a 2, o STF fixa que a proteção das terras indígenas independe da existência de marco temporal em 05/10/1988 (relator: Edson Fachin); divergiram Nunes Marques e André Mendonça; define indenização prévia por benfeitorias a ocupantes de boa-fé.",
+   "impacto_poderes": "Judiciário decide a interpretação do art. 231, limitando ato legislativo e administrativo.",
+   "controversias": "Ruralistas e parte do Congresso afirmam que o marco temporal dá segurança jurídica; APIB, MPF e STF afirmam o direito originário; governo federal posiciona-se contra o marco.",
+   "fontes": [
+    {
+     "titulo": "Marco temporal das terras indígenas - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Marco_temporal_das_terras_ind%C3%ADgenas",
+     "verificado": true
+    },
+    {
+     "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal",
+     "url": "https://www.mattosfilho.com.br/unico/stf-lei-marco-temporal/",
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "l14701-2023",
+   "data": "2023-10-20",
+   "periodo": "nova-republica",
+   "trilha": "indigena",
+   "categoria": "reforma",
+   "titulo": "Lei 14.701/2023 (marco temporal) e derrubada de vetos",
+   "resumo": "O Congresso aprova projeto que fixa o marco temporal e limita demarcações; Lula veta integralmente os pontos centrais; em 14/12/2023 o Congresso derruba os vetos e promulga a lei.",
+   "impacto_poderes": "Legislativo reage a decisão do STF com lei ordinária (backlash); ADC 87 e ADIs no STF contestam.",
+   "controversias": "Em 2024 o ministro Gilmar Mendes suspendeu ações sobre a lei e abriu conciliação (ADC 87). Defensores: lei democrática; críticos: afronta ao decidido na RE.",
+   "fontes": [
+    {
+     "titulo": "Lei nº 14.701/2023 (demarcação) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14701.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Marco temporal das terras indígenas - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Marco_temporal_das_terras_ind%C3%ADgenas",
+     "verificado": true
+    },
+    {
+     "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal",
+     "url": "https://www.mattosfilho.com.br/unico/stf-lei-marco-temporal/",
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "pec8-2023",
+   "data": "2023-11-22",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "reforma",
+   "titulo": "Senado aprova a PEC 8/2021 (decisões monocráticas)",
+   "resumo": "Senado aprova (52 a 18) a PEC que limita decisões individuais de ministros de tribunais superiores contra atos do Legislativo e Executivo; segue para a Câmara; CCJ da Câmara aprovou em 2024 (39 a 18); sem desfecho conhecido.",
+   "impacto_poderes": "Legislativo tenta limitar poder individual dos ministros do STF.",
+   "controversias": "Defensores: previsibilidade; críticos: ataque à independência judicial e à cautelaridade.",
+   "fontes": [
+    {
+     "titulo": "Poder360: Senado aprova PEC que limita decisões monocráticas do STF (22/11/2023)",
+     "url": "https://www.poder360.com.br/congresso/senado-aprova-pec-que-limita-poderes-do-stf",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ec132-2023",
+   "data": "2023-12-20",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "reforma",
+   "titulo": "EC 132/2023: reforma tributária",
+   "resumo": "Cria IBS e CBS (IVA dual), imposto seletivo e fundo de compensação; transição até 2033.",
+   "impacto_poderes": "Reorganiza a competência tributária entre União, estados e municípios (federalismo fiscal).",
+   "controversias": "Debate sobre regime favorecido e comitê gestor.",
+   "fontes": [
+    {
+     "titulo": "Emenda Constitucional nº 132/2023 (reforma tributária) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc132.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "adc87-2024",
+   "data": "2024-04-22",
+   "periodo": "nova-republica",
+   "trilha": "indigena",
+   "categoria": "judiciario",
+   "titulo": "STF suspende ações sobre a Lei 14.701 e abre conciliação (ADC 87)",
+   "resumo": "Em abril de 2024 (data aproximada), o ministro Gilmar Mendes suspende processos que questionam a lei e instala comissão de conciliação, que em agosto de 2025 aprovou minuta de projeto para alterar a Lei do Marco Temporal.",
+   "impacto_poderes": "STF busca solução dialógica entre Poderes e partes.",
+   "controversias": "Organizações indígenas (APIB) criticam a conciliação e o formato; setor do agro defende o marco legal.",
+   "fontes": [
+    {
+     "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal",
+     "url": "https://www.mattosfilho.com.br/unico/stf-lei-marco-temporal/",
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "bolsonaro-2025",
+   "data": "2025-09-11",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "judiciario",
+   "titulo": "STF condena Jair Bolsonaro e outros sete réus (trama golpista)",
+   "resumo": "Primeira Turma do STF (relator: Alexandre de Moraes) condena por 4 votos a 1 a 27 anos e 3 meses por tentativa de golpe de Estado, abolição violenta do Estado de Direito, organização criminosa armada e outros crimes; Luiz Fux divergiu.",
+   "impacto_poderes": "STF julga ex-presidente por crimes contra a ordem democrática; contraponto em tese de violação de foro e competência.",
+   "controversias": "Defensores: proteção da democracia; críticos: competência da Turma (vs. plenário), perseguição política e sanção proporcional. Posições polarizadas.",
+   "fontes": [
+    {
+     "titulo": "Metrópoles: STF condena Bolsonaro a 27 anos e 3 meses (11/09/2025)",
+     "url": "https://www.metropoles.com/brasil/trama-golpista-stf-condena-bolsonaro-a-27-anos-e-3-meses-de-prisao",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "pec48-2025",
+   "data": "2025-12-09",
+   "periodo": "nova-republica",
+   "trilha": "indigena",
+   "categoria": "reforma",
+   "titulo": "Senado aprova a PEC 48/2023 (marco temporal na Constituição)",
+   "resumo": "Senado aprova em dois turnos (52 a 14 e 52 a 15) a PEC que inclui o marco temporal de 05/10/1988; texto segue para a Câmara.",
+   "impacto_poderes": "Legislativo busca constitucionalizar o tema decidido pelo STF; STF poderia controlar por cláusulas pétreas (art. 60, §4º).",
+   "controversias": "Defensores: segurança jurídica; críticos (APIB, MPF, STF): retrocesso e violação de cláusulas pétreas.",
+   "fontes": [
+    {
+     "titulo": "Rádio Senado: Senado aprova marco temporal de terras indígenas (09/12/2025)",
+     "url": "https://www12.senado.leg.br/radio/1/noticia/2025/12/09/senado-aprova-marco-temporal-de-terras-indigenas",
+     "verificado": true
+    },
+    {
+     "titulo": "Congresso em Foco: Senado aprova PEC do marco temporal",
+     "url": "https://www.congressoemfoco.com.br/noticia/114693/senado-aprova-pec-do-marco-temporal",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "marco-2026",
+   "data": "2026-03-18",
+   "periodo": "nova-republica",
+   "trilha": "indigena",
+   "categoria": "judiciario",
+   "titulo": "STF publica a íntegra da decisão sobre a Lei 14.701 (ADC 87 e ADIs)",
+   "resumo": "Segundo notícias, o STF reafirma a inconstitucionalidade do marco temporal ao julgar as ações sobre a Lei 14.701; publicação do acórdão em 18/03/2026 (informação de síntese jornalística).",
+   "impacto_poderes": "Judiciário reafirma o entendimento de 2023 contra a lei do Legislativo.",
+   "controversias": "Data e conteúdo de síntese de busca; confirmar no acórdão.",
+   "fontes": [
+    {
+     "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal",
+     "url": "https://www.mattosfilho.com.br/unico/stf-lei-marco-temporal/",
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "eleicao-2026",
+   "data": "2026-10-04",
+   "periodo": "nova-republica",
+   "trilha": "estado",
+   "categoria": "crise",
+   "titulo": "Eleições gerais de 2026 (1º turno em 04/10; 2º turno em 25/10)",
+   "resumo": "Primeiro turno em 04/10/2026 para Presidente, governadores, Congresso e assembleias. Para Presidente, Flávio Bolsonaro (PL) teve 56.104.503 votos (47,03% dos válidos) e Lula (PT) 53.879.538 (45,16%); segundo turno em 25/10/2026. Dados preliminares (snapshot do TSE de 05/10/2026).",
+   "impacto_poderes": "Primeira eleição presidencial após condenações de 2025 e inelegibilidade de Bolsonaro (TSE, 2023).",
+   "controversias": "Resultado preliminar até a diplomação; consequências em aberto.",
+   "fontes": [
+    {
+     "titulo": "TSE Dados Abertos — votação por seção 2026 (totais por candidato conferidos com a soma das seções)",
+     "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_2026_BR.zip",
+     "verificado": true
+    },
+    {
+     "titulo": "Eleições gerais no Brasil em 2026 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%B5es_gerais_no_Brasil_em_2026",
+     "verificado": true
+    }
+   ]
+  }
+ ],
+ "principios": [
+  {
+   "id": "locke",
+   "titulo": "Segundo Tratado sobre o Governo: separação entre poder legislativo e executivo",
+   "autor": "John Locke",
+   "ano": "1689",
+   "ideia": "O Legislativo é supremo, mas não deve ser o mesmo que executa as leis; o poder federativo (relações exteriores) fica com o Executivo. Governos limitados pelo consentimento.",
+   "aplicacao_brasil": "Inspirou a ideia de limites ao poder; no Brasil, a Constituição de 1824 e o art. 2º da CF/88 herdam a divisão funcional. Útil para pensar controle do Executivo por MPs.",
+   "fontes": [
+    {
+     "titulo": "Two Treatises of Government - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Two_Treatises_of_Government",
+     "verificado": true
+    },
+    {
+     "titulo": "Separation of powers - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Separation_of_powers",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "montesquieu",
+   "titulo": "Do espírito das leis: três poderes e freio pelo poder",
+   "autor": "Montesquieu",
+   "ano": "1748",
+   "ideia": "Liberdade política depende de que 'o poder freie o poder': separação de Legislativo, Executivo e Judiciário; junção em um só corpo produz tirania.",
+   "aplicacao_brasil": "Referência do art. 2º da CF/88; o Império adotou quatro poderes, com Moderador, inspirado em Constant. O Brasil adotou o modelo tripartite em 1891.",
+   "fontes": [
+    {
+     "titulo": "The Spirit of the Laws - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/The_Spirit_of_the_Laws",
+     "verificado": true
+    },
+    {
+     "titulo": "Separation of powers - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Separation_of_powers",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "constant",
+   "titulo": "Poder neutro (pouvoir neutre)",
+   "autor": "Benjamin Constant",
+   "ano": "1815",
+   "ideia": "Em monarquias constitucionais, um poder neutro e arbitral (o rei) preserva o equilíbrio entre poderes executivo, legislativo e judicial.",
+   "aplicacao_brasil": "Modelo do Poder Moderador da Constituição de 1824 (arts. 98-101); é citado em debates contemporâneos sobre o art. 142 (tese de poder moderador das Forças Armadas), refutada pela maioria dos juristas.",
+   "fontes": [
+    {
+     "titulo": "Benjamin Constant - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Benjamin_Constant",
+     "verificado": true
+    },
+    {
+     "titulo": "Poder moderador - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Poder_moderador",
+     "verificado": true
+    },
+    {
+     "titulo": "Artigo 142 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Artigo_142",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "federalist",
+   "titulo": "Federalist 47-51: ambição contra ambição e freios e contrapesos",
+   "autor": "James Madison (com Hamilton)",
+   "ano": "1788",
+   "ideia": "Federalist 47 refuta que a separação exige isolamento; 51 afirma que 'a ambição deve ser feita para contrapor a ambição', com departamentos com meios constitucionais de se defenderem; federalismo e bicameralismo como salvaguardas adicionais.",
+   "aplicacao_brasil": "Modelo da Constituição de 1891 (presidencialismo e STF); no Brasil, veto presidencial, MP, controle de constitucionalidade, impeachment e CPI funcionam como freios cruzados.",
+   "fontes": [
+    {
+     "titulo": "The Federalist No. 47 (Avalon Project, Yale)",
+     "url": "https://avalon.law.yale.edu/18th_century/fed47.asp",
+     "verificado": true
+    },
+    {
+     "titulo": "The Federalist No. 51 (Avalon Project, Yale)",
+     "url": "https://avalon.law.yale.edu/18th_century/fed51.asp",
+     "verificado": true
+    },
+    {
+     "titulo": "The Federalist Papers - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/The_Federalist_Papers",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "marbury",
+   "titulo": "Marbury v. Madison: controle judicial de constitucionalidade",
+   "autor": "John Marshall (Suprema Corte dos EUA)",
+   "ano": "1803",
+   "ideia": "A Corte afirma o poder de declarar nulas leis contrárias à Constituição, firmando o controle difuso.",
+   "aplicacao_brasil": "Adotado no Brasil em 1891 (art. 59) como controle difuso; juízes e tribunais podem afastar leis inconstitucionais.",
+   "fontes": [
+    {
+     "titulo": "Marbury v. Madison - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Marbury_v._Madison",
+     "verificado": true
+    },
+    {
+     "titulo": "Constituição da República (1891) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao91.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "kelsen",
+   "titulo": "Controle concentrado de constitucionalidade",
+   "autor": "Hans Kelsen",
+   "ano": "1920-1928",
+   "ideia": "Corte constitucional especializada com poder de anular leis (Constituição austríaca de 1920; 'A garantia jurisdicional da Constituição', 1928), como 'legislador negativo'.",
+   "aplicacao_brasil": "Inspira o controle concentrado brasileiro: representação interventiva (1934/46), ação direta (EC 16/1965), ADI/ADC (Lei 9.868/1999) e ADPF (Lei 9.882/1999). O STF acumula papel de corte constitucional e tribunal penal.",
+   "fontes": [
+    {
+     "titulo": "Hans Kelsen - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Hans_Kelsen",
+     "verificado": true
+    },
+    {
+     "titulo": "Constitutional review - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Constitutional_review",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei nº 9.868/1999 (ADI e ADC) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9868.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "ackerman",
+   "titulo": "The New Separation of Powers (2000)",
+   "autor": "Bruce Ackerman",
+   "ano": "2000",
+   "ideia": "Critica o modelo tripartite; defende o 'parlamentarismo limitado' e a separação em poderes adicionais (integridade, regulação, distribuição); o presidencialismo latino-americano pode degenerar em crises.",
+   "aplicacao_brasil": "Útil para comparar o modelo brasileiro: TCU, Ministério Público, CNJ, agências e Banco Central como 'poderes' ou órgãos autônomos fora da tripartição clássica.",
+   "fontes": [
+    {
+     "titulo": "Ackerman, B. The New Separation of Powers. Harvard Law Review 113(3), 2000 (DOI)",
+     "url": "https://doi.org/10.2307/1342286",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "linz",
+   "titulo": "The Perils of Presidentialism (1990)",
+   "autor": "Juan J. Linz",
+   "ano": "1990",
+   "ideia": "O presidencialismo tem legitimidade dupla (Presidente e Congresso), mandatos rígidos e lógica de soma-zero, o que o torna mais propenso a crises de impasse do que o parlamentarismo.",
+   "aplicacao_brasil": "Debate sobre a crise de 1961-64 e o plebiscito de 1993 (que manteve o presidencialismo); críticos de Linz (Mainwaring e Shugart) argumentam que partidos e regras eleitorais importam.",
+   "fontes": [
+    {
+     "titulo": "Juan J. Linz - Wikipedia (The Perils of Presidentialism, Journal of Democracy 1(1), 1990)",
+     "url": "https://en.wikipedia.org/wiki/Juan_Jos%C3%A9_Linz",
+     "verificado": true
+    },
+    {
+     "titulo": "Presidential system - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Presidential_system",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "abranches",
+   "titulo": "Presidencialismo de coalizão (1988)",
+   "autor": "Sérgio Abranches",
+   "ano": "1988",
+   "ideia": "O Brasil combina presidencialismo, federalismo, multipartidarismo e representação proporcional, exigindo coalizões heterogêneas no governo; o Presidente governa por meio de distribuição de cargos e recursos (Dados 31(1), 1988).",
+   "aplicacao_brasil": "Explica o uso de MPs, ministérios e emendas parlamentares como moeda de coordenação; central na análise de EC 86/2015, EC 100/2019 e RP9.",
+   "fontes": [
+    {
+     "titulo": "Sérgio Abranches - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/S%C3%A9rgio_Abranches",
+     "verificado": true
+    },
+    {
+     "titulo": "Presidencialismo de coalizão - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Presidencialismo_de_coaliz%C3%A3o",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "hirschl",
+   "titulo": "Towards Juristocracy: judicialização da política",
+   "autor": "Ran Hirschl",
+   "ano": "2004",
+   "ideia": "Constituições com direitos e cortes fortes transferem às cortes decisões políticas centrais, em parte porque elites políticas ameaçadas preservam seu poder (tese da 'preservação hegemônica').",
+   "aplicacao_brasil": "Aplicação ao Brasil: ampla legitimidade de partidos para ADI e ADPF; STF decide demarcações, orçamento, anistia e crises eleitorais; debate sobre ativismo e autocontenção.",
+   "fontes": [
+    {
+     "titulo": "Hirschl, R. Towards Juristocracy (Harvard UP) (DOI)",
+     "url": "https://doi.org/10.2307/j.ctv15d81nb",
+     "verificado": true
+    },
+    {
+     "titulo": "Judicialização da política - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Judicializa%C3%A7%C3%A3o_da_pol%C3%ADtica",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "levitsky",
+   "titulo": "How Democracies Die (2018)",
+   "autor": "Steven Levitsky e Daniel Ziblatt",
+   "ano": "2018",
+   "ideia": "Democracias hoje morrem por erosão gradual conduzida por eleitos; salvaguardas informais (tolerância mútua e reserva institucional) sustentam normas formais.",
+   "aplicacao_brasil": "Aplicação ao debate brasileiro (2018-23): ataques ao STF e às urnas, pressão sobre instituições e resposta judicial; analistas divergem sobre uso do conceito.",
+   "fontes": [
+    {
+     "titulo": "How Democracies Die - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/How_Democracies_Die",
+     "verificado": true
+    },
+    {
+     "titulo": "Democratic backsliding - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Democratic_backsliding",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "bermeo",
+   "titulo": "On Democratic Backsliding (2016)",
+   "autor": "Nancy Bermeo",
+   "ano": "2016",
+   "ideia": "Retrocesso democrático hoje é gradual e legalista: golpes clássicos dão lugar à 'manipulação estratégica das eleições' e ao 'aumento do poder do Executivo' (executive aggrandizement).",
+   "aplicacao_brasil": "Ajuda a diferenciar o 8 de janeiro (tentativa clássica de ruptura) do retrocesso gradual; usada para ler a captura de instituições e a polarização.",
+   "fontes": [
+    {
+     "titulo": "Bermeo, N. On Democratic Backsliding. Journal of Democracy 27(1), 2016 (DOI)",
+     "url": "https://doi.org/10.1353/jod.2016.0012",
+     "verificado": true
+    },
+    {
+     "titulo": "Democratic backsliding - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Democratic_backsliding",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "art2",
+   "titulo": "Art. 2º da CF/88: poderes independentes e harmônicos",
+   "autor": "Constituinte de 1987-88",
+   "ano": "1988",
+   "ideia": "Legislativo, Executivo e Judiciário independentes e harmônicos entre si; cláusula pétrea (art. 60, §4º, III).",
+   "aplicacao_brasil": "Freios: veto (art. 66), MP (art. 62), controle de constitucionalidade (arts. 102-103), impeachment (art. 85), CPI (art. 58, §3º), TCU (arts. 70-75) e Ministério Público (arts. 127-130).",
+   "fontes": [
+    {
+     "titulo": "Constituição Federal de 1988 (compilado) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "verificado": true
+    }
+   ]
+  }
+ ],
+ "direcoes": [
+  {
+   "id": "judicializacao",
+   "titulo": "Judicialização e protagonismo do STF",
+   "descricao": "Crescimento do papel do STF na política, com controle de constitucionalidade abrangente, foro, e papel de árbitro nas crises.",
+   "evidencias": "1999 (Leis 9.868 e 9.882); 2004 (EC 45, súmula vinculante); 2010 (ADPF 153); 2012 (Mensalão); 2016 (rito do impeachment); 2019 (Inquérito das Fake News); 2022 (ADPF 854); 2023 (RE 1.017.365); 2025 (condenação de Bolsonaro).",
+   "fontes": [
+    {
+     "titulo": "Judicialização da política - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Judicializa%C3%A7%C3%A3o_da_pol%C3%ADtica",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei nº 9.868/1999 (ADI e ADC) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9868.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei nº 9.882/1999 (ADPF) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9882.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Emenda Constitucional nº 45/2004 (Reforma do Judiciário) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc45.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "coalizao",
+   "titulo": "Presidencialismo de coalizão e poder sobre o orçamento",
+   "descricao": "Do poder do Executivo à moeda de troca para partidos, o Congresso conquistou poder de execução orçamentária: emendas individuais (EC 86/2015), de bancada (EC 100/2019) e de relator (RP9, 2020-22).",
+   "evidencias": "1988 (CF/88); 2015 (EC 86); 2019 (EC 100); 2021 (RP9 revelado); 2022 (ADPF 854); 2022 (EC 126).",
+   "fontes": [
+    {
+     "titulo": "Sérgio Abranches - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/S%C3%A9rgio_Abranches",
+     "verificado": true
+    },
+    {
+     "titulo": "Emenda Constitucional nº 86/2015 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc86.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Emenda Constitucional nº 100/2019 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc100.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Conjur: maioria do STF declara inconstitucional o orçamento secreto (19/12/2022)",
+     "url": "https://www.conjur.com.br/2022-dez-19/maioria-stf-declara-inconstitucionalidade-orcamento-secreto/",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "mp-agenda",
+   "titulo": "Poder de agenda do Executivo via medidas provisórias",
+   "descricao": "MPs continuam principal instrumento legislativo do Executivo mesmo após limites da EC 32/2001; Congresso e STF reagem ocasionalmente.",
+   "evidencias": "1988 (art. 62 original); 2001 (EC 32); STF restringe reedição e exige urgência e relevância em casos específicos.",
+   "fontes": [
+    {
+     "titulo": "Emenda Constitucional nº 32/2001 (medidas provisórias) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc32.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Medida provisória - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Medida_provis%C3%B3ria",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "controle-const",
+   "titulo": "Controle de constitucionalidade: difuso, concentrado e convencional",
+   "descricao": "Do difuso (1891) ao concentrado (EC 16/1965; ADI/ADC/ADPF); papel da Corte IDH (Gomes Lund) e tensão com decisões do STF.",
+   "evidencias": "1891 (difuso); 1965 (EC 16: ação direta); 1988 (arts. 102-103); 1999 (Leis); 2010 (ADPF 153 e Gomes Lund).",
+   "fontes": [
+    {
+     "titulo": "Constitutional review - Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Constitutional_review",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei nº 9.868/1999 (ADI e ADC) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l9868.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Corte Interamericana de Direitos Humanos - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Corte_Interamericana_de_Direitos_Humanos",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "limites-stf",
+   "titulo": "Reação legislativa e limites ao STF",
+   "descricao": "Propostas para limitar decisões monocráticas e reverter decisões do STF (PEC 8/2021, PEC 48/2023, Lei 14.701/2023); STF por sua vez restringe decisões individuais por regimento (2022-23).",
+   "evidencias": "2023 (PEC 8/2021 no Senado); 2023 (Lei 14.701); 2025 (PEC 48/2023 no Senado).",
+   "fontes": [
+    {
+     "titulo": "Poder360: Senado aprova PEC que limita decisões monocráticas do STF (22/11/2023)",
+     "url": "https://www.poder360.com.br/congresso/senado-aprova-pec-que-limita-poderes-do-stf",
+     "verificado": true
+    },
+    {
+     "titulo": "Rádio Senado: Senado aprova marco temporal de terras indígenas (09/12/2025)",
+     "url": "https://www12.senado.leg.br/radio/1/noticia/2025/12/09/senado-aprova-marco-temporal-de-terras-indigenas",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei nº 14.701/2023 (demarcação) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14701.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "marco-temporal",
+   "titulo": "Conflito entre Legislativo e STF sobre o marco temporal",
+   "descricao": "Disputa sobre a interpretação do art. 231: STF afirma direito originário (2023, reafirmado em 2026 segundo notícias), Congresso aprova a Lei 14.701 (2023) e a PEC 48/2023 (Senado, 2025). Demarcação envolve Executivo (ato), Judiciário (controle) e Legislativo (lei ou emenda).",
+   "evidencias": "2009 (Raposa Serra do Sol); 2023 (RE 1.017.365); 2023 (Lei 14.701); 2024 (ADC 87, conciliação); 2025 (PEC 48 no Senado); 2026 (decisão publicada).",
+   "fontes": [
+    {
+     "titulo": "Marco temporal das terras indígenas - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Marco_temporal_das_terras_ind%C3%ADgenas",
+     "verificado": true
+    },
+    {
+     "titulo": "Rádio Senado: Senado aprova marco temporal de terras indígenas (09/12/2025)",
+     "url": "https://www12.senado.leg.br/radio/1/noticia/2025/12/09/senado-aprova-marco-temporal-de-terras-indigenas",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei nº 14.701/2023 (demarcação) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14701.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal",
+     "url": "https://www.mattosfilho.com.br/unico/stf-lei-marco-temporal/",
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "militares",
+   "titulo": "Papel dos militares e o art. 142",
+   "descricao": "De árbitros da política (1889, 1930, 1955, 1964) à subordinação ao poder civil; debate pós-2018 sobre o art. 142, a tese do 'poder moderador' das Forças Armadas e as condenações de 2025.",
+   "evidencias": "1889; 1930; 1945; 1955; 1964; 1985 (transição); 1988 (art. 142); 2020 (liminar de Fux); 2023 (8 de janeiro); 2025 (condenações).",
+   "fontes": [
+    {
+     "titulo": "Constituição Federal de 1988 (compilado) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Artigo 142 - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Artigo_142",
+     "verificado": true
+    },
+    {
+     "titulo": "Metrópoles: STF condena Bolsonaro a 27 anos e 3 meses (11/09/2025)",
+     "url": "https://www.metropoles.com/brasil/trama-golpista-stf-condena-bolsonaro-a-27-anos-e-3-meses-de-prisao",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "autonomias",
+   "titulo": "Autonomia de órgãos de controle e de Estado",
+   "descricao": "Do Ministério Público e TCU (CF/88) ao CNJ e CNMP (2004) e ao Banco Central (LC 179/2021): proliferação de órgãos autônomos fora da tripartição clássica.",
+   "evidencias": "1988; 2004; 2014 (Lava Jato); 2021 (LC 179).",
+   "fontes": [
+    {
+     "titulo": "Tribunal de Contas da União - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Tribunal_de_Contas_da_Uni%C3%A3o",
+     "verificado": true
+    },
+    {
+     "titulo": "Emenda Constitucional nº 45/2004 (Reforma do Judiciário) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc45.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei Complementar nº 179/2021 (autonomia do BC) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp179.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Ackerman, B. The New Separation of Powers. Harvard Law Review 113(3), 2000 (DOI)",
+     "url": "https://doi.org/10.2307/1342286",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "fiscal",
+   "titulo": "Regras fiscais restringem a política orçamentária",
+   "descricao": "LRF (2000), teto de gastos (2016), arcabouço fiscal (2023): limites impostos por regras às decisões do Executivo e do Legislativo.",
+   "evidencias": "2000; 2016; 2023.",
+   "fontes": [
+    {
+     "titulo": "Lei Complementar nº 101/2000 (LRF) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Emenda Constitucional nº 95/2016 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc95.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei Complementar nº 200/2023 (arcabouço fiscal) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "povos",
+   "titulo": "Povos indígenas e quilombolas: de tutela a sujeitos de direitos",
+   "descricao": "Do SPI (1910) e Estatuto do Índio (1973) à capacidade processual de 1988, ao art. 68 do ADCT e ao Decreto 4.887; do Executivo ao Judiciário e ao Legislativo como arena de disputa.",
+   "evidencias": "1910; 1967; 1973; 1988; 2003; 2009; 2018; 2023; 2025.",
+   "fontes": [
+    {
+     "titulo": "Decreto nº 8.072/1910 (cria o SPI) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/decreto/1910-1929/d8072.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei nº 6.001/1973 (Estatuto do Índio) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l6001.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Constituição Federal de 1988 (compilado) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Decreto nº 4.887/2003 (quilombolas) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/decreto/2003/d4887.htm",
+     "verificado": true
+    }
+   ]
+  }
+ ]
+}

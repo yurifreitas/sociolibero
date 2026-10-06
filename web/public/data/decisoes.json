@@ -1,0 +1,730 @@
+{
+ "meta": {
+  "baseline": "pragmatico",
+  "referencia_2035": {
+   "debt": 104.48,
+   "selic": 12.14,
+   "ipca": 3.46,
+   "gdp": 1.12
+  },
+  "composicao": {
+   "camara": {
+    "PL": 121,
+    "Fed. PP-União": 87,
+    "Fed. PT-PCdoB-PV": 88,
+    "PSD": 43,
+    "Republicanos": 41,
+    "outros": 133
+   },
+   "senado": {
+    "PL": 28,
+    "Fed. União-PP": 12,
+    "PT": 9,
+    "MDB": 8,
+    "PSD": 5,
+    "outros": 19
+   }
+  },
+  "quoruns": {
+   "PEC": {
+    "camara": 308,
+    "senado": 49
+   },
+   "LC": {
+    "camara": 257,
+    "senado": 41
+   },
+   "LO": {
+    "camara": 231,
+    "senado": 37
+   },
+   "SENADO_ABS": {
+    "camara": null,
+    "senado": 41
+   },
+   "SENADO_2_3": {
+    "camara": null,
+    "senado": 54
+   },
+   "EXECUTIVO": {
+    "camara": null,
+    "senado": null
+   }
+  },
+  "aviso": "Efeitos são julgamentos editáveis; P(aprovação) usa modelo de bancadas simplificado."
+ },
+ "decisoes": [
+  {
+   "id": "flexibilizar-arcabouco",
+   "rotulo": "Flexibilizar o arcabouço fiscal (LC 200/2023)",
+   "dominio": "fiscal",
+   "instrumento": "LC",
+   "ideologia": -0.3,
+   "controversia": 0.3,
+   "deltas": {
+    "primary_target": -1.0,
+    "fiscal_credibility": -0.25,
+    "institutional_risk": 0.05
+   },
+   "racional": "Menos superávit exigido e piso de gasto; o custo vem pelo prêmio de risco e pela credibilidade.",
+   "ganhadores": [
+    "beneficiários de gasto público",
+    "investimento público"
+   ],
+   "perdedores": [
+    "detentores de títulos",
+    "geração futura"
+   ],
+   "defasagem_anos": 1,
+   "reversibilidade": "alta",
+   "iniciativa_congresso": true,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.08,
+    "esquerda": 0.425
+   },
+   "impacto_2035": {
+    "debt": 23.78,
+    "selic": 3.98,
+    "ipca": 0.79,
+    "gdp": -1.02
+   }
+  },
+  {
+   "id": "reforcar-arcabouco",
+   "rotulo": "Reforçar o arcabouço (gatilhos de despesa)",
+   "dominio": "fiscal",
+   "instrumento": "PEC",
+   "ideologia": 0.5,
+   "controversia": 0.35,
+   "deltas": {
+    "primary_target": 1.2,
+    "fiscal_credibility": 0.2,
+    "supply_reform": 0.05
+   },
+   "racional": "Gatilhos automáticos e desindexação reduzem a dívida; efeito depende de execução.",
+   "ganhadores": [
+    "detentores de títulos",
+    "setor privado (juros menores)"
+   ],
+   "perdedores": [
+    "servidores",
+    "beneficiários de gasto"
+   ],
+   "defasagem_anos": 2,
+   "reversibilidade": "média",
+   "iniciativa_congresso": true,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.421,
+    "esquerda": 0.086
+   },
+   "impacto_2035": {
+    "debt": -15.19,
+    "selic": -1.83,
+    "ipca": -0.31,
+    "gdp": 0.51
+   }
+  },
+  {
+   "id": "reforma-administrativa",
+   "rotulo": "Reforma administrativa (carreiras, estabilidade, mérito)",
+   "dominio": "fiscal",
+   "instrumento": "PEC",
+   "ideologia": 0.6,
+   "controversia": 0.55,
+   "deltas": {
+    "primary_target": 0.4,
+    "supply_reform": 0.1
+   },
+   "racional": "Economia gradual (novos entrantes) e ganho de eficiência; efeito fiscal lento.",
+   "ganhadores": [
+    "contribuintes"
+   ],
+   "perdedores": [
+    "servidores"
+   ],
+   "defasagem_anos": 5,
+   "reversibilidade": "baixa",
+   "iniciativa_congresso": true,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.133,
+    "esquerda": 0.004
+   },
+   "impacto_2035": {
+    "debt": -3.8,
+    "selic": -0.21,
+    "ipca": -0.03,
+    "gdp": 0.15
+   }
+  },
+  {
+   "id": "desvincular-minimo",
+   "rotulo": "Desvincular salário mínimo e pisos da indexação",
+   "dominio": "fiscal",
+   "instrumento": "PEC",
+   "ideologia": 0.7,
+   "controversia": 0.8,
+   "deltas": {
+    "primary_target": 0.8,
+    "fiscal_credibility": 0.1
+   },
+   "racional": "Maior efeito fiscal por real; alto custo distributivo e político.",
+   "ganhadores": [
+    "contribuintes",
+    "detentores de títulos"
+   ],
+   "perdedores": [
+    "aposentados e beneficiários de piso"
+   ],
+   "defasagem_anos": 2,
+   "reversibilidade": "média",
+   "iniciativa_congresso": true,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.003,
+    "esquerda": 0.0
+   },
+   "impacto_2035": {
+    "debt": -9.7,
+    "selic": -1.18,
+    "ipca": -0.2,
+    "gdp": 0.3
+   }
+  },
+  {
+   "id": "reforma-previdencia-2",
+   "rotulo": "Nova reforma da Previdência (idade, regras)",
+   "dominio": "fiscal",
+   "instrumento": "PEC",
+   "ideologia": 0.5,
+   "controversia": 0.7,
+   "deltas": {
+    "primary_target": 0.7,
+    "fiscal_credibility": 0.1
+   },
+   "racional": "Contém gasto obrigatório; efeito cresce com a demografia.",
+   "ganhadores": [
+    "contribuintes",
+    "geração futura"
+   ],
+   "perdedores": [
+    "aposentáveis"
+   ],
+   "defasagem_anos": 4,
+   "reversibilidade": "baixa",
+   "iniciativa_congresso": true,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.036,
+    "esquerda": 0.0
+   },
+   "impacto_2035": {
+    "debt": -8.93,
+    "selic": -1.13,
+    "ipca": -0.19,
+    "gdp": 0.28
+   }
+  },
+  {
+   "id": "cortar-beneficios-fiscais",
+   "rotulo": "Cortar gastos tributários (benefícios fiscais)",
+   "dominio": "fiscal",
+   "instrumento": "LO",
+   "ideologia": 0.1,
+   "controversia": 0.45,
+   "deltas": {
+    "primary_target": 0.6,
+    "fiscal_credibility": 0.05
+   },
+   "racional": "Receita sem aumentar alíquota; resistência de setores beneficiados.",
+   "ganhadores": [
+    "contribuintes gerais"
+   ],
+   "perdedores": [
+    "setores beneficiados"
+   ],
+   "defasagem_anos": 1,
+   "reversibilidade": "alta",
+   "iniciativa_congresso": true,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.6,
+    "esquerda": 0.099
+   },
+   "impacto_2035": {
+    "debt": -6.7,
+    "selic": -0.75,
+    "ipca": -0.12,
+    "gdp": 0.19
+   }
+  },
+  {
+   "id": "desoneracao-ampla",
+   "rotulo": "Desoneração ampla da folha e benefícios setoriais",
+   "dominio": "fiscal",
+   "instrumento": "LO",
+   "ideologia": 0.4,
+   "controversia": 0.3,
+   "deltas": {
+    "primary_target": -0.5,
+    "supply_reform": 0.05
+   },
+   "racional": "Reduz custo do emprego; perda de arrecadação supera ganho de curto prazo.",
+   "ganhadores": [
+    "setores intensivos em mão de obra"
+   ],
+   "perdedores": [
+    "contribuintes gerais"
+   ],
+   "defasagem_anos": 1,
+   "reversibilidade": "alta",
+   "iniciativa_congresso": true,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.79,
+    "esquerda": 0.225
+   },
+   "impacto_2035": {
+    "debt": 4.17,
+    "selic": 0.37,
+    "ipca": 0.04,
+    "gdp": -0.05
+   }
+  },
+  {
+   "id": "ampliar-assistencia",
+   "rotulo": "Ampliar programas de transferência de renda",
+   "dominio": "social",
+   "instrumento": "LO",
+   "ideologia": -0.7,
+   "controversia": 0.25,
+   "deltas": {
+    "primary_target": -0.4,
+    "fiscal_credibility": -0.05
+   },
+   "racional": "Mais gasto corrente com efeito de demanda local; pesa na trajetória da dívida.",
+   "ganhadores": [
+    "famílias de baixa renda",
+    "economias locais"
+   ],
+   "perdedores": [
+    "contribuintes"
+   ],
+   "defasagem_anos": 1,
+   "reversibilidade": "alta",
+   "iniciativa_congresso": true,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.046,
+    "esquerda": 0.275
+   },
+   "impacto_2035": {
+    "debt": 5.54,
+    "selic": 0.75,
+    "ipca": 0.13,
+    "gdp": -0.18
+   }
+  },
+  {
+   "id": "perdao-dividas",
+   "rotulo": "Renegociação/perdão amplo de dívidas (rural, famílias, estados)",
+   "dominio": "fiscal",
+   "instrumento": "LC",
+   "ideologia": -0.1,
+   "controversia": 0.35,
+   "deltas": {
+    "primary_target": -0.3,
+    "fiscal_credibility": -0.1
+   },
+   "racional": "Alivia devedores com custo fiscal e risco de expectativa de repetição.",
+   "ganhadores": [
+    "devedores"
+   ],
+   "perdedores": [
+    "contribuintes",
+    "credores"
+   ],
+   "defasagem_anos": 1,
+   "reversibilidade": "baixa",
+   "iniciativa_congresso": true,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.092,
+    "esquerda": 0.504
+   },
+   "impacto_2035": {
+    "debt": 6.77,
+    "selic": 1.17,
+    "ipca": 0.23,
+    "gdp": -0.28
+   }
+  },
+  {
+   "id": "credito-subsidiado",
+   "rotulo": "Expandir crédito subsidiado (BNDES/bancos públicos)",
+   "dominio": "setorial",
+   "instrumento": "EXECUTIVO",
+   "ideologia": -0.4,
+   "controversia": 0.2,
+   "deltas": {
+    "primary_target": -0.2,
+    "supply_reform": 0.05
+   },
+   "racional": "Custo quase-fiscal; efeito de produtividade depende da seleção.",
+   "ganhadores": [
+    "setores beneficiados"
+   ],
+   "perdedores": [
+    "contribuintes"
+   ],
+   "defasagem_anos": 1,
+   "reversibilidade": "média",
+   "iniciativa_congresso": false,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.0,
+    "esquerda": 1.0
+   },
+   "impacto_2035": {
+    "debt": 1.55,
+    "selic": 0.16,
+    "ipca": 0.01,
+    "gdp": 0.01
+   }
+  },
+  {
+   "id": "reduzir-autonomia-bc",
+   "rotulo": "Reduzir a autonomia do Banco Central (LC 179/2021)",
+   "dominio": "monetário",
+   "instrumento": "LC",
+   "ideologia": 0.0,
+   "controversia": 0.7,
+   "deltas": {
+    "bc_erosion": 0.4,
+    "institutional_risk": 0.2,
+    "fiscal_credibility": -0.2
+   },
+   "racional": "Expectativas de inflação desancoram e o prêmio sobe; efeito forte e assimétrico.",
+   "ganhadores": [
+    "devedores no curto prazo"
+   ],
+   "perdedores": [
+    "poupadores",
+    "toda a economia no médio prazo"
+   ],
+   "defasagem_anos": 1,
+   "reversibilidade": "média",
+   "iniciativa_congresso": true,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.076,
+    "esquerda": 0.002
+   },
+   "impacto_2035": {
+    "debt": 13.57,
+    "selic": 4.25,
+    "ipca": 1.71,
+    "gdp": -1.0
+   }
+  },
+  {
+   "id": "diretoria-bc-alinhada",
+   "rotulo": "Indicar diretoria do BC por alinhamento político",
+   "dominio": "monetário",
+   "instrumento": "SENADO_ABS",
+   "ideologia": 0.0,
+   "controversia": 0.5,
+   "deltas": {
+    "bc_erosion": 0.15,
+    "institutional_risk": 0.05
+   },
+   "racional": "Mandatos escalonados diluem o efeito; depende de sabatina e perfil técnico.",
+   "ganhadores": [
+    "governo de turno"
+   ],
+   "perdedores": [
+    "credibilidade da meta"
+   ],
+   "defasagem_anos": 3,
+   "reversibilidade": "média",
+   "iniciativa_congresso": false,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.492,
+    "esquerda": 0.0
+   },
+   "impacto_2035": {
+    "debt": 1.04,
+    "selic": 0.72,
+    "ipca": 0.46,
+    "gdp": -0.14
+   }
+  },
+  {
+   "id": "politica-precos-combustiveis",
+   "rotulo": "Controlar preços de combustíveis pela Petrobras",
+   "dominio": "setorial",
+   "instrumento": "EXECUTIVO",
+   "ideologia": -0.5,
+   "controversia": 0.2,
+   "deltas": {
+    "institutional_risk": 0.1,
+    "fiscal_credibility": -0.1
+   },
+   "racional": "Alivia inflação no curto prazo; custo patrimonial/estatal e risco de governança.",
+   "ganhadores": [
+    "consumidores no curto prazo"
+   ],
+   "perdedores": [
+    "acionistas minoritários",
+    "Tesouro"
+   ],
+   "defasagem_anos": 1,
+   "reversibilidade": "alta",
+   "iniciativa_congresso": false,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.0,
+    "esquerda": 1.0
+   },
+   "impacto_2035": {
+    "debt": 6.52,
+    "selic": 1.23,
+    "ipca": 0.23,
+    "gdp": -0.42
+   }
+  },
+  {
+   "id": "acelerar-ibs-cbs",
+   "rotulo": "Acelerar a reforma tributária do consumo (IBS/CBS)",
+   "dominio": "tributário",
+   "instrumento": "LC",
+   "ideologia": 0.1,
+   "controversia": 0.2,
+   "deltas": {
+    "supply_reform": 0.25,
+    "fiscal_credibility": 0.05
+   },
+   "racional": "Menos distorção e cumulatividade elevam produtividade; ganho gradual.",
+   "ganhadores": [
+    "setor produtivo",
+    "exportadores"
+   ],
+   "perdedores": [
+    "setores com regimes especiais"
+   ],
+   "defasagem_anos": 4,
+   "reversibilidade": "baixa",
+   "iniciativa_congresso": true,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.799,
+    "esquerda": 0.24
+   },
+   "impacto_2035": {
+    "debt": -2.62,
+    "selic": -0.25,
+    "ipca": -0.09,
+    "gdp": 0.3
+   }
+  },
+  {
+   "id": "privatizacoes",
+   "rotulo": "Privatizações e concessões (estatais não financeiras)",
+   "dominio": "setorial",
+   "instrumento": "LO",
+   "ideologia": 0.8,
+   "controversia": 0.5,
+   "deltas": {
+    "primary_target": 0.2,
+    "supply_reform": 0.15
+   },
+   "racional": "Receita pontual e ganho de eficiência; efeito fiscal recorrente é pequeno.",
+   "ganhadores": [
+    "consumidores (eficiência)",
+    "investidores"
+   ],
+   "perdedores": [
+    "servidores das estatais"
+   ],
+   "defasagem_anos": 3,
+   "reversibilidade": "baixa",
+   "iniciativa_congresso": true,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.438,
+    "esquerda": 0.055
+   },
+   "impacto_2035": {
+    "debt": -2.27,
+    "selic": -0.05,
+    "ipca": -0.02,
+    "gdp": 0.16
+   }
+  },
+  {
+   "id": "abertura-comercial",
+   "rotulo": "Abertura comercial (redução de tarifas, acordos)",
+   "dominio": "externo",
+   "instrumento": "EXECUTIVO",
+   "ideologia": 0.7,
+   "controversia": 0.3,
+   "deltas": {
+    "supply_reform": 0.3
+   },
+   "racional": "Competição e insumos baratos elevam produtividade; ajuste custoso a setores protegidos.",
+   "ganhadores": [
+    "consumidores",
+    "importadores"
+   ],
+   "perdedores": [
+    "indústria protegida"
+   ],
+   "defasagem_anos": 3,
+   "reversibilidade": "média",
+   "iniciativa_congresso": false,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 1.0,
+    "esquerda": 0.0
+   },
+   "impacto_2035": {
+    "debt": -1.1,
+    "selic": 0.17,
+    "ipca": -0.01,
+    "gdp": 0.25
+   }
+  },
+  {
+   "id": "acordo-mercosul-ue",
+   "rotulo": "Ratificar acordo Mercosul–União Europeia",
+   "dominio": "externo",
+   "instrumento": "LO",
+   "ideologia": 0.2,
+   "controversia": 0.3,
+   "deltas": {
+    "supply_reform": 0.15
+   },
+   "racional": "Acesso a mercado com salvaguardas; efeito gradual.",
+   "ganhadores": [
+    "agro",
+    "exportadores"
+   ],
+   "perdedores": [
+    "setores sensíveis"
+   ],
+   "defasagem_anos": 3,
+   "reversibilidade": "média",
+   "iniciativa_congresso": true,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.794,
+    "esquerda": 0.229
+   },
+   "impacto_2035": {
+    "debt": -0.55,
+    "selic": 0.08,
+    "ipca": -0.01,
+    "gdp": 0.12
+   }
+  },
+  {
+   "id": "ampliar-stf",
+   "rotulo": "Ampliar o número de ministros do STF",
+   "dominio": "institucional",
+   "instrumento": "PEC",
+   "ideologia": 0.5,
+   "controversia": 0.75,
+   "deltas": {
+    "institutional_risk": 0.25
+   },
+   "racional": "Altera maioria sem vaga natural; sinal forte a investidores sobre segurança jurídica.",
+   "ganhadores": [
+    "governo de turno"
+   ],
+   "perdedores": [
+    "segurança jurídica"
+   ],
+   "defasagem_anos": 1,
+   "reversibilidade": "baixa",
+   "iniciativa_congresso": true,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.018,
+    "esquerda": 0.0
+   },
+   "impacto_2035": {
+    "debt": 5.94,
+    "selic": 0.67,
+    "ipca": 0.05,
+    "gdp": -0.48
+   }
+  },
+  {
+   "id": "remover-ministros-stf",
+   "rotulo": "Remoção de ministros do STF (2/3 do Senado)",
+   "dominio": "institucional",
+   "instrumento": "SENADO_2_3",
+   "ideologia": 0.8,
+   "controversia": 0.9,
+   "deltas": {
+    "institutional_risk": 0.3
+   },
+   "racional": "Quórum de 54 senadores torna o caminho improvável; seria ruptura de equilíbrio entre Poderes.",
+   "ganhadores": [
+    "governo de turno"
+   ],
+   "perdedores": [
+    "independência judicial"
+   ],
+   "defasagem_anos": 1,
+   "reversibilidade": "baixa",
+   "iniciativa_congresso": true,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.011,
+    "esquerda": 0.0
+   },
+   "impacto_2035": {
+    "debt": 7.18,
+    "selic": 0.81,
+    "ipca": 0.06,
+    "gdp": -0.58
+   }
+  },
+  {
+   "id": "anistia-politica",
+   "rotulo": "Anistia política ampla e mudança em regras de inelegibilidade",
+   "dominio": "institucional",
+   "instrumento": "LO",
+   "ideologia": 0.9,
+   "controversia": 0.7,
+   "deltas": {
+    "institutional_risk": 0.08
+   },
+   "racional": "Efeito econômico direto pequeno; opera por incerteza institucional e conflito com o Judiciário.",
+   "ganhadores": [
+    "beneficiários da anistia"
+   ],
+   "perdedores": [
+    "previsibilidade institucional"
+   ],
+   "defasagem_anos": 1,
+   "reversibilidade": "baixa",
+   "iniciativa_congresso": true,
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.091,
+    "esquerda": 0.002
+   },
+   "impacto_2035": {
+    "debt": 1.85,
+    "selic": 0.21,
+    "ipca": 0.02,
+    "gdp": -0.15
+   }
+  }
+ ]
+}
