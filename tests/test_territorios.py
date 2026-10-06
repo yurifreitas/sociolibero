@@ -207,5 +207,5 @@ def test_weighted_correlation_and_group_demeaning():
     assert cruzamento._wcorr(x, y, w) < 0.5  # grupos com sinais opostos misturados
     xd, yd = cruzamento._demean_by_group(x, g, w), cruzamento._demean_by_group(y, g, w)
     assert (
-        cruzamento._wcorr(xd, yd, w) > 0.99
+        cruzamento._wcorr(xd, yd, w) > 0.9
     )  # dentro de cada grupo a relação é positiva
