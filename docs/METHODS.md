@@ -110,3 +110,11 @@ próprio (`struct`), ZIP do INCRA extraído com nomes fixos. Nada baixado é imp
 - Fases e geometrias refletem a data do download (`baixado_em`); a FUNAI informa `data_atualizacao` por feição (a mais antiga é de anos atrás). Município de residência ≠ município de votação do eleitor indígena/quilombola; zonas/seções eleitorais em aldeias não foram mapeadas aqui.
 - Percentuais em municípios pequenos oscilam por acaso/sigilo estatístico; considere `pop_total` ao ponderar.
 - Esta camada é descritiva: correlação com padrões eleitorais não implica causalidade e não é evidência de irregularidade.
+
+## 8. Cruzamento voto × território (`src/sociolibero/cruzamento.py`)
+Correlação ponderada (votos válidos) entre a participação de Lula/Bolsonaro/Flávio e % indígena, % quilombola e % pretos+pardos
+por município (n = 5570), bruta e **dentro da UF** (média estadual removida), com IC95 por bootstrap.
+Resultado, estável em 2022 T1/T2 e 2026 T1: % pretos+pardos ≈ +0,6 (bruta) e ≈ +0,37 (dentro da UF) com o voto em Lula;
+% quilombola ≈ +0,31 e +0,22; % indígena fraca (≈ +0,12 e +0,15; ponderada por votos, dominada por poucos municípios).
+**Limites:** é correlação entre municípios, não comportamento individual (falácia ecológica); não é causal; renda, urbanização,
+religião e região correlacionam com todas as variáveis; `pct_quilombola` mede população declarada, não território titulado.

@@ -1,0 +1,179 @@
+{
+ "meta": {
+  "aviso": "Correlação entre municípios, ponderada pelos votos válidos; 'dentro da UF' remove a média estadual. Não descreve o comportamento de indivíduos (falácia ecológica) nem é causal.",
+  "fontes": [
+   "elections/*.json (TSE)",
+   "territorios.json (IBGE Censo 2022, FUNAI, INCRA)"
+  ]
+ },
+ "correlacoes": {
+  "pres_2022_t1": {
+   "13|pct_indigena": {
+    "n_municipios": 5570,
+    "corr_bruta": 0.118,
+    "corr_dentro_uf": 0.155,
+    "ic95_dentro_uf": [
+     0.073,
+     0.191
+    ]
+   },
+   "13|pct_quilombola": {
+    "n_municipios": 5570,
+    "corr_bruta": 0.317,
+    "corr_dentro_uf": 0.231,
+    "ic95_dentro_uf": [
+     0.2,
+     0.262
+    ]
+   },
+   "13|pct_pretos_pardos": {
+    "n_municipios": 5570,
+    "corr_bruta": 0.618,
+    "corr_dentro_uf": 0.384,
+    "ic95_dentro_uf": [
+     0.333,
+     0.431
+    ]
+   },
+   "22|pct_indigena": {
+    "n_municipios": 5570,
+    "corr_bruta": -0.096,
+    "corr_dentro_uf": -0.13,
+    "ic95_dentro_uf": [
+     -0.169,
+     -0.053
+    ]
+   },
+   "22|pct_quilombola": {
+    "n_municipios": 5570,
+    "corr_bruta": -0.294,
+    "corr_dentro_uf": -0.207,
+    "ic95_dentro_uf": [
+     -0.24,
+     -0.179
+    ]
+   },
+   "22|pct_pretos_pardos": {
+    "n_municipios": 5570,
+    "corr_bruta": -0.575,
+    "corr_dentro_uf": -0.36,
+    "ic95_dentro_uf": [
+     -0.406,
+     -0.315
+    ]
+   }
+  },
+  "pres_2022_t2": {
+   "13|pct_indigena": {
+    "n_municipios": 5570,
+    "corr_bruta": 0.108,
+    "corr_dentro_uf": 0.145,
+    "ic95_dentro_uf": [
+     0.065,
+     0.187
+    ]
+   },
+   "13|pct_quilombola": {
+    "n_municipios": 5570,
+    "corr_bruta": 0.308,
+    "corr_dentro_uf": 0.222,
+    "ic95_dentro_uf": [
+     0.192,
+     0.257
+    ]
+   },
+   "13|pct_pretos_pardos": {
+    "n_municipios": 5570,
+    "corr_bruta": 0.608,
+    "corr_dentro_uf": 0.368,
+    "ic95_dentro_uf": [
+     0.327,
+     0.412
+    ]
+   },
+   "22|pct_indigena": {
+    "n_municipios": 5570,
+    "corr_bruta": -0.108,
+    "corr_dentro_uf": -0.145,
+    "ic95_dentro_uf": [
+     -0.187,
+     -0.068
+    ]
+   },
+   "22|pct_quilombola": {
+    "n_municipios": 5570,
+    "corr_bruta": -0.308,
+    "corr_dentro_uf": -0.222,
+    "ic95_dentro_uf": [
+     -0.256,
+     -0.194
+    ]
+   },
+   "22|pct_pretos_pardos": {
+    "n_municipios": 5570,
+    "corr_bruta": -0.608,
+    "corr_dentro_uf": -0.368,
+    "ic95_dentro_uf": [
+     -0.411,
+     -0.318
+    ]
+   }
+  },
+  "pres_2026_t1": {
+   "13|pct_indigena": {
+    "n_municipios": 5570,
+    "corr_bruta": 0.116,
+    "corr_dentro_uf": 0.152,
+    "ic95_dentro_uf": [
+     0.075,
+     0.195
+    ]
+   },
+   "13|pct_quilombola": {
+    "n_municipios": 5570,
+    "corr_bruta": 0.311,
+    "corr_dentro_uf": 0.24,
+    "ic95_dentro_uf": [
+     0.205,
+     0.277
+    ]
+   },
+   "13|pct_pretos_pardos": {
+    "n_municipios": 5570,
+    "corr_bruta": 0.635,
+    "corr_dentro_uf": 0.371,
+    "ic95_dentro_uf": [
+     0.315,
+     0.419
+    ]
+   },
+   "22|pct_indigena": {
+    "n_municipios": 5570,
+    "corr_bruta": -0.093,
+    "corr_dentro_uf": -0.125,
+    "ic95_dentro_uf": [
+     -0.162,
+     -0.06
+    ]
+   },
+   "22|pct_quilombola": {
+    "n_municipios": 5570,
+    "corr_bruta": -0.295,
+    "corr_dentro_uf": -0.214,
+    "ic95_dentro_uf": [
+     -0.249,
+     -0.187
+    ]
+   },
+   "22|pct_pretos_pardos": {
+    "n_municipios": 5570,
+    "corr_bruta": -0.604,
+    "corr_dentro_uf": -0.354,
+    "ic95_dentro_uf": [
+     -0.412,
+     -0.301
+    ]
+   }
+  }
+ }
+}

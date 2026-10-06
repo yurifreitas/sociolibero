@@ -193,3 +193,19 @@ def test_feicoes_incra_alinha_shp_dbf():
         {"1": {"1": {"fase": "TITULADO", "ha": 5.0}, "B": {"fase": "RTID", "ha": 1.0}}}
     )
     assert ag["1"]["titulado_n"] == 1
+
+
+def test_weighted_correlation_and_group_demeaning():
+    import numpy as np
+
+    from sociolibero import cruzamento
+
+    x = np.array([1.0, 2.0, 3.0, 10.0, 11.0, 12.0])
+    y = np.array([2.0, 4.0, 6.0, 1.0, 2.0, 3.0])
+    w = np.ones(6)
+    g = np.array(["a", "a", "a", "b", "b", "b"])
+    assert cruzamento._wcorr(x, y, w) < 0.5  # grupos com sinais opostos misturados
+    xd, yd = cruzamento._demean_by_group(x, g, w), cruzamento._demean_by_group(y, g, w)
+    assert (
+        cruzamento._wcorr(xd, yd, w) > 0.99
+    )  # dentro de cada grupo a relação é positiva
