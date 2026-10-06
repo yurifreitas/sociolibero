@@ -1,0 +1,6 @@
+.tile { display: flex; flex-direction: column; gap: var(--space-1); padding: var(--space-4); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-md); min-width: 0; }
+.label { font-size: var(--fs-12); color: var(--text-muted); }
+.value { font-size: var(--fs-24); font-weight: 600; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; line-height: 1.2; }
+.hint { font-size: var(--fs-12); color: var(--text-muted); }
+.pos { color: var(--pos); }
+.neg { color: var(--neg); }

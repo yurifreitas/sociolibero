@@ -1,0 +1,21 @@
+.section { display: flex; flex-direction: column; gap: var(--space-4); }
+.top { display: flex; justify-content: space-between; align-items: center; gap: var(--space-3); flex-wrap: wrap; }
+.h { font-size: var(--fs-16); }
+.badges { display: flex; gap: var(--space-2); flex-wrap: wrap; }
+.muted { color: var(--text-muted); }
+.score { display: flex; align-items: center; gap: var(--space-4); }
+.scoreNum { font-size: var(--fs-32); font-weight: 600; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; min-width: 2ch; }
+.scoreLabel { font-size: var(--fs-12); color: var(--text-muted); }
+.warning { font-size: var(--fs-12); padding: var(--space-2) var(--space-3); border-radius: var(--radius-sm); background: var(--warn-soft); color: var(--warn-text); }
+.tests { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.test { padding: var(--space-4) 0; border-top: 1px solid var(--border); display: flex; flex-direction: column; gap: var(--space-2); }
+.testHead { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); }
+.testName { font-weight: 500; }
+.vals { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-6); }
+.vals li { display: flex; align-items: baseline; gap: var(--space-2); }
+.vlabel { font-size: var(--fs-12); color: var(--text-muted); }
+.value { font-variant-numeric: tabular-nums; font-weight: 600; }
+.flag .value { color: var(--warn-text); background: var(--warn-soft); padding: 0 6px; border-radius: 4px; }
+.test details { font-size: var(--fs-12); color: var(--text-muted); }
+.test summary { cursor: pointer; min-height: 28px; display: flex; align-items: center; }
+.test details p { margin-top: var(--space-1); max-width: 70ch; }

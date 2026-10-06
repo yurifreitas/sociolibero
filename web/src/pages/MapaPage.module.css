@@ -1,0 +1,10 @@
+.titleBlock { display: flex; flex-direction: column; gap: var(--space-1); }
+.h1 { font-size: var(--fs-20); }
+.sub { font-size: var(--fs-12); color: var(--text-muted); }
+.help { font-size: var(--fs-12); color: var(--text-muted); margin-top: calc(var(--space-2) * -1); }
+.loading { position: relative; height: 100%; }
+.loadingText { position: absolute; inset: 0; display: grid; place-items: center; color: var(--text-muted); font-size: var(--fs-14); }
+.tip { display: flex; flex-direction: column; gap: 2px; }
+.uf { color: var(--text-muted); font-weight: 400; }
+.tipValue { font-size: var(--fs-20); font-weight: 600; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.tipMeta { color: var(--text-muted); }

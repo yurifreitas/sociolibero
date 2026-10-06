@@ -1,0 +1,11 @@
+.details { font-size: var(--fs-12); }
+.details summary { cursor: pointer; color: var(--text-muted); min-height: 32px; display: flex; align-items: center; }
+.grid { display: grid; gap: var(--space-4); margin-top: var(--space-2); }
+.table { width: 100%; }
+.table caption { text-align: left; font-weight: 600; padding: var(--space-1) 0; }
+.table th, .table td { padding: 6px 0; border-top: 1px solid var(--border); text-align: left; font-weight: 400; }
+.table thead th { font-size: 11px; color: var(--text-muted); border-top: 0; }
+.r { text-align: right !important; font-variant-numeric: tabular-nums; }
+.link { border: 0; background: none; color: var(--brand); cursor: pointer; padding: 0; text-align: left; }
+.link:hover { text-decoration: underline; }
+.uf { color: var(--text-muted); }

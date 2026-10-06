@@ -10,3 +10,4 @@ web/dist/
 .env
 scripts/.cache/
 *.log
+web/scripts/.cache/

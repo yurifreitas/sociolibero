@@ -1,0 +1,3 @@
+.box { display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-3); padding: var(--space-8); border: 1px dashed var(--border-strong); border-radius: var(--radius-lg); max-width: 560px; }
+.box p { color: var(--text-muted); max-width: 60ch; }
+.icon { color: var(--text-muted); }

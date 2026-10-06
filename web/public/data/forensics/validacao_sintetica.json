@@ -1,0 +1,200 @@
+{
+ "parametros": {
+  "n_sim": 300,
+  "secoes_por_municipio": 300,
+  "alpha": 0.05,
+  "seed": 3
+ },
+ "nota": "Dados 100% sintéticos (nulo: comparecimento ~N(0,80; 0,06), voto de A ~N(0,5; 0,08)). O FPR real em dados verdadeiros pode ser maior por heterogeneidade legítima; TPR baixo = o detector não enxerga aquela fraude, e isso não prova ausência dela.",
+ "cenarios": [
+  {
+   "nome": "enchimento",
+   "descricao": "Enchimento de urna (comparecimento ≈ 98%, votos extras para A)",
+   "intensidade": [
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.4
+   ],
+   "detectores": {
+    "ld_p": {
+     "tpr": [
+      0.067,
+      0.053,
+      0.05,
+      0.063,
+      0.05
+     ],
+     "fpr": 0.053
+    },
+    "b2_p": {
+     "tpr": [
+      0.987,
+      0.957,
+      0.897,
+      0.753,
+      0.36
+     ],
+     "fpr": 0.99
+    },
+    "rho_p": {
+     "tpr": [
+      0.13,
+      0.42,
+      0.87,
+      1.0,
+      1.0
+     ],
+     "fpr": 0.03
+    },
+    "mult5_p": {
+     "tpr": [
+      0.033,
+      0.03,
+      0.04,
+      0.043,
+      0.03
+     ],
+     "fpr": 0.023
+    },
+    "bunching": {
+     "tpr": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fpr": 0.0
+    }
+   }
+  },
+  {
+   "nome": "transferencia",
+   "descricao": "Transferência de 15% dos votos de B para A (comparecimento intacto)",
+   "intensidade": [
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.4
+   ],
+   "detectores": {
+    "ld_p": {
+     "tpr": [
+      0.053,
+      0.047,
+      0.05,
+      0.057,
+      0.047
+     ],
+     "fpr": 0.053
+    },
+    "b2_p": {
+     "tpr": [
+      0.98,
+      0.977,
+      0.977,
+      0.957,
+      0.947
+     ],
+     "fpr": 0.99
+    },
+    "rho_p": {
+     "tpr": [
+      0.047,
+      0.033,
+      0.053,
+      0.047,
+      0.033
+     ],
+     "fpr": 0.03
+    },
+    "mult5_p": {
+     "tpr": [
+      0.027,
+      0.027,
+      0.053,
+      0.047,
+      0.043
+     ],
+     "fpr": 0.023
+    },
+    "bunching": {
+     "tpr": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fpr": 0.0
+    }
+   }
+  },
+  {
+   "nome": "fabricacao",
+   "descricao": "Números fabricados (contagens arredondadas para múltiplos de 5)",
+   "intensidade": [
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.4
+   ],
+   "detectores": {
+    "ld_p": {
+     "tpr": [
+      0.043,
+      0.183,
+      0.583,
+      1.0,
+      1.0
+     ],
+     "fpr": 0.053
+    },
+    "b2_p": {
+     "tpr": [
+      0.98,
+      0.987,
+      0.993,
+      0.997,
+      1.0
+     ],
+     "fpr": 0.99
+    },
+    "rho_p": {
+     "tpr": [
+      0.047,
+      0.037,
+      0.067,
+      0.067,
+      0.037
+     ],
+     "fpr": 0.03
+    },
+    "mult5_p": {
+     "tpr": [
+      0.15,
+      0.48,
+      0.907,
+      1.0,
+      1.0
+     ],
+     "fpr": 0.023
+    },
+    "bunching": {
+     "tpr": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "fpr": 0.0
+    }
+   }
+  }
+ ]
+}

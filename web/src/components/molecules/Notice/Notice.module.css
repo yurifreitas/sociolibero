@@ -1,0 +1,9 @@
+.notice { display: flex; gap: var(--space-3); padding: var(--space-4); border-radius: var(--radius-md); border: 1px solid var(--border); background: var(--surface-2); font-size: var(--fs-14); }
+.icon { flex: none; margin-top: 2px; }
+.title { display: block; margin-bottom: 2px; }
+.body { color: var(--text-muted); max-width: 75ch; }
+.info .icon { color: var(--brand); }
+.warn { background: var(--warn-soft); border-color: transparent; }
+.warn .icon, .warn .body, .warn .title { color: var(--warn-text); }
+.danger { border-color: color-mix(in oklch, var(--neg) 40%, var(--border)); }
+.danger .icon { color: var(--neg); }

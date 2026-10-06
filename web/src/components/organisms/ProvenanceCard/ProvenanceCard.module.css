@@ -1,0 +1,9 @@
+.card { padding: var(--space-6); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-lg); display: flex; flex-direction: column; gap: var(--space-4); min-width: 0; }
+.head { display: flex; align-items: center; justify-content: space-between; gap: var(--space-3); flex-wrap: wrap; }
+.head h3 { font-size: var(--fs-16); }
+.badges { display: flex; gap: var(--space-2); }
+.dl { display: grid; grid-template-columns: max-content 1fr; gap: var(--space-2) var(--space-6); margin: 0; font-size: var(--fs-14); }
+.dl dt { color: var(--text-muted); font-size: var(--fs-12); padding-top: 2px; }
+.dl dd { margin: 0; overflow-wrap: anywhere; }
+.hash { font-size: var(--fs-12); }
+@media (max-width: 560px) { .dl { grid-template-columns: 1fr; gap: 0; } .dl dd { margin-bottom: var(--space-2); } }

@@ -1,0 +1,6 @@
+.list { display: flex; gap: var(--space-1); border-bottom: 1px solid var(--border); overflow-x: auto; scrollbar-width: none; }
+.tab { border: 0; background: none; cursor: pointer; min-height: 44px; padding: 0 var(--space-4); color: var(--text-muted); font-weight: 500; white-space: nowrap; border-bottom: 2px solid transparent; margin-bottom: -1px; transition: color var(--dur-1) var(--ease-out), border-color var(--dur-1) var(--ease-out); }
+.tab:hover { color: var(--text); }
+.on { color: var(--brand); border-bottom-color: var(--brand); }
+.n { margin-left: var(--space-2); font-size: var(--fs-12); color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.panel { padding-top: var(--space-8); }

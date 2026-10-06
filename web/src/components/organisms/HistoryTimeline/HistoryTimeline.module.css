@@ -1,0 +1,23 @@
+.scroll { overflow-x: auto; border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--surface); }
+.canvas { position: relative; }
+.axis { position: absolute; top: 8px; left: 0; right: 0; height: 20px; font-size: 11px; color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.axis span { position: absolute; transform: translateX(-50%); }
+.grid { position: absolute; top: 28px; bottom: 0; width: 1px; background: var(--border); opacity: .6; }
+.periods { position: absolute; top: 40px; left: 0; right: 0; height: 64px; }
+.period { position: absolute; top: 0; height: 64px; border: 0; border-radius: var(--radius-sm); color: oklch(98% 0 0); cursor: pointer; padding: 6px 8px; text-align: left; overflow: hidden; display: flex; flex-direction: column; gap: 2px; justify-content: center; transition: filter var(--dur-1) var(--ease-out), box-shadow var(--dur-1) var(--ease-out); }
+.period:hover { filter: brightness(1.12); }
+.periodOn { box-shadow: 0 0 0 2px var(--surface), 0 0 0 4px var(--text); }
+.pTitle { font-size: var(--fs-12); font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.pSub { font-size: 11px; opacity: .85; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-variant-numeric: tabular-nums; }
+.dot { position: absolute; width: 16px; height: 16px; margin-left: -8px; border-radius: 50%; border: 2px solid var(--text-muted); background: var(--surface); cursor: pointer; padding: 0; transition: transform var(--dur-1) var(--ease-out); }
+.dot::after { content: ''; position: absolute; inset: -14px; }
+.dot:hover { transform: scale(1.25); border-color: var(--text); }
+.dotOn { background: var(--brand); border-color: var(--brand); transform: scale(1.25); }
+.dotOn .dotLabel { transform: none; }
+.dotLabel { position: absolute; left: 22px; top: -1px; font-size: var(--fs-12); font-weight: 600; white-space: nowrap; color: var(--text); background: var(--surface); padding: 0 4px; border-radius: 4px; }
+
+.lane { position: absolute; left: 0; right: 0; background: var(--surface-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
+.laneLabel { position: sticky; left: var(--space-3); display: inline-block; padding: 2px 8px; margin: 2px 0 0 var(--space-3); font-size: 11px; font-weight: 600; color: var(--text-muted); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius-full); z-index: 2; }
+.link { position: absolute; width: 2px; margin-left: -1px; background: var(--brand); opacity: .55; z-index: 1; }
+.cross { border-radius: 3px; border-color: var(--brand); border-width: 3px; z-index: 3; }
+.dot { z-index: 3; }

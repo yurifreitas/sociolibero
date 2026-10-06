@@ -1,0 +1,12 @@
+.root { display: grid; grid-template-columns: 320px minmax(0, 1fr); height: calc(100dvh - var(--header-h)); min-height: 560px; }
+.withDetail { grid-template-columns: 320px minmax(0, 1fr) 400px; }
+.sidebar { padding: var(--space-6); border-right: 1px solid var(--border); overflow-y: auto; display: flex; flex-direction: column; gap: var(--space-6); background: var(--bg); }
+.map { position: relative; min-width: 0; min-height: 0; }
+.detail { padding: var(--space-6); border-left: 1px solid var(--border); overflow-y: auto; background: var(--bg); }
+@media (max-width: 1180px) { .withDetail { grid-template-columns: 300px minmax(0, 1fr); } .withDetail .detail { position: fixed; z-index: 15; right: 0; top: var(--header-h); bottom: 0; width: min(420px, 100%); box-shadow: var(--shadow-1); } }
+@media (max-width: 860px) {
+  .root, .withDetail { display: flex; flex-direction: column; height: auto; }
+  .map { height: 62dvh; min-height: 360px; order: 1; }
+  .sidebar { order: 2; border-right: 0; border-top: 1px solid var(--border); }
+  .withDetail .detail { order: 0; position: fixed; inset: auto 0 0 0; top: auto; max-height: 70dvh; width: 100%; border-left: 0; border-top: 1px solid var(--border); }
+}

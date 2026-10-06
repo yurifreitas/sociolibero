@@ -1,0 +1,17 @@
+.root { display: flex; flex-direction: column; gap: var(--space-6); }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: var(--space-8); }
+.fig { margin: 0; display: flex; flex-direction: column; gap: var(--space-3); min-width: 0; }
+.cap { display: flex; flex-direction: column; gap: 2px; font-size: var(--fs-14); }
+.cap span { font-size: var(--fs-12); color: var(--text-muted); max-width: 60ch; }
+.svg { width: 100%; height: auto; overflow: visible; }
+.grid2 { stroke: var(--border); }
+.tick { font-size: 10.5px; fill: var(--text-muted); font-variant-numeric: tabular-nums; }
+.axis { font-size: 11px; fill: var(--text-muted); }
+.fpr { stroke: var(--text-muted); stroke-dasharray: 3 4; stroke-width: 1; }
+.fprLabel { font-size: 10px; fill: var(--text-muted); }
+.label { font-size: 11px; font-weight: 600; }
+.fprs { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: var(--space-1); font-size: var(--fs-12); }
+.fprs li { display: flex; align-items: center; gap: var(--space-2); flex-wrap: wrap; }
+.fprs i { width: 10px; height: 10px; border-radius: 2px; display: inline-block; flex: none; }
+.fprVal { color: var(--text-muted); font-variant-numeric: tabular-nums; }
+.nota { font-size: var(--fs-12); color: var(--text-muted); max-width: 80ch; }

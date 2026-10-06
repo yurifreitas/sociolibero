@@ -1,0 +1,10 @@
+.legend { margin: 0; display: flex; flex-direction: column; gap: var(--space-2); }
+.title { font-size: var(--fs-12); font-weight: 500; color: var(--text-muted); }
+.bar { height: 10px; border-radius: var(--radius-full); border: 1px solid var(--border); }
+.ticks { position: relative; height: 16px; }
+.tick { position: absolute; transform: translateX(-50%); font-size: var(--fs-12); color: var(--text-muted); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tick:first-child { transform: none; }
+.tick:last-child { transform: translateX(-100%); }
+.foot { display: flex; justify-content: space-between; gap: var(--space-3); font-size: var(--fs-12); color: var(--text-muted); }
+.nodata { display: inline-flex; align-items: center; gap: var(--space-1); }
+.nodata i { width: 10px; height: 10px; border-radius: 2px; border: 1px solid var(--border); display: inline-block; }

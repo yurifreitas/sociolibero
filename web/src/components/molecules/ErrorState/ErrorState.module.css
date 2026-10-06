@@ -1,0 +1,3 @@
+.box { display: flex; flex-direction: column; align-items: flex-start; gap: var(--space-3); padding: var(--space-8); border: 1px solid var(--border); border-radius: var(--radius-lg); background: var(--surface); max-width: 560px; margin: var(--space-12) auto; }
+.box p { color: var(--text-muted); }
+.icon { color: var(--neg); }
