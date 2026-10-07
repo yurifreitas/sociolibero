@@ -1,15 +1,15 @@
 {
- "gerado_em": "2026-10-07T13:04:50.480Z",
+ "gerado_em": "2026-10-07T17:53:48.890Z",
  "resumo": {
-  "total": 33,
+  "total": 40,
   "por_status": {
    "oficial": 2,
    "preliminar": 1,
-   "parcial": 18,
-   "derivado": 7,
-   "julgamento": 5
+   "parcial": 23,
+   "derivado": 8,
+   "julgamento": 6
   },
-  "atencao": 31
+  "atencao": 38
  },
  "paginas": {
   "home": [
@@ -35,7 +35,9 @@
    "forense",
    "trans-arandu",
    "humano-municipal",
-   "clima-rs"
+   "clima-rs",
+   "indigenas-eleicoes",
+   "eleitorado-analfabeto"
   ],
   "municipio": [
    "tse-2022",
@@ -57,7 +59,8 @@
    "historia",
    "evolucoes",
    "cadeia-cenarios",
-   "aneis"
+   "aneis",
+   "biblioteca-textos"
   ],
   "antes": [
    "ibge-censo-2022",
@@ -172,10 +175,50 @@
    "pessimismo",
    "visoes-pessimistas",
    "marx-capitalismo",
-   "pensadores-violencia"
+   "pensadores-violencia",
+   "biblioteca-textos",
+   "biblioteca-fontes",
+   "eleicoes-timeline",
+   "classes-interesses",
+   "indigenas-eleicoes",
+   "eleitorado-analfabeto",
+   "voto-analfabeto"
   ],
   "referencias": [
    "referencias"
+  ],
+  "biblioteca": [
+   "biblioteca-textos",
+   "biblioteca-fontes"
+  ],
+  "eleicoes": [
+   "tse-2022",
+   "forense",
+   "historia",
+   "biblioteca-textos",
+   "eleicoes-timeline"
+  ],
+  "classes": [
+   "historia",
+   "biblioteca-textos",
+   "classes-interesses"
+  ],
+  "indigenas": [
+   "ibge-censo-2022",
+   "funai-incra",
+   "trans-arandu",
+   "historia",
+   "antes-de-1500",
+   "biblioteca-textos",
+   "indigenas-eleicoes"
+  ],
+  "voto": [
+   "tse-2022",
+   "ibge-censo-2022",
+   "historia",
+   "biblioteca-textos",
+   "eleitorado-analfabeto",
+   "voto-analfabeto"
   ]
  },
  "bases": [
@@ -273,7 +316,9 @@
     "municipio",
     "forense",
     "decisoes",
-    "metodo"
+    "metodo",
+    "eleicoes",
+    "voto"
    ],
    "nota": null,
    "id": "tse-2022",
@@ -424,7 +469,9 @@
     "municipio",
     "gente",
     "metodo",
-    "antes"
+    "antes",
+    "indigenas",
+    "voto"
    ],
    "nota": null,
    "id": "ibge-censo-2022",
@@ -478,7 +525,8 @@
    "paginas": [
     "mapa",
     "municipio",
-    "gente"
+    "gente",
+    "indigenas"
    ],
    "nota": "População indígena/quilombola vem do Censo 2022 (autodeclaração); áreas de TI e de território quilombola vêm de camadas oficiais de FUNAI/INCRA e NÃO são equivalentes: morar em terra indígena ≠ autodeclarar-se indígena, e o INCRA só cobre territórios com processo/delimitação, não toda comunidade quilombola. Zero em ti_*/quilombo_* = nenhuma feição da camada no município.",
    "id": "funai-incra",
@@ -538,7 +586,8 @@
     "forense",
     "mapa",
     "municipio",
-    "metodo"
+    "metodo",
+    "eleicoes"
    ],
    "nota": null,
    "id": "forense",
@@ -588,7 +637,8 @@
     "gente",
     "metodo",
     "antes",
-    "violencia"
+    "violencia",
+    "indigenas"
    ],
    "nota": "Os números vêm de um banco local; conferimos totais com fontes públicas, mas isto não substitui a leitura da fonte primária.",
    "id": "trans-arandu",
@@ -707,7 +757,7 @@
    "validacoes": [
     {
      "ok": null,
-     "texto": "“Link ok” = URL respondeu (HTTP 200) e corresponde ao tema: 163 de 168 fontes; 5 com erro 403/500. NÃO significa leitura integral nem conferência de cada número"
+     "texto": "“Link ok” = URL respondeu (HTTP 200) e corresponde ao tema: 169 de 174 fontes; 5 com erro 403/500. NÃO significa leitura integral nem conferência de cada número"
     },
     {
      "ok": true,
@@ -765,14 +815,18 @@
     "metodo",
     "antes",
     "pilares",
-    "quebras"
+    "quebras",
+    "eleicoes",
+    "classes",
+    "indigenas",
+    "voto"
    ],
    "nota": null,
    "id": "historia",
    "nome": "Revisão histórica das instituições (Colônia → 2026), três trilhas",
    "chip": {
     "rotulo": "História",
-    "detalhe": "link ok 163/168"
+    "detalhe": "link ok 169/174"
    },
    "status": "parcial",
    "status_rotulo": "parcial"
@@ -1184,7 +1238,8 @@
    ],
    "paginas": [
     "antes",
-    "metodo"
+    "metodo",
+    "indigenas"
    ],
    "nota": null,
    "id": "antes-de-1500",
@@ -2337,6 +2392,633 @@
    "chip": {
     "rotulo": "Violência",
     "detalhe": "88/106 obras"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "texto",
+   "fonte": {
+    "nome": "Planalto, Câmara, Senado e TSE (domínio público, Lei 9.610 art. 8º), com espelhos de terceiros onde o portal oficial bloqueia leitura automática",
+    "url": null
+   },
+   "extraido_em": "2026-10-07",
+   "hashes": [],
+   "cobertura": "44 textos integrais (2.235.711 caracteres) · 126 trechos-chave ancorados · 6 documentos só com metadados e link",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "6 de 44 textos conferidos contra a fonte original"
+    },
+    {
+     "ok": null,
+     "texto": "12 com conferência cruzada parcial entre duas fontes oficiais; 26 extraídos de fonte única e não conferidos com segunda fonte"
+    },
+    {
+     "ok": true,
+     "texto": "Cada arquivo traz SHA-256 do corpo e do arquivo inteiro; o leitor refaz o cálculo no navegador (SubtleCrypto) e compara"
+    },
+    {
+     "ok": null,
+     "texto": "1 textos são versões consolidadas ou vigentes, que incorporam emendas posteriores: não são o texto de época"
+    }
+   ],
+   "limites": [
+    "O hash prova que o arquivo é o que foi baixado, não que o portal de origem está certo: erros da própria fonte são preservados e sinalizados.",
+    "Documentos protegidos por direito autoral (manifestos recentes, por exemplo) aparecem só com metadados e link.",
+    "Os trechos-chave ancoram uma frase exata; a leitura do “por que importa” é editorial."
+   ],
+   "links": [
+    {
+     "titulo": "Constituição Política do Império do Brasil (1824)",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35041-25-marco-1824-532540-publicacaooriginal-14770-pl.html",
+     "verificado": true,
+     "n": 1
+    },
+    {
+     "titulo": "Lei de 19 de agosto de 1846 (Lei nº 387): regula as eleições de senadores, deputados e outros",
+     "url": "https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-387-19-agosto-1846-555122-publicacaooriginal-83186-pl.html",
+     "verificado": false,
+     "n": 1
+    },
+    {
+     "titulo": "Decreto nº 842, de 19 de setembro de 1855 (Lei dos Círculos)",
+     "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-842-19-setembro-1855-558297-publicacaooriginal-79444-pl.html",
+     "verificado": false,
+     "n": 1
+    },
+    {
+     "titulo": "Decreto nº 3.029, de 9 de janeiro de 1881 (Lei Saraiva)",
+     "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-3029-9-janeiro-1881-546079-publicacaooriginal-59786-pl.html",
+     "verificado": false,
+     "n": 1
+    },
+    {
+     "titulo": "Lei nº 1.269, de 15 de novembro de 1904 (Lei Rosa e Silva)",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1900-1909/lei-1269-15-novembro-1904-584304-publicacaooriginal-107057-pl.html",
+     "verificado": false,
+     "n": 1
+    },
+    {
+     "titulo": "Constituição da República dos Estados Unidos do Brasil (1891)",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35081-24-fevereiro-1891-532699-publicacaooriginal-15017-pl.html",
+     "verificado": false,
+     "n": 1
+    }
+   ],
+   "arquivos": [
+    "textos_index.json",
+    "textos/"
+   ],
+   "paginas": [
+    "biblioteca",
+    "eleicoes",
+    "classes",
+    "indigenas",
+    "voto",
+    "historia",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "biblioteca-textos",
+   "nome": "Biblioteca de textos originais — leis, constituições e atos, com hash e trechos-chave",
+   "chip": {
+    "rotulo": "Textos",
+    "detalhe": "6/44 conferidos"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "texto",
+   "fonte": {
+    "nome": "Portais oficiais e espelhos listados em cada documento",
+    "url": null
+   },
+   "extraido_em": "2026-10-07",
+   "hashes": [],
+   "cobertura": "44 textos · 1 com espelho de terceiros declarado",
+   "validacoes": [
+    {
+     "ok": null,
+     "texto": "O status de domínio público e o fundamento legal estão em cada documento; não foi feita revisão jurídica"
+    }
+   ],
+   "limites": [
+    "Atos oficiais são excluídos da proteção autoral (Lei 9.610, art. 8º, IV); isso não cobre comentários, traduções ou compilações de terceiros."
+   ],
+   "links": [],
+   "arquivos": [
+    "textos_index.json"
+   ],
+   "paginas": [
+    "biblioteca"
+   ],
+   "nota": null,
+   "id": "biblioteca-fontes",
+   "nome": "Biblioteca — origem e domínio público dos textos",
+   "chip": {
+    "rotulo": "Fontes dos textos",
+    "detalhe": "44/44 em domínio público"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "texto",
+   "fonte": {
+    "nome": "TSE (dados abertos, 1994 em diante), textos legais do Planalto e da Câmara, literatura acadêmica e Wikipédia (assinalada onde é a única fonte)",
+    "url": "https://dadosabertos.tse.jus.br/"
+   },
+   "extraido_em": "2026-10-07",
+   "hashes": [],
+   "cobertura": "60 eleições e marcos de regra · 30 movimentos com passos datados · 28 regras do voto",
+   "validacoes": [
+    {
+     "ok": null,
+     "texto": "49 de 60 regras de voto lidas no texto legal; o restante vem de fonte secundária"
+    },
+    {
+     "ok": null,
+     "texto": "174 correções na revisão de fontes: 166 lidas na fonte e 8 ainda marcadas como não verificadas"
+    },
+    {
+     "ok": true,
+     "texto": "Mesma ficha para todos os movimentos (origem, base social, organização, mídia, financiamento, alianças, viradas, resultado, declínio), independentemente do espectro"
+    }
+   ],
+   "limites": [
+    "Planalto e Câmara abrem com cabeçalho de navegador (curl com User-Agent); TSE (tse.jus.br, bibliotecadigital, justicaeleitoral.jus.br), TRE-PR e TRE-AP bloqueiam leitura automática: páginas do TSE foram lidas no navegador, mas o PDF da tabela do referendo de 1963 e o artigo do TRE-PR sobre a urna não puderam ser abertos.",
+    "Wikipédia continua sendo a única fonte de várias cadeiras e votos antigos (1891-1922, 1934, 1945-1960, 1962, 1964-1969, 1974-1986, 1989); onde o TSE publica dados abertos (1994 em diante) e onde fontes acadêmicas citam tabelas do TSE, os números foram substituídos ou conferidos.",
+    "Eleitorado absoluto de 1945 a 1960 e de 1982 a 1989 tem fonte parcial; percentuais da população vêm de rótulos do Gráfico 2 de Nicolau, cuja extração do PDF é ambígua para 1955 e 1960 (a tabela numérica do artigo não existe: só texto e gráfico).",
+    "O rótulo de espectro de cada movimento é convenção editorial, não medição."
+   ],
+   "links": [
+    {
+     "titulo": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra)",
+     "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+     "verificado": true,
+     "n": 22
+    },
+    {
+     "titulo": "Constituição Federal de 1988, texto compilado - Planalto (art. 14 lido)",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "verificado": true,
+     "n": 19
+    },
+    {
+     "titulo": "Fundo Especial de Financiamento de Campanha - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Fundo_Especial_de_Financiamento_de_Campanha",
+     "verificado": true,
+     "n": 8
+    },
+    {
+     "titulo": "Movimento Democrático Brasileiro (1966) - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Movimento_Democr%C3%A1tico_Brasileiro_(1966)",
+     "verificado": true,
+     "n": 7
+    },
+    {
+     "titulo": "Eleição presidencial de 2026 - Wikipédia (secundária; página atualizada em 07/10/2026)",
+     "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2026",
+     "verificado": true,
+     "n": 6
+    },
+    {
+     "titulo": "Sufrágio feminino no Brasil - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Sufr%C3%A1gio_feminino_no_Brasil",
+     "verificado": true,
+     "n": 5
+    }
+   ],
+   "arquivos": [
+    "eleicoes_timeline.json"
+   ],
+   "paginas": [
+    "eleicoes",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "eleicoes-timeline",
+   "nome": "Eleições, marcos de regra e movimentos — linha do tempo com fonte e selo por número",
+   "chip": {
+    "rotulo": "Eleições",
+    "detalhe": "49/60 regras lidas"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "texto",
+   "fonte": {
+    "nome": "Historiografia e teoria política (resumos), com fonte por linha; ver cada ficha",
+    "url": null
+   },
+   "extraido_em": "2026-10-07",
+   "hashes": [],
+   "cobertura": "23 classes e grupos · 79 células da matriz · 17 teorias · 19 decisões criticadas · 14 propostas de regra",
+   "validacoes": [
+    {
+     "ok": null,
+     "texto": "35 de 50 linhas “ganhou ou perdeu” com fato lido na fonte; as demais são leitura da literatura"
+    },
+    {
+     "ok": null,
+     "texto": "10 de 17 teorias com fonte lida"
+    },
+    {
+     "ok": null,
+     "texto": "19 de 19 custos ou efeitos documentados lidos na fonte"
+    }
+   ],
+   "limites": [
+    "Interesse de classe é hipótese de leitura, não medição de motivo: uma regra que favorece um grupo não prova que foi desenhada para isso.",
+    "Cada ficha traz a leitura contrária; propostas rejeitadas entram como risco, não como dano ocorrido.",
+    "Este arquivo é uma hipótese de leitura, não um modelo: não há estimativa causal do efeito de nenhuma regra sobre classes, partidos ou resultados.",
+    "Fontes oficiais (Planalto, TSE, Câmara, Senado, STF) em geral não foram lidas: a maior parte é secundária (Wikipédia, jornais, artigos), assinalada em cada campo; o que veio de resumo de busca está com verificado=false.",
+    "Interesses de classe são hipóteses teóricas do tipo 'o que tenderia a preferir dada a base material'; não são preferências medidas, nem se aplicam a indivíduos."
+   ],
+   "links": [
+    {
+     "titulo": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF,",
+     "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+     "verificado": null,
+     "n": 6
+    },
+    {
+     "titulo": "Schaefer, B. M. 'O fim das coligações proporcionais e a reconfiguração das alian",
+     "url": "https://www.kas.de/documents/d/brasilien/cadernos-adenauer1_2026_web-capitulo-5",
+     "verificado": null,
+     "n": 3
+    },
+    {
+     "titulo": "Modernization theory - Wikipédia (secundária; Lipset 1959 e Przeworski & Limongi",
+     "url": "https://en.wikipedia.org/wiki/Modernization_theory",
+     "verificado": null,
+     "n": 2
+    },
+    {
+     "titulo": "Weber, M. Wirtschaft und Gesellschaft (1922), seção 'Classe, estamento, partido'",
+     "url": "https://en.wikipedia.org/wiki/Class,_Status,_Party",
+     "verificado": null,
+     "n": 1
+    },
+    {
+     "titulo": "Cultural hegemony - Wikipédia (secundária) [lido] https://en.wikipedia.org/wiki/",
+     "url": "https://en.wikipedia.org/wiki/Cultural_hegemony",
+     "verificado": null,
+     "n": 1
+    },
+    {
+     "titulo": "The Logic of Collective Action - Wikipédia (secundária) [lido] https://en.wikipe",
+     "url": "https://en.wikipedia.org/wiki/The_Logic_of_Collective_Action",
+     "verificado": null,
+     "n": 1
+    }
+   ],
+   "arquivos": [
+    "classes_interesses.json"
+   ],
+   "paginas": [
+    "classes",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "classes-interesses",
+   "nome": "Classes e interesses — matriz regra × classe, teorias, decisões criticadas e futuro das regras",
+   "chip": {
+    "rotulo": "Classes",
+    "detalhe": "35/50 fatos lidos"
+   },
+   "status": "julgamento",
+   "status_rotulo": "julgamento"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "TSE (candidaturas e perfil do eleitorado), IBGE (Censo 2022), Funai e fontes históricas citadas por marco",
+    "url": "https://dadosabertos.tse.jus.br/"
+   },
+   "extraido_em": "2026-10-07T13:26:00+00:00",
+   "hashes": [
+    {
+     "rotulo": "TSE consulta_cand 2014",
+     "sha256": "ad31cc36d9a6c89eac3d034533fffe1964aaf038697acaf32320cb9a09151087",
+     "curto": "ad31cc36…09151087"
+    },
+    {
+     "rotulo": "TSE consulta_cand 2018",
+     "sha256": "57f6881f1aa036142886ae548afd275e7ee6695643a2ab62826f2ee232d3fd44",
+     "curto": "57f6881f…32d3fd44"
+    },
+    {
+     "rotulo": "TSE consulta_cand 2022",
+     "sha256": "38de1c63e1e430f02d06600eceba7b94accadbcb8a85fc6b1fde6aa3baadfc1d",
+     "curto": "38de1c63…baadfc1d"
+    },
+    {
+     "rotulo": "TSE consulta_cand 2026",
+     "sha256": "78458909d860748f54b3e07e9ab197e1e0a2b3226a0f8d051b615225d7fcc62f",
+     "curto": "78458909…d7fcc62f"
+    },
+    {
+     "rotulo": "TSE consulta_cand 2024",
+     "sha256": "e8a3f2b96f40bc38b4b547f4595927cf5f103f4ba321cf5c0e113f9377487d85",
+     "curto": "e8a3f2b9…77487d85"
+    },
+    {
+     "rotulo": "perfil_eleitorado_2022",
+     "sha256": "4bccad7e39ec13ea22a0ce4612d6147b4f06ee2c672cd5978112943951fb87e8",
+     "curto": "4bccad7e…51fb87e8"
+    },
+    {
+     "rotulo": "perfil_eleitorado_2024",
+     "sha256": "fd6703bdaa89aba023b3a21fc1dccede94aa315b985d91011ad5c2e971819de6",
+     "curto": "fd6703bd…71819de6"
+    },
+    {
+     "rotulo": "eleitorado_local_votacao_2022",
+     "sha256": "6dc19c1ddb746cc067469e70ad5018f202334d97cd540edc8c9de3321e66da23",
+     "curto": "6dc19c1d…1e66da23"
+    },
+    {
+     "rotulo": "detalhe_votacao_secao_2022",
+     "sha256": "ad22c50b9e6d9dfb096a2170680a190f1734895ba89d8977b95fd63ca02c03da",
+     "curto": "ad22c50b…a02c03da"
+    },
+    {
+     "rotulo": "votacao_secao_2022_BR",
+     "sha256": "9353993de5cf03778aef44e01d4925e7ee105f5262491d344a2f0dbc956b0139",
+     "curto": "9353993d…956b0139"
+    },
+    {
+     "rotulo": "funai_tis_poligonais",
+     "sha256": "d3c105e37590ab39b8a84b08cc8e992546b476eef036b9e8bcafa3a0becd12af",
+     "curto": "d3c105e3…becd12af"
+    }
+   ],
+   "cobertura": "16 marcos do movimento · anos de candidatura 2014, 2018, 2022, 2026 · 13 figuras públicas eleitas · 12 arquivos com hash",
+   "validacoes": [
+    {
+     "ok": null,
+     "texto": "5 números calculados diferem do publicado (ver a página); as diferenças não foram reconciliadas"
+    },
+    {
+     "ok": null,
+     "texto": "Dados de 2026 são preliminares (snapshot de 06/10/2026)"
+    }
+   ],
+   "limites": [
+    "A cor/raça das candidaturas é autodeclarada e o TSE não a valida.",
+    "Comparações entre municípios e entre seções são agregadas (falácia ecológica): não dizem como indígenas votam.",
+    "Não há percentual indígena real do eleitorado: a cor/raça vem “não informada” em grande parte do cadastro.",
+    "Cor/raça em candidaturas existe no TSE só a partir de 2014 (autodeclaração exigida no registro desde então; confirmado por TSE/imprensa e pela ausência do campo em 2010 e antes); não há série anterior.",
+    "Eleitorado por cor/raça: o perfil_eleitorado do TSE de 2022 traz 100% NÃO INFORMADO e o de 2024 tem 89,8% não informado; o % indígena do eleitorado é, portanto, um piso parcial (2024) e não é comparável à população do Censo.",
+    "Candidaturas de 2014 a 2022 não têm etnia; a etnia opcional só aparece em 2024 e não foi usada aqui."
+   ],
+   "links": [
+    {
+     "titulo": "Agência Brasil (05/10/2026): renovação da Câmara",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/renovacao-da-camara-federal-chegou-35-veja-nova-composicao-da-casa",
+     "verificado": true,
+     "n": 3
+    },
+    {
+     "titulo": "Constituição Federal, arts. 231-232 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "verificado": true,
+     "n": 2
+    },
+    {
+     "titulo": "Agência Pública (2018): 35 anos depois do deputado Juruna, indígenas continuam sem representação política",
+     "url": "https://apublica.org/2018/04/35-anos-depois-do-deputado-juruna-indigenas-continuam-sem-representacao-politica-no-pais/",
+     "verificado": true,
+     "n": 2
+    },
+    {
+     "titulo": "MPF: Abril Indígena - novas regras incentivam participação indígena nas Eleições 2026",
+     "url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/abril-indigena-novas-regras-incentivam-participacao-de-povos-indigenas-nas-eleicoes-2026",
+     "verificado": true,
+     "n": 2
+    },
+    {
+     "titulo": "Marco temporal das terras indígenas - Wikipédia",
+     "url": "https://pt.wikipedia.org/wiki/Marco_temporal_das_terras_ind%C3%ADgenas",
+     "verificado": true,
+     "n": 2
+    },
+    {
+     "titulo": "Mongabay (10/2022)",
+     "url": "https://news.mongabay.com/2022/10/brazils-biggest-elected-indigenous-caucus-to-face-tough-2023-congress/",
+     "verificado": true,
+     "n": 2
+    }
+   ],
+   "arquivos": [
+    "indigenas_eleicoes.json"
+   ],
+   "paginas": [
+    "indigenas",
+    "mapa",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "indigenas-eleicoes",
+   "nome": "Povos indígenas e eleições — movimento, candidaturas, eleitos e comparações municipais",
+   "chip": {
+    "rotulo": "Indígenas",
+    "detalhe": "16 marcos"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "TSE — perfil do eleitorado, comparecimento e abstenção (dados abertos); IBGE Censos e PNAD; Ipeadata",
+    "url": "https://dadosabertos.tse.jus.br/"
+   },
+   "extraido_em": "2026-10-07T17:18:43+00:00",
+   "hashes": [
+    {
+     "rotulo": "perfil_eleitorado_2014",
+     "sha256": "a4276a1aeaae888a6a1df17ee2cd44f52b82778460cf39f40f9f5c2126e34f11",
+     "curto": "a4276a1a…26e34f11"
+    },
+    {
+     "rotulo": "perfil_eleitorado_2016",
+     "sha256": "0e511c46a2e22c1766c21dd5d8d5d9f50596e1316cc8243a52af74b384784ddd",
+     "curto": "0e511c46…84784ddd"
+    },
+    {
+     "rotulo": "perfil_eleitorado_2018",
+     "sha256": "d94cc9871ffbdbee3184c98b52c256560dffb5e19f62e27c91648a6fdfe4d803",
+     "curto": "d94cc987…dfe4d803"
+    },
+    {
+     "rotulo": "perfil_eleitorado_2020",
+     "sha256": "d949f62ee17ea553324ba1f73d1489e3e57be24099590a2f7c2006532aad7ef7",
+     "curto": "d949f62e…2aad7ef7"
+    },
+    {
+     "rotulo": "perfil_eleitorado_2022",
+     "sha256": "4bccad7e39ec13ea22a0ce4612d6147b4f06ee2c672cd5978112943951fb87e8",
+     "curto": "4bccad7e…51fb87e8"
+    },
+    {
+     "rotulo": "perfil_eleitorado_2024",
+     "sha256": "fd6703bdaa89aba023b3a21fc1dccede94aa315b985d91011ad5c2e971819de6",
+     "curto": "fd6703bd…71819de6"
+    },
+    {
+     "rotulo": "perfil_eleitorado_2026",
+     "sha256": "0952e9d9577be19380b444bfcc6a9a99397005e8dc839de9d5ec49914d75648b",
+     "curto": "0952e9d9…4d75648b"
+    },
+    {
+     "rotulo": "perfil_comparecimento_abstencao_2022",
+     "sha256": "fb4e03d95a9e8f4981cbe32aeca9e77facf9e5f83e7b882f0f8c1610f350a7df",
+     "curto": "fb4e03d9…f350a7df"
+    },
+    {
+     "rotulo": "perfil_comparecimento_abstencao_2024",
+     "sha256": "0d79bbea5b0cdce78feca66ce56ad91f50d7bb84d85e1aae049a53e2260d53df",
+     "curto": "0d79bbea…260d53df"
+    },
+    {
+     "rotulo": "territorios.json (Censo 2022: % pretos e pardos, % indígena)",
+     "sha256": "e78911a91a073ad827f4d812d3c4adfff8867f5ac959a283865f5ea44af0c8c1",
+     "curto": "e78911a9…4af0c8c1"
+    },
+    {
+     "rotulo": "series_historicas.json (analfabetismo 15+)",
+     "sha256": "f9caea48bd2f49d547407067cebdc466eb1435dc80829cec53dfad3950fd5459",
+     "curto": "f9caea48…50fd5459"
+    },
+    {
+     "rotulo": "TSE, votação por seção (pres_2022_t1)",
+     "sha256": "9353993de5cf03778aef44e01d4925e7ee105f5262491d344a2f0dbc956b0139",
+     "curto": "9353993d…956b0139"
+    },
+    {
+     "rotulo": "TSE, votação por seção (pres_2022_t2)",
+     "sha256": "9353993de5cf03778aef44e01d4925e7ee105f5262491d344a2f0dbc956b0139",
+     "curto": "9353993d…956b0139"
+    },
+    {
+     "rotulo": "TSE, votação por seção (pres_2026_t1)",
+     "sha256": "223c555acef3096e83628ce63726d4b4a91c7a78d31560825971c26222ce9aa4",
+     "curto": "223c555a…22ce9aa4"
+    }
+   ],
+   "cobertura": "14 arquivos baixados, com hash · anos do perfil 2014, 2016, 2018, 2020, 2022, 2024, 2026 · projeção até 2038",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Soma das UFs igual ao total nacional (total e analfabetos) em todos os anos"
+    },
+    {
+     "ok": null,
+     "texto": "Municipal 2022: 5570 de 5571 municípios com dado (1 sem perfil, mostrado hachurado)"
+    },
+    {
+     "ok": false,
+     "texto": "Projeção: erro médio 6.04% na validação retrospectiva (6 previsões); a faixa simulada p10–p90 cobriu só 33% dos casos: use a faixa calibrada"
+    }
+   ],
+   "limites": [
+    "Cadastro não é população: inclui inscritos que morreram ou mudaram, e “analfabeto” é grau de instrução declarado, não teste de leitura.",
+    "Cruzamentos são entre municípios (falácia ecológica) e não dizem como o analfabeto vota.",
+    "O comparecimento do analfabeto é facultativo; compare dentro da mesma faixa etária.",
+    "Eleitorado analfabeto antes de 1985 não tem número lido; só a taxa de analfabetismo da população.",
+    "Fontes oficiais do TSE (páginas de notícias), do Planalto e do Senado retornaram 403 ou erro de rede para o WebFetch; os números publicados do TSE foram lidos em resumos de busca e só servem de conferência dos CSV, que são a fonte dos números deste arquivo.",
+    "A narrativa histórica é interpretativa. Os campos 'interesses' (quem ganhou e perdeu) são hipóteses apoiadas na literatura lida; cada uma tem leitura rival e nenhuma foi testada com dados individuais."
+   ],
+   "links": [
+    {
+     "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+     "verificado": null,
+     "n": 7
+    },
+    {
+     "url": "https://www.nber.org/system/files/working_papers/w8512/w8512.pdf",
+     "verificado": null,
+     "n": 2
+    },
+    {
+     "url": "https://descomplica.com.br/gabarito-enem/questoes/2011/primeiro-dia/art-92-sao-excluidos-de-votar-nas-assembleias-paroquiais-os-menores-de-vinte-e-cinco-anos-nos/",
+     "verificado": null,
+     "n": 1
+    },
+    {
+     "url": "https://pt.wikipedia.org/wiki/Lei_Saraiva",
+     "verificado": null,
+     "n": 1
+    },
+    {
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35081-24-fevereiro-1891-532699-publicacaooriginal-15017-pl.html",
+     "verificado": null,
+     "n": 1
+    },
+    {
+     "url": "https://portal2.fazenda.rj.gov.br/wp-content/uploads/2022/09/1934.pdf",
+     "verificado": null,
+     "n": 1
+    }
+   ],
+   "arquivos": [
+    "eleitorado_analfabeto.json",
+    "analfabetos_municipal.json"
+   ],
+   "paginas": [
+    "voto",
+    "mapa",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "eleitorado-analfabeto",
+   "nome": "Eleitorado por instrução — perfil do TSE, comparecimento, cruzamentos e projeção a 2038",
+   "chip": {
+    "rotulo": "Voto analfabeto",
+    "detalhe": "9 períodos"
+   },
+   "status": "derivado",
+   "status_rotulo": "derivado"
+  },
+  {
+   "tipo": "texto",
+   "fonte": {
+    "nome": "Textos constitucionais e legais (Câmara, Senado, Planalto) e literatura citada em cada período",
+    "url": null
+   },
+   "extraido_em": "2026-10-07T17:18:43+00:00",
+   "hashes": [],
+   "cobertura": "9 períodos, de 1824 à CF/88 · 9 teorias",
+   "validacoes": [
+    {
+     "ok": null,
+     "texto": "8 de 9 números de eleitorado lidos na fonte"
+    }
+   ],
+   "limites": [
+    "Eleitorado analfabeto antes de 1985: nenhum número de analfabetos inscritos em 1986 foi lido; só a taxa de analfabetismo da população (1980: 25,3%) e a estimativa secundária de cerca de 19 milhões de analfabetos adultos em 1985.",
+    "Textos legais primários de 1824 (art. 90-92), 1934, 1946, 1967/69 e CF/88 art. 14 não foram lidos nos portais oficiais (403/erro de rede); regras vêm de transcrições e resumos de busca, exceto 1891 (art. 70, página da Câmara) e EC 25 (página do Senado).",
+    "Kang, Cunha e Limongi (citados no pedido) sobre a ampliação do eleitorado: não encontrei obra deles específica sobre o voto do analfabeto e não os cito. Maria do Carmo Campello de Souza (1983) entra só via Nicolau.",
+    "Estudos quantitativos sobre o efeito eleitoral da EC 25/1985 propriamente dita (partido, resultado): não encontrei; só a literatura sobre urna eletrônica (Fujiwara; Nicolau)."
+   ],
+   "links": [],
+   "arquivos": [
+    "eleitorado_analfabeto.json"
+   ],
+   "paginas": [
+    "voto"
+   ],
+   "nota": null,
+   "id": "voto-analfabeto",
+   "nome": "Voto do analfabeto — história do sufrágio e teorias",
+   "chip": {
+    "rotulo": "Sufrágio",
+    "detalhe": "9 períodos · 9 teorias"
    },
    "status": "parcial",
    "status_rotulo": "parcial"

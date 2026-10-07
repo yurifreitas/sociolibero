@@ -948,6 +948,199 @@ if (pv) {
   })
 }
 
+// ---------------------------------------------------------------- Biblioteca, eleições, classes, indígenas e voto do analfabeto (5ª rodada)
+const tx = read('textos_index.json')
+if (tx) {
+  const docs = tx.documentos ?? []
+  const semTxt = tx.sem_texto_integral ?? []
+  const conf = (s) => (s ?? '').toLowerCase()
+  const nConf = docs.filter((d) => conf(d.conferencia?.status).includes('original conferido')).length
+  const nParc = docs.filter((d) => conf(d.conferencia?.status).includes('parcial')).length
+  const nUnica = docs.length - nConf - nParc
+  const ancoras = docs.reduce((n, d) => n + (d.trechos_chave?.length ?? 0), 0)
+  const consolidadas = docs.filter((d) => /consolidad|vigente/i.test(d.tipo_de_versao ?? '')).length
+  add({
+    id: 'biblioteca-textos',
+    nome: 'Biblioteca de textos originais — leis, constituições e atos, com hash e trechos-chave',
+    chip: { rotulo: 'Textos', detalhe: `${nConf}/${docs.length} conferidos` },
+    status: 'parcial',
+    tipo: 'texto',
+    fonte: { nome: 'Planalto, Câmara, Senado e TSE (domínio público, Lei 9.610 art. 8º), com espelhos de terceiros onde o portal oficial bloqueia leitura automática', url: null },
+    extraido_em: tx.meta?.gerado_em ?? null,
+    cobertura: `${docs.length} textos integrais (${nf(tx.meta?.n_caracteres_total)} caracteres) · ${ancoras} trechos-chave ancorados · ${semTxt.length} documentos só com metadados e link`,
+    validacoes: [
+      { ok: true, texto: `${nConf} de ${docs.length} textos conferidos contra a fonte original` },
+      { ok: null, texto: `${nParc} com conferência cruzada parcial entre duas fontes oficiais; ${nUnica} extraídos de fonte única e não conferidos com segunda fonte` },
+      { ok: true, texto: 'Cada arquivo traz SHA-256 do corpo e do arquivo inteiro; o leitor refaz o cálculo no navegador (SubtleCrypto) e compara' },
+      { ok: null, texto: `${consolidadas} textos são versões consolidadas ou vigentes, que incorporam emendas posteriores: não são o texto de época` },
+    ],
+    limites: [
+      'O hash prova que o arquivo é o que foi baixado, não que o portal de origem está certo: erros da própria fonte são preservados e sinalizados.',
+      'Documentos protegidos por direito autoral (manifestos recentes, por exemplo) aparecem só com metadados e link.',
+      'Os trechos-chave ancoram uma frase exata; a leitura do “por que importa” é editorial.',
+    ],
+    links: topLinks([docs.map((d) => ({ titulo: d.titulo, url: d.origem?.url, verificado: conf(d.conferencia?.status).includes('original conferido') }))]),
+    arquivos: ['textos_index.json', 'textos/'],
+    paginas: ['biblioteca', 'eleicoes', 'classes', 'indigenas', 'voto', 'historia', 'metodo'],
+  })
+  add({
+    id: 'biblioteca-fontes',
+    nome: 'Biblioteca — origem e domínio público dos textos',
+    chip: { rotulo: 'Fontes dos textos', detalhe: `${docs.filter((d) => d.dominio_publico).length}/${docs.length} em domínio público` },
+    status: 'parcial',
+    tipo: 'texto',
+    fonte: { nome: 'Portais oficiais e espelhos listados em cada documento', url: null },
+    extraido_em: tx.meta?.gerado_em ?? null,
+    cobertura: `${docs.length} textos · ${docs.filter((d) => d.origem?.espelho).length} com espelho de terceiros declarado`,
+    validacoes: [{ ok: null, texto: 'O status de domínio público e o fundamento legal estão em cada documento; não foi feita revisão jurídica' }],
+    limites: ['Atos oficiais são excluídos da proteção autoral (Lei 9.610, art. 8º, IV); isso não cobre comentários, traduções ou compilações de terceiros.'],
+    links: [],
+    arquivos: ['textos_index.json'],
+    paginas: ['biblioteca'],
+  })
+}
+
+const et = read('eleicoes_timeline.json')
+if (et) {
+  const el = et.eleicoes ?? []
+  const revs = et.meta?.revisao ?? []
+  const regrasLidas = el.filter((e) => e.regras_de_voto?.regras_verificado === true).length
+  const revOk = revs.filter((r) => r.verificado === true).length
+  add({
+    id: 'eleicoes-timeline',
+    nome: 'Eleições, marcos de regra e movimentos — linha do tempo com fonte e selo por número',
+    chip: { rotulo: 'Eleições', detalhe: `${regrasLidas}/${el.length} regras lidas` },
+    status: 'parcial',
+    tipo: 'texto',
+    fonte: { nome: 'TSE (dados abertos, 1994 em diante), textos legais do Planalto e da Câmara, literatura acadêmica e Wikipédia (assinalada onde é a única fonte)', url: 'https://dadosabertos.tse.jus.br/' },
+    extraido_em: et.meta?.revisado_em ?? et.meta?.gerado_em ?? null,
+    cobertura: `${el.length} eleições e marcos de regra · ${et.movimentos?.length ?? 0} movimentos com passos datados · ${et.regras_ao_longo_do_tempo?.length ?? 0} regras do voto`,
+    validacoes: [
+      { ok: null, texto: `${regrasLidas} de ${el.length} regras de voto lidas no texto legal; o restante vem de fonte secundária` },
+      { ok: null, texto: `${revs.length} correções na revisão de fontes: ${revOk} lidas na fonte e ${revs.length - revOk} ainda marcadas como não verificadas` },
+      { ok: true, texto: 'Mesma ficha para todos os movimentos (origem, base social, organização, mídia, financiamento, alianças, viradas, resultado, declínio), independentemente do espectro' },
+    ],
+    limites: [
+      ...(et.limites ?? []).map(txt).slice(0, 3),
+      'O rótulo de espectro de cada movimento é convenção editorial, não medição.',
+    ],
+    links: topLinks([el.flatMap((e) => e.fontes ?? []), (et.movimentos ?? []).flatMap((m) => m.fontes ?? [])]),
+    arquivos: ['eleicoes_timeline.json'],
+    paginas: ['eleicoes', 'metodo'],
+  })
+}
+
+const ci = read('classes_interesses.json')
+if (ci) {
+  const gp = (ci.classes ?? []).flatMap((c) => c.ganhou_perdeu ?? [])
+  const gpOk = gp.filter((x) => x.verificado === true).length
+  const th = ci.teorias ?? []
+  const pd = ci.pessimas_decisoes ?? []
+  const fonteStr = (f) => (typeof f === 'string' ? { titulo: f.slice(0, 80), url: (f.match(/https?:\/\/\S+/) ?? [null])[0] } : f)
+  add({
+    id: 'classes-interesses',
+    nome: 'Classes e interesses — matriz regra × classe, teorias, decisões criticadas e futuro das regras',
+    chip: { rotulo: 'Classes', detalhe: `${gpOk}/${gp.length} fatos lidos` },
+    status: 'julgamento',
+    tipo: 'texto',
+    fonte: { nome: 'Historiografia e teoria política (resumos), com fonte por linha; ver cada ficha', url: null },
+    extraido_em: ci.meta?.gerado_em ?? null,
+    cobertura: `${ci.classes?.length ?? 0} classes e grupos · ${ci.matriz_regra_x_classe?.length ?? 0} células da matriz · ${th.length} teorias · ${pd.length} decisões criticadas · ${ci.futuro?.length ?? 0} propostas de regra`,
+    validacoes: [
+      { ok: null, texto: `${gpOk} de ${gp.length} linhas “ganhou ou perdeu” com fato lido na fonte; as demais são leitura da literatura` },
+      { ok: null, texto: `${th.filter((t) => t.verificado === true).length} de ${th.length} teorias com fonte lida` },
+      { ok: null, texto: `${pd.filter((p) => p.custo_ou_efeito?.verificado === true).length} de ${pd.length} custos ou efeitos documentados lidos na fonte` },
+    ],
+    limites: [
+      'Interesse de classe é hipótese de leitura, não medição de motivo: uma regra que favorece um grupo não prova que foi desenhada para isso.',
+      'Cada ficha traz a leitura contrária; propostas rejeitadas entram como risco, não como dano ocorrido.',
+      ...(ci.limites ?? []).map(txt).slice(0, 3),
+    ],
+    links: topLinks([th.flatMap((t) => (t.fontes ?? []).map(fonteStr)), pd.map((p) => ({ titulo: p.custo_ou_efeito?.fonte, url: p.custo_ou_efeito?.url, verificado: p.custo_ou_efeito?.verificado }))]),
+    arquivos: ['classes_interesses.json'],
+    paginas: ['classes', 'metodo'],
+  })
+}
+
+const ie = read('indigenas_eleicoes.json')
+if (ie) {
+  const fontes = ie.meta?.fontes ?? []
+  const difs = (ie.candidaturas?.validacao?.comparacoes ?? []).filter((c) => c.diferenca != null && c.diferenca !== 0).length
+  add({
+    id: 'indigenas-eleicoes',
+    nome: 'Povos indígenas e eleições — movimento, candidaturas, eleitos e comparações municipais',
+    chip: { rotulo: 'Indígenas', detalhe: `${ie.linha_do_tempo?.length ?? 0} marcos` },
+    status: 'parcial',
+    tipo: 'dado',
+    fonte: { nome: 'TSE (candidaturas e perfil do eleitorado), IBGE (Censo 2022), Funai e fontes históricas citadas por marco', url: 'https://dadosabertos.tse.jus.br/' },
+    extraido_em: ie.meta?.gerado_em ?? null,
+    cobertura: `${ie.linha_do_tempo?.length ?? 0} marcos do movimento · anos de candidatura ${Object.keys(ie.candidaturas?.anos ?? {}).join(', ')} · ${ie.eleitos_figuras_publicas?.length ?? 0} figuras públicas eleitas · ${fontes.length} arquivos com hash`,
+    hashes: fontes.map((f) => ({ rotulo: f.nome, sha256: f.sha256 })).filter((h) => h.sha256),
+    validacoes: [
+      { ok: null, texto: `${difs} números calculados diferem do publicado (ver a página); as diferenças não foram reconciliadas` },
+      { ok: null, texto: 'Dados de 2026 são preliminares (snapshot de 06/10/2026)' },
+    ],
+    limites: [
+      'A cor/raça das candidaturas é autodeclarada e o TSE não a valida.',
+      'Comparações entre municípios e entre seções são agregadas (falácia ecológica): não dizem como indígenas votam.',
+      'Não há percentual indígena real do eleitorado: a cor/raça vem “não informada” em grande parte do cadastro.',
+      ...(ie.meta?.lacunas ?? []).map(txt).slice(0, 3),
+    ],
+    links: topLinks([(ie.linha_do_tempo ?? []).flatMap((i) => i.fontes ?? [])]),
+    arquivos: ['indigenas_eleicoes.json'],
+    paginas: ['indigenas', 'mapa', 'metodo'],
+  })
+}
+
+const ea = read('eleitorado_analfabeto.json')
+if (ea) {
+  const fs = ea.meta?.fontes ?? []
+  const rs = ea.projecao_2038?.validacao_retrospectiva?.resumo_analfabetos
+  const mun = ea.validacao?.municipal ?? {}
+  const fonteStr = (f) => (typeof f === 'string' ? { titulo: f.slice(0, 80), url: (f.match(/https?:\/\/\S+/) ?? [null])[0] } : f)
+  add({
+    id: 'eleitorado-analfabeto',
+    nome: 'Eleitorado por instrução — perfil do TSE, comparecimento, cruzamentos e projeção a 2038',
+    chip: { rotulo: 'Voto analfabeto', detalhe: `${ea.historia?.length ?? 0} períodos` },
+    status: 'derivado',
+    tipo: 'dado',
+    fonte: { nome: 'TSE — perfil do eleitorado, comparecimento e abstenção (dados abertos); IBGE Censos e PNAD; Ipeadata', url: 'https://dadosabertos.tse.jus.br/' },
+    extraido_em: ea.meta?.gerado_em ?? null,
+    cobertura: `${fs.length} arquivos baixados, com hash · anos do perfil ${Object.keys(ea.serie_eleitorado_por_instrucao_nacional_sem_exterior ?? {}).join(', ')} · projeção até 2038`,
+    hashes: fs.map((f) => ({ rotulo: f.nome, sha256: f.sha256 })).filter((h) => h.sha256),
+    validacoes: [
+      { ok: Object.values(ea.validacao?.soma_ufs_igual_nacional ?? {}).every((v) => v.dif_total === 0 && v.dif_analfabetos === 0), texto: 'Soma das UFs igual ao total nacional (total e analfabetos) em todos os anos' },
+      { ok: null, texto: `Municipal 2022: ${mun['2022']?.com_dado ?? '—'} de ${mun['2022']?.municipios_ibge ?? '—'} municípios com dado (${mun['2022']?.sem_dado_null ?? '—'} sem perfil, mostrado hachurado)` },
+      ...(rs ? [{ ok: false, texto: `Projeção: erro médio ${rs.erro_absoluto_medio_modelo_pct}% na validação retrospectiva (${rs.n_previsoes} previsões); a faixa simulada p10–p90 cobriu só ${Math.round((rs.cobertura_faixa_p10_p90 ?? 0) * 100)}% dos casos: use a faixa calibrada` }] : []),
+    ],
+    limites: [
+      'Cadastro não é população: inclui inscritos que morreram ou mudaram, e “analfabeto” é grau de instrução declarado, não teste de leitura.',
+      'Cruzamentos são entre municípios (falácia ecológica) e não dizem como o analfabeto vota.',
+      'O comparecimento do analfabeto é facultativo; compare dentro da mesma faixa etária.',
+      'Eleitorado analfabeto antes de 1985 não tem número lido; só a taxa de analfabetismo da população.',
+      ...(ea.limites ?? []).map(txt).slice(0, 2),
+    ],
+    links: topLinks([(ea.historia ?? []).flatMap((h) => (h.fontes ?? []).map(fonteStr))]),
+    arquivos: ['eleitorado_analfabeto.json', 'analfabetos_municipal.json'],
+    paginas: ['voto', 'mapa', 'metodo'],
+  })
+  add({
+    id: 'voto-analfabeto',
+    nome: 'Voto do analfabeto — história do sufrágio e teorias',
+    chip: { rotulo: 'Sufrágio', detalhe: `${ea.historia?.length ?? 0} períodos · ${ea.teorias?.length ?? 0} teorias` },
+    status: 'parcial',
+    tipo: 'texto',
+    fonte: { nome: 'Textos constitucionais e legais (Câmara, Senado, Planalto) e literatura citada em cada período', url: null },
+    extraido_em: ea.meta?.gerado_em ?? null,
+    cobertura: `${ea.historia?.length ?? 0} períodos, de 1824 à CF/88 · ${ea.teorias?.length ?? 0} teorias`,
+    validacoes: [{ ok: null, texto: `${(ea.historia ?? []).filter((h) => h.eleitorado?.verificado === true).length} de ${ea.historia?.length ?? 0} números de eleitorado lidos na fonte` }],
+    limites: (ea.meta?.lacunas ?? []).map(txt).slice(0, 4),
+    links: [],
+    arquivos: ['eleitorado_analfabeto.json'],
+    paginas: ['voto'],
+  })
+}
+
 // vínculos extras (página → base já registrada)
 const link = (id, pages) => {
   const b = bases.find((x) => x.id === id)
@@ -969,9 +1162,16 @@ link('decisoes', ['marx'])
 link('fator-humano', ['violencia'])
 link('trans-arandu', ['violencia'])
 link('modelo-macro', ['marx'])
+link('historia', ['eleicoes', 'classes', 'indigenas', 'voto'])
+link('antes-de-1500', ['indigenas'])
+link('funai-incra', ['indigenas'])
+link('ibge-censo-2022', ['indigenas', 'voto'])
+link('tse-2022', ['eleicoes', 'voto'])
+link('forense', ['eleicoes'])
+link('trans-arandu', ['indigenas'])
 
 // ---------------------------------------------------------------- páginas → bases e resumo
-const PAGINAS = ['home', 'mapa', 'municipio', 'decisoes', 'historia', 'antes', 'gente', 'clima', 'potenciais', 'pilares', 'marx', 'violencia', 'forense', 'corrupcao', 'pessimismo', 'quebras', 'futuro', 'propostas', 'metodo', 'referencias']
+const PAGINAS = ['home', 'mapa', 'municipio', 'decisoes', 'historia', 'antes', 'gente', 'clima', 'potenciais', 'pilares', 'marx', 'violencia', 'forense', 'corrupcao', 'pessimismo', 'quebras', 'futuro', 'propostas', 'metodo', 'referencias', 'biblioteca', 'eleicoes', 'classes', 'indigenas', 'voto']
 const paginas = Object.fromEntries(PAGINAS.map((p) => [p, bases.filter((b) => b.paginas.includes(p) || p === 'metodo').map((b) => b.id)]))
 paginas.home = ['tse-2022', 'tse-2026', 'ibge-censo-2022', 'forense', 'modelo-macro', 'evolucoes', 'custo-corrupcao', 'fator-humano', 'historia', 'trans-arandu', 'clima', 'potenciais-brasil', 'pilares-pensamento'].filter((id) => bases.some((b) => b.id === id))
 paginas.futuro = ['futuros', 'leis-tecnologicas', 'modelo-macro', 'series-historicas', 'propostas'].filter((id) => bases.some((b) => b.id === id))

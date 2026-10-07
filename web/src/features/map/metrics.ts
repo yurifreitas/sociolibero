@@ -4,6 +4,7 @@ import { quantile, sortedFinite } from '@/lib/stats'
 import type { Election, ElectionRow, Exposicao, Forensics, SetorKey, Territorios } from '@/features/data/schemas'
 import type { ClimaRs } from '@/features/climars/schemas'
 import type { HumanoMunicipal } from '@/features/gente/schemas'
+import type { AnalfabetosMunicipal } from '@/features/eleitorado/schemas'
 import { toPercent } from '@/features/territorios/model'
 
 export type MetricKey =
@@ -23,6 +24,7 @@ export type MetricKey =
   | 'vitimas_negras'
   | 'mae_adolescente'
   | 'risco_rs'
+  | 'analfabetos'
 
 export interface MetricDef {
   key: MetricKey
@@ -39,6 +41,8 @@ export interface MetricDef {
   climaRs?: boolean
   /** vem de humano_municipal.json (por ano; null = sem dado) */
   humano?: { min: number; max: number; defaultYear: number }
+  /** vem de analfabetos_municipal.json (perfil do eleitorado TSE por ano; null = sem dado) */
+  analf?: { years: number[]; defaultYear: number }
   help: string
 }
 
@@ -58,6 +62,7 @@ export const METRICS: MetricDef[] = [
   { key: 'vitimas_negras', label: 'Vítimas de homicídio negras (%)', kind: 'warm', election: false, forensic: false, needsCandidate: false, needsSector: false, humano: { min: 2015, max: 2023, defaultYear: 2023 }, help: 'Pretos e pardos ÷ vítimas com raça informada (SIM). Só municípios com pelo menos 10 vítimas com raça informada.' },
   { key: 'mae_adolescente', label: 'Nascidos de mães até 17 anos (%)', kind: 'warm', election: false, forensic: false, needsCandidate: false, needsSector: false, humano: { min: 2014, max: 2023, defaultYear: 2023 }, help: 'Nascidos vivos de mães de até 17 anos ÷ nascidos vivos (SINASC). Só municípios com pelo menos 30 nascimentos.' },
   { key: 'risco_rs', label: 'Risco climático RS: prioridade preventiva (0–100)', kind: 'warm', election: false, forensic: false, needsCandidate: false, needsSector: false, climaRs: true, help: 'Índice de PRIORIDADE preventiva dos 497 municípios do RS (impacto observado em 2024, déficit de prevenção e exposição). Não é previsão de cheia. Município sem índice aparece hachurado e fora do ranking, nunca promovido.' },
+  { key: 'analfabetos', label: 'Eleitores analfabetos (% do eleitorado)', kind: 'warm', election: false, forensic: false, needsCandidate: false, needsSector: false, analf: { years: [2022, 2024, 2026], defaultYear: 2022 }, help: 'Eleitores com grau de instrução “analfabeto” no cadastro do TSE ÷ eleitorado do município (perfil do eleitorado por município). É declaração de instrução no cadastro, não um teste de leitura, e o cadastro inclui inscritos que já morreram ou mudaram. Município sem perfil no ano aparece hachurado, nunca como zero. 2026 é preliminar.' },
   { key: 'ti_area', label: 'Terras indígenas no município (ha)', kind: 'earth', election: false, forensic: false, needsCandidate: false, needsSector: false, territory: true, help: 'Área de terras indígenas sobreposta ao município, em hectares. Escala logarítmica.' },
 ]
 export const metricDef = (k: string): MetricDef => METRICS.find((m) => m.key === k) ?? (METRICS[0] as MetricDef)
@@ -98,6 +103,7 @@ export interface MetricContext {
   exposicao?: Exposicao | null
   territorios?: Territorios | null
   humano?: HumanoMunicipal | null
+  analfabetos?: AnalfabetosMunicipal | null
   climaRs?: ClimaRs | null
   ano?: number
   candidate?: string
@@ -141,6 +147,11 @@ export function valueOf(key: MetricKey, ibge: string, ctx: MetricContext, compar
     if (!t || !r) return null
     if (key === 'ti_area') return r.ti_area_ha ?? null
     return toPercent(t, key === 'pop_indigena' ? r.pct_indigena : r.pct_quilombola)
+  }
+  if (key === 'analfabetos') {
+    const y = ctx.ano
+    const r = y == null ? undefined : (ctx.analfabetos?.[ibge]?.[String(y) as '2022' | '2024' | '2026'] ?? undefined)
+    return r?.pct_analfabeto ?? null
   }
   if (key === 'risco_rs') return ctx.climaRs?.linhas[ibge]?.indice.score_atual ?? null
   if (key === 'homicidios' || key === 'vitimas_negras' || key === 'mae_adolescente') return humanoValue(key, ibge, ctx)

@@ -1,0 +1,15 @@
+.fig { margin: 0; padding: var(--space-4); display: flex; flex-direction: column; gap: var(--space-3); min-width: 0; }
+.head { display: flex; flex-wrap: wrap; gap: var(--space-1) var(--space-4); align-items: baseline; font-size: var(--fs-13); }
+.head span { color: var(--text-subtle); font-size: var(--fs-12); }
+.scroll { overflow-x: auto; }
+.svg { width: 100%; min-width: 720px; height: auto; display: block; }
+.grid { stroke: var(--border-soft); stroke-width: 1; stroke-dasharray: 2 5; }
+.tick { fill: var(--text-subtle); font-size: 11px; font-variant-numeric: tabular-nums; }
+.line { fill: none; stroke: color-mix(in oklch, var(--brand) 55%, transparent); stroke-width: 2; stroke-linejoin: round; }
+.marco { stroke: var(--warn); stroke-width: 1.2; stroke-dasharray: 4 3; }
+.marcoT { fill: var(--warn-text); font-size: 10.5px; }
+.pt { cursor: pointer; outline: none; }
+.pt:focus-visible circle { stroke: var(--focus); stroke-width: 3; }
+.on { fill: var(--brand); stroke: var(--surface); stroke-width: 1.5; }
+.off { fill: var(--surface); stroke: var(--brand); stroke-width: 2; stroke-dasharray: 2 2; }
+.none { color: var(--text-subtle); font-size: var(--fs-13); }

@@ -1,0 +1,21 @@
+.fixed { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-3); }
+.big { margin: 0; font-size: 2rem; font-weight: 650; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; line-height: 1.1; overflow-wrap: anywhere; }
+.charts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 420px), 1fr)); gap: var(--space-4); align-items: start; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 520px), 1fr)); gap: var(--space-4); align-items: start; }
+.sel { display: flex; flex-direction: column; gap: 4px; font-size: var(--fs-12); color: var(--text-subtle); min-width: 0; }
+.sel select { max-width: min(100%, 320px); }
+.det { font-size: var(--fs-13); }
+.det summary { cursor: pointer; color: var(--text-muted); font-weight: 600; padding: 4px 0; }
+.det summary:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.timeline { margin: 0; padding: 0 0 0 var(--space-6); list-style: none; display: grid; gap: var(--space-4); border-left: 2px solid var(--border-strong); }
+.item { position: relative; scroll-margin-top: calc(var(--chrome-h, 104px) + var(--space-8)); }
+.dot { position: absolute; left: calc(-1 * var(--space-6) - 7px); top: 24px; width: 12px; height: 12px; border-radius: 50%; background: var(--brand); border: 2px solid var(--bg); }
+.focus article { box-shadow: 0 0 0 2px var(--brand); }
+.pct { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; font-size: var(--fs-12); color: var(--text-subtle); text-align: right; }
+.pct b { font-size: var(--fs-24); color: var(--text); font-variant-numeric: tabular-nums; letter-spacing: -.02em; }
+.versus { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: var(--space-5, 20px); align-items: start; }
+.gp { padding-left: var(--space-3); border-left: 2px solid var(--border-strong); }
+.rival { padding: var(--space-3) var(--space-4); border-radius: var(--radius-md); background: var(--surface-2); border: 1px dashed var(--border-strong); }
+@media (max-width: 900px) { .versus { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 720px) { .timeline { padding-left: var(--space-4); } .dot { left: calc(-1 * var(--space-4) - 7px); } .pct { align-items: flex-start; text-align: left; } }
+.charts > *, .cards > * { min-width: 0; }

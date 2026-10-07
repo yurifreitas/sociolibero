@@ -24,6 +24,8 @@ export type MapControlsProps = {
   /** anos disponíveis para métricas por ano (violência); vazio = não se aplica */
   years?: number[]
   ano?: number
+  /** dica do seletor de ano (varia por camada) */
+  yearHint?: string
   onAno?: (y: number) => void
 }
 
@@ -81,7 +83,7 @@ export function MapControls(p: MapControlsProps) {
         </Field>
       )}
       {p.years && p.years.length > 0 && (
-        <Field label="Ano" hint="Atlas municipal vai até 2022; 2020 e 2023 usam o SIM.">
+        <Field label="Ano" hint={p.yearHint ?? 'Atlas municipal vai até 2022; 2020 e 2023 usam o SIM.'}>
           {(id) => (
             <Select id={id} value={String(p.ano)} onChange={(e) => p.onAno?.(Number(e.target.value))}>
               {[...p.years!].reverse().map((y) => (

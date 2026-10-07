@@ -12,6 +12,7 @@ import { useElection, useExposicao, useForensics, useGeo, useIndex, useTerritori
 import { useClimaRs } from '@/features/climars/hooks'
 import { NIVEL } from '@/components/organisms/ClimaRsBlock'
 import { useHumanoMunicipal } from '@/features/gente/hooks'
+import { useAnalfabetosMunicipal } from '@/features/eleitorado/hooks'
 import type { SetorKey } from '@/features/data/schemas'
 import { buildFillPlan, buildGeometry } from '@/features/map/geometry'
 import { computeValues, domainFor, formatTick, formatValue, metricDef, valueAt, type MetricKey } from '@/features/map/metrics'
@@ -45,6 +46,7 @@ export default function MapaPage() {
   const wantedDef = metricDef(get('m') ?? 'voto')
   const hmQ = useHumanoMunicipal(!!wantedDef.humano)
   const rsQ = useClimaRs(!!wantedDef.climaRs)
+  const anQ = useAnalfabetosMunicipal(!!wantedDef.analf)
 
   const geometry = useMemo(() => (geoQ.data ? buildGeometry(geoQ.data) : null), [geoQ.data])
 
@@ -53,14 +55,15 @@ export default function MapaPage() {
   if (!expQ.data) unavailable.exposicao = 'dados indisponíveis'
   if (!terrQ.data) for (const k of ['pop_indigena', 'pop_quilombola', 'ti_area'] as const) unavailable[k] = 'dados indisponíveis'
   if (rsQ.isError || (rsQ.isSuccess && !rsQ.data)) unavailable.risco_rs = 'dados indisponíveis'
+  if (anQ.isError || (anQ.isSuccess && !anQ.data)) unavailable.analfabetos = 'dados indisponíveis'
   if (hmQ.isError || (hmQ.isSuccess && !hmQ.data)) for (const k of ['homicidios', 'vitimas_negras', 'mae_adolescente'] as const) unavailable[k] = 'dados indisponíveis'
 
   const wanted = (get('m') ?? 'voto') as MetricKey
   const metric: MetricKey = unavailable[wanted] ? 'voto' : wanted
   const def = metricDef(metric)
-  const yearsAvail = def.humano ? (hmQ.data?.anos ?? []).filter((y) => y >= (def.humano?.min ?? 0) && y <= (def.humano?.max ?? 0)) : []
+  const yearsAvail = def.humano ? (hmQ.data?.anos ?? []).filter((y) => y >= (def.humano?.min ?? 0) && y <= (def.humano?.max ?? 0)) : (def.analf?.years ?? [])
   const yParam = Number(get('y'))
-  const ano = def.humano ? (yearsAvail.includes(yParam) ? yParam : def.humano.defaultYear) : undefined
+  const ano = def.humano ? (yearsAvail.includes(yParam) ? yParam : def.humano.defaultYear) : def.analf ? (yearsAvail.includes(yParam) ? yParam : def.analf.defaultYear) : undefined
   const candidates = elQ.data?.meta.candidatos ?? []
   const candParam = get('c')
   const leader = useMemo(() => {
@@ -76,8 +79,8 @@ export default function MapaPage() {
   const values = useMemo(() => {
     if (!geometry || !elQ.data) return null
     const ibges = geometry.features.map((f) => f.ibge)
-    return computeValues(metric, ibges, { election: elQ.data, other: otherQ.data, forensics: forQ.data, exposicao: expQ.data, territorios: terrQ.data, humano: hmQ.data, climaRs: rsQ.data, ano, candidate: cand, setor }, compare)
-  }, [geometry, elQ.data, otherQ.data, forQ.data, expQ.data, terrQ.data, hmQ.data, rsQ.data, ano, metric, cand, setor, compare])
+    return computeValues(metric, ibges, { election: elQ.data, other: otherQ.data, forensics: forQ.data, exposicao: expQ.data, territorios: terrQ.data, humano: hmQ.data, climaRs: rsQ.data, analfabetos: anQ.data, ano, candidate: cand, setor }, compare)
+  }, [geometry, elQ.data, otherQ.data, forQ.data, expQ.data, terrQ.data, hmQ.data, rsQ.data, anQ.data, ano, metric, cand, setor, compare])
 
   const domain = useMemo(() => (values ? domainFor(def, values, compare) : null), [values, def, compare])
   // RS sem índice (cobertura insuficiente) é hachurado: o cinza liso poderia ser lido como “risco baixo”
@@ -178,6 +181,7 @@ export default function MapaPage() {
         needsSector={def.needsSector}
         years={yearsAvail}
         ano={ano}
+        yearHint={def.analf ? 'Perfil do eleitorado do TSE; 2026 é preliminar.' : undefined}
         onAno={(y) => update({ y: String(y) })}
       />
       {domain && (
@@ -200,6 +204,12 @@ export default function MapaPage() {
           Só o Rio Grande do Sul (497 municípios), com dados do projeto climate (proveniência indireta; snapshot de 09/08/2026). Impacto e déficit são auto-declaração da prefeitura ao IBGE. <strong>Município hachurado não tem índice</strong> (cobertura de peso abaixo de 0,60) e fica fora do ranking: não é “risco baixo”.
         </InlineNote>
       )}
+      {def.analf && (
+        <InlineNote id="mapa-analfabetos" tone="warn" baseId="eleitorado-analfabeto" title="Declaração de instrução no cadastro, não leitura.">
+          Percentual de eleitores com grau de instrução “analfabeto” no perfil do eleitorado do TSE. O cadastro inclui inscritos que morreram ou mudaram, e o voto do analfabeto é facultativo. Município hachurado não tem perfil no ano (não é “zero”). O 2026 é preliminar. Cruzar esta camada com o voto é comparação entre municípios, não diz como o analfabeto vota. <a href="#/voto-analfabeto?aba=cruzamentos">Ver os cruzamentos e seus limites</a>.
+        </InlineNote>
+      )}
+      {def.analf && anQ.isPending && <p className={styles.help}>Carregando eleitores analfabetos por município (3,9 MB)…</p>}
       {def.climaRs && rsQ.isPending && <p className={styles.help}>Carregando risco climático do RS (1,2 MB)…</p>}
       {def.humano && hmQ.isPending && <p className={styles.help}>Carregando violência por município (14 MB)…</p>}
       {def.territory && terrQ.data && (

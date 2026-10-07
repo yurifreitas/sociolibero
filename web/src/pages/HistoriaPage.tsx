@@ -17,7 +17,10 @@ import { PeriodPanel } from '@/components/organisms/PeriodPanel'
 import { PrincipleList } from '@/components/organisms/PrincipleList'
 import { PageTemplate } from '@/components/templates/PageTemplate'
 import { useAneis } from '@/features/aneis/hooks'
+import { useTextosIndex } from '@/features/biblioteca/hooks'
+import { indiceCruzado } from '@/features/biblioteca/model'
 import { useHistoria, useIndex } from '@/features/data/hooks'
+import { useEleicoesTimeline } from '@/features/eleicoes/hooks'
 import { useCenariosMacro, useEvolucoes } from '@/features/evolucoes/hooks'
 import { eventTrilhas, isCrossing, parseYear, TRILHAS, trilhaLabel } from '@/features/historia/model'
 import { oklchToRgb, rgbCss } from '@/lib/color'
@@ -61,6 +64,9 @@ export default function HistoriaPage() {
     return (kind === 'ev' || kind === 'per') && id ? { kind: kind === 'ev' ? 'evento' : 'periodo', id } : null
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [get('sel')])
+  const txQ = useTextosIndex(sel?.kind === 'evento')
+  const elQ = useEleicoesTimeline(sel?.kind === 'evento')
+  const cruz = useMemo(() => indiceCruzado(txQ.data?.documentos ?? []), [txQ.data])
 
   const regimeColor = useMemo(() => {
     const order: string[] = []
@@ -195,7 +201,14 @@ export default function HistoriaPage() {
               ))}
             </ul>
             {selEvento ? (
-              <EventPanel evento={selEvento} periodo={periodoDoEvento} regimeColor={regimeColor} onClose={() => update({ sel: null })} />
+              <EventPanel
+                evento={selEvento}
+                periodo={periodoDoEvento}
+                regimeColor={regimeColor}
+                onClose={() => update({ sel: null })}
+                textos={cruz.porHistoria.get(selEvento.id) ?? []}
+                eleicoes={(elQ.data?.eleicoes ?? []).filter((x) => x.eventos_historia_ids?.includes(selEvento.id)).map((x) => ({ id: x.id, label: `${x.ano} · ${x.cargo}` }))}
+              />
             ) : selPeriodo ? (
               <PeriodPanel
                 periodo={selPeriodo}

@@ -17,6 +17,17 @@ export const NAV_GROUPS: NavGroup[] = [
     ],
   },
   {
+    key: 'eleicoes',
+    label: 'Eleições e poder',
+    items: [
+      { to: '/eleicoes', label: 'Eleições e movimentos', icon: 'ballot', desc: '60 eleições e marcos, 30 movimentos e como cada um se construiu' },
+      { to: '/voto-analfabeto', label: 'O voto do analfabeto', icon: 'users', desc: 'Do voto censitário à EC 25, quantos são hoje e a projeção a 2038' },
+      { to: '/indigenas-eleicoes', label: 'Indígenas e eleições', icon: 'leaf', desc: 'Movimento, candidaturas, eleitos e o que os municípios não dizem' },
+      { to: '/classes', label: 'Classes e interesses', icon: 'layers', desc: 'Quem ganha e perde com cada regra, péssimas decisões e o futuro' },
+      { to: '/biblioteca', label: 'Biblioteca de textos', icon: 'scroll', desc: '44 textos originais para ler, buscar e conferir o hash' },
+    ],
+  },
+  {
     key: 'modelos',
     label: 'Modelos e decisões',
     items: [

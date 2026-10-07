@@ -33,6 +33,11 @@ const PAGE_LABEL: Record<PageKey, { label: string; to: string }> = {
   propostas: { label: 'Propostas', to: '/propostas' },
   metodo: { label: 'Método & fontes', to: '/metodo' },
   referencias: { label: 'Referências', to: '/referencias' },
+  biblioteca: { label: 'Biblioteca de textos', to: '/biblioteca' },
+  eleicoes: { label: 'Eleições e movimentos', to: '/eleicoes' },
+  classes: { label: 'Classes e interesses', to: '/classes' },
+  indigenas: { label: 'Indígenas e eleições', to: '/indigenas-eleicoes' },
+  voto: { label: 'O voto do analfabeto', to: '/voto-analfabeto' },
 }
 
 function BaseCard({ b, open, onToggle, focus }: { b: Base; open: boolean; onToggle: () => void; focus: boolean }) {

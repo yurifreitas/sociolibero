@@ -10,7 +10,7 @@ export const STATUS_INFO: Record<BaseStatus, { label: string; explain: string; o
   'em-preparacao': { label: 'em preparação', explain: 'Ainda não gerado.', order: 6 },
 }
 
-export type PageKey = 'home' | 'mapa' | 'municipio' | 'decisoes' | 'historia' | 'antes' | 'gente' | 'clima' | 'potenciais' | 'pilares' | 'marx' | 'violencia' | 'forense' | 'corrupcao' | 'pessimismo' | 'quebras' | 'futuro' | 'propostas' | 'metodo' | 'referencias'
+export type PageKey = 'home' | 'mapa' | 'municipio' | 'decisoes' | 'historia' | 'antes' | 'gente' | 'clima' | 'potenciais' | 'pilares' | 'marx' | 'violencia' | 'forense' | 'corrupcao' | 'pessimismo' | 'quebras' | 'futuro' | 'propostas' | 'metodo' | 'referencias' | 'biblioteca' | 'eleicoes' | 'classes' | 'indigenas' | 'voto'
 
 export function pageKeyFromPath(pathname: string): PageKey {
   const seg = pathname.split('/').filter(Boolean)[0] ?? ''
@@ -23,6 +23,14 @@ export function pageKeyFromPath(pathname: string): PageKey {
       return 'municipio'
     case 'antes-de-1500':
       return 'antes'
+    case 'indigenas-eleicoes':
+      return 'indigenas'
+    case 'voto-analfabeto':
+      return 'voto'
+    case 'biblioteca':
+    case 'eleicoes':
+    case 'classes':
+      return seg
     case 'decisoes':
     case 'historia':
     case 'clima':
@@ -67,6 +75,11 @@ export const PROPOSAL_AREAS: Record<PageKey, string[]> = {
   propostas: [],
   metodo: [],
   referencias: [],
+  biblioteca: ['dados'],
+  eleicoes: ['antifraude', 'dados'],
+  classes: ['dados', 'macro'],
+  indigenas: ['dados'],
+  voto: ['dados', 'antifraude'],
 }
 export const AREA_LABEL: Record<string, string> = {
   antifraude: 'Antifraude',

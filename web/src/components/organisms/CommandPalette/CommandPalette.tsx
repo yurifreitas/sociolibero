@@ -5,13 +5,16 @@ import { StatusGlyph } from '@/components/atoms/StatusGlyph'
 import { useBases } from '@/features/bases/hooks'
 import { useChrome } from '@/features/chrome/ChromeContext'
 import { useGeo, useIndex } from '@/features/data/hooks'
+import { useTextosIndex } from '@/features/biblioteca/hooks'
+import { hrefTrecho } from '@/features/biblioteca/model'
+import { useEleicoesTimeline } from '@/features/eleicoes/hooks'
 import { useMarx } from '@/features/marx/hooks'
 import { useViolencia } from '@/features/violencia/hooks'
 import { useTheme } from '@/lib/theme'
 import { useVtNavigate } from '@/lib/viewTransition'
 import styles from './CommandPalette.module.css'
 
-type Cmd = { id: string; group: 'Páginas' | 'Municípios' | 'Pensadores' | 'Trechos de Marx' | 'Bases' | 'Ações'; label: string; hint?: string; icon?: IconName; glyph?: 'base'; keywords?: string; run: () => void; status?: string }
+type Cmd = { id: string; group: 'Páginas' | 'Municípios' | 'Pensadores' | 'Trechos de Marx' | 'Biblioteca' | 'Eleições e movimentos' | 'Bases' | 'Ações'; label: string; hint?: string; icon?: IconName; glyph?: 'base'; keywords?: string; run: () => void; status?: string }
 
 const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
 const score = (q: string, text: string) => {
@@ -25,6 +28,11 @@ const score = (q: string, text: string) => {
 const PAGES: { to: string; label: string; icon: IconName; kw: string }[] = [
   { to: '/', label: 'Visão geral', icon: 'home', kw: 'home inicio painel kpi' },
   { to: '/mapa', label: 'Mapa por município', icon: 'map', kw: 'eleicoes coropletico' },
+  { to: '/eleicoes', label: 'Eleições, regras do voto e movimentos', icon: 'ballot', kw: 'linha do tempo eleitoral movimentos integralismo tenentismo diretas urna voto secreto sufragio' },
+  { to: '/voto-analfabeto', label: 'O voto do analfabeto', icon: 'users', kw: 'ec 25 lei saraiva facultativo analfabetismo escolaridade projecao 2038' },
+  { to: '/indigenas-eleicoes', label: 'Povos indígenas e eleições', icon: 'leaf', kw: 'candidaturas indigenas terras indigenas apib bancada cacique' },
+  { to: '/classes', label: 'Classes e interesses', icon: 'layers', kw: 'matriz regra classe pessimas decisoes futuro regras eleitorais coronelismo operariado' },
+  { to: '/biblioteca', label: 'Biblioteca de textos originais', icon: 'scroll', kw: 'constituicao lei decreto texto integral hash sha256 documento' },
   { to: '/decisoes', label: 'Decisões econômicas e institucionais', icon: 'scale', kw: 'quorum stf pec' },
   { to: '/historia', label: 'História institucional', icon: 'history', kw: 'constituicao ditadura marighella' },
   { to: '/antes-de-1500', label: 'Antes de 1500: povos, clima e manejo', icon: 'hourglass', kw: 'pre colombiano indigenas sambaqui terra preta ancestralidade etnias' },
@@ -67,6 +75,8 @@ export function CommandPalette() {
   const wantText = paletteOpen && q.trim().length >= 2
   const marxQ = useMarx(wantText)
   const violQ = useViolencia(wantText)
+  const bibQ = useTextosIndex(wantText)
+  const eleQ = useEleicoesTimeline(wantText)
 
   useEffect(() => {
     const d = dlg.current
@@ -130,8 +140,32 @@ export function CommandPalette() {
             .slice(0, 6)
             .map(([x]) => ({ id: `mt:${x.id}`, group: 'Trechos de Marx' as const, label: `${x.obra.replace(/\s*\(.*$/, '')}${x.ano ? ` (${x.ano})` : ''} · ${x.tema ?? ''}`, icon: 'quote' as const, hint: 'trecho original', run: close(() => go(`/marx?aba=textos&t=${x.id}`)) }))
         : []
-    return [...rank(pages), ...m, ...pens, ...autores, ...trechos, ...rank(bases), ...rank(actions)]
-  }, [q, munis, basesQ.data, violQ.data, marxQ.data, pref, closePalette, go, openDrawer, setPref])
+    const docs: Cmd[] =
+      nq.length >= 3
+        ? (bibQ.data?.documentos ?? []).flatMap((doc) => [
+            [{ id: `bd:${doc.id}`, label: doc.titulo, hint: doc.ano ? `texto original · ${doc.ano}` : 'texto original', go: `/biblioteca?id=${doc.id}`, kw: `${doc.tipo ?? ''} ${doc.autoridade ?? ''}` }],
+            (doc.trechos_chave ?? []).map((t) => ({ id: `bt:${doc.id}:${t.id}`, label: `${t.rotulo} · ${doc.titulo.slice(0, 48)}`, hint: 'trecho-chave', go: hrefTrecho({ doc, trecho: t }), kw: `${t.tema ?? ''} ${t.por_que_importa ?? ''}` })),
+          ].flat())
+            .map((x) => [x, Math.min(score(nq, x.label), score(nq, x.kw))] as const)
+            .filter(([, sc]) => Number.isFinite(sc))
+            .sort((a, b) => a[1] - b[1])
+            .slice(0, 6)
+            .map(([x]) => ({ id: x.id, group: 'Biblioteca' as const, label: x.label, icon: 'scroll' as const, hint: x.hint, run: close(() => go(x.go)) }))
+        : []
+    const eleicoesCmd: Cmd[] =
+      nq.length >= 2
+        ? [
+            ...(eleQ.data?.eleicoes ?? []).map((e) => ({ id: `el:${e.id}`, label: `${e.ano} · ${e.cargo}`, hint: 'eleição ou marco', go: `/eleicoes?e=${e.id}`, kw: `${e.regime ?? ''} ${e.tipo}` })),
+            ...(eleQ.data?.movimentos ?? []).map((m) => ({ id: `mv:${m.id}`, label: m.nome, hint: 'movimento', go: `/eleicoes?m=${m.id}`, kw: `${m.periodo ?? ''} ${m.espectro ?? ''}` })),
+          ]
+            .map((x) => [x, Math.min(score(nq, x.label), score(nq, x.kw))] as const)
+            .filter(([, sc]) => Number.isFinite(sc))
+            .sort((a, b) => a[1] - b[1])
+            .slice(0, 6)
+            .map(([x]) => ({ id: x.id, group: 'Eleições e movimentos' as const, label: x.label, icon: 'ballot' as const, hint: x.hint, run: close(() => go(x.go)) }))
+        : []
+    return [...rank(pages), ...m, ...eleicoesCmd, ...docs, ...pens, ...autores, ...trechos, ...rank(bases), ...rank(actions)]
+  }, [q, munis, basesQ.data, violQ.data, marxQ.data, bibQ.data, eleQ.data, pref, closePalette, go, openDrawer, setPref])
 
   useEffect(() => setActive(0), [q])
   useEffect(() => {

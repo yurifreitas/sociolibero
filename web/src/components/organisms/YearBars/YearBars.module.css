@@ -1,0 +1,18 @@
+.fig { margin: 0; padding: var(--space-4); display: flex; flex-direction: column; gap: var(--space-2); min-width: 0; }
+.cap { display: flex; flex-direction: column; gap: 2px; font-size: var(--fs-14); }
+.cap span { font-size: var(--fs-12); color: var(--text-subtle); }
+.svg { width: 100%; height: auto; display: block; }
+.axis { stroke: var(--border-strong); stroke-width: 1; }
+.cat { fill: var(--text-muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.val { fill: var(--text); font-size: 11px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.na { fill: var(--text-subtle); font-size: 12px; }
+.bar { transition: filter var(--dur-1) var(--ease-out); }
+.bar:hover { filter: brightness(1.12); }
+.brand { fill: var(--brand); }
+.accent { fill: var(--accent); }
+.muted { fill: color-mix(in oklch, var(--text-subtle) 55%, var(--surface)); }
+.leg { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); font-size: var(--fs-12); color: var(--text-muted); }
+.sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 4px; vertical-align: -2px; }
+.sw.brand { background: var(--brand); }
+.sw.accent { background: var(--accent); }
+.sw.muted { background: color-mix(in oklch, var(--text-subtle) 55%, var(--surface)); }

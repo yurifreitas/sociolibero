@@ -130,3 +130,51 @@ O seletor de matriz da aba Evoluções oferece Brasil/AL/Mundo; o semi-Markov n�
 - `custo_economico[]`: `tipo` = contagem|estimativa; `valor_rs_bi` pode ser `null`; `verificado` = lido em página que cita o órgão (documentos primários não abertos).
 - O debate punitivista × preventivo é o diálogo `becker × sampson`; `divergencia` traz as duas "melhores versões", a evidência e a síntese em texto corrido, que a UI separa por regex (cai para o texto bruto se o padrão mudar).
 - Links de entrada: `/violencia?p=<id>` abre o detalhe; `&aba=<tipologia|dialogos|dados|custo|debate|perguntas>`; `&g=<grupo>` filtra.
+
+
+## Quinta rodada (Biblioteca, Eleições, Classes, Indígenas, Voto do analfabeto)
+Rotas: `/biblioteca`, `/eleicoes`, `/classes`, `/indigenas-eleicoes`, `/voto-analfabeto` e a camada de mapa `m=analfabetos`. Grupo de navegação "Eleições e poder".
+Todos os esquemas são `looseObject` com campos `nullish`: o que não está no contrato é ignorado, não quebra.
+
+### `textos_index.json` + `textos/<id>.txt` (página `/biblioteca`)
+`{meta{titulo,gerado_em,descricao,como_verificar_hash,n_textos,n_sem_texto,n_caracteres_total}, documentos[], sem_texto_integral[]}`.
+- `documentos[]`: `{id,titulo,data,ano,tipo,subtipo,autoridade,status,arquivo,texto_disponivel,origem{url,espelho,tipo_de_fonte,data_captura,sha256,sha256_arquivo},tipo_de_versao,n_caracteres,trechos_chave[],conferencia{status,conferido_contra,observacoes,lacunas},dominio_publico,base_legal_dominio_publico,texto_vigente_url}`.
+- `trechos_chave[]`: `{id,rotulo,tema,ancora,por_que_importa,eleicoes_ids[],movimentos_ids[],historia_ids[],indigenas_ids[]}`; a UI localiza `ancora` no corpo sem diferenciar acento e maiúsculas, e destaca; âncora não encontrada aparece como aviso, nunca some em silêncio.
+- **Formato do `.txt`:** cabeçalho de proveniência, depois a linha exata `=== TEXTO ===`, depois o corpo. **Armadilha:** o cabeçalho cita o marcador entre aspas, então o corpo começa na linha que é só o marcador (regex multilinha `^=== TEXTO ===$`), não na primeira ocorrência da string.
+- **Hash:** `origem.sha256` = SHA-256 do corpo (tudo após a linha do marcador, sem o `\n` final, UTF-8); `origem.sha256_arquivo` = SHA-256 do arquivo inteiro. Conferido nos 44 textos. O botão "Verificar hash no navegador" refaz o cálculo (SubtleCrypto).
+- `conferencia.status` é texto livre; a UI classifica por substring (`original conferido` > `parcial` > `fonte única`). Hoje: 6 conferidos, 12 parciais, 26 de fonte única.
+- `sem_texto_integral[]` (6) aparecem como cartões só com metadados e link (direito autoral). Texto de até ~300 mil caracteres: o leitor divide em blocos memoizados com `content-visibility: auto`.
+- Links de entrada: `/biblioteca?id=<doc>&trecho=<id>` (+ filtros `tipo,status,versao,conf,tema,q`).
+
+### `eleicoes_timeline.json` (página `/eleicoes`)
+`{meta{gerado_em,aviso,criterio_verificacao,revisado_em,revisao[]}, eleicoes[], movimentos[], regras_ao_longo_do_tempo[], limites[]}`.
+- `eleicoes[]` (60, incluindo marcos de regra que não são eleição): `{id,ano,data,cargo,tipo,regime,regras_de_voto{quem_votava,voto_secreto,mulheres,analfabetos,obrigatorio,idade_minima,regras_verificado},eleitorado{valor,pct_populacao,tipo,fonte,url,nota,verificado},comparecimento{...},resultados[],sistema,financiamento,mudancas_de_regra[],movimentos_ids[],eventos_historia_ids[],fontes[]}`.
+  **Divergência:** `eleitorado.valor` é número ou texto (estimativa, faixa); a UI formata sem converter. Booleanos nulos viram "sem dado", nunca "não".
+- `movimentos[]` (30): `{id,nome,periodo,espectro,origem,como_se_construiu[{passo,data,descricao,fonte,url,verificado}],pautas[],base_social,organizacao[],midia_e_tecnologia[],financiamento_e_regras,aliancas_e_rupturas[],viradas[],resultado_eleitoral[],declinio_ou_transformacao,controversias,eleicoes_ids[],fontes[]}`. `periodo` é texto livre ("1932–1937"); `parsePeriodo` extrai ano inicial e final por regex e cai para ponto se só houver um ano.
+- `espectro` é convenção editorial (rótulos fixos em `features/eleicoes/model.ts`), assim como a faixa de regimes da timeline; nenhum dos dois é medição.
+- `meta.revisao[]` (174): `{id,campo,antes,depois,motivo,fonte{titulo,url},verificado,data}`; `antes`/`depois` podem ser texto, número ou objeto (a UI serializa). 166 `verificado:true`, 8 `false`.
+- Links de entrada: `/eleicoes?e=<id>`, `?m=<id>`, `?aba=<movimentos|regras|revisao>`, `?ep=<época>`, filtros `tipo,esp,reg,q`.
+
+### `classes_interesses.json` (página `/classes`)
+`{meta{gerado_em,aviso,criterio_verificacao,contagens}, classes[], teorias[], matriz_regra_x_classe[], pessimas_decisoes[], futuro[], limites[]}`.
+- `classes[]` (23): `{id,nome,base_material,interesses{voto,sistema,financiamento,terra,estado},aliados[],periodos[],ganhou_perdeu[{regra,efeito,evidencia,fonte,url,verificado}],leitura_contraria,status_interesses,movimentos_ids[],fontes[]}`.
+- `matriz_regra_x_classe[]` (79 células, esparsa): `{regra,classe_id,ganha_ou_perde,nota}`; célula ausente = **sem leitura** (não "neutro"). `ganha_ou_perde` aceita `ganha|perde|ambiguo|ambíguo`; qualquer outro valor vira "?".
+- `pessimas_decisoes[]` (19): `custo_ou_efeito{valor(texto),tipo(contagem|estimativa),fonte,url,nota,verificado}`; `valor` é texto livre, nunca somado. `futuro[]` (14): `{proposta,status,quem_ganha_perde,evidencia_comparada,riscos,sinais_precoces[],mecanismo_na_cadeia,aneis_ids[],decisoes_ids[],propostas_ids[]}`; ids de decisão ausentes em `decisoes.json` aparecem sem link.
+- `fontes` em classes e teorias pode ser string (com URL embutida e `[lido]`) ou objeto; a UI extrai a URL por regex.
+
+### `indigenas_eleicoes.json` (página `/indigenas-eleicoes`)
+`{meta{gerado_em,aviso,fontes[{nome,url,sha256}],lacunas[]}, linha_do_tempo[], candidaturas{anos{2014,2018,2022,2026},municipal_2024,censo_2022,eleitorado_2022_cor_raca,eleitorado_2024_cor_raca,validacao{comparacoes[]}}, municipios_indigenas{metodo,resultados{<pleito>{comparacoes[]}},secoes_em_terras_indigenas,ressalvas[]}, eleitos_figuras_publicas[], limites[]}`.
+- **Divergência (4 anos gerais × 5 ciclos):** `candidaturas.anos` tem 2014, 2018, 2022 e 2026 (eleições gerais), mais `municipal_2024` à parte; a UI não emenda gerais com municipais no mesmo gráfico. 2026 é preliminar.
+- `validacao.comparacoes[]` traz números calculados × publicados com `diferenca`; diferenças ≠ 0 são destacadas e **não reconciliadas** (inclui o caso Waiãpi). Cor/raça "não informado" no eleitorado impede qualquer % indígena real.
+- Comparação **municipal** (`comparacoes[].diferenca_pp_dentro_da_uf`, IC95 bootstrap) e **por seção** (`secoes_em_terras_indigenas.comportamento.turnos`, só 2022) aparecem lado a lado; a UI diz quando o sinal municipal some por seção. Ambas são agregadas (falácia ecológica).
+- `eleitos_figuras_publicas[]`: só cargos federais e governos; nenhum nome não eleito.
+
+### `eleitorado_analfabeto.json` e `analfabetos_municipal.json` (página `/voto-analfabeto` e camada de mapa)
+`eleitorado_analfabeto.json`: `{meta, historia[9], serie_analfabetismo[], serie_eleitorado_por_instrucao_nacional_sem_exterior{<ano>}, eleitorado_por_instrucao, comparecimento_por_instrucao, cruzamentos{metodo,resultados{pres_2022_t1,pres_2022_t2,pres_2026_t1},ressalvas}, projecao_2038, teorias[], validacao, limites[]}`.
+- **Divergência:** `comparecimento_por_instrucao['2026']` é `null` (sem dado) e `ressalva` é string no mesmo objeto dos anos; a UI só oferece 2022 e 2024. Células etárias com menos de 500 aptos viram "—".
+- `historia[].eleitorado.pct_populacao` pode ser `null` (Estado Novo); `verificado:false` aparece como "estimativa".
+- `projecao_2038.faixa.nacional_por_ano[ano]` traz **duas faixas**: `analfabetos.p10/p90` (simulada, estreita: só incerteza de κ e entrantes) e `analfabetos_faixa_calibrada_p10_p90` (soma o erro RMS da validação). Na validação retrospectiva a simulada cobriu só **33%** (`cobertura_faixa_p10_p90`, 6 previsões); o gráfico mostra as duas e a nota manda ler a calibrada.
+- `analfabetos_municipal.json` (3,9 MB, carregado só quando a camada é aberta): `{<ibge7>:{uf,'2022','2024','2026'}}`, cada ano `{eleitores,analfabeto,le_escreve,pct_analfabeto,pct_le_escreve,pct_analfabeto_60mais}` ou `null`. 2022: 5.570 de 5.571 municípios com dado (5101837 sem perfil, hachurado). Camada `m=analfabetos`, `y=2022|2024|2026`.
+
+### Bases e páginas
+`bases.json` ganhou: `biblioteca-textos`, `biblioteca-fontes`, `eleicoes-timeline`, `classes-interesses`, `indigenas-eleicoes`, `eleitorado-analfabeto`, `voto-analfabeto`; `PageKey` ganhou `biblioteca|eleicoes|classes|indigenas|voto`. Os números dos chips são lidos dos arquivos. Os subtítulos de página citam "60 eleições e marcos" e "30 movimentos" como texto fixo (pendente: ler de `meta`).

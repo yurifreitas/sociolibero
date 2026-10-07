@@ -1,0 +1,55 @@
+.fig { margin: 0; padding: var(--space-4); display: flex; flex-direction: column; gap: var(--space-3); min-width: 0; }
+.toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--space-3); }
+.presets { display: flex; flex-wrap: wrap; gap: var(--space-1); padding: 3px; background: var(--surface-2); border: 1px solid var(--border); border-radius: var(--radius-md); max-width: 100%; overflow-x: auto; scrollbar-width: thin; }
+.preset { border: 0; background: transparent; color: var(--text-muted); font: inherit; font-size: var(--fs-12); padding: 6px 10px; border-radius: var(--radius-sm); cursor: pointer; white-space: nowrap; }
+.preset:hover { color: var(--text); background: var(--surface-3); }
+.preset:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
+.presetOn { background: var(--surface); color: var(--text); box-shadow: var(--shadow-1); font-weight: 600; }
+.zoom { display: inline-flex; align-items: center; gap: 2px; }
+.win { margin-left: var(--space-2); font-size: var(--fs-12); color: var(--text-subtle); font-variant-numeric: tabular-nums; }
+
+.scroll { overflow-x: auto; border-radius: var(--radius-md); }
+.scroll:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.svg { width: 100%; min-width: 820px; height: auto; display: block; touch-action: pan-y; cursor: grab; user-select: none; }
+.svg:active { cursor: grabbing; }
+.grid { stroke: var(--border-soft); stroke-width: 1; stroke-dasharray: 2 5; }
+.tick { fill: var(--text-subtle); font-size: 10.5px; font-variant-numeric: tabular-nums; }
+.lane { fill: var(--text-subtle); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; }
+.axis { stroke: var(--border-strong); stroke-width: 1.2; }
+.rgA { fill: color-mix(in oklch, var(--brand) 18%, var(--surface-2)); }
+.rgB { fill: color-mix(in oklch, var(--accent) 18%, var(--surface-2)); }
+.rgText { fill: var(--text-muted); font-size: 11.5px; font-weight: 600; }
+
+.item { cursor: pointer; outline: none; }
+.item:focus-visible .dot, .item:focus-visible .barRect { stroke: var(--focus); stroke-width: 3; }
+.dot { fill: var(--brand); stroke: var(--surface); stroke-width: 1.5; transition: transform var(--dur-1) var(--ease-out); }
+.item:hover .dot { filter: brightness(1.2); }
+.indireta, .marco { fill: color-mix(in oklch, var(--accent) 55%, var(--surface)); stroke: var(--accent); stroke-width: 1.4; }
+.marco { fill: var(--surface); }
+.municipal { fill: var(--surface); stroke: var(--brand); stroke-width: 1.8; }
+.dotOn { stroke: var(--text); stroke-width: 2.4; }
+.lbl { fill: var(--text-subtle); font-size: 10px; font-variant-numeric: tabular-nums; pointer-events: none; }
+.lblOn { fill: var(--text); font-weight: 700; }
+
+.esq { --c: oklch(62% 0.12 200); }
+.cen { --c: oklch(72% 0.13 85); }
+.dir { --c: oklch(60% 0.15 305); }
+.trv { --c: oklch(62% 0.06 250); }
+.nda { --c: oklch(66% 0.015 250); }
+.barRect { fill: color-mix(in oklch, var(--c) 30%, var(--surface)); stroke: var(--c); stroke-width: 1.3; }
+.esq .barRect { stroke-dasharray: none; }
+.cen .barRect { stroke-dasharray: 6 3; }
+.dir .barRect { stroke-dasharray: 2 3; }
+.nda .barRect { stroke-dasharray: 1 3; }
+.barText { fill: var(--text); font-size: 10.5px; pointer-events: none; }
+.barOn .barRect { stroke: var(--text); stroke-width: 2.4; stroke-dasharray: none; }
+.bar:hover .barRect { filter: brightness(1.15); }
+
+.cap { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); align-items: center; font-size: var(--fs-12); color: var(--text-subtle); }
+.espLeg { display: inline-flex; flex-wrap: wrap; gap: var(--space-1) var(--space-3); align-items: center; }
+.sw { display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 4px; vertical-align: -2px; }
+.swGeral { background: var(--brand); border-radius: 50%; }
+.swIndireta { background: var(--surface); border: 2px solid var(--accent); transform: rotate(45deg) scale(.8); }
+.swMun { background: var(--surface); border: 2px solid var(--brand); border-radius: 50%; }
+.espLeg .esq, .espLeg .cen, .espLeg .dir, .espLeg .trv, .espLeg .nda { background: color-mix(in oklch, var(--c) 40%, var(--surface)); border: 1.5px solid var(--c); }
+@media (prefers-reduced-motion: reduce) { .dot { transition: none; } }

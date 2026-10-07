@@ -30,6 +30,11 @@ const PAGE_REFS: Partial<Record<PageKey, Cfg>> = {
   pilares: { categories: [], baseLinks: ['pilares-pensamento'] },
   marx: { categories: [], baseLinks: ['marx-capitalismo'] },
   violencia: { categories: [], baseLinks: ['pensadores-violencia', 'fator-humano'] },
+  biblioteca: { categories: [], baseLinks: ['biblioteca-textos', 'biblioteca-fontes'] },
+  eleicoes: { categories: ['forense-eleitoral'], baseLinks: ['eleicoes-timeline', 'biblioteca-textos'] },
+  classes: { categories: [], baseLinks: ['classes-interesses', 'eleicoes-timeline'] },
+  indigenas: { categories: [], baseLinks: ['indigenas-eleicoes', 'antes-de-1500'] },
+  voto: { categories: [], baseLinks: ['voto-analfabeto', 'eleitorado-analfabeto'] },
 }
 
 const authors = (a: Reference['autores']) => (Array.isArray(a) ? a.join('; ') : (a ?? ''))

@@ -1,0 +1,23 @@
+.fixed { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-3); }
+.big { margin: 0; font-size: 2rem; font-weight: 650; letter-spacing: -0.03em; font-variant-numeric: tabular-nums; line-height: 1.1; }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 560px), 1fr)); gap: var(--space-4); align-items: start; }
+.card { scroll-margin-top: calc(var(--chrome-h, 104px) + var(--space-8)); transition: box-shadow var(--dur-1) var(--ease-out); }
+.focus { box-shadow: 0 0 0 2px var(--brand); }
+.int { display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: var(--space-1) var(--space-4); margin: 0; font-size: var(--fs-13); padding: var(--space-3) var(--space-4); background: var(--surface-2); border-radius: var(--radius-md); }
+.int dt { color: var(--text-subtle); }
+.int dd { margin: 0; color: var(--text-muted); line-height: 1.5; min-width: 0; overflow-wrap: anywhere; }
+.contra { padding: var(--space-3) var(--space-4); border-radius: var(--radius-md); background: var(--surface-2); border: 1px dashed var(--border-strong); }
+.versus { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: var(--space-4); align-items: start; }
+.cost { padding: var(--space-3) var(--space-4); border-radius: var(--radius-md); border: 1px solid var(--border-soft); background: var(--surface); display: grid; gap: var(--space-1); }
+.costVal { margin: 0; font-size: var(--fs-16); font-weight: 600; line-height: 1.35; overflow-wrap: anywhere; }
+.det { font-size: var(--fs-13); }
+.det summary { cursor: pointer; color: var(--text-muted); font-weight: 600; padding: 4px 0; }
+.det summary:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.det > p { margin: var(--space-2) 0 0; }
+.gp { margin: var(--space-2) 0 0; padding: 0; list-style: none; display: grid; gap: var(--space-3); }
+.gp li { padding-left: var(--space-3); border-left: 2px solid var(--border-strong); display: grid; gap: var(--space-1); }
+.gpHead { margin: 0; display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; font-size: var(--fs-13); }
+.srcLink { font-size: var(--fs-12); color: var(--text-muted); overflow-wrap: anywhere; }
+.chk { display: inline-flex; align-items: center; gap: var(--space-2); font-size: var(--fs-13); color: var(--text-muted); min-height: 40px; }
+@media (max-width: 720px) { .int { grid-template-columns: minmax(0, 1fr); gap: 0; } .int dd { margin-bottom: var(--space-2); } }
+.cards > * { min-width: 0; }

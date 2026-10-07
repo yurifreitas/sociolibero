@@ -28,6 +28,11 @@ const PilaresPage = lazy(() => import('@/pages/PilaresPage'))
 const MarxPage = lazy(() => import('@/pages/MarxPage'))
 const ViolenciaPage = lazy(() => import('@/pages/ViolenciaPage'))
 const PropostasPage = lazy(() => import('@/pages/PropostasPage'))
+const BibliotecaPage = lazy(() => import('@/pages/BibliotecaPage'))
+const EleicoesPage = lazy(() => import('@/pages/EleicoesPage'))
+const ClassesPage = lazy(() => import('@/pages/ClassesPage'))
+const IndigenasEleicoesPage = lazy(() => import('@/pages/IndigenasEleicoesPage'))
+const VotoAnalfabetoPage = lazy(() => import('@/pages/VotoAnalfabetoPage'))
 const MetodoPage = lazy(() => import('@/pages/MetodoPage'))
 const ReferenciasPage = lazy(() => import('@/pages/ReferenciasPage'))
 
@@ -91,6 +96,11 @@ export function App() {
             <Route path="quebras" element={<QuebrasPage />} />
             <Route path="futuro" element={<FuturoPage />} />
             <Route path="propostas" element={<PropostasPage />} />
+            <Route path="biblioteca" element={<BibliotecaPage />} />
+            <Route path="eleicoes" element={<EleicoesPage />} />
+            <Route path="classes" element={<ClassesPage />} />
+            <Route path="indigenas-eleicoes" element={<IndigenasEleicoesPage />} />
+            <Route path="voto-analfabeto" element={<VotoAnalfabetoPage />} />
             <Route path="metodo" element={<MetodoPage />} />
             <Route path="referencias" element={<ReferenciasPage />} />
             <Route path="*" element={<Navigate to="/" replace />} />
