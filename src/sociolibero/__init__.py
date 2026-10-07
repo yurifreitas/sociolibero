@@ -21,6 +21,8 @@ def main() -> None:
         "climars",
         "evolucoes",
         "pessimismo",
+        "indigenas",
+        "eleitorado",
     ):
         return _diag(sys.argv[1])
 
@@ -265,6 +267,45 @@ def _diag(cmd: str) -> None:
             "top fragilidade:",
             [x["id"] for x in r["eficiencia_de_execucao"]["ranking_fragilidade"][:5]],
         )
+    elif cmd == "indigenas":
+        from . import indigenas
+
+        sub = sys.argv[2] if len(sys.argv) > 2 else "build"
+        if sub != "build":
+            raise SystemExit("uso: sociolibero indigenas build")
+        r = indigenas.build()
+        for a, v in r["candidaturas"]["anos"].items():
+            print(
+                a,
+                v["indigenas"],
+                "candidaturas,",
+                v["eleitos"],
+                "eleitos,",
+                v["pct"],
+                "%",
+            )
+        print("escrito:", indigenas.SAIDA)
+    elif cmd == "eleitorado":
+        from . import eleitorado
+
+        sub = sys.argv[2] if len(sys.argv) > 2 else "build"
+        if sub == "baixar":
+            for n, m in eleitorado.baixar_tudo().items():
+                print(n, m["sha256"][:12])
+        elif sub == "build":
+            r = eleitorado.build()
+            for a, d in r["eleitorado_por_instrucao"].items():
+                n = d["nacional"]
+                print(
+                    a,
+                    n["total"],
+                    "eleitores,",
+                    n["por_grupo"]["analfabeto"],
+                    "analfabetos",
+                )
+            print("escrito:", eleitorado.SAIDA, "e", eleitorado.SAIDA_MUN)
+        else:
+            raise SystemExit("uso: sociolibero eleitorado [baixar|build]")
     elif cmd == "decisoes":
         from .decisoes import export
 

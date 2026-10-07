@@ -1,0 +1,396 @@
+{
+  "_nota": "Narrativa escrita à mão a partir de fontes abertas lidas na pesquisa (ver 'lido' em cada fonte). '@campo' em eleitorado.valor/pct_populacao é substituído pelo número calculado dos CSV do TSE. 'verificado' = o número bate com uma fonte que foi efetivamente lida; 'lido' diz o quanto da fonte foi aberto.",
+  "historia": [
+    {
+      "id": "imperio_1824_1880",
+      "periodo": "Império, 1824-1880 (eleição indireta em dois graus)",
+      "regra": "Constituição de 1824, arts. 90-92: assembleias paroquiais escolhem eleitores de província, e estes os deputados e senadores. Excluídos de votar nas paróquias: menores de 25 anos (salvo casados, oficiais militares, bacharéis e clérigos de ordens sacras), religiosos em comunidade claustral e quem não tivesse renda líquida anual de 100 mil réis. Não há exigência de saber ler e escrever. Libertos votavam só na paróquia (não podiam ser eleitores de 2º grau).",
+      "quem_votava": "Homens livres e libertos de 25 anos ou mais com renda mínima, inclusive analfabetos, que eram a imensa maioria da população; mulheres e escravizados excluídos.",
+      "eleitorado": {
+        "valor": 1100008,
+        "pct_populacao": 10.9,
+        "fonte": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (CES-Coimbra), Tabela 1: votantes de 1º grau em 1873 (20.020 eleitores de 2º grau). Estimativas locais de 5% a 10% da população qualificada até 1880.",
+        "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+        "verificado": true
+      },
+      "efeito": "A base nominal era larga para o século (Nicolau: 5% a 10% da população até 1880), mas o voto era indireto e a qualificação dos votantes ficava com juntas locais. Faoro, citado por Nicolau, fala em 'inflação grotesca de votantes' (fraude na qualificação). Em Sergipe os votantes eram 17,3% da população; em São Paulo, 6,4%.",
+      "interesses": {
+        "ganhou": [
+          "Proprietários e chefes locais, que qualificavam votantes e controlavam os eleitores de 2º grau",
+          "A Coroa e os gabinetes, que organizavam a eleição pelo governo (leitura clássica; não verificada nas fontes lidas)"
+        ],
+        "perdeu": [
+          "Mulheres e escravizados (excluídos por lei)",
+          "Livres pobres sem renda mínima e menores de 25 anos",
+          "Libertos, barrados da 2ª etapa"
+        ]
+      },
+      "leituras_rivais": [
+        "Carvalho (Cidadania no Brasil), em resumo de busca: a lei brasileira era das mais liberais do século XIX; em 1872 cerca de 13% da população livre (um milhão) podia votar. Ler o dado como inclusão.",
+        "Faoro (via Nicolau): os números inflados indicam fraude e votante-clientela; ler o dado como controle, não participação."
+      ],
+      "fontes": [
+        {"citacao": "Nicolau, 'A participação eleitoral: evidências sobre o caso brasileiro' (texto e Tabela 1)", "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf", "lido": "integral"},
+        {"citacao": "Constituição de 1824, art. 92 (transcrição em questão do ENEM 2011)", "url": "https://descomplica.com.br/gabarito-enem/questoes/2011/primeiro-dia/art-92-sao-excluidos-de-votar-nas-assembleias-paroquiais-os-menores-de-vinte-e-cinco-anos-nos/", "lido": "trecho; o texto no Planalto/Câmara não abriu (erro de rede/404)"},
+        {"citacao": "Carvalho, J. M. de. Cidadania no Brasil: o longo caminho (2001)", "url": null, "lido": "só resumo de busca"}
+      ]
+    },
+    {
+      "id": "lei_saraiva_1881",
+      "periodo": "Lei Saraiva, Decreto 3.029 de 09/01/1881 (último regime imperial)",
+      "regra": "Eleição direta para todos os cargos; título de eleitor; comprovação de renda mais rigorosa (200 mil réis); exigência de saber ler e escrever (art. 6º § 1º do Decreto 3.029/1881, conferido pela revisão do projeto). Segundo a página secundária lida, analfabetos já inscritos antes de setembro de 1882 teriam mantido o direito, ressalva que não foi confirmada no texto da lei.",
+      "quem_votava": "Homens com renda comprovada e alfabetizados (novos alistados); fim da eleição em dois graus.",
+      "eleitorado": {
+        "valor": 142856,
+        "pct_populacao": 1.2,
+        "fonte": "Nicolau, Tabela 1: 142.856 eleitores em 1882 (contra 1.100.008 votantes de 1º grau em 1873); a Wikipédia dá 145.296 inscritos em 1881 e 96.411 votantes.",
+        "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+        "verificado": true
+      },
+      "efeito": "Queda de 87% entre os votantes de 1873 e os eleitores de 1882; mas, comparado só com os eleitores de 2º grau (20.020), o número de quem escolhe cresceu 614%. Comparecimento de cerca de 1% da população em 1881, 1885 e 0,9% em 1886 (Nicolau). Em 1872, cerca de 82% de quem tinha 5 anos ou mais era analfabeto (Wikipédia, secundária); pela tabela 4 de Engerman e Sokoloff, só 15,8% dos de 7+ eram alfabetizados.",
+      "interesses": {
+        "ganhou": [
+          "Elite letrada e urbana, que passou a decidir sozinha (leitura de Ferraro)",
+          "O gabinete liberal Saraiva, que trocou eleição indireta por direta com eleitorado restrito"
+        ],
+        "perdeu": [
+          "Analfabetos (cerca de 80% da população), os que não comprovavam a renda e os libertos pobres",
+          "Votantes de paróquia que perderam o direito (de 1,1 milhão a 142 mil)"
+        ]
+      },
+      "leituras_rivais": [
+        "Reforma contra a fraude (Nicolau/Faoro): como os votantes de 1873 eram inflados, a queda mede o fim da qualificação fraudulenta; parte do 'perdeu' seria votante fictício.",
+        "Reforma de exclusão (Ferraro, em resumo de busca): a exigência de alfabetização não visava purificar as urnas, mas impedir a ampliação da participação popular; os liberais justificaram a exclusão com ignorância e incapacidade política do analfabeto.",
+        "Retrocesso de cidadania (Carvalho e outros): a lei é um obstáculo à construção da cidadania."
+      ],
+      "fontes": [
+        {"citacao": "Nicolau (Tabela 1 e texto sobre a Lei Saraiva)", "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf", "lido": "integral"},
+        {"citacao": "Lei Saraiva (Wikipédia, secundária)", "url": "https://pt.wikipedia.org/wiki/Lei_Saraiva", "lido": "resumida por ferramenta; cita Faoro e Ferraro"},
+        {"citacao": "Engerman & Sokoloff (2005), Tabela 4", "url": "https://www.nber.org/system/files/working_papers/w8512/w8512.pdf", "lido": "integral"},
+        {"citacao": "Ferraro, A. R. 'Lei Saraiva (1881): dos argumentos invocados pelos liberais para a exclusão dos analfabetos do direito de voto' (Educação Unisinos)", "url": null, "lido": "só resumo de busca"}
+      ]
+    },
+    {
+      "id": "primeira_republica_1891_1930",
+      "periodo": "Primeira República, 1891-1930",
+      "regra": "Constituição de 1891, art. 70: são eleitores os cidadãos maiores de 21 anos que se alistarem na forma da lei; § 1º, não podem alistar-se os mendigos, os analfabetos, as praças de pré (exceto alunos de escolas militares) e os religiosos sujeitos a voto de obediência. Voto a descoberto, sem obrigatoriedade; a Constituição não menciona voto secreto.",
+      "quem_votava": "Homens alfabetizados maiores de 21 anos, que se alistassem. Mulheres e analfabetos excluídos.",
+      "eleitorado": {
+        "valor": 2525000,
+        "pct_populacao": 5.0,
+        "fonte": "Percentual: Nicolau (comparecimento em eleições presidenciais, média de 2,3% em 1894-1930 e 5% em 1930); valor absoluto de 1930 (aprox.) da Wikipédia, como já registrado em eleicoes_timeline.json. Engerman & Sokoloff, Tabela 3: 2,2% (1894), 2,4% (1914), 5,7% (1930).",
+        "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+        "verificado": true
+      },
+      "efeito": "Estagnação: 26 anos depois da última eleição imperial o comparecimento era de 2,6% (1912), +1,7 ponto percentual (Nicolau). O Brasil ficou entre os países com menor participação (só Chile, Portugal e Venezuela também estavam abaixo de 10% no fim dos anos 1930, segundo Nicolau). Engerman e Sokoloff veem na exigência de alfabetização a principal mudança pós-independência nas leis do voto na América Latina; no Brasil, a restrição baseada em propriedade foi trocada por alfabetização em 1891 e durou até 1988 (eles não consideram a Lei Saraiva). A taxa de analfabetismo de 15+ era de 65,3% em 1900 e 64,9% em 1920 (series_historicas.json).",
+      "interesses": {
+        "ganhou": [
+          "Oligarquias estaduais e coronéis, que controlavam o alistamento e o voto a descoberto de uma base pequena (Leal, resumo de busca)",
+          "Profissionais urbanos alfabetizados, únicos com acesso ao voto"
+        ],
+        "perdeu": [
+          "Dois terços dos adultos (analfabetos), em especial trabalhadores rurais",
+          "Mulheres",
+          "Libertos e seus descendentes, na prática, pela via da alfabetização que o Estado não oferecia"
+        ]
+      },
+      "leituras_rivais": [
+        "Engerman e Sokoloff: elites de sociedades muito desiguais manteviam restrições (e escolas públicas escassas), e a exigência de alfabetização era uma restrição que se reproduzia com a baixa oferta de escolas; neste caso a restrição ao voto e o atraso escolar seriam parte do mesmo arranjo.",
+        "Leal (Coronelismo, enxada e voto): o voto de cabresto é um compromisso entre o poder privado local e o poder público, e se mantém em parte sobre eleitores alfabetizados, de modo que alfabetizar não bastaria para libertar o voto rural. Vem de resumo de busca, não da obra."
+      ],
+      "fontes": [
+        {"citacao": "Constituição de 1891, art. 70", "url": "https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35081-24-fevereiro-1891-532699-publicacaooriginal-15017-pl.html", "lido": "art. 70 e § 1º (página da Câmara, lida por ferramenta)"},
+        {"citacao": "Nicolau (Gráficos 1-2, Quadro 2)", "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf", "lido": "integral"},
+        {"citacao": "Engerman & Sokoloff (2005), pp. sobre alfabetização e Tabelas 3-4", "url": "https://www.nber.org/system/files/working_papers/w8512/w8512.pdf", "lido": "integral"},
+        {"citacao": "Leal, V. N. Coronelismo, enxada e voto (1949)", "url": null, "lido": "só resumo de busca"}
+      ]
+    },
+    {
+      "id": "codigo_1932_mulheres_e_voto_secreto",
+      "periodo": "Código Eleitoral de 1932 e Constituição de 1934",
+      "regra": "Voto secreto e feminino, obrigatório para homens e funcionárias públicas, alistamento ex officio e Justiça Eleitoral. Analfabetos continuam excluídos: a Constituição de 1934 (art. 108, parágrafo único) proíbe o alistamento de quem não saiba ler e escrever (lido em resumo de busca).",
+      "quem_votava": "Brasileiros de ambos os sexos maiores de 18 anos (21 no Código de 1932) e alfabetizados.",
+      "eleitorado": {
+        "valor": 1438729,
+        "pct_populacao": 3.3,
+        "fonte": "Nicolau: eleitores cadastrados para 1933 e comparecimento de 3,3% da população.",
+        "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+        "verificado": true
+      },
+      "efeito": "Apesar de ampliar a base teórica (mulheres e voto obrigatório), a eleição de 1933 teve comparecimento de 3,3%: o alistamento voluntário de homens e mulheres não rompeu a barreira da alfabetização. Entre 1933 e 1945 o número de eleitores cadastrados quadruplicou (329%), contra 25% da população (Nicolau).",
+      "interesses": {
+        "ganhou": [
+          "Mulheres alfabetizadas, em sua maioria urbanas e de camadas médias e altas",
+          "O governo federal de Vargas, com a Justiça Eleitoral no lugar do controle do alistamento pelas oligarquias (leitura de interesse; não verificada nas fontes lidas)"
+        ],
+        "perdeu": [
+          "Mulheres analfabetas (a maioria das mulheres pobres)",
+          "Oligarquias tradicionais, na medida em que o voto secreto e a Justiça Eleitoral reduziram a fraude (hipótese)"
+        ]
+      },
+      "leituras_rivais": [
+        "A abertura às mulheres foi marcada por interesses de grupos políticos que previam seu voto como conservador (leitura comum, não verificada aqui).",
+        "Nicolau atribui o salto de 1945 ao alistamento ex officio e à obrigatoriedade para todas as mulheres; Souza (1983, via Nicolau) mostra que 21% dos eleitores de 1945 foram alistados ex officio (54% no Distrito Federal, 31% em São Paulo)."
+      ],
+      "fontes": [
+        {"citacao": "Nicolau (seção 'Evolução da participação eleitoral')", "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf", "lido": "integral"},
+        {"citacao": "Constituição de 1934, art. 108 (resultados de busca do TRE-MG e Fazenda-RJ)", "url": "https://portal2.fazenda.rj.gov.br/wp-content/uploads/2022/09/1934.pdf", "lido": "só resumo de busca"}
+      ]
+    },
+    {
+      "id": "estado_novo_1937_1945",
+      "periodo": "Estado Novo, 1937-1945",
+      "regra": "Eleições suspensas e partidos extintos; o plebiscito previsto na Carta de 1937 nunca foi feito. Entre outubro de 1934 e dezembro de 1945, o maior intervalo sem eleições (Nicolau).",
+      "quem_votava": "Ninguém, em eleições nacionais.",
+      "eleitorado": {
+        "valor": null,
+        "pct_populacao": null,
+        "fonte": "Sem eleitorado no período; ver 1945.",
+        "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+        "verificado": false
+      },
+      "efeito": "Sem efeito direto sobre o voto do analfabeto; a alfabetização de adultos subiu de cerca de 48% da população adulta em 1945 para 82% em 1998 (Nicolau), e o eleitorado, obrigado a ser alfabetizado, cresceu na mesma direção.",
+      "interesses": {
+        "ganhou": ["O governo central, sem competição eleitoral"],
+        "perdeu": ["Todos os eleitores alfabetizados e analfabetos, sem voto nacional"]
+      },
+      "leituras_rivais": [],
+      "fontes": [
+        {"citacao": "Nicolau", "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf", "lido": "integral"}
+      ]
+    },
+    {
+      "id": "republica_1946_1964",
+      "periodo": "República de 1946, 1945-1964",
+      "regra": "Constituição de 1946, art. 132: não podem alistar-se eleitores os analfabetos (lido em resumo de busca). Alistamento obrigatório para todos os alfabetizados maiores de 18 anos, inclusive mulheres.",
+      "quem_votava": "Homens e mulheres alfabetizados maiores de 18 anos.",
+      "eleitorado": {
+        "valor": 6168695,
+        "pct_populacao": 13.4,
+        "fonte": "Nicolau: 6.168.695 eleitores cadastrados em 1945 (13,4% da população), 20,0% em 1962.",
+        "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+        "verificado": true
+      },
+      "efeito": "O comparecimento sobre a população foi de 13,4% (1945) a 20,0% (1962): +150% de eleitorado contra +60% de população entre 1945 e 1962 (Nicolau, Quadro 1), sem mudar a regra, porque a parcela de adultos alfabetizados crescia. O recadastramento de 1956-58 tirou 8,7% do eleitorado (15.086.125 para 13.774.462), o que mostra o peso de mortos e duplicados no cadastro.",
+      "interesses": {
+        "ganhou": [
+          "Trabalhadores urbanos alfabetizados e sindicatos, via alistamento ex officio e partidos de massa (PTB; interpretação)",
+          "Partidos com máquina local, que controlavam o alistamento e as cédulas dos partidos até 1955-1962"
+        ],
+        "perdeu": [
+          "Trabalhadores rurais analfabetos, que eram o grosso da população do campo",
+          "Quem poderia ser mobilizado pela reforma agrária sem ter voto (hipótese ligada às disputas de 1961-64; não verificada aqui)"
+        ]
+      },
+      "leituras_rivais": [
+        "Crescimento por alfabetização (Nicolau): o ritmo do eleitorado seguiu a queda do analfabetismo, não uma lei nova.",
+        "Crescimento por mobilização: alistamento ex officio por empresas, sindicatos e ordens (Souza, 1983, via Nicolau) empurrou parte do salto de 1945."
+      ],
+      "fontes": [
+        {"citacao": "Nicolau (Quadro 1 e Gráfico 2)", "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf", "lido": "integral"},
+        {"citacao": "Constituição de 1946, art. 132 (resultados de busca; texto no portal da Fazenda-RJ)", "url": "https://portal2.fazenda.rj.gov.br/wp-content/uploads/2022/09/1946.pdf", "lido": "só resumo de busca"},
+        {"citacao": "series_historicas.json: analfabetismo 15+ 1970 (33,0%), 1980 (25,3%)", "url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='TXA15M7091')", "lido": "série já validada no projeto; sem ponto entre 1920 e 1970"}
+      ]
+    },
+    {
+      "id": "ditadura_1964_1985",
+      "periodo": "Ditadura civil-militar, 1964-1985",
+      "regra": "Analfabetos continuam sem direito de alistamento; presidente escolhido indiretamente pelo Congresso/colégio eleitoral, governadores indiretos por boa parte do período, senadores 'biônicos' em 1978; voto direto e obrigatório para o Legislativo.",
+      "quem_votava": "Alfabetizados maiores de 18 anos, em eleições legislativas e municipais; a escolha da Presidência não passava pelo voto popular.",
+      "eleitorado": {
+        "valor": 58616588,
+        "pct_populacao": 39.3,
+        "fonte": "Número: eleitores inscritos em 1982 (eleicoes_timeline.json, Wikipédia). Percentual: Nicolau, comparecimento sobre a população nas eleições para a Câmara: 20,4% (1966) a 39,3% (1982).",
+        "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+        "verificado": true
+      },
+      "efeito": "O eleitorado cresceu 18,4 pontos percentuais em 16 anos (Nicolau), um ritmo maior que o da República de 1946, de novo sem mudar o direito de voto do analfabeto: a explicação de Nicolau é a ampliação dos adultos alfabetizados. A taxa de analfabetismo de 15+ caiu de 33,0% (1970) para 25,3% (1980).",
+      "interesses": {
+        "ganhou": [
+          "O regime e seu partido (Arena/PDS), que competiam em eleições legislativas com regras desenhadas (Lei Falcão 1976, Pacote de Abril 1977); o efeito sobre o voto rural analfabeto não foi medido nas fontes lidas"
+        ],
+        "perdeu": [
+          "Os analfabetos, ainda sem voto, e todo o eleitorado sem eleição direta para a Presidência"
+        ]
+      },
+      "leituras_rivais": [
+        "A abertura gradual (1974-1985) ampliou a competição sem tocar na barreira da alfabetização; a incorporação dos analfabetos só veio com a transição (EC 25, 1985)."
+      ],
+      "fontes": [
+        {"citacao": "Nicolau (Gráfico 2 e texto)", "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf", "lido": "integral"},
+        {"citacao": "Emendas/Constituição de 1967-69 sobre alistamento: não lidas (Planalto 403/erro de rede); resumo de busca diz que só a Constituição de 1824 não excluía analfabetos", "url": "https://www.tse.jus.br/comunicacao/noticias/2016/Novembro/constituicao-de-1985-garantiu-o-direito-ao-voto-aos-eleitores-analfabetos", "lido": "só resumo de busca (a página do TSE retornou 403)"}
+      ]
+    },
+    {
+      "id": "ec25_1985",
+      "periodo": "Emenda Constitucional nº 25, 15/05/1985",
+      "regra": "A EC 25 NÃO concede por si o voto do analfabeto: o art. 147 § 4º (texto lido na página do Senado) diz 'A Lei disporá sobre a forma pela qual possam os analfabetos alistar-se eleitores e exercer o direito de voto', e remete à lei. A regulamentação veio na Lei 7.332/1985 (art. 18, conforme conferência feita pela revisão do projeto; a lei não foi lida por mim). Os analfabetos seguiram inelegíveis (art. 150, conferência da revisão). A mesma emenda restabeleceu a eleição direta para a Presidência.",
+      "quem_votava": "Todos os alfabetizados e, depois da Lei 7.332/1985, analfabetos que se alistassem (facultativo). A primeira eleição com analfabetos foi a municipal das capitais em novembro de 1985 (Jornal de Brasília, resumo).",
+      "eleitorado": {
+        "valor": 69166810,
+        "pct_populacao": 49.9,
+        "fonte": "Eleitores inscritos em 1986 (eleicoes_timeline.json, Wikipédia); percentual do timeline. Nicolau: +10,6 pontos percentuais em 1986 'devido ao recadastramento dos eleitores e à incorporação dos analfabetos'.",
+        "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%B5es_gerais_no_Brasil_em_1986",
+        "verificado": true
+      },
+      "efeito": "O salto de 1986 mistura dois efeitos que as fontes lidas não separam: recadastramento (novo título informatizado) e analfabetos. A taxa de analfabetismo de 15+ era de 25,3% em 1980 (series_historicas.json); uma fonte secundária fala em cerca de 19 milhões de analfabetos em 1985. Para a incorporação efetiva, a literatura aponta a urna eletrônica: Fujiwara (2015) mostra um 'grande enfranchisement de fato' de eleitores menos escolarizados, e os votos inválidos em eleições para a Câmara cairiam de 41% para 7,6% em 2000 (resumo do TSE via Poder360).",
+      "interesses": {
+        "ganhou": [
+          "Os próprios analfabetos, que voltaram a ter direito (facultativo) e viraram público de campanhas com número e símbolo",
+          "Partidos que organizam o eleitorado pobre e sem escolaridade (hipótese; o efeito partidário da EC 25 não foi medido nas fontes lidas)"
+        ],
+        "perdeu": [
+          "Quem dependia de eleitorado restrito e fácil de controlar no interior (hipótese)"
+        ]
+      },
+      "leituras_rivais": [
+        "Efeito simbólico (Marcus André Melo, em resumo de busca): a EC 25 teria sido apenas simbólica, e foi a urna eletrônica que emancipou o eleitor pobre e analfabeto.",
+        "Efeito direto: o voto do analfabeto é uma das principais conquistas da redemocratização (leitura corrente na imprensa e em juristas)."
+      ],
+      "fontes": [
+        {"citacao": "EC 25/1985 (Senado)", "url": "https://legis.senado.leg.br/norma/540625/publicacao/15645218", "lido": "art. 147 § 4º e data (página lida por ferramenta)"},
+        {"citacao": "Jornal de Brasília, 'Emenda que instituiu voto analfabeto influenciou a Constituição de 88'", "url": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/emenda-que-instituiu-voto-analfabeto-influenciou-a-constituicao-de-88/", "lido": "resumida por ferramenta"},
+        {"citacao": "Fujiwara, T. (2015), Econometrica 83(2)", "url": "https://www.econometricsociety.org/publications/econometrica/2015/03/01/voting-technology-political-responsiveness-and-infant-health", "lido": "só resumo de busca"},
+        {"citacao": "Poder360, 'Urna eletrônica reduziu votos inválidos em 82%, diz estudo'", "url": "https://www.poder360.com.br/eleicoes/urna-eletronica-reduziu-votos-invalidos-em-82-diz-estudo/", "lido": "só resumo de busca"}
+      ]
+    },
+    {
+      "id": "cf1988_ate_hoje",
+      "periodo": "Constituição de 1988 até 2026",
+      "regra": "Art. 14, § 1º: alistamento e voto obrigatórios para maiores de 18 anos e facultativos para (a) os analfabetos, (b) os maiores de 70 anos e (c) os maiores de 16 e menores de 18. § 4º: são inelegíveis os inalistáveis e os analfabetos (lido em resumo de busca; o texto no Planalto/Senado não abriu).",
+      "quem_votava": "Todos os brasileiros alistados; o analfabeto vota se quiser, mas não pode ser candidato.",
+      "eleitorado": {
+        "valor": "@total_2022",
+        "pct_populacao": "@pct_pop_2022",
+        "fonte": "TSE, perfil do eleitorado 2022 (CSV, soma por UF com exterior = 156.454.011); % sobre a população do Censo 2022 (soma de territorios.json: 203.080.756). Analfabetos: 6.339.894 (4,05%) em 2022, 5.572.448 em 2024 e 5.519.686 em 2026.",
+        "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_2022.zip",
+        "verificado": true
+      },
+      "efeito": "O eleitor analfabeto caiu de 7,4 milhões em 2014 (5,2% do eleitorado) para 6,3 milhões em 2022 (4,1%) e 5,5 milhões em 2026 (3,5%). Cerca de 63% têm 60 anos ou mais e cerca de 40% têm 70 anos ou mais (cálculo sobre o perfil de 2026); é um eleitorado em extinção por substituição de coortes (ver projeção).",
+      "interesses": {
+        "ganhou": [
+          "Eleitores idosos e rurais sem escolaridade, que passaram a ser público de campanha",
+          "Partidos e candidatos com penetração no Nordeste e no interior, onde a parcela é maior (Parte 2)"
+        ],
+        "perdeu": [
+          "Os analfabetos como candidatos: continuam inelegíveis (art. 14 § 4º), o que há críticas jurídicas de inconstitucionalidade (artigos jurídicos em resumo de busca)"
+        ]
+      },
+      "leituras_rivais": [
+        "Pró-restrição à candidatura: elegibilidade exige condições mínimas para exercer o mandato (argumento jurídico corrente).",
+        "Contra: a inelegibilidade de quem pode votar seria uma restrição desproporcional de direitos políticos (artigos jurídicos, não lidos na íntegra)."
+      ],
+      "fontes": [
+        {"citacao": "TSE, perfil do eleitorado (CSV) 2022, 2024 e 2026, calculado neste projeto", "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/perfil_eleitorado/perfil_eleitorado_2022.zip", "lido": "integral (calculado)"},
+        {"citacao": "CF art. 14 § 1º II a e § 4º (resultados de busca; Planalto e Senado não abriram)", "url": "https://temasselecionados.tse.jus.br/temas-selecionados/inelegibilidades-e-condicoes-de-elegibilidade/parte-i-inelegibilidades-e-condicoes-de-elegibilidade/analfabeto", "lido": "só resumo de busca (TSE 403)"}
+      ]
+    }
+  ],
+  "teorias": [
+    {
+      "id": "acemoglu_robinson_2000",
+      "autor": "Daron Acemoglu e James A. Robinson",
+      "ano": 2000,
+      "ideia": "Na Europa do século XIX a ampliação do voto foi uma decisão estratégica da elite para evitar revolução: transferências sob as instituições antigas não garantem transferências futuras, e a extensão do sufrágio muda o equilíbrio político futuro e funciona como compromisso com a redistribuição (resumo do artigo, 'Why Did the West Extend the Franchise?', QJE 115).",
+      "aplicacao_brasil": "A restrição baseada em alfabetização combina com uma elite sem ameaça organizada vinda dos analfabetos rurais (sem revolução, sem ampliação). A EC 25/1985 seria concessão na transição, com a mobilização pela eleição direta; mas a teoria foi pensada para ameaça revolucionária, e o Brasil tem poucos casos assim. Hipótese, não testada aqui.",
+      "fontes": [
+        {"citacao": "Acemoglu & Robinson (2000), QJE", "url": "https://ideas.repec.org/a/oup/qjecon/v115y2000i4p1167-1199..html", "lido": "só resumo (abstract) em busca"}
+      ]
+    },
+    {
+      "id": "boix_2003",
+      "autor": "Carles Boix",
+      "ano": 2003,
+      "ideia": "Democracia (sufrágio amplo) depende da distribuição dos ativos econômicos e do poder entre grupos: é mais provável quando a desigualdade é baixa ou os ricos podem escapar de impostos altos (capital móvel); onde há uma classe de proprietários de terra poderosa, a transição falha.",
+      "aplicacao_brasil": "Terra concentrada e imóvel (grandes proprietários rurais) é o caso em que Boix prevê resistência à ampliação do voto; combina com o fato de os analfabetos estarem concentrados no campo e no Nordeste. Ainda assim, no Brasil a exclusão foi feita pela via da alfabetização e não da propriedade; hipótese.",
+      "fontes": [
+        {"citacao": "Boix, C. Democracy and Redistribution (Cambridge, 2003)", "url": null, "lido": "só resumo de busca"}
+      ]
+    },
+    {
+      "id": "przeworski_2009",
+      "autor": "Adam Przeworski",
+      "ano": 2009,
+      "ideia": "'Conquered or Granted? A History of Suffrage Extensions' (BJPS 39): examina em que casos o sufrágio foi conquistado por pressão de baixo e em que casos foi concedido por cálculo das elites; discute o argumento de Acemoglu e Robinson de que a ameaça revolucionária leva à concessão.",
+      "aplicacao_brasil": "Útil para separar leituras rivais da Lei Saraiva e da EC 25: concessão de elites que já controlavam o processo (qualificação, alistamento ex officio) versus pressão de baixo. Não usei o conteúdo do artigo: só o título e uma menção em busca; falta ler.",
+      "fontes": [
+        {"citacao": "Przeworski, A. (2009), British Journal of Political Science 39(2): 291-321", "url": null, "lido": "só título e referência em busca"}
+      ]
+    },
+    {
+      "id": "engerman_sokoloff_2005",
+      "autor": "Stanley L. Engerman e Kenneth L. Sokoloff",
+      "ano": 2005,
+      "ideia": "Em sociedades de desigualdade extrema (Caribe e Brasil) as elites restringiram o voto por mais tempo, ao passo que sociedades igualitárias ampliaram o voto cedo. Quase todos os países latino-americanos incluíram exigência de alfabetização na primeira constituição ou pouco depois (exceto Argentina e Colômbia); o requisito explica taxas de participação baixíssimas porque a alfabetização era rara (lido no texto do NBER WP 8512, 'The Evolution of Suffrage Institutions in the New World', JEH 65).",
+      "aplicacao_brasil": "Segundo o artigo, o Brasil substituiu a restrição baseada em propriedade por alfabetização em 1891 e a manteve até 1988; fração da população votando de 2,2% (1894), 2,4% (1914) e 5,7% (1930), contra 12,8% a 25,1% no Chile/Argentina/EUA de períodos próximos. A Lei Saraiva de 1881 (já com a exigência) é anterior ao que os autores citam. Alfabetização do Brasil: 15,8% (1872), 14,8% (1890), 25,6% (1900), 30,0% (1920), 57,0% (1939), em bases etárias diferentes.",
+      "fontes": [
+        {"citacao": "Engerman & Sokoloff (2005), NBER WP 8512", "url": "https://www.nber.org/system/files/working_papers/w8512/w8512.pdf", "lido": "integral"}
+      ]
+    },
+    {
+      "id": "nicolau_participacao_eleitoral",
+      "autor": "Jairo Nicolau",
+      "ano": 2002,
+      "ideia": "O analfabetismo foi o principal obstáculo à incorporação eleitoral no Brasil: como o alistamento e o voto são compulsórios para alfabetizados, a proporção de adultos no eleitorado seguiu a proporção de alfabetizados (48% da população adulta em 1945, 82% em 1998). A urna eletrônica reduziu votos inválidos ao facilitar o voto de eleitores de baixa escolaridade.",
+      "aplicacao_brasil": "Fundamenta a leitura de que o 'efeito da EC 25' é pequeno comparado ao efeito demográfico da alfabetização e da urna eletrônica, e justifica projetar o eleitor analfabeto por coortes.",
+      "fontes": [
+        {"citacao": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (CES-Coimbra)", "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf", "lido": "integral"}
+      ]
+    },
+    {
+      "id": "fujiwara_2015",
+      "autor": "Thomas Fujiwara",
+      "ano": 2015,
+      "ideia": "A urna eletrônica reduziu votos residuais e promoveu um grande enfranchisement de fato de cidadãos menos escolarizados; com isso, o gasto público migrou para a saúde e a saúde de recém-nascidos de mães menos escolarizadas melhorou (resumo do artigo, Econometrica 83(2)).",
+      "aplicacao_brasil": "Mostra que o direito formal (EC 25, 1985) e o acesso efetivo (urna, 1998-2000) são coisas distintas: a mudança que 'incluiu' o analfabeto no voto contado veio da tecnologia, não da emenda.",
+      "fontes": [
+        {"citacao": "Fujiwara, T. (2015), Econometrica 83(2): 423-464", "url": "https://www.econometricsociety.org/publications/econometrica/2015/03/01/voting-technology-political-responsiveness-and-infant-health", "lido": "só resumo de busca"}
+      ]
+    },
+    {
+      "id": "leal_1949",
+      "autor": "Victor Nunes Leal",
+      "ano": 1949,
+      "ideia": "Coronelismo é um compromisso entre o poder privado decadente dos grandes proprietários e o poder público: o coronel entrega votos de uma massa rural dependente (voto de cabresto, a descoberto) em troca de favores do governo estadual (resumo de busca de 'Coronelismo, enxada e voto').",
+      "aplicacao_brasil": "Sugere que o controle do voto rural dependia da dependência econômica e do voto aberto, e não só do analfabetismo: o analfabeto excluído e o alfabetizado controlado convivem. Por isso o fim da exclusão não elimina por si o voto de cabresto.",
+      "fontes": [
+        {"citacao": "Leal, V. N. Coronelismo, enxada e voto (1949)", "url": null, "lido": "só resumo de busca"}
+      ]
+    },
+    {
+      "id": "carvalho_cidadania",
+      "autor": "José Murilo de Carvalho",
+      "ano": 2001,
+      "ideia": "A cidadania brasileira veio com a ordem 'invertida' (direitos sociais antes dos políticos); a Lei Saraiva foi um retrocesso numa legislação que, antes dela, era liberal em comparação internacional (resumo de busca; ver 'Cidadania no Brasil: o longo caminho').",
+      "aplicacao_brasil": "Dá a leitura de que 1881 não é só 'combate à fraude': é perda de direito de uma base grande (cerca de 13% da população livre em 1872, segundo o resumo).",
+      "fontes": [
+        {"citacao": "Carvalho, J. M. de. Cidadania no Brasil: o longo caminho (2001)", "url": null, "lido": "só resumo de busca"}
+      ]
+    },
+    {
+      "id": "faoro_donos_do_poder",
+      "autor": "Raymundo Faoro",
+      "ano": 1958,
+      "ideia": "A qualificação de votantes no Império era manipulada pelo poder (fraude); o grande número de votantes de 1873 seria uma 'inflação grotesca de votantes' (citado por Nicolau, 'Os Donos do Poder', 2000, p. 424).",
+      "aplicacao_brasil": "É a leitura rival à de Carvalho para o salto de 1873 a 1882: parte da queda seria o fim de votantes fictícios.",
+      "fontes": [
+        {"citacao": "Nicolau, citando Faoro (2000: 424)", "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf", "lido": "citação lida em Nicolau; Faoro não foi lido"}
+      ]
+    }
+  ],
+  "limites": [
+    "Fontes oficiais do TSE (páginas de notícias), do Planalto e do Senado retornaram 403 ou erro de rede para o WebFetch; os números publicados do TSE foram lidos em resumos de busca e só servem de conferência dos CSV, que são a fonte dos números deste arquivo.",
+    "A narrativa histórica é interpretativa. Os campos 'interesses' (quem ganhou e perdeu) são hipóteses apoiadas na literatura lida; cada uma tem leitura rival e nenhuma foi testada com dados individuais.",
+    "Eleitorado antes de 1985 vem de Nicolau (lido na íntegra), da Wikipédia (secundária) e do eleicoes_timeline.json deste repositório; os percentuais sobre a população de Nicolau não são recalculados aqui.",
+    "O cadastro eleitoral guarda o grau declarado no alistamento: eleitores que aprenderam a ler depois continuam 'analfabetos' até atualizar o cadastro, e o contrário ocorre com quem declara mais escolaridade do que tem. Não há como medir esse viés com estes dados.",
+    "A projeção usa a tábua do IBGE para o conjunto da população; a mortalidade de analfabetos é maior (absorvida em κ, não separada).",
+    "A queda de 12% de analfabetos entre 2022 e 2024 (6,34 para 5,57 milhões) é grande demais para mortalidade e alfabetização. O perfil de 2024 não traz exterior (eleição municipal), e há revisões e cancelamentos de cadastro entre as duas datas; a causa não foi verificada e o modelo não a prevê (erro de +8% na validação de 2022 para 2024)."
+  ],
+  "lacunas": [
+    "Eleitorado analfabeto antes de 1985: nenhum número de analfabetos inscritos em 1986 foi lido; só a taxa de analfabetismo da população (1980: 25,3%) e a estimativa secundária de cerca de 19 milhões de analfabetos adultos em 1985.",
+    "Textos legais primários de 1824 (art. 90-92), 1934, 1946, 1967/69 e CF/88 art. 14 não foram lidos nos portais oficiais (403/erro de rede); regras vêm de transcrições e resumos de busca, exceto 1891 (art. 70, página da Câmara) e EC 25 (página do Senado).",
+    "Kang, Cunha e Limongi (citados no pedido) sobre a ampliação do eleitorado: não encontrei obra deles específica sobre o voto do analfabeto e não os cito. Maria do Carmo Campello de Souza (1983) entra só via Nicolau.",
+    "Estudos quantitativos sobre o efeito eleitoral da EC 25/1985 propriamente dita (partido, resultado): não encontrei; só a literatura sobre urna eletrônica (Fujiwara; Nicolau).",
+    "Lei Agamenon (1945) e o Código Eleitoral de 1950 não foram lidos."
+  ]
+}
