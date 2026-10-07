@@ -21,6 +21,10 @@
    "decisoes_custo_estimativa_verificada": 5,
    "decisoes_custo_estimativa_nao_verificada": 0,
    "futuro": 14
+  },
+  "revisao_fontes": {
+   "data": "2026-10-07",
+   "resumo": "Fontes primárias lidas para regras (CF/88 arts. 231-232, Decreto 21.076/1932, CLT art. 7, EC 8/1977, EC 97/2017, ADI 4650, Constituição de 1934 art. 23). Correções: senadores biônicos (uma das duas vagas por estado renovado em 1978, 22 vagas, ARENA 21), eleitores de 16-17 anos 1.835.781, fonte dos 20,4% de idosos (IHU, não Poder360), EC 97 (percentual vale para a legislatura seguinte). Itens que são hipótese do modelo ou sem fonte lida seguem verificado=false."
   }
  },
  "classes": [
@@ -140,10 +144,10 @@
     {
      "regra": "CF/88 (arts. 231-232)",
      "efeito": "ganha: reconhecimento de direitos originários sobre as terras (segundo o repositório)",
-     "evidencia": "Citado em economia_historica.json para o ciclo 'decada-perdida-hiperinflacao'; texto da Constituição não relido.",
-     "fonte": "Repositório: web/public/data/economia_historica.json (síntese por ciclo; fatos 'de memória' marcados lá)",
-     "url": "web/public/data/economia_historica.json",
-     "verificado": false
+     "evidencia": "Texto dos arts. 231-232 lido no Planalto. O alcance do art. 231 (marco temporal) é a disputa de historia.json.",
+     "fonte": "Constituição Federal de 1988, arts. 231-232 - Planalto [página lida]",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "verificado": true
     }
    ],
    "movimentos_ids": [
@@ -270,10 +274,10 @@
     {
      "regra": "Código Eleitoral de 1932 (voto secreto e Justiça Eleitoral)",
      "efeito": "perde (hipótese): a verificação sai do Legislativo estadual",
-     "evidencia": "Regra segundo o repositório; efeito sobre coronéis não medido nas fontes lidas.",
-     "fonte": "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui)",
-     "url": "web/public/data/eleicoes_timeline.json",
-     "verificado": false
+     "evidencia": "A regra (voto secreto e Justiça Eleitoral) foi lida na fonte primária; o efeito sobre coronéis segue hipótese. Leitura rival: o voto secreto também reduziu a coação patronal em geral, e coronéis podiam migrar para o controle de partidos estaduais.",
+     "fonte": "Decreto 21.076, de 24/02/1932 (Código Eleitoral), arts. 5 e 56 - Planalto [página lida]",
+     "url": "https://www.planalto.gov.br/ccivil_03/decreto/1930-1949/d21076.htm",
+     "verificado": true
     }
    ],
    "movimentos_ids": [
@@ -378,10 +382,10 @@
     {
      "regra": "Constituinte de 1933-34: bancada classista (40 de 254 por organizações de empregados e empregadores)",
      "efeito": "ganha: representação direta como classe",
-     "evidencia": "Segundo eleicoes_timeline.json (const-1933): 214 deputados por voto direto e 40 por organizações de empregados e empregadores.",
-     "fonte": "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui)",
-     "url": "web/public/data/eleicoes_timeline.json",
-     "verificado": false
+     "evidencia": "214 deputados por voto direto e 40 por organizações de empregados e empregadores (Wikipédia), e art. 23 da Constituição de 1934 sobre a representação profissional. O decreto regulador previu 404 vagas em outra contagem. Defesa: representação funcional de interesses organizados; crítica: favorecia organizações tuteladas pelo Estado.",
+     "fonte": "Constituição de 1934, art. 23 - Planalto; Eleições gerais no Brasil em 1933 - Wikipédia (secundária) [páginas lidas]",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao34.htm",
+     "verificado": true
     },
     {
      "regra": "Doações de empresas até 2015 e FEFC depois",
@@ -444,15 +448,15 @@
     {
      "regra": "Marcha da Família com Deus (1964)",
      "efeito": "base social do movimento antes do AI-1, perde direitos políticos depois (cassações atingem todo o espectro)",
-     "evidencia": "Segundo eleicoes_timeline.json, camadas médias urbanas; AI-1 e cassações em outra linha.",
-     "fonte": "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui)",
-     "url": "web/public/data/eleicoes_timeline.json",
+     "evidencia": "Segundo eleicoes_timeline.json, camadas médias urbanas; AI-1 e cassações em outra linha. Lido o AI-1 (Planalto), art. 10: poder de suspender direitos políticos e cassar mandatos. A afirmação \"cassações atingem todo o espectro\" e a base social da Marcha da Família não foram verificadas em fonte lida.",
+     "fonte": "Repositório: eleicoes_timeline.json; AI-1 lido no Planalto (art. 10) apenas para a regra de cassação",
+     "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-01-64.htm",
      "verificado": false
     },
     {
      "regra": "Reforma administrativa (proposta)",
      "efeito": "perde (hipótese do modelo): servidores como perdedores",
-     "evidencia": "decisoes.json lista 'servidores' como perdedores e 'contribuintes' como ganhadores; é hipótese do modelo.",
+     "evidencia": "decisoes.json lista 'servidores' como perdedores e 'contribuintes' como ganhadores; é hipótese do modelo. Verificação: é hipótese interna do modelo, não um fato a ser lido em fonte externa; permanece false por definição.",
      "fonte": "Repositório: web/public/data/decisoes.json (deltas e ganhadores/perdedores são hipóteses do modelo)",
      "url": "web/public/data/decisoes.json",
      "verificado": false
@@ -568,10 +572,10 @@
     {
      "regra": "CLT (1943): cobertura formal",
      "efeito": "perde: domésticas e rurais fora da cobertura original",
-     "evidencia": "Segundo economia_historica.json (classe 'escravizados-libertos-negros' e 'camponeses-posseiros'); texto da CLT não relido.",
-     "fonte": "Repositório: web/public/data/economia_historica.json (síntese por ciclo; fatos 'de memória' marcados lá)",
-     "url": "web/public/data/economia_historica.json",
-     "verificado": false
+     "evidencia": "O art. 7º exclui domésticos e rurais da cobertura original da CLT (texto lido). Defesa histórica: dificuldade de fiscalização no campo e no lar; crítica: exclusão de grande parte da população negra e rural. A regulação rural veio em lei própria (não lida).",
+     "fonte": "Decreto-Lei 5.452/1943 (CLT), art. 7º - Planalto [página lida]",
+     "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/del5452.htm",
+     "verificado": true
     },
     {
      "regra": "EC 25/1985: voto do analfabeto",
@@ -704,7 +708,7 @@
     {
      "regra": "Pluripartidarismo e redemocratização (1979-82)",
      "efeito": "ambíguo: CEBs como base de militância do PT e, ao mesmo tempo, Igreja em frentes conservadoras",
-     "evidencia": "eleicoes_timeline.json (cebs-igreja): 14 milhões de católicos organizados e 1,8 milhão de adultos atuantes, números da página lida lá, controvertidos.",
+     "evidencia": "eleicoes_timeline.json (cebs-igreja): 14 milhões de católicos organizados e 1,8 milhão de adultos atuantes, números da página lida lá, controvertidos. A Wikipédia (CEBs) traz números compatíveis, mas a fonte original (Pierucci e Prandi) não foi lida.",
      "fonte": "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui)",
      "url": "web/public/data/eleicoes_timeline.json",
      "verificado": false
@@ -758,7 +762,7 @@
     {
      "regra": "Constituinte 1986: 32 constituintes evangélicos",
      "efeito": "ganha presença no Legislativo",
-     "evidencia": "Só resumo de busca (eleicoes_timeline.json, movimento 'evangelicos'); contagens divergem conforme a definição de 'bancada evangélica' (96, 102+13 e 209+26).",
+     "evidencia": "Só resumo de busca (eleicoes_timeline.json, movimento 'evangelicos'); contagens divergem conforme a definição de 'bancada evangélica' (96, 102+13 e 209+26). Verificação 07/10/2026: nenhuma página lida traz o número de 32 constituintes evangélicos.",
      "fonte": "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui)",
      "url": "web/public/data/eleicoes_timeline.json",
      "verificado": false
@@ -911,11 +915,11 @@
     },
     {
      "regra": "Pacote de Abril (1977): senadores biônicos",
-     "efeito": "ambíguo: um senador por estado em 22 estados, com sobrerrepresentação do Senado; efeito por região não lido",
-     "evidencia": "Número de 22 só em resumo de busca.",
-     "fonte": "Resumo de busca (InfoEscola/Marxists.org) sobre senadores biônicos; páginas não abertas",
-     "url": "https://www.infoescola.com/historia-do-brasil/senadores-bionicos/",
-     "verificado": false
+     "efeito": "ambíguo: na renovação de 2/3 do Senado em 1978, uma das duas vagas de cada estado renovado (22 vagas) foi preenchida por eleição indireta (colégio eleitoral do governador); a ARENA levou 21 das 22",
+     "evidencia": "EC 8/1977, art. 41 §2 (lida no Planalto) e Wikipédia (Senador biônico). O texto anterior (\"um senador por estado em 22 estados\") foi corrigido. Efeito por região não lido. Descrição institucional: o governo justificou como arranjo do período; a oposição o chamou de casuísmo após a derrota de 1974.",
+     "fonte": "Emenda Constitucional nº 8, de 14/04/1977 - Planalto [página lida]",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc08-77.htm",
+     "verificado": true
     }
    ],
    "movimentos_ids": [
@@ -969,7 +973,7 @@
     {
      "regra": "Revolução de 1930 e Estado Novo",
      "efeito": "perde poder político, mantém renda",
-     "evidencia": "economia_historica.json: elites agrárias 'perdem poder político, mantêm renda' no ciclo industrialização-vargas.",
+     "evidencia": "economia_historica.json: elites agrárias 'perdem poder político, mantêm renda' no ciclo industrialização-vargas. Verificação 07/10/2026: síntese historiográfica sem dado primário a ler; permanece false.",
      "fonte": "Repositório: web/public/data/economia_historica.json (síntese por ciclo; fatos 'de memória' marcados lá)",
      "url": "web/public/data/economia_historica.json",
      "verificado": false
@@ -1014,7 +1018,7 @@
     {
      "regra": "Frente Parlamentar da Agropecuária: bancada transversal",
      "efeito": "ganha poder de barganha por tema (120 a 200 votos, segundo a página lida lá)",
-     "evidencia": "eleicoes_timeline.json: cerca de 62% dos membros de partidos de direita ou centro-direita, 19% de centro-esquerda e 19% do PMDB; dado de página secundária, não relido.",
+     "evidencia": "eleicoes_timeline.json: cerca de 62% dos membros de partidos de direita ou centro-direita, 19% de centro-esquerda e 19% do PMDB; dado de página secundária, não relido. A Wikipédia (Frente Parlamentar da Agropecuária) traz números compatíveis, mas o estudo de origem não foi identificado e \"120 a 200 votos\" não foi achado.",
      "fonte": "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui)",
      "url": "web/public/data/eleicoes_timeline.json",
      "verificado": false
@@ -1022,10 +1026,10 @@
     {
      "regra": "Fim das doações de empresas (2015)",
      "efeito": "perde canal direto (hipótese)",
-     "evidencia": "Mudança comprovada em Politize; efeito setorial sobre o agro não lido.",
-     "fonte": "Politize!, 'Como o fim do financiamento de empresas influenciou as eleições de 2016' (cita TSE e STF)",
-     "url": "https://www.politize.com.br/como-fim-do-financiamento-empresas-influenciou-eleicoes-2016/",
-     "verificado": false
+     "evidencia": "ADI 4650: o STF proibiu doações de empresas a campanhas e partidos em 17/09/2015 (relator Fux; vencidos Teori Zavascki, Celso de Mello e Gilmar Mendes, ou seja, 8 a 3 por derivação de 11 ministros menos 3 vencidos). O efeito setorial sobre o agro não foi lido. Vencidos: o problema seria descumprimento e abusos, não o modelo; maioria: violação de isonomia e paridade de armas.",
+     "fonte": "STF, notícia de 17/09/2015 (ADI 4650); Politize! como contexto [páginas lidas]",
+     "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=300015",
+     "verificado": true
     }
    ],
    "movimentos_ids": [
@@ -1107,12 +1111,12 @@
      "verificado": true
     },
     {
-     "regra": "Idosos em 20,4% do eleitorado em 2022",
+     "regra": "Idosos (60+) em 20,4% do eleitorado, dados do TSE até março de 2022",
      "efeito": "ponto de comparação",
-     "evidencia": "Só em resumo de busca.",
-     "fonte": "Resumo de busca (IHU-Unisinos/Poder360/TSE) sobre idosos 20,4% em 2022 e 16-17 anos 1.836.081 em 2024",
-     "url": "https://www.poder360.com.br/brasil/numero-de-eleitores-de-16-e-17-anos-cresce-781-em-2024-diz-tse/",
-     "verificado": false
+     "evidencia": "A página Poder360 antes citada não contém os 20,4%; o número vem do IHU-Unisinos com dados do TSE até março de 2022. Outras páginas do mesmo autor dão cerca de 21% em setembro, só vistas em resultado de busca.",
+     "fonte": "IHU-Unisinos (12/04/2022): A redução do eleitorado jovem no Brasil [página lida]",
+     "url": "https://ihu.unisinos.br/617720-a-reducao-do-eleitorado-jovem-no-brasil-artigo-de-jose-eustaquio-diniz-alves",
+     "verificado": true
     }
    ],
    "movimentos_ids": [],
@@ -1155,11 +1159,11 @@
     },
     {
      "regra": "Eleitores de 16 e 17 anos em 2024",
-     "efeito": "1.836.081 (alta de 78,1% sobre 2020)",
-     "evidencia": "Só em resumo de busca.",
-     "fonte": "Resumo de busca (IHU-Unisinos/Poder360/TSE) sobre idosos 20,4% em 2022 e 16-17 anos 1.836.081 em 2024",
-     "url": "https://www.poder360.com.br/brasil/numero-de-eleitores-de-16-e-17-anos-cresce-781-em-2024-diz-tse/",
-     "verificado": false
+     "efeito": "1.835.781 (alta de 78,1% sobre 1.030.563 em 2020)",
+     "evidencia": "A página lida traz 1.835.781 (o 1.836.081 do arquivo anterior tinha dígitos trocados).",
+     "fonte": "Poder360 (20/07/2024): número de eleitores de 16 e 17 anos cresce 78,1% [página lida]",
+     "url": "https://www.poder360.com.br/poder-eleicoes/numero-de-eleitores-de-16-e-17-anos-cresce-781-em-2024-diz-tse/",
+     "verificado": true
     }
    ],
    "movimentos_ids": [],
@@ -1246,11 +1250,11 @@
     },
     {
      "regra": "Cláusula de desempenho (EC 97/2017)",
-     "efeito": "perde (partidos pequenos): 2% em 2022, 2,5% em 2026, 3% em 2030",
-     "evidencia": "Valores segundo eleicoes_timeline.json (ec97-fefc-2017); EC não lida no Planalto.",
-     "fonte": "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui)",
-     "url": "web/public/data/eleicoes_timeline.json",
-     "verificado": false
+     "efeito": "perde (partidos pequenos): para ter fundo partidário e tempo de rádio e TV na legislatura seguinte, 2% dos votos (ou 11 deputados) após 2022, 2,5% (ou 13) após 2026, 3% (ou 15) a partir de 2030",
+     "evidencia": "Texto da EC lido. Defesa: racionalização do sistema partidário; crítica: restrição à representação de minorias. Sem atribuição partidária.",
+     "fonte": "Emenda Constitucional nº 97, de 04/10/2017 - Planalto [página lida]",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc97.htm",
+     "verificado": true
     },
     {
      "regra": "Orçamento secreto (RP9)",
@@ -1331,9 +1335,11 @@
    "aplicacao_brasil": "Leitura aplicada, como hipótese, às barreiras de renda e alfabetização do Império, à Lei de Terras e ao voto de cabresto; o projeto já remete a tese-07 (capitalismo dependente) e tese-09 (limite do próprio Marx) de marx_capitalismo.json.",
    "leitura_contraria": "O repositório documenta que Marx não deixou uma teoria do Estado acabada, que a 'fatalidade' da expropriação foi restrita à Europa Ocidental (tese-09) e que o determinismo é leitura disputada (m07). Aplicar categorias de 1848-67 ao Brasil de 1881 ou 2026 exige a mediação de autores brasileiros (Caio Prado, Florestan, Cardoso e Faletto).",
    "fontes": [
-    "Repositório: web/public/data/marx_capitalismo.json (textos com verificado_literal registrado lá) [não lido] web/public/data/marx_capitalismo.json"
+    "Repositório: web/public/data/marx_capitalismo.json (textos com verificado_literal registrado lá) [não lido] web/public/data/marx_capitalismo.json",
+    "Marx, K.; Engels, F. Manifesto do Partido Comunista, cap. 1 (marxists.org) [lido] https://www.marxists.org/archive/marx/works/1848/communist-manifesto/ch01.htm",
+    "Engels a J. Bloch, 21/09/1890 (marxists.org) [lido] https://www.marxists.org/archive/marx/works/1890/letters/90_09_21.htm"
    ],
-   "verificado": false,
+   "verificado": true,
    "marx_capitalismo_ids": [
     "t01-prefacio-1859-base",
     "t02-prefacio-1859-grilhoes",
@@ -1354,7 +1360,8 @@
    "aplicacao_brasil": "Útil para separar o interesse econômico da elite agrária (classe) do estamento burocrático de Faoro e dos partidos como atores com interesse próprio em regras (fundo, coligação).",
    "leitura_contraria": "A tripartição foi criticada por não explicar sozinha a mudança de regime; no Brasil, partidos de massa e partidos de quadro misturam bases de classe e estamento, de modo que a classificação sempre é aproximada.",
    "fontes": [
-    "Weber, M. Wirtschaft und Gesellschaft (1922), seção 'Classe, estamento, partido' (não lido nesta coleta; verbete retornou 404) [não lido] https://en.wikipedia.org/wiki/Class,_Status,_Party"
+    "Weber, M. Wirtschaft und Gesellschaft (1922), seção sobre classe, estamento e partido; ano e obra não confirmados em fonte lida [não lido]",
+    "Three-component theory of stratification - Wikipédia (secundária; a URL anterior \"Class,_Status,_Party\" dá 404) [lido] https://en.wikipedia.org/wiki/Three-component_theory_of_stratification"
    ],
    "verificado": false
   },
@@ -1403,10 +1410,10 @@
    "aplicacao_brasil": "Hipótese para as ampliações do voto no Brasil: 1932 (revolução de 1930 e Revolução Constitucionalista), 1945 (fim do Estado Novo), 1985-88 (redemocratização); a Lei Saraiva seria o oposto, com restrição sem ameaça organizada.",
    "leitura_contraria": "A ameaça revolucionária no Brasil de 1932-1985 é discutível; Nicolau mostra que o eleitorado de 1933 foi de 3,3% da população apesar das regras, o que sugere que a mudança de regra por si não bastou. O resumo do artigo foi recebido em busca, sem leitura do PDF.",
    "fontes": [
-    "Acemoglu, D.; Robinson, J. 'Why Did the West Extend the Franchise?', QJE 115(4), 2000, pp. 1167-1199 (resumo recebido via busca; PDF não lido) [não lido] https://ideas.repec.org/a/oup/qjecon/v115y2000i4p1167-1199..html",
+    "Acemoglu, D.; Robinson, J. 'Why Did the West Extend the Franchise? Democracy, Inequality, and Growth in Historical Perspective', QJE 115(4), 2000, pp. 1167-1199, doi:10.1162/003355300555042 (resumo lido) [lido] https://ideas.repec.org/a/oup/qjecon/v115y2000i4p1167-1199..html",
     "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext) [lido] https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf"
    ],
-   "verificado": false
+   "verificado": true
   },
   {
    "id": "boix-democracia-redistribuicao",
@@ -1416,9 +1423,10 @@
    "aplicacao_brasil": "Hipótese sobre a elite agrária (ativo imóvel, pouca mobilidade, resistência a regras) e a financeira (ativo móvel, menos custo de aceitar regras redistributivas).",
    "leitura_contraria": "A teoria foi testada sobretudo com dados europeus; ativos de exportação primária no Brasil têm especificidade própria. A tese não foi lida (só a referência).",
    "fontes": [
-    "Boix, C. Democracy and Redistribution. Cambridge UP, 2003 (verbete da Wikipédia lido só para a referência) [lido] https://en.wikipedia.org/wiki/Carles_Boix"
+    "Boix, C. Democracy and Redistribution. Cambridge UP, 2003 (verbete da Wikipédia lido só para a referência) [lido] https://en.wikipedia.org/wiki/Carles_Boix",
+    "Boix, C. Democracy and Redistribution, Cambridge UP, 2003 (resumo da editora lido via Crossref; \"mobilidade do capital\" não aparece no resumo) [lido] https://doi.org/10.1017/CBO9780511804960"
    ],
-   "verificado": false
+   "verificado": true
   },
   {
    "id": "meltzer-richard",
@@ -1428,9 +1436,10 @@
    "aplicacao_brasil": "Hipótese de leitura para a resistência à expansão do voto (alfabetização) por elites e para a ampliação de transferências após 1985; e para o voto obrigatório e o analfabeto em 1985.",
    "leitura_contraria": "Evidência empírica é mista: o aumento do eleitorado pobre nem sempre eleva gasto redistributivo; clientelismo e voto de identidade quebram a previsão. Só a referência foi lida.",
    "fontes": [
-    "Meltzer, A.; Richard, S. 'A Rational Theory of the Size of Government', JPE 89(5), 1981, pp. 914-927 (lida só a referência; sem resumo) [lido] https://ideas.repec.org/a/ucp/jpolec/v89y1981i5p914-27.html"
+    "Meltzer, A.; Richard, S. 'A Rational Theory of the Size of Government', JPE 89(5), 1981, pp. 914-927 (lida só a referência; sem resumo) [lido] https://ideas.repec.org/a/ucp/jpolec/v89y1981i5p914-27.html",
+    "Meltzer, A.; Richard, S. JPE 89(5), 1981, pp. 914-927 (abstract lido via OpenAlex) [lido] https://api.openalex.org/works/doi:10.1086/261013"
    ],
-   "verificado": false
+   "verificado": true
   },
   {
    "id": "lipset-modernizacao",
@@ -1489,7 +1498,7 @@
    "aplicacao_brasil": "Ajuda a ler a CLT (1943) convivendo com o fim das eleições (1937-45) e o voto amplo com direitos civis frágeis.",
    "leitura_contraria": "Críticos apontam que a sequência europeia é um modelo idealizado e que o Brasil teve ações populares e conquistas por baixo (abolicionismo, sindicalismo). A obra não foi lida (verbete retornou 404).",
    "fontes": [
-    "Carvalho, J. M. Cidadania no Brasil: o longo caminho (2001) (verbete retornou 404; não lido) [não lido] https://pt.wikipedia.org/wiki/Cidadania_no_Brasil:_O_Longo_Caminho"
+    "Carvalho, J. M. Cidadania no Brasil: o longo caminho. Rio de Janeiro: Civilização Brasileira, 2001 (referência confirmada na Open Library; resumo ou trecho não lido) [não lido] https://openlibrary.org/works/OL1001672W"
    ],
    "verificado": false
   },
@@ -1541,7 +1550,7 @@
    "aplicacao_brasil": "Hipótese para reformas eleitorais que não saem do Congresso (novo Código parado desde 2021) e para a persistência de regras de interesse dos grandes partidos.",
    "leitura_contraria": "Cientistas políticos mostram que houve mudanças institucionais significativas (reeleição, coligações, financiamento, cláusula); 'imobilismo' é uma caracterização contestável. Obra não pesquisada nesta coleta.",
    "fontes": [
-    "Nobre, M. Imobilismo em movimento (2013) (não pesquisado) [não lido]"
+    "Nobre, M. Imobilismo em movimento: da abertura política ao governo Dilma. São Paulo: Companhia das Letras, 2013 (referência confirmada na Open Library; resumo ou trecho não lido) [não lido] https://openlibrary.org/works/OL23257789W"
    ],
    "verificado": false
   }

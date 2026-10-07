@@ -74,26 +74,78 @@
     "data": "2026-10-07",
     "campo": "controversias",
     "antes": "Organizações indígenas (APIB) criticam a conciliação e o formato; setor do agro defende o marco legal.",
-    "depois": "Organizações indígenas (APIB) criticam a conciliação e o formato; setor do agro defende o marco legal. [Revisão 07/10/2026: sem confirmação em fonte aberta lida; um agente de revisão informa que o julgamento teria terminado em dezembro de 2025, também não verificado.]",
-    "motivo": "Data e conteúdo não confirmados em fonte primária.",
+    "depois": "Organizações indígenas (APIB) criticam a conciliação e o formato; setor do agro defende o marco legal. [Confirmado em 07/10/2026 no STF: julgamento encerrado em sessão virtual em 19/12/2025.]",
+    "motivo": "Fatos conferidos em notícia do STF (22/12/2025) e Agência Brasil; a remoção da ressalva substitui \"sem confirmação\" por confirmação.",
     "fonte": {
-     "titulo": "Revisão do agente do eleitorado e indígenas (relato, não fonte)",
-     "url": ""
+     "titulo": "STF (22/12/2025)",
+     "url": "https://noticias.stf.jus.br/postsnoticias/stf-considera-inconstitucional-trecho-de-lei-que-institui-marco-temporal-para-terras-indigenas/"
     },
-    "verificado": false
+    "verificado": true
    },
    {
     "id": "marco-2026",
     "data": "2026-10-07",
     "campo": "controversias",
     "antes": "Data e conteúdo de síntese de busca; confirmar no acórdão.",
-    "depois": "Data e conteúdo de síntese de busca; confirmar no acórdão. [Revisão 07/10/2026: sem confirmação em fonte aberta lida; um agente de revisão informa que o julgamento teria terminado em dezembro de 2025, também não verificado.]",
-    "motivo": "Data e conteúdo não confirmados em fonte primária.",
+    "depois": "Data e conteúdo de síntese de busca; confirmar no acórdão. [Confirmado em 07/10/2026 no STF: julgamento encerrado em sessão virtual em 19/12/2025.]",
+    "motivo": "Fatos conferidos em notícia do STF (22/12/2025) e Agência Brasil; a remoção da ressalva substitui \"sem confirmação\" por confirmação.",
     "fonte": {
-     "titulo": "Revisão do agente do eleitorado e indígenas (relato, não fonte)",
-     "url": ""
+     "titulo": "STF (22/12/2025)",
+     "url": "https://noticias.stf.jus.br/postsnoticias/stf-considera-inconstitucional-trecho-de-lei-que-institui-marco-temporal-para-terras-indigenas/"
     },
-    "verificado": false
+    "verificado": true
+   },
+   {
+    "id": "cnv-relatorio-2014",
+    "data": "2026-10-07",
+    "campo": "controversias",
+    "antes": "A CNV analisou apenas 10 dos 305 povos indígenas existentes",
+    "depois": "A estimativa cobre só os casos estudados (10 povos nas notas); o total de 305 povos não consta do texto lido",
+    "motivo": "Atribuição do 305 não confirmada no Vol. II, Texto 5.",
+    "fonte": {
+     "titulo": "CNV vol. II Texto 5",
+     "url": "https://cnv.memoriasreveladas.gov.br/images/pdf/relatorio/Volume%202%20-%20Texto%205.pdf"
+    },
+    "verificado": true
+   },
+   {
+    "id": "re1017365-2023",
+    "data": "2026-10-07",
+    "campo": "resumo",
+    "antes": "define indenização prévia por benfeitorias a ocupantes de boa-fé",
+    "depois": "tese fixada em 27/09/2023, com indenização por benfeitorias e, se inviável o reassentamento, pela terra nua",
+    "motivo": "Tese e data lidas no STF; a fonte Mattos Filho trata da Lei 14.701, não do RE.",
+    "fonte": {
+     "titulo": "STF 27/09/2023",
+     "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?amp=&idConteudo=514834&ori=1"
+    },
+    "verificado": true
+   },
+   {
+    "id": "l14701-2023",
+    "data": "2026-10-07",
+    "campo": "resumo",
+    "antes": "em dezembro de 2023 ... (data exata ... não conferida)",
+    "depois": "em 14/12/2023 ... (321 deputados e 53 senadores)",
+    "motivo": "Agência Câmara lida; a Wikipedia diz 14 de novembro (erro).",
+    "fonte": {
+     "titulo": "Agência Câmara",
+     "url": "https://www.camara.leg.br/noticias/1026508-congresso-derruba-veto-ao-marco-temporal-das-terras-indigenas"
+    },
+    "verificado": true
+   },
+   {
+    "id": "marco-temporal",
+    "data": "2026-10-07",
+    "campo": "evidencias",
+    "antes": "2025 (PEC 48 no Senado); 2026 (decisão publicada)",
+    "depois": "2009 (Raposa Serra do Sol); 2023 (RE 1.017.365); 2023 (Lei 14.701); 2024 (ADC 87, conciliação); 09/12/2025 (PEC 48/2023 aprovada no Senado e enviada à Câmara); 12/2025 (julgamento da ADC 87); 03/2026 (íntegra publicada); 08/2026 (recursos no plenário virtual); em 07/10/2026 a PEC está na CCJC da Câmara, aguardando relator (dados abertos da Câmara).",
+    "motivo": "Estado atual lido na API da Câmara e notícias do STF.",
+    "fonte": {
+     "titulo": "Câmara, dados abertos",
+     "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2595897/tramitacoes"
+    },
+    "verificado": true
    }
   ],
   "revisado_em": "2026-10-07"
@@ -1983,7 +2035,7 @@
    "titulo": "Relatório final da Comissão Nacional da Verdade",
    "resumo": "Entregue em 10/12/2014: 434 mortos e desaparecidos políticos reconhecidos (191 mortos, 210 desaparecidos e 33 desaparecidos com corpo localizado), 377 agentes públicos responsabilizados e 29 recomendações; conclui que detenções ilegais, tortura, violência sexual, execuções e ocultação de cadáveres decorreram de política de Estado. Volume sobre indígenas estima ao menos 8.350 mortos.",
    "impacto_poderes": "Reconhecimento oficial de responsabilidade do Estado; recomenda revisão da Lei de Anistia para crimes de lesa-humanidade.",
-   "controversias": "Forças Armadas e parte de militares discordaram do tom; contagem exclui vítimas de organizações armadas. A CNV analisou apenas 10 dos 305 povos indígenas existentes (estimativa de 8.350 é mínima).",
+   "controversias": "Forças Armadas e parte de militares discordaram do tom; contagem exclui vítimas de organizações armadas. A estimativa de 8.350 cobre só os casos estudados (10 povos listados nas notas 2-3 do texto; os Guarani-Kaiowá nem foram estimados) e a própria CNV diz que o número real é \"exponencialmente maior\". Crítica: metodologia diferente da contagem de mortos e desaparecidos políticos; apoio: o texto atribui as mortes à ação ou omissão do Estado. O total de 305 povos citado antes não consta do texto lido. Os números 434, 191, 210, 33 e 377 do Volume I não foram conferidos nesta rodada.",
    "fontes": [
     {
      "titulo": "Comissão Nacional da Verdade - Wikipedia",
@@ -1996,9 +2048,9 @@
      "verificado": true
     },
     {
-     "titulo": "ISA: CNV reconhece violações contra povos indígenas (página fora do ar ao testar: HTTP 500)",
-     "url": "https://site-antigo.socioambiental.org/pt-br/print/4025",
-     "verificado": false
+     "titulo": "CNV, Relatório Final, vol. II, Texto 5 - Violações de direitos humanos dos povos indígenas [PDF lido: \"ao menos 8.350 indígenas mortos\"; número real \"exponencialmente maior\"]",
+     "url": "https://cnv.memoriasreveladas.gov.br/images/pdf/relatorio/Volume%202%20-%20Texto%205.pdf",
+     "verificado": true
     }
    ]
   },
@@ -2427,9 +2479,9 @@
    "trilha": "indigena",
    "categoria": "judiciario",
    "titulo": "STF rejeita o marco temporal (RE 1.017.365, Tema 1031)",
-   "resumo": "Por 9 votos a 2, o STF fixa que a proteção das terras indígenas independe da existência de marco temporal em 05/10/1988 (relator: Edson Fachin); divergiram Nunes Marques e André Mendonça; define indenização prévia por benfeitorias a ocupantes de boa-fé.",
+   "resumo": "Por 9 votos a 2, o STF fixa que a proteção das terras indígenas independe da existência de marco temporal em 05/10/1988 (relator: Edson Fachin); divergiram Nunes Marques e André Mendonça; define, na tese fixada em 27/09/2023 (seis dias após o placar de 21/09), indenização por benfeitorias a ocupantes de boa-fé e, quando inviável o reassentamento, pelo valor da terra nua.",
    "impacto_poderes": "Judiciário decide a interpretação do art. 231, limitando ato legislativo e administrativo.",
-   "controversias": "Ruralistas e parte do Congresso afirmam que o marco temporal dá segurança jurídica; APIB, MPF e STF afirmam o direito originário; governo federal posiciona-se contra o marco.",
+   "controversias": "Ruralistas e parte do Congresso afirmam que o marco temporal dá segurança jurídica; APIB, MPF e STF afirmam o direito originário; governo federal posiciona-se contra o marco. Minoria (Mendonça, Nunes Marques): a Constituição previu a demarcação conforme o cenário de 1988 e o marco dá segurança jurídica. Maioria: o direito é originário e provar posse em 1988 seria prova impossível para povos expulsos.",
    "fontes": [
     {
      "titulo": "Marco temporal das terras indígenas - Wikipedia",
@@ -2437,9 +2489,14 @@
      "verificado": true
     },
     {
-     "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal",
-     "url": "https://www.mattosfilho.com.br/unico/stf-lei-marco-temporal/",
-     "verificado": false
+     "titulo": "STF derruba tese do marco temporal (21/09/2023) [página lida]",
+     "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=514552&ori=1",
+     "verificado": true
+    },
+    {
+     "titulo": "STF define tese de repercussão geral (27/09/2023) [página lida]",
+     "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?amp=&idConteudo=514834&ori=1",
+     "verificado": true
     }
    ]
   },
@@ -2450,9 +2507,9 @@
    "trilha": "indigena",
    "categoria": "reforma",
    "titulo": "Lei 14.701/2023 (marco temporal) e derrubada de vetos",
-   "resumo": "O Congresso aprova projeto que fixa o marco temporal e limita demarcações; em 20/10/2023 Lula sanciona com veto parcial (Mensagem de veto nº 536); em dezembro de 2023 o Congresso derruba parte dos vetos e promulga os dispositivos derrubados (data exata do ato de derrubada não conferida nesta revisão).",
+   "resumo": "O Congresso aprova projeto que fixa o marco temporal e limita demarcações; em 20/10/2023 Lula sanciona com veto parcial (Mensagem de veto nº 536); em 14/12/2023 o Congresso derruba a maior parte dos vetos (321 deputados e 53 senadores a favor da derrubada), mantidos os vetos sobre destinação de terras reservadas, transgênicos e povos isolados.",
    "impacto_poderes": "Legislativo reage a decisão do STF com lei ordinária (backlash); ADC 87 e ADIs no STF contestam.",
-   "controversias": "Em 2024 o ministro Gilmar Mendes suspendeu ações sobre a lei e abriu conciliação (ADC 87). Defensores: lei democrática; críticos: afronta ao decidido na RE.",
+   "controversias": "Em 2024 o ministro Gilmar Mendes suspendeu ações sobre a lei e abriu conciliação (ADC 87). Defensores: lei democrática; críticos: afronta ao decidido na RE. Defesa: aprovada por maioria qualificada, daria segurança jurídica a produtores e municípios; crítica: reintroduz tese rejeitada pelo STF, declarada inconstitucional no ponto central em dezembro de 2025. A Wikipedia traz 14 de novembro para a derrubada dos vetos, divergente da Agência Câmara (14/12/2023).",
    "fontes": [
     {
      "titulo": "Lei nº 14.701/2023 (demarcação) - Planalto",
@@ -2465,13 +2522,13 @@
      "verificado": true
     },
     {
-     "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal",
-     "url": "https://www.mattosfilho.com.br/unico/stf-lei-marco-temporal/",
-     "verificado": false
-    },
-    {
      "titulo": "Mensagem de veto nº 536/2023 (texto na biblioteca de fontes)",
      "url": "web/public/textos/veto-lei-14701-2023.txt",
+     "verificado": true
+    },
+    {
+     "titulo": "Agência Câmara: Congresso derruba veto ao marco temporal das terras indígenas (14/12/2023) [página lida]",
+     "url": "https://www.camara.leg.br/noticias/1026508-congresso-derruba-veto-ao-marco-temporal-das-terras-indigenas",
      "verificado": true
     }
    ]
@@ -2519,14 +2576,19 @@
    "trilha": "indigena",
    "categoria": "judiciario",
    "titulo": "STF suspende ações sobre a Lei 14.701 e abre conciliação (ADC 87)",
-   "resumo": "Em abril de 2024 (data aproximada), o ministro Gilmar Mendes suspende processos que questionam a lei e instala comissão de conciliação, que em agosto de 2025 aprovou minuta de projeto para alterar a Lei do Marco Temporal.",
+   "resumo": "Em 22/04/2024, o ministro Gilmar Mendes suspende processos que questionam a lei e abre conciliação (ADC 87 e ADIs 7582, 7583, 7586 e ADO 86), que em agosto de 2025 aprovou minuta de projeto para alterar a Lei do Marco Temporal.",
    "impacto_poderes": "STF busca solução dialógica entre Poderes e partes.",
-   "controversias": "Organizações indígenas (APIB) criticam a conciliação e o formato; setor do agro defende o marco legal. [Revisão 07/10/2026: sem confirmação em fonte aberta lida; um agente de revisão informa que o julgamento teria terminado em dezembro de 2025, também não verificado.]",
+   "controversias": "Organizações indígenas (APIB) criticam a conciliação e o formato; setor do agro defende o marco legal. O julgamento de mérito terminou em sessão virtual em 19/12/2025 (notícia do STF de 22/12/2025). Críticas indígenas à conciliação: negociar direito originário com quem o contesta; defesa do relator: evitar decisões conflitantes e ouvir todos os setores.",
    "fontes": [
     {
-     "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal",
+     "titulo": "STF suspende tramitação de todas as ações sobre a Lei do Marco Temporal (22/04/2024) [página lida]",
+     "url": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=533080&ori=1",
+     "verificado": true
+    },
+    {
+     "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal (fonte secundária, lida)",
      "url": "https://www.mattosfilho.com.br/unico/stf-lei-marco-temporal/",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -2578,14 +2640,24 @@
    "trilha": "indigena",
    "categoria": "judiciario",
    "titulo": "STF publica a íntegra da decisão sobre a Lei 14.701 (ADC 87 e ADIs)",
-   "resumo": "Segundo notícias, o STF reafirma a inconstitucionalidade do marco temporal ao julgar as ações sobre a Lei 14.701; publicação do acórdão em 18/03/2026 (informação de síntese jornalística).",
+   "resumo": "Em sessão virtual encerrada em 19/12/2025 (notícia do STF de 22/12/2025), o Plenário (ADC 87 e ADIs 7582, 7583, 7586; relator Gilmar Mendes) declarou inconstitucional o trecho da Lei 14.701 que institui o marco temporal, reafirmando o Tema 1031; André Mendonça divergiu. Foram fixados 180 dias para o poder público cumprir as determinações e 10 anos para concluir as demarcações. A íntegra do acórdão foi publicada em 18/03/2026 (segundo o Mattos Filho, fonte secundária). Recursos contra partes da decisão entraram no plenário virtual em 07/08/2026; o resultado não foi localizado.",
    "impacto_poderes": "Judiciário reafirma o entendimento de 2023 contra a lei do Legislativo.",
-   "controversias": "Data e conteúdo de síntese de busca; confirmar no acórdão. [Revisão 07/10/2026: sem confirmação em fonte aberta lida; um agente de revisão informa que o julgamento teria terminado em dezembro de 2025, também não verificado.]",
+   "controversias": "Vencido (Mendonça): o Congresso escolheu legitimamente o marco. Entidades indígenas: mesmo derrubado o marco, restaram retrocessos (consulta flexibilizada, critérios de indenização). Pendente: abrir o acórdão no portal do STF; a data de 18/03/2026 vem só do Mattos Filho.",
    "fontes": [
     {
-     "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal",
+     "titulo": "STF considera inconstitucional trecho de lei que institui marco temporal (22/12/2025) [página lida]",
+     "url": "https://noticias.stf.jus.br/postsnoticias/stf-considera-inconstitucional-trecho-de-lei-que-institui-marco-temporal-para-terras-indigenas/",
+     "verificado": true
+    },
+    {
+     "titulo": "Agência Brasil: STF julga recursos contra partes da decisão que anulou marco temporal (07/08/2026) [página lida]",
+     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-08/stf-julga-recursos-contra-partes-da-decisao-que-anulou-marco-temporal",
+     "verificado": true
+    },
+    {
+     "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal (09/04/2026; fonte secundária, lida)",
      "url": "https://www.mattosfilho.com.br/unico/stf-lei-marco-temporal/",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -3004,8 +3076,8 @@
   {
    "id": "marco-temporal",
    "titulo": "Conflito entre Legislativo e STF sobre o marco temporal",
-   "descricao": "Disputa sobre a interpretação do art. 231: STF afirma direito originário (2023, reafirmado em 2026 segundo notícias), Congresso aprova a Lei 14.701 (2023) e a PEC 48/2023 (Senado, 2025). Demarcação envolve Executivo (ato), Judiciário (controle) e Legislativo (lei ou emenda).",
-   "evidencias": "2009 (Raposa Serra do Sol); 2023 (RE 1.017.365); 2023 (Lei 14.701); 2024 (ADC 87, conciliação); 2025 (PEC 48 no Senado); 2026 (decisão publicada).",
+   "descricao": "Disputa sobre a interpretação do art. 231: STF afirma direito originário (RE 1.017.365, 2023; reafirmado na ADC 87 e ADIs em 19/12/2025, íntegra publicada em 18/03/2026), Congresso aprova a Lei 14.701 (2023) e a PEC 48/2023 (Senado, 2025). Demarcação envolve Executivo (ato), Judiciário (controle) e Legislativo (lei ou emenda).",
+   "evidencias": "2009 (Raposa Serra do Sol); 2023 (RE 1.017.365); 2023 (Lei 14.701); 2024 (ADC 87, conciliação); 09/12/2025 (PEC 48/2023 aprovada no Senado e enviada à Câmara); 12/2025 (julgamento da ADC 87); 03/2026 (íntegra publicada); 08/2026 (recursos no plenário virtual); em 07/10/2026 a PEC está na CCJC da Câmara, aguardando relator (dados abertos da Câmara).",
    "fontes": [
     {
      "titulo": "Marco temporal das terras indígenas - Wikipedia",
@@ -3013,7 +3085,7 @@
      "verificado": true
     },
     {
-     "titulo": "Rádio Senado: Senado aprova marco temporal de terras indígenas (09/12/2025)",
+     "titulo": "Rádio Senado: Senado aprova marco temporal de terras indígenas (09/12/2025) [página lida]",
      "url": "https://www12.senado.leg.br/radio/1/noticia/2025/12/09/senado-aprova-marco-temporal-de-terras-indigenas",
      "verificado": true
     },
@@ -3023,11 +3095,17 @@
      "verificado": true
     },
     {
-     "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal",
-     "url": "https://www.mattosfilho.com.br/unico/stf-lei-marco-temporal/",
-     "verificado": false
+     "titulo": "Câmara dos Deputados, dados abertos: PEC 48/2023, tramitações (proposição 2595897) [API lida]",
+     "url": "https://dadosabertos.camara.leg.br/api/v2/proposicoes/2595897/tramitacoes",
+     "verificado": true
+    },
+    {
+     "titulo": "Senado, dados abertos: processo da PEC 48/2023 (remetida à Câmara) [API lida]",
+     "url": "https://legis.senado.leg.br/dadosabertos/processo/8548483",
+     "verificado": true
     }
-   ]
+   ],
+   "controversias": "PEC: o autor defende segurança jurídica a produtores e a não indígenas; o líder do governo diz que não pacifica o conflito. Se emenda constitucional pode superar o decidido pelo STF é questão aberta."
   },
   {
    "id": "militares",

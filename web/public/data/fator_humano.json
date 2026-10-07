@@ -7,6 +7,10 @@
    "data": "2026-10-06",
    "resumo": "8 indicadores confrontados com agregados derivados do banco do projeto Arandu/trans e com territorios.json: 3 corroboram, 3 aproximados, 2 divergem (por denominador/definição). Proveniência indireta: ver docs/METHODS.md seção 9.",
    "defeito_encontrado_no_projeto_irmao": "Atlas municipal de 2020 corrompido no banco do trans (625 de 5.566 linhas com jovens/mulheres > total); campos de 2020 ficaram null no município."
+  },
+  "revisao_fontes": {
+   "data": "2026-10-07",
+   "resumo": "Revisão contra a fonte (API do SlaveVoyages, SIDRA, Relatório da CNV, Atlas da Violência 2025, II VIGISAN, imprensa com página lida). Correções de valor: desembarcados no Brasil 4.864.377 e 12,1% de mortalidade; total atlântico 12.521.354/10.702.644; Censo 1991 294.148; indígenas em 1957 68.100-99.700; covid-19 registrados 700.556 (MS) e 619.056 (Conass, e não MS); analfabetismo 5,6% é PNAD Contínua (Censo 2022 dá 7,0%); queda de homicídios 30,3% refere-se ao total, não à taxa de jovens. Atribuições sem sustentação nas páginas lidas (119 mil no Ceará, 27 mil em 1915, 300 mil na gripe de 1918, 3,5 milhões na seca de 1979-83) foram removidas do valor e registradas em nota_verificacao. Itens sem fonte lida seguem verificado=false."
   }
  },
  "indicadores": [
@@ -15,15 +19,12 @@
    "ciclo": "acucar",
    "categoria": "escravizacao",
    "titulo": "Africanos escravizados desembarcados no Brasil (tráfico transatlântico)",
-   "valor": 4800000,
-   "unidade": "pessoas (ordem de grandeza: quase 5 milhões)",
+   "valor": 4864377,
+   "unidade": "pessoas (estimativa do banco SlaveVoyages; 5.532.129 embarcados para o Brasil)",
    "periodo": "1501-1866",
    "tipo": "estimativa",
-   "intervalo": [
-    4500000,
-    5000000
-   ],
-   "metodo": "Banco de viagens do SlaveVoyages (Eltis, Richardson e colaboradores): viagens documentadas somadas a estimativas para viagens sem registro. Faixa informada e aproximada, a conferir no banco.",
+   "intervalo": null,
+   "metodo": "Banco de estimativas do SlaveVoyages (Eltis, Richardson e colaboradores): viagens documentadas somadas a estimativas para viagens sem registro. Valor lido na tabela de estimativas (área de desembarque \"Brazil\": 4.864.377 desembarcados e 5.532.129 embarcados). O \"quase 5 milhões\" e a faixa 4,5-5,0 milhões do arquivo anterior eram aproximações.",
    "nao_mede": "Nao mede africanos mortos na captura, marcha ate a costa e espera nos portos, nem mortes apos o desembarque (seasoning); nao inclui trafico interno nem as sociedades de origem despovoadas.",
    "fontes": [
     {
@@ -33,21 +34,31 @@
     {
      "titulo": "Statista a partir de SlaveVoyages - desembarques por regiao [resumo de busca]",
      "url": "https://statista.com/chart/amp/19068/trans-atlantic-slave-trade-by-country-region"
+    },
+    {
+     "titulo": "Wikipedia - Slavery in Brazil (5,5 mi 'brought to Brazil')",
+     "url": "https://en.wikipedia.org/wiki/Slavery_in_Brazil"
     }
    ],
-   "verificado": false
+   "verificado": true,
+   "nota_verificacao": "Lido na tabela de estimativas do SlaveVoyages (consulta a API que a propria pagina /assessment/estimates usa; a pagina e JS e volta vazia no curl). Brasil (import area 'Brazil' = Amazonia + Bahia + Pernambuco + Sudeste + Brazil unspecified): 4.864.377 desembarcados e 5.532.129 embarcados, sem filtro de periodo (banco todo; primeiro registro 1514, ultimo 1866). O valor antigo ~4,8 mi (faixa 4,5-5,0) estava certo em ordem de grandeza; valor exato agora lido. Contraste: o CSV de viagens registradas (tastdb-exp-2019, 36.108 viagens, so o que tem registro) soma bem menos (Brasil ~3,2 mi desembarcados nos codigos 50xxx; total ~9,2 mi desembarcados): a estimativa ja inclui viagens sem registro. Wikipedia 'Slavery in Brazil' diz 'approximately 5.5 million were brought to Brazil' - isso corresponde aos EMBARCADOS (5,53 mi), nao aos desembarcados.",
+   "leituras_rivais": [
+    "Estimativa SlaveVoyages: 4,86 mi desembarcados / 5,53 mi embarcados.",
+    "Versoes antigas do banco de viagens registradas: ~3,2 mi desembarcados no Brasil (Statista, resumo de busca, nao lido).",
+    "Goulart 1949: 3,6 mi (RioOnWatch, resumo de busca, nao lido)."
+   ]
   },
   {
    "id": "esc-mortos-travessia-brasil",
    "ciclo": "acucar",
    "categoria": "escravizacao",
    "titulo": "Taxa de mortalidade na travessia atlântica, rotas África-Brasil",
-   "valor": 12.5,
+   "valor": 12.1,
    "unidade": "% dos embarcados (cerca de 1 em 8)",
    "periodo": "1501-1866",
    "tipo": "estimativa",
    "intervalo": null,
-   "metodo": "Razão entre mortos registrados/estimados a bordo e embarcados nas viagens do SlaveVoyages; Brasil tem a menor taxa entre os destinos (viagem média de cerca de 45 dias). A taxa de 12,5% vem do enunciado 'um em oito' em resumo de terceiros.",
+   "metodo": "Calculado sobre as estimativas do SlaveVoyages lidas: 1 - 4.864.377/5.532.129 = 12,07% dos embarcados para o Brasil (cerca de 1 em 8,3). O 12,5% anterior vinha do enunciado \"um em oito\" de um resumo. No total atlântico a perda é 14,5%.",
    "nao_mede": "Nao mede africanos mortos na captura, marcha ate a costa e espera nos portos, nem mortes apos o desembarque (seasoning); nao inclui trafico interno nem as sociedades de origem despovoadas.",
    "fontes": [
     {
@@ -57,9 +68,18 @@
     {
      "titulo": "Statista a partir de SlaveVoyages - middle passage death rate by destination 1501-1866 [resumo de busca]",
      "url": "https://www.statista.com/statistics/1070565/middle-passage-death-rate-by-destination-1501-1866/"
+    },
+    {
+     "titulo": "SlaveVoyages - API de estimativas (POST /api/assessment/crosstabs/, a mesma da pagina /assessment/estimates), linhas=import area, colunas=regiao de desembarque, vals=embarked_slaves,disembarked_slaves, sem filtro",
+     "url": "https://www.slavevoyages.org/assessment/estimates"
     }
    ],
-   "verificado": false
+   "verificado": true,
+   "nota_verificacao": "Calculado a partir dos dois numeros lidos na API do SlaveVoyages: Brasil embarcados 5.532.129, desembarcados 4.864.377 -> perda entre embarque e desembarque = 667.752 = 12,07% dos embarcados (~1 em 8,3). O 12,5% anterior vinha so do enunciado 'um em oito' de resumo; correto e ~12,1%. Contexto: toda a travessia atlantica 12.521.354 -> 10.702.644 = 14,5% (1,82 mi). Ressalva: desembarcado e em parte estimado/imputado pelo banco; o metodo do item deve dizer '1 - desembarcados/embarcados nas estimativas do banco', nao 'mortos registrados'.",
+   "leituras_rivais": [
+    "Total atlantico: 14,5% (calculo sobre as estimativas do banco).",
+    "Patrick Manning (via Wikipedia 'Atlantic slave trade'): ~12 mi entraram, ~1,5 mi morreram a bordo, ~10,5 mi chegaram (~12,5%); lido na Wikipedia, nao no livro."
+   ]
   },
   {
    "id": "esc-1601-1650-brasil",
@@ -90,12 +110,12 @@
    "ciclo": "acucar",
    "categoria": "escravizacao",
    "titulo": "Africanos embarcados no tráfico transatlântico (todos os destinos)",
-   "valor": 12500000,
+   "valor": 12521354,
    "unidade": "pessoas",
    "periodo": "1501-1866",
    "tipo": "estimativa",
    "intervalo": null,
-   "metodo": "SlaveVoyages (estimativa consolidada; cerca de 10,7 milhões desembarcados segundo o mesmo banco, valor de memória).",
+   "metodo": "SlaveVoyages, tabela de estimativas lida: 12.521.354 embarcados e 10.702.644 desembarcados (incluem 178.903 embarcados no tráfico intra-africano).",
    "nao_mede": "Nao separa o Brasil; nao mede o tráfico por outras rotas (Saara, Oceano Índico).",
    "fontes": [
     {
@@ -105,9 +125,22 @@
     {
      "titulo": "Statista a partir de SlaveVoyages - desembarques por regiao [resumo de busca]",
      "url": "https://statista.com/chart/amp/19068/trans-atlantic-slave-trade-by-country-region"
+    },
+    {
+     "titulo": "SlaveVoyages - API de estimativas (POST /api/assessment/crosstabs/, a mesma da pagina /assessment/estimates), linhas=import area, colunas=regiao de desembarque, vals=embarked_slaves,disembarked_slaves, sem filtro",
+     "url": "https://www.slavevoyages.org/assessment/estimates"
+    },
+    {
+     "titulo": "Wikipedia - Atlantic slave trade (cita Anderson et al. 2013: 12,5 mi / 10,7 mi)",
+     "url": "https://en.wikipedia.org/wiki/Atlantic_slave_trade"
     }
    ],
-   "verificado": false
+   "verificado": true,
+   "nota_verificacao": "Lido na tabela de estimativas do SlaveVoyages (API da pagina /assessment/estimates): Totals = 12.521.354 embarcados e 10.702.644 desembarcados. Confirma ~12,5 mi / ~10,7 mi (antes 'valor de memoria'). Os totais incluem a linha 'Africa' (178.903 embarcados / 155.566 desembarcados: trafico intra-africano) e 'Europe' (10.800/8.862). Por regiao (embarcados/desembarcados, mi): Brasil 5,53/4,86; Caribe britanico 2,76/2,32; Americas espanholas 1,59/1,29; Caribe frances 1,33/1,12; Americas holandesas 0,51/0,44; America do Norte continental 0,47/0,39; Dinamarca 0,13/0,11. Wikipedia 'Atlantic slave trade' cita Anderson et al. 2013: 'carried off an estimated 12.5 million captives ... 10.7 million who survived the voyage'.",
+   "leituras_rivais": [
+    "Patrick Manning: ~12 mi entraram, ~10,5 mi chegaram (Wikipedia).",
+    "Eltis & Richardson 'The Numbers Game': 9,4 a 12,6 mi levados ao Novo Mundo (Wikipedia 'Middle Passage')."
+   ]
   },
   {
    "id": "esc-censo-1872",
@@ -187,10 +220,10 @@
    "periodo": "c. 1500",
    "tipo": "estimativa",
    "intervalo": [
-    2000000,
+    1100000,
     5000000
    ],
-   "metodo": "Reconstruções demográficas retroativas (Rosenblat, Denevan, Funai e outros) a partir de densidade por ecossistema e relatos de cronistas. Faixa 2 a 5 milhões é a mais citada; há estimativas acima e abaixo. Valor central deliberadamente não escolhido.",
+   "metodo": "Reconstruções demográficas retroativas a partir de densidade por ecossistema e relatos de cronistas. Lidos: Funai 5 milhões (Pesquisa FAPESP 2010) e Steward 1,1 milhão (citado em artigo dos anos 1950); a faixa 2-5 milhões \"mais citada\" do arquivo anterior e as estimativas de Rosenblat, Denevan e Clement para o Brasil não foram abertas. Valor central deliberadamente não escolhido.",
    "nao_mede": "Nao há contagem; a linha de base é objeto de controvérsia (alta densidade na várzea amazônica vs. baixa); não distingue mortes por doença, guerra, escravização e deslocamento.",
    "fontes": [
     {
@@ -200,9 +233,19 @@
     {
      "titulo": "Pesquisa FAPESP - Diversidade brasileira / colapso populacional indigena",
      "url": "https://revistapesquisa.fapesp.br/diversidade-brasileira/"
+    },
+    {
+     "titulo": "Estudo anos 1950 (aboonline.org.br v21a04) citando Steward 1,1 mi em 1500 e Rondon 1,5 mi",
+     "url": "https://aboonline.org.br/export-pdf/4591/v21a04.pdf"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Lido: Pesquisa FAPESP ed. 173 (jul/2010), 'Diversidade brasileira': 'segundo calculos da Funai, eles somavam 5 milhoes' em 1500. Lido (citacao em artigo medico dos anos 1950, ABO online): Steward informa 1.100.000 na descoberta (500 mil em 1940); Rondon presumiu 1,5 mi (para a epoca). Country Studies (countrystudies.us/brazil/4.htm) voltou ilegivel no curl; Wikipedia 'Indigenous peoples in Brazil' nao traz estimativa numerica de 1500. Denevan, Rosenblat e Clement NAO foram lidos na fonte (so memoria): Rosenblat ~1 mi; Denevan 1976 ~2,4 mi; Denevan 1992/Clement et al. 2015 elevam muito a Amazonia. A faixa 2-5 mi do item e razoavel, mas a ponta baixa na literatura classica e ~1-1,1 mi; sugiro [1,1 mi (Steward, lido) ; 5 mi (Funai, lido)]. Permanece false porque as atribuicoes a Denevan/Rosenblat/Clement nao foram abertas.",
+   "leituras_rivais": [
+    "Funai: 5 mi (lido, FAPESP 2010).",
+    "Steward: 1,1 mi em 1500 (lido via citacao).",
+    "Rosenblat ~1 mi; Denevan ~2,4 mi; Clement et al. 2015: Amazonia pre-colombiana alta (memoria, NAO lido)."
+   ]
   },
   {
    "id": "ind-pop-1957",
@@ -214,11 +257,11 @@
    "periodo": "c. 1957",
    "tipo": "estimativa",
    "intervalo": [
-    70000,
-    125000
+    68100,
+    99700
    ],
-   "metodo": "Estimativa de Darcy Ribeiro (Os índios e a civilização) e resumos de terceiros; fontes divergem (70 mil e 125 mil aparecem).",
-   "nao_mede": "Contagem inexistente; Ribeiro também registra extinção de 87 povos entre 1900 e 1957 (valor de resumo, nao conferido).",
+   "metodo": "Estimativa de Darcy Ribeiro (Os índios e a civilização), lida em citação num artigo dos anos 1950-60: entre 68.100 e 99.700 em 1957; 230 tribos em 1900 e 143 depois (87 povos extintos). O limite de 125 mil do arquivo anterior não apareceu em nenhuma fonte lida. Fonte secundária; o original de Ribeiro não foi lido.",
+   "nao_mede": "Contagem inexistente; Ribeiro registra a extinção de 87 povos entre 1900 e 1957 (230 para 143 tribos, lido em citação).",
    "fontes": [
     {
      "titulo": "Country Studies (Library of Congress) - The Indigenous Population [resumo de busca]",
@@ -227,29 +270,44 @@
     {
      "titulo": "Pesquisa FAPESP - Diversidade brasileira / colapso populacional indigena",
      "url": "https://revistapesquisa.fapesp.br/diversidade-brasileira/"
+    },
+    {
+     "titulo": "Estudo c. 1958-60 citando D. Ribeiro: 68.100-99.700 em 1957; 230 tribos em 1900 -> 143",
+     "url": "https://aboonline.org.br/export-pdf/4591/v21a04.pdf"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Lido em artigo dos anos 1950-60 (PDF em aboonline.org.br, cap. I): 'Darcy Ribeiro (22) cita que, no ano de 1900, existiam 230 tribos de indios e que existem, atualmente, 143 ... o mesmo autor calcula que a populacao indigena brasileira, em 1957, oscila entre um minimo de 68 100 e um maximo de 99 700 individuos.' Logo o intervalo atribuido a Ribeiro e [68.100 ; 99.700], nao 70-125 mil. 230-143 = 87 povos desaparecidos entre 1900 e 1957 (confirma o '87'). ATENCAO: leitura de citacao contemporanea em fonte secundaria, nao do original de Ribeiro (1957 / 'Os indios e a civilizacao', 1970). O limite 125 mil nao apareceu em fonte lida. Marcado true pela leitura direta do numero na fonte citada; se o projeto exigir o original, rebaixar para false.",
+   "leituras_rivais": [
+    "Steward: 500 mil indios em 1940 (mesmo PDF; criterio diferente).",
+    "Estimativas Rondon/SPI de 1-1,5 mi sao anteriores e usam outro criterio de 'indio'."
+   ],
+   "nota": " [Régua única: valor lido em citação de Darcy Ribeiro num artigo, não no original.]"
   },
   {
    "id": "ind-censo-1991",
    "ciclo": "estabilizacao-real",
    "categoria": "indigenas",
    "titulo": "Indígenas no Censo Demográfico 1991 (primeira vez com categoria 'indígena' na cor/raça)",
-   "valor": 294000,
-   "unidade": "pessoas (aprox.)",
+   "valor": 294148,
+   "unidade": "pessoas",
    "periodo": "1991",
    "tipo": "contagem",
    "intervalo": null,
-   "metodo": "Censo IBGE; valor de memória, a conferir.",
+   "metodo": "Censo IBGE 1991, tabela SIDRA 136 (cor ou raça): indígena 294.148 de 146.815.815 residentes (2000: 734.127).",
    "nao_mede": "Autodeclaração; mudanças de metodologia impedem comparação direta com 2010 e 2022.",
    "fontes": [
     {
      "titulo": "IBGE Educa - Populacao indigena, Censo 2022 [resumo de busca]",
      "url": "https://educa.ibge.gov.br/professores/educa-atividades/22061-populacao-indigena-e-populacao-nao-indigena.html"
+    },
+    {
+     "titulo": "IBGE SIDRA tabela 136 (Censos 1991/2000/2010, cor ou raca)",
+     "url": "https://apisidra.ibge.gov.br/values/t/136/n1/all/v/allxp/p/1991/c86/all"
     }
    ],
-   "verificado": false
+   "verificado": true,
+   "nota_verificacao": "Lido na API SIDRA/IBGE, tabela 136 (Populacao residente por cor ou raca), Brasil, Censo 1991: Indigena = 294.148 (total 146.815.815; branca 75.704.922; preta 7.335.130; amarela 630.658; parda 62.316.085; sem declaracao 534.872). Item dizia ~294.000; valor exato 294.148. Mesma tabela: 2000 = 734.127; 2010 = 821.501 (universo da tab. 136; difere de 817.963 da tab. 3175)."
   },
   {
    "id": "ind-censo-2010",
@@ -261,21 +319,37 @@
    "periodo": "2010",
    "tipo": "contagem",
    "intervalo": null,
-   "metodo": "Censo IBGE 2010.",
+   "metodo": "Censo IBGE 2010: 896.917 = 817.963 que se declararam indígenas no quesito cor/raça (SIDRA 3175) + 78.954 que se declararam de outra cor/raça mas se consideram indígenas, sobretudo em terras indígenas. O PDF do IBGE Educa confirma 896,9 mil, 305 etnias e 274 línguas.",
    "nao_mede": "Autodeclaração.",
    "fontes": [
     {
      "titulo": "IBGE Educa - Populacao indigena, Censo 2022 [resumo de busca]",
      "url": "https://educa.ibge.gov.br/professores/educa-atividades/22061-populacao-indigena-e-populacao-nao-indigena.html"
+    },
+    {
+     "titulo": "IBGE Educa - Os indigenas no Censo 2022 (PDF)",
+     "url": "https://educa.ibge.gov.br/images/educa/os-indigenas-no-censo-2022.pdf"
+    },
+    {
+     "titulo": "IBGE SIDRA tabela 3175 (cor ou raca, Censo 2010)",
+     "url": "https://apisidra.ibge.gov.br/values/t/3175/n1/all/v/93/p/all/c86/all"
+    },
+    {
+     "titulo": "IHU/G1 - 896.917 = 817.963 + 78.954",
+     "url": "https://www.ihu.unisinos.br/categorias/172-noticias-2012/512309-mais-de-324-mil-indios-brasileiros-vivem-em-area-urbana-diz-ibge"
     }
    ],
-   "verificado": false,
+   "verificado": true,
    "corroboracao": [
     {
      "fonte": "Agregado SIM/Atlas no banco do projeto Arandu/trans (humano_nacional.json); conferência indireta, ETL do projeto irmão não reauditada",
      "resultado": "diverge",
      "detalhe": "O agregado do trans traz 817.963 (cor/raça); o valor aqui (896.917) inclui outro quesito. Divergência de definição, não de erro; conferir no IBGE 2010."
     }
+   ],
+   "nota_verificacao": "896.917 confirmado como o total oficial IBGE 2010 de indigenas (IBGE Educa PDF 'Os indigenas no Censo 2022': '896,9 mil indigenas, 305 etnias e 274 linguas'). O numero exato e a composicao foram lidos em reportagem (IHU/G1, 10-08-2012) que reproduz o IBGE: 817.963 se declararam indigenas no quesito cor/raca + 78.954 que viviam em terras indigenas, declararam outra cor/raca mas se consideraram indigenas. 817.963 lido na SIDRA tab. 3175 e tab. 9605. A divergencia com o trans (817.963) e de definicao, nao erro. A tab. 136 traz 821.501 (outro universo). Sugestao: registrar no metodo que 817.963 e o comparavel com 1991/2000/2022 (2022 pelo quesito cor/raca: 1.227.642 na tab. 9605).",
+   "leituras_rivais": [
+    "Somente cor/raca: 817.963 (SIDRA 3175) ou 821.501 (SIDRA 136)."
    ]
   },
   {
@@ -288,12 +362,16 @@
    "periodo": "2022",
    "tipo": "contagem",
    "intervalo": null,
-   "metodo": "Censo IBGE 2022; alta de 88,96% sobre 2010, em parte metodológica (mapeamento mais detalhado, mais autodeclaração em cidades).",
+   "metodo": "Censo IBGE 2022: 1.694.836 = 1.227.642 por cor/raça + 467.194 que \"se consideram indígenas\" (SIDRA 9718, API lida). Alta sobre 2010 em parte metodológica (mapeamento mais detalhado, mais autodeclaração em cidades). O agregado inicial divulgado em 2023 pode diferir; um valor de 1.693.535 aparecia em outros arquivos do projeto e não foi localizado em fonte.",
    "nao_mede": "Nao mede recuperação demográfica real: parte do aumento é mudança de identificação e de metodologia.",
    "fontes": [
     {
      "titulo": "IBGE Educa - Populacao indigena, Censo 2022 [resumo de busca]",
      "url": "https://educa.ibge.gov.br/professores/educa-atividades/22061-populacao-indigena-e-populacao-nao-indigena.html"
+    },
+    {
+     "titulo": "IBGE SIDRA tabela 9718 - Censo 2022, quesito de declaração indígena [API lida]",
+     "url": "https://apisidra.ibge.gov.br/values/t/9718/n1/all/v/93/p/2022/c2661/all/c1714/60024,60025,60026,60029"
     }
    ],
    "verificado": true,
@@ -327,7 +405,8 @@
      "url": "http://cnv.memoriasreveladas.gov.br/"
     }
    ],
-   "verificado": false
+   "verificado": true,
+   "nota_verificacao": "Lido no Relatorio da CNV, vol. II, Texto 5 'Violacoes de direitos humanos dos povos indigenas', p. 205: 'foi possivel estimar ao menos 8.350 indigenas mortos no periodo de investigacao da CNV, em decorrencia da acao direta de agentes governamentais ou da sua omissao. Essa cifra inclui apenas aqueles casos aqui estudados em relacao aos quais foi possivel desenhar uma estimativa. O numero real de indigenas mortos no periodo deve ser exponencialmente maior...'. Periodo 1946-1988. Sugestao: reforcar em nao_mede que a propria CNV declara a cifra como piso, restrita aos povos estudados."
   },
   {
    "id": "est-cnv-434",
@@ -351,7 +430,8 @@
      "url": "http://cnv.memoriasreveladas.gov.br/"
     }
    ],
-   "verificado": false
+   "verificado": true,
+   "nota_verificacao": "Lido no Relatorio da CNV, vol. III, Apresentacao p. 25 e Introducao p. 26: 'perfis dos 434 mortos e desaparecidos politicos no Brasil e no exterior de 18 de setembro de 1946 a 5 de outubro de 1988'. Numero e periodo conferem; inclui mortos/desaparecidos no exterior."
   },
   {
    "id": "est-bnm-torturados",
@@ -369,9 +449,14 @@
     {
      "titulo": "Wikipedia - Brasil: Nunca Mais [resumo de busca]",
      "url": "https://en.wikipedia.org/wiki/Brasil:_Nunca_Mais"
+    },
+    {
+     "titulo": "Brasil Nunca Mais, Tomo V (A Tortura) - transcricao MIA/marxists.org (URL aproximada: reconfirmar)",
+     "url": "https://www.marxists.org/portugues/tematica/1985/bnm/"
     }
    ],
-   "verificado": false
+   "verificado": true,
+   "nota_verificacao": "Lido na transcricao do Brasil Nunca Mais (MIA/marxists.org, Tomo V - Vol 1 'A Tortura'): 'relacao nominal de 1843 pessoas que prestaram depoimentos denunciando torturas'; Tomo V Vol 3 'Transcricao dos depoimentos 1201 a 1843'; Tomo V Vol 4 'Informacoes sobre mortos contidas nos 707 processos'. Confere 1.843 e 707. O texto adverte: varios reus depuseram em mais de um processo reiterando denuncias. Wikipedia en (lida): 17.000 vitimas, 1.800 episodios de tortura, 353 mortos nomeados (nao confundir 1.800 episodios com 1.843 pessoas). URL exata das paginas lidas (bnm07/09/10.htm, secao MIA) nao foi registrada; reconfirmar o caminho."
   },
   {
    "id": "est-ccv-camponeses",
@@ -380,13 +465,13 @@
    "titulo": "Camponeses mortos e desaparecidos no campo (Comissão Camponesa da Verdade)",
    "valor": 1196,
    "unidade": "pessoas",
-   "periodo": "1961-1988",
+   "periodo": "1964-1988",
    "tipo": "estimativa",
    "intervalo": [
     1196,
     1654
    ],
-   "metodo": "Relatório da Comissão Camponesa da Verdade (2014): 1.196; estudo posterior reporta 1.654 (apublica, 2024). Compilação de fontes de movimentos sociais, Igreja e imprensa.",
+   "metodo": "Relatório da Comissão Camponesa da Verdade (CUT): 1.196 mortos e desaparecidos no campo em 1964-1985, dos quais a CNV reconheceu 432 (36%); estudo posterior de Gilney Viana (Agência Pública, 2024): 1.654 em 1964-1988. Compilação de fontes de movimentos sociais, Igreja e imprensa. A data da conclusão da CCV (2014 ou 2015) não foi conferida.",
    "nao_mede": "Nem todos os casos têm confirmação por documentos estatais; a CNV reconheceu cerca de 1/3 apenas; mistura violência privada de latifundiários e violência estatal.",
    "fontes": [
     {
@@ -398,7 +483,13 @@
      "url": "https://apublica.org/2024/03/60-anos-do-golpe-militar-estudo-aponta-1654-camponeses-mortos-e-desaparecidos-na-ditadura/"
     }
    ],
-   "verificado": false
+   "verificado": true,
+   "nota_verificacao": "Lido: CUT (relatorio final da CCV): 'foram listados 1.196 camponeses(as) mortos e desaparecidos ... o relatorio publicado pela CNV reconheceu oficialmente apenas 432 vitimas' (432/1196 = 36%, confirma o 'cerca de 1/3'). Lido: Agencia Publica (mar/2024): estudo de Gilney Viana aponta 1.654 mortos/desaparecidos do golpe de 1964 ate a Constituicao de 1988; 'Em 2015, a CCV concluiu que 1.196 camponeses foram mortos ou desapareceram de 1964 a 1985'. CORRIGIR: (a) periodo do 1.196 e 1964-1985 (nao 1961-1988); 1964-1988 e do 1.654; (b) data do relatorio da CCV: apublica diz 2015; o item diz 2014 (checar). Valores 1.196 e 1.654 confirmados.",
+   "leituras_rivais": [
+    "CNV: 432 camponeses reconhecidos (via CUT).",
+    "CCV 2015: 1.196 (1964-1985).",
+    "Viana 2024: 1.654 (1964-1988)."
+   ]
   },
   {
    "id": "con-paraguai",
@@ -419,9 +510,18 @@
     {
      "titulo": "Pesquisa FAPESP - Novas perspectivas sobre a Guerra do Paraguai [resumo de busca]",
      "url": "https://revistapesquisa.fapesp.br/novas-perspectivas-buscam-ampliar-o-entendimento-sobre-a-guerra-do-paraguai/"
+    },
+    {
+     "titulo": "Wikipedia - Paraguayan War (150-500 mil mortos)",
+     "url": "https://en.wikipedia.org/wiki/Paraguayan_War"
     }
    ],
-   "verificado": false
+   "verificado": true,
+   "nota_verificacao": "Lido em Pesquisa FAPESP ('Novas perspectivas buscam ampliar o entendimento sobre a Guerra do Paraguai'): 'Estimativas conservadoras apontam mais de 100 mil mortos, somando as perdas sofridas pelos quatro paises ... E possivel que o total tenha chegado a quatro vezes isso. A maioria morreu de colera e outras doencas'. Confere com [100 mil ; 400 mil] (quatro paises, inclui Argentina e Uruguai). Wikipedia en (lida): 'Total: 150,000-500,000 dead'. A citacao a Doratioto no item nao foi lida (atribuicao nao verificada).",
+   "leituras_rivais": [
+    "150 mil a 500 mil (Wikipedia en).",
+    "Mortalidade civil paraguaia de poucos % ate >50% da populacao (memoria, nao lido)."
+   ]
   },
   {
    "id": "con-canudos",
@@ -432,19 +532,25 @@
    "unidade": "pessoas (estimativa corrente)",
    "periodo": "1896-1897",
    "tipo": "estimativa",
-   "intervalo": [
-    10000,
-    25000
-   ],
-   "metodo": "Estimativas historiográficas a partir de relatos, população da cidade e fontes militares; faixa inferior de memória, a conferir.",
+   "intervalo": null,
+   "metodo": "Estimativa corrente de 25 mil mortos (Poder360/DW, 2021; Wikipedia en: quase 25.000 canudenses mortos e c. 150 sobreviventes; Exército com menos de 5.000 mortos). O limite inferior de 10.000 do arquivo anterior não foi encontrado; 15-30 mil (Johnson) aparece em resumo de busca não lido.",
    "nao_mede": "Nao há contagem; a população de Canudos antes da guerra também é estimada; mortes por fome e doença se misturam.",
    "fontes": [
     {
      "titulo": "Poder360 - Ha 125 anos, Canudos escancarou dificuldades do Brasil rural [resumo de busca]",
      "url": "https://www.poder360.com.br/brasil/ha-125-anos-canudos-escancarou-dificuldades-do-brasil-rural/"
+    },
+    {
+     "titulo": "Wikipedia - War of Canudos",
+     "url": "https://en.wikipedia.org/wiki/War_of_Canudos"
     }
    ],
-   "verificado": false
+   "verificado": true,
+   "nota_verificacao": "Lido: Poder360/DW (28/11/2021): 'a guerra deixou um saldo estimado em 25 mil vitimas'; Wikipedia en 'War of Canudos' (infobox): canudenses 'almost 25,000 dead; only some 150 survivors', Exercito 'less than 5,000 dead'. Portanto 25.000 confere como estimativa corrente. A ponta baixa 10.000 NAO apareceu em fonte lida; a busca sugere faixa 15-30 mil (A. M. C. Johnson / 'Sentencing Canudos', resumo de busca, nao lido). Recomendo reavaliar o intervalo para [15.000 ; 30.000] apos ler Johnson/Levine. Marcado true somente para o valor 25.000.",
+   "leituras_rivais": [
+    "15 mil a 30 mil (Johnson; resumo de busca, nao lido).",
+    "Exercito: <5.000 mortos, a somar aos ~25 mil canudenses (Wikipedia)."
+   ]
   },
   {
    "id": "con-contestado",
@@ -459,15 +565,24 @@
     10000,
     20000
    ],
-   "metodo": "Estimativas oficiais em torno de 10 mil; estudiosos citam mais de 20 mil.",
+   "metodo": "Lido: Uninter (\"mais de 20 mil\") e Wikipedia en (10-20 mil no total, incluindo civis; rebeldes 5-8 mil). A estimativa \"oficial de 10 mil\" do arquivo anterior não foi encontrada em fonte lida.",
    "nao_mede": "Sem registro sistemático; afeta civis (famílias sertanejas) e combatentes de modo indistinto.",
    "fontes": [
     {
      "titulo": "Uninter - Contestado, a guerra que chegou de trem [resumo de busca]",
      "url": "https://www.uninter.com/noticias/?p=34404"
+    },
+    {
+     "titulo": "Wikipedia - Contestado War (10-20 mil total)",
+     "url": "https://en.wikipedia.org/wiki/Contestado_War"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Lido: Uninter ('Contestado, a guerra que chegou de trem'): 'A estimativa e de que mais de 20 mil pessoas tenham morrido na guerra.' Wikipedia en (lida): rebeldes 5.000-8.000 mortos/feridos/desaparecidos, governo 800-1.000, 'Total deaths including civilians between 10,000-20,000'. A frase do item 'estimativa oficial ~10 mil' NAO foi encontrada em fonte lida; o intervalo [10 mil ; 20 mil] bate com a Wikipedia, mas Uninter diz 'mais de 20 mil'. Permanece false: falta fonte academica (Machado, Queiroz, Espig) que sustente '10 mil oficial'.",
+   "leituras_rivais": [
+    "10 mil a 20 mil (Wikipedia en).",
+    "Mais de 20 mil (Uninter)."
+   ]
   },
   {
    "id": "sec-1877",
@@ -501,40 +616,54 @@
    "ciclo": "agroexportacao-imperial",
    "categoria": "fome-seca",
    "titulo": "Mortos em 1878 no Ceará (fome e sede) e migrantes",
-   "valor": 119000,
-   "unidade": "pessoas (mortes; 55 mil migrantes)",
+   "valor": null,
+   "unidade": "pessoas",
    "periodo": "1878",
    "tipo": "estimativa",
    "intervalo": null,
-   "metodo": "Citado em resumo da Wikipedia (população da província de 900 mil para 750 mil em 5 anos).",
+   "metodo": "Não confirmado. O valor anterior (119 mil mortes e 55 mil migrantes no Ceará em 1878) não aparece nas páginas da Wikipedia en e pt lidas, apesar de a atribuição apontar para elas; só apareceu em resumo de busca. A Agência Senado (lida) dá 500 mil mortes em 8 províncias em 1877-79 (12% da população delas). Discrepância 55 mil x 5.500 migrantes não resolvida.",
    "nao_mede": "Mistura de mortos e emigrados no declínio populacional; fonte secundária.",
    "fontes": [
     {
      "titulo": "Wikipedia - Grande Seca [resumo de busca]",
      "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+    },
+    {
+     "titulo": "Agencia Senado - 500 mil mortes ... retrato da Grande Seca do Imperio",
+     "url": "https://www12.senado.leg.br/noticias/especiais/arquivo-s/500-mil-mortes-doenca-fome-desvio-de-verbas-e-pedido-de-cpi-o-retrato-da-grande-seca-do-imperio"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "NAO confirmado. A pagina Wikipedia en 'Grande Seca' baixada nao traz 119 mil, 55 mil nem 900/750 mil, e a pt tambem nao (a atribuicao 'resumo da Wikipedia' do item nao se sustenta nessas paginas). Lido: Agencia Senado (Westin, 1/10/2021): 'A Grande Seca ... provocou 500 mil mortes em oito provincias, tanto por sede e fome quanto por doencas ... 5% da populacao do Imperio' e 'tirou a vida de 12% da populacao das oito provincias'. Busca (nao lida) acha '119 mil mortos e 55 mil migrantes em 1878' em divulgacao e '119 mil mortos e 5.500 expatriados' (Stuart 1997 via artigo): discrepancia 55 mil x 5.500 nao resolvida. Sugestao: manter 119 mil como citado (false) e acrescentar o total do Norte (500 mil) como contexto; procurar Theophilo (1922).",
+   "leituras_rivais": [
+    "500 mil mortos em 8 provincias do Norte, 1877-79 (Senado, lido).",
+    "119 mil mortos no Ceara em 1878 (divulgacao; nao lido na fonte)."
+   ]
   },
   {
    "id": "sec-1915",
    "ciclo": "borracha-cafe-republica-velha",
    "categoria": "fome-seca",
    "titulo": "Cearenses mortos na seca de 1915",
-   "valor": 27000,
+   "valor": null,
    "unidade": "pessoas",
    "periodo": "1915",
    "tipo": "estimativa",
    "intervalo": null,
-   "metodo": "Citado em literatura secundária (a Seca de 1915 também aparece com 100 mil mortes em outra estimativa).",
+   "metodo": "Não confirmado. O valor anterior (27 mil mortos no Ceará) não foi encontrado; a fonte IPS indicada trata da seca de 1979-83. Lido apenas: o campo de concentração de Alagadiço (1915) chegou a abrigar cerca de 8 mil pessoas (Pesquisa FAPESP).",
    "nao_mede": "Estimativas divergem por fator de 4; sem contagem.",
    "fontes": [
     {
      "titulo": "IPS - Adeus as secas com milhoes de mortos [resumo de busca]",
      "url": "https://www.ipsnews.net/portuguese/2017/01/ultimas-noticias/adeus-as-secas-com-milhoes-de-mortos/"
+    },
+    {
+     "titulo": "Pesquisa FAPESP - Memorias da seca (Alagadico 1915, ~8 mil pessoas)",
+     "url": "https://revistapesquisa.fapesp.br/memorias-da-seca/"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "NAO confirmado. Lido Pesquisa FAPESP 'Memorias da seca': o campo de concentracao de Alagadico (1915) 'chegou a abrigar cerca de 8 mil pessoas'; nenhuma cifra de mortos totais de 1915. A fonte do item (IPS) trata de 1979-83, nao de 1915: a atribuicao do 27 mil ao IPS parece errada. 27 mil e 100 mil nao encontrados em fonte lida. Permanece false; recomendo remover a fonte IPS deste item."
   },
   {
    "id": "sec-1979-83",
@@ -547,9 +676,9 @@
    "tipo": "estimativa",
    "intervalo": [
     100000,
-    3500000
+    1000000
    ],
-   "metodo": "Governos regionais: 100 mil; pesquisadores: ao menos 700 mil; ASA: 1 milhão; DNOCS cita 700 mil a 3,5 milhões. A faixa é a das estimativas conflitantes.",
+   "metodo": "Lido na IPS (2017): 100 mil segundo os governos regionais; pelo menos 700 mil segundo pesquisadores; 1 milhão na estimativa adotada pela ASA. O limite de 3,5 milhões (DNOCS) do arquivo anterior não foi encontrado. A faixa é a das estimativas conflitantes.",
    "nao_mede": "Faixa muito aberta: não há método unificado; não distingue mortalidade infantil excedente.",
    "fontes": [
     {
@@ -557,7 +686,13 @@
      "url": "https://www.ipsnews.net/portuguese/2017/01/ultimas-noticias/adeus-as-secas-com-milhoes-de-mortos/"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Lido na IPS (Mario Osava, 10/1/2017): 'Nos cinco anos que durou a seca (1979 a 1983), as mortes somaram 100 mil, segundo os governos regionais, mas pesquisadores estimam em pelo menos 700 mil as pessoas que morreram por fome e sede, na maioria criancas. Um milhao e a estimativa adotada pela Articulacao Semiarido Brasileiro (ASA)'. Confirmados: 100 mil, >=700 mil, 1 milhao. NAO confirmado: '3,5 milhoes' (DNOCS); nao apareceu no trecho lido. Sugestao: intervalo [100 mil ; 1 mi]. False porque o limite superior 3,5 mi segue sem fonte lida.",
+   "leituras_rivais": [
+    "Governos regionais: 100 mil.",
+    "Pesquisadores: >=700 mil, maioria criancas.",
+    "ASA: 1 milhao."
+   ]
   },
   {
    "id": "fome-vigisan-2022",
@@ -579,9 +714,14 @@
     {
      "titulo": "Rede PENSSAN - II VIGISAN (2022) [resumo de busca]",
      "url": "https://olheparaafome.com.br/"
+    },
+    {
+     "titulo": "Rede PENSSAN - II VIGISAN, relatório final (PDF, cópia no Jornal da USP)",
+     "url": "https://jornal.usp.br/wp-content/uploads/2022/06/Relatorio-II-VIGISAN-2022.pdf"
     }
    ],
-   "verificado": false
+   "verificado": true,
+   "nota_verificacao": "Li o PDF do relatório final. Resumo: 12.745 domicílios, coleta nov/2021-abr/2022, EBIA de 8 perguntas; 577 municípios e 1.738 setores censitários; IA grave (fome) em 15,5% dos domicílios; tabela por região: pessoas em IA grave = 33.103 mil (33,1 mi), pessoas em SA 88.160 mil. Valor confere. Obs: o 15,5% impresso é percentual de domicílios (coincide com a fatia de pessoas)."
   },
   {
    "id": "fome-vigisan-total-ia",
@@ -599,9 +739,14 @@
     {
      "titulo": "FES Brasil - dados estaduais sobre a fome [resumo de busca]",
      "url": "https://brasil.fes.de/detalhe/dados-estaduais-sobre-a-fome-desenham-um-novo-mapa-para-o-brasil.html"
+    },
+    {
+     "titulo": "Rede PENSSAN - II VIGISAN, relatório final (PDF, cópia no Jornal da USP)",
+     "url": "https://jornal.usp.br/wp-content/uploads/2022/06/Relatorio-II-VIGISAN-2022.pdf"
     }
    ],
-   "verificado": false
+   "verificado": true,
+   "nota_verificacao": "Li o PDF: 'são 125,2 milhões de pessoas residentes em domicílios com IA'. Tabela: SA 41,3% dos domicílios (IA total = 58,7% por complemento: 28,0 leve + 15,2 moderada + 15,5 grave); pessoas: 88.160 mil SA e 125,2 mi IA => 58,7% de ~213,4 mi. O texto não imprime '58,7' literalmente; é derivado. Valor confere."
   },
   {
    "id": "fome-mapa-2014",
@@ -685,30 +830,43 @@
    "periodo": "set-dez/1918",
    "tipo": "estimativa",
    "intervalo": [
-    35000,
-    300000
+    30000,
+    35000
    ],
-   "metodo": "Estimativas conflitantes: ~35 mil (possivelmente recorte de capitais ou cidades) a ~300 mil (Brasil). Não há registro nacional.",
+   "metodo": "Lidos: 30-35 mil mortos no país (O Povo, 2018, citando o Butantan) e \"35 mil\" (Pesquisa FAPESP, 2018); Goulart (2005) registra que não há unanimidade. O limite superior de ~300 mil do arquivo anterior não foi encontrado em nenhuma fonte lida; estimativas internacionais de excesso de mortalidade são maiores, mas não foram lidas. Não há registro nacional.",
    "nao_mede": "Faixa muito aberta; a estatística de causa de morte era precária fora das capitais.",
    "fontes": [
     {
      "titulo": "O Povo - Ha 100 anos, Gripe Espanhola... [resumo de busca]",
      "url": "https://www.opovo.com.br/noticias/mundo/2018/03/ha-100-anos-gripe-espanhola-matou-o-presidente-e-afetou-o-ceara.html"
+    },
+    {
+     "titulo": "Pesquisa FAPESP - Senhora do caos (35 mil no Brasil)",
+     "url": "https://revistapesquisa.fapesp.br/senhora-do-caos/"
+    },
+    {
+     "titulo": "Goulart 2005 - Revisitando a espanhola (nao ha unanimidade sobre o total)",
+     "url": "https://scielo.br/pdf/hcsm/v12n1/06.pdf"
     }
    ],
-   "verificado": false
+   "verificado": true,
+   "nota_verificacao": "Lido: O Povo (2018): 'Calcula-se entre 30 mil a 35 mil o numero de mortos no Pais'; Rio 12,7 mil, Sao Paulo 6 mil, Porto Alegre 1.316, Recife 1,25 mil, Salvador 386 (Instituto Butantan). Lido: Pesquisa FAPESP 'Senhora do caos' (ed. 266, abr/2018): 'Estima-se que a gripe espanhola tenha matado 35 mil pessoas no Brasil'. Lido: Goulart 2005 (HCSM v.12 n.1) nota 2: 'Nao existe unanimidade entre as fontes sobre o total de mortos'. O limite superior ~300 mil NAO apareceu em nenhuma fonte lida. 35 mil e a cifra corrente lida; 300 mil segue sem fonte. False para o intervalo [35 mil ; 300 mil]; o 35 mil em si esta confirmado.",
+   "leituras_rivais": [
+    "35 mil (cifra corrente, FAPESP, O Povo).",
+    "~300 mil (nao localizado; exigiria estimativa de obitos em excesso)."
+   ]
   },
   {
    "id": "epi-covid-registrados",
    "ciclo": "recessao-ajuste-polarizacao",
    "categoria": "epidemia",
    "titulo": "Mortes por covid-19 registradas no Brasil",
-   "valor": 700239,
-   "unidade": "pessoas (Conass); Ministério da Saúde divulgou 700.556",
+   "valor": 700556,
+   "unidade": "pessoas (Ministério da Saúde, 4/abr/2023)",
    "periodo": "mar/2020-mar/2023",
    "tipo": "contagem",
    "intervalo": null,
-   "metodo": "Registros de óbito por covid-19 consolidados por secretarias estaduais; Conass/MS.",
+   "metodo": "Registros de óbito por covid-19 consolidados pelo Ministério da Saúde: 700.556 em 4 de abril de 2023 (Poder360, página lida). O 700.239 atribuído ao Conass no arquivo anterior não foi encontrado.",
    "nao_mede": "Subnotificação de causa; não mede mortes indiretas nem anos de vida perdidos.",
    "fontes": [
     {
@@ -720,7 +878,8 @@
      "url": "https://covid.saude.gov.br/"
     }
    ],
-   "verificado": false
+   "verificado": true,
+   "nota_verificacao": "Poder360 (5/abr/2023, página lida): 'Brasil tem 700.556 mortes por covid-19', informado pelo Ministério da Saúde (dados de 4/abr/2023). O 700.239 (Conass) NÃO foi encontrado em fonte lida. Recomendo valor 700.556 atribuído ao MS e remover/marcar como não verificada a menção a Conass/700.239."
   },
   {
    "id": "epi-covid-excesso-ihme",
@@ -744,7 +903,8 @@
      "url": "https://www.healthdata.org/research-analysis/library/estimating-excess-mortality-due-covid-19-and-scaling-back-covid-19-pandemic"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Não verificado. O abstract do Lancet (Wang et al. 2022) via Europe PMC não foi obtido (busca devolveu errata/comentários); o abstract traz só o global e o valor do Brasil está nas tabelas/apêndice, não lido. 792 mil segue sem fonte lida."
   },
   {
    "id": "epi-covid-excesso-oms",
@@ -768,19 +928,20 @@
      "url": "https://www.who.int/data/stories/the-true-death-toll-of-covid-19-estimating-global-excess-mortality"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Não verificado. Página WHO 'true death toll' baixou (HTTP 200) mas o HTML estático não contém 'Brazil'; tabela por país não lida. 657 mil segue sem fonte lida."
   },
   {
    "id": "epi-covid-ms-2020-21",
    "ciclo": "recessao-ajuste-polarizacao",
    "categoria": "epidemia",
-   "titulo": "Mortes por covid-19 registradas pelo Ministério da Saúde em 2020-2021",
-   "valor": 619000,
+   "titulo": "Mortes por covid-19 acumuladas até 31/12/2021 (Conass)",
+   "valor": 619056,
    "unidade": "pessoas",
-   "periodo": "2020-2021",
+   "periodo": "mar/2020-31/dez/2021",
    "tipo": "contagem",
    "intervalo": null,
-   "metodo": "Registros do Ministério da Saúde.",
+   "metodo": "Poder360 (31/12/2021, página lida): o Conass confirmou 619.056 vítimas desde o início da pandemia (consolidado das secretarias estaduais). A atribuição anterior ao Ministério da Saúde foi corrigida; MT e TO não atualizaram naquele dia.",
    "nao_mede": "Mesmas limitações dos registros de causa.",
    "fontes": [
     {
@@ -790,9 +951,14 @@
     {
      "titulo": "Ministerio da Saude - Painel Coronavirus",
      "url": "https://covid.saude.gov.br/"
+    },
+    {
+     "titulo": "Poder360 - Covid: Brasil chega à marca de 619 mil mortos pela doença (lida)",
+     "url": "https://www.poder360.com.br/coronavirus/covid-brasil-chega-a-marca-de-619-mil-mortos-pela-doenca/"
     }
    ],
-   "verificado": false
+   "verificado": true,
+   "nota_verificacao": "Poder360 (31/12/2021, página lida): 'O Conass confirmou 72 novas mortes... São 619.056 vítimas da doença no país desde o início da pandemia'. Acumulado até 31/12/2021 (mar/2020-dez/2021), fonte Conass (consolidado das secretarias estaduais); MT e TO não atualizaram naquele dia. Atribuição 'Ministério da Saúde' não confirmada na página lida; corrigir para Conass/secretarias estaduais; valor 619.056 (619 mil confere)."
   },
   {
    "id": "saude-mi-1940",
@@ -812,7 +978,8 @@
      "url": "https://agenciadenoticias.ibge.gov.br/pt/agencia-sala-de-imprensa/38455-em-2022-expectativa-de-vida-era-de-75-5-anos.html?lang=pt-BR"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Não verificado: não consegui abrir tábua IBGE/Estatísticas do Século XX/SIDRA com a série de mortalidade infantil dentro do orçamento de chamadas."
   },
   {
    "id": "saude-mi-1960",
@@ -832,7 +999,8 @@
      "url": "https://agenciadenoticias.ibge.gov.br/pt/agencia-sala-de-imprensa/38455-em-2022-expectativa-de-vida-era-de-75-5-anos.html?lang=pt-BR"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Não verificado: não consegui abrir tábua IBGE/Estatísticas do Século XX/SIDRA com a série de mortalidade infantil dentro do orçamento de chamadas."
   },
   {
    "id": "saude-mi-1980",
@@ -852,7 +1020,8 @@
      "url": "https://agenciadenoticias.ibge.gov.br/pt/agencia-sala-de-imprensa/38455-em-2022-expectativa-de-vida-era-de-75-5-anos.html?lang=pt-BR"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Não verificado: não consegui abrir tábua IBGE/Estatísticas do Século XX/SIDRA com a série de mortalidade infantil dentro do orçamento de chamadas."
   },
   {
    "id": "saude-mi-2000",
@@ -872,7 +1041,8 @@
      "url": "https://agenciadenoticias.ibge.gov.br/pt/agencia-sala-de-imprensa/38455-em-2022-expectativa-de-vida-era-de-75-5-anos.html?lang=pt-BR"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Não verificado: não consegui abrir tábua IBGE/Estatísticas do Século XX/SIDRA com a série de mortalidade infantil dentro do orçamento de chamadas."
   },
   {
    "id": "saude-mi-2022",
@@ -892,7 +1062,8 @@
      "url": "https://agenciadenoticias.ibge.gov.br/pt/agencia-sala-de-imprensa/38455-em-2022-expectativa-de-vida-era-de-75-5-anos.html?lang=pt-BR"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Não verificado: não consegui abrir tábua IBGE/Estatísticas do Século XX/SIDRA com a série de mortalidade infantil dentro do orçamento de chamadas."
   },
   {
    "id": "edu-analf-1872",
@@ -932,27 +1103,32 @@
      "url": "https://seer.ufrgs.br/educacaoerealidade/article/viewFile/25401/14733"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Não verificado (Censo 1920/Estatísticas do Século XX não lidos)."
   },
   {
    "id": "edu-analf-2022",
    "ciclo": "retomada-incerteza",
    "categoria": "educacao",
-   "titulo": "Analfabetismo, 15 anos ou mais",
+   "titulo": "Analfabetismo, 15 anos ou mais (PNAD Contínua 2022)",
    "valor": 5.6,
    "unidade": "% da população",
    "periodo": "2022",
    "tipo": "contagem",
    "intervalo": null,
-   "metodo": "Censo Demográfico 2022 (IBGE), pergunta sobre saber ler e escrever um bilhete simples; valor de memória, página do IBGE retornou erro 403.",
+   "metodo": "PNAD Contínua 2022 (IBGE, SIDRA 7113, API lida): 5,6% das pessoas de 15 anos ou mais (5,4% em 2023). Atenção: o Censo 2022 dá 93,00% de alfabetizados, ou seja, 7,0% de analfabetos (SIDRA 9543); o rótulo \"Censo 2022\" do arquivo anterior atribuía à fonte errada o número da PNAD Contínua. Pergunta de saber ler e escrever um bilhete simples.",
    "nao_mede": "Não mede alfabetismo funcional (compreensão), apenas declaração básica.",
    "fontes": [
     {
-     "titulo": "IBGE - Censo 2022, analfabetismo",
-     "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/41542-censo-2022-brasil-tem-5-6-de-analfabetismo"
+     "titulo": "IBGE SIDRA tabela 7113 - Taxa de analfabetismo, PNAD Contínua [API lida]",
+     "url": "https://apisidra.ibge.gov.br/values/t/7113/n1/all/v/all/p/2022,2023/c2/6794/c58/2795"
+    },
+    {
+     "titulo": "IBGE SIDRA tabela 9543 - Censo 2022, taxa de alfabetização (93,00%) [API lida]",
+     "url": "https://apisidra.ibge.gov.br/values/t/9543/n1/all/v/all/p/last"
     }
    ],
-   "verificado": false,
+   "verificado": true,
    "corroboracao": [
     {
      "fonte": "Agregado SIM/Atlas no banco do projeto Arandu/trans (humano_nacional.json); conferência indireta, ETL do projeto irmão não reauditada",
@@ -979,7 +1155,8 @@
      "url": "https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Não verificado (PNAD Contínua Educação 2023 não lida)."
   },
   {
    "id": "trab-resgates-1995-2024",
@@ -991,7 +1168,7 @@
    "periodo": "1995-2024",
    "tipo": "contagem",
    "intervalo": null,
-   "metodo": "Registros de fiscalização do Ministério do Trabalho (SIT/Radar); cada resgate é fruto de ação fiscal.",
+   "metodo": "Registros de fiscalização do Ministério do Trabalho (SIT/Radar); cada resgate é fruto de ação fiscal. Atenção: duas séries diferem. A que vem do MTE/SIT (65.598) não foi lida; o Alma Preta (lido) cita o Observatório MPT/OIT com \"mais de 63 mil\" desde 1995.",
    "nao_mede": "Só conta quem foi encontrado pela fiscalização, não o total de vítimas; depende da capacidade e da prioridade de fiscalização.",
    "fontes": [
     {
@@ -1003,7 +1180,8 @@
      "url": "https://sit.trabalho.gov.br/radar/"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Não verificado. Alma Preta (lida) diz 'desde 1995, mais de 63 mil' (fonte: Observatório MPT/OIT, série diferente da SIT/MTE) e o título fala em 'mais de 1.600' resgatados em 2024: divergem de 65.598 e 2.186. Sem fonte lida para os números do MTE/SIT; registrar que há séries distintas (MTE vs MPT/OIT)."
   },
   {
    "id": "trab-resgates-2024",
@@ -1015,7 +1193,7 @@
    "periodo": "2024",
    "tipo": "contagem",
    "intervalo": null,
-   "metodo": "SIT/MTE.",
+   "metodo": "SIT/MTE. Atenção: o Alma Preta (lido) titula \"mais de 1.600\" em 2024, que diverge de 2.186 (série MTE/SIT, não lida).",
    "nao_mede": "Idem; um aumento pode refletir mais fiscalização e não mais ocorrência.",
    "fontes": [
     {
@@ -1027,7 +1205,8 @@
      "url": "https://sit.trabalho.gov.br/radar/"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Não verificado. Alma Preta (lida) titula 'mais de 1.600 trabalhadores' em 2024, divergindo de 2.186; sem leitura do Radar SIT. Revisar atribuição."
   },
   {
    "id": "trab-desocup-2021",
@@ -1039,7 +1218,7 @@
    "periodo": "dez/2020-fev/2021",
    "tipo": "contagem",
    "intervalo": null,
-   "metodo": "PNAD Contínua, pesquisa domiciliar amostral do IBGE.",
+   "metodo": "PNAD Contínua, pesquisa domiciliar amostral do IBGE. O valor 14,4% é o divulgado na época; a SIDRA 6381 hoje mostra 14,6% por reponderação posterior.",
    "nao_mede": "Pesquisa amostral (não registro); desalento sinaliza quem parou de procurar, não capta subocupação e informalidade.",
    "fontes": [
     {
@@ -1049,9 +1228,14 @@
     {
      "titulo": "IBGE - PNAD Continua (mercado de trabalho)",
      "url": "https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html"
+    },
+    {
+     "titulo": "IBGE SIDRA tabela 6381 (API lida): dez-jan-fev 2021 = 14,6% (série revisada)",
+     "url": "https://apisidra.ibge.gov.br/values/t/6381/n1/all/v/4099/p/202102"
     }
    ],
-   "verificado": false
+   "verificado": true,
+   "nota_verificacao": "O Povo (30/4/2021, página lida): taxa 14,4% no trimestre encerrado em fev/2021 (14,1% em nov/2020; recorde da série iniciada em 2012) e 5,952 mi desalentados (recorde, +229 mil vs nov/2020). Confere. Obs: SIDRA hoje (tabela 6381, v4099, dez-jan-fev 2021) mostra 14,6% por revisão/reponderação posterior; 14,4% é o valor divulgado na época. Citar 14,4% e anotar a revisão."
   },
   {
    "id": "trab-desalento-2017",
@@ -1063,7 +1247,7 @@
    "periodo": "4º tri 2017",
    "tipo": "contagem",
    "intervalo": null,
-   "metodo": "PNAD Contínua, IBGE.",
+   "metodo": "PNAD Contínua, IBGE. Lido: desalento de 3,9% da força de trabalho no 4o tri 2017 (SIDRA 6807), cerca de 4,3 milhões segundo a Tribuna de Minas; a subutilização de 23,8% não foi encontrada em fonte lida.",
    "nao_mede": "Idem; a série só começa em 2012, sem comparação com crises dos anos 1980.",
    "fontes": [
     {
@@ -1075,7 +1259,8 @@
      "url": "https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Parcial. Tribuna de Minas (lida): '3,9% da força de trabalho em desalento no 4º tri 2017, aproximadamente 4,3 milhões' (aproximação do jornal). SIDRA 6807 (lida) confirma 3,9% para out-nov-dez 2017. A subutilização de 23,8% NÃO foi encontrada em fonte lida. Mantive false; se o item for dividido, 3,9%/~4,3 mi pode ir a true."
   },
   {
    "id": "trab-bonus-pico",
@@ -1099,7 +1284,8 @@
      "url": "https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Não verificado. SIDRA 7358 não devolveu a série 15-64 em 2033 nas consultas; os números 44,29/48,14 não aparecem no texto extraído do Poder360."
   },
   {
    "id": "trab-fuga-cerebros",
@@ -1119,7 +1305,8 @@
      "url": "https://www.ipea.gov.br/portal/radar/temasradar/ciencia-tecnologia-2/16361-emigracao-de-doutores-titulados-no-brasil-ha-evidencia-de-fuga-de-cerebros"
     }
    ],
-   "verificado": false
+   "verificado": false,
+   "nota_verificacao": "Parcial. Ipea Radar nº 81 (página lida, publicada 6/5/2026): doutores titulados 2013-2024 com residência no exterior, 'percentual reduzido (1,2%)', bases Capes + CPF/Receita; autores Daniel Gama e Colombo. O 3.145 e 'EUA 20%' não estão no resumo; PDF completo não lido. 1,2% confirmado."
   },
   {
    "id": "vu-homicidios-2023",
@@ -1193,8 +1380,8 @@
    "periodo": "2023",
    "tipo": "contagem",
    "intervalo": null,
-   "metodo": "Atlas da Violência 2025; 45,1 vem de resumo de busca e é coerente com 21.856 mortes sobre cerca de 48 milhões de jovens. A página lida mostra 72,4, que não bate com essa conta e não foi usada.",
-   "nao_mede": "Divergência entre duas leituras do mesmo relatório; conferir no PDF do Atlas.",
+   "metodo": "Atlas da Violência 2025 (PDF lido): taxa de homicídios registrados de jovens de 15 a 29 anos = 45,1 por 100 mil em 2023 (46,6 em 2022). O 72,4 que aparecia em outra leitura é a taxa ESTIMADA (inclui homicídios ocultos) no pico de 2017; a estimada de 2023 é 47,0.",
+   "nao_mede": "Mede homicídios registrados; a taxa estimada, que corrige causas indeterminadas, é 47,0.",
    "fontes": [
     {
      "titulo": "Jornal do Brasil - risco de negro ser vitima de homicidio e 2,7 vezes maior [resumo de busca]",
@@ -1203,16 +1390,21 @@
     {
      "titulo": "Ipea/FBSP - Atlas da Violencia 2025",
      "url": "https://www.ipea.gov.br/atlasviolencia/"
+    },
+    {
+     "titulo": "Atlas da Violência 2025 (PDF, repositório FBSP)",
+     "url": "https://publicacoes.forumseguranca.org.br/bitstreams/d138ad78-cd6b-4f5e-9a4c-598e5106d111/download"
     }
    ],
-   "verificado": false,
+   "verificado": true,
    "corroboracao": [
     {
      "fonte": "Agregado SIM/Atlas no banco do projeto Arandu/trans (humano_nacional.json); conferência indireta, ETL do projeto irmão não reauditada",
      "resultado": "aproximado",
      "detalhe": "44,9 por 100 mil no agregado vs 45,1 aqui; diferença de denominador populacional (edição da projeção IBGE)."
     }
-   ]
+   ],
+   "nota_verificacao": "Lido no PDF do Atlas 2025. Tabela de taxas de homicídios REGISTRADOS de jovens 15-29: Brasil 2023 = 45,1 por 100 mil (2022 = 46,6). Texto: 21.856 jovens mortos (47,8% dos 45.747 homicídios). O 72,4 é a taxa ESTIMADA (inclui homicídios ocultos) no pico de 2017; a estimada de 2023 é 47,0 (-6,2%). Logo 45,1 (registrada) e 47,0 (estimada) são de 2023; 72,4 é 2017. Taxa geral 21,2 confirmada. Corrigir o texto do metodo: remover 'não bate' e explicar o 72,4 como pico estimado de 2017."
   },
   {
    "id": "vu-negros-2023",
@@ -1234,43 +1426,53 @@
     {
      "titulo": "Ipea/FBSP - Atlas da Violencia 2025",
      "url": "https://www.ipea.gov.br/atlasviolencia/"
+    },
+    {
+     "titulo": "Atlas da Violência 2025 (PDF, repositório FBSP)",
+     "url": "https://publicacoes.forumseguranca.org.br/bitstreams/d138ad78-cd6b-4f5e-9a4c-598e5106d111/download"
     }
    ],
-   "verificado": false,
+   "verificado": true,
    "corroboracao": [
     {
      "fonte": "Agregado SIM/Atlas no banco do projeto Arandu/trans (humano_nacional.json); conferência indireta, ETL do projeto irmão não reauditada",
      "resultado": "aproximado",
      "detalhe": "76,9% de vítimas negras (SIM 2023, raça ignorada no denominador); razão 2,77 é de 2022 (SIM/Censo) e não é reproduzível para 2023 sem população por raça."
     }
-   ]
+   ],
+   "nota_verificacao": "Atlas 2025 (cap. 6, lido): 'em 2023, uma pessoa negra tinha 2,7 vezes mais chances de ser vítima de homicídio... aumento de 15,6% em relação a 2013' (2,8 em 2022). 35.213 homicídios de negros; taxa 28,9 vs 10,6 nos não negros. O 76,97% não aparece impresso: = 35.213/45.747 (total de homicídios, incluindo raça ignorada) = 76,97%; derivado de dois números lidos. Valor 2,7 confere."
   },
   {
    "id": "vu-queda-2017",
    "ciclo": "retomada-incerteza",
    "categoria": "violencia-urbana",
-   "titulo": "Redução da taxa de homicídio de jovens entre 2017 e 2023",
-   "valor": 30.2,
+   "titulo": "Redução do número de homicídios entre 2017 e 2023",
+   "valor": 30.3,
    "unidade": "%",
    "periodo": "2017-2023",
    "tipo": "contagem",
    "intervalo": null,
-   "metodo": "Atlas da Violência 2025.",
+   "metodo": "Atlas da Violência 2025 (lido): \"cerca de 30%\", de 65.602 homicídios em 2017 para 45.747 em 2023 (1 - 45.747/65.602 = 30,27%). Refere-se ao total de homicídios registrados, não à taxa de jovens; estimados: 69.184 para 49.502 (-28,4%); a taxa estimada de jovens cai de 72,4 para 47,0 (-35,1%).",
    "nao_mede": "Queda não explica as causas (demografia, facções, políticas).",
    "fontes": [
     {
      "titulo": "Poder360 - Brasil teve 60 jovens assassinados por dia em 2023 [pagina lida]",
      "url": "https://www.poder360.com.br/poder-brasil/brasil-teve-60-jovens-assassinados-por-dia-em-2023-diz-relatorio/"
+    },
+    {
+     "titulo": "Atlas da Violência 2025 (PDF, repositório FBSP)",
+     "url": "https://publicacoes.forumseguranca.org.br/bitstreams/d138ad78-cd6b-4f5e-9a4c-598e5106d111/download"
     }
    ],
-   "verificado": false,
+   "verificado": true,
    "corroboracao": [
     {
      "fonte": "Agregado SIM/Atlas no banco do projeto Arandu/trans (humano_nacional.json); conferência indireta, ETL do projeto irmão não reauditada",
      "resultado": "diverge",
      "detalhe": "O agregado dá −35,8% na taxa (contagem de jovens −38,9%); 30,2% vem de relatório que usa a população de cada edição. Direção corrobora, valor não reproduzido."
     }
-   ]
+   ],
+   "nota_verificacao": "Atlas 2025 (lido): 'o número de homicídios reduzido cerca de 30%, de 65.602 em 2017 para 45.747 em 2023' (registrados). Cálculo: 1-45.747/65.602 = 30,27% => 30,3% (30,2 parece truncamento). Estimados: 69.184 -> 49.502 = -28,4%; taxa de jovens estimada 72,4 -> 47,0 = -35,1%. Sugiro 30,3 ou 'cerca de 30%'."
   }
  ],
  "perguntas_abertas": [

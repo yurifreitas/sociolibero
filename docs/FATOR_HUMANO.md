@@ -6,28 +6,28 @@ Companheiro de `web/public/data/fator_humano.json` (53 indicadores). Cada númer
 
 - **Contagem** é registro (censo, certidão de óbito, ação fiscal). **Estimativa** é reconstrução com método, e a faixa importa mais que o valor central.
 - O `ciclo` indica em que período o número cai. Não afirma que o ciclo o causou.
-- `verificado=true` só para os 11 números lidos na página da fonte nesta pesquisa. Os outros 42 vieram de resumos de busca ou de memória e precisam de conferência na fonte primária antes de qualquer publicação. A página lida costuma ser imprensa que cita o órgão (Atlas da Violência, Censo 1872), então a conferência no documento original também está pendente.
-- Os sites primários (SlaveVoyages, IBGE, CNV) não devolveram dados legíveis pela ferramenta de busca. Isso explica a baixa taxa de verificação.
+- `verificado=true` só para os números lidos na fonte. Na revisão de 07/10/2026 passaram a 34 dos 53 (antes 11). Foram lidos nas fontes primárias: API de estimativas do SlaveVoyages (o site é JS; a página `/assessment/estimates` volta vazia e os números vêm da API que ela usa), SIDRA/IBGE (Censos 1991, 2010 e 2022; PNAD Contínua), Relatório da CNV (vol. II, texto 5; vol. III), Atlas da Violência 2025 (PDF), II VIGISAN (PDF) e páginas de imprensa e FAPESP. Os 19 restantes seguem `false` e cada um traz em `nota_verificacao` o que foi e o que não foi lido.
+- Onde o valor anterior não se sustentou, ele foi corrigido ou removido e a divergência ficou em `nota_verificacao` e em `meta.revisao_fontes` do JSON.
 
 ## Contexto por ciclo
 
 **pau-brasil (c. 1500-1530).** Contato e início do declínio indígena. Não existe contagem de 1500: a faixa de 2 a 5 milhões é estimativa por densidade e a linha de base é controversa. Qualquer proporção de queda herda essa incerteza.
 
-**acucar (séc. XVI-XVII).** Início do tráfico em escala. Eltis estima 187.500 africanos levados ao Brasil em navios portugueses em 1601-1650. O total até 1866 é da ordem de quase 5 milhões de desembarcados, com mortalidade de travessia perto de 1 em 8 nas rotas para o Brasil (valores a conferir no SlaveVoyages).
+**acucar (séc. XVI-XVII).** Início do tráfico em escala. Eltis estima 187.500 africanos levados ao Brasil em navios portugueses em 1601-1650. Pelo SlaveVoyages (estimativas lidas na API), 5.532.129 africanos embarcaram para o Brasil e 4.864.377 desembarcaram até 1866, com perda de 12,1% na travessia (cerca de 1 em 8,3; o total atlântico é 12.521.354 embarcados e 10.702.644 desembarcados, perda de 14,5%).
 
 **ouro-diamantes (séc. XVIII).** Sem indicador nesta versão: a pesquisa não encontrou número com fonte aberta confirmável por ciclo (o tráfico do período está dentro do total acima). Lacuna a preencher com as séries anuais do SlaveVoyages.
 
-**agroexportacao-imperial (1808-1870s).** O Censo de 1872 registra 9.930.478 habitantes e cerca de 1,5 milhão de escravizados (15%). Analfabetismo de 82% entre 6 anos ou mais. A Grande Seca de 1877-79 tem estimativa de 400 a 500 mil mortes, sem método identificado na fonte lida. Guerra do Paraguai: mais de 100 mil mortes somando os países, com estimativas até 4 vezes isso.
+**agroexportacao-imperial (1808-1870s).** O Censo de 1872 registra 9.930.478 habitantes e cerca de 1,5 milhão de escravizados (15%). Analfabetismo de 82% entre 6 anos ou mais. A Grande Seca de 1877-79 tem estimativa de 400 a 500 mil mortes, sem método identificado na fonte lida (a Agência Senado dá 500 mil em oito províncias, 12% da população delas); o 119 mil mortos no Ceará em 1878 não consta das páginas da Wikipedia indicadas e não foi confirmado. Guerra do Paraguai: mais de 100 mil mortes somando os países, com estimativas até 4 vezes isso.
 
 **cafe-escravidao-abolicao (1850-1889).** Sem indicador próprio; o tráfico interno e a abolição não têm número verificado aqui.
 
-**borracha-cafe-republica-velha (1889-1930).** Canudos (cerca de 25 mil, faixa a conferir), Contestado (10 a 20 mil), seca de 1915 (27 mil a 100 mil conforme a fonte), gripe de 1918 (35 mil a 300 mil: as fontes divergem e a menor parece ser recorte local). Analfabetismo de 64,9% em 1920 (15 anos ou mais).
+**borracha-cafe-republica-velha (1889-1930).** Canudos (25 mil, estimativa corrente lida; o Exército teve menos de 5 mil mortos), Contestado (10 a 20 mil na Wikipedia en, mais de 20 mil na Uninter; o "10 mil oficial" anterior não foi achado), seca de 1915 (nenhuma cifra de mortos confirmada: o 27 mil anterior não foi achado e só se leu que o campo de Alagadiço abrigou cerca de 8 mil pessoas), gripe de 1918 (30 a 35 mil no país segundo O Povo e a Pesquisa FAPESP; o ~300 mil anterior não foi achado em nenhuma fonte lida e Goulart 2005 registra que não há unanimidade). Analfabetismo de 64,9% em 1920 (15 anos ou mais).
 
-**industrializacao-vargas (1930-1945).** Mortalidade infantil de 146,6 por mil em 1940 (série IBGE, resumo) e população indígena estimada entre 70 e 125 mil em meados do século.
+**industrializacao-vargas (1930-1945).** Mortalidade infantil de 146,6 por mil em 1940 (série IBGE, resumo, não verificada) e população indígena estimada por Darcy Ribeiro entre 68.100 e 99.700 em 1957 (lido em citação; o limite de 125 mil anterior não apareceu em nenhuma fonte).
 
 **desenvolvimentismo (1946-1964).** Mortalidade infantil de 117,7 em 1960.
 
-**milagre-endividamento (1964-1980s).** CNV: 434 mortos e desaparecidos políticos; ao menos 8.350 indígenas mortos (estimativa, vol. II); Brasil: Nunca Mais: 1.843 depoentes sobre tortura em 707 processos; Comissão Camponesa: 1.196 a 1.654 camponeses. Mortalidade infantil de 69,1 em 1980.
+**milagre-endividamento (1964-1980s).** CNV: 434 mortos e desaparecidos políticos; ao menos 8.350 indígenas mortos (estimativa, vol. II, texto 5, p. 205, lida; é piso, a própria CNV diz que o número real é "exponencialmente maior"); Brasil: Nunca Mais: 1.843 depoentes sobre tortura em 707 processos; Comissão Camponesa: 1.196 camponeses em 1964-1985 (Comissão Camponesa da Verdade, dos quais a CNV reconheceu 432) a 1.654 em 1964-1988 (Gilney Viana, Agência Pública 2024). Mortalidade infantil de 69,1 em 1980.
 
 **decada-perdida-hiperinflacao (1980s-1994).** A seca de 1979-83 tem estimativas de 100 mil a 3,5 milhões de mortos. A faixa é um sinal de que não há método comum, não de que se saiba o valor. Falta série de desemprego comparável (a PNAD Contínua começa em 2012).
 
@@ -35,9 +35,9 @@ Companheiro de `web/public/data/fator_humano.json` (53 indicadores). Cada númer
 
 **boom-commodities-inclusao (2003-2014).** Saída do Mapa da Fome da FAO em 2014; Censo 2010: 896.917 indígenas.
 
-**recessao-ajuste-polarizacao (2015-2022).** Retorno ao Mapa da Fome (2018-2020); 33,1 milhões em insegurança alimentar grave (VIGISAN, 2021-22); desalentados 4,3 milhões em 2017 e 5,95 milhões no tri até fev/2021; covid-19: 700.239 mortes registradas (Conass), com excesso de mortalidade estimado em 792 mil (IHME) e 657 mil (OMS) em 2020-21.
+**recessao-ajuste-polarizacao (2015-2022).** Retorno ao Mapa da Fome (2018-2020); 33,1 milhões em insegurança alimentar grave (VIGISAN, 2021-22); desalentados 4,3 milhões em 2017 e 5,95 milhões no tri até fev/2021; covid-19: 700.556 mortes registradas pelo Ministério da Saúde em 4/abr/2023 (619.056 pelo Conass até 31/12/2021), com excesso de mortalidade estimado em 792 mil (IHME) e 657 mil (OMS) em 2020-21, estes dois ainda sem fonte lida.
 
-**retomada-incerteza (2023 em diante).** Homicídios: 45.747 (2023); 21.856 jovens; risco 2,7 vezes maior para negros. Nova saída do Mapa da Fome (SOFI 2025). Censo 2022: 1.694.836 indígenas e 5,6% de analfabetismo; cerca de 9 milhões de jovens sem ensino médio completo; 3.145 doutores emigrados (1,2%).
+**retomada-incerteza (2023 em diante).** Homicídios: 45.747 (2023); 21.856 jovens; risco 2,7 vezes maior para negros. Nova saída do Mapa da Fome (SOFI 2025). Censo 2022: 1.694.836 indígenas (SIDRA 9718, lido); analfabetismo de 5,6% na PNAD Contínua 2022 (o Censo 2022 dá 7,0%: o rótulo anterior "Censo 2022" para o 5,6% estava errado); cerca de 9 milhões de jovens sem ensino médio completo; 3.145 doutores emigrados (1,2%).
 
 ## O que cada bloco não mede
 
@@ -68,10 +68,10 @@ Companheiro de `web/public/data/fator_humano.json` (53 indicadores). Cada númer
 6. Quanto da queda da mortalidade infantil é atribuível a cada política?
 7. O que o bônus demográfico rendeu em produtividade e o que teria rendido com outra educação?
 8. Que qualidade de aprendizagem se perde com a evasão, além da contagem de quem saiu da escola?
-9. O excesso de mortes na covid-19 se divide em diretas e indiretas? IHME e OMS divergem em 135 mil.
+9. O excesso de mortes na covid-19 se divide em diretas e indiretas? IHME e OMS divergem em 135 mil (números não lidos nas fontes).
 10. Quanta fuga de cérebros ocorre além dos doutores titulados no Brasil?
 11. O que a queda dos homicídios desde 2017 diz sobre as causas, e não só sobre a contagem?
 
 ## Pendências de verificação
 
-Prioridade: SlaveVoyages (desembarcados, embarcados, mortos por período e por rota), tabelas do Censo de 1872 (IBGE), Relatório da CNV vol. II (capítulo indígena), Atlas da Violência 2025 (conflito entre taxas de 45,1 e 72,4 por 100 mil), séries históricas de mortalidade infantil e analfabetismo do IBGE, SOFI 2025 (percentuais de subalimentação), relatório do Ipea sobre emigração de doutores, e as estimativas de Canudos e do Contestado em fontes acadêmicas.
+Prioridade: SlaveVoyages por período e por rota (os totais já foram lidos), tabelas do Censo de 1872 (IBGE), séries históricas de mortalidade infantil (1940, 1960, 1980, 2000, 2022) e de analfabetismo em 1920 (IBGE; não abertas), excesso de mortalidade da covid-19 por IHME (Lancet) e OMS, resgates de trabalhadores (série MTE/SIT; o Observatório MPT/OIT dá "mais de 63 mil" desde 1995 e "mais de 1.600" em 2024, divergentes de 65.598 e 2.186), subutilização de 23,8% (PNAD Contínua), projeção de pico da população em idade ativa (IBGE), 3.145 doutores emigrados (o resumo do Ipea Radar 81 só confirma 1,2%), SOFI 2025 (percentuais de subalimentação) e as estimativas de Contestado e secas em fontes acadêmicas. Resolvido: o conflito 45,1 vs 72,4 por 100 mil no Atlas da Violência 2025 (45,1 é a taxa registrada de 2023; 72,4 é a taxa estimada do pico de 2017, e a estimada de 2023 é 47,0).

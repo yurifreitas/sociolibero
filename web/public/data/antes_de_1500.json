@@ -2,7 +2,11 @@
  "meta": {
   "gerado_em": "2026-10-06",
   "aviso": "Panorama do território do atual Brasil antes de 1500 e da composição da população até hoje. Datas em anos antes do presente (AP, referência 1950 d.C.; 1500 d.C. = 450 AP) com calendário aproximado. Quase tudo antes de 1500 é estimativa ou interpretação arqueológica com controvérsia; as faixas importam mais que os valores centrais. 'Pré-colonial' não é uma unidade: povos, línguas e sociedades eram muitos. Ancestralidade genética não é categoria social (cor/raça do Censo e autodeclaração). Nada aqui e determinismo racial, cultural ou climático: clima e etnia são contexto, não destino. Correlação clima-ocupação não é causa.",
-  "criterio_verificacao": "verificado=true somente quando a página ou o dado foi lido nesta pesquisa (inclui Wikipedia aberta, sempre indicada como fonte secundária, e a API SIDRA/IBGE). verificado=false quando o número veio de resumo de busca, de página que retornou 403/404 (IBGE agência de notícias, IBGE 500 anos, MapBiomas PDF, SlaveVoyages) ou de memória. Artigos primários (Science, Nature, PNAS etc.) NÃO foram lidos integralmente; só seus resumos via busca. Wikipedia pt traz erro conhecido: atribui 305 povos/274 línguas ao Censo 2022 (são do Censo 2010)."
+  "criterio_verificacao": "verificado=true somente quando a página ou o dado foi lido nesta pesquisa (inclui Wikipedia aberta, sempre indicada como fonte secundária, e a API SIDRA/IBGE). verificado=false quando o número veio de resumo de busca, de página que retornou 403/404 (IBGE agência de notícias, IBGE 500 anos, MapBiomas PDF, SlaveVoyages) ou de memória. Artigos primários (Science, Nature, PNAS etc.) NÃO foram lidos integralmente; só seus resumos via busca. Wikipedia pt traz erro conhecido: atribui 305 povos/274 línguas ao Censo 2022 (são do Censo 2010).",
+  "revisao_fontes": {
+   "data": "2026-10-07",
+   "resumo": "Revisão contra a fonte: resumos de artigos lidos via Europe PMC e Crossref, PDFs lidos (Moreno-Mayar 2018, Colinvaux 2000, Clement 1999, Embrapa 2007, IBGE Educa), API SIDRA 9718/9605. Correções: atribuição Cruz 2005 vs 2009 e sentido da antifase; \"Utida et al.\" era Novello et al. 2012; Apaéstegui cobre 1.600 anos; Koch 2019 (abandono explica metade da queda de CO2); Censo 2022 indígenas 1.694.836 e não 1.693.535; Jabuticabeira II calibrado; PMC5430616 era outro artigo (Kehdy = PMC4507185); Lago Pata >40.000 anos. Itens sem fonte lida seguem verificado=false com a razão em nota."
+  }
  },
  "periodos": [
   {
@@ -10,7 +14,7 @@
    "rotulo": "Paleoíndio e Pleistoceno final",
    "inicio_ap": 13000,
    "fim_ap": 11700,
-   "clima": "Fim do Último Máximo Glacial (c. 26.500-19.000 AP, estimativa global) e deglaciação: mais frio e nível do mar cerca de 120 m abaixo do atual no auge glacial (de memória), plataforma continental exposta. A floresta amazônica persistiu em grande parte, com resfriamento e presença de elementos de flora hoje montana nas terras baixas (registro de pólen do Lago Pata); a hipótese de refúgios fragmentados não é apoiada por esses registros. Cerrado e Mata Atlântica mudaram composição com assembleias de Podocarpus-Ilex-Hedyosmum. Transição para o Holoceno em 11.700 AP.",
+   "clima": "Fim do Último Máximo Glacial (c. 26.500-19.000 AP, estimativa global) e deglaciação: mais frio e nível do mar cerca de 120 m abaixo do atual no auge glacial (de memória), plataforma continental exposta. A floresta amazônica persistiu em grande parte, com resfriamento e presença de elementos de flora hoje montana nas terras baixas (registro de pólen do Lago Pata, contínuo por mais de 40.000 anos; resfriamento estimado de 5 a 6 C, Colinvaux 1996); a hipótese de refúgios fragmentados não é apoiada por esses registros. Nas terras baixas amazônicas, Podocarpus, Alnus e Hedyosmum (hoje montanos) tinham populações maiores no glacial (Colinvaux 2000); o registro de cerrado de Cromínia (GO) contrasta com o da floresta. A afirmação anterior de \"assembleias de Podocarpus-Ilex-Hedyosmum no Cerrado e na Mata Atlântica\" não foi encontrada em Colinvaux 2000 e foi retirada. Transição para o Holoceno em 11.700 AP.",
    "povos": "Grupos de caçadores-coletores de ancestralidade dos primeiros americanos, falantes de línguas hoje desconhecidas. Em Lagoa Santa (MG) há esqueletos a partir de c. 11.500 AP (Luzia: 11.243-11.710 AP). Presença humana no Piauí e em outras áreas antes de 13.000 AP é alegada, mas disputada. Genomas indicam que linhagens nativas americanas já estavam na América do Sul por cerca de 14.000 AP (estimativa de estudo, ver fontes).",
    "economia_e_manejo": "Caça de animais de médio e pequeno porte, coleta de frutos, sementes e raízes, pesca e moluscos; uso de abrigos rochosos; arte rupestre (Serra da Capivara, c. 12.000 AP segundo Wikipedia). Extinção da megafauna entre cerca de 12.000 e 10.000 AP, com peso relativo de clima e humanos em debate (de memória, não conferido).",
    "evidencias": [
@@ -21,9 +25,9 @@
     "Paleogenômica de Lagoa Santa (Moreno-Mayar 2018)"
    ],
    "controversias": [
-    "Pré-Clovis no Brasil: Guidon (1986) propôs 48.000-32.000 AP em Pedra Furada, com críticas de que os 'artefatos' sejam geofatos (Adovasio); Lahaye/Boeda (2013-2014) propõem 22.000-24.000 cal AP para peças líticas, também contestado.",
-    "Hipótese dos dois povoamentos (morfologia craniana de Luzia, 'paleoamericanos') vs. origem única (genomas de Lagoa Santa mostram ancestralidade nativa americana).",
-    "Época e rotas do povoamento: costa do Pacífico, interior, ou ambas; sem consenso."
+    "Pré-Clovis no Brasil, duas leituras. (a) Ocupação muito antiga: Guidon (1986) propôs 48.000-32.000 AP em Pedra Furada; Boëda, Lahaye e colegas (2013-2014) propõem peças líticas de mais de 20.000 anos (c. 22.000 cal AP por luminescência) em Toca da Tira Peia e Vale da Pedra Furada, com 14C, OSL e análise tecno-funcional, e concluem que a narrativa aceita do povoamento da América do Sul 'terá de ser repensada'. (b) Leitura cética: Adovasio e outros veem geofatos ou fogo natural nos 'artefatos'; a genômica não exige presença anterior a c. 23 mil anos (os ancestrais de todos os nativos americanos entraram como uma onda única da Sibéria não antes de 23 ka, Raghavan 2015) e coloca grupos no sul do continente por volta de 14 ka (Moreno-Mayar 2018). Nenhuma das duas está encerrada; o número de Antiquity de 2014 foi publicado com comentários críticos e réplica.",
+    "Um ou dois povoamentos: Neves e colegas (2003, Santana do Riacho) leem a morfologia craniana 'paleoamericana' (afinidade com australianos e africanos atuais) como sinal de duas populações distintas no fim do Pleistoceno; os genomas de Lagoa Santa (Moreno-Mayar 2018) e de Raghavan 2015 mostram ancestralidade nativa americana e sustentam origem única com diferenciação posterior. Moreno-Mayar 2018 observa que não há dados morfométricos de povos atuais com sinal genético australasiano nem esse sinal em esqueleto com a morfologia 'paleoamericana'. Posth 2018 (49 genomas) indica substituição populacional que começou há pelo menos 9.000 anos.",
+    "Época e rotas do povoamento: costa do Pacífico, interior, ou ambas; sem consenso. Divisão entre ramos norte e sul dos nativos americanos estimada em c. 17,5-14,6 ka em estudos anteriores e c. 15,5 ka em Moreno-Mayar 2018."
    ],
    "fontes": [
     {
@@ -37,34 +41,35 @@
      "verificado": true
     },
     {
-     "titulo": "Moreno-Mayar et al. 2018, Science - Early human dispersals within the Américas [só resumo de busca]",
+     "titulo": "Moreno-Mayar et al. 2018, Science 362:eaav2621 - Early human dispersals within the Americas [PDF lido: 15 genomas, 5 de Lagoa Santa c. 10,4-9,8 ka; ancestral comum Lagoa Santa-Mixe c. 14,1 ka (IC95% 13,2-14,9)]",
      "url": "https://prp.usp.br/wp-content/uploads/sites/802/2019/02/Moreno-Mayar-2018-Early-human-dispersal-within-the-Americas.pdf",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Pesquisa FAPESP - Ancient DNA reveals rapid colonization of South América 14,000 years ago [só resumo de busca]",
+     "titulo": "Pesquisa FAPESP - Ancient DNA reveals rapid colonization of South America 14,000 years ago [pagina lida: >14.000 anos; 15 esqueletos; Posth et al. 49 individuos]",
      "url": "https://revistapesquisa.fapesp.br/en/when-indigenous-people-occupied-lagoa-santa/",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Antiquity - A new late Pleistocene archaeological sequence in South América: Vale da Pedra Furada (Boeda et al. 2014) [só resumo de busca]",
+     "titulo": "Boeda et al. 2014, Antiquity 88 (DOI 10.1017/s0003598x00050845) - A new late Pleistocene archaeological sequence in South America: the Vale da Pedra Furada [resumo lido via Crossref: ocupacao com mais de 20.000 anos por 14C e OSL; publicado com comentarios e replica]",
      "url": "https://www.cambridge.org/core/journals/antiquity/article/abs/new-late-pleistocene-archaeological-sequence-in-south-america-the-vale-da-pedra-furada-piaui-brazil/5D3D45742107D7E0E6AF1FB2C24B727F",
-     "verificado": false
+     "verificado": true,
+     "nota": "Lido apenas o resumo; as faixas 22.000-24.000 cal AP e 15.000 AP citadas no evento nao foram lidas no texto completo."
     },
     {
-     "titulo": "Archaeology.org - When Did People Reach South América? (Lahaye et al. 2013, Toca da Tira Peia) [só resumo de busca]",
+     "titulo": "Archaeology.org (2013) - When Did People Reach South America? [pagina lida: Lahaye e Boeda; pecas liticas de c. 22.000 anos por luminescencia]",
      "url": "https://archaeology.org/news/2013/03/20/130320-south-america-migration-toca-da-tira-peia/",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "WHOI - A long pollen record from lowland Amazônia: forest and cooling in glacial times [só resumo de busca]",
-     "url": "https://nosamsresearch.whoi.edu/long-pollen-record-lowland-amazonia-forest-and-cooling-glacial-times",
-     "verificado": false
+     "titulo": "Colinvaux, De Oliveira, Moreno, Miller 1996, Science 274:85-88 - A long pollen record from lowland Amazonia: forest and cooling in glacial times [resumo lido via Crossref: >40.000 anos continuos, sem savana no UMG, sem fragmentacao em refugios, resfriamento de 5 a 6 C]",
+     "url": "https://doi.org/10.1126/science.274.5284.85",
+     "verificado": true
     },
     {
-     "titulo": "Colinvaux et al. 2000, Quaternary Science Reviews - Amazonian and neotropical plant communities on glacial time-scales [só resumo de busca]",
+     "titulo": "Colinvaux, De Oliveira, Bush 2000, Quaternary Science Reviews 19:141-169 - Amazonian and neotropical plant communities on glacial time-scales: the failure of the aridity and refuge hypotheses [PDF lido]",
      "url": "https://antigo.inpa.gov.br/cpca/charles/pdf/QuaternarySciRev_Colinvaux_2000.pdf",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -73,7 +78,7 @@
    "rotulo": "Holoceno inicial e médio",
    "inicio_ap": 11700,
    "fim_ap": 4200,
-   "clima": "Aquecimento do início do Holoceno, subida do nível do mar até um máximo costeiro por volta de 5.000 AP (de memória, não conferido). No Holoceno médio (c. 8.000-4.000 AP) há indícios de maior sazonalidade/aridez no Brasil central e partes da Amazônia, com contraste leste-oeste: o Nordeste mais úmido quando o resto do Brasil tropical do sul é mais seco, por forçamento orbital (Cruz et al. 2005). A intensidade de El Niño variou; há mínimo discutido em 7-4 mil AP. Registros polínicos locais de Lagoa Santa não mostram seca prolongada, o que limita a explicação puramente climática do 'hiato arcaico'.",
+   "clima": "Aquecimento do início do Holoceno, subida do nível do mar até um máximo costeiro por volta de 5.000 AP (de memória, não conferido). No Holoceno médio (c. 8.000-4.000 AP) há indícios de maior sazonalidade/aridez no Brasil central e partes da Amazônia, com contraste leste-oeste: o Nordeste mais úmido quando o resto do Brasil tropical do sul é mais seco, por forçamento orbital (Cruz et al. 2009: no Holoceno o Nordeste é úmido com baixa insolação de verão e árido com alta, e o restante do Brasil tropical do sul mostra o oposto). A frequência de eventos El Niño no registro de Laguna Pallcacocha (Equador) aumentou ao longo do Holoceno até c. 1.200 AP, com alternância de fases altas e baixas em escala de c. 2.000 anos (Moy 2002); o \"mínimo em 7-4 mil AP\" não foi conferido. Araujo et al. (2025) concluem que o clima segue como motor principal do hiato arcaico, mas por maior variabilidade e não necessariamente por maior aridez; a afirmação anterior sobre pólen de Lagoa Santa sem seca prolongada não foi localizada nas fontes lidas.",
    "povos": "Caçadores-coletores e pescadores-coletores regionais: Planalto Central e Cerrado (Lagoa Santa, Serra do Cipó), abrigos do Nordeste, litoral com os primeiros sambaquis (c. 8.000 AP), grupos amazônicos com manejo de plantas. Diversidade linguística crescente (centenas de línguas, hoje não reconstruíveis em sua maioria).",
    "economia_e_manejo": "Caçadores-coletores com manejo de plantas (palmeiras, castanha, frutíferas); origem da domesticação de mandioca e de outras espécies no sudoeste da Amazônia é debatida (datas c. 10.000 AP citadas na literatura, de memória, não conferidas). Fogo manejado e jardins de floresta incipientes. Sambaquis como acumulos de conchas e sepultamentos. Queda de registros arqueológicos no Holoceno médio em Lagoa Santa e outras áreas ('Archaic Gap'), com reocupação posterior.",
    "evidencias": [
@@ -84,40 +89,40 @@
     "Distribuição de datas radiocarbônicas por região (hiato)"
    ],
    "controversias": [
-    "Archaic Gap: seria abandono, queda demográfica, mudança de mobilidade ou viés de amostragem? Estudos recentes falam em maior variabilidade climática, não necessariamente em mais aridez.",
+    "Archaic Gap: leitura original (Araujo, Pilo, Neves, Atui 2006): grandes áreas da América do Sul tropical e subtropical abandonadas ou muito despovoadas no Holoceno médio, com a seca como causa principal. Revisão dos mesmos grupos (Araujo et al. 2025): a área despovoada é maior (Brasil central, partes da Amazônia e do Pantanal), há oscilações que sugerem reocupação, e o motor climático seria maior variabilidade, não necessariamente mais aridez. Alternativas citadas na literatura: mudança de mobilidade e viés de amostragem; não há consenso.",
     "Quando e onde mandioca, abóbora e outras plantas foram domesticadas na Amazônia.",
     "Peso do clima vs. dinâmica social na variação do registro arqueológico."
    ],
    "fontes": [
     {
-     "titulo": "Pesquisa FAPESP - Os povos de Lagoa Santa [só resumo de busca]",
+     "titulo": "Pesquisa FAPESP (set/2016) - Os povos de Lagoa Santa [pagina lida: Lapa do Santo como centro de rituais funerarios; periodos culturais distintos]",
      "url": "https://revistapesquisa.fapesp.br/os-povos-de-lagoa-santa/",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Revista do MAE/USP - Human occupation and paleoenvironments in South América: expanding the notion of an Archaic Gap [só resumo de busca]",
-     "url": "https://journals.usp.br/revmae/article/view/89707",
-     "verificado": false
+     "titulo": "Araujo, Pilo, Neves, Atui 2006, Rev. Museu de Arqueologia e Etnologia 15-16:3-35 - Human occupation and paleoenvironments in South America: expanding the notion of an Archaic Gap [resumo lido: grandes areas abandonadas ou muito despovoadas no Holoceno medio, seca como causa principal]",
+     "url": "http://revistas.usp.br/revmae/article/view/89707",
+     "verificado": true
     },
     {
-     "titulo": "PMC11790176 - Human-environment interaction during the Holocene in Eastern South América [só resumo de busca]",
+     "titulo": "Araujo, Correa, Perez, Di Gregorio, Okumura 2025, PLoS ONE 20(2):e0315747 - Human-environment interaction during the Holocene in Eastern South America: rapid climate changes and population dynamics [primeiros 100 mil caracteres lidos]",
      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11790176/",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Cruz et al. 2005, Nature - Insolation-driven changes in atmospheric circulation over the past 116,000 years in subtropical Brazil [título de memória; só resumo de busca de resultados correlatos]",
+     "titulo": "Cruz et al. 2009, Nature Geoscience 2:210-214 - Orbitally driven east-west antiphasing of South American precipitation [resumo lido]",
      "url": "https://scholar.xjtu.edu.cn/en/publications/orbitally-driven-east-west-antiphasing-of-south-american-precipit/",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Novello et al. 2017, Sci. Reports - A high-resolution history of the South American monsoon from last glacial maximum to the Holocene [só resumo de busca]",
-     "url": "https://repositorio.usp.br/item/002804500",
-     "verificado": false
+     "titulo": "Novello et al. 2017, Scientific Reports 7:44267 - A high-resolution history of the South American Monsoon from Last Glacial Maximum to the Holocene [texto completo lido via Europe PMC PMC5345026]",
+     "url": "https://doi.org/10.1038/srep44267",
+     "verificado": true
     },
     {
-     "titulo": "Moy et al. 2002, Nature - Variability of El Niño/Southern Oscillation activity at millennial timescales during the Holocene [só resumo de busca]",
-     "url": "https://www.nature.com/articles/nature01194",
-     "verificado": false
+     "titulo": "Moy, Seltzer, Rodbell, Anderson 2002, Nature 420:162-165 - Variability of El Nino/Southern Oscillation activity at millennial timescales during the Holocene epoch [resumo lido via Europe PMC]",
+     "url": "https://doi.org/10.1038/nature01194",
+     "verificado": true
     },
     {
      "titulo": "Wikipedia pt - Sambaqui [página lida; fonte secundária]",
@@ -131,39 +136,39 @@
    "rotulo": "Sociedades complexas amazônicas e costeiras",
    "inicio_ap": 4200,
    "fim_ap": 450,
-   "clima": "Holoceno tardio com intensificação da monção de verão na maior parte do Brasil tropical e aumento de variabilidade ENSO até cerca de 1.200 AP (Moy 2002, registro do Equador, extrapolação regional incerta). Anomalia Climática Medieval (c. 950-1250 d.C.; 1.000-700 AP): fase mais seca em boa parte da América do Sul tropical, com exceção da Amazônia oriental e do Nordeste, segundo speleotemas. Pequena Idade do Gelo (c. 1500-1850 d.C.): monção reforçada no Sudeste e Andes, mas Nordeste seco. Regionalmente heterogêneo.",
+   "clima": "Holoceno tardio com intensificação da monção de verão na maior parte do Brasil tropical e aumento de variabilidade ENSO até cerca de 1.200 AP (Moy 2002, Laguna Pallcacocha no Equador, extrapolação regional incerta). Anomalia Climática Medieval (c. 900-1200 d.C. em Apaéstegui 2014): monção de verão sul-americana menos ativa no registro da caverna Palestina (Peru), com efeito maior no norte do continente. Pequena Idade do Gelo (c. 1400-1850 d.C.): monção mais ativa nesse registro, mas seca no Nordeste brasileiro, ao contrário de outros registros do sul tropical (Novello 2012). A frase anterior \"com exceção da Amazônia oriental e do Nordeste\" e \"reforçada no Sudeste\" não foi localizada nos resumos lidos. Regionalmente heterogêneo.",
    "povos": "Povos falantes de famílias Tupi (origem proposta no sudoeste amazônico, expansão a partir de c. 2.500 AP, debatida), Macro-Je (planaltos centrais e sul), Aruak (Amazônia, Alto Xingu e Caribe), Karib, Pano, Tukano e muitas outras e línguas isoladas. Chefias e aldeias grandes em várzeas e interflúvios (Marajoara, Tapajó/Santarém, Alto Xingu, construtores de geoglifos no Acre). Grandes sambaquis no litoral sul até c. 2.000 AP.",
    "economia_e_manejo": "Agricultura de coivara (mandioca, milho, abóbora), arboricultura e manejo florestal (palmeiras, castanheiras, pequi, cacau, frutíferas), piscicultura e viveiros (Alto Xingu), terra preta de índio (solos antropogênicos), aterros e geoglifos, redes de trocas (muiraquitãs). Parte do Brasil já era paisagem manejada em 1500; quanto, e onde, é controverso. Na costa, pesca e coleta com sambaquis monumentais; no Sul, casas subterrâneas e montes de grupos Je.",
    "evidencias": [
     "Terra preta em centenas de sítios, formada em geral entre 2.500 e 500 AP",
-    "Mais de 410 geoglifos em c. 300 sítios no Acre (Wikipedia)",
+    "Mais de 450 geoglifos em c. 13.000 km2 no Acre (Watling et al. 2017, PNAS); a Wikipedia pt citada antes conta mais de 410 em c. 300 sítios",
     "Aterros da Ilha de Marajó (400-1300 d.C.)",
     "Sítios do Tapajós/Santarém (c. 900-1600 d.C.)",
     "Aldeias planejadas com praças e estradas no Alto Xingu (1200-1600 d.C.)",
     "104 obras de terra no alto Tapajós (de Souza 2018)"
    ],
    "controversias": [
-    "Pristine vs. manejada: Clement et al. (2015) argumentam por Amazônia domesticada e populosa; McMichael, Piperno e Bush (2015) e McMichael et al. (2012) mostram ocupação esparsa nos interflúvios do oeste.",
-    "Estimativas de população em 1500: de 1 milhão a mais de 5 milhões para o Brasil atual, e 5-10 milhões para a Grande Amazônia (Denevan, Roosevelt), sem contagem.",
-    "Extensão da terra preta: de 0,1% a 10% da Amazônia segundo a estimativa; modelagem recente aponta cerca de 3,2%.",
+    "Pristine vs. manejada: Clement et al. (2015) argumentam por Amazônia domesticada (ao menos 83 espécies nativas domesticadas em algum grau; mínimo de 8 milhões de habitantes na Grande Amazônia), apoiados por Levis et al. (2017: espécies domesticadas 5 vezes mais prováveis de serem hiperdominantes e mais abundantes perto de sítios). McMichael, Piperno e Bush (2012, 2015) respondem que em 55 sítios do oeste e centro da Amazônia o impacto humano nos interflúvios foi pequeno, infrequente e localizado; Watling et al. (2017) mostram, nos geoglifos do Acre, floresta de bambu por 6.000 anos, apenas clareiras pequenas e temporárias, mas floresta antropogênica manejada por milênios. Leitura conciliatória: manejo intenso nas margens de rios e em algumas regiões, e menor impacto nos interflúvios.",
+    "Estimativas de população em 1500 (Clement 1999 resume): Meggers 1,5-2 milhões na bacia; Denevan reduziu em 1996 suas estimativas de 5-6 para 3-5 milhões (bacia) e de 6-8 para 5-7 milhões (norte da América do Sul de terras baixas); Clement 1999: 4-5 milhões; Clement et al. 2015: 1-2 milhões como estimativa conservadora e mínimo de 8-10 milhões na Grande Amazônia. Para o Brasil atual a faixa de 1 a mais de 5 milhões segue sem contagem.",
+    "Extensão da terra preta: 6.000-18.000 km2 (estimativas de campo, Eos) a 154.063 km2 ou 3,2% da floresta (modelo de McMichael et al. 2014, que provavelmente superestima a área num dado momento); o modelo rejeita a estimativa anterior de até 10%. Clement et al. (2015) objetam que 3,2% implicaria cerca de 50 milhões de habitantes, o que seria implausível, ou seja, a terra preta não ocorre em todo lugar previsto pelo modelo.",
     "Origem e rota da expansão Tupi-Guarani e Macro-Je.",
     "Se o declínio de sambaquis e outras reorganizações ao redor de 2.000 AP e 1.000 AP tiveram causa climática, social ou ambas."
    ],
    "fontes": [
     {
-     "titulo": "Embrapa - Resgate (terra preta de índio) [só resumo de busca]",
+     "titulo": "Teixeira (Embrapa Amazonia Ocidental) 2007 - O resgate de uma tecnologia esquecida: as Terras Pretas de Indio, Premio Samuel Benchimol [PDF lido: formacao entre 700 e 2.500 anos AP; areas em geral de 2 a 3 ha, algumas de dezenas de ha]",
      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/681776/1/Resgate.pdf",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Eos - The nutrient-rich legacy in the Amazon's dark earths [só resumo de busca]",
+     "titulo": "Eos - The nutrient-rich legacy in the Amazon's dark earths [pagina lida: 6.000-18.000 km2; modelagem de mais de 150.000 km2 (3,2%)]",
      "url": "https://eos.org/articles/the-nutrient-rich-legacy-in-the-amazons-dark-earths",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "PMC3896013 - terra preta (Amazonian dark earths) [só resumo de busca]",
+     "titulo": "McMichael et al. 2014, Proc. R. Soc. B 281:20132475 - Predicting pre-Columbian anthropogenic soils in Amazonia [pagina lida: 154.063 km2 = 3,2% da floresta; datas 3.000-500 AP, maioria 2.000-1.000 AP; o modelo provavelmente superestima a area em um dado momento]",
      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3896013",
-     "verificado": false
+     "verificado": true
     },
     {
      "titulo": "Wikipedia pt - Geoglifos do Acre [página lida; fonte secundária]",
@@ -171,19 +176,20 @@
      "verificado": true
     },
     {
-     "titulo": "de Souza et al. 2018, Nature Communications - Pre-Columbian earth-builders settled along the entire southern rim of the Amazon [só resumo de busca]",
-     "url": "https://doaj.org/article/a33fe0becce34df1aafd29f394c13844",
-     "verificado": false
+     "titulo": "de Souza et al. 2018, Nature Communications 9:1125 - Pre-Columbian earth-builders settled along the entire southern rim of the Amazon [texto completo lido via Europe PMC PMC5871619: 81 sitios/104 obras de terra, c. 400.000 km2, 1.000-1.500 recintos previstos, 500 mil a 1 milhao de habitantes]",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5871619/",
+     "verificado": true
     },
     {
-     "titulo": "Mongabay - New study discovers 81 lost human settlements in the Amazon [só resumo de busca]",
+     "titulo": "Mongabay (2018) - New study discovers 81 lost human settlements in the Amazon [pagina lida: 81 assentamentos, 24 visitados, c. 400.000 km2, 500 mil a 1 milhao; nao traz a contagem de 104]",
      "url": "https://news.mongabay.com/2018/04/new-study-discovers-81-lost-human-settlements-in-the-amazon-rainforest/",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Heckenberger et al. 2008, Science - Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon [só resumo de busca]",
+     "titulo": "Heckenberger et al. 2008, Science 321:1214-1217 (DOI 10.1126/science.1159769) - Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon [resumo lido via Crossref: aglomerados articulados, urbanismo \"galactico\"]",
      "url": "https://repositorio.museu-goeldi.br/items/dbf9b77e-30a1-468f-8f91-1270fe4d8462/full",
-     "verificado": false
+     "verificado": true,
+     "nota": "Lido apenas o resumo; 19 aldeias e 250 km2 por politica vem da Wikipedia."
     },
     {
      "titulo": "Wikipedia en - Xingu Indigenous Park / Upper Xingu [página lida; fonte secundária]",
@@ -191,19 +197,20 @@
      "verificado": true
     },
     {
-     "titulo": "Wikipedia en - Marajoara culture [só resumo de busca]",
+     "titulo": "Wikipedia en - Marajoara culture [pagina lida; fonte secundaria: ceramica 400-1400 d.C., florescimento 800-1400 (Mann), populacao ate 100.000 (Mann), Os Camutins c. 10.000, estratificacao inconclusiva]",
      "url": "https://en.wikipedia.org/wiki/Marajoara_culture",
-     "verificado": false
+     "verificado": true
     },
     {
      "titulo": "Wikipedia en - Tapajó people / literatura sobre Santarém e Belterra [só resumo de busca]",
      "url": "https://en.wikipedia.org/wiki/Tapaj%C3%B3_people",
-     "verificado": false
+     "verificado": false,
+     "nota": "Pagina lida: so diz que os Tapajo/cultura Santarem viviam no 17o seculo na foz do Tapajos; NAO trata de terra preta, muiraquitas, comercio nem escala populacional. Fonte inadequada para o evento; segue false."
     },
     {
-     "titulo": "Clement et al. 2015, Proc. R. Soc. B - The domestication of Amazônia before European conquest [só resumo de busca]",
+     "titulo": "Clement et al. 2015, Proc. R. Soc. B 282:20150813 - The domestication of Amazonia before European conquest [pagina lida: >=83 especies nativas domesticadas em algum grau; 1-2 milhoes (conservador) a >=8 milhoes]",
      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4528512",
-     "verificado": false
+     "verificado": true
     },
     {
      "titulo": "McMichael, Piperno, Bush 2015 - Comment on Clement et al. 2015 [só resumo de busca]",
@@ -211,29 +218,29 @@
      "verificado": false
     },
     {
-     "titulo": "McMichael et al. 2012, Science - Sparse pre-Columbian human habitation in western Amazônia [só resumo de busca]",
+     "titulo": "McMichael et al. 2012, Science 336:1429 - Sparse pre-Columbian human habitation in western Amazonia [resumo lido: solos de 55 sitios; impacto humano pequeno, infrequente e localizado nos interfluvios]",
      "url": "https://people.clas.ufl.edu/azimmer/files/Publication-pdf/McMichael12_Science-Sparse-Pre-Columbian-Human-Habitation-in-Western-Amazonia.pdf",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Levis et al. 2017, Science - Persistent effects of pre-Columbian plant domestication on Amazonian forest composition [só resumo de busca]",
+     "titulo": "Levis et al. 2017, Science 355:925-931 - Persistent effects of pre-Columbian plant domestication on Amazonian forest composition [resumo lido: 85 especies lenhosas; especies domesticadas 5 vezes mais provaveis de serem hiperdominantes]",
      "url": "https://eprints.whiterose.ac.uk/id/eprint/114745/",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Clement - estimativas populacionais da Amazônia (Denevan, Roosevelt) [só resumo de busca]",
+     "titulo": "Clement 1999, Economic Botany 53(2):188-202 - 1492 and the loss of Amazonian crop genetic resources. I. The relation between domestication and human population decline [PDF lido: 4-5 milhoes na Amazonia; Meggers 1,5-2 milhoes; Denevan 1996: 3-5 milhoes na bacia e 5-7 milhoes no norte da America do Sul]",
      "url": "https://antigo.inpa.gov.br/cpca/charles/pdf/CRC_EconBot99_1.pdf",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Apaestegui et al. 2014, Climate of the Past 10 - SASM nos últimos 2 milênios (speleotemas) [só resumo de busca]",
+     "titulo": "Apaestegui et al. 2014, Climate of the Past 10:1967-1981 - Hydroclimate variability of the northwestern Amazon Basin near the Andean foothills of Peru related to the South American Monsoon System during the last 1600 years [resumo lido: caverna Palestina, Peru; monção menos ativa na MCA e mais ativa na LIA]",
      "url": "https://cp.copernicus.org/articles/10/1967/2014/cp-10-1967-2014.pdf",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Utida et al. - Multidecadal climate variability in Brazil's Nordeste during the last 3000 years [só resumo de busca]",
+     "titulo": "Novello, Cruz, Karmann, Burns et al. 2012, Geophysical Research Letters (DOI 10.1029/2012gl053936) - Multidecadal climate variability in Brazil's Nordeste during the last 3000 years based on speleothem isotope records [resumo lido via Crossref; a atribuicao 'Utida et al.' do arquivo anterior estava errada]",
      "url": "https://scholar.xjtu.edu.cn/en/publications/multidecadal-climate-variability-in-brazils-nordeste-during-the-l/",
-     "verificado": false
+     "verificado": true
     },
     {
      "titulo": "Wikipedia pt - Línguas indígenas do Brasil [primeiros 100 mil caracteres lidos; fonte secundária]",
@@ -269,17 +276,18 @@
    "titulo": "Indústrias líticas de Vale da Pedra Furada e Toca da Tira Peia",
    "resumo": "Boeda, Lahaye e colegas propuseram peças líticas de c. 22.000 a 24.000 cal AP e outra fase de c. 15.000 AP com datas 14C e OSL.",
    "evidencia": "Datas 14C e OSL, análise tecno-funcional de peças.",
-   "incerteza": "Alta: aceitação parcial; leitura como artefatos x geofatos segue em debate. Anterior ao período.",
+   "incerteza": "Alta: aceitação parcial; leitura como artefatos x geofatos segue em debate. Anterior ao período. Boëda et al. 2014 foram publicados com comentários críticos e réplica (Antiquity 88); o resumo lido fala em 'mais de 20.000 anos', e as faixas 22.000-24.000 cal AP e 15.000 AP não foram conferidas no texto completo.",
    "fontes": [
     {
-     "titulo": "Antiquity - A new late Pleistocene archaeological sequence in South América: Vale da Pedra Furada (Boeda et al. 2014) [só resumo de busca]",
+     "titulo": "Boeda et al. 2014, Antiquity 88 (DOI 10.1017/s0003598x00050845) - A new late Pleistocene archaeological sequence in South America: the Vale da Pedra Furada [resumo lido via Crossref: ocupacao com mais de 20.000 anos por 14C e OSL; publicado com comentarios e replica]",
      "url": "https://www.cambridge.org/core/journals/antiquity/article/abs/new-late-pleistocene-archaeological-sequence-in-south-america-the-vale-da-pedra-furada-piaui-brazil/5D3D45742107D7E0E6AF1FB2C24B727F",
-     "verificado": false
+     "verificado": true,
+     "nota": "Lido apenas o resumo; as faixas 22.000-24.000 cal AP e 15.000 AP citadas no evento nao foram lidas no texto completo."
     },
     {
-     "titulo": "Archaeology.org - When Did People Reach South América? (Lahaye et al. 2013, Toca da Tira Peia) [só resumo de busca]",
+     "titulo": "Archaeology.org (2013) - When Did People Reach South America? [pagina lida: Lahaye e Boeda; pecas liticas de c. 22.000 anos por luminescencia]",
      "url": "https://archaeology.org/news/2013/03/20/130320-south-america-migration-toca-da-tira-peia/",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -323,19 +331,24 @@
    "data_calendario": "c. 12050 a.C.",
    "periodo": "paleoindio-pleistoceno-final",
    "titulo": "Linhagens nativas americanas na América do Sul",
-   "resumo": "Genomas antigos de Lagoa Santa e de outros sítios indicam que populações nativas americanas já ocupavam a América do Sul em torno de 14.000 AP, em estruturas de população complexas.",
-   "evidencia": "Paleogenômica (15 genomas, 5 de Lagoa Santa em c. 10.400-9.800 AP).",
+   "resumo": "Genomas antigos de Lagoa Santa e de outros sítios indicam que populações nativas americanas já ocupavam a América do Sul em torno de 14.000 AP, em estruturas de população complexas. Em Moreno-Mayar et al. (2018), o ancestral comum de Lagoa Santa e dos Mixe (Mesoamérica) é estimado em c. 14,1 ka (IC95% 13,2-14,9) e a separação dos ramos norte e sul em c. 15,5 ka; os 5 genomas de Lagoa Santa vêm da gruta do Sumidouro (c. 10,4-9,8 ka).",
+   "evidencia": "Paleogenômica (15 genomas do Alasca à Patagônia, 6 com mais de 10 mil anos; 5 de Lagoa Santa em c. 10.400-9.800 AP).",
    "incerteza": "Média: datas de divergência por modelo demográfico, com margem ampla.",
    "fontes": [
     {
-     "titulo": "Moreno-Mayar et al. 2018, Science - Early human dispersals within the Américas [só resumo de busca]",
+     "titulo": "Moreno-Mayar et al. 2018, Science 362:eaav2621 - Early human dispersals within the Americas [PDF lido: 15 genomas, 5 de Lagoa Santa c. 10,4-9,8 ka; ancestral comum Lagoa Santa-Mixe c. 14,1 ka (IC95% 13,2-14,9)]",
      "url": "https://prp.usp.br/wp-content/uploads/sites/802/2019/02/Moreno-Mayar-2018-Early-human-dispersal-within-the-Americas.pdf",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Pesquisa FAPESP - Ancient DNA reveals rapid colonization of South América 14,000 years ago [só resumo de busca]",
+     "titulo": "Pesquisa FAPESP - Ancient DNA reveals rapid colonization of South America 14,000 years ago [pagina lida: >14.000 anos; 15 esqueletos; Posth et al. 49 individuos]",
      "url": "https://revistapesquisa.fapesp.br/en/when-indigenous-people-occupied-lagoa-santa/",
-     "verificado": false
+     "verificado": true
+    },
+    {
+     "titulo": "Posth et al. 2018, Cell 175:1185 - Reconstructing the deep population history of Central and South America [resumo lido via Europe PMC: 49 genomas; substituição populacional desde >=9.000 anos]",
+     "url": "https://doi.org/10.1016/j.cell.2018.10.027",
+     "verificado": true
     }
    ]
   },
@@ -345,19 +358,29 @@
    "data_calendario": "c. 9950-6050 a.C.",
    "periodo": "paleoindio-pleistoceno-final",
    "titulo": "Santana do Riacho e Lapa do Santo: caçadores-coletores do Cerrado",
-   "resumo": "O Grande Abrigo de Santana do Riacho (Serra do Cipó) tem a datação mais recuada, c. 11.900 AP; em Lapa do Santo foram exumados 26 enterramentos do Holoceno inicial em sete padrões funerários. Dieta de pequenos animais, frutos, sementes, raízes e moluscos, e pesca.",
+   "resumo": "O Grande Abrigo de Santana do Riacho (Serra do Cipó) tem a datação mais recuada, c. 11.900 AP; em Lapa do Santo foram descritos 26 enterramentos do Holoceno inicial (uso funerário desde c. 10.600-10.300 anos atrás; manipulação de corpos c. 9.600-9.400 anos atrás; Strauss et al. 2016, Antiquity). A contagem de \"sete padrões\" não foi conferida; em Santana do Riacho, cerca de 40 indivíduos, enterramentos entre c. 9.500 e 8.200 BP (Neves et al. 2003). Dieta de pequenos animais, frutos, sementes, raízes e moluscos, e pesca.",
    "evidencia": "Escavação e osteologia.",
-   "incerteza": "Variável por sítio; ainda há debate sobre mobilidade e territorialidade.",
+   "incerteza": "Variável por sítio; ainda há debate sobre mobilidade e territorialidade. A datação c. 11.900 AP de Santana do Riacho não foi conferida em fonte lida.",
    "fontes": [
     {
-     "titulo": "Pesquisa FAPESP - Os povos de Lagoa Santa [só resumo de busca]",
+     "titulo": "Pesquisa FAPESP (set/2016) - Os povos de Lagoa Santa [pagina lida: Lapa do Santo como centro de rituais funerarios; periodos culturais distintos]",
      "url": "https://revistapesquisa.fapesp.br/os-povos-de-lagoa-santa/",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Pesquisa FAPESP - Ancient DNA reveals rapid colonization of South América 14,000 years ago [só resumo de busca]",
+     "titulo": "Pesquisa FAPESP - Ancient DNA reveals rapid colonization of South America 14,000 years ago [pagina lida: >14.000 anos; 15 esqueletos; Posth et al. 49 individuos]",
      "url": "https://revistapesquisa.fapesp.br/en/when-indigenous-people-occupied-lagoa-santa/",
-     "verificado": false
+     "verificado": true
+    },
+    {
+     "titulo": "Max Planck EVA - press release de Strauss et al. 2016 (Antiquity) [PDF lido: 26 enterramentos em Lapa do Santo; uso desde 10.300-10.600 anos atrás]",
+     "url": "https://www.eva.mpg.de/fileadmin/content_files/institute/pdf/press/english/PressRelease_FuneraryRituals_Strauss.pdf",
+     "verificado": true
+    },
+    {
+     "titulo": "Neves, Prous, González-José, Kipnis, Powell 2003, J. Human Evolution - Early Holocene human skeletal remains from Santana do Riacho, Brazil [resumo lido via Europe PMC: c. 40 indivíduos, enterramentos entre 8.200 e 9.500 BP, primeira atividade humana no fim do Pleistoceno]",
+     "url": "https://doi.org/10.1016/s0047-2484(03)00081-2",
+     "verificado": true
     }
    ]
   },
@@ -367,7 +390,7 @@
    "data_calendario": "c. 9550 a.C.",
    "periodo": "paleoindio-pleistoceno-final",
    "titulo": "Luzia (Lapa Vermelha IV, Pedro Leopoldo, MG)",
-   "resumo": "Esqueleto de mulher de 20-24 anos, encontrado nos anos 1970 em escavação liderada por Annette Laming-Emperaire; idade de 11.243-11.710 AP. Walter Neves propôs traços cranianos ditos 'paleoamericanos'. Estudo genético de 2015 contraria a hipótese de duas migrações distintas. O incêndio de 2018 no Museu Nacional destruiu parte do acervo; cerca de 90% dos restos foram recuperados.",
+   "resumo": "Esqueleto de mulher de 20-24 anos, encontrado nos anos 1970 em escavação liderada por Annette Laming-Emperaire; idade de 11.243-11.710 AP. Walter Neves propôs traços cranianos ditos 'paleoamericanos'. Estudos genômicos (Raghavan et al. 2015, Science; Moreno-Mayar et al. 2018, Science) contrariam a hipótese de duas migrações distintas; os genomas de Moreno-Mayar 2018 vêm de 5 indivíduos de Lagoa Santa (Sumidouro), não de Luzia. O incêndio de 2018 no Museu Nacional destruiu parte do acervo; cerca de 90% dos restos foram recuperados.",
    "evidencia": "Esqueleto, morfometria craniana, datação.",
    "incerteza": "Datas em faixa; a leitura da morfologia como origem distinta é rejeitada pela genômica, mas a questão da diversidade craniana segue discutida.",
    "fontes": [
@@ -377,9 +400,14 @@
      "verificado": true
     },
     {
-     "titulo": "Moreno-Mayar et al. 2018, Science - Early human dispersals within the Américas [só resumo de busca]",
+     "titulo": "Moreno-Mayar et al. 2018, Science 362:eaav2621 - Early human dispersals within the Americas [PDF lido: 15 genomas, 5 de Lagoa Santa c. 10,4-9,8 ka; ancestral comum Lagoa Santa-Mixe c. 14,1 ka (IC95% 13,2-14,9)]",
      "url": "https://prp.usp.br/wp-content/uploads/sites/802/2019/02/Moreno-Mayar-2018-Early-human-dispersal-within-the-Americas.pdf",
-     "verificado": false
+     "verificado": true
+    },
+    {
+     "titulo": "Raghavan et al. 2015, Science 349:aab3884 - Genomic evidence for the Pleistocene and recent population history of Native Americans [resumo lido via Europe PMC: onda única da Sibéria não antes de 23 ka; ramos básicos separados c. 13 ka]",
+     "url": "https://doi.org/10.1126/science.aab3884",
+     "verificado": true
     }
    ]
   },
@@ -428,36 +456,41 @@
    "data_calendario": "c. 6050-2050 a.C.",
    "periodo": "holoceno-inicial-medio",
    "titulo": "Queda dos registros no Holoceno médio ('Archaic Gap')",
-   "resumo": "Em Lagoa Santa há registro arqueológico intenso em 10.000-8.000 AP e 2.000-1.000 AP e escassez no intervalo; padrão aparece em partes da Amazônia e do Pantanal. Explicações: aridez, variabilidade climática, mudança de mobilidade, viés de amostragem.",
+   "resumo": "Araujo et al. (2025) descrevem, com 725 idades 14C na Amazônia, o menor sinal de ocupação em 7,0-6,0 ka BP, sem idades em Santarém entre 6,5 e 4,5 ka BP, queda abrupta de sítios no Pantanal c. 9 ka BP e depressão no Brasil central c. 8,6 ka BP. (As janelas específicas de Lagoa Santa citadas antes, 10.000-8.000 e 2.000-1.000 AP, não foram conferidas.) Explicações: aridez, variabilidade climática, mudança de mobilidade, viés de amostragem.",
    "evidencia": "Frequências de datas 14C por região.",
-   "incerteza": "Muito alta: pólen de Lagoa Santa não mostra seca prolongada; com mais dados há sinais de reocupação.",
+   "incerteza": "Muito alta: a causa é debatida (seca, variabilidade climática, mobilidade, viés de amostragem); o padrão varia por região e o NE do Brasil não segue um padrão único.",
    "fontes": [
     {
-     "titulo": "Revista do MAE/USP - Human occupation and paleoenvironments in South América: expanding the notion of an Archaic Gap [só resumo de busca]",
-     "url": "https://journals.usp.br/revmae/article/view/89707",
-     "verificado": false
+     "titulo": "Araujo, Pilo, Neves, Atui 2006, Rev. Museu de Arqueologia e Etnologia 15-16:3-35 - Human occupation and paleoenvironments in South America: expanding the notion of an Archaic Gap [resumo lido: grandes areas abandonadas ou muito despovoadas no Holoceno medio, seca como causa principal]",
+     "url": "http://revistas.usp.br/revmae/article/view/89707",
+     "verificado": true
     },
     {
-     "titulo": "PMC11790176 - Human-environment interaction during the Holocene in Eastern South América [só resumo de busca]",
+     "titulo": "Araujo, Correa, Perez, Di Gregorio, Okumura 2025, PLoS ONE 20(2):e0315747 - Human-environment interaction during the Holocene in Eastern South America: rapid climate changes and population dynamics [primeiros 100 mil caracteres lidos]",
      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11790176/",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
   {
    "id": "domesticacao-sudoeste-amazonia",
-   "data_ap": "c. 10000-6000",
-   "data_calendario": "c. 8050-4050 a.C.",
+   "data_ap": "c. 9000-5000 cal AP (Teotônio, rio Madeira)",
+   "data_calendario": "c. 7050-3050 a.C.",
    "periodo": "holoceno-inicial-medio",
    "titulo": "Manejo e domesticação de plantas no sudoeste da Amazônia",
-   "resumo": "Literatura recente (Watling e colegas, de memória) propõe que o sudoeste amazônico foi centro de domesticação de mandioca e abóbora; Clement et al. (2015) contam ao menos 83 espécies nativas com populações domesticadas em algum grau.",
-   "evidencia": "Fitolitos e grãos de amido em sítios, genética de plantas.",
-   "incerteza": "Datas de memória (não conferidas); 'domesticação' vs. 'manejo' depende de definição.",
+   "resumo": "Watling et al. (2018, PLoS ONE) encontraram em Teotônio (rio Madeira), em depósitos de c. 9.000-5.000 cal AP, mandioca (Manihot esculenta), abóbora (Cucurbita) e feijão (Phaseolus) ao lado de frutas como pequiá e goiaba; Clement et al. (2015) contam ao menos 83 espécies nativas com populações domesticadas em algum grau. Antes, a hipótese de centro de domesticação no sudoeste amazônico vinha sobretudo de dados genéticos.",
+   "evidencia": "Fitólitos e grãos de amido em sítio a céu aberto (Teotônio), genética de plantas.",
+   "incerteza": "Média: o centro de domesticação do sudoeste amazônico tem apoio arqueobotânico direto desde 2018, mas \"domesticação\" vs. \"manejo\" depende de definição.",
    "fontes": [
     {
-     "titulo": "Clement et al. 2015, Proc. R. Soc. B - The domestication of Amazônia before European conquest [só resumo de busca]",
+     "titulo": "Clement et al. 2015, Proc. R. Soc. B 282:20150813 - The domestication of Amazonia before European conquest [pagina lida: >=83 especies nativas domesticadas em algum grau; 1-2 milhoes (conservador) a >=8 milhoes]",
      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4528512",
-     "verificado": false
+     "verificado": true
+    },
+    {
+     "titulo": "Watling et al. 2018, PLoS ONE 13:e0199868 - Direct archaeological evidence for Southwestern Amazonia as an early plant domestication and food production centre [resumo lido via Europe PMC]",
+     "url": "https://doi.org/10.1371/journal.pone.0199868",
+     "verificado": true
     }
    ]
   },
@@ -484,24 +517,24 @@
    "data_calendario": "c. 550 a.C.-1450 d.C.",
    "periodo": "sociedades-complexas-amazonicas-e-costeiras",
    "titulo": "Terra preta de índio: solos antropogênicos amazônicos",
-   "resumo": "Solos escuros e férteis formados por acúmulo de resíduos de aldeias; depósitos mais antigos em c. 2.000 AP e presença em quase toda a bacia entre 500 e 1000 d.C. Estimativas de extensão variam de 6.000-18.000 km2 a 154.063 km2 (3,2% da floresta, modelagem).",
+   "resumo": "Solos escuros e férteis formados por acúmulo de resíduos de aldeias; datas registradas de c. 3.000 a 500 AP, a maioria entre 2.000 e 1.000 AP (McMichael 2014); a Embrapa (2007) dá formação entre 700 e 2.500 AP, em manchas em geral de 2-3 ha e algumas de dezenas de ha. Estimativas de extensão variam de 6.000-18.000 km2 a 154.063 km2 (3,2% da floresta, modelagem).",
    "evidencia": "Solos, cerâmica e carvão.",
-   "incerteza": "Muito alta: a faixa de extensão difere em uma ordem de grandeza; há também terra mulata e outras formas de manejo.",
+   "incerteza": "Muito alta: a faixa de extensão difere em uma ordem de grandeza; o modelo provavelmente superestima a área num dado momento; há também terra mulata e outras formas de manejo.",
    "fontes": [
     {
-     "titulo": "Embrapa - Resgate (terra preta de índio) [só resumo de busca]",
+     "titulo": "Teixeira (Embrapa Amazonia Ocidental) 2007 - O resgate de uma tecnologia esquecida: as Terras Pretas de Indio, Premio Samuel Benchimol [PDF lido: formacao entre 700 e 2.500 anos AP; areas em geral de 2 a 3 ha, algumas de dezenas de ha]",
      "url": "https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/681776/1/Resgate.pdf",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Eos - The nutrient-rich legacy in the Amazon's dark earths [só resumo de busca]",
+     "titulo": "Eos - The nutrient-rich legacy in the Amazon's dark earths [pagina lida: 6.000-18.000 km2; modelagem de mais de 150.000 km2 (3,2%)]",
      "url": "https://eos.org/articles/the-nutrient-rich-legacy-in-the-amazons-dark-earths",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "PMC3896013 - terra preta (Amazonian dark earths) [só resumo de busca]",
+     "titulo": "McMichael et al. 2014, Proc. R. Soc. B 281:20132475 - Predicting pre-Columbian anthropogenic soils in Amazonia [pagina lida: 154.063 km2 = 3,2% da floresta; datas 3.000-500 AP, maioria 2.000-1.000 AP; o modelo provavelmente superestima a area em um dado momento]",
      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3896013",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -511,7 +544,7 @@
    "data_calendario": "c. 550 a.C.-1250 d.C.",
    "periodo": "sociedades-complexas-amazonicas-e-costeiras",
    "titulo": "Geoglifos do Acre",
-   "resumo": "Mais de 410 estruturas geométricas em c. 300 sítios entre os rios Acre e Iquiri, em interflúvios; função social, cerimonial ou ritual (sem consenso). Os autores populares falam em milhões de habitantes, número não sustentado por consenso.",
+   "resumo": "Mais de 450 recintos geométricos em c. 13.000 km2 do Acre (Watling et al. 2017; a Wikipedia pt contava mais de 410 estruturas em c. 300 sítios entre os rios Acre e Iquiri), em interflúvios; função social, cerimonial ou ritual (sem consenso). Os autores mostram floresta de bambu por 6.000 anos e apenas clareiras pequenas e temporárias para construí-los. Autores populares falam em milhões de habitantes, número não sustentado por consenso.",
    "evidencia": "Valas e aterros mapeados por sensoriamento remoto e escavação.",
    "incerteza": "Idade e população muito incertas; a data de 2.500 AP é a de uma fonte secundária.",
    "fontes": [
@@ -521,26 +554,31 @@
      "verificado": true
     },
     {
-     "titulo": "de Souza et al. 2018, Nature Communications - Pre-Columbian earth-builders settled along the entire southern rim of the Amazon [só resumo de busca]",
-     "url": "https://doaj.org/article/a33fe0becce34df1aafd29f394c13844",
-     "verificado": false
+     "titulo": "Watling et al. 2017, PNAS 114:1868-1873 - Impact of pre-Columbian 'geoglyph' builders on Amazonian forests [resumo lido via Europe PMC]",
+     "url": "https://doi.org/10.1073/pnas.1614359114",
+     "verificado": true
     }
    ]
   },
   {
    "id": "jabuticabeira-sambaqui",
-   "data_ap": "c. 2890-1805 BP (não calibrado)",
-   "data_calendario": "c. 940 a.C.-145 d.C. (aprox.)",
+   "data_ap": "2890+-55 a 1805+-65 BP não calibrado; calibrado 1214-830 cal a.C. a 118-413 cal d.C.",
+   "data_calendario": "c. 1214 a.C. a 413 d.C. (calibrado)",
    "periodo": "sociedades-complexas-amazonicas-e-costeiras",
    "titulo": "Sambaqui Jabuticabeira II (SC)",
    "resumo": "8,4 ha, c. 10 m de altura e 400 m de eixo, com centenas de sepultamentos e 46 datas 14C, evidência de densidade populacional e práticas funerárias organizadas.",
    "evidencia": "Escavação e datação 14C.",
-   "incerteza": "Datas em BP não calibradas (conforme o resumo); a calibração muda o intervalo.",
+   "incerteza": "As datas BP não calibradas são de Araújo et al. (2026, Parasitology); a calibração de Pezo-Lanfranco et al. (2020, PLoS ONE) é 1214-830 cal a.C. a 118-413 cal d.C. As cifras de 8,4 ha, 10 m de altura, 400 m de eixo e 46 datas não foram conferidas em fonte lida.",
    "fontes": [
     {
      "titulo": "Univ. of Arizona repository - Jabuticabeira II sambaqui chronology [só resumo de busca]",
      "url": "https://repository.arizona.edu/handle/10150/267792",
      "verificado": false
+    },
+    {
+     "titulo": "Pezo-Lanfranco et al. 2020, PLoS ONE 15:e0229684 - Child development, physiological stress and survival expectancy in prehistoric fisher-hunter-gatherers from the Jabuticabeira II shell mound [resumo lido via Europe PMC: 1214-830 cal a.C. a 118-413 cal d.C.]",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7065757/",
+     "verificado": true
     }
    ]
   },
@@ -580,18 +618,18 @@
   },
   {
    "id": "marajoara",
-   "data_ap": "c. 1550-650",
-   "data_calendario": "c. 400-1300 d.C.",
+   "data_ap": "c. 1550-550 (cerâmica 400-1400 d.C.)",
+   "data_calendario": "c. 400-1400 d.C. (cerâmica); florescimento 800-1400 d.C. segundo Mann; abandono c. 1300 d.C.",
    "periodo": "sociedades-complexas-amazonicas-e-costeiras",
    "titulo": "Cultura Marajoara (Ilha de Marajó, PA)",
-   "resumo": "Aterros (tesos) de centenas de metros de comprimento e 3 a 7 m de altura, até 20 m, plataformas de aldeias com cemitérios; cerâmica elaborada. Estimativas de população de até 100.000 (Camutins: c. 10.000).",
+   "resumo": "Aterros (tesos) com plataformas de aldeias e cemitérios; cerâmica elaborada. Charles Mann (via Wikipedia) sugere sociedade estratificada de até 100.000 pessoas; Os Camutins (40 aterros) teriam c. 10.000. As alturas de 3 a 7 m (até 20 m) citadas antes não foram encontradas na página lida.",
    "evidencia": "Escavação, geofísica e cerâmica (Roosevelt, Schaan).",
-   "incerteza": "Muito alta: a cifra de população e controversa; há debate sobre estratificação social.",
+   "incerteza": "Muito alta: a cifra de população é controversa; a Wikipedia diz que a evidência de desigualdade e liderança é inconclusiva e que a centralização \"não é uma suposição empiricamente sustentada\". Rossetti et al. propõem que parte dos aterros assenta sobre elevações naturais.",
    "fontes": [
     {
-     "titulo": "Wikipedia en - Marajoara culture [só resumo de busca]",
+     "titulo": "Wikipedia en - Marajoara culture [pagina lida; fonte secundaria: ceramica 400-1400 d.C., florescimento 800-1400 (Mann), populacao ate 100.000 (Mann), Os Camutins c. 10.000, estratificacao inconclusiva]",
      "url": "https://en.wikipedia.org/wiki/Marajoara_culture",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -608,7 +646,8 @@
     {
      "titulo": "Wikipedia en - Tapajó people / literatura sobre Santarém e Belterra [só resumo de busca]",
      "url": "https://en.wikipedia.org/wiki/Tapaj%C3%B3_people",
-     "verificado": false
+     "verificado": false,
+     "nota": "Pagina lida: so diz que os Tapajo/cultura Santarem viviam no 17o seculo na foz do Tapajos; NAO trata de terra preta, muiraquitas, comercio nem escala populacional. Fonte inadequada para o evento; segue false."
     }
    ]
   },
@@ -623,9 +662,10 @@
    "incerteza": "Alta: 'urbanismo' e termo discutido; dados limitados a uma região.",
    "fontes": [
     {
-     "titulo": "Heckenberger et al. 2008, Science - Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon [só resumo de busca]",
+     "titulo": "Heckenberger et al. 2008, Science 321:1214-1217 (DOI 10.1126/science.1159769) - Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon [resumo lido via Crossref: aglomerados articulados, urbanismo \"galactico\"]",
      "url": "https://repositorio.museu-goeldi.br/items/dbf9b77e-30a1-468f-8f91-1270fe4d8462/full",
-     "verificado": false
+     "verificado": true,
+     "nota": "Lido apenas o resumo; 19 aldeias e 250 km2 por politica vem da Wikipedia."
     },
     {
      "titulo": "Wikipedia en - Xingu Indigenous Park / Upper Xingu [página lida; fonte secundária]",
@@ -640,19 +680,19 @@
    "data_calendario": "c. 1250-1500 d.C.",
    "periodo": "sociedades-complexas-amazonicas-e-costeiras",
    "titulo": "Obras de terra no alto Tapajós",
-   "resumo": "104 obras de terra com valas e cercados foram detectadas por de Souza et al. (2018), que modelaram 400.000 km2 da borda sul da Amazônia com 500.000 a 1 milhão de habitantes.",
+   "resumo": "De Souza et al. (2018) relatam 81 sítios novos no alto Tapajós, com 104 obras de terra (recintos de valas) de c. 1250-1500 d.C. num trecho de 1.800 km; o modelo prevê recintos em c. 400.000 km2 da borda sul da Amazônia (1.000-1.500 recintos, cerca de dois terços ainda por achar) e uma população regional de 500.000 a 1 milhão. Foram visitados 24 sítios.",
    "evidencia": "Sensoriamento remoto e modelagem preditiva.",
    "incerteza": "Muito alta: faixa de população e resultado de modelo, não de contagem.",
    "fontes": [
     {
-     "titulo": "de Souza et al. 2018, Nature Communications - Pre-Columbian earth-builders settled along the entire southern rim of the Amazon [só resumo de busca]",
-     "url": "https://doaj.org/article/a33fe0becce34df1aafd29f394c13844",
-     "verificado": false
+     "titulo": "de Souza et al. 2018, Nature Communications 9:1125 - Pre-Columbian earth-builders settled along the entire southern rim of the Amazon [texto completo lido via Europe PMC PMC5871619: 81 sitios/104 obras de terra, c. 400.000 km2, 1.000-1.500 recintos previstos, 500 mil a 1 milhao de habitantes]",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5871619/",
+     "verificado": true
     },
     {
-     "titulo": "Mongabay - New study discovers 81 lost human settlements in the Amazon [só resumo de busca]",
+     "titulo": "Mongabay (2018) - New study discovers 81 lost human settlements in the Amazon [pagina lida: 81 assentamentos, 24 visitados, c. 400.000 km2, 500 mil a 1 milhao; nao traz a contagem de 104]",
      "url": "https://news.mongabay.com/2018/04/new-study-discovers-81-lost-human-settlements-in-the-amazon-rainforest/",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -686,9 +726,9 @@
    "incerteza": "Datas globais aproximadas (de memória); resposta regional varia.",
    "fontes": [
     {
-     "titulo": "Novello et al. 2017, Sci. Reports - A high-resolution history of the South American monsoon from last glacial maximum to the Holocene [só resumo de busca]",
-     "url": "https://repositorio.usp.br/item/002804500",
-     "verificado": false
+     "titulo": "Novello et al. 2017, Scientific Reports 7:44267 - A high-resolution history of the South American Monsoon from Last Glacial Maximum to the Holocene [texto completo lido via Europe PMC PMC5345026]",
+     "url": "https://doi.org/10.1038/srep44267",
+     "verificado": true
     }
    ]
   },
@@ -697,37 +737,38 @@
    "inicio_ap": 30800,
    "fim_ap": 14200,
    "titulo": "Floresta amazônica durante o glacial",
-   "descricao": "Pólen do Lago Pata (c. 14.200-30.800 AP) mostra 70-90% de pólen arbóreo, com táxons hoje montanos; a floresta não foi substituída por savana, contra a hipótese de refúgios.",
+   "descricao": "O registro de pólen do Lago Pata é contínuo por mais de 40.000 anos (Colinvaux 1996); mostra floresta tropical contínua, sem savana no Último Máximo Glacial, táxons hoje montanos nas terras baixas e resfriamento da ordem de 5 a 6 C; a floresta não foi fragmentada em refúgios.",
    "regiao": "Amazônia noroeste",
    "evidencia": "Pólen de testemunho lacustre.",
    "incerteza": "Um testemunho não representa a bacia; há estudos que mostram mudanças regionais.",
    "fontes": [
     {
-     "titulo": "WHOI - A long pollen record from lowland Amazônia: forest and cooling in glacial times [só resumo de busca]",
-     "url": "https://nosamsresearch.whoi.edu/long-pollen-record-lowland-amazonia-forest-and-cooling-glacial-times",
-     "verificado": false
+     "titulo": "Colinvaux, De Oliveira, Moreno, Miller 1996, Science 274:85-88 - A long pollen record from lowland Amazonia: forest and cooling in glacial times [resumo lido via Crossref: >40.000 anos continuos, sem savana no UMG, sem fragmentacao em refugios, resfriamento de 5 a 6 C]",
+     "url": "https://doi.org/10.1126/science.274.5284.85",
+     "verificado": true
     },
     {
-     "titulo": "Colinvaux et al. 2000, Quaternary Science Reviews - Amazonian and neotropical plant communities on glacial time-scales [só resumo de busca]",
+     "titulo": "Colinvaux, De Oliveira, Bush 2000, Quaternary Science Reviews 19:141-169 - Amazonian and neotropical plant communities on glacial time-scales: the failure of the aridity and refuge hypotheses [PDF lido]",
      "url": "https://antigo.inpa.gov.br/cpca/charles/pdf/QuaternarySciRev_Colinvaux_2000.pdf",
-     "verificado": false
+     "verificado": true
     }
-   ]
+   ],
+   "nota": "O recorte inicio_ap/fim_ap (30.800-14.200) e a fração \"70-90% de pólen arbóreo\" do texto anterior não foram encontrados nas fontes lidas; o resumo de 1996 dá mais de 40.000 anos."
   },
   {
    "id": "cerrado-mata-atlantica-glacial",
    "inicio_ap": 26500,
    "fim_ap": 11700,
    "titulo": "Cerrado e Mata Atlântica no glacial",
-   "descricao": "Assembleias de Podocarpus-Ilex-Hedyosmum-Myrsine, hoje de campos de altitude, eram mais comuns em registros brasileiros; o Cerrado funcionou como corredor de migração de espécies entre Amazônia e Mata Atlântica.",
+   "descricao": "Colinvaux et al. (2000) comparam o registro de cerrado de Cromínia (GO) com os da Amazônia: o cerrado mostra vegetação aberta, ao contrário das terras baixas florestadas; o avanço para o norte de Araucaria no Sudeste sugere precipitação não reduzida em parte da região. A versão anterior (\"assembleias de Podocarpus-Ilex-Hedyosmum-Myrsine\" e Cerrado como \"corredor de migração\") não foi encontrada no artigo lido.",
    "regiao": "Brasil central e Sudeste",
    "evidencia": "Pólen.",
-   "incerteza": "Interpretação de conectividade florestal e debatida.",
+   "incerteza": "Alta: conectividade florestal e extensão da aridez no Brasil central e Sudeste são debatidas.",
    "fontes": [
     {
-     "titulo": "Colinvaux et al. 2000, Quaternary Science Reviews - Amazonian and neotropical plant communities on glacial time-scales [só resumo de busca]",
+     "titulo": "Colinvaux, De Oliveira, Bush 2000, Quaternary Science Reviews 19:141-169 - Amazonian and neotropical plant communities on glacial time-scales: the failure of the aridity and refuge hypotheses [PDF lido]",
      "url": "https://antigo.inpa.gov.br/cpca/charles/pdf/QuaternarySciRev_Colinvaux_2000.pdf",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -736,20 +777,20 @@
    "inicio_ap": 18000,
    "fim_ap": 11700,
    "titulo": "Deglaciação e reorganização da monção",
-   "descricao": "Reconstrução em speleotemas da monção sul-americana do LGM ao Holoceno (Novello et al. 2017) mostra respostas a forçamentos externos na deglaciação, com antifase leste-oeste.",
+   "descricao": "Reconstrução em speleotemas (caverna de Jaraguá e outras) da monção sul-americana do UMG ao Holoceno médio (Novello et al. 2017): respostas a eventos milenares abruptos e comportamento em antifase com as monções do Hemisfério Norte (cavernas chinesas) em escala de precessão. Cruz et al. (2005): chuva no Brasil subtropical dirigida sobretudo pela insolação de verão (precessão); os ciclos de Dansgaard-Oeschger aparecem, mas não dominam.",
    "regiao": "Brasil tropical",
    "evidencia": "Speleotemas de Peru e Brasil.",
    "incerteza": "Detalhes cronológicos por caverna.",
    "fontes": [
     {
-     "titulo": "Novello et al. 2017, Sci. Reports - A high-resolution history of the South American monsoon from last glacial maximum to the Holocene [só resumo de busca]",
-     "url": "https://repositorio.usp.br/item/002804500",
-     "verificado": false
+     "titulo": "Novello et al. 2017, Scientific Reports 7:44267 - A high-resolution history of the South American Monsoon from Last Glacial Maximum to the Holocene [texto completo lido via Europe PMC PMC5345026]",
+     "url": "https://doi.org/10.1038/srep44267",
+     "verificado": true
     },
     {
-     "titulo": "Cruz et al. 2005, Nature - Insolation-driven changes in atmospheric circulation over the past 116,000 years in subtropical Brazil [título de memória; só resumo de busca de resultados correlatos]",
+     "titulo": "Cruz et al. 2009, Nature Geoscience 2:210-214 - Orbitally driven east-west antiphasing of South American precipitation [resumo lido]",
      "url": "https://scholar.xjtu.edu.cn/en/publications/orbitally-driven-east-west-antiphasing-of-south-american-precipit/",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -764,9 +805,9 @@
    "incerteza": "Atribuição ao aquecimento e uma interpretação dos autores.",
    "fontes": [
     {
-     "titulo": "WHOI - A long pollen record from lowland Amazônia: forest and cooling in glacial times [só resumo de busca]",
-     "url": "https://nosamsresearch.whoi.edu/long-pollen-record-lowland-amazonia-forest-and-cooling-glacial-times",
-     "verificado": false
+     "titulo": "Colinvaux, De Oliveira, Moreno, Miller 1996, Science 274:85-88 - A long pollen record from lowland Amazonia: forest and cooling in glacial times [resumo lido via Crossref: >40.000 anos continuos, sem savana no UMG, sem fragmentacao em refugios, resfriamento de 5 a 6 C]",
+     "url": "https://doi.org/10.1126/science.274.5284.85",
+     "verificado": true
     }
    ]
   },
@@ -775,25 +816,25 @@
    "inicio_ap": 8000,
    "fim_ap": 4000,
    "titulo": "Holoceno médio: maior aridez/variabilidade no centro-sul",
-   "descricao": "Contraste leste-oeste: Nordeste mais úmido e Brasil tropical do sul mais seco em fases de alta insolação de verão (Cruz 2005). Em coincidência, queda de sítios no Brasil central e Pantanal ('Archaic Gap'), mas sem prova de seca continua em Lagoa Santa.",
+   "descricao": "Antifase leste-oeste no Holoceno (Cruz et al. 2009): o Nordeste é úmido com baixa insolação de verão e árido com alta, e o resto do Brasil tropical do sul faz o oposto; a fase da insolação no Holoceno médio não foi conferida no texto lido. Em coincidência, queda de sítios no Brasil central e Pantanal ('Archaic Gap'), e Araujo et al. (2025) atribuem o hiato mais a variabilidade do que a aridez contínua.",
    "regiao": "Brasil central, Pantanal, parte da Amazônia",
    "evidencia": "Speleotemas, pólen e frequência de datas arqueológicas.",
-   "incerteza": "Correlação com o hiato arqueológico não é prova de causa; pólen local contradiz seca prolongada.",
+   "incerteza": "Correlação com o hiato arqueológico não é prova de causa; Araujo 2006 apontava seca, Araujo 2025 aponta variabilidade.",
    "fontes": [
     {
-     "titulo": "Cruz et al. 2005, Nature - Insolation-driven changes in atmospheric circulation over the past 116,000 years in subtropical Brazil [título de memória; só resumo de busca de resultados correlatos]",
+     "titulo": "Cruz et al. 2009, Nature Geoscience 2:210-214 - Orbitally driven east-west antiphasing of South American precipitation [resumo lido]",
      "url": "https://scholar.xjtu.edu.cn/en/publications/orbitally-driven-east-west-antiphasing-of-south-american-precipit/",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Revista do MAE/USP - Human occupation and paleoenvironments in South América: expanding the notion of an Archaic Gap [só resumo de busca]",
-     "url": "https://journals.usp.br/revmae/article/view/89707",
-     "verificado": false
+     "titulo": "Araujo, Pilo, Neves, Atui 2006, Rev. Museu de Arqueologia e Etnologia 15-16:3-35 - Human occupation and paleoenvironments in South America: expanding the notion of an Archaic Gap [resumo lido: grandes areas abandonadas ou muito despovoadas no Holoceno medio, seca como causa principal]",
+     "url": "http://revistas.usp.br/revmae/article/view/89707",
+     "verificado": true
     },
     {
-     "titulo": "PMC11790176 - Human-environment interaction during the Holocene in Eastern South América [só resumo de busca]",
+     "titulo": "Araujo, Correa, Perez, Di Gregorio, Okumura 2025, PLoS ONE 20(2):e0315747 - Human-environment interaction during the Holocene in Eastern South America: rapid climate changes and population dynamics [primeiros 100 mil caracteres lidos]",
      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11790176/",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -819,15 +860,15 @@
    "inicio_ap": 4000,
    "fim_ap": 1200,
    "titulo": "Aumento da atividade ENSO no Holoceno tardio",
-   "descricao": "O registro do lago Pallcacocha (Equador) indica mais El Niños moderados a fortes de c. 3.000 até 1.200 AP, com mínimo discutido em 7-4 mil AP, nem sempre presente em outros registros. Hoje El Niño traz seca ao Nordeste e Amazônia oriental.",
+   "descricao": "No registro do lago Laguna Pallcacocha (sul do Equador), que cobre 12.000 anos, eventos de escala 2-8 anos atribuídos a El Niño tornam-se mais frequentes ao longo do Holoceno até c. 1.200 AP e declinam depois, com alternância de fases altas e baixas em escala de c. 2.000 anos; os autores atribuem a tendência à insolação orbital e pedem confirmação por outros registros (Moy 2002). A versão anterior (\"moderados a fortes de c. 3.000 até 1.200 AP\", \"mínimo em 7-4 mil AP\") não está no resumo lido. Hoje El Niño traz seca ao Nordeste e à Amazônia oriental (não conferido aqui).",
    "regiao": "Pacífico tropical; efeitos no Nordeste e Amazônia",
    "evidencia": "Sedimentos lacustres do Equador, corais, speleotemas.",
    "incerteza": "Um registro; correlação com o Brasil é extrapolada; há divergências entre arquivos.",
    "fontes": [
     {
-     "titulo": "Moy et al. 2002, Nature - Variability of El Niño/Southern Oscillation activity at millennial timescales during the Holocene [só resumo de busca]",
-     "url": "https://www.nature.com/articles/nature01194",
-     "verificado": false
+     "titulo": "Moy, Seltzer, Rodbell, Anderson 2002, Nature 420:162-165 - Variability of El Nino/Southern Oscillation activity at millennial timescales during the Holocene epoch [resumo lido via Europe PMC]",
+     "url": "https://doi.org/10.1038/nature01194",
+     "verificado": true
     }
    ]
   },
@@ -842,9 +883,15 @@
    "incerteza": "Muito alta para o Brasil; de memória; não conferido.",
    "fontes": [
     {
-     "titulo": "Apaestegui et al. 2014, Climate of the Past 10 - SASM nos últimos 2 milênios (speleotemas) [só resumo de busca]",
+     "titulo": "Apaestegui et al. 2014, Climate of the Past 10:1967-1981 - Hydroclimate variability of the northwestern Amazon Basin near the Andean foothills of Peru related to the South American Monsoon System during the last 1600 years [resumo lido: caverna Palestina, Peru; monção menos ativa na MCA e mais ativa na LIA]",
      "url": "https://cp.copernicus.org/articles/10/1967/2014/cp-10-1967-2014.pdf",
-     "verificado": false
+     "verificado": true,
+     "nota": "Cobre só os últimos 1.600 anos; não trata do evento de 4,2 ka. Fonte inadequada."
+    },
+    {
+     "titulo": "Novello et al. 2012, GRL - Multidecadal climate variability in Brazil's Nordeste during the last 3000 years [resumo lido: menciona um evento em torno de 2800 BP, não 4,2 ka]",
+     "url": "https://doi.org/10.1029/2012gl053936",
+     "verificado": true
     }
    ]
   },
@@ -852,21 +899,21 @@
    "id": "mca",
    "inicio_ap": 1350,
    "fim_ap": 700,
-   "titulo": "Anomalia Climática Medieval (c. 600-1250 d.C.)",
-   "descricao": "Fase com monção de verão sul-americana enfraquecida: período mais seco em quase toda a América do Sul, exceto Amazônia oriental e Nordeste, segundo speleotemas. Fase seca e quente de c. 600-900 d.C. também descrita. Coincide com o apogeu do Alto Xingu e do Marajoara, o que mostra que seca não implica colapso.",
+   "titulo": "Anomalia Climática Medieval (c. 900-1200 d.C., Apaéstegui 2014)",
+   "descricao": "No registro da caverna Palestina (Peru), a monção de verão sul-americana é menos ativa na MCA e mais ativa na LIA, com efeito maior no norte do continente; o AMO modula a monção em escala de c. 65 anos, sobretudo nos períodos secos. Novello et al. (2012) obtêm para o Nordeste um registro de 3.000 anos com flutuações abruptas da monção. A afirmação anterior de \"quase toda a América do Sul exceto Amazônia oriental e Nordeste\" e o \"apogeu simultâneo do Alto Xingu e do Marajoara\" são inferências nossas, sem fonte lida; seca não implica colapso.",
    "regiao": "América do Sul tropical",
    "evidencia": "Speleotemas dos Andes e do Sudeste do Brasil, AMO.",
-   "incerteza": "Heterogeneidade regional alta; datas da MCA variam por registro.",
+   "incerteza": "Heterogeneidade regional alta; datas da MCA variam por registro (900-1200 d.C. em Apaéstegui).",
    "fontes": [
     {
-     "titulo": "Apaestegui et al. 2014, Climate of the Past 10 - SASM nos últimos 2 milênios (speleotemas) [só resumo de busca]",
+     "titulo": "Apaestegui et al. 2014, Climate of the Past 10:1967-1981 - Hydroclimate variability of the northwestern Amazon Basin near the Andean foothills of Peru related to the South American Monsoon System during the last 1600 years [resumo lido: caverna Palestina, Peru; monção menos ativa na MCA e mais ativa na LIA]",
      "url": "https://cp.copernicus.org/articles/10/1967/2014/cp-10-1967-2014.pdf",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Utida et al. - Multidecadal climate variability in Brazil's Nordeste during the last 3000 years [só resumo de busca]",
+     "titulo": "Novello, Cruz, Karmann, Burns et al. 2012, Geophysical Research Letters (DOI 10.1029/2012gl053936) - Multidecadal climate variability in Brazil's Nordeste during the last 3000 years based on speleothem isotope records [resumo lido via Crossref; a atribuicao 'Utida et al.' do arquivo anterior estava errada]",
      "url": "https://scholar.xjtu.edu.cn/en/publications/multidecadal-climate-variability-in-brazils-nordeste-during-the-l/",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -874,21 +921,21 @@
    "id": "lia",
    "inicio_ap": 450,
    "fim_ap": 100,
-   "titulo": "Pequena Idade do Gelo (c. 1500-1850 d.C.)",
-   "descricao": "Monção reforçada no Sudeste do Brasil e Andes (fase mais úmida e fria), mas no Nordeste condições secas. Sobreposta a catástrofe demográfica pós-1492.",
+   "titulo": "Pequena Idade do Gelo (c. 1400-1850 d.C.)",
+   "descricao": "Monção mais ativa no registro peruano (Apaéstegui 2014), mas seca no Nordeste brasileiro, ao contrário de outros registros de monção do sul tropical (Novello 2012); o Nordeste vive hoje seca sem precedentes nos últimos 3 mil anos, rivalizada só pela LIA (Novello 2012). Sobreposta à catástrofe demográfica pós-1492. \"Reforçada no Sudeste\" não foi conferido.",
    "regiao": "América do Sul tropical",
    "evidencia": "Speleotemas.",
    "incerteza": "Regionalmente discrepante; datas variam.",
    "fontes": [
     {
-     "titulo": "Apaestegui et al. 2014, Climate of the Past 10 - SASM nos últimos 2 milênios (speleotemas) [só resumo de busca]",
+     "titulo": "Apaestegui et al. 2014, Climate of the Past 10:1967-1981 - Hydroclimate variability of the northwestern Amazon Basin near the Andean foothills of Peru related to the South American Monsoon System during the last 1600 years [resumo lido: caverna Palestina, Peru; monção menos ativa na MCA e mais ativa na LIA]",
      "url": "https://cp.copernicus.org/articles/10/1967/2014/cp-10-1967-2014.pdf",
-     "verificado": false
+     "verificado": true
     },
     {
-     "titulo": "Utida et al. - Multidecadal climate variability in Brazil's Nordeste during the last 3000 years [só resumo de busca]",
+     "titulo": "Novello, Cruz, Karmann, Burns et al. 2012, Geophysical Research Letters (DOI 10.1029/2012gl053936) - Multidecadal climate variability in Brazil's Nordeste during the last 3000 years based on speleothem isotope records [resumo lido via Crossref; a atribuicao 'Utida et al.' do arquivo anterior estava errada]",
      "url": "https://scholar.xjtu.edu.cn/en/publications/multidecadal-climate-variability-in-brazils-nordeste-during-the-l/",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -897,15 +944,15 @@
    "inicio_ap": 450,
    "fim_ap": 350,
    "titulo": "Grande Morte das Américas e queda de CO2",
-   "descricao": "Koch et al. (2019) estimam queda de 7-10 ppm de CO2 e resfriamento de 0,15 C globalmente no fim do século XVI e início do XVII, associada ao abandono de terras agrícolas após o colapso demográfico (60 para c. 6 milhões no continente, estimativa). Contestada: peso relativo da depopulação e do forçamento natural.",
+   "descricao": "Koch et al. (2019) partem de 119 estimativas regionais: c. 60,5 milhões de habitantes nas Américas em 1492 (IQR 44,8-78,2), com perda de c. 90% (IQR 87-92%) em um século; c. 55,8 Mha de terra agrícola abandonada (IQR 39,0-78,4) teriam se regenerado, sequestrando 7,4 Pg C, equivalente a 3,5 ppm de CO2; com retroalimentações do ciclo do carbono e uso da terra fora das Américas, cerca de 5 ppm (47-67% do declínio observado de 7-10 ppm no fim do século XVI e início do XVII, que baixou a temperatura global em c. 0,15 C). Ou seja, o abandono explica cerca de metade da queda, não toda. Leitura rival: forçamento natural (vulcanismo, solar); o peso relativo da depopulação segue debatido.",
    "regiao": "Global; Américas",
    "evidencia": "Gelo antártico (CO2), modelos de uso do solo.",
    "incerteza": "Muito alta: população de 1492 e peso causal debatidos.",
    "fontes": [
     {
-     "titulo": "Koch et al. 2019, Quaternary Science Reviews 207 - Earth system impacts of the European arrival and Great Dying [só resumo de busca]",
-     "url": "https://www.ucl.ac.uk/news/2019/feb/great-dying-americas-disturbed-earths-climate",
-     "verificado": false
+     "titulo": "Koch, Brierley, Maslin, Lewis 2019, Quaternary Science Reviews 207:13-36 - Earth system impacts of the European arrival and Great Dying in the Americas after 1492 [resumo lido no repositorio White Rose]",
+     "url": "https://eprints.whiterose.ac.uk/id/eprint/154711/",
+     "verificado": true
     }
    ]
   }
@@ -918,9 +965,9 @@
    "periodo_chegada": "Pré-1500 (a partir de >= 14.000 AP)",
    "numero_estimado": {
     "valor": null,
-    "faixa": "1.693.535 (2022, critério ampliado) e 1.227.642 (autodeclarados por cor/raça, SIDRA); em 1500, 2 a 5 milhões (faixa mais citada, sem contagem)",
+    "faixa": "1.694.836 (2022, quesitos cor/raça mais \"se considera indígena\", SIDRA 9718) e 1.227.642 (só cor/raça, SIDRA 9605/9718); em 1500, 2 a 5 milhões (faixa mais citada, sem contagem)",
     "tipo": "contagem (2022) e estimativa (1500)",
-    "fonte": "IBGE SIDRA 9605 (1.227.642); Censo 2022 total 1.693.535 via resumo de busca; faixa de 1500 em fator_humano.json"
+    "fonte": "IBGE SIDRA 9718 e 9605 (1.227.642 + 467.194 = 1.694.836; lidos pela API); faixa de 1500 em fator_humano.json. O 1.693.535 do arquivo anterior não foi encontrado em nenhuma fonte lida."
    },
    "regioes": [
     "Todo o território; 98% das terras indígenas na Amazônia Legal"
@@ -943,9 +990,9 @@
      "verificado": true
     },
     {
-     "titulo": "IBGE - Os indígenas no Censo 2022 (PDF; texto não extraído; só resumo de busca)",
+     "titulo": "IBGE Educa - Os indigenas no Censo 2022 [PDF lido; material pre-Censo que traz os dados de 2010: 896,9 mil indigenas, 305 etnias, 274 linguas; NAO traz resultados de 2022]",
      "url": "https://educa.ibge.gov.br/images/educa/os-indigenas-no-censo-2022.pdf",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -1017,9 +1064,10 @@
      "verificado": true
     },
     {
-     "titulo": "Heckenberger et al. 2008, Science - Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon [só resumo de busca]",
+     "titulo": "Heckenberger et al. 2008, Science 321:1214-1217 (DOI 10.1126/science.1159769) - Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon [resumo lido via Crossref: aglomerados articulados, urbanismo \"galactico\"]",
      "url": "https://repositorio.museu-goeldi.br/items/dbf9b77e-30a1-468f-8f91-1270fe4d8462/full",
-     "verificado": false
+     "verificado": true,
+     "nota": "Lido apenas o resumo; 19 aldeias e 250 km2 por politica vem da Wikipedia."
     }
    ]
   },
@@ -1045,9 +1093,10 @@
      "verificado": true
     },
     {
-     "titulo": "Heckenberger et al. 2008, Science - Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon [só resumo de busca]",
+     "titulo": "Heckenberger et al. 2008, Science 321:1214-1217 (DOI 10.1126/science.1159769) - Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon [resumo lido via Crossref: aglomerados articulados, urbanismo \"galactico\"]",
      "url": "https://repositorio.museu-goeldi.br/items/dbf9b77e-30a1-468f-8f91-1270fe4d8462/full",
-     "verificado": false
+     "verificado": true,
+     "nota": "Lido apenas o resumo; 19 aldeias e 250 km2 por politica vem da Wikipedia."
     }
    ]
   },
@@ -1086,7 +1135,7 @@
    "periodo_chegada": "c. 1550-1850 (maioria até meados do século XIX)",
    "numero_estimado": {
     "valor": 3900000,
-    "faixa": "c. 3,8-4,0 milhões (resumo de terceiros, não conferido no SlaveVoyages)",
+    "faixa": "c. 3,8-4,0 milhões (resumo de terceiros, não conferido); o total desembarcado no Brasil é 4.864.377 (SlaveVoyages, lido), ou seja, a parcela centro-ocidental de 3,9 milhões de 4,86 milhões é plausível mas a divisão regional não foi lida",
     "tipo": "estimativa",
     "fonte": "SlaveVoyages via resumos: 3,9 milhões dos 5,7 milhões embarcados na África Centro-Ocidental e Santa Helena foram destinados ao Brasil"
    },
@@ -1098,7 +1147,8 @@
     {
      "titulo": "SlaveVoyages (site não devolveu dados legíveis; números via resumos de terceiros)",
      "url": "https://www.slavevoyages.org/",
-     "verificado": false
+     "verificado": false,
+     "nota": "O site é JS e não devolveu dados legíveis ao curl; a API de estimativas (lida em fator_humano.json) dá, para o Brasil, 4.864.377 desembarcados e 5.532.129 embarcados. A fração da África Centro-Ocidental e da África Ocidental não foi lida. Segue false."
     },
     {
      "titulo": "Projeto sociolibero - web/public/data/fator_humano.json (esc-desembarcados-brasil, ind-pop-1500) [arquivo local]",
@@ -1114,7 +1164,7 @@
    "periodo_chegada": "c. 1600-1850, com picos no século XVIII-XIX para a Bahia",
    "numero_estimado": {
     "valor": null,
-    "faixa": "Parte do total de c. 4,5-5,0 milhões de africanos desembarcados no Brasil; parcela de África Ocidental não conferida",
+    "faixa": "Parte de 4.864.377 africanos desembarcados no Brasil (SlaveVoyages, estimativas lidas; ver fator_humano.json); a parcela da África Ocidental não foi lida",
     "tipo": "estimativa",
     "fonte": "fator_humano.json (esc-desembarcados-brasil, faixa 4,5-5,0 milhões)"
    },
@@ -1131,7 +1181,8 @@
     {
      "titulo": "SlaveVoyages (site não devolveu dados legíveis; números via resumos de terceiros)",
      "url": "https://www.slavevoyages.org/",
-     "verificado": false
+     "verificado": false,
+     "nota": "O site é JS e não devolveu dados legíveis ao curl; a API de estimativas (lida em fator_humano.json) dá, para o Brasil, 4.864.377 desembarcados e 5.532.129 embarcados. A fração da África Centro-Ocidental e da África Ocidental não foi lida. Segue false."
     }
    ]
   },
@@ -1142,7 +1193,7 @@
    "periodo_chegada": "1500 em diante; imigração em massa no século XIX e XX",
    "numero_estimado": {
     "valor": 1391898,
-    "faixa": "1.391.898 entradas em 1884-1959 (Wikipedia, que cita IBGE); c. 549 mil em 1820-1903 e c. 1,24 milhão em 1904-1972",
+    "faixa": "1.391.898 entradas em 1884-1959 (Wikipedia, que cita IBGE); c. 549 mil em 1820-1903 e c. 1,24 milhão em 1904-1972; IBGE (tabela lida): 1.145.737 em 1884-1933 (170.621; 155.542; 384.672; 201.252; 233.650 por década)",
     "tipo": "contagem",
     "fonte": "Wikipedia pt - Imigração no Brasil (secundário)"
    },
@@ -1157,9 +1208,9 @@
      "verificado": true
     },
     {
-     "titulo": "IBGE - Brasil: 500 anos de povoamento, imigração por nacionalidade 1884-1933 [403 na leitura; não conferido]",
+     "titulo": "IBGE - Brasil: 500 anos de povoamento, imigracao por nacionalidade 1884-1933 [pagina lida via Wayback Machine; o site ao vivo responde 403]",
      "url": "https://brasil500anos.ibge.gov.br/estatisticas-do-povoamento/imigracao-por-nacionalidade-1884-1933.html",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -1170,7 +1221,7 @@
    "periodo_chegada": "1870s-1930s (pico 1877-1903)",
    "numero_estimado": {
     "valor": 1507695,
-    "faixa": "1.507.695 em 1884-1959 (Wikipedia); c. 1,14 milhão em 1820-1903; outras tabelas do IBGE dão c. 1,41 milhão em 1884-1933 (não conferido)",
+    "faixa": "1.507.695 em 1884-1959 (Wikipedia); c. 1,14 milhão em 1820-1903; IBGE (tabela lida): 1.401.335 em 1884-1933 (510.533; 537.784; 196.521; 86.320; 70.177 por década)",
     "tipo": "contagem",
     "fonte": "Wikipedia pt - Imigração no Brasil (secundário)"
    },
@@ -1185,14 +1236,15 @@
      "verificado": true
     },
     {
-     "titulo": "IBGE - Brasil: 500 anos de povoamento, imigração por nacionalidade 1884-1933 [403 na leitura; não conferido]",
+     "titulo": "IBGE - Brasil: 500 anos de povoamento, imigracao por nacionalidade 1884-1933 [pagina lida via Wayback Machine; o site ao vivo responde 403]",
      "url": "https://brasil500anos.ibge.gov.br/estatisticas-do-povoamento/imigracao-por-nacionalidade-1884-1933.html",
-     "verificado": false
+     "verificado": true
     },
     {
      "titulo": "Museu da Imigração (Memorial do Imigrante), São Paulo [não acessado]",
      "url": "https://museudaimigracao.org.br/",
-     "verificado": false
+     "verificado": false,
+     "nota": "Pagina inicial lida; nao traz serie de imigracao por nacionalidade. Segue false."
     }
    ]
   },
@@ -1203,7 +1255,7 @@
    "periodo_chegada": "1824 (São Leopoldo) em diante",
    "numero_estimado": {
     "valor": 235846,
-    "faixa": "235.846 (1824-1947, resumo de busca) a c. 260 mil (89 mil + 171 mil em 1820-1903 e 1904-1972, Wikipedia)",
+    "faixa": "235.846 (1824-1947, resumo de busca; não localizado na página do InfoEscola) a c. 260 mil (89 mil + 171 mil em 1820-1903 e 1904-1972, Wikipedia); IBGE/Mauch e Vasconcelos 1994 (tabela lida): 250.166 entre 1824 e 1969, com 8.176 em 1824-47 e pico de 75.801 em 1920-29; a tabela 1884-1933 do IBGE dá 154.397 (séries do IBGE divergem)",
     "tipo": "contagem",
     "fonte": "Infoescola (resumo) e Wikipedia pt (secundário)"
    },
@@ -1215,7 +1267,8 @@
     {
      "titulo": "Infoescola - Imigração alema no Brasil (235.846 entre 1824 e 1947) [só resumo de busca]",
      "url": "https://www.infoescola.com/historia/imigracao-alema-no-brasil",
-     "verificado": false
+     "verificado": false,
+     "nota": "Pagina lida: o numero 235.846 nao aparece no texto; a pagina reproduz o grafico do IBGE (1824-1969). Segue false."
     },
     {
      "titulo": "Wikipedia pt - Imigração no Brasil [primeiros 100 mil caracteres lidos; fonte secundária]",
@@ -1231,7 +1284,7 @@
    "periodo_chegada": "c. 1880-1930",
    "numero_estimado": {
     "valor": 717000,
-    "faixa": "c. 212 mil em 1820-1903 e c. 505 mil em 1904-1972 (soma de Wikipedia)",
+    "faixa": "c. 212 mil em 1820-1903 e c. 505 mil em 1904-1972 (soma de Wikipedia: c. 717 mil); IBGE (tabela lida): 587.114 em 1884-1933",
     "tipo": "contagem",
     "fonte": "Wikipedia pt - Imigração no Brasil (secundário)"
    },
@@ -1254,7 +1307,7 @@
    "periodo_chegada": "1869-1914 (e depois)",
    "numero_estimado": {
     "valor": null,
-    "faixa": "8.080 até 1889 (7.030 ao Paraná); mais de 41 mil no Paraná em 1870-1914; total nacional não conferido",
+    "faixa": "Mais de 41 mil no Paraná em 1870-1914 (Oliveira 2010, via Revista NEP, lido); 8.080 até 1889 (7.030 ao Paraná) não localizado na página; total nacional não conferido",
     "tipo": "contagem",
     "fonte": "Resumos de busca de artigos acadêmicos"
    },
@@ -1264,9 +1317,10 @@
    "contribuicao_historica": "Colônias de pequenos agricultores no Paraná.",
    "fontes": [
     {
-     "titulo": "Revista UFPR/NEP e outros - poloneses no Paraná [só resumo de busca]",
+     "titulo": "Revista NEP/UFPR v.4 n.1 (2018) - A politica no Parana com a participacao de imigrantes e descendentes de poloneses [pagina lida: chegada ao Brasil em 1869 e ao Parana em 1871; mais de 41 mil imigrantes no Parana em 1870-1914, segundo Oliveira 2010]",
      "url": "https://revistas.ufpr.br/nep/article/view/60210",
-     "verificado": false
+     "verificado": true,
+     "nota": "O numero 8.080 ate 1889 nao foi localizado na pagina."
     }
    ]
   },
@@ -1277,7 +1331,7 @@
    "periodo_chegada": "1908 (Kasato Maru) a 1960s",
    "numero_estimado": {
     "valor": 242171,
-    "faixa": "242.171 em 1908-1963 (Wikipedia); c. 248 mil em 1904-1972",
+    "faixa": "242.171 em 1908-1963 (Wikipedia); c. 248 mil em 1904-1972; IBGE (tabela lida): 142.457 em 1904-1933",
     "tipo": "contagem",
     "fonte": "Wikipedia pt - Imigração japonesa no Brasil (secundário)"
    },
@@ -1305,7 +1359,7 @@
    "periodo_chegada": "c. 1880-1933",
    "numero_estimado": {
     "valor": 130000,
-    "faixa": "c. 130.000 pelo Porto de Santos em 1884-1933; descendentes de 1 a 10 milhões conforme a fonte (autodeclaração vs. número oficial libanês)",
+    "faixa": "c. 130.000 pelo Porto de Santos em 1884-1933 (Wikipedia); IBGE (tabela lida): 97.914 \"sírios e turcos\" em 1884-1933; descendentes de 1 a 10 milhões conforme a fonte (autodeclaração vs. número oficial libanês)",
     "tipo": "estimativa",
     "fonte": "Wikipedia pt - Imigração árabe no Brasil (secundário)"
    },
@@ -1340,7 +1394,8 @@
     {
      "titulo": "Resumo de busca sobre imigração chinesa e coreana (PUC-SP/Rever e outros) [não verificado; sem fonte aberta lida]",
      "url": "https://www.pucsp.br/rever/rv3_2004/t_shoji.htm",
-     "verificado": false
+     "verificado": false,
+     "nota": "Pagina lida e artigo sobre budismo chines e coreano; a secao de dados de imigracao (1.000 chineses em Minas, 1882) nao foi localizada. Segue false."
     }
    ]
   }
@@ -1348,23 +1403,23 @@
  "diversidade_hoje": {
   "povos_indigenas": {
    "censo_2010": {
-    "populacao": "896.917 (de memória, não conferido)",
+    "populacao": "896.917 (IBGE Educa: \"896,9 mil\")",
     "etnias": 305,
     "linguas": 274,
     "tipo": "contagem",
-    "verificado": false,
-    "nota": "Números amplamente citados; a página da Wikipedia sobre terras indígenas erroneamente os atribui ao Censo 2022."
+    "verificado": true,
+    "nota": "Lido no PDF do IBGE Educa: 896,9 mil indígenas, 305 etnias e 274 línguas em 2010. A página da Wikipedia sobre terras indígenas atribui erroneamente esses números ao Censo 2022. Divergência de definição: 817.963 se contado só por cor/raça."
    },
    "censo_2022": {
-    "populacao_total_criterio_ampliado": 1693535,
+    "populacao_total_criterio_ampliado": 1694836,
     "percentual": "0,83%",
     "populacao_autodeclarada_indigena_por_cor_raca": 1227642,
     "percentual_cor_raca": 0.6,
-    "etnias": "391 (resumo de imprensa que cita o IBGE; não conferido)",
+    "etnias": "391 (IBGE Educa, 03/12/2025, página lida)",
     "linguas": "295 (idem)",
     "tipo": "contagem",
-    "verificado": false,
-    "nota": "O Censo 2022 contou indígenas pelo critério de cor/raça e também moradores de terras indígenas que não se declararam indígenas; o total ampliado (1.693.535) é maior que o autodeclarado por cor/raça (1.227.642, lido no SIDRA). A pergunta sobre povo/etnia e língua foi feita pela primeira vez em 2022 com metodologia diferente de 2010: a comparação 305 a 391 mede em parte mudança de método, não só crescimento. As 391 'etnias' são denominações declaradas, e não todas correspondem a povos distintos."
+    "verificado": true,
+    "nota": "Lidos na API SIDRA 9718: 1.227.642 por cor/raça mais 467.194 que \"se consideram indígenas\" = 1.694.836 (0,83%); o valor 1.693.535 do arquivo anterior não foi localizado em nenhuma fonte e foi corrigido. 391 etnias (Tikúna 74.061, Kokama 64.327, Makuxí 53.446, Guarani Kaiowá 50.034) e 295 línguas (Tikúna 51.978 falantes) lidos no IBGE Educa. Dos 689.532 residentes em terras indígenas, 622.844 são indígenas (600.740 por cor/raça e 22.104 por \"se considera\"). A pergunta sobre etnia e língua teve metodologia diferente da de 2010 (até duas etnias por pessoa): 305 a 391 mede em parte mudança de método, e as 391 denominações declaradas não são todas povos distintos."
    },
    "terras_indigenas": {
     "area_ha": "c. 117,4 milhões (2025, Wikipedia)",
@@ -1381,13 +1436,13 @@
     "informacoes": 60,
     "tipo": "contagem",
     "verificado": false,
-    "nota": "Números do OPI/FUNAI via resumo de busca; o Cimi publica 119. Quase todos na Amazônia; o Avá-Canoeiro (Tocantins/Goiás) é citado como o único fora do bioma. Registro não é confirmação de povo distinto."
+    "nota": "Cimi: 119 povos livres/isolados; Funai: 114 registros, 28 confirmados e 22 povos de recente contato (Portal Amazônia, 02/04/2025, página lida, que cita a Funai). Os números 26 em estudo e 60 com informações não foram lidos, por isso o item segue false. Quase todos na Amazônia; o Avá-Canoeiro é citado como o único fora do bioma. Registro não é confirmação de povo distinto."
    },
    "conservacao_mapbiomas": {
     "resumo": "Resumos de imprensa do MapBiomas indicam perda de vegetação nativa de c. 0,8% a 1% nas TIs em 1985-2021 contra c. 20-21,5% em imóveis privados ou fora de áreas protegidas na Amazônia; TIs com 13% do território e 1,6% do desmatamento em 1990-2020.",
     "tipo": "estimativa",
     "verificado": false,
-    "nota": "PDF do MapBiomas deu 404; números não conferidos na fonte. Correlação não isola efeito de localização, remoteness e fiscalização."
+    "nota": "PDF do MapBiomas segue com 404 em nova tentativa. Uma busca encontrou resumos de imprensa de 2024 com TIs com perda de vegetação nativa inferior a 1% em 39 anos e 13% do território contra 28% de perda em propriedades privadas, valores que diferem dos 0,8% e 20-21,5% do arquivo anterior (outros recortes); nenhum lido na fonte. Correlação não isola efeito de localização, remoteness e fiscalização."
    }
   },
   "linguas": {
@@ -1455,12 +1510,13 @@
       "africana": 19.6,
       "nativo_americana": 11.6
      },
-     "verificado": false
+     "verificado": true,
+     "nota": "Resumo lido via Europe PMC: 51 estudos, 81 populações, médias ponderadas 68,1% europeia, 19,6% africana e 11,6% nativo-americana; as estimativas variam com o marcador e a amostragem."
     },
     "epigen_brasil": {
      "n": 6487,
-     "nota": "Nordeste com c. 50% de ancestralidade africana; Sudeste e Sul acima de 70% europeia; nativo-americana baixa (6 a 8%) e introduzida logo após a conquista; no Sul, mais de 70% europeia",
-     "verificado": false
+     "nota": "Kehdy et al. 2015 (PNAS), resumo lido: 6.487 indivíduos; Nordeste com c. 50% de ancestralidade africana; Sudeste e Sul com mais de 70% europeia; baixa ancestralidade nativo-americana (6-8%) introduzida logo após a conquista. A URL PMC5430616 do arquivo anterior pertence a outro artigo e foi trocada pela PMC4507185.",
+     "verificado": true
     },
     "ressalva": "Ancestralidade genética (proporções médias de marcadores, dependem do painel e da referência) não equivale a categoria social: dentro de uma mesma cor/raça há enorme variação individual e regional (ex.: pardos do Sul 44,4% africana vs. pardos do Norte 68,6% europeia em Pena 2011). A miscigenação foi, em boa parte, assimétrica e frequentemente coercitiva (de memória: linhagens maternas nativas e africanas e paternas europeias predominam em estudos de ADN mitocondrial e cromossomo Y, não conferido aqui)."
    }
@@ -1494,22 +1550,24 @@
    {
     "titulo": "Jornal Opção - Brasil reconhece 391 etnias e 295 línguas indígenas, diz IBGE [403 na leitura; só resumo de busca]",
     "url": "https://www.jornalopcao.com.br/ultimas-noticias/brasil-reconhece-391-etnias-e-295-linguas-indigenas-diz-ibge-759270/",
-    "verificado": false
+    "verificado": false,
+    "nota": "Pagina original nao relida; as cifras 391 etnias e 295 linguas foram confirmadas em IBGE Educa (03/12/2025)."
    },
    {
-    "titulo": "IBGE - Os indígenas no Censo 2022 (PDF; texto não extraído; só resumo de busca)",
+    "titulo": "IBGE Educa - Os indigenas no Censo 2022 [PDF lido; material pre-Censo que traz os dados de 2010: 896,9 mil indigenas, 305 etnias, 274 linguas; NAO traz resultados de 2022]",
     "url": "https://educa.ibge.gov.br/images/educa/os-indigenas-no-censo-2022.pdf",
-    "verificado": false
+    "verificado": true
    },
    {
     "titulo": "OPI / FUNAI - povos indígenas isolados: 114 registros, 28 confirmados [só resumo de busca]",
     "url": "https://minorityrights.org/communities/indigenous-peoples-in-isolation-and-initial-contact-of-brazil/",
-    "verificado": false
+    "verificado": false,
+    "nota": "Pagina devolveu 403; os numeros 114/28 foram lidos em Portal Amazonia (imprensa que cita a Funai). 26 em estudo e 60 com informacoes nao foram lidos."
    },
    {
-    "titulo": "Portal Amazônia - Brasil tem 119 povos indígenas vivendo isolados, aponta Cimi [só resumo de busca]",
+    "titulo": "Portal Amazonia (02/04/2025) - Brasil tem 119 povos indigenas vivendo isolados, aponta publicacao do Cimi [pagina lida: Cimi 119; Funai 114 registros, 28 confirmados, 22 povos de recente contato]",
     "url": "https://portalamazonia.com/amazonia/povos-indigenas-isolados-cimi/",
-    "verificado": false
+    "verificado": true
    },
    {
     "titulo": "MapBiomas - Fatos sobre o papel das Terras Indígenas [PDF 404 na leitura; só resumos de imprensa]",
@@ -1522,14 +1580,14 @@
     "verificado": true
    },
    {
-    "titulo": "Souza et al. 2019 - scoping review da ancestralidade genética da população brasileira (PMC6905439) [só resumo de busca]",
+    "titulo": "Souza et al. 2019, Genetics and Molecular Biology (DOI 10.1590/1678-4685-gmb-2018-0076) - A systematic scoping review of the genetic ancestry of the Brazilian population [resumo lido via Europe PMC: 51 estudos, 81 populacoes; 68,1% europeia, 19,6% africana, 11,6% nativo-americana]",
     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6905439/",
-    "verificado": false
+    "verificado": true
    },
    {
-    "titulo": "Kehdy et al. 2015 / EPIGEN Brasil - Genome-wide analysis in Brazilians (PMC5430616) [só resumo de busca]",
-    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5430616/",
-    "verificado": false
+    "titulo": "Kehdy et al. 2015, PNAS 112:8696-8701 - Origin and dynamics of admixture in Brazilians and its effect on the pattern of deleterious mutations (EPIGEN Brasil) [resumo lido via Europe PMC PMC4507185; o PMC5430616 do arquivo anterior e outro artigo (Mychaleckyj 2017)]",
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4507185/",
+    "verificado": true
    }
   ]
  },

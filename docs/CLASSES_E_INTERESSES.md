@@ -22,27 +22,27 @@
 | id | grupo | base material | linhas ganhou/perdeu (lidas/total) |
 |---|---|---|---|
 | `escravizados-libertos-negros` | Escravizados, libertos e populações negras | Trabalho cativo até 1888; depois trabalho livre sem terra nem capital inicial (economia_historica.json, classe… | 3/3 |
-| `povos-indigenas` | Povos indígenas | Territórios e economia própria; sucessivamente alvo de escambo, cativeiro, aldeamento e tutela (economia_histo… | 1/2 |
+| `povos-indigenas` | Povos indígenas | Territórios e economia própria; sucessivamente alvo de escambo, cativeiro, aldeamento e tutela (economia_histo… | 2/2 |
 | `camponeses-posseiros` | Camponeses e posseiros | Lavradores, agregados e trabalhadores rurais sem título, em estrutura de terra concentrada (economia_historica… | 3/3 |
-| `oligarquia-agraria-coroneis` | Oligarquia agrária e coronéis | Propriedade da terra e controle de trabalho cativo e depois dependente; mediação entre o eleitor local e o gov… | 2/3 |
+| `oligarquia-agraria-coroneis` | Oligarquia agrária e coronéis | Propriedade da terra e controle de trabalho cativo e depois dependente; mediação entre o eleitor local e o gov… | 3/3 |
 | `burguesia-mercantil-financeira` | Burguesia mercantil e financeira | Comércio de exportação e importação, crédito, bancos e investimento; renda de juros e de intermediação. | 2/2 |
-| `burguesia-industrial` | Burguesia industrial | Fábricas, proteção tarifária, crédito subsidiado e demanda interna; dependência de câmbio e de custo do trabal… | 1/2 |
+| `burguesia-industrial` | Burguesia industrial | Fábricas, proteção tarifária, crédito subsidiado e demanda interna; dependência de câmbio e de custo do trabal… | 2/2 |
 | `classe-media-urbana-funcionalismo` | Classe média urbana, profissionais e funcionalismo | Profissões liberais, bacharéis, servidores e aposentados; renda ligada a escolaridade e emprego público. | 1/3 |
 | `operariado-urbano` | Operariado urbano formal e sindicatos | Emprego industrial e de serviços formais; sindicatos oficiais e independentes; CLT (1943) e Justiça do Trabalh… | 3/3 |
-| `informais-e-precarizados` | Trabalhadores informais, autônomos e domésticos | Renda fora do contrato formal; domésticas e rurais fora da CLT original; informalidade crescente após os anos… | 1/2 |
+| `informais-e-precarizados` | Trabalhadores informais, autônomos e domésticos | Renda fora do contrato formal; domésticas e rurais fora da CLT original; informalidade crescente após os anos… | 2/2 |
 | `militares` | Militares (corporação) | Salário e carreira estatais, orçamento de defesa e autonomia institucional; histórico de intervenção política. | 3/3 |
 | `igreja-catolica` | Igreja Católica | Rede de paróquias, escolas e obras sociais; padroado no Império; CEBs de base popular nos anos 1970-80. | 1/2 |
 | `igrejas-evangelicas` | Igrejas evangélicas | Redes de templos, mídia própria e rendas de contribuição; crescimento populacional de 21,6% (2010) para 26,9%… | 1/2 |
 | `mulheres` | Mulheres | Trabalho produtivo e de cuidado; renda menor em média (economia_historica.json); direitos políticos ampliados… | 2/2 |
 | `imigrantes` | Imigrantes | Mão de obra de café e indústria; 3,52 milhões entre 1890 e 1929 segundo Wikipédia (repositório); subsídio paul… | 1/1 |
-| `oligarquias-estaduais-nordeste` | Elites políticas estaduais do Nordeste | Propriedade rural, redes de clientela, empregos públicos e transferências federais; peso do Nordeste no Senado… | 1/2 |
+| `oligarquias-estaduais-nordeste` | Elites políticas estaduais do Nordeste | Propriedade rural, redes de clientela, empregos públicos e transferências federais; peso do Nordeste no Senado… | 2/2 |
 | `elites-sudeste` | Elites agrárias, industriais e financeiras do Sudeste | Café (SP, RJ, MG), indústria e finanças paulistas e cariocas; hegemonia do 'café com leite' (economia_historic… | 1/2 |
-| `agro-agronegocio` | Agro e agronegócio | Exportação de grãos e carnes, crédito rural, terra e tecnologia; boom de commodities 2000s. | 0/2 |
+| `agro-agronegocio` | Agro e agronegócio | Exportação de grãos e carnes, crédito rural, terra e tecnologia; boom de commodities 2000s. | 1/2 |
 | `trabalhadores-de-aplicativos` | Trabalhadores de aplicativos e plataformas | Renda por tarefa via plataformas digitais; sem vínculo CLT; peso crescente na informalidade pós-2015 (não veri… | 1/1 |
-| `idosos-aposentados` | Eleitorado idoso e aposentados | Renda de previdência e de benefícios; peso crescente no eleitorado. | 1/2 |
-| `jovens-16-17` | Jovens eleitores (16 e 17 anos) e coortes novas | Estudantes e primeiros empregos; voto facultativo aos 16 desde 1988 (segundo eleicoes_timeline.json). | 1/2 |
+| `idosos-aposentados` | Eleitorado idoso e aposentados | Renda de previdência e de benefícios; peso crescente no eleitorado. | 2/2 |
+| `jovens-16-17` | Jovens eleitores (16 e 17 anos) e coortes novas | Estudantes e primeiros empregos; voto facultativo aos 16 desde 1988 (segundo eleicoes_timeline.json). | 2/2 |
 | `baixa-renda-transferencias` | Baixa renda beneficiária de transferências (subproletariado) | Renda de trabalho precário somada a Bolsa Família (11,1 milhões de famílias em 2006 e 12,7 milhões em 2010, se… | 1/1 |
-| `elite-politica-profissional` | Elite política profissional (parlamentares e direções partidárias) | Mandatos, controle de listas e acesso a fundo público e a emendas. | 2/3 |
+| `elite-politica-profissional` | Elite política profissional (parlamentares e direções partidárias) | Mandatos, controle de listas e acesso a fundo público e a emendas. | 3/3 |
 | `burocracia-juridica-controle` | Burocracia jurídica e de controle (Judiciário, MP, TCU, Justiça Eleitoral) | Carreiras públicas e competência normativa; Justiça Eleitoral criada em 1932. | 2/2 |
 
 Os interesses por tema, os aliados e a leitura contrária de cada grupo estão no JSON.
@@ -51,14 +51,14 @@ Os interesses por tema, os aliados e a leitura contrária de cada grupo estão n
 
 | teoria | autor | ano | fonte lida |
 |---|---|---|---|
-| `marx-engels-classe-estado` | Karl Marx e Friedrich Engels | 1848-1890 | não |
+| `marx-engels-classe-estado` | Karl Marx e Friedrich Engels | 1848-1890 | sim (resumo ou texto lido) |
 | `weber-classe-estamento-partido` | Max Weber | 1922 (póstumo) | não |
 | `gramsci-hegemonia` | Antonio Gramsci | 1929-1935 (Cadernos do Cárcere) | sim |
 | `olson-acao-coletiva` | Mancur Olson | 1965 | sim |
 | `przeworski-democracia-capitalismo` | Adam Przeworski | 1985; 1991; 2000 | sim |
-| `acemoglu-robinson-sufragio` | Daron Acemoglu e James Robinson | 2000 (QJE); 2006 (livro, não lido) | não |
-| `boix-democracia-redistribuicao` | Carles Boix | 2003 | não |
-| `meltzer-richard` | Allan Meltzer e Scott Richard | 1981 | não |
+| `acemoglu-robinson-sufragio` | Daron Acemoglu e James Robinson | 2000 (QJE); 2006 (livro, não lido) | sim (resumo ou texto lido) |
+| `boix-democracia-redistribuicao` | Carles Boix | 2003 | sim (resumo ou texto lido) |
+| `meltzer-richard` | Allan Meltzer e Scott Richard | 1981 | sim (resumo ou texto lido) |
 | `lipset-modernizacao` | Seymour M. Lipset | 1959 | sim |
 | `moore-origens-sociais` | Barrington Moore Jr. | 1966 | sim |
 | `leal-coronelismo` | Victor Nunes Leal | 1948 (tese) / 1949 (livro) | sim |
@@ -84,7 +84,7 @@ Marx e Engels remetem a `marx_capitalismo.json` (textos t01, t02, t15, t16, t26,
 | `ai2-bipartidarismo-1965` | 1965 | Partidos: de múltiplos para 2; STF: 11 para 16; vigência até 15/03/1967. (contagem) | lido |
 | `cassacoes-e-inelegibilidades-1964` | 1964 | Cerca de 3.535 atos punitivos até outubro de 1965 (Wikipédia); 173 deputados federais cassados de 1964 a 1977 (resumo de busca, não verificado). (contagem) | lido |
 | `lei-falcao-1976` | 1976 | Lei 6.339/76; vigência de 1976 a 1984. (contagem) | lido |
-| `pacote-de-abril-1977` | 1977 | 13/04/1977; quórum de emenda de 2/3 para maioria absoluta (verbete; eleicoes_timeline.json diz 'maioria simples'); senadores indiretos em 1978: 22, segundo resumo de busca (não verificado). (contagem) | lido |
+| `pacote-de-abril-1977` | 1977 | 13/04/1977; quórum de emenda de 2/3 para maioria absoluta (verbete; eleicoes_timeline.json diz 'maioria simples'); na renovação de 2/3 do Senado em 1978, uma das duas vagas de cada estado renovado (22 vagas) por eleição indireta, e a ARENA levou 21 (EC 8, art. 41 §2, lida no Planalto; Wikipédia). (contagem) | lido |
 | `emenda-dante-de-oliveira-1984` | 1984 | 298 sim, 65 não, 3 abstenções e 113 ausentes; 320 necessários (2/3 de 480). (contagem) | lido |
 | `reeleicao-1997` | 1997 | R$ 200 mil em dinheiro, segundo gravações de dois deputados publicadas pela Folha em 13/05/1997 (alegação); os dois renunciaram em 21/05/1997; Senado aprovou em 2º turno em 04/06/1997; Câmara em 28/01/1997 por 336 x 17 x 6 (resumo de busca). (estimativa) | lido |
 | `financiamento-empresarial-ate-2015` | 2015 | Em 2014, empresas doaram cerca de R$ 3 bi (aproximadamente 80% das doações) e pessoas físicas R$ 552,5 mi; doações do 1º turno de 2016 caem 65% (de R$ 7,2 bi em 2012 para R$ 2,5 bi); autofinanciamento sobe de 15,9% para 47,2%. (contagem) | lido |
@@ -145,11 +145,11 @@ Os sinais precoces (todos mensuráveis com dados públicos do TSE ou do Congress
 ## Limites
 
 - Este arquivo é uma hipótese de leitura, não um modelo: não há estimativa causal do efeito de nenhuma regra sobre classes, partidos ou resultados.
-- Fontes oficiais (Planalto, TSE, Câmara, Senado, STF) em geral não foram lidas: a maior parte é secundária (Wikipédia, jornais, artigos), assinalada em cada campo; o que veio de resumo de busca está com verificado=false.
+- Revisão de 07/10/2026: as regras de CF/88 (arts. 231-232), Decreto 21.076/1932, Constituição de 1934 (art. 23), CLT (art. 7º), EC 8/1977, EC 97/2017 e a ADI 4650 foram lidas nas fontes oficiais (Planalto, STF); a maior parte do restante segue secundária (Wikipédia, jornais, artigos), assinalada em cada campo, e o que veio de resumo de busca está com verificado=false.
 - Interesses de classe são hipóteses teóricas do tipo 'o que tenderia a preferir dada a base material'; não são preferências medidas, nem se aplicam a indivíduos.
 - Classes e grupos são construções analíticas; as 23 linhas se sobrepõem (um evangélico pode ser informal, mulher e do Nordeste).
 - A matriz regra x classe tem 'ganha', 'perde' e 'ambiguo' como julgamento qualitativo, sem peso, sem soma e sem medida de intensidade; não se deve contar células.
-- Não foram lidos Weber, Carvalho, Nobre, Boix (tese), Meltzer e Richard (resumo) e Acemoglu e Robinson (PDF); anos e ideias vêm de memória ou de resumo.
+- Marx e Engels (Manifesto, carta a Bloch), Acemoglu e Robinson (resumo do QJE), Boix (resumo da CUP) e Meltzer e Richard (abstract do JPE) foram lidos nesta revisão; não foram lidos Weber (obra e ano de 1922 não confirmados), Carvalho e Nobre (só referência bibliográfica confirmada), e o PDF de Acemoglu e Robinson e a tese de Boix; ideias desses vêm de memória ou de resumo.
 - Evidência comparada internacional foi pesquisada só para SNTV, voto aos 16, voto obrigatório e lista fechada ou aberta; as demais propostas estão marcadas como não pesquisadas.
 - Números de tramitação (PLP 112/2021, PEC do fim da reeleição) refletem as fontes lidas e podem ter mudado até 07/10/2026; não foi aberta a página da Câmara ou do Senado.
 - A cadeia de Markov do repositório não modela nenhuma destas regras; os trechos 'mecanismo_na_cadeia' e os ids de aneis e decisoes são mapeamentos por hipótese, não efeitos calculados.
@@ -158,8 +158,10 @@ Os sinais precoces (todos mensuráveis com dados públicos do TSE ou do Congress
 
 ## Não verificado nesta coleta (resumo)
 
-- Decisões cujo custo principal não foi lido: nenhuma (os números centrais foram lidos; os adicionais, como 22 senadores indiretos, 173 deputados cassados, 336 x 17 x 6 na reeleição, analfabetismo de 82,6% em 1890 e R$ 16,5 bi em 2022, ficaram em resumo de busca e estão marcados no texto).
-- Fontes oficiais (Planalto, TSE, Câmara, Senado, STF): nenhuma foi aberta; tudo é secundário.
-- Teorias com fonte não lida: marx-engels-classe-estado, weber-classe-estamento-partido, acemoglu-robinson-sufragio, boix-democracia-redistribuicao, meltzer-richard, carvalho-cidadania, nobre-imobilismo.
+- Decisões cujo custo principal não foi lido: nenhuma (os números centrais foram lidos; os adicionais, como 173 deputados cassados, 336 x 17 x 6 na reeleição, analfabetismo de 82,6% em 1890 e R$ 16,5 bi em 2022, ficaram em resumo de busca e estão marcados no texto). Os 22 senadores indiretos de 1978 foram confirmados na EC 8/1977.
+- Fontes oficiais lidas nesta revisão: Planalto (CF/88, Decreto 21.076, Constituição de 1934, CLT, EC 8/1977, EC 97/2017, AI-1) e STF (ADI 4650). TSE, Câmara e Senado seguem sem leitura direta.
+- Itens que continuam `false` por não terem fonte lida: Marcha da Família e cassações do AI-1 (só art. 10 lido), reforma administrativa (hipótese do modelo), CEBs (14 milhões e 1,8 milhão, fonte original de Pierucci e Prandi não lida), 32 constituintes evangélicos, elites agrárias em 1930 e Frente Parlamentar da Agropecuária (62/19/19; "120 a 200 votos").
+- Correções desta revisão: eleitores de 16 e 17 anos em 2024 são 1.835.781 (e não 1.836.081); os 20,4% de idosos vêm do IHU-Unisinos com dados do TSE até março de 2022; na EC 97 o percentual medido na eleição vale para a legislatura seguinte.
+- Teorias com fonte não lida: weber-classe-estamento-partido, carvalho-cidadania, nobre-imobilismo.
 - Itens do futuro com evidência comparada não pesquisada: novo-codigo-eleitoral-plp-112-2021, unificacao-das-eleicoes, voto-impresso, fundo-eleitoral-e-financiamento, ia-e-deepfakes-em-campanha, plataformas-digitais-e-desinformacao, seguranca-da-urna-e-auditoria.
 
