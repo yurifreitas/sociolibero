@@ -28,6 +28,8 @@ const PAGE_REFS: Partial<Record<PageKey, Cfg>> = {
   clima: { categories: ['clima-risco'], baseLinks: ['clima', 'clima-valor'] },
   potenciais: { categories: [], baseLinks: ['potenciais-brasil'] },
   pilares: { categories: [], baseLinks: ['pilares-pensamento'] },
+  marx: { categories: [], baseLinks: ['marx-capitalismo'] },
+  violencia: { categories: [], baseLinks: ['pensadores-violencia', 'fator-humano'] },
 }
 
 const authors = (a: Reference['autores']) => (Array.isArray(a) ? a.join('; ') : (a ?? ''))

@@ -3,8 +3,8 @@
 .shead { display: flex; justify-content: space-between; align-items: flex-start; gap: var(--space-3); flex-wrap: wrap; }
 .h3 { margin: 0; font-size: var(--fs-20); letter-spacing: -.015em; }
 .h4 { margin: 0 0 var(--space-2); font-size: var(--fs-14); font-weight: 600; }
-.sub { margin: var(--space-1) 0 0; font-size: var(--fs-13); color: var(--text-muted); max-width: 70ch; }
-.text { margin: 0; font-size: var(--fs-14); line-height: 1.6; color: var(--text-muted); max-width: 78ch; }
+.sub { margin: var(--space-1) 0 0; font-size: var(--fs-13); color: var(--text-muted); max-width: none; }
+.text { margin: 0; font-size: var(--fs-14); line-height: 1.6; color: var(--text-muted); max-width: none; }
 .text strong { color: var(--text); }
 .small { margin: 0; font-size: var(--fs-12); color: var(--text-subtle); line-height: 1.5; }
 .lbl { margin: 0; font-size: var(--fs-11); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--text-subtle); }

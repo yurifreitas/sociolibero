@@ -12,6 +12,8 @@ import { usePilares } from '@/features/conhecimento/hooks'
 import { GRUPOS, grupoDe } from '@/features/conhecimento/model'
 import type { Pensador, Pilares } from '@/features/conhecimento/schemas'
 import { useDecisoes } from '@/features/data/hooks'
+import { useMarx } from '@/features/marx/hooks'
+import { useViolencia } from '@/features/violencia/hooks'
 import { useUrlState } from '@/lib/useUrlState'
 import k from './know.module.css'
 import styles from './PilaresPage.module.css'
@@ -36,7 +38,9 @@ function Obras({ p }: { p: Pensador }) {
   )
 }
 
-function ThinkerCard({ p, decisoesOk }: { p: Pensador; decisoesOk: Set<string> }) {
+type Cross = { viol: { id: string; nome: string }[]; marx: { id: string; nome: string }[] }
+
+function ThinkerCard({ p, decisoesOk, cross }: { p: Pensador; decisoesOk: Set<string>; cross?: Cross }) {
   const lig = p.ligacoes
   const casos = p.casos_e_evidencias ?? []
   return (
@@ -65,6 +69,12 @@ function ThinkerCard({ p, decisoesOk }: { p: Pensador; decisoesOk: Set<string> }
         {p.criticas && <p className={k.text}><b>Críticas e limites.</b> {p.criticas}</p>}
         {p.relevancia_brasil && <p className={k.text}><b>Relevância para o Brasil.</b> {p.relevancia_brasil}</p>}
       </details>
+      {cross && (cross.viol.length > 0 || cross.marx.length > 0) && (
+        <ul className={k.links} aria-label="Mesmo autor em outras páginas">
+          {cross.viol.map((x) => <li key={`v${x.id}`}><Link to={`/violencia?p=${x.id}`}>em Pensadores da violência: {x.nome}</Link></li>)}
+          {cross.marx.map((x) => <li key={`m${x.id}`}><Link to={`/marx?aba=pensadores&i=${x.id}`}>em Marx e o capitalismo: {x.nome}</Link></li>)}
+        </ul>
+      )}
       {lig && ((lig.decisoes?.length ?? 0) > 0 || (lig.potencias?.length ?? 0) > 0 || (lig.ciclos?.length ?? 0) > 0 || (lig.leis?.length ?? 0) > 0) && (
         <ul className={k.links} aria-label="Ligações com o resto do projeto">
           {lig.decisoes?.map((id) => <li key={`d${id}`}>{decisoesOk.has(id) ? <Link to={`/decisoes?sel=${id}`}>decisão: {id}</Link> : <span className={k.tagc}>decisão: {id}</span>}</li>)}
@@ -86,6 +96,17 @@ function Content({ d }: { d: Pilares }) {
   const pilarNome = useMemo(() => new Map(d.pilares.map((p) => [p.id, p.nome])), [d.pilares])
   const decQ = useDecisoes('decisoes.json')
   const decisoes = decQ.data?.decisoes ?? []
+  const violQ = useViolencia(true)
+  const marxQ = useMarx(true)
+  const cross = useMemo(() => {
+    const m = new Map<string, Cross>()
+    const get = (id: string) => m.get(id) ?? m.set(id, { viol: [], marx: [] }).get(id)!
+    for (const v of violQ.data?.pensadores ?? []) {
+      for (const pid of new Set([v.id, ...(v.ligacoes?.pilares ?? [])])) get(pid).viol.push({ id: v.id, nome: v.nome })
+    }
+    for (const x of marxQ.data?.pensadores ?? []) if (x.id_no_projeto_pilares_pensamento) get(x.id_no_projeto_pilares_pensamento).marx.push({ id: x.id, nome: x.nome })
+    return m
+  }, [violQ.data, marxQ.data])
   const decisoesOk = useMemo(() => new Set(decisoes.map((x) => x.id)), [decisoes])
   const porProposta = useMemo(() => {
     const m = new Map<string, string[]>()
@@ -144,7 +165,7 @@ function Content({ d }: { d: Pilares }) {
               {lista.length} de {d.pensadores.length} pensadores · {ver} de {obras.length} obras com selo “verificado”; o restante vem de resumo ou memória (veja o selo em cada obra).
             </p>
             {lista.length === 0 ? <p className={k.none}>Nenhum pensador corresponde à busca.</p> : (
-              <div className={k.grid}>{lista.map((p) => <ThinkerCard key={p.id} p={p} decisoesOk={decisoesOk} />)}</div>
+              <div className={k.grid}>{lista.map((p) => <ThinkerCard key={p.id} p={p} decisoesOk={decisoesOk} cross={cross.get(p.id)} />)}</div>
             )}
           </div>
         )}

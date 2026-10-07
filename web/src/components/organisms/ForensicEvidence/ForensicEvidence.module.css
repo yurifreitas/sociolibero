@@ -18,4 +18,4 @@
 .flag .value { color: var(--warn-text); background: var(--warn-soft); padding: 0 6px; border-radius: 4px; }
 .test details { font-size: var(--fs-12); color: var(--text-muted); }
 .test summary { cursor: pointer; min-height: 28px; display: flex; align-items: center; }
-.test details p { margin-top: var(--space-1); max-width: 70ch; }
+.test details p { margin-top: var(--space-1); max-width: none; }

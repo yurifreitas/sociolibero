@@ -2,6 +2,6 @@
 .notice::before { content: ''; position: absolute; left: 0; top: 12px; bottom: 12px; width: 3px; border-radius: 0 3px 3px 0; background: var(--tone); }
 .icon { flex: none; margin-top: 2px; color: var(--tone); }
 .title { display: block; margin-bottom: 2px; color: var(--text); }
-.body { color: var(--text-muted); max-width: 75ch; }
+.body { color: var(--text-muted); max-width: none; }
 .warn { --tone: var(--warn); }
 .danger { --tone: var(--neg); }

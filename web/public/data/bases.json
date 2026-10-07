@@ -1,15 +1,15 @@
 {
- "gerado_em": "2026-10-07T03:42:00.712Z",
+ "gerado_em": "2026-10-07T13:04:50.480Z",
  "resumo": {
-  "total": 31,
+  "total": 33,
   "por_status": {
    "oficial": 2,
    "preliminar": 1,
-   "parcial": 16,
+   "parcial": 18,
    "derivado": 7,
    "julgamento": 5
   },
-  "atencao": 29
+  "atencao": 31
  },
  "paginas": {
   "home": [
@@ -93,6 +93,18 @@
    "decisoes",
    "pilares-pensamento"
   ],
+  "marx": [
+   "modelo-macro",
+   "decisoes",
+   "pilares-pensamento",
+   "marx-capitalismo"
+  ],
+  "violencia": [
+   "trans-arandu",
+   "fator-humano",
+   "pilares-pensamento",
+   "pensadores-violencia"
+  ],
   "forense": [
    "tse-2022",
    "tse-2026",
@@ -158,7 +170,9 @@
    "clima-valor",
    "clima-rs",
    "pessimismo",
-   "visoes-pessimistas"
+   "visoes-pessimistas",
+   "marx-capitalismo",
+   "pensadores-violencia"
   ],
   "referencias": [
    "referencias"
@@ -573,7 +587,8 @@
     "mapa",
     "gente",
     "metodo",
-    "antes"
+    "antes",
+    "violencia"
    ],
    "nota": "Os números vêm de um banco local; conferimos totais com fontes públicas, mas isto não substitui a leitura da fonte primária.",
    "id": "trans-arandu",
@@ -667,7 +682,8 @@
    ],
    "paginas": [
     "gente",
-    "metodo"
+    "metodo",
+    "violencia"
    ],
    "nota": "8 indicadores confrontados com agregados derivados do banco do projeto Arandu/trans e com territorios.json: 3 corroboram, 3 aproximados, 2 divergem (por denominador/definição). Proveniência indireta: ver docs/METHODS.md seção 9.",
    "id": "fator-humano",
@@ -971,7 +987,8 @@
     "futuro",
     "pessimismo",
     "quebras",
-    "corrupcao"
+    "corrupcao",
+    "marx"
    ],
    "nota": null,
    "id": "modelo-macro",
@@ -1020,7 +1037,8 @@
     "metodo",
     "potenciais",
     "pilares",
-    "corrupcao"
+    "corrupcao",
+    "marx"
    ],
    "nota": null,
    "id": "decisoes",
@@ -1458,7 +1476,9 @@
    ],
    "paginas": [
     "pilares",
-    "metodo"
+    "metodo",
+    "marx",
+    "violencia"
    ],
    "nota": null,
    "id": "pilares-pensamento",
@@ -2139,6 +2159,184 @@
    "chip": {
     "rotulo": "Visões pessimistas",
     "detalhe": "41/114 lidos"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "texto",
+   "fonte": {
+    "nome": "Marx e Engels (domínio público) em marxists.org e no espelho de terceiros MEW/Zeno; demais autores resumidos de memória",
+    "url": "https://www.marxists.org/"
+   },
+   "extraido_em": "2026-10-07",
+   "hashes": [],
+   "cobertura": "66 trechos · 10 teses · 9 contra-argumentos · 17 mal-entendidos · 15 definições · 38 autores",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "66 de 66 trechos conferidos palavra por palavra na URL citada (atesta o trecho, não a edição crítica)"
+    },
+    {
+     "ok": null,
+     "texto": "52 trechos lidos em espelho de terceiros (MEW/Zeno): conferir com a edição impressa antes de citar; 22 trazem página do MEW de memória, não conferida"
+    },
+    {
+     "ok": null,
+     "texto": "38 autores resumidos de memória: só a existência da obra foi conferida em página aberta"
+    },
+    {
+     "ok": true,
+     "texto": "Ids de trechos, decisões, pilares e anéis citados foram validados por script"
+    }
+   ],
+   "limites": [
+    "A tese “o capitalismo não é um sistema econômico implementável” não está em Marx nos trechos conferidos: é inferência de Polanyi e outros.",
+    "Traduções para o português são do agente e não foram revisadas.",
+    "A frase de Polanyi, o relato de Engels (“eu não sou marxista”) e as páginas do MEW não foram conferidos; “tudo que é sólido desmancha no ar” não é literal em alemão.",
+    "Textos alemães de O Capital (livros I e III), da Contribuição, da Crítica de Gotha, dos Grundrisse (um caderno), da carta de 1877 e do Anti-Dühring foram lidos no espelho \"read.19491007.xyz\" de MEW/Zeno, não em edição impressa nem em MEGA; a fidelidade ao Dietz (MEW) não foi cotejada, e a permanência do espelho é incerta.",
+    "A carta de 1877 foi lida em tradução alemã de MEW 19; o manuscrito francês não foi encontrado em fonte aberta nesta pesquisa. As cartas a Zasulich (resposta e rascunho 1) foram lidas em francês na MIA (transcrição de Rubel).",
+    "Edição francesa de O Capital (1872-75, trad. Roy): lida na transcrição da MIA; a revisão de Marx não foi cotejada com o impresso."
+   ],
+   "links": [
+    {
+     "titulo": "Das Kapital, Bd. I",
+     "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-741.html",
+     "verificado": true,
+     "n": 10
+    },
+    {
+     "titulo": "Das Kapital, Bd. I",
+     "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-049.html",
+     "verificado": true,
+     "n": 6
+    },
+    {
+     "titulo": "Zur Kritik der Politischen Ökonomie (Vorwort)",
+     "url": "https://read.19491007.xyz/docs/mew-zeno/13/ME13-007.html",
+     "verificado": true,
+     "n": 4
+    },
+    {
+     "titulo": "Das Kapital, Bd. I",
+     "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-161.html",
+     "verificado": true,
+     "n": 4
+    },
+    {
+     "titulo": "Kritik des Gothaer Programms (Randglossen)",
+     "url": "https://read.19491007.xyz/docs/mew-zeno/19/ME19-015.html",
+     "verificado": true,
+     "n": 4
+    },
+    {
+     "titulo": "Das Kapital, Bd. I",
+     "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-640.html",
+     "verificado": true,
+     "n": 3
+    }
+   ],
+   "arquivos": [
+    "marx_capitalismo.json"
+   ],
+   "paginas": [
+    "marx",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "marx-capitalismo",
+   "nome": "Marx e o capitalismo — textos originais, teses, contra-argumentos e mal-entendidos",
+   "chip": {
+    "rotulo": "Marx",
+    "detalhe": "66/66 trechos"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "texto",
+   "fonte": {
+    "nome": "Crossref (DOIs), páginas abertas (em geral Wikipedia e Marxists Internet Archive) e reportagens que citam Ipea, FBSP e BID; documentos primários não abertos",
+    "url": null
+   },
+   "extraido_em": "2026-10-07",
+   "hashes": [],
+   "cobertura": "71 pensadores · 16 tipos · 19 diálogos · 18 indicadores do repositório · 9 custos em R$",
+   "validacoes": [
+    {
+     "ok": null,
+     "texto": "88 de 106 obras com referência conferida (DOI no Crossref ou página com título e ano): confirma a referência, não o conteúdo"
+    },
+    {
+     "ok": null,
+     "texto": "49 de 87 evidências lidas na fonte; 30 pensadores sem nenhuma evidência lida na fonte"
+    },
+    {
+     "ok": null,
+     "texto": "8 de 9 custos em R$ lidos em página que cita o órgão; nada foi somado nem deflacionado"
+    },
+    {
+     "ok": true,
+     "texto": "Ligações com pilares, decisões, indicadores e anéis validadas por script contra os JSON atuais"
+    }
+   ],
+   "limites": [
+    "Síntese de pesquisa aberta sobre pensadores da violência e sua utilidade para ler a violência no Brasil, com evidência e crítica. Descreve ideias; não justifica nem recomenda violência e não é prescrição de política. Vítimas são tratadas como pessoas, não como estatística. Os indicadores aqui não são causais e não entram no modelo macro. Ligações em ligacoes.pilares referem ids de pilares ou de pensadores de pilares_pensamento.json; ligacoes.indicadores usam ids de fator_humano.json ou \"series:<chave>\" para humano_nacional.json; ligacoes.aneis, ids de aneis.json.",
+    "Descreve ideias; não justifica nem recomenda violência e não é prescrição de política.",
+    "Intervenção legal: o SIM registra 2.274 mortes em 2023 e o FBSP, 6.393; as definições diferem e a diferença não é reconciliada aqui.",
+    "Sem funil de impunidade, violência política e eleitoral, milícias e série prisional comparável nos dados do repositório."
+   ],
+   "links": [
+    {
+     "titulo": "Why Civil Resistance Works: The Strategic Logic of Nonviolent Conflict, International Security 33(1)",
+     "url": "https://doi.org/10.1162/isec.2008.33.1.7",
+     "verificado": false,
+     "n": 5
+    },
+    {
+     "titulo": "FBSP via Jornal de Brasília e NEV-USP",
+     "url": "https://jornaldebrasilia.com.br/noticias/brasil/mortes-por-intervencao-policial-quase-triplicam-em-10-anos-no-pais/",
+     "verificado": true,
+     "n": 5
+    },
+    {
+     "titulo": "Acemoglu, Robinson e Santos, The Monopoly of Violence: Evidence from Colombia, JEEA 11(s1)",
+     "url": "https://doi.org/10.1111/j.1542-4774.2012.01099.x",
+     "verificado": true,
+     "n": 3
+    },
+    {
+     "titulo": "Cerqueira e Soares, The welfare cost of homicides in Brazil, Health Economics (publicação online 2014)",
+     "url": "https://doi.org/10.1002/hec.3137",
+     "verificado": true,
+     "n": 3
+    },
+    {
+     "titulo": "Monteiro e Rocha (2017), REStat; resumo lido",
+     "url": "https://doi.org/10.1162/REST_a_00628",
+     "verificado": true,
+     "n": 3
+    },
+    {
+     "titulo": "Instituto Sou da Paz, Onde mora a impunidade (2023), via Poder360",
+     "url": "https://www.poder360.com.br/seguranca-publica/so-35-dos-homicidios-sao-solucionados-no-brasil-diz-estudo/",
+     "verificado": true,
+     "n": 3
+    }
+   ],
+   "arquivos": [
+    "pensadores_violencia.json"
+   ],
+   "paginas": [
+    "violencia",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "pensadores-violencia",
+   "nome": "Pensadores da violência — tipologia, diálogos, dados do repositório e custo econômico",
+   "chip": {
+    "rotulo": "Violência",
+    "detalhe": "88/106 obras"
    },
    "status": "parcial",
    "status_rotulo": "parcial"

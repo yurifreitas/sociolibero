@@ -108,3 +108,25 @@ Todos os arquivos abaixo são opcionais; ausência vira estado vazio (`PageGate`
 Selo `basis` (`medido|modelado|sintetico`) é eixo separado do `status` e da verificação. `bases.json` (gerado por `pnpm bases` a partir dos metas
 reais) passou a incluir: evolucoes, cadeia-cenarios, aneis, quebras, custo-corrupcao, clima-valor, clima-rs, pessimismo, visoes-pessimistas.
 O seletor de matriz da aba Evoluções oferece Brasil/AL/Mundo; o semi-Markov não tem matriz única e aparece só na projeção e na tabela de primeira passagem.
+
+
+## `marx_capitalismo.json` (página `/marx`)
+`{meta{gerado_em,aviso,criterio_verificacao}, textos[], definicoes[], teses[], contra_argumentos[], mal_entendidos[], pensadores[], o_que_muda_no_projeto[], sintese, limites[]}`.
+- `textos[]`: `{id, autor, obra, ano(int), secao, idioma_original, idioma_do_trecho, trecho_original, traducao_pt, fonte_da_traducao, url, verificado_literal, tema, leitura_curta, nota_de_fonte}`.
+  A UI usa `idioma_do_trecho` (cai para `idioma_original`) para o atributo `lang` (de/fr/en). **Divergência:** `idioma_original` traz variantes
+  livres ("francês (manuscrito)", "alemão (carta); frase de Marx em francês"); `nota_de_fonte` é sempre texto, e a UI sinaliza "página MEW não conferida" por regex `/não conferid/`.
+- `verificado_literal=true` atesta que o trecho aparece palavra por palavra na URL citada, **não** que a página seja edição crítica. 52 de 66 URLs são o espelho de terceiros `read.19491007.xyz` (MEW/Zeno): a UI mostra aviso por cartão sempre que o host não é marxists.org nem gutenberg.
+- `teses[]`: `{id,titulo,enunciado,premissas[],textos_de_apoio[ids],autores[],leituras_rivais[],objecoes[],respostas[],evidencia,qualidade_da_evidencia,como_seria_refutada,ligacoes{decisoes,pilares,aneis}}`.
+  `contra_argumentos[]`, `mal_entendidos[]` e `definicoes[]` (sem `id`; a UI ancora por slug de `termo`) citam trechos por id; a UI constrói o índice reverso "Citado em".
+- `pensadores[]`: `{id,nome,obra_chave[],posicao,relacao_com_marx,id_no_projeto_pilares_pensamento}`; `verificado` nas obras significa só que a página abre com título e ano (autores resumidos de memória).
+- O aviso fixo "a tese do 'não implementável' NÃO está em Marx" lê o `mal_entendidos` cujo id começa com `m01`.
+- Links de entrada: `/marx?aba=<textos|teses|contra|mal|defs|pensadores|muda>&i=<id>` (rola e destaca) e `&t=<id>` (mostra um trecho).
+
+## `pensadores_violencia.json` (página `/violencia`)
+`{meta, pensadores[], tipologia[], dialogos[], dados_do_repositorio[], custo_economico[], perguntas_abertas[], limites[]}`.
+- `pensadores[]`: `{id,nome,tradicao(texto livre),obra_chave[{titulo,ano,url,doi,verificado}],ideia_central,conceitos[],explica_no_brasil,evidencias[{descricao,fonte,url,verificado}],criticas,ligacoes{pilares,decisoes,indicadores,aneis}}`.
+  **Divergência:** não há campo de família; a UI deriva 6 grupos por regex de `tradicao` (`features/violencia/model.ts`). `ligacoes.pilares` mistura ids de pilares e de pensadores de `pilares_pensamento.json`; `ligacoes.indicadores` mistura ids de `fator_humano.json` e `series:<chave>` de `humano_nacional.json`.
+- `dados_do_repositorio[]`: `valor` pode ser `null` ("sem dado", nunca zero). A discrepância SIM (2.274) × FBSP (6.393) em 2023 vem da `nota` da linha `series:sim_intervencao_legal`: a UI extrai o número do FBSP por regex e mostra os dois lado a lado, sem reconciliar.
+- `custo_economico[]`: `tipo` = contagem|estimativa; `valor_rs_bi` pode ser `null`; `verificado` = lido em página que cita o órgão (documentos primários não abertos).
+- O debate punitivista × preventivo é o diálogo `becker × sampson`; `divergencia` traz as duas "melhores versões", a evidência e a síntese em texto corrido, que a UI separa por regex (cai para o texto bruto se o padrão mudar).
+- Links de entrada: `/violencia?p=<id>` abre o detalhe; `&aba=<tipologia|dialogos|dados|custo|debate|perguntas>`; `&g=<grupo>` filtra.

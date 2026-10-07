@@ -3,4 +3,4 @@
 .h3 { font-size: var(--fs-16); }
 .by { color: var(--text-muted); font-size: var(--fs-12); margin-top: 2px; }
 .h4 { font-size: var(--fs-12); font-weight: 500; color: var(--text-muted); margin: 0 0 var(--space-1); }
-.card p { max-width: 65ch; }
+.card p { max-width: none; }

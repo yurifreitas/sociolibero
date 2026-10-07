@@ -37,6 +37,8 @@ const PATHS = {
   coins: 'M12 3c4.4 0 8 1.3 8 3s-3.6 3-8 3-8-1.3-8-3 3.6-3 8-3zM4 6v4c0 1.7 3.6 3 8 3s8-1.3 8-3V6M4 10v4c0 1.7 3.6 3 8 3s8-1.3 8-3v-4M4 14v4c0 1.7 3.6 3 8 3s8-1.3 8-3v-4',
   activity: 'M3 12h4l3-8 4 16 3-8h4',
   trendDown: 'M3 7l6 6 4-4 8 8M21 11v6h-6',
+  quote: 'M7 7h4v4a4 4 0 0 1-4 4V7zM15 7h4v4a4 4 0 0 1-4 4V7z',
+  ripple: 'M12 13a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM8.5 8.5a5 5 0 0 0 0 7M15.5 8.5a5 5 0 0 1 0 7M5.5 5.5a9 9 0 0 0 0 13M18.5 5.5a9 9 0 0 1 0 13',
 } as const
 
 export type IconName = keyof typeof PATHS

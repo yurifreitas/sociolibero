@@ -10,7 +10,7 @@
 .st { font: 500 9px var(--font-mono); fill: var(--text-subtle); }
 .prepText { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-3); }
 .prepText h2 { font-size: var(--fs-24); max-width: 24ch; }
-.prepText p { color: var(--text-muted); max-width: 62ch; }
+.prepText p { color: var(--text-muted); max-width: none; }
 .missing { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: minmax(0, 1fr); gap: 6px; font-size: var(--fs-13); color: var(--text-muted); }
 .missing li { display: flex; gap: var(--space-2); align-items: center; }
 .actions { display: flex; flex-wrap: wrap; gap: var(--space-3); margin-top: var(--space-2); }

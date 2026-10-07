@@ -25,6 +25,8 @@ const AntesPage = lazy(() => import('@/pages/AntesPage'))
 const ClimaPage = lazy(() => import('@/pages/ClimaPage'))
 const PotenciaisPage = lazy(() => import('@/pages/PotenciaisPage'))
 const PilaresPage = lazy(() => import('@/pages/PilaresPage'))
+const MarxPage = lazy(() => import('@/pages/MarxPage'))
+const ViolenciaPage = lazy(() => import('@/pages/ViolenciaPage'))
 const PropostasPage = lazy(() => import('@/pages/PropostasPage'))
 const MetodoPage = lazy(() => import('@/pages/MetodoPage'))
 const ReferenciasPage = lazy(() => import('@/pages/ReferenciasPage'))
@@ -33,7 +35,7 @@ const queryClient = new QueryClient()
 
 function PageFallback() {
   return (
-    <div style={{ padding: 'var(--space-12) var(--space-8)', display: 'grid', gap: 'var(--space-4)', maxWidth: 1280, margin: '0 auto' }} aria-busy="true" aria-label="Carregando página">
+    <div style={{ padding: 'var(--space-12) var(--space-8)', display: 'grid', gap: 'var(--space-4)', width: '100%' }} aria-busy="true" aria-label="Carregando página">
       <Skeleton width={120} height={12} />
       <Skeleton width={360} height={36} />
       <Skeleton width="58%" height={16} />
@@ -81,6 +83,8 @@ export function App() {
             <Route path="clima" element={<ClimaPage />} />
             <Route path="potenciais" element={<PotenciaisPage />} />
             <Route path="pilares" element={<PilaresPage />} />
+            <Route path="marx" element={<MarxPage />} />
+            <Route path="violencia" element={<ViolenciaPage />} />
             <Route path="forense" element={<ForensePage />} />
             <Route path="corrupcao" element={<CorrupcaoPage />} />
             <Route path="pessimismo" element={<PessimismoPage />} />

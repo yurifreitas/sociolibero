@@ -33,6 +33,8 @@ export const NAV_GROUPS: NavGroup[] = [
       { to: '/antes-de-1500', label: 'Antes de 1500', icon: 'hourglass', desc: 'Povos, clima e manejo do território' },
       { to: '/gente', label: 'Economia & gente', icon: 'users', desc: '14 ciclos, classes e custo humano' },
       { to: '/pilares', label: 'Pilares de pensamento', icon: 'layers', desc: 'Pensamento indígena, afro-brasileiro e outros' },
+      { to: '/marx', label: 'Marx e o capitalismo', icon: 'quote', desc: 'O texto original, a tese do “não implementável” e os mal-entendidos' },
+      { to: '/violencia', label: 'Pensadores da violência', icon: 'ripple', desc: '71 pensadores, tipologia, dados e custo, sem justificar violência' },
     ],
   },
   {

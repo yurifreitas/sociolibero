@@ -870,6 +870,84 @@ if (vp) {
   })
 }
 
+// ---------------------------------------------------------------- Marx e o capitalismo
+const mx = read('marx_capitalismo.json')
+if (mx) {
+  const n = mx.textos.length
+  const lit = mx.textos.filter((t) => t.verificado_literal === true).length
+  const mew = mx.textos.filter((t) => /n[ãa]o conferid/i.test(t.nota_de_fonte ?? '')).length
+  const esp = mx.textos.filter((t) => {
+    try {
+      return !/marxists\.org$|gutenberg/i.test(new URL(t.url).hostname)
+    } catch {
+      return false
+    }
+  }).length
+  const pens = mx.pensadores ?? []
+  add({
+    id: 'marx-capitalismo',
+    nome: 'Marx e o capitalismo — textos originais, teses, contra-argumentos e mal-entendidos',
+    chip: { rotulo: 'Marx', detalhe: `${lit}/${n} trechos` },
+    status: 'parcial',
+    tipo: 'texto',
+    fonte: { nome: 'Marx e Engels (domínio público) em marxists.org e no espelho de terceiros MEW/Zeno; demais autores resumidos de memória', url: 'https://www.marxists.org/' },
+    extraido_em: mx.meta?.gerado_em ?? null,
+    cobertura: `${n} trechos · ${mx.teses?.length ?? 0} teses · ${mx.contra_argumentos?.length ?? 0} contra-argumentos · ${mx.mal_entendidos?.length ?? 0} mal-entendidos · ${mx.definicoes?.length ?? 0} definições · ${pens.length} autores`,
+    validacoes: [
+      { ok: true, texto: `${lit} de ${n} trechos conferidos palavra por palavra na URL citada (atesta o trecho, não a edição crítica)` },
+      { ok: null, texto: `${esp} trechos lidos em espelho de terceiros (MEW/Zeno): conferir com a edição impressa antes de citar; ${mew} trazem página do MEW de memória, não conferida` },
+      { ok: null, texto: `${pens.length} autores resumidos de memória: só a existência da obra foi conferida em página aberta` },
+      { ok: true, texto: 'Ids de trechos, decisões, pilares e anéis citados foram validados por script' },
+    ],
+    limites: [
+      'A tese “o capitalismo não é um sistema econômico implementável” não está em Marx nos trechos conferidos: é inferência de Polanyi e outros.',
+      'Traduções para o português são do agente e não foram revisadas.',
+      'A frase de Polanyi, o relato de Engels (“eu não sou marxista”) e as páginas do MEW não foram conferidos; “tudo que é sólido desmancha no ar” não é literal em alemão.',
+      ...(mx.limites ?? []).slice(0, 3).map(txt),
+    ],
+    links: topLinks([mx.textos.map((t) => ({ titulo: t.obra, url: t.url, verificado: t.verificado_literal })), pens.flatMap((p) => p.obra_chave ?? [])]),
+    arquivos: ['marx_capitalismo.json'],
+    paginas: ['marx', 'metodo'],
+  })
+}
+
+// ---------------------------------------------------------------- Pensadores da violência
+const pv = read('pensadores_violencia.json')
+if (pv) {
+  const obras = pv.pensadores.flatMap((p) => p.obra_chave ?? [])
+  const evs = pv.pensadores.flatMap((p) => p.evidencias ?? [])
+  const okO = obras.filter((o) => o.verificado === true).length
+  const okE = evs.filter((e) => e.verificado === true).length
+  const custos = pv.custo_economico ?? []
+  const okC = custos.filter((c) => c.verificado === true).length
+  const semEv = pv.pensadores.filter((p) => !(p.evidencias ?? []).some((e) => e.verificado === true)).length
+  add({
+    id: 'pensadores-violencia',
+    nome: 'Pensadores da violência — tipologia, diálogos, dados do repositório e custo econômico',
+    chip: { rotulo: 'Violência', detalhe: `${okO}/${obras.length} obras` },
+    status: 'parcial',
+    tipo: 'texto',
+    fonte: { nome: 'Crossref (DOIs), páginas abertas (em geral Wikipedia e Marxists Internet Archive) e reportagens que citam Ipea, FBSP e BID; documentos primários não abertos', url: null },
+    extraido_em: pv.meta?.gerado_em ?? null,
+    cobertura: `${pv.pensadores.length} pensadores · ${pv.tipologia?.length ?? 0} tipos · ${pv.dialogos?.length ?? 0} diálogos · ${pv.dados_do_repositorio?.length ?? 0} indicadores do repositório · ${custos.length} custos em R$`,
+    validacoes: [
+      { ok: null, texto: `${okO} de ${obras.length} obras com referência conferida (DOI no Crossref ou página com título e ano): confirma a referência, não o conteúdo` },
+      { ok: null, texto: `${okE} de ${evs.length} evidências lidas na fonte; ${semEv} pensadores sem nenhuma evidência lida na fonte` },
+      { ok: null, texto: `${okC} de ${custos.length} custos em R$ lidos em página que cita o órgão; nada foi somado nem deflacionado` },
+      { ok: true, texto: 'Ligações com pilares, decisões, indicadores e anéis validadas por script contra os JSON atuais' },
+    ],
+    limites: [
+      pv.meta?.aviso ?? '',
+      'Descreve ideias; não justifica nem recomenda violência e não é prescrição de política.',
+      'Intervenção legal: o SIM registra 2.274 mortes em 2023 e o FBSP, 6.393; as definições diferem e a diferença não é reconciliada aqui.',
+      'Sem funil de impunidade, violência política e eleitoral, milícias e série prisional comparável nos dados do repositório.',
+    ].filter(Boolean),
+    links: topLinks([obras, evs.map((e) => ({ titulo: e.fonte ?? 'fonte', url: e.url, verificado: e.verificado })), custos.map((c) => ({ titulo: c.fonte ?? 'fonte', url: c.url, verificado: c.verificado }))]),
+    arquivos: ['pensadores_violencia.json'],
+    paginas: ['violencia', 'metodo'],
+  })
+}
+
 // vínculos extras (página → base já registrada)
 const link = (id, pages) => {
   const b = bases.find((x) => x.id === id)
@@ -886,9 +964,14 @@ link('decisoes', ['corrupcao'])
 link('series-historicas', ['quebras'])
 link('economia-historica', ['quebras'])
 link('historia', ['quebras'])
+link('pilares-pensamento', ['marx', 'violencia'])
+link('decisoes', ['marx'])
+link('fator-humano', ['violencia'])
+link('trans-arandu', ['violencia'])
+link('modelo-macro', ['marx'])
 
 // ---------------------------------------------------------------- páginas → bases e resumo
-const PAGINAS = ['home', 'mapa', 'municipio', 'decisoes', 'historia', 'antes', 'gente', 'clima', 'potenciais', 'pilares', 'forense', 'corrupcao', 'pessimismo', 'quebras', 'futuro', 'propostas', 'metodo', 'referencias']
+const PAGINAS = ['home', 'mapa', 'municipio', 'decisoes', 'historia', 'antes', 'gente', 'clima', 'potenciais', 'pilares', 'marx', 'violencia', 'forense', 'corrupcao', 'pessimismo', 'quebras', 'futuro', 'propostas', 'metodo', 'referencias']
 const paginas = Object.fromEntries(PAGINAS.map((p) => [p, bases.filter((b) => b.paginas.includes(p) || p === 'metodo').map((b) => b.id)]))
 paginas.home = ['tse-2022', 'tse-2026', 'ibge-censo-2022', 'forense', 'modelo-macro', 'evolucoes', 'custo-corrupcao', 'fator-humano', 'historia', 'trans-arandu', 'clima', 'potenciais-brasil', 'pilares-pensamento'].filter((id) => bases.some((b) => b.id === id))
 paginas.futuro = ['futuros', 'leis-tecnologicas', 'modelo-macro', 'series-historicas', 'propostas'].filter((id) => bases.some((b) => b.id === id))

@@ -1,0 +1,16 @@
+.fig { margin: 0; display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-2); min-width: 0; }
+.cap { font-size: var(--fs-11); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--text-subtle); }
+.q {
+  margin: 0;
+  padding: var(--space-3) var(--space-4);
+  font-family: var(--font-serif);
+  font-size: var(--fs-16);
+  line-height: 1.65;
+  color: var(--text);
+  background: var(--surface-2);
+  border-left: 3px solid var(--brand);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  hyphens: auto;
+  overflow-wrap: anywhere;
+  text-wrap: pretty;
+}

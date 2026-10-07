@@ -30,7 +30,7 @@
 .neg { background: var(--neg); }
 .barVal { font-size: var(--fs-13); font-weight: 600; text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .barVal em { font-style: normal; font-weight: 400; color: var(--text-subtle); font-size: var(--fs-11); margin-left: 3px; }
-.sup { margin: 0 0 var(--space-4); font-size: var(--fs-13); line-height: 1.6; color: var(--text-muted); max-width: 80ch; }
+.sup { margin: 0 0 var(--space-4); font-size: var(--fs-13); line-height: 1.6; color: var(--text-muted); max-width: none; }
 .rec { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: var(--space-4); margin: 0 0 var(--space-4); padding: 0; list-style: none; }
 .rec li { padding: var(--space-6); display: flex; flex-direction: column; gap: var(--space-2); }
 .recPct { margin: 0; font-size: var(--fs-48); font-weight: 700; letter-spacing: -.04em; line-height: 1; color: var(--pos); font-variant-numeric: tabular-nums; }

@@ -11,6 +11,8 @@ import { StatTile } from '@/components/molecules/StatTile'
 import { Tabs } from '@/components/molecules/Tabs'
 import { PageTemplate } from '@/components/templates/PageTemplate'
 import { useDecisoes } from '@/features/data/hooks'
+import { useMarx } from '@/features/marx/hooks'
+import { useViolencia } from '@/features/violencia/hooks'
 import { usePessimismo, useVisoes } from '@/features/pessimismo/hooks'
 import type { Pessimismo, Visoes } from '@/features/pessimismo/schemas'
 import { brl, brlRange, isHttp, tipoBasis } from '@/features/risco/model'
@@ -350,6 +352,10 @@ function Estresse({ d }: { d: Pessimismo }) {
 
 function Visoes({ v }: { v: Visoes }) {
   const [mec, setMec] = useState(v.captura_judicial.mecanismos[0]?.id ?? '')
+  const violQ = useViolencia(true)
+  const marxQ = useMarx(true)
+  const violIds = useMemo(() => new Set((violQ.data?.pensadores ?? []).map((p) => p.id)), [violQ.data])
+  const marxIds = useMemo(() => new Set((marxQ.data?.pensadores ?? []).map((p) => p.id)), [marxQ.data])
   const m = v.captura_judicial.mecanismos.find((x) => x.id === mec)
   return (
     <div className={k.stack}>
@@ -514,6 +520,12 @@ function Visoes({ v }: { v: Visoes }) {
                   <div className={styles.contra}><p className={k.lbl}>Contraponto</p><p className={k.text}>{f.contraponto}</p></div>
                 </div>
                 {f.aplicacao_brasil && <p className={k.text}><strong>No Brasil:</strong> {f.aplicacao_brasil}</p>}
+                {(violIds.has(f.id) || marxIds.has(f.id)) && (
+                  <ul className={k.links} aria-label="Mesmo autor em outras páginas">
+                    {violIds.has(f.id) && <li><Link to={`/violencia?p=${f.id}`}>em Pensadores da violência</Link></li>}
+                    {marxIds.has(f.id) && <li><Link to={`/marx?aba=pensadores&i=${f.id}`}>em Marx e o capitalismo</Link></li>}
+                  </ul>
+                )}
                 {(f.referencias?.length ?? 0) > 0 && <ul className={k.src}>{f.referencias?.map((r, i) => <li key={i}><Seal v={r.verificado} labels={{ yes: 'conferida', no: 'a confirmar' }} />{isHttp(r.url) ? <a href={r.url} target="_blank" rel="noreferrer">{r.titulo}</a> : <span>{r.titulo}</span>}</li>)}</ul>}
               </article>
             ))}

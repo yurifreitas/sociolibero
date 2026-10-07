@@ -23,6 +23,8 @@ const PAGE_LABEL: Record<PageKey, { label: string; to: string }> = {
   clima: { label: 'Clima', to: '/clima' },
   potenciais: { label: 'Potenciais', to: '/potenciais' },
   pilares: { label: 'Pilares', to: '/pilares' },
+  marx: { label: 'Marx e o capitalismo', to: '/marx' },
+  violencia: { label: 'Pensadores da violência', to: '/violencia' },
   forense: { label: 'Forense', to: '/forense' },
   corrupcao: { label: 'Custo da corrupção', to: '/corrupcao' },
   pessimismo: { label: 'Visões pessimistas', to: '/pessimismo' },

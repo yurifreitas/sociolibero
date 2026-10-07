@@ -7,4 +7,4 @@
 .bar { fill: var(--brand); }
 .exp { stroke: var(--text); stroke-width: 2; stroke-linecap: round; }
 .key text { font-size: 11px; fill: var(--text-muted); }
-.note { font-size: var(--fs-12); color: var(--text-muted); max-width: 60ch; }
+.note { font-size: var(--fs-12); color: var(--text-muted); max-width: none; }

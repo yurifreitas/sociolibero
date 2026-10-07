@@ -10,7 +10,7 @@ export const STATUS_INFO: Record<BaseStatus, { label: string; explain: string; o
   'em-preparacao': { label: 'em preparação', explain: 'Ainda não gerado.', order: 6 },
 }
 
-export type PageKey = 'home' | 'mapa' | 'municipio' | 'decisoes' | 'historia' | 'antes' | 'gente' | 'clima' | 'potenciais' | 'pilares' | 'forense' | 'corrupcao' | 'pessimismo' | 'quebras' | 'futuro' | 'propostas' | 'metodo' | 'referencias'
+export type PageKey = 'home' | 'mapa' | 'municipio' | 'decisoes' | 'historia' | 'antes' | 'gente' | 'clima' | 'potenciais' | 'pilares' | 'marx' | 'violencia' | 'forense' | 'corrupcao' | 'pessimismo' | 'quebras' | 'futuro' | 'propostas' | 'metodo' | 'referencias'
 
 export function pageKeyFromPath(pathname: string): PageKey {
   const seg = pathname.split('/').filter(Boolean)[0] ?? ''
@@ -28,6 +28,8 @@ export function pageKeyFromPath(pathname: string): PageKey {
     case 'clima':
     case 'potenciais':
     case 'pilares':
+    case 'marx':
+    case 'violencia':
     case 'gente':
     case 'forense':
     case 'corrupcao':
@@ -54,6 +56,8 @@ export const PROPOSAL_AREAS: Record<PageKey, string[]> = {
   clima: ['macro', 'dados'],
   potenciais: ['macro'],
   pilares: ['macro', 'dados'],
+  marx: ['macro', 'dados'],
+  violencia: ['dados', 'antifraude'],
   gente: ['dados', 'macro'],
   forense: ['antifraude'],
   corrupcao: ['antifraude', 'dinheiro-publico', 'dados'],

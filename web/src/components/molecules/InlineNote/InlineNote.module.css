@@ -8,7 +8,7 @@
 .warn { --tone: var(--warn); }
 .danger { --tone: var(--neg); }
 .icon { flex: none; margin-top: 2px; color: var(--tone); }
-.text { flex: 1; min-width: 0; max-width: 78ch; }
+.text { flex: 1; min-width: 0; max-width: none; }
 .title { color: var(--text); font-weight: 600; }
 .more { padding: 0; border: 0; background: none; color: var(--brand); font: inherit; font-weight: 500; cursor: pointer; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
 .more:hover { text-decoration-thickness: 2px; }

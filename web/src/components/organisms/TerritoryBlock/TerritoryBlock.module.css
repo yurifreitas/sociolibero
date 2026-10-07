@@ -5,7 +5,7 @@
 .dl dt { font-size: var(--fs-12); color: var(--text-muted); }
 .dl dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; }
 .warning { font-size: var(--fs-12); padding: var(--space-2) var(--space-3); border-radius: var(--radius-sm); background: var(--warn-soft); color: var(--warn-text); }
-.muted { font-size: var(--fs-12); color: var(--text-muted); max-width: 70ch; }
+.muted { font-size: var(--fs-12); color: var(--text-muted); max-width: none; }
 .details { font-size: var(--fs-12); color: var(--text-muted); }
 .details summary { cursor: pointer; min-height: 28px; display: flex; align-items: center; }
 .details ul { margin: var(--space-1) 0 var(--space-2); padding-left: var(--space-4); }

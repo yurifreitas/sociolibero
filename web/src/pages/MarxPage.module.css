@@ -1,0 +1,49 @@
+.fixed { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-3); }
+.det { font-size: var(--fs-13); }
+.det summary { cursor: pointer; color: var(--text-muted); font-weight: 600; padding: 4px 0; }
+.det summary:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.det > p, .det > ul { margin-top: var(--space-2); }
+
+/* trecho: original ao lado da tradução */
+.pair { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: var(--space-4); align-items: start; }
+/* listas de cartões: preenchem a largura inteira; empilham pelo espaço do contêiner, não pela janela */
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 640px), 1fr)); gap: var(--space-4); align-items: start; }
+.cardsWide { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 520px), 1fr)); gap: var(--space-4); align-items: start; }
+.tr { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-2); }
+.trText { margin: 0; font-size: var(--fs-14); line-height: 1.6; color: var(--text-muted); }
+.meta { display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; }
+.obra { margin: 0; font-size: var(--fs-13); color: var(--text-muted); overflow-wrap: anywhere; }
+.obra strong { color: var(--text); font-weight: 600; }
+.warnLine { display: flex; gap: var(--space-2); align-items: flex-start; font-size: var(--fs-12); color: var(--warn-text); background: var(--warn-soft); border-radius: var(--radius-sm); padding: var(--space-2) var(--space-3); }
+.notaFonte { margin: 0; font-size: var(--fs-12); color: var(--text-subtle); }
+.reading { margin: 0; font-size: var(--fs-13); color: var(--text-muted); line-height: 1.55; }
+.reading b { color: var(--text); }
+.usos { display: flex; flex-wrap: wrap; gap: var(--space-2); margin: 0; padding: 0; list-style: none; font-size: var(--fs-12); }
+.usos a, .ref { text-decoration: none; padding: 3px 8px; border-radius: var(--radius-sm); background: var(--brand-soft); display: inline-block; max-width: 100%; overflow-wrap: anywhere; }
+.usos a:hover, .ref:hover { text-decoration: underline; }
+
+/* destaque ao chegar por link interno */
+.card { scroll-margin-top: calc(var(--space-16) + var(--space-8)); transition: box-shadow var(--dur-2) var(--ease-out); }
+.focus { box-shadow: 0 0 0 2px var(--brand); }
+
+/* tese / contra-argumento: peso visual igual */
+.versus { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: var(--space-4); }
+.col { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-2); align-content: start; }
+.refute { padding: var(--space-3) var(--space-4); border-radius: var(--radius-md); background: var(--surface-2); border: 1px dashed var(--border-strong); }
+.refute p { margin: 0; }
+.tese { border-top: 3px solid var(--brand); }
+.contra { border-top: 3px solid var(--warn-text); }
+.equivoco { border-left: 3px solid var(--warn-text); padding-left: var(--space-4); }
+.diz { border-left: 3px solid var(--pos); padding-left: var(--space-4); }
+.three { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: var(--space-4); }
+.quote { font-style: italic; }
+.more { display: flex; justify-content: center; padding-top: var(--space-4); }
+.btn { height: 40px; padding: 0 var(--space-6); border-radius: var(--radius-sm); border: 1px solid var(--border-strong); background: var(--surface); color: var(--text); font: inherit; font-size: var(--fs-13); cursor: pointer; }
+.btn:hover { background: var(--surface-2); }
+.btn:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.selects { display: flex; flex-wrap: wrap; gap: var(--space-4); align-items: end; }
+.selects label { display: flex; flex-direction: column; gap: 4px; font-size: var(--fs-12); color: var(--text-subtle); min-width: 0; max-width: 100%; }
+.selects select { max-width: min(100%, 320px); }
+.naoConf { list-style: none; margin: var(--space-2) 0 0; padding: 0; display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-3); }
+.naoConf li { display: flex; gap: var(--space-3); align-items: flex-start; font-size: var(--fs-13); color: var(--text-muted); line-height: 1.5; }
+.naoConf li > :first-child { flex: none; }

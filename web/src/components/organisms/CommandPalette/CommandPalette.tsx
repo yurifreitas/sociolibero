@@ -5,11 +5,13 @@ import { StatusGlyph } from '@/components/atoms/StatusGlyph'
 import { useBases } from '@/features/bases/hooks'
 import { useChrome } from '@/features/chrome/ChromeContext'
 import { useGeo, useIndex } from '@/features/data/hooks'
+import { useMarx } from '@/features/marx/hooks'
+import { useViolencia } from '@/features/violencia/hooks'
 import { useTheme } from '@/lib/theme'
 import { useVtNavigate } from '@/lib/viewTransition'
 import styles from './CommandPalette.module.css'
 
-type Cmd = { id: string; group: 'Páginas' | 'Municípios' | 'Bases' | 'Ações'; label: string; hint?: string; icon?: IconName; glyph?: 'base'; keywords?: string; run: () => void; status?: string }
+type Cmd = { id: string; group: 'Páginas' | 'Municípios' | 'Pensadores' | 'Trechos de Marx' | 'Bases' | 'Ações'; label: string; hint?: string; icon?: IconName; glyph?: 'base'; keywords?: string; run: () => void; status?: string }
 
 const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase()
 const score = (q: string, text: string) => {
@@ -30,6 +32,8 @@ const PAGES: { to: string; label: string; icon: IconName; kw: string }[] = [
   { to: '/clima', label: 'Clima e economia', icon: 'leaf', kw: 'el nino enso seca temperatura ipcc queimadas energia' },
   { to: '/potenciais', label: 'Potências do Brasil e potencial de crescimento', icon: 'gem', kw: 'agua minerais nióbio solar pastagens pais do futuro' },
   { to: '/pilares', label: 'Pilares de pensamento', icon: 'layers', kw: 'elias krenak buen vivir ostrom clastres nego bispo viabilizacao' },
+  { to: '/marx', label: 'Marx e o capitalismo (textos originais e teses)', icon: 'quote', kw: 'capital mais-valia fetichismo acumulacao primitiva capitalismo nao implementavel mal-entendidos modo de producao' },
+  { to: '/violencia', label: 'Pensadores da violência', icon: 'ripple', kw: 'custo da violencia punitivista preventivo tipologia homicidios intervencao legal' },
   { to: '/forense', label: 'Forense eleitoral', icon: 'shield', kw: 'fraude benford' },
   { to: '/corrupcao', label: 'Custo da corrupção e da captura, em R$', icon: 'coins', kw: 'corrupcao sonegacao gastos tributarios beneficios empresas desonerar valor financeiro' },
   { to: '/pessimismo', label: 'Visões pessimistas e testes de estresse', icon: 'trendDown', kw: 'estresse incompetencia captura judicial decisoes ruins capacidade estatal pre-mortem' },
@@ -60,6 +64,9 @@ export function CommandPalette() {
   const wantGeo = paletteOpen
   const geoQ = useGeo(wantGeo ? indexQ.data?.geo : undefined)
   const basesQ = useBases()
+  const wantText = paletteOpen && q.trim().length >= 2
+  const marxQ = useMarx(wantText)
+  const violQ = useViolencia(wantText)
 
   useEffect(() => {
     const d = dlg.current
@@ -102,8 +109,29 @@ export function CommandPalette() {
             .slice(0, 8)
             .map(([x]) => ({ id: `m:${x.ibge}`, group: 'Municípios' as const, label: `${x.nome} · ${x.uf}`, icon: 'map' as const, hint: 'abrir no mapa', run: close(() => go(`/mapa?mun=${x.ibge}`)) }))
         : []
-    return [...rank(pages), ...m, ...rank(bases), ...rank(actions)]
-  }, [q, munis, basesQ.data, pref, closePalette, go, openDrawer, setPref])
+    const pens: Cmd[] = (violQ.data?.pensadores ?? [])
+      .map((x) => [x, Math.min(score(nq, x.nome), score(nq, `${x.tradicao ?? ''} ${(x.conceitos ?? []).join(' ')}`))] as const)
+      .filter(([, sc]) => Number.isFinite(sc))
+      .sort((a, b) => a[1] - b[1])
+      .slice(0, 6)
+      .map(([x]) => ({ id: `v:${x.id}`, group: 'Pensadores' as const, label: x.nome, icon: 'ripple' as const, hint: 'pensador da violência', run: close(() => go(`/violencia?p=${x.id}`)) }))
+    const autores: Cmd[] = (marxQ.data?.pensadores ?? [])
+      .map((x) => [x, Math.min(score(nq, x.nome), score(nq, x.posicao ?? ''))] as const)
+      .filter(([, sc]) => Number.isFinite(sc))
+      .sort((a, b) => a[1] - b[1])
+      .slice(0, 4)
+      .map(([x]) => ({ id: `ma:${x.id}`, group: 'Pensadores' as const, label: x.nome, icon: 'quote' as const, hint: 'autor em Marx e o capitalismo', run: close(() => go(`/marx?aba=pensadores&i=${x.id}`)) }))
+    const trechos: Cmd[] =
+      nq.length >= 3
+        ? (marxQ.data?.textos ?? [])
+            .map((x) => [x, Math.min(score(nq, `${x.tema ?? ''} ${x.obra}`), score(nq, `${x.trecho_original} ${x.traducao_pt ?? ''}`))] as const)
+            .filter(([, sc]) => Number.isFinite(sc))
+            .sort((a, b) => a[1] - b[1])
+            .slice(0, 6)
+            .map(([x]) => ({ id: `mt:${x.id}`, group: 'Trechos de Marx' as const, label: `${x.obra.replace(/\s*\(.*$/, '')}${x.ano ? ` (${x.ano})` : ''} · ${x.tema ?? ''}`, icon: 'quote' as const, hint: 'trecho original', run: close(() => go(`/marx?aba=textos&t=${x.id}`)) }))
+        : []
+    return [...rank(pages), ...m, ...pens, ...autores, ...trechos, ...rank(bases), ...rank(actions)]
+  }, [q, munis, basesQ.data, violQ.data, marxQ.data, pref, closePalette, go, openDrawer, setPref])
 
   useEffect(() => setActive(0), [q])
   useEffect(() => {

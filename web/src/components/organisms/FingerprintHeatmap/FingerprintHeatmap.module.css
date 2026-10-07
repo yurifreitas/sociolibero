@@ -2,5 +2,5 @@
 .svg { width: 100%; height: auto; max-width: 720px; }
 .tick { font-size: 11px; fill: var(--text-muted); font-variant-numeric: tabular-nums; }
 .axis { font-size: 12px; fill: var(--text-muted); }
-.cap { font-size: var(--fs-12); color: var(--text-muted); max-width: 70ch; }
+.cap { font-size: var(--fs-12); color: var(--text-muted); max-width: none; }
 .muted { color: var(--text-muted); }

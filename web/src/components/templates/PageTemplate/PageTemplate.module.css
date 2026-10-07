@@ -1,4 +1,4 @@
-.page { max-width: 1280px; margin: 0 auto; padding: var(--space-12) var(--space-8) var(--space-24); display: flex; flex-direction: column; gap: var(--space-16); }
-.narrow { max-width: 860px; }
+.page { width: 100%; max-width: none; margin: 0; padding: var(--space-12) clamp(var(--space-4), 3vw, var(--space-12)) var(--space-24); display: flex; flex-direction: column; gap: var(--space-16); }
+.narrow { max-width: none; }
 .page section + section { margin-top: 0; }
 @media (max-width: 720px) { .page { padding: var(--space-8) var(--space-4) var(--space-16); gap: var(--space-12); } }
