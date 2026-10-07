@@ -1,0 +1,4175 @@
+{
+ "meta": {
+  "gerado_em": "2026-10-06T23:19:57+00:00",
+  "aviso": "Projeções são extrapolações de formas funcionais ajustadas a poucos pontos, com incerteza apenas de parâmetro (bootstrap de resíduos). NÃO são previsões. O teto (K) de curvas S é pouco identificado quando a série ainda não saturou; ver identificacao_teto. O ganho de produtividade do macro é suposição explícita.",
+  "lacunas": [
+   "Emplacamentos de veículos elétricos e híbridos (ABVE/Fenabrave): sem série aberta baixável confirmada nesta execução; usadas vendas de carros elétricos BEV+PHEV da IEA via OWID (anual, sem híbridos leves).",
+   "Cetic.br TIC Domicílios: não baixado (tabelas em portal sem API aberta verificada); usadas as séries IBGE/PNAD Contínua TIC via SIDRA (tabelas 7307 e 6863). 2020 não existe na PNAD TIC.",
+   "Solar centralizada separada da distribuída: não há série aberta publicada que a separe; 'solar_total_brasil' (OWID/IRENA) inclui GD e 'solar_gd_brasil' (ANEEL) é só a GD. Não derivei a diferença.",
+   "ABSOLAR e EPE (capacidade solar por ano): não usadas; ANEEL (GD) e OWID/IRENA (total) as substituem.",
+   "Custo da computação por FLOP (Moore para hardware): série aberta não confirmada; a curva de computação usa FLOP de TREINO na fronteira (Epoch AI via OWID), que mede escala de investimento, não custo.",
+   "Pix: série de transações por pessoa/usuários ativos (uso efetivo) não existe aberta; usuários = cadastro DICT.",
+   "Geração distribuída (ANEEL): o ano corrente (2026, parcial) fica fora; a série cobre até 2025.",
+   "ABSOLAR, EPE e IRENA não foram consultadas diretamente; nenhuma conferência cruzada da GD com outra fonte além da ordem de grandeza (~50 GW de UFV).",
+   "Todas as curvas globais (custo solar, computação) são referência, não dados do Brasil."
+  ],
+  "horizonte": [
+   2026,
+   2038
+  ],
+  "bootstrap_replicas": 300
+ },
+ "curvas": [
+  {
+   "id": "pix_usuarios",
+   "rotulo": "Pix: usuários cadastrados no DICT (PF+PJ)",
+   "dominio": "pagamentos",
+   "modelo": "logistica",
+   "unidade": "milhões",
+   "usada_na_difusao": true,
+   "fonte_dados": {
+    "nome": "bcb_pix_usuarios_dict",
+    "url": "https://olinda.bcb.gov.br/olinda/servico/Pix_DadosAbertos/versao/v1/odata/PixUsuariosCadastradosDICT?$format=json&$top=5000",
+    "baixado_em": "2026-10-06T22:50:54+00:00",
+    "sha256": "cce03893822714dbcef41bcd55bb72d3e12ff7b68f0e38982f3f2ea9600ef803"
+   },
+   "convencao_tempo": "série mensal: t = ano + (mês-0,5)/12 (fluxo) ou fim do mês (estoque); projeção em meio de ano",
+   "limites": "Cadastro no DICT não é uso efetivo: quem tem conta e nunca usou Pix pode estar fora ou dentro, e chaves de PJ entram. Ajuste só a partir de jun/2021: os primeiros meses são a campanha de pré-cadastro do lançamento (out/2020), não difusão orgânica. Teto de busca: K ≤ 300 mi (SUPOSIÇÃO: ~213 mi de habitantes + empresas; só limite de busca).",
+   "parametros": {
+    "K": 190.699004,
+    "r": 0.59362,
+    "t0": 2021.241874
+   },
+   "identificacao_teto": {
+    "teto_obs_max": 186.9747,
+    "teto_ajustado": 190.699,
+    "teto_p10_p90": [
+     189.7158,
+     191.9054
+    ],
+    "razao_teto_p90_sobre_p10": 1.01,
+    "replicas_no_limite_superior_pct": 0.0,
+    "replicas_com_teto_igual_ao_maximo_observado_pct": 0.0,
+    "central_dentro_de_p10_p90": true,
+    "ajuste_na_fronteira": false,
+    "frac_do_teto_ja_atingida": 0.98
+   },
+   "ajuste": {
+    "metodo": "mínimos quadrados não lineares no log (scipy least_squares, multi-start); incerteza: bootstrap de resíduos (B=300)",
+    "periodo_treino": [
+     2021.5,
+     2026.75
+    ],
+    "n_pontos": 64,
+    "rmse_log_in_sample": 0.0093,
+    "incerteza_parametros": {
+     "K": {
+      "p10": 189.715786,
+      "p50": 190.689499,
+      "p90": 191.905412
+     },
+     "r": {
+      "p10": 0.577819,
+      "p50": 0.593206,
+      "p90": 0.608716
+     },
+     "t0": {
+      "p10": 2021.220453,
+      "p50": 2021.242107,
+      "p90": 2021.261702
+     }
+    },
+    "erro_teste": {
+     "k": 12,
+     "rmse": 4.0462725312181,
+     "mape_pct": 2.0059153410380204,
+     "treino_ate": 2025.75,
+     "periodo_teste": [
+      2025.833,
+      2026.75
+     ],
+     "previsto": [
+      176.9052,
+      177.3455,
+      177.7646,
+      178.1635,
+      178.5431,
+      178.9042,
+      179.2477,
+      179.5744,
+      179.885,
+      180.1802,
+      180.4608,
+      180.7275
+     ],
+     "observado": [
+      178.1458,
+      178.8827,
+      179.6733,
+      180.5388,
+      181.3002,
+      182.334,
+      183.2194,
+      184.1178,
+      184.8676,
+      185.6378,
+      186.2796,
+      186.9747
+     ]
+    },
+    "baseline_erro_teste": {
+     "ingenuo": {
+      "rmse": 6.1366489844291845,
+      "mape_pct": 2.949593999236237
+     },
+     "linear": {
+      "rmse": 12.63889468856858,
+      "mape_pct": 6.798565811381836
+     },
+     "ganha_do_melhor_baseline": true
+    }
+   },
+   "pontos_observados": [
+    [
+     2021.5,
+     98.466802
+    ],
+    [
+     2021.583,
+     102.822966
+    ],
+    [
+     2021.667,
+     106.629506
+    ],
+    [
+     2021.75,
+     109.785721
+    ],
+    [
+     2021.833,
+     112.650205
+    ],
+    [
+     2021.917,
+     115.210649
+    ],
+    [
+     2022.0,
+     117.772655
+    ],
+    [
+     2022.083,
+     120.0008
+    ],
+    [
+     2022.167,
+     122.092553
+    ],
+    [
+     2022.25,
+     124.459446
+    ],
+    [
+     2022.333,
+     126.555605
+    ],
+    [
+     2022.417,
+     128.719758
+    ],
+    [
+     2022.5,
+     130.648326
+    ],
+    [
+     2022.583,
+     132.59289
+    ],
+    [
+     2022.667,
+     134.665069
+    ],
+    [
+     2022.75,
+     136.577623
+    ],
+    [
+     2022.833,
+     138.407107
+    ],
+    [
+     2022.917,
+     140.056979
+    ],
+    [
+     2023.0,
+     141.638992
+    ],
+    [
+     2023.083,
+     143.294854
+    ],
+    [
+     2023.167,
+     144.685341
+    ],
+    [
+     2023.25,
+     146.440313
+    ],
+    [
+     2023.333,
+     147.835259
+    ],
+    [
+     2023.417,
+     149.229486
+    ],
+    [
+     2023.5,
+     150.551263
+    ],
+    [
+     2023.583,
+     151.889743
+    ],
+    [
+     2023.667,
+     153.358771
+    ],
+    [
+     2023.75,
+     154.592698
+    ],
+    [
+     2023.833,
+     155.887912
+    ],
+    [
+     2023.917,
+     157.14152
+    ],
+    [
+     2024.0,
+     158.3109
+    ],
+    [
+     2024.083,
+     159.680243
+    ],
+    [
+     2024.167,
+     160.835853
+    ],
+    [
+     2024.25,
+     161.991352
+    ],
+    [
+     2024.333,
+     163.320467
+    ],
+    [
+     2024.417,
+     164.60802
+    ],
+    [
+     2024.5,
+     165.803308
+    ],
+    [
+     2024.583,
+     167.028039
+    ],
+    [
+     2024.667,
+     168.159714
+    ],
+    [
+     2024.75,
+     169.298272
+    ],
+    [
+     2024.833,
+     169.954335
+    ],
+    [
+     2024.917,
+     170.768713
+    ],
+    [
+     2025.0,
+     171.508021
+    ],
+    [
+     2025.083,
+     172.571661
+    ],
+    [
+     2025.167,
+     173.436538
+    ],
+    [
+     2025.25,
+     174.263534
+    ],
+    [
+     2025.333,
+     175.015393
+    ],
+    [
+     2025.417,
+     175.471829
+    ],
+    [
+     2025.5,
+     175.428113
+    ],
+    [
+     2025.583,
+     175.53973
+    ],
+    [
+     2025.667,
+     176.377195
+    ],
+    [
+     2025.75,
+     177.233054
+    ],
+    [
+     2025.833,
+     178.145758
+    ],
+    [
+     2025.917,
+     178.882713
+    ],
+    [
+     2026.0,
+     179.673277
+    ],
+    [
+     2026.083,
+     180.538848
+    ],
+    [
+     2026.167,
+     181.300201
+    ],
+    [
+     2026.25,
+     182.33404
+    ],
+    [
+     2026.333,
+     183.219379
+    ],
+    [
+     2026.417,
+     184.117826
+    ],
+    [
+     2026.5,
+     184.867551
+    ],
+    [
+     2026.583,
+     185.637835
+    ],
+    [
+     2026.667,
+     186.279602
+    ],
+    [
+     2026.75,
+     186.974734
+    ]
+   ],
+   "projecao": {
+    "anos": [
+     2026,
+     2027,
+     2028,
+     2029,
+     2030,
+     2031,
+     2032,
+     2033,
+     2034,
+     2035,
+     2036,
+     2037,
+     2038
+    ],
+    "central": [
+     182.644639,
+     186.164647,
+     188.167623,
+     189.292503,
+     189.919586,
+     190.267723,
+     190.460556,
+     190.56723,
+     190.6262,
+     190.658786,
+     190.676789,
+     190.686733,
+     190.692227
+    ],
+    "p10": [
+     182.187466,
+     185.521185,
+     187.402137,
+     188.449742,
+     189.000041,
+     189.32349,
+     189.507332,
+     189.608957,
+     189.658545,
+     189.684737,
+     189.698944,
+     189.706651,
+     189.710831
+    ],
+    "p90": [
+     183.154131,
+     186.909927,
+     189.072614,
+     190.31828,
+     191.003991,
+     191.396993,
+     191.618039,
+     191.742001,
+     191.816333,
+     191.856611,
+     191.878099,
+     191.890127,
+     191.896858
+    ]
+   },
+   "cenarios": {
+    "lento": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 10,
+     "parametros": {
+      "K": 189.716051,
+      "r": 0.613928,
+      "t0": 2021.260892
+     },
+     "valor_ano_ref": 189.685745,
+     "duracao_10_90_anos": 7.16
+    },
+    "base": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 50,
+     "parametros": {
+      "K": 190.682016,
+      "r": 0.59774,
+      "t0": 2021.260841
+     },
+     "valor_ano_ref": 190.643663,
+     "duracao_10_90_anos": 7.35
+    },
+    "rapido": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 90,
+     "parametros": {
+      "K": 191.904436,
+      "r": 0.581767,
+      "t0": 2021.246891
+     },
+     "valor_ano_ref": 191.856372,
+     "duracao_10_90_anos": 7.55
+    }
+   }
+  },
+  {
+   "id": "pix_usuarios_bass",
+   "rotulo": "Pix: usuários cadastrados no DICT (forma de Bass)",
+   "dominio": "pagamentos",
+   "modelo": "bass",
+   "unidade": "milhões",
+   "usada_na_difusao": false,
+   "fonte_dados": {
+    "nome": "bcb_pix_usuarios_dict",
+    "url": "https://olinda.bcb.gov.br/olinda/servico/Pix_DadosAbertos/versao/v1/odata/PixUsuariosCadastradosDICT?$format=json&$top=5000",
+    "baixado_em": "2026-10-06T22:50:54+00:00",
+    "sha256": "cce03893822714dbcef41bcd55bb72d3e12ff7b68f0e38982f3f2ea9600ef803"
+   },
+   "convencao_tempo": "série mensal: t = ano + (mês-0,5)/12 (fluxo) ou fim do mês (estoque); projeção em meio de ano",
+   "limites": "Mesma série da curva logística, forma de Bass (ts = 2020,76, abertura do cadastro de chaves). O ajuste empurra o coeficiente de imitação q ao limite inferior (curva de pura inovação, sem efeito de rede) e erra mais que a logística no treino: a forma de Bass não descreve bem esta série e não entra na derivação da velocidade de difusão. Teto de busca: m ≤ 300 mi (SUPOSIÇÃO; limite de busca).",
+   "parametros": {
+    "m": 186.974734,
+    "p": 0.743529,
+    "q": 0.001,
+    "ts": 2020.76
+   },
+   "identificacao_teto": {
+    "teto_obs_max": 186.9747,
+    "teto_ajustado": 186.9747,
+    "teto_p10_p90": [
+     205.8848,
+     233.8194
+    ],
+    "razao_teto_p90_sobre_p10": 1.14,
+    "replicas_no_limite_superior_pct": 0.0,
+    "replicas_com_teto_igual_ao_maximo_observado_pct": 0.0,
+    "central_dentro_de_p10_p90": false,
+    "ajuste_na_fronteira": true,
+    "frac_do_teto_ja_atingida": 1.0
+   },
+   "ajuste": {
+    "metodo": "mínimos quadrados não lineares no log (scipy least_squares, multi-start); incerteza: bootstrap de resíduos (B=300)",
+    "periodo_treino": [
+     2021.5,
+     2026.75
+    ],
+    "n_pontos": 64,
+    "rmse_log_in_sample": 0.0654,
+    "incerteza_parametros": {
+     "m": {
+      "p10": 205.884752,
+      "p50": 221.901714,
+      "p90": 233.819398
+     },
+     "p": {
+      "p10": 0.457696,
+      "p50": 0.505909,
+      "p90": 0.596446
+     },
+     "q": {
+      "p10": 0.001,
+      "p50": 0.001,
+      "p90": 0.001
+     }
+    },
+    "erro_teste": {
+     "k": 12,
+     "rmse": 7.484051875897242,
+     "mape_pct": 3.849444166175369,
+     "treino_ate": 2025.75,
+     "periodo_teste": [
+      2025.833,
+      2026.75
+     ],
+     "previsto": [
+      174.8846,
+      175.0457,
+      175.1957,
+      175.3354,
+      175.4655,
+      175.5867,
+      175.6996,
+      175.8048,
+      175.9027,
+      175.9939,
+      176.0789,
+      176.1581
+     ],
+     "observado": [
+      178.1458,
+      178.8827,
+      179.6733,
+      180.5388,
+      181.3002,
+      182.334,
+      183.2194,
+      184.1178,
+      184.8676,
+      185.6378,
+      186.2796,
+      186.9747
+     ]
+    },
+    "baseline_erro_teste": {
+     "ingenuo": {
+      "rmse": 6.1366489844291845,
+      "mape_pct": 2.949593999236237
+     },
+     "linear": {
+      "rmse": 12.63889468856858,
+      "mape_pct": 6.798565811381836
+     },
+     "ganha_do_melhor_baseline": false
+    }
+   },
+   "pontos_observados": [
+    [
+     2021.5,
+     98.466802
+    ],
+    [
+     2021.583,
+     102.822966
+    ],
+    [
+     2021.667,
+     106.629506
+    ],
+    [
+     2021.75,
+     109.785721
+    ],
+    [
+     2021.833,
+     112.650205
+    ],
+    [
+     2021.917,
+     115.210649
+    ],
+    [
+     2022.0,
+     117.772655
+    ],
+    [
+     2022.083,
+     120.0008
+    ],
+    [
+     2022.167,
+     122.092553
+    ],
+    [
+     2022.25,
+     124.459446
+    ],
+    [
+     2022.333,
+     126.555605
+    ],
+    [
+     2022.417,
+     128.719758
+    ],
+    [
+     2022.5,
+     130.648326
+    ],
+    [
+     2022.583,
+     132.59289
+    ],
+    [
+     2022.667,
+     134.665069
+    ],
+    [
+     2022.75,
+     136.577623
+    ],
+    [
+     2022.833,
+     138.407107
+    ],
+    [
+     2022.917,
+     140.056979
+    ],
+    [
+     2023.0,
+     141.638992
+    ],
+    [
+     2023.083,
+     143.294854
+    ],
+    [
+     2023.167,
+     144.685341
+    ],
+    [
+     2023.25,
+     146.440313
+    ],
+    [
+     2023.333,
+     147.835259
+    ],
+    [
+     2023.417,
+     149.229486
+    ],
+    [
+     2023.5,
+     150.551263
+    ],
+    [
+     2023.583,
+     151.889743
+    ],
+    [
+     2023.667,
+     153.358771
+    ],
+    [
+     2023.75,
+     154.592698
+    ],
+    [
+     2023.833,
+     155.887912
+    ],
+    [
+     2023.917,
+     157.14152
+    ],
+    [
+     2024.0,
+     158.3109
+    ],
+    [
+     2024.083,
+     159.680243
+    ],
+    [
+     2024.167,
+     160.835853
+    ],
+    [
+     2024.25,
+     161.991352
+    ],
+    [
+     2024.333,
+     163.320467
+    ],
+    [
+     2024.417,
+     164.60802
+    ],
+    [
+     2024.5,
+     165.803308
+    ],
+    [
+     2024.583,
+     167.028039
+    ],
+    [
+     2024.667,
+     168.159714
+    ],
+    [
+     2024.75,
+     169.298272
+    ],
+    [
+     2024.833,
+     169.954335
+    ],
+    [
+     2024.917,
+     170.768713
+    ],
+    [
+     2025.0,
+     171.508021
+    ],
+    [
+     2025.083,
+     172.571661
+    ],
+    [
+     2025.167,
+     173.436538
+    ],
+    [
+     2025.25,
+     174.263534
+    ],
+    [
+     2025.333,
+     175.015393
+    ],
+    [
+     2025.417,
+     175.471829
+    ],
+    [
+     2025.5,
+     175.428113
+    ],
+    [
+     2025.583,
+     175.53973
+    ],
+    [
+     2025.667,
+     176.377195
+    ],
+    [
+     2025.75,
+     177.233054
+    ],
+    [
+     2025.833,
+     178.145758
+    ],
+    [
+     2025.917,
+     178.882713
+    ],
+    [
+     2026.0,
+     179.673277
+    ],
+    [
+     2026.083,
+     180.538848
+    ],
+    [
+     2026.167,
+     181.300201
+    ],
+    [
+     2026.25,
+     182.33404
+    ],
+    [
+     2026.333,
+     183.219379
+    ],
+    [
+     2026.417,
+     184.117826
+    ],
+    [
+     2026.5,
+     184.867551
+    ],
+    [
+     2026.583,
+     185.637835
+    ],
+    [
+     2026.667,
+     186.279602
+    ],
+    [
+     2026.75,
+     186.974734
+    ]
+   ],
+   "projecao": {
+    "anos": [
+     2026,
+     2027,
+     2028,
+     2029,
+     2030,
+     2031,
+     2032,
+     2033,
+     2034,
+     2035,
+     2036,
+     2037,
+     2038
+    ],
+    "central": [
+     184.366424,
+     185.735884,
+     186.38633,
+     186.695266,
+     186.841998,
+     186.91169,
+     186.944791,
+     186.960512,
+     186.967979,
+     186.971526,
+     186.97321,
+     186.97401,
+     186.97439
+    ],
+    "p10": [
+     198.935302,
+     202.16946,
+     203.875387,
+     204.780053,
+     205.277405,
+     205.550835,
+     205.701162,
+     205.783811,
+     205.829251,
+     205.854235,
+     205.867972,
+     205.875525,
+     205.879678
+    ],
+    "p90": [
+     216.535736,
+     222.932885,
+     226.883084,
+     229.392581,
+     230.944394,
+     231.989516,
+     232.654719,
+     233.078107,
+     233.347584,
+     233.5191,
+     233.628266,
+     233.697747,
+     233.74197
+    ]
+   },
+   "cenarios": {
+    "lento": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 10,
+     "parametros": {
+      "m": 205.892971,
+      "p": 0.598862,
+      "q": 0.001,
+      "ts": 2020.76
+     },
+     "valor_ano_ref": 205.863161,
+     "duracao_10_90_anos": 3.67
+    },
+    "base": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 50,
+     "parametros": {
+      "m": 221.657192,
+      "p": 0.511371,
+      "q": 0.001,
+      "ts": 2020.76
+     },
+     "valor_ano_ref": 221.540623,
+     "duracao_10_90_anos": 4.29
+    },
+    "rapido": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 90,
+     "parametros": {
+      "m": 233.819398,
+      "p": 0.450573,
+      "q": 0.001,
+      "ts": 2020.76
+     },
+     "valor_ano_ref": 233.518028,
+     "duracao_10_90_anos": 4.87
+    }
+   }
+  },
+  {
+   "id": "pix_transacoes",
+   "rotulo": "Pix: transações por mês",
+   "dominio": "pagamentos",
+   "modelo": "logistica",
+   "unidade": "milhões/mês",
+   "usada_na_difusao": true,
+   "fonte_dados": {
+    "nome": "bcb_pix_transacoes",
+    "url": "https://olinda.bcb.gov.br/olinda/servico/Pix_DadosAbertos/versao/v1/odata/EstatisticasTransacoesPix(Database=@d)?@d='202011'&$format=json&$select=AnoMes,QUANTIDADE,VALOR&$filter=AnoMes%20eq%20202011&$top=1000000 (+70 arquivos mensais; ver PROVENIENCIA.json)",
+    "baixado_em": "2026-10-06T22:50:52+00:00",
+    "sha256": "1a1f92600726b0ac3ddd1ff8eb5a41181cb8d8e38203947606126d2cd7e9dc1f"
+   },
+   "convencao_tempo": "série mensal: t = ano + (mês-0,5)/12 (fluxo) ou fim do mês (estoque); projeção em meio de ano",
+   "limites": "Ajuste a partir de jun/2021 (rampa de lançamento tem crescimento de centenas de % ao mês e domina o erro no log). Série mensal tem sazonalidade (dezembro) e efeito de dias úteis que a logística ignora; os resíduos autocorrelacionados fazem a banda do bootstrap ser estreita demais. Teto de busca: K ≤ 60 bi/mês (SUPOSIÇÃO ~ 280 transações/hab/mês; limite de busca).",
+   "parametros": {
+    "K": 7638.751631,
+    "r": 0.881591,
+    "t0": 2023.983731
+   },
+   "identificacao_teto": {
+    "teto_obs_max": 7366.9814,
+    "teto_ajustado": 7638.7516,
+    "teto_p10_p90": [
+     7466.6453,
+     7835.709
+    ],
+    "razao_teto_p90_sobre_p10": 1.05,
+    "replicas_no_limite_superior_pct": 0.0,
+    "replicas_com_teto_igual_ao_maximo_observado_pct": 1.7,
+    "central_dentro_de_p10_p90": true,
+    "ajuste_na_fronteira": false,
+    "frac_do_teto_ja_atingida": 0.939
+   },
+   "ajuste": {
+    "metodo": "mínimos quadrados não lineares no log (scipy least_squares, multi-start); incerteza: bootstrap de resíduos (B=300)",
+    "periodo_treino": [
+     2021.542,
+     2026.708
+    ],
+    "n_pontos": 63,
+    "rmse_log_in_sample": 0.0487,
+    "incerteza_parametros": {
+     "K": {
+      "p10": 7466.645342,
+      "p50": 7646.150401,
+      "p90": 7835.708966
+     },
+     "r": {
+      "p10": 0.859091,
+      "p50": 0.883199,
+      "p90": 0.900273
+     },
+     "t0": {
+      "p10": 2023.930916,
+      "p50": 2023.984414,
+      "p90": 2024.059621
+     }
+    },
+    "erro_teste": {
+     "k": 12,
+     "rmse": 457.99896307809104,
+     "mape_pct": 5.80748505734002,
+     "treino_ate": 2025.708,
+     "periodo_teste": [
+      2025.792,
+      2026.708
+     ],
+     "previsto": [
+      6171.1325,
+      6237.2695,
+      6299.8385,
+      6358.954,
+      6414.7369,
+      6467.3131,
+      6516.8121,
+      6563.3653,
+      6607.105,
+      6648.1633,
+      6686.6713,
+      6722.7579
+     ],
+     "observado": [
+      6453.0053,
+      6460.8984,
+      7098.6331,
+      6364.1754,
+      5986.274,
+      6741.9965,
+      6680.8968,
+      7121.879,
+      6982.2735,
+      7238.3745,
+      7366.9814,
+      7169.7244
+     ]
+    },
+    "baseline_erro_teste": {
+     "ingenuo": {
+      "rmse": 785.411427885403,
+      "mape_pct": 9.95367972011736
+     },
+     "linear": {
+      "rmse": 364.92667239336384,
+      "mape_pct": 4.323887932170823
+     },
+     "ganha_do_melhor_baseline": false
+    }
+   },
+   "pontos_observados": [
+    [
+     2021.542,
+     745.678802
+    ],
+    [
+     2021.625,
+     815.190849
+    ],
+    [
+     2021.708,
+     871.21415
+    ],
+    [
+     2021.792,
+     979.861897
+    ],
+    [
+     2021.875,
+     1035.141137
+    ],
+    [
+     2021.958,
+     1224.400751
+    ],
+    [
+     2022.042,
+     1093.36823
+    ],
+    [
+     2022.125,
+     1162.439565
+    ],
+    [
+     2022.208,
+     1362.478423
+    ],
+    [
+     2022.292,
+     1419.966427
+    ],
+    [
+     2022.375,
+     1575.162709
+    ],
+    [
+     2022.458,
+     1633.750257
+    ],
+    [
+     2022.542,
+     1749.926758
+    ],
+    [
+     2022.625,
+     1858.906259
+    ],
+    [
+     2022.708,
+     1921.667894
+    ],
+    [
+     2022.792,
+     2048.976621
+    ],
+    [
+     2022.875,
+     2103.79725
+    ],
+    [
+     2022.958,
+     2423.164689
+    ],
+    [
+     2023.042,
+     2182.916966
+    ],
+    [
+     2023.125,
+     2153.790143
+    ],
+    [
+     2023.208,
+     2546.013172
+    ],
+    [
+     2023.292,
+     2519.076701
+    ],
+    [
+     2023.375,
+     2758.906073
+    ],
+    [
+     2023.458,
+     2858.428807
+    ],
+    [
+     2023.542,
+     3077.548077
+    ],
+    [
+     2023.625,
+     3278.230437
+    ],
+    [
+     2023.708,
+     3351.055742
+    ],
+    [
+     2023.792,
+     3554.60872
+    ],
+    [
+     2023.875,
+     3705.354264
+    ],
+    [
+     2023.958,
+     4213.424368
+    ],
+    [
+     2024.042,
+     3850.64279
+    ],
+    [
+     2024.125,
+     3847.081494
+    ],
+    [
+     2024.208,
+     4322.927194
+    ],
+    [
+     2024.292,
+     4345.270379
+    ],
+    [
+     2024.375,
+     4620.740116
+    ],
+    [
+     2024.458,
+     4657.223835
+    ],
+    [
+     2024.542,
+     4786.637559
+    ],
+    [
+     2024.625,
+     5009.383921
+    ],
+    [
+     2024.708,
+     4894.958645
+    ],
+    [
+     2024.792,
+     5096.15667
+    ],
+    [
+     2024.875,
+     5171.276538
+    ],
+    [
+     2024.958,
+     5710.113496
+    ],
+    [
+     2025.042,
+     5060.285434
+    ],
+    [
+     2025.125,
+     4985.804933
+    ],
+    [
+     2025.208,
+     5564.4314
+    ],
+    [
+     2025.292,
+     5598.161245
+    ],
+    [
+     2025.375,
+     5930.140613
+    ],
+    [
+     2025.458,
+     5799.009959
+    ],
+    [
+     2025.542,
+     5996.860799
+    ],
+    [
+     2025.625,
+     6239.608083
+    ],
+    [
+     2025.708,
+     6133.276456
+    ],
+    [
+     2025.792,
+     6453.005306
+    ],
+    [
+     2025.875,
+     6460.898392
+    ],
+    [
+     2025.958,
+     7098.633064
+    ],
+    [
+     2026.042,
+     6364.175378
+    ],
+    [
+     2026.125,
+     5986.274045
+    ],
+    [
+     2026.208,
+     6741.996455
+    ],
+    [
+     2026.292,
+     6680.896774
+    ],
+    [
+     2026.375,
+     7121.879045
+    ],
+    [
+     2026.458,
+     6982.273524
+    ],
+    [
+     2026.542,
+     7238.374542
+    ],
+    [
+     2026.625,
+     7366.981446
+    ],
+    [
+     2026.708,
+     7169.724394
+    ]
+   ],
+   "projecao": {
+    "anos": [
+     2026,
+     2027,
+     2028,
+     2029,
+     2030,
+     2031,
+     2032,
+     2033,
+     2034,
+     2035,
+     2036,
+     2037,
+     2038
+    ],
+    "central": [
+     6889.258278,
+     7309.438479,
+     7498.841558,
+     7580.183112,
+     7614.387593,
+     7628.643023,
+     7634.562172,
+     7637.01612,
+     7638.032819,
+     7638.453938,
+     7638.628346,
+     7638.700575,
+     7638.730487
+    ],
+    "p10": [
+     6782.838753,
+     7169.514438,
+     7343.852817,
+     7416.356282,
+     7446.095747,
+     7458.71025,
+     7463.425699,
+     7465.33946,
+     7466.115755,
+     7466.430585,
+     7466.558255,
+     7466.610027,
+     7466.631022
+    ],
+    "p90": [
+     7016.012116,
+     7470.593077,
+     7678.123234,
+     7764.126118,
+     7805.370643,
+     7822.890156,
+     7830.299652,
+     7833.427574,
+     7834.747003,
+     7835.303387,
+     7835.537974,
+     7835.636877,
+     7835.678574
+    ]
+   },
+   "cenarios": {
+    "lento": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 10,
+     "parametros": {
+      "K": 7466.821593,
+      "r": 0.903672,
+      "t0": 2023.9141
+     },
+     "valor_ano_ref": 7466.609696,
+     "duracao_10_90_anos": 4.86
+    },
+    "base": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 50,
+     "parametros": {
+      "K": 7647.652117,
+      "r": 0.865711,
+      "t0": 2024.03185
+     },
+     "valor_ano_ref": 7647.279051,
+     "duracao_10_90_anos": 5.08
+    },
+    "rapido": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 90,
+     "parametros": {
+      "K": 7835.429785,
+      "r": 0.86323,
+      "t0": 2024.077987
+     },
+     "valor_ano_ref": 7835.020551,
+     "duracao_10_90_anos": 5.09
+    }
+   }
+  },
+  {
+   "id": "internet_domicilios",
+   "rotulo": "Domicílios com utilização de internet (%)",
+   "dominio": "conectividade",
+   "modelo": "logistica",
+   "unidade": "% dos domicílios",
+   "usada_na_difusao": true,
+   "fonte_dados": {
+    "nome": "ibge_sidra_7307_internet",
+    "url": "https://apisidra.ibge.gov.br/values/t/7307/n1/all/v/9784/p/all/c1/6795/c688/all",
+    "baixado_em": "2026-10-06T22:50:55+00:00",
+    "sha256": "5aee931dc81dfe3077e6a2d43c40b1765e2d79324dc63b5ab2423ae74d8cd2a0"
+   },
+   "convencao_tempo": "série anual: t = ano; projeção no ano",
+   "limites": "9 pontos (2016-2025, sem 2020) e já perto do teto: a curva S só vê a cauda, o teto K é pouco identificado e sub-100% é plausível (domicílios sem interesse/acesso). Teto de busca: K ≤ 100% (definição).",
+   "parametros": {
+    "K": 97.358238,
+    "r": 0.29216,
+    "t0": 2012.634457
+   },
+   "identificacao_teto": {
+    "teto_obs_max": 95.0,
+    "teto_ajustado": 97.3582,
+    "teto_p10_p90": [
+     96.8627,
+     97.8774
+    ],
+    "razao_teto_p90_sobre_p10": 1.01,
+    "replicas_no_limite_superior_pct": 0.0,
+    "replicas_com_teto_igual_ao_maximo_observado_pct": 0.0,
+    "central_dentro_de_p10_p90": true,
+    "ajuste_na_fronteira": false,
+    "frac_do_teto_ja_atingida": 0.976
+   },
+   "ajuste": {
+    "metodo": "mínimos quadrados não lineares no log (scipy least_squares, multi-start); incerteza: bootstrap de resíduos (B=300)",
+    "periodo_treino": [
+     2016.0,
+     2025.0
+    ],
+    "n_pontos": 9,
+    "rmse_log_in_sample": 0.0028,
+    "incerteza_parametros": {
+     "K": {
+      "p10": 96.862707,
+      "p50": 97.361855,
+      "p90": 97.877432
+     },
+     "r": {
+      "p10": 0.279128,
+      "p50": 0.292192,
+      "p90": 0.30424
+     },
+     "t0": {
+      "p10": 2012.50464,
+      "p50": 2012.635691,
+      "p90": 2012.745654
+     }
+    },
+    "erro_teste": {
+     "k": 3,
+     "rmse": 0.6237113672467577,
+     "mape_pct": 0.6464336183637415,
+     "treino_ate": 2022.0,
+     "periodo_teste": [
+      2023.0,
+      2025.0
+     ],
+     "previsto": [
+      93.253,
+      94.4622,
+      95.3997
+     ],
+     "observado": [
+      92.6,
+      93.7,
+      95.0
+     ]
+    },
+    "baseline_erro_teste": {
+     "ingenuo": {
+      "rmse": 2.3783747952471015,
+      "mape_pct": 2.300018759831578
+     },
+     "linear": {
+      "rmse": 6.295625946696824,
+      "mape_pct": 6.413057629659943
+     },
+     "ganha_do_melhor_baseline": true
+    }
+   },
+   "pontos_observados": [
+    [
+     2016.0,
+     70.8
+    ],
+    [
+     2017.0,
+     76.3
+    ],
+    [
+     2018.0,
+     80.5
+    ],
+    [
+     2019.0,
+     83.9
+    ],
+    [
+     2021.0,
+     90.0
+    ],
+    [
+     2022.0,
+     91.6
+    ],
+    [
+     2023.0,
+     92.6
+    ],
+    [
+     2024.0,
+     93.7
+    ],
+    [
+     2025.0,
+     95.0
+    ]
+   ],
+   "projecao": {
+    "anos": [
+     2026,
+     2027,
+     2028,
+     2029,
+     2030,
+     2031,
+     2032,
+     2033,
+     2034,
+     2035,
+     2036,
+     2037,
+     2038
+    ],
+    "central": [
+     95.435839,
+     95.915665,
+     96.277084,
+     96.548718,
+     96.752535,
+     96.905277,
+     97.019636,
+     97.105198,
+     97.169182,
+     97.21701,
+     97.252751,
+     97.279455,
+     97.299403
+    ],
+    "p10": [
+     95.148905,
+     95.59629,
+     95.926182,
+     96.173152,
+     96.353311,
+     96.478977,
+     96.577063,
+     96.652037,
+     96.708006,
+     96.749507,
+     96.780263,
+     96.803052,
+     96.818829
+    ],
+    "p90": [
+     95.677318,
+     96.208029,
+     96.60475,
+     96.910338,
+     97.140055,
+     97.319934,
+     97.456272,
+     97.5602,
+     97.638627,
+     97.697849,
+     97.742686,
+     97.775861,
+     97.800718
+    ]
+   },
+   "cenarios": {
+    "lento": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 10,
+     "parametros": {
+      "K": 96.868885,
+      "r": 0.300227,
+      "t0": 2012.67842
+     },
+     "valor_ano_ref": 96.749977,
+     "duracao_10_90_anos": 14.64
+    },
+    "base": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 50,
+     "parametros": {
+      "K": 97.375082,
+      "r": 0.285661,
+      "t0": 2012.49972
+     },
+     "valor_ano_ref": 97.217922,
+     "duracao_10_90_anos": 15.38
+    },
+    "rapido": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 90,
+     "parametros": {
+      "K": 97.882667,
+      "r": 0.279142,
+      "t0": 2012.541181
+     },
+     "valor_ano_ref": 97.697652,
+     "duracao_10_90_anos": 15.74
+    }
+   }
+  },
+  {
+   "id": "celular_pessoas",
+   "rotulo": "Pessoas de 10+ anos com celular para uso pessoal (%)",
+   "dominio": "conectividade",
+   "modelo": "logistica",
+   "unidade": "% das pessoas 10+",
+   "usada_na_difusao": true,
+   "fonte_dados": {
+    "nome": "ibge_sidra_6863_celular",
+    "url": "https://apisidra.ibge.gov.br/values/t/6863/n1/all/v/5039/p/all/c1/6795/c2/6794",
+    "baixado_em": "2026-10-06T22:50:56+00:00",
+    "sha256": "e6a550d2c10afaa89e0bd46448af2545408cc8acb2b01348a6e8fc884455add9"
+   },
+   "convencao_tempo": "série anual: t = ano; projeção no ano",
+   "limites": "Poucos pontos anuais já saturando; o teto é praticamente fixado pelo limite superior. Teto de busca: K ≤ 100% (definição).",
+   "parametros": {
+    "K": 100.0,
+    "r": 0.105701,
+    "t0": 2004.714012
+   },
+   "identificacao_teto": {
+    "teto_obs_max": 88.9,
+    "teto_ajustado": 100.0,
+    "teto_p10_p90": [
+     94.277,
+     100.0
+    ],
+    "razao_teto_p90_sobre_p10": 1.06,
+    "replicas_no_limite_superior_pct": 50.7,
+    "replicas_com_teto_igual_ao_maximo_observado_pct": 0.0,
+    "central_dentro_de_p10_p90": false,
+    "ajuste_na_fronteira": true,
+    "frac_do_teto_ja_atingida": 0.889
+   },
+   "ajuste": {
+    "metodo": "mínimos quadrados não lineares no log (scipy least_squares, multi-start); incerteza: bootstrap de resíduos (B=300)",
+    "periodo_treino": [
+     2016.0,
+     2024.0
+    ],
+    "n_pontos": 8,
+    "rmse_log_in_sample": 0.0055,
+    "incerteza_parametros": {
+     "K": {
+      "p10": 94.276963,
+      "p50": 99.999996,
+      "p90": 100.0
+     },
+     "r": {
+      "p10": 0.100866,
+      "p50": 0.111279,
+      "p90": 0.151423
+     },
+     "t0": {
+      "p10": 2003.915777,
+      "p50": 2005.134256,
+      "p90": 2006.474804
+     }
+    },
+    "erro_teste": {
+     "k": 3,
+     "rmse": 1.3499216420700564,
+     "mape_pct": 1.531723246464423,
+     "treino_ate": 2021.0,
+     "periodo_teste": [
+      2022.0,
+      2024.0
+     ],
+     "previsto": [
+      85.2462,
+      86.346,
+      87.376
+     ],
+     "observado": [
+      86.5,
+      87.6,
+      88.9
+     ]
+    },
+    "baseline_erro_teste": {
+     "ingenuo": {
+      "rmse": 3.4107672646097247,
+      "mape_pct": 3.71419365595374
+     },
+     "linear": {
+      "rmse": 0.5989571734614689,
+      "mape_pct": 0.6518193626660924
+     },
+     "ganha_do_melhor_baseline": false
+    }
+   },
+   "pontos_observados": [
+    [
+     2016.0,
+     77.4
+    ],
+    [
+     2017.0,
+     78.5
+    ],
+    [
+     2018.0,
+     79.7
+    ],
+    [
+     2019.0,
+     81.4
+    ],
+    [
+     2021.0,
+     84.4
+    ],
+    [
+     2022.0,
+     86.5
+    ],
+    [
+     2023.0,
+     87.6
+    ],
+    [
+     2024.0,
+     88.9
+    ]
+   ],
+   "projecao": {
+    "anos": [
+     2026,
+     2027,
+     2028,
+     2029,
+     2030,
+     2031,
+     2032,
+     2033,
+     2034,
+     2035,
+     2036,
+     2037,
+     2038
+    ],
+    "central": [
+     90.464552,
+     91.338167,
+     92.1387,
+     92.871021,
+     93.539906,
+     94.149985,
+     94.70571,
+     95.211329,
+     95.670868,
+     96.088119,
+     96.46664,
+     96.80975,
+     97.120537
+    ],
+    "p10": [
+     89.613983,
+     90.2754,
+     90.828048,
+     91.318564,
+     91.708685,
+     92.097601,
+     92.400649,
+     92.655386,
+     92.864403,
+     93.055225,
+     93.218276,
+     93.368935,
+     93.499361
+    ],
+    "p90": [
+     90.737883,
+     91.613412,
+     92.413324,
+     93.140922,
+     93.808812,
+     94.416087,
+     94.944515,
+     95.443919,
+     95.899885,
+     96.31019,
+     96.683066,
+     97.015483,
+     97.314655
+    ]
+   },
+   "cenarios": {
+    "lento": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 10,
+     "parametros": {
+      "K": 94.54227,
+      "r": 0.141402,
+      "t0": 2005.744584
+     },
+     "valor_ano_ref": 93.055777,
+     "duracao_10_90_anos": 31.08
+    },
+    "base": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 50,
+     "parametros": {
+      "K": 99.035465,
+      "r": 0.112403,
+      "t0": 2005.043304
+     },
+     "valor_ano_ref": 95.734015,
+     "duracao_10_90_anos": 39.1
+    },
+    "rapido": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 90,
+     "parametros": {
+      "K": 100.0,
+      "r": 0.11083,
+      "t0": 2005.567717
+     },
+     "valor_ano_ref": 96.310163,
+     "duracao_10_90_anos": 39.65
+    }
+   }
+  },
+  {
+   "id": "solar_gd_brasil",
+   "rotulo": "Solar fotovoltaica distribuída (MMGD): potência acumulada",
+   "dominio": "energia",
+   "modelo": "logistica",
+   "unidade": "GW acumulados",
+   "usada_na_difusao": true,
+   "fonte_dados": {
+    "nome": "aneel_gd_empreendimentos",
+    "url": "https://dadosabertos.aneel.gov.br/dataset/5e0fafd2-21b9-4d5b-b622-40438d40aba2/resource/cd29f6eb-e08d-4db7-b6fb-ed6e3b682d27/download/empreendimento-geracao-distribuida.parquet",
+    "baixado_em": "2026-10-06T23:16:37+00:00",
+    "sha256": "b51b9c9a2db1bc3c8ac91ac52fa6482aaff043a4efc0698e4ad59efc61b1f7e3"
+   },
+   "convencao_tempo": "série anual: t = ano; projeção no ano",
+   "limites": "Potência acumulada por ano da data cadastral do arquivo de empreendimentos da ANEEL (o nome do campo é 'atualização cadastral', não 'conexão'; a soma até hoje, ~50 GW de UFV, é coerente com o parque de GD solar conhecido, mas a data pode adiantar/atrasar a conexão real). Crescimento foi puxado por regulação (Lei 14.300/2022) e subsídio, não só por custo: mudança de regra quebra a forma logística. Teto muito incerto. Teto de busca: K ≤ 300 GW (SUPOSIÇÃO; ~1,4× a capacidade elétrica total do país; limite de busca).",
+   "parametros": {
+    "K": 49.22302,
+    "r": 1.015143,
+    "t0": 2022.151958
+   },
+   "identificacao_teto": {
+    "teto_obs_max": 49.223,
+    "teto_ajustado": 49.223,
+    "teto_p10_p90": [
+     44.2535,
+     58.4508
+    ],
+    "razao_teto_p90_sobre_p10": 1.32,
+    "replicas_no_limite_superior_pct": 0.0,
+    "replicas_com_teto_igual_ao_maximo_observado_pct": 46.7,
+    "central_dentro_de_p10_p90": true,
+    "ajuste_na_fronteira": true,
+    "frac_do_teto_ja_atingida": 1.0
+   },
+   "ajuste": {
+    "metodo": "mínimos quadrados não lineares no log (scipy least_squares, multi-start); incerteza: bootstrap de resíduos (B=300)",
+    "periodo_treino": [
+     2017.0,
+     2025.0
+    ],
+    "n_pontos": 9,
+    "rmse_log_in_sample": 0.1252,
+    "incerteza_parametros": {
+     "K": {
+      "p10": 44.253494,
+      "p50": 50.148788,
+      "p90": 58.450762
+     },
+     "r": {
+      "p10": 0.96826,
+      "p50": 1.010922,
+      "p90": 1.059557
+     },
+     "t0": {
+      "p10": 2021.932809,
+      "p50": 2022.190729,
+      "p90": 2022.458287
+     }
+    },
+    "erro_teste": {
+     "k": 3,
+     "rmse": 16.28814931286562,
+     "mape_pct": 34.524489165536274,
+     "treino_ate": 2022.0,
+     "periodo_teste": [
+      2023.0,
+      2025.0
+     ],
+     "previsto": [
+      23.4299,
+      25.0993,
+      25.6733
+     ],
+     "observado": [
+      28.956,
+      39.6177,
+      49.223
+     ]
+    },
+    "baseline_erro_teste": {
+     "ingenuo": {
+      "rmse": 20.744211084557314,
+      "mape_pct": 45.95253923992239
+     },
+     "linear": {
+      "rmse": 15.879305734042712,
+      "mape_pct": 37.14343382371879
+     },
+     "ganha_do_melhor_baseline": false
+    }
+   },
+   "pontos_observados": [
+    [
+     2017.0,
+     0.228999
+    ],
+    [
+     2018.0,
+     0.674272
+    ],
+    [
+     2019.0,
+     2.37045
+    ],
+    [
+     2020.0,
+     5.785701
+    ],
+    [
+     2021.0,
+     11.409374
+    ],
+    [
+     2022.0,
+     20.244473
+    ],
+    [
+     2023.0,
+     28.955954
+    ],
+    [
+     2024.0,
+     39.617672
+    ],
+    [
+     2025.0,
+     49.22302
+    ]
+   ],
+   "projecao": {
+    "anos": [
+     2026,
+     2027,
+     2028,
+     2029,
+     2030,
+     2031,
+     2032,
+     2033,
+     2034,
+     2035,
+     2036,
+     2037,
+     2038
+    ],
+    "central": [
+     48.252445,
+     48.866853,
+     49.093365,
+     49.17596,
+     49.205958,
+     49.216836,
+     49.220779,
+     49.222208,
+     49.222726,
+     49.222914,
+     49.222982,
+     49.223006,
+     49.223015
+    ],
+    "p10": [
+     43.520247,
+     43.955152,
+     44.144336,
+     44.213662,
+     44.238973,
+     44.248202,
+     44.251566,
+     44.252791,
+     44.253238,
+     44.253401,
+     44.25346,
+     44.253482,
+     44.25349
+    ],
+    "p90": [
+     56.79058,
+     57.832855,
+     58.222284,
+     58.366637,
+     58.419836,
+     58.439399,
+     58.446588,
+     58.449229,
+     58.450199,
+     58.450555,
+     58.450686,
+     58.450734,
+     58.450752
+    ]
+   },
+   "cenarios": {
+    "lento": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 10,
+     "parametros": {
+      "K": 44.266425,
+      "r": 1.007586,
+      "t0": 2022.073507
+     },
+     "valor_ano_ref": 44.266328,
+     "duracao_10_90_anos": 4.36
+    },
+    "base": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 50,
+     "parametros": {
+      "K": 50.113368,
+      "r": 0.987075,
+      "t0": 2022.311125
+     },
+     "valor_ano_ref": 50.113186,
+     "duracao_10_90_anos": 4.45
+    },
+    "rapido": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 90,
+     "parametros": {
+      "K": 58.450762,
+      "r": 1.001721,
+      "t0": 2022.470768
+     },
+     "valor_ano_ref": 58.450555,
+     "duracao_10_90_anos": 4.39
+    }
+   }
+  },
+  {
+   "id": "solar_total_brasil",
+   "rotulo": "Solar fotovoltaica instalada no Brasil (GD + centralizada)",
+   "dominio": "energia",
+   "modelo": "logistica",
+   "unidade": "GW acumulados",
+   "usada_na_difusao": true,
+   "fonte_dados": {
+    "nome": "owid_solar_capacidade",
+    "url": "https://ourworldindata.org/grapher/installed-solar-pv-capacity.csv?csvType=full",
+    "baixado_em": "2026-10-06T23:14:07+00:00",
+    "sha256": "b67451e97291c42cd655f8658e785b980216f26fdfb0725aaf7bc5e846ae8c95"
+   },
+   "convencao_tempo": "série anual: t = ano; projeção no ano",
+   "limites": "Fonte secundária (OWID, compilando IRENA/Ember). O recorte 'só centralizada' não foi publicado como série aberta confirmada: seria o total menos a GD, com bases de datas distintas, e não foi calculado. Teto de busca: K ≤ 300 GW (SUPOSIÇÃO; limite de busca).",
+   "parametros": {
+    "K": 87.255531,
+    "r": 0.662228,
+    "t0": 2023.391115
+   },
+   "identificacao_teto": {
+    "teto_obs_max": 64.6896,
+    "teto_ajustado": 87.2555,
+    "teto_p10_p90": [
+     83.2866,
+     91.2372
+    ],
+    "razao_teto_p90_sobre_p10": 1.1,
+    "replicas_no_limite_superior_pct": 0.0,
+    "replicas_com_teto_igual_ao_maximo_observado_pct": 0.0,
+    "central_dentro_de_p10_p90": true,
+    "ajuste_na_fronteira": false,
+    "frac_do_teto_ja_atingida": 0.741
+   },
+   "ajuste": {
+    "metodo": "mínimos quadrados não lineares no log (scipy least_squares, multi-start); incerteza: bootstrap de resíduos (B=300)",
+    "periodo_treino": [
+     2017.0,
+     2025.0
+    ],
+    "n_pontos": 9,
+    "rmse_log_in_sample": 0.0233,
+    "incerteza_parametros": {
+     "K": {
+      "p10": 83.286596,
+      "p50": 87.534624,
+      "p90": 91.23719
+     },
+     "r": {
+      "p10": 0.65297,
+      "p50": 0.662857,
+      "p90": 0.671634
+     },
+     "t0": {
+      "p10": 2023.25483,
+      "p50": 2023.38594,
+      "p90": 2023.520763
+     }
+    },
+    "erro_teste": {
+     "k": 3,
+     "rmse": 3.8963574647177674,
+     "mape_pct": 6.037284930391264,
+     "treino_ate": 2022.0,
+     "periodo_teste": [
+      2023.0,
+      2025.0
+     ],
+     "previsto": [
+      36.7062,
+      49.101,
+      59.3295
+     ],
+     "observado": [
+      37.5606,
+      53.1115,
+      64.6896
+     ]
+    },
+    "baseline_erro_teste": {
+     "ingenuo": {
+      "rmse": 28.940747631096666,
+      "mape_pct": 49.10740476788498
+     },
+     "linear": {
+      "rmse": 23.27226042642009,
+      "mape_pct": 41.31440070981554
+     },
+     "ganha_do_melhor_baseline": true
+    }
+   },
+   "pontos_observados": [
+    [
+     2017.0,
+     1.206452
+    ],
+    [
+     2018.0,
+     2.454394
+    ],
+    [
+     2019.0,
+     4.666103
+    ],
+    [
+     2020.0,
+     8.382364
+    ],
+    [
+     2021.0,
+     14.306791
+    ],
+    [
+     2022.0,
+     25.065971
+    ],
+    [
+     2023.0,
+     37.56062
+    ],
+    [
+     2024.0,
+     53.11147
+    ],
+    [
+     2025.0,
+     64.68963
+    ]
+   ],
+   "projecao": {
+    "anos": [
+     2026,
+     2027,
+     2028,
+     2029,
+     2030,
+     2031,
+     2032,
+     2033,
+     2034,
+     2035,
+     2036,
+     2037,
+     2038
+    ],
+    "central": [
+     74.089982,
+     79.930801,
+     83.318084,
+     85.179618,
+     86.172502,
+     86.693634,
+     86.964853,
+     87.105386,
+     87.178036,
+     87.21555,
+     87.234908,
+     87.244894,
+     87.250045
+    ],
+    "p10": [
+     71.750435,
+     76.950792,
+     79.978334,
+     81.644442,
+     82.433244,
+     82.836291,
+     83.048981,
+     83.164868,
+     83.224278,
+     83.254703,
+     83.270277,
+     83.278246,
+     83.282324
+    ],
+    "p90": [
+     76.343491,
+     82.795162,
+     86.66819,
+     88.745029,
+     89.960399,
+     90.574864,
+     90.893157,
+     91.058536,
+     91.144498,
+     91.18912,
+     91.212266,
+     91.224269,
+     91.230492
+    ]
+   },
+   "cenarios": {
+    "lento": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 10,
+     "parametros": {
+      "K": 83.290472,
+      "r": 0.669355,
+      "t0": 2023.26946
+     },
+     "valor_ano_ref": 83.258083,
+     "duracao_10_90_anos": 6.57
+    },
+    "base": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 50,
+     "parametros": {
+      "K": 87.516447,
+      "r": 0.66299,
+      "t0": 2023.388718
+     },
+     "valor_ano_ref": 87.476762,
+     "duracao_10_90_anos": 6.63
+    },
+    "rapido": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 90,
+     "parametros": {
+      "K": 91.23095,
+      "r": 0.656886,
+      "t0": 2023.518144
+     },
+     "valor_ano_ref": 91.182606,
+     "duracao_10_90_anos": 6.69
+    }
+   }
+  },
+  {
+   "id": "carros_eletricos_brasil",
+   "rotulo": "Carros elétricos (BEV+PHEV) vendidos no Brasil por ano",
+   "dominio": "mobilidade",
+   "modelo": "logistica",
+   "unidade": "unidades/ano",
+   "usada_na_difusao": true,
+   "fonte_dados": {
+    "nome": "owid_carros_eletricos",
+    "url": "https://ourworldindata.org/grapher/electric-car-sales.csv?csvType=full",
+    "baixado_em": "2026-10-06T23:14:09+00:00",
+    "sha256": "defce0b8c9a5f4e1e6f4e09cea1f6bdb311e87dd1adde4dac460dca064fa8a5a"
+   },
+   "convencao_tempo": "série anual: t = ano; projeção no ano",
+   "limites": "IEA via OWID, não ABVE/Fenabrave (emplacamentos não achados em fonte aberta baixável). Cresceu com isenção/queda de tarifa de importação que mudou de regra; o teto (participação do mercado) é essencialmente não identificado. Teto de busca: K ≤ 4 mi/ano (SUPOSIÇÃO ~ mercado total de leves; limite de busca).",
+   "parametros": {
+    "K": 289936.914146,
+    "r": 0.984771,
+    "t0": 2024.453443
+   },
+   "identificacao_teto": {
+    "teto_obs_max": 178000.0,
+    "teto_ajustado": 289936.9141,
+    "teto_p10_p90": [
+     180923.0261,
+     1060915.14
+    ],
+    "razao_teto_p90_sobre_p10": 5.86,
+    "replicas_no_limite_superior_pct": 3.7,
+    "replicas_com_teto_igual_ao_maximo_observado_pct": 9.7,
+    "central_dentro_de_p10_p90": true,
+    "ajuste_na_fronteira": false,
+    "frac_do_teto_ja_atingida": 0.614
+   },
+   "ajuste": {
+    "metodo": "mínimos quadrados não lineares no log (scipy least_squares, multi-start); incerteza: bootstrap de resíduos (B=300)",
+    "periodo_treino": [
+     2018.0,
+     2025.0
+    ],
+    "n_pontos": 8,
+    "rmse_log_in_sample": 0.2535,
+    "incerteza_parametros": {
+     "K": {
+      "p10": 180923.026088,
+      "p50": 286040.177164,
+      "p90": 1060915.13997
+     },
+     "r": {
+      "p10": 0.890611,
+      "p50": 0.984806,
+      "p90": 1.092191
+     },
+     "t0": {
+      "p10": 2023.583442,
+      "p50": 2024.445037,
+      "p90": 2026.305823
+     }
+    },
+    "erro_teste": {
+     "k": 3,
+     "rmse": 99977.16201573002,
+     "mape_pct": 66.83192553533286,
+     "treino_ate": 2022.0,
+     "periodo_teste": [
+      2023.0,
+      2025.0
+     ],
+     "previsto": [
+      28332.3997,
+      32552.1692,
+      34147.1363
+     ],
+     "observado": [
+      52000.0,
+      126000.0,
+      178000.0
+     ]
+    },
+    "baseline_erro_teste": {
+     "ingenuo": {
+      "rmse": 112722.00317595496,
+      "mape_pct": 79.78242627119032
+     },
+     "linear": {
+      "rmse": 103619.73174384393,
+      "mape_pct": 72.9771087422761
+     },
+     "ganha_do_melhor_baseline": true
+    }
+   },
+   "pontos_observados": [
+    [
+     2018.0,
+     410.0
+    ],
+    [
+     2019.0,
+     1940.0
+    ],
+    [
+     2020.0,
+     2600.0
+    ],
+    [
+     2021.0,
+     13900.0
+    ],
+    [
+     2022.0,
+     18500.0
+    ],
+    [
+     2023.0,
+     52000.0
+    ],
+    [
+     2024.0,
+     126000.0
+    ],
+    [
+     2025.0,
+     178000.0
+    ]
+   ],
+   "projecao": {
+    "anos": [
+     2026,
+     2027,
+     2028,
+     2029,
+     2030,
+     2031,
+     2032,
+     2033,
+     2034,
+     2035,
+     2036,
+     2037,
+     2038
+    ],
+    "central": [
+     238032.557904,
+     268100.357819,
+     281376.516928,
+     286679.136294,
+     288711.427272,
+     289477.94923,
+     289765.309239,
+     289872.7917,
+     289912.959511,
+     289927.966035,
+     289933.571741,
+     289935.665666,
+     289936.447807
+    ],
+    "p10": [
+     164132.200859,
+     174264.082278,
+     178411.568367,
+     180419.360613,
+     180797.433673,
+     180881.578647,
+     180909.350417,
+     180918.513671,
+     180921.537031,
+     180922.534653,
+     180922.863878,
+     180922.972539,
+     180923.008408
+    ],
+    "p90": [
+     457486.107,
+     682134.010787,
+     844833.944567,
+     958906.718054,
+     1015211.28512,
+     1040841.590113,
+     1052414.642704,
+     1057337.78669,
+     1059413.358164,
+     1060285.228218,
+     1060650.971981,
+     1060804.340513,
+     1060868.655351
+    ]
+   },
+   "cenarios": {
+    "lento": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 10,
+     "parametros": {
+      "K": 181069.02962,
+      "r": 1.113565,
+      "t0": 2023.429576
+     },
+     "valor_ano_ref": 181068.570198,
+     "duracao_10_90_anos": 3.95
+    },
+    "base": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 50,
+     "parametros": {
+      "K": 285719.121254,
+      "r": 0.863721,
+      "t0": 2024.834284
+     },
+     "valor_ano_ref": 285675.205836,
+     "duracao_10_90_anos": 5.09
+    },
+    "rapido": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 90,
+     "parametros": {
+      "K": 1059259.358765,
+      "r": 0.878164,
+      "t0": 2026.432299
+     },
+     "valor_ano_ref": 1058687.614101,
+     "duracao_10_90_anos": 5.0
+    }
+   }
+  },
+  {
+   "id": "computacao_treino_fronteira",
+   "rotulo": "Computação de treino de IA na fronteira (global, FLOP)",
+   "dominio": "computacao",
+   "modelo": "exponencial",
+   "unidade": "FLOP",
+   "usada_na_difusao": false,
+   "fonte_dados": {
+    "nome": "owid_epoch_computacao_treino",
+    "url": "https://ourworldindata.org/grapher/artificial-intelligence-training-computation.csv?csvType=full",
+    "baixado_em": "2026-10-06T23:14:11+00:00",
+    "sha256": "7183ddec8eee6cf9c67cdffd3590a593075faf73172fa5e974b5096a883e83cf"
+   },
+   "convencao_tempo": "série anual: t = ano; projeção no ano",
+   "limites": "Projeção só até 2030. Série GLOBAL de referência (Epoch AI, só modelos notáveis publicados); não é do Brasil. Exponencial não satura: extrapolar além de poucos anos é aritmética, não previsão (energia, chips e capital limitam).",
+   "parametros": {
+    "a": 6.229462057049258e+23,
+    "g": 1.399666,
+    "tref": 2020.5
+   },
+   "identificacao_teto": {},
+   "ajuste": {
+    "metodo": "mínimos quadrados não lineares no log (scipy least_squares, multi-start); incerteza: bootstrap de resíduos (B=300)",
+    "periodo_treino": [
+     2016.0,
+     2025.0
+    ],
+    "n_pontos": 10,
+    "rmse_log_in_sample": 0.9421,
+    "incerteza_parametros": {
+     "a": {
+      "p10": 4.341420491851811e+23,
+      "p50": 6.042982198163766e+23,
+      "p90": 8.623945354112839e+23
+     },
+     "g": {
+      "p10": 1.273692,
+      "p50": 1.404985,
+      "p90": 1.528095
+     }
+    },
+    "erro_teste": {
+     "k": 3,
+     "rmse": 1.6986952051395554e+26,
+     "mape_pct": 58.06283276785561,
+     "treino_ate": 2022.0,
+     "periodo_teste": [
+      2023.0,
+      2025.0
+     ],
+     "previsto": [
+      1.4568841609599545e+25,
+      5.510384788086731e+25,
+      2.0841973113888685e+26
+     ],
+     "observado": [
+      5.0000003e+25,
+      3.8e+25,
+      5e+26
+     ]
+    },
+    "baseline_erro_teste": {
+     "ingenuo": {
+      "rmse": 2.891035244327948e+26,
+      "mape_pct": 95.5847418928179
+     },
+     "linear": {
+      "rmse": 2.8869925214820178e+26,
+      "mape_pct": 95.44325306279828
+     },
+     "ganha_do_melhor_baseline": true
+    }
+   },
+   "pontos_observados": [
+    [
+     2016.0,
+     6.62e+21
+    ],
+    [
+     2017.0,
+     8.4300006e+20
+    ],
+    [
+     2018.0,
+     8.74395e+21
+    ],
+    [
+     2019.0,
+     1.07734e+23
+    ],
+    [
+     2020.0,
+     3.14e+23
+    ],
+    [
+     2021.0,
+     2.047e+24
+    ],
+    [
+     2022.0,
+     2.7415002e+24
+    ],
+    [
+     2023.0,
+     5.0000003e+25
+    ],
+    [
+     2024.0,
+     3.8e+25
+    ],
+    [
+     2025.0,
+     5e+26
+    ]
+   ],
+   "projecao": {
+    "anos": [
+     2026,
+     2027,
+     2028,
+     2029,
+     2030
+    ],
+    "central": [
+     1.373158799570199e+27,
+     5.566575155419616e+27,
+     2.2566041866850227e+28,
+     9.14792725003732e+28,
+     3.708429394297492e+29
+    ],
+    "p10": [
+     6.661207314139074e+26,
+     2.49620935077854e+27,
+     9.314754500507749e+27,
+     3.359809815045069e+28,
+     1.2025172988686624e+29
+    ],
+    "p90": [
+     2.9447693915181866e+27,
+     1.3090306898336981e+28,
+     5.868841089738164e+28,
+     2.630691235126581e+29,
+     1.1946805246699491e+30
+    ]
+   },
+   "cenarios": {
+    "lento": {
+     "ano_referencia": 2030,
+     "quantil_valor_ano_ref": 10,
+     "parametros": {
+      "a": 5.633004442849662e+23,
+      "g": 1.292035,
+      "tref": 2020.5
+     },
+     "valor_ano_ref": 1.206184093074737e+29
+    },
+    "base": {
+     "ano_referencia": 2030,
+     "quantil_valor_ano_ref": 50,
+     "parametros": {
+      "a": 4.993192396374916e+23,
+      "g": 1.419914,
+      "tref": 2020.5
+     },
+     "valor_ano_ref": 3.602948165551639e+29
+    },
+    "rapido": {
+     "ano_referencia": 2030,
+     "quantil_valor_ano_ref": 90,
+     "parametros": {
+      "a": 6.664022162110716e+23,
+      "g": 1.515507,
+      "tref": 2020.5
+     },
+     "valor_ano_ref": 1.1923735009919168e+30
+    }
+   }
+  },
+  {
+   "id": "solar_custo_wright",
+   "rotulo": "Custo do módulo solar vs capacidade acumulada (Wright)",
+   "dominio": "energia",
+   "modelo": "wright",
+   "unidade": "US$/W",
+   "usada_na_difusao": false,
+   "fonte_dados": {
+    "nome": "owid_solar_custo_capacidade",
+    "url": "https://ourworldindata.org/grapher/solar-pv-prices-vs-cumulative-capacity.csv?csvType=full",
+    "baixado_em": "2026-10-06T23:14:08+00:00",
+    "sha256": "0b4b2aee7e23c2381714c8fb685fb0acccc7d21f845a88ebf1e3066bd9efa2e1"
+   },
+   "convencao_tempo": "série anual: t = ano; projeção no ano",
+   "limites": "Série GLOBAL (Nemet/Farmer-Lafond/IRENA via OWID), não do Brasil. Projeção CONDICIONAL ao crescimento da capacidade global, extrapolado por exponencial (suposição).",
+   "parametros": {
+    "a": 131.3791,
+    "b": 0.416322,
+    "taxa_aprendizado_por_dobra_pct": 25.066742,
+    "cresc_capacidade_global_pct_ano": 25.295794
+   },
+   "ajuste": {
+    "metodo": "Wright por LS no log-log; capacidade global extrapolada por exponencial (últimos 10 anos); bootstrap independente de resíduos dos dois ajustes (B=300)",
+    "periodo_treino": [
+     1990.0,
+     2024.0
+    ],
+    "n_pontos": 35,
+    "rmse_log_in_sample": 0.242,
+    "incerteza_parametros": {
+     "b": {
+      "p10": 0.400252,
+      "p50": 0.4163,
+      "p90": 0.433912
+     },
+     "taxa_aprendizado_por_dobra_pct": {
+      "p10": 24.227395,
+      "p50": 25.065588,
+      "p90": 25.974837
+     },
+     "cresc_capacidade_pct_ano": {
+      "p10": 24.583087,
+      "p50": 25.329915,
+      "p90": 26.097217
+     }
+    },
+    "erro_teste": {
+     "k": 5,
+     "rmse": 0.14532486309247097,
+     "mape_pct": 42.4978105405723,
+     "treino_ate": 2019.0,
+     "periodo_teste": [
+      2020.0,
+      2024.0
+     ],
+     "previsto": [
+      0.556,
+      0.5172,
+      0.4779,
+      0.425,
+      0.3807
+     ],
+     "observado": [
+      0.3697,
+      0.3319,
+      0.3658,
+      0.3218,
+      0.2652
+     ],
+     "condicional_ao_x_observado": true
+    },
+    "baseline_erro_teste": {
+     "ingenuo": {
+      "rmse": 0.14120719148511765,
+      "mape_pct": 43.164833765197116
+     },
+     "linear": {
+      "rmse": 0.1453248630924709,
+      "mape_pct": 42.49781054057228
+     },
+     "ganha_do_melhor_baseline": false
+    }
+   },
+   "pontos_observados": [
+    [
+     1990.0,
+     12.091146
+    ],
+    [
+     1991.0,
+     11.200797
+    ],
+    [
+     1992.0,
+     10.435116
+    ],
+    [
+     1993.0,
+     9.758667
+    ],
+    [
+     1994.0,
+     9.231527
+    ],
+    [
+     1995.0,
+     8.535535
+    ],
+    [
+     1996.0,
+     7.979835
+    ],
+    [
+     1997.0,
+     7.952008
+    ],
+    [
+     1998.0,
+     7.165558
+    ],
+    [
+     1999.0,
+     6.619261
+    ],
+    [
+     2000.0,
+     6.495887
+    ],
+    [
+     2001.0,
+     6.284449
+    ],
+    [
+     2002.0,
+     5.747254
+    ],
+    [
+     2003.0,
+     5.463806
+    ],
+    [
+     2004.0,
+     4.695495
+    ],
+    [
+     2005.0,
+     4.745666
+    ],
+    [
+     2006.0,
+     5.172746
+    ],
+    [
+     2007.0,
+     5.211057
+    ],
+    [
+     2008.0,
+     4.749197
+    ],
+    [
+     2009.0,
+     3.174293
+    ],
+    [
+     2010.0,
+     2.511807
+    ],
+    [
+     2011.0,
+     2.060892
+    ],
+    [
+     2012.0,
+     1.110716
+    ],
+    [
+     2013.0,
+     0.856605
+    ],
+    [
+     2014.0,
+     0.790531
+    ],
+    [
+     2015.0,
+     0.735729
+    ],
+    [
+     2016.0,
+     0.680251
+    ],
+    [
+     2017.0,
+     0.571353
+    ],
+    [
+     2018.0,
+     0.509051
+    ],
+    [
+     2019.0,
+     0.466948
+    ],
+    [
+     2020.0,
+     0.369742
+    ],
+    [
+     2021.0,
+     0.331923
+    ],
+    [
+     2022.0,
+     0.365802
+    ],
+    [
+     2023.0,
+     0.321767
+    ],
+    [
+     2024.0,
+     0.265186
+    ]
+   ],
+   "projecao": {
+    "anos": [
+     2026,
+     2027,
+     2028,
+     2029,
+     2030,
+     2031,
+     2032,
+     2033,
+     2034,
+     2035,
+     2036,
+     2037,
+     2038
+    ],
+    "central": [
+     0.273092,
+     0.24862,
+     0.226341,
+     0.206058,
+     0.187593,
+     0.170783,
+     0.155479,
+     0.141546,
+     0.128862,
+     0.117314,
+     0.106802,
+     0.097231,
+     0.088518
+    ],
+    "p10": [
+     0.246865,
+     0.223875,
+     0.203195,
+     0.184338,
+     0.166954,
+     0.150792,
+     0.13662,
+     0.123976,
+     0.112378,
+     0.101825,
+     0.092342,
+     0.083742,
+     0.075872
+    ],
+    "p90": [
+     0.302563,
+     0.275928,
+     0.25206,
+     0.230456,
+     0.210951,
+     0.192627,
+     0.175875,
+     0.160573,
+     0.146647,
+     0.133905,
+     0.12222,
+     0.11172,
+     0.101987
+    ]
+   },
+   "cenarios": {
+    "lento": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 90,
+     "parametros": {
+      "a": 115.675275,
+      "b": 0.400531,
+      "cresc_capacidade_pct_ano": 25.620862
+     },
+     "valor_ano_ref": 0.133888
+    },
+    "base": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 50,
+     "parametros": {
+      "a": 118.436235,
+      "b": 0.410193,
+      "cresc_capacidade_pct_ano": 25.501429
+     },
+     "valor_ano_ref": 0.116852
+    },
+    "rapido": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 10,
+     "parametros": {
+      "a": 147.433007,
+      "b": 0.430365,
+      "cresc_capacidade_pct_ano": 25.516684
+     },
+     "valor_ano_ref": 0.101851
+    }
+   }
+  },
+  {
+   "id": "solar_custo_moore",
+   "rotulo": "Custo do módulo solar vs tempo (exponencial/Moore)",
+   "dominio": "energia",
+   "modelo": "exponencial",
+   "unidade": "US$/W",
+   "usada_na_difusao": false,
+   "fonte_dados": {
+    "nome": "owid_solar_custo_capacidade",
+    "url": "https://ourworldindata.org/grapher/solar-pv-prices-vs-cumulative-capacity.csv?csvType=full",
+    "baixado_em": "2026-10-06T23:14:08+00:00",
+    "sha256": "0b4b2aee7e23c2381714c8fb685fb0acccc7d21f845a88ebf1e3066bd9efa2e1"
+   },
+   "convencao_tempo": "série anual: t = ano; projeção no ano",
+   "limites": "Mesmo dado da curva de Wright, forma temporal. Comparar os erros de teste das duas.",
+   "parametros": {
+    "a": 2.444288,
+    "g": -0.121285,
+    "tref": 2007.0,
+    "queda_pct_ano": 11.421836
+   },
+   "ajuste": {
+    "metodo": "exponencial por LS no log; bootstrap de resíduos (B=300)",
+    "periodo_treino": [
+     1990.0,
+     2024.0
+    ],
+    "n_pontos": 35,
+    "rmse_log_in_sample": 0.3385,
+    "incerteza_parametros": {
+     "a": {
+      "p10": 2.279569,
+      "p50": 2.444257,
+      "p90": 2.635679
+     },
+     "g": {
+      "p10": -0.128246,
+      "p50": -0.121362,
+      "p90": -0.113638
+     }
+    },
+    "erro_teste": {
+     "k": 5,
+     "rmse": 0.14698549897112564,
+     "mape_pct": 41.43702412195296,
+     "treino_ate": 2019.0,
+     "periodo_teste": [
+      2020.0,
+      2024.0
+     ],
+     "previsto": [
+      0.5815,
+      0.5187,
+      0.4627,
+      0.4128,
+      0.3682
+     ],
+     "observado": [
+      0.3697,
+      0.3319,
+      0.3658,
+      0.3218,
+      0.2652
+     ]
+    },
+    "baseline_erro_teste": {
+     "ingenuo": {
+      "rmse": 0.14120719148511765,
+      "mape_pct": 43.164833765197116
+     },
+     "linear": {
+      "rmse": 2.2483232226718406,
+      "mape_pct": 686.0556521781803
+     },
+     "ganha_do_melhor_baseline": false
+    }
+   },
+   "pontos_observados": [
+    [
+     1990.0,
+     12.091146
+    ],
+    [
+     1991.0,
+     11.200797
+    ],
+    [
+     1992.0,
+     10.435116
+    ],
+    [
+     1993.0,
+     9.758667
+    ],
+    [
+     1994.0,
+     9.231527
+    ],
+    [
+     1995.0,
+     8.535535
+    ],
+    [
+     1996.0,
+     7.979835
+    ],
+    [
+     1997.0,
+     7.952008
+    ],
+    [
+     1998.0,
+     7.165558
+    ],
+    [
+     1999.0,
+     6.619261
+    ],
+    [
+     2000.0,
+     6.495887
+    ],
+    [
+     2001.0,
+     6.284449
+    ],
+    [
+     2002.0,
+     5.747254
+    ],
+    [
+     2003.0,
+     5.463806
+    ],
+    [
+     2004.0,
+     4.695495
+    ],
+    [
+     2005.0,
+     4.745666
+    ],
+    [
+     2006.0,
+     5.172746
+    ],
+    [
+     2007.0,
+     5.211057
+    ],
+    [
+     2008.0,
+     4.749197
+    ],
+    [
+     2009.0,
+     3.174293
+    ],
+    [
+     2010.0,
+     2.511807
+    ],
+    [
+     2011.0,
+     2.060892
+    ],
+    [
+     2012.0,
+     1.110716
+    ],
+    [
+     2013.0,
+     0.856605
+    ],
+    [
+     2014.0,
+     0.790531
+    ],
+    [
+     2015.0,
+     0.735729
+    ],
+    [
+     2016.0,
+     0.680251
+    ],
+    [
+     2017.0,
+     0.571353
+    ],
+    [
+     2018.0,
+     0.509051
+    ],
+    [
+     2019.0,
+     0.466948
+    ],
+    [
+     2020.0,
+     0.369742
+    ],
+    [
+     2021.0,
+     0.331923
+    ],
+    [
+     2022.0,
+     0.365802
+    ],
+    [
+     2023.0,
+     0.321767
+    ],
+    [
+     2024.0,
+     0.265186
+    ]
+   ],
+   "projecao": {
+    "anos": [
+     2026,
+     2027,
+     2028,
+     2029,
+     2030,
+     2031,
+     2032,
+     2033,
+     2034,
+     2035,
+     2036,
+     2037,
+     2038
+    ],
+    "central": [
+     0.243983,
+     0.216115,
+     0.191431,
+     0.169566,
+     0.150199,
+     0.133043,
+     0.117847,
+     0.104387,
+     0.092464,
+     0.081903,
+     0.072548,
+     0.064262,
+     0.056922
+    ],
+    "p10": [
+     0.211942,
+     0.186655,
+     0.164206,
+     0.144466,
+     0.127303,
+     0.112011,
+     0.098382,
+     0.086475,
+     0.076052,
+     0.066885,
+     0.058832,
+     0.05175,
+     0.045523
+    ],
+    "p90": [
+     0.286205,
+     0.254604,
+     0.226996,
+     0.202132,
+     0.180027,
+     0.160624,
+     0.143327,
+     0.127783,
+     0.113924,
+     0.10155,
+     0.090517,
+     0.080768,
+     0.072064
+    ]
+   },
+   "cenarios": {
+    "lento": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 90,
+     "parametros": {
+      "a": 2.53536,
+      "g": -0.11492,
+      "tref": 2007.0
+     },
+     "valor_ano_ref": 0.101528
+    },
+    "base": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 50,
+     "parametros": {
+      "a": 2.277452,
+      "g": -0.11908,
+      "tref": 2007.0
+     },
+     "valor_ano_ref": 0.081173
+    },
+    "rapido": {
+     "ano_referencia": 2035,
+     "quantil_valor_ano_ref": 10,
+     "parametros": {
+      "a": 2.42865,
+      "g": -0.128275,
+      "tref": 2007.0
+     },
+     "valor_ano_ref": 0.066913
+    }
+   }
+  }
+ ],
+ "integracao_macro": {
+  "suposicao_produtividade": "SUPOSIÇÃO EXPLÍCITA (julgamento, não estimativa): a difusão tecnológica eleva o crescimento potencial em 0.3 pp/ano quando satura (faixa varrida: 0,05 a 1,0 pp/ano; 0 = desligado), com defasagem de 1 ano e curva logística normalizada a zero em 2026. A velocidade da difusão (lento/base/rapido) vem das curvas ajustadas aos dados do Brasil (duração 10%→90% do teto); o TAMANHO do ganho não vem de nenhum ajuste. Âncoras de literatura (citadas de memória, não reconferidas nesta execução; conferir antes de usar): Acemoglu (2024, NBER w32487) estima ganho de PTF de IA ≤ ~0,7% em 10 anos (~0,07 pp/ano) nos EUA; McKinsey (2023) estima 0,1-0,6 pp/ano de produtividade do trabalho por IA generativa até 2040; Goldman Sachs (2023) projeta ~1,5 pp/ano nos EUA em 10 anos (extremo otimista). Nenhuma é estimativa para o Brasil, e a faixa entre elas é de uma ordem de grandeza: o resultado do macro é proporcional a essa suposição. O modelo não inclui deslocamento de emprego, custo de transição, efeito fiscal direto (receita, gasto) nem distribuição do ganho.",
+  "cenario_referencia": "pragmatico (scenarios.py), tech_productivity=0, sementes e choques idênticos; base macro offline (data.FALLBACK) para reprodutibilidade",
+  "difusao_derivada_das_curvas": {
+   "duracoes_por_curva": {
+    "pix_usuarios": 7.4,
+    "pix_transacoes": 4.98,
+    "internet_domicilios": 15.04,
+    "celular_pessoas": 41.57,
+    "solar_gd_brasil": 4.33,
+    "solar_total_brasil": 6.64,
+    "carros_eletricos_brasil": 4.46
+   },
+   "cenarios": {
+    "lento": {
+     "duracao_10_90_anos": 11.22,
+     "tech_rate": 0.3916,
+     "tech_midpoint": 2031.61,
+     "tech_lag": 1.0
+    },
+    "base": {
+     "duracao_10_90_anos": 6.64,
+     "tech_rate": 0.6622,
+     "tech_midpoint": 2029.32,
+     "tech_lag": 1.0
+    },
+    "rapido": {
+     "duracao_10_90_anos": 4.72,
+     "tech_rate": 0.9303,
+     "tech_midpoint": 2028.36,
+     "tech_lag": 1.0
+    }
+   }
+  },
+  "referencia_pragmatico": {
+   "2035": {
+    "debt": 101.41,
+    "selic": 11.43,
+    "ipca": 3.45,
+    "gdp": 1.21
+   },
+   "2038": {
+    "debt": 105.59,
+    "selic": 11.85,
+    "ipca": 3.49,
+    "gdp": 1.03
+   }
+  },
+  "resultados_2035": {
+   "lento": {
+    "difusao": {
+     "duracao_10_90_anos": 11.22,
+     "tech_rate": 0.3916,
+     "tech_midpoint": 2031.61,
+     "tech_lag": 1.0
+    },
+    "tech_productivity_pp_ano": 0.3,
+    "2035": {
+     "debt": {
+      "mediana": 100.45,
+      "p10": 94.47,
+      "p90": 106.86,
+      "delta_vs_pragmatico": -0.947,
+      "delta_p10_p90": [
+       -1.022,
+       -0.882
+      ]
+     },
+     "selic": {
+      "mediana": 11.37,
+      "p10": 9.89,
+      "p90": 12.86,
+      "delta_vs_pragmatico": -0.059,
+      "delta_p10_p90": [
+       -0.063,
+       -0.056
+      ]
+     },
+     "ipca": {
+      "mediana": 3.44,
+      "p10": 2.68,
+      "p90": 4.17,
+      "delta_vs_pragmatico": -0.007,
+      "delta_p10_p90": [
+       -0.007,
+       -0.006
+      ]
+     },
+     "gdp": {
+      "mediana": 1.44,
+      "p10": 0.21,
+      "p90": 2.63,
+      "delta_vs_pragmatico": 0.225,
+      "delta_p10_p90": [
+       0.224,
+       0.226
+      ]
+     },
+     "pib_nivel_vs_pragmatico_pct": 0.92
+    },
+    "2036": {
+     "debt": {
+      "mediana": 101.39,
+      "p10": 94.89,
+      "p90": 108.68,
+      "delta_vs_pragmatico": -1.221,
+      "delta_p10_p90": [
+       -1.333,
+       -1.127
+      ]
+     },
+     "selic": {
+      "mediana": 11.51,
+      "p10": 9.92,
+      "p90": 13.01,
+      "delta_vs_pragmatico": -0.081,
+      "delta_p10_p90": [
+       -0.087,
+       -0.076
+      ]
+     },
+     "ipca": {
+      "mediana": 3.46,
+      "p10": 2.69,
+      "p90": 4.15,
+      "delta_vs_pragmatico": -0.009,
+      "delta_p10_p90": [
+       -0.01,
+       -0.008
+      ]
+     },
+     "gdp": {
+      "mediana": 1.45,
+      "p10": 0.23,
+      "p90": 2.6,
+      "delta_vs_pragmatico": 0.254,
+      "delta_p10_p90": [
+       0.253,
+       0.256
+      ]
+     },
+     "pib_nivel_vs_pragmatico_pct": 1.18
+    },
+    "2037": {
+     "debt": {
+      "mediana": 102.53,
+      "p10": 95.26,
+      "p90": 110.81,
+      "delta_vs_pragmatico": -1.535,
+      "delta_p10_p90": [
+       -1.698,
+       -1.395
+      ]
+     },
+     "selic": {
+      "mediana": 11.6,
+      "p10": 9.97,
+      "p90": 13.17,
+      "delta_vs_pragmatico": -0.107,
+      "delta_p10_p90": [
+       -0.116,
+       -0.099
+      ]
+     },
+     "ipca": {
+      "mediana": 3.45,
+      "p10": 2.75,
+      "p90": 4.19,
+      "delta_vs_pragmatico": -0.012,
+      "delta_p10_p90": [
+       -0.013,
+       -0.011
+      ]
+     },
+     "gdp": {
+      "mediana": 1.37,
+      "p10": 0.17,
+      "p90": 2.48,
+      "delta_vs_pragmatico": 0.279,
+      "delta_p10_p90": [
+       0.277,
+       0.282
+      ]
+     },
+     "pib_nivel_vs_pragmatico_pct": 1.45
+    },
+    "2038": {
+     "debt": {
+      "mediana": 103.69,
+      "p10": 95.63,
+      "p90": 113.01,
+      "delta_vs_pragmatico": -1.879,
+      "delta_p10_p90": [
+       -2.11,
+       -1.688
+      ]
+     },
+     "selic": {
+      "mediana": 11.71,
+      "p10": 10.04,
+      "p90": 13.37,
+      "delta_vs_pragmatico": -0.137,
+      "delta_p10_p90": [
+       -0.15,
+       -0.125
+      ]
+     },
+     "ipca": {
+      "mediana": 3.48,
+      "p10": 2.77,
+      "p90": 4.24,
+      "delta_vs_pragmatico": -0.015,
+      "delta_p10_p90": [
+       -0.017,
+       -0.014
+      ]
+     },
+     "gdp": {
+      "mediana": 1.33,
+      "p10": 0.17,
+      "p90": 2.48,
+      "delta_vs_pragmatico": 0.302,
+      "delta_p10_p90": [
+       0.299,
+       0.305
+      ]
+     },
+     "pib_nivel_vs_pragmatico_pct": 1.76
+    }
+   },
+   "base": {
+    "difusao": {
+     "duracao_10_90_anos": 6.64,
+     "tech_rate": 0.6622,
+     "tech_midpoint": 2029.32,
+     "tech_lag": 1.0
+    },
+    "tech_productivity_pp_ano": 0.3,
+    "2035": {
+     "debt": {
+      "mediana": 99.84,
+      "p10": 93.9,
+      "p90": 106.19,
+      "delta_vs_pragmatico": -1.565,
+      "delta_p10_p90": [
+       -1.69,
+       -1.458
+      ]
+     },
+     "selic": {
+      "mediana": 11.32,
+      "p10": 9.85,
+      "p90": 12.81,
+      "delta_vs_pragmatico": -0.105,
+      "delta_p10_p90": [
+       -0.111,
+       -0.099
+      ]
+     },
+     "ipca": {
+      "mediana": 3.43,
+      "p10": 2.67,
+      "p90": 4.17,
+      "delta_vs_pragmatico": -0.012,
+      "delta_p10_p90": [
+       -0.012,
+       -0.011
+      ]
+     },
+     "gdp": {
+      "mediana": 1.53,
+      "p10": 0.3,
+      "p90": 2.72,
+      "delta_vs_pragmatico": 0.314,
+      "delta_p10_p90": [
+       0.313,
+       0.316
+      ]
+     },
+     "pib_nivel_vs_pragmatico_pct": 1.54
+    },
+    "2036": {
+     "debt": {
+      "mediana": 100.69,
+      "p10": 94.24,
+      "p90": 107.9,
+      "delta_vs_pragmatico": -1.92,
+      "delta_p10_p90": [
+       -2.1,
+       -1.771
+      ]
+     },
+     "selic": {
+      "mediana": 11.45,
+      "p10": 9.87,
+      "p90": 12.95,
+      "delta_vs_pragmatico": -0.138,
+      "delta_p10_p90": [
+       -0.148,
+       -0.129
+      ]
+     },
+     "ipca": {
+      "mediana": 3.46,
+      "p10": 2.69,
+      "p90": 4.14,
+      "delta_vs_pragmatico": -0.015,
+      "delta_p10_p90": [
+       -0.016,
+       -0.014
+      ]
+     },
+     "gdp": {
+      "mediana": 1.52,
+      "p10": 0.31,
+      "p90": 2.68,
+      "delta_vs_pragmatico": 0.33,
+      "delta_p10_p90": [
+       0.327,
+       0.332
+      ]
+     },
+     "pib_nivel_vs_pragmatico_pct": 1.87
+    },
+    "2037": {
+     "debt": {
+      "mediana": 101.75,
+      "p10": 94.56,
+      "p90": 109.96,
+      "delta_vs_pragmatico": -2.306,
+      "delta_p10_p90": [
+       -2.557,
+       -2.091
+      ]
+     },
+     "selic": {
+      "mediana": 11.54,
+      "p10": 9.91,
+      "p90": 13.1,
+      "delta_vs_pragmatico": -0.173,
+      "delta_p10_p90": [
+       -0.188,
+       -0.161
+      ]
+     },
+     "ipca": {
+      "mediana": 3.44,
+      "p10": 2.74,
+      "p90": 4.18,
+      "delta_vs_pragmatico": -0.019,
+      "delta_p10_p90": [
+       -0.021,
+       -0.018
+      ]
+     },
+     "gdp": {
+      "mediana": 1.43,
+      "p10": 0.24,
+      "p90": 2.54,
+      "delta_vs_pragmatico": 0.342,
+      "delta_p10_p90": [
+       0.339,
+       0.346
+      ]
+     },
+     "pib_nivel_vs_pragmatico_pct": 2.21
+    },
+    "2038": {
+     "debt": {
+      "mediana": 102.86,
+      "p10": 94.89,
+      "p90": 112.09,
+      "delta_vs_pragmatico": -2.711,
+      "delta_p10_p90": [
+       -3.053,
+       -2.428
+      ]
+     },
+     "selic": {
+      "mediana": 11.64,
+      "p10": 9.97,
+      "p90": 13.28,
+      "delta_vs_pragmatico": -0.211,
+      "delta_p10_p90": [
+       -0.233,
+       -0.194
+      ]
+     },
+     "ipca": {
+      "mediana": 3.47,
+      "p10": 2.76,
+      "p90": 4.23,
+      "delta_vs_pragmatico": -0.023,
+      "delta_p10_p90": [
+       -0.026,
+       -0.021
+      ]
+     },
+     "gdp": {
+      "mediana": 1.38,
+      "p10": 0.22,
+      "p90": 2.54,
+      "delta_vs_pragmatico": 0.354,
+      "delta_p10_p90": [
+       0.35,
+       0.36
+      ]
+     },
+     "pib_nivel_vs_pragmatico_pct": 2.57
+    }
+   },
+   "rapido": {
+    "difusao": {
+     "duracao_10_90_anos": 4.72,
+     "tech_rate": 0.9303,
+     "tech_midpoint": 2028.36,
+     "tech_lag": 1.0
+    },
+    "tech_productivity_pp_ano": 0.3,
+    "2035": {
+     "debt": {
+      "mediana": 99.5,
+      "p10": 93.59,
+      "p90": 105.83,
+      "delta_vs_pragmatico": -1.904,
+      "delta_p10_p90": [
+       -2.059,
+       -1.771
+      ]
+     },
+     "selic": {
+      "mediana": 11.29,
+      "p10": 9.82,
+      "p90": 12.78,
+      "delta_vs_pragmatico": -0.135,
+      "delta_p10_p90": [
+       -0.144,
+       -0.128
+      ]
+     },
+     "ipca": {
+      "mediana": 3.43,
+      "p10": 2.67,
+      "p90": 4.17,
+      "delta_vs_pragmatico": -0.015,
+      "delta_p10_p90": [
+       -0.016,
+       -0.014
+      ]
+     },
+     "gdp": {
+      "mediana": 1.55,
+      "p10": 0.32,
+      "p90": 2.74,
+      "delta_vs_pragmatico": 0.334,
+      "delta_p10_p90": [
+       0.332,
+       0.337
+      ]
+     },
+     "pib_nivel_vs_pragmatico_pct": 1.88
+    },
+    "2036": {
+     "debt": {
+      "mediana": 100.34,
+      "p10": 93.91,
+      "p90": 107.5,
+      "delta_vs_pragmatico": -2.275,
+      "delta_p10_p90": [
+       -2.492,
+       -2.094
+      ]
+     },
+     "selic": {
+      "mediana": 11.42,
+      "p10": 9.83,
+      "p90": 12.92,
+      "delta_vs_pragmatico": -0.171,
+      "delta_p10_p90": [
+       -0.184,
+       -0.16
+      ]
+     },
+     "ipca": {
+      "mediana": 3.45,
+      "p10": 2.68,
+      "p90": 4.14,
+      "delta_vs_pragmatico": -0.019,
+      "delta_p10_p90": [
+       -0.02,
+       -0.018
+      ]
+     },
+     "gdp": {
+      "mediana": 1.54,
+      "p10": 0.33,
+      "p90": 2.69,
+      "delta_vs_pragmatico": 0.345,
+      "delta_p10_p90": [
+       0.342,
+       0.348
+      ]
+     },
+     "pib_nivel_vs_pragmatico_pct": 2.23
+    },
+    "2037": {
+     "debt": {
+      "mediana": 101.39,
+      "p10": 94.22,
+      "p90": 109.55,
+      "delta_vs_pragmatico": -2.674,
+      "delta_p10_p90": [
+       -2.97,
+       -2.421
+      ]
+     },
+     "selic": {
+      "mediana": 11.5,
+      "p10": 9.87,
+      "p90": 13.07,
+      "delta_vs_pragmatico": -0.209,
+      "delta_p10_p90": [
+       -0.227,
+       -0.194
+      ]
+     },
+     "ipca": {
+      "mediana": 3.44,
+      "p10": 2.73,
+      "p90": 4.18,
+      "delta_vs_pragmatico": -0.023,
+      "delta_p10_p90": [
+       -0.025,
+       -0.021
+      ]
+     },
+     "gdp": {
+      "mediana": 1.45,
+      "p10": 0.25,
+      "p90": 2.56,
+      "delta_vs_pragmatico": 0.356,
+      "delta_p10_p90": [
+       0.352,
+       0.36
+      ]
+     },
+     "pib_nivel_vs_pragmatico_pct": 2.59
+    },
+    "2038": {
+     "debt": {
+      "mediana": 102.49,
+      "p10": 94.55,
+      "p90": 111.67,
+      "delta_vs_pragmatico": -3.092,
+      "delta_p10_p90": [
+       -3.49,
+       -2.765
+      ]
+     },
+     "selic": {
+      "mediana": 11.6,
+      "p10": 9.94,
+      "p90": 13.24,
+      "delta_vs_pragmatico": -0.249,
+      "delta_p10_p90": [
+       -0.274,
+       -0.228
+      ]
+     },
+     "ipca": {
+      "mediana": 3.46,
+      "p10": 2.76,
+      "p90": 4.23,
+      "delta_vs_pragmatico": -0.028,
+      "delta_p10_p90": [
+       -0.03,
+       -0.025
+      ]
+     },
+     "gdp": {
+      "mediana": 1.39,
+      "p10": 0.23,
+      "p90": 2.55,
+      "delta_vs_pragmatico": 0.366,
+      "delta_p10_p90": [
+       0.361,
+       0.373
+      ]
+     },
+     "pib_nivel_vs_pragmatico_pct": 2.96
+    }
+   }
+  },
+  "sensibilidade": [
+   {
+    "parametro": "tech_productivity",
+    "valor": 0.05,
+    "difusao": "lento",
+    "delta_divida_pib_2035_pp": -0.159,
+    "delta_selic_2035_pp": -0.01,
+    "delta_ipca_2035_pp": -0.001,
+    "delta_pib_2035_pp": 0.037,
+    "pib_nivel_vs_pragmatico_pct": 0.15
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 0.05,
+    "difusao": "base",
+    "delta_divida_pib_2035_pp": -0.263,
+    "delta_selic_2035_pp": -0.018,
+    "delta_ipca_2035_pp": -0.002,
+    "delta_pib_2035_pp": 0.052,
+    "pib_nivel_vs_pragmatico_pct": 0.25
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 0.05,
+    "difusao": "rapido",
+    "delta_divida_pib_2035_pp": -0.321,
+    "delta_selic_2035_pp": -0.023,
+    "delta_ipca_2035_pp": -0.003,
+    "delta_pib_2035_pp": 0.056,
+    "pib_nivel_vs_pragmatico_pct": 0.31
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 0.1,
+    "difusao": "lento",
+    "delta_divida_pib_2035_pp": -0.317,
+    "delta_selic_2035_pp": -0.02,
+    "delta_ipca_2035_pp": -0.002,
+    "delta_pib_2035_pp": 0.075,
+    "pib_nivel_vs_pragmatico_pct": 0.31
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 0.1,
+    "difusao": "base",
+    "delta_divida_pib_2035_pp": -0.525,
+    "delta_selic_2035_pp": -0.035,
+    "delta_ipca_2035_pp": -0.004,
+    "delta_pib_2035_pp": 0.105,
+    "pib_nivel_vs_pragmatico_pct": 0.51
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 0.1,
+    "difusao": "rapido",
+    "delta_divida_pib_2035_pp": -0.64,
+    "delta_selic_2035_pp": -0.045,
+    "delta_ipca_2035_pp": -0.005,
+    "delta_pib_2035_pp": 0.112,
+    "pib_nivel_vs_pragmatico_pct": 0.62
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 0.2,
+    "difusao": "lento",
+    "delta_divida_pib_2035_pp": -0.633,
+    "delta_selic_2035_pp": -0.039,
+    "delta_ipca_2035_pp": -0.004,
+    "delta_pib_2035_pp": 0.15,
+    "pib_nivel_vs_pragmatico_pct": 0.61
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 0.2,
+    "difusao": "base",
+    "delta_divida_pib_2035_pp": -1.047,
+    "delta_selic_2035_pp": -0.07,
+    "delta_ipca_2035_pp": -0.008,
+    "delta_pib_2035_pp": 0.21,
+    "pib_nivel_vs_pragmatico_pct": 1.02
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 0.2,
+    "difusao": "rapido",
+    "delta_divida_pib_2035_pp": -1.275,
+    "delta_selic_2035_pp": -0.091,
+    "delta_ipca_2035_pp": -0.01,
+    "delta_pib_2035_pp": 0.223,
+    "pib_nivel_vs_pragmatico_pct": 1.25
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 0.3,
+    "difusao": "lento",
+    "delta_divida_pib_2035_pp": -0.947,
+    "delta_selic_2035_pp": -0.059,
+    "delta_ipca_2035_pp": -0.007,
+    "delta_pib_2035_pp": 0.225,
+    "pib_nivel_vs_pragmatico_pct": 0.92
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 0.3,
+    "difusao": "base",
+    "delta_divida_pib_2035_pp": -1.565,
+    "delta_selic_2035_pp": -0.105,
+    "delta_ipca_2035_pp": -0.012,
+    "delta_pib_2035_pp": 0.314,
+    "pib_nivel_vs_pragmatico_pct": 1.54
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 0.3,
+    "difusao": "rapido",
+    "delta_divida_pib_2035_pp": -1.904,
+    "delta_selic_2035_pp": -0.135,
+    "delta_ipca_2035_pp": -0.015,
+    "delta_pib_2035_pp": 0.334,
+    "pib_nivel_vs_pragmatico_pct": 1.88
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 0.5,
+    "difusao": "lento",
+    "delta_divida_pib_2035_pp": -1.572,
+    "delta_selic_2035_pp": -0.098,
+    "delta_ipca_2035_pp": -0.011,
+    "delta_pib_2035_pp": 0.375,
+    "pib_nivel_vs_pragmatico_pct": 1.54
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 0.5,
+    "difusao": "base",
+    "delta_divida_pib_2035_pp": -2.591,
+    "delta_selic_2035_pp": -0.174,
+    "delta_ipca_2035_pp": -0.019,
+    "delta_pib_2035_pp": 0.524,
+    "pib_nivel_vs_pragmatico_pct": 2.57
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 0.5,
+    "difusao": "rapido",
+    "delta_divida_pib_2035_pp": -3.146,
+    "delta_selic_2035_pp": -0.224,
+    "delta_ipca_2035_pp": -0.025,
+    "delta_pib_2035_pp": 0.557,
+    "pib_nivel_vs_pragmatico_pct": 3.15
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 1.0,
+    "difusao": "lento",
+    "delta_divida_pib_2035_pp": -3.111,
+    "delta_selic_2035_pp": -0.195,
+    "delta_ipca_2035_pp": -0.021,
+    "delta_pib_2035_pp": 0.749,
+    "pib_nivel_vs_pragmatico_pct": 3.1
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 1.0,
+    "difusao": "base",
+    "delta_divida_pib_2035_pp": -5.092,
+    "delta_selic_2035_pp": -0.344,
+    "delta_ipca_2035_pp": -0.038,
+    "delta_pib_2035_pp": 1.046,
+    "pib_nivel_vs_pragmatico_pct": 5.2
+   },
+   {
+    "parametro": "tech_productivity",
+    "valor": 1.0,
+    "difusao": "rapido",
+    "delta_divida_pib_2035_pp": -6.157,
+    "delta_selic_2035_pp": -0.441,
+    "delta_ipca_2035_pp": -0.049,
+    "delta_pib_2035_pp": 1.112,
+    "pib_nivel_vs_pragmatico_pct": 6.38
+   },
+   {
+    "parametro": "tech_lag",
+    "valor": 0.0,
+    "difusao": "base",
+    "delta_divida_pib_2035_pp": -1.812,
+    "delta_selic_2035_pp": -0.128,
+    "delta_ipca_2035_pp": -0.014,
+    "delta_pib_2035_pp": 0.327,
+    "pib_nivel_vs_pragmatico_pct": 1.79
+   },
+   {
+    "parametro": "tech_lag",
+    "valor": 3.0,
+    "difusao": "base",
+    "delta_divida_pib_2035_pp": -1.032,
+    "delta_selic_2035_pp": -0.059,
+    "delta_ipca_2035_pp": -0.007,
+    "delta_pib_2035_pp": 0.272,
+    "pib_nivel_vs_pragmatico_pct": 1.0
+   },
+   {
+    "parametro": "tech_midpoint",
+    "valor": 2027.32,
+    "difusao": "base",
+    "delta_divida_pib_2035_pp": -2.027,
+    "delta_selic_2035_pp": -0.149,
+    "delta_ipca_2035_pp": -0.016,
+    "delta_pib_2035_pp": 0.335,
+    "pib_nivel_vs_pragmatico_pct": 2.02
+   },
+   {
+    "parametro": "tech_midpoint",
+    "valor": 2031.32,
+    "difusao": "base",
+    "delta_divida_pib_2035_pp": -1.032,
+    "delta_selic_2035_pp": -0.059,
+    "delta_ipca_2035_pp": -0.007,
+    "delta_pib_2035_pp": 0.272,
+    "pib_nivel_vs_pragmatico_pct": 1.0
+   }
+  ],
+  "leitura": "Deltas são medianas das diferenças pareadas por trajetória (mesmos choques). O efeito é proporcional à suposição de produtividade e NÃO é previsão; a incerteza de PARÂMETRO das curvas de adoção só entra pela velocidade (lento/base/rapido), nunca pelo tamanho do ganho."
+ }
+}

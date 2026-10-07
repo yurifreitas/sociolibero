@@ -1,0 +1,1385 @@
+{
+ "meta": {
+  "gerado_em": "2026-10-06",
+  "aviso": "Compilação de leis, modelos e tendências para cenários 2026-2040. Leis empíricas descrevem o passado, não garantem o futuro; nenhum número aqui e previsão do modelo macro. Itens verificado:false foram citados de resumo de busca, de memória ou sem fonte primária lida.",
+  "criterio_verificacao": "verificado:true somente quando a página da fonte (ou o DOI no Crossref: titulo, autor, ano) foi aberta e conferida nesta compilação. Números vindos de resumos de busca ou de imprensa (ABSOLAR, ABVE, BCB, IBGE, IEA, IRENA, WIR, Gartner, NHGRI) ficam verificado:false. Valores de memória (expoentes de Kaplan, p e q de Bass, taxas de Wright/Swanson, Kryder, Haitz) ficam verificado:false."
+ },
+ "leis": [
+  {
+   "id": "moore",
+   "nome": "Lei de Moore",
+   "autor": "Gordon E. Moore",
+   "ano": 1965,
+   "formula": "N(t) = N0 * 2^((t-t0)/T), T ~ 1 ano (1965) revisto para ~2 anos (1975)",
+   "formula_latex": "N(t)=N_0\\,2^{(t-t_0)/T}",
+   "descricao": "O número de componentes por circuito integrado de custo mínimo dobra a cada T anos. Observação empírica sobre economia de fabricação, não lei física; virou meta de roteiro da indústria (ITRS).",
+   "parametros_empiricos": [
+    {
+     "valor": "49% ao ano (dobra a cada ~1,7 ano)",
+     "unidade": "crescimento do desempenho por dólar de chips de IA",
+     "periodo": "desde 2023",
+     "fonte": "Epoch AI Trends (05/02/2026)",
+     "verificado": true
+    },
+    {
+     "valor": "T ~ 2 anos (revisão de 1975)",
+     "unidade": "período de duplicação de transistores",
+     "periodo": "1975 em diante",
+     "fonte": "Moore 1975 / reimpressão IEEE (DOI da reimpressão conferido no Crossref)",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Densidade de transistores em CMOS com custo por transistor decrescente. Vale como tendência de longo prazo de 1965 a ~2010; depois, ganhos migram para arquitetura, empacotamento 3D, aceleradores e memória.",
+   "criticas": "Custo por transistor deixou de cair nos nos mais avançados (fabs custam dezenas de bilhões, concentração em poucos fabricantes); nomes de 'nodo' são comerciais, não medidas físicas; ganhos de desempenho por chip vem hoje de especialização (GPUs/TPUs) e de escala de sistema, não de frequência.",
+   "estado_atual": "Desaceleração da densidade e do custo por transistor, mas desempenho por dólar de aceleradores de IA ainda cresce rápido (dados Epoch). Sinais de ruptura: fim do escalonamento de Dennard (~2005), limites litográficos/EUV, calor e energia por rack, geopolítica de fabricação (Taiwan, controles de exportação).",
+   "relevancia_brasil": "Brasil é importador líquido de semicondutores e de aceleradores; capacidade própria limitada a empacotamento/teste e design (PADIS/Lei de TICs). A lei opera para o Brasil como queda de preço de importados (celulares, nuvem) sujeita a câmbio, tarifas e controles de exportação; não como capacidade produtiva doméstica.",
+   "referencias": [
+    {
+     "titulo": "Moore - Cramming more components onto integrated circuits (reimpressão Proc. IEEE 1998)",
+     "url": null,
+     "doi": "10.1109/JPROC.1998.658762",
+     "verificado": true
+    },
+    {
+     "titulo": "Mack - The Multiple Lives of Moore's Law (IEEE Spectrum 2015)",
+     "url": null,
+     "doi": "10.1109/MSPEC.2015.7065415",
+     "verificado": true
+    },
+    {
+     "titulo": "Epoch AI - Trends dashboard (atualizado em 05/02/2026)",
+     "url": "https://epoch.ai/trends",
+     "doi": null,
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "dennard",
+   "nome": "Escalonamento de Dennard (MOSFET)",
+   "autor": "Robert H. Dennard et al.",
+   "ano": 1974,
+   "formula": "Escalando dimensões e tensão por 1/k: área ~1/k^2, atraso ~1/k, potência por circuito ~1/k^2, densidade de potência constante",
+   "formula_latex": "P=\\alpha C V^2 f,\\quad (L,V)\\to(L,V)/k\\;\\Rightarrow\\;\\frac{P}{A}=\\text{const}",
+   "descricao": "Se dimensões lineares e tensão de um transistor caem por 1/k, a densidade de potência permanece constante, permitindo mais transistores mais rápidos sem aquecer mais.",
+   "parametros_empiricos": [
+    {
+     "valor": "fim prático por volta de 2005-2006",
+     "unidade": "frequência de clock estagnada (~3-4 GHz)",
+     "periodo": "meados dos anos 2000",
+     "fonte": "consenso historiográfico; não conferido em fonte primária nesta compilação",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Enquanto a tensão puder cair junto com o comprimento de canal; quebra quando correntes de fuga e limite de tensão de limiar impedem reduzir V.",
+   "criticas": "Não é lei, é regra de projeto. Sua quebra empurrou a indústria para multinúcleo, 'dark silicon' e aceleradores.",
+   "estado_atual": "Terminou. Eficiência energética por operação ainda melhora, porém mais devagar que o desempenho bruto (ver Koomey). O gargalo de IA hoje é energia e refrigeração.",
+   "relevancia_brasil": "Explica por que data centers de IA se tornam problema de energia/clima local; matriz limpa e abundância hídrica são vantagem competitiva potencial do Brasil para hospedagem, condicionada a transmissão e regulação.",
+   "referencias": [
+    {
+     "titulo": "Dennard et al. - Design of ion-implanted MOSFET's with very small physical dimensions (IEEE JSSC)",
+     "url": null,
+     "doi": "10.1109/JSSC.1974.1050511",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "wright",
+   "nome": "Lei de Wright (curva de aprendizado / de experiência)",
+   "autor": "Theodore P. Wright",
+   "ano": 1936,
+   "formula": "C(x) = C1 * x^(-b); taxa de aprendizado LR = 1 - 2^(-b) (queda de custo a cada dobra da produção acumulada)",
+   "formula_latex": "C(x)=C_1\\,x^{-b},\\qquad LR=1-2^{-b}",
+   "descricao": "O custo unitário cai a uma fração constante a cada dobra da produção cumulativa x. Formulada para fuselagens de aviões; generalizada a tecnologias modulares de produção em massa.",
+   "parametros_empiricos": [
+    {
+     "valor": "queda de ~90%: de US$0,417/kWh (2010) para US$0,043/kWh (2024)",
+     "unidade": "LCOE ponderado global do solar fotovoltaico",
+     "periodo": "2010-2024",
+     "fonte": "IRENA, Renewable Power Generation Costs in 2024 (via resumo de busca)",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Tecnologias modulares, produzidas em série, com forte cadeia de fornecedores e mercado em expansão. Falha para tecnologias grandes e customizadas (nuclear convencional tem aprendizado fraco ou negativo em varios países) e quando insumos (polissilício, lítio) sobem de preço.",
+   "criticas": "Correlação entre produção acumulada e custo não prova causalidade (P&D, escala, insumos, política industrial entram juntos); extrapolação longa exige cuidado. Way et al. (2022) mostram que o modelo de Wright com ruído tem poder preditivo fora da amostra em >50 tecnologias, mas incerteza de previsão é grande.",
+   "estado_atual": "Solar, eólica e baterias seguem a curva; hidrogênio verde via eletrólise segue mais devagar que o previsto.",
+   "relevancia_brasil": "Base para projetar custo de solar, armazenamento e VEs importados; cada queda e transmitida ao Brasil via câmbio, tarifa de importação e custo de capital (juros reais altos encarecem tecnologias intensivas em capital).",
+   "referencias": [
+    {
+     "titulo": "Way, Ives, Mealy, Farmer - Empirically grounded technology forecasts and the energy transition (Joule)",
+     "url": null,
+     "doi": "10.1016/j.joule.2022.08.009",
+     "verificado": true
+    },
+    {
+     "titulo": "IRENA - Renewable Power Generation Costs in 2024",
+     "url": "https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024",
+     "doi": null,
+     "verificado": false
+    },
+    {
+     "titulo": "Wright - Factors affecting the cost of airplanes (J. Aeronautical Sciences, 1936)",
+     "url": null,
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "swanson",
+   "nome": "Lei de Swanson (módulos fotovoltaicos)",
+   "autor": "Richard Swanson (SunPower); nomeada informalmente",
+   "ano": 2006,
+   "formula": "Preço do módulo cai ~20% a cada dobra da capacidade instalada acumulada",
+   "formula_latex": "p(Q)=p_0\\,(Q/Q_0)^{-b},\\; 2^{-b}\\approx 0{,}8",
+   "descricao": "Caso particular da curva de Wright para módulos de silício cristalino.",
+   "parametros_empiricos": [
+    {
+     "valor": "~20% por dobra",
+     "unidade": "taxa de aprendizado do módulo",
+     "periodo": "décadas recentes",
+     "fonte": "formulação popular; valor não conferido em fonte primária nesta compilação",
+     "verificado": false
+    },
+    {
+     "valor": "US$0,043/kWh (LCOE 2024); China US$0,033; Índia US$0,038",
+     "unidade": "LCOE solar",
+     "periodo": "2024",
+     "fonte": "IRENA (resumo de busca)",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Módulos fabricados em escala; não vale para BOS (estruturas, inversores, mão de obra, interconexão) que variam por país.",
+   "criticas": "O piso passa a ser dado por materiais e BOS; sobreoferta chinesa de 2023-2025 derrubou preços abaixo do custo marginal sustentável (parte da queda é ciclo, não aprendizado).",
+   "estado_atual": "Solar é a fonte de maior expansão mundial; no Brasil é a segunda maior da matriz em capacidade.",
+   "relevancia_brasil": "Capacidade solar total ~55 GW em jul/2026 (37,4 GW GD + 17,6 GW centralizada), 22,2% da capacidade instalada, segundo ABSOLAR via notícia de imprensa (não conferido na fonte primária). Gargalos: curtailment, transmissão, subsídio cruzado da GD (Lei 14.300/2022), tarifas.",
+   "referencias": [
+    {
+     "titulo": "IRENA - Renewable Power Generation Costs in 2024",
+     "url": "https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024",
+     "doi": null,
+     "verificado": false
+    },
+    {
+     "titulo": "ABSOLAR via Canal Solar - capacidade solar instalada no Brasil (jul/2026)",
+     "url": "https://canalsolar.com.br/energia-solar-potencia-instalada-brasil-absolar/",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "aprendizado_baterias",
+   "nome": "Curva de aprendizado de baterias de ions de lítio",
+   "autor": "BloombergNEF (série de preços); aplicação de Wright",
+   "ano": 2013,
+   "formula": "Preço do pack em US$/kWh segue Wright em função do volume cumulativo, com choques de preço de metais",
+   "formula_latex": "p(Q)=p_0 (Q/Q_0)^{-b}",
+   "descricao": "Preço médio de pack de ion-lítio, série anual da BNEF desde 2010.",
+   "parametros_empiricos": [
+    {
+     "valor": "US$108/kWh (-8% sobre 2024)",
+     "unidade": "preço médio global de pack",
+     "periodo": "2025",
+     "fonte": "BNEF, 09/12/2025",
+     "verificado": true
+    },
+    {
+     "valor": "US$70/kWh (-45% a/a)",
+     "unidade": "pack estacionário",
+     "periodo": "2025",
+     "fonte": "BNEF, 09/12/2025",
+     "verificado": true
+    },
+    {
+     "valor": "US$99/kWh",
+     "unidade": "pack de VE a bateria",
+     "periodo": "2025",
+     "fonte": "BNEF, 09/12/2025",
+     "verificado": true
+    },
+    {
+     "valor": "LFP US$81/kWh; NMC US$128/kWh",
+     "unidade": "preço por química",
+     "periodo": "2025",
+     "fonte": "BNEF, 09/12/2025",
+     "verificado": true
+    },
+    {
+     "valor": "China US$84/kWh; América do Norte ~US$121; Europa ~US$131",
+     "unidade": "preço regional",
+     "periodo": "2025",
+     "fonte": "BNEF, 09/12/2025",
+     "verificado": true
+    }
+   ],
+   "dominio_validade": "Enquanto houver sobrecapacidade de células e troca para LFP; metais (lítio, níquel, cobalto) podem reverter a queda temporariamente.",
+   "criticas": "Preços regionais divergem muito (Europa/EUA 44%/56% acima da China segundo a BNEF); a queda de 2025 reflete competição e sobrecapacidade, não apenas aprendizado.",
+   "estado_atual": "Pack de VE perto de paridade de custo de motor a combustão em modelos populares; armazenamento estacionário cai mais rápido.",
+   "relevancia_brasil": "Armazenamento barato é a chave para integrar solar/eólica e reduzir curtailment; ao mesmo tempo, VEs chineses pressionam a indústria automotiva local (tarifas de importação escalonadas). Reservas de lítio (Vale do Jequitinhonha) e de grafite são opção de valor agregado, não garantia.",
+   "referencias": [
+    {
+     "titulo": "BloombergNEF - Lithium-ion battery pack prices fall to $108/kWh (09/12/2025)",
+     "url": "https://about.bnef.com/insights/commodities/lithium-ion-battery-pack-prices-fall-to-108-per-kilowatt-hour-despite-rising-metal-prices/",
+     "doi": null,
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "aprendizado_eletrolisadores",
+   "nome": "Curva de aprendizado de eletrolisadores (hidrogênio verde)",
+   "autor": "Literatura de custos de eletrólise (IEA, BNEF, IRENA); aplicação de Wright",
+   "ano": 2017,
+   "formula": "CAPEX(Q) = CAPEX0 * (Q/Q0)^(-b); H2 verde: LCOH = (CAPEX*CRF + OPEX)/(horas*eficiência) + eletricidade/eficiência",
+   "formula_latex": "LCOH=\\frac{CAPEX\\cdot CRF+OPEX}{h\\,\\eta}+\\frac{p_{el}}{\\eta}",
+   "descricao": "Esperava-se que eletrolisadores (alcalinos, PEM) seguissem aprendizado tipo solar; o LCOH depende em maior parte do preço da eletricidade e do fator de capacidade.",
+   "parametros_empiricos": [
+    {
+     "valor": "valores não conferidos nesta compilação",
+     "unidade": "taxa de aprendizado / CAPEX por kW",
+     "periodo": "n/d",
+     "fonte": "nenhuma fonte primária lida",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Produção modular em massa (alcalino chines) pode seguir Wright; projetos integrados de grande escala (amônia, refinarias) têm custos de engenharia e financiamento não modulares.",
+   "criticas": "Previsões de 2020-2022 de custo muito baixo não se concretizaram; muitos projetos foram adiados ou cancelados. Demanda ancorada (fertilizantes, aço verde) e incerta.",
+   "estado_atual": "Incerto. Tratar como opção, não como base do cenário central 2026-2040.",
+   "relevancia_brasil": "Potencial por eletricidade renovável barata e hubs (Pecém, Suape, Açu), mas dependente de demanda importadora (UE), contratos, juros e custo de transmissão. Impacto macro no horizonte 2030 é pequeno.",
+   "referencias": [
+    {
+     "titulo": "IEA - Global Hydrogen Review (serie anual)",
+     "url": "https://www.iea.org/reports/global-hydrogen-review-2025",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "koomey",
+   "nome": "Lei de Koomey (eficiência energética da computação)",
+   "autor": "Jonathan Koomey et al.",
+   "ano": 2011,
+   "formula": "Computações por kWh dobram a cada ~1,57 ano (1946-2009); ~2,5 anos após ~2000",
+   "formula_latex": "E(t)=E_0\\,2^{(t-t_0)/T},\\; T\\approx1{,}57\\ \\text{anos}",
+   "descricao": "Eficiência elétrica de computação (operações por joule) cresce exponencialmente por mais de seis décadas.",
+   "parametros_empiricos": [
+    {
+     "valor": "dobra a cada ~2,4 anos (+34%/ano)",
+     "unidade": "eficiência energética de GPUs",
+     "periodo": "desde 2008",
+     "fonte": "Epoch AI Trends (05/02/2026)",
+     "verificado": true
+    },
+    {
+     "valor": "T ~ 1,57 ano (histórico) ; ~2,5 anos (2015)",
+     "unidade": "período de duplicação",
+     "periodo": "1946-2009; ~2000-2015",
+     "fonte": "Koomey et al. 2011 (DOI conferido); valor numérico e Koomey/Naffziger 2015 via resumo de busca",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Eficiência por operação em condições de pico. Não captura aumento de demanda total (Jevons).",
+   "criticas": "Desaceleração desde ~2000 (fim de Dennard); ganhos de eficiência são superados pelo aumento do uso.",
+   "estado_atual": "Eficiência continua melhorando, mas consumo total de data centers cresce: 415 TWh em 2024 (1,5% da eletricidade global), previsão IEA de ~945 TWh em 2030 e crescimento de ~12%/ano desde 2017.",
+   "relevancia_brasil": "Define quanto de eletricidade a computação de IA vai demandar; Brasil pode atrair data centers por matriz limpa, mas competirá por transmissão e água com outros usos.",
+   "referencias": [
+    {
+     "titulo": "Koomey, Berard, Sanchez, Wong - Implications of Historical Trends in the Electrical Efficiency of Computing (IEEE Annals)",
+     "url": null,
+     "doi": "10.1109/MAHC.2010.28",
+     "verificado": true
+    },
+    {
+     "titulo": "Epoch AI - Trends dashboard (atualizado em 05/02/2026)",
+     "url": "https://epoch.ai/trends",
+     "doi": null,
+     "verificado": true
+    },
+    {
+     "titulo": "IEA - Energy and AI (2025)",
+     "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "kryder",
+   "nome": "Lei de Kryder (densidade de armazenamento magnético)",
+   "autor": "Mark Kryder; popularizada pela Scientific American",
+   "ano": 2005,
+   "formula": "Densidade areal de HDD dobra a cada ~13 meses (período 1990s-2000s)",
+   "formula_latex": "a(t)=a_0\\,2^{t/T},\\; T\\approx 13\\ \\text{meses}",
+   "descricao": "Crescimento exponencial da densidade de armazenamento em disco, mais rápido que Moore no auge.",
+   "parametros_empiricos": [
+    {
+     "valor": "T ~ 13 meses (auge)",
+     "unidade": "duplicação da densidade areal",
+     "periodo": "anos 1990-2000s",
+     "fonte": "formulação popular; não conferida nesta compilação",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Limitada pelo limite superparamagnético; hoje HAMR/MAMR e flash NAND (camadas 3D) sustentam o custo por TB.",
+   "criticas": "Crescimento caiu para ordem de 10-20% ao ano; o próprio Kryder previu fim. Armazenamento deixou de ser o gargalo; largura de banda de memória e agora.",
+   "estado_atual": "Custo por TB ainda cai, em ritmo menor.",
+   "relevancia_brasil": "Importância indireta: custo de dados em nuvem e retenção; irrelevante como fator macro isolado.",
+   "referencias": [
+    {
+     "titulo": "Walter - Kryder's Law (Scientific American, 2005)",
+     "url": null,
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "metcalfe",
+   "nome": "Lei de Metcalfe e suas críticas",
+   "autor": "Robert Metcalfe (1980s); crítica de Briscoe, Odlyzko, Tilly (2006)",
+   "ano": 1980,
+   "formula": "Valor da rede V ~ n^2 (Metcalfe); V ~ n log n (Odlyzko-Tilly); V ~ 2^n (Reed)",
+   "formula_latex": "V_{M}\\propto n^2,\\quad V_{OT}\\propto n\\ln n",
+   "descricao": "O valor de uma rede cresce com o número de pares possíveis de conexões. Críticas dizem que nem todas as conexões têm igual valor (cauda longa) e que n log n é mais realista.",
+   "parametros_empiricos": [
+    {
+     "valor": "ajuste quadrático em dados de usuários ativos do Facebook e Tencent",
+     "unidade": "tipo de relação receita ~ usuários^2",
+     "periodo": "série histórica até ~2014",
+     "fonte": "Zhang, Liu, Xu 2015 (DOI conferido; ajuste lido de memória)",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Redes de comunicação com valor homogeneo entre pares; falha em redes saturadas e em redes de interesse (efeito de cauda).",
+   "criticas": "Briscoe et al. (2006): n log n; modelo não distingue valor de pares fortes e fracos; efeitos de rede também têm congestionamento e spam.",
+   "estado_atual": "Útil como heurística qualitativa de efeitos de rede (Pix, WhatsApp, marketplaces).",
+   "relevancia_brasil": "Explica adoção acelerada de Pix e WhatsApp (valor cresce com a base) é o poder de mercado de plataformas; relevante para política de interoperabilidade e concorrência.",
+   "referencias": [
+    {
+     "titulo": "Zhang, Liu, Xu - Tencent and Facebook Data Validate Metcalfe's Law (J. Comput. Sci. Technol.)",
+     "url": null,
+     "doi": "10.1007/s11390-015-1518-1",
+     "verificado": true
+    },
+    {
+     "titulo": "Briscoe, Odlyzko, Tilly - Metcalfe's Law is Wrong (IEEE Spectrum, jul/2006)",
+     "url": "https://spectrum.ieee.org/metcalfes-law-is-wrong",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "haitz",
+   "nome": "Lei de Haitz (LEDs)",
+   "autor": "Roland Haitz",
+   "ano": 2000,
+   "formula": "Fluxo luminoso por LED ~ 20x por década; custo por lumen cai ~10x por década",
+   "formula_latex": "\\Phi(t)=\\Phi_0\\,20^{(t-t_0)/10}",
+   "descricao": "Análogo de Moore para iluminação de estado sólido.",
+   "parametros_empiricos": [
+    {
+     "valor": "~20x fluxo e ~10x queda de custo por década",
+     "unidade": "LED",
+     "periodo": "1970-2000s",
+     "fonte": "formulação de Haitz; não conferida nesta compilação",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "LEDs inorgânicos de potência até perto do limite de eficácia luminosa teórica.",
+   "criticas": "Saturou: LEDs brancos chegaram perto do teto de eficácia; hoje ganho vem de custo e integração.",
+   "estado_atual": "Maduro; iluminação LED domina; ganho residual.",
+   "relevancia_brasil": "Exemplo ilustrativo de difusão em S de tecnologia de eficiência energética, com efeito reduzido no consumo residencial.",
+   "referencias": [
+    {
+     "titulo": "Haitz, Tsao - Solid-state lighting: 'The case' 10 years after and future prospects (Phys. Status Solidi A, 2011)",
+     "url": null,
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "carlson",
+   "nome": "Curva de Carlson (custo de sequenciamento de DNA)",
+   "autor": "Robert Carlson",
+   "ano": 2003,
+   "formula": "Custo por base cai exponencialmente, em períodos mais rápidos que Moore (após 2007)",
+   "formula_latex": "c(t)=c_0\\,e^{-\\lambda t}",
+   "descricao": "Custo de leitura/síntese de DNA em função do tempo, usada para projetar biologia sintética e genômica.",
+   "parametros_empiricos": [
+    {
+     "valor": "de ~US$95 milhões (2001) para ~US$500-1.000 (2022) por genoma humano",
+     "unidade": "custo de sequenciamento (NHGRI)",
+     "periodo": "2001-2022",
+     "fonte": "NHGRI (via resumo de busca)",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Custo de leitura; custo total (análise, interpretação, armazenamento, consentimento) cai menos.",
+   "criticas": "Queda não é suave: salto em 2007-2008 (NGS), platôs depois; as medidas de custo incluem definições diferentes.",
+   "estado_atual": "Genoma de centenas de dólares; análise e interpretação viram o gargalo.",
+   "relevancia_brasil": "Genômica populacional (miscigenação), saúde pública, agro e bioeconomia amazônica; Embrapa e Fiocruz são atores; dependência de reagentes importados.",
+   "referencias": [
+    {
+     "titulo": "NHGRI - DNA Sequencing Costs: Data",
+     "url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data",
+     "doi": null,
+     "verificado": false
+    },
+    {
+     "titulo": "Carlson - The pace and proliferation of biological technologies (Biosecurity and Bioterrorism 1(3), 2003)",
+     "url": null,
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "logistica",
+   "nome": "Curva logística (S) e Fisher-Pry",
+   "autor": "P.-F. Verhulst (1838); Fisher & Pry (1971)",
+   "ano": 1838,
+   "formula": "dN/dt = r N (1 - N/K); N(t) = K / (1 + exp(-r(t-t0)))",
+   "formula_latex": "N(t)=\\frac{K}{1+e^{-r(t-t_0)}}",
+   "descricao": "Adoção de tecnologia cresce exponencialmente no início e satura em teto K. Linearizada por Fisher-Pry: ln(f/(1-f)) linear no tempo.",
+   "parametros_empiricos": [
+    {
+     "valor": "93,6% dos domicílios com internet (74,9 milhões); urbano 94,7%, rural 84,8%",
+     "unidade": "domicílios com internet",
+     "periodo": "2024",
+     "fonte": "IBGE PNAD Contínua TIC (via resumo de busca)",
+     "verificado": false
+    },
+    {
+     "valor": "9,0% de participação de eletrificados leves; 223.912 unidades (+26%)",
+     "unidade": "vendas de eletrificados leves",
+     "periodo": "2025",
+     "fonte": "ABVE (via resumo de busca)",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Mercado com teto bem definido K. Perigo: estimar K e r no início da curva é muito incerto (qualquer exponencial parece logística no início).",
+   "criticas": "K muda (nova versão da tecnologia, renda); curva simétrica não descreve bem difusão com assimetria; não explica por que.",
+   "estado_atual": "Internet domiciliar no Brasil perto de saturação (restam ~5 milhões de lares fora segundo notícia), a desigualdade passa a ser de qualidade e de conectividade rural.",
+   "relevancia_brasil": "Boa aproximação para saturação digital; para VEs e solar, K é função de renda, tarifa, crédito e infraestrutura.",
+   "referencias": [
+    {
+     "titulo": "IBGE - PNAD Contínua TIC 2024 (Teletime, 24/07/2025)",
+     "url": "https://teletime.com.br/24/07/2025/internet-chega-a-93-dos-domicilios-mas-51-milhoes-de-lares-seguem-offline/",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "bass",
+   "nome": "Modelo de difusão de Bass",
+   "autor": "Frank M. Bass",
+   "ano": 1969,
+   "formula": "f(t)/(1-F(t)) = p + q F(t); F(t) = (1 - e^{-(p+q)t}) / (1 + (q/p) e^{-(p+q)t}); pico em t* = ln(q/p)/(p+q)",
+   "formula_latex": "\\frac{f(t)}{1-F(t)}=p+qF(t),\\quad t^*=\\frac{\\ln(q/p)}{p+q}",
+   "descricao": "Adotantes por inovação (p, publicidade/externos) e imitação (q, boca a boca). Gera curva S ou sino em adoções por período.",
+   "parametros_empiricos": [
+    {
+     "valor": "p ~ 0,03; q ~ 0,38 (médias de meta-análise para bens duráveis)",
+     "unidade": "coeficientes típicos",
+     "periodo": "meta-análise de 1990",
+     "fonte": "Sultan, Farley, Lehmann 1990 (valor lembrado, não conferido)",
+     "verificado": false
+    },
+    {
+     "valor": "Pix lançado em 16/11/2020; usuários 41,2 mi (nov/2020) -> 93,6 mi (mai/2021) -> 112,6 mi (out/2021)",
+     "unidade": "usuários cadastrados",
+     "periodo": "2020-2021",
+     "fonte": "BCB via imprensa (resumo de busca)",
+     "verificado": false
+    },
+    {
+     "valor": "318,07 milhões de transações em 04/09/2026 (recorde); 22,93 bilhões e R$10,499 trilhões em abr-jun/2026; 76,4% da população usa Pix",
+     "unidade": "uso do Pix",
+     "periodo": "2026",
+     "fonte": "BCB via imprensa (resumo de busca)",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Produto único, mercado de potencial fixo m, sem restrição de oferta. Fitar p, q só é confiável após o pico.",
+   "criticas": "Ignora preço e marketing variáveis (Generalized Bass), heterogeneidade, restrições de oferta (infraestrutura) e efeitos de plataforma regulada. Ajuste aqui NÃO foi feito: apenas o formalismo e os pontos de dados citados.",
+   "estado_atual": "Pix é exemplo de imitação muito alta (q grande) e adoção induzida por regulação e interoperabilidade; solar distribuida mostra oferta restrita por tarifa e regra; VEs ainda em fase inicial.",
+   "relevancia_brasil": "Serve para cenários de difusão (solar, VE, IA em empresas) com K e p, q calibráveis; calibração própria é tarefa futura.",
+   "referencias": [
+    {
+     "titulo": "Bass - A New Product Growth for Model Consumer Durables (Management Science)",
+     "url": null,
+     "doi": "10.1287/mnsc.15.5.215",
+     "verificado": true
+    },
+    {
+     "titulo": "Banco Central do Brasil - estatísticas do Pix (via imprensa)",
+     "url": "https://gironews.com/negocios/pix-registra-recorde-de-318-milhoes-de-transacoes-em-um-dia/",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "scaling_kaplan",
+   "nome": "Leis de escala de Kaplan (LLMs)",
+   "autor": "Jared Kaplan et al.",
+   "ano": 2020,
+   "formula": "L(N) = (Nc/N)^aN; L(D) = (Dc/D)^aD; L(C) = (Cc/C)^aC, com aN~0,076, aD~0,095, aC~0,050",
+   "formula_latex": "L(N)=\\left(\\frac{N_c}{N}\\right)^{\\alpha_N},\\;\\alpha_N\\approx0{,}076",
+   "descricao": "A perda de modelos de linguagem cai como lei de potência com parâmetros, dados e computação, por mais de sete ordens de grandeza; arquitetura (profundidade/largura) importa pouco na faixa testada.",
+   "parametros_empiricos": [
+    {
+     "valor": "leis de potência em N, D, C ao longo de >7 ordens de grandeza",
+     "unidade": "tendência de perda",
+     "periodo": "artigo de jan/2020",
+     "fonte": "arXiv 2001.08361 (resumo lido)",
+     "verificado": true
+    },
+    {
+     "valor": "aN~0,076; aD~0,095; aC~0,050",
+     "unidade": "expoentes",
+     "periodo": "2020",
+     "fonte": "do artigo; expoentes lembrados, não conferidos",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Transformers de linguagem, perda de entropia cruzada em distribuição fixa, sem gargalo de dados.",
+   "criticas": "Perda não é capacidade útil; Hoffmann et al. corrigiram a proporção dados/parâmetros; limites de dados; ganhos de capacidade podem ser descontínuos (emergência, discutível).",
+   "estado_atual": "Continua orientando investimento, junto com escala em tempo de inferência (raciocínio).",
+   "relevancia_brasil": "Capacidade de fronteira depende de capital e chips fora do Brasil; o país e tomador de tecnologia; escala de dados em português e de energia são margens.",
+   "referencias": [
+    {
+     "titulo": "Kaplan et al. - Scaling Laws for Neural Language Models",
+     "url": "https://arxiv.org/abs/2001.08361",
+     "doi": null,
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "scaling_chinchilla",
+   "nome": "Leis de escala de Chinchilla (Hoffmann)",
+   "autor": "Jordan Hoffmann et al. (DeepMind)",
+   "ano": 2022,
+   "formula": "L(N,D) = E + A/N^a + B/D^b; ótimo de compute: N e D crescem na mesma proporção (~20 tokens por parâmetro); C ~ 6 N D",
+   "formula_latex": "L(N,D)=E+\\frac{A}{N^{\\alpha}}+\\frac{B}{D^{\\beta}},\\quad C\\approx 6ND",
+   "descricao": "Com orçamento de computação fixo, tamanho do modelo e número de tokens de treino devem crescer igualmente; modelos da época estavam subtreinados (Chinchilla 70B superou Gopher 280B com 4x mais dados).",
+   "parametros_empiricos": [
+    {
+     "valor": "Chinchilla 70B com 4x mais dados que Gopher 280B; MMLU 67,5%",
+     "unidade": "resultado",
+     "periodo": "2022",
+     "fonte": "arXiv 2203.15556 (resumo lido)",
+     "verificado": true
+    },
+    {
+     "valor": "~20 tokens por parâmetro",
+     "unidade": "razão ótima",
+     "periodo": "2022",
+     "fonte": "regra popular derivada do artigo; não conferida",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Treino de compute-ótimo sem levar em conta custo de inferência.",
+   "criticas": "Se o modelo será muito usado, vale treinar acima do ótimo (modelos menores com mais tokens); replicações questionaram ajustes; limite de dados de texto público.",
+   "estado_atual": "Prática de superar 20 tokens/param; dados sintéticos e raciocínio em teste ampliam o domínio.",
+   "relevancia_brasil": "Dados em português e corpus público brasileiro são ativo estratégico; custo de inferência afeta preço de serviços de IA no país.",
+   "referencias": [
+    {
+     "titulo": "Hoffmann et al. - Training Compute-Optimal Large Language Models",
+     "url": "https://arxiv.org/abs/2203.15556",
+     "doi": null,
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "tendencia_compute_ia",
+   "nome": "Tendências de computação de treino, custo e hardware de IA (Epoch AI)",
+   "autor": "Epoch AI",
+   "ano": 2026,
+   "formula": "C(t) = C0 * g^t, com g ~ 5x/ano (compute), 3,5x/ano (custo de treino), 3,4x/ano (estoque de compute)",
+   "formula_latex": "C(t)=C_0\\,g^{t},\\; g\\approx5\\ \\text{(compute de treino)}",
+   "descricao": "Estimativas empíricas de crescimento exponencial dos insumos de IA de fronteira.",
+   "parametros_empiricos": [
+    {
+     "valor": "5x por ano (dobra a cada 5,2 meses); ~10.000x desde 2020",
+     "unidade": "compute de treino de modelos de linguagem de fronteira",
+     "periodo": "desde 2020",
+     "fonte": "Epoch AI Trends (05/02/2026)",
+     "verificado": true
+    },
+    {
+     "valor": "3,5x por ano (dobra a cada 7 meses)",
+     "unidade": "custo de treino",
+     "periodo": "desde 2020",
+     "fonte": "Epoch AI Trends",
+     "verificado": true
+    },
+    {
+     "valor": "3,4x por ano (dobra a cada 6,8 meses)",
+     "unidade": "estoque de compute",
+     "periodo": "desde 2022",
+     "fonte": "Epoch AI Trends",
+     "verificado": true
+    },
+    {
+     "valor": "49%/ano",
+     "unidade": "desempenho por dólar do chip",
+     "periodo": "desde 2023",
+     "fonte": "Epoch AI Trends",
+     "verificado": true
+    },
+    {
+     "valor": "~2,1 anos",
+     "unidade": "tempo de construção de data center de gigawatt",
+     "periodo": "2026",
+     "fonte": "Epoch AI Trends",
+     "verificado": true
+    },
+    {
+     "valor": "3,2x por ano",
+     "unidade": "receita da OpenAI",
+     "periodo": "desde 2024",
+     "fonte": "Epoch AI Trends",
+     "verificado": true
+    }
+   ],
+   "dominio_validade": "Enquanto houver capital, chips, energia e dados; extrapolação além de poucos anos é especulativa.",
+   "criticas": "Restrições: energia, chips (CoWoS/HBM), dados, capital; Epoch e org sem fins lucrativos, estimativas com incerteza.",
+   "estado_atual": "Crescimento sustentado; infra de energia vira gargalo.",
+   "relevancia_brasil": "Deslocamento de capital e demanda de eletricidade por data centers; oportunidade de hospedar compute limpo; risco de dependência tecnológica.",
+   "referencias": [
+    {
+     "titulo": "Epoch AI - Trends dashboard (atualizado em 05/02/2026)",
+     "url": "https://epoch.ai/trends",
+     "doi": null,
+     "verificado": true
+    },
+    {
+     "titulo": "Our World in Data - Computation used to train notable AI systems",
+     "url": "https://ourworldindata.org/grapher/artificial-intelligence-training-computation",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "custo_inferencia",
+   "nome": "Queda do preço de inferência de LLMs (preço por nível de desempenho)",
+   "autor": "Epoch AI",
+   "ano": 2025,
+   "formula": "p(t) = p0 * k^(-t) para desempenho fixo; k entre 9 e 900 por ano conforme o marco",
+   "formula_latex": "p(t)=p_0\\,k^{-t},\\quad 9\\le k\\le 900\\ \\text{a.a.}",
+   "descricao": "O preço por token necessário para alcançar um nível fixo de desempenho caiu muito, em ritmos diferentes por benchmark.",
+   "parametros_empiricos": [
+    {
+     "valor": "queda de 9x a 900x por ano, conforme o marco; 40x/ano para desempenho de GPT-4 em GPQA",
+     "unidade": "preço por token a desempenho fixo",
+     "periodo": "~últimos 3 anos até 2025",
+     "fonte": "Epoch AI Data Insight",
+     "verificado": true
+    }
+   ],
+   "dominio_validade": "Desempenho fixo; para a fronteira o preço não cai da mesma forma. Seis benchmarks apenas.",
+   "criticas": "Os autores avisam que não é certo que as taxas mais altas persistam; preço não é custo (subsídio e margem); tokens por tarefa sobem (modelos que raciocinam).",
+   "estado_atual": "Preço de capacidade 'GPT-4' desabou; gasto total tende a subir (Jevons).",
+   "relevancia_brasil": "Barateia automação de tarefas cognitivas em português; amplia exposição de ocupações administrativas e de serviços.",
+   "referencias": [
+    {
+     "titulo": "Epoch AI - LLM inference price trends",
+     "url": "https://epoch.ai/data-insights/llm-inference-price-trends",
+     "doi": null,
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "amara",
+   "nome": "Lei de Amara",
+   "autor": "Roy Amara (IFTF)",
+   "ano": 1978,
+   "formula": "Qualitativa: superestimamos o efeito no curto prazo e subestimamos no longo",
+   "formula_latex": "\\text{(sem formula)}",
+   "descricao": "Aforismo de previsão tecnológica. Descreve viés de curto/longo prazo, não uma equação.",
+   "parametros_empiricos": [],
+   "dominio_validade": "Heurística; sem valor preditivo quantitativo; atribuição e data são tradição oral, não conferidas.",
+   "criticas": "Não falsificável; usada retroativamente.",
+   "estado_atual": "Útil para calibrar manchetes sobre IA.",
+   "relevancia_brasil": "Evitar tanto o determinismo tecnológico quanto o ceticismo; olhar a estrutura institucional.",
+   "referencias": [
+    {
+     "titulo": "Citação tradicional; sem fonte primária conferida",
+     "url": null,
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "hype_gartner",
+   "nome": "Ciclo de hype (Gartner)",
+   "autor": "Jackie Fenn (Gartner)",
+   "ano": 1995,
+   "formula": "Qualitativa: gatilho -> pico de expectativas -> vale da desilusão -> ladeira da iluminação -> platô de produtividade",
+   "formula_latex": "\\text{(sem formula)}",
+   "descricao": "Modelo gráfico de percepção pública, não lei. Posições anuais são opinião de analistas.",
+   "parametros_empiricos": [
+    {
+     "valor": "IA generativa no vale da desilusão; agentes de IA e IA soberana no pico (relatório de IA 2025)",
+     "unidade": "posição relatada",
+     "periodo": "2025",
+     "fonte": "Gartner (via resumos de imprensa)",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Só como narrativa; muitas tecnologias não seguem o formato.",
+   "criticas": "Sem evidência de regularidade; Gartner pública a própria classificação; efeito de profecia.",
+   "estado_atual": "Usar com cautela; não usar para prever adoção.",
+   "relevancia_brasil": "Ajuda a ler ciclo de investimento (bolhas, ajustes), não a calibrar o modelo.",
+   "referencias": [
+    {
+     "titulo": "Gartner - Hype Cycle for Artificial Intelligence 2025 (resumo via imprensa)",
+     "url": "https://www.techrepublic.com/article/news-gartner-ai-predictions-2028/",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "baumol",
+   "nome": "Doença dos custos de Baumol",
+   "autor": "William J. Baumol e William G. Bowen",
+   "ano": 1966,
+   "formula": "Setor estagnado: custo unitário c_s ~ w / a_s, com w crescendo com a produtividade do setor progressivo; participação de setores estagnados sobe",
+   "formula_latex": "c_s=\\frac{w}{a_s},\\quad \\frac{\\dot w}{w}=g_{a_p}\\Rightarrow \\frac{\\dot c_s}{c_s}=g_{a_p}-g_{a_s}",
+   "descricao": "Serviços de baixa produtividade (saúde, educação, artes) encarecem em termos relativos porque salários acompanham os setores produtivos.",
+   "parametros_empiricos": [],
+   "dominio_validade": "Quando salários convergem entre setores e produtividade de serviços e estática.",
+   "criticas": "Parte dos serviços ganha produtividade (digitalização); Aghion, Jones e Jones: IA pode virar a tendência ou gerar nova versão do problema onde tarefas não automatizáveis limitam o crescimento.",
+   "estado_atual": "Saúde e educação respondem por parcelas crescentes de gasto no mundo; IA tenta romper em tarefas cognitivas.",
+   "relevancia_brasil": "Pressão fiscal por saúde e educação; envelhecimento; IA em diagnóstico e tutoria pode reduzir custo, mas depende de regulação e capacitação; aqui entra supply_reform (produtividade de serviços).",
+   "referencias": [
+    {
+     "titulo": "Baumol - Macroeconomics of unbalanced growth (AER, 1967)",
+     "url": null,
+     "doi": null,
+     "verificado": false
+    },
+    {
+     "titulo": "Aghion, Jones, Jones - Artificial Intelligence and Economic Growth (NBER w23928)",
+     "url": "https://www.nber.org/papers/w23928",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "jevons",
+   "nome": "Paradoxo de Jevons (efeito rebote)",
+   "autor": "William Stanley Jevons",
+   "ano": 1865,
+   "formula": "Demanda total sobe quando eficiência melhora se a elasticidade-preço do serviço de energia for maior que 1 em módulo",
+   "formula_latex": "\\varepsilon<-1\\Rightarrow E_{total}\\uparrow\\ \\text{quando}\\ \\eta\\uparrow",
+   "descricao": "Ganhos de eficiência reduzem o custo do serviço e podem aumentar o consumo total do recurso.",
+   "parametros_empiricos": [
+    {
+     "valor": "consumo de data centers: 415 TWh (1,5% do global) em 2024 -> ~945 TWh em 2030",
+     "unidade": "projeção IEA",
+     "periodo": "2024-2030",
+     "fonte": "IEA Energy and AI (resumo de busca)",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Serviços com demanda elástica e não saturada (iluminação, computação, transporte); fraco em demanda saturada.",
+   "criticas": "O rebote geralmente é parcial (<100%) em usos maduros; evidências de 'backfire' são raras e específicas.",
+   "estado_atual": "IA: preço de tokens cai, uso explode; GD solar: tarifa menor estimula consumo.",
+   "relevancia_brasil": "Preços mais baixos de eletricidade solar e de IA não reduzem automaticamente consumo ou emissões; planejar transmissão e demanda.",
+   "referencias": [
+    {
+     "titulo": "IEA - Energy and AI (2025)",
+     "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+     "doi": null,
+     "verificado": false
+    },
+    {
+     "titulo": "Jevons - The Coal Question (1865)",
+     "url": null,
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "solow",
+   "nome": "Modelo de crescimento de Solow",
+   "autor": "Robert M. Solow",
+   "ano": 1956,
+   "formula": "Y = A K^a L^(1-a); dk/dt = s f(k) - (n+d+g)k; estado estacionário k* = (s A/(n+d+g))^(1/(1-a))",
+   "formula_latex": "Y=AK^{\\alpha}L^{1-\\alpha},\\ \\dot k=sk^{\\alpha}-(n+\\delta+g)k",
+   "descricao": "Crescimento de longo prazo por renda per capita vem do progresso técnico exógeno (A); acumulação de capital tem retornos decrescentes.",
+   "parametros_empiricos": [],
+   "dominio_validade": "Economias próximas a estado estacionário com mercados competitivos; sem explicar a origem de A.",
+   "criticas": "Tecnologia exógena (corrigido por Romer); não explica divergência entre países sem capital humano e instituições.",
+   "estado_atual": "Base de contabilidade de crescimento; no modelo macro do projeto, supply_reform é um deslocamento em A/pib potencial.",
+   "relevancia_brasil": "Crescimento potencial baixo em décadas recentes por baixa produtividade total; tecnologia entra como ganho de A, condicionada a capital humano, crédito, concorrência e estabilidade.",
+   "referencias": [
+    {
+     "titulo": "Solow - A Contribution to the Theory of Economic Growth (QJE)",
+     "url": null,
+     "doi": "10.2307/1884513",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "romer",
+   "nome": "Crescimento endógeno (Romer)",
+   "autor": "Paul M. Romer",
+   "ano": 1990,
+   "formula": "dA/dt = d H_A A^phi; ideias não rivais geram retornos crescentes em escala",
+   "formula_latex": "\\dot A=\\delta H_A A^{\\phi}",
+   "descricao": "O progresso técnico resulta de P&D motivado por lucro; ideias são não rivais, portanto a escala de mercado e capital humano elevam o crescimento.",
+   "parametros_empiricos": [
+    {
+     "valor": "produtividade da pesquisa em queda: ideias ficam mais difíceis de encontrar",
+     "unidade": "achado empírico",
+     "periodo": "décadas até ~2015",
+     "fonte": "Bloom, Jones, Van Reenen, Webb 2020 (DOI conferido; números não lidos)",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Existência de incentivos a P&D e proteção a ideias; escala de mercado e capital humano.",
+   "criticas": "Evidência de queda de produtividade da pesquisa; efeito escala não observado; IA pode ser 'ideia de ideias' (hipótese).",
+   "estado_atual": "IA pode elevar a oferta de pesquisa (automação de P&D) ou não; incerto.",
+   "relevancia_brasil": "Gasto em P&D baixo no setor privado; capital humano é a restrição; IA é importada.",
+   "referencias": [
+    {
+     "titulo": "Romer - Endogenous Technological Change (JPE)",
+     "url": null,
+     "doi": "10.1086/261725",
+     "verificado": true
+    },
+    {
+     "titulo": "Bloom et al. - Are Ideas Getting Harder to Find? (AER)",
+     "url": null,
+     "doi": "10.1257/aer.20180338",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "tarefas",
+   "nome": "Modelo de tarefas e automação (Acemoglu-Restrepo; Autor-Levy-Murnane)",
+   "autor": "Acemoglu & Restrepo; Autor, Levy, Murnane",
+   "ano": 2018,
+   "formula": "Produção agrega tarefas; automação desloca trabalho (efeito deslocamento) e reduz custos (produtividade); novas tarefas reintroduzem trabalho (efeito reintegração). Ganho de PTF aprox. = parcela de tarefas afetadas x economia média de custo (Hulten)",
+   "formula_latex": "\\Delta \\ln TFP\\approx s_{\\text{tarefas afetadas}}\\times \\overline{\\text{economia de custo}}",
+   "descricao": "Tecnologia afeta emprego e salário por quais tarefas automatiza e por novas tarefas criadas; não é 'tecnologia versus trabalho' em bloco.",
+   "parametros_empiricos": [
+    {
+     "valor": "ganho de PTF <= 0,66% em 10 anos (<=0,53% considerando tarefas mais difíceis)",
+     "unidade": "estimativa para IA nos EUA",
+     "periodo": "2024",
+     "fonte": "Acemoglu 2024 NBER w32487 (resumo de busca)",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Economias com mercado de trabalho formal; estimativas dependem de exposição e de economia de custo por tarefa, ambas incertas.",
+   "criticas": "Estimativas conservadoras podem subestimar mudanças de tipo (novos produtos); outros autores preveem ganhos maiores.",
+   "estado_atual": "Evidência inicial no Brasil: efeitos concentrados em jovens de 18 a 29 anos (declínios de emprego e renda), segundo estudo FGV IBRE (abr/2026).",
+   "relevancia_brasil": "A alta informalidade do mercado de trabalho brasileiro muda quem é exposto; ocupações de escritório e jovens qualificados em tarefas de entrada são os mais afetados; usar como ligação com produtividade (supply_reform) e desigualdade.",
+   "referencias": [
+    {
+     "titulo": "Acemoglu, Restrepo - The Race between Man and Machine (AER)",
+     "url": null,
+     "doi": "10.1257/aer.20160696",
+     "verificado": true
+    },
+    {
+     "titulo": "Acemoglu, Restrepo - Automation and New Tasks (JEP)",
+     "url": null,
+     "doi": "10.1257/jep.33.2.3",
+     "verificado": true
+    },
+    {
+     "titulo": "Autor, Levy, Murnane - The Skill Content of Recent Technological Change (QJE)",
+     "url": null,
+     "doi": "10.1162/003355303322552801",
+     "verificado": true
+    },
+    {
+     "titulo": "Autor - Why Are There Still So Many Jobs? (JEP)",
+     "url": null,
+     "doi": "10.1257/jep.29.3.3",
+     "verificado": true
+    },
+    {
+     "titulo": "Acemoglu - The Simple Macroeconomics of AI (NBER w32487)",
+     "url": "https://www.nber.org/papers/w32487",
+     "doi": "10.3386/w32487",
+     "verificado": true
+    },
+    {
+     "titulo": "FGV IBRE (Duque, 27/04/2026) - IA generativa e mercado de trabalho no Brasil",
+     "url": "https://blogdoibre.fgv.br/posts/inteligencia-artificial-generativa-e-mercado-de-trabalho-no-brasil-evidencias-iniciais-sobre",
+     "doi": null,
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "exposicao_ia",
+   "nome": "Exposição do trabalho a IA (FMI 2024, OIT 2023/2025, Brasil)",
+   "autor": "FMI (Cazzaniga et al.); OIT (Gmyrek, Berg, Bescond); FGV IBRE (Duque)",
+   "ano": 2024,
+   "formula": "Exposição e = parcela de emprego em ocupações com tarefas que a IA pode executar; complementaridade c modula (exposto e complementar -> ganho; exposto e substituível -> risco)",
+   "formula_latex": "E=\\sum_o w_o\\,\\mathbb 1[e_o>\\tau]",
+   "descricao": "Índices de exposição não medem desemprego: medem tarefas tecnicamente afetáveis.",
+   "parametros_empiricos": [
+    {
+     "valor": "~40% do emprego global exposto; ~60% em economias avançadas; 40% em emergentes; 26% em renda baixa",
+     "unidade": "exposição a IA",
+     "periodo": "2024",
+     "fonte": "FMI, blog 14/01/2024",
+     "verificado": true
+    },
+    {
+     "valor": "1 em cada 4 trabalhadores em ocupações com alguma exposição; 3,3% na categoria de maior exposição; 34% do emprego em países de renda alta vs 11% em renda baixa",
+     "unidade": "exposição a IA generativa",
+     "periodo": "maio/2025",
+     "fonte": "OIT (20/05/2025)",
+     "verificado": true
+    },
+    {
+     "valor": "29,6% dos ocupados (~30 milhões) com alguma exposição; ~5,2 milhões em exposição mais alta (3º tri/2025)",
+     "unidade": "exposição no Brasil",
+     "periodo": "2025",
+     "fonte": "FGV IBRE, Duque, 27/04/2026",
+     "verificado": true
+    },
+    {
+     "valor": "5,4% com alta exposição; 31,3 milhões de empregos afetados; mulheres 7,8% vs homens 3,6% na alta exposição",
+     "unidade": "OIT adaptada ao Brasil",
+     "periodo": "2025",
+     "fonte": "imprensa sindical citando OIT (resumo de busca)",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "Exposição técnica não é desemprego; depende de adoção e custo.",
+   "criticas": "Métodos diferem (ocupações vs tarefas; especialistas vs LLM); números brasileiros da OIT chegaram via imprensa; sem calibração de elasticidades.",
+   "estado_atual": "Em países ricos, ocupações de escritório; no Brasil, 30% dos ocupados; efeito inicial em jovens.",
+   "relevancia_brasil": "Maior exposição em Sudeste, serviços (informação, financeiro), mulheres e jovens escolarizados; menor em agricultura e construção. Ligação com macro: supply_reform positivo se complementaridade; mercado de trabalho e distribuição.",
+   "referencias": [
+    {
+     "titulo": "IMF - AI will transform the global economy (blog, 14/01/2024; base: SDN/2024/001)",
+     "url": "https://www.imf.org/en/Blogs/Articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity",
+     "doi": null,
+     "verificado": true
+    },
+    {
+     "titulo": "ILO - Generative AI and Jobs: A Refined Global Index of Occupational Exposure (20/05/2025)",
+     "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+     "doi": null,
+     "verificado": true
+    },
+    {
+     "titulo": "FGV IBRE (Duque, 27/04/2026) - IA generativa e mercado de trabalho no Brasil",
+     "url": "https://blogdoibre.fgv.br/posts/inteligencia-artificial-generativa-e-mercado-de-trabalho-no-brasil-evidencias-iniciais-sobre",
+     "doi": null,
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "kurzweil",
+   "nome": "Singularidade e Lei dos Retornos Acelerados (Kurzweil)",
+   "autor": "Ray Kurzweil (Vinge 1993 popularizou o termo)",
+   "ano": 2005,
+   "formula": "Progresso de tecnologia da informação e exponencial duplo: log(taxa) cresce com o tempo; singularidade projetada para ~2045",
+   "formula_latex": "\\frac{d}{dt}\\ln P(t)=r(t),\\ r'(t)>0",
+   "descricao": "Hipótese: retornos acelerados em tecnologia da informação levam a IA superinteligente e a mudança descontínua. Contestada.",
+   "parametros_empiricos": [],
+   "dominio_validade": "Não validada; extrapolação de curvas de IT para economia geral.",
+   "criticas": "Nordhaus (2021) testa a hipótese de singularidade econômica e conclui que os dados atuais não a sustentam; gargalos físicos, energia e baumol; fé em extrapolação; nenhuma lei física.",
+   "estado_atual": "Debate vivo; não usar como cenário central; tratar como cauda de risco/otimismo.",
+   "relevancia_brasil": "Cenários de cauda: choque rápido de emprego ou salto de produtividade; instituições (regulação, proteção social) devem ser robustas aos dois.",
+   "referencias": [
+    {
+     "titulo": "Nordhaus - Are We Approaching an Economic Singularity? (AEJ Macro)",
+     "url": null,
+     "doi": "10.1257/mac.20170105",
+     "verificado": true
+    },
+    {
+     "titulo": "Kurzweil - The Singularity Is Near (2005)",
+     "url": null,
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "potencia_pareto",
+   "nome": "Leis de potência: Pareto, Zipf e tamanho de firmas",
+   "autor": "Vilfredo Pareto (1896); George Zipf (1949); Gabaix; Axtell",
+   "ano": 1896,
+   "formula": "P(X > x) = (xm/x)^a; Zipf: tamanho de rank r ~ r^(-1/a)",
+   "formula_latex": "P(X>x)=\\left(\\frac{x_m}{x}\\right)^{\\alpha},\\quad x_{(r)}\\propto r^{-1/\\alpha}",
+   "descricao": "Caudas de renda e riqueza e tamanhos de empresas seguem leis de potência; um expoente menor significa cauda mais pesada e maior concentração.",
+   "parametros_empiricos": [
+    {
+     "valor": "10% mais ricos com ~59% da renda total; 50% mais pobres ~9%",
+     "unidade": "Brasil",
+     "periodo": "WIR 2026",
+     "fonte": "World Inequality Report 2026 (via resumo de busca)",
+     "verificado": false
+    },
+    {
+     "valor": "top 1%: 23,7% (2001) -> 25,4% (2012) -> 20,3% (2019) da renda nacional pré-impostos",
+     "unidade": "Brasil",
+     "periodo": "2001-2019",
+     "fonte": "WID (via resumo de busca)",
+     "verificado": false
+    }
+   ],
+   "dominio_validade": "A cauda superior, não o corpo; exige muitos dados e teste estatístico.",
+   "criticas": "Clauset, Shalizi, Newman (2009): muitas 'leis de potência' são confirmadas apenas com gráficos log-log; lognormal frequentemente ajusta tão bem; cauda sensível a dados administrativos; pesquisa domiciliar subestima topo (Medeiros, Souza, Castro).",
+   "estado_atual": "IA e plataformas podem engrossar a cauda (vencedor leva a maior parte); no Brasil, topo de renda subestimado por pesquisas.",
+   "relevancia_brasil": "Concentração de renda do topo e de firmas e eixo dos resultados distributivos; tecnologia com efeito escala vencedor-leva-tudo tende a elevar concentração salvo política.",
+   "referencias": [
+    {
+     "titulo": "Gabaix - Power Laws in Economics and Finance (Annu. Rev. Econ.)",
+     "url": null,
+     "doi": "10.1146/annurev.economics.050708.142940",
+     "verificado": true
+    },
+    {
+     "titulo": "Axtell - Zipf Distribution of U.S. Firm Sizes (Science)",
+     "url": null,
+     "doi": "10.1126/science.1062081",
+     "verificado": true
+    },
+    {
+     "titulo": "Clauset, Shalizi, Newman - Power-Law Distributions in Empirical Data (SIAM Review)",
+     "url": null,
+     "doi": "10.1137/070710111",
+     "verificado": true
+    },
+    {
+     "titulo": "Medeiros, Souza, Castro - The Stability of Income Inequality in Brazil, 2006-2012",
+     "url": null,
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  }
+ ],
+ "tendencias": [
+  {
+   "id": "solar_eolica",
+   "titulo": "Solar e eólica: expansão continuada e problema de integração",
+   "horizonte": "2026-2035 (forte); 2035-2040 (depende de rede e armazenamento)",
+   "evidencia": "LCOE solar global US$0,043/kWh em 2024 (-90% desde 2010, IRENA via resumo). Brasil ~55 GW solar em jul/2026, 22,2% da capacidade (ABSOLAR via imprensa).",
+   "incerteza": "Curtailment, transmissão, regra de GD (Lei 14.300), sobreoferta chinesa e câmbio; custo de capital alto.",
+   "impacto_economico": "Eletricidade mais barata para consumidores e indústria eletrointensiva; risco de transferência entre classes (subsídio cruzado); impacto em PIB positivo, de pequeno a moderado, sem número fixado aqui.",
+   "classes_afetadas": [
+    "domicílios de classe média com telhado próprio",
+    "indústria eletrointensiva",
+    "distribuidoras",
+    "consumidores sem GD (custo de rede)",
+    "trabalho de instalação"
+   ],
+   "alavanca_macro": "supply_reform (energia barata, produtividade); risco institucional via regulação do setor elétrico",
+   "referencias": [
+    {
+     "titulo": "IRENA - Renewable Power Generation Costs in 2024",
+     "url": "https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024",
+     "doi": null,
+     "verificado": false
+    },
+    {
+     "titulo": "ABSOLAR via Canal Solar - capacidade solar instalada no Brasil (jul/2026)",
+     "url": "https://canalsolar.com.br/energia-solar-potencia-instalada-brasil-absolar/",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "baterias_ve",
+   "titulo": "Baterias baratas e veículos elétricos",
+   "horizonte": "2026-2040",
+   "evidencia": "Pack US$108/kWh em 2025 (BNEF, conferido); estacionário US$70/kWh. Brasil: 223.912 eletrificados leves em 2025 (9% das vendas; 13% em dezembro), ABVE via imprensa.",
+   "incerteza": "Tarifa de importação, ritmo de infraestrutura de recarga, crédito, preço de metais, política industrial.",
+   "impacto_economico": "Redução de importação de combustível e de custos de operação; pressão sobre cadeia automotiva local e etanol; saldo depende de oferta nacional.",
+   "classes_afetadas": [
+    "classes A e B (compradoras)",
+    "trabalhadores da indústria automotiva",
+    "postos de combustível",
+    "setor sucroenergético",
+    "transporte por aplicativo"
+   ],
+   "alavanca_macro": "supply_reform (produtividade) e balança comercial; fiscal (menor arrecadação de combustíveis)",
+   "referencias": [
+    {
+     "titulo": "BloombergNEF - Lithium-ion battery pack prices fall to $108/kWh (09/12/2025)",
+     "url": "https://about.bnef.com/insights/commodities/lithium-ion-battery-pack-prices-fall-to-108-per-kilowatt-hour-despite-rising-metal-prices/",
+     "doi": null,
+     "verificado": true
+    },
+    {
+     "titulo": "ABVE - fechamento de 2025 (via Conexão TO)",
+     "url": "https://conexaoto.com.br/2026/01/06/eletrificados-crescem-26-e-fecham-2025-com-224-mil-veiculos-vendidos",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "hidrogenio",
+   "titulo": "Hidrogênio verde e derivados",
+   "horizonte": "2030-2040 (incerto); pouco impacto antes de 2030",
+   "evidencia": "Custo de eletrolisadores não seguiu as previsões otimistas; números não conferidos nesta compilação.",
+   "incerteza": "Muito alta: demanda ancorada, financiamento, preço da eletricidade, concorrência chinesa.",
+   "impacto_economico": "Opção de industrialização verde (fertilizantes, aço); sem número.",
+   "classes_afetadas": [
+    "região Nordeste (hubs)",
+    "indústria de fertilizantes e siderurgia",
+    "trabalhadores de construção e engenharia"
+   ],
+   "alavanca_macro": "supply_reform (opcional, no cenário otimista)",
+   "referencias": [
+    {
+     "titulo": "IEA - Global Hydrogen Review",
+     "url": "https://www.iea.org/reports/global-hydrogen-review-2025",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "ia_generativa_agentes",
+   "titulo": "IA generativa e agentes de IA no trabalho",
+   "horizonte": "2026-2032 (adoção em escritório e serviços); 2032-2040 (incerto)",
+   "evidencia": "Compute de fronteira 5x/ano; preço por desempenho cai 9x-900x/ano (Epoch). Exposição: FMI 40% global; OIT 25% com alguma exposição; Brasil 29,6% (FGV IBRE). Efeito inicial em jovens de 18-29 anos. Gartner (2025): GenAI no vale da desilusão e agentes no pico, indicador de narrativa.",
+   "incerteza": "Ritmo de adoção em empresas, confiabilidade, regulação (PL 2338/2023 em tramitação), custo de energia e chips; ganho de PTF em estimativas conservadoras < 1% em 10 anos (EUA).",
+   "impacto_economico": "Ganho de produtividade em tarefas cognitivas; efeito distributivo adverso para entrada de carreira; transferência de renda para capital e para poucos trabalhadores muito qualificados.",
+   "classes_afetadas": [
+    "jovens qualificados em tarefas de entrada",
+    "trabalhadores de escritório e atendimento",
+    "mulheres (maior exposição)",
+    "programadores e analistas",
+    "capitalistas e donos de plataforma"
+   ],
+   "alavanca_macro": "supply_reform (produtividade, se difusão ampla); distribuição; fiscal (arrecadação sobre folha)",
+   "referencias": [
+    {
+     "titulo": "Epoch AI - Trends dashboard (atualizado em 05/02/2026)",
+     "url": "https://epoch.ai/trends",
+     "doi": null,
+     "verificado": true
+    },
+    {
+     "titulo": "Epoch AI - LLM inference price trends",
+     "url": "https://epoch.ai/data-insights/llm-inference-price-trends",
+     "doi": null,
+     "verificado": true
+    },
+    {
+     "titulo": "IMF - AI will transform the global economy (blog, 14/01/2024; base: SDN/2024/001)",
+     "url": "https://www.imf.org/en/Blogs/Articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity",
+     "doi": null,
+     "verificado": true
+    },
+    {
+     "titulo": "ILO - Generative AI and Jobs: A Refined Global Index of Occupational Exposure (20/05/2025)",
+     "url": "https://www.ilo.org/publications/generative-ai-and-jobs-refined-global-index-occupational-exposure",
+     "doi": null,
+     "verificado": true
+    },
+    {
+     "titulo": "FGV IBRE (Duque, 27/04/2026) - IA generativa e mercado de trabalho no Brasil",
+     "url": "https://blogdoibre.fgv.br/posts/inteligencia-artificial-generativa-e-mercado-de-trabalho-no-brasil-evidencias-iniciais-sobre",
+     "doi": null,
+     "verificado": true
+    },
+    {
+     "titulo": "Gartner via TechRepublic",
+     "url": "https://www.techrepublic.com/article/news-gartner-ai-predictions-2028/",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "energia_data_centers",
+   "titulo": "Demanda de energia da IA e data centers",
+   "horizonte": "2026-2030 (projeção IEA); 2030-2040 incerto",
+   "evidencia": "415 TWh em 2024 (1,5% da eletricidade global), ~945 TWh em 2030 (IEA, via resumo); construção de data center de GW leva ~2,1 anos (Epoch).",
+   "incerteza": "Ritmo de eficiência (Koomey), chips, transmissão, política de energia, bolha de investimento.",
+   "impacto_economico": "Oportunidade de atrair investimento (matriz limpa); risco de pressionar rede e tarifas.",
+   "classes_afetadas": [
+    "consumidores residenciais (tarifa)",
+    "regiões que recebem data centers",
+    "setor elétrico"
+   ],
+   "alavanca_macro": "supply_reform (investimento); risco institucional (regulação e licenciamento)",
+   "referencias": [
+    {
+     "titulo": "IEA - Energy and AI (2025)",
+     "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+     "doi": null,
+     "verificado": false
+    },
+    {
+     "titulo": "Epoch AI - Trends dashboard (atualizado em 05/02/2026)",
+     "url": "https://epoch.ai/trends",
+     "doi": null,
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "biotec_agro",
+   "titulo": "Biotecnologia, genômica e agrotecnologia",
+   "horizonte": "2026-2040",
+   "evidencia": "Custo de sequenciamento caiu de ~US$95 milhões (2001) para centenas de dólares por genoma (NHGRI, via resumo). Brasil tem forte base em agro, Embrapa, Fiocruz.",
+   "incerteza": "Regulação (CTNBio), acesso a patentes, clima, competição global.",
+   "impacto_economico": "Aumento de produtividade agrícola e de saúde; bioeconomia amazônica; sem número fixado.",
+   "classes_afetadas": [
+    "agronegócio",
+    "agricultura familiar (acesso desigual)",
+    "setor de saúde",
+    "povos e comunidades tradicionais (acesso a conhecimento)"
+   ],
+   "alavanca_macro": "supply_reform (produtividade rural)",
+   "referencias": [
+    {
+     "titulo": "NHGRI - DNA Sequencing Costs",
+     "url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "conectividade",
+   "titulo": "Fibra, 5G e satélites de órbita baixa",
+   "horizonte": "2026-2032",
+   "evidencia": "93,6% dos domicílios com internet em 2024; rural 84,8%; ~5,1 milhões de lares fora (IBGE via imprensa).",
+   "incerteza": "Qualidade, preço, dependência de provedores estrangeiros (satélites), regulação.",
+   "impacto_economico": "Inclusão digital rural e na Amazônia; serviços públicos digitais; saturação de acesso (logística).",
+   "classes_afetadas": [
+    "domicílios rurais e amazônicos",
+    "pequenos provedores regionais",
+    "escolas e UBS"
+   ],
+   "alavanca_macro": "supply_reform (acesso e produtividade); desigualdade regional",
+   "referencias": [
+    {
+     "titulo": "IBGE - PNAD Contínua TIC 2024 (Teletime)",
+     "url": "https://teletime.com.br/24/07/2025/internet-chega-a-93-dos-domicilios-mas-51-milhoes-de-lares-seguem-offline/",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "pagamentos_digitais",
+   "titulo": "Pagamentos instantâneos e finanças abertas (Pix e extensões)",
+   "horizonte": "2026-2030",
+   "evidencia": "Pix: 318,07 milhões de transações em 04/09/2026; 22,93 bilhões no 2º tri/2026; 76,4% da população usa (BCB via imprensa).",
+   "incerteza": "Segurança, fraude, regulação de big techs, concorrência internacional.",
+   "impacto_economico": "Redução de custo de transação e informalidade financeira; base para crédito (Open Finance).",
+   "classes_afetadas": [
+    "microempreendedores",
+    "bancos incumbentes",
+    "adultos sem conta bancária",
+    "consumidores"
+   ],
+   "alavanca_macro": "supply_reform (custo de transação); risco institucional (independência do BCB)",
+   "referencias": [
+    {
+     "titulo": "BCB via imprensa",
+     "url": "https://gironews.com/negocios/pix-registra-recorde-de-318-milhoes-de-transacoes-em-um-dia/",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "quantica",
+   "titulo": "Computação quântica (incerteza)",
+   "horizonte": "2035+ (incerto)",
+   "evidencia": "Sem evidência conferida nesta compilação; tratamos como opção de longa duração.",
+   "incerteza": "Muito alta: correção de erro, escala; risco criptográfico (migração pós-quântica).",
+   "impacto_economico": "Não modelado; risco de segurança para criptografia e oportunidade de nicho.",
+   "classes_afetadas": [
+    "setor financeiro",
+    "defesa e segurança",
+    "pesquisa"
+   ],
+   "alavanca_macro": "risco institucional (segurança cibernética); nenhuma alavanca de produtividade no horizonte",
+   "referencias": [
+    {
+     "titulo": "Sem fonte primária lida",
+     "url": null,
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "robotica_automacao",
+   "titulo": "Robótica e automação física",
+   "horizonte": "2028-2040",
+   "evidencia": "Acemoglu & Restrepo (2020) estimam efeito negativo de robôs sobre emprego e salário nos EUA (DOI conferido; números não lidos).",
+   "incerteza": "Custo de hardware e robôs humanoides ainda sem escala comprovada.",
+   "impacto_economico": "Indústria e logística; efeito relevante depois de 2030; informalidade altera exposição.",
+   "classes_afetadas": [
+    "operários",
+    "motoristas",
+    "armazéns",
+    "agricultura mecanizada"
+   ],
+   "alavanca_macro": "supply_reform; mercado de trabalho",
+   "referencias": [
+    {
+     "titulo": "Acemoglu, Restrepo - Robots and Jobs: Evidence from US Labor Markets (JPE)",
+     "url": null,
+     "doi": "10.1086/705716",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "difusao_cauda",
+   "titulo": "Concentração e cauda de poder de mercado na economia da IA",
+   "horizonte": "2026-2040",
+   "evidencia": "Leis de potência em renda e firmas (Gabaix; Axtell); topo 10% com ~59% da renda no Brasil (WIR 2026, via resumo).",
+   "incerteza": "Política antitruste, tributação, acesso a compute.",
+   "impacto_economico": "Possível aumento de concentração do capital; impacto fiscal.",
+   "classes_afetadas": [
+    "top 1% e donos de capital",
+    "trabalhadores de renda média",
+    "pequenas empresas"
+   ],
+   "alavanca_macro": "primary_target (arrecadação); fiscal_credibility; risco institucional (captura regulatória)",
+   "referencias": [
+    {
+     "titulo": "Gabaix - Power Laws in Economics and Finance",
+     "url": null,
+     "doi": "10.1146/annurev.economics.050708.142940",
+     "verificado": true
+    }
+   ]
+  }
+ ]
+}
