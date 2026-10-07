@@ -1,0 +1,668 @@
+{
+ "episodios": [
+  {
+   "id": "grande-seca-1877-1879",
+   "ano": "1877-1879",
+   "titulo": "Grande Seca no Nordeste (Império)",
+   "evento_climatico": "Seca de três anos que atingiu oito províncias do Nordeste, com o Ceará como epicentro, segundo o Senado Federal.",
+   "efeitos_economicos": "Segundo o Senado, leis e decretos destinaram verbas do Orçamento imperial às províncias; um projeto previa 400 contos de réis para socorrer o Ceará. Série de perdas econômicas não verificada.",
+   "efeitos_humanos": "Migração em massa para o litoral. Segundo o Senado, Fortaleza, com 25 mil habitantes, passou a 140 mil. Segundo artigo da SciELO (Hist. Ciênc. Saúde-Manguinhos), Fortaleza, com cerca de 25 mil moradores, recebeu 114 mil retirantes, número provavelmente subestimado. Segundo o Senado, a varíola foi a doença mais letal entre os sertanejos nas colônias.",
+   "contagem_ou_estimativa": "Mortes no Nordeste: 500 mil em oito províncias (cerca de 12% da população dessas províncias e 5% da do Império), segundo o Senado e o jornalista Herbert Smith. Fortaleza: 57.780 óbitos em 1878, segundo artigo SciELO; Studart estimou cerca de 67 mil para toda a seca na cidade, segundo o mesmo artigo. A fonte secundária Wikipedia (en) cita 400 a 500 mil no total e estimativas de época de 300 mil e 150 mil. Faixa a reportar: 150 mil a 500 mil mortes no Nordeste; sem número único verificado para o Ceará.",
+   "fontes": [
+    {
+     "titulo": "Agência Senado - O retrato da Grande Seca do Império",
+     "url": "https://www12.senado.leg.br/noticias/especiais/arquivo-s/500-mil-mortes-doenca-fome-desvio-de-verbas-e-pedido-de-cpi-o-retrato-da-grande-seca-do-imperio",
+     "trecho_conferido": "A chamada Grande Seca se arrastou por três anos e provocou 500 mil mortes em oito províncias; tirou a vida de 12% da população das oito províncias; 5% da população do Império (~10 milhões); Fortaleza, que tinha 25 mil habitantes, passou a 140 mil; 400 contos de réis para o Ceará."
+    },
+    {
+     "titulo": "SciELO - A seca de 1877-1879 no Império do Brasil (Hist. Ciênc. Saúde-Manguinhos)",
+     "url": "http://www.scielo.br/j/hcsm/a/ynZxC9TkBJS5GdCnjKXmGKd/?lang=pt",
+     "trecho_conferido": "Herbert Smith estimou 500 mil sertanejos mortos de varíola e fome; Fortaleza, com cerca de 25 mil moradores, recebeu 114 mil retirantes; todos esses números são estimativas e a estatística imperial era defeituosa."
+    },
+    {
+     "titulo": "SciELO - Teorias médicas e gestão urbana: a seca de 1877-79 em Fortaleza",
+     "url": "http://www.scielo.br/j/hcsm/a/RsqDrVbzDm6wGyT3MXqsZyB/?lang=pt",
+     "trecho_conferido": "57.780 mortes em Fortaleza em 1878; 114.404 pessoas em 12 acampamentos em nov/1878; Studart calculou cerca de 67.267 mortes em Fortaleza."
+    },
+    {
+     "titulo": "Wikipedia (en) - Grande Seca (fonte secundária, só para divergência)",
+     "url": "https://en.wikipedia.org/wiki/Grande_Seca",
+     "trecho_conferido": "Caused the deaths of between 400,000 and 500,000 people; cita estimativas de época de 300.000 e 150.000."
+    }
+   ],
+   "incerteza": "Alta. A estatística imperial era defeituosa e as estimativas variam conforme o recorte (Ceará x Nordeste, mortes x migração). Fontes acadêmicas como Fundação Joaquim Nabuco e CPDOC não foram abertas.",
+   "verificado": true
+  },
+  {
+   "id": "geada-negra-1975",
+   "ano": 1975,
+   "titulo": "Geada negra de julho de 1975 e o café no Paraná",
+   "evento_climatico": "Geada negra de 18 de julho de 1975 no Paraná, segundo artigo do Ateliê de História da UEPG.",
+   "efeitos_economicos": "Segundo o jornal Panorama (citado em artigo da UEPG), a safra de 1976 do Paraná era estimada em 10 milhões de sacas, avaliadas em 4,8 bilhões de cruzeiros. Segundo o mesmo artigo, a erradicação atingiu cerca de 900 milhões de plantas em quase 200 municípios. Segundo o Sistema FAEP (via CNA), 950 milhões de pés foram mortos. O artigo aponta crise prévia de preços, ferrugem e broca e a geada intensificou a erradicação do café.",
+   "efeitos_humanos": "Não verificado em fonte aberta (êxodo rural e fim do ciclo do café citados na imprensa, sem número conferido).",
+   "contagem_ou_estimativa": "Plantas perdidas: cerca de 900 milhões (Panorama, via UEPG) a 950 milhões (FAEP, via CNA). Área de café no Paraná em 1975: cerca de 615 mil ha (FAEP, via CNA). Safra do Paraná em 1975: 10,2 milhões de sacas, 48% da produção nacional (FAEP, via CNA).",
+   "fontes": [
+    {
+     "titulo": "CNA - Geada negra: 50 anos do evento climático que modificou o agro do Paraná",
+     "url": "https://cnabrasil.org.br/noticias/geada-negra-50-anos-do-evento-climatico-que-modificou-o-agro-do-parana",
+     "trecho_conferido": "950 milhões de pés de café mortos (Sistema FAEP); cerca de 615 mil ha de café em 1975; safra 10,2 milhões de sacas (48% da produção nacional)."
+    },
+    {
+     "titulo": "Ateliê de História UEPG - Modernização agrícola e o declínio da cafeicultura pós-geada de 1975",
+     "url": "https://revistas.uepg.br/index.php/ahu/article/download/8759/5672/34783",
+     "trecho_conferido": "Geada negra de 18 de julho de 1975; Panorama: safra 1976 estimada em 10 milhões de sacas, 4 bilhões e 800 milhões de cruzeiros; erradicação de aproximadamente 900 milhões de plantas em quase 200 municípios."
+    }
+   ],
+   "incerteza": "Média. Números de plantas e sacas vêm de entidade setorial e de jornal da época citado em artigo acadêmico, sem série oficial IBC/IBGE conferida. Efeitos em preço e exportação não conferidos.",
+   "verificado": true
+  },
+  {
+   "id": "crise-hidrica-2014-2015",
+   "ano": "2014-2015",
+   "titulo": "Crise hídrica do Sudeste e Sistema Cantareira",
+   "evento_climatico": "Segundo a ANA, o Cantareira recebeu 23% das afluências médias em 2014 e 50% em 2015, abaixo de 1953 (pior ano da série desde 1930).",
+   "efeitos_economicos": "Segundo a ANA, o volume morto soma cerca de 480 bilhões de litros. Segundo a Agência Brasil, a primeira cota usada foi de 182,5 bilhões de litros e a segunda de 105 bilhões. Bônus da Sabesp, segundo a Agência Brasil: desconto de 10%, 20% ou 30% para redução de 10-15%, 15-20% e acima de 20% sobre a média de fev/2013 a jan/2014. Multa (tarifa de contingência) a partir de jan/2015, segundo o Idec: 40% a mais na tarifa de água para consumo até 20% acima da média e 100% acima disso. Impacto no PIB não verificado.",
+   "efeitos_humanos": "Segundo a Agência Brasil, o Cantareira atendia cerca de 5,4 milhões de pessoas em dez/2015, ante quase 9 milhões antes da crise.",
+   "contagem_ou_estimativa": "Nível do Cantareira: 27,2% em 1 jan 2014 e 8,9% em 11 mai 2014, segundo a Sabesp via Agência Brasil; 28,6% em 28 dez 2015, ainda no volume morto; título da Agência Brasil (2017): nível saltou de 2,2% para 45,9% em um ano. O mínimo depende da base (volume útil ou total) e fontes divergem em maio de 2014 (8,2% e 8,9%).",
+   "fontes": [
+    {
+     "titulo": "ANA - Sistema Cantareira (Saiba mais)",
+     "url": "https://www.gov.br/ana/pt-br/sala-de-situacao/sistema-cantareira/sistema-cantareira-saiba-mais",
+     "trecho_conferido": "Em 2014 o sistema recebeu 23% das afluências médias e em 2015, 50%, abaixo de 1953; volume morto de cerca de 480 bilhões de litros."
+    },
+    {
+     "titulo": "Agência Brasil - Nível do Cantareira saltou de 2,2% para 45,9% em um ano",
+     "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2017-01/nivel-do-cantareira-saltou-de-22-para-459-em-um-ano-diz-sabesp",
+     "trecho_conferido": "Título: nível saltou de 2,2% para 45,9% em um ano; primeira cota 182,5 bilhões de litros, segunda 105 bilhões."
+    },
+    {
+     "titulo": "Agência Brasil - Nível sobe, mas Sistema Cantareira fica no volume morto",
+     "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2015-12/nivel-sobe-mas-sistema-cantareira-fica-no-volume-morto",
+     "trecho_conferido": "28,6% em 28/12/2015; sai do volume morto aos 29,3%; cerca de 5,4 milhões atendidos contra quase 9 milhões antes da crise."
+    },
+    {
+     "titulo": "Agência Brasil - Novas regras para bônus na conta de água em SP",
+     "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2016-02/entra-em-vigor-reducao-dos-limites-de-consumo-em-programa-de-bonus-da-sabesp",
+     "trecho_conferido": "Descontos de 10%, 20% e 30% para reduções de 10-15%, 15-20% e acima de 20%; referência fev/2013-jan/2014."
+    },
+    {
+     "titulo": "Idec - Justiça suspende a sobretaxa de água",
+     "url": "https://idec.org.br/em-acao/em-foco/justica-suspende-a-sobretaxa-de-agua",
+     "trecho_conferido": "40% a mais sobre a tarifa total de água para consumo até 20% acima da média; 100% de acréscimo acima de 20%; liminar de 13/01/2015 derrubada em 15/01."
+    }
+   ],
+   "incerteza": "Média. O menor nível varia por base e data. Outras fontes citam percentuais diferentes de multa na proposta inicial, não conferidos. Racionamento formal e efeitos econômicos não verificados.",
+   "verificado": true
+  },
+  {
+   "id": "crise-hidro-energetica-2021",
+   "ano": 2021,
+   "titulo": "Crise hídrica e energética de 2021",
+   "evento_climatico": "Segundo o MME (audiência de 17/08/2021), a afluência de setembro a julho foi a pior dos últimos 91 anos; houve alerta de emergência hídrica na bacia do Paraná e declaração de escassez hídrica pela ANA em jun/2021.",
+   "efeitos_economicos": "Segundo o Diário do Nordeste, a ANEEL criou a bandeira escassez hídrica a R$ 14,20 por 100 kWh, de 1 set 2021 a abril de 2022, cerca de 50% acima da anterior mais cara, com alta média de 6,78% na conta. Segundo o IBGE (conferido só por resumo de busca; o release deu 403), a energia elétrica subiu 21,21% em 2021, com 0,98 p.p. de contribuição ao IPCA de 10,06%. Efeito no PIB não verificado.",
+   "efeitos_humanos": "Segundo o MME, os estoques eram suficientes para os usos consuntivos; houve campanha de uso consciente e programa de resposta voluntária da demanda.",
+   "contagem_ou_estimativa": "Energia armazenada no SE/CO: 34,7% em 30 abr 2021 (MME). Termelétricas adicionais desde out/2020 e importação do Uruguai e da Argentina (MME). IPCA 2021: 10,06%; energia elétrica: 21,21% (IBGE, via busca).",
+   "fontes": [
+    {
+     "titulo": "MME - Audiência pública Comissão de Minas e Energia, 17/08/2021 (PDF)",
+     "url": "https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cme/apresentacoes-em-eventos/apresentacoes-em-eventos-2021/17-08-2021-acionamento-de-termoeletricas-e-autorizacao-para-tarifa-vermelha/MME%20.pdf",
+     "trecho_conferido": "PIOR AFLUÊNCIA (ENTRE SETEMBRO A JULHO) DOS ÚLTIMOS 91 ANOS; Energia Armazenada no SE/CO 34,7 (30/abr); MP 1.055/2021 cria a CREG."
+    },
+    {
+     "titulo": "Diário do Nordeste - Governo cria bandeira tarifária 50% mais cara",
+     "url": "https://diariodonordeste.verdesmares.com.br/negocios/conta-de-energia-governo-cria-bandeira-tarifaria-50-mais-cara-que-valera-ate-abril-de-2022-1.3128503",
+     "trecho_conferido": "R$ 14,20 a cada 100 kWh; vigência até abril de 2022; alta média de 6,78%."
+    },
+    {
+     "titulo": "IBGE - IPCA sobe 0,73% em dezembro e fecha 2021 em 10,06% (via resumo de busca; acesso direto 403)",
+     "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/32724-ipca-sobe-0-73-em-dezembro-e-fecha-2021-em-10-06",
+     "trecho_conferido": "IPCA 10,06% em 2021; energia elétrica 21,21%, 0,98 p.p. (apenas via resumo de busca)."
+    }
+   ],
+   "incerteza": "Média. Números do IBGE não abertos diretamente. O pior em 91 anos refere-se à afluência de set a jul, não a toda a hidrologia. Efeito no PIB e EAR de set/out não verificados. ATUALIZAÇÃO do build: os valores anuais do IPCA geral (10,06%), da energia elétrica residencial (21,21%) e da alimentação (7,93%) em 2021 foram conferidos nos dados SIDRA 7060 baixados com SHA-256 (ver indicadores_da_serie); permanece sem conferência primária a bandeira escassez hídrica (R$ 14,20/100 kWh, só jornal).",
+   "verificado": false
+  },
+  {
+   "id": "seca-amazonica-2023-2024",
+   "ano": "2023-2024",
+   "titulo": "Seca amazônica de 2023 e 2024",
+   "evento_climatico": "Segundo o Cemaden, em 2023 os países da bacia registraram as menores precipitações de jul-set em mais de 40 anos. Segundo o Jornal de Brasília, em out/2023 o Negro em Manaus teve 13,59 m em 16/10 e 13,29 m em 19/10; Solimões em Manacapuru 3,61 m (anterior 3,92 m, 2010); Itacoatiara 90 cm (anterior 91 cm). Segundo O Povo, em 6/8/2024 o Madeira em Porto Velho marcou 2,07 m, menor para a época desde 1967.",
+   "efeitos_economicos": "Segundo o Cemaden, a navegação foi severamente comprometida, afetando cadeias de suprimento. Segundo o Jornal de Brasília, a hidrelétrica Santo Antônio (RO) ficou parada até 16/10/2023. Valores monetários não verificados.",
+   "efeitos_humanos": "Segundo a Defesa Civil do AM (26/10/2023, via Agência Brasil): 62 municípios afetados, 60 em emergência e 2 em atenção, 608 mil pessoas e 152 mil famílias afetadas. Segundo o Cemaden: 59 dos 62 municípios em emergência e cerca de 590 mil pessoas. Segundo o Jornal de Brasília, mais de 140 botos morreram perto de Tefé. Segundo o MIDR (10/09/2024), 21 municípios do AM tinham reconhecimento federal de emergência vigente.",
+   "contagem_ou_estimativa": "Pessoas afetadas no AM em 2023: 590 mil (Cemaden) a 608 mil (Defesa Civil AM, mais recente). Rio Negro em Manaus: 12,70 m em 26/10/2023, segundo a Agência Brasil, contra 13,29 m em 19/10 no Jornal de Brasília; diferença por data de medição. Mínimo de Porto Velho em 2023: 1,10 m, em 8/10 (Jornal de Brasília) ou 6/10 (O Povo); datas divergem.",
+   "fontes": [
+    {
+     "titulo": "Agência Brasil - Seca já afeta todos os 62 municípios do Amazonas",
+     "url": "https://agenciabrasil.ebc.com.br/geral/noticia/2023-10/seca-ja-afeta-todos-os-62-municipios-do-amazonas",
+     "trecho_conferido": "608 mil pessoas e 152 mil famílias afetadas; 60 em emergência e 2 em atenção; rio Negro a 12,7 m, mínimo desde 1902."
+    },
+    {
+     "titulo": "Cemaden - Secas sem precedentes na Bacia Amazônica",
+     "url": "https://www.gov.br/cemaden/pt-br/assuntos/noticias-cemaden/secas-sem-precedentes-na-bacia-amazonica-sao-apontadas-pelo-observatorio-global-da-secas",
+     "trecho_conferido": "Menores precipitações jul-set em mais de 40 anos; 59 de 62 municípios em emergência, cerca de 590 mil pessoas; navegação comprometida."
+    },
+    {
+     "titulo": "Jornal de Brasília - Seca extrema faz rios Negro, Solimões, Amazonas e Madeira atingirem mínimas históricas",
+     "url": "https://jornaldebrasilia.com.br/noticias/brasil/seca-extrema-faz-rios-negro-solimoes-amazonas-e-madeira-atingirem-minimas-historicas/",
+     "trecho_conferido": "Negro 13,59 m (16/10) e 13,29 m (19/10); Manacapuru 3,61 m; Itacoatiara 90 cm; Porto Velho 1,10 m em 8/10; Santo Antônio parada até 16/10."
+    },
+    {
+     "titulo": "O Povo - Rio Madeira chega a menor nível em quase 60 anos",
+     "url": "https://www.opovo.com.br/noticias/brasil/2024/08/06/com-seca-severa-rio-madeira-chega-a-menor-nivel-em-quase-60-anos.html",
+     "trecho_conferido": "Porto Velho 2,07 m em 6/8/2024; menor para a época desde 1967; mínimo anterior 1,10 m em 6/10/2023."
+    },
+    {
+     "titulo": "MIDR - Seis cidades do Amazonas obtêm reconhecimento federal",
+     "url": "https://www.gov.br/mdr/pt-br/noticias/seis-cidades-do-amazonas-afetadas-pela-estiagem-obtem-o-reconhecimento-federal-de-situacao-de-emergencia",
+     "trecho_conferido": "10/09/2024: 21 municípios amazonenses com reconhecimento federal vigente; pior seca dos últimos 20 anos."
+    }
+   ],
+   "incerteza": "Média. Leituras do rio e contagens de pessoas variam com a data. Níveis vêm de imprensa, não de SGB/ANA direto. Impactos em energia e navegação sem valor monetário verificado.",
+   "verificado": true
+  },
+  {
+   "id": "seca-nordeste-2012-2017",
+   "ano": "2012-2017",
+   "titulo": "Seca no Nordeste 2012-2017",
+   "evento_climatico": "Segundo estudos do Cemaden (Pesquisa FAPESP, 2018), foi a seca mais intensa em cerca de quatro décadas, abrangendo mais de 50% do Nordeste.",
+   "efeitos_economicos": "Perdas de R$ 3,6 bilhões na agricultura e R$ 3,2 bilhões na pecuária, segundo a Pesquisa FAPESP.",
+   "efeitos_humanos": "Segundo a Pesquisa FAPESP, houve 6.295 declarações federais de calamidade em municípios do Nordeste entre 2011 e 2015.",
+   "contagem_ou_estimativa": "R$ 3,6 bi (agricultura) e R$ 3,2 bi (pecuária); 6.295 declarações em 2011-2015 (contagem de decretos, não de municípios distintos).",
+   "fontes": [
+    {
+     "titulo": "Pesquisa FAPESP - A seca mais intensa desde os anos 1980",
+     "url": "https://revistapesquisa.fapesp.br/a-seca-mais-intensa-desde-os-anos-1980/",
+     "trecho_conferido": "Todos os estados viveram a seca mais intensa das últimas décadas, mais de 50% do Nordeste; R$ 3,6 bi agricultura, R$ 3,2 bi pecuária; 6.295 vezes calamidade 2011-2015."
+    }
+   ],
+   "incerteza": "Média. Período e critério de perdas dependem do estudo; artigos originais do Cemaden não foram abertos.",
+   "verificado": true
+  },
+  {
+   "id": "enchente-rs-2024",
+   "ano": 2024,
+   "titulo": "Enchente do Rio Grande do Sul, maio de 2024",
+   "evento_climatico": "Evento extremo de chuva que atingiu 478 dos 497 municípios gaúchos, segundo a Defesa Civil RS.",
+   "efeitos_economicos": "Segundo BID, CEPAL e Banco Mundial (metodologia DaLA), danos e perdas de R$ 88,9 bilhões: 69% setor produtivo (R$ 61 bi), 21% social (R$ 19 bi), 8% infraestrutura (R$ 7 bi), 1,8% meio ambiente (R$ 1,6 bi). Segundo o relatório, a atuação tempestiva evitou impacto negativo de 1,1 ponto percentual do PIB estadual, com crescimento de 4,7% no ano.",
+   "efeitos_humanos": "Segundo o balanço da Defesa Civil RS (abr/2025): 184 óbitos confirmados, 25 desaparecidos, 806 feridos e cerca de 2,4 milhões de pessoas afetadas.",
+   "contagem_ou_estimativa": "Óbitos: 184 (Defesa Civil RS, abr/2025) ou 185 (outras notícias de balanço final, não conferidas na fonte); faixa 184-185. Desaparecidos: 25 (Defesa Civil RS) ou 23 (notícias).",
+   "fontes": [
+    {
+     "titulo": "Banco Mundial - Relatório BID/CEPAL/Banco Mundial sobre impacto das enchentes no RS",
+     "url": "https://www.worldbank.org/pt/news/press-release/2024/11/28/relatorio-banco-mundial-bid-cepal-impacto-enchentes-pib-rio-grande-sul",
+     "trecho_conferido": "R$ 88,9 bilhões; 69% setor produtivo (R$ 61 bi); evitou impacto de 1,1 p.p. do PIB estadual; crescimento de 4,7%."
+    },
+    {
+     "titulo": "Governo do RS - Defesa Civil atualiza balanço das enchentes",
+     "url": "https://estado.rs.gov.br/defesa-civil-atualiza-balanco-das-enchentes-no-rs-24-4",
+     "trecho_conferido": "184 óbitos confirmados; 25 desaparecidos; 806 feridos; 478 municípios afetados; cerca de 2,4 milhões de pessoas."
+    }
+   ],
+   "incerteza": "Baixa a média. Contagens oficiais mudaram com identificações (184 x 185). Atribuição a mudança climática não tratada nas fontes abertas.",
+   "verificado": true
+  }
+ ],
+ "secas_nordeste": [
+  {
+   "periodo": "1583",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1603",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1624",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1692",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1711",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1720",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1723-1724",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1744-1746",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1754",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1760",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1772",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1766-1767",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1777-1780",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1784",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1790-1794",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1804",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1809",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1810",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1816-1817",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1824-1825",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1827",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1830-1833",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1845",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1877-1879",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1888-1889",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1891",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1898",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1900",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1902-1903",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1907",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1915",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1919",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1932-1933",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1936",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1941-1944",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1951-53",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1958",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1966",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1970",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1976",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1979-1981",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1982-1983",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1986-87",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1992-1993",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "1997-1998",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "2001-2002",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "2005",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "2010",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "2012-2016",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "A list of events updated to 2016 follows: 1583, 1603, 1624, 1692, 1711, 1720, 1723-1724, 1744-1746, 1754, 1760, 1772, 1766-1767, 1777-1780, 1784, 1790-1794, 1804, 1809, 1810, 1816-1817, 1824-1825, 1827, 1830-1833, 1845, 1877-1879, 1888-1889, 1891, 1898, 1900, 1902-1903, 1907, 1915, 1919, 1932-1933, 1936, 1941-1944, 1951-53, 1958, 1966, 1970, 1976, 1979-1981, 1982-1983, 1986-87, 1992-1993, 1997-1998, 2001-2002, 2005, 2010 e 2012-2016 (Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014, Marengo et al. 2016b)"
+   },
+   "observacao": "Listado por Marengo et al. (2017), que cita Araújo 1982, Magalhães et al. 1988, Gutierrez et al. 2014, Wilhite et al. 2014 e Marengo et al. 2016b; o artigo não distingue a intensidade de cada evento nessa lista."
+  },
+  {
+   "periodo": "secas intensas em anos de El Niño forte",
+   "fonte": {
+    "titulo": "Marengo et al. (2017), Climatic characteristics of the 2010-2016 drought in the semiarid Northeast Brazil region, Anais da Academia Brasileira de Ciências",
+    "url": "https://www.scielo.br/j/aabc/a/MTyRKxxGcdwCvVhGNJNTrbG/?lang=en",
+    "trecho_conferido": "Intense droughts during strong El Nino years were reported in 1877-79, 1897, 1899, 1902-03, 1919, 1951, 1958, 1966, 1982-83, 1986-87, 1997-98, 2005, 2010 e 2015 (source cited: NOAA ESRL PSD, past ENSO events)."
+   },
+   "observacao": "Subconjunto da lista acima associado a El Niño forte segundo o mesmo artigo: 1877-79, 1897, 1899, 1902-03, 1919, 1951, 1958, 1966, 1982-83, 1986-87, 1997-98, 2005, 2010 e 2015."
+  }
+ ],
+ "lacunas": [
+  "Mortes da Grande Seca por província (Ceará): sem número único; fontes acadêmicas (Fundação Joaquim Nabuco, CPDOC, Embrapa) não foram abertas em texto legível.",
+  "Geada negra 1975: efeito sobre preço internacional e exportação não conferido em IBC/Embrapa/CEPEA/IBGE; trecho da CNA sobre safra seguinte de apenas 3,8 mil sacas parece erro e não foi usado; percentual de 60% de cafezais destruídos não conferido.",
+  "Crise 2014-2015: racionamento formal da Sabesp (redução de pressão) não conferido; menor nível exato (8,2% x 8,9% em maio/2014) diverge; efeitos no PIB/Ipea não verificados.",
+  "Crise 2021: release do IBGE retornou 403 (IPCA e energia só via resumo de busca); EAR de set/out (ONS), texto da ANEEL e efeito no PIB (IBGE/BCB) não conferidos em fonte primária.",
+  "Seca amazônica: dados SGB/CPRM, ANA e ONS não abertos diretamente; pessoas afetadas e municípios em 2024 (Defesa Civil/Painel Clima-INPE) não totalizados; efeito monetário em navegação e energia não verificado.",
+  "El Niño 2015-16 não incluído por falta de fonte forte verificada.",
+  "Seca Nordeste 2012-2017: artigos originais do Cemaden e dados do Ipea não abertos; percentual de 78% de municípios com decreto (2013-2016) veio só de resumo de busca e não foi usado.",
+  "Enchente RS 2024: perdas pelo Governo RS/BCB e número de desalojados não conferidos em fonte primária.",
+  "secas_nordeste: só a lista de Marengo et al. (2017) foi aberta; outras listas (Embrapa, INSA, ANA, Atlas do Semiárido) apareceram em buscas, mas não foram lidas e não foram usadas. O PDF da Embrapa não deu texto legível."
+ ]
+}
