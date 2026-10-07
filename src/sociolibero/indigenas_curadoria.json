@@ -1,0 +1,784 @@
+{
+ "aviso": "Narrativa curada à mão a partir de fontes abertas lidas em 07/10/2026 (verificado=true só quando a página foi aberta e o trecho confirma o fato; trecho_confirmado é paráfrase curta). Números de candidaturas e eleitos são calculados dos CSV do TSE (consulta_cand); cor/raça é AUTODECLARAÇÃO no registro e o TSE não a valida: inclui pessoas que não pertencem ao movimento indígena. Os dados de 2026 são o snapshot do TSE de 06/10/2026 (1º turno; 2º turno de governadores pendente). Não substitui pesquisa historiográfica.",
+ "lacunas": [
+  "Cor/raça em candidaturas existe no TSE só a partir de 2014 (autodeclaração exigida no registro desde então; confirmado por TSE/imprensa e pela ausência do campo em 2010 e antes); não há série anterior.",
+  "Eleitorado por cor/raça: o perfil_eleitorado do TSE de 2022 traz 100% NÃO INFORMADO e o de 2024 tem 89,8% não informado; o % indígena do eleitorado é, portanto, um piso parcial (2024) e não é comparável à população do Censo.",
+  "Candidaturas de 2014 a 2022 não têm etnia; a etnia opcional só aparece em 2024 e não foi usada aqui.",
+  "Seções eleitorais em TI: calculadas de coordenadas geocodificadas pelo TSE (locais de votação 2022) contra polígonos da FUNAI. Cobrem só 2022, só TIs com polígono na FUNAI e só seções com coordenada válida (cerca de 94%); aldeias fora de polígono, TIs não delimitadas e locais com coordenada imprecisa ficam de fora ou podem cair dentro/fora por erro. Não feito para 2026 (arquivo de locais de 2026 não baixado).",
+  "Apuração de 2026 é preliminar (snapshot 06/10/2026): situações de eleito/suplente podem mudar com a totalização final e com o 2º turno.",
+  "Voto em candidatos indígenas a deputado dentro de TI não foi calculado: só presidente.",
+  "Não verificado em fonte aberta: crowdfunding e candidaturas coletivas indígenas (2018-2022); papel da bancada ruralista na Constituinte; posições de CNA e Bolsonaro em 2026; votos exatos de 1982 (31 mil vs 34 mil) e de Joênia em 2018; habeas corpus de Juruna no TFR; placar 9 a 2 do RE 1.017.365 (fonte aberta divergente); dias exatos da assembleia de Diamantino (abril de 1974).",
+  "Divergências com historia.json (a corrigir lá, não aqui): l14701-2023 diz veto integral, mas o veto foi parcial; marco-2026 (acórdão em 18/03/2026) não foi confirmado e o STF concluiu o julgamento em dezembro de 2025; adc87-2024 (22/04/2024) só em resumo de busca."
+ ],
+ "metodo_municipios": "Municípios classificados por % de pessoas indígenas no Censo 2022 (critério ampliado, SIDRA 9718, em territorios.json): alto = % igual ou acima do limiar (5, 10 e 20%), baixo = os demais da mesma UF. Para cada UF com os dois grupos calcula-se a diferença (alto menos baixo) em comparecimento (comparecidos/aptos), brancos+nulos (% dos comparecidos) e voto nos dois candidatos mais votados do país (% dos votos válidos, agregados de elections/*.json); as diferenças das UFs são combinadas com peso igual aos eleitores aptos do grupo alto. IC 95% por bootstrap de municípios estratificado por UF e grupo (400 reaplicações; ignora autocorrelação espacial, portanto é indicativo). Seções em TI: pontos dos locais de votação (TSE 2022) dentro de polígonos da FUNAI; comparação com as demais seções dos mesmos municípios (presidente, 1º e 2º turnos).",
+ "ressalvas_municipios": [
+  "Falácia ecológica: as diferenças são entre municípios (agregados) e não dizem como indígenas individualmente votam nem se votam diferente de não indígenas.",
+  "Municípios com alto % indígena também diferem em renda, ruralidade, distância, acesso a transporte e partidos locais; não há controle causal e as diferenças não são efeito de ser indígena.",
+  "Votar em município ou em seção dentro de TI inclui não indígenas (servidores, missionários, moradores do entorno) e exclui indígenas que votam na cidade ou em outro município.",
+  "O Censo mede população residente; o eleitorado exclui menores de 16 anos e quem não tem título, o que pesa mais numa população indígena jovem.",
+  "Seções em TI vêm de coordenadas geocodificadas (validação: 244 de 303 locais com nome indígena/aldeia caem dentro de polígono da FUNAI; 235 locais dentro de TI não têm esse nome no cadastro)."
+ ],
+ "limites": [
+  "A autodeclaração indígena em candidaturas não é validada pelo TSE: entre os eleitos autodeclarados em 2018 e 2022 há figuras sem vínculo com o movimento indígena segundo ISA e imprensa (o ISA cita Hamilton Mourão e Wellington Dias); contar eleitos indígenas pelo TSE não equivale a contar a bancada do movimento (a APIB só reconhece Sônia Guajajara e Célia Xakriabá como candidaturas do movimento em 2022).",
+  "Candidaturas = todos os registros (aptos, inaptos, renúncias e suplentes de senador/vice), uma linha por pessoa e cargo; a imprensa usa datas de corte diferentes (por isso 133 vs 129-134 em 2018, 188 vs 186 em 2022, 2.578 vs 2.479 em 2024).",
+  "A razão eleitos/candidaturas depende do tamanho das listas e do quociente eleitoral; comparar categorias é descritivo (não mede discriminação) e não controla partido, UF ou recursos.",
+  "O espectro partidário é classificação convencional simplificada do projeto e agregada; partidos fora da lista aparecem como sem_classificacao.",
+  "Eleitos de 2026 são preliminares; o 2º turno de governadores não está incluído.",
+  "Divergência não resolvida em 2022: a Agência Câmara e outros veículos listam Silvia Waiãpi (PL-AP) entre os 5 deputados federais indígenas eleitos; o consulta_cand_2022 do TSE (snapshot de 06/10/2026) registra a candidatura como NÃO ELEITO. Os números calculados seguem o arquivo do TSE (4 federais).",
+  "Nenhuma pessoa não eleita, nem eleita para cargo estadual ou municipal, é nomeada; eleitos_figuras_publicas lista só presidente/vice, senadores, governadores e deputados federais."
+ ],
+ "verificacao_figuras": {
+  "Sônia Guajajara|2022": {
+   "fonte": "Agência Câmara (tabela de deputados indígenas); Mongabay 10/2022",
+   "verificado": true
+  },
+  "Sônia Guajajara|2026": {
+   "fonte": "Agência Brasil 05/10/2026 (54.207 votos); TSE consulta_cand_2026 (preliminar)",
+   "verificado": true
+  },
+  "Célia Xakriabá|2022": {
+   "fonte": "Agência Câmara; Correio Braziliense/Estado de Minas 06/10/2022",
+   "verificado": true
+  },
+  "Juliana Cardoso|2022": {
+   "fonte": "Agência Câmara (tabela de deputados indígenas)",
+   "verificado": true
+  },
+  "Juliana Cardoso|2026": {
+   "fonte": "Agência Brasil 05/10/2026 (111.904 votos); TSE consulta_cand_2026 (preliminar)",
+   "verificado": true
+  },
+  "Paulo Guedes|2022": {
+   "fonte": "Agência Câmara (tabela de deputados indígenas)",
+   "verificado": true
+  },
+  "Paulo Guedes|2026": {
+   "fonte": "Agência Brasil 05/10/2026 (126.891 votos); TSE consulta_cand_2026 (preliminar)",
+   "verificado": true
+  },
+  "Joenia Wapichana|2018": {
+   "fonte": "Agência Brasil 2018: primeira mulher indígena eleita deputada federal",
+   "verificado": true
+  },
+  "Hamilton Mourão|2022": {
+   "fonte": "ISA via Outras Palavras 17/10/2022",
+   "verificado": true,
+   "nota": "Autodeclarado indígena no TSE; o ISA o cita como exemplo do limite da autodeclaração; sem vínculo com o movimento segundo essa fonte."
+  },
+  "Wellington Dias|2022": {
+   "fonte": "ISA via Outras Palavras 17/10/2022",
+   "verificado": true,
+   "nota": "Autodeclarado indígena no TSE; o ISA o cita como exemplo do limite da autodeclaração."
+  },
+  "General Mourão|2018": {
+   "fonte": "TSE consulta_cand_2018",
+   "verificado": false,
+   "nota": "Eleito vice-presidente (PRTB) com autodeclaração indígena no registro; não conferido em imprensa nesta pesquisa."
+  },
+  "Jerônimo|2022": {
+   "fonte": "TSE consulta_cand_2022",
+   "verificado": false,
+   "nota": "Autodeclaração indígena no registro do TSE; não conferida em imprensa nesta pesquisa."
+  },
+  "Jerônimo Rodrigues|2026": {
+   "fonte": "TSE consulta_cand_2026 (preliminar)",
+   "verificado": false,
+   "nota": "Autodeclaração indígena no registro; não conferida em imprensa."
+  }
+ },
+ "linha_do_tempo": [
+  {
+   "id": "tutela-1916-2002",
+   "data": "1916",
+   "titulo": "Tutela indígena: Código Civil de 1916, SPI, Estatuto do Índio (1973), Constituição de 1988 e Código Civil de 2002",
+   "resumo": "O Código Civil de 1916 (Lei 3.071) listou os 'silvícolas' entre os relativamente incapazes (art. 6º, IV) e, no parágrafo único, os sujeitou ao regime tutelar de leis especiais, que cessaria 'à medida que se forem adaptando à civilização do paiz'. O SPI foi criado pelo Decreto 8.072 de 20/06/1910 no Ministério da Agricultura. O Estatuto do Índio (Lei 6.001, 19/12/1973) regula a situação jurídica dos índios para 'integrá-los, progressiva e harmoniosamente, à comunhão nacional' e mantém o regime tutelar (art. 7º) para os 'não integrados'. A Constituição de 1988 (cap. VIII, 'Dos Índios', arts. 231-232) reconhece organização social, direitos originários sobre as terras e a legitimidade processual de índios, comunidades e organizações (art. 232); o Código Civil de 2002 (art. 4º, parágrafo único) remete a capacidade dos índios a legislação especial.",
+   "passos_de_construcao": [
+    "estratégia legal: o art. 6º, parágrafo único do CC/1916 transformou a tutela em regime jurídico geral, regulado por leis e regulamentos especiais",
+    "organização: o SPI (1910) institucionalizou no Executivo a assistência e a tutela, depois substituído pela Funai (1967)",
+    "estratégia legal: o Estatuto de 1973 detalhou assistência/tutela (art. 7º) e a possibilidade de o índio ser declarado 'integrado' (arts. 9-10)",
+    "virada: a Constituição de 1988 trocou a lógica de integração por reconhecimento de organização social e direitos originários, e deu legitimidade processual direta aos índios (art. 232)",
+    "estratégia legal: o CC/2002 deixou de classificar os índios como relativamente incapazes e remeteu a legislação especial (art. 4º, parágrafo único)"
+   ],
+   "controversia": "A leitura corrente é que a CF/88 encerrou a tutela, mas o texto constitucional não usa a palavra 'tutela'; o fim decorre de a CF reconhecer organização social e dar legitimidade processual (art. 232) e o Estatuto de 1973 seguiu formalmente em vigor (alterado em 2023 pela Lei 14.701). Críticos da tutela (movimento indígena) e defensores de sua função protetiva (órgãos indigenistas da época) divergem sobre o balanço do SPI/Funai; isso é avaliação historiográfica, não verificada aqui.",
+   "fontes": [
+    {
+     "titulo": "Lei 3.071/1916 (Código Civil) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l3071.htm",
+     "verificado": true,
+     "trecho_confirmado": "Art. 6º, IV: são relativamente incapazes os silvícolas; parágrafo único: sujeitos ao regime tutelar de leis e regulamentos especiais, que cessará à medida que se adaptarem à civilização do país."
+    },
+    {
+     "titulo": "Decreto 8.072/1910 (cria o SPI) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/decreto/1910-1929/d8072.htm",
+     "verificado": true,
+     "trecho_confirmado": "Decreto de 20/06/1910 cria o Serviço de Proteção aos Índios e Localização de Trabalhadores Nacionais no Ministério da Agricultura, Indústria e Comércio."
+    },
+    {
+     "titulo": "Lei 6.001/1973 (Estatuto do Índio) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/l6001.htm",
+     "verificado": true,
+     "trecho_confirmado": "19/12/1973; art. 1º visa preservar a cultura e integrar os índios à comunhão nacional; art. 7º sujeita os não integrados ao regime tutelar."
+    },
+    {
+     "titulo": "Constituição Federal, arts. 231-232 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "verificado": true,
+     "trecho_confirmado": "Capítulo VIII 'Dos Índios'; art. 231 reconhece organização social e direitos originários, competindo à União demarcar; art. 232 dá aos índios, comunidades e organizações legitimidade para ingressar em juízo, com intervenção do MP."
+    },
+    {
+     "titulo": "Lei 10.406/2002 (Código Civil) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406.htm",
+     "verificado": true,
+     "trecho_confirmado": "Art. 4º, parágrafo único: a capacidade dos índios (hoje 'indígenas', Lei 13.146/2015) será regulada por legislação especial."
+    }
+   ],
+   "incerteza": "Não verifiquei a data de extinção do SPI/criação da Funai (Lei 5.371/1967 só aparece citada na Lei 14.600). O pedido citava art. 6º para o CC/2002; o dispositivo correto é o art. 4º, parágrafo único. Não localizei fonte jurídica secundária que afirme expressamente que a CF/88 'extinguiu' a tutela.",
+   "historia_ids": [
+    "spi-1910",
+    "funai-1967",
+    "estatuto-1973",
+    "indigena-231-1988"
+   ]
+  },
+  {
+   "id": "assembleias-indigenas-cimi-1974",
+   "data": "1974-04",
+   "titulo": "Primeira Assembleia Indígena (Diamantino, MT, abril de 1974) e papel do CIMI (criado em 1972)",
+   "resumo": "O CIMI foi criado em 1972 pela CNBB. Em abril de 1974, cerca de duas dezenas de indígenas reuniram-se em Diamantino (MT) na primeira Assembleia de Chefes Indígenas, apoiada pelo CIMI; seguiram-se, segundo texto do próprio CIMI, mais 50 assembleias em dez anos (a segunda em Cururu, território Munduruku). As assembleias são tratadas como semente do movimento indígena nacional.",
+   "passos_de_construcao": [
+    "organização: o CIMI (1972, ligado à CNBB) estimulou encontros de lideranças para superar o paternalismo de Funai e missões",
+    "aliados: missionários (jesuítas da missão Anchieta, como Egydio Schwade e Tomaz Lisboa) e a Igreja forneceram logística e proteção em plena ditadura",
+    "organização: a rede de ~50 assembleias (1974-1984) articulou povos de regiões distintas",
+    "virada: as assembleias formaram lideranças que fundaram a UNI em 1980"
+   ],
+   "controversia": "Historiografia e o próprio CIMI destacam a autonomia indígena nas assembleias; críticos do indigenismo oficial e da época viam a presença missionária como interferência, e a Funai reagiu a encontros autônomos (ver item UNI). Posição do agro/ruralistas sobre as assembleias de 1974: não encontrada.",
+   "fontes": [
+    {
+     "titulo": "IHU/Unisinos (artigo de Egon Heck, Cimi): Assembleias Indígenas, 40 anos depois",
+     "url": "https://ihu.unisinos.br/noticias/530077-assembleias-indigenas-40-anos-depois-segue-a-luta-e-articulacao",
+     "verificado": true,
+     "trecho_confirmado": "Em abril de 1974, duas dezenas de indígenas reuniram-se em Diamantino (MT); nos dez anos seguintes houve mais 50 assembleias; a segunda foi em Cururu (Munduruku)."
+    },
+    {
+     "titulo": "Cimi - About Cimi",
+     "url": "https://cimi.org.br/?p=23762",
+     "verificado": true,
+     "trecho_confirmado": "O Cimi foi criado em 1972 pela Conferência Nacional dos Bispos do Brasil (CNBB)."
+    },
+    {
+     "titulo": "Conselho Indigenista Missionário - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Conselho_Indigenista_Mission%C3%A1rio",
+     "verificado": true,
+     "trecho_confirmado": "Órgão indigenista cristão criado em 1972 pela CNBB, após encontros de missionários sobre a situação indígena na ditadura."
+    }
+   ],
+   "incerteza": "Os dias exatos (17 a 19/04/1974), o número de participantes (16 de 9 povos, segundo um resumo de busca) e os nomes de Schwade/Iasi como impulsionadores aparecem apenas em resumos de busca ou em trecho de artigo que não confirma a data exata; o IHU confirma só 'abril de 1974' e 'duas dezenas'. A 'primeira Assembleia promovida pelo CIMI' é compatível com as fontes, mas a expressão 'promovida' vem do resumo de busca.",
+   "historia_ids": [
+    "transam-1970",
+    "wai-1974"
+   ]
+  },
+  {
+   "id": "uni-1980",
+   "data": "1980-06-09",
+   "titulo": "Criação da União das Nações Indígenas (UNI), Encontro de Campo Grande (7 a 9 de junho de 1980)",
+   "resumo": "A articulação nasceu da 'Semana do Índio' em Brasília (16/04/1980), com ~15 estudantes indígenas. O Encontro de Campo Grande (MS), de 7 a 9 de junho de 1980, consolidou a UNI (inicialmente UNIND), com a Funai rejeitando a autonomia da organização. O primeiro presidente (provisório) foi Domingos Veríssimo Marcos, do povo Terena; Darcy Ribeiro, Carmem Junqueira e Fernando Altenfelder foram escolhidos padrinhos. Ailton Krenak, Álvaro Tukano e Marcos Terena figuram entre as lideranças da UNI.",
+   "passos_de_construcao": [
+    "organização: estudantes indígenas em Brasília (Semana do Índio, abr/1980) propõem organização nacional",
+    "aliados: antropólogos como padrinhos (Darcy Ribeiro, Carmem Junqueira, Fernando Altenfelder)",
+    "organização: Encontro de Campo Grande (7-9/06/1980) aprova estatuto com autonomia cultural e autodeterminação",
+    "revés: Funai resiste e reafirma a tutela; a UNI nunca foi formalmente reconhecida pelo governo (Gale/Encyclopedia.com)",
+    "virada: a UNI vira o veículo da emenda popular na Constituinte (1987) e funda o Centro de Pesquisa Indígena em Goiânia (1987)"
+   ],
+   "controversia": "A Funai e o governo militar rejeitavam organização indígena autônoma e defendiam a tutela estatal; o movimento indígena e aliados defendiam autodeterminação. Sobre a viagem de Juruna ao Tribunal Russell em 1980, a Funai/Ministério do Interior procuraram impedir (ver item Juruna).",
+   "fontes": [
+    {
+     "titulo": "ISA - Hoje na História Socioambiental: Em 1980, é criada a UNI",
+     "url": "https://socioambiental.org/noticias-socioambientais/hoje-na-historia-socioambiental-em-1980-e-criada-uniao-das-nacoes",
+     "verificado": true,
+     "trecho_confirmado": "Semana do Índio em Brasília em 16/04/1980; Encontro de Campo Grande de 7 a 9 de junho de 1980 consolidou a UNI; primeiro presidente Domingos Veríssimo Marcos (Terena); padrinhos Darcy Ribeiro, Carmem Junqueira e Fernando Altenfelder; Funai resistiu; lideranças incluem Krenak, Tukano e Marcos Terena."
+    },
+    {
+     "titulo": "Cultural Survival Quarterly - The Indigenous Movement in Brazil: A Quarter Century of Ups and Downs",
+     "url": "https://www.culturalsurvival.org/publications/cultural-survival-quarterly/indigenous-movement-brazil-quarter-century-ups-and-downs",
+     "verificado": true,
+     "trecho_confirmado": "Em abril de 1980 estudantes indígenas em Brasília propuseram uma organização nacional; menos de dois meses depois uma assembleia em Campo Grande (MS) fundou a UNI."
+    },
+    {
+     "titulo": "Encyclopedia.com (Gale) - Union of Indigenous Nations (UNI)",
+     "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/union-indigenous-nations-uni",
+     "verificado": true,
+     "trecho_confirmado": "Fundada em junho de 1980, primeira organização independente indígena do Brasil, nunca reconhecida formalmente pelo governo; participou da Aliança dos Povos da Floresta (março de 1989) e criou o Centro de Pesquisa Indígena (1987)."
+    }
+   ],
+   "incerteza": "A fonte Encyclopedia.com identifica 'Domingos Veríssimo Marcos' com 'Marcos Terena' como primeiro presidente; o ISA identifica Domingos Veríssimo Marcos como primeiro presidente, e outra fonte (resumo de busca, não aberta) diz que Marcos Terena foi eleito presidente em abril de 1981. Tratar Domingos Veríssimo Marcos e Marcos Terena como pessoas distintas é inferência não confirmada. O ISA não afirma que Álvaro Tukano, Krenak e Terena fundaram a UNI em 1980, apenas que integraram suas lideranças. Data exata do fechamento do encontro: 9/06/1980 (último dia dos 7-9).",
+   "historia_ids": []
+  },
+  {
+   "id": "juruna-1982",
+   "data": "1982-11-15",
+   "titulo": "Mário Juruna eleito deputado federal pelo PDT-RJ (1982); Tribunal Russell (1980); não reeleito em 1986",
+   "resumo": "Mário Juruna (Xavante) foi eleito deputado federal pelo PDT do Rio de Janeiro em 1982 com cerca de 31 mil votos, apoiado por Leonel Brizola e Darcy Ribeiro, e exerceu o mandato de 01/02/1983 a 31/01/1987. Ficou conhecido por carregar um gravador para registrar falas das autoridades (livro 'O Gravador do Juruna'). Segundo a Wikipedia, não se reelegeu em 1986 e voltou a perder em 1990 e 1994. Foi o primeiro indígena eleito deputado federal e, segundo reportagem de 2018, o único até Joênia Wapichana.",
+   "passos_de_construcao": [
+    "mídia: o gravador como símbolo para provar promessas descumpridas por autoridades",
+    "aliados: filiação ao PDT em 1982 com apoio de Leonel Brizola e Darcy Ribeiro",
+    "financiamento-regras: candidatura por partido político de outro estado (RJ), sem aldeia-base eleitoral; votos da capital fluminense",
+    "virada: eleição de 1982, 'primeiro' parlamentar indígena, criação da Comissão Permanente do Índio no Congresso",
+    "revés: mandato com poucos projetos, ataques da mídia, denúncia de suborno de Calim Eid (1984) e derrota em 1986"
+   ],
+   "controversia": "A Funai e o governo militar tentaram impedir a viagem de Juruna ao Tribunal Russell em 1980 (Wikipedia: 'A FUNAI queria vetar sua ida'); resumos de busca não abertos descrevem habeas corpus e decisão do TFR por 15 a 9, sem confirmação aqui. Críticos de época o desqualificavam na imprensa; defensores o tratavam como símbolo do protagonismo indígena. A contagem de votos varia: 31 mil (Wikipedia, A Pública) e 34 mil (resumo de busca).",
+   "fontes": [
+    {
+     "titulo": "Mário Juruna - Wikipédia",
+     "url": "https://pt.wikipedia.org/wiki/M%C3%A1rio_Juruna",
+     "verificado": true,
+     "trecho_confirmado": "Eleito deputado federal pelo PDT em 1982 com 31 mil votos pelo Rio de Janeiro; gravador; criou a Comissão Permanente do Índio; não se reelegeu em 1986; Funai queria vetar sua ida ao Tribunal Russell (1980)."
+    },
+    {
+     "titulo": "Agência Pública (2018): 35 anos depois do deputado Juruna, indígenas continuam sem representação política",
+     "url": "https://apublica.org/2018/04/35-anos-depois-do-deputado-juruna-indigenas-continuam-sem-representacao-politica-no-pais/",
+     "verificado": true,
+     "trecho_confirmado": "Primeiro e único parlamentar indígena do país, eleito com 31 mil votos pelo PDT-RJ com apoio de Darcy Ribeiro e Brizola; deputado até 1987."
+    },
+    {
+     "titulo": "Agência Brasil (05/10/2026): renovação da Câmara",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/renovacao-da-camara-federal-chegou-35-veja-nova-composicao-da-casa",
+     "verificado": true,
+     "trecho_confirmado": "Antes dos eleitos recentes, apenas Mário Juruna (PDT-RJ) havia exercido o cargo, entre 1982 e 1986; Joenia Wapichana foi a primeira mulher indígena eleita (2018)."
+    }
+   ],
+   "incerteza": "Número exato de votos em 1982 (TSE) não verificado: 31 mil (arredondado) versus 34 mil (resumo de busca). Data de 15/11/1982 é a data do pleito, não aberta em fonte. 'Cacique Mário Juruna vs. Joênia': nada nas fontes sugere disputa entre eles; só a relação 'primeiro homem' (Juruna) e 'primeira mulher' (Joênia). Votos de Juruna em 1986 e o resultado exato não encontrados. Detalhes do habeas corpus no TFR (15 x 9) só em resumo de busca.",
+   "historia_ids": []
+  },
+  {
+   "id": "constituinte-1987-88",
+   "data": "1987-09-04",
+   "titulo": "Constituinte 1987-88: Ailton Krenak na tribuna (04/09/1987), emenda popular da UNI e Capítulo 'Dos Índios' (arts. 231-232)",
+   "resumo": "Em 4 de setembro de 1987, Ailton Krenak, então presidente da UNI, discursou na Constituinte pintando o rosto de preto em defesa da emenda popular da UNI. Segundo o ISA, uma campanha na imprensa contra os povos indígenas coincidiu com a exclusão, de um dia para outro, do 'Capítulo dos Índios', e o abaixo-assinado que subsidiou a emenda popular reuniu mais de 100 mil assinaturas. O texto final promulgado em 1988 traz o Capítulo VIII 'Dos Índios' (arts. 231-232).",
+   "passos_de_construcao": [
+    "organização: UNI, com apoio de entidades indigenistas, coleta mais de 100 mil assinaturas para emenda popular",
+    "aliados: CIMI foi, segundo o próprio CIMI, uma das entidades mais atuantes na ANC; ISA/antropólogos aliados (Márcio Santilli, Beto Ricardo)",
+    "mídia: gesto de pintar o rosto com tinta preta virou imagem de 15 segundos com repercussão internacional; a mídia também foi palco da campanha contrária",
+    "revés: exclusão repentina do Capítulo dos Índios de um texto em discussão, após campanha contrária",
+    "virada: aprovação do capítulo (arts. 231-232) e do conceito de direitos originários"
+   ],
+   "controversia": "Setores empresariais, da imprensa e parlamentares ruralistas alegavam, segundo o ISA e A Pública, que os povos indígenas contrariavam interesses nacionais e se opuseram ao capítulo; Krenak rebateu em plenário. O 'marco temporal' não está no texto da CF; é interpretação posterior (STF 2009, Raposa Serra do Sol) ligada à expressão 'tradicionalmente ocupam' do art. 231, §1º. O papel exato da bancada ruralista na Constituinte (nomes, votos) não foi confirmado.",
+   "fontes": [
+    {
+     "titulo": "ISA - Hoje na História Socioambiental: em 4 de setembro de 1987, Ailton Krenak discursava na Constituinte",
+     "url": "https://www.socioambiental.org/noticias-socioambientais/hoje-na-historia-socioambiental-em-4-de-setembro-de-1987-ailton-krenak",
+     "verificado": true,
+     "trecho_confirmado": "Krenak, presidente da UNI, defendeu a emenda popular da UNI pintando o rosto de preto; campanha contra os povos fez o Capítulo dos Índios ser excluído do dia para a noite; abaixo-assinado com mais de 100 mil assinaturas subsidiou a emenda popular."
+    },
+    {
+     "titulo": "Agência Pública (2018): 35 anos depois do deputado Juruna",
+     "url": "https://apublica.org/2018/04/35-anos-depois-do-deputado-juruna-indigenas-continuam-sem-representacao-politica-no-pais/",
+     "verificado": true,
+     "trecho_confirmado": "Centenas de indígenas foram a Brasília e ocuparam gabinetes e o plenário; o discurso de Krenak em setembro de 1987 foi decisivo para a identidade cultural e os arts. 231 e 232; população indígena era de cerca de 140 mil na época da Constituição."
+    },
+    {
+     "titulo": "Cimi - Os Povos Indígenas e a Constituinte (1987-1988)",
+     "url": "https://cimi.org.br/2009/01/28202/",
+     "verificado": true,
+     "trecho_confirmado": "O CIMI é descrito como uma das entidades mais atuantes na luta pelos direitos indígenas na ANC (livro de Rosane Lacerda)."
+    },
+    {
+     "titulo": "Constituição Federal, Capítulo VIII - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "verificado": true,
+     "trecho_confirmado": "Capítulo VIII 'Dos Índios', art. 231 e art. 232."
+    }
+   ],
+   "incerteza": "Número de assinaturas: o ISA diz 'mais de 100 mil' (um resumo de busca atribui a mesma cifra); não localizei o número oficial da emenda popular no Senado/Câmara. Aliança dos Povos da Floresta é de março de 1989 (Encyclopedia.com), portanto posterior à Constituinte e não parte dela, ao contrário do que o pedido supunha. Data exata da aprovação do capítulo e votos do plenário não verificados. Papel de igrejas além do CIMI e de antropólogos (ABA) não confirmado em fonte aberta.",
+   "historia_ids": [
+    "krenak-1987",
+    "indigena-231-1988"
+   ]
+  },
+  {
+   "id": "atl-apib-2004-2005",
+   "data": "2004-04",
+   "titulo": "Acampamento Terra Livre (desde 2004, Brasília) e criação da APIB (novembro de 2005)",
+   "resumo": "O primeiro Acampamento Terra Livre (ATL) ocorreu em abril de 2004, como ocupação de indígenas do Sul (Kaingang e Guarani) em frente ao Ministério da Justiça, com apoio de lideranças e organizações como a Coiab, em protesto contra a política indigenista do governo Lula. A APIB foi criada por deliberação do ATL de 2005 (formalmente em novembro de 2005). O ATL ocorre todo mês de abril, em Brasília, e é a instância máxima da APIB.",
+   "passos_de_construcao": [
+    "organização: ocupação de 2004 por Kaingang e Guarani com apoio de Coiab, Apoinme e outras lideranças regionais",
+    "organização: criação da APIB em 2005, deliberada em assembleia do ATL, para unificar organizações regionais",
+    "estratégia legal: demandas por demarcação e, depois, ações no STF (a APIB é autora de ação sobre a Lei 14.701)",
+    "virada: ATL passa a ser a maior mobilização indígena do país e, em 2026, incorpora oficialmente o debate eleitoral (Aldear a Política)"
+   ],
+   "controversia": "O ATL nasceu como crítica a um governo do PT (2004), e o movimento indígena mantém críticas a todos os governos, inclusive o atual; o agro/ruralistas veem o ATL como pressão sobre o Congresso (posição não documentada em fonte aberta). Origem do termo 'Abril Indígena': não confirmada.",
+   "fontes": [
+    {
+     "titulo": "APIB - Sobre a APIB",
+     "url": "https://apiboficial.org/en/sobre/",
+     "verificado": true,
+     "trecho_confirmado": "A APIB foi criada pelo movimento indígena no ATL de 2005; o ATL ocorre todo ano desde 2004."
+    },
+    {
+     "titulo": "Brasil de Fato (29/03/2024): 20 anos de ATL",
+     "url": "https://www.brasildefato.com.br/2024/03/29/20-anos-de-atl-liderancas-indigenas-refletem-sobre-o-legado-da-mobilizacao",
+     "verificado": true,
+     "trecho_confirmado": "O primeiro ATL foi ocupação de povos do Sul (Kaingang e Guarani) em frente ao Ministério da Justiça; a Apib foi criada formalmente em novembro de 2005, deliberação da assembleia daquele ano; realiza-se todo abril em Brasília."
+    },
+    {
+     "titulo": "MPF: Abril Indígena - novas regras incentivam participação indígena nas Eleições 2026",
+     "url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/abril-indigena-novas-regras-incentivam-participacao-de-povos-indigenas-nas-eleicoes-2026",
+     "verificado": true,
+     "trecho_confirmado": "Usa 'Abril Indígena' como título de campanha de divulgação das regras eleitorais para indígenas em 2026."
+    }
+   ],
+   "incerteza": "Não confirmei reorganização da APIB em 2013 (nada na página oficial). Número de participantes do primeiro ATL (150 em resumo de busca) não verificado em página aberta. A origem do nome 'Abril Indígena' (mês do ATL e do Dia do Índio) não foi documentada.",
+   "historia_ids": []
+  },
+  {
+   "id": "raposa-serra-do-sol-2009",
+   "data": "2009-03-19",
+   "titulo": "Raposa Serra do Sol: homologação (15/04/2005) e julgamento no STF (19/03/2009, Pet 3388)",
+   "resumo": "A TI Raposa Serra do Sol (RR) foi homologada por decreto presidencial de 15/04/2005 (Portaria MJ 534/2005). Em 19/03/2009 o STF decidiu por 10 votos a 1 (vencido Marco Aurélio) que a demarcação contínua deveria ser mantida, relator Carlos Ayres Britto, com saída de não indígenas (arrozeiros). O STF fixou 'condições' (19, segundo a imprensa) a partir de proposta do ministro Menezes Direito.",
+   "passos_de_construcao": [
+    "estratégia legal: homologação em 2005 após mobilização indígena e disputa com produtores de arroz e políticos de Roraima",
+    "organização: ações de senadores de Roraima (Augusto Botelho e Mozarildo Cavalcanti) contra a portaria; indígenas e Funai/AGU defenderam a área contínua",
+    "virada: STF confirma a demarcação contínua e determina saída dos não indígenas",
+    "revés: as condições, incluindo a leitura de ocupação em 05/10/1988, foram depois invocadas como base do 'marco temporal'"
+   ],
+   "controversia": "Autores da ação (senadores de Roraima) e produtores defendiam demarcação em ilhas; a Funai, o governo Lula e organizações indígenas defendiam área contínua. Defensores do marco temporal (ruralistas) tratam o caso como precedente; o STF (embargos) disse que as condicionantes valiam só para aquele caso, e a AGU de Temer as estendeu a todas as demarcações (Wikipedia).",
+   "fontes": [
+    {
+     "titulo": "Congresso em Foco (19/03/2009): Supremo mantém demarcação da Raposa Serra do Sol",
+     "url": "https://congressoemfoco.com.br/noticias/supremo-mantem-demarcacao-da-raposa-serra-do-sol",
+     "verificado": true,
+     "trecho_confirmado": "STF decidiu 10 a 1 em 19/03/2009, relator Ayres Britto, só Marco Aurélio vencido; portaria 534/05 homologada em 15/04/2005; 'o Supremo definiu 19 condições, sugeridas por Menezes Direito'; produtores de arroz devem sair."
+    },
+    {
+     "titulo": "Terra Indígena Raposa Serra do Sol - Wikipédia",
+     "url": "https://pt.wikipedia.org/wiki/Terra_Ind%C3%ADgena_Raposa_Serra_do_Sol",
+     "verificado": true,
+     "trecho_confirmado": "Demarcação homologada por decreto de 15 de abril de 2005, na gestão Lula, após identificação e demarcação anteriores."
+    },
+    {
+     "titulo": "Marco temporal das terras indígenas - Wikipédia",
+     "url": "https://pt.wikipedia.org/wiki/Marco_temporal_das_terras_ind%C3%ADgenas",
+     "verificado": true,
+     "trecho_confirmado": "Tese construída no caso Raposa Serra do Sol; Menezes Direito apresentou, junto com 19 outras condicionantes; em embargos o STF disse que valiam só para aquele caso; AGU de Temer as estendeu."
+    }
+   ],
+   "incerteza": "Contagem das condicionantes diverge: Congresso em Foco fala em '19 condições sugeridas por Direito'; resumos de busca (não abertos) falam em 18 propostas por Direito mais 1 acrescentada pelo plenário; a Wikipedia fala em 'dezenove outras condicionantes' além da tese. Usar '19' com nota. Número de decreto da homologação não verificado.",
+   "historia_ids": [
+    "rss-2009"
+   ]
+  },
+  {
+   "id": "sonia-guajajara",
+   "data": "2018",
+   "titulo": "Sônia Guajajara: vice na chapa do PSOL (2018), deputada federal por SP (2022), ministra dos Povos Indígenas (2023-2026) e reeleita deputada federal em 2026",
+   "resumo": "Sônia Guajajara foi candidata a vice-presidente na chapa de Guilherme Boulos (PSOL) em 2018; a chapa teve 617.122 votos (0,58% dos válidos, 10º lugar). Em 2022 foi eleita deputada federal por São Paulo (PSOL) com cerca de 156 mil votos (156.963 segundo Mongabay, 156.966 segundo SBT News). Foi a primeira ministra dos Povos Indígenas, de 01/01/2023 a 31/03/2026, quando deixou o cargo (sucedida por Eloy Terena) para concorrer à reeleição. Em 04/10/2026 foi reeleita com 54.207 votos, 'por quociente eleitoral' (Agência Brasil).",
+   "passos_de_construcao": [
+    "organização: coordenação executiva da APIB antes de sair candidata",
+    "aliados: PSOL, campanha da APIB 'Aldear a Política', aliados de causas ambientais",
+    "mídia: Time 100 (2022), projeção internacional e lema 'aldear a política'",
+    "virada: eleição em 2022 com o maior número de votos já obtido por indígena na Câmara (ISA)",
+    "virada: ministra no governo Lula (2023), Eloy Terena assume em 31/03/2026",
+    "revés: queda de votos em 2026 (de ~156 mil para 54.207), eleita por quociente, e bancada indígena reduzida a 3"
+   ],
+   "controversia": "Críticos de direita e do agro (FPA) contestam a política de demarcação do governo e a atuação do ministério; defensores apontam retomada de demarcações. A queda de votos de 2022 para 2026 pode refletir candidatura à reeleição em SP com menos mobilização nacional, mas isso é interpretação não verificada.",
+   "fontes": [
+    {
+     "titulo": "Sônia Guajajara - Wikipédia",
+     "url": "https://pt.wikipedia.org/wiki/S%C3%B4nia_Guajajara",
+     "verificado": true,
+     "trecho_confirmado": "Chapa Boulos/Sônia: 10º lugar no 1º turno de 2018, com 617.122 votos (0,58% dos válidos); ministra de 01/01/2023 a 31/03/2026; licenciada da Câmara de 01/02/2023 a 31/03/2026."
+    },
+    {
+     "titulo": "SBT News (30/03/2026): Sônia Guajajara deixa governo para concorrer à reeleição",
+     "url": "https://sbtnews.sbt.com.br/noticia/pol%C3%ADtica/sonia-guajajara-deixa-governo-para-concorrer-a-reeleicao-como-deputada-federal",
+     "verificado": true,
+     "trecho_confirmado": "Deixa o ministério para disputar a reeleição por SP; cerimônia em 31/03; Eloy Terena assume; 156.966 votos em 2022."
+    },
+    {
+     "titulo": "Agência Brasil (05/10/2026): renovação da Câmara",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/renovacao-da-camara-federal-chegou-35-veja-nova-composicao-da-casa",
+     "verificado": true,
+     "trecho_confirmado": "Sônia Guajajara (PSOL-SP) reeleita deputada federal com 54.207 votos, por quociente eleitoral."
+    },
+    {
+     "titulo": "Mongabay (10/2022)",
+     "url": "https://news.mongabay.com/2022/10/brazils-biggest-elected-indigenous-caucus-to-face-tough-2023-congress/",
+     "verificado": true,
+     "trecho_confirmado": "Com 156.963 votos, Sônia Guajajara foi eleita deputada federal por São Paulo."
+    }
+   ],
+   "incerteza": "Votos de 2022 divergem em dígitos entre fontes (156.963 x 156.966; ISA diz 'mais de 156 mil'); TSE não consultado diretamente. Quociente eleitoral de 2026 explica a eleição com 54 mil votos, segundo a Agência Brasil, mas não verifiquei o número de votos da lista. Resultado do 1º turno de 2026 para o Executivo/Senado indígena não verificado.",
+   "historia_ids": []
+  },
+  {
+   "id": "joenia-wapichana-2018",
+   "data": "2018-10-07",
+   "titulo": "Joênia Wapichana (Rede-RR): primeira mulher indígena deputada federal (2018); não reeleita em 2022",
+   "resumo": "Joênia Wapichana foi eleita deputada federal por Roraima pela Rede em 2018, a primeira mulher indígena eleita para a Câmara. Em 2022 obteve 11.221 votos e não foi reeleita, por conta do quociente eleitoral (Mongabay). Em 2023 tornou-se a primeira mulher indígena a presidir a Funai (Wikipedia).",
+   "passos_de_construcao": [
+    "estratégia legal: advogada, primeira indígena a falar no STF (Raposa); trajetória jurídica antes da candidatura",
+    "organização: apoio do movimento indígena de Roraima e de aliança partidária (coligação)",
+    "financiamento-regras: eleição proporcional por quociente; 2022 mostrou o limite (11.221 votos e fora)",
+    "revés: não reeleita em 2022, apesar de mais votos que 3 dos 8 eleitos de Roraima (Mongabay)",
+    "virada: presidência da Funai a partir de 2023"
+   ],
+   "controversia": "Críticos dizem que ela representa Roraima (estado com forte pressão de garimpo e agronegócio) e foi derrotada por quociente, enquanto a Rede teve a única cadeira; defensores destacam sua atuação contra a transferência da Funai para o Ministério da Agricultura. Posição do agro sobre ela: não documentada.",
+   "fontes": [
+    {
+     "titulo": "Agência Brasil (2018): Roraima elege primeira mulher indígena para deputada federal",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2018-10/roraima-elege-primeira-mulher-indigena-para-deputada-federal",
+     "verificado": true,
+     "trecho_confirmado": "Joênia Wapichana (Rede), 43 anos, foi eleita; uma mulher indígena é eleita pela primeira vez deputada federal, uma dos oito parlamentares federais de Roraima."
+    },
+    {
+     "titulo": "Mongabay (10/2022): Brazil's biggest elected Indigenous caucus",
+     "url": "https://news.mongabay.com/2022/10/brazils-biggest-elected-indigenous-caucus-to-face-tough-2023-congress/",
+     "verificado": true,
+     "trecho_confirmado": "Em 2022 Joênia teve 11.221 votos e não foi reeleita por cálculo de quociente."
+    },
+    {
+     "titulo": "Joênia Wapichana - Wikipédia",
+     "url": "https://pt.wikipedia.org/wiki/Jo%C3%AAnia_Wapichana",
+     "verificado": true,
+     "trecho_confirmado": "Não foi reeleita em 2022 com 11.221 votos; em 2023 tornou-se a primeira mulher indígena a presidir a Funai."
+    }
+   ],
+   "incerteza": "Votos de 2018: 8.491 aparece em um resumo de busca, não verificado em página aberta (a Agência Brasil de 2018 não traz o número). Data da eleição (07/10/2018, 1º turno) é a data nacional, não aberta em fonte. Posição por votos entre os eleitos de RR em 2018 (resumo de busca diz 'sexta mais votada') não verificada.",
+   "historia_ids": []
+  },
+  {
+   "id": "aldear-a-politica-campanha-indigena",
+   "data": "2022-08",
+   "titulo": "'Aldear a Política' e Campanha Indígena (APIB): manifesto de 2017, campanha formal em 2022, Bancada do Cocar",
+   "resumo": "A APIB faz campanha por mais representação indígena desde um manifesto de 2017. A 'Campanha Indígena' lançada em agosto de 2022 reuniu 30 candidaturas apoiadas pela APIB em 20 estados, com 31 povos, sob o lema 'vamos aldear a política'. Em 2022 foram eleitos cinco deputados federais autodeclarados indígenas (Célia Xakriabá PSOL-MG, Juliana Cardoso PT-SP, Paulo Guedes PT-MG, Silvia Waiãpi PL-AP, Sônia Guajajara PSOL-SP), a maior bancada até então; só Sônia e Célia tiveram candidatura apoiada pela APIB. Em 2026 a APIB contou 191 candidaturas indígenas registradas, recorde para eleições gerais (85 em 2014, 133 em 2018, 186 em 2022).",
+   "passos_de_construcao": [
+    "organização: manifesto 'Por um Parlamento cada vez mais indígena' (2017) e site/campanha da APIB",
+    "estratégia legal: seleção de candidaturas com apoio formal da APIB em 2022 (30 candidaturas, 20 estados) em vez de candidaturas isoladas",
+    "mídia: slogan 'aldear a política', redes sociais e visibilidade internacional (Time, DiCaprio parabenizando eleitas)",
+    "financiamento-regras: decisão do TSE (27/02/2024) e resoluções de 26/02/2026 garantem fundo eleitoral e tempo de TV/rádio proporcionais às candidaturas indígenas",
+    "virada: 2022 elege 5 deputados federais (bancada do cocar)",
+    "revés: em 2026 caem para 3 federais; Célia Xakriabá não se reelege"
+   ],
+   "controversia": "ISA e APIB contam apenas Sônia e Célia como candidaturas do movimento; Juliana Cardoso, Paulo Guedes e Silvia Waiãpi são autodeclarados indígenas segundo a Justiça Eleitoral, mas não foram indicados pelo movimento (ISA). O ISA também contabiliza como 'autodeclarados indígenas' o senador Wellington Dias e o vice-presidente Hamilton Mourão, o que mostra o limite do critério de autodeclaração no TSE. Silvia Waiãpi (PL-AP) consta da lista da Câmara, mas não foi apoiada pela APIB. Agência Câmara/Agência Brasil contam 5 em 2022; a Folha (via Vero Notícias) diz 4: divergência de critério.",
+   "fontes": [
+    {
+     "titulo": "Congresso em Foco (30/08/2022): Indígenas querem aldear a política em campanha com 31 povos",
+     "url": "https://www.congressoemfoco.com.br/noticia/11193/indigenas-querem-aldear-a-politica-em-campanha-com-31-povos",
+     "verificado": true,
+     "trecho_confirmado": "APIB lança a Campanha Indígena com 30 candidaturas em 20 estados e 31 povos; manifesto 'vamos aldear a política'; Joenia era a única indígena na Câmara."
+    },
+    {
+     "titulo": "Agência Câmara: deputados indígenas eleitos (tabela)",
+     "url": "https://www.camara.leg.br/internet/agencia/infograficos-html5/tabelasEleicoes/indigenas.html",
+     "verificado": true,
+     "trecho_confirmado": "Lista de 2022: Célia Xakriabá (PSOL-MG), Juliana Cardoso (PT-SP), Paulo Guedes (PT-MG), Silvia Waiãpi (PL-AP), Sônia Guajajara (PSOL-SP)."
+    },
+    {
+     "titulo": "ISA via Outras Palavras (17/10/2022): Quem compõe a maior bancada indígena já eleita",
+     "url": "https://outraspalavras.net/outrasmidias/quem-compoe-a-maior-bancada-indigena-ja-eleita/",
+     "verificado": true,
+     "trecho_confirmado": "Autodeclarados indígenas eleitos para o Congresso em 2022: 5 deputados federais (só Sônia e Célia apoiadas pelo movimento), 2 senadores (Wellington Dias, Mourão) e 2 deputados estaduais (Capitão Assumção PL-ES, Índia Armelau PL-RJ); o texto grafa Paulo Guedes como PT-SP, o que diverge da lista da Câmara (PT-MG)."
+    },
+    {
+     "titulo": "Conexão Tocantins (19/08/2026): Eleições 2026 registra recorde de 191 candidaturas indígenas",
+     "url": "https://conexaoto.com.br/2026/08/19/eleicao-2026-registra-recorde-de-191-candidaturas-indigenas",
+     "verificado": true,
+     "trecho_confirmado": "Levantamento da Campanha Indígena/APIB: 85 candidaturas em 2014, 133 em 2018, 186 em 2022, 191 em 2026; 75 a deputado federal em 2026."
+    },
+    {
+     "titulo": "Diário do Nordeste (19/04/2026): Novas regras eleitorais buscam incentivar participação indígena",
+     "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/novas-regras-eleitorais-buscam-incentivar-participacao-indigena-nas-eleicoes-2026-1.3758079",
+     "verificado": true,
+     "trecho_confirmado": "A APIB mobiliza-se por representação desde 2017; ATL 2026 lançou 27 pré-candidaturas a federal; Campanha Indígena 'Aldear a Política'."
+    }
+   ],
+   "incerteza": "O pedido supunha 'Campanha Indígena (APIB, 2018)'; as fontes abertas situam o manifesto em 2017 e a campanha formal com esse nome em 2022. Em 2018 houve 133 candidaturas indígenas (APIB/TSE), mas não confirmei uma campanha organizada pela APIB com esse nome em 2018. Total de deputados estaduais indígenas eleitos em 2022: só 2 (por autodeclaração no TSE, segundo o ISA). Crowdfunding: não encontrei fonte aberta sobre financiamento coletivo indígena em 2018-2022. Candidaturas coletivas indígenas: sem fonte verificada.",
+   "historia_ids": []
+  },
+  {
+   "id": "celia-xakriaba-2022",
+   "data": "2022-10-02",
+   "titulo": "Célia Xakriabá eleita deputada federal pelo PSOL-MG (2022) e não reeleita em 2026",
+   "resumo": "Célia Xakriabá foi eleita deputada federal por Minas Gerais em 02/10/2022 com 101.154 votos (Estado de Minas, Agência Câmara via eCycle), a primeira indígena eleita deputada federal por Minas. A Wikipedia traz 101.078 votos. Segundo a Folha (via Vero Notícias) e a Agência Brasil, não conseguiu renovar o mandato em 2026.",
+   "passos_de_construcao": [
+    "organização: liderança Xakriabá, educadora e primeira turma de Educação Indígena da UFMG; assessora de Áurea Carolina (PSOL)",
+    "aliados: PSOL (herdeira política de Áurea Carolina, que não concorreu), APIB",
+    "mídia: redes sociais e visibilidade internacional (DiCaprio parabenizou)",
+    "financiamento-regras: autora da consulta ao TSE que garantiu fundo e tempo de TV proporcionais para indígenas (decidida 27/02/2024)",
+    "revés: não reeleita em 2026"
+   ],
+   "controversia": "Críticos do agro e da bancada ruralista são seus adversários políticos no Congresso (por exemplo no marco temporal); ela e a APIB denunciam o marco temporal como retrocesso. Não verifiquei se foi a 'mais votada de MG' (provavelmente não, pois votos de 101 mil são menos que os de candidatos mais votados no estado).",
+   "fontes": [
+    {
+     "titulo": "Correio Braziliense/Estado de Minas (06/10/2022): DiCaprio parabeniza Célia Xakriabá",
+     "url": "https://www.correiobraziliense.com.br/politica/2022/10/5042448-leonardo-dicaprio-parabeniza-celia-xakriaba-por-eleicao.html",
+     "verificado": true,
+     "trecho_confirmado": "Célia Xakriabá (PSOL) recebeu 101.154 votos no 1º turno de 02/10/2022; primeira indígena de Minas eleita para a Câmara; herdeira política de Áurea Carolina."
+    },
+    {
+     "titulo": "Célia Xakriabá - Wikipédia",
+     "url": "https://pt.wikipedia.org/wiki/C%C3%A9lia_Xakriab%C3%A1",
+     "verificado": true,
+     "trecho_confirmado": "Eleita em 2022 com 101.078 votos (divergência com os 101.154 da imprensa)."
+    },
+    {
+     "titulo": "Vero Notícias (06/10/2026), com dados Folha/TSE",
+     "url": "https://veronoticias.com/politica/camara-elege-tres-deputados-autodeclarados-indigenas-em-2026/",
+     "verificado": true,
+     "trecho_confirmado": "Célia Xakriabá (PSOL-MG), que integrava a bancada, não conseguiu renovar o mandato."
+    }
+   ],
+   "incerteza": "Posição relativa em Minas (se foi a mais votada) não verificada. Votos: 101.154 (jornal) x 101.078 (Wikipedia). A causa da não reeleição em 2026 não foi apurada.",
+   "historia_ids": []
+  },
+  {
+   "id": "mpi-funai-2023",
+   "data": "2023-01-01",
+   "titulo": "Ministério dos Povos Indígenas criado (MP 1.154, 01/01/2023); Funai passa a Fundação Nacional dos Povos Indígenas",
+   "resumo": "A Medida Provisória 1.154, de 01/01/2023, organizou a Presidência e os ministérios e incluiu o Ministério dos Povos Indígenas (MPI), com competência para política indigenista, reconhecimento e demarcação de terras. A MP foi convertida na Lei 14.600, de 19/06/2023, que no art. 58 renomeou a Funai como Fundação Nacional dos Povos Indígenas.",
+   "passos_de_construcao": [
+    "estratégia legal: MP no primeiro dia do governo Lula criou o MPI junto com a reorganização ministerial",
+    "aliados: movimento indígena (APIB) pediu um Ministério dos Povos Originários durante a campanha de 2022 (ISA)",
+    "virada: Sônia Guajajara ministra; Joênia Wapichana presidente da Funai",
+    "estratégia legal: a Lei 14.600 manteve o ministério e renomeou a Funai",
+    "revés: a competência sobre demarcação foi motivo de disputa entre ministérios na tramitação da MP (Conjur, resumo de busca; não confirmado em fonte aberta)"
+   ],
+   "controversia": "Parlamentares do agro (FPA) e da oposição criticaram a estrutura e esvaziaram competências na conversão da MP (afirmação de resumo de busca, sem trecho confirmado aqui); governo e organizações indígenas defendem o ministério como reparação histórica.",
+   "fontes": [
+    {
+     "titulo": "Medida Provisória 1.154/2023 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/mpv/mpv1154.htm",
+     "verificado": true,
+     "trecho_confirmado": "MP 1.154, de 1º de janeiro de 2023, lista o Ministério dos Povos Indígenas e define suas competências; convertida na Lei 14.600/2023."
+    },
+    {
+     "titulo": "Lei 14.600/2023 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14600.htm",
+     "verificado": true,
+     "trecho_confirmado": "Lei de 19/06/2023, conversão da MP 1.154; art. 58: a Funai passa a denominar-se Fundação Nacional dos Povos Indígenas."
+    }
+   ],
+   "incerteza": "Mudanças feitas pelo Congresso na conversão (competência de demarcação) não verificadas por fonte aberta. Posições de FPA/CNA sobre o MPI não documentadas.",
+   "historia_ids": [
+    "yanomami-2023"
+   ]
+  },
+  {
+   "id": "marco-temporal-disputa-legislativa",
+   "data": "2023-09-21",
+   "titulo": "Disputa do marco temporal: PL 490/2007, PL 2.903/2023, RE 1.017.365 (Tema 1031), Lei 14.701/2023, ADC 87/ADIs e PEC 48/2023",
+   "resumo": "O PL 490/2007 passou na Câmara em 30/05/2023 (283 a 155) e, como PL 2.903/2023, no Senado em 27/09/2023 (43 a 21). O STF rejeitou o marco temporal em 21/09/2023 no RE 1.017.365 (Tema 1031, 9 a 2; resumo de busca). Lula vetou partes do projeto; o Congresso derrubou os vetos em 14/12/2023 (Câmara 321 a 137, Senado 53 a 19), e as partes vetadas foram promulgadas em 28/12/2023; a Lei 14.701 é datada de 20/10/2023. Em 22/04/2024 Gilmar Mendes suspendeu processos e abriu conciliação no STF (ADC 87, ADIs 7582, 7583, 7586). Em dezembro de 2025 o STF, em plenário virtual encerrado em 19/12/2025, considerou inconstitucional o marco temporal da lei (maioria; Mendonça divergiu) e fixou prazos para a demarcação. O Senado aprovou em 09/12/2025 a PEC 48/2023 (52 a 14 no 1º turno, 52 a 15 no 2º); na Câmara, a PEC está na CCJC aguardando designação de relator (recebida em 07/05/2026).",
+   "passos_de_construcao": [
+    "estratégia legal: PL 490/2007 (Homero Pereira, 2007) reaparece em 2023 como resposta ao julgamento do STF",
+    "revés: STF rejeita o marco temporal em 21/09/2023; Senado aprova o PL 2.903 uma semana depois",
+    "virada: Congresso derruba vetos em 14/12/2023 e promulga a Lei 14.701 em 28/12/2023",
+    "estratégia legal: PL, PP e Republicanos pedem ao STF a validade da lei; APIB e governistas pedem a derrubada (ADC 87, ADIs)",
+    "estratégia legal: conciliação conduzida por Gilmar Mendes (2024-2025) sem consenso; APIB critica o formato",
+    "virada: STF, em dez/2025, declara inconstitucional o marco temporal da lei e mantém quase todo o restante, com prazo de 10 anos para a União concluir as demarcações",
+    "revés: Senado aprova PEC 48/2023 em 09/12/2025 para constitucionalizar o marco temporal; STF pode controlar por cláusula pétrea (art. 60, §4º)"
+   ],
+   "controversia": "Agro/ruralistas (FPA, presidida por Pedro Lupion; CNA): o marco temporal é 'condição sine qua non' de qualquer negociação (Lupion, 17/02/2025) e dá segurança jurídica à propriedade; derrubada de vetos foi 'articulada pela bancada do agronegócio' (Poder360). APIB e organizações indígenas: a lei viola direitos originários, e criticaram a conciliação; ISA avalia que o STF rejeitou o marco, mas manteve quase toda a lei com prazos e restrições que dificultam demarcações. Governo Lula vetou os pontos centrais e pediu inconstitucionalidade; Bolsonaro: não verificado. STF: Mendonça diverge, considerando o marco escolha legítima do Congresso (STF 22/12/2025).",
+   "fontes": [
+    {
+     "titulo": "Wikipedia: Marco temporal das terras indígenas (infobox do PL 490/2007)",
+     "url": "https://pt.wikipedia.org/wiki/Marco_temporal_das_terras_ind%C3%ADgenas",
+     "verificado": true,
+     "trecho_confirmado": "PL 490/2007 de Homero Pereira; Câmara 30/05/2023 (283 x 155); Senado 27/09/2023 (43 x 21); Lei 14.701 de 20/10/2023; veto rejeitado em 14/12/2023; promulgado em 28/12/2023; veto descrito como parcial."
+    },
+    {
+     "titulo": "Lei 14.701/2023 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14701.htm",
+     "verificado": true,
+     "trecho_confirmado": "Lei de 20/10/2023 regulamenta o art. 231; página traz 'Mensagem de veto' e 'Promulgação partes vetadas'; altera a Lei 6.001/1973 (posse em 05/10/1988)."
+    },
+    {
+     "titulo": "Poder360 (14/12/2023): Agro prevalece e Congresso derruba veto de Lula",
+     "url": "https://www.poder360.com.br/congresso/agro-prevalece-e-congresso-derruba-veto-de-lula-ao-marco-temporal/",
+     "verificado": true,
+     "trecho_confirmado": "Câmara derrubou o veto por 321 a 137 e 1 abstenção; Senado por 53 a 19; derrubada liderada pela bancada do agronegócio."
+    },
+    {
+     "titulo": "Poder360 (28/12/2023): Congresso promulga marco temporal",
+     "url": "https://www.poder360.com.br/congresso/congresso-promulga-marco-temporal-e-desoneracao-da-folha",
+     "verificado": true,
+     "trecho_confirmado": "Rodrigo Pacheco promulgou o marco temporal em 28/12/2023; vetos derrubados em 14/12."
+    },
+    {
+     "titulo": "STF (22/12/2025): STF considera inconstitucional trecho de lei que institui marco temporal",
+     "url": "https://noticias.stf.jus.br/postsnoticias/stf-considera-inconstitucional-trecho-de-lei-que-institui-marco-temporal-para-terras-indigenas/",
+     "verificado": true,
+     "trecho_confirmado": "Plenário virtual finalizado em 19/12/2025 considerou inconstitucional o marco temporal da Lei 14.701 (ADC 87 e ADIs 7582, 7583, 7586), maioria seguiu Gilmar Mendes; Mendonça divergiu; omissão e prazo de dez anos para demarcações (Fachin divergiu quanto ao prazo)."
+    },
+    {
+     "titulo": "ISA (dez/2025): STF conclui julgamento e rejeita marco temporal, mas mantém retrocessos",
+     "url": "https://www.socioambiental.org/noticias-socioambientais/stf-conclui-julgamento-e-rejeita-marco-temporal-mas-mantem-retrocessos-da",
+     "verificado": true,
+     "trecho_confirmado": "Segunda vez em que o STF considera o marco inconstitucional (conclusão na noite de 18/12 segundo o ISA); mantém quase toda a lei; APIB defendia derrubada integral."
+    },
+    {
+     "titulo": "Agência Brasil (11/12/2025): STF deixa votação do marco temporal para ano que vem",
+     "url": "https://agenciabrasil.ebc.com.br/justica/noticia/2025-12/stf-deixa-votacao-do-marco-temporal-para-ano-que-vem",
+     "verificado": true,
+     "trecho_confirmado": "Em 11/12/2025 terminaram as sustentações e a votação foi dita para 2026; PL, PP e Republicanos entraram com ações para manter a lei; indígenas e governistas, para derrubá-la (contrasta com a conclusão virtual de 19/12)."
+    },
+    {
+     "titulo": "InfoMoney/Estadão (17/02/2025): Lupion reage à minuta do STF",
+     "url": "https://www.infomoney.com.br/politica/lupion-reage-a-minuta-do-stf-marco-temporal-e-condicao-indispensavel-para-congresso/",
+     "verificado": true,
+     "trecho_confirmado": "Lupion (FPA): marco temporal é condição sine qua non para qualquer negociação; Congresso aprovou a lei por quase 400 votos, derrubando o veto."
+    },
+    {
+     "titulo": "Alma Preta (10/12/2025): Senado insere marco temporal na Constituição",
+     "url": "https://almapreta.com.br/sessao/politica/senado-ignora-julgamento-do-stf-e-insere-marco-temporal-na-constituicao-pec-sera-votada-na-camara/",
+     "verificado": true,
+     "trecho_confirmado": "Senado aprovou em 09/12/2025 a PEC 48/2023 (autor Hiran Gonçalves, PP-RR); 2º turno 52 a 15 com 1 abstenção; inclui indenização prévia a ocupantes."
+    },
+    {
+     "titulo": "Câmara dos Deputados: ficha de tramitação da PEC 48/2023",
+     "url": "https://www.camara.leg.br/proposicoesWeb/fichadetramitacao?idProposicao=2595897",
+     "verificado": true,
+     "trecho_confirmado": "Situação: aguardando designação de relator na CCJC; despacho em 04/05/2026 à CCJC; recebimento pela CCJC em 07/05/2026."
+    },
+    {
+     "titulo": "IHU/Unisinos (28/09/2023): STF sela vitória dos indígenas e sepulta a tese do marco temporal",
+     "url": "https://ihu.unisinos.br/632781-stf-sela-vitoria-dos-indigenas-e-sepulta-a-tese-do-marco-temporal",
+     "verificado": false,
+     "trecho_confirmado": "Página aberta confirma a conclusão do julgamento e a aprovação do PL 2.903 no Senado por 43 a 21 em 27/09/2023, mas o placar 9 a 2 do RE 1.017.365 veio de resumo de busca, não de trecho da página."
+    }
+   ],
+   "incerteza": "Divergências com historia.json: (a) o item l14701-2023 diz que Lula 'veta integralmente os pontos centrais' e o Planalto/Wikipedia tratam como veto parcial; (b) adc87-2024 tem data aproximada: a suspensão por Gilmar em 22/04/2024 aparece em resumo de busca (ISA/Conjur) sem trecho aberto; (c) marco-2026 afirma publicação do acórdão em 18/03/2026 com base em Mattos Filho, página que não abriu (Cloudflare) e o julgamento terminou em dezembro de 2025 (STF: 19/12; ISA: 18/12), então o acórdão em março de 2026 é plausível mas não verificado; (d) a data de entrada da PEC na Câmara: ficha mostra apresentação 10/12/2025 e CCJC em 07/05/2026 (resumo de busca sugeriu outubro de 2026, o que é erro). RE 1.017.365: 9 a 2 (Mendonça e Nunes Marques vencidos) só em resumo de busca; no julgamento de 2025 Nunes Marques acompanhou o relator e apenas Mendonça divergiu quanto ao marco (STF). Posição de Bolsonaro e da CNA em 2026 não verificada; posição do governo Lula em 2026 sobre PEC 48 não verificada.",
+   "historia_ids": [
+    "re1017365-2023",
+    "l14701-2023",
+    "adc87-2024",
+    "pec48-2025",
+    "marco-2026"
+   ]
+  },
+  {
+   "id": "financiamento-regras-eleitorais",
+   "data": "2024-02-27",
+   "titulo": "Financiamento e regras: EC 97/2017, EC 111/2021, consulta de 2020 (candidaturas negras) e regra para candidaturas indígenas (TSE 2024, aplicada em 2026)",
+   "resumo": "A EC 97/2017 vedou coligações em eleições proporcionais e instituiu cláusula de desempenho (3% dos votos válidos em 1/3 das UFs com mínimo de 2% em cada, ou 15 deputados em 1/3 das UFs) para acesso a fundo partidário e rádio/TV. A EC 111/2021 contou em dobro, para distribuição de fundo partidário e FEFC, os votos de candidatas mulheres ou candidatos negros para a Câmara em 2022-2030; não menciona indígenas. Em agosto de 2020 o TSE decidiu (consulta de Benedita da Silva) que FEFC e tempo de TV devem ser proporcionais às candidaturas negras. Em 27/02/2024 o TSE decidiu por unanimidade (consulta de Célia Xakriabá, relator Nunes Marques) que candidaturas indígenas terão distribuição proporcional de fundo partidário, FEFC e tempo de rádio/TV; as resoluções de 26/02/2026 a aplicaram pela primeira vez em 2026.",
+   "passos_de_construcao": [
+    "estratégia legal: consulta ao TSE por deputada indígena (Célia Xakriabá) com base no precedente da consulta de Benedita da Silva (2020)",
+    "financiamento-regras: EC 97/2017 fim das coligações proporcionais e cláusula de desempenho",
+    "financiamento-regras: EC 111/2021 voto em dobro para mulheres e negros (não indígenas)",
+    "financiamento-regras: decisão do TSE de 27/02/2024 e resolução de 26/02/2026 incluem expressamente indígenas",
+    "aliados: Ministério Público Eleitoral sugeriu regras de transporte e proporção; Conselho Nacional de Política Indigenista recomenda verificação de pertencimento étnico",
+    "revés: não há cota mínima de candidaturas indígenas por partido; regra vale apenas se houver candidatos; decisão não valeu para as municipais de 2024"
+   ],
+   "controversia": "O TSE manteve a autodeclaração como critério, cabendo a partidos e ao Ministério Público Eleitoral combater desvirtuamentos (Nunes Marques); o Conselho Nacional de Política Indigenista recomendou comissões de verificação de pertencimento étnico. Críticas ao uso de autodeclaração por não indígenas (ISA mencionou Mourão e Wellington Dias como autodeclarados) e posição de partidos do agro sobre as regras: não documentada em fonte aberta.",
+   "fontes": [
+    {
+     "titulo": "EC 97/2017 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc97.htm",
+     "verificado": true,
+     "trecho_confirmado": "Veda coligações nas eleições proporcionais; art. 17 §3º: 3% dos votos válidos em 1/3 das UFs (mín. 2% em cada) ou 15 deputados federais em 1/3 das UFs."
+    },
+    {
+     "titulo": "EC 111/2021 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc111.htm",
+     "verificado": true,
+     "trecho_confirmado": "Votos dados a candidatas mulheres ou a candidatos negros para a Câmara nas eleições de 2022 a 2030 serão contados em dobro para fundo partidário e FEFC; texto não menciona indígenas."
+    },
+    {
+     "titulo": "Alma Preta: Fundo eleitoral, lacunas que podem favorecer candidatos brancos",
+     "url": "https://almapreta.com.br/sessao/politica/fundo-eleitoral-entenda-as-lacunas-que-podem-favorecer-candidatos-brancos/",
+     "verificado": true,
+     "trecho_confirmado": "TSE decidiu em agosto de 2020, em consulta de Benedita da Silva, que FEFC e tempo de TV sejam proporcionais ao total de candidatos negros; vale a partir de 2022."
+    },
+    {
+     "titulo": "Correio Braziliense (27/02/2024): Candidaturas indígenas terão direito à distribuição proporcional de recursos",
+     "url": "https://www.correiobraziliense.com.br/politica/2024/02/6810185-candidaturas-indigenas-terao-direito-a-distribuicao-proporcional-de-recursos.html",
+     "verificado": true,
+     "trecho_confirmado": "TSE decidiu por unanimidade em 27/02/2024, na consulta de Célia Xakriabá, relator Nunes Marques, distribuição proporcional de recursos e tempo de rádio/TV; regulamentação a definir (2024 ou 2026)."
+    },
+    {
+     "titulo": "MPF (2026): Abril Indígena - novas regras incentivam participação indígena nas Eleições 2026",
+     "url": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/abril-indigena-novas-regras-incentivam-participacao-de-povos-indigenas-nas-eleicoes-2026",
+     "verificado": true,
+     "trecho_confirmado": "Resoluções do TSE incluíram, pela primeira vez, candidaturas indígenas na repartição de FEFC, Fundo Partidário e tempo de propaganda, proporcionais às candidaturas registradas; transporte gratuito para indígenas."
+    },
+    {
+     "titulo": "Congresso em Foco: TSE aprova 7 regras para eleições de 2026",
+     "url": "https://www.congressoemfoco.com.br/noticia/116778/tse-aprova-7-regras-para-eleicoes-de-2026-e-agenda-novas-analises",
+     "verificado": true,
+     "trecho_confirmado": "Resolução do FEFC mantém destinação mínima a mulheres e negros e inclui expressamente candidaturas indígenas."
+    },
+    {
+     "titulo": "Diário do Nordeste (19/04/2026)",
+     "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/novas-regras-eleitorais-buscam-incentivar-participacao-indigena-nas-eleicoes-2026-1.3758079",
+     "verificado": true,
+     "trecho_confirmado": "Não há mínimo obrigatório de candidaturas indígenas; a regra vale para as candidaturas que forem apresentadas; autodeclaração e verificação de pertencimento étnico recomendada."
+    }
+   ],
+   "incerteza": "Número exato da resolução do TSE (2020: Res. 23.665/2019 citada como norma do FEFC pela Alma Preta; 2026: números não confirmados) não verificado. Resolução TSE 23.609/2019 sobre cor/raça não aberta. O pedido supunha que a EC 111 incluía indígenas: não inclui. A data de 26/02/2026 é a das resoluções aprovadas (resumo de busca/Congresso em Foco); data exata de aprovação da resolução do FEFC não confirmada.",
+   "historia_ids": []
+  },
+  {
+   "id": "municipais-2024",
+   "data": "2024-10-06",
+   "titulo": "Eleições municipais de 2024: candidaturas e vereadores indígenas; etnia opcional",
+   "resumo": "Segundo dados do TSE divulgados na imprensa, os registros de candidaturas indígenas passaram de 2.172 (2020) para 2.479 (2024), alta de 14,13%, e os vereadores eleitos declarados indígenas de 181 para 241 (0,41% dos eleitos). Em 2024 passou a ser possível declarar, de forma opcional, a etnia no registro.",
+   "passos_de_construcao": [
+    "organização: candidaturas locais em municípios com grande população indígena sustentam a base que depois disputa cargos estaduais e federais",
+    "financiamento-regras: declaração opcional de etnia no registro (novidade de 2024) melhora a medição; a regra de recursos proporcionais para indígenas só valeu a partir de 2026",
+    "virada: recorde de vereadores indígenas eleitos, citado por ativistas como caminho para 2026"
+   ],
+   "controversia": "O critério continua sendo a autodeclaração; a contagem varia conforme a data de corte do TSE (os números calculados neste projeto, de snapshot posterior, são um pouco maiores).",
+   "fontes": [
+    {
+     "titulo": "Rádio Senado (03/10/2024): Candidaturas indígenas crescem 14% nas eleições municipais de 2024",
+     "url": "https://www12.senado.leg.br/radio/1/noticia/2024/10/03/candidaturas-indigenas-crescem-14-nas-eleicoes-municipais-de-2024",
+     "verificado": true,
+     "trecho_confirmado": "2.479 candidaturas indígenas em 2024 contra 2.172 em 2020 (+14,13%); declaração de etnia opcional é novidade."
+    },
+    {
+     "titulo": "Bahia Notícias: número de vereadores indígenas cresce mais de 32% no Brasil",
+     "url": "https://www.bahianoticias.com.br/noticia/297144-eleicoes-2024-numero-de-vereadores-indigenas-cresce-mais-de-32-no-brasil",
+     "verificado": true,
+     "trecho_confirmado": "181 vereadores indígenas eleitos em 2020 e 241 em 2024 (0,41% do total), dados do TSE."
+    }
+   ],
+   "incerteza": "Os números são de imprensa a partir de dados do TSE em datas de corte distintas.",
+   "historia_ids": []
+  },
+  {
+   "id": "resultados-2026-indigenas",
+   "data": "2026-10-04",
+   "titulo": "Resultados de 2026 (1º turno, 04/10/2026): indígenas eleitos para a Câmara, assembleias, Senado e governos",
+   "resumo": "Segundo a Agência Brasil (05/10/2026), três candidatos autodeclarados indígenas foram eleitos deputados federais: Paulo Guedes (PT-MG, reeleito, 126.891 votos), Juliana Cardoso (PT-SP, reeleita, 111.904 votos) e Sônia Guajajara (PSOL-SP, reeleita, 54.207 votos, por quociente), cerca de 0,58% dos 513 deputados; em 2022 haviam sido cinco. Célia Xakriabá não se reelegeu. Pela Folha (via Vero Notícias, 06/10/2026), o número de deputados estaduais autodeclarados indígenas passou de dois para quatro e nenhum dos 54 senadores eleitos se declarou indígena. A Justiça Eleitoral registrou 73 candidaturas indígenas a deputado federal (Agência Brasil); a APIB conta 75 e 191 no total.",
+   "passos_de_construcao": [
+    "organização: Campanha Indígena da APIB, 47 pré-candidaturas de 16 estados e DF (A Pública, resumo de busca) e 27 pré-candidatos a federal lançados no ATL de abril de 2026",
+    "financiamento-regras: primeira eleição com fundo e tempo de TV/rádio proporcionais às candidaturas indígenas",
+    "mídia: slogan 'a resposta somos nós' e candidaturas em 26 UFs",
+    "revés: bancada federal cai de 5 para 3; Célia Xakriabá não renova",
+    "virada: candidaturas recordes (191) não se converteram em mais eleitos na Câmara"
+   ],
+   "controversia": "Os totais dependem do critério: Agência Brasil conta cinco eleitos em 2022 (como a Agência Câmara), a Folha via Vero fala em quatro; Silvia Waiãpi (PL-AP) não aparece entre os eleitos de 2026 na Agência Brasil e não foi verificado se concorreu. Autodeclaração no TSE pode incluir pessoas não identificadas como lideranças pelo movimento (caso de Mourão e Wellington Dias, ISA 2022). Posições de governo e agro sobre o resultado: não coletadas.",
+   "fontes": [
+    {
+     "titulo": "Agência Brasil (05/10/2026): Renovação da Câmara federal chegou a 35%",
+     "url": "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/renovacao-da-camara-federal-chegou-35-veja-nova-composicao-da-casa",
+     "verificado": true,
+     "trecho_confirmado": "Apenas três autodeclarados indígenas eleitos: Paulo Guedes (PT-MG) 126.891, Juliana Cardoso (PT-SP) 111.904, Sônia Guajajara (PSOL-SP) 54.207; ~0,58% dos 513; 73 candidaturas indígenas a federal; em 2022 haviam sido cinco."
+    },
+    {
+     "titulo": "Vero Notícias (06/10/2026), citando Folha e TSE",
+     "url": "https://veronoticias.com/politica/camara-elege-tres-deputados-autodeclarados-indigenas-em-2026/",
+     "verificado": true,
+     "trecho_confirmado": "Três eleitos para a Câmara (0,6%); Célia Xakriabá não renovou; deputados estaduais autodeclarados indígenas passaram de dois para quatro; nenhum dos 54 senadores eleitos se declarou indígena; cita 'quatro eleitos em 2022'."
+    },
+    {
+     "titulo": "Conexão Tocantins (19/08/2026): recorde de 191 candidaturas indígenas",
+     "url": "https://conexaoto.com.br/2026/08/19/eleicao-2026-registra-recorde-de-191-candidaturas-indigenas",
+     "verificado": true,
+     "trecho_confirmado": "191 candidaturas indígenas em 26 UFs; 75 a deputado federal; 99 a assembleias; 4 ao Senado; 3 a governos estaduais."
+    }
+   ],
+   "incerteza": "Resultados são do 1º turno e baseados em notícias de 05-06/10/2026, não no TSE direto; podem ser atualizados com totalização final. Não encontrei fonte aberta sobre governadores ou senadores indígenas eleitos (Folha/Vero diz nenhum senador autodeclarado) nem sobre os nomes dos 4 deputados estaduais; resumo de busca não aberto menciona pré-candidatas como Célia Xakriabá. Silvia Waiãpi: situação em 2026 desconhecida.",
+   "historia_ids": []
+  }
+ ]
+}
