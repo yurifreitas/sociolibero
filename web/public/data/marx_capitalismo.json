@@ -1,0 +1,3001 @@
+{
+ "meta": {
+  "gerado_em": "2026-10-07",
+  "aviso": "Pesquisa sobre Karl Marx e a tese \"o capitalismo não é um sistema econômico implementável\". Marx (m. 1883) e Engels (m. 1895) estão em domínio público; os trechos originais são curtos e foram lidos em fonte aberta. As traduções para o português são do agente (não revisadas). A tese citada não é uma frase de Marx: é inferência a partir de seus textos, de Polanyi e de outros. Textos, interpretações e juízos são separados em cada seção; nenhum vencedor é declarado. Os outros autores (Polanyi, Hayek, Keynes etc.) são apresentados por síntese de memória do agente e só tiveram a existência da obra conferida em página aberta (secundária).",
+  "criterio_verificacao": "verificado_literal=true significa que o agente baixou a URL citada (recarregada no momento da geração do arquivo), normalizou espaços e marcações HTML e confirmou que o trecho_original aparece palavra por palavra no texto da página. NÃO significa que a página é edição crítica: os textos alemães de MEW foram lidos num espelho (read.19491007.xyz, texto de Zeno/Dietz), os franceses e ingleses na MIA (marxists.org), a Keynes em Project Gutenberg Australia. Páginas MEW citadas em nota são de literatura/memória, não conferidas. Para pensadores, verificado=true significa só que a página (em geral Wikipédia) abre e cita título/ano da obra, não que a posição resumida foi conferida na obra. Itens com \"(a conferir)\" não foram verificados."
+ },
+ "textos": [
+  {
+   "id": "t01-prefacio-1859-base",
+   "autor": "Karl Marx",
+   "obra": "Zur Kritik der Politischen Ökonomie (Vorwort)",
+   "ano": 1859,
+   "secao": "Vorwort, parágrafo que começa \"Das allgemeine Resultat, zu dem ich gelangte\"",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "In der gesellschaftlichen Produktion ihres Lebens gehen die Menschen bestimmte, notwendige, von ihrem Willen unabhängige Verhältnisse ein, Produktionsverhältnisse, die einer bestimmten Entwicklungsstufe ihrer materiellen Produktivkräfte entsprechen. Die Gesamtheit dieser Produktionsverhältnisse bildet die ökonomische Struktur der Gesellschaft, die reale Basis, worauf sich ein juristischer und politischer Überbau erhebt, und welcher bestimmte gesellschaftliche Bewußtseinsformen entsprechen.",
+   "traducao_pt": "Na produção social de sua vida, os seres humanos entram em relações determinadas, necessárias, independentes de sua vontade, relações de produção que correspondem a um determinado grau de desenvolvimento de suas forças produtivas materiais. O conjunto dessas relações de produção forma a estrutura econômica da sociedade, a base real sobre a qual se ergue uma superestrutura jurídica e política, e à qual correspondem formas determinadas de consciência social.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/13/ME13-007.html",
+   "verificado_literal": true,
+   "tema": "modo de produção",
+   "leitura_curta": "Define modo de produção como conjunto de relações sociais, não de coisas nem de políticas. É a base da tese 1: o capitalismo como relação social historicamente situada.",
+   "nota_de_fonte": "Página MEW (MEW 13, p. 8-9) de literatura/memória, não conferida."
+  },
+  {
+   "id": "t02-prefacio-1859-grilhoes",
+   "autor": "Karl Marx",
+   "obra": "Zur Kritik der Politischen Ökonomie (Vorwort)",
+   "ano": 1859,
+   "secao": "Vorwort, mesmo parágrafo",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Auf einer gewissen Stufe ihrer Entwicklung geraten die materiellen Produktivkräfte der Gesellschaft in Widerspruch mit den vorhandenen Produktionsverhältnissen oder, was nur ein juristischer Ausdruck dafür ist, mit den Eigentumsverhältnissen, innerhalb deren sie sich bisher bewegt hatten. Aus Entwicklungsformen der Produktivkräfte schlagen diese Verhältnisse in Fesseln derselben um. Es tritt dann eine Epoche sozialer Revolution ein.",
+   "traducao_pt": "Em certo grau de seu desenvolvimento, as forças produtivas materiais da sociedade entram em contradição com as relações de produção existentes ou, o que é apenas uma expressão jurídica disso, com as relações de propriedade no interior das quais haviam se movido até então. De formas de desenvolvimento das forças produtivas, essas relações se convertem em seus grilhões. Abre-se então uma época de revolução social.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/13/ME13-007.html",
+   "verificado_literal": true,
+   "tema": "modo de produção",
+   "leitura_curta": "A formulação mais citada e mais lida em chave determinista. Texto: contradição entre forças produtivas e relações de produção; interpretação: se isso é lei ou tendência é disputado.",
+   "nota_de_fonte": "Página MEW (MEW 13, p. 9) de literatura/memória, não conferida."
+  },
+  {
+   "id": "t03-prefacio-1859-condicoes",
+   "autor": "Karl Marx",
+   "obra": "Zur Kritik der Politischen Ökonomie (Vorwort)",
+   "ano": 1859,
+   "secao": "Vorwort, mesmo parágrafo",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Eine Gesellschaftsformation geht nie unter, bevor alle Produktivkräfte entwickelt sind, für die sie weit genug ist, und neue höhere Produktionsverhältnisse treten nie an die Stelle, bevor die materiellen Existenzbedingungen derselben im Schoß der alten Gesellschaft selbst ausgebrütet worden sind.",
+   "traducao_pt": "Uma formação social nunca perece antes que estejam desenvolvidas todas as forças produtivas para as quais ela é suficientemente ampla, e novas relações de produção superiores nunca ocupam o seu lugar antes que as condições materiais de existência delas tenham sido gestadas no seio da própria sociedade velha.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/13/ME13-007.html",
+   "verificado_literal": true,
+   "tema": "modo de produção",
+   "leitura_curta": "Marx nega que se possa saltar etapas por vontade política. Usado tanto por leituras deterministas quanto por quem destaca o caráter condicionado de qualquer transição.",
+   "nota_de_fonte": "Página MEW (MEW 13, p. 9) de literatura/memória, não conferida."
+  },
+  {
+   "id": "t04-prefacio-1859-antagonica",
+   "autor": "Karl Marx",
+   "obra": "Zur Kritik der Politischen Ökonomie (Vorwort)",
+   "ano": 1859,
+   "secao": "Vorwort, mesmo parágrafo",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die bürgerlichen Produktionsverhältnisse sind die letzte antagonistische Form des gesellschaftlichen Produktionsprozesses, antagonistisch nicht im Sinn von individuellem Antagonismus, sondern eines aus den gesellschaftlichen Lebensbedingungen der Individuen hervorwachsenden Antagonismus, aber die im Schoß der bürgerlichen Gesellschaft sich entwickelnden Produktivkräfte schaffen zugleich die materiellen Bedingungen zur Lösung dieses Antagonismus.",
+   "traducao_pt": "As relações burguesas de produção são a última forma antagônica do processo social de produção, antagônica não no sentido de um antagonismo individual, mas de um antagonismo que brota das condições sociais de vida dos indivíduos; contudo, as forças produtivas que se desenvolvem no seio da sociedade burguesa criam ao mesmo tempo as condições materiais para a solução desse antagonismo.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/13/ME13-007.html",
+   "verificado_literal": true,
+   "tema": "modo de produção",
+   "leitura_curta": "Marx trata as relações burguesas como uma forma histórica entre outras. A previsão de superação é o que Popper e Kornai contestam.",
+   "nota_de_fonte": "Página MEW (MEW 13, p. 9) de literatura/memória, não conferida."
+  },
+  {
+   "id": "t05-capital1-warensammlung",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 1, §1, primeira frase",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Der Reichtum der Gesellschaften, in welchen kapitalistische Produktionsweise herrscht, erscheint als eine»ungeheure Warensammlung«",
+   "traducao_pt": "A riqueza das sociedades em que reina o modo de produção capitalista aparece como uma \"enorme coleção de mercadorias\".",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-049.html",
+   "verificado_literal": true,
+   "tema": "mercadoria",
+   "leitura_curta": "O objeto declarado é \"sociedades em que reina o modo de produção capitalista\", não \"mercados\" em geral: O Capital começa pela mercadoria generalizada como forma social.",
+   "nota_de_fonte": "Marx cita a si mesmo (Contribuição, 1859) entre aspas na expressão."
+  },
+  {
+   "id": "t06-capital1-trabalho-abstrato",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 1, §1, parágrafo que começa \"Betrachten wir nun das Residuum der Arbeitsprodukte\"",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Betrachten wir nun das Residuum der Arbeitsprodukte. Es ist nichts von ihnen übriggeblieben als dieselbe gespenstige Gegenständlichkeit, eine bloße Gallerte unterschiedsloser menschlicher Arbeit, d.h. der Verausgabung menschlicher Arbeitskraft ohne Rücksicht auf die Form ihrer Verausgabung.",
+   "traducao_pt": "Consideremos agora o resíduo dos produtos do trabalho. Nada restou deles senão a mesma objetividade fantasmagórica, uma mera gelatina de trabalho humano indiferenciado, isto é, de dispêndio de força de trabalho humana sem consideração pela forma de seu dispêndio.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-049.html",
+   "verificado_literal": true,
+   "tema": "valor e trabalho abstrato",
+   "leitura_curta": "Passagem central da teoria do valor-trabalho: o valor é trabalho abstrato socialmente medido. A discussão posterior (problema da transformação, Böhm-Bawerk) incide aqui.",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t07-capital1-fetiche-1",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 1, §4 \"Der Fetischcharakter der Ware und sein Geheimnis\", primeira frase",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Eine Ware scheint auf den ersten Blick ein selbstverständliches, triviales Ding. Ihre Analyse ergibt, daß sie ein sehr vertracktes Ding ist, voll metaphysischer Spitzfindigkeit und theologischer Mucken.",
+   "traducao_pt": "Uma mercadoria parece, à primeira vista, uma coisa óbvia e trivial. Sua análise mostra que ela é uma coisa muito complicada, cheia de sutileza metafísica e de caprichos teológicos.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-049.html",
+   "verificado_literal": true,
+   "tema": "fetichismo",
+   "leitura_curta": "Abertura da seção sobre o fetichismo da mercadoria.",
+   "nota_de_fonte": "Página MEW (MEW 23, p. 85) de literatura/memória, não conferida."
+  },
+  {
+   "id": "t08-capital1-fetiche-2",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 1, §4, parágrafo que começa \"Das Geheimnisvolle der Warenform\"",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Es ist nur das bestimmte gesellschaftliche Verhältnis der Menschen selbst, welches hier für sie die phantasmagorische Form eines Verhältnisses von Dingen annimmt.",
+   "traducao_pt": "É apenas a relação social determinada entre os próprios seres humanos que assume, para eles, a forma fantasmagórica de uma relação entre coisas.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-049.html",
+   "verificado_literal": true,
+   "tema": "fetichismo",
+   "leitura_curta": "O fetichismo é uma aparência objetiva da relação social, não ilusão individual; por isso \"mercado\" e \"capital\" parecem coisas e não relações.",
+   "nota_de_fonte": "Página MEW (MEW 23, p. 86) de literatura/memória, não conferida."
+  },
+  {
+   "id": "t09-capital1-controle-planejado",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 1, §4, parágrafo que começa \"Stellen wir uns endlich, zur Abwechslung, einen Verein freier Menschen vor\"; frase \"Die Gestalt des gesellschaftlichen Lebensprozesses\"",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die Gestalt des gesellschaftlichen Lebensprozesses, d.h. des materiellen Produktionsprozesses, streift nur ihren mystischen Nebelschleier ab, sobald sie als Produkt frei vergesellschafteter Menschen unter deren bewußter planmäßiger Kontrolle steht.",
+   "traducao_pt": "A figura do processo social de vida, isto é, do processo material de produção, só despe seu véu místico de névoa quando é produto de seres humanos livremente associados, sob seu controle consciente e planejado.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-049.html",
+   "verificado_literal": true,
+   "tema": "mal-entendido: planejamento",
+   "leitura_curta": "Uma frase condicional sobre o fim do fetichismo, não receita institucional. Ver mal-entendido sobre planificação estatal.",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t10-capital1-circulacao-pressuposto",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 4, §1 \"Die allgemeine Formel des Kapitals\", início",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die Warenzirkulation ist der Ausgangspunkt des Kapitals. Warenproduktion und entwickelte Warenzirkulation, Handel, bilden die historischen Voraussetzungen, unter denen es entsteht. Welthandel und Weltmarkt eröffnen im 16. Jahrhundert die moderne Lebensgeschichte des Kapitals.",
+   "traducao_pt": "A circulação de mercadorias é o ponto de partida do capital. A produção de mercadorias e a circulação desenvolvida de mercadorias, o comércio, formam os pressupostos históricos sob os quais ele surge. O comércio mundial e o mercado mundial abrem, no século XVI, a história moderna do capital.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-161.html",
+   "verificado_literal": true,
+   "tema": "dinheiro e capital",
+   "leitura_curta": "Texto-chave da tese 2: comércio e circulação são pressuposto histórico do capital, não o próprio capital.",
+   "nota_de_fonte": "Página MEW (MEW 23, p. 161) de literatura/memória, não conferida."
+  },
+  {
+   "id": "t11-capital1-gwg",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 4, §1, parágrafo que começa \"Geld als Geld und Geld als Kapital unterscheiden sich zunächst nur durch ihre verschiedne Zirkulationsform\"",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die unmittelbare Form der Warenzirkulation ist W – G – W, Verwandlung von Ware in Geld und Rückverwandlung von Geld in Ware, verkaufen, um zu kaufen. Neben dieser Form finden wir aber eine zweite, spezifisch unterschiedne vor, die Form G – W – G, Verwandlung von Geld in Ware und Rückverwandlung von Ware in Geld, kaufen, um zu verkaufen.",
+   "traducao_pt": "A forma imediata da circulação de mercadorias é M – D – M, transformação de mercadoria em dinheiro e retransformação de dinheiro em mercadoria, vender para comprar. Ao lado dessa forma encontramos, porém, uma segunda, especificamente diferente, a forma D – M – D, transformação de dinheiro em mercadoria e retransformação de mercadoria em dinheiro, comprar para vender.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-161.html",
+   "verificado_literal": true,
+   "tema": "dinheiro e capital",
+   "leitura_curta": "Contraste M-D-M (vender para comprar; fim no consumo) e D-M-D (comprar para vender; fim no valor). A fórmula com incremento, D-M-D', aparece no parágrafo seguinte (t12).",
+   "nota_de_fonte": "O original usa as siglas G (Geld) e W (Ware); em português, D e M."
+  },
+  {
+   "id": "t12-capital1-mais-valia",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 4, §1, parágrafo que começa \"Die vollständige Form dieses Prozesses ist daher G – W – G'\"",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die vollständige Form dieses Prozesses ist daher G – W – G', wo G' = G + ΔG, d.h. gleich der ursprünglich vorgeschossenen Geldsumme plus einem Inkrement. Dieses Inkrement oder den Überschuß über den ursprünglichen Wert nenne ich – Mehrwert (surplus value).",
+   "traducao_pt": "A forma completa desse processo é, portanto, D – M – D', onde D' = D + ΔD, isto é, igual à soma de dinheiro originalmente adiantada mais um incremento. Esse incremento, ou excedente sobre o valor original, eu chamo de mais-valia (surplus value).",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-161.html",
+   "verificado_literal": true,
+   "tema": "mais-valia",
+   "leitura_curta": "Definição de mais-valia na fórmula D-M-D'. A origem da mais-valia só é explicada na compra e uso da força de trabalho (t13, t14).",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t13-capital1-eden",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 4, §3 \"Kauf und Verkauf der Arbeitskraft\", fim",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Was allein hier herrscht, ist Freiheit, Gleichheit, Eigentum und Bentham. Freiheit! Denn Käufer und Verkäufer einer Ware, z.B. der Arbeitskraft, sind nur durch ihren freien Willen bestimmt.",
+   "traducao_pt": "O que reina aqui é apenas liberdade, igualdade, propriedade e Bentham. Liberdade! Pois comprador e vendedor de uma mercadoria, por exemplo da força de trabalho, são determinados apenas por sua livre vontade.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-161.html",
+   "verificado_literal": true,
+   "tema": "mais-valia e exploração",
+   "leitura_curta": "Marx reconhece a esfera da circulação como livre e igual no plano jurídico; a exploração está, para ele, na produção, não na troca formal. Importa para distinguir mercado de capital.",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t14-capital1-vampiro",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 8 \"Der Arbeitstag\", §1",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Das Kapital ist verstorbne Arbeit, die sich nur vampyrmäßig belebt durch Einsaugung lebendiger Arbeit und um so mehr lebt, je mehr sie davon einsaugt.",
+   "traducao_pt": "O capital é trabalho morto que só se anima, à maneira de um vampiro, sugando trabalho vivo, e vive tanto mais quanto mais dele suga.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-245.html",
+   "verificado_literal": true,
+   "tema": "mais-valia e exploração",
+   "leitura_curta": "Metáfora de exploração; texto e juízo moral do autor se misturam (no prefácio, Marx diz tratar de indivíduos só como \"personificações de categorias econômicas\").",
+   "nota_de_fonte": "O recorte vai até \"einsaugt\" e exclui um número de nota que antecede \"Das Kapital\"."
+  },
+  {
+   "id": "t15-capital1-normalarbeitstag",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 8, §7",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die Schöpfung eines Normalarbeitstags ist daher das Produkt eines langwierigen, mehr oder minder versteckten Bürgerkriegs zwischen der Kapitalistenklasse und der Arbeiterklasse.",
+   "traducao_pt": "A criação de uma jornada normal de trabalho é, portanto, o produto de uma guerra civil longa e mais ou menos velada entre a classe capitalista e a classe trabalhadora.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-245.html",
+   "verificado_literal": true,
+   "tema": "instituições",
+   "leitura_curta": "Evidência textual para a tese 4: as instituições que regulam o trabalho não nascem do mercado; resultam de conflito e lei.",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t16-capital1-fabrikgesetz",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 13, §9 \"Fabrikgesetzgebung...\", início",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die Fabrikgesetzgebung, diese erste bewußte und planmäßige Rückwirkung der Gesellschaft auf die naturwüchsige Gestalt ihres Produktionsprozesses, ist, wie man gesehn, ebensosehr ein notwendiges Produkt der großen Industrie als Baumwollgarn, Selfactors und der elektrische Telegraph.",
+   "traducao_pt": "A legislação fabril, essa primeira reação consciente e planejada da sociedade sobre a forma espontânea de seu processo de produção, é, como se viu, um produto tão necessário da grande indústria quanto o fio de algodão, a selfactor e o telégrafo elétrico.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-391.html",
+   "verificado_literal": true,
+   "tema": "instituições",
+   "leitura_curta": "Marx descreve a regulação como produto necessário do próprio capitalismo industrial. Pode ser lido a favor de qualquer lado da tese 4.",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t17-capital1-natureza",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 13, §10, última frase",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die kapitalistische Produktion entwickelt daher nur die Technik und Kombination des gesellschaftlichen Produktionsprozesses, indem sie zugleich die Springquellen alles Reichtums untergräbt: die Erde und den Arbeiter.",
+   "traducao_pt": "A produção capitalista só desenvolve a técnica e a combinação do processo social de produção minando ao mesmo tempo as fontes de toda riqueza: a terra e o trabalhador.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-391.html",
+   "verificado_literal": true,
+   "tema": "natureza",
+   "leitura_curta": "Base textual da leitura ecológica (Foster, O'Connor); a \"segunda contradição\" é conceito de O'Connor, não de Marx.",
+   "nota_de_fonte": "O trecho original continua \"indem sie zugleich die Springquellen alles Reichtums untergräbt\"; o recorte é contínuo."
+  },
+  {
+   "id": "t18-capital1-reserva",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 23 \"Das allgemeine Gesetz der kapitalistischen Akkumulation\", §3",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Sie bildet eine disponible industrielle Reservearmee, die dem Kapital ganz so absolut gehört, als ob es sie auf seine eignen Kosten großgezüchtet hätte. Sie schafft für seine wechselnden Verwertungsbedürfnisse das stets bereite exploitable Menschenmaterial, unabhängig von den Schranken der wirklichen Bevölkerungszunahme.",
+   "traducao_pt": "Ela forma um exército industrial de reserva disponível, que pertence ao capital de modo tão absoluto como se ele o tivesse criado à sua própria custa. Cria, para as necessidades variáveis de valorização do capital, o material humano sempre pronto e explorável, independentemente dos limites do crescimento real da população.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-640.html",
+   "verificado_literal": true,
+   "tema": "acumulação e exército de reserva",
+   "leitura_curta": "Mecanismo de disciplina do salário (ver anel automacao-trabalho-demanda). Teoria, não previsão numérica.",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t19-capital1-reserva-salario",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 23, §3",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die relative Übervölkerung ist also der Hintergrund, worauf das Gesetz der Nachfrage und Zufuhr von Arbeit sich bewegt.",
+   "traducao_pt": "A superpopulação relativa é, portanto, o pano de fundo sobre o qual se move a lei da oferta e da demanda de trabalho.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-640.html",
+   "verificado_literal": true,
+   "tema": "acumulação e exército de reserva",
+   "leitura_curta": "Marx contesta que o salário se ajuste só por oferta e demanda de trabalho: a oferta é regulada pelo próprio ciclo de acumulação.",
+   "nota_de_fonte": "Ortografia da fonte: \"Übervölkerung\"."
+  },
+  {
+   "id": "t20-capital1-polos",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 23, §4",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die Akkumulation von Reichtum auf dem einen Pol ist also zugleich Akkumulation von Elend, Arbeitsqual, Sklaverei, Unwissenheit, Brutalisierung und moralischer Degradation auf dem Gegenpol, d.h. auf Seite der Klasse, die ihr eignes Produkt als Kapital produziert.",
+   "traducao_pt": "A acumulação de riqueza num polo é, portanto, ao mesmo tempo acumulação de miséria, tormento do trabalho, escravidão, ignorância, brutalização e degradação moral no polo oposto, isto é, do lado da classe que produz seu próprio produto como capital.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-640.html",
+   "verificado_literal": true,
+   "tema": "acumulação e exército de reserva",
+   "leitura_curta": "Base da tese do \"empobrecimento\": o texto fala em acumulação de miséria no polo oposto. Se isso significa empobrecimento absoluto é disputa (ver contra-argumentos).",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t21-capital1-sundenfall",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 24, §1 \"Das Geheimnis der ursprünglichen Akkumulation\", início",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Diese ursprüngliche Akkumulation spielt in der politischen Ökonomie ungefähr dieselbe Rolle wie der Sündenfall in der Theologie.",
+   "traducao_pt": "Essa acumulação primitiva desempenha na economia política aproximadamente o mesmo papel que o pecado original na teologia.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-741.html",
+   "verificado_literal": true,
+   "tema": "acumulação primitiva",
+   "leitura_curta": "Crítica ao mito de origem da economia política clássica (a elite poupadora e os preguiçosos).",
+   "nota_de_fonte": "Página MEW (MEW 23, p. 741) de literatura/memória, não conferida."
+  },
+  {
+   "id": "t22-capital1-idylle",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 24, §1",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "In der wirklichen Geschichte spielen bekanntlich Eroberung, Unterjochung, Raubmord, kurz Gewalt die große Rolle. In der sanften politischen Ökonomie herrschte von jeher die Idylle.",
+   "traducao_pt": "Na história real, como se sabe, desempenham o grande papel a conquista, a subjugação, o assassinato por roubo, em suma, a violência. Na suave economia política reinou desde sempre o idílio.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-741.html",
+   "verificado_literal": true,
+   "tema": "acumulação primitiva",
+   "leitura_curta": "O mito \"poupança e trabalho\" oculta violência e expropriação. Texto, não evidência quantitativa.",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t23-capital1-scheidung",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 24, §1",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die sog. ursprüngliche Akkumulation ist also nichts als der historische Scheidungsprozeß von Produzent und Produktionsmittel. Er erscheint als»ursprünglich«, weil er die Vorgeschichte des Kapitals und der ihm entsprechenden Produktionsweise bildet.",
+   "traducao_pt": "A assim chamada acumulação primitiva nada é, portanto, senão o processo histórico de separação entre produtor e meios de produção. Ela aparece como \"primitiva\" porque constitui a pré-história do capital e do modo de produção que lhe corresponde.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-741.html",
+   "verificado_literal": true,
+   "tema": "acumulação primitiva",
+   "leitura_curta": "Definição: o capital pressupõe a separação, e a separação é processo histórico. Núcleo da tese 1.",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t24-capital1-kapitalverhaeltnis",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 24, §1",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Das Kapitalverhältnis setzt die Scheidung zwischen den Arbeitern und dem Eigentum an den Verwirklichungsbedingungen der Arbeit voraus. Sobald die kapitalistische Produktion einmal auf eignen Füßen steht, erhält sie nicht nur jene Scheidung, sondern reproduziert sie auf stets wachsender Stufenleiter.",
+   "traducao_pt": "A relação de capital pressupõe a separação entre os trabalhadores e a propriedade das condições de realização do trabalho. Assim que a produção capitalista se sustenta sobre os próprios pés, ela não apenas conserva essa separação, mas a reproduz em escala sempre crescente.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-741.html",
+   "verificado_literal": true,
+   "tema": "acumulação primitiva",
+   "leitura_curta": "Capital como relação, reproduzida continuamente. Explica por que não basta \"adotar\" propriedade privada.",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t25-capital1-ouro-escravidao",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 24, §6 \"Genesis des industriellen Kapitalisten\" (cap. 31 da edição inglesa Moore-Aveling)",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die Entdeckung der Gold- und Silberländer in Amerika, die Ausrottung, Versklavung und Vergrabung der eingebornen Bevölkerung in die Bergwerke, die beginnende Eroberung und Ausplünderung von Ostindien, die Verwandlung von Afrika in ein Geheg zur Handelsjagd auf Schwarzhäute bezeichnen die Morgenröte der kapitalistischen Produktionsära.",
+   "traducao_pt": "A descoberta das terras de ouro e prata na América, a extirpação, a escravização e o enterramento nas minas da população nativa, o início da conquista e do saque das Índias Orientais, a transformação da África em reserva de caça comercial a peles-negras assinalam a aurora da era da produção capitalista.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-741.html",
+   "verificado_literal": true,
+   "tema": "acumulação primitiva",
+   "leitura_curta": "Colonialismo e tráfico como momentos constitutivos, segundo Marx. Quanto o tráfico pesou na industrialização é matéria de historiografia (Williams, Inikori, Eltis); o texto é de 1867.",
+   "nota_de_fonte": "Termo racializado do original (\"Schwarzhäute\"), traduzido literalmente por fidelidade. Página MEW (MEW 23, p. 779) de literatura/memória, não conferida."
+  },
+  {
+   "id": "t26-capital1-staatsgewalt",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 24, §6",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Diese Methoden beruhn zum Teil auf brutalster Gewalt, z.B. das Kolonialsystem. Alle aber benutzten die Staatsmacht, die konzentrierte und organisierte Gewalt der Gesellschaft, um den Verwandlungsprozeß der feudalen in die kapitalistische Produktionsweise treibhausmäßig zu fördern und die Übergänge abzukürzen. Die Gewalt ist der Geburtshelfer jeder alten Gesellschaft, die mit einer neuen schwanger geht. Sie selbst ist eine ökonomische Potenz.",
+   "traducao_pt": "Esses métodos repousam em parte sobre a mais brutal violência, por exemplo o sistema colonial. Mas todos eles utilizaram o poder do Estado, a violência concentrada e organizada da sociedade, para fomentar como em estufa o processo de transformação do modo de produção feudal em capitalista e abreviar as transições. A violência é a parteira de toda velha sociedade que está grávida de uma nova. Ela própria é uma potência econômica.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-741.html",
+   "verificado_literal": true,
+   "tema": "acumulação primitiva",
+   "leitura_curta": "Núcleo da tese 3 em versão marxiana: o Estado forçou a transição. \"Parteira\" não significa \"origem de tudo\": a sociedade velha já estava grávida.",
+   "nota_de_fonte": "Página MEW (MEW 23, p. 779) de literatura/memória, não conferida."
+  },
+  {
+   "id": "t27-capital1-sangue",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 24, §6, fim",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "so das Kapital von Kopf bis Zeh, aus allen Poren, blut- und schmutztriefend",
+   "traducao_pt": "assim o capital, da cabeça aos pés, por todos os poros, pingando sangue e sujeira.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-741.html",
+   "verificado_literal": true,
+   "tema": "acumulação primitiva",
+   "leitura_curta": "Frase final do §6. É a segunda metade de uma comparação com o dinheiro, que \"nasce com manchas de sangue numa face\" (citação de Augier).",
+   "nota_de_fonte": "O número de nota de rodapé que segue \"blut- und schmutztriefend\" foi excluído do recorte."
+  },
+  {
+   "id": "t28-capital1-expropriation-landvolk",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 24, §1, fim",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die Expropriation des ländlichen Produzenten, des Bauern, von Grund und Boden bildet die Grundlage des ganzen Prozesses. Ihre Geschichte nimmt in verschiedenen Ländern verschiedene Färbung an und durchläuft die verschiedenen Phasen in verschiedener Reihenfolge und in verschiedenen Geschichtsepochen. Nur in England, das wir daher als Beispiel nehmen, besitzt sie klassische Form",
+   "traducao_pt": "A expropriação do produtor rural, do camponês, de sua terra constitui a base de todo o processo. Sua história assume cores diferentes em diferentes países e percorre as diversas fases em ordem diferente e em épocas históricas diferentes. Só na Inglaterra, que por isso tomamos como exemplo, ela possui forma clássica.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-741.html",
+   "verificado_literal": true,
+   "tema": "acumulação primitiva",
+   "leitura_curta": "\"Nur in England\": a razão pela qual o esboço de Marx tem a Inglaterra como caso-tipo e não como lei para todos.",
+   "nota_de_fonte": "Número de nota (1018) após \"klassische Form\" excluído do recorte."
+  },
+  {
+   "id": "t29-capital1-bills-inclosures",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 24, §2 \"Expropriation des Landvolks von Grund und Boden\"",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "in andren Worten Dekrete, wodurch die Grundherrn Volksland sich selbst als Privateigentum schenken, Dekrete der Volksexpropriation.",
+   "traducao_pt": "em outras palavras, decretos pelos quais os senhores de terra presenteiam a si mesmos com terra do povo como propriedade privada, decretos de expropriação popular.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-741.html",
+   "verificado_literal": true,
+   "tema": "acumulação primitiva",
+   "leitura_curta": "Os cercamentos como atos do Parlamento: a propriedade privada capitalista da terra foi instituída por lei.",
+   "nota_de_fonte": "Recorte começa no meio de frase sobre os \"Bills for Inclosures of Commons\"."
+  },
+  {
+   "id": "t30-capital1-expropriateure",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 24, §7 \"Geschichtliche Tendenz der kapitalistischen Akkumulation\"",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die Zentralisation der Produktionsmittel und die Vergesellschaftung der Arbeit erreichen einen Punkt, wo sie unverträglich werden mit ihrer kapitalistischen Hülle. Sie wird gesprengt. Die Stunde des kapitalistischen Privateigentums schlägt. Die Expropriateurs werden expropriiert.",
+   "traducao_pt": "A centralização dos meios de produção e a socialização do trabalho atingem um ponto em que se tornam incompatíveis com seu invólucro capitalista. Este é rompido. Soa a hora da propriedade privada capitalista. Os expropriadores são expropriados.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-741.html",
+   "verificado_literal": true,
+   "tema": "crises e superação",
+   "leitura_curta": "Passagem que sustenta a leitura \"colapso/superação inevitável\" e a mais contestada (Popper, Kornai). A frase seguinte fala em \"necessidade de um processo natural\", que alimenta a leitura determinista.",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t31-capital1-wakefield-relacao",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 25 \"Die moderne Kolonisationstheorie\"",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Er entdeckte, daß das Kapital nicht eine Sache ist, sondern ein durch Sachen vermitteltes gesellschaftliches Verhältnis zwischen Personen",
+   "traducao_pt": "Ele descobriu que o capital não é uma coisa, mas uma relação social entre pessoas, mediada por coisas.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-792.html",
+   "verificado_literal": true,
+   "tema": "capital como relação",
+   "leitura_curta": "Marx atribui a descoberta a Wakefield; é a frase mais citada para \"capital como relação\". Nas colônias sem trabalhadores livres, dinheiro e máquinas não viram capital.",
+   "nota_de_fonte": "No original, o recorte completo é \"sondern ein durch Sachen vermitteltes gesellschaftliches Verhältnis zwischen Personen\"; número de nota (1090) excluído."
+  },
+  {
+   "id": "t32-capital1-wakefield-artificial",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 25",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "in Kolonien muß diese Abhängigkeit durch künstliche Mittel geschaffen werden",
+   "traducao_pt": "nas colônias essa dependência tem de ser criada por meios artificiais.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-792.html",
+   "verificado_literal": true,
+   "tema": "acumulação primitiva",
+   "leitura_curta": "Evidência textual para as teses 1 e 3: nas colônias, a condição \"trabalhador livre sem terra\" teve de ser fabricada por política (Wakefield). Marx cita Wakefield para mostrar o caráter político do pressuposto.",
+   "nota_de_fonte": "Recorte curto, no meio de frase (\"... vom Kapitalisten, in Kolonien muß ...\"); a dependência em questão é a do trabalhador em relação ao capitalista."
+  },
+  {
+   "id": "t33-lohnarbeit-relacao",
+   "autor": "Karl Marx",
+   "obra": "Lohnarbeit und Kapital",
+   "ano": 1849,
+   "secao": "Seção \"Was ist Kapital?\" / \"Was ist Arbeitslohn?\" (artigos de abril de 1849)",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Ein Neger ist ein Neger. In bestimmten Verhältnissen wird er erst zum Sklaven. Eine Baumwollspinnmaschine ist eine Maschine zum Baumwollspinnen. Nur in bestimmten Verhältnissen wird sie zu Kapital. Aus diesen Verhältnissen herausgerissen, ist sie so wenig Kapital, wie Gold an und für sich Geld oder der Zucker der Zuckerpreis ist.",
+   "traducao_pt": "Um negro é um negro. Só em determinadas relações ele se torna escravo. Uma máquina de fiar algodão é uma máquina de fiar algodão. Só em determinadas relações ela se torna capital. Arrancada dessas relações, ela é tão pouco capital quanto o ouro em si é dinheiro ou o açúcar é o preço do açúcar.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://projekt-gutenberg.org/authors/karl-marx/books/lohnarbeit-und-kapital",
+   "verificado_literal": true,
+   "tema": "capital como relação",
+   "leitura_curta": "Capital como relação social, não objeto técnico. Termo racializado do original, mantido por fidelidade.",
+   "nota_de_fonte": "Projekt Gutenberg-DE pode reproduzir a edição revista por Engels (1891); a passagem em si não foi comparada com o texto de 1849."
+  },
+  {
+   "id": "t34-capital1-wegdekretieren",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Vorwort zur ersten Auflage",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "kann sie naturgemäße Entwicklungsphasen weder überspringen noch wegdekretieren. Aber sie kann die Geburtswehen abkürzen und mildern.",
+   "traducao_pt": "ela não pode nem saltar, nem abolir por decreto as fases naturais de seu desenvolvimento. Mas pode abreviar e atenuar as dores do parto.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-011.html",
+   "verificado_literal": true,
+   "tema": "modo de produção",
+   "leitura_curta": "Texto central contra a ideia de decretar formações econômicas. O sujeito da frase é uma sociedade que descobriu a lei de movimento de seu modo de produção.",
+   "nota_de_fonte": "Recorte começa a meio de frase iniciada por \"Auch wenn eine Gesellschaft dem Naturgesetz ihrer Bewegung auf die Spur gekommen ist\". Página MEW (MEW 23, p. 15-16) de literatura/memória, não conferida."
+  },
+  {
+   "id": "t35-capital1-fabula",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Vorwort zur ersten Auflage",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Das industriell entwickeltere Land zeigt dem minder entwickelten nur das Bild der eignen Zukunft.",
+   "traducao_pt": "O país industrialmente mais desenvolvido mostra ao menos desenvolvido apenas a imagem de seu próprio futuro.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-011.html",
+   "verificado_literal": true,
+   "tema": "universalismo e seus limites",
+   "leitura_curta": "A frase que sustenta a leitura \"teoria universal de estágios\". O contexto é a Alemanha vista pela Inglaterra. Em 1877 e 1881 Marx delimita o alcance (t54-t58).",
+   "nota_de_fonte": "Página MEW (MEW 23, p. 12) de literatura/memória, não conferida."
+  },
+  {
+   "id": "t36-capital1-nachwort-rezepte",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1873,
+   "secao": "Nachwort zur zweiten Auflage",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "ich beschränke mich auf bloß kritische Zergliederung des Gegebnen, statt Rezepte (comtistische?) für die Garküche der Zukunft zu verschreiben.",
+   "traducao_pt": "limito-me à mera análise crítica do que está dado, em vez de prescrever receitas (comtistas?) para a cozinha do futuro.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-018.html",
+   "verificado_literal": true,
+   "tema": "mal-entendido: receita",
+   "leitura_curta": "Resposta à Revue positive de Paris, que o acusava de metafísica e, ao mesmo tempo, de não dar receitas.",
+   "nota_de_fonte": "Página MEW (MEW 23, p. 25) de literatura/memória, não conferida."
+  },
+  {
+   "id": "t37-capital1-postface-fr",
+   "autor": "Karl Marx",
+   "obra": "Le Capital, Livre I (trad. J. Roy, ed. 1872-75)",
+   "ano": 1875,
+   "secao": "Postface à la deuxième édition allemande",
+   "idioma_original": "francês",
+   "idioma_do_trecho": "francês",
+   "trecho_original": "au lieu de formuler des recettes (comtistes?) pour les marmites de l'avenir.",
+   "traducao_pt": "em vez de formular receitas (comtistas?) para as panelas do futuro.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://www.marxists.org/francais/marx/works/1867/Capital-I/kmcapI-post.htm",
+   "verificado_literal": true,
+   "tema": "mal-entendido: receita",
+   "leitura_curta": "Mesma passagem na edição francesa revista por Marx: \"marmites de l'avenir\" no lugar de \"Garküche\".",
+   "nota_de_fonte": "Transcrição na MIA da tradução de J. Roy; a revisão por Marx consta do prefácio da edição, não conferida aqui."
+  },
+  {
+   "id": "t38-capital1-fr-europe-occidentale",
+   "autor": "Karl Marx",
+   "obra": "Le Capital, Livre I (trad. J. Roy, ed. 1872-75)",
+   "ano": 1875,
+   "secao": "Chap. XXVI \"Le secret de l'accumulation primitive\", fim",
+   "idioma_original": "francês",
+   "idioma_do_trecho": "francês",
+   "trecho_original": "Elle ne s'est encore accomplie d'une manière radicale qu'en Angleterre: ce pays jouera donc nécessairement le premier rôle dans notre esquisse. Mais tous les autres pays de l'Europe occidentale parcourent le même mouvement, bien que selon le milieu il change de couleur locale, ou se resserre dans un cercle plus étroit, ou présente un caractère moins fortement prononcé, ou suive un ordre de succession différent",
+   "traducao_pt": "Ela ainda só se realizou de modo radical na Inglaterra; esse país desempenhará, portanto, necessariamente o primeiro papel em nosso esboço. Mas todos os demais países da Europa ocidental percorrem o mesmo movimento, embora, conforme o meio, ele mude de cor local, ou se restrinja a um círculo mais estreito, ou apresente caráter menos fortemente marcado, ou siga uma ordem de sucessão diferente.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://www.marxists.org/francais/marx/works/1867/Capital-I/kmcapI-26.htm",
+   "verificado_literal": true,
+   "tema": "universalismo e seus limites",
+   "leitura_curta": "A edição francesa escreve \"Europe occidentale\" no próprio texto do livro; é a passagem que Marx cita a Zasulich (t56).",
+   "nota_de_fonte": "A frase começa em \"Elle\", sujeito \"l'expropriation des cultivateurs\" da frase anterior."
+  },
+  {
+   "id": "t39-capital1-fr-force-accoucheuse",
+   "autor": "Karl Marx",
+   "obra": "Le Capital, Livre I (trad. J. Roy, ed. 1872-75)",
+   "ano": 1875,
+   "secao": "Chap. XXXI \"Genèse du capitaliste industriel\"",
+   "idioma_original": "francês",
+   "idioma_do_trecho": "francês",
+   "trecho_original": "toutes sans exception exploitent le pouvoir de l'État, la force concentrée et organisée de la société, afin de précipiter violemment le passage de l'ordre économique féodal à l'ordre économique capitaliste et d'abréger les phases de transition. Et, en effet, la force est l'accoucheuse de toute vieille société en travail. La force est un agent économique.",
+   "traducao_pt": "todos, sem exceção, exploram o poder do Estado, a força concentrada e organizada da sociedade, para precipitar violentamente a passagem da ordem econômica feudal à capitalista e abreviar as fases de transição. E, com efeito, a força é a parteira de toda velha sociedade em trabalho de parto. A força é um agente econômico.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://www.marxists.org/francais/marx/works/1867/Capital-I/kmcapI-31.htm",
+   "verificado_literal": true,
+   "tema": "acumulação primitiva",
+   "leitura_curta": "Versão francesa de t26; o cap. XXXI equivale ao §6 do cap. 24 alemão (cap. 31 da edição inglesa).",
+   "nota_de_fonte": "Recorte começa em \"toutes sans exception\"; o início da frase é \"Quelques-unes de ces méthodes reposent sur l'emploi de la force brutale, mais\"."
+  },
+  {
+   "id": "t40-manifest-revolutionieren",
+   "autor": "Karl Marx e Friedrich Engels",
+   "obra": "Manifest der Kommunistischen Partei",
+   "ano": 1848,
+   "secao": "I. Bourgeois und Proletarier",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die Bourgeoisie kann nicht existieren, ohne die Produktionsinstrumente, also die Produktionsverhältnisse, also sämtliche gesellschaftlichen Verhältnisse fortwährend zu revolutionieren.",
+   "traducao_pt": "A burguesia não pode existir sem revolucionar continuamente os instrumentos de produção, portanto as relações de produção, portanto todas as relações sociais.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://www.marxists.org/deutsch/archiv/marx-engels/1848/manifest/1-bourprol.htm",
+   "verificado_literal": true,
+   "tema": "dinamismo capitalista",
+   "leitura_curta": "Dinamismo como traço estrutural, não como política; ponto de maior convergência com Schumpeter.",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t41-manifest-verdampft",
+   "autor": "Karl Marx e Friedrich Engels",
+   "obra": "Manifest der Kommunistischen Partei",
+   "ano": 1848,
+   "secao": "I. Bourgeois und Proletarier",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Alles Ständische und Stehende verdampft, alles Heilige wird entweiht, und die Menschen sind endlich gezwungen, ihre Lebensstellung, ihre gegenseitigen Beziehungen mit nüchternen Augen anzusehen.",
+   "traducao_pt": "Tudo o que é estamental e estável se evapora, tudo o que é sagrado é profanado, e os seres humanos são finalmente obrigados a encarar com olhos sóbrios sua posição na vida e suas relações recíprocas.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://www.marxists.org/deutsch/archiv/marx-engels/1848/manifest/1-bourprol.htm",
+   "verificado_literal": true,
+   "tema": "dinamismo capitalista",
+   "leitura_curta": "Origem da frase \"tudo que é sólido desmancha no ar\", que vem da tradução inglesa de 1888 (\"All that is solid melts into air\"; título de Berman, 1982). O alemão diz \"verdampft\" (evapora) sobre \"o estamental e estável\".",
+   "nota_de_fonte": "Verificado o alemão; a tradução inglesa de 1888 não foi aberta aqui."
+  },
+  {
+   "id": "t42-manifest-produktivkraefte",
+   "autor": "Karl Marx e Friedrich Engels",
+   "obra": "Manifest der Kommunistischen Partei",
+   "ano": 1848,
+   "secao": "I. Bourgeois und Proletarier",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die Bourgeoisie hat in ihrer kaum hundertjährigen Klassenherrschaft massenhaftere und kolossalere Produktionskräfte geschaffen als alle vergangenen Generationen zusammen.",
+   "traducao_pt": "A burguesia, em seu domínio de classe de apenas um século, criou forças produtivas mais maciças e mais colossais do que todas as gerações passadas juntas.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://www.marxists.org/deutsch/archiv/marx-engels/1848/manifest/1-bourprol.htm",
+   "verificado_literal": true,
+   "tema": "dinamismo capitalista",
+   "leitura_curta": "Marx e Engels reconhecem capacidade produtiva sem precedente; a leitura \"Marx condenou o capitalismo como improdutivo\" é falsa.",
+   "nota_de_fonte": "O texto alemão contém marcadores de página da edição MIA no meio da frase seguinte; o recorte termina antes."
+  },
+  {
+   "id": "t43-manifest-eigentum",
+   "autor": "Karl Marx e Friedrich Engels",
+   "obra": "Manifest der Kommunistischen Partei",
+   "ano": 1848,
+   "secao": "II. Proletarier und Kommunisten",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Was den Kommunismus auszeichnet, ist nicht die Abschaffung des Eigentums überhaupt, sondern die Abschaffung des bürgerlichen Eigentums.",
+   "traducao_pt": "O que distingue o comunismo não é a abolição da propriedade em geral, mas a abolição da propriedade burguesa.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://www.marxists.org/deutsch/archiv/marx-engels/1848/manifest/2-prolkomm.htm",
+   "verificado_literal": true,
+   "tema": "mal-entendido: propriedade",
+   "leitura_curta": "Contra o mal-entendido \"Marx quer abolir toda propriedade\". O Manifesto diz, logo adiante, que os comunistas podem resumir sua teoria como \"abolição da propriedade privada\".",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t44-grundrisse-voraussetzungen",
+   "autor": "Karl Marx",
+   "obra": "Ökonomische Manuskripte 1857/58 (Grundrisse), \"Formen, die der kapitalistischen Produktion vorhergehen\"",
+   "ano": 1858,
+   "secao": "Caderno V",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "so ist die Trennung der freien Arbeit von den objektiven Bedingungen ihrer Verwirklichung – von dem Arbeitsmittel und dem Arbeitsmaterial – eine andre Voraussetzung. Also vor allem Loslösung des Arbeiters von der Erde als seinem natürlichen Laboratorium – daher Auflösung des kleinen freien Grundeigentums sowohl wie des gemeinschaftlichen, auf der orientalischen Kommune beruhenden Grundeigentums.",
+   "traducao_pt": "então a separação do trabalho livre das condições objetivas de sua realização, do meio de trabalho e da matéria de trabalho, é outro pressuposto. Portanto, antes de tudo, a desagregação do trabalhador da terra como seu laboratório natural, e com isso a dissolução tanto da pequena propriedade fundiária livre quanto da propriedade fundiária comunal assentada na comuna oriental.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/42/ME42-383.html",
+   "verificado_literal": true,
+   "tema": "pressupostos históricos",
+   "leitura_curta": "Pressupostos históricos do capital: trabalho livre mais separação das condições objetivas. Manuscrito não destinado à publicação (editado em 1939-41).",
+   "nota_de_fonte": "Recorte começa no meio de uma condicional (\"Wenn freie Arbeit ... Voraussetzung der Lohnarbeit ... ist, so ist ...\"). A paginação MEW 42 é a da edição Dietz."
+  },
+  {
+   "id": "t45-grundrisse-nacktheit",
+   "autor": "Karl Marx",
+   "obra": "Ökonomische Manuskripte 1857/58 (Grundrisse), \"Formen, die der kapitalistischen Produktion vorhergehen\"",
+   "ano": 1858,
+   "secao": "Caderno V",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die Setzung des Individuums als eines Arbeiters in dieser Nacktheit ist selbst historisches Produkt.",
+   "traducao_pt": "A posição do indivíduo como trabalhador nessa nudez é ela própria um produto histórico.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/42/ME42-383.html",
+   "verificado_literal": true,
+   "tema": "pressupostos históricos",
+   "leitura_curta": "O \"trabalhador livre\" não é dado natural; é resultado histórico.",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t46-capital3-queda-taxa",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. III (ed. F. Engels, 1894)",
+   "ano": 1894,
+   "secao": "Cap. 13 \"Das Gesetz als solches\"",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die progressive Tendenz der allgemeinen Profitrate zum Sinken ist also nur ein der kapitalistischen Produktionsweise eigentümlicher Ausdruck für die fortschreitende Entwicklung der gesellschaftlichen Produktivkraft der Arbeit.",
+   "traducao_pt": "A tendência progressiva da taxa geral de lucro a cair é, portanto, apenas uma expressão, peculiar ao modo de produção capitalista, do desenvolvimento progressivo da força produtiva social do trabalho.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/25/ME25-221.html",
+   "verificado_literal": true,
+   "tema": "crises e queda da taxa de lucro",
+   "leitura_curta": "Texto da lei tendencial. O livro III foi montado por Engels a partir de manuscritos; a \"lei\" é tendência com causas contrariantes (cap. 14).",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t47-capital3-schranke",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. III (ed. F. Engels, 1894)",
+   "ano": 1894,
+   "secao": "Cap. 15 \"Entfaltung der innern Widersprüche des Gesetzes\", §II",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die wahre Schranke der kapitalistischen Produktion ist das Kapital selbst, ist dies: daß das Kapital und seine Selbstverwertung als Ausgangspunkt und Endpunkt, als Motiv und Zweck der Produktion erscheint; daß die Produktion nur Produktion für das Kapital ist und nicht umgekehrt die Produktionsmittel bloße Mittel für eine stets sich erweiternde Gestaltung des Lebensprozesses für die Gesellschaft der Produzenten sind.",
+   "traducao_pt": "O verdadeiro limite da produção capitalista é o próprio capital: que o capital e sua autovalorização apareçam como ponto de partida e de chegada, como motivo e finalidade da produção; que a produção seja apenas produção para o capital e não, inversamente, os meios de produção meros meios para uma configuração em constante expansão do processo de vida para a sociedade dos produtores.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/25/ME25-251.html",
+   "verificado_literal": true,
+   "tema": "crises e queda da taxa de lucro",
+   "leitura_curta": "Reformula crise como problema de finalidade da produção; aqui Marx não faz previsão de colapso.",
+   "nota_de_fonte": "O recorte contém \"er scheint\" na fonte como \"erscheint\" partido por espaçamento; a normalização foi feita no script de verificação."
+  },
+  {
+   "id": "t48-capital3-krisen",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. III (ed. F. Engels, 1894)",
+   "ano": 1894,
+   "secao": "Cap. 15, §II",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Die Krisen sind immer nur momentane gewaltsame Lösungen der vorhandnen Widersprüche, gewaltsame Eruptionen, die das gestörte Gleichgewicht für den Augenblick wiederherstellen.",
+   "traducao_pt": "As crises são sempre apenas soluções violentas e momentâneas das contradições existentes, erupções violentas que restabelecem por um instante o equilíbrio perturbado.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/25/ME25-251.html",
+   "verificado_literal": true,
+   "tema": "crises e queda da taxa de lucro",
+   "leitura_curta": "Crises como mecanismo de reequilíbrio; compatível com leituras keynesianas e minskyanas de instabilidade endógena.",
+   "nota_de_fonte": ""
+  },
+  {
+   "id": "t49-capital3-antediluvianisch",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. III (ed. F. Engels, 1894)",
+   "ano": 1894,
+   "secao": "Cap. 36 \"Vorkapitalistisches\"",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "zu den antediluvianischen Formen des Kapitals, die der kapitalistischen Produktionsweise lange vorhergehn und sich in den verschiedensten ökonomischen Gesellschaftsformationen vorfinden.",
+   "traducao_pt": "pertence às formas antediluvianas do capital, que precedem de muito o modo de produção capitalista e se encontram nas mais diversas formações econômico-sociais.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/25/ME25-607.html",
+   "verificado_literal": true,
+   "tema": "mercado e capitalismo",
+   "leitura_curta": "Marx separa capital usurário e mercantil (presentes em muitas sociedades) do modo de produção capitalista: a tese 2 em palavras dele.",
+   "nota_de_fonte": "Recorte é o complemento de \"Das Wucherkapital ... gehört mit seinem Zwillingsbruder, dem kaufmännischen Kapital, ...\"."
+  },
+  {
+   "id": "t50-gotha-transicao",
+   "autor": "Karl Marx",
+   "obra": "Kritik des Gothaer Programms (Randglossen)",
+   "ano": 1875,
+   "secao": "Seção IV",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Zwischen der kapitalistischen und der kommunistischen Gesellschaft liegt die Periode der revolutionären Umwandlung der einen in die andre. Der entspricht auch eine politische Übergangsperiode, deren Staat nichts andres sein kann als die revolutionäre Diktatur des Proletariats.",
+   "traducao_pt": "Entre a sociedade capitalista e a comunista situa-se o período da transformação revolucionária de uma na outra. A ele corresponde também um período político de transição, cujo Estado não pode ser outra coisa senão a ditadura revolucionária do proletariado.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/19/ME19-015.html",
+   "verificado_literal": true,
+   "tema": "fases do socialismo",
+   "leitura_curta": "Passagem-chave de \"ditadura do proletariado\" nos textos tardios; o sentido (domínio de classe, forma política da transição) é das maiores controvérsias.",
+   "nota_de_fonte": "Recorte contínuo a partir de \"Zwischen der kapitalistischen ... Umwandlung der einen in die andre. Der entspricht auch eine politische Übergangsperiode, deren Staat nichts andres sein kann als ...\". Página MEW (MEW 19, p. 28) de literatura/memória, não conferida."
+  },
+  {
+   "id": "t51-gotha-muttermale",
+   "autor": "Karl Marx",
+   "obra": "Kritik des Gothaer Programms (Randglossen)",
+   "ano": 1875,
+   "secao": "Seção I",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "sondern umgekehrt, wie sie eben aus der kapitalistischen Gesellschaft hervorgeht, also in jeder Beziehung, ökonomisch, sittlich, geistig, noch behaftet ist mit den Muttermalen der alten Gesellschaft, aus deren Schoß sie herkommt.",
+   "traducao_pt": "mas, ao contrário, tal como acaba de sair da sociedade capitalista, portanto em todos os aspectos, econômico, moral e intelectual, ainda marcada pelos sinais de nascença da velha sociedade de cujo seio provém.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/19/ME19-015.html",
+   "verificado_literal": true,
+   "tema": "fases do socialismo",
+   "leitura_curta": "A fase \"inferior\" retém o direito burguês (retribuição por trabalho). Marx descreve a sociedade \"tal como sai\" do capitalismo, sem receita de instituições.",
+   "nota_de_fonte": "Recorte a meio de frase; o recorte tem \"noch behaftet ist\", com espaçamento alterado por itálico na fonte (normalizado). Página MEW (MEW 19, p. 20) de literatura/memória, não conferida."
+  },
+  {
+   "id": "t52-gotha-beduerfnissen",
+   "autor": "Karl Marx",
+   "obra": "Kritik des Gothaer Programms (Randglossen)",
+   "ano": 1875,
+   "secao": "Seção I",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "erst dann kann der enge bürgerliche Rechtshorizont ganz überschritten werden und die Gesellschaft auf ihre Fahne schreiben: jeder nach seinen Fähigkeiten, jedem nach seinen Bedürfnissen!",
+   "traducao_pt": "só então o estreito horizonte do direito burguês pode ser totalmente ultrapassado e a sociedade pode escrever em sua bandeira: de cada um segundo suas capacidades, a cada um segundo suas necessidades!",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/19/ME19-015.html",
+   "verificado_literal": true,
+   "tema": "fases do socialismo",
+   "leitura_curta": "A \"fase superior\" é condicionada ao desenvolvimento das forças produtivas e à superação da divisão do trabalho; não é programa de curto prazo.",
+   "nota_de_fonte": "Recorte contínuo; omite a série de condições antes de \"erst dann\" (ver a fonte). Página MEW (MEW 19, p. 21) de literatura/memória, não conferida."
+  },
+  {
+   "id": "t53-gotha-staatsanleihe",
+   "autor": "Karl Marx",
+   "obra": "Kritik des Gothaer Programms (Randglossen)",
+   "ano": 1875,
+   "secao": "Seção I (crítica às cooperativas com ajuda do Estado)",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Es ist dies würdig der Einbildung Lassalles, daß man mit Staatsanlehn ebensogut eine neue Gesellschaft bauen kann wie eine neue Eisenbahn!",
+   "traducao_pt": "Isto é digno da imaginação de Lassalle: crer que com empréstimos do Estado se pode construir uma nova sociedade tão bem como uma nova ferrovia!",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/19/ME19-015.html",
+   "verificado_literal": true,
+   "tema": "mal-entendido: planejamento",
+   "leitura_curta": "Marx ironiza a ideia de construir uma sociedade nova por financiamento estatal; bom texto contra a leitura \"Marx = Estado construtor\".",
+   "nota_de_fonte": "Página MEW não conferida."
+  },
+  {
+   "id": "t54-otechestvennye-skizze",
+   "autor": "Karl Marx",
+   "obra": "Carta à redação da Otechestvennye Zapiski (rascunho não enviado, nov. 1877)",
+   "ano": 1877,
+   "secao": "Texto em MEW 19, p. 107-112 (versão alemã de manuscrito francês)",
+   "idioma_original": "francês (manuscrito)",
+   "idioma_do_trecho": "alemão (tradução editorial, MEW 19)",
+   "trecho_original": "Er muß durchaus meine historische Skizze von der Entstehung des Kapitalismus in Westeuropa in eine geschichtsphilosophische Theorie des allgemeinen Entwicklungsganges verwandeln, der allen Völkern schicksalsmäßig vorgeschrieben ist, was immer die geschichtlichen Umstände sein mögen, in denen sie sich befinden",
+   "traducao_pt": "Ele precisa, a todo custo, transformar meu esboço histórico da gênese do capitalismo na Europa Ocidental em uma teoria filosófico-histórica do curso geral do desenvolvimento, fatalmente prescrito a todos os povos, quaisquer que sejam as circunstâncias históricas em que se encontrem",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/19/ME19-107.html",
+   "verificado_literal": true,
+   "tema": "universalismo e seus limites",
+   "leitura_curta": "A carta foi escrita em francês e não enviada (Engels a encontrou após a morte de Marx). A versão lida é a alemã de MEW 19; o manuscrito francês não foi lido aqui.",
+   "nota_de_fonte": "Original francês não conferido; verificado_literal refere-se ao texto alemão do URL, que é tradução editorial."
+  },
+  {
+   "id": "t55-otechestvennye-passepartout",
+   "autor": "Karl Marx",
+   "obra": "Carta à redação da Otechestvennye Zapiski (rascunho não enviado, nov. 1877)",
+   "ano": 1877,
+   "secao": "Texto em MEW 19, p. 107-112, fim",
+   "idioma_original": "francês (manuscrito)",
+   "idioma_do_trecho": "alemão (tradução editorial, MEW 19)",
+   "trecho_original": "aber man wird niemals dahin gelangen mit dem Universalschlüssel einer allgemeinen geschichtsphilosophischen Theorie, deren größter Vorzug darin besteht, übergeschichtlich zu sein.",
+   "traducao_pt": "mas nunca se chegará lá com a chave universal de uma teoria filosófico-histórica geral, cuja maior virtude consiste em ser supra-histórica.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/19/ME19-107.html",
+   "verificado_literal": true,
+   "tema": "universalismo e seus limites",
+   "leitura_curta": "Resultados diferentes nascem de circunstâncias diferentes; compará-los não substitui estudá-los. Marx rejeita a chave universal que lhe atribuem.",
+   "nota_de_fonte": "O original francês diz \"passe-partout\"; não conferido."
+  },
+  {
+   "id": "t56-zasulich-resposta",
+   "autor": "Karl Marx",
+   "obra": "Carta a Vera Zasulich (resposta enviada, 8 mar. 1881)",
+   "ano": 1881,
+   "secao": "Resposta, 1º parágrafo do corpo do texto",
+   "idioma_original": "francês",
+   "idioma_do_trecho": "francês",
+   "trecho_original": "La «fatalité historique» de ce mouvement est donc expressément restreinte aux pays de l’Europe occidentale.",
+   "traducao_pt": "A \"fatalidade histórica\" desse movimento fica, portanto, expressamente restrita aos países da Europa ocidental.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://www.marxists.org/francais/marx/works/1881/03/km18810308.htm",
+   "verificado_literal": true,
+   "tema": "universalismo e seus limites",
+   "leitura_curta": "Texto da resposta enviada. Marx remete à edição francesa de O Capital para a gênese do capitalismo e limita explicitamente o escopo.",
+   "nota_de_fonte": "Fonte: transcrição da MIA (Rubel, Pléiade; fac-símile da carta consta da página)."
+  },
+  {
+   "id": "t57-zasulich-comuna",
+   "autor": "Karl Marx",
+   "obra": "Carta a Vera Zasulich (resposta enviada, 8 mar. 1881)",
+   "ano": 1881,
+   "secao": "Resposta, fim do corpo do texto",
+   "idioma_original": "francês",
+   "idioma_do_trecho": "francês",
+   "trecho_original": "L’analyse donnée dans le «Capital» n’offre donc de raisons ni pour ni contre la vitalité de la commune rurale, mais l’étude spéciale que j’en ai faite, et dont j’ai cherché les matériaux dans les sources originales, m’a convaincu que cette commune est le point d’appui de la régénération sociale en Russie; mais afin qu’elle puisse fonctionner comme tel, il faudrait d’abord éliminer les influences délétères qui l’assaillent de tous les côtés et ensuite lui assurer les conditions normales d’un développement spontané.",
+   "traducao_pt": "A análise dada em O Capital não oferece, portanto, razões nem a favor nem contra a vitalidade da comuna rural; mas o estudo especial que dela fiz, cujos materiais busquei nas fontes originais, convenceu-me de que essa comuna é o ponto de apoio da regeneração social na Rússia; para que ela possa funcionar como tal, seria preciso primeiro eliminar as influências deletérias que a assaltam de todos os lados e depois assegurar-lhe as condições normais de um desenvolvimento espontâneo.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://www.marxists.org/francais/marx/works/1881/03/km18810308.htm",
+   "verificado_literal": true,
+   "tema": "universalismo e seus limites",
+   "leitura_curta": "Marx afirma que O Capital não decide sobre a comuna russa; sua conclusão é resultado de estudo especial, em forma de condição, não de programa.",
+   "nota_de_fonte": "Recorte contínuo."
+  },
+  {
+   "id": "t58-zasulich-rascunho",
+   "autor": "Karl Marx",
+   "obra": "Projeto de resposta a Vera Zasulich (rascunho 1, fev.-mar. 1881)",
+   "ano": 1881,
+   "secao": "Rascunho 1 (publicado em francês, Arquivo Marx-Engels, 1924)",
+   "idioma_original": "francês",
+   "idioma_do_trecho": "francês",
+   "trecho_original": "J’ai donc expressément restreint la «fatalité historique» de ce mouvement aux pays de l’Europe occidentale",
+   "traducao_pt": "Restringi, portanto, expressamente a \"fatalidade histórica\" desse movimento aos países da Europa ocidental",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://www.marxists.org/francais/marx/works/1881/03/km18810300.htm",
+   "verificado_literal": true,
+   "tema": "universalismo e seus limites",
+   "leitura_curta": "Rascunho: a redação enviada é mais curta. Marx pergunta em seguida \"Et pourquoi ?\" e remete ao capítulo XXXII da edição francesa.",
+   "nota_de_fonte": "Rascunho não enviado; usar sempre junto com a resposta enviada (t56)."
+  },
+  {
+   "id": "t59-engels-schmidt",
+   "autor": "Friedrich Engels",
+   "obra": "Carta de Engels a Conrad Schmidt (5 ago. 1890)",
+   "ano": 1890,
+   "secao": "Carta de 5 de agosto de 1890",
+   "idioma_original": "alemão (carta); frase de Marx em francês",
+   "idioma_do_trecho": "inglês (tradução MIA)",
+   "trecho_original": "Just as Marx used to say, commenting on the French \"Marxists\" of the late [18]70s: \"All I know is that I am not a Marxist.\"",
+   "traducao_pt": "Como Marx costumava dizer, comentando os \"marxistas\" franceses do fim dos anos 1870: \"Tudo o que sei é que eu não sou marxista.\"",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://www.marxists.org/archive/marx/works/1890/letters/90_08_05.htm",
+   "verificado_literal": true,
+   "tema": "mal-entendido: marxismo",
+   "leitura_curta": "Relato de Engels sobre uma frase de Marx (em francês: \"ce qu'il y a de certain c'est que moi je ne suis pas marxiste\"), não texto de Marx. Dita contra os \"marxistas\" franceses. O alemão de Engels não foi lido.",
+   "nota_de_fonte": "Tradução inglesa na MIA; original alemão não conferido. Existe versão em carta de Engels a Bernstein (2-3 nov. 1882), não conferida."
+  },
+  {
+   "id": "t60-engels-bloch",
+   "autor": "Friedrich Engels",
+   "obra": "Carta de Engels a Joseph Bloch (21-22 set. 1890)",
+   "ano": 1890,
+   "secao": "Carta de 21 de setembro de 1890",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "inglês (tradução MIA)",
+   "trecho_original": "According to the materialist conception of history, the ultimately determining element in history is the production and reproduction of real life. Other than this neither Marx nor I have ever asserted. Hence if somebody twists this into saying that the economic element is the only determining one, he transforms that proposition into a meaningless, abstract, senseless phrase.",
+   "traducao_pt": "Segundo a concepção materialista da história, o elemento determinante em última instância na história é a produção e a reprodução da vida real. Marx nem eu jamais afirmamos mais que isso. Se alguém distorce isso dizendo que o elemento econômico é o único determinante, transforma aquela proposição numa frase sem sentido, abstrata e absurda.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://www.marxists.org/archive/marx/works/1890/letters/90_09_21.htm",
+   "verificado_literal": true,
+   "tema": "mal-entendido: determinismo",
+   "leitura_curta": "Engels, após a morte de Marx, corrige a leitura economicista. É texto de Engels; se Marx o subscreveria é interpretação.",
+   "nota_de_fonte": "Tradução inglesa na MIA; original alemão não conferido."
+  },
+  {
+   "id": "t61-antiduehring-gesamtkapitalist",
+   "autor": "Friedrich Engels",
+   "obra": "Herrn Eugen Dührings Umwälzung der Wissenschaft (Anti-Dühring)",
+   "ano": 1878,
+   "secao": "III. Abschnitt \"Sozialismus\", cap. 2 \"Theoretisches\"",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Der moderne Staat, was auch seine Form, ist eine wesentlich kapitalistische Maschine, Staat der Kapitalisten, der Ideelle Gesamtkapitalist. Je mehr Produktivkräfte er in sein Eigentum übernimmt, desto mehr wird er wirklicher Gesamtkapitalist, desto mehr Staatsbürger beutet er aus. Die Arbeiter bleiben Lohnarbeiter, Proletarier. Das Kapitalverhältnis wird nicht aufgehoben, es wird vielmehr auf die Spitze getrieben.",
+   "traducao_pt": "O Estado moderno, qualquer que seja sua forma, é uma máquina essencialmente capitalista, o Estado dos capitalistas, o capitalista coletivo ideal. Quanto mais forças produtivas ele toma em sua propriedade, mais se torna capitalista coletivo real, mais cidadãos ele explora. Os trabalhadores continuam assalariados, proletários. A relação de capital não é abolida, é antes levada ao extremo.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/20/ME20-239.html",
+   "verificado_literal": true,
+   "tema": "mal-entendido: capitalismo de Estado",
+   "leitura_curta": "Engels: estatização não é socialização. O texto não equipara \"estatal\" a \"socialista\".",
+   "nota_de_fonte": "Texto de Engels (Marx leu o manuscrito e escreveu o cap. X da seção II)."
+  },
+  {
+   "id": "t62-antiduehring-verwaltung",
+   "autor": "Friedrich Engels",
+   "obra": "Herrn Eugen Dührings Umwälzung der Wissenschaft (Anti-Dühring)",
+   "ano": 1878,
+   "secao": "III. Abschnitt \"Sozialismus\", cap. 2",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "An die Stelle der Regierung über Personen tritt die Verwaltung von Sachen und die Leitung von Produktionsprozessen. Der Staat wird nicht»abgeschafft«, er stirbt ab",
+   "traducao_pt": "No lugar do governo sobre pessoas entra a administração de coisas e a direção de processos de produção. O Estado não é \"abolido\", ele definha.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/20/ME20-239.html",
+   "verificado_literal": true,
+   "tema": "mal-entendido: planejamento",
+   "leitura_curta": "Engels (não Marx) sobre o \"definhamento\" do Estado; a prática dos regimes que se disseram marxistas foi o contrário.",
+   "nota_de_fonte": "A frase continua com \"Hieran ist die Phrase vom »freien Volksstaat« zu messen\"."
+  },
+  {
+   "id": "t63-keynes-general-theory",
+   "autor": "John Maynard Keynes",
+   "obra": "The General Theory of Employment, Interest and Money",
+   "ano": 1936,
+   "secao": "Cap. 24 \"Concluding Notes on the Social Philosophy...\", seção I",
+   "idioma_original": "inglês",
+   "idioma_do_trecho": "inglês",
+   "trecho_original": "The outstanding faults of the economic society in which we live are its failure to provide for full employment and its arbitrary and inequitable distribution of wealth and incomes.",
+   "traducao_pt": "As falhas mais marcantes da sociedade econômica em que vivemos são a sua incapacidade de assegurar pleno emprego e a sua distribuição arbitrária e iníqua da riqueza e das rendas.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://gutenberg.net.au/ebooks03/0300071h/printall.html",
+   "verificado_literal": true,
+   "tema": "instabilidade e estabilizadores",
+   "leitura_curta": "Não é texto de Marx; entra como contraponto da tese 6: instabilidade e desigualdade como falhas a corrigir por desenho institucional, sem abolir o sistema. Keynes morreu em 1946 (domínio público em muitos países, não nos EUA).",
+   "nota_de_fonte": "Texto de Project Gutenberg Australia."
+  },
+  {
+   "id": "t64-capital1-preise-regulieren",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 1, §4 (seção do fetichismo), parágrafo que começa \"Der Fetischcharakter ... Es bedarf vollständig entwickelter Warenproduktion\"",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Es bedarf vollständig entwickelter Warenproduktion, bevor aus der Erfahrung selbst die wissenschaftliche Einsicht herauswächst, daß die unabhängig voneinander betriebenen, aber als naturwüchsige Glieder der gesellschaftlichen Teilung der Arbeit allseitig voneinander abhängigen Privatarbeiten fortwährend auf ihr gesellschaftlich proportionelles Maß reduziert werden, weil sich in den zufälligen und stets schwankenden Austauschverhältnissen ihrer Produkte die zu deren Produktion gesellschaftlich notwendige Arbeitszeit als regelndes Naturgesetz gewaltsam durchsetzt, wie etwa das Gesetz der Schwere, wenn einem das Haus über dem Kopf zusammenpurzelt",
+   "traducao_pt": "É preciso uma produção de mercadorias plenamente desenvolvida antes que da própria experiência brote a compreensão científica de que os trabalhos privados, exercidos independentemente uns dos outros, mas, como elos naturalmente surgidos da divisão social do trabalho, dependentes uns dos outros em todos os sentidos, são continuamente reduzidos à sua medida social proporcional, porque nas relações de troca casuais e sempre oscilantes de seus produtos o tempo de trabalho socialmente necessário para produzi-los se impõe violentamente como lei natural reguladora, como a lei da gravidade quando a casa desaba sobre a cabeça de alguém.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-049.html",
+   "verificado_literal": true,
+   "tema": "valor e coordenação",
+   "leitura_curta": "Marx descreve a coordenação por preços e trocas como mecanismo real de ajuste (convergência parcial com Hayek: ordem que ninguém projetou); a diferença está no que ele conclui, a saber que esse ajuste é cego, violento e opaco aos produtores.",
+   "nota_de_fonte": "Recorte contínuo; o número de nota (36) vem logo depois e foi excluído. A frase é longa no original."
+  },
+  {
+   "id": "t65-capital1-anarchie",
+   "autor": "Karl Marx",
+   "obra": "Das Kapital, Bd. I",
+   "ano": 1867,
+   "secao": "Cap. 12 \"Teilung der Arbeit und Manufaktur\", §4",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Wenn die Anarchie der gesellschaftlichen und die Despotie der manufakturmäßigen Arbeitsteilung einander in der Gesellschaft der kapitalistischen Produktionsweise bedingen, bieten dagegen frühere Gesellschaftsformen, worin die Besonderung der Gewerbe sich naturwüchsig entwickelt, dann kristallisiert und endlich gesetzlich befestigt hat, einerseits das Bild einer plan- und autoritätsmäßigen Organisation der gesellschaftlichen Arbeit",
+   "traducao_pt": "Se a anarquia da divisão social do trabalho e o despotismo da divisão manufatureira do trabalho se condicionam mutuamente na sociedade do modo de produção capitalista, formas sociais anteriores, nas quais a especialização dos ofícios se desenvolveu de modo natural, depois se cristalizou e por fim foi fixada em lei, oferecem, por outro lado, a imagem de uma organização planejada e autoritária do trabalho social",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/23/ME23-356.html",
+   "verificado_literal": true,
+   "tema": "valor e coordenação",
+   "leitura_curta": "Marx opõe a \"anarquia\" da coordenação por mercado capitalista à organização planejada de sociedades anteriores (comunidades indianas); não propõe copiar essas formas. Texto relevante para Hayek vs Marx e para a tese 2.",
+   "nota_de_fonte": "Frase longa, truncada antes de \"während sie anderseits ...\"; no original, número de nota (459) segue mais adiante."
+  },
+  {
+   "id": "t66-vorwort-1882-russisch",
+   "autor": "Karl Marx e Friedrich Engels",
+   "obra": "Vorwort zur zweiten russischen Ausgabe des Manifests der Kommunistischen Partei",
+   "ano": 1882,
+   "secao": "Prefácio de 21 jan. 1882, parágrafo final",
+   "idioma_original": "alemão",
+   "idioma_do_trecho": "alemão",
+   "trecho_original": "Wird die russische Revolution das Signal einer proletarischen Revolution im Westen, so daß beide einander ergänzen, so kann das jetzige russische Gemeineigentum am Boden zum Ausgangspunkt einer kommunistischen Entwicklung dienen.",
+   "traducao_pt": "Se a revolução russa se tornar o sinal de uma revolução proletária no Ocidente, de modo que ambas se complementem, a atual propriedade comum russa da terra pode servir de ponto de partida de um desenvolvimento comunista.",
+   "fonte_da_traducao": "tradução do agente",
+   "url": "https://read.19491007.xyz/docs/mew-zeno/19/ME19-295.html",
+   "verificado_literal": true,
+   "tema": "universalismo e seus limites",
+   "leitura_curta": "Texto assinado por Marx e Engels. Condiciona a via russa a uma revolução no Ocidente; usado por quem lê o Marx tardio como abertura (Shanin) e por quem lê continuidade (condição ocidental).",
+   "nota_de_fonte": "O alemão é o de MEW 19; o texto original do prefácio foi redigido em alemão e publicado em russo (a conferir)."
+  }
+ ],
+ "definicoes": [
+  {
+   "termo": "Capitalismo",
+   "definicao_marxiana": "Marx quase não usa o substantivo \"Kapitalismus\" nos trechos de O Capital lidos nesta pesquisa (contagem zero nos capítulos conferidos); usa \"kapitalistische Produktionsweise\" (modo de produção capitalista) e \"Kapitalverhältnis\" (relação de capital). O modo de produção capitalista é uma relação social em que (1) os meios de produção são monopolizados por uma classe, (2) os produtores são \"livres\" e sem meios próprios, vendem força de trabalho, (3) a produção visa a valorização do valor (D-M-D') e a acumulação é compulsória pela concorrência.",
+   "uso_corrente": "Economia de mercado com propriedade privada, empresas, preços livres e comércio, em graus variáveis; em debates políticos, quase sinônimo de \"liberalismo econômico\" ou \"economia de mercado\".",
+   "confusoes": "Trata-se de dois conceitos diferentes com o mesmo nome. A discussão \"capitalismo é implementável?\" muda de resposta conforme o conceito adotado (ver contra-argumento C8, disputa verbal).",
+   "textos": [
+    "t05-capital1-warensammlung",
+    "t23-capital1-scheidung",
+    "t24-capital1-kapitalverhaeltnis",
+    "t11-capital1-gwg"
+   ]
+  },
+  {
+   "termo": "Modo de produção",
+   "definicao_marxiana": "Unidade de forças produtivas (técnica, trabalho, conhecimento) e relações de produção (quem controla os meios e como o excedente é extraído). A \"estrutura econômica\" é o conjunto das relações de produção; sobre ela se ergue um \"Überbau\" jurídico e político.",
+   "uso_corrente": "Às vezes usado como \"sistema econômico\" ou \"tipo de economia\" (feudal, capitalista, socialista).",
+   "confusoes": "Não é \"sistema de políticas\". Também não é um tipo ideal estático: Marx o trata como forma histórica com origem e (segundo ele) superação.",
+   "textos": [
+    "t01-prefacio-1859-base",
+    "t02-prefacio-1859-grilhoes",
+    "t03-prefacio-1859-condicoes"
+   ]
+  },
+  {
+   "termo": "Mercadoria, valor e trabalho abstrato",
+   "definicao_marxiana": "Mercadoria: produto do trabalho feito para troca, com valor de uso e valor. Valor: trabalho humano abstrato socialmente necessário, que só aparece como valor de troca. Trabalho abstrato: dispêndio de força humana de trabalho \"sem consideração pela forma\" (concreta) do dispêndio.",
+   "uso_corrente": "\"Valor\" em economia convencional é, em geral, utilidade marginal ou preço relativo.",
+   "confusoes": "Marx não diz que preços são proporcionais ao trabalho incorporado; no livro III trata dos \"preços de produção\". A teoria do valor-trabalho é contestada (ver C3); o texto não implica que bens sem trabalho humano tenham valor zero.",
+   "textos": [
+    "t05-capital1-warensammlung",
+    "t06-capital1-trabalho-abstrato"
+   ]
+  },
+  {
+   "termo": "Fetichismo da mercadoria",
+   "definicao_marxiana": "Aparência necessária, em sociedades de produtores privados que se relacionam por troca, de que as relações sociais entre pessoas são propriedades de coisas (preços, dinheiro, capital).",
+   "uso_corrente": "Em linguagem comum, \"fetiche\" é apego irracional a objetos de consumo.",
+   "confusoes": "Não é \"consumismo\" nem ilusão que se desfaz com informação; Marx diz que a aparência é objetiva (\"Fetischismus, der den Arbeitsprodukten anklebt, sobald sie als Waren produziert werden\").",
+   "textos": [
+    "t07-capital1-fetiche-1",
+    "t08-capital1-fetiche-2"
+   ]
+  },
+  {
+   "termo": "Dinheiro e capital (M-D-M vs D-M-D')",
+   "definicao_marxiana": "M-D-M: vender para comprar (o fim é o consumo, valor de uso). D-M-D': comprar para vender mais caro (o fim é o valor que se valoriza, sem limite interno). O comércio e o dinheiro são pressupostos históricos do capital, não o capital.",
+   "uso_corrente": "\"Capital\" é muitas vezes qualquer riqueza, máquinas ou dinheiro aplicado.",
+   "confusoes": "Marx distingue capital mercantil e usurário (\"antediluvianos\") do capital que organiza a produção.",
+   "textos": [
+    "t10-capital1-circulacao-pressuposto",
+    "t11-capital1-gwg",
+    "t12-capital1-mais-valia",
+    "t49-capital3-antediluvianisch"
+   ]
+  },
+  {
+   "termo": "Mais-valia e exploração",
+   "definicao_marxiana": "Mais-valia: excedente de valor sobre o valor adiantado, obtido porque a força de trabalho, comprada por seu valor, produz mais valor durante a jornada. Exploração, em Marx, é descrição estrutural dessa apropriação, não necessariamente trapaça na troca.",
+   "uso_corrente": "\"Exploração\" é usada com sentido moral (condições abusivas); \"mais-valia\" é usada, às vezes, como sinônimo de lucro.",
+   "confusoes": "Lucro, juro e renda são partes da mais-valia total na teoria; a medição empírica é difícil (ver C3).",
+   "textos": [
+    "t12-capital1-mais-valia",
+    "t13-capital1-eden",
+    "t14-capital1-vampiro"
+   ]
+  },
+  {
+   "termo": "Acumulação primitiva (ursprüngliche Akkumulation)",
+   "definicao_marxiana": "O \"processo histórico de separação entre produtor e meios de produção\" que cria os dois polos da relação de capital: proprietários de dinheiro/meios e trabalhadores \"livres\" sem meios. Inclui cercamentos, expropriação do campesinato, sangrenta legislação, dívida pública, sistema colonial, tráfico, proteção.",
+   "uso_corrente": "Às vezes lida como \"poupança inicial\" (a leitura criticada por Marx, \"Sündenfall\") ou como sinônimo de qualquer espoliação (Luxemburg, Harvey, \"acumulação por espoliação\").",
+   "confusoes": "Marx a chama \"primitiva\" (ursprünglich) por ser \"pré-história\" do capital; a extensão a processos contemporâneos é posterior (Luxemburg 1913, Harvey 2003) e não está nos trechos aqui lidos.",
+   "textos": [
+    "t21-capital1-sundenfall",
+    "t22-capital1-idylle",
+    "t23-capital1-scheidung",
+    "t25-capital1-ouro-escravidao",
+    "t26-capital1-staatsgewalt",
+    "t29-capital1-bills-inclosures"
+   ]
+  },
+  {
+   "termo": "Lei geral da acumulação capitalista / exército industrial de reserva",
+   "definicao_marxiana": "A acumulação, ao elevar a composição orgânica do capital, tende a produzir superpopulação relativa, que serve de reserva e disciplina o salário. Marx afirma \"acumulação de riqueza num polo, acumulação de miséria no outro\".",
+   "uso_corrente": "\"Desemprego estrutural\" ou \"informalidade\" são termos correntes próximos.",
+   "confusoes": "O texto não diz que salários reais caem continuamente; fala de um mecanismo de regulação do salário e de polos de acumulação. A leitura \"empobrecimento absoluto\" é interpretação disputada (C4).",
+   "textos": [
+    "t18-capital1-reserva",
+    "t19-capital1-reserva-salario",
+    "t20-capital1-polos"
+   ]
+  },
+  {
+   "termo": "Queda tendencial da taxa de lucro e crises",
+   "definicao_marxiana": "Com o aumento da composição orgânica do capital, a taxa de lucro tende a cair, com causas contrariantes; a crise é solução violenta e momentânea das contradições. O \"verdadeiro limite\" é o próprio capital como finalidade da produção.",
+   "uso_corrente": "Crises: ciclos econômicos, choques, bolhas; \"queda da taxa de lucro\" é tema heterodoxo.",
+   "confusoes": "O livro III foi editado por Engels; a lei é tendencial. Muitos marxistas (Okishio 1961, a conferir) contestam a lógica da lei; não verificado aqui.",
+   "textos": [
+    "t46-capital3-queda-taxa",
+    "t47-capital3-schranke",
+    "t48-capital3-krisen"
+   ]
+  },
+  {
+   "termo": "Propriedade privada burguesa",
+   "definicao_marxiana": "Propriedade privada que permite apropriar o trabalho alheio (capital), diferente da propriedade fundada no trabalho próprio. O Manifesto distingue \"abolição da propriedade em geral\" (que os comunistas não propõem) e \"abolição da propriedade burguesa\".",
+   "uso_corrente": "Propriedade privada: direito de uso, exclusão e transmissão de bens (casa, terra, empresa).",
+   "confusoes": "\"Marx queria abolir a propriedade\" confunde as duas; também o Manifesto diz, adiante, que a teoria se resume em \"abolição da propriedade privada\".",
+   "textos": [
+    "t43-manifest-eigentum",
+    "t30-capital1-expropriateure"
+   ]
+  },
+  {
+   "termo": "Capital como relação social",
+   "definicao_marxiana": "O capital não é coisa, mas uma relação social entre pessoas mediada por coisas; uma máquina só é capital em determinadas relações.",
+   "uso_corrente": "Capital físico, financeiro ou humano (estoques de recursos).",
+   "confusoes": "A tese \"capital é relação\" não nega que máquinas existam; nega que máquina ou dinheiro, por si, bastem para produzir capitalismo.",
+   "textos": [
+    "t31-capital1-wakefield-relacao",
+    "t33-lohnarbeit-relacao",
+    "t44-grundrisse-voraussetzungen"
+   ]
+  },
+  {
+   "termo": "Economia de mercado",
+   "definicao_marxiana": "Marx não usa a expressão. Ele fala de circulação de mercadorias, \"Warenproduktion\" e \"Warenzirkulation\", que existem em formações pré-capitalistas, com capital mercantil e usurário.",
+   "uso_corrente": "Sistema em que preços coordenam produção e consumo por troca voluntária.",
+   "confusoes": "Braudel separa \"economia de mercado\" de \"capitalismo\"; Weber define capitalismo pelo empreendimento racional contínuo. Mercado sem capitalismo (e capitalismo sem mercado perfeito) existe nas tipologias.",
+   "textos": [
+    "t10-capital1-circulacao-pressuposto",
+    "t49-capital3-antediluvianisch",
+    "t64-capital1-preise-regulieren"
+   ]
+  },
+  {
+   "termo": "Socialismo e comunismo (fases)",
+   "definicao_marxiana": "Marx descreve, na Crítica do Programa de Gotha, um período de transformação revolucionária, uma fase \"inferior\" (ainda com direito burguês) e uma fase \"superior\" (\"de cada um segundo suas capacidades, a cada um segundo suas necessidades\"). Não detalha instituições.",
+   "uso_corrente": "\"Socialismo\" ao longo do século XX: economias de planejamento central (URSS), Estado de bem-estar (social-democracia), ou propriedade social.",
+   "confusoes": "Os regimes que se chamaram socialistas não são, por definição, a fase descrita por Marx; o que eles eram é matéria de controvérsia (socialismo real, capitalismo de Estado, \"modo de produção burocrático\").",
+   "textos": [
+    "t50-gotha-transicao",
+    "t51-gotha-muttermale",
+    "t52-gotha-beduerfnissen"
+   ]
+  },
+  {
+   "termo": "Laissez-faire, liberalismo e neoliberalismo",
+   "definicao_marxiana": "Marx critica a economia política liberal clássica (Smith, Ricardo) e a \"vulgar\"; não conhece o termo \"neoliberalismo\" (cunhado no século XX, pós-1938, a conferir).",
+   "uso_corrente": "Laissez-faire: política de não intervenção; liberalismo: doutrina política e econômica da liberdade individual; neoliberalismo: família de ideias e políticas (Mont Pèlerin, Escola de Chicago, \"Consenso de Washington\") com usos acadêmicos e polêmicos.",
+   "confusoes": "Polanyi mostra que o laissez-faire exigiu intervenção ativa do Estado; \"mercado livre\" nunca foi sinônimo de \"Estado ausente\".",
+   "textos": [
+    "t16-capital1-fabrikgesetz",
+    "t15-capital1-normalarbeitstag",
+    "t26-capital1-staatsgewalt"
+   ]
+  },
+  {
+   "termo": "Capitalismo de Estado, capitalismo de compadrio, mercantilismo",
+   "definicao_marxiana": "Engels (Anti-Dühring): a estatização não suprime a relação de capital; o Estado como \"capitalista coletivo ideal\". Mercantilismo: sistema de proteção, colônias e dívida pública que Marx lista entre os métodos da acumulação primitiva. \"Compadrio\" (crony capitalism) é conceito do debate contemporâneo, não de Marx.",
+   "uso_corrente": "Capitalismo de Estado: economia com forte propriedade/controle estatal em contexto de mercado (China, Singapura, etc., por exemplo). Compadrio: lucros dependentes de conexões políticas (Lazzarini: \"capitalismo de laços\"). Mercantilismo: política econômica dos séculos XVI-XVIII.",
+   "confusoes": "Rótulos de classificação disputados; \"isto não é capitalismo de verdade\" é um movimento retórico comum à esquerda e à direita (ver mal-entendido M10).",
+   "textos": [
+    "t61-antiduehring-gesamtkapitalist",
+    "t26-capital1-staatsgewalt"
+   ]
+  }
+ ],
+ "teses": [
+  {
+   "id": "tese-01-formacao-historica",
+   "titulo": "Capitalismo é formação histórica emergente, não pacote de políticas decretável",
+   "enunciado": "Para Marx, \"capitalismo\" (modo de produção capitalista) é uma relação social entre classes, reproduzida continuamente, cuja constituição exigiu um processo histórico de separação entre produtores e meios de produção (acumulação primitiva). Por isso não faz sentido dizer que um governo \"implementa\" ou \"adota\" o capitalismo por decreto, no sentido forte do termo: ele pode criar condições, nunca a relação inteira.",
+   "premissas": [
+    "Modo de produção = relações de produção + forças produtivas, não políticas (t01).",
+    "O capital pressupõe trabalhadores livres e sem meios de produção (t23, t24, t44, t45).",
+    "Essa separação foi produzida historicamente, com violência e leis (t22, t25, t26, t29).",
+    "Uma sociedade não pode \"saltar nem abolir por decreto\" fases do seu desenvolvimento (t34)."
+   ],
+   "textos_de_apoio": [
+    "t01-prefacio-1859-base",
+    "t21-capital1-sundenfall",
+    "t22-capital1-idylle",
+    "t23-capital1-scheidung",
+    "t24-capital1-kapitalverhaeltnis",
+    "t25-capital1-ouro-escravidao",
+    "t26-capital1-staatsgewalt",
+    "t27-capital1-sangue",
+    "t29-capital1-bills-inclosures",
+    "t31-capital1-wakefield-relacao",
+    "t32-capital1-wakefield-artificial",
+    "t34-capital1-wegdekretieren",
+    "t44-grundrisse-voraussetzungen",
+    "t45-grundrisse-nacktheit"
+   ],
+   "autores": [
+    "Karl Marx",
+    "Karl Polanyi",
+    "Robert Brenner",
+    "Ellen Meiksins Wood"
+   ],
+   "leituras_rivais": [
+    "Leitura \"estágios\": a sequência feudalismo-capitalismo-socialismo vale universalmente (Prefácio de 1859, lido deterministicamente; Stalin, manual de 1938, a conferir).",
+    "Leitura comercialista (Smith, Pirenne, Wallerstein em parte): o capitalismo é a expansão natural do comércio, sem ruptura qualitativa.",
+    "Leitura institucionalista (North, Acemoglu e Robinson): o capitalismo pode ser \"implementado\" por boas instituições (direitos de propriedade, Estado de direito)."
+   ],
+   "objecoes": [
+    "A tese é analítica: depende de definir capitalismo como relação de classes; com a definição corrente (\"mercado + propriedade privada\") a objeção desaparece (C8).",
+    "Casos de adoção deliberada de instituições de mercado (Meiji, Deng pós-1978, reformas do Leste Europeu) mostram que \"políticas\" podem produzir capitalismo em décadas.",
+    "A historiografia da transição inglesa não é consensual: o papel da violência e dos cercamentos é discutido (Brenner e Wood o enfatizam; outros enfatizam mercados e ganhos de produtividade; não verificado aqui)."
+   ],
+   "respostas": [
+    "A tese não diz que nada se pode fazer: diz que \"implementar\" é metáfora; o que se faz é criar condições (leis, moeda, trabalho livre) e esperar que a relação se reproduza. Marx escreve que a sociedade \"pode abreviar e atenuar as dores do parto\" (t34).",
+    "Os casos de transição acelerada tinham pressupostos prévios: Estado, moeda, mercado de trabalho, direito, redes comerciais (ver tese 4). O teste fino é \"quanto do pressuposto já existia\".",
+    "Sobre a historiografia: o argumento de Marx é conceitual (relação precisa de separação); a descrição histórica detalhada pode variar sem quebrar o conceito."
+   ],
+   "evidencia": "mista",
+   "qualidade_da_evidencia": "Parte conceitual (definição de relação de capital e de pressupostos) e parte empírica (história da Inglaterra, colônias). O núcleo conceitual não é refutável por dados, só por outra definição; o núcleo histórico depende de debates abertos (Brenner, Allen, Overton).",
+   "como_seria_refutada": "(a) Mostrar um caso em que relações de trabalho assalariado livre e acumulação competitiva surgiram só por contrato e preços, sem expropriação, coerção legal ou transferência estatal de terra/meios (um \"capitalismo espontâneo e pacífico\" em escala nacional). (b) Mostrar que a separação produtor-meios não é pressuposto: que o capital opera plenamente com produtores que retêm os meios. (c) Aceitar a definição corrente de capitalismo, caso em que a tese vira outra (ver tese 2).",
+   "ligacoes": {
+    "decisoes": [
+     "homologar-terras-indigenas-e-titular-quilombos",
+     "orcamento-participativo-e-moedas-sociais",
+     "recuperar-pastagens-degradadas"
+    ],
+    "pilares": [
+     "reciprocidade-e-darva",
+     "bens-comuns",
+     "territorio-e-cuidado"
+    ],
+    "aneis": [
+     "territorio-indigena-conservacao"
+    ]
+   }
+  },
+  {
+   "id": "tese-02-mercado-nao-e-capitalismo",
+   "titulo": "Implementar mercado não é implementar capitalismo",
+   "enunciado": "Mercados, dinheiro, propriedade privada e comércio existem em muitos modos de produção; o capitalismo é uma configuração particular (para Marx, relação de capital; para Braudel, camada de monopólio acima do mercado; para Weber, empreendimento racional contínuo com contabilidade de capital, trabalho livre e direito calculável). Logo \"implementar mercado\" não implica \"implementar capitalismo\", e a pergunta de política é qual composição de instituições se quer.",
+   "premissas": [
+    "Circulação de mercadorias e comércio são pressupostos históricos do capital, não o capital (t10).",
+    "Capital usurário e mercantil são \"antediluvianos\" e existem em muitas formações (t49).",
+    "O mesmo mecanismo de preços coordena produtores privados; a coordenação não é, por si, capitalista (t64).",
+    "Braudel: três andares (vida material, economia de mercado, capitalismo); Weber: capitalismo ocidental moderno é específico."
+   ],
+   "textos_de_apoio": [
+    "t10-capital1-circulacao-pressuposto",
+    "t11-capital1-gwg",
+    "t49-capital3-antediluvianisch",
+    "t64-capital1-preise-regulieren",
+    "t65-capital1-anarchie",
+    "t05-capital1-warensammlung"
+   ],
+   "autores": [
+    "Karl Marx",
+    "Fernand Braudel",
+    "Max Weber",
+    "Karl Polanyi",
+    "David Graeber"
+   ],
+   "leituras_rivais": [
+    "Hayek e a escola austríaca: \"capitalismo\" é o nome ideológico de uma ordem de mercado; não há diferença útil entre \"mercado\" e \"capitalismo\".",
+    "Uso corrente: capitalismo = mercado + propriedade privada (Friedman, Capitalism and Freedom).",
+    "Smith: a \"sociedade comercial\" já é o capitalismo em formação."
+   ],
+   "objecoes": [
+    "É uma disputa de palavras: se o público usa capitalismo para mercado, distinguir exige jargão.",
+    "Se mercado existe sem capitalismo, onde estão as economias de mercado modernas sem trabalho assalariado? Os exemplos (mercados camponeses, bazares, cooperativas) são marginais em escala nacional contemporânea.",
+    "Braudel tem pouca precisão quantitativa; a \"camada superior\" é uma metáfora historiográfica, não um teste."
+   ],
+   "respostas": [
+    "A distinção rende resultados: separa política de concorrência e abertura de mercado (que ampliam mercado) de política sobre propriedade, trabalho e acumulação.",
+    "Mesmo que exemplos nacionais de mercado sem trabalho assalariado sejam raros, o argumento é sobre separação conceitual, que determina o que se mede (concorrência vs. concentração).",
+    "Braudel é mobilizado como hipótese interpretativa; a evidência é história comparativa qualitativa."
+   ],
+   "evidencia": "mista",
+   "qualidade_da_evidencia": "Conceitual (definições) com apoio historiográfico (Braudel, Weber, Polanyi, Graeber). Não há teste estatístico da distinção; o que se pode testar é se políticas de abertura de mercado e de concentração têm efeitos distintos (ver anel captura-concentracao).",
+   "como_seria_refutada": "Mostrar que, em toda economia de mercado complexa, a mercantilização do trabalho e a acumulação competitiva emergem inevitavelmente do mercado (que \"mercado complexo\" implica \"capital\"), e que não há economias de mercado complexas sem isso. Ou mostrar empiricamente que os efeitos de políticas de concorrência e de políticas de propriedade/concentração são indistinguíveis.",
+   "ligacoes": {
+    "decisoes": [
+     "abertura-comercial",
+     "acordo-mercosul-ue",
+     "privatizacoes",
+     "orcamento-participativo-e-moedas-sociais"
+    ],
+    "pilares": [
+     "reciprocidade-e-darva",
+     "bens-comuns"
+    ],
+    "aneis": [
+     "disciplina-de-mercado",
+     "captura-concentracao"
+    ]
+   }
+  },
+  {
+   "id": "tese-03-laissez-faire-planejado",
+   "titulo": "O laissez-faire foi planejado e imposto pelo Estado",
+   "enunciado": "Polanyi (A Grande Transformação, 1944): o mercado autorregulado não surgiu espontaneamente; foi instituído por leis (cercamentos, Poor Law de 1834, Peel Act, Corn Laws, padrão-ouro) e por força do Estado; a sociedade reagiu (\"duplo movimento\"). A formulação: \"laissez-faire foi planejado; o planejamento não\" (frase a conferir na fonte, não lida aqui). Marx dá base para a primeira parte (t26: o Estado como instrumento da transição).",
+   "premissas": [
+    "Terra, trabalho e dinheiro não são mercadorias \"de verdade\" (mercadorias fictícias); precisam de instituição para circular como se fossem.",
+    "Os métodos da acumulação primitiva \"utilizaram o poder do Estado\" (t26).",
+    "Nas colônias, o trabalho livre teve de ser criado \"por meios artificiais\" (t32).",
+    "Legislação fabril e normal da jornada foram resposta social ao próprio mercado (t15, t16)."
+   ],
+   "textos_de_apoio": [
+    "t26-capital1-staatsgewalt",
+    "t29-capital1-bills-inclosures",
+    "t32-capital1-wakefield-artificial",
+    "t15-capital1-normalarbeitstag",
+    "t16-capital1-fabrikgesetz",
+    "t39-capital1-fr-force-accoucheuse"
+   ],
+   "autores": [
+    "Karl Polanyi",
+    "Karl Marx",
+    "Fred Block",
+    "Mariana Mazzucato"
+   ],
+   "leituras_rivais": [
+    "Hayek (O Caminho da Servidão; Direito, Legislação e Liberdade): a ordem de mercado emergiu espontaneamente de regras de conduta (propriedade, contrato); o intervencionismo veio depois e é o que cria problemas.",
+    "Historiografia econômica liberal: o mercado inglês cresceu por mudança de práticas locais antes das leis de cercamento.",
+    "North e Weingast: restrições institucionais ao governo (1689) criaram compromisso crível e mercados financeiros."
+   ],
+   "objecoes": [
+    "Que o Estado tenha criado leis não implica que \"planejou\" o mercado como sistema: leis podem reconhecer práticas existentes (common law).",
+    "Polanyi sobrestima a unidade e a coerência do \"liberalismo planejado\"; os casos (Poor Law, Corn Laws) foram disputados e contraditórios.",
+    "O \"duplo movimento\" é uma hipótese ampla, difícil de testar."
+   ],
+   "respostas": [
+    "A tese não exige planejamento onisciente, apenas que o mercado autorregulado de terra, trabalho e dinheiro dependeu de leis e de aplicação coercitiva; isso é compatível com leis que reconhecem práticas.",
+    "Polanyi e Hayek concordam em que não houve desenho central de um sistema; discordam sobre o papel das leis que definem e fazem cumprir o mercado e sobre o que fazer.",
+    "Como hipótese interpretativa, o duplo movimento é útil mais para organizar casos (Speenhamland, leis fabris, política monetária) do que para prever."
+   ],
+   "evidencia": "empirica",
+   "qualidade_da_evidencia": "Principalmente histórica (história econômica inglesa e europeia dos séculos XVIII-XIX), com pouca quantificação; a leitura de Polanyi é contestada em detalhes (Speenhamland) e a de Marx apoia-se em documentos parlamentares citados no cap. 24. Qualidade média: casos fortes, generalização ampla.",
+   "como_seria_refutada": "Mostrar que os mercados de terra, trabalho e dinheiro nacionais surgiram sem leis estatais específicas (cercamentos, leis de pobres, moeda legal, padrão-ouro) ou que essas leis apenas reconheceram práticas já generalizadas e não alteraram a trajetória; ou mostrar que países sem esse conjunto de leis atingiram o mesmo grau de mercantilização.",
+   "ligacoes": {
+    "decisoes": [
+     "privatizacoes",
+     "abertura-comercial",
+     "politica-precos-combustiveis",
+     "credito-subsidiado",
+     "politica-industrial-verde"
+    ],
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo",
+     "bens-comuns"
+    ],
+    "aneis": [
+     "captura-concentracao",
+     "disciplina-de-mercado"
+    ]
+   }
+  },
+  {
+   "id": "tese-04-instituicoes-que-o-capitalismo-nao-produz",
+   "titulo": "O capitalismo depende de instituições que ele não produz sozinho",
+   "enunciado": "Mercados e acumulação dependem de Estado (segurança, lei, moeda, tributos, infraestrutura), de trabalho reprodutivo (cuidado, família), da natureza (recursos e sumidouros) e de legitimidade política; sem isso, não se reproduzem. Fraser, O'Connor e a literatura de variedades de capitalismo mostram diferentes composições. Marx dá base parcial (jornada normal, legislação fabril, minar \"a terra e o trabalhador\").",
+   "premissas": [
+    "Regras de jornada e saúde do trabalhador nasceram de conflito e lei (t15, t16).",
+    "O capital \"mina as fontes de toda riqueza: a terra e o trabalhador\" (t17).",
+    "A relação de capital se reproduz só se a separação é mantida (t24), o que exige polícia e direito.",
+    "A reprodução da força de trabalho é fora do mercado, em grande parte (Fraser; em Marx, é \"dado\" e fica na \"morada oculta\")."
+   ],
+   "textos_de_apoio": [
+    "t15-capital1-normalarbeitstag",
+    "t16-capital1-fabrikgesetz",
+    "t17-capital1-natureza",
+    "t24-capital1-kapitalverhaeltnis",
+    "t53-gotha-staatsanleihe",
+    "t63-keynes-general-theory"
+   ],
+   "autores": [
+    "Karl Marx",
+    "James O'Connor",
+    "Nancy Fraser",
+    "Peter Hall e David Soskice",
+    "Daron Acemoglu e James Robinson",
+    "Hernando de Soto",
+    "Douglass North"
+   ],
+   "leituras_rivais": [
+    "Visão liberal clássica: Estado mínimo (guardião da propriedade e dos contratos) basta; o resto o mercado produz.",
+    "Hall e Soskice: economias liberais de mercado e economias coordenadas são duas formas estáveis de capitalismo, com instituições distintas.",
+    "De Soto: o que falta ao capitalismo em países pobres é propriedade formalizada (titulação), não \"cultura\".",
+    "Acemoglu e Robinson: instituições inclusivas (políticas e econômicas) explicam prosperidade; as extrativas, estagnação."
+   ],
+   "objecoes": [
+    "Dizer que o capitalismo \"depende\" do Estado e da família é trivial: toda atividade econômica depende de instituições; não distingue capitalismo.",
+    "O conceito de \"trabalho reprodutivo fora do mercado\" é difícil de medir e pode ser lido como feminista-marxista (Fraser) ou como externalidade (economia convencional).",
+    "Hall e Soskice tratam de \"capitalismos\" no plural; se há muitos, o que \"capitalismo\" designa?"
+   ],
+   "respostas": [
+    "A distinção está em quais instituições, e se são compatíveis com acumulação competitiva; a tese serve de lista de verificação institucional (moeda, tribunais, trabalho, natureza).",
+    "A pluralidade de capitalismos reforça a tese: o desenho institucional é variável; \"implementar capitalismo\" não especifica qual.",
+    "Medição: valor do trabalho doméstico e serviços ecossistêmicos tem estimativas (satélites de contas), todas controversas; a tese não depende de números."
+   ],
+   "evidencia": "mista",
+   "qualidade_da_evidencia": "Conceitual (O'Connor, Fraser) e empírica comparada (Hall e Soskice, Acemoglu e Robinson, De Soto, com críticas metodológicas conhecidas: endogeneidade, seleção de casos). Qualidade média; o número de casos pequeno e dependente de classificação.",
+   "como_seria_refutada": "Mostrar um mercado complexo e duradouro sem Estado de direito, moeda confiável e infraestrutura públicos, ou mostrar que \"variedades\" não diferem em desempenho nem em estabilidade; para a parte de reprodução social e natureza, mostrar que são plenamente internalizadas por preços sem política.",
+   "ligacoes": {
+    "decisoes": [
+     "reduzir-autonomia-bc",
+     "diretoria-bc-alinhada",
+     "ampliar-stf",
+     "remover-ministros-stf",
+     "acelerar-ibs-cbs",
+     "seguranca-hidrica-saneamento",
+     "direitos-da-natureza-municipais",
+     "educacao-tecnica-e-alfabetizacao",
+     "ampliar-assistencia",
+     "combate-garimpo-ilegal-e-rastreio-do-ouro"
+    ],
+    "pilares": [
+     "territorio-e-cuidado",
+     "direitos-da-natureza",
+     "limites-planetarios",
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "aneis": [
+     "legitimidade-impunidade",
+     "expectativas-ancoragem",
+     "fiscal-juros-divida",
+     "clima-fiscal-adaptacao",
+     "violencia-capital-humano"
+    ]
+   }
+  },
+  {
+   "id": "tese-05-ordem-espontanea-hayek-marx",
+   "titulo": "Hayek e Marx: convergência sobre \"não foi desenhado\", divergência sobre o que se segue",
+   "enunciado": "Hayek (ordem espontânea, \"resultado da ação humana, não do desígnio humano\") e Marx (o capitalismo como formação que ninguém decretou, regulada por leis que atuam \"às costas\" dos produtores) concordam que a economia de mercado não foi projetada. Divergem: Hayek conclui que, por isso, não deve ser \"planejada\" pois o conhecimento é disperso e os preços o agregam (1945); Marx descreve a coordenação por preços como cega e violenta (t64, t65) e sugere controle consciente dos produtores associados (t09), sem dar receita (t36). Mises (1920) e Hayek acusam o planejamento central de não poder calcular; Lange (1936) e outros respondem com socialismo de mercado.",
+   "premissas": [
+    "A coordenação de produtores privados por trocas realiza ajustes reais sem desenho central (t64).",
+    "Marx: essa coordenação é \"anarquia\" por oposição a formas planejadas (t65).",
+    "Hayek: conhecimento disperso, tácito e local não pode ser centralizado; preços funcionam como sinais.",
+    "Mises: sem mercado de bens de capital, não há preços para cálculo econômico."
+   ],
+   "textos_de_apoio": [
+    "t09-capital1-controle-planejado",
+    "t36-capital1-nachwort-rezepte",
+    "t64-capital1-preise-regulieren",
+    "t65-capital1-anarchie",
+    "t53-gotha-staatsanleihe",
+    "t62-antiduehring-verwaltung"
+   ],
+   "autores": [
+    "Friedrich Hayek",
+    "Ludwig von Mises",
+    "Oskar Lange",
+    "Karl Marx",
+    "Karl Polanyi",
+    "János Kornai"
+   ],
+   "leituras_rivais": [
+    "Lange e Lerner (socialismo de mercado): o planejador pode simular preços por tentativa e erro, resolvendo o cálculo.",
+    "Kornai: o problema do socialismo real não foi só cálculo, mas restrição orçamentária \"branda\" e incentivos.",
+    "Polanyi: o mercado autorregulado não é natural; \"ordem espontânea\" inclui instituições impostas.",
+    "Mazzucato: o Estado empreendedor assume riscos e mercados são \"cocriados\" (ver tese 6)."
+   ],
+   "objecoes": [
+    "Contra Hayek: mercados reais são cheios de informação concentrada e planejamento interno (firmas, Coase), logo a distinção planejado/espontâneo é de grau.",
+    "Contra Marx: coordenar sem preços exigiria computação inexistente; a experiência soviética mostrou problemas de informação e incentivos (Kornai).",
+    "Contra a convergência: Marx não é descrição de \"ordem espontânea\" no sentido de Hayek, porque para Marx os preços regulam \"violentamente\" (t64), o que Hayek não aceitaria."
+   ],
+   "respostas": [
+    "A convergência é limitada: ambos descrevem o mecanismo; só divergem na avaliação e prescrição. O projeto aqui tem de tratar os dois como hipóteses sobre o desenho: o que cabe ao preço, ao plano, à regra.",
+    "Sobre cálculo: debate vivo; computação moderna e dados mudam a viabilidade empírica, mas a incerteza e o incentivo persistem (sem veredito aqui).",
+    "Hayek não rejeita regras; defende \"regras de conduta\" gerais. Marx não oferece desenho. Logo, o confronto real é entre propostas institucionais, não entre os dois autores."
+   ],
+   "evidencia": "mista",
+   "qualidade_da_evidencia": "Conceitual (teoria do conhecimento, cálculo) e empírica (experiência do planejamento central; economias mistas). Evidência empírica contra o planejamento central abrangente é forte; contra \"qualquer planejamento\" é fraca (todas as economias reais combinam).",
+   "como_seria_refutada": "Contra Hayek: mostrar planejamento amplo que calcule e inove no mesmo patamar que mercados em economias complexas. Contra Marx: mostrar que a coordenação por preços é transparente e \"justa\" para os produtores no sentido de que resultados individuais derivam de escolhas, ou que não existe lacuna entre intenção e resultado.",
+   "ligacoes": {
+    "decisoes": [
+     "politica-precos-combustiveis",
+     "privatizacoes",
+     "cortar-beneficios-fiscais",
+     "indicadores-complementares-ao-pib",
+     "consulta-previa-regulamentada",
+     "desvincular-minimo"
+    ],
+    "pilares": [
+     "pluralismo-epistemico",
+     "autonomia-e-confluencia"
+    ],
+    "aneis": [
+     "expectativas-ancoragem",
+     "disciplina-de-mercado"
+    ]
+   }
+  },
+  {
+   "id": "tese-06-instabilidade-endogena",
+   "titulo": "Instabilidade endógena: o capitalismo precisa de estabilizadores (Schumpeter, Keynes, Kalecki, Minsky, Piketty, Mazzucato, Kornai)",
+   "enunciado": "Vários autores, de campos opostos, convergem em que economias de mercado capitalistas geram instabilidade (crises, ciclos), desigualdade e mudança estrutural endógenas, e por isso funcionam com estabilizadores institucionais (banco central, seguro, política fiscal, regulação). Schumpeter: destruição criadora e erosão do capitalismo por seu sucesso; Keynes: instabilidade da demanda e incerteza; Kalecki: pleno emprego e poder político; Minsky: fragilidade financeira endógena; Piketty: r>g como tendência de concentração; Mazzucato: Estado cria mercados. Kornai: capitalismo e socialismo como sistemas (tipos ideais) com propriedades distintas.",
+   "premissas": [
+    "Crises como \"soluções momentâneas violentas\" de contradições (t48).",
+    "Falhas: desemprego e distribuição arbitrária (t63, Keynes).",
+    "Dinamismo estrutural: revolução contínua dos meios de produção (t40, t41).",
+    "Estabilizadores existem e mudam as propriedades do sistema (Keynes, Minsky)."
+   ],
+   "textos_de_apoio": [
+    "t04-prefacio-1859-antagonica",
+    "t40-manifest-revolutionieren",
+    "t41-manifest-verdampft",
+    "t42-manifest-produktivkraefte",
+    "t46-capital3-queda-taxa",
+    "t47-capital3-schranke",
+    "t48-capital3-krisen",
+    "t63-keynes-general-theory",
+    "t18-capital1-reserva"
+   ],
+   "autores": [
+    "Joseph Schumpeter",
+    "John Maynard Keynes",
+    "Michał Kalecki",
+    "Hyman Minsky",
+    "Thomas Piketty",
+    "Mariana Mazzucato",
+    "János Kornai",
+    "Karl Marx"
+   ],
+   "leituras_rivais": [
+    "Escola austríaca e Chicago: ciclos têm origem em política monetária e fiscal; o mercado tende ao equilíbrio sem intervenção.",
+    "Novo-keynesianos e monetaristas: instabilidade existe, mas é corrigível por regra monetária e fiscal (Taylor).",
+    "Piketty vs. críticos (Acemoglu e Robinson 2015; Rognlie 2015, a conferir): r>g não é lei; depende de elasticidade capital-trabalho, poupança e instituições."
+   ],
+   "objecoes": [
+    "\"Instabilidade endógena\" é frase genérica: toda economia tem choques; a questão é se a instabilidade é intrínseca ou fruto de má política.",
+    "Marx previu colapso; a história mostrou adaptação (Estado de bem-estar, bancos centrais), logo a \"instabilidade\" não levou à superação.",
+    "Schumpeter previu que o capitalismo se minaria pelo sucesso; o diagnóstico é geralmente tratado como especulativo."
+   ],
+   "respostas": [
+    "A convergência é sobre a necessidade de estabilizadores, não sobre a superação; adaptação confirma a tese de dependência institucional (tese 4) e é compatível com Marx lido de modo não determinista.",
+    "As previsões de colapso falharam (C4), mas isso não invalida as descrições de mecanismos (reserva, crise financeira).",
+    "Minsky e Kalecki têm evidência empírica sobre ciclos financeiros e de lucros (macroeconomia pós-keynesiana); o resultado depende do período e do país."
+   ],
+   "evidencia": "mista",
+   "qualidade_da_evidencia": "Mista: literatura macro e histórica abundante (ciclos, crises de 1929, 2008), com forte controvérsia teórica. Piketty tem dados históricos amplos, mas a extrapolação de r>g é disputada.",
+   "como_seria_refutada": "Mostrar economias de mercado sem crise financeira ou recessão ao longo de décadas sem estabilizadores públicos, ou que os estabilizadores não alteram o curso de crises. Para Piketty, mostrar que a concentração diminui sem políticas por forças endógenas.",
+   "ligacoes": {
+    "decisoes": [
+     "flexibilizar-arcabouco",
+     "reforcar-arcabouco",
+     "ampliar-assistencia",
+     "credito-subsidiado",
+     "perdao-dividas",
+     "politica-industrial-verde"
+    ],
+    "pilares": [
+     "capacidades-e-suficiencia",
+     "tempo-longo-e-geracoes"
+    ],
+    "aneis": [
+     "fiscal-juros-divida",
+     "reacao-fiscal",
+     "automacao-trabalho-demanda",
+     "tecnologia-produtividade-capacidade",
+     "desigualdade-educacao-produtividade",
+     "clima-fiscal-adaptacao"
+    ]
+   }
+  },
+  {
+   "id": "tese-07-capitalismo-dependente-brasil",
+   "titulo": "Perspectivas brasileiras: o capitalismo no Brasil como formação periférica e dependente",
+   "enunciado": "Autores brasileiros e latino-americanos leem o capitalismo brasileiro como formação específica: Caio Prado Jr. (sentido da colonização: produção para o mercado externo), Celso Furtado (subdesenvolvimento como processo histórico, não etapa), Florestan Fernandes (capitalismo dependente e revolução burguesa atípica), Marini (superexploração e subimperialismo), Cardoso e Faletto (dependência associada com margens de manobra), Francisco de Oliveira (ornitorrinco: acumulação moderna sobre base atrasada) e Lazzarini (capitalismo de laços: redes entre Estado, fundos e empresas). Conclusão comum: não há \"capitalismo\" abstrato, mas formações com inserção externa e estrutura de classes próprias.",
+   "premissas": [
+    "A formação colonial brasileira orientou-se para fora (Prado Jr., Furtado).",
+    "A abolição e a industrialização ocorreram com a manutenção de estruturas de poder (Florestan).",
+    "A inserção dependente condiciona a distribuição do excedente (Marini, Cardoso e Faletto).",
+    "As instituições de crédito e controle empresarial têm redes políticas (Lazzarini)."
+   ],
+   "textos_de_apoio": [
+    "t25-capital1-ouro-escravidao",
+    "t29-capital1-bills-inclosures",
+    "t28-capital1-expropriation-landvolk",
+    "t35-capital1-fabula",
+    "t54-otechestvennye-skizze",
+    "t56-zasulich-resposta",
+    "t57-zasulich-comuna"
+   ],
+   "autores": [
+    "Caio Prado Jr.",
+    "Celso Furtado",
+    "Florestan Fernandes",
+    "Ruy Mauro Marini",
+    "Fernando Henrique Cardoso e Enzo Faletto",
+    "Francisco de Oliveira",
+    "Sérgio Lazzarini"
+   ],
+   "leituras_rivais": [
+    "Leitura liberal-desenvolvimentista (Bresser-Pereira): o Brasil é capitalismo em desenvolvimento com armadilha cambial, não dependente por natureza.",
+    "Leitura feudalista (tradição do PCB até os anos 1960): o campo brasileiro seria \"semifeudal\"; Caio Prado criticou isso.",
+    "Leitura institucionalista (Acemoglu e Robinson): extrativismo político herdado da colônia."
+   ],
+   "objecoes": [
+    "Dependência foi parcialmente falsificada pelo caso do leste asiático (países periféricos que subiram na cadeia de valor).",
+    "Superexploração (Marini) é conceito controverso: salário abaixo do valor da força de trabalho; difícil de medir.",
+    "O \"ornitorrinco\" e o \"capitalismo de laços\" são descrições, não teorias com testes."
+   ],
+   "respostas": [
+    "O caso asiático mostra a variação de resposta de Estados (política industrial), não a ausência de restrições; a literatura de dependência sempre admitiu \"desenvolvimento dependente-associado\" (Cardoso e Faletto).",
+    "Lazzarini tem dados sobre redes (participações cruzadas, BNDES, fundos de pensão), o que dá teste parcial.",
+    "Como tese, serve para evitar a escolha \"capitalismo vs. socialismo\": o desenho é sobre inserção, Estado e estrutura de propriedade."
+   ],
+   "evidencia": "mista",
+   "qualidade_da_evidencia": "Conceitual-histórica (grandes ensaios), com evidência empírica diversa: Lazzarini (dados de redes), Furtado e Prado Jr. (história econômica). Marini e Cardoso e Faletto têm ampla crítica e defesa; nenhum desses autores oferece teste decisivo.",
+   "como_seria_refutada": "Mostrar que a trajetória brasileira e sua distribuição não diferem do que se esperaria de qualquer economia de renda média com os mesmos parâmetros (sem recorrer à inserção externa nem à estrutura de classes) ou que países com inserção semelhante convergiram sem as condições apontadas.",
+   "ligacoes": {
+    "decisoes": [
+     "abertura-comercial",
+     "estrategia-minerais-criticos",
+     "politica-industrial-verde",
+     "credito-subsidiado",
+     "privatizacoes",
+     "desoneracao-ampla",
+     "educacao-tecnica-e-alfabetizacao"
+    ],
+    "pilares": [
+     "capacidades-e-suficiencia",
+     "autonomia-e-confluencia"
+    ],
+    "aneis": [
+     "captura-concentracao",
+     "desigualdade-educacao-produtividade",
+     "tecnologia-produtividade-capacidade",
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "tese-08-tipos-ideais-composicao",
+   "titulo": "Economias reais são composições institucionais; \"capitalismo\" e \"socialismo\" são tipos ideais",
+   "enunciado": "Kornai trata capitalismo e socialismo como tipos ideais, definidos por conjuntos de propriedades (propriedade, coordenação, poder político); economias reais são mistas. Da perspectiva do desenho, a pergunta \"capitalismo ou socialismo?\" cede lugar a: quais instituições compõem esta economia (propriedade, mercados, planejamento, moeda, regulação, bens comuns, redistribuição) e com que consequências.",
+   "premissas": [
+    "Marx não dá receita institucional (t36, t37, t50).",
+    "Sistemas econômicos reais combinam mercado, Estado, comunidades e família (Polanyi: reciprocidade, redistribuição, troca).",
+    "Variedades de capitalismo e \"tipos\" de socialismo diferem muito em resultados."
+   ],
+   "textos_de_apoio": [
+    "t36-capital1-nachwort-rezepte",
+    "t37-capital1-postface-fr",
+    "t50-gotha-transicao",
+    "t51-gotha-muttermale",
+    "t52-gotha-beduerfnissen",
+    "t53-gotha-staatsanleihe"
+   ],
+   "autores": [
+    "János Kornai",
+    "Karl Polanyi",
+    "Peter Hall e David Soskice",
+    "Elinor Ostrom",
+    "Oskar Lange"
+   ],
+   "leituras_rivais": [
+    "Visão de sistemas \"puros\": a coerência importa (Hayek: um sistema híbrido instável tende ao totalitarismo; Mises: \"terceira via\" é instável).",
+    "Visão marxista clássica: socialismo e capitalismo são modos de produção distintos, não composições de políticas.",
+    "Social-democracia: capitalismo regulado e redistributivo como equilíbrio duradouro (Estados de bem-estar nórdicos)."
+   ],
+   "objecoes": [
+    "Dizer \"tudo é misto\" torna a classificação vazia.",
+    "A tese de instabilidade das economias mistas (Mises) tem apoio histórico parcial (hiperinflações, crises); tem contraexemplos (economias mistas estáveis por décadas)."
+   ],
+   "respostas": [
+    "Tipos ideais servem para localizar a composição, não para esconder diferenças; a pergunta de projeto é \"o que cada instituição faz\".",
+    "A instabilidade das economias mistas é hipótese empírica, comparável por país e período (leave-group-out, regras do projeto)."
+   ],
+   "evidencia": "mista",
+   "qualidade_da_evidencia": "Conceitual (tipologias) com evidência comparada de resultados (crescimento, desigualdade, saúde) que depende de classificação e de causalidade difícil de isolar.",
+   "como_seria_refutada": "Mostrar que a classificação por composição não prevê resultados melhor que o rótulo \"capitalista/socialista\" (poder preditivo igual ou menor) ou que misturas são sempre instáveis e convergem a um dos polos.",
+   "ligacoes": {
+    "decisoes": [
+     "indicadores-complementares-ao-pib",
+     "comissario-das-geracoes-futuras",
+     "orcamento-participativo-e-moedas-sociais",
+     "psa-governanca-comunitaria"
+    ],
+    "pilares": [
+     "tempo-longo-e-geracoes",
+     "capacidades-e-suficiencia",
+     "bens-comuns"
+    ],
+    "aneis": [
+     "controle-externo-eleitor",
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "tese-09-escopo-do-proprio-marx",
+   "titulo": "O esboço de Marx sobre a gênese do capitalismo é limitado à Europa Ocidental, não teoria filosófico-histórica universal",
+   "enunciado": "Em 1877 (carta à Otechestvennye Zapiski) e em 1881 (carta a Vera Zasulich e rascunhos), Marx escreve que a \"fatalidade histórica\" do movimento de expropriação está \"expressamente restrita aos países da Europa Ocidental\" e rejeita transformar seu esboço em teoria geral do curso fatal de todos os povos. Em 1867 já afirmava, porém, que o país mais desenvolvido \"mostra ao menos desenvolvido a imagem de seu futuro\". Controvérsia: o Marx tardio (Shanin, Anderson) vs. o Marx dos anos 1860 (Prefácio de 1859, Prefácio de 1867).",
+   "premissas": [
+    "Fonte primária: carta a Zasulich (t56, t57), rascunho (t58), carta de 1877 (t54, t55).",
+    "Edição francesa de O Capital: \"Europe occidentale\" no texto (t38).",
+    "Texto de 1867: \"Das industriell entwickeltere Land ...\" (t35)."
+   ],
+   "textos_de_apoio": [
+    "t35-capital1-fabula",
+    "t38-capital1-fr-europe-occidentale",
+    "t54-otechestvennye-skizze",
+    "t55-otechestvennye-passepartout",
+    "t56-zasulich-resposta",
+    "t57-zasulich-comuna",
+    "t58-zasulich-rascunho",
+    "t66-vorwort-1882-russisch",
+    "t03-prefacio-1859-condicoes"
+   ],
+   "autores": [
+    "Karl Marx",
+    "Teodor Shanin",
+    "Kevin Anderson",
+    "Friedrich Engels"
+   ],
+   "leituras_rivais": [
+    "Leitura ortodoxa (Engels, Kautsky, Plekhanov): as cartas são circunstanciais; o Prefácio de 1859 e O Capital I formulam uma lei geral.",
+    "Leitura \"Marx tardio\" (Shanin, Anderson, Harootunian): ao final da vida Marx abriu a possibilidade de vias não ocidentais.",
+    "Leitura de continuidade: o escopo limitado já estava em O Capital (t28, \"nur in England\"), então não há virada."
+   ],
+   "objecoes": [
+    "A carta de 1877 não foi enviada e a de 1881 é curta (a versão enviada); os rascunhos são mais longos e não foram publicados em vida (Marx guardou-os).",
+    "Em 1882, Marx e Engels assinaram prefácio à edição russa do Manifesto que condiciona a via russa a uma revolução complementar no Ocidente (t66); logo, a abertura é condicional."
+   ],
+   "respostas": [
+    "As cartas não anulam O Capital; mostram que Marx separava o argumento da gênese do capitalismo na Europa Ocidental da pergunta sobre outras trajetórias.",
+    "A tese é textual: o que está escrito. A questão \"o que Marx realmente pensava\" não é decidível só por esses textos."
+   ],
+   "evidencia": "conceitual",
+   "qualidade_da_evidencia": "Textual: trechos lidos literalmente em francês (t56, t58), alemão (t54, t55) e no próprio O Capital (t28, t38). Controvérsia interpretativa legítima entre leituras.",
+   "como_seria_refutada": "Mostrar texto de Marx, posterior a 1881, em que ele reafirma lei universal de estágios, ou mostrar que as cartas são retórica diplomática sem relação com sua teoria (exigiria evidência biográfica).",
+   "ligacoes": {
+    "decisoes": [
+     "homologar-terras-indigenas-e-titular-quilombos",
+     "consulta-previa-regulamentada",
+     "psa-governanca-comunitaria"
+    ],
+    "pilares": [
+     "pluralismo-epistemico",
+     "autonomia-e-confluencia",
+     "reciprocidade-e-darva"
+    ],
+    "aneis": [
+     "territorio-indigena-conservacao"
+    ]
+   }
+  },
+  {
+   "id": "tese-10-marx-nao-prescreve",
+   "titulo": "Marx não prescreve desenho institucional: \"implementar capitalismo\" e \"implementar socialismo\" são perguntas que ele não responde",
+   "enunciado": "Marx declara limitar-se à \"análise crítica do que está dado\", sem \"receitas para a cozinha do futuro\" (1873); na Crítica do Programa de Gotha ironiza a construção de uma nova sociedade com empréstimos estatais; descreve fases, mas não instituições. A tese \"o capitalismo não é um sistema implementável\" é inferência a partir do texto, não frase de Marx.",
+   "premissas": [
+    "Texto de 1873 e 1875 (t36, t37, t53).",
+    "Marx descreve fases do pós-capitalismo sem detalhar instituições (t50-t52).",
+    "Ele escreve sobre um \"Verein freier Menschen\" como contraponto analítico, não como projeto (t09)."
+   ],
+   "textos_de_apoio": [
+    "t09-capital1-controle-planejado",
+    "t36-capital1-nachwort-rezepte",
+    "t37-capital1-postface-fr",
+    "t50-gotha-transicao",
+    "t51-gotha-muttermale",
+    "t52-gotha-beduerfnissen",
+    "t53-gotha-staatsanleihe",
+    "t62-antiduehring-verwaltung"
+   ],
+   "autores": [
+    "Karl Marx",
+    "Friedrich Engels",
+    "János Kornai",
+    "Oskar Lange"
+   ],
+   "leituras_rivais": [
+    "Leitura leninista: Marx dá o princípio (ditadura do proletariado, extinção do Estado) e o partido preenche o desenho.",
+    "Leitura libertária (Rubel, Rühle): Marx é antiestatista e a URSS é traição.",
+    "Leitura analítica (Roemer, Cohen): é preciso construir teorias institucionais compatíveis com princípios de Marx (socialismo de mercado)."
+   ],
+   "objecoes": [
+    "Marx escreveu também política concreta (Manifesto, Guerra Civil na França, Gotha) com propostas (dez medidas do Manifesto; a Comuna de Paris como \"forma política afinal descoberta\"; a conferir nos textos).",
+    "A recusa de \"receitas\" foi usada para evitar responsabilidade pelas consequências de políticas feitas em nome dele."
+   ],
+   "respostas": [
+    "Sim: há propostas políticas pontuais no Manifesto e na obra política; o que falta é um desenho econômico completo (preço, plano, incentivo).",
+    "Usar o texto como álibi seria erro tanto para quem o cita como para quem o descarta; a regra é ler cada afirmação no seu escopo."
+   ],
+   "evidencia": "conceitual",
+   "qualidade_da_evidencia": "Textual: forte para \"não há receita completa\"; controvertida para o que o conjunto de textos políticos (não lidos aqui) implica.",
+   "como_seria_refutada": "Mostrar em Marx um desenho econômico completo (regras de preço, alocação, incentivos e transição) escrito por ele, ou mostrar que as \"dez medidas\" do Manifesto ou a Comuna são, por Marx, um programa institucional completo.",
+   "ligacoes": {
+    "decisoes": [
+     "orcamento-participativo-e-moedas-sociais",
+     "indicadores-complementares-ao-pib",
+     "comissario-das-geracoes-futuras"
+    ],
+    "pilares": [
+     "pluralismo-epistemico",
+     "autonomia-e-confluencia"
+    ],
+    "aneis": [
+     "controle-externo-eleitor"
+    ]
+   }
+  }
+ ],
+ "contra_argumentos": [
+  {
+   "id": "c01-uso-corrente-implementavel",
+   "contra_tese": "No uso corrente, capitalismo é economia de mercado com propriedade privada, e isso é implementável em graus por decisões de política.",
+   "autores": [
+    "Milton Friedman",
+    "Friedrich Hayek",
+    "Hernando de Soto",
+    "Daron Acemoglu e James Robinson"
+   ],
+   "argumento": "Se \"capitalismo\" designa mercados, preços livres, propriedade privada, empresas e contratos exigíveis, então governos podem avançar ou recuar nesses elementos por lei: liberalizar preços, privatizar, abrir comércio, formalizar propriedade, criar tribunais comerciais. Existem escalas (índices de liberdade econômica, a conferir) e casos de reforma nacional com mudança rápida de instituições. Exigir que \"capitalismo\" signifique relação de classes torna a tese quase uma definição, sem consequência prática.",
+   "limites": "O argumento depende do conceito adotado; ele não responde à tese 1 (que fala da relação de capital), apenas muda de assunto. Também não diz por que reformas idênticas produzem resultados tão diferentes entre países (pressupostos prévios, ver tese 4).",
+   "textos": [
+    "t05-capital1-warensammlung",
+    "t10-capital1-circulacao-pressuposto",
+    "t49-capital3-antediluvianisch"
+   ]
+  },
+  {
+   "id": "c02-hong-kong-chile-leste-europeu",
+   "contra_tese": "Casos de implantação deliberada (Hong Kong, Chile pós-1973, Leste Europeu após 1989, \"terapia de choque\") mostram que capitalismo pode ser implementado.",
+   "autores": [
+    "Milton Friedman",
+    "Jeffrey Sachs",
+    "Leszek Balcerowicz",
+    "Anders Åslund"
+   ],
+   "argumento": "Hong Kong (porto livre, impostos baixos, direito inglês), Chile (reformas dos \"Chicago Boys\" a partir de 1975, privatizações, previdência privada) e países do Leste Europeu (Polônia, República Tcheca, Estônia) adotaram marcos de mercado em poucos anos; em vários casos a renda e a integração externa subiram depois de um período de queda. Isso mostra que mudanças de lei e preços reorganizam rapidamente a economia.",
+   "limites": "Cada caso tem qualificações que a tese 1 e a tese 3 usam em seu favor: em Hong Kong a terra é de propriedade pública e arrendada pelo governo; no Chile, as reformas foram feitas por regime autoritário com forte atuação estatal (cobre estatal, previdência obrigatória); no Leste Europeu, os resultados divergiram (Polônia e Rússia, por exemplo) e a literatura discute o papel das instituições herdadas, da velocidade e da corrupção na privatização. Números e comparações não foram verificados nesta pesquisa.",
+   "textos": [
+    "t26-capital1-staatsgewalt",
+    "t32-capital1-wakefield-artificial"
+   ]
+  },
+  {
+   "id": "c03-teoria-do-valor-trabalho",
+   "contra_tese": "A teoria do valor-trabalho é falha (marginalismo, problema da transformação), o que enfraquece a análise de exploração e de capital.",
+   "autores": [
+    "Eugen von Böhm-Bawerk",
+    "Paul Samuelson (1971, a conferir)",
+    "Ladislaus von Bortkiewicz (1907, a conferir)",
+    "Joan Robinson"
+   ],
+   "argumento": "A \"revolução marginalista\" (década de 1870) explica preços por utilidade marginal e custos, sem necessidade de valor-trabalho. Böhm-Bawerk (1896) argumentou que o livro III (preços de produção) contradiz o livro I (valor); a \"transformação\" de valores em preços não preserva simultaneamente a soma do lucro e a soma do valor, segundo as soluções de Bortkiewicz e seguintes. Sem a teoria do valor, a mais-valia e a exploração ficam sem fundamento quantitativo.",
+   "limites": "Defensores (Duménil, Foley, Moseley e outros, a conferir) afirmam que a interpretação \"nova\" ou \"temporal\" resolve a questão; críticos respondem que a solução reduz o conteúdo. Para o projeto, é relevante porque a tese 1 não depende da quantificação do valor: depende de a relação de capital ser histórica e reproduzida. Ainda assim, a avaliação da exploração como conceito empírico fica enfraquecida.",
+   "textos": [
+    "t06-capital1-trabalho-abstrato",
+    "t12-capital1-mais-valia",
+    "t46-capital3-queda-taxa"
+   ]
+  },
+  {
+   "id": "c04-previsoes-falhas",
+   "contra_tese": "As previsões de Marx falharam: empobrecimento absoluto, colapso do capitalismo, revolução nos países mais desenvolvidos.",
+   "autores": [
+    "Eduard Bernstein (1899, a conferir)",
+    "Karl Popper",
+    "János Kornai",
+    "Thomas Piketty (nuance)"
+   ],
+   "argumento": "Nos países industrializados, os salários reais e a expectativa de vida aumentaram desde o século XIX (histórias econômicas padrão; não verificado nesta pesquisa); o capitalismo regulado produziu Estados de bem-estar; as revoluções que se disseram marxistas ocorreram em países agrários (Rússia 1917, China 1949), não no capitalismo mais desenvolvido. A frase \"os expropriadores serão expropriados\" (t30) não se cumpriu.",
+   "limites": "O texto de Marx sobre empobrecimento (t20) fala em acumulação de miséria no polo oposto e, em outras passagens (livro I, cap. 23), em relações entre salários e ciclos; a leitura \"empobrecimento absoluto\" é de Kautsky e de críticos, e é disputada. As previsões são tendências condicionadas a \"causas contrariantes\", e o Marx tardio não previu a ordem das revoluções (t56-t58). Mesmo assim, o núcleo predictivo (superação pelo conflito entre forças e relações) não se confirmou, e essa não confirmação deve ser dita.",
+   "textos": [
+    "t20-capital1-polos",
+    "t30-capital1-expropriateure",
+    "t03-prefacio-1859-condicoes",
+    "t56-zasulich-resposta"
+   ]
+  },
+  {
+   "id": "c05-popper-historicismo",
+   "contra_tese": "O marxismo é historicismo: afirma leis do desenvolvimento histórico não falsificáveis (\"profecia\" e não ciência).",
+   "autores": [
+    "Karl Popper"
+   ],
+   "argumento": "Na Miséria do Historicismo (1957) e em A Sociedade Aberta e Seus Inimigos (1945), Popper critica a pretensão de prever o curso da história e acusa o marxismo de, nas versões mais usuais, imunizar-se contra a refutação com hipóteses ad hoc. Ele distingue as previsões iniciais de Marx (falsificáveis e, na sua leitura, falsificadas) da adaptação posterior.",
+   "limites": "Popper critica certas leituras do marxismo (e do Marx) mais do que todos os textos; Marx (t34, t54-t58) nega a validade de \"chave universal\". O próprio Popper reconhece em Marx a análise social de alguns mecanismos. A crítica é metodológica; não resolve a pergunta empírica da tese 1.",
+   "textos": [
+    "t02-prefacio-1859-grilhoes",
+    "t30-capital1-expropriateure",
+    "t54-otechestvennye-skizze",
+    "t55-otechestvennye-passepartout"
+   ]
+  },
+  {
+   "id": "c06-calculo-economico-conhecimento",
+   "contra_tese": "O planejamento que Marx sugere é inviável: sem preços de mercado para bens de capital não há cálculo econômico (Mises), e o conhecimento é disperso (Hayek).",
+   "autores": [
+    "Ludwig von Mises",
+    "Friedrich Hayek",
+    "János Kornai"
+   ],
+   "argumento": "Mises (1920): sem propriedade privada dos meios de produção e sem preços de mercado, os planejadores não podem comparar alternativas de produção. Hayek (1945): o conhecimento relevante é local, tácito e disperso; os preços o sintetizam. Kornai (1992): o socialismo real falhou também por restrição orçamentária branda e por incentivos, produzindo escassez crônica.",
+   "limites": "Marx não propõe um plano central detalhado (t36, t53). Lange e Lerner, e depois defensores de socialismo de mercado, oferecem respostas formais; o debate sobre computação e dados continua. O argumento atinge o planejamento central abrangente, não toda coordenação não mercantil (famílias, firmas, comunidades).",
+   "textos": [
+    "t09-capital1-controle-planejado",
+    "t36-capital1-nachwort-rezepte",
+    "t64-capital1-preise-regulieren",
+    "t65-capital1-anarchie"
+   ]
+  },
+  {
+   "id": "c07-transicao-ingles-mercado",
+   "contra_tese": "A transição inglesa foi, em grande parte, mudança de práticas de mercado e produtividade agrária, não só violência e expropriação.",
+   "autores": [
+    "Robert Allen (a conferir)",
+    "Deirdre McCloskey (a conferir)",
+    "Joel Mokyr (a conferir)",
+    "Douglass North"
+   ],
+   "argumento": "Parte da historiografia econômica sustenta que o aumento da produtividade agrícola, a mudança técnica e a abertura comercial explicam a industrialização britânica, e que os cercamentos não foram o fator decisivo ou, em alguns casos, foram negociados e compensados. O argumento de que a \"violência\" é a parteira (t26) é visto como exagero.",
+   "limites": "Mesmo nessa leitura, a existência de leis (Atos de Cercamento, Poor Laws), de dívida pública, de proteção e de Estado fiscal-militar é aceita; a discordância é sobre peso e causalidade. As referências não foram verificadas aqui; apresentar como posição historiográfica a conferir.",
+   "textos": [
+    "t26-capital1-staatsgewalt",
+    "t29-capital1-bills-inclosures",
+    "t28-capital1-expropriation-landvolk"
+   ]
+  },
+  {
+   "id": "c08-disputa-verbal",
+   "contra_tese": "A tese é uma disputa verbal: com a definição marxiana, é trivial; com a corrente, é falsa.",
+   "autores": [
+    "crítica lógica genérica; ver Weber (tipos ideais) e Kornai (definições de sistema)"
+   ],
+   "argumento": "A frase \"o capitalismo não é implementável\" é verdadeira se capitalismo significa relação de classes emergente (uma definição que a torna analítica) e falsa se significa mercado com propriedade privada (que se pode decretar). Em nenhum dos casos acrescenta informação além da definição. A discussão ganharia em usar termos operacionais (propriedade, concorrência, mercado de trabalho, regime monetário).",
+   "limites": "Há uma resposta: a distinção não é trivial porque vários debates de política (privatização, abertura) usam os dois sentidos no mesmo argumento; separar os sentidos evita ambiguidade. O projeto adota essa resposta (ver \"o que isto muda\").",
+   "textos": [
+    "t05-capital1-warensammlung",
+    "t23-capital1-scheidung",
+    "t49-capital3-antediluvianisch"
+   ]
+  },
+  {
+   "id": "c09-estado-planeja-nao-implica-nao-implementavel",
+   "contra_tese": "Que o Estado tenha criado condições (Polanyi) mostra que o capitalismo é implementável: foi implementado, por política.",
+   "autores": [
+    "Karl Polanyi (leitura contrária)",
+    "North e Weingast",
+    "Mariana Mazzucato (leitura contrária)"
+   ],
+   "argumento": "Se o laissez-faire foi planejado, então o capitalismo pode ser planejado. As evidências que a tese cita (cercamentos, Poor Law, leis de colonização de Wakefield) mostram que governos criam as condições. A conclusão correta seria \"capitalismo é implementável por política deliberada\", não o contrário.",
+   "limites": "Concedido em parte: o que a tese nega é que bastem políticas simples de adoção; a implementação, segundo Marx e Polanyi, envolveu violência, resistência e contramovimentos, e os resultados (inclusive o duplo movimento) escaparam ao controle. O ponto é de grau e de custo, não de impossibilidade lógica.",
+   "textos": [
+    "t26-capital1-staatsgewalt",
+    "t32-capital1-wakefield-artificial",
+    "t34-capital1-wegdekretieren"
+   ]
+  }
+ ],
+ "mal_entendidos": [
+  {
+   "id": "m01-marx-afirmou-nao-implementavel",
+   "equivoco": "\"Marx disse que o capitalismo não é um sistema econômico implementável.\"",
+   "o_que_o_texto_diz": "Nos trechos lidos, Marx não escreve essa frase nem uma equivalente. Ele afirma (a) que o capital é relação social (t31), (b) que sua gênese exigiu separação histórica e violência (t23, t26), (c) que uma sociedade não pode saltar nem abolir por decreto as fases de desenvolvimento (t34). A tese \"não é implementável\" é inferência de leitores (Polanyi e outros) a partir desses pontos, não citação.",
+   "textos": [
+    "t23-capital1-scheidung",
+    "t26-capital1-staatsgewalt",
+    "t31-capital1-wakefield-relacao",
+    "t34-capital1-wegdekretieren"
+   ],
+   "origem_da_confusao": "Conclusão atribuída ao autor que a inspirou; efeito de resumos e de slogans."
+  },
+  {
+   "id": "m02-marx-estado-planificador",
+   "equivoco": "\"Marx propôs um Estado que planifica toda a economia.\"",
+   "o_que_o_texto_diz": "Marx fala de produtores \"livremente associados\" sob \"controle consciente e planejado\" (t09), mas não descreve um órgão estatal de planejamento; na Crítica de Gotha ironiza construir sociedade com empréstimos do Estado (t53). Engels (Anti-Dühring) escreve que o Estado \"definha\" e que estatização não suprime a relação de capital (t61, t62). O planejamento central soviético não vem de um desenho dele.",
+   "textos": [
+    "t09-capital1-controle-planejado",
+    "t53-gotha-staatsanleihe",
+    "t61-antiduehring-gesamtkapitalist",
+    "t62-antiduehring-verwaltung"
+   ],
+   "origem_da_confusao": "Leninismo e stalinismo transformaram \"marxismo\" em doutrina de Estado; manuais de partido condensaram."
+  },
+  {
+   "id": "m03-marx-deu-receita",
+   "equivoco": "\"Marx escreveu um programa/receita para a economia do futuro.\"",
+   "o_que_o_texto_diz": "Marx rejeita receitas (t36, t37). Na Crítica de Gotha descreve fases, com o direito burguês na fase inferior e o princípio \"de cada um... a cada um...\" na superior (t51, t52), mas não regras de preço, alocação ou incentivo.",
+   "textos": [
+    "t36-capital1-nachwort-rezepte",
+    "t37-capital1-postface-fr",
+    "t51-gotha-muttermale",
+    "t52-gotha-beduerfnissen"
+   ],
+   "origem_da_confusao": "O Manifesto tem \"dez medidas\" (não lidas aqui); o resto da obra foi lida como programa."
+  },
+  {
+   "id": "m04-marx-previu-urss",
+   "equivoco": "\"Marx previu a URSS\" ou \"previu revolução em país atrasado\".",
+   "o_que_o_texto_diz": "No Prefácio de 1859, uma formação social \"nunca perece antes que estejam desenvolvidas todas as forças produtivas para as quais é suficientemente ampla\" (t03), o que pode ser lido como expectativa de revolução em países avançados. Nas cartas a Zasulich (1881) e no prefácio russo de 1882, Marx admite uma via russa condicional (t57, t66). Nenhum texto aqui lido prevê um Estado soviético.",
+   "textos": [
+    "t03-prefacio-1859-condicoes",
+    "t56-zasulich-resposta",
+    "t57-zasulich-comuna",
+    "t66-vorwort-1882-russisch"
+   ],
+   "origem_da_confusao": "Leninismo: revolução em \"elo mais fraco\"; a URSS se apresentou como realização do marxismo."
+  },
+  {
+   "id": "m05-abolir-toda-propriedade",
+   "equivoco": "\"Marx queria abolir toda propriedade.\"",
+   "o_que_o_texto_diz": "\"Was den Kommunismus auszeichnet, ist nicht die Abschaffung des Eigentums überhaupt, sondern die Abschaffung des bürgerlichen Eigentums\" (t43). Mas o mesmo capítulo diz que a teoria se resume em \"abolição da propriedade privada\", entendida como propriedade que se funda na exploração.",
+   "textos": [
+    "t43-manifest-eigentum"
+   ],
+   "origem_da_confusao": "Uso retórico anti-comunista; ambiguidade do Manifesto."
+  },
+  {
+   "id": "m06-marx-condenou-dinamismo",
+   "equivoco": "\"Marx negou que o capitalismo fosse produtivo/dinâmico.\"",
+   "o_que_o_texto_diz": "O Manifesto atribui à burguesia forças produtivas \"mais maciças e mais colossais do que todas as gerações passadas\" e uma revolução contínua dos meios de produção (t40, t41, t42). A crítica é à forma social (crises, exploração, alienação), não à ineficácia produtiva.",
+   "textos": [
+    "t40-manifest-revolutionieren",
+    "t41-manifest-verdampft",
+    "t42-manifest-produktivkraefte"
+   ],
+   "origem_da_confusao": "Simplificação da crítica de Marx ao capitalismo."
+  },
+  {
+   "id": "m07-economicismo-determinismo",
+   "equivoco": "\"Marx é um determinista econômico: a economia determina tudo mecanicamente.\"",
+   "o_que_o_texto_diz": "O Prefácio de 1859 (t01, t02) fala de base e superestrutura e de contradição entre forças e relações; leituras deterministas partem daí. Engels, em 1890, nega que ele e Marx tenham dito mais do que \"em última instância\" e chama de \"frase sem sentido\" a leitura de que o econômico é o único determinante (t60). Marx afirma também que a sociedade pode \"abreviar e atenuar as dores do parto\" (t34). A distinção correta: economicismo (só o econômico explica), determinismo (a história segue estágios necessários) e condicionamento (o econômico limita o possível). Os textos podem ser lidos nas três direções; a interpretação precisa ser declarada.",
+   "textos": [
+    "t01-prefacio-1859-base",
+    "t02-prefacio-1859-grilhoes",
+    "t34-capital1-wegdekretieren",
+    "t60-engels-bloch",
+    "t35-capital1-fabula",
+    "t54-otechestvennye-skizze"
+   ],
+   "origem_da_confusao": "Prefácio de 1859 (formulação compacta), Segunda Internacional (Kautsky), manuais soviéticos."
+  },
+  {
+   "id": "m08-marxismo-e-marx",
+   "equivoco": "\"Marxismo é o que Marx pensou.\"",
+   "o_que_o_texto_diz": "Marx teria dito (relato de Engels) \"tudo que sei é que não sou marxista\" a respeito dos \"marxistas\" franceses dos anos 1870 (t59, fonte secundária, tradução inglesa). Engels, Kautsky, Plekhanov, Lenin e Stalin sistematizaram uma doutrina (\"materialismo dialético\", \"Diamat\", a conferir) que não aparece como tal em Marx. A obra de Engels (t61, t62) nem sempre coincide com a de Marx; a influência mútua é discutida.",
+   "textos": [
+    "t59-engels-schmidt",
+    "t60-engels-bloch",
+    "t61-antiduehring-gesamtkapitalist",
+    "t62-antiduehring-verwaltung"
+   ],
+   "origem_da_confusao": "Canonização do \"marxismo-leninismo\" na URSS; práticas editoriais (MEW, Instituto Marx-Engels-Lenin)."
+  },
+  {
+   "id": "m09-capitalismo-igual-mercado",
+   "equivoco": "\"Capitalismo = mercado.\"",
+   "o_que_o_texto_diz": "Marx separa circulação de mercadorias, comércio, capital mercantil e usurário (pré-capitalistas) do modo de produção capitalista (t10, t49). Braudel e Weber têm distinções diferentes entre mercado e capitalismo (definições ver tese 2).",
+   "textos": [
+    "t10-capital1-circulacao-pressuposto",
+    "t49-capital3-antediluvianisch",
+    "t05-capital1-warensammlung"
+   ],
+   "origem_da_confusao": "Uso corrente e discurso político; economia convencional não distingue."
+  },
+  {
+   "id": "m10-capitalismo-igual-propriedade-privada",
+   "equivoco": "\"Capitalismo = propriedade privada.\"",
+   "o_que_o_texto_diz": "Marx distingue propriedade fundada no trabalho próprio e propriedade capitalista (t30, t43): a segunda pressupõe separação do produtor dos meios (t24). Camponeses com propriedade privada não formam, por si, relação de capital; a economia de pequenos produtores independentes é pré-capitalista no vocabulário dele.",
+   "textos": [
+    "t24-capital1-kapitalverhaeltnis",
+    "t30-capital1-expropriateure",
+    "t43-manifest-eigentum"
+   ],
+   "origem_da_confusao": "Equivalência retórica: \"defender propriedade\" vira \"defender capitalismo\"."
+  },
+  {
+   "id": "m11-liberalismo-neoliberalismo",
+   "equivoco": "\"Capitalismo = liberalismo = neoliberalismo.\"",
+   "o_que_o_texto_diz": "São categorias de tipos diferentes: capitalismo (relação social/modo de produção), liberalismo (doutrina política e econômica, séculos XVII-XIX), neoliberalismo (família de ideias e políticas do século XX, usada com sentidos diversos, a definir). O capitalismo existiu com regimes autoritários, com Estados de bem-estar, com protecionismo e com liberalismo; o neoliberalismo é uma forma de regulação do capitalismo, não seu sinônimo. A literatura (Polanyi, Slobodian, Harvey, a conferir) discute o papel do Estado.",
+   "textos": [
+    "t15-capital1-normalarbeitstag",
+    "t16-capital1-fabrikgesetz",
+    "t26-capital1-staatsgewalt"
+   ],
+   "origem_da_confusao": "Polêmica política; falta de definição operacional."
+  },
+  {
+   "id": "m12-capitalismo-de-estado",
+   "equivoco": "\"Estatização = socialismo\" ou \"estatal = anticapitalista\".",
+   "o_que_o_texto_diz": "Engels no Anti-Dühring: a transformação em sociedades por ações ou em propriedade estatal \"não suprime\" a natureza de capital das forças produtivas; os trabalhadores \"continuam assalariados\" (t61). A leitura não resolve se os regimes soviéticos eram \"capitalismo de Estado\" (Tony Cliff, a conferir), \"socialismo real\" ou outro; é controvérsia.",
+   "textos": [
+    "t61-antiduehring-gesamtkapitalist"
+   ],
+   "origem_da_confusao": "Equação, comum em ambos os lados da Guerra Fria, entre propriedade estatal e socialismo."
+  },
+  {
+   "id": "m13-compadrio-mercantilismo",
+   "equivoco": "\"Capitalismo de compadrio e mercantilismo não são capitalismo\" ou \"são o capitalismo real\".",
+   "o_que_o_texto_diz": "Marx inclui sistema colonial, dívida pública, tributos e proteção entre os métodos da acumulação primitiva (t26): para ele, o Estado ativo faz parte da gênese. \"Capitalismo de compadrio\" não é categoria de Marx; Lazzarini (capitalismo de laços) a trata como variedade, com redes de relações entre firmas, Estado e fundos. O rótulo \"isto não é capitalismo de verdade\" é movimento retórico.",
+   "textos": [
+    "t26-capital1-staatsgewalt",
+    "t49-capital3-antediluvianisch"
+   ],
+   "origem_da_confusao": "Defesa ou ataque do capitalismo por casos típicos escolhidos."
+  },
+  {
+   "id": "m14-tudo-que-e-solido",
+   "equivoco": "\"Tudo que é sólido desmancha no ar\" é frase literal do Manifesto em alemão.",
+   "o_que_o_texto_diz": "O alemão diz \"Alles Ständische und Stehende verdampft\" (t41), isto é, \"o estamental e estável evapora\". A formulação \"all that is solid melts into air\" vem da tradução inglesa de 1888 (a conferir); o título de Berman (1982) a popularizou.",
+   "textos": [
+    "t41-manifest-verdampft"
+   ],
+   "origem_da_confusao": "Citação em tradução repetida como original."
+  },
+  {
+   "id": "m15-violencia-explica-tudo",
+   "equivoco": "\"Para Marx, a violência explica a origem do capitalismo (e de todo poder).\"",
+   "o_que_o_texto_diz": "A frase é \"a violência é a parteira de toda velha sociedade que está grávida de uma nova\" (t26): a gravidez (tendências já presentes na sociedade feudal) é pressuposto; a violência acelera, \"ela própria é uma potência econômica\". Marx escreve também que a estrutura econômica capitalista \"hervorgegangen aus der ökonomischen Struktur der feudalen Gesellschaft\" (t23, contexto).",
+   "textos": [
+    "t26-capital1-staatsgewalt",
+    "t23-capital1-scheidung",
+    "t39-capital1-fr-force-accoucheuse"
+   ],
+   "origem_da_confusao": "Frase citada isolada do resto da frase e do contexto."
+  },
+  {
+   "id": "m16-acumulacao-primitiva-so-passado",
+   "equivoco": "\"Para Marx, a acumulação primitiva é um episódio passado e acabado\" ou, inversamente, \"Marx já via expropriação contínua\".",
+   "o_que_o_texto_diz": "Marx a trata como \"pré-história\" do capital (t23) e diz que, uma vez estabelecida, a produção capitalista reproduz a separação em escala crescente (t24). A leitura de continuidade (Luxemburg 1913, Harvey 2003: \"acumulação por espoliação\") é extensão posterior e não está nos trechos lidos.",
+   "textos": [
+    "t23-capital1-scheidung",
+    "t24-capital1-kapitalverhaeltnis"
+   ],
+   "origem_da_confusao": "A mesma palavra (\"primitiva\") sugere passado; a literatura posterior reabre o conceito."
+  },
+  {
+   "id": "m17-marx-teoria-universal",
+   "equivoco": "\"Marx formulou uma teoria universal de estágios válida para todas as sociedades.\"",
+   "o_que_o_texto_diz": "Em 1877 e 1881 Marx nega transformar seu esboço da gênese do capitalismo na Europa Ocidental em teoria filosófico-histórica geral (t54, t55, t56). Mas O Capital I (1867) diz que o país mais desenvolvido mostra ao menos desenvolvido \"a imagem de seu futuro\" (t35) e o Prefácio de 1859 (t03) parece formular lei geral. A controvérsia é sobre peso e cronologia, não sobre a existência dos textos.",
+   "textos": [
+    "t35-capital1-fabula",
+    "t54-otechestvennye-skizze",
+    "t55-otechestvennye-passepartout",
+    "t56-zasulich-resposta",
+    "t38-capital1-fr-europe-occidentale"
+   ],
+   "origem_da_confusao": "Stalin e manuais (cinco estágios); leitura única do Prefácio de 1859."
+  }
+ ],
+ "pensadores": [
+  {
+   "id": "polanyi",
+   "nome": "Karl Polanyi (1886-1964)",
+   "obra_chave": [
+    {
+     "titulo": "The Great Transformation",
+     "ano": 1944,
+     "url": "https://en.wikipedia.org/wiki/The_Great_Transformation_(book)",
+     "verificado": true
+    }
+   ],
+   "posicao": "O mercado autorregulado de terra, trabalho e dinheiro é construção política; a sociedade reage em \"duplo movimento\". A frase \"laissez-faire foi planejado; o planejamento não\" é dele (não conferida na fonte nesta pesquisa).",
+   "relacao_com_marx": "Compatível com Marx na tese de que a economia de mercado foi instituída; diverge ao enfatizar proteção social e reciprocidade, e ao rejeitar parte do vocabulário de classe.",
+   "id_no_projeto_pilares_pensamento": "karl-polanyi"
+  },
+  {
+   "id": "braudel",
+   "nome": "Fernand Braudel (1902-1985)",
+   "obra_chave": [
+    {
+     "titulo": "Civilisation matérielle, économie et capitalisme (XVe-XVIIIe siècle)",
+     "ano": 1979,
+     "url": "https://en.wikipedia.org/wiki/Fernand_Braudel",
+     "verificado": true
+    }
+   ],
+   "posicao": "Três andares: vida material, economia de mercado e capitalismo como camada de monopólio e poder acima do mercado.",
+   "relacao_com_marx": "Concorda que mercado e capitalismo diferem; diferença: Braudel vê o capitalismo como antigo (cidades-Estado italianas), Marx como moderno."
+  },
+  {
+   "id": "weber",
+   "nome": "Max Weber (1864-1920)",
+   "obra_chave": [
+    {
+     "titulo": "Die protestantische Ethik und der Geist des Kapitalismus",
+     "ano": 1905,
+     "url": "https://en.wikipedia.org/wiki/The_Protestant_Ethic_and_the_Spirit_of_Capitalism",
+     "verificado": true
+    }
+   ],
+   "posicao": "Capitalismo moderno: empreendimento racional contínuo, contabilidade de capital, trabalho livre, direito calculável; ética protestante como componente cultural.",
+   "relacao_com_marx": "Dialoga com Marx: concorda com a especificidade do capitalismo moderno; atribui papel causal à cultura e à racionalização, e não só às relações de produção."
+  },
+  {
+   "id": "hayek",
+   "nome": "Friedrich Hayek (1899-1992)",
+   "obra_chave": [
+    {
+     "titulo": "The Use of Knowledge in Society",
+     "ano": 1945,
+     "url": "https://en.wikipedia.org/wiki/The_Use_of_Knowledge_in_Society",
+     "verificado": true
+    },
+    {
+     "titulo": "The Road to Serfdom",
+     "ano": 1944,
+     "url": "https://en.wikipedia.org/wiki/The_Road_to_Serfdom",
+     "verificado": true
+    }
+   ],
+   "posicao": "Ordem espontânea; conhecimento disperso agregado por preços (1945); regras de conduta gerais; ceticismo com planejamento central.",
+   "relacao_com_marx": "Crítico direto do planejamento socialista; coincide em dizer que a economia não foi \"desenhada\"; diverge na conclusão."
+  },
+  {
+   "id": "mises",
+   "nome": "Ludwig von Mises (1881-1973)",
+   "obra_chave": [
+    {
+     "titulo": "Die Wirtschaftsrechnung im sozialistischen Gemeinwesen",
+     "ano": 1920,
+     "url": "https://en.wikipedia.org/wiki/Economic_calculation_problem",
+     "verificado": true
+    }
+   ],
+   "posicao": "Sem preços de mercado para bens de capital, o socialismo não calcula (1920).",
+   "relacao_com_marx": "Crítico do socialismo, não de Marx especificamente; ataca a viabilidade do planejamento."
+  },
+  {
+   "id": "schumpeter",
+   "nome": "Joseph Schumpeter (1883-1950)",
+   "obra_chave": [
+    {
+     "titulo": "Capitalism, Socialism and Democracy",
+     "ano": 1942,
+     "url": "https://en.wikipedia.org/wiki/Capitalism,_Socialism_and_Democracy",
+     "verificado": true
+    }
+   ],
+   "posicao": "Destruição criadora como essência do capitalismo; o sucesso do sistema mina suas bases sociais e institucionais; previu socialização gradual.",
+   "relacao_com_marx": "Reconhece Marx como grande analista; discorda do mecanismo (empreendedor, não exploração) e da causa da decadência."
+  },
+  {
+   "id": "keynes",
+   "nome": "John Maynard Keynes (1883-1946)",
+   "obra_chave": [
+    {
+     "titulo": "The General Theory of Employment, Interest and Money",
+     "ano": 1936,
+     "url": "https://en.wikipedia.org/wiki/The_General_Theory_of_Employment,_Interest_and_Money",
+     "verificado": true
+    }
+   ],
+   "posicao": "Instabilidade da demanda e incerteza; o Estado deve estabilizar emprego e investimento; faltas do sistema: desemprego e distribuição arbitrária.",
+   "relacao_com_marx": "Cético quanto à teoria do valor de Marx (a conferir em seus escritos); suas conclusões sobre instabilidade e desemprego, porém, aproximam-se de leituras de crise."
+  },
+  {
+   "id": "kalecki",
+   "nome": "Michał Kalecki (1899-1970)",
+   "obra_chave": [
+    {
+     "titulo": "Political Aspects of Full Employment",
+     "ano": 1943,
+     "url": "https://en.wikipedia.org/wiki/Micha%C5%82_Kalecki",
+     "verificado": true
+    }
+   ],
+   "posicao": "Determinação do lucro pelo investimento e consumo dos capitalistas; limites políticos ao pleno emprego (1943).",
+   "relacao_com_marx": "Chegou a resultados próximos aos keynesianos a partir dos esquemas de reprodução de Marx (a conferir)."
+  },
+  {
+   "id": "minsky",
+   "nome": "Hyman Minsky (1919-1996)",
+   "obra_chave": [
+    {
+     "titulo": "Stabilizing an Unstable Economy",
+     "ano": 1986,
+     "url": "https://en.wikipedia.org/wiki/Hyman_Minsky",
+     "verificado": true
+    }
+   ],
+   "posicao": "Hipótese de instabilidade financeira: estabilidade gera fragilidade; o sistema precisa de bancos centrais e seguros.",
+   "relacao_com_marx": "Herdeiro de Keynes; pouco marxiano, mas converge com a visão de crise endógena."
+  },
+  {
+   "id": "kornai",
+   "nome": "János Kornai (1928-2021)",
+   "obra_chave": [
+    {
+     "titulo": "The Socialist System: The Political Economy of Communism",
+     "ano": 1992,
+     "url": "https://en.wikipedia.org/wiki/J%C3%A1nos_Kornai",
+     "verificado": true
+    }
+   ],
+   "posicao": "Sistemas econômicos como tipos ideais; restrição orçamentária branda e escassez no socialismo; avaliação crítica do planejamento real.",
+   "relacao_com_marx": "Ex-marxista; critica o socialismo real e a teoria do valor; trata Marx como diagnóstico, não como engenharia."
+  },
+  {
+   "id": "piketty",
+   "nome": "Thomas Piketty (1971-)",
+   "obra_chave": [
+    {
+     "titulo": "Le Capital au XXIe siècle",
+     "ano": 2013,
+     "url": "https://en.wikipedia.org/wiki/Capital_in_the_Twenty-First_Century",
+     "verificado": true
+    }
+   ],
+   "posicao": "r>g tende a concentrar riqueza; instituições (imposto progressivo) modulam; dados de longo prazo.",
+   "relacao_com_marx": "Dialoga com Marx no título e na tendência de concentração; rejeita a teoria do valor e a previsão de colapso."
+  },
+  {
+   "id": "mazzucato",
+   "nome": "Mariana Mazzucato (1968-)",
+   "obra_chave": [
+    {
+     "titulo": "The Entrepreneurial State",
+     "ano": 2013,
+     "url": "https://en.wikipedia.org/wiki/Mariana_Mazzucato",
+     "verificado": true
+    }
+   ],
+   "posicao": "O Estado cria e molda mercados e assume riscos de inovação (\"Estado empreendedor\").",
+   "relacao_com_marx": "Aproxima-se da leitura de Polanyi e Marx (Estado constitutivo), sem a categoria de classe."
+  },
+  {
+   "id": "oconnor",
+   "nome": "James O'Connor (1930-2017)",
+   "obra_chave": [
+    {
+     "titulo": "Capitalism, Nature, Socialism (revista; ensaio \"The Second Contradiction of Capitalism\")",
+     "ano": 1988,
+     "url": "https://en.wikipedia.org/wiki/Second_contradiction_of_capitalism",
+     "verificado": false
+    }
+   ],
+   "posicao": "A \"segunda contradição do capitalismo\": o capital destrói as condições de produção (natureza, trabalho, espaço urbano) e gera crise de custos.",
+   "relacao_com_marx": "Marxista ecológico; amplia Marx para condições de produção."
+  },
+  {
+   "id": "fraser",
+   "nome": "Nancy Fraser (1947-)",
+   "obra_chave": [
+    {
+     "titulo": "Behind Marx's Hidden Abode: For an Expanded Conception of Capitalism",
+     "ano": 2014,
+     "url": "https://en.wikipedia.org/wiki/Nancy_Fraser",
+     "verificado": true
+    }
+   ],
+   "posicao": "O capitalismo é \"ordem social institucionalizada\" que depende de reprodução social, natureza e poder político fora do mercado.",
+   "relacao_com_marx": "Amplia a \"morada oculta\" de Marx para trabalho reprodutivo e natureza."
+  },
+  {
+   "id": "hall-soskice",
+   "nome": "Peter Hall e David Soskice",
+   "obra_chave": [
+    {
+     "titulo": "Varieties of Capitalism: The Institutional Foundations of Comparative Advantage",
+     "ano": 2001,
+     "url": "https://en.wikipedia.org/wiki/Varieties_of_Capitalism",
+     "verificado": true
+    }
+   ],
+   "posicao": "Variedades de capitalismo: economias liberais de mercado vs. coordenadas, com vantagens comparativas institucionais.",
+   "relacao_com_marx": "Não é marxista; a tipologia relativiza \"o capitalismo\" no singular."
+  },
+  {
+   "id": "acemoglu-robinson",
+   "nome": "Daron Acemoglu e James Robinson",
+   "obra_chave": [
+    {
+     "titulo": "Why Nations Fail",
+     "ano": 2012,
+     "url": "https://en.wikipedia.org/wiki/Why_Nations_Fail",
+     "verificado": true
+    }
+   ],
+   "posicao": "Instituições inclusivas explicam prosperidade; extrativas, estagnação; sensibilidade a conjunturas críticas.",
+   "relacao_com_marx": "Em debate implícito com Marx: instituições políticas no centro, não relações de classe."
+  },
+  {
+   "id": "desoto",
+   "nome": "Hernando de Soto (1941-)",
+   "obra_chave": [
+    {
+     "titulo": "The Mystery of Capital",
+     "ano": 2000,
+     "url": "https://en.wikipedia.org/wiki/The_Mystery_of_Capital",
+     "verificado": true
+    }
+   ],
+   "posicao": "Falta de propriedade formalizada impede capital nos países pobres (\"capital morto\").",
+   "relacao_com_marx": "Crítico da leitura de classe; porém sua tese trata justamente da \"construção\" institucional do capital."
+  },
+  {
+   "id": "bohm-bawerk",
+   "nome": "Eugen von Böhm-Bawerk (1851-1914)",
+   "obra_chave": [
+    {
+     "titulo": "Zum Abschluss des Marxschen Systems",
+     "ano": 1896,
+     "url": "https://en.wikipedia.org/wiki/Eugen_von_B%C3%B6hm-Bawerk",
+     "verificado": true
+    }
+   ],
+   "posicao": "Crítica ao valor-trabalho e à contradição entre livros I e III (1896).",
+   "relacao_com_marx": "Principal crítico teórico clássico de Marx na economia acadêmica."
+  },
+  {
+   "id": "popper",
+   "nome": "Karl Popper (1902-1994)",
+   "obra_chave": [
+    {
+     "titulo": "The Poverty of Historicism",
+     "ano": 1957,
+     "url": "https://en.wikipedia.org/wiki/The_Poverty_of_Historicism",
+     "verificado": true
+    }
+   ],
+   "posicao": "Crítica ao historicismo e à imunização do marxismo contra a refutação.",
+   "relacao_com_marx": "Crítico de leituras deterministas; reconhece mecanismos sociais em Marx."
+  },
+  {
+   "id": "caio-prado",
+   "nome": "Caio Prado Jr. (1907-1990)",
+   "obra_chave": [
+    {
+     "titulo": "Formação do Brasil Contemporâneo",
+     "ano": 1942,
+     "url": "https://pt.wikipedia.org/wiki/Forma%C3%A7%C3%A3o_do_Brasil_Contempor%C3%A2neo",
+     "verificado": true
+    }
+   ],
+   "posicao": "O \"sentido da colonização\" é produzir para o mercado externo; a economia brasileira foi comercial desde o início.",
+   "relacao_com_marx": "Marxista brasileiro heterodoxo; critica as teses feudalistas."
+  },
+  {
+   "id": "florestan",
+   "nome": "Florestan Fernandes (1920-1995)",
+   "obra_chave": [
+    {
+     "titulo": "A Revolução Burguesa no Brasil",
+     "ano": 1975,
+     "url": "https://pt.wikipedia.org/wiki/Florestan_Fernandes",
+     "verificado": true
+    }
+   ],
+   "posicao": "Revolução burguesa atípica; capitalismo dependente e autocrático.",
+   "relacao_com_marx": "Marxista sociológico; aplica categorias de classe ao Brasil."
+  },
+  {
+   "id": "furtado",
+   "nome": "Celso Furtado (1920-2004)",
+   "obra_chave": [
+    {
+     "titulo": "Formação Econômica do Brasil",
+     "ano": 1959,
+     "url": "https://pt.wikipedia.org/wiki/Forma%C3%A7%C3%A3o_Econ%C3%B4mica_do_Brasil",
+     "verificado": true
+    }
+   ],
+   "posicao": "Subdesenvolvimento como processo histórico específico e não etapa; estrutura de demanda e inserção externa.",
+   "relacao_com_marx": "Estruturalista cepalino, com diálogo crítico com Marx.",
+   "id_no_projeto_pilares_pensamento": "celso-furtado"
+  },
+  {
+   "id": "marini",
+   "nome": "Ruy Mauro Marini (1932-1997)",
+   "obra_chave": [
+    {
+     "titulo": "Dialética da Dependência",
+     "ano": 1973,
+     "url": "https://pt.wikipedia.org/wiki/Ruy_Mauro_Marini",
+     "verificado": true
+    }
+   ],
+   "posicao": "Capitalismo dependente: superexploração do trabalho e subimperialismo.",
+   "relacao_com_marx": "Marxista; reinterpreta a teoria do valor para a periferia."
+  },
+  {
+   "id": "cardoso-faletto",
+   "nome": "Fernando Henrique Cardoso e Enzo Faletto",
+   "obra_chave": [
+    {
+     "titulo": "Dependência e Desenvolvimento na América Latina",
+     "ano": 1969,
+     "url": "https://pt.wikipedia.org/wiki/Teoria_da_depend%C3%AAncia",
+     "verificado": true
+    }
+   ],
+   "posicao": "Dependência associada: margens de manobra e alianças de classe nos países periféricos.",
+   "relacao_com_marx": "Usam categorias de classe, rejeitam a tese do desenvolvimento impossível."
+  },
+  {
+   "id": "chico-oliveira",
+   "nome": "Francisco de Oliveira (1933-2019)",
+   "obra_chave": [
+    {
+     "titulo": "Crítica à Razão Dualista / O Ornitorrinco",
+     "ano": 2003,
+     "url": "https://pt.wikipedia.org/wiki/Francisco_de_Oliveira",
+     "verificado": true
+    }
+   ],
+   "posicao": "O ornitorrinco: acumulação moderna convivendo com atraso, dessubstancialização do trabalho no Brasil contemporâneo.",
+   "relacao_com_marx": "Marxista crítico; revisita a \"dualidade\" (Crítica à razão dualista, 1972)."
+  },
+  {
+   "id": "lazzarini",
+   "nome": "Sérgio Lazzarini (a conferir)",
+   "obra_chave": [
+    {
+     "titulo": "Capitalismo de Laços: Os Donos do Brasil e Suas Conexões",
+     "ano": 2011,
+     "url": "https://pt.wikipedia.org/wiki/S%C3%A9rgio_Lazzarini",
+     "verificado": false
+    }
+   ],
+   "posicao": "Capitalismo de laços: redes políticas e financeiras entre empresas, Estado e fundos.",
+   "relacao_com_marx": "Não é marxista; a rede é objeto de análise empírica."
+  },
+  {
+   "id": "luxemburg",
+   "nome": "Rosa Luxemburgo (1871-1919)",
+   "obra_chave": [
+    {
+     "titulo": "Die Akkumulation des Kapitals",
+     "ano": 1913,
+     "url": "https://en.wikipedia.org/wiki/The_Accumulation_of_Capital",
+     "verificado": true
+    }
+   ],
+   "posicao": "Acumulação capitalista depende de ambiente não capitalista; expropriação contínua.",
+   "relacao_com_marx": "Estende a acumulação primitiva a processo permanente."
+  },
+  {
+   "id": "lenin",
+   "nome": "Vladimir Lênin (1870-1924)",
+   "obra_chave": [
+    {
+     "titulo": "Imperialismus als höchstes Stadium des Kapitalismus",
+     "ano": 1917,
+     "url": "https://en.wikipedia.org/wiki/Imperialism,_the_Highest_Stage_of_Capitalism",
+     "verificado": true
+    }
+   ],
+   "posicao": "Imperialismo como fase superior; partido de vanguarda.",
+   "relacao_com_marx": "Fundador da tradição marxista-leninista; sistematizador, não Marx."
+  },
+  {
+   "id": "kautsky",
+   "nome": "Karl Kautsky (1854-1938)",
+   "obra_chave": [
+    {
+     "titulo": "Karl Marx' ökonomische Lehren",
+     "ano": 1887,
+     "url": "https://en.wikipedia.org/wiki/Karl_Kautsky",
+     "verificado": true
+    }
+   ],
+   "posicao": "Sistematizador do marxismo da Segunda Internacional; determinismo evolutivo.",
+   "relacao_com_marx": "Editor de Marx (livro IV) e intérprete canônico; diferenças de leitura."
+  },
+  {
+   "id": "williams",
+   "nome": "Eric Williams (1911-1981)",
+   "obra_chave": [
+    {
+     "titulo": "Capitalism and Slavery",
+     "ano": 1944,
+     "url": "https://en.wikipedia.org/wiki/Capitalism_and_Slavery",
+     "verificado": true
+    }
+   ],
+   "posicao": "Escravidão e tráfico financiaram a industrialização britânica (tese de Williams, debatida).",
+   "relacao_com_marx": "Compatível com Marx sobre papel da colônia e do tráfico; a magnitude é discutida."
+  },
+  {
+   "id": "wood",
+   "nome": "Ellen Meiksins Wood (1942-2016)",
+   "obra_chave": [
+    {
+     "titulo": "The Origin of Capitalism",
+     "ano": 1999,
+     "url": "https://en.wikipedia.org/wiki/Ellen_Meiksins_Wood",
+     "verificado": true
+    }
+   ],
+   "posicao": "A origem do capitalismo é agrária inglesa (imperativos de mercado e rendas competitivas).",
+   "relacao_com_marx": "Marxista política; interpreta a acumulação primitiva como transição agrária."
+  },
+  {
+   "id": "friedman",
+   "nome": "Milton Friedman (1912-2006)",
+   "obra_chave": [
+    {
+     "titulo": "Capitalism and Freedom",
+     "ano": 1962,
+     "url": "https://en.wikipedia.org/wiki/Capitalism_and_Freedom",
+     "verificado": true
+    }
+   ],
+   "posicao": "Capitalismo competitivo e liberdade política; mercados e propriedade privada como base.",
+   "relacao_com_marx": "Opositor de Marx; usa \"capitalismo\" no sentido corrente."
+  },
+  {
+   "id": "harvey",
+   "nome": "David Harvey (1935-)",
+   "obra_chave": [
+    {
+     "titulo": "The New Imperialism (acumulação por espoliação)",
+     "ano": 2003,
+     "url": "https://en.wikipedia.org/wiki/Accumulation_by_dispossession",
+     "verificado": true
+    }
+   ],
+   "posicao": "Acumulação por espoliação como forma contínua de acumulação primitiva.",
+   "relacao_com_marx": "Estende Marx e Luxemburg ao presente."
+  },
+  {
+   "id": "klein",
+   "nome": "Naomi Klein (1970-)",
+   "obra_chave": [
+    {
+     "titulo": "The Shock Doctrine",
+     "ano": 2007,
+     "url": "https://en.wikipedia.org/wiki/The_Shock_Doctrine",
+     "verificado": true
+    }
+   ],
+   "posicao": "Doutrina do choque: crises usadas para impor reformas de mercado.",
+   "relacao_com_marx": "Dialoga com a ideia de Estado e violência na transição, sem categoria de modo de produção."
+  },
+  {
+   "id": "sachs-shock",
+   "nome": "Jeffrey Sachs e a terapia de choque no Leste Europeu (c. 1990)",
+   "obra_chave": [
+    {
+     "titulo": "Terapia de choque na Polônia (1989-91)",
+     "ano": 1990,
+     "url": "https://en.wikipedia.org/wiki/Shock_therapy_(economics)",
+     "verificado": true
+    }
+   ],
+   "posicao": "Liberalização rápida de preços, estabilização e privatização; discussão: papel de instituições e velocidade.",
+   "relacao_com_marx": "Caso de teste para as teses 1 e 3; não é autor marxista."
+  },
+  {
+   "id": "graeber",
+   "nome": "David Graeber (1961-2020)",
+   "obra_chave": [
+    {
+     "titulo": "Debt: The First 5,000 Years",
+     "ano": 2011,
+     "url": "https://en.wikipedia.org/wiki/Debt:_The_First_5,000_Years",
+     "verificado": true
+    }
+   ],
+   "posicao": "Dívida, mercados e moeda como instituições antigas com origens violentas; comunismo básico cotidiano.",
+   "relacao_com_marx": "Antropólogo anarquista; converge com Marx sobre a historicidade do mercado.",
+   "id_no_projeto_pilares_pensamento": "graeber-wengrow"
+  },
+  {
+   "id": "brenner",
+   "nome": "Robert Brenner (1943-)",
+   "obra_chave": [
+    {
+     "titulo": "Agrarian Class Structure and Economic Development in Pre-Industrial Europe",
+     "ano": 1976,
+     "url": "https://en.wikipedia.org/wiki/Brenner_debate",
+     "verificado": true
+    }
+   ],
+   "posicao": "Relações de propriedade agrária (rendas competitivas) explicam a via inglesa (debate Brenner).",
+   "relacao_com_marx": "Marxista político; teoria da transição baseada em relações de classe."
+  },
+  {
+   "id": "lange",
+   "nome": "Oskar Lange (1904-1965)",
+   "obra_chave": [
+    {
+     "titulo": "On the Economic Theory of Socialism",
+     "ano": 1936,
+     "url": "https://en.wikipedia.org/wiki/Oskar_R._Lange",
+     "verificado": true
+    }
+   ],
+   "posicao": "Socialismo de mercado e solução do cálculo por tentativa e erro (1936).",
+   "relacao_com_marx": "Marxista; responde a Mises e Hayek."
+  }
+ ],
+ "o_que_muda_no_projeto": [
+  {
+   "principio": "Trocar \"capitalismo vs socialismo\" por \"quais instituições compõem esta economia\"",
+   "traducao_institucional": "Cada decisão do catálogo é descrita pela instituição que muda: propriedade (privada, estatal, comunal), mercado (onde preços coordenam), plano (onde o Estado coordena), moeda e crédito, regulação, bens comuns, redistribuição. Evita-se concluir que uma decisão \"leva ao capitalismo\" ou \"ao socialismo\".",
+   "ligacoes": {
+    "decisoes": [
+     "indicadores-complementares-ao-pib",
+     "comissario-das-geracoes-futuras",
+     "orcamento-participativo-e-moedas-sociais",
+     "psa-governanca-comunitaria"
+    ],
+    "pilares": [
+     "bens-comuns",
+     "tempo-longo-e-geracoes",
+     "capacidades-e-suficiencia"
+    ],
+    "aneis": [
+     "controle-externo-eleitor"
+    ]
+   }
+  },
+  {
+   "principio": "Separar ampliar mercado de mudar a estrutura de propriedade e de concentração",
+   "traducao_institucional": "Privatizações, concessões e abertura comercial são tratadas como mudanças na composição (quem controla ativos, quem concorre), com efeitos que devem ser lidos nos anéis de disciplina de mercado e de captura/concentração, e não como \"passo rumo ao capitalismo\".",
+   "ligacoes": {
+    "decisoes": [
+     "privatizacoes",
+     "abertura-comercial",
+     "acordo-mercosul-ue",
+     "desoneracao-ampla",
+     "credito-subsidiado"
+    ],
+    "pilares": [
+     "bens-comuns",
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "aneis": [
+     "disciplina-de-mercado",
+     "captura-concentracao"
+    ]
+   }
+  },
+  {
+   "principio": "Registrar os pressupostos institucionais que o mercado não produz",
+   "traducao_institucional": "Moeda e credibilidade (Banco Central), tribunais e Estado de direito (STF), tributação, infraestrutura hídrica, reprodução social (educação, assistência) e natureza são tratados como infraestrutura das decisões e não como \"externalidades\". Uma decisão que erode um pressuposto é registrada como risco institucional.",
+   "ligacoes": {
+    "decisoes": [
+     "reduzir-autonomia-bc",
+     "diretoria-bc-alinhada",
+     "ampliar-stf",
+     "remover-ministros-stf",
+     "seguranca-hidrica-saneamento",
+     "educacao-tecnica-e-alfabetizacao",
+     "ampliar-assistencia",
+     "direitos-da-natureza-municipais"
+    ],
+    "pilares": [
+     "territorio-e-cuidado",
+     "direitos-da-natureza",
+     "limites-planetarios"
+    ],
+    "aneis": [
+     "expectativas-ancoragem",
+     "legitimidade-impunidade",
+     "fiscal-juros-divida",
+     "clima-fiscal-adaptacao"
+    ]
+   }
+  },
+  {
+   "principio": "Tratar estabilizadores (arcabouço fiscal, transferências, crédito público) como parte do desenho do sistema",
+   "traducao_institucional": "A literatura de instabilidade endógena (Keynes, Kalecki, Minsky, Schumpeter) sugere que regras fiscais, benefícios e crédito público têm efeito estabilizador e custos; o projeto os modela como mecanismos com defasagem e reversibilidade, sem presumir que sejam \"anticapitalistas\" ou \"liberais\".",
+   "ligacoes": {
+    "decisoes": [
+     "flexibilizar-arcabouco",
+     "reforcar-arcabouco",
+     "ampliar-assistencia",
+     "perdao-dividas",
+     "credito-subsidiado"
+    ],
+    "pilares": [
+     "capacidades-e-suficiencia",
+     "tempo-longo-e-geracoes"
+    ],
+    "aneis": [
+     "fiscal-juros-divida",
+     "reacao-fiscal",
+     "automacao-trabalho-demanda"
+    ]
+   }
+  },
+  {
+   "principio": "Tratar preços como sinais e como instrumentos de estabilização, e o problema do conhecimento como parâmetro",
+   "traducao_institucional": "O debate Hayek x Marx vira pergunta de desenho: onde preços livres transmitem informação melhor, onde regras ou planos produzem estabilidade ou justiça. Casos: preços de combustíveis, benefícios fiscais, salário mínimo; e, no lado do conhecimento local, consulta prévia, indicadores complementares e governança comunitária.",
+   "ligacoes": {
+    "decisoes": [
+     "politica-precos-combustiveis",
+     "cortar-beneficios-fiscais",
+     "desvincular-minimo",
+     "consulta-previa-regulamentada",
+     "indicadores-complementares-ao-pib"
+    ],
+    "pilares": [
+     "pluralismo-epistemico",
+     "autonomia-e-confluencia"
+    ],
+    "aneis": [
+     "expectativas-ancoragem",
+     "disciplina-de-mercado"
+    ]
+   }
+  },
+  {
+   "principio": "Ler terra, território e coerção com a lente da \"separação do produtor dos meios\" (hipótese de leitura, não afirmação)",
+   "traducao_institucional": "A tese de Marx sobre acumulação primitiva e a extensão (Luxemburg, Harvey) sugerem examinar titulação de terras, garimpo e grilagem como processos que redefinem quem controla meios de produção. É uma hipótese interpretativa a testar com dados do projeto, não uma conclusão.",
+   "ligacoes": {
+    "decisoes": [
+     "homologar-terras-indigenas-e-titular-quilombos",
+     "combate-garimpo-ilegal-e-rastreio-do-ouro",
+     "recuperar-pastagens-degradadas",
+     "consulta-previa-regulamentada"
+    ],
+    "pilares": [
+     "territorio-e-cuidado",
+     "reciprocidade-e-darva",
+     "direitos-da-natureza"
+    ],
+    "aneis": [
+     "territorio-indigena-conservacao",
+     "clima-floresta-agro"
+    ]
+   }
+  },
+  {
+   "principio": "Ler a inserção externa e a política industrial pela literatura brasileira (dependência, ornitorrinco, laços)",
+   "traducao_institucional": "Estratégia de minerais críticos, política industrial verde e crédito subsidiado são lidas como decisões sobre inserção na cadeia de valor e sobre redes de controle (Lazzarini), com cautela quanto à evidência (casos asiáticos).",
+   "ligacoes": {
+    "decisoes": [
+     "estrategia-minerais-criticos",
+     "politica-industrial-verde",
+     "credito-subsidiado",
+     "abertura-comercial"
+    ],
+    "pilares": [
+     "capacidades-e-suficiencia",
+     "autonomia-e-confluencia"
+    ],
+    "aneis": [
+     "tecnologia-produtividade-capacidade",
+     "captura-concentracao",
+     "desigualdade-educacao-produtividade"
+    ]
+   }
+  },
+  {
+   "principio": "Manter as teses como hipóteses com condição de refutação, sem declarar vencedor",
+   "traducao_institucional": "Cada tese traz \"como seria refutada\". O projeto adota o mesmo critério das regras de rigor: ganhos só se aceitam com ≥ 3 splits e o piso de ruído; discordâncias entre escolas permanecem registradas.",
+   "ligacoes": {
+    "decisoes": [],
+    "pilares": [
+     "pluralismo-epistemico"
+    ],
+    "aneis": []
+   }
+  }
+ ],
+ "sintese": "Marx escreve sobre uma forma social historicamente específica, o modo de produção capitalista, definida por relação de classes (separação entre produtores e meios), valorização do valor e acumulação compulsória. Nos textos conferidos, ele não afirma que o capitalismo \"não seja implementável\", mas oferece (1) a ideia de que a gênese desse modo exigiu um processo histórico de separação e de coerção estatal (acumulação primitiva), (2) a distinção entre comércio e capital, (3) a recusa de receitas e de saltos por decreto, (4) a delimitação do escopo do esboço à Europa Ocidental. A tese \"não é implementável\" é uma inferência: forte no sentido conceitual (relação ≠ política) e frágil se \"capitalismo\" for lido como economia de mercado com propriedade privada, caso em que é implementável em graus, como Hong Kong, Chile e o Leste Europeu mostram com ressalvas. Polanyi e Braudel reforçam a distinção mercado/capitalismo e o papel do Estado; Hayek concorda que ninguém desenhou a ordem de mercado, mas discorda do que fazer; Schumpeter, Keynes, Kalecki, Minsky, Piketty e Mazzucato convergem em que há instabilidade e instituições estabilizadoras; Kornai lê sistemas como tipos ideais; autores brasileiros mostram formações dependentes e periféricas. Os críticos (Böhm-Bawerk, Popper, Kornai, Mises) atingem a teoria do valor, as previsões de colapso e o planejamento; essas críticas têm força e não são respondidas por Marx. Para o projeto, a consequência é de método: descrever economias como composições institucionais (propriedade, mercado, plano, moeda, regulação, bens comuns, redistribuição) e testar cada decisão sobre suas consequências, sem escolher entre rótulos.",
+ "limites": [
+  "Textos alemães de O Capital (livros I e III), da Contribuição, da Crítica de Gotha, dos Grundrisse (um caderno), da carta de 1877 e do Anti-Dühring foram lidos no espelho \"read.19491007.xyz\" de MEW/Zeno, não em edição impressa nem em MEGA; a fidelidade ao Dietz (MEW) não foi cotejada, e a permanência do espelho é incerta.",
+  "A carta de 1877 foi lida em tradução alemã de MEW 19; o manuscrito francês não foi encontrado em fonte aberta nesta pesquisa. As cartas a Zasulich (resposta e rascunho 1) foram lidas em francês na MIA (transcrição de Rubel).",
+  "Edição francesa de O Capital (1872-75, trad. Roy): lida na transcrição da MIA; a revisão de Marx não foi cotejada com o impresso.",
+  "Três dos textos (Engels a Schmidt e a Bloch; Keynes) estão em tradução ou original inglês, a de Engels sem o alemão conferido.",
+  "As páginas MEW são de memória/literatura e só aparecem como \"não conferidas\"; apenas o trecho no URL foi conferido palavra por palavra.",
+  "Livro III de O Capital foi editado por Engels (1894) a partir de manuscritos; as passagens citadas são de Engels-editor.",
+  "Os demais autores (Polanyi, Braudel, Weber, Hayek, Schumpeter, Keynes, Kalecki, Minsky, Kornai, Piketty, Mazzucato, O'Connor, Fraser, Hall e Soskice, Acemoglu e Robinson, De Soto, brasileiros, etc.) são apresentados por síntese de memória do agente; só se conferiu que a página da Wikipédia (ou equivalente) existe e cita a obra e o ano. Posições devem ser conferidas na obra antes de uso.",
+  "Fatos empíricos usados nos contra-argumentos (resultados de Hong Kong, Chile, Leste Europeu; salário real; historiografia dos cercamentos) não foram verificados aqui.",
+  "Tradução para o português é do agente, não revisada por especialista; termos racializados do original foram mantidos por fidelidade.",
+  "Marx não foi lido no manuscrito dos Grundrisse sobre \"capital como relação\" além do caderno V conferido; a frase \"capital como relação\" foi conferida no capítulo 25 de O Capital (Wakefield) e em Lohnarbeit und Kapital.",
+  "O Manifesto (1848) e o Prefácio de 1882 foram lidos em alemão; a tradução inglesa de 1888 (\"All that is solid...\") não foi aberta.",
+  "Não se cobriu a MEGA², nem o livro II, nem as Teorias da Mais-Valia, nem a literatura crítica em detalhe."
+ ]
+}

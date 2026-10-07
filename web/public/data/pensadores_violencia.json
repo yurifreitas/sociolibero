@@ -1,0 +1,4479 @@
+{
+ "meta": {
+  "gerado_em": "2026-10-07",
+  "aviso": "Síntese de pesquisa aberta sobre pensadores da violência e sua utilidade para ler a violência no Brasil, com evidência e crítica. Descreve ideias; não justifica nem recomenda violência e não é prescrição de política. Vítimas são tratadas como pessoas, não como estatística. Os indicadores aqui não são causais e não entram no modelo macro. Ligações em ligacoes.pilares referem ids de pilares ou de pensadores de pilares_pensamento.json; ligacoes.indicadores usam ids de fator_humano.json ou \"series:<chave>\" para humano_nacional.json; ligacoes.aneis, ids de aneis.json.",
+  "criterio_verificacao": "verificado=true para obra: o DOI foi conferido na base Crossref (título e ano) ou a página do URL foi aberta e contém título e ano (em geral Wikipedia ou Marxists Internet Archive para obras clássicas; vale como conferência bibliográfica, não de conteúdo). verificado=true para evidência: o resumo (abstract) ou a página citada foi lida e sustenta a descrição. verificado=false: dado vindo de resumo de busca, de memória ou de série do repositório sem conferência na fonte primária; url vazio = obra citada de memória sem link conferido. Reportagens foram lidas via resumo automático e, quando o dado vem delas, o campo fonte diz que é fonte secundária."
+ },
+ "pensadores": [
+  {
+   "id": "hobbes",
+   "nome": "Thomas Hobbes",
+   "tradicao": "Filosofia política inglesa, contratualismo (1588-1679)",
+   "obra_chave": [
+    {
+     "titulo": "Leviathan",
+     "ano": 1651,
+     "url": "https://en.wikipedia.org/wiki/Leviathan_(Hobbes_book)",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Sem poder comum que mantenha todos em respeito, o estado de natureza tende à \"guerra de todos contra todos\": a insegurança generalizada justifica um soberano que monopolize a coerção e garanta a paz. É uma tese condicional sobre incentivos, não uma apologia do arbítrio.",
+   "conceitos": [
+    "estado de natureza",
+    "contrato",
+    "soberano",
+    "medo da morte violenta",
+    "dilema de segurança"
+   ],
+   "explica_no_brasil": "Dá a linguagem mínima do problema da ordem: onde o Estado não protege, grupos armados vendem proteção (milícias, facções) e a violência vira recurso privado. Ajuda a ler a demanda social por \"mão forte\" como resposta ao medo, sem concluir que a mão forte seja eficaz.",
+   "evidencias": [
+    {
+     "descricao": "O repositório mostra a escala do problema que Hobbes descreve: 45.747 homicídios em 2023 (contagem); isso mede a ordem falhando, não prova que mais coerção a restaure.",
+     "fonte": "fator_humano.json#vu-homicidios-2023",
+     "url": "",
+     "verificado": true
+    }
+   ],
+   "criticas": "Pressupõe indivíduos isolados e iguais no medo; ignora que a ordem pré-estatal existe (Clastres, Ostrom). A passagem do medo ao soberano absoluto é contestada por Locke. Hobbes não distingue Estado protetor de Estado predador, distinção central em Acemoglu e Robinson.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "ampliar-stf"
+    ],
+    "indicadores": [
+     "vu-homicidios-2023",
+     "series:atlas_homicidios"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "locke",
+   "nome": "John Locke",
+   "tradicao": "Liberalismo inglês (1632-1704)",
+   "obra_chave": [
+    {
+     "titulo": "Two Treatises of Government",
+     "ano": 1689,
+     "url": "https://en.wikipedia.org/wiki/Two_Treatises_of_Government",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O poder político é fiduciário: vem do consentimento e serve à proteção de vida, liberdade e propriedade. Quando o governante age contra o fim para o qual foi instituído, cabe resistência. A violência do Estado só é legítima dentro da lei.",
+   "conceitos": [
+    "lei natural",
+    "consentimento",
+    "poder fiduciário",
+    "direito de resistência",
+    "separação de poderes"
+   ],
+   "explica_no_brasil": "Fornece o critério de legitimidade que o Brasil deveria aplicar à força estatal: letalidade policial, tortura e execuções fora da lei são violência que perde o título de legítima. Também sustenta o controle externo da polícia.",
+   "evidencias": [
+    {
+     "descricao": "Mortes por intervenção policial: 6.393 em 2023 (FBSP, Anuário 18) e 6.602 em 2025 (Anuário 20), com 82,7% de vítimas negras em 2023; o número não distingue por si só uso legal de abuso.",
+     "fonte": "FBSP via Jornal de Brasília e NEV-USP",
+     "url": "https://jornaldebrasilia.com.br/noticias/brasil/mortes-por-intervencao-policial-quase-triplicam-em-10-anos-no-pais/",
+     "verificado": true
+    }
+   ],
+   "criticas": "A tradição lockeana convive com propriedade escravista e colonial (o próprio Locke redigiu as Constituições Fundamentais da Carolina e investiu em empresa de comércio de escravizados, tese de historiadores, nesta pesquisa não conferida). O direito de resistência é de difícil operacionalização.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "remover-ministros-stf",
+     "ampliar-stf"
+    ],
+    "indicadores": [
+     "vu-homicidios-2023"
+    ],
+    "aneis": [
+     "controle-externo-eleitor"
+    ]
+   }
+  },
+  {
+   "id": "clausewitz",
+   "nome": "Carl von Clausewitz",
+   "tradicao": "Teoria da guerra, Prússia (1780-1831)",
+   "obra_chave": [
+    {
+     "titulo": "Vom Kriege (Da guerra), póstumo",
+     "ano": 1832,
+     "url": "https://en.wikipedia.org/wiki/On_War",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "A guerra é a continuação da política por outros meios; a violência é instrumento subordinado a fins políticos, mas tende a escalar por \"ascensão aos extremos\" e é regida por paixão, acaso e razão (a \"trindade\").",
+   "conceitos": [
+    "continuação da política",
+    "trindade (paixão, acaso, razão)",
+    "atrito",
+    "ascensão aos extremos"
+   ],
+   "explica_no_brasil": "Serve para distinguir violência instrumental (disputa de mercados ilegais e de território por facções) de violência expressiva (honra, vingança). Alerta para a metáfora de \"guerra\" no policiamento: tratá-la como guerra altera meios e fins e produz mortes de civis.",
+   "evidencias": [
+    {
+     "descricao": "Pesquisa em favelas do Rio: confrontos entre facções reduzem notas de matemática (efeito dose-resposta com intensidade e proximidade); mostra o custo civil da lógica de guerra territorial.",
+     "fonte": "Monteiro e Rocha (2017), REStat; resumo lido",
+     "url": "https://doi.org/10.1162/REST_a_00628",
+     "verificado": true
+    }
+   ],
+   "criticas": "Pensada para guerra interestatal; extrapolar para segurança pública é analogia, não teoria testada. A fixação em \"vitória\" não tem equivalente em crime urbano, onde o objetivo é reduzir danos. Críticos (Keegan, van Creveld) apontam a cultura e a guerra não estatal.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "combate-garimpo-ilegal-e-rastreio-do-ouro"
+    ],
+    "indicadores": [
+     "vu-jovens-2023",
+     "con-paraguai"
+    ],
+    "aneis": [
+     "violencia-capital-humano"
+    ]
+   }
+  },
+  {
+   "id": "weber",
+   "nome": "Max Weber",
+   "tradicao": "Sociologia alemã (1864-1920)",
+   "obra_chave": [
+    {
+     "titulo": "Politik als Beruf (A política como vocação), conferência de 1919",
+     "ano": 1919,
+     "url": "https://en.wikipedia.org/wiki/Politics_as_a_Vocation",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O Estado moderno é a comunidade humana que reivindica com sucesso o monopólio do uso legítimo da força física num território. \"Legítimo\" depende de crença social em tradição, carisma ou legalidade racional, não de a violência ser justa.",
+   "conceitos": [
+    "monopólio da violência legítima",
+    "tipos de dominação",
+    "ética da convicção e da responsabilidade",
+    "legitimidade"
+   ],
+   "explica_no_brasil": "É o parâmetro para medir onde o Estado brasileiro não tem o monopólio: milícias e facções que controlam território, e onde o monopólio é exercido sem controle (letalidade policial). Sustenta o pilar já presente no repositório de autocontrole e monopólio legítimo.",
+   "evidencias": [
+    {
+     "descricao": "Colômbia, 1991-2006: paramilitares influenciaram eleições e persistiram quando entregavam votos; a falta do monopólio da violência não é só fraqueza estatal, pode ser conveniência política. Análogo a testar para milícias no Brasil, ainda sem estudo equivalente verificado aqui.",
+     "fonte": "Acemoglu, Robinson e Santos (2013), JEEA; resumo lido",
+     "url": "https://doi.org/10.1111/j.1542-4774.2012.01099.x",
+     "verificado": true
+    },
+    {
+     "descricao": "Homicídios no Brasil: 65.602 em 2017 e 42.590 em 2024 (contagem Atlas); o Estado não monopoliza a morte violenta, mas a queda mostra variação grande dentro do mesmo regime.",
+     "fonte": "humano_nacional.json#atlas_homicidios",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Definição formal (\"com sucesso\", \"legítimo\") esconde o conteúdo: monopólio exercido com seletividade racial e territorial é legítimo para quem? Críticas pós-coloniais (Mbembe, Fanon) e de Foucault (poder difuso, não só soberano) apontam que o Estado não detém o monopólio de fato nas periferias, e sim o compartilha.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo",
+     "territorio-e-cuidado"
+    ],
+    "decisoes": [
+     "ampliar-stf",
+     "remover-ministros-stf"
+    ],
+    "indicadores": [
+     "vu-homicidios-2023",
+     "series:sim_intervencao_legal"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "schmitt",
+   "nome": "Carl Schmitt",
+   "tradicao": "Teoria jurídica e política alemã (1888-1985)",
+   "obra_chave": [
+    {
+     "titulo": "Politische Theologie",
+     "ano": 1922,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Der Begriff des Politischen",
+     "ano": 1932,
+     "url": "https://en.wikipedia.org/wiki/The_Concept_of_the_Political",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Soberano é quem decide sobre o estado de exceção; o político se define pela distinção amigo-inimigo. É descrição do poder e, na obra do autor, também apologia de poder decisório, ligada a seu apoio ao nazismo.",
+   "conceitos": [
+    "estado de exceção",
+    "soberania decisionista",
+    "amigo-inimigo",
+    "ditadura comissária"
+   ],
+   "explica_no_brasil": "Ajuda a nomear o \"inimigo interno\" na segurança pública (guerra às drogas, \"bandido\") e a lógica de operações de exceção em territórios específicos. Uso aqui é analítico; a prescrição schmittiana é rejeitada.",
+   "evidencias": [
+    {
+     "descricao": "Operações policiais em territórios concentram mortes: nos municípios com maiores taxas, a intervenção policial chegou a 63,4% das mortes violentas intencionais (Angra dos Reis, 2023).",
+     "fonte": "FBSP, Anuário 18, via Jornal de Brasília",
+     "url": "https://jornaldebrasilia.com.br/noticias/brasil/mortes-por-intervencao-policial-quase-triplicam-em-10-anos-no-pais/",
+     "verificado": true
+    }
+   ],
+   "criticas": "O decisionismo dissolve limites jurídicos; críticos (Kelsen, Habermas) mostram que o Estado de Direito se define justamente por limitar a exceção. A biografia do autor exige leitura crítica e cautela com uso político.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "anistia-politica"
+    ],
+    "indicadores": [
+     "vu-homicidios-2023"
+    ],
+    "aneis": [
+     "controle-externo-eleitor"
+    ]
+   }
+  },
+  {
+   "id": "benjamin",
+   "nome": "Walter Benjamin",
+   "tradicao": "Teoria crítica alemã (1892-1940)",
+   "obra_chave": [
+    {
+     "titulo": "Zur Kritik der Gewalt (Crítica da violência)",
+     "ano": 1921,
+     "url": "https://en.wikipedia.org/wiki/Critique_of_Violence",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Toda violência jurídica ou funda direito (fundadora: revolução, conquista, ato inaugural) ou conserva direito (conservadora: polícia, pena). A polícia mistura as duas e é por isso \"espectral\". Propõe uma \"violência divina\" pura, de interpretação disputada.",
+   "conceitos": [
+    "violência fundadora de direito",
+    "violência conservadora de direito",
+    "polícia como mistura",
+    "violência divina",
+    "greve geral"
+   ],
+   "explica_no_brasil": "Permite separar a violência que fundou o país (conquista, escravização) da que o conserva (policiamento, encarceramento). A polícia que decide, na ponta, o que é lei é ao mesmo tempo executora e legisladora de fato (discricionariedade do abordado).",
+   "evidencias": [
+    {
+     "descricao": "Violência fundadora medida: quase 4,8 milhões de africanos desembarcados no Brasil (1501-1866, estimativa não conferida) e 15% da população recenseada como escravizada em 1872 (contagem verificada). Conservadora: 6.393 mortes por intervenção policial em 2023.",
+     "fonte": "fator_humano.json#esc-desembarcados-brasil, #esc-censo-1872; FBSP",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Texto enigmático; a \"violência divina\" não é prescrição e foi lida de modos opostos (Derrida, Agamben, Butler). Não oferece critério empírico. Cuidado com leituras que justifiquem violência política como \"pura\".",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "homologar-terras-indigenas-e-titular-quilombos"
+    ],
+    "indicadores": [
+     "esc-desembarcados-brasil",
+     "esc-censo-1872",
+     "vu-homicidios-2023"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "arendt",
+   "nome": "Hannah Arendt",
+   "tradicao": "Filosofia política, Alemanha e EUA (1906-1975)",
+   "obra_chave": [
+    {
+     "titulo": "On Violence",
+     "ano": 1970,
+     "url": "https://en.wikipedia.org/wiki/On_Violence",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Poder (agir em concerto, que depende de consentimento) e violência (instrumento) são opostos: a violência pode destruir poder, mas não o cria; onde a violência domina de modo absoluto, o poder desaparece. A violência é instrumental e racional apenas quanto aos fins imediatos.",
+   "conceitos": [
+    "poder x violência",
+    "vigor",
+    "força",
+    "banalidade do mal",
+    "espaço público"
+   ],
+   "explica_no_brasil": "Explica por que repressão sem legitimidade produz mais violência: governança criminal (facção que \"impõe ordem\") gera obediência, mas não poder legítimo. A queda de homicídios sob o PCC em favelas é lida por Lessing e Willis como legitimidade criminal, tensionando a dicotomia.",
+   "evidencias": [
+    {
+     "descricao": "Em São Paulo, o PCC impôs uma ordem nas favelas que reduziu homicídios, com legitimidade construída por regras escritas; mostra poder sem lei estatal que Arendt chamaria de domínio, não poder político.",
+     "fonte": "Lessing e Willis (2019), APSR; resumo lido",
+     "url": "https://doi.org/10.1017/s0003055418000928",
+     "verificado": true
+    }
+   ],
+   "criticas": "Dicotomia rígida criticada por Habermas e Foucault (poder e coerção se misturam) e por Fanon, que vê violência como linguagem do colonizado. Eurocêntrica e silencia sobre a violência racial e colonial em seus próprios textos.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo",
+     "autonomia-e-confluencia"
+    ],
+    "decisoes": [
+     "consulta-previa-regulamentada"
+    ],
+    "indicadores": [
+     "vu-jovens-2023",
+     "vu-negros-2023"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "fanon",
+   "nome": "Frantz Fanon",
+   "tradicao": "Pensamento anticolonial, Martinica e Argélia (1925-1961)",
+   "obra_chave": [
+    {
+     "titulo": "Les damnés de la terre (Os condenados da terra)",
+     "ano": 1961,
+     "url": "https://en.wikipedia.org/wiki/The_Wretched_of_the_Earth",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O colonialismo se mantém por violência sistemática e o Estado colonial é um mundo dividido em compartimentos; Fanon afirma que a descolonização é sempre fenômeno violento e descreve efeitos psíquicos da dominação. A passagem é descritiva e polêmica; não é recomendação pacífica de violência, nem aqui é endossada.",
+   "conceitos": [
+    "mundo compartimentado",
+    "violência colonial",
+    "descolonização",
+    "saúde mental colonial",
+    "consciência nacional"
+   ],
+   "explica_no_brasil": "Dá nome à geografia da violência brasileira: a cidade partida, a vida urbana segregada por cor e território, e a polícia como fronteira entre compartimentos. Lélia Gonzalez e Abdias dialogam com essa leitura.",
+   "evidencias": [
+    {
+     "descricao": "Brasil: risco de homicídio de pessoa negra é 2,7 vezes o de não negra (2023) e 77,8% das vítimas com raça informada eram negras; a segmentação racial da morte é medida, a explicação por colonialidade é interpretação.",
+     "fonte": "fator_humano.json#vu-negros-2023; humano_nacional.json#pct_vitimas_negras_raca_informada",
+     "url": "",
+     "verificado": false
+    },
+    {
+     "descricao": "Resumo lido: campanhas não violentas foram mais bem-sucedidas que as armadas na comparação histórica de Chenoweth e Stephan, o que tensiona a tese fanoniana da violência necessária (os números 323 campanhas, 53% x 26%, vêm de resumos de busca e ficam não verificados).",
+     "fonte": "Chenoweth e Stephan (2008), International Security",
+     "url": "https://doi.org/10.1162/isec.2008.33.1.7",
+     "verificado": true
+    }
+   ],
+   "criticas": "Arendt acusa-o de glorificar a violência; Sartre, no prefácio, a radicalizou. Evidência comparada (Chenoweth) sugere que a resistência civil tende a vencer mais, embora Argélia seja caso de luta armada vitoriosa. A tese não explica violência intra-grupo (homicídio entre pobres).",
+   "ligacoes": {
+    "pilares": [
+     "autonomia-e-confluencia",
+     "territorio-e-cuidado"
+    ],
+    "decisoes": [
+     "homologar-terras-indigenas-e-titular-quilombos"
+    ],
+    "indicadores": [
+     "vu-negros-2023",
+     "series:sim_homicidios_negros"
+    ],
+    "aneis": [
+     "desigualdade-educacao-produtividade",
+     "violencia-capital-humano"
+    ]
+   }
+  },
+  {
+   "id": "sorel",
+   "nome": "Georges Sorel",
+   "tradicao": "Sindicalismo revolucionário francês (1847-1922)",
+   "obra_chave": [
+    {
+     "titulo": "Réflexions sur la violence",
+     "ano": 1908,
+     "url": "https://en.wikipedia.org/wiki/Reflections_on_Violence",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Distingue \"força\" (autoridade que impõe ordem) de \"violência\" (ruptura proletária) e propõe o mito da greve geral como imagem mobilizadora. O autor inspirou, depois, correntes de extrema direita.",
+   "conceitos": [
+    "mito da greve geral",
+    "violência proletária",
+    "força x violência",
+    "mito social"
+   ],
+   "explica_no_brasil": "Pouco útil para a violência criminal; útil para ler discursos que sacralizam a ruptura. No Brasil, aparece como pano de fundo do anarcossindicalismo das greves de 1917.",
+   "evidencias": [
+    {
+     "descricao": "Sem dado quantitativo brasileiro verificado nesta pesquisa; a recepção no sindicalismo brasileiro da Primeira República é de memória.",
+     "fonte": "não verificado",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Mito sem teste empírico; a apologia da violência foi apropriada pelo fascismo (Mussolini citou-o). Evidências comparadas (Chenoweth) apontam que a disciplina não violenta é mais eficaz.",
+   "ligacoes": {
+    "pilares": [
+     "autonomia-e-confluencia"
+    ],
+    "decisoes": [],
+    "indicadores": [],
+    "aneis": []
+   }
+  },
+  {
+   "id": "marx-engels",
+   "nome": "Karl Marx e Friedrich Engels",
+   "tradicao": "Materialismo histórico, Alemanha (1818-1883; 1820-1895)",
+   "obra_chave": [
+    {
+     "titulo": "Das Kapital, vol. I, cap. sobre a gênese do capitalista industrial (\"a violência é a parteira de toda velha sociedade que traz uma nova no ventre\")",
+     "ano": 1867,
+     "url": "https://www.marxists.org/archive/marx/works/1867-c1/ch31.htm",
+     "doi": "",
+     "verificado": true
+    },
+    {
+     "titulo": "Engels, Herrn Eugen Dührings Umwälzung der Wissenschaft (Anti-Dühring), seção sobre a teoria da violência",
+     "ano": 1878,
+     "url": "https://en.wikipedia.org/wiki/Anti-D%C3%BChring",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "A violência é \"parteira\" e instrumento da história, mas subordinada às condições econômicas: Marx descreve a acumulação primitiva (expropriação, colonização, escravização) como violenta; Engels, contra Dühring, diz que a violência depende de meios econômicos e organização, não o contrário.",
+   "conceitos": [
+    "acumulação primitiva",
+    "violência como parteira",
+    "Estado como instrumento de classe",
+    "luta de classes"
+   ],
+   "explica_no_brasil": "Útil para ver a violência de formação (expropriação, escravização, cercamento de terras) como processo econômico no Brasil, de ocupação de terras a conflitos agrários. Complementa Florestan e Darcy.",
+   "evidencias": [
+    {
+     "descricao": "Camponeses mortos e desaparecidos no campo, 1961-1988: 1.196 (estimativa da Comissão Camponesa da Verdade, via repositório); mede violência agrária de Estado e de latifundiários, não verifica a teoria.",
+     "fonte": "fator_humano.json#est-ccv-camponeses",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "A frase da parteira é descritiva e foi usada para justificar terror (stalinismo); a teoria subestima a autonomia do político e das instituições. O determinismo econômico é contestado (Weber, Skocpol).",
+   "ligacoes": {
+    "pilares": [
+     "territorio-e-cuidado"
+    ],
+    "decisoes": [
+     "homologar-terras-indigenas-e-titular-quilombos"
+    ],
+    "indicadores": [
+     "est-ccv-camponeses",
+     "esc-desembarcados-brasil"
+    ],
+    "aneis": [
+     "captura-concentracao"
+    ]
+   }
+  },
+  {
+   "id": "luxemburg",
+   "nome": "Rosa Luxemburgo",
+   "tradicao": "Marxismo democrático, Polônia e Alemanha (1871-1919)",
+   "obra_chave": [
+    {
+     "titulo": "Massenstreik, Partei und Gewerkschaften (Greve de massas, partido e sindicatos)",
+     "ano": 1906,
+     "url": "https://www.marxists.org/archive/luxemburg/1906/mass-strike/index.htm",
+     "doi": "",
+     "verificado": true
+    },
+    {
+     "titulo": "Zur russischen Revolution (A Revolução Russa), publicado após sua morte",
+     "ano": 1922,
+     "url": "https://www.marxists.org/archive/luxemburg/1918/russian-revolution/index.htm",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Defende a espontaneidade das massas e critica a substituição do poder popular pelo partido: sem liberdade política ampla, a vida pública definha e a burocracia assume. Foi assassinada em 1919 por tropas paramilitares na repressão ao levante espartaquista.",
+   "conceitos": [
+    "espontaneidade",
+    "greve de massas",
+    "liberdade \"de quem pensa diferente\"",
+    "crítica do terror"
+   ],
+   "explica_no_brasil": "Lembra que a violência política sem democracia interna tende a degenerar em dominação; relevância para reflexão sobre tortura e poder paralelo.",
+   "evidencias": [
+    {
+     "descricao": "A repressão da ditadura brasileira (1964-1985) é medida em 434 mortos e desaparecidos reconhecidos pela CNV; ilustra o ciclo autoritário, não testa Luxemburgo.",
+     "fonte": "fator_humano.json#est-cnv-434",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Sua aposta na espontaneidade foi desmentida em parte pela organização leninista; limita-se a um contexto europeu. Posição sobre violência revolucionária é ambígua.",
+   "ligacoes": {
+    "pilares": [
+     "autonomia-e-confluencia"
+    ],
+    "decisoes": [
+     "anistia-politica"
+    ],
+    "indicadores": [
+     "est-cnv-434"
+    ],
+    "aneis": []
+   }
+  },
+  {
+   "id": "lenin",
+   "nome": "Vladimir Lênin",
+   "tradicao": "Marxismo-leninismo, Rússia (1870-1924)",
+   "obra_chave": [
+    {
+     "titulo": "Gosudarstvo i revolyutsiya (O Estado e a Revolução)",
+     "ano": 1917,
+     "url": "https://en.wikipedia.org/wiki/The_State_and_Revolution",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O Estado é órgão de dominação de classe; a revolução exige quebrar o aparelho estatal e instaurar uma ditadura do proletariado transitória. Na prática, o regime soviético instituiu terror de Estado (Terror Vermelho, Gulag).",
+   "conceitos": [
+    "Estado como dominação de classe",
+    "ditadura do proletariado",
+    "vanguarda",
+    "extinção do Estado"
+   ],
+   "explica_no_brasil": "Interessa como objeto histórico: a doutrina de \"quebrar\" o Estado inspirou a luta armada urbana nos anos 1960 (Marighella) e a reação da ditadura brasileira. Não oferece guia para a segurança pública atual.",
+   "evidencias": [
+    {
+     "descricao": "A repressão estatal brasileira de 1964-1988 deixou 434 mortos e desaparecidos reconhecidos (CNV); o contexto de Guerra Fria explica parte do imaginário de ambos os lados.",
+     "fonte": "fator_humano.json#est-cnv-434",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "A promessa de extinção do Estado não se realizou; o terror contra opositores é bem documentado (Gulag, Terror Vermelho). Estudos comparados indicam que revoluções violentas produzem mais frequentemente ditaduras (Chenoweth e Stephan).",
+   "ligacoes": {
+    "pilares": [
+     "autonomia-e-confluencia"
+    ],
+    "decisoes": [
+     "anistia-politica"
+    ],
+    "indicadores": [
+     "est-cnv-434"
+    ],
+    "aneis": []
+   }
+  },
+  {
+   "id": "gramsci",
+   "nome": "Antonio Gramsci",
+   "tradicao": "Marxismo italiano (1891-1937)",
+   "obra_chave": [
+    {
+     "titulo": "Quaderni del carcere (Cadernos do cárcere), escritos 1929-1935",
+     "ano": 1948,
+     "url": "https://en.wikipedia.org/wiki/Prison_Notebooks",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O poder se sustenta por hegemonia (consenso moral e cultural) \"encouraçada de coerção\": o Estado integral combina sociedade política (força) e sociedade civil (consenso). Em crise de hegemonia, a coerção cresce.",
+   "conceitos": [
+    "hegemonia",
+    "Estado integral",
+    "sociedade civil",
+    "crise orgânica",
+    "guerra de posição"
+   ],
+   "explica_no_brasil": "Ajuda a ler por que a coerção (polícia, prisão) aumenta onde o consenso falta: o discurso do medo funciona como cimento de hegemonia (Vera Malaguti Batista). Conecta o anel de legitimidade ao uso da força.",
+   "evidencias": [
+    {
+     "descricao": "Taxa de homicídio por 100 mil: 26,15 (2000), 31,72 (2017) e 19,57 (2024), ciclo que coincide com variações de políticas e coalizões criminais; sem modelo causal neste repositório.",
+     "fonte": "humano_nacional.json#taxa_homicidios",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Texto fragmentário, de leitura contestada; hegemonia é difícil de medir; o conceito pode explicar qualquer resultado. Não distingue bem consenso induzido de consenso genuíno.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo",
+     "pluralismo-epistemico"
+    ],
+    "decisoes": [
+     "orcamento-participativo-e-moedas-sociais"
+    ],
+    "indicadores": [
+     "series:taxa_homicidios"
+    ],
+    "aneis": [
+     "legitimidade-impunidade",
+     "captura-concentracao"
+    ]
+   }
+  },
+  {
+   "id": "foucault",
+   "nome": "Michel Foucault",
+   "tradicao": "Filosofia francesa (1926-1984)",
+   "obra_chave": [
+    {
+     "titulo": "Surveiller et punir: naissance de la prison (Vigiar e punir)",
+     "ano": 1975,
+     "url": "https://en.wikipedia.org/wiki/Discipline_and_Punish",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O poder moderno é disciplinar (vigilância, normalização, exame) e biopolítico (gestão de populações: \"fazer viver e deixar morrer\"); a prisão produz delinquência como categoria útil e gerida, e não apenas pune.",
+   "conceitos": [
+    "poder disciplinar",
+    "panóptico",
+    "biopolítica",
+    "governamentalidade",
+    "delinquência como produto"
+   ],
+   "explica_no_brasil": "Explica a prisão como dispositivo que reproduz o público que diz combater e a política de drogas como gestão de populações. No repositório, os dados prisionais permitem ver o peso do tráfico de drogas entre os crimes.",
+   "evidencias": [
+    {
+     "descricao": "População prisional (2025): 214.653 registros por tráfico de drogas e 133.985 pessoas pretas presas (SENAPPEN via repositório; unidade do primeiro número não confirmada); não há série histórica no repositório.",
+     "fonte": "humano_nacional.json#prisional_trafico_drogas e #prisional_pretos",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Evidência em Foucault é histórica e de arquivo, pouco quantitativa; a tese da prisão que \"fracassa para produzir delinquência útil\" não é testada. Críticos (Garland) apontam subestimar a política e a resistência.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo",
+     "capacidades-e-suficiencia"
+    ],
+    "decisoes": [
+     "educacao-tecnica-e-alfabetizacao"
+    ],
+    "indicadores": [
+     "series:prisional_trafico_drogas",
+     "series:prisional_pretos"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "agamben",
+   "nome": "Giorgio Agamben",
+   "tradicao": "Filosofia política italiana (1942-)",
+   "obra_chave": [
+    {
+     "titulo": "Homo Sacer: il potere sovrano e la nuda vita",
+     "ano": 1995,
+     "url": "https://en.wikipedia.org/wiki/Homo_Sacer",
+     "doi": "",
+     "verificado": true
+    },
+    {
+     "titulo": "Stato di eccezione",
+     "ano": 2003,
+     "url": "https://en.wikipedia.org/wiki/State_of_Exception_(book)",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O estado de exceção tende a virar paradigma de governo; o homo sacer é a vida que pode ser morta sem que isso configure homicídio nem sacrifício. A exceção suspende a lei mantendo-a em vigor.",
+   "conceitos": [
+    "estado de exceção",
+    "homo sacer",
+    "vida nua",
+    "bando",
+    "campo"
+   ],
+   "explica_no_brasil": "Dá categoria às mortes que \"não contam\": execuções em operações, chacinas, desaparecimento forçado. A letalidade policial concentrada em certos bairros e na população negra se aproxima da ideia de vidas matáveis, sem equivalência jurídica.",
+   "evidencias": [
+    {
+     "descricao": "Pessoas negras responderam por 82,7% das mortes por intervenção policial em 2023 (6.393 mortes, FBSP); taxa 3,8 vezes a de brancos. Na edição seguinte, 3,5 vezes (2025).",
+     "fonte": "FBSP, via Jornal de Brasília e NEV-USP",
+     "url": "https://jornaldebrasilia.com.br/noticias/brasil/mortes-por-intervencao-policial-quase-triplicam-em-10-anos-no-pais/",
+     "verificado": true
+    }
+   ],
+   "criticas": "Abstração filosófica, sem teste empírico; classifica como exceção o que no Brasil é rotina (a exceção virou regra, mas a norma sempre foi seletiva). Críticas (Mbembe) o acusam de eurocentrismo.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "anistia-politica"
+    ],
+    "indicadores": [
+     "vu-negros-2023",
+     "series:sim_intervencao_legal"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "mbembe",
+   "nome": "Achille Mbembe",
+   "tradicao": "Teoria pós-colonial, Camarões e África do Sul (1957-)",
+   "obra_chave": [
+    {
+     "titulo": "Necropolitics, Public Culture 15(1)",
+     "ano": 2003,
+     "url": "https://doi.org/10.1215/08992363-15-1-11",
+     "doi": "10.1215/08992363-15-1-11",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "A soberania é o poder de decidir quem pode viver e quem deve morrer; no regime colonial e pós-colonial, populações são expostas à morte por abandono, ocupação e guerra. Estende Foucault e Agamben ao mundo colonial.",
+   "conceitos": [
+    "necropolítica",
+    "soberania como direito de matar",
+    "mundos da morte",
+    "ocupação"
+   ],
+   "explica_no_brasil": "Dá nome à geografia seletiva da letalidade: jovens negros de periferia respondem pela maior parte das mortes violentas e o Estado atua por ação (intervenção policial) e por omissão (investigação, proteção).",
+   "evidencias": [
+    {
+     "descricao": "Em 2023, 21.856 jovens de 15 a 29 anos foram assassinados (47,8% dos homicídios); taxa de 45,1 por 100 mil, contra 21,2 da população geral (contagens do repositório).",
+     "fonte": "fator_humano.json#vu-jovens-2023 e #vu-taxa-jovens-2023",
+     "url": "",
+     "verificado": true
+    }
+   ],
+   "criticas": "Conceito amplo, de pouca operacionalização; mistura mortes causadas, toleradas e omitidas; não separa criminalidade privada de violência de Estado. Pode ser usado para homogeneizar situações distintas.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo",
+     "territorio-e-cuidado"
+    ],
+    "decisoes": [
+     "homologar-terras-indigenas-e-titular-quilombos"
+    ],
+    "indicadores": [
+     "vu-jovens-2023",
+     "vu-taxa-jovens-2023",
+     "vu-negros-2023"
+    ],
+    "aneis": [
+     "violencia-capital-humano",
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "elias",
+   "nome": "Norbert Elias (ver pilares)",
+   "tradicao": "Sociologia histórica, Alemanha e Reino Unido (1897-1990)",
+   "obra_chave": [
+    {
+     "titulo": "Über den Prozess der Zivilisation",
+     "ano": 1939,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Já tratado em pilares_pensamento.json (id norbert-elias): monopólio estatal da violência e do imposto mais crescente interdependência produzem autocontrole. Aqui entra só como remissão para os diálogos com Tilly, Pinker e Clastres.",
+   "conceitos": [
+    "processo civilizador",
+    "monopólio da violência",
+    "autocoerção",
+    "descivilização"
+   ],
+   "explica_no_brasil": "Ver a entrada em pilares_pensamento.json. Para a violência brasileira, a pergunta é onde o monopólio e a interdependência não chegaram, ou regrediram (descivilização).",
+   "evidencias": [
+    {
+     "descricao": "Ver pilares_pensamento.json#norbert-elias, que cita a queda secular de homicídios na Europa.",
+     "fonte": "pilares_pensamento.json",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Críticas em Duerr (cf. pilares). A teoria tem validação desigual fora da Europa.",
+   "ligacoes": {
+    "pilares": [
+     "norbert-elias",
+     "hans-peter-duerr",
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [],
+    "indicadores": [
+     "vu-homicidios-2023"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "clastres",
+   "nome": "Pierre Clastres (ver pilares)",
+   "tradicao": "Antropologia política, França (1934-1977)",
+   "obra_chave": [
+    {
+     "titulo": "La société contre l'État",
+     "ano": 1974,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Já tratado em pilares_pensamento.json (id pierre-clastres): sociedades ameríndias recusam o poder coercitivo separado. Entra aqui como contraponto a Hobbes, Weber, Elias e Tilly.",
+   "conceitos": [
+    "sociedade contra o Estado",
+    "poder não coercitivo",
+    "guerra e indivisão",
+    "chefia sem mando"
+   ],
+   "explica_no_brasil": "Ver pilares_pensamento.json. Contra a tese de que sem Estado há guerra permanente, Clastres defende que a guerra mantém a autonomia política; Kopenawa e Krenak mostram a violência que vem de fora (invasão).",
+   "evidencias": [
+    {
+     "descricao": "Ver pilares_pensamento.json#pierre-clastres.",
+     "fonte": "pilares_pensamento.json",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Críticos apontam romantização e uma tese pouco testável; a ligação entre guerra e antiestatismo é contestada na antropologia.",
+   "ligacoes": {
+    "pilares": [
+     "pierre-clastres",
+     "autonomia-e-confluencia",
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "consulta-previa-regulamentada"
+    ],
+    "indicadores": [
+     "ind-cnv-8350"
+    ],
+    "aneis": [
+     "territorio-indigena-conservacao"
+    ]
+   }
+  },
+  {
+   "id": "tilly",
+   "nome": "Charles Tilly",
+   "tradicao": "Sociologia histórica, EUA (1929-2008)",
+   "obra_chave": [
+    {
+     "titulo": "War Making and State Making as Organized Crime (in Bringing the State Back In)",
+     "ano": 1985,
+     "url": "https://doi.org/10.1017/CBO9780511628283.008",
+     "doi": "10.1017/CBO9780511628283.008",
+     "verificado": true
+    },
+    {
+     "titulo": "Coercion, Capital, and European States, AD 990-1990",
+     "ano": 1990,
+     "url": "https://en.wikipedia.org/wiki/Charles_Tilly",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "A guerra fez o Estado e o Estado fez a guerra: para guerrear, governantes extraíram recursos e criaram burocracia; o Estado é um \"racket de proteção\" com a vantagem da legitimidade. A analogia com crime organizado é analítica e não pretende equiparar moralmente.",
+   "conceitos": [
+    "proteção como racket",
+    "extração e coerção",
+    "guerra e formação do Estado",
+    "capital e coerção"
+   ],
+   "explica_no_brasil": "Ajuda a ver milícias e facções como empreendedores de proteção quando o Estado é falho ou conivente. Para o Brasil e a América Latina, o argumento é parcial: poucas guerras interestatais (Paraguai, 1864-70) e Estados formados sem pressão fiscal-militar contínua (Centeno).",
+   "evidencias": [
+    {
+     "descricao": "Tilly: a analogia vale por dizer que proteção é mercadoria; na América Latina, Centeno (2002) argumenta que guerras foram poucas e curtas e não construíram Estados fortes (referência de memória).",
+     "fonte": "Centeno (2002), Blood and Debt; não conferido",
+     "url": "",
+     "verificado": false
+    },
+    {
+     "descricao": "Registro do capítulo (resumo lido): \"war making and state making ... qualify as our largest examples of organized crime\".",
+     "fonte": "Tilly (1985)",
+     "url": "https://doi.org/10.1017/CBO9780511628283.008",
+     "verificado": true
+    }
+   ],
+   "criticas": "Eurocêntrica: o modelo \"guerra faz Estado\" não explica Estados africanos nem latino-americanos; omite a escravidão e o colonialismo. Clastres vê o Estado como ruptura, Tilly como resultado de competição. Pode ser tomada como justificativa para brutalidade estatal, o que Tilly não pretendia.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo",
+     "norbert-elias"
+    ],
+    "decisoes": [
+     "ampliar-stf"
+    ],
+    "indicadores": [
+     "con-paraguai",
+     "vu-homicidios-2023"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "tilly-violencia-coletiva",
+   "nome": "Charles Tilly (violência coletiva)",
+   "tradicao": "Sociologia histórica, EUA (1929-2008)",
+   "obra_chave": [
+    {
+     "titulo": "The Politics of Collective Violence",
+     "ano": 2003,
+     "url": "https://doi.org/10.1017/CBO9780511819131",
+     "doi": "10.1017/CBO9780511819131",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "A violência coletiva varia segundo o grau de coordenação entre atores e o papel de \"especialistas em violência\"; mudanças de regime e de capacidade estatal alteram o repertório. A violência raramente nasce de \"irracionalidade das massas\".",
+   "conceitos": [
+    "violência coletiva",
+    "especialistas em violência",
+    "repertório",
+    "coordenação",
+    "capacidade e democratização"
+   ],
+   "explica_no_brasil": "Permite descrever chacinas, linchamentos, disputas entre facções e ação policial com a mesma gramática, sem patologizar os indivíduos. Estimula medir coordenação e a presença de especialistas armados (ex-policiais, milícias).",
+   "evidencias": [
+    {
+     "descricao": "Abstract lido: o livro busca causas comuns em fenômenos de violência coletiva, de hooliganismo a 11 de setembro, com foco em interação social.",
+     "fonte": "Tilly (2003), Cambridge UP",
+     "url": "https://doi.org/10.1017/CBO9780511819131",
+     "verificado": true
+    }
+   ],
+   "criticas": "Tipologia ampla e pouco testável quantitativamente; subestima fatores individuais e culturais; contexto principal europeu e norte-americano.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [],
+    "indicadores": [
+     "vu-homicidios-2023",
+     "vu-jovens-2023"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "pinker",
+   "nome": "Steven Pinker",
+   "tradicao": "Psicologia cognitiva e divulgação científica, Canadá e EUA (1954-)",
+   "obra_chave": [
+    {
+     "titulo": "The Better Angels of Our Nature: Why Violence Has Declined",
+     "ano": 2011,
+     "url": "https://en.wikipedia.org/wiki/The_Better_Angels_of_Our_Nature",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "A violência declinou ao longo da história (Estado, comércio, alfabetização, empatia, direitos), de modo que vivemos hoje a época menos violenta da espécie. Baseia-se em parte em dados de homicídio europeus (Eisner).",
+   "conceitos": [
+    "declínio da violência",
+    "Leviatã",
+    "comércio gentil",
+    "círculo em expansão de empatia",
+    "anjos bons"
+   ],
+   "explica_no_brasil": "Brasil é teste duro: a taxa de homicídio subiu de 26,15 (2000) a 31,72 por 100 mil (2017) e caiu a 19,57 (2024); é variação decenal grande dentro de um Estado democrático, que a tese de tendência secular não explica.",
+   "evidencias": [
+    {
+     "descricao": "Homicídios na Europa caíram de modo notável entre meados do século XVI e o começo do século XX (resumo lido).",
+     "fonte": "Eisner (2003), Crime and Justice",
+     "url": "https://doi.org/10.1086/652229",
+     "verificado": true
+    },
+    {
+     "descricao": "Crítica: melhorias na medicina militar escondem a letalidade das guerras recentes (mais feridos sobrevivem).",
+     "fonte": "Fazal (2014), International Security; resumo lido",
+     "url": "https://doi.org/10.1162/ISEC_a_00166",
+     "verificado": true
+    },
+    {
+     "descricao": "Crítica estatística: séries de conflitos têm cauda pesada; a queda observada não é distinguível de uma flutuação (Cirillo e Taleb).",
+     "fonte": "Cirillo e Taleb (2016), Physica A; conteúdo de memória",
+     "url": "https://doi.org/10.1016/j.physa.2016.01.050",
+     "verificado": false
+    }
+   ],
+   "criticas": "Críticos: escolha de métricas (mortes relativas), subestimação de violência estrutural e colonial (Galtung, Scheper-Hughes), de guerras recentes e de cauda pesada (Cirillo e Taleb, Fazal). Para o Brasil, falta série homogênea de homicídios antes de 1979.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo",
+     "norbert-elias"
+    ],
+    "decisoes": [],
+    "indicadores": [
+     "vu-homicidios-2023",
+     "series:atlas_homicidios",
+     "series:taxa_homicidios"
+    ],
+    "aneis": []
+   }
+  },
+  {
+   "id": "collier-hoeffler",
+   "nome": "Paul Collier e Anke Hoeffler",
+   "tradicao": "Economia política dos conflitos, Reino Unido (Collier, 1949-; Hoeffler)",
+   "obra_chave": [
+    {
+     "titulo": "Greed and grievance in civil war, Oxford Economic Papers 56(4)",
+     "ano": 2004,
+     "url": "https://doi.org/10.1093/oep/gpf064",
+     "doi": "10.1093/oep/gpf064",
+     "verificado": true
+    },
+    {
+     "titulo": "Fearon e Laitin, Ethnicity, Insurgency, and Civil War (contraponto), APSR 97(1)",
+     "ano": 2003,
+     "url": "https://doi.org/10.1017/S0003055403000534",
+     "doi": "10.1017/S0003055403000534",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Guerras civis são mais bem explicadas por oportunidades (financiamento, recursos, custo baixo de recrutar) que por agravos (desigualdade, direitos políticos, etnia): variáveis econômicas de viabilidade têm mais poder explicativo que as de ressentimento.",
+   "conceitos": [
+    "ganância x ressentimento",
+    "oportunidade",
+    "rendas de recursos naturais",
+    "custo de oportunidade de recrutar"
+   ],
+   "explica_no_brasil": "Brasil não tem guerra civil, mas a lógica de oportunidade ajuda a ler garimpo ilegal, tráfico e recrutamento de jovens com poucas alternativas lícitas. A conexão aparece no anel violência e capital humano do repositório.",
+   "evidencias": [
+    {
+     "descricao": "Abstract lido: variáveis de queixa têm pouco poder explicativo; as econômicas, de viabilidade, têm mais.",
+     "fonte": "Collier e Hoeffler (2004)",
+     "url": "https://doi.org/10.1093/oep/gpf064",
+     "verificado": true
+    },
+    {
+     "descricao": "Rio de Janeiro: confrontos entre facções reduziram notas de matemática, o que reduz alternativas lícitas e retroalimenta o recrutamento (anel violencia-capital-humano).",
+     "fonte": "Monteiro e Rocha (2017)",
+     "url": "https://doi.org/10.1162/REST_a_00628",
+     "verificado": true
+    }
+   ],
+   "criticas": "A dicotomia é artificial (agravo e oportunidade interagem); sensível a proxies e a viés de seleção; criticada por Cramer e por Keen. Nunca foi testada para crime urbano no Brasil.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "combate-garimpo-ilegal-e-rastreio-do-ouro",
+     "educacao-tecnica-e-alfabetizacao"
+    ],
+    "indicadores": [
+     "vu-jovens-2023",
+     "edu-jovens-sem-em-2023"
+    ],
+    "aneis": [
+     "violencia-capital-humano",
+     "desigualdade-educacao-produtividade"
+    ]
+   }
+  },
+  {
+   "id": "goldstone-skocpol",
+   "nome": "Jack Goldstone e Theda Skocpol",
+   "tradicao": "Sociologia das revoluções, EUA",
+   "obra_chave": [
+    {
+     "titulo": "Skocpol, States and Social Revolutions",
+     "ano": 1979,
+     "url": "https://doi.org/10.1017/CBO9780511815805",
+     "doi": "10.1017/CBO9780511815805",
+     "verificado": true
+    },
+    {
+     "titulo": "Goldstone, Toward a Fourth Generation of Revolutionary Theory, Annual Review of Political Science 4",
+     "ano": 2001,
+     "url": "https://doi.org/10.1146/annurev.polisci.4.1.139",
+     "doi": "10.1146/annurev.polisci.4.1.139",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Revoluções sociais resultam de crise de Estado (pressão externa e fiscal) em conjunto com revoltas camponesas e divisões de elites, e não de simples vontade de revolucionários. A quarta geração inclui liderança, ideologia e processos de identificação.",
+   "conceitos": [
+    "crise de Estado",
+    "estruturas de classe",
+    "divisão de elites",
+    "quarta geração"
+   ],
+   "explica_no_brasil": "Ajuda a ler por que o Brasil teve rupturas de cúpula (1889, 1930, 1964) e não revolução social: as elites se rearranjaram. Também explica a luta armada de 1964-74 como sem base de massa.",
+   "evidencias": [
+    {
+     "descricao": "Abstract lido: teorias estruturais explicam vulnerabilidades dos regimes, mas é preciso incorporar liderança e ideologia.",
+     "fonte": "Goldstone (2001)",
+     "url": "https://doi.org/10.1146/annurev.polisci.4.1.139",
+     "verificado": true
+    }
+   ],
+   "criticas": "Casos selecionados pelo resultado (revoluções vitoriosas); difícil prever. Pouca relevância direta para violência cotidiana; Chenoweth mostra mais campanhas de resistência civil que revoluções armadas.",
+   "ligacoes": {
+    "pilares": [
+     "autonomia-e-confluencia"
+    ],
+    "decisoes": [
+     "anistia-politica"
+    ],
+    "indicadores": [
+     "est-cnv-434"
+    ],
+    "aneis": []
+   }
+  },
+  {
+   "id": "galtung",
+   "nome": "Johan Galtung",
+   "tradicao": "Pesquisa para a paz, Noruega (1930-)",
+   "obra_chave": [
+    {
+     "titulo": "Violence, Peace, and Peace Research, Journal of Peace Research 6(3)",
+     "ano": 1969,
+     "url": "https://doi.org/10.1177/002234336900600301",
+     "doi": "10.1177/002234336900600301",
+     "verificado": true
+    },
+    {
+     "titulo": "Cultural Violence, Journal of Peace Research 27(3)",
+     "ano": 1990,
+     "url": "https://doi.org/10.1177/0022343390027003005",
+     "doi": "10.1177/0022343390027003005",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Violência é a diferença entre o realizado e o potencial evitável; distingue violência direta (ato), estrutural (estruturas que impedem a realização de necessidades, ex.: pobreza, racismo) e cultural (legitimações da direta e da estrutural). Ampliou o conceito de paz para \"paz positiva\".",
+   "conceitos": [
+    "violência direta",
+    "violência estrutural",
+    "violência cultural",
+    "paz positiva e negativa",
+    "triângulo da violência"
+   ],
+   "explica_no_brasil": "Permite medir o que o homicídio sozinho não mede: o diferencial de risco por raça e território, a evasão escolar, a fome. Dialoga com Hobbes (o Leviatã não basta se a estrutura é violenta) e com o anel violência-capital humano.",
+   "evidencias": [
+    {
+     "descricao": "Abstract (1990) lido: \"violência cultural\" é qualquer aspecto de uma cultura que legitima a violência direta ou estrutural.",
+     "fonte": "Galtung (1990), JPR",
+     "url": "https://doi.org/10.1177/0022343390027003005",
+     "verificado": true
+    },
+    {
+     "descricao": "No Brasil, o risco relativo de homicídio de pessoa negra é 2,7 e 9 milhões de jovens de 14 a 29 anos não concluíram o ensino médio (2023): indicadores de violência estrutural no vocabulário de Galtung.",
+     "fonte": "fator_humano.json#vu-negros-2023, #edu-jovens-sem-em-2023",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Conceito tão amplo que quase tudo é violência (perda de poder analítico); sem contrafactual claro para o \"potencial\". Críticos (Boulding) preferem medir danos específicos. A estrutura não explica por que nem todos os pobres praticam violência.",
+   "ligacoes": {
+    "pilares": [
+     "capacidades-e-suficiencia",
+     "territorio-e-cuidado",
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "educacao-tecnica-e-alfabetizacao",
+     "ampliar-assistencia"
+    ],
+    "indicadores": [
+     "vu-negros-2023",
+     "edu-jovens-sem-em-2023",
+     "trab-resgates-1995-2024"
+    ],
+    "aneis": [
+     "violencia-capital-humano",
+     "desigualdade-educacao-produtividade"
+    ]
+   }
+  },
+  {
+   "id": "bourdieu",
+   "nome": "Pierre Bourdieu",
+   "tradicao": "Sociologia francesa (1930-2002)",
+   "obra_chave": [
+    {
+     "titulo": "Bourdieu e Passeron, La reproduction (A reprodução)",
+     "ano": 1970,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    },
+    {
+     "titulo": "La domination masculine (A dominação masculina)",
+     "ano": 1998,
+     "url": "https://en.wikipedia.org/wiki/Symbolic_violence",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Violência simbólica é a imposição de sentidos como legítimos, exercida com a cumplicidade tácita de quem a sofre porque categorias de percepção foram incorporadas (habitus); ela mascara relações de poder, sobretudo em escola, classe e gênero.",
+   "conceitos": [
+    "violência simbólica",
+    "habitus",
+    "capital cultural",
+    "dominação",
+    "doxa"
+   ],
+   "explica_no_brasil": "Ajuda a ler a escola como mecanismo que naturaliza hierarquias e o rótulo do \"bandido\" (Misse) como violência simbólica que legitima a violência física. Dialoga com Cida Bento (pacto da branquitude).",
+   "evidencias": [
+    {
+     "descricao": "Repositório: jovens sem ensino médio (9 milhões, 2023) e violência notificada contra crianças e adolescentes (201.453 notificações em 2024) indicam onde instituições escolares e familiares falham; a violência simbólica em si não é medida.",
+     "fonte": "fator_humano.json#edu-jovens-sem-em-2023; humano_nacional.json#viol_infantil_total",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Difícil de operacionalizar e de falsear; pode retirar a agência dos dominados; conceito difundido com sentidos distintos. Wacquant continua o programa e o aplica ao Estado penal.",
+   "ligacoes": {
+    "pilares": [
+     "pluralismo-epistemico",
+     "capacidades-e-suficiencia"
+    ],
+    "decisoes": [
+     "educacao-tecnica-e-alfabetizacao"
+    ],
+    "indicadores": [
+     "edu-jovens-sem-em-2023",
+     "series:viol_infantil_total"
+    ],
+    "aneis": [
+     "desigualdade-educacao-produtividade"
+    ]
+   }
+  },
+  {
+   "id": "girard",
+   "nome": "René Girard",
+   "tradicao": "Antropologia filosófica, França e EUA (1923-2015)",
+   "obra_chave": [
+    {
+     "titulo": "La violence et le sacré (A violência e o sagrado)",
+     "ano": 1972,
+     "url": "https://en.wikipedia.org/wiki/Ren%C3%A9_Girard",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O desejo é mimético (imitamos o desejo do outro), o que gera rivalidade e violência contagiosa; as sociedades a contêm pelo bode expiatório e pelo sacrifício. Teoria geral com forte componente religioso.",
+   "conceitos": [
+    "desejo mimético",
+    "rivalidade",
+    "bode expiatório",
+    "crise sacrificial",
+    "violência contagiosa"
+   ],
+   "explica_no_brasil": "Sugere leituras de espirais de vingança entre facções, linchamentos (José de Souza Martins estudou linchamentos no Brasil) e do bode expiatório do \"inimigo da sociedade\". Interpretação sem teste direto nos dados brasileiros.",
+   "evidencias": [
+    {
+     "descricao": "Linchamentos no Brasil foram objeto de estudo sociológico (Martins, 1995, Estudos Avançados); resumo não lido nesta pesquisa.",
+     "fonte": "Martins (1995), Estudos Avançados (DOI: 10.1590/s0103-40141995000300022)",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Pouco falseável; análise antropológica de ritual contestada; generalização excessiva. Útil como hipótese, não como causa demonstrada.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [],
+    "indicadores": [],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "scheper-hughes",
+   "nome": "Nancy Scheper-Hughes",
+   "tradicao": "Antropologia médica e da violência, EUA (1944-)",
+   "obra_chave": [
+    {
+     "titulo": "Death Without Weeping: The Violence of Everyday Life in Brazil",
+     "ano": 1992,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Small wars and invisible genocides, Social Science & Medicine 43(5)",
+     "ano": 1996,
+     "url": "https://doi.org/10.1016/0277-9536(96)00152-9",
+     "doi": "10.1016/0277-9536(96)00152-9",
+     "verificado": true
+    },
+    {
+     "titulo": "Scheper-Hughes e Bourgois (orgs.), Violence in War and Peace",
+     "ano": 2004,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Violência cotidiana: a morte infantil naturalizada e a indiferença socialmente produzida num bairro canavieiro de Pernambuco; \"continuum\" entre violência de guerra e de paz (genocídios invisíveis). Mortes de pobres tratadas como normais são violência institucional.",
+   "conceitos": [
+    "violência cotidiana",
+    "continuum da violência",
+    "genocídio invisível",
+    "violência institucional",
+    "banalidade do mal ordinário"
+   ],
+   "explica_no_brasil": "Dá nome à violência da omissão: mortalidade infantil evitável e abandono. A mortalidade infantil caiu de 146,6 por mil (1940) para 12,9 (2022), uma enorme redução, mas com desigualdade regional e racial persistente.",
+   "evidencias": [
+    {
+     "descricao": "Mortalidade infantil: 146,6 por mil nascidos vivos (1940), 69,1 (1980), 12,9 (2022).",
+     "fonte": "fator_humano.json#saude-mi-1940, #saude-mi-1980, #saude-mi-2022",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "A etnografia foi criticada por generalizar o caso de uma comunidade e pela interpretação das mães e da \"indiferença\", e por ética de pesquisa (debate na antropologia). Os dados de mortalidade infantil melhoraram muito, o que tensiona a imagem de normalização.",
+   "ligacoes": {
+    "pilares": [
+     "capacidades-e-suficiencia",
+     "territorio-e-cuidado"
+    ],
+    "decisoes": [
+     "ampliar-assistencia"
+    ],
+    "indicadores": [
+     "saude-mi-1940",
+     "saude-mi-1980",
+     "saude-mi-2022"
+    ],
+    "aneis": [
+     "desigualdade-educacao-produtividade"
+    ]
+   }
+  },
+  {
+   "id": "bourgois",
+   "nome": "Philippe Bourgois",
+   "tradicao": "Antropologia da violência, EUA (1956-)",
+   "obra_chave": [
+    {
+     "titulo": "In Search of Respect: Selling Crack in El Barrio",
+     "ano": 1995,
+     "url": "https://en.wikipedia.org/wiki/Philippe_Bourgois",
+     "doi": "",
+     "verificado": true
+    },
+    {
+     "titulo": "The Power of Violence in War and Peace: Post-Cold War Lessons from El Salvador, Ethnography 2(1)",
+     "ano": 2001,
+     "url": "https://doi.org/10.1177/14661380122230803",
+     "doi": "10.1177/14661380122230803",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Violência estrutural, simbólica, política e cotidiana se articulam e se normalizam; o jovem do tráfico busca respeito num mercado de trabalho que o exclui, e a violência interpessoal cresce nesse contexto.",
+   "conceitos": [
+    "violência cotidiana",
+    "cultura do terror",
+    "respeito",
+    "economia de rua",
+    "interseção de violências"
+   ],
+   "explica_no_brasil": "Dialoga com Zaluar e Misse na leitura do tráfico como mercado de trabalho e identidade. A pergunta é por que parte dos jovens com pouca escolaridade entra no mercado ilegal; no repositório há a taxa de 45,1 homicídios por 100 mil jovens.",
+   "evidencias": [
+    {
+     "descricao": "Abstract lido: terror político e repressão se embutem em interações diárias e normalizam brutalidade interpessoal, o que ilustra o continuum entre guerra e paz.",
+     "fonte": "Bourgois (2001), Ethnography",
+     "url": "https://doi.org/10.1177/14661380122230803",
+     "verificado": true
+    }
+   ],
+   "criticas": "Etnografia de poucos casos, sem generalização estatística; risco de exotizar os pobres; contexto de Nova York e El Salvador, não do Brasil.",
+   "ligacoes": {
+    "pilares": [
+     "capacidades-e-suficiencia"
+    ],
+    "decisoes": [
+     "educacao-tecnica-e-alfabetizacao"
+    ],
+    "indicadores": [
+     "vu-taxa-jovens-2023"
+    ],
+    "aneis": [
+     "violencia-capital-humano",
+     "desigualdade-educacao-produtividade"
+    ]
+   }
+  },
+  {
+   "id": "wacquant",
+   "nome": "Loïc Wacquant",
+   "tradicao": "Sociologia da punição, França e EUA (1960-)",
+   "obra_chave": [
+    {
+     "titulo": "Punishing the Poor: The Neoliberal Government of Social Insecurity",
+     "ano": 2009,
+     "url": "https://doi.org/10.1215/9780822392255",
+     "doi": "10.1215/9780822392255",
+     "verificado": true
+    },
+    {
+     "titulo": "The Penalisation of Poverty and the Rise of Neo-Liberalism, European Journal on Criminal Policy and Research 9",
+     "ano": 2001,
+     "url": "https://doi.org/10.1023/a:1013147404519",
+     "doi": "10.1023/a:1013147404519",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "A expansão do Estado penal é a contrapartida do recuo do Estado social: gerir a pobreza pela prisão e pela polícia (\"a mão esquerda\" do Estado se retrai e a \"direita\" se fortalece). Tese sobre EUA e Europa, estendida à América Latina.",
+   "conceitos": [
+    "penalização da pobreza",
+    "Estado centauro",
+    "mão direita e esquerda do Estado",
+    "hiperencarceramento"
+   ],
+   "explica_no_brasil": "No Brasil, a população prisional de 2025 mostra grande peso de tráfico (214.653 registros) e de pessoas pretas (133.985); a tese ajuda a perguntar quem é punido por quê. Debate com Misse: sujeição criminal e acumulação social da violência são mecanismos locais não redutíveis ao neoliberalismo.",
+   "evidencias": [
+    {
+     "descricao": "Dados prisionais 2025 do repositório (SENAPPEN): pretos 133.985; tráfico 214.653; sem série histórica.",
+     "fonte": "humano_nacional.json#prisional_pretos, #prisional_trafico_drogas",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Crítica: crescimento prisional ocorre também em contextos não neoliberais; a tese é funcionalista; para o Brasil falta ligação direta entre cortes sociais e prisões (o gasto social cresceu em 2003-2014 e o encarceramento também). Wacquant exagera a coerência do projeto neoliberal.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo",
+     "capacidades-e-suficiencia"
+    ],
+    "decisoes": [
+     "ampliar-assistencia"
+    ],
+    "indicadores": [
+     "series:prisional_pretos",
+     "series:prisional_trafico_drogas"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "gandhi",
+   "nome": "Mohandas K. Gandhi",
+   "tradicao": "Resistência não violenta, Índia (1869-1948)",
+   "obra_chave": [
+    {
+     "titulo": "Hind Swaraj (Indian Home Rule)",
+     "ano": 1909,
+     "url": "https://en.wikipedia.org/wiki/Hind_Swaraj",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Satyagraha: firmeza na verdade pela não violência ativa; meios e fins são inseparáveis; o sofrimento voluntário e a recusa de cooperar desgastam a legitimidade do opressor.",
+   "conceitos": [
+    "satyagraha",
+    "ahimsa",
+    "swaraj",
+    "desobediência civil",
+    "não cooperação"
+   ],
+   "explica_no_brasil": "Referência para movimentos de direitos no Brasil e para a tese de que organização cívica reduz violência; não é política de segurança pública. Relevante para conflitos fundiários e retomadas indígenas, sempre com ressalva de contexto.",
+   "evidencias": [
+    {
+     "descricao": "Comparação histórica: campanhas não violentas tiveram mais êxito em 323 campanhas (1900-2006); não equivale a prova de que funcione em qualquer contexto.",
+     "fonte": "Chenoweth e Stephan (2008); números de resumos de busca",
+     "url": "https://doi.org/10.1162/isec.2008.33.1.7",
+     "verificado": false
+    }
+   ],
+   "criticas": "Ambedkar criticou a posição de Gandhi sobre castas; historiadores apontam atitudes raciais do jovem Gandhi na África do Sul; a independência indiana veio com violência (Partição, cerca de milhão de mortos, estimativa de memória). Resultado depende do contexto e da resposta do oponente.",
+   "ligacoes": {
+    "pilares": [
+     "autonomia-e-confluencia",
+     "reciprocidade-e-darva"
+    ],
+    "decisoes": [
+     "orcamento-participativo-e-moedas-sociais"
+    ],
+    "indicadores": [],
+    "aneis": [
+     "controle-externo-eleitor"
+    ]
+   }
+  },
+  {
+   "id": "king",
+   "nome": "Martin Luther King Jr.",
+   "tradicao": "Movimento dos direitos civis, EUA (1929-1968)",
+   "obra_chave": [
+    {
+     "titulo": "Letter from Birmingham Jail",
+     "ano": 1963,
+     "url": "https://en.wikipedia.org/wiki/Letter_from_Birmingham_Jail",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "A ação direta não violenta cria \"tensão construtiva\" que obriga a negociar; leis injustas podem ser desobedecidas abertamente e aceitando a pena; \"injustiça em qualquer lugar é ameaça à justiça em todo lugar\". Foi assassinado em 1968.",
+   "conceitos": [
+    "ação direta não violenta",
+    "desobediência civil",
+    "lei injusta",
+    "comunidade amada",
+    "paz positiva"
+   ],
+   "explica_no_brasil": "Fonte de linguagem para o movimento negro brasileiro e para a crítica ao racismo institucional; a pauta de segurança pública negra (Mães de Maio, campanhas contra chacinas) usa repertório não violento de denúncia. A conexão é de ideias, não de causalidade medida.",
+   "evidencias": [
+    {
+     "descricao": "Carta de Birmingham, 1963: argumenta que a espera por reforma voluntária fracassa e que a ação não violenta é necessária.",
+     "fonte": "Letter from Birmingham Jail",
+     "url": "https://en.wikipedia.org/wiki/Letter_from_Birmingham_Jail",
+     "verificado": false
+    }
+   ],
+   "criticas": "Resultados legislativos (1964-65) vieram junto de pressão e de contexto de Guerra Fria; ao mesmo tempo, ao lado do movimento houve distúrbios urbanos; a comparação com o Brasil é limitada pela ausência de segregação legal formal.",
+   "ligacoes": {
+    "pilares": [
+     "autonomia-e-confluencia"
+    ],
+    "decisoes": [],
+    "indicadores": [
+     "vu-negros-2023"
+    ],
+    "aneis": [
+     "controle-externo-eleitor"
+    ]
+   }
+  },
+  {
+   "id": "sharp",
+   "nome": "Gene Sharp",
+   "tradicao": "Estudos de ação não violenta, EUA (1928-2018)",
+   "obra_chave": [
+    {
+     "titulo": "The Politics of Nonviolent Action",
+     "ano": 1973,
+     "url": "https://en.wikipedia.org/wiki/The_Politics_of_Nonviolent_Action",
+     "doi": "",
+     "verificado": true
+    },
+    {
+     "titulo": "From Dictatorship to Democracy",
+     "ano": 1993,
+     "url": "https://en.wikipedia.org/wiki/From_Dictatorship_to_Democracy",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O poder do governante depende da cooperação contínua da população; retirá-la de forma organizada (198 métodos catalogados) é uma forma de poder. Foco pragmático: não violência como técnica, não como crença.",
+   "conceitos": [
+    "pilares do poder",
+    "métodos de ação não violenta",
+    "retirada de cooperação",
+    "jiu-jitsu político"
+   ],
+   "explica_no_brasil": "Serve para descrever mobilizações políticas (Diretas Já, 1984; greves) e protestos contra violência policial; é lido como manual cívico, não como tese sobre criminalidade.",
+   "evidencias": [
+    {
+     "descricao": "As campanhas não violentas teriam taxa de sucesso maior que as armadas na comparação histórica; fonte consultada apenas em resumo de busca.",
+     "fonte": "Chenoweth e Stephan (2008)",
+     "url": "https://doi.org/10.1162/isec.2008.33.1.7",
+     "verificado": false
+    }
+   ],
+   "criticas": "Acusado de ingenuidade sobre repressão e de ter sido instrumentalizado por programas de \"mudança de regime\" (controvérsia sobre financiamento externo, de memória); o catálogo é descritivo e não indica quando cada método funciona.",
+   "ligacoes": {
+    "pilares": [
+     "autonomia-e-confluencia"
+    ],
+    "decisoes": [],
+    "indicadores": [],
+    "aneis": [
+     "controle-externo-eleitor"
+    ]
+   }
+  },
+  {
+   "id": "chenoweth-stephan",
+   "nome": "Erica Chenoweth e Maria J. Stephan",
+   "tradicao": "Ciência política da resistência civil, EUA",
+   "obra_chave": [
+    {
+     "titulo": "Why Civil Resistance Works: The Strategic Logic of Nonviolent Conflict, International Security 33(1)",
+     "ano": 2008,
+     "url": "https://doi.org/10.1162/isec.2008.33.1.7",
+     "doi": "10.1162/isec.2008.33.1.7",
+     "verificado": true
+    },
+    {
+     "titulo": "Why Civil Resistance Works (livro, Columbia University Press)",
+     "ano": 2011,
+     "url": "https://www.ericachenoweth.com/research/wcrw",
+     "doi": "",
+     "verificado": true
+    },
+    {
+     "titulo": "Chenoweth, The Future of Nonviolent Resistance, Journal of Democracy 31(3)",
+     "ano": 2020,
+     "url": "https://doi.org/10.1353/jod.2020.0046",
+     "doi": "10.1353/jod.2020.0046",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Entre 1900 e 2006, campanhas não violentas atingiram seus objetivos cerca de duas vezes mais que as violentas (resumos de busca falam em 53% x 26%, de 323 campanhas), porque mobilizam mais gente, ganham legitimidade e induzem deserções. A \"regra dos 3,5%\" é observação do pico de participação, não lei.",
+   "conceitos": [
+    "resistência civil",
+    "participação máxima",
+    "deserção das forças de segurança",
+    "regra dos 3,5%",
+    "campanhas maximalistas"
+   ],
+   "explica_no_brasil": "Oferece contraprova a Fanon e Sorel e a leituras que tratam violência como atalho. Aplicação ao Brasil é limitada: a violência cotidiana não é campanha política, e a repressão policial é o contexto de protestos.",
+   "evidencias": [
+    {
+     "descricao": "Abstract (2008) lido: campanhas não violentas foram mais bem-sucedidas que as armadas, mesmo contra oponentes semelhantes e com repressão.",
+     "fonte": "Chenoweth e Stephan (2008)",
+     "url": "https://doi.org/10.1162/isec.2008.33.1.7",
+     "verificado": true
+    },
+    {
+     "descricao": "Abstract (2020) lido: a eficácia da resistência civil começou a cair na década de 2010.",
+     "fonte": "Chenoweth (2020), JoD",
+     "url": "https://doi.org/10.1353/jod.2020.0046",
+     "verificado": true
+    },
+    {
+     "descricao": "Os números 323, 53% e 26% e a regra dos 3,5% vêm de resumos de busca (Harvard Gazette e outros) e não foram conferidos na obra.",
+     "fonte": "busca web",
+     "url": "https://www.ericachenoweth.com/research/wcrw",
+     "verificado": false
+    }
+   ],
+   "criticas": "Críticas: viés de seleção e definição de sucesso; pesquisa de Lehoucq (2016) questiona a robustez; a regra de 3,5% é descrita pela própria autora como não garantida; efeito em regimes que podem reprimir massivamente; campanhas armadas muitas vezes vencem em contextos específicos.",
+   "ligacoes": {
+    "pilares": [
+     "autonomia-e-confluencia"
+    ],
+    "decisoes": [
+     "consulta-previa-regulamentada"
+    ],
+    "indicadores": [],
+    "aneis": [
+     "controle-externo-eleitor"
+    ]
+   }
+  },
+  {
+   "id": "thoreau",
+   "nome": "Henry David Thoreau",
+   "tradicao": "Transcendentalismo, EUA (1817-1862)",
+   "obra_chave": [
+    {
+     "titulo": "Resistance to Civil Government (Civil Disobedience)",
+     "ano": 1849,
+     "url": "https://en.wikipedia.org/wiki/Civil_Disobedience_(Thoreau)",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O indivíduo tem o dever de não colaborar com a injustiça (escravidão, guerra do México); passou uma noite preso em 1846 por recusar o imposto de capitação. Influenciou Gandhi e King.",
+   "conceitos": [
+    "desobediência civil",
+    "consciência individual",
+    "não cooperação"
+   ],
+   "explica_no_brasil": "Referência remota; serve para pensar a objeção de consciência e a recusa a ordens ilegais por agentes do Estado (ex.: policiais que se recusam a executar). No Brasil, ligada a debates sobre objeção em operações.",
+   "evidencias": [
+    {
+     "descricao": "Sem dado brasileiro verificado nesta pesquisa.",
+     "fonte": "não verificado",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Individualismo e elitismo; sem teoria de organização; vinculação entre consciência privada e ação coletiva eficaz é frágil.",
+   "ligacoes": {
+    "pilares": [
+     "autonomia-e-confluencia"
+    ],
+    "decisoes": [],
+    "indicadores": [],
+    "aneis": []
+   }
+  },
+  {
+   "id": "milgram",
+   "nome": "Stanley Milgram",
+   "tradicao": "Psicologia social experimental, EUA (1933-1984)",
+   "obra_chave": [
+    {
+     "titulo": "Behavioral Study of Obedience, Journal of Abnormal and Social Psychology 67(4)",
+     "ano": 1963,
+     "url": "https://doi.org/10.1037/h0040525",
+     "doi": "10.1037/h0040525",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Pessoas comuns obedeceram a ordens para aplicar choques crescentes a um desconhecido sob pressão de uma autoridade científica (no experimento-base, cerca de 65% foram ao nível máximo, dado de memória).",
+   "conceitos": [
+    "obediência à autoridade",
+    "estado agêntico",
+    "distância moral",
+    "condições de obediência"
+   ],
+   "explica_no_brasil": "Ajuda a pensar tortura e execuções por agentes do Estado na ditadura (BNM e CNV) e a responsabilidade de quem cumpre ordens. Não explica nem desculpa os agentes.",
+   "evidencias": [
+    {
+     "descricao": "Abstract lido: procedimento de obediência destrutiva em laboratório.",
+     "fonte": "Milgram (1963)",
+     "url": "https://doi.org/10.1037/h0040525",
+     "verificado": true
+    },
+    {
+     "descricao": "Crítica: Haslam e Reicher (2012) mostram que os participantes se engajam por identificação com a causa e não por obediência cega.",
+     "fonte": "Haslam e Reicher (2012), PLoS Biology; resumo lido",
+     "url": "https://doi.org/10.1371/journal.pbio.1001426",
+     "verificado": true
+    }
+   ],
+   "criticas": "Replicação conceitual é difícil por ética; lacunas metodológicas apontadas por Perry (2012, de memória) e Gibson (2013); muitos participantes desconfiaram do cenário. O experimento descreve obediência, não justifica a conduta.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "anistia-politica"
+    ],
+    "indicadores": [
+     "est-bnm-torturados",
+     "est-cnv-434"
+    ],
+    "aneis": [
+     "controle-externo-eleitor"
+    ]
+   }
+  },
+  {
+   "id": "zimbardo",
+   "nome": "Philip Zimbardo",
+   "tradicao": "Psicologia social, EUA (1933-)",
+   "obra_chave": [
+    {
+     "titulo": "Stanford Prison Experiment (1971; relatos posteriores)",
+     "ano": 1971,
+     "url": "https://en.wikipedia.org/wiki/Stanford_prison_experiment",
+     "doi": "",
+     "verificado": true
+    },
+    {
+     "titulo": "Le Texier, Debunking the Stanford Prison Experiment, American Psychologist 74(7)",
+     "ano": 2019,
+     "url": "https://doi.org/10.1037/amp0000401",
+     "doi": "10.1037/amp0000401",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O experimento da prisão de Stanford (1971) seria prova de que a situação (papel de guarda) produz abuso em pessoas comuns. O estudo é hoje bastante criticado como evidência.",
+   "conceitos": [
+    "efeito Lúcifer",
+    "papéis sociais",
+    "desindividuação",
+    "situacionismo"
+   ],
+   "explica_no_brasil": "Menciona-se por analogia com sistemas prisionais brasileiros superlotados; não é evidência sobre eles.",
+   "evidencias": [
+    {
+     "descricao": "Crítica: arquivos e entrevistas mostram que os guardas receberam instruções para ser duros e que o estudo foi ensinado de modo enganoso; abstract lido.",
+     "fonte": "Le Texier (2019), American Psychologist",
+     "url": "https://doi.org/10.1037/amp0000401",
+     "verificado": true
+    },
+    {
+     "descricao": "Haslam e Reicher (2012) contestam a \"natureza\" da conformidade em Milgram e Zimbardo.",
+     "fonte": "PLoS Biology; resumo lido",
+     "url": "https://doi.org/10.1371/journal.pbio.1001426",
+     "verificado": true
+    }
+   ],
+   "criticas": "Amostra pequena, sem controle, treinamento dos guardas, demanda implícita; por isso não se deve usar como prova de que a situação por si só gera sadismo.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [],
+    "indicadores": [],
+    "aneis": []
+   }
+  },
+  {
+   "id": "bandura",
+   "nome": "Albert Bandura",
+   "tradicao": "Psicologia social-cognitiva, Canadá e EUA (1925-2021)",
+   "obra_chave": [
+    {
+     "titulo": "Bandura, Ross e Ross, Transmission of aggression through imitation of aggressive models, JASP 63(3)",
+     "ano": 1961,
+     "url": "https://doi.org/10.1037/h0045925",
+     "doi": "10.1037/h0045925",
+     "verificado": true
+    },
+    {
+     "titulo": "Moral Disengagement in the Perpetration of Inhumanities, PSPR 3(3)",
+     "ano": 1999,
+     "url": "https://doi.org/10.1207/s15327957pspr0303_3",
+     "doi": "10.1207/s15327957pspr0303_3",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Agressão se aprende por observação; a conduta violenta exige desengajamento moral (eufemismo, deslocamento de responsabilidade, desumanização). A autorregulação moral só opera quando ativada.",
+   "conceitos": [
+    "aprendizagem social",
+    "modelagem",
+    "desengajamento moral",
+    "autoeficácia"
+   ],
+   "explica_no_brasil": "O desengajamento moral explica por que policiais, milicianos e facções justificam mortes (\"bandido\", \"inimigo\", \"dano colateral\"), e a linguagem pública de guerra o facilita.",
+   "evidencias": [
+    {
+     "descricao": "Abstract (1999) lido: agência moral se manifesta no poder de se abster do mal; mecanismos de autossanção só operam quando ativados.",
+     "fonte": "Bandura (1999), PSPR",
+     "url": "https://doi.org/10.1207/s15327957pspr0303_3",
+     "verificado": true
+    }
+   ],
+   "criticas": "Experimentos de laboratório com crianças (boneco Bobo) têm validade ecológica limitada; o efeito da mídia violenta é pequeno e debatido.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [],
+    "indicadores": [],
+    "aneis": []
+   }
+  },
+  {
+   "id": "bauman",
+   "nome": "Zygmunt Bauman",
+   "tradicao": "Sociologia, Polônia e Reino Unido (1925-2017)",
+   "obra_chave": [
+    {
+     "titulo": "Modernity and the Holocaust",
+     "ano": 1989,
+     "url": "https://en.wikipedia.org/wiki/Modernity_and_the_Holocaust",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O Holocausto não foi regressão à barbárie, mas produto de burocracia, divisão de tarefas, técnica e distância moral típicas da modernidade; o crime coletivo pode ser administrativo.",
+   "conceitos": [
+    "modernidade e genocídio",
+    "distância moral",
+    "burocracia",
+    "racionalização",
+    "adiaforização"
+   ],
+   "explica_no_brasil": "Ajuda a ver tortura e desaparecimento como aparato burocrático (CNV, BNM) e o encarceramento em massa como gestão rotinizada. Tampouco é analogia direta com o Holocausto.",
+   "evidencias": [
+    {
+     "descricao": "Brasil: Nunca Mais reuniu 1.843 denúncias de tortura em 707 processos (1964-1979); CNV reconheceu 434 mortos e desaparecidos.",
+     "fonte": "fator_humano.json#est-bnm-torturados, #est-cnv-434",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Tese criticada por subestimar o antissemitismo específico e as motivações ideológicas; Elias e Browning sugerem outras explicações. A comparação com contextos brasileiros é limitada.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "anistia-politica"
+    ],
+    "indicadores": [
+     "est-bnm-torturados",
+     "est-cnv-434"
+    ],
+    "aneis": [
+     "controle-externo-eleitor"
+    ]
+   }
+  },
+  {
+   "id": "becker",
+   "nome": "Gary S. Becker",
+   "tradicao": "Economia do crime, EUA (1930-2014)",
+   "obra_chave": [
+    {
+     "titulo": "Crime and Punishment: An Economic Approach, Journal of Political Economy 76(2)",
+     "ano": 1968,
+     "url": "https://doi.org/10.1086/259394",
+     "doi": "10.1086/259394",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O crime é escolha racional que compara ganho esperado e custo esperado (probabilidade de punição vezes severidade); a política ótima equilibra o custo social do crime e o de combatê-lo.",
+   "conceitos": [
+    "dissuasão",
+    "custo e benefício esperados",
+    "probabilidade de punição",
+    "custo social do crime"
+   ],
+   "explica_no_brasil": "Sugere olhar a certeza da punição: no Brasil, apenas 35% dos homicídios de 2021 foram esclarecidos (denúncia de ao menos um autor) nos estados pesquisados; em termos de Becker, a probabilidade de punição é baixa.",
+   "evidencias": [
+    {
+     "descricao": "Taxa de esclarecimento de homicídios: 35% (2021) nos estados com dados, contra média global de 63% citada pelo estudo; amostra de 16 a 18 estados.",
+     "fonte": "Instituto Sou da Paz, Onde mora a impunidade (2023), via Poder360",
+     "url": "https://www.poder360.com.br/seguranca-publica/so-35-dos-homicidios-sao-solucionados-no-brasil-diz-estudo/",
+     "verificado": true
+    },
+    {
+     "descricao": "Revisão: dissuasão depende mais da certeza do que da severidade da punição.",
+     "fonte": "Nagin (2013), Crime and Justice (DOI: 10.1086/670398)",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Racionalidade limitada, jovens e impulsividade; muitos homicídios são expressivos; efeito da severidade é pequeno; ignora determinantes sociais. Cerqueira e Lobão (2004) discutem as limitações no Brasil.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "educacao-tecnica-e-alfabetizacao"
+    ],
+    "indicadores": [
+     "vu-homicidios-2023"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "cohen-felson",
+   "nome": "Lawrence Cohen e Marcus Felson",
+   "tradicao": "Criminologia ambiental, EUA",
+   "obra_chave": [
+    {
+     "titulo": "Social Change and Crime Rate Trends: A Routine Activity Approach, American Sociological Review 44(4)",
+     "ano": 1979,
+     "url": "https://doi.org/10.2307/2094589",
+     "doi": "10.2307/2094589",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O crime ocorre quando convergem no espaço e tempo um ofensor motivado, um alvo adequado e ausência de guardião capaz; mudanças nas rotinas (mais bens móveis, casas vazias) alteram as taxas sem mudar a motivação.",
+   "conceitos": [
+    "atividades rotineiras",
+    "ofensor motivado",
+    "alvo adequado",
+    "guardião capaz",
+    "prevenção situacional"
+   ],
+   "explica_no_brasil": "Fundamenta policiamento focado em lugares de risco: pontos quentes, iluminação, horários de bares.",
+   "evidencias": [
+    {
+     "descricao": "Revisão Campbell sobre policiamento de pontos quentes e deslocamento do crime; o resumo lido traz objetivos e métodos, e o resultado (redução modesta, deslocamento limitado) é de memória e não foi conferido.",
+     "fonte": "Braga et al. (2019), Campbell Systematic Reviews",
+     "url": "https://doi.org/10.1002/cl2.1046",
+     "verificado": false
+    }
+   ],
+   "criticas": "Explica oportunidade, não motivação; pode levar a deslocamento; não cobre violência doméstica ou expressiva em casa; efeito em contexto de crime organizado é incerto.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [],
+    "indicadores": [
+     "vu-homicidios-2023",
+     "series:atlas_homicidios"
+    ],
+    "aneis": [
+     "violencia-capital-humano"
+    ]
+   }
+  },
+  {
+   "id": "sampson",
+   "nome": "Robert J. Sampson",
+   "tradicao": "Sociologia urbana e criminologia, EUA (1956-)",
+   "obra_chave": [
+    {
+     "titulo": "Sampson, Raudenbush e Earls, Neighborhoods and Violent Crime: A Multilevel Study of Collective Efficacy, Science 277",
+     "ano": 1997,
+     "url": "https://doi.org/10.1126/science.277.5328.918",
+     "doi": "10.1126/science.277.5328.918",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Bairros com maior eficácia coletiva (coesão e disposição de intervir pelo bem comum) têm menos violência, controlando a composição social; a desvantagem concentrada é associada a menos eficácia coletiva.",
+   "conceitos": [
+    "eficácia coletiva",
+    "desvantagem concentrada",
+    "desorganização social",
+    "controle social informal"
+   ],
+   "explica_no_brasil": "Orienta políticas preventivas locais: Fica Vivo (Belo Horizonte) combinou mediação, presença territorial e polícia, com redução documentada em uma comunidade; o Pacto pela Vida (Pernambuco) existe na literatura nacional, não conferida aqui. Sampson não estudou o Brasil.",
+   "evidencias": [
+    {
+     "descricao": "Abstract lido: eficácia coletiva associada a menor violência em 343 bairros de Chicago (8.782 moradores).",
+     "fonte": "Sampson et al. (1997), Science",
+     "url": "https://doi.org/10.1126/science.277.5328.918",
+     "verificado": true
+    },
+    {
+     "descricao": "Fica Vivo: redução de 69% dos homicídios nos primeiros seis meses em Morro das Pedras (quase-experimento; efeito menor nos períodos seguintes).",
+     "fonte": "Silveira et al. (2010), Rev. Saúde Pública; resumo lido",
+     "url": "https://doi.org/10.1590/s0034-89102010000300013",
+     "verificado": true
+    }
+   ],
+   "criticas": "Estudo de Chicago em 1995, com possível endogeneidade (violência reduz coesão); eficácia coletiva em territórios sob governança criminal pode coexistir com violência (Lessing e Willis); avaliação do Fica Vivo é de uma única comunidade.",
+   "ligacoes": {
+    "pilares": [
+     "bens-comuns",
+     "territorio-e-cuidado",
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "orcamento-participativo-e-moedas-sociais"
+    ],
+    "indicadores": [
+     "vu-jovens-2023",
+     "vu-queda-2017"
+    ],
+    "aneis": [
+     "violencia-capital-humano"
+    ]
+   }
+  },
+  {
+   "id": "merton",
+   "nome": "Robert K. Merton",
+   "tradicao": "Sociologia funcionalista, EUA (1910-2003)",
+   "obra_chave": [
+    {
+     "titulo": "Social Structure and Anomie, American Sociological Review 3(5)",
+     "ano": 1938,
+     "url": "https://doi.org/10.2307/2084686",
+     "doi": "10.2307/2084686",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "A anomia (tensão) surge quando a cultura prescreve metas (sucesso material) mas a estrutura social não oferece meios legítimos iguais; adaptações incluem conformidade, inovação (crime), ritualismo, retraimento e rebelião.",
+   "conceitos": [
+    "anomia",
+    "metas culturais e meios institucionais",
+    "adaptação por inovação",
+    "strain"
+   ],
+   "explica_no_brasil": "Útil para ler o recrutamento de jovens para mercados ilegais onde faltam alternativas: 9 milhões de jovens sem ensino médio (2023) e aspiração de consumo. O anel violência-capital humano formaliza o ciclo.",
+   "evidencias": [
+    {
+     "descricao": "Indicadores do repositório: 9 milhões de jovens de 14 a 29 anos sem ensino médio completo (2023, estimativa não conferida na fonte).",
+     "fonte": "fator_humano.json#edu-jovens-sem-em-2023",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Foca em crime utilitário; não explica violência expressiva; ignora crime de colarinho branco (Sutherland) e agência; a maioria dos pobres não comete crime.",
+   "ligacoes": {
+    "pilares": [
+     "capacidades-e-suficiencia"
+    ],
+    "decisoes": [
+     "educacao-tecnica-e-alfabetizacao"
+    ],
+    "indicadores": [
+     "edu-jovens-sem-em-2023",
+     "vu-jovens-2023"
+    ],
+    "aneis": [
+     "violencia-capital-humano",
+     "desigualdade-educacao-produtividade"
+    ]
+   }
+  },
+  {
+   "id": "wilson-kelling",
+   "nome": "James Q. Wilson e George Kelling",
+   "tradicao": "Criminologia e política de segurança, EUA",
+   "obra_chave": [
+    {
+     "titulo": "Broken Windows, The Atlantic Monthly",
+     "ano": 1982,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Desordem visível não tratada (janelas quebradas) sinaliza ausência de controle e atrai crime mais grave; propõe policiamento de manutenção da ordem em nível local. A forma de implementação (tolerância zero) foi derivação posterior.",
+   "conceitos": [
+    "janelas quebradas",
+    "desordem",
+    "manutenção da ordem",
+    "policiamento comunitário"
+   ],
+   "explica_no_brasil": "A retórica de \"tolerância zero\" e de operações contra pequenos delitos foi invocada no Brasil; a revisão sistemática mostra efeito modesto e positivo quando a intervenção é comunitária e orientada a problemas, e nulo quando agressiva contra indivíduos.",
+   "evidencias": [
+    {
+     "descricao": "Meta-análise de 30 testes experimentais e quase experimentais: policiamento de desordem tem efeito modesto na redução de crime; ordem agressiva sobre indivíduos não reduz.",
+     "fonte": "Braga, Welsh e Schnell (2015), JRCD; resumo lido",
+     "url": "https://doi.org/10.1177/0022427815576576",
+     "verificado": true
+    },
+    {
+     "descricao": "Sampson e Raudenbush (1999) argumentam que desordem e crime têm causas comuns na estrutura do bairro (resumo não lido).",
+     "fonte": "Sampson e Raudenbush (1999), AJS (DOI: 10.1086/210356)",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Crítica empírica: a relação entre desordem e crime seria espúria (pobreza, desvantagem); policiamento agressivo gera prisões seletivas, efeitos raciais e desconfiança. Atribuir queda de homicídios em Nova York só a janelas quebradas é contestado.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [],
+    "indicadores": [
+     "vu-homicidios-2023"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "sutherland",
+   "nome": "Edwin H. Sutherland",
+   "tradicao": "Criminologia, EUA (1883-1950)",
+   "obra_chave": [
+    {
+     "titulo": "White-Collar Criminality, American Sociological Review 5(1)",
+     "ano": 1940,
+     "url": "https://doi.org/10.2307/2083937",
+     "doi": "10.2307/2083937",
+     "verificado": true
+    },
+    {
+     "titulo": "White Collar Crime",
+     "ano": 1949,
+     "url": "https://en.wikipedia.org/wiki/Edwin_Sutherland",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O crime é aprendido por associação diferencial em grupos; e o crime de colarinho branco (de empresas e pessoas respeitáveis) existe e causa mais dano, embora seja pouco punido; critica a tese de que crime é doença da pobreza.",
+   "conceitos": [
+    "associação diferencial",
+    "crime de colarinho branco",
+    "aprendizagem do crime"
+   ],
+   "explica_no_brasil": "Liga violência e corrupção: o custo do crime de poder (custo_corrupcao.json) e a seletividade penal; tensiona leituras que só olham o crime de rua.",
+   "evidencias": [
+    {
+     "descricao": "Seletividade penal: prisões por tráfico e roubo pesam na população prisional; crimes econômicos pesam pouco (dado prisional por tipo de crime no repositório, sem série).",
+     "fonte": "humano_nacional.json#prisional_trafico_drogas",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Associação diferencial é pouco falseável; Sutherland não mediu a violência; a definição de crime de colarinho branco é debatida (Tappan).",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "cortar-beneficios-fiscais"
+    ],
+    "indicadores": [
+     "series:prisional_trafico_drogas"
+    ],
+    "aneis": [
+     "captura-concentracao",
+     "controle-externo-eleitor"
+    ]
+   }
+  },
+  {
+   "id": "acemoglu-robinson",
+   "nome": "Daron Acemoglu e James A. Robinson",
+   "tradicao": "Economia política institucional, Turquia/EUA e Reino Unido",
+   "obra_chave": [
+    {
+     "titulo": "Acemoglu, Robinson e Santos, The Monopoly of Violence: Evidence from Colombia, JEEA 11(s1)",
+     "ano": 2013,
+     "url": "https://doi.org/10.1111/j.1542-4774.2012.01099.x",
+     "doi": "10.1111/j.1542-4774.2012.01099.x",
+     "verificado": true
+    },
+    {
+     "titulo": "Why Nations Fail",
+     "ano": 2012,
+     "url": "https://en.wikipedia.org/wiki/Why_Nations_Fail",
+     "doi": "",
+     "verificado": true
+    },
+    {
+     "titulo": "The Narrow Corridor",
+     "ano": 2019,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Prosperidade e paz dependem de instituições inclusivas e de um Estado forte, mas \"acorrentado\" por uma sociedade mobilizada (corredor estreito). Estado ausente (sem monopólio) ou despótico produz violência. Na Colômbia, paramilitares persistem quando convêm a políticos.",
+   "conceitos": [
+    "instituições inclusivas e extrativas",
+    "Leviatã acorrentado",
+    "Leviatã ausente",
+    "monopólio da violência",
+    "corredor estreito"
+   ],
+   "explica_no_brasil": "Quadro para ler milícias e facções como poder paralelo que se alimenta de alianças políticas e de territórios sem Estado; reforça o anel de captura.",
+   "evidencias": [
+    {
+     "descricao": "Abstract lido: onde falta o monopólio da violência, ele pode persistir por incentivos eleitorais; Colômbia, 1991-2006.",
+     "fonte": "Acemoglu, Robinson e Santos (2013), JEEA",
+     "url": "https://doi.org/10.1111/j.1542-4774.2012.01099.x",
+     "verificado": true
+    }
+   ],
+   "criticas": "Críticas: tipologia ampla, determinismo institucional, escolha de casos; a simplificação \"inclusivo x extrativo\" é discutida (Fukuyama, Sachs). A classificação do Brasil não é consenso.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo",
+     "bens-comuns"
+    ],
+    "decisoes": [
+     "ampliar-stf",
+     "remover-ministros-stf"
+    ],
+    "indicadores": [
+     "vu-homicidios-2023"
+    ],
+    "aneis": [
+     "captura-concentracao",
+     "controle-externo-eleitor"
+    ]
+   }
+  },
+  {
+   "id": "north-wallis-weingast",
+   "nome": "Douglass North, John Wallis e Barry Weingast",
+   "tradicao": "Nova economia institucional, EUA",
+   "obra_chave": [
+    {
+     "titulo": "Violence and Social Orders",
+     "ano": 2009,
+     "url": "https://doi.org/10.1017/CBO9780511575839",
+     "doi": "10.1017/CBO9780511575839",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Sociedades controlam a violência por dois arranjos: ordens de acesso limitado (\"Estados naturais\"), em que elites dominantes dividem rendas e a ameaça de violência as mantém coesas; e ordens de acesso aberto, com competição política e econômica impessoal.",
+   "conceitos": [
+    "ordem de acesso limitado",
+    "Estado natural",
+    "rentismo como contenção da violência",
+    "condições de limiar",
+    "ordem de acesso aberto"
+   ],
+   "explica_no_brasil": "Dá uma leitura de por que rendas e privilégios persistem: desfazê-los pode elevar o risco de violência entre elites. Aplicação ao Brasil é hipótese do repositório e não de classificação dos autores.",
+   "evidencias": [
+    {
+     "descricao": "Resumo lido: a maior parte das sociedades limita a violência por manipulação política da economia para criar interesses privilegiados.",
+     "fonte": "North, Wallis e Weingast (2009), Cambridge UP",
+     "url": "https://doi.org/10.1017/CBO9780511575839",
+     "verificado": true
+    }
+   ],
+   "criticas": "Esquema macro, difícil de testar; muda o foco para elites e subestima a violência de baixo; classificação binária; limitado para o crime urbano.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "cortar-beneficios-fiscais",
+     "privatizacoes"
+    ],
+    "indicadores": [],
+    "aneis": [
+     "captura-concentracao"
+    ]
+   }
+  },
+  {
+   "id": "skaperdas",
+   "nome": "Stergios Skaperdas",
+   "tradicao": "Economia do conflito e do crime organizado, EUA",
+   "obra_chave": [
+    {
+     "titulo": "The political economy of organized crime: providing protection when the state does not, Economics of Governance 2(3)",
+     "ano": 2001,
+     "url": "https://doi.org/10.1007/pl00011026",
+     "doi": "10.1007/pl00011026",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Na ausência de proteção estatal de direitos de propriedade, agentes alocam recursos a armas e à proteção privada; o crime organizado é provedor de proteção e arbitragem quando o Estado falha.",
+   "conceitos": [
+    "proteção privada",
+    "apropriação",
+    "conflito sem direitos de propriedade",
+    "crime organizado como governança"
+   ],
+   "explica_no_brasil": "Dialoga com Hobbes e Tilly: mercados ilegais exigem arbitragem que o Estado não presta; facções e milícias ocupam esse papel; justifica olhar governança criminal (Lessing, Magaloni).",
+   "evidencias": [
+    {
+     "descricao": "Rio de Janeiro: a resposta policial altera a segurança de modo distinto conforme o regime criminal (insurgente, bandido, simbiótico, predatório, dividido).",
+     "fonte": "Magaloni, Franco-Vivanco e Melo (2020), APSR; resumo lido",
+     "url": "https://doi.org/10.1017/S0003055419000856",
+     "verificado": true
+    }
+   ],
+   "criticas": "Modelo teórico estilizado; evidência brasileira própria é de outros autores; pode naturalizar o crime organizado como mero \"provedor\".",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [],
+    "indicadores": [
+     "vu-jovens-2023"
+    ],
+    "aneis": [
+     "violencia-capital-humano",
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "fajnzylber-lederman-loayza",
+   "nome": "Pablo Fajnzylber, Daniel Lederman e Norman Loayza",
+   "tradicao": "Economia do crime, Banco Mundial",
+   "obra_chave": [
+    {
+     "titulo": "Inequality and Violent Crime, Journal of Law and Economics 45(1)",
+     "ano": 2002,
+     "url": "https://doi.org/10.1086/338347",
+     "doi": "10.1086/338347",
+     "verificado": true
+    },
+    {
+     "titulo": "What causes violent crime?, European Economic Review 46(7)",
+     "ano": 2002,
+     "url": "https://doi.org/10.1016/S0014-2921(01)00096-4",
+     "doi": "10.1016/S0014-2921(01)00096-4",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Em painéis de países, a desigualdade de renda se associa positivamente a homicídios e roubos, mesmo controlando endogeneidade; o crescimento reduz o crime e a inércia (efeito de persistência) é grande.",
+   "conceitos": [
+    "desigualdade e crime",
+    "inércia criminal",
+    "painéis de países",
+    "endogeneidade"
+   ],
+   "explica_no_brasil": "Sustenta a ligação do anel desigualdade-educação ao crime; no Brasil, a análise de determinantes de Cerqueira e Lobão (2004) segue a mesma linha.",
+   "evidencias": [
+    {
+     "descricao": "Abstract lido: estudam robustez e causalidade do vínculo entre desigualdade e crime violento entre e dentro de países.",
+     "fonte": "Fajnzylber, Lederman e Loayza (2002), JLE",
+     "url": "https://doi.org/10.1086/338347",
+     "verificado": true
+    }
+   ],
+   "criticas": "Dados de homicídio entre países são heterogêneos; correlações em painéis não identificam mecanismos; No Brasil, a desigualdade de renda caiu na década de 2000 (dado de memória; a série do repositório está vazia no nível nacional) enquanto os homicídios subiram entre 2000 e 2017 (humano_nacional), o que tensiona a ligação.",
+   "ligacoes": {
+    "pilares": [
+     "capacidades-e-suficiencia"
+    ],
+    "decisoes": [
+     "ampliar-assistencia",
+     "educacao-tecnica-e-alfabetizacao"
+    ],
+    "indicadores": [
+     "series:taxa_homicidios",
+     "series:social_gini"
+    ],
+    "aneis": [
+     "desigualdade-educacao-produtividade",
+     "violencia-capital-humano"
+    ]
+   }
+  },
+  {
+   "id": "freyre",
+   "nome": "Gilberto Freyre",
+   "tradicao": "Sociologia e história social, Pernambuco (1900-1987)",
+   "obra_chave": [
+    {
+     "titulo": "Casa-grande & senzala",
+     "ano": 1933,
+     "url": "https://pt.wikipedia.org/wiki/Casa-Grande_%26_Senzala",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Descreve a formação patriarcal brasileira a partir da casa-grande, da miscigenação e do convívio entre senhores e escravizados; reconhece sadismo e violência sexual do senhor, mas enfatiza a plasticidade e o intercâmbio cultural. Expressão \"democracia racial\" popularizou-se depois e foi apropriada politicamente.",
+   "conceitos": [
+    "patriarcalismo",
+    "miscigenação",
+    "sadismo do senhor",
+    "luso-tropicalismo",
+    "democracia racial (apropriação posterior)"
+   ],
+   "explica_no_brasil": "Põe a violência íntima e doméstica na origem da sociedade brasileira (relações entre senhores e escravizadas), ao mesmo tempo em que suaviza a violência com o discurso de harmonia. Serve de ponto de partida para as críticas de Florestan, Abdias e Lélia.",
+   "evidencias": [
+    {
+     "descricao": "Censo de 1872: 15% da população (cerca de 1,5 milhão) registrada como escravizada (contagem verificada no repositório); a violência de Estado e privada de formação é mensurável, a \"harmonia\" não.",
+     "fonte": "fator_humano.json#esc-censo-1872",
+     "url": "",
+     "verificado": true
+    }
+   ],
+   "criticas": "Críticas centrais: Florestan Fernandes (mito da democracia racial), Guerreiro Ramos, Abdias; Schwarcz mostra o uso político. A obra romantiza a miscigenação e naturaliza o estupro colonial; relativiza o racismo estrutural.",
+   "ligacoes": {
+    "pilares": [
+     "darcy-ribeiro",
+     "abdias-nascimento",
+     "lelia-gonzalez"
+    ],
+    "decisoes": [
+     "homologar-terras-indigenas-e-titular-quilombos"
+    ],
+    "indicadores": [
+     "esc-censo-1872",
+     "esc-cor-1872"
+    ],
+    "aneis": [
+     "desigualdade-educacao-produtividade"
+    ]
+   }
+  },
+  {
+   "id": "sergio-buarque",
+   "nome": "Sérgio Buarque de Holanda",
+   "tradicao": "Historiografia e sociologia, Brasil (1902-1982)",
+   "obra_chave": [
+    {
+     "titulo": "Raízes do Brasil",
+     "ano": 1936,
+     "url": "https://pt.wikipedia.org/wiki/Ra%C3%ADzes_do_Brasil",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O \"homem cordial\" age pelo coração e pela relação pessoal, não pela regra impessoal; cordial não significa bondoso e inclui tanto afeto como ódio. A herança ibérica de personalismo dificulta a separação entre público e privado.",
+   "conceitos": [
+    "homem cordial",
+    "personalismo",
+    "patrimonialismo",
+    "aventureiro e trabalhador"
+   ],
+   "explica_no_brasil": "Ajuda a ler o favor, o compadrio e a particularização da lei (\"para os amigos tudo, para os inimigos a lei\") que alimentam impunidade seletiva e polícia discricionária. A leitura popular do \"brasileiro cordial e pacífico\" é equívoco do conceito.",
+   "evidencias": [
+    {
+     "descricao": "Taxa de esclarecimento de homicídios de 35% (2021, estados com dados): a seletividade é medida em termos de resultado, não de causa pessoal.",
+     "fonte": "Sou da Paz (2023) via Poder360",
+     "url": "https://www.poder360.com.br/seguranca-publica/so-35-dos-homicidios-sao-solucionados-no-brasil-diz-estudo/",
+     "verificado": true
+    }
+   ],
+   "criticas": "O conceito foi criticado por naturalizar o caráter nacional e por circularidade; Cassiano Ricardo propôs sentido positivo; outros (Schwarcz) preferem mandonismo e racismo como chaves. A ligação com taxas de homicídio é inferência, não teste.",
+   "ligacoes": {
+    "pilares": [
+     "darcy-ribeiro",
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "reforma-administrativa"
+    ],
+    "indicadores": [
+     "vu-homicidios-2023"
+    ],
+    "aneis": [
+     "legitimidade-impunidade",
+     "captura-concentracao"
+    ]
+   }
+  },
+  {
+   "id": "florestan",
+   "nome": "Florestan Fernandes",
+   "tradicao": "Sociologia crítica, São Paulo (1920-1995)",
+   "obra_chave": [
+    {
+     "titulo": "A integração do negro na sociedade de classes",
+     "ano": 1965,
+     "url": "https://pt.wikipedia.org/wiki/Florestan_Fernandes",
+     "doi": "",
+     "verificado": true
+    },
+    {
+     "titulo": "A revolução burguesa no Brasil",
+     "ano": 1975,
+     "url": "https://pt.wikipedia.org/wiki/Florestan_Fernandes",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O \"mito da democracia racial\" encobre a marginalização do negro após a abolição, sem política de integração; a burguesia dependente brasileira consolidou-se por \"autocracia\" e uso de coerção contra os de baixo.",
+   "conceitos": [
+    "mito da democracia racial",
+    "dilema social do negro",
+    "revolução burguesa",
+    "autocracia burguesa",
+    "capitalismo dependente"
+   ],
+   "explica_no_brasil": "Fundamenta a leitura da violência racial como resultado de exclusão histórica: a diferença de risco de homicídio por raça (2,7) é herança medida. A autocracia explica a convivência entre democracia formal e violência de Estado.",
+   "evidencias": [
+    {
+     "descricao": "Em 2023 a razão de risco de homicídio negro vs. não negro foi 2,7 e 77,8% das vítimas com raça informada eram negras (SIM).",
+     "fonte": "fator_humano.json#vu-negros-2023; humano_nacional.json#pct_vitimas_negras_raca_informada",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Críticas: determinismo de classe, subestima agência do movimento negro; revisões (Guimarães) sobre racismo e classes. A explicação não separa desigualdade de racismo em cada caso.",
+   "ligacoes": {
+    "pilares": [
+     "darcy-ribeiro",
+     "abdias-nascimento"
+    ],
+    "decisoes": [
+     "educacao-tecnica-e-alfabetizacao"
+    ],
+    "indicadores": [
+     "vu-negros-2023",
+     "esc-cor-1872"
+    ],
+    "aneis": [
+     "desigualdade-educacao-produtividade"
+    ]
+   }
+  },
+  {
+   "id": "darcy-ribeiro",
+   "nome": "Darcy Ribeiro",
+   "tradicao": "Antropologia e política, Brasil (1922-1997)",
+   "obra_chave": [
+    {
+     "titulo": "O povo brasileiro: a formação e o sentido do Brasil",
+     "ano": 1995,
+     "url": "https://pt.wikipedia.org/wiki/O_Povo_Brasileiro",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O Brasil nasceu de violência: \"moinho de gastar gente\", sob escravização e extermínio indígena; o povo mestiço é resultado de cunhadismo e opressão, mas também de invenção. Já presente em pilares_pensamento.json.",
+   "conceitos": [
+    "cunhadismo",
+    "moinho de gastar gente",
+    "mestiçagem",
+    "ninguendade"
+   ],
+   "explica_no_brasil": "Ver pilares_pensamento.json. Para violência: o extermínio e a escravização como atos fundadores; a CNV estimou 8.350 indígenas mortos por ação ou omissão do Estado (1946-1988), números ainda em debate.",
+   "evidencias": [
+    {
+     "descricao": "Indígenas mortos por ação ou omissão do Estado, 1946-1988: ao menos 8.350 (estimativa CNV).",
+     "fonte": "fator_humano.json#ind-cnv-8350",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Romantização da mestiçagem; narrativa de síntese contestada por pensadores negros e indígenas; precisão de números de memória.",
+   "ligacoes": {
+    "pilares": [
+     "darcy-ribeiro",
+     "abdias-nascimento"
+    ],
+    "decisoes": [
+     "homologar-terras-indigenas-e-titular-quilombos"
+    ],
+    "indicadores": [
+     "ind-cnv-8350",
+     "esc-desembarcados-brasil"
+    ],
+    "aneis": [
+     "territorio-indigena-conservacao"
+    ]
+   }
+  },
+  {
+   "id": "schwarcz",
+   "nome": "Lilia Moritz Schwarcz",
+   "tradicao": "Antropologia e história, Brasil (1957-)",
+   "obra_chave": [
+    {
+     "titulo": "O espetáculo das raças",
+     "ano": 1993,
+     "url": "https://pt.wikipedia.org/wiki/Lilia_Moritz_Schwarcz",
+     "doi": "",
+     "verificado": true
+    },
+    {
+     "titulo": "Sobre o autoritarismo brasileiro",
+     "ano": 2019,
+     "url": "https://pt.wikipedia.org/wiki/Lilia_Moritz_Schwarcz",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O autoritarismo brasileiro tem raízes em escravidão, mandonismo, patrimonialismo, desigualdade, racismo, violência e corrupção; o racismo científico do século XIX construiu hierarquias \"naturais\" nas instituições.",
+   "conceitos": [
+    "autoritarismo",
+    "mandonismo",
+    "racismo científico",
+    "patrimonialismo",
+    "cultura de violência"
+   ],
+   "explica_no_brasil": "Fornece o fio histórico entre escravidão, mandonismo local e violência de Estado, reforçando o anel de legitimidade; também a crítica ao mito de passado pacífico.",
+   "evidencias": [
+    {
+     "descricao": "Para 2023, 77,8% das vítimas de homicídio com raça informada eram negras; o número descreve e a história oferece interpretação.",
+     "fonte": "humano_nacional.json#pct_vitimas_negras_raca_informada",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Texto ensaístico, de difícil falseamento; a lista de \"raízes\" pode diluir a explicação; evidências quantitativas são de outros autores.",
+   "ligacoes": {
+    "pilares": [
+     "darcy-ribeiro"
+    ],
+    "decisoes": [
+     "educacao-tecnica-e-alfabetizacao"
+    ],
+    "indicadores": [
+     "vu-negros-2023"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "zaluar",
+   "nome": "Alba Zaluar",
+   "tradicao": "Antropologia urbana da violência, Rio de Janeiro",
+   "obra_chave": [
+    {
+     "titulo": "Condomínio do Diabo",
+     "ano": 1994,
+     "url": "https://pt.wikipedia.org/wiki/Alba_Zaluar",
+     "doi": "",
+     "verificado": true
+    },
+    {
+     "titulo": "Um debate disperso: violência e crime no Brasil da redemocratização, São Paulo em Perspectiva 13(3)",
+     "ano": 1999,
+     "url": "https://doi.org/10.1590/s0102-88391999000300002",
+     "doi": "10.1590/s0102-88391999000300002",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "A violência urbana não é só consequência da pobreza; envolve o tráfico de drogas e de armas como mercado, o \"ethos guerreiro\" de masculinidade e a fraqueza das instituições. Questiona as explicações puramente econômicas.",
+   "conceitos": [
+    "ethos guerreiro",
+    "crime organizado local",
+    "masculinidade e honra",
+    "pobreza não explica",
+    "crítica ao vitimismo"
+   ],
+   "explica_no_brasil": "Dialoga com Misse (sujeição criminal) e Machado da Silva (sociabilidade violenta): onde Misse vê acumulação social e rótulo, Zaluar acentua cultura de masculinidade e mercado de armas. A faixa de 15 a 29 anos concentra 47,8% dos homicídios.",
+   "evidencias": [
+    {
+     "descricao": "Em 2023, jovens de 15 a 29 anos foram 47,8% das vítimas (21.856), com taxa de 45,1 por 100 mil.",
+     "fonte": "fator_humano.json#vu-jovens-2023",
+     "url": "",
+     "verificado": true
+    }
+   ],
+   "criticas": "Críticas: acento em cultura e masculinidade pode culpabilizar os pobres; Misse critica a dificuldade de distinguir \"ethos\" de efeito de mercado; Zaluar contesta a leitura que toma jovens só como vítimas. O resumo da Scielo não foi lido na pesquisa.",
+   "ligacoes": {
+    "pilares": [
+     "capacidades-e-suficiencia",
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "educacao-tecnica-e-alfabetizacao"
+    ],
+    "indicadores": [
+     "vu-jovens-2023",
+     "vu-taxa-jovens-2023"
+    ],
+    "aneis": [
+     "violencia-capital-humano"
+    ]
+   }
+  },
+  {
+   "id": "misse",
+   "nome": "Michel Misse",
+   "tradicao": "Sociologia da violência e da sujeição criminal, Rio de Janeiro",
+   "obra_chave": [
+    {
+     "titulo": "Malandros, marginais e vagabundos e a acumulação social da violência no Rio de Janeiro (tese)",
+     "ano": 1999,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Crime, sujeito e sujeição criminal, Lua Nova 79",
+     "ano": 2010,
+     "url": "https://doi.org/10.1590/s0102-64452010000100003",
+     "doi": "10.1590/s0102-64452010000100003",
+     "verificado": true
+    },
+    {
+     "titulo": "Sobre a acumulação social da violência no Rio de Janeiro, Civitas 8(3)",
+     "ano": 2008,
+     "url": "https://doi.org/10.15448/1984-7289.2008.3.4865",
+     "doi": "10.15448/1984-7289.2008.3.4865",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Sujeição criminal: o processo social em que certos tipos de pessoa são classificados como \"bandidos\" e passam a ser tratados como tal, o que legitima violência contra elas. Acumulação social da violência: processo de cerca de meio século no Rio, em que a violência se acumula e se normaliza.",
+   "conceitos": [
+    "sujeição criminal",
+    "acumulação social da violência",
+    "mercadorias políticas",
+    "rótulo e estigma",
+    "bandido"
+   ],
+   "explica_no_brasil": "Explica por que parte da população aceita a morte do \"bandido\" e como a letalidade policial é legitimada; liga violência simbólica e física. Se aproxima de Wacquant (punição da pobreza), mas aponta mecanismos locais (mercadorias políticas, corrupção policial).",
+   "evidencias": [
+    {
+     "descricao": "Abstract (2008) lido: a \"acumulação social da violência\" é um processo de quase meio século no Rio (anos 1950 até hoje).",
+     "fonte": "Misse (2008), Civitas",
+     "url": "https://doi.org/10.15448/1984-7289.2008.3.4865",
+     "verificado": true
+    },
+    {
+     "descricao": "Abstract (2010) lido: usa o conceito de sujeição criminal para entender como opera a categoria \"bandido\".",
+     "fonte": "Misse (2010), Lua Nova",
+     "url": "https://doi.org/10.1590/s0102-64452010000100003",
+     "verificado": true
+    }
+   ],
+   "criticas": "Concentrado no Rio; não é quantificado; pode ser lido como explicação que absolve a conduta criminal individual (Zaluar, Cano pedem evidência sobre mercados); relação com Wacquant é de convergência parcial.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo",
+     "capacidades-e-suficiencia"
+    ],
+    "decisoes": [
+     "ampliar-stf"
+    ],
+    "indicadores": [
+     "vu-negros-2023",
+     "series:sim_intervencao_legal",
+     "vu-homicidios-2023"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "machado-da-silva",
+   "nome": "Luiz Antonio Machado da Silva",
+   "tradicao": "Sociologia urbana, Rio de Janeiro",
+   "obra_chave": [
+    {
+     "titulo": "Sociabilidade violenta: por uma interpretação da criminalidade contemporânea no Brasil urbano, Sociedade e Estado 19(1)",
+     "ano": 2004,
+     "url": "https://doi.org/10.1590/s0102-69922004000100004",
+     "doi": "10.1590/s0102-69922004000100004",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Sociabilidade violenta: um padrão em que a força é o princípio de coordenação das relações sociais em certas áreas, onde moradores vivem \"sob cerco\" entre tráfico e polícia; a violência é organização social, não ausência de ordem.",
+   "conceitos": [
+    "sociabilidade violenta",
+    "vida sob cerco",
+    "organização das relações de força",
+    "crime violento"
+   ],
+   "explica_no_brasil": "Resume a experiência de moradores de favelas do Rio entre facção e polícia; dá chave para ver a violência como ordem, com efeitos documentados (escola, saúde, mobilidade).",
+   "evidencias": [
+    {
+     "descricao": "Abstract lido: analisa a organização social das relações de força definidas como crime comum violento, com ênfase no Rio de Janeiro.",
+     "fonte": "Machado da Silva (2004), Sociedade e Estado",
+     "url": "https://doi.org/10.1590/s0102-69922004000100004",
+     "verificado": true
+    },
+    {
+     "descricao": "Em favelas do Rio, confrontos entre facções reduzem notas de matemática.",
+     "fonte": "Monteiro e Rocha (2017)",
+     "url": "https://doi.org/10.1162/REST_a_00628",
+     "verificado": true
+    }
+   ],
+   "criticas": "Estudo qualitativo concentrado no Rio; a noção de \"sociabilidade\" é difícil de testar; risco de generalizar para todas as periferias.",
+   "ligacoes": {
+    "pilares": [
+     "territorio-e-cuidado",
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [],
+    "indicadores": [
+     "vu-jovens-2023"
+    ],
+    "aneis": [
+     "violencia-capital-humano"
+    ]
+   }
+  },
+  {
+   "id": "caldeira",
+   "nome": "Teresa Caldeira",
+   "tradicao": "Antropologia urbana, São Paulo",
+   "obra_chave": [
+    {
+     "titulo": "Cidade de muros: crime, segregação e cidadania em São Paulo (City of Walls)",
+     "ano": 2000,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "O medo do crime e a \"fala do crime\" levam a enclaves fortificados (condomínios, shoppings), segurança privada e segregação: a elite se isola, o espaço público encolhe e a cidadania se fragmenta. A violência é também produtora de desigualdade espacial.",
+   "conceitos": [
+    "enclaves fortificados",
+    "fala do crime",
+    "segregação",
+    "segurança privada",
+    "cidadania disjuntiva"
+   ],
+   "explica_no_brasil": "Mostra o custo social da resposta privada ao medo: segurança privada, seguros e muros. O custo privado de segurança é parte relevante dos estudos de custo (BID: 1,37% do PIB na região, média).",
+   "evidencias": [
+    {
+     "descricao": "BID (2017): custo privado médio com segurança de 1,37% do PIB na América Latina e Caribe (2010-2014), contra 1,5% de gasto público.",
+     "fonte": "Jaitman (ed.), BID (2017), via LSE blog",
+     "url": "https://blogs.lse.ac.uk/latamcaribbean/2017/05/11/crime-costs-some-latin-american-countries-more-than-6-per-cent-of-their-gdp",
+     "verificado": true
+    }
+   ],
+   "criticas": "Caso de São Paulo nos anos 1980-90 e a fotografia mudou (queda de homicídios em SP); pouco mensurável; o isolamento é resposta ao medo e também produz mais medo.",
+   "ligacoes": {
+    "pilares": [
+     "territorio-e-cuidado",
+     "bens-comuns"
+    ],
+    "decisoes": [],
+    "indicadores": [
+     "vu-homicidios-2023"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "adorno",
+   "nome": "Sérgio Adorno",
+   "tradicao": "Sociologia da violência e do crime, São Paulo",
+   "obra_chave": [
+    {
+     "titulo": "A violência na sociedade brasileira: um painel inconcluso em uma democracia não consolidada, Sociedade e Estado 10(2)",
+     "ano": 1995,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    },
+    {
+     "titulo": "O fracasso do controle legal dos crimes e da violência na sociedade brasileira contemporânea, Ciência & Cultura",
+     "ano": 2022,
+     "url": "https://doi.org/10.5935/2317-6660.20220063",
+     "doi": "10.5935/2317-6660.20220063",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O Estado brasileiro não consolidou o monopólio legítimo da violência: mesmo na democracia, a justiça criminal é ineficaz, seletiva e permeável a práticas ilegais; o controle legal falha em prevenir e punir.",
+   "conceitos": [
+    "monopólio estatal da violência",
+    "democracia não consolidada",
+    "seletividade penal",
+    "impunidade",
+    "justiça criminal"
+   ],
+   "explica_no_brasil": "Dá conteúdo ao anel de legitimidade e impunidade: a baixa taxa de esclarecimento (35%) e a seletividade racial alimentam desconfiança, que por sua vez reduz denúncias e cooperação.",
+   "evidencias": [
+    {
+     "descricao": "Taxa de esclarecimento de homicídios de 35% em 2021 (estados com dados), com extremos de 76% (MG, PR) e 9% (RN).",
+     "fonte": "Sou da Paz (2023) via Poder360",
+     "url": "https://www.poder360.com.br/seguranca-publica/so-35-dos-homicidios-sao-solucionados-no-brasil-diz-estudo/",
+     "verificado": true
+    }
+   ],
+   "criticas": "Análises amplas, com pouca quantificação direta; a metáfora de \"não consolidada\" é normativa; a comparação com outras democracias é limitada. O texto de 1995 é citado de memória.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "ampliar-stf",
+     "remover-ministros-stf"
+    ],
+    "indicadores": [
+     "vu-homicidios-2023"
+    ],
+    "aneis": [
+     "legitimidade-impunidade",
+     "controle-externo-eleitor"
+    ]
+   }
+  },
+  {
+   "id": "pinheiro",
+   "nome": "Paulo Sérgio Pinheiro",
+   "tradicao": "Ciência política e direitos humanos, São Paulo (1944-)",
+   "obra_chave": [
+    {
+     "titulo": "Autoritarismo e transição, Revista USP 9",
+     "ano": 1991,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Violência fatal: conflitos policiais em São Paulo (81-89), Revista USP 9",
+     "ano": 1991,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "O \"autoritarismo socialmente implantado\": práticas autoritárias (tortura, execução, arbitrariedade) persistem em instituições e na sociedade depois da transição democrática, de modo que a democracia política convive com ilegalidade no tratamento dos pobres.",
+   "conceitos": [
+    "autoritarismo socialmente implantado",
+    "ilegalidade contínua",
+    "violência policial",
+    "democracia sem cidadania"
+   ],
+   "explica_no_brasil": "Explica a persistência de mortes por intervenção policial depois da democratização: 6.393 mortes em 2023 e 6.602 em 2025, a maior marca desde 2016. É a chave para ler continuidade entre ditadura e democracia.",
+   "evidencias": [
+    {
+     "descricao": "Mortes por intervenção policial: 6.393 (2023) e 6.602 (2025); 82,7% de vítimas negras em 2023.",
+     "fonte": "FBSP, Anuários 18 e 20",
+     "url": "https://nev.prp.usp.br/noticias/20o-anuario-da-seguranca-publica-alerta-para-alta-da-letalidade-policial-e-dos-feminicidios/",
+     "verificado": true
+    }
+   ],
+   "criticas": "Conceito de difícil medida; \"continuidade\" pode ser superestimada diante de reformas e da queda de homicídios; variação entre estados é grande.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "anistia-politica"
+    ],
+    "indicadores": [
+     "series:sim_intervencao_legal",
+     "est-cnv-434"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "cano",
+   "nome": "Ignacio Cano",
+   "tradicao": "Sociologia da violência, Rio de Janeiro",
+   "obra_chave": [
+    {
+     "titulo": "Letalidade da ação policial no Rio de Janeiro, ISER",
+     "ano": 1997,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Medir a letalidade policial e avaliar políticas com evidência: a razão entre mortos e feridos, o perfil das vítimas e a ligação com o contexto de confronto.",
+   "conceitos": [
+    "letalidade policial",
+    "avaliação de políticas",
+    "dados oficiais",
+    "homicídios no Rio"
+   ],
+   "explica_no_brasil": "Contribui com métricas e crítica de dados: o SIM registra intervenção legal (Y35-Y36), mas o FBSP contabiliza mais (6.393 em 2023 contra 2.274 no repositório). A diferença é de classificação e é o tipo de ressalva de Cano.",
+   "evidencias": [
+    {
+     "descricao": "No repositório, intervenção legal SIM 2023 = 2.274; FBSP conta 6.393 mortes por intervenção policial em 2023; as definições e os registros diferem.",
+     "fonte": "humano_nacional.json#sim_intervencao_legal; FBSP",
+     "url": "https://jornaldebrasilia.com.br/noticias/brasil/mortes-por-intervencao-policial-quase-triplicam-em-10-anos-no-pais/",
+     "verificado": true
+    }
+   ],
+   "criticas": "Estudos concentrados no Rio; limite dos registros administrativos (subnotificação e classificação); a obra de 1997 é citada de memória.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "ampliar-stf"
+    ],
+    "indicadores": [
+     "series:sim_intervencao_legal"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "cerqueira",
+   "nome": "Daniel Cerqueira",
+   "tradicao": "Economia da violência, Ipea (Atlas da Violência)",
+   "obra_chave": [
+    {
+     "titulo": "Atlas da Violência 2025 (coord. Cerqueira e Bueno)",
+     "ano": 2025,
+     "url": "https://repositorio.ipea.gov.br/items/1ad9a901-0413-4b53-b815-742f56dd4cec",
+     "doi": "",
+     "verificado": true
+    },
+    {
+     "titulo": "Cerqueira e Soares, The welfare cost of homicides in Brazil, Health Economics (publicação online 2014)",
+     "ano": 2014,
+     "url": "https://doi.org/10.1002/hec.3137",
+     "doi": "10.1002/hec.3137",
+     "verificado": true
+    },
+    {
+     "titulo": "Cerqueira e Lobão, Determinantes da criminalidade, Dados 47(2)",
+     "ano": 2004,
+     "url": "https://doi.org/10.1590/s0011-52582004000200002",
+     "doi": "10.1590/s0011-52582004000200002",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Mede a violência e a traduz em custo: o custo de bem-estar dos homicídios é de cerca de 78% do PIB em valor presente (2,3% ao ano), com heterogeneidade por idade, gênero, educação e região. Cada morte violenta custaria R$ 1 milhão aos cofres públicos (imprensa, não conferido).",
+   "conceitos": [
+    "Atlas da Violência",
+    "homicídios estimados",
+    "custo de bem-estar",
+    "disposição a pagar",
+    "determinantes da criminalidade"
+   ],
+   "explica_no_brasil": "É a fonte central dos dados de homicídio do repositório e de várias estimativas de custo; ver custo_economico neste arquivo.",
+   "evidencias": [
+    {
+     "descricao": "Abstract lido: valor presente do custo de bem-estar dos homicídios no Brasil equivale a cerca de 78% do PIB, ou 2,3% em fluxo anual; ignorar heterogeneidade gera viés de cerca de 20%.",
+     "fonte": "Cerqueira e Soares, Health Economics",
+     "url": "https://doi.org/10.1002/hec.3137",
+     "verificado": true
+    }
+   ],
+   "criticas": "Estimativas dependem de método (disposição a pagar x contabilidade); valores monetários da vida são controversos; o Atlas usa homicídios estimados com aprendizado de máquina (imprensa).",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "educacao-tecnica-e-alfabetizacao"
+    ],
+    "indicadores": [
+     "vu-homicidios-2023",
+     "vu-jovens-2023",
+     "series:atlas_homicidios"
+    ],
+    "aneis": [
+     "violencia-capital-humano"
+    ]
+   }
+  },
+  {
+   "id": "renato-sergio-lima",
+   "nome": "Renato Sérgio de Lima",
+   "tradicao": "Sociologia da segurança pública, FBSP",
+   "obra_chave": [
+    {
+     "titulo": "Entre palavras e números: violência, democracia e segurança pública no Brasil",
+     "ano": 2011,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Anuário Brasileiro de Segurança Pública (FBSP)",
+     "ano": 2026,
+     "url": "https://forumseguranca.org.br/",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Defende dados abertos e comparáveis, coordenação federativa e reforma das polícias; o Anuário consolida registros de polícias e secretarias.",
+   "conceitos": [
+    "dados abertos",
+    "federalismo e segurança",
+    "gestão da informação",
+    "Anuário"
+   ],
+   "explica_no_brasil": "Fornece números de letalidade policial, feminicídios e gastos: gasto público com segurança de R$ 163,1 bilhões em 2025; 40.775 mortes violentas intencionais em 2025 (19,1 por 100 mil).",
+   "evidencias": [
+    {
+     "descricao": "Anuário 20 (julho de 2026): 40.775 mortes violentas intencionais em 2025 (19,1 por 100 mil, menor taxa desde 2012); 1.571 feminicídios; 6.602 mortes por intervenção policial.",
+     "fonte": "FBSP via Agência Brasil e NEV-USP",
+     "url": "https://agenciabrasil.ebc.com.br/direitos-humanos/noticia/2026-07/mortes-violentas-caem-82-no-pais-em-2025-feminicidios-aumentam-4",
+     "verificado": true
+    }
+   ],
+   "criticas": "Dados administrativos têm subnotificação e diferenças de registro entre estados; a obra de 2011 é de memória.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "ampliar-stf"
+    ],
+    "indicadores": [
+     "vu-homicidios-2023",
+     "series:sim_intervencao_legal"
+    ],
+    "aneis": [
+     "legitimidade-impunidade",
+     "controle-externo-eleitor"
+    ]
+   }
+  },
+  {
+   "id": "malaguti-batista",
+   "nome": "Vera Malaguti Batista",
+   "tradicao": "Criminologia crítica, Rio de Janeiro",
+   "obra_chave": [
+    {
+     "titulo": "Difíceis ganhos fáceis: drogas e juventude pobre no Rio de Janeiro",
+     "ano": 1998,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    },
+    {
+     "titulo": "O medo na cidade do Rio de Janeiro: dois tempos de uma história",
+     "ano": 2003,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Introdução crítica à criminologia brasileira",
+     "ano": 2011,
+     "url": "",
+     "doi": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "O sistema penal brasileiro, desde o século XIX, controla a juventude pobre e negra; o medo foi produzido como política de ordem e a \"guerra às drogas\" substitui o controle da escravidão pela criminalização.",
+   "conceitos": [
+    "criminologia crítica",
+    "medo como política",
+    "controle penal de classe e raça",
+    "guerra às drogas"
+   ],
+   "explica_no_brasil": "Serve de contraponto às leituras punitivistas: pergunta quem é encarcerado e por quê. Pode ser testada com dados prisionais por tipo de crime e raça, que estão no repositório apenas para 2025.",
+   "evidencias": [
+    {
+     "descricao": "População prisional 2025 no repositório: pessoas pretas 133.985; registros de tráfico 214.653.",
+     "fonte": "humano_nacional.json#prisional_pretos",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Pouco diálogo com evidência quantitativa de eficácia policial; críticos dizem subestimar o dano das facções às comunidades pobres. As obras são citadas de memória.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "educacao-tecnica-e-alfabetizacao"
+    ],
+    "indicadores": [
+     "series:prisional_pretos",
+     "series:prisional_trafico_drogas"
+    ],
+    "aneis": [
+     "legitimidade-impunidade"
+    ]
+   }
+  },
+  {
+   "id": "cida-bento",
+   "nome": "Cida Bento",
+   "tradicao": "Psicologia social e relações raciais, São Paulo",
+   "obra_chave": [
+    {
+     "titulo": "O pacto da branquitude",
+     "ano": 2022,
+     "url": "https://pt.wikipedia.org/wiki/Cida_Bento",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O pacto da branquitude: acordo tácito entre brancos que protege privilégios e reproduz a desigualdade racial em instituições, empresas e Estado; o foco desloca-se do negro para o grupo branco.",
+   "conceitos": [
+    "pacto da branquitude",
+    "branqueamento",
+    "privilégio simbólico",
+    "discriminação institucional"
+   ],
+   "explica_no_brasil": "Ajuda a ler a seletividade racial da polícia e da justiça como efeito de instituições que se protegem; liga violência simbólica (Bourdieu) à física (homicídios).",
+   "evidencias": [
+    {
+     "descricao": "Razão de risco de homicídio negro vs. não negro: 2,7 (2023); 77,8% das vítimas com raça informada eram negras.",
+     "fonte": "fator_humano.json#vu-negros-2023",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Conceito de difícil teste quantitativo; pode ser lido como atribuição de intenção coletiva; a ligação com a letalidade exige estudos específicos.",
+   "ligacoes": {
+    "pilares": [
+     "lelia-gonzalez",
+     "abdias-nascimento"
+    ],
+    "decisoes": [
+     "educacao-tecnica-e-alfabetizacao"
+    ],
+    "indicadores": [
+     "vu-negros-2023",
+     "series:sim_homicidios_negros"
+    ],
+    "aneis": [
+     "desigualdade-educacao-produtividade",
+     "captura-concentracao"
+    ]
+   }
+  },
+  {
+   "id": "abdias",
+   "nome": "Abdias do Nascimento",
+   "tradicao": "Pensamento negro brasileiro (1914-2011)",
+   "obra_chave": [
+    {
+     "titulo": "O genocídio do negro brasileiro: processo de um racismo mascarado",
+     "ano": 1978,
+     "url": "https://pt.wikipedia.org/wiki/O_Genoc%C3%ADdio_do_Negro_Brasileiro",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O racismo brasileiro mascarado pela \"democracia racial\" opera um genocídio: extermínio físico e cultural da população negra por abandono, violência e embranquecimento. Propõe o quilombismo. Já em pilares_pensamento.json.",
+   "conceitos": [
+    "genocídio do negro",
+    "quilombismo",
+    "embranquecimento",
+    "democracia racial como máscara"
+   ],
+   "explica_no_brasil": "Ver pilares_pensamento.json. Para a violência: 77,8% das vítimas de homicídio com raça informada eram negras (2023) e 82,7% das mortes por intervenção policial; \"genocídio\" é categoria política e interpretativa, não jurídica.",
+   "evidencias": [
+    {
+     "descricao": "Pessoas negras: 82,7% das mortes por intervenção policial (2023, FBSP).",
+     "fonte": "FBSP via Jornal de Brasília",
+     "url": "https://jornaldebrasilia.com.br/noticias/brasil/mortes-por-intervencao-policial-quase-triplicam-em-10-anos-no-pais/",
+     "verificado": true
+    }
+   ],
+   "criticas": "O termo \"genocídio\" é disputado no direito (intenção específica de destruir um grupo); a evidência estatística mostra disparidade, não intenção. Alguns pesquisadores preferem \"necropolítica\" ou \"racismo estrutural\".",
+   "ligacoes": {
+    "pilares": [
+     "abdias-nascimento",
+     "lelia-gonzalez",
+     "beatriz-nascimento"
+    ],
+    "decisoes": [
+     "homologar-terras-indigenas-e-titular-quilombos"
+    ],
+    "indicadores": [
+     "vu-negros-2023",
+     "series:sim_homicidios_negros"
+    ],
+    "aneis": [
+     "desigualdade-educacao-produtividade"
+    ]
+   }
+  },
+  {
+   "id": "lelia-gonzalez",
+   "nome": "Lélia Gonzalez",
+   "tradicao": "Pensamento feminista negro, Brasil (1935-1994)",
+   "obra_chave": [
+    {
+     "titulo": "Racismo e sexismo na cultura brasileira, Revista Ciências Sociais Hoje",
+     "ano": 1984,
+     "url": "https://pt.wikipedia.org/wiki/L%C3%A9lia_Gonzalez",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Amefricanidade e a intersecção de racismo e sexismo: a mulher negra sofre violência de gênero e de raça, com o lugar social de doméstica e \"mulata\". Já em pilares_pensamento.json.",
+   "conceitos": [
+    "amefricanidade",
+    "racismo e sexismo",
+    "mulher negra",
+    "lugar social"
+   ],
+   "explica_no_brasil": "Ver pilares_pensamento.json. Para a violência: 65,1% das vítimas de feminicídio de 2025 eram mulheres negras e 56,5% morreram dentro de casa.",
+   "evidencias": [
+    {
+     "descricao": "Feminicídios 2025: 1.571; 65,1% de mulheres negras; 56,5% em casa.",
+     "fonte": "FBSP, Anuário 20, via NEV-USP",
+     "url": "https://nev.prp.usp.br/noticias/20o-anuario-da-seguranca-publica-alerta-para-alta-da-letalidade-policial-e-dos-feminicidios/",
+     "verificado": true
+    }
+   ],
+   "criticas": "A interseção é difícil de isolar em dados administrativos; categoria racial depende de preenchimento e subnotificação.",
+   "ligacoes": {
+    "pilares": [
+     "lelia-gonzalez",
+     "abdias-nascimento"
+    ],
+    "decisoes": [
+     "ampliar-assistencia"
+    ],
+    "indicadores": [
+     "series:atlas_homicidios_mulheres",
+     "series:sinan_mulheres_parceiro"
+    ],
+    "aneis": [
+     "desigualdade-educacao-produtividade"
+    ]
+   }
+  },
+  {
+   "id": "krenak",
+   "nome": "Ailton Krenak",
+   "tradicao": "Pensamento indígena, Brasil (1953-)",
+   "obra_chave": [
+    {
+     "titulo": "Ideias para adiar o fim do mundo",
+     "ano": 2019,
+     "url": "https://pt.wikipedia.org/wiki/Ideias_para_Adiar_o_Fim_do_Mundo",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "A humanidade \"homogênea\" é ficção que exclui povos e naturezas; a violência da invasão e do desenvolvimento destrói mundos. Já em pilares_pensamento.json.",
+   "conceitos": [
+    "fim do mundo",
+    "humanidade como ficção",
+    "mundos que resistem",
+    "rio Doce (Watu)"
+   ],
+   "explica_no_brasil": "Ver pilares_pensamento.json. A CNV estimou ao menos 8.350 indígenas mortos por ação ou omissão do Estado (1946-1988); a violência ambiental e territorial continua.",
+   "evidencias": [
+    {
+     "descricao": "Indígenas mortos por ação ou omissão do Estado (estimativa CNV): 8.350.",
+     "fonte": "fator_humano.json#ind-cnv-8350",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Pensamento de natureza ensaística; sem prescrição legal; alguns críticos dizem generalizar \"os indígenas\".",
+   "ligacoes": {
+    "pilares": [
+     "ailton-krenak",
+     "territorio-e-cuidado"
+    ],
+    "decisoes": [
+     "homologar-terras-indigenas-e-titular-quilombos",
+     "consulta-previa-regulamentada"
+    ],
+    "indicadores": [
+     "ind-cnv-8350",
+     "ind-censo-2022"
+    ],
+    "aneis": [
+     "territorio-indigena-conservacao"
+    ]
+   }
+  },
+  {
+   "id": "kopenawa",
+   "nome": "Davi Kopenawa e Bruce Albert",
+   "tradicao": "Pensamento yanomami (Kopenawa) e etnografia (Albert)",
+   "obra_chave": [
+    {
+     "titulo": "A queda do céu: palavras de um xamã yanomami (La chute du ciel, 2010)",
+     "ano": 2015,
+     "url": "https://pt.wikipedia.org/wiki/A_Queda_do_C%C3%A9u",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O garimpo traz \"fumaça de epidemia\" (xawara): doença, morte e destruição; o território é sustentado por rituais e a violência da invasão põe em risco o céu. Já em pilares_pensamento.json.",
+   "conceitos": [
+    "xawara (fumaça de epidemia)",
+    "garimpo",
+    "queda do céu",
+    "invasão"
+   ],
+   "explica_no_brasil": "Ver pilares_pensamento.json. Em janeiro de 2023 o governo declarou emergência na Terra Yanomami; entre 2019 e 2022 morreram 570 crianças (dado de imprensa).",
+   "evidencias": [
+    {
+     "descricao": "Janeiro-junho de 2023: 217 mortes na TI Yanomami; área de garimpo reduzida de cerca de 4.570 ha (mar/2024) a cerca de 56 ha (dez/2025), segundo o COE e o Censipam.",
+     "fonte": "Portal Amazônia",
+     "url": "https://portalamazonia.com/cidadania/crise-yanomami-o-que-ainda-falta/",
+     "verificado": true
+    }
+   ],
+   "criticas": "Dados de mortalidade têm causa múltipla (desnutrição, malária); atribuir cada morte ao garimpo exige cautela; a qualidade dos registros é variável.",
+   "ligacoes": {
+    "pilares": [
+     "kopenawa-albert",
+     "territorio-e-cuidado",
+     "oit-169-consulta"
+    ],
+    "decisoes": [
+     "combate-garimpo-ilegal-e-rastreio-do-ouro",
+     "homologar-terras-indigenas-e-titular-quilombos"
+    ],
+    "indicadores": [
+     "ind-cnv-8350"
+    ],
+    "aneis": [
+     "territorio-indigena-conservacao"
+    ]
+   }
+  },
+  {
+   "id": "beatriz-nascimento",
+   "nome": "Beatriz Nascimento",
+   "tradicao": "Historiografia e pensamento negro, Brasil (1942-1995)",
+   "obra_chave": [
+    {
+     "titulo": "Ôrí (filme, roteiro e narração)",
+     "ano": 1989,
+     "url": "https://pt.wikipedia.org/wiki/Beatriz_Nascimento",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "O quilombo como território e como paz: lugar de reconstrução de laços e memória, não apenas de fuga. Já em pilares_pensamento.json. Foi assassinada em 1995, no Rio, ao defender uma amiga de violência doméstica.",
+   "conceitos": [
+    "quilombo",
+    "território",
+    "corpo e memória",
+    "transatlântico"
+   ],
+   "explica_no_brasil": "Ver pilares_pensamento.json. O caso de sua morte lembra que a violência doméstica e de gênero atinge também intelectuais; os dados nacionais da violência de gênero seguem em fator_humano e humano_nacional.",
+   "evidencias": [
+    {
+     "descricao": "Notificações de violência contra mulheres: 437.734 em 2024, das quais 115.351 por parceiro íntimo e 73.616 sexual (SINAN; notificação e não incidência).",
+     "fonte": "humano_nacional.json#sinan_mulheres_total",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Obra dispersa e de memória oral; nem sempre sistemática; relação com dados quantitativos é indireta.",
+   "ligacoes": {
+    "pilares": [
+     "beatriz-nascimento",
+     "territorio-e-cuidado"
+    ],
+    "decisoes": [
+     "homologar-terras-indigenas-e-titular-quilombos"
+    ],
+    "indicadores": [
+     "series:sinan_mulheres_total"
+    ],
+    "aneis": [
+     "territorio-indigena-conservacao"
+    ]
+   }
+  },
+  {
+   "id": "marighella",
+   "nome": "Carlos Marighella e a luta armada",
+   "tradicao": "Luta armada contra a ditadura, Brasil (1911-1969)",
+   "obra_chave": [
+    {
+     "titulo": "Minimanual do guerrilheiro urbano",
+     "ano": 1969,
+     "url": "https://pt.wikipedia.org/wiki/Minimanual_do_Guerrilheiro_Urbano",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Marighella (ALN) defendeu a guerrilha urbana contra o regime militar e foi morto por agentes do DOPS em São Paulo em 4 de novembro de 1969. Apresentado como objeto histórico, sem endosso: as ações armadas incluíram assaltos e sequestros; o Estado respondeu com tortura, execuções e desaparecimentos.",
+   "conceitos": [
+    "guerrilha urbana",
+    "luta armada",
+    "repressão",
+    "terrorismo de Estado"
+   ],
+   "explica_no_brasil": "Mostra o ciclo de violência política de 1964-1974 e dá contexto à Lei da Anistia; a CNV reconheceu 434 mortos e desaparecidos (1946-1988), a maioria de agentes do Estado contra opositores.",
+   "evidencias": [
+    {
+     "descricao": "CNV: 434 mortos e desaparecidos políticos (1946-1988) reconhecidos; BNM: 1.843 pessoas denunciaram tortura em 707 processos.",
+     "fonte": "fator_humano.json#est-cnv-434, #est-bnm-torturados",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Debate sobre classificar ações como \"terrorismo\" ou \"resistência\"; críticas à luta armada pela falta de base de massa (Goldstone/Skocpol, Chenoweth); críticas ao regime pela violência sistemática. A apresentação deve manter os dois lados da violência sem equiparar escalas.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "anistia-politica"
+    ],
+    "indicadores": [
+     "est-cnv-434",
+     "est-bnm-torturados"
+    ],
+    "aneis": [
+     "controle-externo-eleitor"
+    ]
+   }
+  },
+  {
+   "id": "bnm-cnv",
+   "nome": "Brasil: Nunca Mais e Comissão Nacional da Verdade",
+   "tradicao": "Memória e justiça de transição, Brasil",
+   "obra_chave": [
+    {
+     "titulo": "Brasil: Nunca Mais",
+     "ano": 1985,
+     "url": "https://pt.wikipedia.org/wiki/Brasil:_Nunca_Mais",
+     "doi": "",
+     "verificado": true
+    },
+    {
+     "titulo": "Comissão Nacional da Verdade, Relatório Final",
+     "ano": 2014,
+     "url": "https://pt.wikipedia.org/wiki/Comiss%C3%A3o_Nacional_da_Verdade",
+     "doi": "",
+     "verificado": true
+    }
+   ],
+   "ideia_central": "Documentam a violência de Estado na ditadura: o BNM reuniu denúncias de tortura em processos da Justiça Militar; a CNV reconheceu 434 mortos e desaparecidos políticos e estimou ao menos 8.350 indígenas mortos. É a base empírica sobre a violência de Estado política.",
+   "conceitos": [
+    "justiça de transição",
+    "verdade e memória",
+    "tortura sistemática",
+    "desaparecimento forçado"
+   ],
+   "explica_no_brasil": "Serve de baliza para as discussões atuais sobre anistia, controle civil das forças e responsabilidade; indica a prática de tortura como política.",
+   "evidencias": [
+    {
+     "descricao": "BNM: 1.843 pessoas denunciaram tortura em 707 processos (1964-1979); CNV: 434 mortos e desaparecidos; 8.350 indígenas (estimativa).",
+     "fonte": "fator_humano.json#est-bnm-torturados, #est-cnv-434, #ind-cnv-8350",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Números são mínimos (subnotificação, documentos destruídos); controvérsia política sobre o relatório; a CNV não teve poder de persecução.",
+   "ligacoes": {
+    "pilares": [
+     "autocontrole-e-monopolio-legitimo"
+    ],
+    "decisoes": [
+     "anistia-politica"
+    ],
+    "indicadores": [
+     "est-bnm-torturados",
+     "est-cnv-434",
+     "ind-cnv-8350",
+     "est-ccv-camponeses"
+    ],
+    "aneis": [
+     "controle-externo-eleitor"
+    ]
+   }
+  }
+ ],
+ "tipologia": [
+  {
+   "id": "direta",
+   "tipo": "Violência direta",
+   "definicao": "Ato físico ou psíquico de dano intencional entre pessoas ou grupos (homicídio, agressão, estupro).",
+   "pensadores": [
+    "galtung",
+    "weber",
+    "tilly-violencia-coletiva"
+   ],
+   "exemplos_brasil": [
+    {
+     "descricao": "Homicídios (Atlas)",
+     "valor": "42.590 em 2024; 19,57 por 100 mil",
+     "fonte": "humano_nacional.json#atlas_homicidios",
+     "verificado": false
+    },
+    {
+     "descricao": "Mortes violentas intencionais (FBSP)",
+     "valor": "40.775 em 2025 (19,1 por 100 mil)",
+     "fonte": "Anuário 20 via Agência Brasil",
+     "verificado": true
+    }
+   ],
+   "como_medir": "Contagem de óbitos (SIM) e registros policiais; taxas por 100 mil; atenção a mortes violentas de causa indeterminada.",
+   "limites": "Subestima violência não letal e não registrada; SIM, Atlas e FBSP usam definições distintas."
+  },
+  {
+   "id": "estrutural",
+   "tipo": "Violência estrutural",
+   "definicao": "Dano evitável produzido por arranjos sociais (pobreza, racismo, falta de acesso), sem ator que o cometa diretamente.",
+   "pensadores": [
+    "galtung",
+    "scheper-hughes",
+    "florestan",
+    "bourgois"
+   ],
+   "exemplos_brasil": [
+    {
+     "descricao": "Razão de risco de homicídio negro vs. não negro",
+     "valor": "2,7 (2023)",
+     "fonte": "fator_humano.json#vu-negros-2023",
+     "verificado": false
+    },
+    {
+     "descricao": "Jovens de 14 a 29 anos sem ensino médio",
+     "valor": "cerca de 9 milhões (2023)",
+     "fonte": "fator_humano.json#edu-jovens-sem-em-2023",
+     "verificado": false
+    },
+    {
+     "descricao": "Trabalhadores resgatados de condição análoga à de escravo",
+     "valor": "65.598 (1995-2024, cumulativo)",
+     "fonte": "fator_humano.json#trab-resgates-1995-2024",
+     "verificado": false
+    }
+   ],
+   "como_medir": "Diferenciais evitáveis (mortalidade, escolaridade, renda) por grupo; contrafactual do \"potencial\".",
+   "limites": "Sem contrafactual claro; conceito amplo; não deve ser somado à violência direta."
+  },
+  {
+   "id": "cultural",
+   "tipo": "Violência cultural",
+   "definicao": "Aspectos da cultura (religião, ideologia, linguagem, ciência) que legitimam violência direta ou estrutural.",
+   "pensadores": [
+    "galtung",
+    "bandura",
+    "schwarcz",
+    "freyre"
+   ],
+   "exemplos_brasil": [
+    {
+     "descricao": "Legitimação por lei da escravização: 15% da população recenseada como escravizada",
+     "valor": "1,5 milhão em 1872",
+     "fonte": "fator_humano.json#esc-censo-1872",
+     "verificado": true
+    },
+    {
+     "descricao": "Atitudes de apoio à violência (pesquisas de opinião)",
+     "valor": "não medido no repositório",
+     "fonte": "ausente",
+     "verificado": false
+    }
+   ],
+   "como_medir": "Pesquisas de atitudes, análise de discurso e de mídia, legislação histórica.",
+   "limites": "Sem indicador no repositório; medidas de opinião são sensíveis à redação das perguntas."
+  },
+  {
+   "id": "simbolica",
+   "tipo": "Violência simbólica",
+   "definicao": "Imposição de categorias de percepção que naturalizam dominação, com a cumplicidade tácita dos dominados.",
+   "pensadores": [
+    "bourdieu",
+    "misse",
+    "cida-bento",
+    "lelia-gonzalez"
+   ],
+   "exemplos_brasil": [
+    {
+     "descricao": "Categoria \"bandido\" como rótulo de sujeição criminal",
+     "valor": "não quantificado (conceito qualitativo)",
+     "fonte": "Misse (2008, 2010), abstracts lidos",
+     "verificado": true
+    }
+   ],
+   "como_medir": "Etnografia, análise de discurso, experimentos de auditoria; indiretamente pelos diferenciais de tratamento.",
+   "limites": "Difícil de operacionalizar e falsear."
+  },
+  {
+   "id": "institucional",
+   "tipo": "Violência institucional",
+   "definicao": "Dano produzido por organizações (escola, saúde, polícia, prisão, justiça) por ação, omissão ou rotina.",
+   "pensadores": [
+    "foucault",
+    "pinheiro",
+    "adorno",
+    "wacquant"
+   ],
+   "exemplos_brasil": [
+    {
+     "descricao": "Mortes por intervenção policial",
+     "valor": "6.393 (2023); 6.602 (2025)",
+     "fonte": "FBSP, Anuários 18 e 20",
+     "verificado": true
+    },
+    {
+     "descricao": "Taxa de esclarecimento de homicídios",
+     "valor": "35% (2021, estados com dados)",
+     "fonte": "Sou da Paz (2023) via Poder360",
+     "verificado": true
+    }
+   ],
+   "como_medir": "Registros de letalidade, taxas de esclarecimento, ouvidorias, auditorias.",
+   "limites": "Subnotificação e classificação variável; diferenças entre estados."
+  },
+  {
+   "id": "legitima-ilegitima",
+   "tipo": "Violência legítima x ilegítima",
+   "definicao": "Distinção weberiana entre uso de força autorizado pelo Estado (e crido legítimo) e uso sem autorização; a legitimidade é crença, e o uso legal pode ser abusivo.",
+   "pensadores": [
+    "weber",
+    "locke",
+    "arendt",
+    "agamben"
+   ],
+   "exemplos_brasil": [
+    {
+     "descricao": "Intervenção legal no SIM (Y35-Y36)",
+     "valor": "2.274 (2023)",
+     "fonte": "humano_nacional.json#sim_intervencao_legal",
+     "verificado": false
+    },
+    {
+     "descricao": "Mortes por intervenção policial no FBSP (mesmo ano)",
+     "valor": "6.393",
+     "fonte": "FBSP, Anuário 18",
+     "verificado": true
+    }
+   ],
+   "como_medir": "Distinguir intervenções legais, abusos apurados e execuções; razão mortos/feridos; investigação das mortes.",
+   "limites": "Registros não distinguem legalidade; a diferença entre SIM e FBSP é de definição e de preenchimento."
+  },
+  {
+   "id": "fundadora-conservadora",
+   "tipo": "Violência fundadora x conservadora de direito",
+   "definicao": "Benjamin: violência que cria uma ordem jurídica (conquista, revolução) e violência que a mantém (polícia, pena).",
+   "pensadores": [
+    "benjamin",
+    "marx-engels",
+    "schmitt"
+   ],
+   "exemplos_brasil": [
+    {
+     "descricao": "Fundadora: africanos desembarcados no Brasil",
+     "valor": "quase 4,8 milhões (1501-1866, estimativa)",
+     "fonte": "fator_humano.json#esc-desembarcados-brasil",
+     "verificado": false
+    },
+    {
+     "descricao": "Fundadora: indígenas mortos por ação ou omissão do Estado",
+     "valor": "8.350 (1946-1988, estimativa CNV)",
+     "fonte": "fator_humano.json#ind-cnv-8350",
+     "verificado": false
+    },
+    {
+     "descricao": "Conservadora: população prisional por tráfico (registros)",
+     "valor": "214.653 (2025)",
+     "fonte": "humano_nacional.json#prisional_trafico_drogas",
+     "verificado": false
+    }
+   ],
+   "como_medir": "Análise histórica e jurídica; contagens de mortes em conquista e em policiamento.",
+   "limites": "Classificação conceitual, não estatística; um mesmo ato pode ser lido como fundador e conservador."
+  },
+  {
+   "id": "mimetica",
+   "tipo": "Violência mimética",
+   "definicao": "Girard: espiral de rivalidade e vingança por imitação, contida por bode expiatório.",
+   "pensadores": [
+    "girard",
+    "bandura"
+   ],
+   "exemplos_brasil": [
+    {
+     "descricao": "Ciclos de retaliação entre facções e linchamentos",
+     "valor": "não medido",
+     "fonte": "Martins (1995, linchamentos; resumo não lido)",
+     "verificado": false
+    }
+   ],
+   "como_medir": "Séries de eventos de retaliação, análise de redes de conflito; sem indicador padrão.",
+   "limites": "Hipótese interpretativa; sem teste direto."
+  },
+  {
+   "id": "estado",
+   "tipo": "Violência de Estado",
+   "definicao": "Violência exercida ou tolerada por agentes e instituições estatais, legal ou ilegalmente (repressão política, letalidade policial, omissão).",
+   "pensadores": [
+    "foucault",
+    "agamben",
+    "mbembe",
+    "pinheiro",
+    "bnm-cnv"
+   ],
+   "exemplos_brasil": [
+    {
+     "descricao": "Mortos e desaparecidos políticos reconhecidos pela CNV",
+     "valor": "434 (1946-1988)",
+     "fonte": "fator_humano.json#est-cnv-434",
+     "verificado": false
+    },
+    {
+     "descricao": "Pessoas que denunciaram tortura (BNM)",
+     "valor": "1.843 em 707 processos (1964-1979)",
+     "fonte": "fator_humano.json#est-bnm-torturados",
+     "verificado": false
+    },
+    {
+     "descricao": "Camponeses mortos e desaparecidos",
+     "valor": "1.196 (1961-1988, estimativa)",
+     "fonte": "fator_humano.json#est-ccv-camponeses",
+     "verificado": false
+    }
+   ],
+   "como_medir": "Relatórios de comissões da verdade, registros policiais, ouvidorias, controle externo.",
+   "limites": "Subnotificação; documentos destruídos; controvérsia política sobre números."
+  },
+  {
+   "id": "politica",
+   "tipo": "Violência política",
+   "definicao": "Violência com objetivo de obter, manter ou contestar poder político (luta armada, repressão, violência eleitoral).",
+   "pensadores": [
+    "marighella",
+    "lenin",
+    "luxemburg",
+    "goldstone-skocpol",
+    "chenoweth-stephan"
+   ],
+   "exemplos_brasil": [
+    {
+     "descricao": "Luta armada e repressão, 1964-1974",
+     "valor": "ver CNV: 434 mortos e desaparecidos",
+     "fonte": "fator_humano.json#est-cnv-434",
+     "verificado": false
+    },
+    {
+     "descricao": "Violência política e eleitoral contemporânea",
+     "valor": "sem série verificada no repositório",
+     "fonte": "ausente",
+     "verificado": false
+    }
+   ],
+   "como_medir": "Bases de eventos (ACLED, observatórios), comissões da verdade.",
+   "limites": "Os dados atuais de violência eleitoral não foram verificados nesta pesquisa."
+  },
+  {
+   "id": "domestica-genero",
+   "tipo": "Violência doméstica e de gênero",
+   "definicao": "Violência entre parceiros e em casa, com recorte de gênero (feminicídio, violência sexual).",
+   "pensadores": [
+    "bourdieu",
+    "lelia-gonzalez",
+    "scheper-hughes"
+   ],
+   "exemplos_brasil": [
+    {
+     "descricao": "Feminicídios",
+     "valor": "1.571 em 2025 (65,1% vítimas negras; 56,5% em casa)",
+     "fonte": "FBSP, Anuário 20, via NEV-USP e Agência Brasil",
+     "verificado": true
+    },
+    {
+     "descricao": "Notificações de violência contra mulheres por parceiro íntimo",
+     "valor": "115.351 em 2024 (SINAN)",
+     "fonte": "humano_nacional.json#sinan_mulheres_parceiro",
+     "verificado": false
+    }
+   ],
+   "como_medir": "Feminicídios (tipificação penal), SINAN, pesquisas de vitimização.",
+   "limites": "Notificação cresce com a cobertura; feminicídio exige tipificação; muita violência fica invisível."
+  },
+  {
+   "id": "infantil",
+   "tipo": "Violência contra crianças e adolescentes",
+   "definicao": "Violência física, psicológica, sexual, negligência e tortura contra 0-17 anos.",
+   "pensadores": [
+    "scheper-hughes",
+    "bandura"
+   ],
+   "exemplos_brasil": [
+    {
+     "descricao": "Notificações SINAN de violência contra 0-17 anos",
+     "valor": "201.453 em 2024 (sexual 58.250)",
+     "fonte": "humano_nacional.json#viol_infantil_total",
+     "verificado": false
+    },
+    {
+     "descricao": "Crianças e adolescentes entre as vítimas de estupro (FBSP)",
+     "valor": "61% das vítimas de estupro em 2024 (resultado de busca)",
+     "fonte": "ANDI via busca",
+     "verificado": false
+    }
+   ],
+   "como_medir": "SINAN, Disque 100, registros policiais.",
+   "limites": "Crescimento da notificação por ampliação do serviço; subnotificação intrafamiliar."
+  },
+  {
+   "id": "racial",
+   "tipo": "Violência racial",
+   "definicao": "Violência ou dano distribuídos por raça, por ação ou por omissão, em contexto de racismo estrutural.",
+   "pensadores": [
+    "abdias",
+    "lelia-gonzalez",
+    "florestan",
+    "cida-bento",
+    "fanon"
+   ],
+   "exemplos_brasil": [
+    {
+     "descricao": "Razão de risco de homicídio negro vs. não negro",
+     "valor": "2,7 (2023)",
+     "fonte": "fator_humano.json#vu-negros-2023",
+     "verificado": false
+    },
+    {
+     "descricao": "Negros entre mortos por intervenção policial",
+     "valor": "82,7% (2023); taxa 3,8 vezes a de brancos",
+     "fonte": "FBSP, Anuário 18, via Jornal de Brasília",
+     "verificado": true
+    }
+   ],
+   "como_medir": "Taxas por raça (SIM), padronização por idade e território; preenchimento da raça/cor.",
+   "limites": "Raça ignorada e classificação; efeito racial e de território se confundem."
+  },
+  {
+   "id": "ambiental-territorial",
+   "tipo": "Violência ambiental e territorial",
+   "definicao": "Violência contra povos e territórios por invasão, garimpo, grilagem e conflito fundiário.",
+   "pensadores": [
+    "krenak",
+    "kopenawa",
+    "beatriz-nascimento",
+    "darcy-ribeiro"
+   ],
+   "exemplos_brasil": [
+    {
+     "descricao": "Terra Yanomami: mortes entre janeiro e junho de 2023",
+     "valor": "217",
+     "fonte": "COE e Portal Amazônia",
+     "verificado": true
+    },
+    {
+     "descricao": "Camponeses mortos e desaparecidos (1961-1988)",
+     "valor": "1.196 (estimativa)",
+     "fonte": "fator_humano.json#est-ccv-camponeses",
+     "verificado": false
+    }
+   ],
+   "como_medir": "Monitoramento por satélite (garimpo), registros de saúde, comissões de conflitos agrários.",
+   "limites": "Causa múltipla das mortes; atribuição ao garimpo exige estudo específico."
+  },
+  {
+   "id": "governanca-criminal",
+   "tipo": "Violência e governança criminal",
+   "definicao": "Grupos criminosos que impõem ordem e regras em territórios, com efeitos variáveis sobre homicídios conforme o regime.",
+   "pensadores": [
+    "skaperdas",
+    "tilly",
+    "machado-da-silva",
+    "zaluar",
+    "acemoglu-robinson"
+   ],
+   "exemplos_brasil": [
+    {
+     "descricao": "PCC impõe ordem em favelas e reduz homicídios (estudo de documentos apreendidos)",
+     "valor": "efeito qualitativo e quase-experimental; sem número nacional",
+     "fonte": "Lessing e Willis (2019), abstract lido",
+     "verificado": true
+    },
+    {
+     "descricao": "Resposta policial varia por regime criminal (UPPs no Rio)",
+     "valor": "sem número único",
+     "fonte": "Magaloni et al. (2020), abstract lido",
+     "verificado": true
+    }
+   ],
+   "como_medir": "Mapas de controle territorial, entrevistas, documentos, séries de homicídios por área.",
+   "limites": "Dados sensíveis, difícil verificação; generalização do Rio e de São Paulo."
+  },
+  {
+   "id": "arma-de-fogo",
+   "tipo": "Violência armada",
+   "definicao": "Violência letal por arma de fogo, que concentra a mortalidade intencional.",
+   "pensadores": [
+    "cohen-felson",
+    "cerqueira"
+   ],
+   "exemplos_brasil": [
+    {
+     "descricao": "Homicídios por arma de fogo (SIM)",
+     "valor": "30.549 de 42.936 em 2023",
+     "fonte": "humano_nacional.json#sim_homicidios_arma_fogo",
+     "verificado": false
+    }
+   ],
+   "como_medir": "SIM por instrumento, rastreamento de armas.",
+   "limites": "Associação com política de armas exige desenho causal; não estudado aqui."
+  }
+ ],
+ "dialogos": [
+  {
+   "entre": [
+    "weber",
+    "arendt"
+   ],
+   "tema": "Poder e violência: o Estado é monopólio de força ou de legitimidade?",
+   "convergencia": "Ambos ligam violência a legitimidade: sem crença social, a força não se sustenta.",
+   "divergencia": "Weber define o Estado pelo monopólio da força legítima; Arendt separa poder (consentimento) de violência (instrumento), e diz que a violência surge onde o poder se perde. Teste: governança criminal obtém obediência com regras e coerção (Lessing e Willis); Arendt chamaria de domínio, Weber de legitimidade fraca."
+  },
+  {
+   "entre": [
+    "galtung",
+    "hobbes"
+   ],
+   "tema": "Paz como ausência de violência direta ou como justiça estrutural",
+   "convergencia": "Ambos tomam a violência como problema de ordem social, não de índole individual.",
+   "divergencia": "Hobbes aceita um soberano que impõe paz negativa (fim da guerra de todos); Galtung diz que um Estado que mantém violência estrutural não produz paz positiva. Teste: queda de 35% dos homicídios 2017-2024 (paz negativa) convive com razão de risco racial de 2,7 (estrutural)."
+  },
+  {
+   "entre": [
+    "misse",
+    "wacquant"
+   ],
+   "tema": "Punição da pobreza ou sujeição criminal e acumulação social da violência",
+   "convergencia": "Ambos mostram que o sistema penal e a classificação social recaem sobre os pobres e negros.",
+   "divergencia": "Wacquant explica pelo recuo do Estado social e pelo neoliberalismo; Misse enfatiza processos locais (rótulo de bandido, mercadorias políticas, corrupção policial) que existem sem uma única causa macroeconômica. Teste: séries de encarceramento e gasto social por estado (não disponíveis aqui)."
+  },
+  {
+   "entre": [
+    "chenoweth-stephan",
+    "fanon"
+   ],
+   "tema": "A violência é necessária ou eficaz para a libertação?",
+   "convergencia": "Ambos tomam a dominação como violenta e a resistência como legítima.",
+   "divergencia": "Fanon descreve a descolonização como violenta; Chenoweth e Stephan encontram taxas de sucesso maiores nas campanhas não violentas (números de resumos), embora campanhas armadas tenham vencido em casos (Argélia). Críticas: viés de seleção e definições de sucesso. Não se conclui prescrição."
+  },
+  {
+   "entre": [
+    "tilly",
+    "clastres"
+   ],
+   "tema": "O Estado pacifica ou domina?",
+   "convergencia": "Ambos ligam Estado a violência e extração de recursos.",
+   "divergencia": "Tilly vê o Estado nascer da guerra e da proteção como racket; Clastres vê sociedades que recusam a separação do poder. O Brasil tem os dois: Estados com monopólio parcial e povos que resistem à invasão (Kopenawa, Krenak)."
+  },
+  {
+   "entre": [
+    "pinker",
+    "elias"
+   ],
+   "tema": "A violência declina?",
+   "convergencia": "Há queda de homicídios na Europa entre os séculos XVI e XX (Eisner); Pinker se apoia em Elias (processo civilizador) para explicá-la.",
+   "divergencia": "Pinker generaliza para uma queda secular de violência; os críticos Fazal (a medicina militar mascara a letalidade das guerras) e Cirillo e Taleb (a cauda pesada impede afirmar tendência) contestam métrica e inferência (ver evidências de pinker). O Brasil: 26,15 por 100 mil (2000), 31,72 (2017), 19,57 (2024), variação decenal que a tendência secular não prediz."
+  },
+  {
+   "entre": [
+    "hobbes",
+    "locke"
+   ],
+   "tema": "Quanto poder dar ao soberano",
+   "convergencia": "Ambos justificam o Estado pela proteção da vida.",
+   "divergencia": "Hobbes aceita poder quase ilimitado em troca de paz; Locke limita o poder por consentimento e permite resistência contra tirania. O Brasil debate: a letalidade policial é custo da ordem (Hobbes) ou violação do contrato (Locke)?"
+  },
+  {
+   "entre": [
+    "benjamin",
+    "schmitt"
+   ],
+   "tema": "Exceção, direito e violência",
+   "convergencia": "Ambos mostram que o direito se apoia em violência.",
+   "divergencia": "Schmitt valoriza a decisão soberana da exceção; Benjamin critica a violência jurídica e busca um fora dela. Uso aqui apenas analítico."
+  },
+  {
+   "entre": [
+    "foucault",
+    "bourdieu"
+   ],
+   "tema": "Disciplina e violência simbólica",
+   "convergencia": "Poder opera por normalização e incorporação, não só por coerção.",
+   "divergencia": "Foucault vê poder difuso e produtivo sem centro; Bourdieu localiza dominação em campos e capitais desiguais. Teste: efeitos escolares e prisionais por grupo."
+  },
+  {
+   "entre": [
+    "agamben",
+    "mbembe"
+   ],
+   "tema": "Vida nua e necropolítica",
+   "convergencia": "Ambos tratam de vidas expostas à morte sem proteção jurídica.",
+   "divergencia": "Agamben parte do campo europeu e do paradigma da exceção; Mbembe parte do colonialismo e da raça. Aplicadas ao Brasil, a necropolítica conecta a concentração racial e territorial da letalidade; Agamben, a suspensão de direitos em operações."
+  },
+  {
+   "entre": [
+    "wilson-kelling",
+    "sampson"
+   ],
+   "tema": "Desordem causa crime ou ambos têm causa comum?",
+   "convergencia": "Ambos valorizam o controle social local.",
+   "divergencia": "Wilson e Kelling propõem policiamento de ordem; Sampson mostra que a eficácia coletiva e a desvantagem concentrada explicam violência e desordem. Evidência: policiamento comunitário e orientado a problemas tem efeito modesto; aquele agressivo sobre indivíduos não (Braga et al. 2015)."
+  },
+  {
+   "entre": [
+    "milgram",
+    "zimbardo"
+   ],
+   "tema": "Obediência e papéis: situação ou identificação?",
+   "convergencia": "Ambos mostram que contextos produzem conduta cruel.",
+   "divergencia": "Haslam e Reicher (2012) argumentam identificação com a causa; Le Texier (2019) desmonta o estudo de Stanford. Para a violência de Estado, fica a pergunta de quem decide e de quem treina."
+  },
+  {
+   "entre": [
+    "becker",
+    "merton"
+   ],
+   "tema": "Escolha racional ou tensão estrutural",
+   "convergencia": "Ambos ligam crime a incentivos e oportunidades.",
+   "divergencia": "Becker olha custo e benefício e probabilidade de punição; Merton olha a distância entre metas e meios. Dado do repositório: 35% de esclarecimento (probabilidade baixa) e 9 milhões de jovens sem ensino médio (meios restritos) são compatíveis com ambos."
+  },
+  {
+   "entre": [
+    "collier-hoeffler",
+    "galtung"
+   ],
+   "tema": "Oportunidade, agravo e estrutura",
+   "convergencia": "Ambos olham causas econômicas da violência.",
+   "divergencia": "Collier e Hoeffler: oportunidade explica mais que agravo; Galtung: estrutura injusta é violência em si. Em crime urbano, nenhum teste direto no Brasil."
+  },
+  {
+   "entre": [
+    "freyre",
+    "florestan"
+   ],
+   "tema": "Harmonia ou violência na formação racial",
+   "convergencia": "Ambos reconhecem a escravidão como matriz da sociedade.",
+   "divergencia": "Freyre enfatiza plasticidade e convívio; Florestan denuncia o mito da democracia racial como máscara de exclusão. Evidência: risco relativo de 2,7 e 77,8% de vítimas negras são medidas atuais, não prova do passado."
+  },
+  {
+   "entre": [
+    "zaluar",
+    "misse"
+   ],
+   "tema": "Ethos guerreiro ou acumulação social e sujeição",
+   "convergencia": "Ambos recusam que pobreza explique sozinha.",
+   "divergencia": "Zaluar enfatiza masculinidade, armas e mercado; Misse, o rótulo e a acumulação histórica da violência. Os dois são testáveis em parte com dados de mercados de armas e de reincidência (não aqui)."
+  },
+  {
+   "entre": [
+    "gandhi",
+    "fanon"
+   ],
+   "tema": "Não violência de princípio ou violência como linguagem do colonizado",
+   "convergencia": "Ambos denunciam a dominação.",
+   "divergencia": "Gandhi trata meios e fins como inseparáveis; Fanon descreve a violência como resposta inevitável, e Arendt critica essa posição. Prescrição não é objeto deste projeto."
+  },
+  {
+   "entre": [
+    "acemoglu-robinson",
+    "north-wallis-weingast"
+   ],
+   "tema": "Instituições inclusivas ou rendas que contêm a violência",
+   "convergencia": "Ambos ligam instituições a controle da violência.",
+   "divergencia": "Acemoglu e Robinson veem rentismo extrativo como causa de pobreza e violência; North, Wallis e Weingast, como arranjo que contém a violência entre elites. Desmontar privilégios é ganho (A&R) ou risco de instabilidade (NWW)? Dados insuficientes."
+  },
+  {
+   "entre": [
+    "becker",
+    "sampson"
+   ],
+   "tema": "Segurança pública punitivista x preventiva",
+   "convergencia": "Ambos aceitam que políticas têm efeito mensurável.",
+   "divergencia": "Melhor versão punitivista (Becker, dissuasão): a certeza da punição dissuade; no Brasil só 35% dos homicídios são esclarecidos, então investigar mais é compatível com dissuasão. Melhor versão preventiva (Sampson, Fica Vivo): eficácia coletiva e mediação reduzem homicídios; Fica Vivo reduziu 69% em seis meses numa comunidade, mas o efeito diminuiu. Evidência: o policiamento comunitário tem efeito modesto; agressivo, nulo (Braga et al.). Não são excludentes: a evidência favorece combinar investigação, foco territorial e prevenção."
+  }
+ ],
+ "dados_do_repositorio": [
+  {
+   "indicador_id": "series:atlas_homicidios",
+   "valor": 42590,
+   "ano": 2024,
+   "fonte_arquivo": "humano_nacional.json",
+   "nota": "Homicídios (Atlas; incluem intervenção legal). Pico de 65.602 em 2017; variação 2017-2024: -35,1%. Contagem; provenência indireta (SIM via Atlas)."
+  },
+  {
+   "indicador_id": "series:taxa_homicidios",
+   "valor": 19.57,
+   "ano": 2024,
+   "fonte_arquivo": "humano_nacional.json",
+   "nota": "Taxa por 100 mil: 26,15 (2000), 31,72 (2017), 19,57 (2024). Taxa calculada no repositório (n/população)."
+  },
+  {
+   "indicador_id": "vu-homicidios-2023",
+   "valor": 45747,
+   "ano": 2023,
+   "fonte_arquivo": "fator_humano.json",
+   "nota": "45.747 homicídios (contagem; verificado:true no repositório)."
+  },
+  {
+   "indicador_id": "series:atlas_homicidios_jovens",
+   "valor": 19801,
+   "ano": 2024,
+   "fonte_arquivo": "humano_nacional.json",
+   "nota": "Jovens de 15 a 29 anos: 35.783 (2017) a 19.801 (2024), -44,7%. Taxa de jovens: 69,91 a 41,11 por 100 mil."
+  },
+  {
+   "indicador_id": "vu-jovens-2023",
+   "valor": 21856,
+   "ano": 2023,
+   "fonte_arquivo": "fator_humano.json",
+   "nota": "21.856 jovens (47,8% dos homicídios); taxa de 45,1 por 100 mil jovens contra 21,2 da população (vu-taxa-jovens-2023)."
+  },
+  {
+   "indicador_id": "series:atlas_homicidios_mulheres",
+   "valor": 3642,
+   "ano": 2024,
+   "fonte_arquivo": "humano_nacional.json",
+   "nota": "Mulheres: 4.936 (2017) a 3.642 (2024); taxa de 3,27 por 100 mil mulheres. Homicídio de mulher não é sinônimo de feminicídio (tipificação penal)."
+  },
+  {
+   "indicador_id": "series:sim_homicidios_negros",
+   "valor": 33019,
+   "ano": 2023,
+   "fonte_arquivo": "humano_nacional.json",
+   "nota": "Vítimas negras (pretas e pardas) no SIM 2023: 77,8% das vítimas com raça informada e 76,9% do total. Razão de risco negro/não negro de 2,7 (vu-negros-2023, repositório)."
+  },
+  {
+   "indicador_id": "vu-negros-2023",
+   "valor": 2.7,
+   "ano": 2023,
+   "fonte_arquivo": "fator_humano.json",
+   "nota": "Razão de risco de homicídio de pessoa negra frente a não negra; 76,97% das vítimas eram negras (Atlas, via repositório); verificado:false no repositório."
+  },
+  {
+   "indicador_id": "series:sim_homicidios_arma_fogo",
+   "valor": 30549,
+   "ano": 2023,
+   "fonte_arquivo": "humano_nacional.json",
+   "nota": "Homicídios por arma de fogo (SIM X85-Y09, por instrumento): 30.549 de 42.936 (71,2%). Exclui intervenção legal."
+  },
+  {
+   "indicador_id": "series:sim_intervencao_legal",
+   "valor": 2274,
+   "ano": 2023,
+   "fonte_arquivo": "humano_nacional.json",
+   "nota": "Intervenção legal (Y35-Y36) no SIM. O FBSP registra 6.393 mortes por intervenção policial em 2023 (Anuário 18): definições e registros diferem; não comparar sem ressalva."
+  },
+  {
+   "indicador_id": "series:viol_infantil_total",
+   "valor": 201453,
+   "ano": 2024,
+   "fonte_arquivo": "humano_nacional.json",
+   "nota": "Notificações SINAN contra 0-17 anos: 28.636 (2010) a 201.453 (2024); sexual 58.250; física 49.615 em 2024. É notificação: parte do crescimento vem da ampliação da notificação, não necessariamente de mais violência."
+  },
+  {
+   "indicador_id": "series:sinan_mulheres_total",
+   "valor": 437734,
+   "ano": 2024,
+   "fonte_arquivo": "humano_nacional.json",
+   "nota": "Notificações de violência contra mulheres: 289.691 (2019) a 437.734 (2024); parceiro íntimo 115.351; sexual 73.616 em 2024. Notificação, não incidência."
+  },
+  {
+   "indicador_id": "series:mae_ate_14",
+   "valor": 13941,
+   "ano": 2023,
+   "fonte_arquivo": "humano_nacional.json",
+   "nota": "Nascidos vivos de mães de até 14 anos (SINASC). No Código Penal, relação sexual com menor de 14 anos é estupro de vulnerável (art. 217-A); o indicador é um sinal, não uma contagem de crimes."
+  },
+  {
+   "indicador_id": "series:prisional_pretos",
+   "valor": 133985,
+   "ano": 2025,
+   "fonte_arquivo": "humano_nacional.json",
+   "nota": "Prisional 2025 (SENAPPEN): pretos 133.985, pardos 437.837, brancos 239.933. Pretos e pardos somam 69,6% das pessoas com raça informada (cinco grupos), contra 55,5% da população em 2022 (Censo, os mesmos cinco grupos). Série de um único ano; unidade (pessoas ou registros) não confirmada."
+  },
+  {
+   "indicador_id": "series:prisional_trafico_drogas",
+   "valor": 214653,
+   "ano": 2025,
+   "fonte_arquivo": "humano_nacional.json",
+   "nota": "Registros por tráfico 214.653; homicídio qualificado 62.111; homicídio simples 50.678; latrocínio 16.719. Uma pessoa pode ter mais de um crime registrado."
+  },
+  {
+   "indicador_id": "est-cnv-434",
+   "valor": 434,
+   "ano": "1946-1988",
+   "fonte_arquivo": "fator_humano.json",
+   "nota": "Mortos e desaparecidos políticos reconhecidos pela CNV (contagem; verificado:false no repositório)."
+  },
+  {
+   "indicador_id": "ind-cnv-8350",
+   "valor": 8350,
+   "ano": "1946-1988",
+   "fonte_arquivo": "fator_humano.json",
+   "nota": "Indígenas mortos por ação ou omissão do Estado (estimativa CNV, ao menos)."
+  },
+  {
+   "indicador_id": "funil-da-impunidade",
+   "valor": null,
+   "ano": null,
+   "fonte_arquivo": "ausente",
+   "nota": "O repositório não contém dados de funil (ocorrência, inquérito, denúncia, condenação). A única referência de esclarecimento usada aqui é externa (Sou da Paz, 35% em 2021, estados com dados)."
+  }
+ ],
+ "custo_economico": [
+  {
+   "descricao": "Custo da violência no Brasil em 2004: 5,09% do PIB (Ipea; Cerqueira, Carvalho, Rodrigues e Lobão, 2007)",
+   "valor_rs_bi": 92.2,
+   "periodo": "2004 (nominal)",
+   "tipo": "estimativa",
+   "metodo": "Soma de custos públicos (polícia 1,45% do PIB, prisões 0,15%, saúde 0,06%) e privados (capital humano perdido 1,35%, segurança privada 0,80%, seguros 0,75%, perdas por roubo e furto 0,53%).",
+   "fonte": "A Tarde, reportagem sobre o estudo do Ipea",
+   "url": "https://atarde.com.br/brasil/estudo-mostra-que-a-violencia-custa-509-do-pib-199965",
+   "verificado": true,
+   "ressalva": "Fonte secundária (imprensa), obra primária não aberta. Os autores chamam de limite inferior. Mistura gasto observado com valores imputados (capital humano); valores nominais de 2004, não comparáveis com os atuais sem deflação."
+  },
+  {
+   "descricao": "Custo social da violência em 2013: R$ 258 bilhões, 5,4% do PIB (Fórum Brasileiro de Segurança Pública, 8º Anuário)",
+   "valor_rs_bi": 258.0,
+   "periodo": "2013 (nominal)",
+   "tipo": "estimativa",
+   "metodo": "Capital humano perdido (R$ 114 bi), segurança privada (R$ 39 bi), seguros (R$ 36 bi), saúde pública (R$ 3 bi), prisões e unidades socioeducativas (R$ 4,9 bi) e gasto público em segurança (R$ 61,1 bi); as parcelas somam R$ 258 bi.",
+   "fonte": "Valor Econômico, republicado pelo IHU-Unisinos (11/11/2014)",
+   "url": "https://ihu.unisinos.br/noticias/537302-custo-da-violencia-no-pais-atinge-r-258-bi-em-2013",
+   "verificado": true,
+   "ressalva": "Fonte secundária. Mistura gasto (contagem) com valor imputado de vidas; a parcela de capital humano depende de hipóteses de renda e desconto. Não é comparável com a estimativa de 2004 sem ajuste de metodologia e preços."
+  },
+  {
+   "descricao": "Custo de bem-estar dos homicídios: cerca de 78% do PIB em valor presente, ou 2,3% do PIB ao ano (Cerqueira e Soares)",
+   "valor_rs_bi": null,
+   "periodo": "valor presente (estoque) e fluxo anual (década de 2000)",
+   "tipo": "estimativa",
+   "metodo": "Disposição marginal a pagar para reduzir o risco de morte prematura por violência, com heterogeneidade por idade, gênero, educação e região.",
+   "fonte": "Health Economics (Cerqueira e Soares), abstract lido",
+   "url": "https://doi.org/10.1002/hec.3137",
+   "verificado": true,
+   "ressalva": "Não é gasto: é valor de bem-estar, estimado por disposição a pagar, conceitualmente distinto de contabilidade de custos. Ignorar a heterogeneidade gera viés de cerca de 20% segundo o abstract. Sem valor em R$ no abstract; não se converte aqui."
+  },
+  {
+   "descricao": "Cada morte violenta custaria em média R$ 1 milhão aos cofres públicos; homicídios custariam mais de R$ 46 bilhões por ano (Atlas da Violência 2025, Ipea e FBSP)",
+   "valor_rs_bi": 46.0,
+   "periodo": "ano-base 2023 do Atlas 2025",
+   "tipo": "estimativa",
+   "metodo": "Segundo a imprensa: saúde, previdência, segurança, processos judiciais e perda de produtividade, com renda do PNADC. A razão de R$ 46 bi por cerca de 45,7 mil homicídios é compatível com R$ 1 milhão por morte.",
+   "fonte": "Correio Braziliense (07/11/2025) sobre o Atlas 2025",
+   "url": "https://www.correiobraziliense.com.br/politica/2025/11/7284010-cada-morte-violenta-no-pais-custa-em-media-rs-1-milhao-aos-cofres-publicos.html",
+   "verificado": true,
+   "ressalva": "Fonte secundária; o capítulo do Atlas não foi aberto. \"Custo aos cofres públicos\" inclui perda de produtividade, que não é gasto do Estado. A mesma matéria menciona proibição das drogas com 0,77% do PIB (R$ 60 bi), item distinto que não deve ser somado."
+  },
+  {
+   "descricao": "Custo da proibição das drogas: cerca de 0,77% do PIB (R$ 60 bilhões por ano), por mortes e conflitos criminais (Atlas da Violência 2025, segundo a imprensa)",
+   "valor_rs_bi": 60.0,
+   "periodo": "ano-base 2023 (aproximado)",
+   "tipo": "estimativa",
+   "metodo": "Não detalhado na fonte consultada.",
+   "fonte": "Correio Braziliense (07/11/2025)",
+   "url": "https://www.correiobraziliense.com.br/politica/2025/11/7284010-cada-morte-violenta-no-pais-custa-em-media-rs-1-milhao-aos-cofres-publicos.html",
+   "verificado": true,
+   "ressalva": "Parte desse valor pode sobrepor a estimativa de homicídios (mortes ligadas ao mercado de drogas); não somar com ela."
+  },
+  {
+   "descricao": "Estimativa conservadora do Instituto Igarapé: R$ 1,3 trilhão por ano (10,24% do PIB de 2025) para \"crime e violência\" em sentido amplo",
+   "valor_rs_bi": 1300.0,
+   "periodo": "divulgada em 2024; percentual sobre PIB de 2025",
+   "tipo": "estimativa",
+   "metodo": "Soma de segmentos: crimes e violência R$ 373 bi, mercados ilícitos e pirataria R$ 468 bi, economia subterrânea e sonegação R$ 300 bi, perdas ambientais R$ 200 bi, roubo de cargas e ouro ilegal R$ 3 bi.",
+   "fonte": "Gazeta do Povo, sobre estimativa do Instituto Igarapé",
+   "url": "https://www.gazetadopovo.com.br/eleicoes/2026/custo-economico-da-violencia-para-o-brasil/",
+   "verificado": true,
+   "ressalva": "Fonte secundária; mistura violência com mercados ilícitos, sonegação e dano ambiental, e os segmentos se sobrepõem. Não é \"custo da violência\" no sentido estrito e não deve ser somado às demais estimativas."
+  },
+  {
+   "descricao": "Alegação de imprensa: \"a violência custa 11% do PIB, mais de R$ 1 trilhão por ano\" atribuída ao Atlas da Violência 2025",
+   "valor_rs_bi": 1000.0,
+   "periodo": "ano-base 2023 (não confirmado)",
+   "tipo": "estimativa",
+   "metodo": "Não localizado na fonte primária nesta pesquisa.",
+   "fonte": "Correio Braziliense e Diário do Nordeste (atribuição ao Atlas)",
+   "url": "https://www.correiobraziliense.com.br/politica/2025/11/7284010-cada-morte-violenta-no-pais-custa-em-media-rs-1-milhao-aos-cofres-publicos.html",
+   "verificado": false,
+   "ressalva": "A atribuição ao Atlas 2025 não foi confirmada no documento do Ipea; a coluna do Diário do Nordeste cita o FBSP; o valor é próximo ao do Igarapé (10,24%), que mistura segmentos. Tratar como não verificado e controverso."
+  },
+  {
+   "descricao": "Custo da criminalidade na América Latina e Caribe: em média 3,55% do PIB (17 países, 2010-2014); Brasil é o país com maior custo em termos nominais (BID, Jaitman, 2017)",
+   "valor_rs_bi": null,
+   "periodo": "2010-2014 (principais estimativas de 2014)",
+   "tipo": "estimativa",
+   "metodo": "Abordagem contábil: gasto público em segurança (média de 1,5% do PIB, com prisões, polícia e justiça) e custos privados (1,37%), mais perdas de bem-estar por crime.",
+   "fonte": "LSE Latin America and Caribbean blog sobre o livro do BID",
+   "url": "https://blogs.lse.ac.uk/latamcaribbean/2017/05/11/crime-costs-some-latin-american-countries-more-than-6-per-cent-of-their-gdp",
+   "verificado": true,
+   "ressalva": "Não foi obtido o percentual específico do Brasil nem o valor em R$ (o resumo de busca dava 3,78% do PIB, não confirmado). Comparabilidade entre países é limitada por qualidade de dados."
+  },
+  {
+   "descricao": "Gasto público com segurança pública em 2025: R$ 163,1 bilhões (estados, União e municípios)",
+   "valor_rs_bi": 163.1,
+   "periodo": "2025",
+   "tipo": "contagem",
+   "metodo": "Despesa pública consolidada informada pelo FBSP no Anuário 20; a fonte consultada não especifica deflator.",
+   "fonte": "Fonte Segura (FBSP), Anuário 2026",
+   "url": "https://fontesegura.forumseguranca.org.br/estados-impulsionam-aumento-das-despesas-com-seguranca-publica/",
+   "verificado": true,
+   "ressalva": "É gasto (contagem), não custo da violência: mede resposta do Estado, não danos. Não somar com as estimativas de custo de vidas. Divisões por esfera diferem entre as matérias consultadas e não são reproduzidas."
+  }
+ ],
+ "perguntas_abertas": [
+  "Quanto da queda de 35% dos homicídios entre 2017 e 2024 se deve a políticas estaduais, a mudanças demográficas, a acordos ou rupturas entre facções e a armas? O repositório não identifica causas.",
+  "Qual é o funil real da impunidade do ocorrido à condenação? O repositório não tem esses dados; a única referência (35% de esclarecimento) é de estados com dados.",
+  "Quanta da diferença entre mortes por intervenção legal no SIM (2.274 em 2023) e no FBSP (6.393) é problema de classificação, de registro ou de definição?",
+  "O aumento das notificações de violência infantil e de gênero é mais violência ou mais notificação? Os dados do SINAN não separam.",
+  "Qual é o efeito causal de reduzir a letalidade policial sobre homicídios totais? A literatura brasileira é pouco conclusiva e o repositório não testa.",
+  "Qual é a parcela de homicídios atribuível a mercados ilegais (drogas, armas) e a conflitos interpessoais? Os dados do SIM não trazem motivação.",
+  "A desigualdade racial no risco (2,7) se deve a território, renda, tipo de crime ou tratamento institucional? A razão de risco bruta não separa.",
+  "Que parte da violência estrutural (Galtung) se traduz em violência direta? Falta contrafactual.",
+  "O custo de R$ 1 milhão por morte é custo de Estado, de sociedade ou valor de vida? Os métodos variam e a resposta depende da definição.",
+  "Quais estimativas de custo são comparáveis entre 2004, 2013 e 2023? Mudam método, preços e definição.",
+  "Qual é o efeito da governança criminal sobre a violência em áreas fora do Rio e de São Paulo?",
+  "Como medir violência cultural e simbólica com indicadores públicos e estáveis?",
+  "O recrutamento de jovens por facções responde a oportunidade (Collier e Hoeffler), a tensão (Merton) ou a proteção (Skaperdas)? Sem dados de recrutamento, o anel violência-capital humano é hipótese.",
+  "A violência política e eleitoral recente cresceu? Não há série verificada no repositório."
+ ],
+ "limites": [
+  "Este arquivo descreve ideias e evidências; não prescreve política, nem estima efeitos no modelo macro.",
+  "A verificação é bibliográfica: DOI conferido no Crossref (título e ano) ou página lida por script; afirmações empíricas só são verificado:true quando o resumo ou a página consultada as sustenta.",
+  "Obras e conceitos citados de memória (url vazio, verificado:false) podem conter erro de título, edição ou ano.",
+  "Custos são estimativas de métodos distintos, em preços de anos diferentes; não foram somados nem deflacionados.",
+  "Dados do repositório têm proveniência indireta (Atlas via Ipeadata, SIM, SINAN); notificação não é incidência; o Atlas municipal de 2020 é corrompido (ver METHODS).",
+  "Contagens nacionais de 2025 (FBSP) não estão no repositório; usadas apenas em textos com citação externa.",
+  "Não há dados de funil de impunidade, de violência política, de milícias ou de recrutamento no repositório.",
+  "A lista de pensadores é uma seleção; ausências (por exemplo, Clastres e Elias só remetem a pilares_pensamento.json) e a ordem não indicam hierarquia.",
+  "Conceitos indígenas e afro-brasileiros são citados com fonte secundária e sem pretensão de representar os povos.",
+  "Fontes de imprensa foram lidas por resumo automático de página; números de percentagem e valores merecem conferência na fonte primária antes de uso formal."
+ ]
+}
