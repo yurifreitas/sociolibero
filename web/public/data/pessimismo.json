@@ -1,0 +1,5929 @@
+{
+ "meta": {
+  "gerado_em": "2026-10-06",
+  "aviso": "cenários de risco, não previsões",
+  "aviso_longo": "Testes de estresse são cenários de risco: mostram o que o modelo diz quando premissas pessimistas se juntam, não o que vai acontecer. Nenhum resultado aqui tem probabilidade real de ocorrência.",
+  "suposicoes": [
+   "execution_efficiency (0,4-1,0; central 0,6) não é medida: proxies de obras paralisadas (TCU) e execução de emendas.",
+   "Vazamento: só 10/25/50% do desvio de referência (1,84% do PIB, FIESP/Decomtec, extrapolação de percepção) vira primário a menos; cada pp perdido reduz a oferta em 0-0,27 pp/ano (central 0,10).",
+   "Desperdício por ineficiência: 0,5/1,0/1,5% do PIB, parametrizado (sem medida aberta).",
+   "Choque composto: credibilidade -0,40, erosão do BC +0,30, risco institucional +0,45, clima severo (0,6/0,6), eficiência 0,6, tecnologia 0; severidades escolhidas, não estimadas.",
+   "Ruptura de regime = dívida bruta/PIB > 120% (scenarios.BREAK_DEBT).",
+   "Liderança judicial: perfis dos indicados e perseguição de decisões por cenário são hipóteses; risco→prêmio (2,5 pp/unidade) e risco→PIB (1,2 pp/unidade) são parâmetros do modelo.",
+   "Base macro: data.FALLBACK (BCB 08/2026 + Focus 02/10/2026), sem rede, para reprodutibilidade."
+  ],
+  "base_macro": "fallback (BCB 08/2026 + Focus 02/10/2026)",
+  "sementes": [
+   7,
+   11,
+   13,
+   17,
+   19
+  ]
+ },
+ "eficiencia_de_execucao": {
+  "definicao": "execution_efficiency ∈ [0,1] multiplica os deltas que MELHORAM (supply_reform>0, fiscal_credibility>0, primary_target>0, institutional_risk<0, bc_erosion<0); os deltas que PIORAM ficam integrais. Padrão 1,0 = resultados atuais. Resultado 'melhora' = queda da dívida/PIB 2035 vs. cenário pragmático (positivo = melhor); 'perda' = melhora com 100% menos melhora com a eficiência indicada.",
+  "base_macro": "fallback (BCB 08/2026 + Focus 02/10/2026)",
+  "ancoras_proxy": {
+   "obras_federais_paralisadas_2023": {
+    "valor": 0.59,
+    "leitura": "fração de obras com recursos federais NÃO paralisadas (8.603 de 21.007 paradas; TCU, 18/10/2023, verificado=true)"
+   },
+   "obras_federais_paralisadas_2025": {
+    "valor": 0.493,
+    "leitura": "idem, painel TCU até abr/2025 (11.469 de 22.621 paradas; verificado=true)"
+   },
+   "execucao_de_emendas_2025": {
+    "valor": 0.67,
+    "leitura": "execução de 67% dos valores empenhados em emendas (fonte secundária, verificado=false)"
+   }
+  },
+  "eficiencia_central_pessimista": 0.6,
+  "faixa_proxies": [
+   0.493,
+   0.67
+  ],
+  "aviso_ancora": "A eficiência de execução NÃO é medida. Obras paralisadas e execução de emendas são proxies de execução física/orçamentária de um subconjunto do gasto federal; não medem a eficiência de reformas legais (que dependem de regulamentação e fiscalização).",
+  "visoes_pessimistas_json": "ausente",
+  "varredura": [
+   {
+    "id": "flexibilizar-arcabouco",
+    "rotulo": "Flexibilizar o arcabouço fiscal (LC 200/2023)",
+    "dominio": "fiscal",
+    "beneficios": {},
+    "custos": {
+     "primary_target": -1.0,
+     "fiscal_credibility": -0.25,
+     "institutional_risk": 0.05
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": -23.78,
+     "0.9": -23.78,
+     "0.8": -23.78,
+     "0.7": -23.78,
+     "0.6": -23.78,
+     "0.5": -23.78,
+     "0.4": -23.78
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "ponto_de_virada": null,
+    "classe": "sem benefício a perder",
+    "limite": null
+   },
+   {
+    "id": "reforcar-arcabouco",
+    "rotulo": "Reforçar o arcabouço (gatilhos de despesa)",
+    "dominio": "fiscal",
+    "beneficios": {
+     "primary_target": 1.2,
+     "fiscal_credibility": 0.2,
+     "supply_reform": 0.05
+    },
+    "custos": {},
+    "melhora_divida_2035_pp": {
+     "1.0": 15.19,
+     "0.9": 13.88,
+     "0.8": 12.54,
+     "0.7": 11.15,
+     "0.6": 9.71,
+     "0.5": 8.22,
+     "0.4": 6.69
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 1.3,
+     "0.8": 2.65,
+     "0.7": 4.04,
+     "0.6": 5.48,
+     "0.5": 6.97,
+     "0.4": 8.5
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 15.2,
+     "0.8": 30.5,
+     "0.7": 45.7,
+     "0.6": 61.0,
+     "0.5": 76.2,
+     "0.4": 91.4
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 27.9,
+     "0.8": 56.8,
+     "0.7": 86.6,
+     "0.6": 117.5,
+     "0.5": 149.5,
+     "0.4": 182.5
+    },
+    "ponto_de_virada": null,
+    "classe": "alta perda, segue positiva",
+    "limite": null,
+    "posto_fragilidade": 1
+   },
+   {
+    "id": "reforma-administrativa",
+    "rotulo": "Reforma administrativa (carreiras, estabilidade, mérito)",
+    "dominio": "fiscal",
+    "beneficios": {
+     "primary_target": 0.4,
+     "supply_reform": 0.1
+    },
+    "custos": {},
+    "melhora_divida_2035_pp": {
+     "1.0": 3.8,
+     "0.9": 3.43,
+     "0.8": 3.05,
+     "0.7": 2.67,
+     "0.6": 2.29,
+     "0.5": 1.91,
+     "0.4": 1.53
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.38,
+     "0.8": 0.76,
+     "0.7": 1.13,
+     "0.6": 1.51,
+     "0.5": 1.89,
+     "0.4": 2.27
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 5.1,
+     "0.8": 10.2,
+     "0.7": 15.2,
+     "0.6": 20.3,
+     "0.5": 25.4,
+     "0.4": 30.5
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 13.2,
+     "0.8": 26.3,
+     "0.7": 39.5,
+     "0.6": 52.6,
+     "0.5": 65.7,
+     "0.4": 78.8
+    },
+    "ponto_de_virada": null,
+    "classe": "alta perda, segue positiva",
+    "limite": "Benefício só começa após ~5 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+    "posto_fragilidade": 5
+   },
+   {
+    "id": "desvincular-minimo",
+    "rotulo": "Desvincular salário mínimo e pisos da indexação",
+    "dominio": "fiscal",
+    "beneficios": {
+     "primary_target": 0.8,
+     "fiscal_credibility": 0.1
+    },
+    "custos": {},
+    "melhora_divida_2035_pp": {
+     "1.0": 9.7,
+     "0.9": 8.81,
+     "0.8": 7.9,
+     "0.7": 6.97,
+     "0.6": 6.02,
+     "0.5": 5.06,
+     "0.4": 4.09
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.9,
+     "0.8": 1.81,
+     "0.7": 2.74,
+     "0.6": 3.68,
+     "0.5": 4.64,
+     "0.4": 5.62
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 10.2,
+     "0.8": 20.3,
+     "0.7": 30.5,
+     "0.6": 40.6,
+     "0.5": 50.8,
+     "0.4": 61.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 14.9,
+     "0.8": 30.2,
+     "0.7": 45.8,
+     "0.6": 61.7,
+     "0.5": 78.0,
+     "0.4": 94.6
+    },
+    "ponto_de_virada": null,
+    "classe": "alta perda, segue positiva",
+    "limite": null,
+    "posto_fragilidade": 2
+   },
+   {
+    "id": "reforma-previdencia-2",
+    "rotulo": "Nova reforma da Previdência (idade, regras)",
+    "dominio": "fiscal",
+    "beneficios": {
+     "primary_target": 0.7,
+     "fiscal_credibility": 0.1
+    },
+    "custos": {},
+    "melhora_divida_2035_pp": {
+     "1.0": 8.93,
+     "0.9": 8.1,
+     "0.8": 7.26,
+     "0.7": 6.41,
+     "0.6": 5.54,
+     "0.5": 4.65,
+     "0.4": 3.76
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.83,
+     "0.8": 1.67,
+     "0.7": 2.52,
+     "0.6": 3.39,
+     "0.5": 4.27,
+     "0.4": 5.17
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 8.9,
+     "0.8": 17.8,
+     "0.7": 26.7,
+     "0.6": 35.6,
+     "0.5": 44.4,
+     "0.4": 53.3
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 14.4,
+     "0.8": 29.2,
+     "0.7": 44.2,
+     "0.6": 59.5,
+     "0.5": 75.1,
+     "0.4": 91.1
+    },
+    "ponto_de_virada": null,
+    "classe": "alta perda, segue positiva",
+    "limite": null,
+    "posto_fragilidade": 3
+   },
+   {
+    "id": "cortar-beneficios-fiscais",
+    "rotulo": "Cortar gastos tributários (benefícios fiscais)",
+    "dominio": "fiscal",
+    "beneficios": {
+     "primary_target": 0.6,
+     "fiscal_credibility": 0.05
+    },
+    "custos": {},
+    "melhora_divida_2035_pp": {
+     "1.0": 6.7,
+     "0.9": 6.05,
+     "0.8": 5.41,
+     "0.7": 4.75,
+     "0.6": 4.09,
+     "0.5": 3.43,
+     "0.4": 2.76
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.64,
+     "0.8": 1.29,
+     "0.7": 1.94,
+     "0.6": 2.6,
+     "0.5": 3.27,
+     "0.4": 3.94
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 7.6,
+     "0.8": 15.2,
+     "0.7": 22.9,
+     "0.6": 30.5,
+     "0.5": 38.1,
+     "0.4": 45.7
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 9.6,
+     "0.8": 19.3,
+     "0.7": 29.1,
+     "0.6": 39.0,
+     "0.5": 49.0,
+     "0.4": 59.2
+    },
+    "ponto_de_virada": null,
+    "classe": "alta perda, segue positiva",
+    "limite": null,
+    "posto_fragilidade": 4
+   },
+   {
+    "id": "desoneracao-ampla",
+    "rotulo": "Desoneração ampla da folha e benefícios setoriais",
+    "dominio": "fiscal",
+    "beneficios": {
+     "supply_reform": 0.05
+    },
+    "custos": {
+     "primary_target": -0.5
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": -4.17,
+     "0.9": -4.19,
+     "0.8": -4.21,
+     "0.7": -4.22,
+     "0.6": -4.24,
+     "0.5": -4.26,
+     "0.4": -4.28
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.02,
+     "0.8": 0.04,
+     "0.7": 0.06,
+     "0.6": 0.08,
+     "0.5": 0.1,
+     "0.4": 0.11
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 4.9,
+     "0.8": 9.8,
+     "0.7": 14.8,
+     "0.6": 19.7,
+     "0.5": 24.6,
+     "0.4": 29.5
+    },
+    "ponto_de_virada": null,
+    "classe": "líquido negativo mesmo com execução perfeita",
+    "limite": null,
+    "posto_fragilidade": 20
+   },
+   {
+    "id": "ampliar-assistencia",
+    "rotulo": "Ampliar programas de transferência de renda",
+    "dominio": "social",
+    "beneficios": {},
+    "custos": {
+     "primary_target": -0.4,
+     "fiscal_credibility": -0.05
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": -5.54,
+     "0.9": -5.54,
+     "0.8": -5.54,
+     "0.7": -5.54,
+     "0.6": -5.54,
+     "0.5": -5.54,
+     "0.4": -5.54
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "ponto_de_virada": null,
+    "classe": "sem benefício a perder",
+    "limite": null
+   },
+   {
+    "id": "perdao-dividas",
+    "rotulo": "Renegociação/perdão amplo de dívidas (rural, famílias, estados)",
+    "dominio": "fiscal",
+    "beneficios": {},
+    "custos": {
+     "primary_target": -0.3,
+     "fiscal_credibility": -0.1
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": -6.77,
+     "0.9": -6.77,
+     "0.8": -6.77,
+     "0.7": -6.77,
+     "0.6": -6.77,
+     "0.5": -6.77,
+     "0.4": -6.77
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "ponto_de_virada": null,
+    "classe": "sem benefício a perder",
+    "limite": null
+   },
+   {
+    "id": "credito-subsidiado",
+    "rotulo": "Expandir crédito subsidiado (BNDES/bancos públicos)",
+    "dominio": "setorial",
+    "beneficios": {
+     "supply_reform": 0.05
+    },
+    "custos": {
+     "primary_target": -0.2
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": -1.55,
+     "0.9": -1.57,
+     "0.8": -1.59,
+     "0.7": -1.6,
+     "0.6": -1.62,
+     "0.5": -1.64,
+     "0.4": -1.66
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.02,
+     "0.8": 0.04,
+     "0.7": 0.06,
+     "0.6": 0.08,
+     "0.5": 0.09,
+     "0.4": 0.11
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 4.9,
+     "0.8": 9.9,
+     "0.7": 14.8,
+     "0.6": 19.7,
+     "0.5": 24.6,
+     "0.4": 29.5
+    },
+    "ponto_de_virada": null,
+    "classe": "líquido negativo mesmo com execução perfeita",
+    "limite": null,
+    "posto_fragilidade": 21
+   },
+   {
+    "id": "reduzir-autonomia-bc",
+    "rotulo": "Reduzir a autonomia do Banco Central (LC 179/2021)",
+    "dominio": "monetário",
+    "beneficios": {},
+    "custos": {
+     "bc_erosion": 0.4,
+     "institutional_risk": 0.2,
+     "fiscal_credibility": -0.2
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": -13.57,
+     "0.9": -13.57,
+     "0.8": -13.57,
+     "0.7": -13.57,
+     "0.6": -13.57,
+     "0.5": -13.57,
+     "0.4": -13.57
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "ponto_de_virada": null,
+    "classe": "sem benefício a perder",
+    "limite": null
+   },
+   {
+    "id": "diretoria-bc-alinhada",
+    "rotulo": "Indicar diretoria do BC por alinhamento político",
+    "dominio": "monetário",
+    "beneficios": {},
+    "custos": {
+     "bc_erosion": 0.15,
+     "institutional_risk": 0.05
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": -1.04,
+     "0.9": -1.04,
+     "0.8": -1.04,
+     "0.7": -1.04,
+     "0.6": -1.04,
+     "0.5": -1.04,
+     "0.4": -1.04
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "ponto_de_virada": null,
+    "classe": "sem benefício a perder",
+    "limite": null
+   },
+   {
+    "id": "politica-precos-combustiveis",
+    "rotulo": "Controlar preços de combustíveis pela Petrobras",
+    "dominio": "setorial",
+    "beneficios": {},
+    "custos": {
+     "institutional_risk": 0.1,
+     "fiscal_credibility": -0.1
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": -6.52,
+     "0.9": -6.52,
+     "0.8": -6.52,
+     "0.7": -6.52,
+     "0.6": -6.52,
+     "0.5": -6.52,
+     "0.4": -6.52
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "ponto_de_virada": null,
+    "classe": "sem benefício a perder",
+    "limite": null
+   },
+   {
+    "id": "acelerar-ibs-cbs",
+    "rotulo": "Acelerar a reforma tributária do consumo (IBS/CBS)",
+    "dominio": "tributário",
+    "beneficios": {
+     "supply_reform": 0.25,
+     "fiscal_credibility": 0.05
+    },
+    "custos": {},
+    "melhora_divida_2035_pp": {
+     "1.0": 2.62,
+     "0.9": 2.37,
+     "0.8": 2.12,
+     "0.7": 1.86,
+     "0.6": 1.6,
+     "0.5": 1.34,
+     "0.4": 1.08
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.25,
+     "0.8": 0.5,
+     "0.7": 0.76,
+     "0.6": 1.01,
+     "0.5": 1.27,
+     "0.4": 1.54
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 30.5,
+     "0.8": 60.9,
+     "0.7": 91.3,
+     "0.6": 121.8,
+     "0.5": 152.2,
+     "0.4": 182.7
+    },
+    "ponto_de_virada": null,
+    "classe": "alta perda, segue positiva",
+    "limite": "Benefício só começa após ~4 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+    "posto_fragilidade": 6
+   },
+   {
+    "id": "privatizacoes",
+    "rotulo": "Privatizações e concessões (estatais não financeiras)",
+    "dominio": "setorial",
+    "beneficios": {
+     "primary_target": 0.2,
+     "supply_reform": 0.15
+    },
+    "custos": {},
+    "melhora_divida_2035_pp": {
+     "1.0": 2.27,
+     "0.9": 2.05,
+     "0.8": 1.82,
+     "0.7": 1.59,
+     "0.6": 1.37,
+     "0.5": 1.14,
+     "0.4": 0.91
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.23,
+     "0.8": 0.45,
+     "0.7": 0.68,
+     "0.6": 0.91,
+     "0.5": 1.13,
+     "0.4": 1.36
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 2.5,
+     "0.8": 5.1,
+     "0.7": 7.6,
+     "0.6": 10.2,
+     "0.5": 12.7,
+     "0.4": 15.2
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 16.5,
+     "0.8": 33.0,
+     "0.7": 49.5,
+     "0.6": 66.0,
+     "0.5": 82.5,
+     "0.4": 98.9
+    },
+    "ponto_de_virada": null,
+    "classe": "alta perda, segue positiva",
+    "limite": "Benefício só começa após ~3 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+    "posto_fragilidade": 7
+   },
+   {
+    "id": "abertura-comercial",
+    "rotulo": "Abertura comercial (redução de tarifas, acordos)",
+    "dominio": "externo",
+    "beneficios": {
+     "supply_reform": 0.3
+    },
+    "custos": {},
+    "melhora_divida_2035_pp": {
+     "1.0": 1.1,
+     "0.9": 0.99,
+     "0.8": 0.88,
+     "0.7": 0.77,
+     "0.6": 0.66,
+     "0.5": 0.55,
+     "0.4": 0.44
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.11,
+     "0.8": 0.22,
+     "0.7": 0.33,
+     "0.6": 0.44,
+     "0.5": 0.55,
+     "0.4": 0.66
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 30.1,
+     "0.8": 60.1,
+     "0.7": 90.0,
+     "0.6": 119.9,
+     "0.5": 149.7,
+     "0.4": 179.5
+    },
+    "ponto_de_virada": null,
+    "classe": "robusta",
+    "limite": "Benefício só começa após ~3 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+    "posto_fragilidade": 8
+   },
+   {
+    "id": "acordo-mercosul-ue",
+    "rotulo": "Ratificar acordo Mercosul–União Europeia",
+    "dominio": "externo",
+    "beneficios": {
+     "supply_reform": 0.15
+    },
+    "custos": {},
+    "melhora_divida_2035_pp": {
+     "1.0": 0.55,
+     "0.9": 0.5,
+     "0.8": 0.44,
+     "0.7": 0.39,
+     "0.6": 0.33,
+     "0.5": 0.28,
+     "0.4": 0.22
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.06,
+     "0.8": 0.11,
+     "0.7": 0.17,
+     "0.6": 0.22,
+     "0.5": 0.28,
+     "0.4": 0.33
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 14.9,
+     "0.8": 29.8,
+     "0.7": 44.6,
+     "0.6": 59.5,
+     "0.5": 74.3,
+     "0.4": 89.1
+    },
+    "ponto_de_virada": null,
+    "classe": "robusta",
+    "limite": "Benefício só começa após ~3 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+    "posto_fragilidade": 13
+   },
+   {
+    "id": "ampliar-stf",
+    "rotulo": "Ampliar o número de ministros do STF",
+    "dominio": "institucional",
+    "beneficios": {},
+    "custos": {
+     "institutional_risk": 0.25
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": -5.94,
+     "0.9": -5.94,
+     "0.8": -5.94,
+     "0.7": -5.94,
+     "0.6": -5.94,
+     "0.5": -5.94,
+     "0.4": -5.94
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "ponto_de_virada": null,
+    "classe": "sem benefício a perder",
+    "limite": null
+   },
+   {
+    "id": "remover-ministros-stf",
+    "rotulo": "Remoção de ministros do STF (2/3 do Senado)",
+    "dominio": "institucional",
+    "beneficios": {},
+    "custos": {
+     "institutional_risk": 0.3
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": -7.18,
+     "0.9": -7.18,
+     "0.8": -7.18,
+     "0.7": -7.18,
+     "0.6": -7.18,
+     "0.5": -7.18,
+     "0.4": -7.18
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "ponto_de_virada": null,
+    "classe": "sem benefício a perder",
+    "limite": null
+   },
+   {
+    "id": "anistia-politica",
+    "rotulo": "Anistia política ampla e mudança em regras de inelegibilidade",
+    "dominio": "institucional",
+    "beneficios": {},
+    "custos": {
+     "institutional_risk": 0.08
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": -1.85,
+     "0.9": -1.85,
+     "0.8": -1.85,
+     "0.7": -1.85,
+     "0.6": -1.85,
+     "0.5": -1.85,
+     "0.4": -1.85
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "ponto_de_virada": null,
+    "classe": "sem benefício a perder",
+    "limite": null
+   },
+   {
+    "id": "homologar-terras-indigenas-e-titular-quilombos",
+    "rotulo": "Homologar terras indígenas e titular territórios quilombolas com meta anual",
+    "dominio": "social",
+    "beneficios": {
+     "institutional_risk": -0.02
+    },
+    "custos": {
+     "primary_target": -0.05
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": 0.02,
+     "0.9": -0.02,
+     "0.8": -0.07,
+     "0.7": -0.11,
+     "0.6": -0.16,
+     "0.5": -0.2,
+     "0.4": -0.25
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.05,
+     "0.8": 0.09,
+     "0.7": 0.14,
+     "0.6": 0.18,
+     "0.5": 0.23,
+     "0.4": 0.27
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 3.9,
+     "0.8": 7.8,
+     "0.7": 11.7,
+     "0.6": 15.6,
+     "0.5": 19.5,
+     "0.4": 23.4
+    },
+    "ponto_de_virada": 0.949,
+    "classe": "frágil (vira prejuízo)",
+    "limite": null,
+    "posto_fragilidade": 15
+   },
+   {
+    "id": "consulta-previa-regulamentada",
+    "rotulo": "Regulamentar a consulta prévia (OIT 169) com procedimento claro e consentimento qualificado",
+    "dominio": "institucional",
+    "beneficios": {
+     "institutional_risk": -0.02
+    },
+    "custos": {},
+    "melhora_divida_2035_pp": {
+     "1.0": 0.45,
+     "0.9": 0.41,
+     "0.8": 0.36,
+     "0.7": 0.32,
+     "0.6": 0.27,
+     "0.5": 0.23,
+     "0.4": 0.18
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.05,
+     "0.8": 0.09,
+     "0.7": 0.14,
+     "0.6": 0.18,
+     "0.5": 0.23,
+     "0.4": 0.27
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 3.9,
+     "0.8": 7.8,
+     "0.7": 11.7,
+     "0.6": 15.6,
+     "0.5": 19.5,
+     "0.4": 23.4
+    },
+    "ponto_de_virada": null,
+    "classe": "robusta",
+    "limite": null,
+    "posto_fragilidade": 16
+   },
+   {
+    "id": "psa-governanca-comunitaria",
+    "rotulo": "Pagamento por serviços ambientais com governança comunitária",
+    "dominio": "setorial",
+    "beneficios": {
+     "supply_reform": 0.08
+    },
+    "custos": {
+     "primary_target": -0.1
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": -0.57,
+     "0.9": -0.6,
+     "0.8": -0.63,
+     "0.7": -0.66,
+     "0.6": -0.69,
+     "0.5": -0.72,
+     "0.4": -0.75
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.03,
+     "0.8": 0.06,
+     "0.7": 0.09,
+     "0.6": 0.12,
+     "0.5": 0.15,
+     "0.4": 0.18
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 7.9,
+     "0.8": 15.8,
+     "0.7": 23.7,
+     "0.6": 31.6,
+     "0.5": 39.5,
+     "0.4": 47.4
+    },
+    "ponto_de_virada": null,
+    "classe": "líquido negativo mesmo com execução perfeita",
+    "limite": "Benefício só começa após ~3 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+    "posto_fragilidade": 18
+   },
+   {
+    "id": "recuperar-pastagens-degradadas",
+    "rotulo": "Programa de recuperação de pastagens degradadas (expansão sem novo desmatamento)",
+    "dominio": "setorial",
+    "beneficios": {
+     "supply_reform": 0.15
+    },
+    "custos": {
+     "primary_target": -0.15
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": -0.74,
+     "0.9": -0.8,
+     "0.8": -0.85,
+     "0.7": -0.91,
+     "0.6": -0.96,
+     "0.5": -1.02,
+     "0.4": -1.08
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.06,
+     "0.8": 0.11,
+     "0.7": 0.17,
+     "0.6": 0.22,
+     "0.5": 0.28,
+     "0.4": 0.33
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 14.9,
+     "0.8": 29.7,
+     "0.7": 44.6,
+     "0.6": 59.4,
+     "0.5": 74.2,
+     "0.4": 89.1
+    },
+    "ponto_de_virada": null,
+    "classe": "líquido negativo mesmo com execução perfeita",
+    "limite": "Benefício só começa após ~4 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+    "posto_fragilidade": 14
+   },
+   {
+    "id": "seguranca-hidrica-saneamento",
+    "rotulo": "Segurança hídrica e saneamento (irrigação eficiente, reuso e gestão de bacias)",
+    "dominio": "setorial",
+    "beneficios": {
+     "supply_reform": 0.08
+    },
+    "custos": {
+     "primary_target": -0.2
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": -1.44,
+     "0.9": -1.47,
+     "0.8": -1.5,
+     "0.7": -1.53,
+     "0.6": -1.56,
+     "0.5": -1.59,
+     "0.4": -1.62
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.03,
+     "0.8": 0.06,
+     "0.7": 0.09,
+     "0.6": 0.12,
+     "0.5": 0.15,
+     "0.4": 0.18
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 7.9,
+     "0.8": 15.8,
+     "0.7": 23.7,
+     "0.6": 31.6,
+     "0.5": 39.5,
+     "0.4": 47.3
+    },
+    "ponto_de_virada": null,
+    "classe": "líquido negativo mesmo com execução perfeita",
+    "limite": "Benefício só começa após ~5 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+    "posto_fragilidade": 19
+   },
+   {
+    "id": "estrategia-minerais-criticos",
+    "rotulo": "Estratégia de minerais críticos com agregação de valor e governança contra captura",
+    "dominio": "setorial",
+    "beneficios": {
+     "supply_reform": 0.15,
+     "primary_target": 0.05
+    },
+    "custos": {
+     "institutional_risk": 0.03
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": 0.31,
+     "0.9": 0.21,
+     "0.8": 0.11,
+     "0.7": 0.01,
+     "0.6": -0.09,
+     "0.5": -0.19,
+     "0.4": -0.29
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.1,
+     "0.8": 0.2,
+     "0.7": 0.3,
+     "0.6": 0.4,
+     "0.5": 0.5,
+     "0.4": 0.6
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.6,
+     "0.8": 1.3,
+     "0.7": 1.9,
+     "0.6": 2.5,
+     "0.5": 3.2,
+     "0.4": 3.8
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 15.2,
+     "0.8": 30.5,
+     "0.7": 45.7,
+     "0.6": 60.9,
+     "0.5": 76.1,
+     "0.4": 91.2
+    },
+    "ponto_de_virada": 0.69,
+    "classe": "frágil (vira prejuízo)",
+    "limite": "Benefício só começa após ~6 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+    "posto_fragilidade": 10
+   },
+   {
+    "id": "educacao-tecnica-e-alfabetizacao",
+    "rotulo": "Expandir ensino médio técnico e alfabetização na idade certa",
+    "dominio": "social",
+    "beneficios": {
+     "supply_reform": 0.12
+    },
+    "custos": {
+     "primary_target": -0.3
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": -2.16,
+     "0.9": -2.2,
+     "0.8": -2.25,
+     "0.7": -2.29,
+     "0.6": -2.34,
+     "0.5": -2.38,
+     "0.4": -2.43
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.05,
+     "0.8": 0.09,
+     "0.7": 0.14,
+     "0.6": 0.18,
+     "0.5": 0.23,
+     "0.4": 0.27
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 11.9,
+     "0.8": 23.7,
+     "0.7": 35.6,
+     "0.6": 47.4,
+     "0.5": 59.3,
+     "0.4": 71.1
+    },
+    "ponto_de_virada": null,
+    "classe": "líquido negativo mesmo com execução perfeita",
+    "limite": "Benefício só começa após ~8 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+    "posto_fragilidade": 17
+   },
+   {
+    "id": "politica-industrial-verde",
+    "rotulo": "Política industrial verde (hidrogênio, baterias, bioindústria)",
+    "dominio": "setorial",
+    "beneficios": {
+     "supply_reform": 0.15
+    },
+    "custos": {
+     "primary_target": -0.3,
+     "institutional_risk": 0.02
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": -2.5,
+     "0.9": -2.56,
+     "0.8": -2.62,
+     "0.7": -2.67,
+     "0.6": -2.73,
+     "0.5": -2.79,
+     "0.4": -2.85
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.06,
+     "0.8": 0.11,
+     "0.7": 0.17,
+     "0.6": 0.23,
+     "0.5": 0.28,
+     "0.4": 0.34
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 14.8,
+     "0.8": 29.6,
+     "0.7": 44.5,
+     "0.6": 59.2,
+     "0.5": 74.0,
+     "0.4": 88.8
+    },
+    "ponto_de_virada": null,
+    "classe": "líquido negativo mesmo com execução perfeita",
+    "limite": "Benefício só começa após ~6 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+    "posto_fragilidade": 12
+   },
+   {
+    "id": "combate-garimpo-ilegal-e-rastreio-do-ouro",
+    "rotulo": "Rastreabilidade do ouro e combate ao garimpo ilegal em terras indígenas",
+    "dominio": "institucional",
+    "beneficios": {
+     "institutional_risk": -0.03
+    },
+    "custos": {
+     "primary_target": -0.05
+    },
+    "melhora_divida_2035_pp": {
+     "1.0": 0.25,
+     "0.9": 0.18,
+     "0.8": 0.11,
+     "0.7": 0.05,
+     "0.6": -0.02,
+     "0.5": -0.09,
+     "0.4": -0.16
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.07,
+     "0.8": 0.14,
+     "0.7": 0.2,
+     "0.6": 0.27,
+     "0.5": 0.34,
+     "0.4": 0.41
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 5.8,
+     "0.8": 11.7,
+     "0.7": 17.5,
+     "0.6": 23.4,
+     "0.5": 29.2,
+     "0.4": 35.1
+    },
+    "ponto_de_virada": 0.633,
+    "classe": "frágil (vira prejuízo)",
+    "limite": null,
+    "posto_fragilidade": 11
+   },
+   {
+    "id": "comissario-das-geracoes-futuras",
+    "rotulo": "Comissário/Defensoria das gerações futuras (avaliação intergeracional de leis e orçamento)",
+    "dominio": "institucional",
+    "beneficios": {
+     "fiscal_credibility": 0.03
+    },
+    "custos": {},
+    "melhora_divida_2035_pp": {
+     "1.0": 1.08,
+     "0.9": 0.97,
+     "0.8": 0.87,
+     "0.7": 0.76,
+     "0.6": 0.65,
+     "0.5": 0.54,
+     "0.4": 0.44
+    },
+    "perda_beneficio_divida_pp": {
+     "1.0": 0.0,
+     "0.9": 0.11,
+     "0.8": 0.21,
+     "0.7": 0.32,
+     "0.6": 0.43,
+     "0.5": 0.53,
+     "0.4": 0.64
+    },
+    "perda_primario_rs_bi_ano": {
+     "1.0": 0.0,
+     "0.9": 0.0,
+     "0.8": 0.0,
+     "0.7": 0.0,
+     "0.6": 0.0,
+     "0.5": 0.0,
+     "0.4": 0.0
+    },
+    "perda_pib_nivel_2035_rs_bi": {
+     "1.0": 0.0,
+     "0.9": 3.4,
+     "0.8": 6.9,
+     "0.7": 10.3,
+     "0.6": 13.8,
+     "0.5": 17.2,
+     "0.4": 20.7
+    },
+    "ponto_de_virada": null,
+    "classe": "robusta",
+    "limite": null,
+    "posto_fragilidade": 9
+   }
+  ],
+  "ranking_fragilidade": [
+   {
+    "posto": 1,
+    "id": "reforcar-arcabouco",
+    "rotulo": "Reforçar o arcabouço (gatilhos de despesa)",
+    "classe": "alta perda, segue positiva",
+    "perda_divida_pp_a_60": 5.48,
+    "perda_divida_pp_a_40": 8.5,
+    "perda_primario_rs_bi_ano_a_40": 91.4,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 2,
+    "id": "desvincular-minimo",
+    "rotulo": "Desvincular salário mínimo e pisos da indexação",
+    "classe": "alta perda, segue positiva",
+    "perda_divida_pp_a_60": 3.68,
+    "perda_divida_pp_a_40": 5.62,
+    "perda_primario_rs_bi_ano_a_40": 61.0,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 3,
+    "id": "reforma-previdencia-2",
+    "rotulo": "Nova reforma da Previdência (idade, regras)",
+    "classe": "alta perda, segue positiva",
+    "perda_divida_pp_a_60": 3.39,
+    "perda_divida_pp_a_40": 5.17,
+    "perda_primario_rs_bi_ano_a_40": 53.3,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 4,
+    "id": "cortar-beneficios-fiscais",
+    "rotulo": "Cortar gastos tributários (benefícios fiscais)",
+    "classe": "alta perda, segue positiva",
+    "perda_divida_pp_a_60": 2.6,
+    "perda_divida_pp_a_40": 3.94,
+    "perda_primario_rs_bi_ano_a_40": 45.7,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 5,
+    "id": "reforma-administrativa",
+    "rotulo": "Reforma administrativa (carreiras, estabilidade, mérito)",
+    "classe": "alta perda, segue positiva",
+    "perda_divida_pp_a_60": 1.51,
+    "perda_divida_pp_a_40": 2.27,
+    "perda_primario_rs_bi_ano_a_40": 30.5,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 6,
+    "id": "acelerar-ibs-cbs",
+    "rotulo": "Acelerar a reforma tributária do consumo (IBS/CBS)",
+    "classe": "alta perda, segue positiva",
+    "perda_divida_pp_a_60": 1.01,
+    "perda_divida_pp_a_40": 1.54,
+    "perda_primario_rs_bi_ano_a_40": 0.0,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 7,
+    "id": "privatizacoes",
+    "rotulo": "Privatizações e concessões (estatais não financeiras)",
+    "classe": "alta perda, segue positiva",
+    "perda_divida_pp_a_60": 0.91,
+    "perda_divida_pp_a_40": 1.36,
+    "perda_primario_rs_bi_ano_a_40": 15.2,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 8,
+    "id": "abertura-comercial",
+    "rotulo": "Abertura comercial (redução de tarifas, acordos)",
+    "classe": "robusta",
+    "perda_divida_pp_a_60": 0.44,
+    "perda_divida_pp_a_40": 0.66,
+    "perda_primario_rs_bi_ano_a_40": 0.0,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 9,
+    "id": "comissario-das-geracoes-futuras",
+    "rotulo": "Comissário/Defensoria das gerações futuras (avaliação intergeracional de leis e orçamento)",
+    "classe": "robusta",
+    "perda_divida_pp_a_60": 0.43,
+    "perda_divida_pp_a_40": 0.64,
+    "perda_primario_rs_bi_ano_a_40": 0.0,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 10,
+    "id": "estrategia-minerais-criticos",
+    "rotulo": "Estratégia de minerais críticos com agregação de valor e governança contra captura",
+    "classe": "frágil (vira prejuízo)",
+    "perda_divida_pp_a_60": 0.4,
+    "perda_divida_pp_a_40": 0.6,
+    "perda_primario_rs_bi_ano_a_40": 3.8,
+    "ponto_de_virada": 0.69
+   },
+   {
+    "posto": 11,
+    "id": "combate-garimpo-ilegal-e-rastreio-do-ouro",
+    "rotulo": "Rastreabilidade do ouro e combate ao garimpo ilegal em terras indígenas",
+    "classe": "frágil (vira prejuízo)",
+    "perda_divida_pp_a_60": 0.27,
+    "perda_divida_pp_a_40": 0.41,
+    "perda_primario_rs_bi_ano_a_40": 0.0,
+    "ponto_de_virada": 0.633
+   },
+   {
+    "posto": 12,
+    "id": "politica-industrial-verde",
+    "rotulo": "Política industrial verde (hidrogênio, baterias, bioindústria)",
+    "classe": "líquido negativo mesmo com execução perfeita",
+    "perda_divida_pp_a_60": 0.23,
+    "perda_divida_pp_a_40": 0.34,
+    "perda_primario_rs_bi_ano_a_40": 0.0,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 13,
+    "id": "acordo-mercosul-ue",
+    "rotulo": "Ratificar acordo Mercosul–União Europeia",
+    "classe": "robusta",
+    "perda_divida_pp_a_60": 0.22,
+    "perda_divida_pp_a_40": 0.33,
+    "perda_primario_rs_bi_ano_a_40": 0.0,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 14,
+    "id": "recuperar-pastagens-degradadas",
+    "rotulo": "Programa de recuperação de pastagens degradadas (expansão sem novo desmatamento)",
+    "classe": "líquido negativo mesmo com execução perfeita",
+    "perda_divida_pp_a_60": 0.22,
+    "perda_divida_pp_a_40": 0.33,
+    "perda_primario_rs_bi_ano_a_40": 0.0,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 15,
+    "id": "homologar-terras-indigenas-e-titular-quilombos",
+    "rotulo": "Homologar terras indígenas e titular territórios quilombolas com meta anual",
+    "classe": "frágil (vira prejuízo)",
+    "perda_divida_pp_a_60": 0.18,
+    "perda_divida_pp_a_40": 0.27,
+    "perda_primario_rs_bi_ano_a_40": 0.0,
+    "ponto_de_virada": 0.949
+   },
+   {
+    "posto": 16,
+    "id": "consulta-previa-regulamentada",
+    "rotulo": "Regulamentar a consulta prévia (OIT 169) com procedimento claro e consentimento qualificado",
+    "classe": "robusta",
+    "perda_divida_pp_a_60": 0.18,
+    "perda_divida_pp_a_40": 0.27,
+    "perda_primario_rs_bi_ano_a_40": 0.0,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 17,
+    "id": "educacao-tecnica-e-alfabetizacao",
+    "rotulo": "Expandir ensino médio técnico e alfabetização na idade certa",
+    "classe": "líquido negativo mesmo com execução perfeita",
+    "perda_divida_pp_a_60": 0.18,
+    "perda_divida_pp_a_40": 0.27,
+    "perda_primario_rs_bi_ano_a_40": 0.0,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 18,
+    "id": "psa-governanca-comunitaria",
+    "rotulo": "Pagamento por serviços ambientais com governança comunitária",
+    "classe": "líquido negativo mesmo com execução perfeita",
+    "perda_divida_pp_a_60": 0.12,
+    "perda_divida_pp_a_40": 0.18,
+    "perda_primario_rs_bi_ano_a_40": 0.0,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 19,
+    "id": "seguranca-hidrica-saneamento",
+    "rotulo": "Segurança hídrica e saneamento (irrigação eficiente, reuso e gestão de bacias)",
+    "classe": "líquido negativo mesmo com execução perfeita",
+    "perda_divida_pp_a_60": 0.12,
+    "perda_divida_pp_a_40": 0.18,
+    "perda_primario_rs_bi_ano_a_40": 0.0,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 20,
+    "id": "desoneracao-ampla",
+    "rotulo": "Desoneração ampla da folha e benefícios setoriais",
+    "classe": "líquido negativo mesmo com execução perfeita",
+    "perda_divida_pp_a_60": 0.08,
+    "perda_divida_pp_a_40": 0.11,
+    "perda_primario_rs_bi_ano_a_40": 0.0,
+    "ponto_de_virada": null
+   },
+   {
+    "posto": 21,
+    "id": "credito-subsidiado",
+    "rotulo": "Expandir crédito subsidiado (BNDES/bancos públicos)",
+    "classe": "líquido negativo mesmo com execução perfeita",
+    "perda_divida_pp_a_60": 0.08,
+    "perda_divida_pp_a_40": 0.11,
+    "perda_primario_rs_bi_ano_a_40": 0.0,
+    "ponto_de_virada": null
+   }
+  ],
+  "robustas": [
+   {
+    "id": "abertura-comercial",
+    "rotulo": "Abertura comercial (redução de tarifas, acordos)",
+    "melhora_divida_2035_pp_a_100": 1.1,
+    "melhora_divida_2035_pp_a_40": 0.44
+   },
+   {
+    "id": "acordo-mercosul-ue",
+    "rotulo": "Ratificar acordo Mercosul–União Europeia",
+    "melhora_divida_2035_pp_a_100": 0.55,
+    "melhora_divida_2035_pp_a_40": 0.22
+   },
+   {
+    "id": "consulta-previa-regulamentada",
+    "rotulo": "Regulamentar a consulta prévia (OIT 169) com procedimento claro e consentimento qualificado",
+    "melhora_divida_2035_pp_a_100": 0.45,
+    "melhora_divida_2035_pp_a_40": 0.18
+   },
+   {
+    "id": "comissario-das-geracoes-futuras",
+    "rotulo": "Comissário/Defensoria das gerações futuras (avaliação intergeracional de leis e orçamento)",
+    "melhora_divida_2035_pp_a_100": 1.08,
+    "melhora_divida_2035_pp_a_40": 0.44
+   }
+  ],
+  "sem_beneficio_a_perder": [
+   {
+    "id": "flexibilizar-arcabouco",
+    "rotulo": "Flexibilizar o arcabouço fiscal (LC 200/2023)",
+    "nota": "sem benefício a perder"
+   },
+   {
+    "id": "ampliar-assistencia",
+    "rotulo": "Ampliar programas de transferência de renda",
+    "nota": "sem benefício a perder"
+   },
+   {
+    "id": "perdao-dividas",
+    "rotulo": "Renegociação/perdão amplo de dívidas (rural, famílias, estados)",
+    "nota": "sem benefício a perder"
+   },
+   {
+    "id": "reduzir-autonomia-bc",
+    "rotulo": "Reduzir a autonomia do Banco Central (LC 179/2021)",
+    "nota": "sem benefício a perder"
+   },
+   {
+    "id": "diretoria-bc-alinhada",
+    "rotulo": "Indicar diretoria do BC por alinhamento político",
+    "nota": "sem benefício a perder"
+   },
+   {
+    "id": "politica-precos-combustiveis",
+    "rotulo": "Controlar preços de combustíveis pela Petrobras",
+    "nota": "sem benefício a perder"
+   },
+   {
+    "id": "ampliar-stf",
+    "rotulo": "Ampliar o número de ministros do STF",
+    "nota": "sem benefício a perder"
+   },
+   {
+    "id": "remover-ministros-stf",
+    "rotulo": "Remoção de ministros do STF (2/3 do Senado)",
+    "nota": "sem benefício a perder"
+   },
+   {
+    "id": "anistia-politica",
+    "rotulo": "Anistia política ampla e mudança em regras de inelegibilidade",
+    "nota": "sem benefício a perder"
+   }
+  ],
+  "sensibilidade": {
+   "ranking_de_referencia": "perda de benefício em dívida/PIB 2035 a 40%",
+   "tau_vs_outras_eficiencias": {
+    "0.8": 1.0,
+    "0.6": 1.0
+   },
+   "variantes": {
+    "neutral_real=3,5": {
+     "tau": 0.981,
+     "top5": [
+      "reforcar-arcabouco",
+      "desvincular-minimo",
+      "reforma-previdencia-2",
+      "cortar-beneficios-fiscais",
+      "reforma-administrativa"
+     ],
+     "top5_igual_ao_de_referencia": true,
+     "sobreposicao_top5": 5
+    },
+    "neutral_real=5,5": {
+     "tau": 0.971,
+     "top5": [
+      "reforcar-arcabouco",
+      "desvincular-minimo",
+      "reforma-previdencia-2",
+      "cortar-beneficios-fiscais",
+      "reforma-administrativa"
+     ],
+     "top5_igual_ao_de_referencia": true,
+     "sobreposicao_top5": 5
+    },
+    "sobrecusto=0,5 (custos também pioram com má execução)": {
+     "tau": 0.571,
+     "top5": [
+      "reforcar-arcabouco",
+      "desvincular-minimo",
+      "reforma-previdencia-2",
+      "cortar-beneficios-fiscais",
+      "reforma-administrativa"
+     ],
+     "top5_igual_ao_de_referencia": true,
+     "sobreposicao_top5": 5
+    },
+    "horizonte 2030": {
+     "tau": 0.848,
+     "top5": [
+      "reforcar-arcabouco",
+      "desvincular-minimo",
+      "reforma-previdencia-2",
+      "cortar-beneficios-fiscais",
+      "reforma-administrativa"
+     ],
+     "top5_igual_ao_de_referencia": true,
+     "sobreposicao_top5": 5
+    },
+    "horizonte 2038": {
+     "tau": 0.962,
+     "top5": [
+      "reforcar-arcabouco",
+      "desvincular-minimo",
+      "reforma-previdencia-2",
+      "cortar-beneficios-fiscais",
+      "reforma-administrativa"
+     ],
+     "top5_igual_ao_de_referencia": true,
+     "sobreposicao_top5": 5
+    }
+   },
+   "top5_referencia": [
+    "reforcar-arcabouco",
+    "desvincular-minimo",
+    "reforma-previdencia-2",
+    "cortar-beneficios-fiscais",
+    "reforma-administrativa"
+   ],
+   "leitura": "tau de Kendall perto de 1 = o ranking quase não muda. A sobrecusto inflaciona o custo de quem tem custo fiscal, então reordena mais; a ordem é estável a neutral_real."
+  }
+ },
+ "desperdicio_como_choque": {
+  "suposicao": "SUPOSIÇÕES rotuladas, não estimativas: (i) o desvio de referência é 1.84% do PIB/ano (FIESP/Decomtec, faixa 1.38-2.3%, extrapolação de percepção, verificado=false); (ii) só uma FRAÇÃO dele reduz o primário federal efetivo (10/25/50%): parte é privada, subnacional ou dano indireto; (iii) 'desperdício por ineficiência' é parametrizado (0,5/1,0/1,5% do PIB) porque não há medida aberta no repositório; (iv) cada pp desviado ou desperdiçado reduz a oferta em (0.0, 0.1, 0.27) pp/ano (teto ancorado em Mauro, 1995, correlação cross-country).",
+  "mecanica": "primary_target -= desvio; supply_reform -= perda_oferta_por_pp × desvio; simulado em economy.simulate sobre o cenário pragmático. A regra fiscal do modelo reage à dívida (reaction) e compensa parte do vazamento: o efeito sobre a dívida é MENOR que o acumulado aritmético do desvio.",
+  "ancora_pib_rs_bi": 12700.0,
+  "desvio_referencia": {
+   "pct_pib_central": 1.84,
+   "faixa_pct_pib": [
+    1.38,
+    2.3
+   ],
+   "descricao": "FIESP/Decomtec, 1,38% a 2,3% do PIB, ponto médio; estimativa por extrapolação de percepção, verificado=false",
+   "fonte": "FIESP/Decomtec (2010) via Monitor Mercantil",
+   "url": "https://monitormercantil.com.br/o-preco-da-corrupcao/"
+  },
+  "referencia_pragmatico": {
+   "anos": {
+    "2030": {
+     "debt": {
+      "p10": 91.27,
+      "p50": 94.15,
+      "p90": 97.18,
+      "ruido_p50": 0.18
+     },
+     "selic": {
+      "p10": 9.94,
+      "p50": 11.12,
+      "p90": 12.31,
+      "ruido_p50": 0.04
+     },
+     "ipca": {
+      "p10": 2.7,
+      "p50": 3.43,
+      "p90": 4.18,
+      "ruido_p50": 0.03
+     },
+     "gdp": {
+      "p10": 0.09,
+      "p50": 1.25,
+      "p90": 2.45,
+      "ruido_p50": 0.08
+     },
+     "pib_nivel_2026_100": {
+      "p10": 102.33,
+      "p50": 104.64,
+      "p90": 106.93
+     },
+     "prob_rompeu_ate_o_ano": 0.0,
+     "valido_como_trajetoria": true
+    },
+    "2035": {
+     "debt": {
+      "p10": 95.24,
+      "p50": 101.46,
+      "p90": 108.01,
+      "ruido_p50": 0.28
+     },
+     "selic": {
+      "p10": 9.93,
+      "p50": 11.41,
+      "p90": 12.88,
+      "ruido_p50": 0.06
+     },
+     "ipca": {
+      "p10": 2.7,
+      "p50": 3.43,
+      "p90": 4.17,
+      "ruido_p50": 0.04
+     },
+     "gdp": {
+      "p10": -0.0,
+      "p50": 1.18,
+      "p90": 2.37,
+      "ruido_p50": 0.06
+     },
+     "pib_nivel_2026_100": {
+      "p10": 107.86,
+      "p50": 111.31,
+      "p90": 114.73
+     },
+     "prob_rompeu_ate_o_ano": 0.0,
+     "valido_como_trajetoria": true
+    },
+    "2038": {
+     "debt": {
+      "p10": 97.1,
+      "p50": 105.58,
+      "p90": 114.9,
+      "ruido_p50": 0.32
+     },
+     "selic": {
+      "p10": 10.17,
+      "p50": 11.82,
+      "p90": 13.55,
+      "ruido_p50": 0.1
+     },
+     "ipca": {
+      "p10": 2.75,
+      "p50": 3.49,
+      "p90": 4.25,
+      "ruido_p50": 0.04
+     },
+     "gdp": {
+      "p10": -0.13,
+      "p50": 1.07,
+      "p90": 2.28,
+      "ruido_p50": 0.07
+     },
+     "pib_nivel_2026_100": {
+      "p10": 110.87,
+      "p50": 114.97,
+      "p90": 119.24
+     },
+     "prob_rompeu_ate_o_ano": 0.021,
+     "valido_como_trajetoria": true
+    }
+   },
+   "sementes": 5,
+   "prob_ruptura_qualquer_ano": 0.021,
+   "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+   "prob_divida_2035_acima_120": 0.0
+  },
+  "corrupcao": [
+   {
+    "rotulo": "corrupção: 10% do desvio central (1.84% do PIB)",
+    "desvio_efetivo_pp_pib": 0.184,
+    "rs_bi_ano": 23.4,
+    "perda_oferta_pp_ano": 0.018,
+    "resultado": {
+     "anos": {
+      "2030": {
+       "debt": {
+        "p10": 91.83,
+        "p50": 94.72,
+        "p90": 97.74,
+        "ruido_p50": 0.18
+       },
+       "selic": {
+        "p10": 9.96,
+        "p50": 11.13,
+        "p90": 12.32,
+        "ruido_p50": 0.04
+       },
+       "ipca": {
+        "p10": 2.7,
+        "p50": 3.44,
+        "p90": 4.19,
+        "ruido_p50": 0.03
+       },
+       "gdp": {
+        "p10": 0.07,
+        "p50": 1.23,
+        "p90": 2.42,
+        "ruido_p50": 0.08
+       },
+       "pib_nivel_2026_100": {
+        "p10": 102.25,
+        "p50": 104.56,
+        "p90": 106.84
+       },
+       "prob_rompeu_ate_o_ano": 0.0,
+       "valido_como_trajetoria": true
+      },
+      "2035": {
+       "debt": {
+        "p10": 96.8,
+        "p50": 103.08,
+        "p90": 109.71,
+        "ruido_p50": 0.27
+       },
+       "selic": {
+        "p10": 10.04,
+        "p50": 11.52,
+        "p90": 13.0,
+        "ruido_p50": 0.06
+       },
+       "ipca": {
+        "p10": 2.71,
+        "p50": 3.44,
+        "p90": 4.19,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -0.05,
+        "p50": 1.13,
+        "p90": 2.32,
+        "ruido_p50": 0.06
+       },
+       "pib_nivel_2026_100": {
+        "p10": 107.58,
+        "p50": 111.02,
+        "p90": 114.44
+       },
+       "prob_rompeu_ate_o_ano": 0.0,
+       "valido_como_trajetoria": true
+      },
+      "2038": {
+       "debt": {
+        "p10": 99.32,
+        "p50": 107.97,
+        "p90": 117.51,
+        "ruido_p50": 0.35
+       },
+       "selic": {
+        "p10": 10.35,
+        "p50": 12.01,
+        "p90": 13.74,
+        "ruido_p50": 0.11
+       },
+       "ipca": {
+        "p10": 2.77,
+        "p50": 3.51,
+        "p90": 4.27,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -0.2,
+        "p50": 1.0,
+        "p90": 2.21,
+        "ruido_p50": 0.08
+       },
+       "pib_nivel_2026_100": {
+        "p10": 110.37,
+        "p50": 114.47,
+        "p90": 118.73
+       },
+       "prob_rompeu_ate_o_ano": 0.051,
+       "valido_como_trajetoria": true
+      }
+     },
+     "sementes": 5,
+     "prob_ruptura_qualquer_ano": 0.051,
+     "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+     "prob_divida_2035_acima_120": 0.0
+    },
+    "delta_vs_referencia_2035": {
+     "debt": {
+      "delta_mediano_2035": 1.63,
+      "min_entre_sementes": 1.62,
+      "max_entre_sementes": 1.63
+     },
+     "selic": {
+      "delta_mediano_2035": 0.11,
+      "min_entre_sementes": 0.11,
+      "max_entre_sementes": 0.11
+     },
+     "ipca": {
+      "delta_mediano_2035": 0.01,
+      "min_entre_sementes": 0.01,
+      "max_entre_sementes": 0.01
+     },
+     "gdp": {
+      "delta_mediano_2035": -0.05,
+      "min_entre_sementes": -0.05,
+      "max_entre_sementes": -0.05
+     }
+    },
+    "fracao_fiscal": 0.1
+   },
+   {
+    "rotulo": "corrupção: 25% do desvio central (1.84% do PIB)",
+    "desvio_efetivo_pp_pib": 0.46,
+    "rs_bi_ano": 58.4,
+    "perda_oferta_pp_ano": 0.046,
+    "resultado": {
+     "anos": {
+      "2030": {
+       "debt": {
+        "p10": 92.67,
+        "p50": 95.56,
+        "p90": 98.61,
+        "ruido_p50": 0.18
+       },
+       "selic": {
+        "p10": 9.99,
+        "p50": 11.16,
+        "p90": 12.35,
+        "ruido_p50": 0.04
+       },
+       "ipca": {
+        "p10": 2.7,
+        "p50": 3.44,
+        "p90": 4.19,
+        "ruido_p50": 0.03
+       },
+       "gdp": {
+        "p10": 0.04,
+        "p50": 1.2,
+        "p90": 2.39,
+        "ruido_p50": 0.08
+       },
+       "pib_nivel_2026_100": {
+        "p10": 102.13,
+        "p50": 104.43,
+        "p90": 106.72
+       },
+       "prob_rompeu_ate_o_ano": 0.0,
+       "valido_como_trajetoria": true
+      },
+      "2035": {
+       "debt": {
+        "p10": 99.15,
+        "p50": 105.53,
+        "p90": 112.29,
+        "ruido_p50": 0.27
+       },
+       "selic": {
+        "p10": 10.2,
+        "p50": 11.69,
+        "p90": 13.17,
+        "ruido_p50": 0.06
+       },
+       "ipca": {
+        "p10": 2.73,
+        "p50": 3.46,
+        "p90": 4.21,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -0.12,
+        "p50": 1.06,
+        "p90": 2.25,
+        "ruido_p50": 0.06
+       },
+       "pib_nivel_2026_100": {
+        "p10": 107.16,
+        "p50": 110.59,
+        "p90": 114.0
+       },
+       "prob_rompeu_ate_o_ano": 0.002,
+       "valido_como_trajetoria": true
+      },
+      "2038": {
+       "debt": {
+        "p10": 102.7,
+        "p50": 111.63,
+        "p90": 121.49,
+        "ruido_p50": 0.32
+       },
+       "selic": {
+        "p10": 10.62,
+        "p50": 12.29,
+        "p90": 14.04,
+        "ruido_p50": 0.11
+       },
+       "ipca": {
+        "p10": 2.81,
+        "p50": 3.54,
+        "p90": 4.31,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -0.3,
+        "p50": 0.9,
+        "p90": 2.11,
+        "ruido_p50": 0.08
+       },
+       "pib_nivel_2026_100": {
+        "p10": 109.63,
+        "p50": 113.72,
+        "p90": 117.96
+       },
+       "prob_rompeu_ate_o_ano": 0.143,
+       "valido_como_trajetoria": true
+      }
+     },
+     "sementes": 5,
+     "prob_ruptura_qualquer_ano": 0.143,
+     "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+     "prob_divida_2035_acima_120": 0.002
+    },
+    "delta_vs_referencia_2035": {
+     "debt": {
+      "delta_mediano_2035": 4.08,
+      "min_entre_sementes": 4.08,
+      "max_entre_sementes": 4.09
+     },
+     "selic": {
+      "delta_mediano_2035": 0.28,
+      "min_entre_sementes": 0.28,
+      "max_entre_sementes": 0.28
+     },
+     "ipca": {
+      "delta_mediano_2035": 0.04,
+      "min_entre_sementes": 0.04,
+      "max_entre_sementes": 0.04
+     },
+     "gdp": {
+      "delta_mediano_2035": -0.12,
+      "min_entre_sementes": -0.12,
+      "max_entre_sementes": -0.12
+     }
+    },
+    "fracao_fiscal": 0.25
+   },
+   {
+    "rotulo": "corrupção: 50% do desvio central (1.84% do PIB)",
+    "desvio_efetivo_pp_pib": 0.92,
+    "rs_bi_ano": 116.8,
+    "perda_oferta_pp_ano": 0.092,
+    "resultado": {
+     "anos": {
+      "2030": {
+       "debt": {
+        "p10": 94.06,
+        "p50": 96.97,
+        "p90": 100.04,
+        "ruido_p50": 0.17
+       },
+       "selic": {
+        "p10": 10.03,
+        "p50": 11.2,
+        "p90": 12.39,
+        "ruido_p50": 0.04
+       },
+       "ipca": {
+        "p10": 2.71,
+        "p50": 3.45,
+        "p90": 4.2,
+        "ruido_p50": 0.03
+       },
+       "gdp": {
+        "p10": -0.02,
+        "p50": 1.14,
+        "p90": 2.33,
+        "ruido_p50": 0.08
+       },
+       "pib_nivel_2026_100": {
+        "p10": 101.93,
+        "p50": 104.23,
+        "p90": 106.51
+       },
+       "prob_rompeu_ate_o_ano": 0.0,
+       "valido_como_trajetoria": true
+      },
+      "2035": {
+       "debt": {
+        "p10": 103.11,
+        "p50": 109.68,
+        "p90": 116.64,
+        "ruido_p50": 0.33
+       },
+       "selic": {
+        "p10": 10.48,
+        "p50": 11.97,
+        "p90": 13.46,
+        "ruido_p50": 0.06
+       },
+       "ipca": {
+        "p10": 2.77,
+        "p50": 3.5,
+        "p90": 4.25,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -0.24,
+        "p50": 0.94,
+        "p90": 2.13,
+        "ruido_p50": 0.06
+       },
+       "pib_nivel_2026_100": {
+        "p10": 106.46,
+        "p50": 109.88,
+        "p90": 113.27
+       },
+       "prob_rompeu_ate_o_ano": 0.024,
+       "valido_como_trajetoria": true
+      },
+      "2038": {
+       "debt": {
+        "p10": 108.52,
+        "p50": 117.9,
+        "p90": 128.53,
+        "ruido_p50": 0.36
+       },
+       "selic": {
+        "p10": 11.07,
+        "p50": 12.77,
+        "p90": 14.54,
+        "ruido_p50": 0.1
+       },
+       "ipca": {
+        "p10": 2.87,
+        "p50": 3.6,
+        "p90": 4.37,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -0.47,
+        "p50": 0.73,
+        "p90": 1.94,
+        "ruido_p50": 0.09
+       },
+       "pib_nivel_2026_100": {
+        "p10": 108.4,
+        "p50": 112.46,
+        "p90": 116.68
+       },
+       "prob_rompeu_ate_o_ano": 0.397,
+       "valido_como_trajetoria": true
+      }
+     },
+     "sementes": 5,
+     "prob_ruptura_qualquer_ano": 0.397,
+     "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+     "prob_divida_2035_acima_120": 0.024
+    },
+    "delta_vs_referencia_2035": {
+     "debt": {
+      "delta_mediano_2035": 8.23,
+      "min_entre_sementes": 8.22,
+      "max_entre_sementes": 8.24
+     },
+     "selic": {
+      "delta_mediano_2035": 0.56,
+      "min_entre_sementes": 0.56,
+      "max_entre_sementes": 0.56
+     },
+     "ipca": {
+      "delta_mediano_2035": 0.07,
+      "min_entre_sementes": 0.07,
+      "max_entre_sementes": 0.07
+     },
+     "gdp": {
+      "delta_mediano_2035": -0.24,
+      "min_entre_sementes": -0.24,
+      "max_entre_sementes": -0.24
+     }
+    },
+    "fracao_fiscal": 0.5
+   }
+  ],
+  "desperdicio": [
+   {
+    "rotulo": "desperdício por ineficiência: 0.5% do PIB",
+    "desvio_efetivo_pp_pib": 0.5,
+    "rs_bi_ano": 63.5,
+    "perda_oferta_pp_ano": 0.05,
+    "resultado": {
+     "anos": {
+      "2030": {
+       "debt": {
+        "p10": 92.79,
+        "p50": 95.68,
+        "p90": 98.73,
+        "ruido_p50": 0.18
+       },
+       "selic": {
+        "p10": 9.99,
+        "p50": 11.16,
+        "p90": 12.35,
+        "ruido_p50": 0.04
+       },
+       "ipca": {
+        "p10": 2.7,
+        "p50": 3.44,
+        "p90": 4.19,
+        "ruido_p50": 0.03
+       },
+       "gdp": {
+        "p10": 0.03,
+        "p50": 1.19,
+        "p90": 2.38,
+        "ruido_p50": 0.08
+       },
+       "pib_nivel_2026_100": {
+        "p10": 102.11,
+        "p50": 104.41,
+        "p90": 106.7
+       },
+       "prob_rompeu_ate_o_ano": 0.0,
+       "valido_como_trajetoria": true
+      },
+      "2035": {
+       "debt": {
+        "p10": 99.49,
+        "p50": 105.89,
+        "p90": 112.66,
+        "ruido_p50": 0.28
+       },
+       "selic": {
+        "p10": 10.23,
+        "p50": 11.72,
+        "p90": 13.2,
+        "ruido_p50": 0.06
+       },
+       "ipca": {
+        "p10": 2.74,
+        "p50": 3.47,
+        "p90": 4.21,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -0.13,
+        "p50": 1.05,
+        "p90": 2.24,
+        "ruido_p50": 0.06
+       },
+       "pib_nivel_2026_100": {
+        "p10": 107.1,
+        "p50": 110.53,
+        "p90": 113.94
+       },
+       "prob_rompeu_ate_o_ano": 0.003,
+       "valido_como_trajetoria": true
+      },
+      "2038": {
+       "debt": {
+        "p10": 103.2,
+        "p50": 112.17,
+        "p90": 122.07,
+        "ruido_p50": 0.33
+       },
+       "selic": {
+        "p10": 10.66,
+        "p50": 12.33,
+        "p90": 14.08,
+        "ruido_p50": 0.11
+       },
+       "ipca": {
+        "p10": 2.81,
+        "p50": 3.55,
+        "p90": 4.31,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -0.32,
+        "p50": 0.89,
+        "p90": 2.09,
+        "ruido_p50": 0.08
+       },
+       "pib_nivel_2026_100": {
+        "p10": 109.52,
+        "p50": 113.61,
+        "p90": 117.85
+       },
+       "prob_rompeu_ate_o_ano": 0.164,
+       "valido_como_trajetoria": true
+      }
+     },
+     "sementes": 5,
+     "prob_ruptura_qualquer_ano": 0.164,
+     "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+     "prob_divida_2035_acima_120": 0.003
+    },
+    "delta_vs_referencia_2035": {
+     "debt": {
+      "delta_mediano_2035": 4.44,
+      "min_entre_sementes": 4.44,
+      "max_entre_sementes": 4.45
+     },
+     "selic": {
+      "delta_mediano_2035": 0.3,
+      "min_entre_sementes": 0.3,
+      "max_entre_sementes": 0.31
+     },
+     "ipca": {
+      "delta_mediano_2035": 0.04,
+      "min_entre_sementes": 0.04,
+      "max_entre_sementes": 0.04
+     },
+     "gdp": {
+      "delta_mediano_2035": -0.13,
+      "min_entre_sementes": -0.13,
+      "max_entre_sementes": -0.13
+     }
+    }
+   },
+   {
+    "rotulo": "desperdício por ineficiência: 1.0% do PIB",
+    "desvio_efetivo_pp_pib": 1.0,
+    "rs_bi_ano": 127.0,
+    "perda_oferta_pp_ano": 0.1,
+    "resultado": {
+     "anos": {
+      "2030": {
+       "debt": {
+        "p10": 94.31,
+        "p50": 97.22,
+        "p90": 100.29,
+        "ruido_p50": 0.17
+       },
+       "selic": {
+        "p10": 10.03,
+        "p50": 11.21,
+        "p90": 12.4,
+        "ruido_p50": 0.04
+       },
+       "ipca": {
+        "p10": 2.71,
+        "p50": 3.45,
+        "p90": 4.2,
+        "ruido_p50": 0.03
+       },
+       "gdp": {
+        "p10": -0.03,
+        "p50": 1.13,
+        "p90": 2.32,
+        "ruido_p50": 0.08
+       },
+       "pib_nivel_2026_100": {
+        "p10": 101.89,
+        "p50": 104.19,
+        "p90": 106.47
+       },
+       "prob_rompeu_ate_o_ano": 0.0,
+       "valido_como_trajetoria": true
+      },
+      "2035": {
+       "debt": {
+        "p10": 103.81,
+        "p50": 110.4,
+        "p90": 117.4,
+        "ruido_p50": 0.34
+       },
+       "selic": {
+        "p10": 10.53,
+        "p50": 12.02,
+        "p90": 13.51,
+        "ruido_p50": 0.06
+       },
+       "ipca": {
+        "p10": 2.78,
+        "p50": 3.51,
+        "p90": 4.25,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -0.26,
+        "p50": 0.92,
+        "p90": 2.11,
+        "ruido_p50": 0.06
+       },
+       "pib_nivel_2026_100": {
+        "p10": 106.34,
+        "p50": 109.75,
+        "p90": 113.14
+       },
+       "prob_rompeu_ate_o_ano": 0.036,
+       "valido_como_trajetoria": true
+      },
+      "2038": {
+       "debt": {
+        "p10": 109.54,
+        "p50": 119.02,
+        "p90": 129.83,
+        "ruido_p50": 0.37
+       },
+       "selic": {
+        "p10": 11.15,
+        "p50": 12.85,
+        "p90": 14.63,
+        "ruido_p50": 0.1
+       },
+       "ipca": {
+        "p10": 2.88,
+        "p50": 3.61,
+        "p90": 4.38,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -0.5,
+        "p50": 0.7,
+        "p90": 1.9,
+        "ruido_p50": 0.09
+       },
+       "pib_nivel_2026_100": {
+        "p10": 108.18,
+        "p50": 112.24,
+        "p90": 116.46
+       },
+       "prob_rompeu_ate_o_ano": 0.452,
+       "valido_como_trajetoria": true
+      }
+     },
+     "sementes": 5,
+     "prob_ruptura_qualquer_ano": 0.452,
+     "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+     "prob_divida_2035_acima_120": 0.036
+    },
+    "delta_vs_referencia_2035": {
+     "debt": {
+      "delta_mediano_2035": 8.96,
+      "min_entre_sementes": 8.95,
+      "max_entre_sementes": 8.97
+     },
+     "selic": {
+      "delta_mediano_2035": 0.61,
+      "min_entre_sementes": 0.61,
+      "max_entre_sementes": 0.61
+     },
+     "ipca": {
+      "delta_mediano_2035": 0.08,
+      "min_entre_sementes": 0.08,
+      "max_entre_sementes": 0.08
+     },
+     "gdp": {
+      "delta_mediano_2035": -0.26,
+      "min_entre_sementes": -0.26,
+      "max_entre_sementes": -0.26
+     }
+    }
+   },
+   {
+    "rotulo": "desperdício por ineficiência: 1.5% do PIB",
+    "desvio_efetivo_pp_pib": 1.5,
+    "rs_bi_ano": 190.5,
+    "perda_oferta_pp_ano": 0.15,
+    "resultado": {
+     "anos": {
+      "2030": {
+       "debt": {
+        "p10": 95.83,
+        "p50": 98.76,
+        "p90": 101.85,
+        "ruido_p50": 0.16
+       },
+       "selic": {
+        "p10": 10.08,
+        "p50": 11.25,
+        "p90": 12.44,
+        "ruido_p50": 0.04
+       },
+       "ipca": {
+        "p10": 2.72,
+        "p50": 3.46,
+        "p90": 4.21,
+        "ruido_p50": 0.03
+       },
+       "gdp": {
+        "p10": -0.09,
+        "p50": 1.07,
+        "p90": 2.26,
+        "ruido_p50": 0.08
+       },
+       "pib_nivel_2026_100": {
+        "p10": 101.67,
+        "p50": 103.97,
+        "p90": 106.25
+       },
+       "prob_rompeu_ate_o_ano": 0.0,
+       "valido_como_trajetoria": true
+      },
+      "2035": {
+       "debt": {
+        "p10": 108.19,
+        "p50": 114.99,
+        "p90": 122.2,
+        "ruido_p50": 0.35
+       },
+       "selic": {
+        "p10": 10.83,
+        "p50": 12.34,
+        "p90": 13.83,
+        "ruido_p50": 0.06
+       },
+       "ipca": {
+        "p10": 2.81,
+        "p50": 3.55,
+        "p90": 4.29,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -0.39,
+        "p50": 0.79,
+        "p90": 1.97,
+        "ruido_p50": 0.06
+       },
+       "pib_nivel_2026_100": {
+        "p10": 105.57,
+        "p50": 108.97,
+        "p90": 112.35
+       },
+       "prob_rompeu_ate_o_ano": 0.19,
+       "valido_como_trajetoria": true
+      },
+      "2038": {
+       "debt": {
+        "p10": 116.11,
+        "p50": 126.21,
+        "p90": 138.55,
+        "ruido_p50": 0.5
+       },
+       "selic": {
+        "p10": 11.66,
+        "p50": 13.39,
+        "p90": 15.22,
+        "ruido_p50": 0.11
+       },
+       "ipca": {
+        "p10": 2.94,
+        "p50": 3.68,
+        "p90": 4.44,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -0.7,
+        "p50": 0.5,
+        "p90": 1.71,
+        "ruido_p50": 0.09
+       },
+       "pib_nivel_2026_100": {
+        "p10": 106.85,
+        "p50": 110.87,
+        "p90": 115.07
+       },
+       "prob_rompeu_ate_o_ano": 0.765,
+       "valido_como_trajetoria": false
+      }
+     },
+     "sementes": 5,
+     "prob_ruptura_qualquer_ano": 0.765,
+     "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+     "prob_divida_2035_acima_120": 0.19
+    },
+    "delta_vs_referencia_2035": {
+     "debt": {
+      "delta_mediano_2035": 13.55,
+      "min_entre_sementes": 13.54,
+      "max_entre_sementes": 13.57
+     },
+     "selic": {
+      "delta_mediano_2035": 0.93,
+      "min_entre_sementes": 0.92,
+      "max_entre_sementes": 0.93
+     },
+     "ipca": {
+      "delta_mediano_2035": 0.12,
+      "min_entre_sementes": 0.12,
+      "max_entre_sementes": 0.12
+     },
+     "gdp": {
+      "delta_mediano_2035": -0.39,
+      "min_entre_sementes": -0.39,
+      "max_entre_sementes": -0.39
+     }
+    }
+   }
+  ],
+  "combinados": {
+   "central": {
+    "rotulo": "ambos (central): corrupção 25% do desvio + desperdício 1,0% do PIB",
+    "desvio_efetivo_pp_pib": 1.46,
+    "rs_bi_ano": 185.4,
+    "perda_oferta_pp_ano": 0.146,
+    "resultado": {
+     "anos": {
+      "2030": {
+       "debt": {
+        "p10": 95.7,
+        "p50": 98.63,
+        "p90": 101.72,
+        "ruido_p50": 0.16
+       },
+       "selic": {
+        "p10": 10.08,
+        "p50": 11.25,
+        "p90": 12.44,
+        "ruido_p50": 0.04
+       },
+       "ipca": {
+        "p10": 2.72,
+        "p50": 3.46,
+        "p90": 4.21,
+        "ruido_p50": 0.03
+       },
+       "gdp": {
+        "p10": -0.09,
+        "p50": 1.08,
+        "p90": 2.27,
+        "ruido_p50": 0.08
+       },
+       "pib_nivel_2026_100": {
+        "p10": 101.69,
+        "p50": 103.99,
+        "p90": 106.27
+       },
+       "prob_rompeu_ate_o_ano": 0.0,
+       "valido_como_trajetoria": true
+      },
+      "2035": {
+       "debt": {
+        "p10": 107.83,
+        "p50": 114.62,
+        "p90": 121.82,
+        "ruido_p50": 0.35
+       },
+       "selic": {
+        "p10": 10.81,
+        "p50": 12.31,
+        "p90": 13.8,
+        "ruido_p50": 0.06
+       },
+       "ipca": {
+        "p10": 2.81,
+        "p50": 3.54,
+        "p90": 4.29,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -0.38,
+        "p50": 0.8,
+        "p90": 1.98,
+        "ruido_p50": 0.06
+       },
+       "pib_nivel_2026_100": {
+        "p10": 105.63,
+        "p50": 109.03,
+        "p90": 112.41
+       },
+       "prob_rompeu_ate_o_ano": 0.172,
+       "valido_como_trajetoria": true
+      },
+      "2038": {
+       "debt": {
+        "p10": 115.58,
+        "p50": 125.6,
+        "p90": 137.81,
+        "ruido_p50": 0.49
+       },
+       "selic": {
+        "p10": 11.62,
+        "p50": 13.35,
+        "p90": 15.17,
+        "ruido_p50": 0.11
+       },
+       "ipca": {
+        "p10": 2.94,
+        "p50": 3.67,
+        "p90": 4.44,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -0.68,
+        "p50": 0.52,
+        "p90": 1.73,
+        "ruido_p50": 0.09
+       },
+       "pib_nivel_2026_100": {
+        "p10": 106.96,
+        "p50": 110.99,
+        "p90": 115.18
+       },
+       "prob_rompeu_ate_o_ano": 0.744,
+       "valido_como_trajetoria": false
+      }
+     },
+     "sementes": 5,
+     "prob_ruptura_qualquer_ano": 0.744,
+     "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+     "prob_divida_2035_acima_120": 0.172
+    },
+    "delta_vs_referencia_2035": {
+     "debt": {
+      "delta_mediano_2035": 13.18,
+      "min_entre_sementes": 13.17,
+      "max_entre_sementes": 13.19
+     },
+     "selic": {
+      "delta_mediano_2035": 0.9,
+      "min_entre_sementes": 0.9,
+      "max_entre_sementes": 0.9
+     },
+     "ipca": {
+      "delta_mediano_2035": 0.11,
+      "min_entre_sementes": 0.11,
+      "max_entre_sementes": 0.11
+     },
+     "gdp": {
+      "delta_mediano_2035": -0.38,
+      "min_entre_sementes": -0.38,
+      "max_entre_sementes": -0.38
+     }
+    }
+   },
+   "alto": {
+    "rotulo": "ambos (alto): 50% do desvio superior (2,3%) + desperdício 1,5% do PIB",
+    "desvio_efetivo_pp_pib": 2.65,
+    "rs_bi_ano": 336.6,
+    "perda_oferta_pp_ano": 0.716,
+    "resultado": {
+     "anos": {
+      "2030": {
+       "debt": {
+        "p10": 100.52,
+        "p50": 103.53,
+        "p90": 106.71,
+        "ruido_p50": 0.19
+       },
+       "selic": {
+        "p10": 9.99,
+        "p50": 11.16,
+        "p90": 12.35,
+        "ruido_p50": 0.04
+       },
+       "ipca": {
+        "p10": 2.75,
+        "p50": 3.49,
+        "p90": 4.24,
+        "ruido_p50": 0.03
+       },
+       "gdp": {
+        "p10": -0.62,
+        "p50": 0.54,
+        "p90": 1.73,
+        "ruido_p50": 0.08
+       },
+       "pib_nivel_2026_100": {
+        "p10": 99.49,
+        "p50": 101.76,
+        "p90": 104.0
+       },
+       "prob_rompeu_ate_o_ano": 0.0,
+       "valido_como_trajetoria": true
+      },
+      "2035": {
+       "debt": {
+        "p10": 120.36,
+        "p50": 127.96,
+        "p90": 136.4,
+        "ruido_p50": 0.39
+       },
+       "selic": {
+        "p10": 11.31,
+        "p50": 12.84,
+        "p90": 14.36,
+        "ruido_p50": 0.07
+       },
+       "ipca": {
+        "p10": 2.93,
+        "p50": 3.66,
+        "p90": 4.4,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -1.07,
+        "p50": 0.11,
+        "p90": 1.29,
+        "ruido_p50": 0.07
+       },
+       "pib_nivel_2026_100": {
+        "p10": 100.23,
+        "p50": 103.49,
+        "p90": 106.73
+       },
+       "prob_rompeu_ate_o_ano": 0.912,
+       "valido_como_trajetoria": false
+      },
+      "2038": {
+       "debt": {
+        "p10": 135.41,
+        "p50": 149.49,
+        "p90": 166.3,
+        "ruido_p50": 0.64
+       },
+       "selic": {
+        "p10": 12.72,
+        "p50": 14.61,
+        "p90": 16.64,
+        "ruido_p50": 0.1
+       },
+       "ipca": {
+        "p10": 3.14,
+        "p50": 3.87,
+        "p90": 4.65,
+        "ruido_p50": 0.05
+       },
+       "gdp": {
+        "p10": -1.59,
+        "p50": -0.37,
+        "p90": 0.84,
+        "ruido_p50": 0.08
+       },
+       "pib_nivel_2026_100": {
+        "p10": 98.96,
+        "p50": 102.81,
+        "p90": 106.75
+       },
+       "prob_rompeu_ate_o_ano": 1.0,
+       "valido_como_trajetoria": false
+      }
+     },
+     "sementes": 5,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+     "prob_divida_2035_acima_120": 0.912
+    },
+    "delta_vs_referencia_2035": {
+     "debt": {
+      "delta_mediano_2035": 26.51,
+      "min_entre_sementes": 26.48,
+      "max_entre_sementes": 26.56
+     },
+     "selic": {
+      "delta_mediano_2035": 1.42,
+      "min_entre_sementes": 1.42,
+      "max_entre_sementes": 1.43
+     },
+     "ipca": {
+      "delta_mediano_2035": 0.23,
+      "min_entre_sementes": 0.23,
+      "max_entre_sementes": 0.23
+     },
+     "gdp": {
+      "delta_mediano_2035": -1.07,
+      "min_entre_sementes": -1.07,
+      "max_entre_sementes": -1.07
+     }
+    }
+   }
+  },
+  "sensibilidade_perda_de_oferta": [
+   {
+    "perda_oferta_por_pp": 0.0,
+    "delta_divida_2035": 12.61,
+    "prob_ruptura_qualquer_ano": 0.716
+   },
+   {
+    "perda_oferta_por_pp": 0.1,
+    "delta_divida_2035": 13.18,
+    "prob_ruptura_qualquer_ano": 0.744
+   },
+   {
+    "perda_oferta_por_pp": 0.27,
+    "delta_divida_2035": 14.16,
+    "prob_ruptura_qualquer_ano": 0.788
+   }
+  ]
+ },
+ "cenario_adverso": {
+  "definicao_ruptura": "dívida/PIB > 120% (scenarios.BREAK_DEBT): o modelo deixa de valer como trajetória",
+  "choque_composto": {
+   "queda_credibilidade_fiscal": 0.4,
+   "aumento_erosao_bc": 0.3,
+   "aumento_risco_institucional": 0.45,
+   "clima_fracao_severo": 1.0,
+   "execution_efficiency": 0.6,
+   "desvio_pp_pib": 0.0,
+   "tech_nula": true
+  },
+  "nota_tecnologia": "Os cenários do repositório já têm tech_productivity=0: 'difusão nula' não muda nada em relação à linha de base; o custo de oportunidade aparece em `contrafactual_tecnologia`.",
+  "baseline": {
+   "pragmatico": {
+    "rotulo": "Flávio + centrão pragmático",
+    "levers": {
+     "primary_target": 0.8,
+     "institutional_risk": 0.15,
+     "bc_erosion": 0.05,
+     "supply_reform": 0.4,
+     "fiscal_credibility": 0.8,
+     "tech_productivity": 0.0,
+     "tech_midpoint": 2031.0,
+     "tech_rate": 0.8,
+     "tech_lag": 1.0,
+     "climate_shock": 0.0,
+     "climate_premium": 0.0
+    },
+    "anos": {
+     "2030": {
+      "debt": {
+       "p10": 91.27,
+       "p50": 94.15,
+       "p90": 97.18,
+       "ruido_p50": 0.18
+      },
+      "selic": {
+       "p10": 9.94,
+       "p50": 11.12,
+       "p90": 12.31,
+       "ruido_p50": 0.04
+      },
+      "ipca": {
+       "p10": 2.7,
+       "p50": 3.43,
+       "p90": 4.18,
+       "ruido_p50": 0.03
+      },
+      "gdp": {
+       "p10": 0.09,
+       "p50": 1.25,
+       "p90": 2.45,
+       "ruido_p50": 0.08
+      },
+      "pib_nivel_2026_100": {
+       "p10": 102.33,
+       "p50": 104.64,
+       "p90": 106.93
+      },
+      "prob_rompeu_ate_o_ano": 0.0,
+      "valido_como_trajetoria": true
+     },
+     "2035": {
+      "debt": {
+       "p10": 95.24,
+       "p50": 101.46,
+       "p90": 108.01,
+       "ruido_p50": 0.28
+      },
+      "selic": {
+       "p10": 9.93,
+       "p50": 11.41,
+       "p90": 12.88,
+       "ruido_p50": 0.06
+      },
+      "ipca": {
+       "p10": 2.7,
+       "p50": 3.43,
+       "p90": 4.17,
+       "ruido_p50": 0.04
+      },
+      "gdp": {
+       "p10": -0.0,
+       "p50": 1.18,
+       "p90": 2.37,
+       "ruido_p50": 0.06
+      },
+      "pib_nivel_2026_100": {
+       "p10": 107.86,
+       "p50": 111.31,
+       "p90": 114.73
+      },
+      "prob_rompeu_ate_o_ano": 0.0,
+      "valido_como_trajetoria": true
+     },
+     "2038": {
+      "debt": {
+       "p10": 97.1,
+       "p50": 105.58,
+       "p90": 114.9,
+       "ruido_p50": 0.32
+      },
+      "selic": {
+       "p10": 10.17,
+       "p50": 11.82,
+       "p90": 13.55,
+       "ruido_p50": 0.1
+      },
+      "ipca": {
+       "p10": 2.75,
+       "p50": 3.49,
+       "p90": 4.25,
+       "ruido_p50": 0.04
+      },
+      "gdp": {
+       "p10": -0.13,
+       "p50": 1.07,
+       "p90": 2.28,
+       "ruido_p50": 0.07
+      },
+      "pib_nivel_2026_100": {
+       "p10": 110.87,
+       "p50": 114.97,
+       "p90": 119.24
+      },
+      "prob_rompeu_ate_o_ano": 0.021,
+      "valido_como_trajetoria": true
+     }
+    },
+    "sementes": 5,
+    "prob_ruptura_qualquer_ano": 0.021,
+    "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+    "prob_divida_2035_acima_120": 0.0
+   },
+   "hegemonia": {
+    "rotulo": "Flávio + hegemonia da direita radical",
+    "levers": {
+     "primary_target": -0.5,
+     "institutional_risk": 0.3,
+     "bc_erosion": 0.4,
+     "supply_reform": 0.3,
+     "fiscal_credibility": 0.4,
+     "tech_productivity": 0.0,
+     "tech_midpoint": 2031.0,
+     "tech_rate": 0.8,
+     "tech_lag": 1.0,
+     "climate_shock": 0.0,
+     "climate_premium": 0.0
+    },
+    "anos": {
+     "2030": {
+      "debt": {
+       "p10": 98.85,
+       "p50": 102.07,
+       "p90": 105.43,
+       "ruido_p50": 0.18
+      },
+      "selic": {
+       "p10": 13.09,
+       "p50": 14.28,
+       "p90": 15.48,
+       "ruido_p50": 0.05
+      },
+      "ipca": {
+       "p10": 4.13,
+       "p50": 4.87,
+       "p90": 5.62,
+       "ruido_p50": 0.04
+      },
+      "gdp": {
+       "p10": -0.7,
+       "p50": 0.46,
+       "p90": 1.65,
+       "ruido_p50": 0.07
+      },
+      "pib_nivel_2026_100": {
+       "p10": 100.08,
+       "p50": 102.38,
+       "p90": 104.68
+      },
+      "prob_rompeu_ate_o_ano": 0.0,
+      "valido_como_trajetoria": true
+     },
+     "2035": {
+      "debt": {
+       "p10": 130.99,
+       "p50": 142.09,
+       "p90": 154.53,
+       "ruido_p50": 0.44
+      },
+      "selic": {
+       "p10": 17.79,
+       "p50": 19.86,
+       "p90": 22.01,
+       "ruido_p50": 0.09
+      },
+      "ipca": {
+       "p10": 5.16,
+       "p50": 5.93,
+       "p90": 6.7,
+       "ruido_p50": 0.04
+      },
+      "gdp": {
+       "p10": -2.12,
+       "p50": -0.89,
+       "p90": 0.33,
+       "ruido_p50": 0.05
+      },
+      "pib_nivel_2026_100": {
+       "p10": 97.63,
+       "p50": 101.1,
+       "p90": 104.66
+      },
+      "prob_rompeu_ate_o_ano": 0.998,
+      "valido_como_trajetoria": false
+     },
+     "2038": {
+      "debt": {
+       "p10": 174.06,
+       "p50": 202.36,
+       "p90": 237.8,
+       "ruido_p50": 1.7
+      },
+      "selic": {
+       "p10": 23.38,
+       "p50": 27.18,
+       "p90": 31.5,
+       "ruido_p50": 0.14
+      },
+      "ipca": {
+       "p10": 6.36,
+       "p50": 7.3,
+       "p90": 8.28,
+       "ruido_p50": 0.07
+      },
+      "gdp": {
+       "p10": -4.19,
+       "p50": -2.69,
+       "p90": -1.28,
+       "ruido_p50": 0.08
+      },
+      "pib_nivel_2026_100": {
+       "p10": 90.35,
+       "p50": 95.13,
+       "p90": 99.95
+      },
+      "prob_rompeu_ate_o_ano": 1.0,
+      "valido_como_trajetoria": false
+     }
+    },
+    "sementes": 5,
+    "prob_ruptura_qualquer_ano": 1.0,
+    "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+    "prob_divida_2035_acima_120": 0.998
+   }
+  },
+  "resultados": {
+   "pragmatico": {
+    "adverso": {
+     "choque": {
+      "queda_credibilidade_fiscal": 0.4,
+      "aumento_erosao_bc": 0.3,
+      "aumento_risco_institucional": 0.45,
+      "clima_fracao_severo": 1.0,
+      "execution_efficiency": 0.6,
+      "desvio_pp_pib": 0.0,
+      "tech_nula": true
+     },
+     "levers": {
+      "primary_target": 0.48,
+      "institutional_risk": 0.6,
+      "bc_erosion": 0.35,
+      "supply_reform": 0.24,
+      "fiscal_credibility": 0.4,
+      "tech_productivity": 0.0,
+      "tech_midpoint": 2031.0,
+      "tech_rate": 0.8,
+      "tech_lag": 1.0,
+      "climate_shock": 0.6,
+      "climate_premium": 0.6
+     },
+     "anos": {
+      "2030": {
+       "debt": {
+        "p10": 102.84,
+        "p50": 106.26,
+        "p90": 109.83,
+        "ruido_p50": 0.17
+       },
+       "selic": {
+        "p10": 13.75,
+        "p50": 14.93,
+        "p90": 16.13,
+        "ruido_p50": 0.04
+       },
+       "ipca": {
+        "p10": 4.07,
+        "p50": 4.81,
+        "p90": 5.56,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -1.94,
+        "p50": -0.78,
+        "p90": 0.41,
+        "ruido_p50": 0.07
+       },
+       "pib_nivel_2026_100": {
+        "p10": 95.26,
+        "p50": 97.48,
+        "p90": 99.7
+       },
+       "prob_rompeu_ate_o_ano": 0.0,
+       "valido_como_trajetoria": true
+      },
+      "2035": {
+       "debt": {
+        "p10": 143.99,
+        "p50": 157.41,
+        "p90": 172.57,
+        "ruido_p50": 0.51
+       },
+       "selic": {
+        "p10": 19.32,
+        "p50": 21.54,
+        "p90": 23.86,
+        "ruido_p50": 0.07
+       },
+       "ipca": {
+        "p10": 5.32,
+        "p50": 6.12,
+        "p90": 6.89,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -3.6,
+        "p50": -2.36,
+        "p90": -1.12,
+        "ruido_p50": 0.04
+       },
+       "pib_nivel_2026_100": {
+        "p10": 86.8,
+        "p50": 90.01,
+        "p90": 93.3
+       },
+       "prob_rompeu_ate_o_ano": 1.0,
+       "valido_como_trajetoria": false
+      },
+      "2038": {
+       "debt": {
+        "p10": 208.82,
+        "p50": 248.23,
+        "p90": 298.5,
+        "ruido_p50": 2.91
+       },
+       "selic": {
+        "p10": 27.02,
+        "p50": 31.68,
+        "p90": 37.02,
+        "ruido_p50": 0.2
+       },
+       "ipca": {
+        "p10": 6.95,
+        "p50": 8.0,
+        "p90": 9.13,
+        "ruido_p50": 0.09
+       },
+       "gdp": {
+        "p10": -6.51,
+        "p50": -4.84,
+        "p90": -3.31,
+        "ruido_p50": 0.07
+       },
+       "pib_nivel_2026_100": {
+        "p10": 75.44,
+        "p50": 79.93,
+        "p90": 84.47
+       },
+       "prob_rompeu_ate_o_ano": 1.0,
+       "valido_como_trajetoria": false
+      }
+     },
+     "sementes": 5,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+     "prob_divida_2035_acima_120": 1.0
+    },
+    "adverso_mais_vazamento": {
+     "choque": {
+      "queda_credibilidade_fiscal": 0.4,
+      "aumento_erosao_bc": 0.3,
+      "aumento_risco_institucional": 0.45,
+      "clima_fracao_severo": 1.0,
+      "execution_efficiency": 0.6,
+      "desvio_pp_pib": 0.96,
+      "tech_nula": true
+     },
+     "levers": {
+      "primary_target": -0.48,
+      "institutional_risk": 0.6,
+      "bc_erosion": 0.35,
+      "supply_reform": 0.144,
+      "fiscal_credibility": 0.4,
+      "tech_productivity": 0.0,
+      "tech_midpoint": 2031.0,
+      "tech_rate": 0.8,
+      "tech_lag": 1.0,
+      "climate_shock": 0.6,
+      "climate_premium": 0.6
+     },
+     "anos": {
+      "2030": {
+       "debt": {
+        "p10": 106.12,
+        "p50": 109.59,
+        "p90": 113.22,
+        "ruido_p50": 0.18
+       },
+       "selic": {
+        "p10": 13.96,
+        "p50": 15.15,
+        "p90": 16.35,
+        "ruido_p50": 0.04
+       },
+       "ipca": {
+        "p10": 4.13,
+        "p50": 4.86,
+        "p90": 5.61,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -2.09,
+        "p50": -0.93,
+        "p90": 0.27,
+        "ruido_p50": 0.07
+       },
+       "pib_nivel_2026_100": {
+        "p10": 94.82,
+        "p50": 97.03,
+        "p90": 99.24
+       },
+       "prob_rompeu_ate_o_ano": 0.0,
+       "valido_como_trajetoria": true
+      },
+      "2035": {
+       "debt": {
+        "p10": 160.41,
+        "p50": 175.43,
+        "p90": 192.34,
+        "ruido_p50": 0.59
+       },
+       "selic": {
+        "p10": 21.1,
+        "p50": 23.43,
+        "p90": 25.86,
+        "ruido_p50": 0.08
+       },
+       "ipca": {
+        "p10": 5.67,
+        "p50": 6.48,
+        "p90": 7.26,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -4.17,
+        "p50": -2.91,
+        "p90": -1.67,
+        "ruido_p50": 0.04
+       },
+       "pib_nivel_2026_100": {
+        "p10": 84.85,
+        "p50": 88.02,
+        "p90": 91.29
+       },
+       "prob_rompeu_ate_o_ano": 1.0,
+       "valido_como_trajetoria": false
+      },
+      "2038": {
+       "debt": {
+        "p10": 258.37,
+        "p50": 309.03,
+        "p90": 374.13,
+        "ruido_p50": 3.29
+       },
+       "selic": {
+        "p10": 32.01,
+        "p50": 37.34,
+        "p90": 43.54,
+        "ruido_p50": 0.27
+       },
+       "ipca": {
+        "p10": 7.91,
+        "p50": 9.06,
+        "p90": 10.3,
+        "ruido_p50": 0.09
+       },
+       "gdp": {
+        "p10": -8.15,
+        "p50": -6.32,
+        "p90": -4.67,
+        "ruido_p50": 0.07
+       },
+       "pib_nivel_2026_100": {
+        "p10": 71.0,
+        "p50": 75.55,
+        "p90": 80.1
+       },
+       "prob_rompeu_ate_o_ano": 1.0,
+       "valido_como_trajetoria": false
+      }
+     },
+     "sementes": 5,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+     "prob_divida_2035_acima_120": 1.0
+    }
+   },
+   "hegemonia": {
+    "adverso": {
+     "choque": {
+      "queda_credibilidade_fiscal": 0.4,
+      "aumento_erosao_bc": 0.3,
+      "aumento_risco_institucional": 0.45,
+      "clima_fracao_severo": 1.0,
+      "execution_efficiency": 0.6,
+      "desvio_pp_pib": 0.0,
+      "tech_nula": true
+     },
+     "levers": {
+      "primary_target": -0.5,
+      "institutional_risk": 0.75,
+      "bc_erosion": 0.7,
+      "supply_reform": 0.18,
+      "fiscal_credibility": 0.05,
+      "tech_productivity": 0.0,
+      "tech_midpoint": 2031.0,
+      "tech_rate": 0.8,
+      "tech_lag": 1.0,
+      "climate_shock": 0.6,
+      "climate_premium": 0.6
+     },
+     "anos": {
+      "2030": {
+       "debt": {
+        "p10": 110.5,
+        "p50": 114.28,
+        "p90": 118.24,
+        "ruido_p50": 0.26
+       },
+       "selic": {
+        "p10": 17.28,
+        "p50": 18.49,
+        "p90": 19.72,
+        "ruido_p50": 0.06
+       },
+       "ipca": {
+        "p10": 5.62,
+        "p50": 6.36,
+        "p90": 7.11,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -2.79,
+        "p50": -1.62,
+        "p90": -0.43,
+        "ruido_p50": 0.08
+       },
+       "pib_nivel_2026_100": {
+        "p10": 93.18,
+        "p50": 95.4,
+        "p90": 97.62
+       },
+       "prob_rompeu_ate_o_ano": 0.031,
+       "valido_como_trajetoria": true
+      },
+      "2035": {
+       "debt": {
+        "p10": 221.99,
+        "p50": 248.59,
+        "p90": 279.32,
+        "ruido_p50": 1.07
+       },
+       "selic": {
+        "p10": 34.73,
+        "p50": 38.61,
+        "p90": 42.76,
+        "ruido_p50": 0.16
+       },
+       "ipca": {
+        "p10": 9.66,
+        "p50": 10.68,
+        "p90": 11.7,
+        "ruido_p50": 0.05
+       },
+       "gdp": {
+        "p10": -7.77,
+        "p50": -6.34,
+        "p90": -4.97,
+        "ruido_p50": 0.07
+       },
+       "pib_nivel_2026_100": {
+        "p10": 74.7,
+        "p50": 78.15,
+        "p90": 81.7
+       },
+       "prob_rompeu_ate_o_ano": 1.0,
+       "valido_como_trajetoria": false
+      },
+      "2038": {
+       "debt": {
+        "p10": 661.63,
+        "p50": 902.5,
+        "p90": 1282.59,
+        "ruido_p50": 12.16
+       },
+       "selic": {
+        "p10": 78.78,
+        "p50": 96.37,
+        "p90": 119.01,
+        "ruido_p50": 0.92
+       },
+       "ipca": {
+        "p10": 19.19,
+        "p50": 22.91,
+        "p90": 27.69,
+        "ruido_p50": 0.17
+       },
+       "gdp": {
+        "p10": -25.34,
+        "p50": -19.99,
+        "p90": -15.83,
+        "ruido_p50": 0.21
+       },
+       "pib_nivel_2026_100": {
+        "p10": 42.83,
+        "p50": 49.74,
+        "p90": 56.32
+       },
+       "prob_rompeu_ate_o_ano": 1.0,
+       "valido_como_trajetoria": false
+      }
+     },
+     "sementes": 5,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+     "prob_divida_2035_acima_120": 1.0
+    },
+    "adverso_mais_vazamento": {
+     "choque": {
+      "queda_credibilidade_fiscal": 0.4,
+      "aumento_erosao_bc": 0.3,
+      "aumento_risco_institucional": 0.45,
+      "clima_fracao_severo": 1.0,
+      "execution_efficiency": 0.6,
+      "desvio_pp_pib": 0.96,
+      "tech_nula": true
+     },
+     "levers": {
+      "primary_target": -1.46,
+      "institutional_risk": 0.75,
+      "bc_erosion": 0.7,
+      "supply_reform": 0.08399999999999999,
+      "fiscal_credibility": 0.05,
+      "tech_productivity": 0.0,
+      "tech_midpoint": 2031.0,
+      "tech_rate": 0.8,
+      "tech_lag": 1.0,
+      "climate_shock": 0.6,
+      "climate_premium": 0.6
+     },
+     "anos": {
+      "2030": {
+       "debt": {
+        "p10": 114.08,
+        "p50": 117.93,
+        "p90": 121.96,
+        "ruido_p50": 0.25
+       },
+       "selic": {
+        "p10": 17.62,
+        "p50": 18.83,
+        "p90": 20.06,
+        "ruido_p50": 0.06
+       },
+       "ipca": {
+        "p10": 5.71,
+        "p50": 6.45,
+        "p90": 7.2,
+        "ruido_p50": 0.05
+       },
+       "gdp": {
+        "p10": -2.96,
+        "p50": -1.79,
+        "p90": -0.6,
+        "ruido_p50": 0.08
+       },
+       "pib_nivel_2026_100": {
+        "p10": 92.7,
+        "p50": 94.91,
+        "p90": 97.13
+       },
+       "prob_rompeu_ate_o_ano": 0.254,
+       "valido_como_trajetoria": true
+      },
+      "2035": {
+       "debt": {
+        "p10": 252.62,
+        "p50": 282.87,
+        "p90": 318.0,
+        "ruido_p50": 1.21
+       },
+       "selic": {
+        "p10": 38.47,
+        "p50": 42.59,
+        "p90": 47.02,
+        "ruido_p50": 0.16
+       },
+       "ipca": {
+        "p10": 10.47,
+        "p50": 11.54,
+        "p90": 12.6,
+        "ruido_p50": 0.06
+       },
+       "gdp": {
+        "p10": -8.85,
+        "p50": -7.37,
+        "p90": -5.97,
+        "ruido_p50": 0.08
+       },
+       "pib_nivel_2026_100": {
+        "p10": 72.09,
+        "p50": 75.51,
+        "p90": 79.04
+       },
+       "prob_rompeu_ate_o_ano": 1.0,
+       "valido_como_trajetoria": false
+      },
+      "2038": {
+       "debt": {
+        "p10": 946.84,
+        "p50": 1335.3,
+        "p90": 1994.49,
+        "ruido_p50": 18.04
+       },
+       "selic": {
+        "p10": 98.65,
+        "p50": 121.15,
+        "p90": 150.91,
+        "ruido_p50": 0.98
+       },
+       "ipca": {
+        "p10": 23.44,
+        "p50": 28.23,
+        "p90": 34.56,
+        "ruido_p50": 0.22
+       },
+       "gdp": {
+        "p10": -32.93,
+        "p50": -25.94,
+        "p90": -20.65,
+        "ruido_p50": 0.24
+       },
+       "pib_nivel_2026_100": {
+        "p10": 34.95,
+        "p50": 42.26,
+        "p90": 49.14
+       },
+       "prob_rompeu_ate_o_ano": 1.0,
+       "valido_como_trajetoria": false
+      }
+     },
+     "sementes": 5,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+     "prob_divida_2035_acima_120": 1.0
+    }
+   }
+  },
+  "prob_ruptura": {
+   "pragmatico": {
+    "baseline": {
+     "qualquer_ano": 0.021,
+     "em_2035": 0.0
+    },
+    "adverso": {
+     "qualquer_ano": 1.0,
+     "em_2035": 1.0
+    },
+    "adverso_mais_vazamento": {
+     "qualquer_ano": 1.0,
+     "em_2035": 1.0
+    }
+   },
+   "hegemonia": {
+    "baseline": {
+     "qualquer_ano": 1.0,
+     "em_2035": 0.998
+    },
+    "adverso": {
+     "qualquer_ano": 1.0,
+     "em_2035": 1.0
+    },
+    "adverso_mais_vazamento": {
+     "qualquer_ano": 1.0,
+     "em_2035": 1.0
+    }
+   }
+  },
+  "atribuicao_por_choque": {
+   "pragmatico": {
+    "credibilidade fiscal": {
+     "sozinho_delta_divida_2035": 17.71,
+     "sozinho_delta_selic_2035": 4.25,
+     "todos_menos_este_delta_divida_2035": 22.01
+    },
+    "independência do BC": {
+     "sozinho_delta_divida_2035": -0.17,
+     "sozinho_delta_selic_2035": 1.19,
+     "todos_menos_este_delta_divida_2035": 57.72
+    },
+    "risco institucional": {
+     "sozinho_delta_divida_2035": 10.63,
+     "sozinho_delta_selic_2035": 1.2,
+     "todos_menos_este_delta_divida_2035": 33.96
+    },
+    "clima severo": {
+     "sozinho_delta_divida_2035": 6.71,
+     "sozinho_delta_selic_2035": 0.46,
+     "todos_menos_este_delta_divida_2035": 40.56
+    },
+    "ineficiência de execução": {
+     "sozinho_delta_divida_2035": 3.3,
+     "sozinho_delta_selic_2035": 0.12,
+     "todos_menos_este_delta_divida_2035": 48.9
+    },
+    "difusão tecnológica nula": {
+     "sozinho_delta_divida_2035": 0.0,
+     "sozinho_delta_selic_2035": 0.0,
+     "todos_menos_este_delta_divida_2035": 55.95
+    }
+   },
+   "hegemonia": {
+    "credibilidade fiscal": {
+     "sozinho_delta_divida_2035": 37.75,
+     "sozinho_delta_selic_2035": 8.53,
+     "todos_menos_este_delta_divida_2035": 40.4
+    },
+    "independência do BC": {
+     "sozinho_delta_divida_2035": -1.15,
+     "sozinho_delta_selic_2035": 1.04,
+     "todos_menos_este_delta_divida_2035": 111.58
+    },
+    "risco institucional": {
+     "sozinho_delta_divida_2035": 22.45,
+     "sozinho_delta_selic_2035": 2.88,
+     "todos_menos_este_delta_divida_2035": 61.54
+    },
+    "clima severo": {
+     "sozinho_delta_divida_2035": 14.54,
+     "sozinho_delta_selic_2035": 1.59,
+     "todos_menos_este_delta_divida_2035": 73.99
+    },
+    "ineficiência de execução": {
+     "sozinho_delta_divida_2035": 1.07,
+     "sozinho_delta_selic_2035": 0.03,
+     "todos_menos_este_delta_divida_2035": 103.25
+    },
+    "difusão tecnológica nula": {
+     "sozinho_delta_divida_2035": 0.0,
+     "sozinho_delta_selic_2035": 0.0,
+     "todos_menos_este_delta_divida_2035": 106.44
+    }
+   }
+  },
+  "contrafactual_tecnologia": {
+   "pragmatico": {
+    "delta_divida_2035_se_tech_0_3": -2.21,
+    "nota": "tech_productivity=0,3 é suposição de tecnologia.py; o cenário adverso fica em 0."
+   },
+   "hegemonia": {
+    "delta_divida_2035_se_tech_0_3": -3.97,
+    "nota": "tech_productivity=0,3 é suposição de tecnologia.py; o cenário adverso fica em 0."
+   }
+  },
+  "reverse_stress": {
+   "cenario": "pragmatico",
+   "criterio": "dívida/PIB 2035 > 120% na trajetória central determinística; custo = Σ (nível/nível máximo) por choque",
+   "niveis_testados": {
+    "cred": [
+     0.0,
+     0.15,
+     0.3,
+     0.45
+    ],
+    "bc": [
+     0.0,
+     0.15,
+     0.3,
+     0.45
+    ],
+    "inst": [
+     0.0,
+     0.15,
+     0.3,
+     0.45
+    ],
+    "clima": [
+     0.0,
+     0.333,
+     0.667,
+     1.0
+    ],
+    "eficiencia": [
+     1.0,
+     0.8,
+     0.6,
+     0.4
+    ],
+    "desvio_pp": [
+     0.0,
+     0.5,
+     1.0,
+     1.5
+    ]
+   },
+   "divida_2035_sem_choque": 101.4,
+   "ja_rompe_sem_choque": false,
+   "combinacoes_avaliadas": 4096,
+   "choque_unico_no_maximo": {
+    "cred": {
+     "nivel_maximo": 0.45,
+     "divida_2035": 122.1
+    },
+    "bc": {
+     "nivel_maximo": 0.45,
+     "divida_2035": 101.2
+    },
+    "inst": {
+     "nivel_maximo": 0.45,
+     "divida_2035": 112.0
+    },
+    "clima": {
+     "nivel_maximo": 1.0,
+     "divida_2035": 108.1
+    },
+    "eficiencia": {
+     "nivel_maximo": 0.4,
+     "divida_2035": 106.4
+    },
+    "desvio_pp": {
+     "nivel_maximo": 1.5,
+     "divida_2035": 115.0
+    }
+   },
+   "algum_choque_unico_rompe": true,
+   "combinacoes_que_rompem": 3358,
+   "minima_sem_cada_choque": {
+    "cred": {
+     "custo": 1.667,
+     "n_choques": 2,
+     "choque": {
+      "inst": 0.3,
+      "desvio_pp": 1.5
+     },
+     "divida_2035_central": 122.6
+    },
+    "bc": {
+     "custo": 1.0,
+     "n_choques": 1,
+     "choque": {
+      "cred": 0.45
+     },
+     "divida_2035_central": 122.1
+    },
+    "inst": {
+     "custo": 1.0,
+     "n_choques": 1,
+     "choque": {
+      "cred": 0.45
+     },
+     "divida_2035_central": 122.1
+    },
+    "clima": {
+     "custo": 1.0,
+     "n_choques": 1,
+     "choque": {
+      "cred": 0.45
+     },
+     "divida_2035_central": 122.1
+    },
+    "eficiencia": {
+     "custo": 1.0,
+     "n_choques": 1,
+     "choque": {
+      "cred": 0.45
+     },
+     "divida_2035_central": 122.1
+    },
+    "desvio_pp": {
+     "custo": 1.0,
+     "n_choques": 1,
+     "choque": {
+      "cred": 0.45
+     },
+     "divida_2035_central": 122.1
+    }
+   },
+   "limiar_credibilidade_sozinha": {
+    "queda": 0.415,
+    "credibilidade_de": 0.8,
+    "credibilidade_para": 0.385
+   },
+   "minimas": [
+    {
+     "custo": 1.0,
+     "n_choques": 1,
+     "choque": {
+      "cred": 0.45
+     },
+     "divida_2035_central": 122.1,
+     "prob_divida_2035_acima_120_estocastica": 0.601,
+     "divida_2035_p50_estocastica": 122.15
+    }
+   ],
+   "menor_numero_de_choques": [
+    {
+     "custo": 1.0,
+     "n_choques": 1,
+     "choque": {
+      "cred": 0.45
+     },
+     "divida_2035_central": 122.1,
+     "prob_divida_2035_acima_120_estocastica": 0.601,
+     "divida_2035_p50_estocastica": 122.15
+    }
+   ],
+   "leitura": "Cada linha é uma combinação distinta que cruza o limiar na trajetória central. A estocástica mostra a chance real: perto de 50% = no limiar, não 'inevitável'."
+  },
+  "base_macro": "fallback (BCB 08/2026 + Focus 02/10/2026)"
+ },
+ "lideranca_judicial": {
+  "aviso": "Mecanismo, não acusação: 'vaga capturada' = indicado aprovado com controvérsia ≥ 0,5 (perfil de alto conflito/baixo requisito do art. 101), sem julgar nenhuma pessoa real. O filtro do Senado (41 de 81 votos) é o mesmo para qualquer lado; os perfis por cenário são hipóteses do repositório (`scenarios.py`).",
+  "calendario_vagas": [
+   {
+    "vaga": "Fux",
+    "ano": 2028
+   },
+   {
+    "vaga": "Cármen Lúcia",
+    "ano": 2029
+   },
+   {
+    "vaga": "Gilmar Mendes",
+    "ano": 2030
+   }
+  ],
+  "quorum_senado": 41,
+  "regra_risco": "risco = max(alavanca do cenário, base_risk) + 0,1 × controvérsia de cada indicado aprovado (regra de scenarios.effective_risk) + Σ delta institutional_risk das decisões judiciais perseguidas e aprovadas (ampliar-stf, remover-ministros-stf, diretoria-bc-alinhada, anistia-politica); diretoria-bc-alinhada também soma bc_erosion.",
+  "suposicao_mapeamento": "SUPOSIÇÃO: risco institucional → prêmio (prem_inst = 2,5 pp por unidade) e → crescimento (g_inst = 1,2 pp por unidade) são parâmetros de calibração do modelo, não elasticidades medidas; ver `sensibilidade_mapeamento`.",
+  "persegue_agenda_de_ruptura": {
+   "lula": 0.0,
+   "pragmatico": 0.0,
+   "hegemonia": 1.0,
+   "extremo": 1.0
+  },
+  "vagas_capturadas": {
+   "distribuicao": {
+    "lula": {
+     "perfil_indicados": {
+      "Fux": "Indicado técnico alinhado à esquerda",
+      "Cármen Lúcia": "Indicado técnico alinhado à esquerda",
+      "Gilmar Mendes": "Indicado técnico alinhado à esquerda"
+     },
+     "p_aprovacao_indicado": {
+      "Fux": 0.359,
+      "Cármen Lúcia": 0.337,
+      "Gilmar Mendes": 0.36
+     },
+     "p_decisao_perseguida_e_aprovada": {
+      "ampliar-stf": 0.0,
+      "remover-ministros-stf": 0.0,
+      "diretoria-bc-alinhada": 0.0,
+      "anistia-politica": 0.0
+     },
+     "distribuicao_vagas_capturadas": {
+      "0": 1.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0
+     },
+     "esperanca_vagas_capturadas": 0.0,
+     "p_pelo_menos_uma": 0.0,
+     "p_maioria_das_tres": 0.0
+    },
+    "pragmatico": {
+     "perfil_indicados": {
+      "Fux": "Indicado técnico de consenso",
+      "Cármen Lúcia": "Indicado técnico de consenso",
+      "Gilmar Mendes": "Indicado técnico de consenso"
+     },
+     "p_aprovacao_indicado": {
+      "Fux": 0.905,
+      "Cármen Lúcia": 0.912,
+      "Gilmar Mendes": 0.91
+     },
+     "p_decisao_perseguida_e_aprovada": {
+      "ampliar-stf": 0.0,
+      "remover-ministros-stf": 0.0,
+      "diretoria-bc-alinhada": 0.0,
+      "anistia-politica": 0.0
+     },
+     "distribuicao_vagas_capturadas": {
+      "0": 1.0,
+      "1": 0.0,
+      "2": 0.0,
+      "3": 0.0
+     },
+     "esperanca_vagas_capturadas": 0.0,
+     "p_pelo_menos_uma": 0.0,
+     "p_maioria_das_tres": 0.0
+    },
+    "hegemonia": {
+     "perfil_indicados": {
+      "Fux": "Aliado técnico",
+      "Cármen Lúcia": "Aliado militante",
+      "Gilmar Mendes": "Aliado militante"
+     },
+     "p_aprovacao_indicado": {
+      "Fux": 0.85,
+      "Cármen Lúcia": 0.247,
+      "Gilmar Mendes": 0.257
+     },
+     "p_decisao_perseguida_e_aprovada": {
+      "ampliar-stf": 0.0187,
+      "remover-ministros-stf": 0.0106,
+      "diretoria-bc-alinhada": 0.5006,
+      "anistia-politica": 0.0957
+     },
+     "distribuicao_vagas_capturadas": {
+      "0": 0.5593,
+      "1": 0.3772,
+      "2": 0.0635,
+      "3": 0.0
+     },
+     "esperanca_vagas_capturadas": 0.504,
+     "p_pelo_menos_uma": 0.4407,
+     "p_maioria_das_tres": 0.0635
+    },
+    "extremo": {
+     "perfil_indicados": {
+      "Fux": "Aliado militante",
+      "Cármen Lúcia": "Aliado militante",
+      "Gilmar Mendes": "Perfil sem trajetória jurídica (hipótese do cenário 'extremo')"
+     },
+     "p_aprovacao_indicado": {
+      "Fux": 0.255,
+      "Cármen Lúcia": 0.248,
+      "Gilmar Mendes": 0.009
+     },
+     "p_decisao_perseguida_e_aprovada": {
+      "ampliar-stf": 0.02,
+      "remover-ministros-stf": 0.0083,
+      "diretoria-bc-alinhada": 0.5094,
+      "anistia-politica": 0.0948
+     },
+     "distribuicao_vagas_capturadas": {
+      "0": 0.5551,
+      "1": 0.3782,
+      "2": 0.0661,
+      "3": 0.0006
+     },
+     "esperanca_vagas_capturadas": 0.512,
+     "p_pelo_menos_uma": 0.4449,
+     "p_maioria_das_tres": 0.0667
+    }
+   }
+  },
+  "risco_institucional": {
+   "lula": {
+    "base_do_cenario": 0.2,
+    "p10": 0.2,
+    "p50": 0.22,
+    "p90": 0.24,
+    "media": 0.221
+   },
+   "pragmatico": {
+    "base_do_cenario": 0.15,
+    "p10": 0.18,
+    "p50": 0.195,
+    "p90": 0.195,
+    "media": 0.191
+   },
+   "hegemonia": {
+    "base_do_cenario": 0.3,
+    "p10": 0.32,
+    "p50": 0.37,
+    "p90": 0.45,
+    "media": 0.388
+   },
+   "extremo": {
+    "base_do_cenario": 0.5,
+    "p10": 0.5,
+    "p50": 0.56,
+    "p90": 0.63,
+    "media": 0.571
+   }
+  },
+  "macro": {
+   "lula": {
+    "anos": {
+     "2030": {
+      "debt": {
+       "p10": 97.05,
+       "p50": 100.32,
+       "p90": 103.5,
+       "ruido_p50": 0.19
+      },
+      "selic": {
+       "p10": 11.4,
+       "p50": 12.59,
+       "p90": 13.77,
+       "ruido_p50": 0.03
+      },
+      "ipca": {
+       "p10": 3.17,
+       "p50": 3.9,
+       "p90": 4.63,
+       "ruido_p50": 0.04
+      },
+      "gdp": {
+       "p10": -0.62,
+       "p50": 0.56,
+       "p90": 1.72,
+       "ruido_p50": 0.05
+      },
+      "pib_nivel_2026_100": {
+       "p10": 100.08,
+       "p50": 102.26,
+       "p90": 104.52
+      },
+      "prob_rompeu_ate_o_ano": 0.0,
+      "valido_como_trajetoria": true
+     },
+     "2035": {
+      "debt": {
+       "p10": 118.12,
+       "p50": 127.39,
+       "p90": 137.52,
+       "ruido_p50": 0.34
+      },
+      "selic": {
+       "p10": 14.03,
+       "p50": 15.91,
+       "p90": 17.79,
+       "ruido_p50": 0.1
+      },
+      "ipca": {
+       "p10": 3.73,
+       "p50": 4.5,
+       "p90": 5.25,
+       "ruido_p50": 0.02
+      },
+      "gdp": {
+       "p10": -1.44,
+       "p50": -0.23,
+       "p90": 0.96,
+       "ruido_p50": 0.02
+      },
+      "pib_nivel_2026_100": {
+       "p10": 99.63,
+       "p50": 103.04,
+       "p90": 106.57
+      },
+      "prob_rompeu_ate_o_ano": 0.841,
+      "valido_como_trajetoria": false
+     },
+     "2038": {
+      "debt": {
+       "p10": 139.27,
+       "p50": 159.64,
+       "p90": 183.33,
+       "ruido_p50": 1.0
+      },
+      "selic": {
+       "p10": 16.87,
+       "p50": 19.79,
+       "p90": 22.89,
+       "ruido_p50": 0.14
+      },
+      "ipca": {
+       "p10": 4.36,
+       "p50": 5.17,
+       "p90": 6.0,
+       "ruido_p50": 0.01
+      },
+      "gdp": {
+       "p10": -2.52,
+       "p50": -1.21,
+       "p90": 0.08,
+       "ruido_p50": 0.04
+      },
+      "pib_nivel_2026_100": {
+       "p10": 95.98,
+       "p50": 100.46,
+       "p90": 105.09
+      },
+      "prob_rompeu_ate_o_ano": 0.999,
+      "valido_como_trajetoria": false
+     }
+    },
+    "sementes": 3,
+    "prob_ruptura_qualquer_ano": 0.999,
+    "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+    "prob_divida_2035_acima_120": 0.841
+   },
+   "pragmatico": {
+    "anos": {
+     "2030": {
+      "debt": {
+       "p10": 91.67,
+       "p50": 94.57,
+       "p90": 97.57,
+       "ruido_p50": 0.13
+      },
+      "selic": {
+       "p10": 10.01,
+       "p50": 11.19,
+       "p90": 12.35,
+       "ruido_p50": 0.07
+      },
+      "ipca": {
+       "p10": 2.69,
+       "p50": 3.43,
+       "p90": 4.18,
+       "ruido_p50": 0.01
+      },
+      "gdp": {
+       "p10": 0.01,
+       "p50": 1.18,
+       "p90": 2.35,
+       "ruido_p50": 0.04
+      },
+      "pib_nivel_2026_100": {
+       "p10": 102.07,
+       "p50": 104.36,
+       "p90": 106.66
+      },
+      "prob_rompeu_ate_o_ano": 0.0,
+      "valido_como_trajetoria": true
+     },
+     "2035": {
+      "debt": {
+       "p10": 96.14,
+       "p50": 102.44,
+       "p90": 109.08,
+       "ruido_p50": 0.06
+      },
+      "selic": {
+       "p10": 10.06,
+       "p50": 11.49,
+       "p90": 12.99,
+       "ruido_p50": 0.1
+      },
+      "ipca": {
+       "p10": 2.7,
+       "p50": 3.44,
+       "p90": 4.18,
+       "ruido_p50": 0.01
+      },
+      "gdp": {
+       "p10": -0.08,
+       "p50": 1.09,
+       "p90": 2.28,
+       "ruido_p50": 0.07
+      },
+      "pib_nivel_2026_100": {
+       "p10": 107.08,
+       "p50": 110.47,
+       "p90": 114.04
+      },
+      "prob_rompeu_ate_o_ano": 0.0,
+      "valido_como_trajetoria": true
+     },
+     "2038": {
+      "debt": {
+       "p10": 98.33,
+       "p50": 106.93,
+       "p90": 116.45,
+       "ruido_p50": 0.28
+      },
+      "selic": {
+       "p10": 10.31,
+       "p50": 11.98,
+       "p90": 13.68,
+       "ruido_p50": 0.03
+      },
+      "ipca": {
+       "p10": 2.76,
+       "p50": 3.5,
+       "p90": 4.25,
+       "ruido_p50": 0.04
+      },
+      "gdp": {
+       "p10": -0.24,
+       "p50": 0.98,
+       "p90": 2.16,
+       "ruido_p50": 0.03
+      },
+      "pib_nivel_2026_100": {
+       "p10": 109.75,
+       "p50": 113.89,
+       "p90": 118.13
+      },
+      "prob_rompeu_ate_o_ano": 0.036,
+      "valido_como_trajetoria": true
+     }
+    },
+    "sementes": 3,
+    "prob_ruptura_qualquer_ano": 0.036,
+    "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+    "prob_divida_2035_acima_120": 0.0
+   },
+   "hegemonia": {
+    "anos": {
+     "2030": {
+      "debt": {
+       "p10": 99.48,
+       "p50": 102.79,
+       "p90": 106.33,
+       "ruido_p50": 0.24
+      },
+      "selic": {
+       "p10": 13.44,
+       "p50": 14.68,
+       "p90": 15.95,
+       "ruido_p50": 0.11
+      },
+      "ipca": {
+       "p10": 4.31,
+       "p50": 5.08,
+       "p90": 5.86,
+       "ruido_p50": 0.04
+      },
+      "gdp": {
+       "p10": -0.9,
+       "p50": 0.28,
+       "p90": 1.46,
+       "ruido_p50": 0.06
+      },
+      "pib_nivel_2026_100": {
+       "p10": 99.5,
+       "p50": 101.81,
+       "p90": 104.17
+      },
+      "prob_rompeu_ate_o_ano": 0.0,
+      "valido_como_trajetoria": true
+     },
+     "2035": {
+      "debt": {
+       "p10": 133.82,
+       "p50": 145.54,
+       "p90": 159.58,
+       "ruido_p50": 1.05
+      },
+      "selic": {
+       "p10": 18.43,
+       "p50": 20.64,
+       "p90": 22.95,
+       "ruido_p50": 0.13
+      },
+      "ipca": {
+       "p10": 5.39,
+       "p50": 6.23,
+       "p90": 7.07,
+       "ruido_p50": 0.01
+      },
+      "gdp": {
+       "p10": -2.35,
+       "p50": -1.14,
+       "p90": 0.08,
+       "ruido_p50": 0.07
+      },
+      "pib_nivel_2026_100": {
+       "p10": 95.67,
+       "p50": 99.55,
+       "p90": 103.34
+      },
+      "prob_rompeu_ate_o_ano": 0.999,
+      "valido_como_trajetoria": false
+     },
+     "2038": {
+      "debt": {
+       "p10": 180.79,
+       "p50": 212.61,
+       "p90": 253.8,
+       "ruido_p50": 3.15
+      },
+      "selic": {
+       "p10": 24.49,
+       "p50": 28.55,
+       "p90": 33.44,
+       "ruido_p50": 0.34
+      },
+      "ipca": {
+       "p10": 6.68,
+       "p50": 7.7,
+       "p90": 8.81,
+       "ruido_p50": 0.06
+      },
+      "gdp": {
+       "p10": -4.67,
+       "p50": -3.12,
+       "p90": -1.63,
+       "ruido_p50": 0.12
+      },
+      "pib_nivel_2026_100": {
+       "p10": 87.34,
+       "p50": 92.7,
+       "p90": 97.98
+      },
+      "prob_rompeu_ate_o_ano": 1.0,
+      "valido_como_trajetoria": false
+     }
+    },
+    "sementes": 3,
+    "prob_ruptura_qualquer_ano": 1.0,
+    "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+    "prob_divida_2035_acima_120": 0.999
+   },
+   "extremo": {
+    "anos": {
+     "2030": {
+      "debt": {
+       "p10": 103.63,
+       "p50": 107.11,
+       "p90": 110.84,
+       "ruido_p50": 0.21
+      },
+      "selic": {
+       "p10": 15.01,
+       "p50": 16.28,
+       "p90": 17.57,
+       "ruido_p50": 0.06
+      },
+      "ipca": {
+       "p10": 5.03,
+       "p50": 5.82,
+       "p90": 6.62,
+       "ruido_p50": 0.01
+      },
+      "gdp": {
+       "p10": -1.45,
+       "p50": -0.28,
+       "p90": 0.85,
+       "ruido_p50": 0.02
+      },
+      "pib_nivel_2026_100": {
+       "p10": 97.66,
+       "p50": 99.92,
+       "p90": 102.21
+      },
+      "prob_rompeu_ate_o_ano": 0.0,
+      "valido_como_trajetoria": true
+     },
+     "2035": {
+      "debt": {
+       "p10": 159.32,
+       "p50": 175.06,
+       "p90": 192.85,
+       "ruido_p50": 1.19
+      },
+      "selic": {
+       "p10": 23.36,
+       "p50": 25.99,
+       "p90": 28.76,
+       "ruido_p50": 0.21
+      },
+      "ipca": {
+       "p10": 6.93,
+       "p50": 7.78,
+       "p90": 8.65,
+       "ruido_p50": 0.01
+      },
+      "gdp": {
+       "p10": -3.9,
+       "p50": -2.61,
+       "p90": -1.35,
+       "ruido_p50": 0.06
+      },
+      "pib_nivel_2026_100": {
+       "p10": 89.05,
+       "p50": 92.75,
+       "p90": 96.46
+      },
+      "prob_rompeu_ate_o_ano": 1.0,
+      "valido_como_trajetoria": false
+     },
+     "2038": {
+      "debt": {
+       "p10": 264.87,
+       "p50": 321.54,
+       "p90": 396.04,
+       "ruido_p50": 3.81
+      },
+      "selic": {
+       "p10": 36.1,
+       "p50": 42.42,
+       "p90": 49.88,
+       "ruido_p50": 0.4
+      },
+      "ipca": {
+       "p10": 9.58,
+       "p50": 10.96,
+       "p90": 12.5,
+       "ruido_p50": 0.03
+      },
+      "gdp": {
+       "p10": -8.65,
+       "p50": -6.62,
+       "p90": -4.79,
+       "ruido_p50": 0.09
+      },
+      "pib_nivel_2026_100": {
+       "p10": 73.83,
+       "p50": 79.58,
+       "p90": 85.06
+      },
+      "prob_rompeu_ate_o_ano": 1.0,
+      "valido_como_trajetoria": false
+     }
+    },
+    "sementes": 3,
+    "prob_ruptura_qualquer_ano": 1.0,
+    "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+    "prob_divida_2035_acima_120": 1.0
+   }
+  },
+  "contrafactual": {
+   "lula": {
+    "risco_institucional": 0.2,
+    "resultado": {
+     "anos": {
+      "2030": {
+       "debt": {
+        "p10": 96.93,
+        "p50": 99.99,
+        "p90": 103.25,
+        "ruido_p50": 0.08
+       },
+       "selic": {
+        "p10": 11.35,
+        "p50": 12.54,
+        "p90": 13.76,
+        "ruido_p50": 0.04
+       },
+       "ipca": {
+        "p10": 3.18,
+        "p50": 3.9,
+        "p90": 4.63,
+        "ruido_p50": 0.03
+       },
+       "gdp": {
+        "p10": -0.56,
+        "p50": 0.61,
+        "p90": 1.79,
+        "ruido_p50": 0.02
+       },
+       "pib_nivel_2026_100": {
+        "p10": 100.23,
+        "p50": 102.49,
+        "p90": 104.77
+       },
+       "prob_rompeu_ate_o_ano": 0.0,
+       "valido_como_trajetoria": true
+      },
+      "2035": {
+       "debt": {
+        "p10": 117.39,
+        "p50": 126.41,
+        "p90": 136.79,
+        "ruido_p50": 0.32
+       },
+       "selic": {
+        "p10": 13.98,
+        "p50": 15.79,
+        "p90": 17.72,
+        "ruido_p50": 0.01
+       },
+       "ipca": {
+        "p10": 3.74,
+        "p50": 4.5,
+        "p90": 5.25,
+        "ruido_p50": 0.02
+       },
+       "gdp": {
+        "p10": -1.38,
+        "p50": -0.19,
+        "p90": 1.01,
+        "ruido_p50": 0.03
+       },
+       "pib_nivel_2026_100": {
+        "p10": 100.14,
+        "p50": 103.52,
+        "p90": 106.99
+       },
+       "prob_rompeu_ate_o_ano": 0.809,
+       "valido_como_trajetoria": false
+      },
+      "2038": {
+       "debt": {
+        "p10": 137.86,
+        "p50": 157.11,
+        "p90": 181.54,
+        "ruido_p50": 0.34
+       },
+       "selic": {
+        "p10": 16.71,
+        "p50": 19.54,
+        "p90": 22.71,
+        "ruido_p50": 0.07
+       },
+       "ipca": {
+        "p10": 4.34,
+        "p50": 5.13,
+        "p90": 5.97,
+        "ruido_p50": 0.02
+       },
+       "gdp": {
+        "p10": -2.41,
+        "p50": -1.13,
+        "p90": 0.16,
+        "ruido_p50": 0.04
+       },
+       "pib_nivel_2026_100": {
+        "p10": 96.73,
+        "p50": 101.12,
+        "p90": 105.59
+       },
+       "prob_rompeu_ate_o_ano": 0.999,
+       "valido_como_trajetoria": false
+      }
+     },
+     "sementes": 3,
+     "prob_ruptura_qualquer_ano": 0.999,
+     "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+     "prob_divida_2035_acima_120": 0.809
+    },
+    "intervalo_divida_2035_p50": [
+     126.41,
+     127.39
+    ],
+    "efeito_do_canal_judicial_divida_2035_pp": 0.98,
+    "efeito_do_canal_judicial_prob_ruptura": 0.0
+   },
+   "pragmatico": {
+    "risco_institucional": 0.15,
+    "resultado": {
+     "anos": {
+      "2030": {
+       "debt": {
+        "p10": 91.33,
+        "p50": 94.11,
+        "p90": 97.09,
+        "ruido_p50": 0.05
+       },
+       "selic": {
+        "p10": 9.91,
+        "p50": 11.12,
+        "p90": 12.31,
+        "ruido_p50": 0.02
+       },
+       "ipca": {
+        "p10": 2.71,
+        "p50": 3.43,
+        "p90": 4.16,
+        "ruido_p50": 0.03
+       },
+       "gdp": {
+        "p10": 0.09,
+        "p50": 1.26,
+        "p90": 2.43,
+        "ruido_p50": 0.02
+       },
+       "pib_nivel_2026_100": {
+        "p10": 102.37,
+        "p50": 104.64,
+        "p90": 106.93
+       },
+       "prob_rompeu_ate_o_ano": 0.0,
+       "valido_como_trajetoria": true
+      },
+      "2035": {
+       "debt": {
+        "p10": 95.26,
+        "p50": 101.36,
+        "p90": 108.07,
+        "ruido_p50": 0.15
+       },
+       "selic": {
+        "p10": 9.95,
+        "p50": 11.4,
+        "p90": 12.88,
+        "ruido_p50": 0.03
+       },
+       "ipca": {
+        "p10": 2.7,
+        "p50": 3.44,
+        "p90": 4.18,
+        "ruido_p50": 0.02
+       },
+       "gdp": {
+        "p10": 0.01,
+        "p50": 1.18,
+        "p90": 2.35,
+        "ruido_p50": 0.03
+       },
+       "pib_nivel_2026_100": {
+        "p10": 107.95,
+        "p50": 111.26,
+        "p90": 114.7
+       },
+       "prob_rompeu_ate_o_ano": 0.0,
+       "valido_como_trajetoria": true
+      },
+      "2038": {
+       "debt": {
+        "p10": 97.04,
+        "p50": 105.48,
+        "p90": 115.0,
+        "ruido_p50": 0.06
+       },
+       "selic": {
+        "p10": 10.16,
+        "p50": 11.82,
+        "p90": 13.5,
+        "ruido_p50": 0.04
+       },
+       "ipca": {
+        "p10": 2.75,
+        "p50": 3.48,
+        "p90": 4.23,
+        "ruido_p50": 0.01
+       },
+       "gdp": {
+        "p10": -0.1,
+        "p50": 1.08,
+        "p90": 2.27,
+        "ruido_p50": 0.07
+       },
+       "pib_nivel_2026_100": {
+        "p10": 110.97,
+        "p50": 114.99,
+        "p90": 119.14
+       },
+       "prob_rompeu_ate_o_ano": 0.019,
+       "valido_como_trajetoria": true
+      }
+     },
+     "sementes": 3,
+     "prob_ruptura_qualquer_ano": 0.019,
+     "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+     "prob_divida_2035_acima_120": 0.0
+    },
+    "intervalo_divida_2035_p50": [
+     101.36,
+     102.44
+    ],
+    "efeito_do_canal_judicial_divida_2035_pp": 1.08,
+    "efeito_do_canal_judicial_prob_ruptura": 0.017
+   },
+   "hegemonia": {
+    "risco_institucional": 0.3,
+    "resultado": {
+     "anos": {
+      "2030": {
+       "debt": {
+        "p10": 98.89,
+        "p50": 102.03,
+        "p90": 105.37,
+        "ruido_p50": 0.08
+       },
+       "selic": {
+        "p10": 13.07,
+        "p50": 14.27,
+        "p90": 15.49,
+        "ruido_p50": 0.05
+       },
+       "ipca": {
+        "p10": 4.14,
+        "p50": 4.86,
+        "p90": 5.6,
+        "ruido_p50": 0.03
+       },
+       "gdp": {
+        "p10": -0.7,
+        "p50": 0.46,
+        "p90": 1.64,
+        "ruido_p50": 0.03
+       },
+       "pib_nivel_2026_100": {
+        "p10": 100.11,
+        "p50": 102.39,
+        "p90": 104.68
+       },
+       "prob_rompeu_ate_o_ano": 0.0,
+       "valido_como_trajetoria": true
+      },
+      "2035": {
+       "debt": {
+        "p10": 131.0,
+        "p50": 142.0,
+        "p90": 154.61,
+        "ruido_p50": 0.36
+       },
+       "selic": {
+        "p10": 17.82,
+        "p50": 19.85,
+        "p90": 22.01,
+        "ruido_p50": 0.03
+       },
+       "ipca": {
+        "p10": 5.17,
+        "p50": 5.94,
+        "p90": 6.7,
+        "ruido_p50": 0.03
+       },
+       "gdp": {
+        "p10": -2.11,
+        "p50": -0.9,
+        "p90": 0.32,
+        "ruido_p50": 0.02
+       },
+       "pib_nivel_2026_100": {
+        "p10": 97.66,
+        "p50": 101.11,
+        "p90": 104.62
+       },
+       "prob_rompeu_ate_o_ano": 0.999,
+       "valido_como_trajetoria": false
+      },
+      "2038": {
+       "debt": {
+        "p10": 173.68,
+        "p50": 202.16,
+        "p90": 237.97,
+        "ruido_p50": 0.68
+       },
+       "selic": {
+        "p10": 23.34,
+        "p50": 27.15,
+        "p90": 31.46,
+        "ruido_p50": 0.08
+       },
+       "ipca": {
+        "p10": 6.37,
+        "p50": 7.27,
+        "p90": 8.26,
+        "ruido_p50": 0.04
+       },
+       "gdp": {
+        "p10": -4.11,
+        "p50": -2.7,
+        "p90": -1.3,
+        "ruido_p50": 0.05
+       },
+       "pib_nivel_2026_100": {
+        "p10": 90.47,
+        "p50": 95.21,
+        "p90": 99.9
+       },
+       "prob_rompeu_ate_o_ano": 1.0,
+       "valido_como_trajetoria": false
+      }
+     },
+     "sementes": 3,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+     "prob_divida_2035_acima_120": 0.999
+    },
+    "intervalo_divida_2035_p50": [
+     142.0,
+     145.54
+    ],
+    "efeito_do_canal_judicial_divida_2035_pp": 3.54,
+    "efeito_do_canal_judicial_prob_ruptura": 0.0
+   },
+   "extremo": {
+    "risco_institucional": 0.5,
+    "resultado": {
+     "anos": {
+      "2030": {
+       "debt": {
+        "p10": 103.16,
+        "p50": 106.44,
+        "p90": 109.93,
+        "ruido_p50": 0.11
+       },
+       "selic": {
+        "p10": 14.67,
+        "p50": 15.88,
+        "p90": 17.1,
+        "ruido_p50": 0.05
+       },
+       "ipca": {
+        "p10": 4.88,
+        "p50": 5.6,
+        "p90": 6.34,
+        "ruido_p50": 0.03
+       },
+       "gdp": {
+        "p10": -1.3,
+        "p50": -0.14,
+        "p90": 1.04,
+        "ruido_p50": 0.02
+       },
+       "pib_nivel_2026_100": {
+        "p10": 98.17,
+        "p50": 100.42,
+        "p90": 102.69
+       },
+       "prob_rompeu_ate_o_ano": 0.0,
+       "valido_como_trajetoria": true
+      },
+      "2035": {
+       "debt": {
+        "p10": 156.18,
+        "p50": 170.87,
+        "p90": 187.36,
+        "ruido_p50": 0.53
+       },
+       "selic": {
+        "p10": 22.74,
+        "p50": 25.13,
+        "p90": 27.7,
+        "ruido_p50": 0.05
+       },
+       "ipca": {
+        "p10": 6.67,
+        "p50": 7.46,
+        "p90": 8.26,
+        "ruido_p50": 0.03
+       },
+       "gdp": {
+        "p10": -3.61,
+        "p50": -2.37,
+        "p90": -1.13,
+        "ruido_p50": 0.03
+       },
+       "pib_nivel_2026_100": {
+        "p10": 90.72,
+        "p50": 94.13,
+        "p90": 97.6
+       },
+       "prob_rompeu_ate_o_ano": 1.0,
+       "valido_como_trajetoria": false
+      },
+      "2038": {
+       "debt": {
+        "p10": 254.21,
+        "p50": 305.02,
+        "p90": 370.77,
+        "ruido_p50": 1.53
+       },
+       "selic": {
+        "p10": 34.68,
+        "p50": 40.48,
+        "p90": 47.22,
+        "ruido_p50": 0.11
+       },
+       "ipca": {
+        "p10": 9.19,
+        "p50": 10.42,
+        "p90": 11.8,
+        "ruido_p50": 0.05
+       },
+       "gdp": {
+        "p10": -7.92,
+        "p50": -6.11,
+        "p90": -4.39,
+        "ruido_p50": 0.05
+       },
+       "pib_nivel_2026_100": {
+        "p10": 76.72,
+        "p50": 81.77,
+        "p90": 86.78
+       },
+       "prob_rompeu_ate_o_ano": 1.0,
+       "valido_como_trajetoria": false
+      }
+     },
+     "sementes": 3,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "nota_pos_ruptura": "Onde `valido_como_trajetoria` é falso, mais da metade das trajetórias já passou de 120% da dívida/PIB: os níveis (dívida, Selic, IPCA, PIB) são ARTEFATO da extrapolação do modelo, não um valor a citar; leia como 'o modelo perdeu a validade antes disso'.",
+     "prob_divida_2035_acima_120": 1.0
+    },
+    "intervalo_divida_2035_p50": [
+     170.87,
+     175.06
+    ],
+    "efeito_do_canal_judicial_divida_2035_pp": 4.19,
+    "efeito_do_canal_judicial_prob_ruptura": 0.0
+   }
+  },
+  "sensibilidade_mapeamento": {
+   "pragmatico": [
+    {
+     "mapeamento": "prem_inst × 0,5",
+     "divida_2035_p50": 100.71,
+     "divida_2035_p50_contrafactual": 100.03,
+     "prob_ruptura_qualquer_ano": 0.014,
+     "prob_ruptura_contrafactual": 0.008,
+     "selic_2035_p50": 11.18
+    },
+    {
+     "mapeamento": "prem_inst × 1,0 (modelo)",
+     "divida_2035_p50": 102.45,
+     "divida_2035_p50_contrafactual": 101.34,
+     "prob_ruptura_qualquer_ano": 0.037,
+     "prob_ruptura_contrafactual": 0.018,
+     "selic_2035_p50": 11.49
+    },
+    {
+     "mapeamento": "prem_inst × 1,5",
+     "divida_2035_p50": 104.21,
+     "divida_2035_p50_contrafactual": 102.68,
+     "prob_ruptura_qualquer_ano": 0.091,
+     "prob_ruptura_contrafactual": 0.041,
+     "selic_2035_p50": 11.81
+    },
+    {
+     "mapeamento": "prem_inst × 2,0",
+     "divida_2035_p50": 105.99,
+     "divida_2035_p50_contrafactual": 104.05,
+     "prob_ruptura_qualquer_ano": 0.177,
+     "prob_ruptura_contrafactual": 0.084,
+     "selic_2035_p50": 12.13
+    },
+    {
+     "mapeamento": "prem_inst × 1,0 e g_inst × 0,5",
+     "divida_2035_p50": 102.03,
+     "divida_2035_p50_contrafactual": 101.02,
+     "prob_ruptura_qualquer_ano": 0.03,
+     "prob_ruptura_contrafactual": 0.016,
+     "selic_2035_p50": 11.56
+    },
+    {
+     "mapeamento": "prem_inst × 2,0 e g_inst × 1,5",
+     "divida_2035_p50": 106.44,
+     "divida_2035_p50_contrafactual": 104.39,
+     "prob_ruptura_qualquer_ano": 0.199,
+     "prob_ruptura_contrafactual": 0.093,
+     "selic_2035_p50": 12.06
+    }
+   ],
+   "hegemonia": [
+    {
+     "mapeamento": "prem_inst × 0,5",
+     "divida_2035_p50": 139.14,
+     "divida_2035_p50_contrafactual": 137.12,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "prob_ruptura_contrafactual": 1.0,
+     "selic_2035_p50": 19.55
+    },
+    {
+     "mapeamento": "prem_inst × 1,0 (modelo)",
+     "divida_2035_p50": 145.59,
+     "divida_2035_p50_contrafactual": 142.07,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "prob_ruptura_contrafactual": 1.0,
+     "selic_2035_p50": 20.64
+    },
+    {
+     "mapeamento": "prem_inst × 1,5",
+     "divida_2035_p50": 152.31,
+     "divida_2035_p50_contrafactual": 147.28,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "prob_ruptura_contrafactual": 1.0,
+     "selic_2035_p50": 21.77
+    },
+    {
+     "mapeamento": "prem_inst × 2,0",
+     "divida_2035_p50": 159.59,
+     "divida_2035_p50_contrafactual": 152.75,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "prob_ruptura_contrafactual": 1.0,
+     "selic_2035_p50": 22.92
+    },
+    {
+     "mapeamento": "prem_inst × 1,0 e g_inst × 0,5",
+     "divida_2035_p50": 143.47,
+     "divida_2035_p50_contrafactual": 140.5,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "prob_ruptura_contrafactual": 1.0,
+     "selic_2035_p50": 20.59
+    },
+    {
+     "mapeamento": "prem_inst × 2,0 e g_inst × 1,5",
+     "divida_2035_p50": 162.17,
+     "divida_2035_p50_contrafactual": 154.55,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "prob_ruptura_contrafactual": 1.0,
+     "selic_2035_p50": 23.01
+    }
+   ],
+   "extremo": [
+    {
+     "mapeamento": "prem_inst × 0,5",
+     "divida_2035_p50": 161.98,
+     "divida_2035_p50_contrafactual": 160.17,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "prob_ruptura_contrafactual": 1.0,
+     "selic_2035_p50": 23.96
+    },
+    {
+     "mapeamento": "prem_inst × 1,0 (modelo)",
+     "divida_2035_p50": 174.45,
+     "divida_2035_p50_contrafactual": 170.85,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "prob_ruptura_contrafactual": 1.0,
+     "selic_2035_p50": 25.95
+    },
+    {
+     "mapeamento": "prem_inst × 1,5",
+     "divida_2035_p50": 188.21,
+     "divida_2035_p50_contrafactual": 182.47,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "prob_ruptura_contrafactual": 1.0,
+     "selic_2035_p50": 28.03
+    },
+    {
+     "mapeamento": "prem_inst × 2,0",
+     "divida_2035_p50": 203.29,
+     "divida_2035_p50_contrafactual": 195.2,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "prob_ruptura_contrafactual": 1.0,
+     "selic_2035_p50": 30.22
+    },
+    {
+     "mapeamento": "prem_inst × 1,0 e g_inst × 0,5",
+     "divida_2035_p50": 170.08,
+     "divida_2035_p50_contrafactual": 167.18,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "prob_ruptura_contrafactual": 1.0,
+     "selic_2035_p50": 25.7
+    },
+    {
+     "mapeamento": "prem_inst × 2,0 e g_inst × 1,5",
+     "divida_2035_p50": 209.16,
+     "divida_2035_p50_contrafactual": 199.98,
+     "prob_ruptura_qualquer_ano": 1.0,
+     "prob_ruptura_contrafactual": 1.0,
+     "selic_2035_p50": 30.58
+    }
+   ]
+  },
+  "limites_proprios": [
+   "O risco entra constante desde 2027, mas as vagas só abrem em 2028-2030: o modelo SUPERESTIMA o efeito nos primeiros anos.",
+   "Probabilidades de aprovação vêm do modelo de bancadas (suposições editáveis), não de pesquisa.",
+   "Aposentadoria compulsória (75 anos) e as datas são as informadas na tarefa; antecipações, vacâncias imprevistas e vaga de mandatos anteriores não entram.",
+   "Capturar uma vaga não equivale a capturar o tribunal (11 ministros, decisões colegiadas): o 0,1 por indicado é julgamento herdado de scenarios.py."
+  ]
+ },
+ "fragilidade_setorial": [
+  {
+   "choque": "execucao_ineficiente",
+   "mais_exposto": [
+    "fiscal"
+   ],
+   "mais_exposto_exceto_fiscal": [
+    "infraestrutura"
+   ],
+   "empate": false,
+   "setores": {
+    "saúde": {
+     "escore": 0.12,
+     "base": "registrado (varredura do modelo); mapeamento setor↔decisão é julgamento",
+     "nota": "Σ perda de benefício em dívida/PIB 2035 a 60% de eficiência (1 decisões ligadas)"
+    },
+    "educação": {
+     "escore": 0.18,
+     "base": "registrado (varredura do modelo); mapeamento setor↔decisão é julgamento",
+     "nota": "Σ perda de benefício em dívida/PIB 2035 a 60% de eficiência (1 decisões ligadas)"
+    },
+    "infraestrutura": {
+     "escore": 2.04,
+     "base": "registrado (varredura do modelo); mapeamento setor↔decisão é julgamento",
+     "nota": "Σ perda de benefício em dívida/PIB 2035 a 60% de eficiência (3 decisões ligadas)"
+    },
+    "energia": {
+     "escore": 0.63,
+     "base": "registrado (varredura do modelo); mapeamento setor↔decisão é julgamento",
+     "nota": "Σ perda de benefício em dívida/PIB 2035 a 60% de eficiência (3 decisões ligadas)"
+    },
+    "agro": {
+     "escore": 1.08,
+     "base": "registrado (varredura do modelo); mapeamento setor↔decisão é julgamento",
+     "nota": "Σ perda de benefício em dívida/PIB 2035 a 60% de eficiência (6 decisões ligadas)"
+    },
+    "segurança": {
+     "escore": 0.45,
+     "base": "registrado (varredura do modelo); mapeamento setor↔decisão é julgamento",
+     "nota": "Σ perda de benefício em dívida/PIB 2035 a 60% de eficiência (2 decisões ligadas)"
+    },
+    "fiscal": {
+     "escore": 16.74,
+     "base": "registrado (varredura do modelo); mapeamento setor↔decisão é julgamento",
+     "nota": "Σ perda de benefício em dívida/PIB 2035 a 60% de eficiência (10 decisões ligadas)"
+    }
+   },
+   "sem_ligacao": [],
+   "unidade": "pp de dívida/PIB 2035"
+  },
+  {
+   "choque": "vazamento",
+   "mais_exposto": [
+    "fiscal"
+   ],
+   "mais_exposto_exceto_fiscal": [
+    "energia"
+   ],
+   "empate": false,
+   "setores": {
+    "saúde": {
+     "escore": 2,
+     "base": "registrado (curadoria); ligação setor↔área é julgamento",
+     "nota": "nº de áreas de custo_corrupcao.json ligadas (saude-sus, previdencia-inss-descontos); contagem, sem somar R$"
+    },
+    "educação": {
+     "escore": 1,
+     "base": "registrado (curadoria); ligação setor↔área é julgamento",
+     "nota": "nº de áreas de custo_corrupcao.json ligadas (educacao-merenda-fnde); contagem, sem somar R$"
+    },
+    "infraestrutura": {
+     "escore": 2,
+     "base": "registrado (curadoria); ligação setor↔área é julgamento",
+     "nota": "nº de áreas de custo_corrupcao.json ligadas (obras-infraestrutura, concessoes-renegociacoes); contagem, sem somar R$"
+    },
+    "energia": {
+     "escore": 3,
+     "base": "registrado (curadoria); ligação setor↔área é julgamento",
+     "nota": "nº de áreas de custo_corrupcao.json ligadas (tributos-subsidios-energia, petroleo-lava-jato, combustiveis-crime-organizado); contagem, sem somar R$"
+    },
+    "agro": {
+     "escore": 1,
+     "base": "registrado (curadoria); ligação setor↔área é julgamento",
+     "nota": "nº de áreas de custo_corrupcao.json ligadas (crime-ambiental-ouro-madeira-terra); contagem, sem somar R$"
+    },
+    "segurança": {
+     "escore": 2,
+     "base": "registrado (curadoria); ligação setor↔área é julgamento",
+     "nota": "nº de áreas de custo_corrupcao.json ligadas (combustiveis-crime-organizado, corrupcao-subnacional-municipal); contagem, sem somar R$"
+    },
+    "fiscal": {
+     "escore": 4,
+     "base": "registrado (curadoria); ligação setor↔área é julgamento",
+     "nota": "nº de áreas de custo_corrupcao.json ligadas (gastos-tributarios, sonegacao-economia-subterranea, emendas-orcamento-secreto, licitacoes-carteis); contagem, sem somar R$"
+    }
+   },
+   "sem_ligacao": [],
+   "unidade": "nº de áreas"
+  },
+  {
+   "choque": "clima",
+   "mais_exposto": [
+    "infraestrutura",
+    "energia",
+    "agro"
+   ],
+   "mais_exposto_exceto_fiscal": [
+    "infraestrutura",
+    "energia",
+    "agro"
+   ],
+   "empate": true,
+   "setores": {
+    "saúde": {
+     "escore": 1,
+     "base": "registrado",
+     "nota": "decisão seguranca-hidrica-saneamento: 'reduz exposição a secas e custos de saúde' (julgamento do catálogo)"
+    },
+    "educação": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "sem ligação registrada"
+    },
+    "infraestrutura": {
+     "escore": 2,
+     "base": "registrado",
+     "nota": "clima_valor_financeiro.json, RS 2024: infraestrutura 8% dos danos e perdas (DaLA, verificado); obras paralisadas e anel clima-fiscal-adaptacao (aneis.json)"
+    },
+    "energia": {
+     "escore": 2,
+     "base": "registrado",
+     "nota": "clima.json: afluência SE × CMO r = -0,50 (IC95 -0,75 a -0,25), 2005-2025; clima.json: energia armazenada × CMO do ano seguinte r = -0,42"
+    },
+    "agro": {
+     "escore": 2,
+     "base": "registrado",
+     "nota": "aneis.json: anel clima-floresta-agro (produtividade e renda); clima_valor_financeiro.json, RS 2024: setor produtivo 69% dos danos e perdas (não separa o agro)"
+    },
+    "segurança": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "sem ligação registrada"
+    },
+    "fiscal": {
+     "escore": 1,
+     "base": "registrado",
+     "nota": "aneis.json: anel clima-fiscal-adaptacao (gasto emergencial → dívida)"
+    }
+   },
+   "sem_ligacao": [
+    "educação",
+    "segurança"
+   ],
+   "unidade": "nº de ligações"
+  },
+  {
+   "choque": "tecnologia_nula",
+   "mais_exposto": [
+    "energia"
+   ],
+   "mais_exposto_exceto_fiscal": [
+    "energia"
+   ],
+   "empate": false,
+   "setores": {
+    "saúde": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "sem curva de difusão registrada"
+    },
+    "educação": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "sem curva de difusão registrada"
+    },
+    "infraestrutura": {
+     "escore": 1,
+     "base": "registrado",
+     "nota": "tecnologia.py: internet_domicilios e celular_pessoas (conectividade)"
+    },
+    "energia": {
+     "escore": 2,
+     "base": "registrado",
+     "nota": "tecnologia.py: solar_total_brasil e solar_gd_brasil; tecnologia.py: carros_eletricos_brasil"
+    },
+    "agro": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "sem curva de difusão registrada"
+    },
+    "segurança": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "sem curva de difusão registrada"
+    },
+    "fiscal": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "sem curva de difusão registrada"
+    }
+   },
+   "sem_ligacao": [
+    "saúde",
+    "educação",
+    "agro",
+    "segurança",
+    "fiscal"
+   ],
+   "unidade": "nº de curvas/ligações"
+  },
+  {
+   "choque": "credibilidade_fiscal",
+   "mais_exposto": [
+    "fiscal"
+   ],
+   "mais_exposto_exceto_fiscal": [
+    "energia",
+    "agro"
+   ],
+   "empate": false,
+   "setores": {
+    "saúde": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "Σ |delta de fiscal_credibility| nas decisões ligadas (nenhuma usa a alavanca): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "educação": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "Σ |delta de fiscal_credibility| nas decisões ligadas (nenhuma usa a alavanca): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "infraestrutura": {
+     "escore": 0.05,
+     "base": "registrado (deltas do catálogo, que são julgamentos)",
+     "nota": "Σ |delta de fiscal_credibility| nas decisões ligadas (acelerar-ibs-cbs): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "energia": {
+     "escore": 0.1,
+     "base": "registrado (deltas do catálogo, que são julgamentos)",
+     "nota": "Σ |delta de fiscal_credibility| nas decisões ligadas (politica-precos-combustiveis): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "agro": {
+     "escore": 0.1,
+     "base": "registrado (deltas do catálogo, que são julgamentos)",
+     "nota": "Σ |delta de fiscal_credibility| nas decisões ligadas (perdao-dividas): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "segurança": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "Σ |delta de fiscal_credibility| nas decisões ligadas (nenhuma usa a alavanca): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "fiscal": {
+     "escore": 0.95,
+     "base": "registrado (deltas do catálogo, que são julgamentos)",
+     "nota": "Σ |delta de fiscal_credibility| nas decisões ligadas (flexibilizar-arcabouco, reforcar-arcabouco, desvincular-minimo, reforma-previdencia-2, cortar-beneficios-fiscais, ampliar-assistencia, reduzir-autonomia-bc): quanto do cardápio do setor passa por essa alavanca"
+    }
+   },
+   "sem_ligacao": [
+    "saúde",
+    "educação",
+    "segurança"
+   ],
+   "unidade": "Σ |delta| da alavanca"
+  },
+  {
+   "choque": "erosao_bc",
+   "mais_exposto": [
+    "fiscal"
+   ],
+   "mais_exposto_exceto_fiscal": [],
+   "empate": false,
+   "setores": {
+    "saúde": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "Σ |delta de bc_erosion| nas decisões ligadas (nenhuma usa a alavanca): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "educação": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "Σ |delta de bc_erosion| nas decisões ligadas (nenhuma usa a alavanca): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "infraestrutura": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "Σ |delta de bc_erosion| nas decisões ligadas (nenhuma usa a alavanca): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "energia": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "Σ |delta de bc_erosion| nas decisões ligadas (nenhuma usa a alavanca): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "agro": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "Σ |delta de bc_erosion| nas decisões ligadas (nenhuma usa a alavanca): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "segurança": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "Σ |delta de bc_erosion| nas decisões ligadas (nenhuma usa a alavanca): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "fiscal": {
+     "escore": 0.55,
+     "base": "registrado (deltas do catálogo, que são julgamentos)",
+     "nota": "Σ |delta de bc_erosion| nas decisões ligadas (reduzir-autonomia-bc, diretoria-bc-alinhada): quanto do cardápio do setor passa por essa alavanca"
+    }
+   },
+   "sem_ligacao": [
+    "saúde",
+    "educação",
+    "infraestrutura",
+    "energia",
+    "agro",
+    "segurança"
+   ],
+   "unidade": "Σ |delta| da alavanca"
+  },
+  {
+   "choque": "risco_institucional",
+   "mais_exposto": [
+    "fiscal"
+   ],
+   "mais_exposto_exceto_fiscal": [
+    "energia"
+   ],
+   "empate": false,
+   "setores": {
+    "saúde": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "Σ |delta de institutional_risk| nas decisões ligadas (nenhuma usa a alavanca): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "educação": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "Σ |delta de institutional_risk| nas decisões ligadas (nenhuma usa a alavanca): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "infraestrutura": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "Σ |delta de institutional_risk| nas decisões ligadas (nenhuma usa a alavanca): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "energia": {
+     "escore": 0.15,
+     "base": "registrado (deltas do catálogo, que são julgamentos)",
+     "nota": "Σ |delta de institutional_risk| nas decisões ligadas (politica-industrial-verde, estrategia-minerais-criticos, politica-precos-combustiveis): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "agro": {
+     "escore": null,
+     "base": "sem ligação registrada",
+     "nota": "Σ |delta de institutional_risk| nas decisões ligadas (nenhuma usa a alavanca): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "segurança": {
+     "escore": 0.05,
+     "base": "registrado (deltas do catálogo, que são julgamentos)",
+     "nota": "Σ |delta de institutional_risk| nas decisões ligadas (combate-garimpo-ilegal-e-rastreio-do-ouro, homologar-terras-indigenas-e-titular-quilombos): quanto do cardápio do setor passa por essa alavanca"
+    },
+    "fiscal": {
+     "escore": 0.3,
+     "base": "registrado (deltas do catálogo, que são julgamentos)",
+     "nota": "Σ |delta de institutional_risk| nas decisões ligadas (flexibilizar-arcabouco, reduzir-autonomia-bc, diretoria-bc-alinhada): quanto do cardápio do setor passa por essa alavanca"
+    }
+   },
+   "sem_ligacao": [
+    "saúde",
+    "educação",
+    "infraestrutura",
+    "agro"
+   ],
+   "unidade": "Σ |delta| da alavanca"
+  },
+  {
+   "choque": "juros_altos",
+   "mais_exposto": [
+    "fiscal (por construção)"
+   ],
+   "mais_exposto_exceto_fiscal": [
+    "agro"
+   ],
+   "empate": false,
+   "setores": {
+    "saúde": {
+     "escore": 25.4,
+     "base": "registrado (deltas do catálogo, que são julgamentos)",
+     "nota": "Σ |primary_target<0| das decisões ligadas, R$ bi/ano: gasto que depende de financiar com juro maior"
+    },
+    "educação": {
+     "escore": 38.1,
+     "base": "registrado (deltas do catálogo, que são julgamentos)",
+     "nota": "Σ |primary_target<0| das decisões ligadas, R$ bi/ano: gasto que depende de financiar com juro maior"
+    },
+    "infraestrutura": {
+     "escore": 25.4,
+     "base": "registrado (deltas do catálogo, que são julgamentos)",
+     "nota": "Σ |primary_target<0| das decisões ligadas, R$ bi/ano: gasto que depende de financiar com juro maior"
+    },
+    "energia": {
+     "escore": 38.1,
+     "base": "registrado (deltas do catálogo, que são julgamentos)",
+     "nota": "Σ |primary_target<0| das decisões ligadas, R$ bi/ano: gasto que depende de financiar com juro maior"
+    },
+    "agro": {
+     "escore": 95.2,
+     "base": "registrado (deltas do catálogo, que são julgamentos)",
+     "nota": "Σ |primary_target<0| das decisões ligadas, R$ bi/ano: gasto que depende de financiar com juro maior"
+    },
+    "segurança": {
+     "escore": 12.7,
+     "base": "registrado (deltas do catálogo, que são julgamentos)",
+     "nota": "Σ |primary_target<0| das decisões ligadas, R$ bi/ano: gasto que depende de financiar com juro maior"
+    },
+    "fiscal": {
+     "escore": null,
+     "base": "julgamento",
+     "nota": "o canal do choque é a própria dívida: exposto por construção (não pontuado)"
+    }
+   },
+   "sem_ligacao": [
+    "fiscal"
+   ],
+   "unidade": "R$ bi/ano a financiar"
+  }
+ ],
+ "validacao": {
+  "regressao": {
+   "eficiencia_1_igual_ao_catalogo": true,
+   "diferenca_maxima_trajetorias": 0.0,
+   "alavanca_padrao": "execution_efficiency=1,0: deltas inalterados; economy.py e decisoes.py não foram modificados",
+   "base_macro": "fallback (BCB 08/2026 + Focus 02/10/2026)"
+  },
+  "monotonicidade": {
+   "decisoes_testadas": 30,
+   "pares_de_eficiencia_testados": 6,
+   "violacoes": [],
+   "cenario_pragmatico_p50_divida_2035_por_eficiencia": {
+    "1.0": 101.17,
+    "0.8": 102.81,
+    "0.6": 104.46,
+    "0.4": 106.14
+   },
+   "cenario_monotono": true
+  },
+  "sementes": {
+   "sementes": [
+    7,
+    11,
+    13,
+    17,
+    19
+   ],
+   "n_por_semente": 2000,
+   "piso_de_ruido_p50_divida_2035": 0.28,
+   "efeito_adverso_por_semente_divida_2035": [
+    55.87,
+    55.74,
+    55.62,
+    55.66,
+    56.18
+   ],
+   "efeito_adverso_p50": 55.95,
+   "regra": "diferença abaixo de 2× o piso de ruído é 'não distinguível de zero' (RIGOR_DE_VALIDACAO.md, regra 5); ≥3 sementes (regra 4)",
+   "efeito_acima_do_piso": true
+  },
+  "nulo_primeiro": "A varredura de decisões é determinística (n=1, sem choques): não há ruído amostral, só erro de especificação. Os blocos estocásticos usam 5 sementes e reportam o piso."
+ },
+ "cemiterio": [
+  {
+   "tentativa": "Choque 'difusão tecnológica nula' como estressor",
+   "resultado": "Não funciona: todos os cenários do repositório já têm tech_productivity=0, então o choque não muda nada. Só dá para medir o custo de oportunidade (contrafactual com 0,3 pp/ano).",
+   "licao": "Estresse só existe relativo a uma linha de base que tenha o que perder."
+  },
+  {
+   "tentativa": "Eficiência aplicada ao pacote inteiro (benefícios e custos)",
+   "resultado": "Descartada: tornava a má execução 'neutra' (reduz também o custo) e escondia a assimetria que o teste quer mostrar. Mantida como variante 'sobrecusto', que piora os custos.",
+   "licao": "Incompetência é assimétrica: o custo do gasto sai, o benefício não chega."
+  },
+  {
+   "tentativa": "Calibrar a eficiência com `visoes_pessimistas.json`",
+   "resultado": "O arquivo não existe no repositório nesta execução; a faixa vem de proxies (obras paralisadas, execução de emendas), que não medem eficiência de reformas.",
+   "licao": "Declarar a suposição em vez de fingir uma estimativa; o código lê `faixa_eficiencia` se o arquivo aparecer."
+  },
+  {
+   "tentativa": "Reverse stress com busca contínua do limiar",
+   "resultado": "Substituída por grade discreta de 4 níveis por choque (4096 combinações) com custo normalizado: o limiar contínuo dependia de pesos arbitrários entre choques.",
+   "licao": "A 'combinação mínima' depende da grade e do custo escolhido; é uma entre várias."
+  },
+  {
+   "tentativa": "Vazamento como subtração direta do primário realizado",
+   "resultado": "Não dá sem alterar economy.simulate (a alavanca é o alvo, e a regra de reação compensa parte do vazamento). Aplicado no alvo e declarado: o efeito sobre a dívida é menor que o acumulado aritmético.",
+   "licao": "O estabilizador fiscal do modelo suaviza o vazamento; o canal real (menos reação política) não está lá."
+  },
+  {
+   "tentativa": "Risco judicial variando no tempo conforme o calendário (2028, 2029, 2030)",
+   "resultado": "Inviável sem alterar economy.simulate, cujas alavancas são constantes no horizonte. O risco entra desde 2027 e superestima o início.",
+   "licao": "Declarado em `limites`; viés conservador (pessimista) nos primeiros anos."
+  },
+  {
+   "tentativa": "Ranking de fragilidade só em R$ bi/ano",
+   "resultado": "O R$ do primário ignora o ganho de oferta (decisões de oferta não têm primário positivo). Mantidos dois critérios (dívida/PIB e R$), com a dívida como primário.",
+   "licao": "Perda em R$ de primário e perda em PIB nível são naturezas diferentes; não se somam."
+  },
+  {
+   "tentativa": "Pontuar a exposição setorial a credibilidade, BC e risco institucional pelo mesmo critério (gasto a financiar)",
+   "resultado": "Os três choques davam escores idênticos, sem informação. Trocado por Σ|delta| da alavanca própria nas decisões ligadas; 'juros_altos' ficou como coluna à parte (gasto a financiar).",
+   "licao": "Um critério que não distingue os choques não mede fragilidade a cada um."
+  },
+  {
+   "tentativa": "Tratar 'independência do BC em queda' como estressor da dívida",
+   "resultado": "No modelo, mais erosão do BC REDUZ ligeiramente a dívida/PIB (a inflação maior corrói a dívida nominal) e só eleva Selic e IPCA; sem câmbio nem dívida indexada o canal que piora a dívida não existe. Mantido no choque composto pela Selic/IPCA, não pela dívida.",
+   "licao": "Resultado artefato da estrutura (ver `limites`), não evidência de que a perda de independência é inócua."
+  }
+ ],
+ "limites": [
+  "Sem câmbio: não há canal de Blanchard (desvalorização → inflação → Selic), nem passivo externo; o canal clássico de crise de balanço de pagamentos está FORA do modelo e, portanto, o teste subestima ruptura por câmbio.",
+  "Sem dívida indexada: toda a dívida é tratada como nominal com custo `implicit × Selic`; inflação maior CORRÓI a dívida no modelo, quando na prática parte é indexada a IPCA e Selic (e o repasse piora o estoque). O efeito de desancoragem sobre a dívida é subestimado ou até invertido.",
+  "Defasagem: as decisões aplicam custo e benefício desde o 1º ano (`defasagem_anos` ignorado) e as vagas do STF entram desde 2027; benefícios tardios são subestimados e custos judiciais iniciais, superestimados.",
+  "Eficiência de execução NÃO é medida: a faixa 0,4-1,0 e o central 0,6 são suposições ancoradas em proxies (obras paralisadas, emendas).",
+  "Os deltas das decisões são julgamentos (base_evidencia='julgamento'); o ranking de fragilidade herda essa incerteza e não tem intervalo.",
+  "Parâmetros de calibração (prem_inst, g_inst, prem_debt) não são elasticidades estimadas com intervalo; a calibração não melhorou o teste fora da amostra (RIGOR_DE_VALIDACAO, regra 1).",
+  "Primário reage à dívida (Bohn) com custo político zero: em estresse real, a reação fiscal pode falhar, e o modelo é otimista nesse ponto; por outro lado, não há default nem reestruturação.",
+  "Ruptura = dívida bruta > 120% do PIB: é limiar de modelo, não previsão de calote; acima dele a trajetória simulada não vale.",
+  "Clima: choque constante de 0,6 pp/ano de PIB e 0,6 pp de prêmio é severidade hipotética (clima/macro.py), não estimativa; os dados históricos não identificam efeito agregado do clima no PIB.",
+  "Base macro offline `data.FALLBACK` (dívida 82,86%, Selic 13,5%): se os dados mudarem, os níveis mudam.",
+  "A fragilidade setorial é contagem e soma de ligações registradas, não elasticidade; saúde, educação e segurança têm poucas ligações registradas (ver `sem_ligacao`).",
+  "Sem emprego, distribuição, mortalidade, nem efeitos sociais: o estresse mede apenas dívida, juros, inflação e PIB."
+ ]
+}
