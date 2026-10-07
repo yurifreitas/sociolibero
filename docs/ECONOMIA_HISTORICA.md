@@ -226,10 +226,10 @@ Cada ciclo tem: motor econômico, potenciais (e como foram usados ou desperdiça
 
 - [Economic history of Brazil - Wikipedia (en)](https://en.wikipedia.org/wiki/Economic_history_of_Brazil) - verificado
 - [Imigração no Brasil - Wikipedia (pt)](https://pt.wikipedia.org/wiki/Imigra%C3%A7%C3%A3o_no_Brasil) - verificado
-- [Lei de Terras e concentração fundiária - ANPUH (só trecho de busca)](https://anpuh.org.br/uploads/anais-simposios/pdf/2019-01/1548856593_0107914a69584e70fa2736d4b4b1b76e.pdf) - NÃO verificado (página não lida)
-- [Lei nº 601/1850 (Lei de Terras) - Planalto (URL herdada de historia.json; não aberta aqui)](https://www.planalto.gov.br/ccivil_03/leis/lim/lim601.htm) - NÃO verificado (página não lida)
-- [Lei nº 581/1850 (Eusébio de Queirós) - Planalto (não aberta aqui)](https://www.planalto.gov.br/ccivil_03/leis/lim/lim581.htm) - NÃO verificado (página não lida)
-- [Lei nº 3.353/1888 (Lei Áurea) - Planalto (não aberta aqui)](https://www.planalto.gov.br/ccivil_03/leis/lim/lim3353.htm) - NÃO verificado (página não lida)
+- [Os paisanos da Campanha (Leipnitz, ANPUH 2019): lido; confirma que a Lei de Terras (Lei 601, 18/09/1850) proibiu a aquisição de terras por outro meio que a compra e que a Lei Eusébio de Queirós (1850) extinguiu o tráfico negreiro](https://anpuh.org.br/uploads/anais-simposios/pdf/2019-01/1548856593_0107914a69584e70fa2736d4b4b1b76e.pdf) - verificado
+- [Lei nº 601/1850 (Lei de Terras) - Planalto (lida em 07/10/2026: 18/09/1850, 'Dispõe sobre as terras devolutas do Império')](https://www.planalto.gov.br/ccivil_03/leis/lim/lim601.htm) - verificado
+- [Lei nº 581/1850 (Eusébio de Queirós) - Planalto (lida em 07/10/2026: 04/09/1850, 'Estabelece medidas para a repressão do tráfico de africanos neste Império')](https://www.planalto.gov.br/ccivil_03/leis/lim/lim581.htm) - verificado
+- [Lei nº 3.353/1888 (Lei Áurea) - Planalto (lida em 07/10/2026: 13/05/1888, 'É declarada extincta, desde a data desta Lei, a escravidão no Brazil')](https://www.planalto.gov.br/ccivil_03/leis/lim/lim3353.htm) - verificado
 - [docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)](docs/HISTORIA.md) - NÃO verificado (página não lida)
 
 ## Café com leite, borracha e Encilhamento (1889-1930)
@@ -427,7 +427,7 @@ Cada ciclo tem: motor econômico, potenciais (e como foram usados ou desperdiça
 
 - [Milagre econômico brasileiro - Wikipedia (pt)](https://pt.wikipedia.org/wiki/Milagre_econ%C3%B4mico_brasileiro) - verificado
 - [Economic history of Brazil - Wikipedia (en)](https://en.wikipedia.org/wiki/Economic_history_of_Brazil) - verificado
-- [PUC-Rio TD 158, dívida externa (só trecho de busca)](https://www.econ.puc-rio.br/uploads/adm/trabalhos/files/td158.pdf) - NÃO verificado (página não lida)
+- [PUC-Rio TD 158, dívida externa (URL deu 404 em 07/10/2026; só trecho de busca)](https://www.econ.puc-rio.br/uploads/adm/trabalhos/files/td158.pdf) - NÃO verificado (URL deu 404 em 07/10/2026; só trecho de busca)
 - [docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)](docs/HISTORIA.md) - NÃO verificado (página não lida)
 
 ## Década perdida, crise da dívida e hiperinflação (1980-1994)
@@ -479,7 +479,7 @@ Cada ciclo tem: motor econômico, potenciais (e como foram usados ou desperdiça
 - [Economic history of Brazil - Wikipedia (en)](https://en.wikipedia.org/wiki/Economic_history_of_Brazil) - verificado
 - [Plano Collor - Wikipedia (pt)](https://pt.wikipedia.org/wiki/Plano_Collor) - verificado
 - [Plano Real - Wikipedia (pt)](https://pt.wikipedia.org/wiki/Plano_Real) - verificado
-- [PUC-Rio TD 158, dívida externa (só trecho de busca)](https://www.econ.puc-rio.br/uploads/adm/trabalhos/files/td158.pdf) - NÃO verificado (página não lida)
+- [PUC-Rio TD 158, dívida externa (URL deu 404 em 07/10/2026; só trecho de busca)](https://www.econ.puc-rio.br/uploads/adm/trabalhos/files/td158.pdf) - NÃO verificado (URL deu 404 em 07/10/2026; só trecho de busca)
 - [docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)](docs/HISTORIA.md) - NÃO verificado (página não lida)
 
 ## Plano Real, abertura e privatizações (1994-2002)
@@ -499,7 +499,7 @@ Cada ciclo tem: motor econômico, potenciais (e como foram usados ou desperdiça
 - Âncora cambial valorizada: o dólar chegou a R$0,85 em novembro de 1994 (Wikipedia) e deteriorou a balança comercial (de memória (não verificado)).
 - Juros altos e dívida pública crescente (de memória (não verificado)).
 - Privatização com desindustrialização relativa e debate sobre preços e tarifas; arrecadação do PND no governo Itamar: US$4,6 bi mais US$1,9 bi de dívida transferida (resumo de busca).
-- Desigualdade de renda ainda elevada, Gini de 0,587 em 2002 (resumo de busca).
+- Desigualdade de renda ainda elevada, Gini de 0,587 em 2002 (resumo de busca; no Ipeadata, a série DISOC_RDCG traz 0,589 e a PNADS_GINI, 0,603, ambas em 2002, lidas em 07/10/2026).
 - Reforma agrária lenta e informalidade, sem dados conferidos (não verificado).
 
 **Classes e grupos.**
@@ -519,7 +519,7 @@ Cada ciclo tem: motor econômico, potenciais (e como foram usados ou desperdiça
 | Data | Mudança | Descrição | Quem ganhou | Quem perdeu | Eventos (historia.json) |
 |---|---|---|---|---|---|
 | 1994-07-01 | Plano Real | URV desde 1º de março de 1994, conversão de CR$2.750 a R$1,00 e âncora de R$1 = US$1 (Wikipedia); a inflação cai e o dólar chega a R$0,85 em novembro de 1994. | Assalariados e consumidores de baixa renda; governo FHC. | Exportadores, indústria exposta ao câmbio valorizado e devedores externos. | `real-1994` |
-| 1990-2002 | Privatizações e Programa Nacional de Desestatização | Lei 8.031/1990 (de memória (não verificado)) e leilões de siderúrgicas, Vale (1997), telecomunicações (1998); o governo Itamar privatizou 15 empresas por US$4,6 bi (busca). | Compradores, consumidores de telefonia (expansão da oferta) e Tesouro (receita). | Servidores das estatais e a política industrial. | `real-1994` |
+| 1990-2002 | Privatizações e Programa Nacional de Desestatização | Lei 8.031, de 12/04/1990 (Politize, lido em 07/10/2026) e leilões de siderúrgicas, Vale (1997), telecomunicações (1998); o governo Itamar privatizou 15 empresas por US$4,6 bi (busca). | Compradores, consumidores de telefonia (expansão da oferta) e Tesouro (receita). | Servidores das estatais e a política industrial. | `real-1994` |
 | 1997-06-04 | Reeleição (EC 16/1997) | Altera a dinâmica política do ciclo de estabilização. | Governo FHC. | Oposição. | `ec16-1997` |
 | 2000-05-04 | Lei de Responsabilidade Fiscal | Limites de despesa com pessoal e endividamento para União, estados e municípios. | Credores e estabilidade fiscal. | Gestores com pouca margem; serviços públicos em municípios. | `lrf-2000` |
 
@@ -529,8 +529,8 @@ Cada ciclo tem: motor econômico, potenciais (e como foram usados ou desperdiça
 
 - [Plano Real - Wikipedia (pt)](https://pt.wikipedia.org/wiki/Plano_Real) - verificado
 - [Economic history of Brazil - Wikipedia (en)](https://en.wikipedia.org/wiki/Economic_history_of_Brazil) - verificado
-- [Privatização no Brasil - Politize! (só trecho de busca)](https://www.politize.com.br/privatizacao-no-brasil/) - NÃO verificado (página não lida)
-- [Gini 2002-2014 (PNAD) - IPECE NT 14 (só trecho de busca)](https://www.ipece.ce.gov.br/wp-content/uploads/sites/45/2012/12/NT_14.pdf) - NÃO verificado (página não lida)
+- [Privatização no Brasil - Politize! (lida em 07/10/2026: PND criado em 12/04/1990 pela Lei 8.031; ~US$ 78,6 bi arrecadados no governo FHC)](https://www.politize.com.br/privatizacao-no-brasil/) - verificado
+- [IPECE NT 14 (jan/2006): nota técnica sobre o índice de Gini com dados do Ceará, Nordeste e Brasil de 2001/2004; lida em 07/10/2026 e NÃO contém a série 2002-2014 (título anterior estava errado)](https://www.ipece.ce.gov.br/wp-content/uploads/sites/45/2012/12/NT_14.pdf) - NÃO verificado (página lida em 07/10/2026; não contém a série 2002-2014)
 - [docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)](docs/HISTORIA.md) - NÃO verificado (página não lida)
 
 ## Boom de commodities e inclusão social (2003-2014)
@@ -548,7 +548,7 @@ Cada ciclo tem: motor econômico, potenciais (e como foram usados ou desperdiça
 **Problemas estruturais.**
 
 - Reprimarização: a pauta volta a depender de commodities (de memória (não verificado)).
-- Desigualdade ainda muito alta: Gini cai de 0,587 (2002) para 0,497 (2014) segundo resumo de busca (PNAD, renda domiciliar); o ritmo de queda estaciona em 2011-2013.
+- Desigualdade ainda muito alta: Gini cai de 0,587 (2002) para 0,497 (2014) segundo resumo de busca (PNAD, renda domiciliar; o Ipeadata traz 0,589 para 0,518 na série DISOC_RDCG e 0,603 para 0,526 na PNADS_GINI; a queda se confirma, os níveis dependem da definição de renda e não reproduzem 0,587/0,497); o ritmo de queda estaciona em 2011-2013.
 - Baixa produtividade e investimento, e carga tributária regressiva (de memória (não verificado)).
 - Dependência política de coalizões e escândalos (Mensalão 2005-2012; historia.json: mensalao-2012).
 
@@ -581,7 +581,7 @@ Cada ciclo tem: motor econômico, potenciais (e como foram usados ou desperdiça
 
 - [Bolsa Família - Wikipedia (pt)](https://pt.wikipedia.org/wiki/Bolsa_Fam%C3%ADlia) - verificado
 - [Economic history of Brazil - Wikipedia (en)](https://en.wikipedia.org/wiki/Economic_history_of_Brazil) - verificado
-- [Gini 2002-2014 (PNAD) - IPECE NT 14 (só trecho de busca)](https://www.ipece.ce.gov.br/wp-content/uploads/sites/45/2012/12/NT_14.pdf) - NÃO verificado (página não lida)
+- [IPECE NT 14 (jan/2006): nota técnica sobre o índice de Gini com dados do Ceará, Nordeste e Brasil de 2001/2004; lida em 07/10/2026 e NÃO contém a série 2002-2014 (título anterior estava errado)](https://www.ipece.ce.gov.br/wp-content/uploads/sites/45/2012/12/NT_14.pdf) - NÃO verificado (página lida em 07/10/2026; não contém a série 2002-2014)
 - [docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)](docs/HISTORIA.md) - NÃO verificado (página não lida)
 
 ## Recessão, ajuste fiscal e polarização (2015-2022)
@@ -598,8 +598,8 @@ Cada ciclo tem: motor econômico, potenciais (e como foram usados ou desperdiça
 
 **Problemas estruturais.**
 
-- Recessão de 2015-2016: o PIB caiu 3,8% e 3,6% pela primeira divulgação, com 7,2% acumulados, a pior desde 1947 segundo o IBGE (resumo de busca); revisões posteriores existem (não verificado).
-- Teto de gastos (EC 95/2016) por 20 anos corrigido pelo IPCA e comprimindo despesa discricionária (resumo de busca).
+- Recessão de 2015-2016: o PIB caiu 3,8% e 3,6% pela primeira divulgação, com 7,2% acumulados, a maior queda de um biênio desde 1948 segundo a coordenadora do IBGE citada pelo Money Times (o resumo de busca dizia 1947; divergência); a série atual do IBGE (SIDRA, tabela 6784) traz -3,5% em 2015 e -3,3% em 2016.
+- Teto de gastos (EC 95/2016, promulgada em 15/12/2016) por 20 anos corrigido pelo IPCA (Congresso em Foco, lido); a compressão da despesa discricionária segue sem fonte lida.
 - Informalidade: 41,1% do emprego em 2019 (Wikipedia, Reforma trabalhista) e desocupação de 14,9% no 1º tri de 2021, com 15,2 milhões de desocupados (Wikipedia, Pandemia).
 - Polarização política e instabilidade institucional (impeachment 2016, 8 de janeiro de 2023 já fora do ciclo).
 
@@ -619,22 +619,22 @@ Cada ciclo tem: motor econômico, potenciais (e como foram usados ou desperdiça
 
 | Data | Mudança | Descrição | Quem ganhou | Quem perdeu | Eventos (historia.json) |
 |---|---|---|---|---|---|
-| 2015-2016 | Recessão e ajuste | PIB cai 3,8% (2015) e 3,6% (2016) pela primeira divulgação (IBGE, resumo de busca); causas debatidas (política fiscal, preços externos e crise política). | Credores e quem tinha ativos indexados. | Desempregados, indústria, construção civil. | `dilma-2016`, `ec86-2015` |
+| 2015-2016 | Recessão e ajuste | PIB cai 3,8% (2015) e 3,6% (2016) pela primeira divulgação (IBGE, via Money Times, lido; a série atual traz -3,5% e -3,3%); causas debatidas (política fiscal, preços externos e crise política). | Credores e quem tinha ativos indexados. | Desempregados, indústria, construção civil. | `dilma-2016`, `ec86-2015` |
 | 2016-12-15 | EC 95/2016: teto de gastos | Limite federal da despesa primária por 20 anos corrigido pelo IPCA; o limite de 2017 correspondeu à despesa de 2016 mais 7,2% (resumo de busca). | Credores e mercado financeiro (previsibilidade). | Saúde, educação e investimento, segundo críticos; debate sobre rigidez. | `ec95-2016` |
 | 2017-07-13 | Reforma trabalhista (Lei 13.467) | Aprovada em 296-177 na Câmara e 50-26 no Senado; vigência em 10/11/2017; prevê negociado sobre o legislado, trabalho intermitente e contribuição sindical voluntária; geração de empregos ficou aquém do prometido (Wikipedia). | Empregadores e trabalhadores com contratos flexíveis; menos litígios. | Sindicatos e trabalhadores com menor proteção. | `dilma-2016` |
 | 2019-11-12 | Reforma da Previdência (EC 103/2019) | Idade mínima e novas regras; detalhes e estimativas de economia não verificados (não verificado). | Tesouro, em tese. | Futuros aposentados, em especial os de menor contribuição (não verificado). | - |
-| 2020-2021 | Pandemia de COVID-19 e auxílio emergencial | Choque econômico e sanitário (716.238 mortes até 06/06/2025, Wikipedia); PIB de 2020 -4,1% pela primeira divulgação (revisado depois (não verificado)); auxílio emergencial de R$600 e depois R$300. | Famílias de baixa renda contempladas; setores digitais. | Informais, serviços presenciais, idosos e populações vulneráveis. | `indigena-adpf709-2020`, `lc179-2021` |
+| 2020-2021 | Pandemia de COVID-19 e auxílio emergencial | Choque econômico e sanitário (716.238 mortes até 06/06/2025, Wikipedia); PIB de 2020 -4,1% pela primeira divulgação (Correio Braziliense); revisado depois para -3,3% na série atual do IBGE (SIDRA, tabela 6784, lida em 07/10/2026); auxílio emergencial de R$600 e depois R$300. | Famílias de baixa renda contempladas; setores digitais. | Informais, serviços presenciais, idosos e populações vulneráveis. | `indigena-adpf709-2020`, `lc179-2021` |
 | 2021-02-24 | Autonomia do Banco Central (LC 179/2021) | Mandatos fixos para a diretoria do BC. | Credibilidade monetária. | Margem do Executivo sobre a política monetária. | `lc179-2021`, `rp9-2021` |
 
 **Regiões.** Sudeste (desemprego industrial); Nordeste (dependência de transferências); Centro-Oeste (agronegócio); Amazônia (desmatamento, pandemia)
 
 **Fontes.**
 
-- [PIB fecha 2016 com queda de 3,6% - Money Times (só trecho de busca)](https://www.moneytimes.com.br/pib-fecha-2016-com-uma-queda-de-36/) - NÃO verificado (página não lida)
-- [Senado promulga emenda que congela gastos - Congresso em Foco (só trecho de busca)](https://congressoemfoco.com.br/noticias/senado-promulga-emenda-constitucional-que-congela-gastos-da-uniao-nos-proximos-anos) - NÃO verificado (página não lida)
+- [PIB fecha 2016 com queda de 3,6% - Money Times (lida em 07/10/2026; 1ª divulgação do IBGE)](https://www.moneytimes.com.br/pib-fecha-2016-com-uma-queda-de-36/) - verificado
+- [Senado promulga emenda que congela gastos - Congresso em Foco (lida em 07/10/2026: promulgada em 15/12/2016, 20 anos, IPCA)](https://congressoemfoco.com.br/noticias/senado-promulga-emenda-constitucional-que-congela-gastos-da-uniao-nos-proximos-anos) - verificado
 - [Reforma trabalhista no Brasil em 2017 - Wikipedia (pt)](https://pt.wikipedia.org/wiki/Reforma_trabalhista_no_Brasil_em_2017) - verificado
 - [Pandemia de COVID-19 no Brasil - Wikipedia (pt)](https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19_no_Brasil) - verificado
-- [PIB de 2020 e auxílio emergencial - Correio Braziliense (só trecho de busca)](https://www.correiobraziliense.com.br/economia/2021/03/4910096-pib-de-2020-e-o-terceiro-pior-da-historia-cenario-segue-nebuloso.html) - NÃO verificado (página não lida)
+- [PIB de 2020 e auxílio emergencial - Correio Braziliense (lida em 07/10/2026: -4,1% na 1ª divulgação)](https://www.correiobraziliense.com.br/economia/2021/03/4910096-pib-de-2020-e-o-terceiro-pior-da-historia-cenario-segue-nebuloso.html) - verificado
 - [docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)](docs/HISTORIA.md) - NÃO verificado (página não lida)
 
 ## Retomada, arcabouço fiscal e incerteza (2023-2026)
@@ -671,7 +671,7 @@ Cada ciclo tem: motor econômico, potenciais (e como foram usados ou desperdiça
 
 | Data | Mudança | Descrição | Quem ganhou | Quem perdeu | Eventos (historia.json) |
 |---|---|---|---|---|---|
-| 2023-08-30 | Arcabouço fiscal (LC 200/2023) | Substitui o teto de gastos: limita a despesa a 70% do crescimento da receita, com piso de 0,6% e teto de 2,5%; punição automática reduz a 50% se a meta falhar (resumo de busca). | Executivo (margem em relação ao teto) e credores (regra). | Despesas discricionárias; controvérsia sobre cumprimento. | `lc200-2023`, `ec95-2016` |
+| 2023-08-30 | Arcabouço fiscal (LC 200/2023) | Substitui o teto de gastos: limita a despesa a 70% do crescimento da receita, com piso de 0,6% e teto de 2,5%; punição automática reduz a 50% se a meta falhar (Money Times, lido em 07/10/2026). | Executivo (margem em relação ao teto) e credores (regra). | Despesas discricionárias; controvérsia sobre cumprimento. | `lc200-2023`, `ec95-2016` |
 | 2023-12-20 | Reforma tributária (EC 132/2023) | Aprovada em 20/12/2023 (historia.json); efeitos econômicos de implantação gradual não verificados (não verificado). | Setores com maior carga cumulativa (tese). | Setores beneficiados por regimes especiais (tese). | `ec132-2023` |
 | 2023-01-08 | Ataques de 8 de janeiro | Choque institucional com efeito sobre expectativas; efeito econômico direto não verificado (não verificado). | Nenhum identificado. | Confiança institucional. | `oito-janeiro-2023` |
 | 2025-2026 | Condenações de 2025 e eleição de 2026 | Quadro político-institucional em disputa; resultado eleitoral e efeitos econômicos não foram verificados (não verificado). | Sem avaliação. | Sem avaliação. | `bolsonaro-2025`, `eleicao-2026` |
@@ -680,7 +680,7 @@ Cada ciclo tem: motor econômico, potenciais (e como foram usados ou desperdiça
 
 **Fontes.**
 
-- [Arcabouço fiscal x teto de gastos - Money Times (só trecho de busca)](https://www.moneytimes.com.br/entenda-a-diferenca-entre-novo-arcabouco-fiscal-e-teto-de-gastos/) - NÃO verificado (página não lida)
+- [Arcabouço fiscal x teto de gastos - Money Times (lida em 07/10/2026: banda 0,6%-2,5%, 70% da receita, 50% se falhar a meta)](https://www.moneytimes.com.br/entenda-a-diferenca-entre-novo-arcabouco-fiscal-e-teto-de-gastos/) - verificado
 - [docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)](docs/HISTORIA.md) - NÃO verificado (página não lida)
 
 ## Classes transversais

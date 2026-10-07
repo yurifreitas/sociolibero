@@ -6,19 +6,19 @@ Gerado por `uv run sociolibero corrupcao build` a partir de `src/sociolibero/cor
 **Contagem** = valor apurado em processo, auditoria, balanço ou relatório oficial. **Estimativa** = modelo ou extrapolação.
 **Verif. = sim** só quando a fonte primária foi aberta e o número foi lido nela; **não** quando veio de resumo de busca
 ou de imprensa que replica o órgão (revisamos para baixo todo `true` cujo link não era de órgão oficial ou periódico).
-Resultado: 16 áreas, 75 valores (45 contagem, 30 estimativa; **23 verificados**),
-14 itens de benefícios a empresas (7 verificados), 14 modelos.
+Resultado: 16 áreas, 75 valores (45 contagem, 30 estimativa; **29 verificados**),
+14 itens de benefícios a empresas (9 verificados), 14 modelos.
 
-**Âncora monetária.** PIB nominal 2025 = R$ 12.700 bi (IBGE, Contas Nacionais Anuais, divulgado em 03/03/2026; o IBGE devolveu 403 e o
-valor é o arredondado da manchete, `verificado:false`). Para 2026 a Receita usa projeção de R$ 13.826,3 bi (lido no DGT). 1 pp do PIB = R$ 127 bi.
+**Âncora monetária.** PIB nominal 2025 = R$ 12.738,6 bi (IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846: soma dos quatro trimestres = R$ 12.738.566 mi, lida na API em 07/10/2026; a manchete do IBGE arredonda para R$ 12,7 tri; `verificado:true`, 
+com a ressalva de que o PIB anual oficial pode diferir por revisão). Para 2026 a Receita usa projeção de R$ 13.826,3 bi (lido no DGT). 1 pp do PIB = R$ 127 bi.
 
 ## Panorama macro
 
 | Fonte | O que diz | Tipo | Verif. |
 |---|---|---|:-:|
-| FIESP/Decomtec (2010) | custo médio de 1,38% a 2,3% do PIB; R$ 41,5-69,1 bi a preços de 2008; aplicado ao PIB 2025 daria R$ 175-292 bi (cálculo nosso) | estimativa | não |
+| FIESP/Decomtec (2010) | custo médio de 1,38% a 2,3% do PIB; R$ 41,5-69,1 bi a preços de 2008; aplicado ao PIB 2025 daria R$ 176-293 bi (cálculo nosso) | estimativa | não |
 | Transparência Internacional, IPC 2025 | Brasil 35/100, 107º de 182 (34 em 2024) | percepção (não mede R$) | sim |
-| FMI, Fiscal Monitor 2019 | países menos corruptos arrecadam ~4% do PIB a mais (cross-country, não é estimativa do Brasil) | estimativa | não |
+| FMI, Fiscal Monitor 2019 | países menos corruptos arrecadam ~4% do PIB a mais (cross-country, não é estimativa do Brasil) | estimativa | sim |
 | Banco Mundial (Kaufmann, 2004) | propinas globais ~US$ 1 tri/ano; citado de memória | estimativa | não |
 | FGV | nenhuma estimativa com número foi lida | lacuna | não |
 
@@ -71,10 +71,10 @@ Conta de Desenvolvimento Energetico (CDE) financia subsidios custeados na tarifa
 
 | Valor (R$ bi) | Faixa | Período | Tipo | Verif. | O que é | Fonte |
 |---:|---|---|---|:-:|---|---|
-| 52,7 | 47,8–52,7 | 2026 | contagem | não | Orcamento CDE 2026 proposto pela area tecnica da ANEEL (consulta publica dez/2025): R$ 52,7 bi, +7% vs 2025 homologado; R$ 47,8 bi custeados pelas tarifas | ANEEL via Cenario Energia |
-| 19,6 | 16,9–19,6 | 2026 | contagem | não | CDE 2026 - descontos a fontes incentivadas (eolica/solar/biomassa/PCH): R$ 19,6 bi (2025: R$ 16,9 bi, +16%) | ANEEL via Cenario Energia |
-| 10,4 | – | 2026 | contagem | não | CDE 2026 - Tarifa Social de Energia Eletrica: R$ 10,4 bi (+33%) | ANEEL via Cenario Energia |
-| 6,8 | 3,6–6,8 | 2026 | contagem | não | CDE 2026 - geracao distribuida (GD, subsidio cruzado): R$ 6,8 bi (2025: R$ 3,6 bi, +87,4%) | ANEEL via Cenario Energia |
+| 52,7 | 47,8–52,7 | 2026 | contagem | sim | Orcamento CDE 2026 proposto pela area tecnica da ANEEL (consulta publica dez/2025): R$ 52,7 bi, +7% vs 2025 homologado; R$ 47,8 bi custeados pelas tarifas | ANEEL, voto do Processo 48500.029180/2025-63 (lido; proposta, orçamento definitivo não conferido) |
+| 19,6 | 16,9–19,6 | 2026 | contagem | sim | CDE 2026 - descontos a fontes incentivadas (eolica/solar/biomassa/PCH): R$ 19,6 bi (2025: R$ 16,9 bi, +16%) | ANEEL, voto do Processo 48500.029180/2025-63 (lido) |
+| 10,4 | – | 2026 | contagem | sim | CDE 2026 - Tarifa Social de Energia Eletrica: R$ 10,4 bi (+33%) | ANEEL, voto do Processo 48500.029180/2025-63 (lido) |
+| 6,9 | 3,7–6,9 | 2026 | contagem | sim | CDE 2026 - geracao distribuida (GD, subsidio cruzado): R$ 6,9 bi (2025: R$ 3,7 bi, +87,4%; corrigido de 6,8/3,6, que era truncamento da imprensa) | ANEEL, voto do Processo 48500.029180/2025-63 (lido) |
 | 7,9 | – | 2025-2050 | estimativa | não | Jabutis restabelecidos em 2025 (vetos derrubados: Proinfa, 4,9 GW PCHs etc.): R$ 197 bi aos consumidores em 25 anos (~R$ 7,9 bi/ano) | Frente Nacional dos Consumidores de Energia via O Povo |
 | n/d | – | ate 2050 | estimativa | não | Pacote de jabutis da lei das eolicas offshore (incl. vetos em votacao): ate R$ 348 bi na conta de luz ate 2050 (+9% no preco da energia) | Jornal de Brasilia (resultado de busca) |
 | 5,03 | – | 2026 | contagem | não | TCU bloqueou cautelarmente R$ 5,03 bi destinados a reduzir reajustes tarifarios em areas Sudene/Sudam | TCU via Movimento Economico |
@@ -129,7 +129,7 @@ Cartel de empreiteiras e pagamento de propina em contratos da Petrobras (2004-20
 
 | Valor (R$ bi) | Faixa | Período | Tipo | Verif. | O que é | Fonte |
 |---:|---|---|---|:-:|---|---|
-| 6,19 | – | contratos 2004-2012; balanço 2014 public | estimativa | não | Baixa contábil por pagamentos indevidos (corrupção) no balanço 2014 da Petrobras: R$ 6,19 bi (propina estimada em 3% dos contratos com 27 empresas do cartel, 2004-2012) | Resumo de busca (Congresso em Foco, CartaCapital); balanço no RI da Pe |
+| 6,19 | – | contratos 2004-2012; balanço 2014 public | estimativa | sim | Baixa contábil de R$ 6,194 bi em pagamentos a maior indevidamente capitalizados (esquema do cartel, Lava Jato), registrada no 3T14 e mantida no balanço 2014 da Petrobras (a premissa de propina de 3% dos contratos não foi verificada) | Resumo de busca (Congresso em Foco, CartaCapital); balanço no RI da Pe |
 | 4,07 | – | balanço divulgado pelo MPF (data exata n | contagem | não | Valores efetivamente restituídos via colaborações, leniências, TAC e renúncias (MPF): R$ 4,07 bi, dos quais R$ 3,02 bi destinados à Petrobras, R$ 416,5 mi à União e R$ 570 mi à redução de pedágios no PR | Jovem Pan (resumo de busca) |
 | 6,17 | – | até dez/2021 | contagem | não | Petrobras: cerca de R$ 6,17 bi acumulados recuperados (leniências, repatriações e delações) até o fim de 2021, segundo a empresa | Resumo de busca (Revista Oeste, Monitor Mercantil) |
 | 19,3 | 9,8–19,3 | 2015 a abr/2025 | contagem | não | Acordos de leniência da CGU (todas as empresas, não só Lava Jato): 32 acordos desde 2015, R$ 19,3 bi a devolver, R$ 9,8 bi já pagos | CGU (via resumo de busca; a página gov.br de maio/2025 devolveu 'conte |
@@ -256,7 +256,7 @@ Fraudes em licitações e desvios de recursos federais transferidos a município
 
 | Valor (R$ bi) | Faixa | Período | Tipo | Verif. | O que é | Fonte |
 |---:|---|---|---|:-:|---|---|
-| 13,6 | – | 2025 | contagem | não | CGU: 76 operações especiais com a PF em 2025 contribuíram para prevenir/combater danos ao erário de R$ 13,6 bi (todos os entes, não só municípios) | CGU - Relatório de Gestão 2025 |
+| 13,6 | – | 2025 | contagem | sim | CGU: 76 operações especiais com a PF em 2025 totalizaram R$ 13,6 bi em prejuízos apurados (texto do relatório; antes lido como danos prevenidos) (todos os entes, não só municípios) | CGU - Relatório de Gestão 2025 |
 | 1 | – | 2003 até data indefinida | contagem | não | Programa de sorteios (desde 2003): 1.881 municípios fiscalizados, ~R$ 18 bi em recursos examinados; ~1.500-1.600 processos/ano enviados ao TCU, ~R$ 1 bi em uso indevido | CGU (resumo de busca) |
 | 0,62 | – | Edições 24 e 26 (anos não confirmados) | contagem | não | 24a edição do sorteio: 55 de 60 municípios (92%) com irregularidades em licitações; 26a edição: R$ 620,3 mi examinados em 60 municípios | Congresso em Foco / Istoé Dinheiro (secundária) |
 
@@ -277,8 +277,8 @@ Valores em R$ bi por ano; "quem se beneficia" é setor ou porte, nunca empresa. 
 | Juros sobre capital proprio (JCP): dedutibilidade e IRRF | empresas do lucro real que pagam JCP e seus acionistas | 6,3 (3,1–6,3) | demais contribuintes (a deducao reduz IRPJ/CSLL) | sim | cortar-beneficios-fiscais |
 | Transacao tributaria PGFN/RFB, Litigio Zero e parcelamentos especiais | devedores de grandes debitos (empresas viaveis e inviaveis) | n/d (–) | Uniao (descontos), demais contribuintes | não | perdao-dividas |
 | Divida ativa da Uniao: estoque e recuperabilidade | devedores inscritos em divida ativa | n/d (–) | Uniao/contribuintes adimplentes | não | perdao-dividas |
-| CDE - subsidios totais pagos na tarifa | fontes incentivadas, GD, tarifa social, irrigantes, areas isoladas | 52,7 (47,8–52,7) | consumidores de energia (tarifas) | não | – |
-| Subsidio cruzado da geracao distribuida e descontos a fontes incentivadas | proprietarios de GD e geradores incentivados | 26,4 (20,5–26,4) | demais consumidores (tarifa) | não | politica-industrial-verde |
+| CDE - subsidios totais pagos na tarifa | fontes incentivadas, GD, tarifa social, irrigantes, areas isoladas | 52,7 (47,8–52,7) | consumidores de energia (tarifas) | sim | – |
+| Subsidio cruzado da geracao distribuida e descontos a fontes incentivadas | proprietarios de GD e geradores incentivados | 26,5 (20,6–26,5) | demais consumidores (tarifa) | sim | politica-industrial-verde |
 | Credito subsidiado - Tesouro/BNDES e FINEP (PSI e emprestimos da Uniao) | tomadores de credito BNDES/FINEP | 1,57 (1,57–4,15) | Tesouro Nacional | sim | credito-subsidiado |
 | Renegociacao de dividas rurais (MP 1.376/2026) e PL 5.122/2023 | produtores rurais com perdas 2019-2025 | 3,6 (2–22,4) | Tesouro Nacional | não | perdao-dividas |
 | Entidades sem fins lucrativos (imunes/isentas) | hospitais filantropicos, escolas e entidades assistenciais | 55,9 (55,9–55,9) | demais contribuintes | sim | cortar-beneficios-fiscais |
@@ -337,10 +337,10 @@ A conversão dá a escala, não a conta do orçamento.
 - A maior parte dos "benefícios a empresas" aqui é política pública legal (Simples, ZFM, desoneração). Estar na tabela é custo fiscal, não indício de irregularidade.
 
 ### Lacunas
-- PIB nominal 2025: IBGE respondeu 403 (não contornado); âncora R$ 12.700 bi é o valor arredondado da manchete do IBGE confirmado em imprensa (verificado=false); conferir em SIDRA/Contas Nacionais.
+- PIB nominal 2025: resolvido em 07/10/2026 via SIDRA (tabela 1846, soma dos 4 trimestres = R$ 12.738.566 mi, `verificado:true`); o PIB anual oficial (tabela 6784) ainda não traz 2025 e pode diferir por revisão.
 - FIESP/Decomtec: PDF original não localizado; faixa 1,38-2,3% vem de resumo de busca.
 - FGV: nenhuma estimativa com número foi lida (item sem valor).
-- Banco Mundial (Kaufmann 2004) e FMI Fiscal Monitor 2019: citados sem abrir a fonte primária.
+- Banco Mundial (Kaufmann 2004): citado sem abrir a fonte primária. FMI Fiscal Monitor 2019: lido (4% do PIB, resumo executivo p. ix) em cópia do PDF; o site do FMI responde 403.
 - Economia subterrânea (ETCO/FGV): só 2020 aberto; 2022 e posteriores por resumo; Sonegômetro sem valor 2025; sem estimativa oficial de sonegação da Receita.
 - Saúde/covid: sem total consolidado CGU/TCU/CPI; FNDE: sem total consolidado; obras: sem sobrepreço agregado do Fiscobras (só volume fiscalizado).
 - Emendas: sem % do orçamento discricionário, sem série anual do RP9, sem resultado da auditoria da CGU; números de imprensa.

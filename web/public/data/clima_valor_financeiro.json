@@ -76,8 +76,8 @@
       "escopo": "Mercado segurador no RS",
       "fonte": "CNseg, via Exame/CQCS (apenas trecho de resultado de busca)",
       "url": "https://cqcs.com.br/noticia/indenizacoes-pagas-nas-enchentes-do-rs-podem-chegar-a-r-8-bi-e-superar-pandemia-diz-cnseg/",
-      "verificado": false,
-      "nota": "Visto só no título/trecho de resultado de busca; página não aberta. Substituída, na prática, pelo valor pago de R$ 6,1 bi (item acima)."
+      "verificado": true,
+      "nota": "Lido em 07/10/2026 no CQCS (26/09/2024, coletiva da CNseg de 25/09): a CNseg estima que as indenizações 'podem chegar a marca dos R$ 8 bilhões', acima de ~R$ 7 bi pagos na pandemia; até 20/09 o total era ~R$ 6 bi. Projeção condicionada a pedidos de Grandes Riscos; reportagem, não a nota da CNseg. Substituída, na prática, pelo valor pago de R$ 6,1 bi (item acima)."
     },
     {
       "id": "rs2024_plano_rio_grande_anuncio",
@@ -233,9 +233,9 @@
       "periodo": "estudo de 2019",
       "escopo": "Países de renda baixa e média; infraestrutura (energia, água, transporte, telecom); NÃO é prevenção de desastres em geral nem Brasil",
       "fonte": "Banco Mundial/GFDRR, Lifelines (2019)",
-      "url": "https://www.worldbank.org/en/news/press-release/2019/06/19/42-trillion-can-be-saved-by-investing-in-more-resilient-infrastructure-new-world-bank-report-finds",
-      "verificado": false,
-      "nota": "Visto em vários resultados de busca; a página oficial retornou 404 ao abrir. Não verificado."
+      "url": "https://www.gfdrr.org/en/node/6325",
+      "verificado": true,
+      "nota": "Lido em 07/10/2026 na página do GFDRR/Banco Mundial: 'on average the net benefit of investing in more resilient infrastructure in low- and middle-income countries would be $4.2 trillion, with $4 in benefits for each $1 invested'. A URL do press release do Banco Mundial segue dando 404. Escopo: infraestrutura (energia, água, transporte, telecom) em países de renda baixa e média, não prevenção de desastres em geral nem Brasil."
     },
     {
       "id": "undrr_gar2025",
@@ -246,9 +246,9 @@
       "periodo": "Global Assessment Report 2025",
       "escopo": "Global, média de estudos; transferir para o RS é suposição",
       "fonte": "UNDRR, GAR 2025 'Resilience Pays'",
-      "url": "https://www.undrr.org/gar/gar2025",
-      "verificado": false,
-      "nota": "Visto só em resultados de busca; a página do UNDRR respondeu 403. Não verificado."
+      "url": "https://www.undrr.org/publication/documents-and-publications/global-assessment-report-gar-2025-resilience-pays-financing",
+      "verificado": true,
+      "nota": "Lido em 07/10/2026 na página da publicação do UNDRR: 'Studies show that $1 spent on disaster risk reduction delivers an average return of $15 in terms of averted future disaster recovery costs.' A URL anterior (undrr.org/gar/gar2025) segue dando 403. Média de estudos; transferir para o RS é suposição."
     },
     {
       "id": "wri_1_para_10",
@@ -260,8 +260,8 @@
       "escopo": "Citada pela CNseg; origem WRI não aberta",
       "fonte": "World Resources Institute, citado pela CNseg",
       "url": "https://legismap.com.br/conteudos/artigos-e-noticias/cnseg-brasil-gasta-quase-10-vezes-mais-com-resposta-a-desastres-do-que-com-prevencao",
-      "verificado": false,
-      "nota": "Segunda mão: o estudo do WRI não foi localizado nem aberto. Não verificado."
+      "verificado": true,
+      "nota": "Atribuição lida em 07/10/2026 no Legismap (21/05/2026): 'cada R$ 1 investido em adaptação pode evitar até R$ 10 em despesas pós-desastre', segundo 'estimativas do World Resources Institute (WRI)' citadas pela CNseg (Hailton Madureira). O estudo original do WRI não foi localizado; o valor é afirmação da CNseg. Na mesma página: 2019-2024, R$ 23,3 bi em resposta/reconstrução contra R$ 2,4 bi em redução de risco (quase 10 vezes)."
     }
   ],
   "nao_somar": "Não somar as linhas. (1) rs2024_danos_perdas_dala e rs2024_cnm_prejuizo_municipal_parcial medem o mesmo evento por métodos diferentes; (2) seguros pagos são parte dos danos privados já contados na avaliação DaLA; (3) o gasto estadual, o federal, o crédito do BID e a suspensão de dívida são fontes de financiamento da recuperação, não danos, e parte é empréstimo; (4) os dois estudos nacionais da CNM e as médias anuais cobrem a mesma década e se sobrepõem; (5) contagem (soma de registros) e estimativa (modelo, anúncio ou conta derivada) não compõem um total."

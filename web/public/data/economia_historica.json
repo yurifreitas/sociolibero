@@ -513,24 +513,24 @@
           "verificado": true
         },
         {
-          "titulo": "Lei de Terras e concentração fundiária - ANPUH (só trecho de busca)",
+          "titulo": "Os paisanos da Campanha (Leipnitz, ANPUH 2019): lido; confirma que a Lei de Terras (Lei 601, 18/09/1850) proibiu a aquisição de terras por outro meio que a compra e que a Lei Eusébio de Queirós (1850) extinguiu o tráfico negreiro",
           "url": "https://anpuh.org.br/uploads/anais-simposios/pdf/2019-01/1548856593_0107914a69584e70fa2736d4b4b1b76e.pdf",
-          "verificado": false
+          "verificado": true
         },
         {
-          "titulo": "Lei nº 601/1850 (Lei de Terras) - Planalto (URL herdada de historia.json; não aberta aqui)",
+          "titulo": "Lei nº 601/1850 (Lei de Terras) - Planalto (lida em 07/10/2026: 18/09/1850, 'Dispõe sobre as terras devolutas do Império')",
           "url": "https://www.planalto.gov.br/ccivil_03/leis/lim/lim601.htm",
-          "verificado": false
+          "verificado": true
         },
         {
-          "titulo": "Lei nº 581/1850 (Eusébio de Queirós) - Planalto (não aberta aqui)",
+          "titulo": "Lei nº 581/1850 (Eusébio de Queirós) - Planalto (lida em 07/10/2026: 04/09/1850, 'Estabelece medidas para a repressão do tráfico de africanos neste Império')",
           "url": "https://www.planalto.gov.br/ccivil_03/leis/lim/lim581.htm",
-          "verificado": false
+          "verificado": true
         },
         {
-          "titulo": "Lei nº 3.353/1888 (Lei Áurea) - Planalto (não aberta aqui)",
+          "titulo": "Lei nº 3.353/1888 (Lei Áurea) - Planalto (lida em 07/10/2026: 13/05/1888, 'É declarada extincta, desde a data desta Lei, a escravidão no Brazil')",
           "url": "https://www.planalto.gov.br/ccivil_03/leis/lim/lim3353.htm",
-          "verificado": false
+          "verificado": true
         },
         {
           "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
@@ -1075,7 +1075,7 @@
           "verificado": true
         },
         {
-          "titulo": "PUC-Rio TD 158, dívida externa (só trecho de busca)",
+          "titulo": "PUC-Rio TD 158, dívida externa (URL deu 404 em 07/10/2026; só trecho de busca)",
           "url": "https://www.econ.puc-rio.br/uploads/adm/trabalhos/files/td158.pdf",
           "verificado": false
         },
@@ -1230,7 +1230,7 @@
           "verificado": true
         },
         {
-          "titulo": "PUC-Rio TD 158, dívida externa (só trecho de busca)",
+          "titulo": "PUC-Rio TD 158, dívida externa (URL deu 404 em 07/10/2026; só trecho de busca)",
           "url": "https://www.econ.puc-rio.br/uploads/adm/trabalhos/files/td158.pdf",
           "verificado": false
         },
@@ -1256,7 +1256,7 @@
         "Âncora cambial valorizada: o dólar chegou a R$0,85 em novembro de 1994 (Wikipedia) e deteriorou a balança comercial (de memória (não verificado)).",
         "Juros altos e dívida pública crescente (de memória (não verificado)).",
         "Privatização com desindustrialização relativa e debate sobre preços e tarifas; arrecadação do PND no governo Itamar: US$4,6 bi mais US$1,9 bi de dívida transferida (resumo de busca).",
-        "Desigualdade de renda ainda elevada, Gini de 0,587 em 2002 (resumo de busca).",
+        "Desigualdade de renda ainda elevada, Gini de 0,587 em 2002 (resumo de busca; no Ipeadata, a série DISOC_RDCG traz 0,589 e a PNADS_GINI, 0,603, ambas em 2002, lidas em 07/10/2026).",
         "Reforma agrária lenta e informalidade, sem dados conferidos (não verificado)."
       ],
       "classes": [
@@ -1319,7 +1319,7 @@
           "id": "er-1990s-privatizacao",
           "data": "1990-2002",
           "titulo": "Privatizações e Programa Nacional de Desestatização",
-          "descricao": "Lei 8.031/1990 (de memória (não verificado)) e leilões de siderúrgicas, Vale (1997), telecomunicações (1998); o governo Itamar privatizou 15 empresas por US$4,6 bi (busca).",
+          "descricao": "Lei 8.031, de 12/04/1990 (Politize, lido em 07/10/2026) e leilões de siderúrgicas, Vale (1997), telecomunicações (1998); o governo Itamar privatizou 15 empresas por US$4,6 bi (busca).",
           "quem_ganhou": "Compradores, consumidores de telefonia (expansão da oferta) e Tesouro (receita).",
           "quem_perdeu": "Servidores das estatais e a política industrial.",
           "links_historia": [
@@ -1366,12 +1366,12 @@
           "verificado": true
         },
         {
-          "titulo": "Privatização no Brasil - Politize! (só trecho de busca)",
+          "titulo": "Privatização no Brasil - Politize! (lida em 07/10/2026: PND criado em 12/04/1990 pela Lei 8.031; ~US$ 78,6 bi arrecadados no governo FHC)",
           "url": "https://www.politize.com.br/privatizacao-no-brasil/",
-          "verificado": false
+          "verificado": true
         },
         {
-          "titulo": "Gini 2002-2014 (PNAD) - IPECE NT 14 (só trecho de busca)",
+          "titulo": "IPECE NT 14 (jan/2006): nota técnica sobre o índice de Gini com dados do Ceará, Nordeste e Brasil de 2001/2004; lida em 07/10/2026 e NÃO contém a série 2002-2014 (título anterior estava errado)",
           "url": "https://www.ipece.ce.gov.br/wp-content/uploads/sites/45/2012/12/NT_14.pdf",
           "verificado": false
         },
@@ -1395,7 +1395,7 @@
       ],
       "problemas": [
         "Reprimarização: a pauta volta a depender de commodities (de memória (não verificado)).",
-        "Desigualdade ainda muito alta: Gini cai de 0,587 (2002) para 0,497 (2014) segundo resumo de busca (PNAD, renda domiciliar); o ritmo de queda estaciona em 2011-2013.",
+        "Desigualdade ainda muito alta: Gini cai de 0,587 (2002) para 0,497 (2014) segundo resumo de busca (PNAD, renda domiciliar; o Ipeadata traz 0,589 para 0,518 na série DISOC_RDCG e 0,603 para 0,526 na PNADS_GINI; a queda se confirma, os níveis dependem da definição de renda e não reproduzem 0,587/0,497); o ritmo de queda estaciona em 2011-2013.",
         "Baixa produtividade e investimento, e carga tributária regressiva (de memória (não verificado)).",
         "Dependência política de coalizões e escândalos (Mensalão 2005-2012; historia.json: mensalao-2012)."
       ],
@@ -1518,7 +1518,7 @@
           "verificado": true
         },
         {
-          "titulo": "Gini 2002-2014 (PNAD) - IPECE NT 14 (só trecho de busca)",
+          "titulo": "IPECE NT 14 (jan/2006): nota técnica sobre o índice de Gini com dados do Ceará, Nordeste e Brasil de 2001/2004; lida em 07/10/2026 e NÃO contém a série 2002-2014 (título anterior estava errado)",
           "url": "https://www.ipece.ce.gov.br/wp-content/uploads/sites/45/2012/12/NT_14.pdf",
           "verificado": false
         },
@@ -1541,8 +1541,8 @@
         "Digitalização e serviços (de memória (não verificado))."
       ],
       "problemas": [
-        "Recessão de 2015-2016: o PIB caiu 3,8% e 3,6% pela primeira divulgação, com 7,2% acumulados, a pior desde 1947 segundo o IBGE (resumo de busca); revisões posteriores existem (não verificado).",
-        "Teto de gastos (EC 95/2016) por 20 anos corrigido pelo IPCA e comprimindo despesa discricionária (resumo de busca).",
+        "Recessão de 2015-2016: o PIB caiu 3,8% e 3,6% pela primeira divulgação, com 7,2% acumulados, a maior queda de um biênio desde 1948 segundo a coordenadora do IBGE citada pelo Money Times (o resumo de busca dizia 1947; divergência); a série atual do IBGE (SIDRA, tabela 6784) traz -3,5% em 2015 e -3,3% em 2016.",
+        "Teto de gastos (EC 95/2016, promulgada em 15/12/2016) por 20 anos corrigido pelo IPCA (Congresso em Foco, lido); a compressão da despesa discricionária segue sem fonte lida.",
         "Informalidade: 41,1% do emprego em 2019 (Wikipedia, Reforma trabalhista) e desocupação de 14,9% no 1º tri de 2021, com 15,2 milhões de desocupados (Wikipedia, Pandemia).",
         "Polarização política e instabilidade institucional (impeachment 2016, 8 de janeiro de 2023 já fora do ciclo)."
       ],
@@ -1607,7 +1607,7 @@
           "id": "ra-2016-ec95",
           "data": "2016-12-15",
           "titulo": "EC 95/2016: teto de gastos",
-          "descricao": "Limite federal da despesa primária por 20 anos corrigido pelo IPCA; o limite de 2017 correspondeu à despesa de 2016 mais 7,2% (resumo de busca).",
+          "descricao": "Limite federal da despesa primária por 20 anos corrigido pelo IPCA; o limite de 2017 correspondeu à despesa de 2016 mais 7,2% (resumo de busca, não verificado); 20 anos e correção pelo IPCA conferidos no Congresso em Foco.",
           "quem_ganhou": "Credores e mercado financeiro (previsibilidade).",
           "quem_perdeu": "Saúde, educação e investimento, segundo críticos; debate sobre rigidez.",
           "links_historia": [
@@ -1638,7 +1638,7 @@
           "id": "ra-2020-pandemia",
           "data": "2020-2021",
           "titulo": "Pandemia de COVID-19 e auxílio emergencial",
-          "descricao": "Choque econômico e sanitário (716.238 mortes até 06/06/2025, Wikipedia); PIB de 2020 -4,1% pela primeira divulgação (revisado depois (não verificado)); auxílio emergencial de R$600 e depois R$300.",
+          "descricao": "Choque econômico e sanitário (716.238 mortes até 06/06/2025, Wikipedia); PIB de 2020 -4,1% pela primeira divulgação (Correio Braziliense); revisado depois para -3,3% na série atual do IBGE (SIDRA, tabela 6784, lida em 07/10/2026); auxílio emergencial de R$600 e depois R$300.",
           "quem_ganhou": "Famílias de baixa renda contempladas; setores digitais.",
           "quem_perdeu": "Informais, serviços presenciais, idosos e populações vulneráveis.",
           "links_historia": [
@@ -1667,14 +1667,14 @@
       ],
       "fontes": [
         {
-          "titulo": "PIB fecha 2016 com queda de 3,6% - Money Times (só trecho de busca)",
+          "titulo": "PIB fecha 2016 com queda de 3,6% - Money Times (lida em 07/10/2026; 1ª divulgação do IBGE)",
           "url": "https://www.moneytimes.com.br/pib-fecha-2016-com-uma-queda-de-36/",
-          "verificado": false
+          "verificado": true
         },
         {
-          "titulo": "Senado promulga emenda que congela gastos - Congresso em Foco (só trecho de busca)",
+          "titulo": "Senado promulga emenda que congela gastos - Congresso em Foco (lida em 07/10/2026: promulgada em 15/12/2016, 20 anos, IPCA)",
           "url": "https://congressoemfoco.com.br/noticias/senado-promulga-emenda-constitucional-que-congela-gastos-da-uniao-nos-proximos-anos",
-          "verificado": false
+          "verificado": true
         },
         {
           "titulo": "Reforma trabalhista no Brasil em 2017 - Wikipedia (pt)",
@@ -1687,9 +1687,9 @@
           "verificado": true
         },
         {
-          "titulo": "PIB de 2020 e auxílio emergencial - Correio Braziliense (só trecho de busca)",
+          "titulo": "PIB de 2020 e auxílio emergencial - Correio Braziliense (lida em 07/10/2026: -4,1% na 1ª divulgação)",
           "url": "https://www.correiobraziliense.com.br/economia/2021/03/4910096-pib-de-2020-e-o-terceiro-pior-da-historia-cenario-segue-nebuloso.html",
-          "verificado": false
+          "verificado": true
         },
         {
           "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
@@ -1758,7 +1758,7 @@
           "id": "ri-2023-arcabouco",
           "data": "2023-08-30",
           "titulo": "Arcabouço fiscal (LC 200/2023)",
-          "descricao": "Substitui o teto de gastos: limita a despesa a 70% do crescimento da receita, com piso de 0,6% e teto de 2,5%; punição automática reduz a 50% se a meta falhar (resumo de busca).",
+          "descricao": "Substitui o teto de gastos: limita a despesa a 70% do crescimento da receita, com piso de 0,6% e teto de 2,5%; punição automática reduz a 50% se a meta falhar (Money Times, lido em 07/10/2026).",
           "quem_ganhou": "Executivo (margem em relação ao teto) e credores (regra).",
           "quem_perdeu": "Despesas discricionárias; controvérsia sobre cumprimento.",
           "links_historia": [
@@ -1808,9 +1808,9 @@
       ],
       "fontes": [
         {
-          "titulo": "Arcabouço fiscal x teto de gastos - Money Times (só trecho de busca)",
+          "titulo": "Arcabouço fiscal x teto de gastos - Money Times (lida em 07/10/2026: banda 0,6%-2,5%, 70% da receita, 50% se falhar a meta)",
           "url": "https://www.moneytimes.com.br/entenda-a-diferenca-entre-novo-arcabouco-fiscal-e-teto-de-gastos/",
-          "verificado": false
+          "verificado": true
         },
         {
           "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",

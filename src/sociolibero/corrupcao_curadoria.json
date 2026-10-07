@@ -1,11 +1,11 @@
 {
  "ancora_pib": {
   "ano": 2025,
-  "valor_rs_bi": 12700.0,
-  "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)",
-  "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/45968-pib-cresce-2-3-em-2025-e-fecha-o-ano-em-r-12-7-trilhoes.html",
-  "verificado": false,
-  "nota": "Pagina do IBGE retornou HTTP 403 (nao contornado). Manchete IBGE 'fecha o ano em R$ 12,7 trilhoes' vista no titulo da busca; InfoMoney e Movimento Economico (abertos) repetem R$ 12,7 tri, sem casas decimais. Valor exato em R$ mi: LACUNA (conferir SIDRA/Contas Nacionais). PIB 2024 (corrente) nao encontrado em fonte aberta; referencia de memoria ~R$ 11,7 tri (NAO verificado, so ordem de grandeza). Para o DGT PLOA 2026 a Receita usa PIB projetado 2026 = R$ 13.826,3 bi (verificado no xlsx, Quadro VI)."
+  "valor_rs_bi": 12738.6,
+  "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)",
+  "url": "https://apisidra.ibge.gov.br/values/t/1846/n1/all/v/585/p/202501,202502,202503,202504/c11255/90707",
+  "verificado": true,
+  "nota": "Lido na API SIDRA em 07/10/2026. A manchete do IBGE ('fecha o ano em R$ 12,7 trilhões') bate com a soma trimestral (R$ 12,74 tri). Divergência de arredondamento: a âncora anterior era 12.700 bi (manchete arredondada); passa a 12.738,6 bi. Limite: a soma dos 4 trimestres da tabela 1846 é a série trimestral; o valor anual das Contas Nacionais Anuais 2025 (tabela 6784, ainda sem 2025 em 07/10/2026) pode diferir por revisão. Referências na mesma API: PIB 2024 = R$ 11.779.251 mi (soma trimestral); PIB 2023 = R$ 10.943.345 mi (tabela 6784, anual). Para o DGT PLOA 2026 a Receita usa PIB projetado 2026 = R$ 13.826,3 bi (verificado no xlsx, Quadro VI)."
  },
  "desvio_referencia": {
   "pct_pib_central": 1.84,
@@ -28,7 +28,7 @@
    "pct_pib": null,
    "periodo": "base 2008 (precos de 2008); relatorio 2010",
    "tipo": "estimativa",
-   "metodo": "Extrapolacao: custo medio baseado em estudos internacionais de percepcao/propina (faixa 1,38%-2,3% do PIB). R$ 41,5-69,1 bi sao precos de 2008. Variante citada na imprensa (atualizacao posterior, base PIB ~R$ 5,9 tri): R$ 80,3 bi (1,36%, cenario realista) e R$ 132,84 bi (2,25%). Aplicacao ilustrativa dos % ao PIB 2025 (R$ 12.700 bi, calculo nosso, nao da FIESP): R$ 175 bi a R$ 292 bi.",
+   "metodo": "Extrapolacao: custo medio baseado em estudos internacionais de percepcao/propina (faixa 1,38%-2,3% do PIB). R$ 41,5-69,1 bi sao precos de 2008. Variante citada na imprensa (atualizacao posterior, base PIB ~R$ 5,9 tri): R$ 80,3 bi (1,36%, cenario realista) e R$ 132,84 bi (2,25%). Aplicacao ilustrativa dos % ao PIB 2025 (R$ 12.739 bi, calculo nosso, nao da FIESP): R$ 176 bi a R$ 293 bi.",
    "fonte": "FIESP/Decomtec via Monitor Mercantil 'O preco da corrupcao' (PDF original da FIESP nao localizado; URL tentada deu 404)",
    "url": "https://monitormercantil.com.br/o-preco-da-corrupcao/",
    "verificado": false,
@@ -58,11 +58,12 @@
    "pct_pib": 4.0,
    "periodo": "2019 (analise cross-country, 180+ paises)",
    "tipo": "estimativa",
-   "metodo": "Regressao entre indices de corrupcao e receita tributaria em ~180 paises; NAO e estimativa para o Brasil. Nao convertido em R$ (aplicar 4% ao PIB daria ~R$ 508 bi, extrapolacao indevida).",
-   "fonte": "FMI Fiscal Monitor Abr/2019 (resumo via Monitor Mercantil/resultado de busca; pagina do blog FMI deu 404)",
+   "metodo": "Regressao entre indices de corrupcao e receita tributaria em ~180 paises; NAO e estimativa para o Brasil. Nao convertido em R$ (aplicar 4% ao PIB daria ~R$ 509 bi, extrapolacao indevida).",
+   "fonte": "FMI, Fiscal Monitor abril/2019, 'Curbing Corruption', resumo executivo (p. ix): 'comparing countries at similar income levels, the least corrupt governments collect 4 percent of GDP more in tax revenues than their peers with the highest levels of corruption'",
    "url": "https://www.imf.org/en/Publications/FM/Issues/2019/03/18/fiscal-monitor-april-2019",
-   "verificado": false,
-   "critica_metodologica": "Correlacao cross-country baseada em indices de percepcao; causalidade e custo nacional nao estabelecidos. Paolo Mauro (1995, FMI) e a referencia classica sobre menor investimento/crescimento; nao consultado diretamente."
+   "verificado": true,
+   "critica_metodologica": "Correlacao cross-country baseada em indices de percepcao; causalidade e custo nacional nao estabelecidos. Paolo Mauro (1995, FMI) e a referencia classica sobre menor investimento/crescimento; nao consultado diretamente.",
+   "nota_verificacao": "Texto lido em 07/10/2026 no PDF do capítulo (cópia do PDF do FMI hospedada em sipotra.it; o site do FMI respondeu 403 ao acesso automático). Mesmo trecho: se todos os países reduzissem a corrupção como os que a reduziram nas últimas duas décadas, a receita tributária global subiria US$ 1 trilhão (1,25% do PIB mundial)."
   },
   {
    "id": "banco-mundial-suborno",
@@ -183,7 +184,8 @@
      "metodo": "Pagina do Min. Fazenda exigiu login (conteudo restrito, nao contornado); valores de resumos de busca; projecoes LDO lidas no IBET. Divergencia: algumas fontes citam R$ 66,1 bi.",
      "fonte": "PGFN em Numeros 2026 (via imprensa)",
      "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/marco/pgfn-recupera-mais-de-r-68-bilhoes-e-tem-novo-recorde-de-recuperacao",
-     "verificado": false
+     "verificado": false,
+     "nota_verificacao": "Parcial (07/10/2026): PGFN em Números 2026 (PDF) traz R$ 66,1 bi da dívida ativa da União (+10% vs 2024), R$ 1,9 bi do FGTS (soma ~68,0-68,1) e R$ 30,8 bi via transação; a projeção da LDO (89,7/60/52,9/50,8) não foi conferida."
     },
     {
      "descricao": "Auditoria TCU sobre transacao tributaria: de R$ 2,9 tri inscritos, R$ 718,41 bi entraram em negociacao; 57,9% dos que negociaram voltaram a inadimplir; ~26% dos acordos nao publicados",
@@ -360,10 +362,10 @@
      "periodo": "2026",
      "tipo": "contagem",
      "metodo": "Orcamento anual do encargo (projecao regulatoria). Fonte aberta: Cenario Energia replicando ANEEL. LACUNA: valor final homologado (deliberacao prevista fev/2026) nao conferido.",
-     "fonte": "ANEEL via Cenario Energia",
-     "url": "https://cenarioenergia.com.br/2025/12/05/cde-2026-deve-chegar-a-r-527-bilhoes-e-pressiona-debate-sobre-subsidios-no-setor-eletrico/",
-     "verificado": false,
-     "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+     "fonte": "ANEEL, Voto da Diretora Agnes da Costa, 41ª Reunião Pública Ordinária de 2025, Processo 48500.029180/2025-63 (abertura de consulta pública do orçamento CDE 2026; cópia hospedada pelo Poder360)",
+     "url": "https://static.poder360.com.br/2025/12/cde-2026-aneel.pdf",
+     "verificado": true,
+     "nota_verificacao": "Lido em 07/10/2026 na tabela 'Orçamento Anual da CDE' do voto da ANEEL (proposta submetida a consulta pública; orçamento definitivo não conferido). Total 2026 = R$ 52.660 mi (49.227 mi em 2025, +7,0%); CDE-Uso (quotas nas tarifas) = R$ 47,8 bi (+15,4%)."
     },
     {
      "descricao": "CDE 2026 - descontos a fontes incentivadas (eolica/solar/biomassa/PCH): R$ 19,6 bi (2025: R$ 16,9 bi, +16%)",
@@ -375,10 +377,10 @@
      "periodo": "2026",
      "tipo": "contagem",
      "metodo": "Componente do orcamento CDE (proposta ANEEL).",
-     "fonte": "ANEEL via Cenario Energia",
-     "url": "https://cenarioenergia.com.br/2025/12/05/cde-2026-deve-chegar-a-r-527-bilhoes-e-pressiona-debate-sobre-subsidios-no-setor-eletrico/",
-     "verificado": false,
-     "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+     "fonte": "ANEEL, Voto da Diretora Agnes da Costa, 41ª Reunião Pública Ordinária de 2025, Processo 48500.029180/2025-63 (abertura de consulta pública do orçamento CDE 2026; cópia hospedada pelo Poder360)",
+     "url": "https://static.poder360.com.br/2025/12/cde-2026-aneel.pdf",
+     "verificado": true,
+     "nota_verificacao": "Lido em 07/10/2026 na tabela 'Orçamento Anual da CDE' do voto da ANEEL (proposta submetida a consulta pública; orçamento definitivo não conferido). Soma de descontos tarifários na distribuição (15.889 mi) e na transmissão (3.733 mi) = R$ 19,6 bi em 2026; 2025 = 13.720 + 3.233 = R$ 16,95 bi (+15,7%); o voto atribui a alta principalmente aos subsídios a fontes incentivadas."
     },
     {
      "descricao": "CDE 2026 - Tarifa Social de Energia Eletrica: R$ 10,4 bi (+33%)",
@@ -387,25 +389,25 @@
      "periodo": "2026",
      "tipo": "contagem",
      "metodo": "Componente do orcamento CDE (proposta ANEEL).",
-     "fonte": "ANEEL via Cenario Energia",
-     "url": "https://cenarioenergia.com.br/2025/12/05/cde-2026-deve-chegar-a-r-527-bilhoes-e-pressiona-debate-sobre-subsidios-no-setor-eletrico/",
-     "verificado": false,
-     "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+     "fonte": "ANEEL, Voto da Diretora Agnes da Costa, 41ª Reunião Pública Ordinária de 2025, Processo 48500.029180/2025-63 (abertura de consulta pública do orçamento CDE 2026; cópia hospedada pelo Poder360)",
+     "url": "https://static.poder360.com.br/2025/12/cde-2026-aneel.pdf",
+     "verificado": true,
+     "nota_verificacao": "Lido em 07/10/2026 na tabela 'Orçamento Anual da CDE' do voto da ANEEL (proposta submetida a consulta pública; orçamento definitivo não conferido). Tarifa Social - Baixa Renda: R$ 10.437 mi em 2026 vs 7.830 mi em 2025 (+33,3%), por efeito da Lei 15.235/2025 (100% de desconto até 80 kWh/mês)."
     },
     {
-     "descricao": "CDE 2026 - geracao distribuida (GD, subsidio cruzado): R$ 6,8 bi (2025: R$ 3,6 bi, +87,4%)",
-     "valor_rs_bi": 6.8,
+     "descricao": "CDE 2026 - geracao distribuida (GD, Lei 14.300): R$ 6,9 bi (2025: R$ 3,7 bi, +87,4%)",
+     "valor_rs_bi": 6.9,
      "faixa_rs_bi": [
-      3.6,
-      6.8
+      3.7,
+      6.9
      ],
      "periodo": "2026",
      "tipo": "contagem",
      "metodo": "Componente do orcamento CDE (proposta ANEEL); outros estudos podem estimar subsidio cruzado da GD maior (nao verificados).",
-     "fonte": "ANEEL via Cenario Energia",
-     "url": "https://cenarioenergia.com.br/2025/12/05/cde-2026-deve-chegar-a-r-527-bilhoes-e-pressiona-debate-sobre-subsidios-no-setor-eletrico/",
-     "verificado": false,
-     "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+     "fonte": "ANEEL, Voto da Diretora Agnes da Costa, 41ª Reunião Pública Ordinária de 2025, Processo 48500.029180/2025-63 (abertura de consulta pública do orçamento CDE 2026; cópia hospedada pelo Poder360)",
+     "url": "https://static.poder360.com.br/2025/12/cde-2026-aneel.pdf",
+     "verificado": true,
+     "nota_verificacao": "Lido em 07/10/2026 na tabela 'Orçamento Anual da CDE' do voto da ANEEL (proposta submetida a consulta pública; orçamento definitivo não conferido). Correção: a imprensa (Cenário Energia) truncava em R$ 6,8 bi e R$ 3,6 bi; o voto traz R$ 6.861 mi (2026) e R$ 3.662 mi (2025), isto é, 6,9 e 3,7 bi."
     },
     {
      "descricao": "Jabutis restabelecidos em 2025 (vetos derrubados: Proinfa, 4,9 GW PCHs etc.): R$ 197 bi aos consumidores em 25 anos (~R$ 7,9 bi/ano)",
@@ -606,7 +608,8 @@
      "metodo": "Citado em resumo de busca sobre o painel TCU; não aparece na página aberta",
      "fonte": "Resumo de busca (veículo secundário)",
      "url": "https://portal.tcu.gov.br/imprensa/noticias/metade-das-obras-financiadas-com-recursos-federais-estao-paradas",
-     "verificado": false
+     "verificado": false,
+     "nota_verificacao": "Parcial (07/10/2026): notícia do TCU (30/07/2025) lida: 11.469 de 22.621 obras mapeadas estavam paralisadas até abril de 2025 (50,7%); o valor já investido (R$ 15,9 bi) NÃO consta na página; verificar no Painel de Obras Paralisadas."
     },
     {
      "descricao": "Fiscobras 2024: 23 obras fiscalizadas, mais de R$ 7 bi de recursos fiscalizados, 17 com indício de irregularidade grave (73,9%), 1 com recomendação de paralisação (BR-040/RJ, sobrepreço)",
@@ -654,15 +657,16 @@
    "mecanismo": "Cartel de empreiteiras e pagamento de propina em contratos da Petrobras (2004-2012); baixa contábil, acordos de colaboração e leniência, devolução de valores; depois anulações e suspensões de multas pelo STF.",
    "valores": [
     {
-     "descricao": "Baixa contábil por pagamentos indevidos (corrupção) no balanço 2014 da Petrobras: R$ 6,19 bi (propina estimada em 3% dos contratos com 27 empresas do cartel, 2004-2012)",
+     "descricao": "Baixa contabil de R$ 6,194 bi em 'pagamentos a maior indevidamente capitalizados' na aquisicao de imobilizado, ligada ao esquema do cartel investigado na Lava Jato (Petrobras, informacao trimestral do 3T14; mantida no balanco 2014)",
      "valor_rs_bi": 6.19,
      "faixa_rs_bi": null,
-     "periodo": "contratos 2004-2012; balanço 2014 publicado em 2015",
+     "periodo": "contratos 2004-2012; baixa registrada no 3T14 (ITR/6-K de 2014)",
      "tipo": "estimativa",
-     "metodo": "Metodologia da Petrobras com base em depoimentos do MPF (3% do valor dos contratos); é estimativa contábil, não valor julgado",
-     "fonte": "Resumo de busca (Congresso em Foco, CartaCapital); balanço no RI da Petrobras não aberto",
-     "url": "https://www.congressoemfoco.com.br/noticias/petrobras-perde-r-62-bilhoes-com-corrupcao/",
-     "verificado": false
+     "metodo": "Estimativa contabil da propria Petrobras (parcela dos sobrepreços repassada a empreiteiras e nao capitalizavel, IAS 16); a premissa de 3% dos contratos vem de depoimentos ao MPF (nao verificada aqui); nao e valor julgado",
+     "fonte": "Petrobras, informacao financeira trimestral 3T14 (Form 6-K, SEC): linha 'Write-off - overpayments incorrectly capitalized' (R$ 6.194 mi consolidado; R$ 4.788 mi controladora)",
+     "url": "https://www.sec.gov/Archives/edgar/data/0001119639/000129281415000907/pbrafs3q14rs_6k.htm",
+     "verificado": true,
+     "nota_verificacao": "Lido em 07/10/2026 na DRE, na DFC e no parágrafo de ênfase do parecer dos auditores (nota 3). NÃO verificado nesta rodada: a premissa de 'propina estimada em 3% dos contratos com 27 empresas' (vem de imprensa/MPF); o valor lido é o da baixa contábil, não o da propina."
     },
     {
      "descricao": "Valores efetivamente restituídos via colaborações, leniências, TAC e renúncias (MPF): R$ 4,07 bi, dos quais R$ 3,02 bi destinados à Petrobras, R$ 416,5 mi à União e R$ 570 mi à redução de pedágios no PR",
@@ -1230,15 +1234,16 @@
    "mecanismo": "Fraudes em licitações e desvios de recursos federais transferidos a municípios (saúde, educação, assistência), detectados por sorteios e fiscalizações da CGU.",
    "valores": [
     {
-     "descricao": "CGU: 76 operações especiais com a PF em 2025 contribuíram para prevenir/combater danos ao erário de R$ 13,6 bi (todos os entes, não só municípios)",
+     "descricao": "CGU: 76 operações especiais com a PF em 2025, em patamar superior à soma de todos os anos anteriores, totalizando R$ 13,6 bi em prejuízos apurados (todos os entes, não só municípios)",
      "valor_rs_bi": 13.6,
      "faixa_rs_bi": null,
      "periodo": "2025",
      "tipo": "contagem",
-     "metodo": "Relatório de gestão da CGU (resumo de busca; a leitura do PDF falhou)",
+     "metodo": "Relatório de Gestão da CGU 2025, mensagem de abertura (PDF lido; texto: 'totalizando R$ 13,6 bilhões em prejuízos apurados')",
      "fonte": "CGU - Relatório de Gestão 2025",
      "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/auditorias/relatorio-de-gestao-2025.pdf",
-     "verificado": false
+     "verificado": true,
+     "nota_verificacao": "Lido em 07/10/2026 no PDF do Relatório de Gestão 2025: 'Foram realizadas 76 operações especiais em articulação com a Polícia Federal, que contribuíram para prevenir e combater prejuízos ao erário em patamar superior à soma de todos os anos anteriores, totalizando R$ 13,6 bilhões em prejuízos apurados'. Redação corrigida: 'prejuízos apurados', não 'danos prevenidos'."
     },
     {
      "descricao": "Programa de sorteios (desde 2003): 1.881 municípios fiscalizados, ~R$ 18 bi em recursos examinados; ~1.500-1.600 processos/ano enviados ao TCU, ~R$ 1 bi em uso indevido",
@@ -1447,7 +1452,7 @@
    "url": "https://ofator.com.br/?p=48687",
    "verificado": false,
    "nota": "LACUNA: valor anual de desconto/renuncia nao encontrado em fonte aberta. TCU apontou que empresas saudaveis receberam descontos pensados para devedores em crise (achado de auditoria, sem individualizar contribuintes).",
-   "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+   "nota_verificacao": "Parcial (07/10/2026): 'R$ 30,8 bi recuperados via transação em 2025' foi lido no PGFN em Números 2026 (PDF, cópia do Poder360). Seguem não verificados na fonte: auditoria do TCU (R$ 718,41 bi em negociação; 57,9% voltaram a inadimplir; ~26% dos acordos não publicados), lida só em imprensa (O Fator)."
   },
   {
    "id": "divida-ativa-pgfn",
@@ -1464,7 +1469,7 @@
    "url": "https://www.ibet.com.br/receita-com-divida-ativa-tem-pico-em-2025-e-oscila-entre-r-50-e-60-bi-ano-a-partir-de-2026/",
    "verificado": false,
    "nota": "Estoque nao e custo anual. Recuperacao anual (R$ 61 bi em 2024; R$ 68,1 bi em 2025) ~2% do estoque. Classificacao 2025 nao obtida.",
-   "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+   "nota_verificacao": "Parcial (07/10/2026): PGFN em Números 2026 (PDF lido) traz recuperação da dívida ativa da União de R$ 66,1 bi em 2025 (+10% sobre 2024) e R$ 1,9 bi do FGTS (soma ~R$ 68,0-68,1 bi); estoque (~R$ 3 tri) e classificação A-D não constam no PDF lido. Estoque de R$ 2.994 bi em 12/2024 aparece em resolução do Conselho Curador do FGTS (só em resultado de busca)."
   },
   {
    "id": "cde-subsidios",
@@ -1480,11 +1485,11 @@
    },
    "quem_paga": "consumidores de energia (tarifas)",
    "base": "Orcamento CDE 2026 proposta ANEEL R$ 52,7 bi (R$ 47,8 bi nas tarifas)",
-   "fonte": "ANEEL via Cenario Energia",
-   "url": "https://cenarioenergia.com.br/2025/12/05/cde-2026-deve-chegar-a-r-527-bilhoes-e-pressiona-debate-sobre-subsidios-no-setor-eletrico/",
-   "verificado": false,
+   "fonte": "ANEEL, Voto da Diretora Agnes da Costa, 41ª Reunião Pública Ordinária de 2025, Processo 48500.029180/2025-63 (abertura de consulta pública do orçamento CDE 2026; cópia hospedada pelo Poder360)",
+   "url": "https://static.poder360.com.br/2025/12/cde-2026-aneel.pdf",
+   "verificado": true,
    "nota": "Proposta de dez/2025; homologacao final nao conferida (LACUNA). Nem toda a CDE e beneficio a empresas (Tarifa Social R$ 10,4 bi vai a familias).",
-   "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+   "nota_verificacao": "Lido em 07/10/2026 na tabela 'Orçamento Anual da CDE' do voto da ANEEL (proposta submetida a consulta pública; orçamento definitivo não conferido). Total R$ 52,7 bi (52.660 mi) e CDE-Uso R$ 47,8 bi lidos no voto."
   },
   {
    "id": "gd-subsidio-cruzado",
@@ -1492,19 +1497,19 @@
    "decisao_id": "politica-industrial-verde",
    "beneficiarios": "proprietarios de GD e geradores incentivados",
    "valor_rs_bi_ano": {
-    "central": 26.4,
+    "central": 26.5,
     "faixa": [
-     20.5,
-     26.4
+     20.6,
+     26.5
     ]
    },
    "quem_paga": "demais consumidores (tarifa)",
-   "base": "CDE 2026: GD R$ 6,8 bi + fontes incentivadas R$ 19,6 bi = R$ 26,4 bi (2025: 3,6 + 16,9 = 20,5)",
-   "fonte": "ANEEL via Cenario Energia",
-   "url": "https://cenarioenergia.com.br/2025/12/05/cde-2026-deve-chegar-a-r-527-bilhoes-e-pressiona-debate-sobre-subsidios-no-setor-eletrico/",
-   "verificado": false,
+   "base": "CDE 2026: GD R$ 6,9 bi + fontes incentivadas R$ 19,6 bi = R$ 26,5 bi (2025: 3,7 + 17,0 = 20,6)",
+   "fonte": "ANEEL, Voto da Diretora Agnes da Costa, 41ª Reunião Pública Ordinária de 2025, Processo 48500.029180/2025-63 (abertura de consulta pública do orçamento CDE 2026; cópia hospedada pelo Poder360)",
+   "url": "https://static.poder360.com.br/2025/12/cde-2026-aneel.pdf",
+   "verificado": true,
    "nota": "Faixa: 2025 a 2026, ambos componentes CDE. Outros estudos podem estimar subsidio cruzado total da GD acima do componente CDE (nao verificados).",
-   "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+   "nota_verificacao": "Lido em 07/10/2026 na tabela 'Orçamento Anual da CDE' do voto da ANEEL (proposta submetida a consulta pública; orçamento definitivo não conferido). Correção do valor anterior (26,4; 20,5): GD 6.861 mi + descontos de distribuição/transmissão 19.622 mi = 26.483 mi; 2025: 3.662 + 16.953 = 20.615 mi."
   },
   {
    "id": "bndes-equalizacao",
@@ -1872,7 +1877,7 @@
   }
  ],
  "lacunas": [
-  "PIB nominal 2025: IBGE respondeu 403 (não contornado); âncora R$ 12.700 bi é o valor arredondado da manchete do IBGE confirmado em imprensa (verificado=false); conferir em SIDRA/Contas Nacionais.",
+  "PIB nominal 2025: resolvido em 07/10/2026 via SIDRA (tabela 1846, soma dos 4 trimestres = R$ 12.738.566 mi); o PIB anual oficial (Contas Nacionais Anuais, tabela 6784) ainda não traz 2025 e pode diferir por revisão.",
   "FIESP/Decomtec: PDF original não localizado; faixa 1,38-2,3% vem de resumo de busca.",
   "FGV: nenhuma estimativa com número foi lida (item sem valor).",
   "Banco Mundial (Kaufmann 2004) e FMI Fiscal Monitor 2019: citados sem abrir a fonte primária.",

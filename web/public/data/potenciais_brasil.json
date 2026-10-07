@@ -25,19 +25,20 @@
      "valor": "~12",
      "unidade": "%",
      "ano": "n/d",
-     "fonte": "ANA / Senado Federal (resumo de busca)",
+     "fonte": "Senado Federal (Estudos Legislativos), citando a ANA",
      "url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/outras-publicacoes/temas-e-agendas-para-o-desenvolvimento-sustentavel/recursos-hidricos-e-desenvolvimento-sustentavel-no-brasil",
-     "verificado": false,
-     "nota": "Número repetido por ANA e Senado; depende da definição (vazão superficial vs. recurso renovável total, que inclui fluxos vindos de fora)."
+     "verificado": true,
+     "nota": "Lido em 07/10/2026 no estudo do Senado (PDF): 'O Brasil detém cerca de 12% da água doce superficial disponível no Planeta e 28% da disponibilidade nas Américas'. Definição de vazão superficial vs. recurso renovável total segue como ressalva."
     },
     {
      "nome": "Área equipada para irrigação",
      "valor": "8,2",
      "unidade": "milhões de ha",
-     "ano": "n/d",
+     "ano": "2021",
      "fonte": "ANA, Atlas Irrigação (resumo de busca)",
      "url": "https://www.revistacultivar.com.br/noticias/atlas-irrigacao-atualiza-area-irrigada-total-no-brasil-em-8-2-milhoes-de-hectares",
-     "verificado": false
+     "verificado": true,
+     "nota": "Lido em 07/10/2026 na Revista Cultivar (01/03/2021): 'o Brasil totaliza 8,2 milhões de hectares equipados para irrigação' (Atlas Irrigação da ANA, lançado em 26/02/2021). Atlas original da ANA não aberto."
     },
     {
      "nome": "Potencial de expansão da irrigação (critérios físicos e de ocupação)",
@@ -47,7 +48,7 @@
      "fonte": "ANA, Atlas Irrigação (resumo de busca)",
      "url": "https://www.revistacultivar.com.br/noticias/atlas-irrigacao-atualiza-area-irrigada-total-no-brasil-em-8-2-milhoes-de-hectares",
      "verificado": false,
-     "nota": "Potencial físico; não inclui custo de energia, outorga nem viabilidade econômica."
+     "nota": "Divergência (07/10/2026): a mesma matéria da Revista Cultivar traz ~55 milhões de ha (até 22% da área agropecuária atual) como área que poderia ser irrigada, e não 76,2. O 76,2 não foi encontrado na página lida; Atlas da ANA não aberto. Potencial físico; não inclui custo de energia, outorga nem viabilidade econômica."
     }
    ],
    "ranking_mundial": "1º em recursos hídricos renováveis totais (FAO AQUASTAT 2020, inferido da tabela)",
@@ -91,7 +92,7 @@
     {
      "titulo": "Recursos hídricos e desenvolvimento sustentável no Brasil (Senado)",
      "url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/outras-publicacoes/temas-e-agendas-para-o-desenvolvimento-sustentavel/recursos-hidricos-e-desenvolvimento-sustentavel-no-brasil",
-     "verificado": false
+     "verificado": true
     },
     {
      "titulo": "List of countries by total renewable water resources (Wikipedia, FAO AQUASTAT)",
@@ -101,7 +102,7 @@
     {
      "titulo": "Atlas Irrigação / ANA (via Revista Cultivar)",
      "url": "https://www.revistacultivar.com.br/noticias/atlas-irrigacao-atualiza-area-irrigada-total-no-brasil-em-8-2-milhoes-de-hectares",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -211,17 +212,17 @@
      "fonte": "Resumo de busca (dados IBGE/PAM citados por Portal Amazônia)",
      "url": "https://portalamazonia.com/amazonia-ameaca-ou-oportunidade/floresta-mercado-desafio-amazonia/",
      "verificado": false,
-     "nota": "Açaí 47% e castanha 26% desse total, segundo o resumo; metodologia não conferida."
+     "nota": "Não confirmado (07/10/2026): a página do Portal Amazônia não traz valor adicionado das cadeias nem os percentuais 47%/26%; só cita a PEVS 2024 da Região Norte (açaí 229.938 t, castanha 33.422 t). Metodologia não conferida."
     },
     {
      "nome": "Colheita de açaí",
-     "valor": "1,6",
+     "valor": "1,7",
      "unidade": "milhão t",
      "ano": "2023",
-     "fonte": "IBGE PAM 2023 (resumo de busca)",
-     "url": "https://portalamazonia.com/amazonia-ameaca-ou-oportunidade/floresta-mercado-desafio-amazonia/",
-     "verificado": false,
-     "nota": "Pará responde por ~94% (resumo de busca)."
+     "fonte": "IBGE, Pesquisa Agrícola Municipal 2023 (SIDRA, tabela 1613)",
+     "url": "https://apisidra.ibge.gov.br/values/t/1613/n1/all/v/214/p/2023/c82/all",
+     "verificado": true,
+     "nota": "Corrigido (07/10/2026): SIDRA tabela 1613 (PAM), variável 214, ano 2023: açaí = 1.696.485 t no Brasil (1,7 milhão t, não 1,6) e 1.576.302 t no Pará (92,9%, não ~94%). A página do Portal Amazônia citada antes não traz esse número."
     }
    ],
    "ranking_mundial": "Sem ranking comparável",
@@ -260,7 +261,8 @@
     {
      "titulo": "Da floresta ao mercado (Portal Amazônia)",
      "url": "https://portalamazonia.com/amazonia-ameaca-ou-oportunidade/floresta-mercado-desafio-amazonia/",
-     "verificado": false
+     "verificado": false,
+     "nota": "Página aberta em 07/10/2026, mas não traz o valor adicionado nem a colheita nacional de açaí; usada só para a PEVS 2024 da Região Norte."
     }
    ]
   },
@@ -393,7 +395,7 @@
      "fonte": "EPE (resumo de busca)",
      "url": "https://canalsolar.com.br/epe-analisa-a-evolucao-tecnica-dos-projetos-de-geracao-centralizada-no-brasil/",
      "verificado": false,
-     "nota": "Exclui áreas sensíveis (Amazônia, Pantanal, Mata Atlântica, UCs, terras indígenas e quilombolas), segundo o resumo; potencial técnico, não econômico."
+     "nota": "Exclui áreas sensíveis (Amazônia, Pantanal, Mata Atlântica, UCs, terras indígenas e quilombolas), segundo o resumo; potencial técnico, não econômico. Não confirmado (07/10/2026): a página do Canal Solar não traz esse número; traz 30 GW em operação (9 GW centralizada + 21 GW distribuída) e 100 GW outorgados. EPE (Plano Nacional de Energia/estudos de potencial) não aberta."
     },
     {
      "nome": "Potencial técnico solar distribuído (telhados)",
@@ -402,7 +404,8 @@
      "ano": "n/d",
      "fonte": "EPE (resumo de busca)",
      "url": "https://canalsolar.com.br/epe-analisa-a-evolucao-tecnica-dos-projetos-de-geracao-centralizada-no-brasil/",
-     "verificado": false
+     "verificado": false,
+     "nota": "Não confirmado (07/10/2026): a página do Canal Solar não traz esse número; traz 30 GW em operação (9 GW centralizada + 21 GW distribuída) e 100 GW outorgados. EPE (Plano Nacional de Energia/estudos de potencial) não aberta."
     },
     {
      "nome": "Projeção PNE 2050 para solar centralizada",
@@ -411,7 +414,8 @@
      "ano": "2020",
      "fonte": "EPE PNE 2050 (resumo de busca)",
      "url": "https://canalsolar.com.br/epe-analisa-a-evolucao-tecnica-dos-projetos-de-geracao-centralizada-no-brasil/",
-     "verificado": false
+     "verificado": false,
+     "nota": "Não confirmado (07/10/2026): a página do Canal Solar não traz esse número; traz 30 GW em operação (9 GW centralizada + 21 GW distribuída) e 100 GW outorgados. EPE (Plano Nacional de Energia/estudos de potencial) não aberta."
     }
    ],
    "ranking_mundial": "Sem ranking verificado",
@@ -460,7 +464,8 @@
     {
      "titulo": "EPE e potencial solar (Canal Solar)",
      "url": "https://canalsolar.com.br/epe-analisa-a-evolucao-tecnica-dos-projetos-de-geracao-centralizada-no-brasil/",
-     "verificado": false
+     "verificado": false,
+     "nota": "Página aberta em 07/10/2026: não contém o potencial técnico nem a projeção do PNE 2050."
     }
    ]
   },
@@ -477,7 +482,7 @@
      "fonte": "Banco Mundial / EPE (resumo de busca)",
      "url": "https://www.worldbank.org/pt/news/opinion/2024/08/15/eolicas-offshore-vem-do-mar-o-vento-que-sopra-novas-oportunidades-para-o-brasil",
      "verificado": false,
-     "nota": "A URL citada retornou 404 na abertura; valor vem do resumo de busca. O Roadmap Eólica Offshore da EPE (2020) não foi aberto."
+     "nota": "A URL citada retornou 404 na abertura; valor vem do resumo de busca. O Roadmap Eólica Offshore da EPE (2020) não foi aberto. URL do Banco Mundial respondeu 404 em 07/10/2026; roteiro EPE (2020) não aberto."
     },
     {
      "nome": "Projetos de hidrogênio verde no Nordeste (anunciados)",
@@ -487,7 +492,7 @@
      "fonte": "Eixos (resumo de busca)",
      "url": "https://eixos.com.br/hidrogenio/cinco-estados-no-nordeste-tem-projetos-para-hidrogenio-verde",
      "verificado": false,
-     "nota": "Cerca de 2/3 das iniciativas nacionais; anúncio não é decisão final de investimento."
+     "nota": "Cerca de 2/3 das iniciativas nacionais; anúncio não é decisão final de investimento. Divergência (07/10/2026): a matéria da Eixos lida cita cinco estados do Nordeste (CE, RN, BA, PE e PI) com projetos/memorandos, e não '44 projetos em 6 estados'; esse número não foi encontrado na página."
     },
     {
      "nome": "Investimento esperado no Complexo do Pecém (CE)",
@@ -496,8 +501,8 @@
      "ano": "n/d",
      "fonte": "AgFeed (resumo de busca)",
      "url": "https://agfeed.com.br/caminhos-do-agro/casa-do-hidrogenio-verde-porto-de-pecem-espera-r-1106-bilhoes-em-investimentos",
-     "verificado": false,
-     "nota": "Valor esperado/anunciado."
+     "verificado": true,
+     "nota": "Lido em 07/10/2026 no AgFeed: Pecém com 'aportes financeiros estimados em R$ 110,6 bilhões' (valor estimado/anunciado, não investimento realizado)."
     }
    ],
    "ranking_mundial": "Sem ranking verificado",
@@ -542,12 +547,14 @@
     {
      "titulo": "Cinco estados no Nordeste têm projetos para hidrogênio verde (Eixos)",
      "url": "https://eixos.com.br/hidrogenio/cinco-estados-no-nordeste-tem-projetos-para-hidrogenio-verde",
-     "verificado": false
+     "verificado": false,
+     "nota": "Página lida em 07/10/2026: cita cinco estados; não confirma 44 projetos em 6 estados."
     },
     {
      "titulo": "Eólicas offshore: vem do mar o vento (Banco Mundial)",
      "url": "https://www.worldbank.org/pt/news/opinion/2024/08/15/eolicas-offshore-vem-do-mar-o-vento-que-sopra-novas-oportunidades-para-o-brasil",
-     "verificado": false
+     "verificado": false,
+     "nota": "URL respondeu 404 em 07/10/2026."
     }
    ]
   },
@@ -593,7 +600,8 @@
      "ano": "2021",
      "fonte": "Revista Pesquisa FAPESP (resumo de busca)",
      "url": "https://revistapesquisa.fapesp.br/o-polemico-niobio/",
-     "verificado": false
+     "verificado": false,
+     "nota": "Divergência (07/10/2026): a Pesquisa FAPESP lida diz que as duas minas brasileiras (CBMM, Araxá, e CMOC, Catalão) respondem por 82% do nióbio vendido no mundo (~120 mil t/ano; CBMM ~90 mil t), isto é, ~75% para a CBMM; não traz ~90%. Mantido o valor original por não haver fonte melhor, sem verificação."
     }
    ],
    "ranking_mundial": "1º em produção (~93%) e em reservas (~67%), USGS MCS 2026",
@@ -639,7 +647,8 @@
     {
      "titulo": "O polêmico nióbio (Revista Pesquisa FAPESP)",
      "url": "https://revistapesquisa.fapesp.br/o-polemico-niobio/",
-     "verificado": false
+     "verificado": false,
+     "nota": "Página lida em 07/10/2026: traz 82% (Brasil) e ~75% (CBMM, por cálculo a partir de 90 mil t de 120 mil t), não ~90%."
     }
    ]
   },
@@ -756,7 +765,7 @@
      "fonte": "Jornal Opção (resumo de busca)",
      "url": "https://www.jornalopcao.com.br/goias/conheca-a-mineradora-em-goias-que-e-a-unica-produtora-do-mercado-mundial-de-terras-raras-fora-da-asia-728792/",
      "verificado": false,
-     "nota": "Mina Pela Ema, Minaçu (GO), argila iônica; produção comercial desde 2024; descrita como a única produtora em escala fora da Ásia."
+     "nota": "Mina Pela Ema, Minaçu (GO), argila iônica; produção comercial desde 2024; descrita como a única produtora em escala fora da Ásia. Página do Jornal Opção respondeu 403 em 07/10/2026."
     },
     {
      "nome": "Venda da Serra Verde à USA Rare Earth",
@@ -765,8 +774,8 @@
      "ano": "2026",
      "fonte": "Gazeta do Povo (resumo de busca)",
      "url": "https://www.gazetadopovo.com.br/economia/empresa-dos-eua-compra-mineradora-brasileira-de-terras-raras-por-us-28-bi-em-disputa-com-a-china/",
-     "verificado": false,
-     "nota": "Notícia de abril de 2026 em resumo de busca; termos não conferidos."
+     "verificado": true,
+     "nota": "Lido em 07/10/2026 na Gazeta do Povo: US$ 2,8 bi no total, sendo US$ 300 mi em dinheiro e 126,8 milhões de novas ações da USA Rare Earth aos acionistas da Serra Verde; anunciado em 20/04/2026; fechamento depende de aprovações regulatórias (previsto até o fim do 3T26). Não é um fechamento concluído."
     }
    ],
    "ranking_mundial": "Reservas: grafite ~2º, manganês ~3º, terras raras e níquel entre os maiores (inferido das tabelas USGS); produção: pequena parcela em todos (0,5% a 4%).",
@@ -840,12 +849,13 @@
     {
      "titulo": "Serra Verde (Jornal Opção)",
      "url": "https://www.jornalopcao.com.br/goias/conheca-a-mineradora-em-goias-que-e-a-unica-produtora-do-mercado-mundial-de-terras-raras-fora-da-asia-728792/",
-     "verificado": false
+     "verificado": false,
+     "nota": "Respondeu 403 em 07/10/2026."
     },
     {
      "titulo": "Venda da Serra Verde à USA Rare Earth (Gazeta do Povo)",
      "url": "https://www.gazetadopovo.com.br/economia/empresa-dos-eua-compra-mineradora-brasileira-de-terras-raras-por-us-28-bi-em-disputa-com-a-china/",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -891,7 +901,8 @@
      "ano": "n/d",
      "fonte": "Embrapa (resumo de busca)",
      "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1118785/1/cap7.pdf",
-     "verificado": false
+     "verificado": true,
+     "nota": "Lido em 07/10/2026 no cap. 7 do livro da Embrapa (ILPF, PDF): 'passou de cerca de 2.000 kg/ha para produtividades superiores a 5.000 kg/ha, mesmo em cultivo de segunda safra'. Escopo: Mato Grosso do Sul, Paraná e São Paulo, não o Brasil; sem ano de início/fim."
     }
    ],
    "ranking_mundial": "1º em crescimento da PTF agrícola em 2000-2019 entre os países selecionados (Ipea com USDA/ERS)",
@@ -980,7 +991,7 @@
      "fonte": "Lapig/UFG (resumo de busca)",
      "url": "https://wwfbr.awsassets.panda.org/downloads/qualidade_e_aptidao_agricola_das_areas_de_pastagens_no_bioma_cerrado.pdf",
      "verificado": false,
-     "nota": "Os números de degradação dependem do critério de vigor vegetativo; não equivalem a 'improdutiva'."
+     "nota": "Os números de degradação dependem do critério de vigor vegetativo; não equivalem a 'improdutiva'. O PDF do WWF/Lapig aberto em 07/10/2026 é o atlas da qualidade das pastagens do bioma Cerrado (2021); não traz ~177 Mha nem os percentuais de vigor de 2022."
     }
    ],
    "ranking_mundial": "Sem ranking",
@@ -1071,8 +1082,8 @@
      "ano": "2024",
      "fonte": "Governo federal (via Mongabay, resumo de busca)",
      "url": "https://news.mongabay.com/short-article/2024/11/brazil-renews-plan-to-restore-degraded-land-half-the-size-of-the-uk/",
-     "verificado": false,
-     "nota": "Mais de 75% da área-alvo é propriedade privada; financiamento parcial, segundo o resumo."
+     "verificado": true,
+     "nota": "Lido em 07/10/2026 no Mongabay (nov/2024): 'aims to restore 12 million hectares ... by 2030'. Reportagem sobre o anúncio do governo; texto oficial do Planaveg 2.0 não aberto."
     },
     {
      "nome": "Regeneração natural já em curso na Amazônia",
@@ -1081,7 +1092,8 @@
      "ano": "n/d",
      "fonte": "Resumo de busca (Mongabay)",
      "url": "https://news.mongabay.com/short-article/2024/11/brazil-renews-plan-to-restore-degraded-land-half-the-size-of-the-uk/",
-     "verificado": false
+     "verificado": true,
+     "nota": "Lido em 07/10/2026 no Mongabay: '5,6 milhões de hectares' em regeneração natural na Amazônia (declaração de Fabíola Zerbini); sem ano de referência."
     }
    ],
    "ranking_mundial": "Sem ranking verificado",
@@ -1140,7 +1152,7 @@
     {
      "titulo": "Mongabay: Planaveg 2.0",
      "url": "https://news.mongabay.com/short-article/2024/11/brazil-renews-plan-to-restore-degraded-land-half-the-size-of-the-uk/",
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -1186,7 +1198,8 @@
      "ano": "2024",
      "fonte": "MapBiomas (resumo de busca)",
      "url": "https://ihu.unisinos.br/categorias/644315-protecao-de-povos-originarios-faz-de-terras-indigenas-as-areas-mais-preservadas-do-brasil",
-     "verificado": false
+     "verificado": false,
+     "nota": "Divergência (07/10/2026): a matéria do IHU lida cita MapBiomas (terras indígenas perderam 1% da vegetação nativa entre 1985 e 2023; 23% da Amazônia Legal), mas não traz 13% do território nem 19% da vegetação nativa."
     }
    ],
    "ranking_mundial": "Sem ranking; é evidência comparativa interna (TI vs. terras privadas)",
@@ -1280,7 +1293,7 @@
      "fonte": "Marinha do Brasil (resumo de busca)",
      "url": "https://www.marinha.mil.br/economia-azul/noticias/o-que-é-amazônia-azul-e-por-que-o-brasil-quer-se-tornar-potência-militar-no-atlântico",
      "verificado": false,
-     "nota": "Parte da plataforma estendida foi aprovada em 2019 (170 mil km² no Sul, resumo de busca)."
+     "nota": "Parte da plataforma estendida foi aprovada em 2019 (170 mil km² no Sul, resumo de busca). Página da Marinha respondeu 403 em 07/10/2026."
     },
     {
      "nome": "Petróleo bruto como maior item da pauta exportadora",
@@ -1289,8 +1302,8 @@
      "ano": "2024",
      "fonte": "ComexStat (resumo de busca)",
      "url": "https://istoedinheiro.com.br/produtos-e-destinos-exportacoes-2024",
-     "verificado": false,
-     "nota": "Superou a soja pela primeira vez."
+     "verificado": true,
+     "nota": "Lido em 07/10/2026: óleos brutos = US$ 44.842,76 mi em 2024 (tabela da Istoé Dinheiro com dados do ComexStat) e exportações totais de 2024 = US$ 337.046 mi (API do ComexStat/MDIC); 44,84/337,05 = 13,3% (cálculo nosso)."
     }
    ],
    "ranking_mundial": "9º produtor de petróleo (Wikipedia, jan/2026)",
@@ -1419,8 +1432,8 @@
      "ano": "n/d",
      "fonte": "Resumo de busca (IBGE)",
      "url": "https://www.dgabc.com.br/Noticia/4159808/populacao-brasileira-e-de-quase-212-6-milhoes-estima-ibge",
-     "verificado": false,
-     "nota": "A série oficial de razão de dependência não foi obtida; o ano exato do mínimo é pergunta aberta."
+     "verificado": true,
+     "nota": "Lido em 07/10/2026 no DGABC: o bônus demográfico 'já começa a perder seus efeitos antes mesmo de 2030' (projeções do IBGE). A reportagem não cita a razão de dependência nem o ano exato do mínimo; segue pergunta aberta. A série oficial de razão de dependência não foi obtida."
     }
    ],
    "ranking_mundial": "7º país mais populoso (Wikipedia, 203 milhões em 2022)",
@@ -1522,10 +1535,10 @@
      "valor": "2024",
      "unidade": "ano",
      "ano": "2024",
-     "fonte": "Revista Pesquisa FAPESP (resumo de busca)",
-     "url": "https://revistapesquisa.fapesp.br/cobertura-de-vacinas-para-criancas-de-ate-2-anos-volta-a-subir-a-partir-de-2022/",
-     "verificado": false,
-     "nota": "A cobertura vacinal caiu por seis anos desde 2016 e voltou a subir a partir de 2022; nenhuma vacina infantil atingiu a meta em todos os estados em 2023."
+     "fonte": "OPAS/PAHO, 'OPAS verifica que o Brasil é mais uma vez um país livre do sarampo' (12/11/2024)",
+     "url": "https://www.paho.org/pt/noticias/12-11-2024-opas-verifica-que-brasil-e-mais-uma-vez-um-pais-livre-do-sarampo",
+     "verificado": true,
+     "nota": "OPAS/PAHO, 12/11/2024 (lido em 07/10/2026): o Brasil foi 'reverificado como livre de sarampo, rubéola e síndrome da rubéola congênita'. A matéria da Pesquisa FAPESP antes citada não trata da recertificação (diz que o caso de 2022 no Amapá fez o país perder o título). A cobertura vacinal caiu por seis anos desde 2016 e voltou a subir a partir de 2022; nenhuma vacina infantil atingiu a meta em todos os estados em 2023."
     }
    ],
    "ranking_mundial": "Sem ranking verificado",
@@ -1573,9 +1586,14 @@
      "verificado": true
     },
     {
-     "titulo": "Cobertura de vacinas volta a subir (Pesquisa FAPESP)",
+     "titulo": "Cobertura de vacinas volta a subir (Pesquisa FAPESP) - lida; não trata da recertificação de 2024",
      "url": "https://revistapesquisa.fapesp.br/cobertura-de-vacinas-para-criancas-de-ate-2-anos-volta-a-subir-a-partir-de-2022/",
      "verificado": false
+    },
+    {
+     "titulo": "OPAS/PAHO: Brasil é mais uma vez um país livre do sarampo (12/11/2024)",
+     "url": "https://www.paho.org/pt/noticias/12-11-2024-opas-verifica-que-brasil-e-mais-uma-vez-um-pais-livre-do-sarampo",
+     "verificado": true
     }
    ]
   },
@@ -1592,7 +1610,7 @@
      "fonte": "OCDE, PISA 2022 country note (resumo de busca)",
      "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/brazil_61690648-en.html",
      "verificado": false,
-     "nota": "A página da OCDE retornou 403; um resumo citou OCDE 479, mas 472 é o valor da nota-país; conferir na fonte primária."
+     "nota": "A página da OCDE retornou 403; um resumo citou OCDE 479, mas 472 é o valor da nota-país; conferir na fonte primária. Parcial (07/10/2026): a nota de país da OCDE foi aberta; os valores médios (379 vs 472) estão em figura e não no texto."
     },
     {
      "nome": "Estudantes abaixo do nível 2 em matemática",
@@ -1601,7 +1619,8 @@
      "ano": "2022",
      "fonte": "OCDE (resumo de busca)",
      "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/brazil_61690648-en.html",
-     "verificado": false
+     "verificado": false,
+     "nota": "Parcial (07/10/2026): o texto da nota da OCDE traz 71% dos meninos e 76% das meninas abaixo do nível 2 em matemática (compatível com ~73% no total); o 73% vs 31% da OCDE não aparece no texto."
     },
     {
      "nome": "Informalidade entre ocupados",
@@ -1694,8 +1713,8 @@
      "ano": "2025",
      "fonte": "Embratur (resumo de busca)",
      "url": "https://diariodocomercio.com.br/turismo/brasil-tem-recorde-9-milhoes-turistas-internacionais-2025/",
-     "verificado": false,
-     "nota": "Recorde; 2024: 6,77 milhões; as fontes divergem entre 9,0 e 9,3 milhões."
+     "verificado": true,
+     "nota": "Lido em 07/10/2026 no Diário do Comércio: 'O Brasil alcançou ... o recorde de 9 milhões de turistas internacionais em 2025', 40% acima de 6,77 milhões em 2024. Número redondo de reportagem, não o da Embratur/PF."
     },
     {
      "nome": "Gasto de turistas estrangeiros",
@@ -1704,8 +1723,8 @@
      "ano": "2025",
      "fonte": "Banco Central (resumo de busca)",
      "url": "https://sbtnews.sbt.com.br/noticia/economia/turismo-internacional-movimenta-r-41-5-bilhoes-no-brasil-em-2025",
-     "verificado": false,
-     "nota": "+7,1% sobre 2024."
+     "verificado": true,
+     "nota": "Lido em 07/10/2026 no SBT News, que cita o relatório de estatísticas do setor externo do Banco Central: R$ 41,5 bi, ou US$ 7,9 bi (+7,1% sobre 2024). Série primária do BCB não aberta."
     },
     {
      "nome": "PIB criativo (participação no PIB)",
@@ -1715,7 +1734,7 @@
      "fonte": "Firjan, Mapeamento da Indústria Criativa 2022 (resumo de busca)",
      "url": "https://appsext.firjan.com.br/economiacriativa/downloads/MapeamentoIndustriaCriativa2022.pdf",
      "verificado": false,
-     "nota": "Metodologia da Firjan; 935 mil profissionais criativos formais."
+     "nota": "Metodologia da Firjan; 935 mil profissionais criativos formais. Divergência (07/10/2026): a URL do mapeamento 2022 redireciona (301) ao Observatório Firjan, cuja página atual traz PIB Criativo de 3,20% (2021), 3,21% (2022) e 3,59% (2023); 2,91% (2020) e 2,61% (2017) não foram encontrados."
     }
    ],
    "ranking_mundial": "Sem ranking verificado",
@@ -1759,17 +1778,18 @@
     {
      "titulo": "Brasil tem recorde de 9 milhões de turistas em 2025",
      "url": "https://diariodocomercio.com.br/turismo/brasil-tem-recorde-9-milhoes-turistas-internacionais-2025/",
-     "verificado": false
+     "verificado": true
     },
     {
      "titulo": "Turismo internacional movimenta R$ 41,5 bilhões em 2025",
      "url": "https://sbtnews.sbt.com.br/noticia/economia/turismo-internacional-movimenta-r-41-5-bilhoes-no-brasil-em-2025",
-     "verificado": false
+     "verificado": true
     },
     {
      "titulo": "Firjan, Mapeamento da Indústria Criativa 2022",
      "url": "https://appsext.firjan.com.br/economiacriativa/downloads/MapeamentoIndustriaCriativa2022.pdf",
-     "verificado": false
+     "verificado": false,
+     "nota": "URL redireciona (301) ao Observatório Firjan em 07/10/2026; a página atual não traz 2020 nem 2017."
     }
    ]
   },
@@ -1865,15 +1885,15 @@
     "fonte": "JPMorgan (via Times Brasil)",
     "valor": "PIB potencial 1,5% (2024) → ~2% (2025)",
     "periodo": "2024-2025",
-    "metodo": "Não detalhado no resumo; atribuído às reformas desde 2016",
-    "verificado": false,
+    "metodo": "Lido em 07/10/2026 no Times Brasil: Cassiana Fernandez (JPMorgan) no Santander Annual Conference: 'o PIB potencial subiu de 1,5% no passado para algo perto de 2% ou acima', atribuído às reformas desde 2016. Estimativa de banco, não oficial.",
+    "verificado": true,
     "url": "https://timesbrasil.com.br/brasil/economia-brasileira/pib-potencial-do-brasil-sobe-para-2-em-2025-aponta-jpmorgan/"
    },
    {
     "fonte": "Ministério do Planejamento (via Gazeta SP, só manchete)",
     "valor": "PIB potencial de 1% para até 2,5%",
     "periodo": "n/d",
-    "metodo": "Não obtido (página 403)",
+    "metodo": "Não obtido (página 403 em 07/10/2026)",
     "verificado": false,
     "url": "https://www.gazetasp.com.br/economia/planejamento-estima-que-pib-potencial-do-brasil-passou-de-1-para-ate/"
    },
@@ -1881,7 +1901,7 @@
     "fonte": "OCDE (via vLex, projeção de longo prazo)",
     "valor": "PIB potencial per capita +1,1% ao ano em 2020-2030 e +1,4% em 2030-2060; Brasil chegaria a ~27% do padrão de vida dos EUA em 2060",
     "periodo": "2020-2060",
-    "metodo": "Projeção de longo prazo da OCDE (safra anterior, não atualizada)",
+    "metodo": "Projeção de longo prazo da OCDE (safra anterior, não atualizada) Parcial (07/10/2026): a vLex lida confirma o padrão de vida de 23% do dos EUA hoje para 27% em 2060 sem reforma estrutural; as taxas de 1,1% e 1,4% ao ano não aparecem na parte lida.",
     "verificado": false,
     "url": "https://vlex.com.br/vid/brazil-to-have-27-877038388"
    },
@@ -1889,7 +1909,7 @@
     "fonte": "Banco Central, Relatório de Política Monetária (via resumo de busca)",
     "valor": "Hiato do produto +0,9% no 1T25 (economia acima do potencial)",
     "periodo": "1T25",
-    "metodo": "Estimativa interna do BCB; o nível do PIB potencial não foi obtido (PDF aberto não trazia a decomposição)",
+    "metodo": "Estimativa interna do BCB; o nível do PIB potencial não foi obtido (PDF aberto não trazia a decomposição) Parcial (07/10/2026): o box do RPM (jun/2025) lido diz que, no 1T25, 'todas as estimativas são de hiato no campo positivo'; o valor +0,9% não está no texto (pode estar em gráfico/tabela).",
     "verificado": false,
     "url": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202506/rpm202506b8p.pdf"
    },
@@ -1957,11 +1977,11 @@
    },
    {
     "gap": "Custo Brasil",
-    "valor": "R$ 1,7 trilhão por ano, 19,5% do PIB (2022, vs. média OCDE; em 2019: R$ 1,5 tri, 22% do PIB)",
+    "valor": "R$ 1,7 trilhão por ano, 19,5% do PIB de 2021 (vs. média OCDE; medido pela primeira vez em 2019: R$ 1,5 tri, 22% do PIB)",
     "fonte": "MBC/MDIC com FGV (via Panrotas)",
-    "verificado": false,
+    "verificado": true,
     "url": "https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/05/custo-brasil-atinge-o-patamar-de-r-17-trilhao_196810.html",
-    "nota": "É custo adicional para produzir vs. a média da OCDE em 12 áreas; metodologia contestada em parte (não verificado aqui); não é perda líquida eliminável por completo."
+    "nota": "É custo adicional para produzir vs. a média da OCDE em 12 áreas; metodologia contestada em parte (não verificado aqui); não é perda líquida eliminável por completo. Corrigido em 07/10/2026: a Panrotas (17/05/2023, lida) compara os R$ 1,7 tri ao PIB de 2021 (19,5%), e não ao de 2022; estudo do MBC com MDIC e FGV; variação nominal de ~16% sobre 2019, estável em termos reais."
    },
    {
     "gap": "Custo logístico",
@@ -1985,7 +2005,7 @@
     "fonte": "OCDE (resumo de busca)",
     "verificado": false,
     "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/brazil_61690648-en.html",
-    "nota": "Diferença de 93 pontos; cerca de 2-3 anos de escolaridade pelo rule-of-thumb da OCDE (não verificado aqui)."
+    "nota": "Diferença de 93 pontos; cerca de 2-3 anos de escolaridade pelo rule-of-thumb da OCDE (não verificado aqui). Parcial (07/10/2026): ver métricas PISA em potencias[15]; os pontos 379/472 não aparecem no texto da nota de país."
    }
   ],
   "o_que_cada_decisao_mexe": {

@@ -92,13 +92,13 @@
    },
    "limite_modelo": null,
    "valor_financeiro": {
-    "rs_bi_ano": -127.0,
+    "rs_bi_ano": -127.4,
     "primary_target_pp": -1.0,
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -143,13 +143,13 @@
    },
    "limite_modelo": null,
    "valor_financeiro": {
-    "rs_bi_ano": 152.4,
+    "rs_bi_ano": 152.9,
     "primary_target_pp": 1.2,
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -191,13 +191,13 @@
    },
    "limite_modelo": "Benefício só começa após ~5 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
    "valor_financeiro": {
-    "rs_bi_ano": 50.8,
+    "rs_bi_ano": 51.0,
     "primary_target_pp": 0.4,
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -240,13 +240,13 @@
    },
    "limite_modelo": null,
    "valor_financeiro": {
-    "rs_bi_ano": 101.6,
+    "rs_bi_ano": 101.9,
     "primary_target_pp": 0.8,
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -289,13 +289,13 @@
    },
    "limite_modelo": null,
    "valor_financeiro": {
-    "rs_bi_ano": 88.9,
+    "rs_bi_ano": 89.2,
     "primary_target_pp": 0.7,
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -337,13 +337,13 @@
    },
    "limite_modelo": null,
    "valor_financeiro": {
-    "rs_bi_ano": 76.2,
+    "rs_bi_ano": 76.4,
     "primary_target_pp": 0.6,
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -446,13 +446,13 @@
    },
    "limite_modelo": null,
    "valor_financeiro": {
-    "rs_bi_ano": -63.5,
+    "rs_bi_ano": -63.7,
     "primary_target_pp": -0.5,
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -508,13 +508,13 @@
    },
    "limite_modelo": null,
    "valor_financeiro": {
-    "rs_bi_ano": -50.8,
+    "rs_bi_ano": -51.0,
     "primary_target_pp": -0.4,
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -557,13 +557,13 @@
    },
    "limite_modelo": null,
    "valor_financeiro": {
-    "rs_bi_ano": -38.1,
+    "rs_bi_ano": -38.2,
     "primary_target_pp": -0.3,
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -636,13 +636,13 @@
    },
    "limite_modelo": null,
    "valor_financeiro": {
-    "rs_bi_ano": -25.4,
+    "rs_bi_ano": -25.5,
     "primary_target_pp": -0.2,
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -872,13 +872,13 @@
    },
    "limite_modelo": "Benefício só começa após ~3 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
    "valor_financeiro": {
-    "rs_bi_ano": 25.4,
+    "rs_bi_ano": 25.5,
     "primary_target_pp": 0.2,
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -1109,8 +1109,8 @@
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -1194,8 +1194,8 @@
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -1243,8 +1243,8 @@
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -1287,13 +1287,13 @@
    },
    "limite_modelo": "Benefício só começa após ~5 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
    "valor_financeiro": {
-    "rs_bi_ano": -25.4,
+    "rs_bi_ano": -25.5,
     "primary_target_pp": -0.2,
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -1342,8 +1342,8 @@
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -1386,13 +1386,13 @@
    },
    "limite_modelo": "Benefício só começa após ~8 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
    "valor_financeiro": {
-    "rs_bi_ano": -38.1,
+    "rs_bi_ano": -38.2,
     "primary_target_pp": -0.3,
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -1437,13 +1437,13 @@
    },
    "limite_modelo": "Benefício só começa após ~6 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
    "valor_financeiro": {
-    "rs_bi_ano": -38.1,
+    "rs_bi_ano": -38.2,
     "primary_target_pp": -0.3,
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
@@ -1453,13 +1453,13 @@
      "id": "gd-subsidio-cruzado",
      "tema": "Subsidio cruzado da geracao distribuida e descontos a fontes incentivadas",
      "valor_rs_bi_ano": {
-      "central": 26.4,
+      "central": 26.5,
       "faixa": [
-       20.5,
-       26.4
+       20.6,
+       26.5
       ]
      },
-     "verificado": false
+     "verificado": true
     }
    ]
   },
@@ -1504,8 +1504,8 @@
     "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
     "ancora_pib": {
      "ano": 2025,
-     "valor_rs_bi": 12700.0,
-     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+     "valor_rs_bi": 12738.6,
+     "fonte": "IBGE, Contas Nacionais Trimestrais, SIDRA tabela 1846 (variável 585, 'PIB a preços de mercado', valores correntes): soma dos quatro trimestres de 2025 = R$ 12.738.566 milhões (3.024.723 + 3.200.345 + 3.235.708 + 3.277.790)"
     },
     "natureza": "estimativa",
     "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
