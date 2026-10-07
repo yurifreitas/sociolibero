@@ -2,7 +2,101 @@
  "meta": {
   "gerado_em": "2026-10-06",
   "aviso": "Revisão histórica compilada de fontes públicas (legislação do Planalto, Wikipedia, imprensa e DOIs). 'verificado: true' significa que a URL foi acessada com sucesso (HTTP 200) e corresponde ao tema; não significa leitura integral nem validação de cada número. Itens marcados no texto como 'de memória' ou 'aproximado' devem ser conferidos em fonte primária. Fontes com verificado:false retornaram erro (403/500) ou não foram abertas. O resultado do 1º turno de 2026 usa o snapshot do TSE de 05/10/2026 (preliminar). Não substitui pesquisa historiográfica.",
-  "criterio_verificacao": "HTTP 200 e correspondência temática; fatos não lidos integralmente marcados na própria descrição."
+  "criterio_verificacao": "HTTP 200 e correspondência temática; fatos não lidos integralmente marcados na própria descrição.",
+  "revisao": [
+   {
+    "id": "pacote-1977",
+    "data": "2026-10-07",
+    "campo": "data",
+    "antes": "1977-04-01",
+    "depois": "1977-04-14",
+    "motivo": "A data 1977-04-01 é a do recesso do Congresso (Ato Complementar 102); o Pacote de Abril em si são a EC 7 (13/04), a EC 8 e o Decreto-Lei 1.538 (ambos de 14/04/1977), promulgados pelo Executivo durante o recesso, que o AC 103 suspendeu a partir de 15/04. Eram dois eventos distintos.",
+    "fonte": {
+     "titulo": "Ato Complementar nº 102, de 01/04/1977 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/ACP/acp-102-77.htm"
+    },
+    "verificado": true
+   },
+   {
+    "id": "pacote-1977",
+    "data": "2026-10-07",
+    "campo": "resumo",
+    "antes": "Geisel fecha o Congresso (1º/04/1977) e decreta reformas: mandato presidencial de 6 anos, senadores biônicos, mudança de quórum de emendas, Lei Falcão.",
+    "depois": "Geisel pôs o Congresso em recesso em 01/04/1977 (Ato Complementar 102) e, durante o recesso, promulgou a EC 7 (13/04, Judiciário), a EC 8 e o Decreto-Lei 1.538 (14/04): mandato presidencial de 6 anos, senadores biônicos, colégio eleitoral ampliado para governadores, emendas por maioria absoluta do Congresso (não 'quórum reduzido' a maioria simples) e extensão da Lei Falcão; o recesso foi suspenso a partir de 15/04 (AC 103).",
+    "motivo": "Separa os dois eventos e corrige o quórum (art. 48 da EC 8: maioria absoluta do total do Congresso).",
+    "fonte": {
+     "titulo": "Emenda Constitucional nº 8, de 14/04/1977 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc08-77.htm"
+    },
+    "verificado": true
+   },
+   {
+    "id": "pacote-1977",
+    "data": "2026-10-07",
+    "campo": "controversias",
+    "antes": "—",
+    "depois": "Datas: a Wikipédia dá 13/04/1977 para o pacote; os textos primários mostram 01/04 (recesso), 13/04 (EC 7), 14/04 (EC 8 e DL 1.538) e 15/04 (fim do recesso).",
+    "motivo": "Registra a divergência de datas e sua resolução.",
+    "fonte": {
+     "titulo": "Ato Complementar nº 103, de 14/04/1977 - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/ACP/acp-103-77.htm"
+    },
+    "verificado": true
+   },
+   {
+    "id": "c1934",
+    "data": "2026-10-07",
+    "campo": "resumo",
+    "antes": "Cria Justiça Eleitoral e Justiça do Trabalho, voto feminino, mandado de segurança, ação popular; Senado reduzido a órgão de colaboração; art. 129 respeita a posse de terras de 'silvícolas'.",
+    "depois": "Constitucionaliza a Justiça Eleitoral (criada pelo Código Eleitoral de 1932; arts. 82-83) e institui a Justiça do Trabalho (art. 122); voto feminino (art. 108), mandado de segurança, ação popular; Senado reduzido a órgão de colaboração; art. 129 respeita a posse de terras de 'silvícolas'.",
+    "motivo": "A Justiça Eleitoral foi instituída pelo Decreto 21.076/1932 (art. 5º); a Constituição de 1934 a constitucionalizou. Justiça do Trabalho (art. 122) e voto de ambos os sexos aos 18 anos (art. 108) confirmados no texto.",
+    "fonte": {
+     "titulo": "Constituição de 1934 - Planalto (arts. 82, 108, 122 lidos)",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao34.htm"
+    },
+    "verificado": true
+   },
+   {
+    "id": "l14701-2023",
+    "data": "2026-10-07",
+    "campo": "resumo",
+    "antes": "O Congresso aprova projeto que fixa o marco temporal e limita demarcações; Lula veta integralmente os pontos centrais; em 14/12/2023 o Congresso derruba os vetos e promulga a lei.",
+    "depois": "O Congresso aprova projeto que fixa o marco temporal e limita demarcações; em 20/10/2023 Lula sanciona com veto parcial (Mensagem de veto nº 536); em dezembro de 2023 o Congresso derruba parte dos vetos e promulga os dispositivos derrubados (data exata do ato de derrubada não conferida nesta revisão).",
+    "motivo": "O título da Mensagem nº 536 é 'veto parcial'; o texto anterior dizia 'veta integralmente'.",
+    "fonte": {
+     "titulo": "Mensagem nº 536, de 20/10/2023 (veto parcial à Lei 14.701/2023) — web/public/textos/veto-lei-14701-2023.txt",
+     "url": "web/public/textos/veto-lei-14701-2023.txt"
+    },
+    "verificado": true
+   },
+   {
+    "id": "adc87-2024",
+    "data": "2026-10-07",
+    "campo": "controversias",
+    "antes": "Organizações indígenas (APIB) criticam a conciliação e o formato; setor do agro defende o marco legal.",
+    "depois": "Organizações indígenas (APIB) criticam a conciliação e o formato; setor do agro defende o marco legal. [Revisão 07/10/2026: sem confirmação em fonte aberta lida; um agente de revisão informa que o julgamento teria terminado em dezembro de 2025, também não verificado.]",
+    "motivo": "Data e conteúdo não confirmados em fonte primária.",
+    "fonte": {
+     "titulo": "Revisão do agente do eleitorado e indígenas (relato, não fonte)",
+     "url": ""
+    },
+    "verificado": false
+   },
+   {
+    "id": "marco-2026",
+    "data": "2026-10-07",
+    "campo": "controversias",
+    "antes": "Data e conteúdo de síntese de busca; confirmar no acórdão.",
+    "depois": "Data e conteúdo de síntese de busca; confirmar no acórdão. [Revisão 07/10/2026: sem confirmação em fonte aberta lida; um agente de revisão informa que o julgamento teria terminado em dezembro de 2025, também não verificado.]",
+    "motivo": "Data e conteúdo não confirmados em fonte primária.",
+    "fonte": {
+     "titulo": "Revisão do agente do eleitorado e indígenas (relato, não fonte)",
+     "url": ""
+    },
+    "verificado": false
+   }
+  ],
+  "revisado_em": "2026-10-07"
  },
  "periodos": [
   {
@@ -608,7 +702,7 @@
    "trilha": "estado",
    "categoria": "constituicao",
    "titulo": "Constituição de 1934",
-   "resumo": "Cria Justiça Eleitoral e Justiça do Trabalho, voto feminino, mandado de segurança, ação popular; Senado reduzido a órgão de colaboração; art. 129 respeita a posse de terras de 'silvícolas'.",
+   "resumo": "Constitucionaliza a Justiça Eleitoral (criada pelo Código Eleitoral de 1932; arts. 82-83) e institui a Justiça do Trabalho (art. 122); voto feminino (art. 108), mandado de segurança, ação popular; Senado reduzido a órgão de colaboração; art. 129 respeita a posse de terras de 'silvícolas'.",
    "impacto_poderes": "Fortalece o Executivo e a representação corporativa; estabelece o reconhecimento constitucional da posse indígena (que se repetiria nas constituições seguintes).",
    "controversias": "Vigência curta (3 anos).",
    "fontes": [
@@ -1226,18 +1320,43 @@
   },
   {
    "id": "pacote-1977",
-   "data": "1977-04-01",
+   "data": "1977-04-14",
    "periodo": "abertura",
    "trilha": "estado",
    "categoria": "ato-institucional",
    "titulo": "Pacote de Abril",
-   "resumo": "Geisel fecha o Congresso (1º/04/1977) e decreta reformas: mandato presidencial de 6 anos, senadores biônicos, mudança de quórum de emendas, Lei Falcão.",
+   "resumo": "Geisel pôs o Congresso em recesso em 01/04/1977 (Ato Complementar 102) e, durante o recesso, promulgou a EC 7 (13/04, Judiciário), a EC 8 e o Decreto-Lei 1.538 (14/04): mandato presidencial de 6 anos, senadores biônicos, colégio eleitoral ampliado para governadores, emendas por maioria absoluta do Congresso (não 'quórum reduzido' a maioria simples) e extensão da Lei Falcão; o recesso foi suspenso a partir de 15/04 (AC 103).",
    "impacto_poderes": "Executivo altera regras do jogo sem o Legislativo; 'distensão' coexistindo com arbítrio.",
-   "controversias": "—",
+   "controversias": "Datas: a Wikipédia dá 13/04/1977 para o pacote; os textos primários mostram 01/04 (recesso), 13/04 (EC 7), 14/04 (EC 8 e DL 1.538) e 15/04 (fim do recesso).",
    "fontes": [
     {
      "titulo": "Pacote de Abril - Wikipedia",
      "url": "https://pt.wikipedia.org/wiki/Pacote_de_Abril",
+     "verificado": true
+    },
+    {
+     "titulo": "Ato Complementar nº 102, de 01/04/1977 - Planalto (texto lido)",
+     "url": "https://www.planalto.gov.br/ccivil_03/ACP/acp-102-77.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Ato Complementar nº 103, de 14/04/1977 - Planalto (texto lido)",
+     "url": "https://www.planalto.gov.br/ccivil_03/ACP/acp-103-77.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Emenda Constitucional nº 7, de 13/04/1977 - Planalto (texto lido)",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc07-77.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Emenda Constitucional nº 8, de 14/04/1977 - Planalto (texto lido)",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc08-77.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Decreto-Lei nº 1.538, de 14/04/1977 - Planalto (texto lido)",
+     "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/1965-1988/del1538.htm",
      "verificado": true
     }
    ]
@@ -2331,7 +2450,7 @@
    "trilha": "indigena",
    "categoria": "reforma",
    "titulo": "Lei 14.701/2023 (marco temporal) e derrubada de vetos",
-   "resumo": "O Congresso aprova projeto que fixa o marco temporal e limita demarcações; Lula veta integralmente os pontos centrais; em 14/12/2023 o Congresso derruba os vetos e promulga a lei.",
+   "resumo": "O Congresso aprova projeto que fixa o marco temporal e limita demarcações; em 20/10/2023 Lula sanciona com veto parcial (Mensagem de veto nº 536); em dezembro de 2023 o Congresso derruba parte dos vetos e promulga os dispositivos derrubados (data exata do ato de derrubada não conferida nesta revisão).",
    "impacto_poderes": "Legislativo reage a decisão do STF com lei ordinária (backlash); ADC 87 e ADIs no STF contestam.",
    "controversias": "Em 2024 o ministro Gilmar Mendes suspendeu ações sobre a lei e abriu conciliação (ADC 87). Defensores: lei democrática; críticos: afronta ao decidido na RE.",
    "fontes": [
@@ -2349,6 +2468,11 @@
      "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal",
      "url": "https://www.mattosfilho.com.br/unico/stf-lei-marco-temporal/",
      "verificado": false
+    },
+    {
+     "titulo": "Mensagem de veto nº 536/2023 (texto na biblioteca de fontes)",
+     "url": "web/public/textos/veto-lei-14701-2023.txt",
+     "verificado": true
     }
    ]
   },
@@ -2397,7 +2521,7 @@
    "titulo": "STF suspende ações sobre a Lei 14.701 e abre conciliação (ADC 87)",
    "resumo": "Em abril de 2024 (data aproximada), o ministro Gilmar Mendes suspende processos que questionam a lei e instala comissão de conciliação, que em agosto de 2025 aprovou minuta de projeto para alterar a Lei do Marco Temporal.",
    "impacto_poderes": "STF busca solução dialógica entre Poderes e partes.",
-   "controversias": "Organizações indígenas (APIB) criticam a conciliação e o formato; setor do agro defende o marco legal.",
+   "controversias": "Organizações indígenas (APIB) criticam a conciliação e o formato; setor do agro defende o marco legal. [Revisão 07/10/2026: sem confirmação em fonte aberta lida; um agente de revisão informa que o julgamento teria terminado em dezembro de 2025, também não verificado.]",
    "fontes": [
     {
      "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal",
@@ -2456,7 +2580,7 @@
    "titulo": "STF publica a íntegra da decisão sobre a Lei 14.701 (ADC 87 e ADIs)",
    "resumo": "Segundo notícias, o STF reafirma a inconstitucionalidade do marco temporal ao julgar as ações sobre a Lei 14.701; publicação do acórdão em 18/03/2026 (informação de síntese jornalística).",
    "impacto_poderes": "Judiciário reafirma o entendimento de 2023 contra a lei do Legislativo.",
-   "controversias": "Data e conteúdo de síntese de busca; confirmar no acórdão.",
+   "controversias": "Data e conteúdo de síntese de busca; confirmar no acórdão. [Revisão 07/10/2026: sem confirmação em fonte aberta lida; um agente de revisão informa que o julgamento teria terminado em dezembro de 2025, também não verificado.]",
    "fontes": [
     {
      "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal",
