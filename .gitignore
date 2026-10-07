@@ -8,6 +8,13 @@ out/
 web/node_modules/
 web/dist/
 .env
+.env.*
 scripts/.cache/
 *.log
 web/scripts/.cache/
+
+# Configuração local de ferramentas de IA: nunca versionar
+.claude/
+**/.claude/
+CLAUDE.md
+**/CLAUDE.md

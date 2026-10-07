@@ -1,7 +1,7 @@
 [project]
 name = "sociolibero"
 version = "0.1.0"
-description = "Add your description here"
+description = "Evidências, textos originais e cenários político-econômicos do Brasil, com proveniência e validação"
 readme = "README.md"
 authors = [
     { name = "Yuri Freitas", email = "yuribzfreitas@gmail.com" }

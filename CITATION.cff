@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Se você usar este repositório, cite-o assim. Os dados de terceiros devem ser citados na fonte original (ver ATTRIBUTION.md)."
+title: "sociolibero — evidências, textos originais e cenários político-econômicos do Brasil"
+type: software
+authors:
+  - family-names: Freitas
+    given-names: Yuri
+repository-code: "https://github.com/yurifreitas/sociolibero"
+license: MIT
+version: 0.1.0
+date-released: "2026-10-07"
+keywords:
+  - Brasil
+  - eleições
+  - história institucional
+  - economia política
+  - dados abertos
+  - fontes primárias

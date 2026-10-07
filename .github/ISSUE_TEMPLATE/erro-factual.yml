@@ -1,0 +1,28 @@
+name: Erro factual ou fonte
+description: Um número, data, nome ou fonte está errado ou sem apoio
+labels: ["dados", "revisão"]
+body:
+  - type: input
+    id: onde
+    attributes:
+      label: Arquivo e id do item
+      placeholder: "ex.: web/public/data/eleicoes_timeline.json — id: eleicao-1930"
+    validations:
+      required: true
+  - type: textarea
+    id: erro
+    attributes:
+      label: O que está errado
+    validations:
+      required: true
+  - type: textarea
+    id: fonte
+    attributes:
+      label: Fonte que você leu (URL e trecho)
+      description: Sem fonte, a correção entra como "não verificado".
+    validations:
+      required: true
+  - type: textarea
+    id: correcao
+    attributes:
+      label: Correção sugerida
