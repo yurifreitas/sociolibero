@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "gerado_em": "2026-10-06",
+    "aviso": "Propostas são próximos passos e hipóteses de trabalho, não resultados. Cada uma diz o que precisa para ser validada e o que pode dar errado.",
+    "origem": ["docs/METHODS.md §6", "docs/ANTIFRAUDE.md", "docs/FATOR_HUMANO.md", "docs/ECONOMIA_HISTORICA.md", "projeto Arandu/trans (rastreabilidade)"]
+  },
+  "propostas": [
+    {
+      "id": "rastreabilidade-5-mapas",
+      "titulo": "Sistema Nacional de Rastreabilidade do Poder e do Dinheiro Público",
+      "area": "dinheiro-publico",
+      "status": "proposta",
+      "resumo": "Cinco mapas ligados por identidade: Poder, Influência, Dinheiro eleitoral, Contratações e Resultados. O gargalo apontado não é só corrupção, é a captura do ciclo da decisão sem rastreabilidade.",
+      "precisa": ["cadastro de lobby/influência (hoje lacuna)", "nomeações", "amarrar gasto a indicadores de resultado"],
+      "risco": "Cruzar por nome gera homônimos; mostrar escala e acender alerta, nunca concluir causa.",
+      "origem": "Arandu/trans · /proposta"
+    },
+    {
+      "id": "validacao-sintetica-gatilhos",
+      "titulo": "Validar os 15 gatilhos de fraude com fraude injetada",
+      "area": "antifraude",
+      "status": "proposta",
+      "resumo": "Aplicar ao radar de dinheiro público a mesma validação sintética usada nos detectores eleitorais: injetar ciclos de retroalimentação, fracionamento e concentração e medir poder (TPR) e falsos positivos (FPR) de cada gatilho.",
+      "precisa": ["simulador de contratos e doações com verdade conhecida", "limiares calibrados pela distribuição nacional"],
+      "risco": "Gatilho sem poder não deve ser lido como evidência de ausência.",
+      "origem": "docs/ANTIFRAUDE.md"
+    },
+    {
+      "id": "cotejo-boletim-de-urna",
+      "titulo": "Cotejar boletins de urna com o resultado publicado",
+      "area": "antifraude",
+      "status": "proposta",
+      "resumo": "Reconstruir totais a partir dos boletins de urna públicos e compará-los com a apuração oficial, seção a seção, como verificação independente da totalização.",
+      "precisa": ["boletins de urna (arquivos públicos do TSE)", "parser do formato do BU"],
+      "risco": "Valida a totalização, não o software da urna.",
+      "origem": "docs/METHODS.md §6"
+    },
+    {
+      "id": "teste-modelo-urna-e-horario-bu",
+      "titulo": "Testes por modelo de urna e por horário de recebimento do BU",
+      "area": "antifraude",
+      "status": "proposta",
+      "resumo": "Dentro do mesmo município, comparar voto e comparecimento entre modelos de urna e examinar o horário em que o boletim chegou ao TSE. Os campos já existem nos dados baixados.",
+      "precisa": ["DS_MODELO_URNA e DT_RECEBIMENTO_BU_HOR_TSE (já no detalhe por seção)"],
+      "risco": "Modelo de urna correlaciona com idade da seção e região; exige controle por local de votação.",
+      "origem": "docs/METHODS.md §6"
+    },
+    {
+      "id": "modelos-espaciais-eforensics",
+      "titulo": "Modelos espaciais e mistura (eforensics) com dados brasileiros",
+      "area": "antifraude",
+      "status": "proposta",
+      "resumo": "Complementar o z contra vizinhos com autocorrelação espacial (Moran, SAR) e com o modelo de mistura de Mebane para estimar fração de seções anômalas.",
+      "precisa": ["JAGS e pacote eforensics (GitHub)", "decisão sobre priors"],
+      "risco": "Modelos de mistura são sensíveis a especificação; reportar sensibilidade.",
+      "origem": "docs/REFERENCES.md"
+    },
+    {
+      "id": "cruzamento-eleicao-contratos",
+      "titulo": "Cruzar anomalia eleitoral com contratos municipais",
+      "area": "antifraude",
+      "status": "proposta",
+      "resumo": "Por município, agregado e sem nomes: anomalia eleitoral × concentração de contratos × sanções, com controle por tamanho e UF.",
+      "precisa": ["agregados municipais do banco do projeto Arandu/trans", "chave IBGE de 7 dígitos"],
+      "risco": "Pergunta de pesquisa, não acusação. Sobreposição pode ser legítima.",
+      "origem": "docs/ANTIFRAUDE.md"
+    },
+    {
+      "id": "custo-implicito-da-divida",
+      "titulo": "Medir o custo implícito da dívida com séries do BCB",
+      "area": "macro",
+      "status": "proposta",
+      "resumo": "Esse parâmetro domina o modelo macro (variar 25% muda a dívida em 50 a 200 pp do PIB em 2035). Calibrá-lo com juros nominais sobre dívida bruta é o ganho mais barato de credibilidade.",
+      "precisa": ["juros nominais do setor público e dívida bruta (BCB SGS)"],
+      "risco": "Composição da dívida muda com a política monetária.",
+      "origem": "docs/METHODS.md"
+    },
+    {
+      "id": "efeitos-publicados-nas-decisoes",
+      "titulo": "Trocar efeitos julgados por estimativas publicadas",
+      "area": "macro",
+      "status": "proposta",
+      "resumo": "O catálogo de 20 decisões usa deltas julgados. Substituir, onde houver, por estimativas de órgãos como IPEA, FMI e BCB, mantendo a faixa de incerteza.",
+      "precisa": ["levantamento de estimativas por decisão", "mapeamento para as alavancas do modelo"],
+      "risco": "Estimativas divergem por premissas; mostrar a faixa, não um ponto.",
+      "origem": "src/sociolibero/decisoes.py"
+    },
+    {
+      "id": "classes-afetadas-por-decisao",
+      "titulo": "Classes afetadas por cada decisão",
+      "area": "macro",
+      "status": "proposta",
+      "resumo": "Em vez de ganhadores/perdedores genéricos, estimar o efeito por quintil de renda, informais, servidores, rentistas, agro e indústria usando a PNAD Contínua e o Censo.",
+      "precisa": ["PNAD Contínua por classe", "modelo de incidência fiscal"],
+      "risco": "Classe é construção analítica; indicar a definição usada.",
+      "origem": "docs/ECONOMIA_HISTORICA.md"
+    },
+    {
+      "id": "conferir-fator-humano",
+      "titulo": "Conferir em fonte primária os indicadores de fator humano",
+      "area": "dados",
+      "status": "em-andamento",
+      "resumo": "Hoje 12 de 53 indicadores estão conferidos. Priorizar o relatório da CNV, o PDF do Atlas da Violência, os microdados da covid e o SlaveVoyages.",
+      "precisa": ["acesso ao SlaveVoyages (download)", "PDFs oficiais"],
+      "risco": "Estimativas históricas têm faixas amplas e controvérsia de linha de base.",
+      "origem": "docs/FATOR_HUMANO.md"
+    },
+    {
+      "id": "conferir-historia-primaria",
+      "titulo": "Conferir os eventos 'de memória' da história em fonte primária",
+      "area": "dados",
+      "status": "em-andamento",
+      "resumo": "Datas e votos marcados como aproximados (ADC 87, Art. 142, ADI 3239, entre outros) precisam do acórdão ou do diário oficial.",
+      "precisa": ["acórdãos do STF", "Diário Oficial", "legislação do Planalto"],
+      "risco": "Sem a conferência, a linha do tempo é um mapa para pesquisar, não uma fonte.",
+      "origem": "docs/HISTORIA.md"
+    },
+    {
+      "id": "reauditar-etl-trans",
+      "titulo": "Reauditar a ETL do projeto trans e corrigir o Atlas municipal de 2020",
+      "area": "dados",
+      "status": "proposta",
+      "resumo": "O banco do projeto irmão tem o Atlas municipal de 2020 corrompido (625 de 5.566 linhas com jovens ou mulheres acima do total). Corrigir na origem e reauditar as demais tabelas.",
+      "precisa": ["reprocessar a tabela violencia a partir do SIM"],
+      "risco": "Proveniência é indireta até a reauditoria.",
+      "origem": "docs/METHODS.md §9"
+    }
+  ]
+}

@@ -1,0 +1,1289 @@
+{
+ "meta": {
+  "gerado_em": "2026-10-06",
+  "aviso": "Inventário de números sobre custo humano e potencial humano desperdiçado. Cada número tem valor, unidade, período, tipo (contagem ou estimativa), fonte e flag de verificação. Nao implica causalidade nem atribui culpa a um ciclo; o ciclo indica em que período o número se situa. Estimativas históricas variam muito por método; nenhuma faixa deve ser lida como valor exato.",
+  "criterio": "verificado=true somente quando o número foi lido na página da fonte aberta nesta pesquisa (sinalizada por [pagina lida] no título); verificado=false quando veio de resumo de busca (sinalizado por [resumo de busca]) ou de memória. Em vários casos a página lida é imprensa que cita a fonte primária, cuja conferência direta fica pendente. Páginas primárias (SlaveVoyages, IBGE, CNV) nem sempre retornaram dados legíveis pela ferramenta.",
+  "reconciliacao": {
+   "data": "2026-10-06",
+   "resumo": "8 indicadores confrontados com agregados derivados do banco do projeto Arandu/trans e com territorios.json: 3 corroboram, 3 aproximados, 2 divergem (por denominador/definição). Proveniência indireta: ver docs/METHODS.md seção 9.",
+   "defeito_encontrado_no_projeto_irmao": "Atlas municipal de 2020 corrompido no banco do trans (625 de 5.566 linhas com jovens/mulheres > total); campos de 2020 ficaram null no município."
+  }
+ },
+ "indicadores": [
+  {
+   "id": "esc-desembarcados-brasil",
+   "ciclo": "acucar",
+   "categoria": "escravizacao",
+   "titulo": "Africanos escravizados desembarcados no Brasil (tráfico transatlântico)",
+   "valor": 4800000,
+   "unidade": "pessoas (ordem de grandeza: quase 5 milhões)",
+   "periodo": "1501-1866",
+   "tipo": "estimativa",
+   "intervalo": [
+    4500000,
+    5000000
+   ],
+   "metodo": "Banco de viagens do SlaveVoyages (Eltis, Richardson e colaboradores): viagens documentadas somadas a estimativas para viagens sem registro. Faixa informada e aproximada, a conferir no banco.",
+   "nao_mede": "Nao mede africanos mortos na captura, marcha ate a costa e espera nos portos, nem mortes apos o desembarque (seasoning); nao inclui trafico interno nem as sociedades de origem despovoadas.",
+   "fontes": [
+    {
+     "titulo": "SlaveVoyages - Estimates",
+     "url": "https://www.slavevoyages.org/assessment/estimates"
+    },
+    {
+     "titulo": "Statista a partir de SlaveVoyages - desembarques por regiao [resumo de busca]",
+     "url": "https://statista.com/chart/amp/19068/trans-atlantic-slave-trade-by-country-region"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "esc-mortos-travessia-brasil",
+   "ciclo": "acucar",
+   "categoria": "escravizacao",
+   "titulo": "Taxa de mortalidade na travessia atlântica, rotas África-Brasil",
+   "valor": 12.5,
+   "unidade": "% dos embarcados (cerca de 1 em 8)",
+   "periodo": "1501-1866",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "Razão entre mortos registrados/estimados a bordo e embarcados nas viagens do SlaveVoyages; Brasil tem a menor taxa entre os destinos (viagem média de cerca de 45 dias). A taxa de 12,5% vem do enunciado 'um em oito' em resumo de terceiros.",
+   "nao_mede": "Nao mede africanos mortos na captura, marcha ate a costa e espera nos portos, nem mortes apos o desembarque (seasoning); nao inclui trafico interno nem as sociedades de origem despovoadas.",
+   "fontes": [
+    {
+     "titulo": "SlaveVoyages - Trans-Atlantic Slave Trade Database (Eltis, Richardson et al.)",
+     "url": "https://www.slavevoyages.org/voyage/database"
+    },
+    {
+     "titulo": "Statista a partir de SlaveVoyages - middle passage death rate by destination 1501-1866 [resumo de busca]",
+     "url": "https://www.statista.com/statistics/1070565/middle-passage-death-rate-by-destination-1501-1866/"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "esc-1601-1650-brasil",
+   "ciclo": "acucar",
+   "categoria": "escravizacao",
+   "titulo": "Africanos levados ao Brasil em navios portugueses (embarcados)",
+   "valor": 187500,
+   "unidade": "pessoas",
+   "periodo": "1601-1650",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "David Eltis, soma de saídas em navios portugueses registradas/estimadas, citado na página da Wikipedia sobre o tráfico atlântico.",
+   "nao_mede": "Nao mede os sobreviventes desembarcados; é um recorte de 50 anos e não o total.",
+   "fontes": [
+    {
+     "titulo": "Wikipedia - Atlantic slave trade (cita Eltis, 1601-1650) [pagina lida]",
+     "url": "https://en.wikipedia.org/wiki/Atlantic_slave_trade"
+    },
+    {
+     "titulo": "SlaveVoyages - Trans-Atlantic Slave Trade Database (Eltis, Richardson et al.)",
+     "url": "https://www.slavevoyages.org/voyage/database"
+    }
+   ],
+   "verificado": true
+  },
+  {
+   "id": "esc-total-atlantico",
+   "ciclo": "acucar",
+   "categoria": "escravizacao",
+   "titulo": "Africanos embarcados no tráfico transatlântico (todos os destinos)",
+   "valor": 12500000,
+   "unidade": "pessoas",
+   "periodo": "1501-1866",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "SlaveVoyages (estimativa consolidada; cerca de 10,7 milhões desembarcados segundo o mesmo banco, valor de memória).",
+   "nao_mede": "Nao separa o Brasil; nao mede o tráfico por outras rotas (Saara, Oceano Índico).",
+   "fontes": [
+    {
+     "titulo": "SlaveVoyages - Trans-Atlantic Slave Trade Database (Eltis, Richardson et al.)",
+     "url": "https://www.slavevoyages.org/voyage/database"
+    },
+    {
+     "titulo": "Statista a partir de SlaveVoyages - desembarques por regiao [resumo de busca]",
+     "url": "https://statista.com/chart/amp/19068/trans-atlantic-slave-trade-by-country-region"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "esc-censo-1872",
+   "ciclo": "agroexportacao-imperial",
+   "categoria": "escravizacao",
+   "titulo": "Pessoas registradas como escravizadas no Censo de 1872",
+   "valor": 1500000,
+   "unidade": "pessoas (cerca de 15% de 9.930.478 habitantes)",
+   "periodo": "1872",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Recenseamento de 1872, formulários preenchidos por chefes de família via paróquias; o número exato do volume IBGE (aprox. 1,51 milhão) deve ser conferido no livro.",
+   "nao_mede": "Subregistro e erros de classificação reconhecidos; não mede libertos por alforria nem o tráfico interno; é um retrato de um único ano.",
+   "fontes": [
+    {
+     "titulo": "Poder360 - Censo de 1872 registrou 1,5 milhao de escravos [pagina lida]",
+     "url": "https://www.poder360.com.br/brasil/censo-de-1872-registrou-15-milhao-de-escravos-no-brasil/"
+    },
+    {
+     "titulo": "IBGE Biblioteca - Recenseamento de 1872 (livro)",
+     "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv2434.pdf"
+    }
+   ],
+   "verificado": true
+  },
+  {
+   "id": "esc-pop-total-1872",
+   "ciclo": "agroexportacao-imperial",
+   "categoria": "escravizacao",
+   "titulo": "População total recenseada em 1872",
+   "valor": 9930478,
+   "unidade": "pessoas",
+   "periodo": "1872",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Recenseamento Geral do Império, 1872.",
+   "nao_mede": "Subenumeração; indígenas não aldeados e população remota fora do alcance.",
+   "fontes": [
+    {
+     "titulo": "Poder360 - Censo de 1872 registrou 1,5 milhao de escravos [pagina lida]",
+     "url": "https://www.poder360.com.br/brasil/censo-de-1872-registrou-15-milhao-de-escravos-no-brasil/"
+    },
+    {
+     "titulo": "IBGE Biblioteca - Recenseamento de 1872 (livro)",
+     "url": "https://biblioteca.ibge.gov.br/visualizacao/livros/liv2434.pdf"
+    }
+   ],
+   "verificado": true
+  },
+  {
+   "id": "esc-cor-1872",
+   "ciclo": "agroexportacao-imperial",
+   "categoria": "escravizacao",
+   "titulo": "Autodeclarados pretos e pardos no Censo de 1872 (sobre o total)",
+   "valor": 58,
+   "unidade": "% da população",
+   "periodo": "1872",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Proporção por declaração de cor no censo, segundo o resumo na página lida (58% pretos e pardos, 38% brancos, 4% indígenas).",
+   "nao_mede": "Cor foi declarada pelo informante e pressionada por interesses da época; não é medida de ancestralidade.",
+   "fontes": [
+    {
+     "titulo": "Poder360 - Censo de 1872 registrou 1,5 milhao de escravos [pagina lida]",
+     "url": "https://www.poder360.com.br/brasil/censo-de-1872-registrou-15-milhao-de-escravos-no-brasil/"
+    }
+   ],
+   "verificado": true
+  },
+  {
+   "id": "ind-pop-1500",
+   "ciclo": "pau-brasil",
+   "categoria": "indigenas",
+   "titulo": "População indígena no território do Brasil em 1500",
+   "valor": null,
+   "unidade": "pessoas (faixa de estimativas)",
+   "periodo": "c. 1500",
+   "tipo": "estimativa",
+   "intervalo": [
+    2000000,
+    5000000
+   ],
+   "metodo": "Reconstruções demográficas retroativas (Rosenblat, Denevan, Funai e outros) a partir de densidade por ecossistema e relatos de cronistas. Faixa 2 a 5 milhões é a mais citada; há estimativas acima e abaixo. Valor central deliberadamente não escolhido.",
+   "nao_mede": "Nao há contagem; a linha de base é objeto de controvérsia (alta densidade na várzea amazônica vs. baixa); não distingue mortes por doença, guerra, escravização e deslocamento.",
+   "fontes": [
+    {
+     "titulo": "Country Studies (Library of Congress) - The Indigenous Population [resumo de busca]",
+     "url": "https://countrystudies.us/brazil/4.htm"
+    },
+    {
+     "titulo": "Pesquisa FAPESP - Diversidade brasileira / colapso populacional indigena",
+     "url": "https://revistapesquisa.fapesp.br/diversidade-brasileira/"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "ind-pop-1957",
+   "ciclo": "industrializacao-vargas",
+   "categoria": "indigenas",
+   "titulo": "População indígena estimada em meados do século XX",
+   "valor": null,
+   "unidade": "pessoas",
+   "periodo": "c. 1957",
+   "tipo": "estimativa",
+   "intervalo": [
+    70000,
+    125000
+   ],
+   "metodo": "Estimativa de Darcy Ribeiro (Os índios e a civilização) e resumos de terceiros; fontes divergem (70 mil e 125 mil aparecem).",
+   "nao_mede": "Contagem inexistente; Ribeiro também registra extinção de 87 povos entre 1900 e 1957 (valor de resumo, nao conferido).",
+   "fontes": [
+    {
+     "titulo": "Country Studies (Library of Congress) - The Indigenous Population [resumo de busca]",
+     "url": "https://countrystudies.us/brazil/4.htm"
+    },
+    {
+     "titulo": "Pesquisa FAPESP - Diversidade brasileira / colapso populacional indigena",
+     "url": "https://revistapesquisa.fapesp.br/diversidade-brasileira/"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "ind-censo-1991",
+   "ciclo": "estabilizacao-real",
+   "categoria": "indigenas",
+   "titulo": "Indígenas no Censo Demográfico 1991 (primeira vez com categoria 'indígena' na cor/raça)",
+   "valor": 294000,
+   "unidade": "pessoas (aprox.)",
+   "periodo": "1991",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Censo IBGE; valor de memória, a conferir.",
+   "nao_mede": "Autodeclaração; mudanças de metodologia impedem comparação direta com 2010 e 2022.",
+   "fontes": [
+    {
+     "titulo": "IBGE Educa - Populacao indigena, Censo 2022 [resumo de busca]",
+     "url": "https://educa.ibge.gov.br/professores/educa-atividades/22061-populacao-indigena-e-populacao-nao-indigena.html"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "ind-censo-2010",
+   "ciclo": "boom-commodities-inclusao",
+   "categoria": "indigenas",
+   "titulo": "Indígenas no Censo 2010",
+   "valor": 896917,
+   "unidade": "pessoas",
+   "periodo": "2010",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Censo IBGE 2010.",
+   "nao_mede": "Autodeclaração.",
+   "fontes": [
+    {
+     "titulo": "IBGE Educa - Populacao indigena, Censo 2022 [resumo de busca]",
+     "url": "https://educa.ibge.gov.br/professores/educa-atividades/22061-populacao-indigena-e-populacao-nao-indigena.html"
+    }
+   ],
+   "verificado": false,
+   "corroboracao": [
+    {
+     "fonte": "Agregado SIM/Atlas no banco do projeto Arandu/trans (humano_nacional.json); conferência indireta, ETL do projeto irmão não reauditada",
+     "resultado": "diverge",
+     "detalhe": "O agregado do trans traz 817.963 (cor/raça); o valor aqui (896.917) inclui outro quesito. Divergência de definição, não de erro; conferir no IBGE 2010."
+    }
+   ]
+  },
+  {
+   "id": "ind-censo-2022",
+   "ciclo": "retomada-incerteza",
+   "categoria": "indigenas",
+   "titulo": "Indígenas no Censo 2022",
+   "valor": 1694836,
+   "unidade": "pessoas (53,97% urbanos)",
+   "periodo": "2022",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Censo IBGE 2022; alta de 88,96% sobre 2010, em parte metodológica (mapeamento mais detalhado, mais autodeclaração em cidades).",
+   "nao_mede": "Nao mede recuperação demográfica real: parte do aumento é mudança de identificação e de metodologia.",
+   "fontes": [
+    {
+     "titulo": "IBGE Educa - Populacao indigena, Censo 2022 [resumo de busca]",
+     "url": "https://educa.ibge.gov.br/professores/educa-atividades/22061-populacao-indigena-e-populacao-nao-indigena.html"
+    }
+   ],
+   "verificado": true,
+   "corroboracao": [
+    {
+     "fonte": "Pipeline territorios.json (IBGE SIDRA 9718, soma conferida com o total publicado)",
+     "resultado": "corrobora",
+     "detalhe": "1.694.836 (indígenas, quesito Total, IBGE SIDRA 9718) reproduzido pela soma dos municípios em territorios.json; o quesito cor/raça soma 1.227.642 (outra definição, não conflito)."
+    }
+   ]
+  },
+  {
+   "id": "ind-cnv-8350",
+   "ciclo": "milagre-endividamento",
+   "categoria": "indigenas",
+   "titulo": "Indígenas mortos por ação ou omissão do Estado (estimativa CNV)",
+   "valor": 8350,
+   "unidade": "pessoas (ao menos)",
+   "periodo": "1946-1988",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "Capítulo sobre povos indígenas no vol. II do Relatório da CNV (2014), com base em documentos, relatórios e levantamentos de campo; os casos individualmente comprovados são poucos.",
+   "nao_mede": "Nao é lista nominal; cobre também mortes por doenças após contato e abertura de rodovias, atribuídas a omissão; período abrange além da ditadura.",
+   "fontes": [
+    {
+     "titulo": "Outras Palavras - Por que uma Comissao da Verdade Indigena? [resumo de busca]",
+     "url": "https://outraspalavras.net/outrasmidias/ditadura-por-que-uma-comissao-da-verdade-indigena/"
+    },
+    {
+     "titulo": "Comissao Nacional da Verdade - Relatorio Final (vol. 1 e 2)",
+     "url": "http://cnv.memoriasreveladas.gov.br/"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "est-cnv-434",
+   "ciclo": "milagre-endividamento",
+   "categoria": "violencia-estado",
+   "titulo": "Mortos e desaparecidos políticos reconhecidos pela CNV",
+   "valor": 434,
+   "unidade": "pessoas",
+   "periodo": "1946-1988",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Relatório Final da CNV (dez/2014): casos individualizados com investigação documental, ampliando listas anteriores.",
+   "nao_mede": "Nao inclui indígenas e camponeses em escala, nem torturados sobreviventes, presos e exilados; é piso e não total.",
+   "fontes": [
+    {
+     "titulo": "Congresso em Foco - Comissao aponta 434 mortos e desaparecidos [resumo de busca]",
+     "url": "https://www.congressoemfoco.com.br/noticia/53424/comissao-aponta-434-mortos-e-desaparecidos-na-ditadura"
+    },
+    {
+     "titulo": "Comissao Nacional da Verdade - Relatorio Final (vol. 1 e 2)",
+     "url": "http://cnv.memoriasreveladas.gov.br/"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "est-bnm-torturados",
+   "ciclo": "milagre-endividamento",
+   "categoria": "violencia-estado",
+   "titulo": "Pessoas que denunciaram tortura em processos na Justiça Militar (Brasil: Nunca Mais)",
+   "valor": 1843,
+   "unidade": "pessoas (em 707 processos)",
+   "periodo": "1964-1979",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Projeto sigiloso (Arns e Wright) que copiou 707 processos do Superior Tribunal Militar; contou depoentes que relataram tortura.",
+   "nao_mede": "Só alcança quem foi processado pela Justiça Militar; não mede quem não chegou à Justiça; valor tomado de resumo (a obra cita também ~17 mil atingidos com mais de 7 mil acusados).",
+   "fontes": [
+    {
+     "titulo": "Wikipedia - Brasil: Nunca Mais [resumo de busca]",
+     "url": "https://en.wikipedia.org/wiki/Brasil:_Nunca_Mais"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "est-ccv-camponeses",
+   "ciclo": "milagre-endividamento",
+   "categoria": "violencia-estado",
+   "titulo": "Camponeses mortos e desaparecidos no campo (Comissão Camponesa da Verdade)",
+   "valor": 1196,
+   "unidade": "pessoas",
+   "periodo": "1961-1988",
+   "tipo": "estimativa",
+   "intervalo": [
+    1196,
+    1654
+   ],
+   "metodo": "Relatório da Comissão Camponesa da Verdade (2014): 1.196; estudo posterior reporta 1.654 (apublica, 2024). Compilação de fontes de movimentos sociais, Igreja e imprensa.",
+   "nao_mede": "Nem todos os casos têm confirmação por documentos estatais; a CNV reconheceu cerca de 1/3 apenas; mistura violência privada de latifundiários e violência estatal.",
+   "fontes": [
+    {
+     "titulo": "Comissao Camponesa da Verdade / CUT - relatorio final [resumo de busca]",
+     "url": "https://www.cut.org.br/noticias/comissao-camponesa-da-verdade-divulga-relatorio-final-336a/amp"
+    },
+    {
+     "titulo": "Agencia Publica - estudo aponta 1.654 camponeses mortos e desaparecidos [resumo de busca]",
+     "url": "https://apublica.org/2024/03/60-anos-do-golpe-militar-estudo-aponta-1654-camponeses-mortos-e-desaparecidos-na-ditadura/"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "con-paraguai",
+   "ciclo": "agroexportacao-imperial",
+   "categoria": "conflito",
+   "titulo": "Mortos na Guerra do Paraguai (todos os países; baixas militares e civis)",
+   "valor": null,
+   "unidade": "pessoas (estimativa global)",
+   "periodo": "1864-1870",
+   "tipo": "estimativa",
+   "intervalo": [
+    100000,
+    400000
+   ],
+   "metodo": "Estimativas conservadoras a partir de 100 mil; algumas chegam a 4 vezes isso. Doratioto critica estimativas antigas sem metodologia. A maior parte morreu de cólera e doenças.",
+   "nao_mede": "Nao separa brasileiros de paraguaios; estimativa de mortes civis paraguaias é a mais disputada (varia de poucos por cento a mais da metade da população).",
+   "fontes": [
+    {
+     "titulo": "Pesquisa FAPESP - Novas perspectivas sobre a Guerra do Paraguai [resumo de busca]",
+     "url": "https://revistapesquisa.fapesp.br/novas-perspectivas-buscam-ampliar-o-entendimento-sobre-a-guerra-do-paraguai/"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "con-canudos",
+   "ciclo": "borracha-cafe-republica-velha",
+   "categoria": "conflito",
+   "titulo": "Mortos em Canudos",
+   "valor": 25000,
+   "unidade": "pessoas (estimativa corrente)",
+   "periodo": "1896-1897",
+   "tipo": "estimativa",
+   "intervalo": [
+    10000,
+    25000
+   ],
+   "metodo": "Estimativas historiográficas a partir de relatos, população da cidade e fontes militares; faixa inferior de memória, a conferir.",
+   "nao_mede": "Nao há contagem; a população de Canudos antes da guerra também é estimada; mortes por fome e doença se misturam.",
+   "fontes": [
+    {
+     "titulo": "Poder360 - Ha 125 anos, Canudos escancarou dificuldades do Brasil rural [resumo de busca]",
+     "url": "https://www.poder360.com.br/brasil/ha-125-anos-canudos-escancarou-dificuldades-do-brasil-rural/"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "con-contestado",
+   "ciclo": "borracha-cafe-republica-velha",
+   "categoria": "conflito",
+   "titulo": "Mortos na Guerra do Contestado",
+   "valor": 10000,
+   "unidade": "pessoas (estimativa oficial; mais de 20 mil em outras)",
+   "periodo": "1912-1916",
+   "tipo": "estimativa",
+   "intervalo": [
+    10000,
+    20000
+   ],
+   "metodo": "Estimativas oficiais em torno de 10 mil; estudiosos citam mais de 20 mil.",
+   "nao_mede": "Sem registro sistemático; afeta civis (famílias sertanejas) e combatentes de modo indistinto.",
+   "fontes": [
+    {
+     "titulo": "Uninter - Contestado, a guerra que chegou de trem [resumo de busca]",
+     "url": "https://www.uninter.com/noticias/?p=34404"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "sec-1877",
+   "ciclo": "agroexportacao-imperial",
+   "categoria": "fome-seca",
+   "titulo": "Mortos na Grande Seca no Nordeste",
+   "valor": 500000,
+   "unidade": "pessoas (limite superior citado; outra faixa 400 a 500 mil)",
+   "periodo": "1877-1879",
+   "tipo": "estimativa",
+   "intervalo": [
+    400000,
+    500000
+   ],
+   "metodo": "A Agência Senado apresenta 500 mil em oito províncias sem indicar quem estimou; a Wikipedia reporta 400 a 500 mil. Origem primária (relatórios provinciais, cálculos retrospectivos) não conferida.",
+   "nao_mede": "Nao distingue fome, sede e epidemias; subregistro provincial é grande; a origem da estimativa não é identificada na página lida.",
+   "fontes": [
+    {
+     "titulo": "Agencia Senado - 500 mil mortes... retrato da Grande Seca do Imperio [pagina lida; sem autoria da estimativa]",
+     "url": "https://www12.senado.leg.br/noticias/especiais/arquivo-s/500-mil-mortes-doenca-fome-desvio-de-verbas-e-pedido-de-cpi-o-retrato-da-grande-seca-do-imperio"
+    },
+    {
+     "titulo": "Wikipedia - Grande Seca [resumo de busca]",
+     "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+    }
+   ],
+   "verificado": true
+  },
+  {
+   "id": "sec-ceara-1878",
+   "ciclo": "agroexportacao-imperial",
+   "categoria": "fome-seca",
+   "titulo": "Mortos em 1878 no Ceará (fome e sede) e migrantes",
+   "valor": 119000,
+   "unidade": "pessoas (mortes; 55 mil migrantes)",
+   "periodo": "1878",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "Citado em resumo da Wikipedia (população da província de 900 mil para 750 mil em 5 anos).",
+   "nao_mede": "Mistura de mortos e emigrados no declínio populacional; fonte secundária.",
+   "fontes": [
+    {
+     "titulo": "Wikipedia - Grande Seca [resumo de busca]",
+     "url": "https://en.wikipedia.org/wiki/Grande_Seca"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "sec-1915",
+   "ciclo": "borracha-cafe-republica-velha",
+   "categoria": "fome-seca",
+   "titulo": "Cearenses mortos na seca de 1915",
+   "valor": 27000,
+   "unidade": "pessoas",
+   "periodo": "1915",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "Citado em literatura secundária (a Seca de 1915 também aparece com 100 mil mortes em outra estimativa).",
+   "nao_mede": "Estimativas divergem por fator de 4; sem contagem.",
+   "fontes": [
+    {
+     "titulo": "IPS - Adeus as secas com milhoes de mortos [resumo de busca]",
+     "url": "https://www.ipsnews.net/portuguese/2017/01/ultimas-noticias/adeus-as-secas-com-milhoes-de-mortos/"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "sec-1979-83",
+   "ciclo": "decada-perdida-hiperinflacao",
+   "categoria": "fome-seca",
+   "titulo": "Mortos na seca de 1979-1983 no Nordeste",
+   "valor": null,
+   "unidade": "pessoas",
+   "periodo": "1979-1983",
+   "tipo": "estimativa",
+   "intervalo": [
+    100000,
+    3500000
+   ],
+   "metodo": "Governos regionais: 100 mil; pesquisadores: ao menos 700 mil; ASA: 1 milhão; DNOCS cita 700 mil a 3,5 milhões. A faixa é a das estimativas conflitantes.",
+   "nao_mede": "Faixa muito aberta: não há método unificado; não distingue mortalidade infantil excedente.",
+   "fontes": [
+    {
+     "titulo": "IPS - Adeus as secas com milhoes de mortos [resumo de busca]",
+     "url": "https://www.ipsnews.net/portuguese/2017/01/ultimas-noticias/adeus-as-secas-com-milhoes-de-mortos/"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "fome-vigisan-2022",
+   "ciclo": "recessao-ajuste-polarizacao",
+   "categoria": "fome-seca",
+   "titulo": "Pessoas em insegurança alimentar grave (fome), II VIGISAN",
+   "valor": 33100000,
+   "unidade": "pessoas (15,5% da população)",
+   "periodo": "nov/2021-abr/2022",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "Inquérito do Instituto Vox Populi para a Rede PENSSAN: 12.745 domicílios em 577 municípios, escala EBIA; extrapolação para a população.",
+   "nao_mede": "Nao é recenseamento; confiança estatística da amostra e diferenças de abordagem frente ao IBGE devem ser consultadas no relatório; mede percepção/relato.",
+   "fontes": [
+    {
+     "titulo": "FES Brasil - dados estaduais sobre a fome [resumo de busca]",
+     "url": "https://brasil.fes.de/detalhe/dados-estaduais-sobre-a-fome-desenham-um-novo-mapa-para-o-brasil.html"
+    },
+    {
+     "titulo": "Rede PENSSAN - II VIGISAN (2022) [resumo de busca]",
+     "url": "https://olheparaafome.com.br/"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "fome-vigisan-total-ia",
+   "ciclo": "recessao-ajuste-polarizacao",
+   "categoria": "fome-seca",
+   "titulo": "Pessoas em algum grau de insegurança alimentar (leve, moderada, grave)",
+   "valor": 125200000,
+   "unidade": "pessoas (58,7% da população)",
+   "periodo": "nov/2021-abr/2022",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "Mesmo inquérito VIGISAN.",
+   "nao_mede": "Inclui insegurança leve, que é incerteza de acesso e não ausência de refeição.",
+   "fontes": [
+    {
+     "titulo": "FES Brasil - dados estaduais sobre a fome [resumo de busca]",
+     "url": "https://brasil.fes.de/detalhe/dados-estaduais-sobre-a-fome-desenham-um-novo-mapa-para-o-brasil.html"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "fome-mapa-2014",
+   "ciclo": "boom-commodities-inclusao",
+   "categoria": "fome-seca",
+   "titulo": "Saída do Brasil do Mapa da Fome da FAO (subalimentação abaixo de 2,5%)",
+   "valor": 2014,
+   "unidade": "ano do relatório",
+   "periodo": "2014",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "FAO SOFI, média trienal de prevalência de subalimentação (PoU) abaixo de 2,5%.",
+   "nao_mede": "Indicador de consumo calórico agregado, não de qualidade da dieta nem de insegurança alimentar grave na ponta.",
+   "fontes": [
+    {
+     "titulo": "Jornal do Brasil - Brasil sai do Mapa da Fome [pagina lida; sem percentuais]",
+     "url": "https://www.jb.com.br/brasil/direitos-humanos/2025/07/1056350-brasil-sai-do-mapa-da-fome-indica-relatorio-da-onu.html"
+    },
+    {
+     "titulo": "FAO - SOFI 2025",
+     "url": "https://www.fao.org/publications/home/fao-flagship-publications/the-state-of-food-security-and-nutrition-in-the-world"
+    }
+   ],
+   "verificado": true
+  },
+  {
+   "id": "fome-mapa-2018-20",
+   "ciclo": "recessao-ajuste-polarizacao",
+   "categoria": "fome-seca",
+   "titulo": "Retorno ao Mapa da Fome no triênio 2018-2020",
+   "valor": null,
+   "unidade": "fato qualitativo (PoU acima de 2,5%)",
+   "periodo": "2018-2020",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "FAO SOFI, média trienal.",
+   "nao_mede": "Percentual exato não conferido nesta pesquisa; é média de três anos e não captura a piora de 2021-22.",
+   "fontes": [
+    {
+     "titulo": "Jornal do Brasil - Brasil sai do Mapa da Fome [pagina lida; sem percentuais]",
+     "url": "https://www.jb.com.br/brasil/direitos-humanos/2025/07/1056350-brasil-sai-do-mapa-da-fome-indica-relatorio-da-onu.html"
+    },
+    {
+     "titulo": "FAO - SOFI 2025",
+     "url": "https://www.fao.org/publications/home/fao-flagship-publications/the-state-of-food-security-and-nutrition-in-the-world"
+    }
+   ],
+   "verificado": true
+  },
+  {
+   "id": "fome-mapa-2022-24",
+   "ciclo": "retomada-incerteza",
+   "categoria": "fome-seca",
+   "titulo": "Nova saída do Mapa da Fome no triênio 2022-2024",
+   "valor": null,
+   "unidade": "fato qualitativo (PoU abaixo de 2,5%)",
+   "periodo": "2022-2024",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "FAO SOFI 2025.",
+   "nao_mede": "Valor percentual não obtido (página lida não informa); indicador trienal.",
+   "fontes": [
+    {
+     "titulo": "Jornal do Brasil - Brasil sai do Mapa da Fome [pagina lida; sem percentuais]",
+     "url": "https://www.jb.com.br/brasil/direitos-humanos/2025/07/1056350-brasil-sai-do-mapa-da-fome-indica-relatorio-da-onu.html"
+    },
+    {
+     "titulo": "FAO - SOFI 2025",
+     "url": "https://www.fao.org/publications/home/fao-flagship-publications/the-state-of-food-security-and-nutrition-in-the-world"
+    }
+   ],
+   "verificado": true
+  },
+  {
+   "id": "epi-gripe-1918",
+   "ciclo": "borracha-cafe-republica-velha",
+   "categoria": "epidemia",
+   "titulo": "Mortos pela gripe espanhola no Brasil",
+   "valor": null,
+   "unidade": "pessoas",
+   "periodo": "set-dez/1918",
+   "tipo": "estimativa",
+   "intervalo": [
+    35000,
+    300000
+   ],
+   "metodo": "Estimativas conflitantes: ~35 mil (possivelmente recorte de capitais ou cidades) a ~300 mil (Brasil). Não há registro nacional.",
+   "nao_mede": "Faixa muito aberta; a estatística de causa de morte era precária fora das capitais.",
+   "fontes": [
+    {
+     "titulo": "O Povo - Ha 100 anos, Gripe Espanhola... [resumo de busca]",
+     "url": "https://www.opovo.com.br/noticias/mundo/2018/03/ha-100-anos-gripe-espanhola-matou-o-presidente-e-afetou-o-ceara.html"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "epi-covid-registrados",
+   "ciclo": "recessao-ajuste-polarizacao",
+   "categoria": "epidemia",
+   "titulo": "Mortes por covid-19 registradas no Brasil",
+   "valor": 700239,
+   "unidade": "pessoas (Conass); Ministério da Saúde divulgou 700.556",
+   "periodo": "mar/2020-mar/2023",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Registros de óbito por covid-19 consolidados por secretarias estaduais; Conass/MS.",
+   "nao_mede": "Subnotificação de causa; não mede mortes indiretas nem anos de vida perdidos.",
+   "fontes": [
+    {
+     "titulo": "Poder360 - Brasil tem 700.556 mortes por covid-19 [resumo de busca]",
+     "url": "https://www.poder360.com.br/coronavirus/brasil-tem-700-556-mortes-por-covid-19/"
+    },
+    {
+     "titulo": "Ministerio da Saude - Painel Coronavirus",
+     "url": "https://covid.saude.gov.br/"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "epi-covid-excesso-ihme",
+   "ciclo": "recessao-ajuste-polarizacao",
+   "categoria": "epidemia",
+   "titulo": "Excesso de mortalidade em 2020-2021, estimativa do IHME",
+   "valor": 792000,
+   "unidade": "mortes acima do esperado",
+   "periodo": "2020-2021",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "Comparação das mortes por todas as causas com tendência esperada (2010-2019), modelo IHME.",
+   "nao_mede": "Intervalo de incerteza não coletado; não distingue covid direta de efeitos indiretos.",
+   "fontes": [
+    {
+     "titulo": "Brasil61 / Conass - excesso de mortes 2020 [resumo de busca]",
+     "url": "https://brasil61.com/noticias/brasil-registra-74-mil-mortes-a-mais-do-que-o-esperado-para-o-periodo-entre-marco-e-junho-de-2020-aponta-conass-bras201207"
+    },
+    {
+     "titulo": "IHME - COVID-19 excess mortality estimates",
+     "url": "https://www.healthdata.org/research-analysis/library/estimating-excess-mortality-due-covid-19-and-scaling-back-covid-19-pandemic"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "epi-covid-excesso-oms",
+   "ciclo": "recessao-ajuste-polarizacao",
+   "categoria": "epidemia",
+   "titulo": "Excesso de mortalidade em 2020-2021, estimativa da OMS",
+   "valor": 657000,
+   "unidade": "mortes acima do esperado",
+   "periodo": "2020-2021",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "Modelo estatístico da OMS para excesso global de mortes.",
+   "nao_mede": "Intervalo de incerteza não coletado; método difere do IHME.",
+   "fontes": [
+    {
+     "titulo": "Brasil61 / Conass - excesso de mortes 2020 [resumo de busca]",
+     "url": "https://brasil61.com/noticias/brasil-registra-74-mil-mortes-a-mais-do-que-o-esperado-para-o-periodo-entre-marco-e-junho-de-2020-aponta-conass-bras201207"
+    },
+    {
+     "titulo": "OMS - Global excess deaths associated with COVID-19, 2020-2021",
+     "url": "https://www.who.int/data/stories/the-true-death-toll-of-covid-19-estimating-global-excess-mortality"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "epi-covid-ms-2020-21",
+   "ciclo": "recessao-ajuste-polarizacao",
+   "categoria": "epidemia",
+   "titulo": "Mortes por covid-19 registradas pelo Ministério da Saúde em 2020-2021",
+   "valor": 619000,
+   "unidade": "pessoas",
+   "periodo": "2020-2021",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Registros do Ministério da Saúde.",
+   "nao_mede": "Mesmas limitações dos registros de causa.",
+   "fontes": [
+    {
+     "titulo": "Brasil61 / Conass - excesso de mortes 2020 [resumo de busca]",
+     "url": "https://brasil61.com/noticias/brasil-registra-74-mil-mortes-a-mais-do-que-o-esperado-para-o-periodo-entre-marco-e-junho-de-2020-aponta-conass-bras201207"
+    },
+    {
+     "titulo": "Ministerio da Saude - Painel Coronavirus",
+     "url": "https://covid.saude.gov.br/"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "saude-mi-1940",
+   "ciclo": "industrializacao-vargas",
+   "categoria": "saude",
+   "titulo": "Mortalidade infantil (óbitos antes de 1 ano)",
+   "valor": 146.6,
+   "unidade": "por mil nascidos vivos",
+   "periodo": "1940",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "Tábua de mortalidade IBGE, série histórica reconstruída a partir de censos. Valores históricos são estimados indiretamente (método demográfico); valor recente combina registros civis com correção de sub-registro.",
+   "nao_mede": "Média nacional: oculta diferenças regionais, raciais e de renda; não mede mortes de 1 a 5 anos.",
+   "fontes": [
+    {
+     "titulo": "IBGE - Tabuas de mortalidade / Estatisticas do Seculo XX [resumo de busca]",
+     "url": "https://agenciadenoticias.ibge.gov.br/pt/agencia-sala-de-imprensa/38455-em-2022-expectativa-de-vida-era-de-75-5-anos.html?lang=pt-BR"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "saude-mi-1960",
+   "ciclo": "desenvolvimentismo",
+   "categoria": "saude",
+   "titulo": "Mortalidade infantil (óbitos antes de 1 ano)",
+   "valor": 117.7,
+   "unidade": "por mil nascidos vivos",
+   "periodo": "1960",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "IBGE, mesma série. Valores históricos são estimados indiretamente (método demográfico); valor recente combina registros civis com correção de sub-registro.",
+   "nao_mede": "Média nacional: oculta diferenças regionais, raciais e de renda; não mede mortes de 1 a 5 anos.",
+   "fontes": [
+    {
+     "titulo": "IBGE - Tabuas de mortalidade / Estatisticas do Seculo XX [resumo de busca]",
+     "url": "https://agenciadenoticias.ibge.gov.br/pt/agencia-sala-de-imprensa/38455-em-2022-expectativa-de-vida-era-de-75-5-anos.html?lang=pt-BR"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "saude-mi-1980",
+   "ciclo": "milagre-endividamento",
+   "categoria": "saude",
+   "titulo": "Mortalidade infantil (óbitos antes de 1 ano)",
+   "valor": 69.1,
+   "unidade": "por mil nascidos vivos",
+   "periodo": "1980",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "IBGE, mesma série. Valores históricos são estimados indiretamente (método demográfico); valor recente combina registros civis com correção de sub-registro.",
+   "nao_mede": "Média nacional: oculta diferenças regionais, raciais e de renda; não mede mortes de 1 a 5 anos.",
+   "fontes": [
+    {
+     "titulo": "IBGE - Tabuas de mortalidade / Estatisticas do Seculo XX [resumo de busca]",
+     "url": "https://agenciadenoticias.ibge.gov.br/pt/agencia-sala-de-imprensa/38455-em-2022-expectativa-de-vida-era-de-75-5-anos.html?lang=pt-BR"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "saude-mi-2000",
+   "ciclo": "estabilizacao-real",
+   "categoria": "saude",
+   "titulo": "Mortalidade infantil (óbitos antes de 1 ano)",
+   "valor": 28.1,
+   "unidade": "por mil nascidos vivos",
+   "periodo": "2000",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "IBGE, mesma série. Valores históricos são estimados indiretamente (método demográfico); valor recente combina registros civis com correção de sub-registro.",
+   "nao_mede": "Média nacional: oculta diferenças regionais, raciais e de renda; não mede mortes de 1 a 5 anos.",
+   "fontes": [
+    {
+     "titulo": "IBGE - Tabuas de mortalidade / Estatisticas do Seculo XX [resumo de busca]",
+     "url": "https://agenciadenoticias.ibge.gov.br/pt/agencia-sala-de-imprensa/38455-em-2022-expectativa-de-vida-era-de-75-5-anos.html?lang=pt-BR"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "saude-mi-2022",
+   "ciclo": "retomada-incerteza",
+   "categoria": "saude",
+   "titulo": "Mortalidade infantil (óbitos antes de 1 ano)",
+   "valor": 12.9,
+   "unidade": "por mil nascidos vivos",
+   "periodo": "2022",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "IBGE, Tábua de mortalidade 2022 e registros de nascidos vivos/óbitos. Valores históricos são estimados indiretamente (método demográfico); valor recente combina registros civis com correção de sub-registro.",
+   "nao_mede": "Média nacional: oculta diferenças regionais, raciais e de renda; não mede mortes de 1 a 5 anos.",
+   "fontes": [
+    {
+     "titulo": "IBGE - Tabuas de mortalidade / Estatisticas do Seculo XX [resumo de busca]",
+     "url": "https://agenciadenoticias.ibge.gov.br/pt/agencia-sala-de-imprensa/38455-em-2022-expectativa-de-vida-era-de-75-5-anos.html?lang=pt-BR"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "edu-analf-1872",
+   "ciclo": "agroexportacao-imperial",
+   "categoria": "educacao",
+   "titulo": "Analfabetos (população de 6 anos ou mais) no Censo de 1872",
+   "valor": 82,
+   "unidade": "% da população de 6 anos ou mais",
+   "periodo": "1872",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Censo de 1872, declaração de saber ler e escrever.",
+   "nao_mede": "Declarado, não testado; faixa etária diferente das séries posteriores (15 anos ou mais).",
+   "fontes": [
+    {
+     "titulo": "Poder360 - Censo de 1872 registrou 1,5 milhao de escravos [pagina lida]",
+     "url": "https://www.poder360.com.br/brasil/censo-de-1872-registrou-15-milhao-de-escravos-no-brasil/"
+    }
+   ],
+   "verificado": true
+  },
+  {
+   "id": "edu-analf-1920",
+   "ciclo": "borracha-cafe-republica-velha",
+   "categoria": "educacao",
+   "titulo": "Analfabetismo, 15 anos ou mais",
+   "valor": 64.9,
+   "unidade": "% da população",
+   "periodo": "1920",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Censo de 1920 (IBGE); valor tomado de literatura que o cita.",
+   "nao_mede": "Pergunta de autodeclaração; não mede alfabetismo funcional.",
+   "fontes": [
+    {
+     "titulo": "Censos IBGE via literatura (Educacao & Realidade; SciELO) [resumo de busca]",
+     "url": "https://seer.ufrgs.br/educacaoerealidade/article/viewFile/25401/14733"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "edu-analf-2022",
+   "ciclo": "retomada-incerteza",
+   "categoria": "educacao",
+   "titulo": "Analfabetismo, 15 anos ou mais",
+   "valor": 5.6,
+   "unidade": "% da população",
+   "periodo": "2022",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Censo Demográfico 2022 (IBGE), pergunta sobre saber ler e escrever um bilhete simples; valor de memória, página do IBGE retornou erro 403.",
+   "nao_mede": "Não mede alfabetismo funcional (compreensão), apenas declaração básica.",
+   "fontes": [
+    {
+     "titulo": "IBGE - Censo 2022, analfabetismo",
+     "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/2013-agencia-de-noticias/releases/41542-censo-2022-brasil-tem-5-6-de-analfabetismo"
+    }
+   ],
+   "verificado": false,
+   "corroboracao": [
+    {
+     "fonte": "Agregado SIM/Atlas no banco do projeto Arandu/trans (humano_nacional.json); conferência indireta, ETL do projeto irmão não reauditada",
+     "resultado": "aproximado",
+     "detalhe": "5,71% pela média das UFs ponderada por população total (aproximação) vs 5,6%."
+    }
+   ]
+  },
+  {
+   "id": "edu-jovens-sem-em-2023",
+   "ciclo": "retomada-incerteza",
+   "categoria": "educacao",
+   "titulo": "Jovens de 14 a 29 anos que não completaram o ensino médio (abandonaram ou nunca frequentaram)",
+   "valor": 9000000,
+   "unidade": "pessoas (cerca de 9 milhões)",
+   "periodo": "2023",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "PNAD Contínua Educação 2023, expansão amostral (IBGE); a descrição de 71,6% de pretos e pardos é de resumo.",
+   "nao_mede": "Não separa motivos (trabalho, gravidez, desinteresse); amostra, não registro escolar.",
+   "fontes": [
+    {
+     "titulo": "IBGE - PNAD Continua Educacao 2023",
+     "url": "https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "trab-resgates-1995-2024",
+   "ciclo": "estabilizacao-real",
+   "categoria": "trabalho",
+   "titulo": "Trabalhadores resgatados de condição análoga à de escravo",
+   "valor": 65598,
+   "unidade": "pessoas (cumulativo)",
+   "periodo": "1995-2024",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Registros de fiscalização do Ministério do Trabalho (SIT/Radar); cada resgate é fruto de ação fiscal.",
+   "nao_mede": "Só conta quem foi encontrado pela fiscalização, não o total de vítimas; depende da capacidade e da prioridade de fiscalização.",
+   "fontes": [
+    {
+     "titulo": "MTE/SIT via Alma Preta e outros - resgates 1995-2024 [resumo de busca]",
+     "url": "https://almapreta.com.br/sessao/cotidiano/brasil-resgatou-mais-de-1-600-trabalhadores-em-condicoes-analogas-a-escravidao-em-2024/"
+    },
+    {
+     "titulo": "Radar SIT - Painel de Informacoes e Estatisticas da Inspecao do Trabalho",
+     "url": "https://sit.trabalho.gov.br/radar/"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "trab-resgates-2024",
+   "ciclo": "retomada-incerteza",
+   "categoria": "trabalho",
+   "titulo": "Trabalhadores resgatados em 2024",
+   "valor": 2186,
+   "unidade": "pessoas (30% em áreas urbanas)",
+   "periodo": "2024",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "SIT/MTE.",
+   "nao_mede": "Idem; um aumento pode refletir mais fiscalização e não mais ocorrência.",
+   "fontes": [
+    {
+     "titulo": "MTE/SIT via Alma Preta e outros - resgates 1995-2024 [resumo de busca]",
+     "url": "https://almapreta.com.br/sessao/cotidiano/brasil-resgatou-mais-de-1-600-trabalhadores-em-condicoes-analogas-a-escravidao-em-2024/"
+    },
+    {
+     "titulo": "Radar SIT - Painel de Informacoes e Estatisticas da Inspecao do Trabalho",
+     "url": "https://sit.trabalho.gov.br/radar/"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "trab-desocup-2021",
+   "ciclo": "recessao-ajuste-polarizacao",
+   "categoria": "trabalho",
+   "titulo": "Taxa de desocupação (trimestre até fev/2021) e pessoas desalentadas",
+   "valor": 14.4,
+   "unidade": "% da força de trabalho (5,952 milhões desalentados)",
+   "periodo": "dez/2020-fev/2021",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "PNAD Contínua, pesquisa domiciliar amostral do IBGE.",
+   "nao_mede": "Pesquisa amostral (não registro); desalento sinaliza quem parou de procurar, não capta subocupação e informalidade.",
+   "fontes": [
+    {
+     "titulo": "O Povo - IBGE: faltava trabalho para 32,641 milhoes [resumo de busca]",
+     "url": "https://www.opovo.com.br/noticias/economia/2021/04/30/ibge--faltava-trabalho-para-32-641-milhoes-de-pessoas-no-trimestre-ate-fevereiro.html"
+    },
+    {
+     "titulo": "IBGE - PNAD Continua (mercado de trabalho)",
+     "url": "https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "trab-desalento-2017",
+   "ciclo": "recessao-ajuste-polarizacao",
+   "categoria": "trabalho",
+   "titulo": "Desalentados e subutilização da força de trabalho",
+   "valor": 4300000,
+   "unidade": "pessoas desalentadas (subutilização 23,8%)",
+   "periodo": "4º tri 2017",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "PNAD Contínua, IBGE.",
+   "nao_mede": "Idem; a série só começa em 2012, sem comparação com crises dos anos 1980.",
+   "fontes": [
+    {
+     "titulo": "Tribuna de Minas - Emprego ou desalento (2018) [resumo de busca]",
+     "url": "https://tribunademinas.com.br/tm-tv/acervo-tm-tv/conjuntura-mercado/27-03-2018/emprego-ou-desalento.html?amp=1"
+    },
+    {
+     "titulo": "IBGE - PNAD Continua (mercado de trabalho)",
+     "url": "https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "trab-bonus-pico",
+   "ciclo": "retomada-incerteza",
+   "categoria": "trabalho",
+   "titulo": "Pico projetado da população em idade ativa (15-64)",
+   "valor": 137500000,
+   "unidade": "pessoas",
+   "periodo": "2033 (projeção)",
+   "tipo": "estimativa",
+   "intervalo": null,
+   "metodo": "Projeção de população do IBGE; razão de dependência de 44,29 (2020) a 48,14 (2030) citada em resumo. Há estimativas divergentes do fim do bônus (de 2018, pela participação, a 2035-41, pela razão de dependência abaixo de 50%).",
+   "nao_mede": "O bônus demográfico é potencial e não resultado: depende de emprego, educação e produtividade; o número não mede 'desperdício'.",
+   "fontes": [
+    {
+     "titulo": "Poder360 - Fim do bonus demografico sera antecipado [resumo de busca]",
+     "url": "https://www.poder360.com.br/brasil/fim-do-bonus-demografico-sera-antecipado-em-4-anos-diz-ex-ibge/"
+    },
+    {
+     "titulo": "IBGE - Projecoes da Populacao",
+     "url": "https://www.ibge.gov.br/estatisticas/sociais/populacao/9109-projecao-da-populacao.html"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "trab-fuga-cerebros",
+   "ciclo": "retomada-incerteza",
+   "categoria": "trabalho",
+   "titulo": "Doutores titulados no Brasil com residência no exterior",
+   "valor": 3145,
+   "unidade": "pessoas (1,2% dos titulados)",
+   "periodo": "2013-2024",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Estudo do Ipea cruzando titulações (Capes/Plataforma Lattes) e registro de residência.",
+   "nao_mede": "Mede emigração de doutores, não perda de produtividade; destino principal EUA (20%). A taxa brasileira é menor que a de países desenvolvidos citados no estudo; não mede quem emigrou sem doutorado.",
+   "fontes": [
+    {
+     "titulo": "Ipea Radar - Emigracao de doutores titulados no Brasil: ha evidencia de fuga de cerebros? [resumo de busca]",
+     "url": "https://www.ipea.gov.br/portal/radar/temasradar/ciencia-tecnologia-2/16361-emigracao-de-doutores-titulados-no-brasil-ha-evidencia-de-fuga-de-cerebros"
+    }
+   ],
+   "verificado": false
+  },
+  {
+   "id": "vu-homicidios-2023",
+   "ciclo": "retomada-incerteza",
+   "categoria": "violencia-urbana",
+   "titulo": "Homicídios no Brasil",
+   "valor": 45747,
+   "unidade": "mortes",
+   "periodo": "2023",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Atlas da Violência 2025 (Ipea/FBSP), a partir do SIM/DataSUS (certidões de óbito com causa agressão e intervenção legal conforme classificação).",
+   "nao_mede": "Não incluiu mortes violentas de causa indeterminada; menor número em 11 anos, o que não altera o nível.",
+   "fontes": [
+    {
+     "titulo": "Poder360 - Brasil teve 60 jovens assassinados por dia em 2023 [pagina lida]",
+     "url": "https://www.poder360.com.br/poder-brasil/brasil-teve-60-jovens-assassinados-por-dia-em-2023-diz-relatorio/"
+    },
+    {
+     "titulo": "Ipea/FBSP - Atlas da Violencia 2025",
+     "url": "https://www.ipea.gov.br/atlasviolencia/"
+    }
+   ],
+   "verificado": true,
+   "corroboracao": [
+    {
+     "fonte": "Agregado SIM/Atlas no banco do projeto Arandu/trans (humano_nacional.json); conferência indireta, ETL do projeto irmão não reauditada",
+     "resultado": "corrobora",
+     "detalhe": "45.747 = total nacional do agregado (2022: 46.408 vs 46.409 publicado; 2024: 42.590)."
+    }
+   ]
+  },
+  {
+   "id": "vu-jovens-2023",
+   "ciclo": "retomada-incerteza",
+   "categoria": "violencia-urbana",
+   "titulo": "Jovens (15-29 anos) assassinados",
+   "valor": 21856,
+   "unidade": "pessoas (60 por dia; 47,8% dos homicídios)",
+   "periodo": "2023",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Atlas da Violência 2025, SIM/DataSUS; li o valor em página de imprensa que cita o Atlas.",
+   "nao_mede": "Idem; não mede anos de vida perdidos (o Atlas informa cerca de 12 milhões de anos perdidos por arma de fogo entre jovens, 2013-2023).",
+   "fontes": [
+    {
+     "titulo": "Poder360 - Brasil teve 60 jovens assassinados por dia em 2023 [pagina lida]",
+     "url": "https://www.poder360.com.br/poder-brasil/brasil-teve-60-jovens-assassinados-por-dia-em-2023-diz-relatorio/"
+    },
+    {
+     "titulo": "Ipea/FBSP - Atlas da Violencia 2025",
+     "url": "https://www.ipea.gov.br/atlasviolencia/"
+    }
+   ],
+   "verificado": true,
+   "corroboracao": [
+    {
+     "fonte": "Agregado SIM/Atlas no banco do projeto Arandu/trans (humano_nacional.json); conferência indireta, ETL do projeto irmão não reauditada",
+     "resultado": "corrobora",
+     "detalhe": "21.856 e 47,8% do total reproduzidos pelo agregado."
+    }
+   ]
+  },
+  {
+   "id": "vu-taxa-jovens-2023",
+   "ciclo": "retomada-incerteza",
+   "categoria": "violencia-urbana",
+   "titulo": "Taxa de homicídios de jovens de 15 a 29 anos",
+   "valor": 45.1,
+   "unidade": "por 100 mil jovens (população geral: 21,2)",
+   "periodo": "2023",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Atlas da Violência 2025; 45,1 vem de resumo de busca e é coerente com 21.856 mortes sobre cerca de 48 milhões de jovens. A página lida mostra 72,4, que não bate com essa conta e não foi usada.",
+   "nao_mede": "Divergência entre duas leituras do mesmo relatório; conferir no PDF do Atlas.",
+   "fontes": [
+    {
+     "titulo": "Jornal do Brasil - risco de negro ser vitima de homicidio e 2,7 vezes maior [resumo de busca]",
+     "url": "https://www.jb.com.br/brasil/direitos-humanos/2025/05/1055452-risco-de-negro-ser-vitima-de-homicidio-e-27-vezes-maior-no-brasil.html"
+    },
+    {
+     "titulo": "Ipea/FBSP - Atlas da Violencia 2025",
+     "url": "https://www.ipea.gov.br/atlasviolencia/"
+    }
+   ],
+   "verificado": false,
+   "corroboracao": [
+    {
+     "fonte": "Agregado SIM/Atlas no banco do projeto Arandu/trans (humano_nacional.json); conferência indireta, ETL do projeto irmão não reauditada",
+     "resultado": "aproximado",
+     "detalhe": "44,9 por 100 mil no agregado vs 45,1 aqui; diferença de denominador populacional (edição da projeção IBGE)."
+    }
+   ]
+  },
+  {
+   "id": "vu-negros-2023",
+   "ciclo": "retomada-incerteza",
+   "categoria": "violencia-urbana",
+   "titulo": "Risco relativo de homicídio de pessoa negra frente a não negra",
+   "valor": 2.7,
+   "unidade": "razão de risco (76,97% das vítimas eram negras)",
+   "periodo": "2023",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Atlas da Violência 2025.",
+   "nao_mede": "Razão média nacional; varia muito por estado; depende da qualidade do preenchimento de raça/cor.",
+   "fontes": [
+    {
+     "titulo": "Jornal do Brasil - risco de negro ser vitima de homicidio e 2,7 vezes maior [resumo de busca]",
+     "url": "https://www.jb.com.br/brasil/direitos-humanos/2025/05/1055452-risco-de-negro-ser-vitima-de-homicidio-e-27-vezes-maior-no-brasil.html"
+    },
+    {
+     "titulo": "Ipea/FBSP - Atlas da Violencia 2025",
+     "url": "https://www.ipea.gov.br/atlasviolencia/"
+    }
+   ],
+   "verificado": false,
+   "corroboracao": [
+    {
+     "fonte": "Agregado SIM/Atlas no banco do projeto Arandu/trans (humano_nacional.json); conferência indireta, ETL do projeto irmão não reauditada",
+     "resultado": "aproximado",
+     "detalhe": "76,9% de vítimas negras (SIM 2023, raça ignorada no denominador); razão 2,77 é de 2022 (SIM/Censo) e não é reproduzível para 2023 sem população por raça."
+    }
+   ]
+  },
+  {
+   "id": "vu-queda-2017",
+   "ciclo": "retomada-incerteza",
+   "categoria": "violencia-urbana",
+   "titulo": "Redução da taxa de homicídio de jovens entre 2017 e 2023",
+   "valor": 30.2,
+   "unidade": "%",
+   "periodo": "2017-2023",
+   "tipo": "contagem",
+   "intervalo": null,
+   "metodo": "Atlas da Violência 2025.",
+   "nao_mede": "Queda não explica as causas (demografia, facções, políticas).",
+   "fontes": [
+    {
+     "titulo": "Poder360 - Brasil teve 60 jovens assassinados por dia em 2023 [pagina lida]",
+     "url": "https://www.poder360.com.br/poder-brasil/brasil-teve-60-jovens-assassinados-por-dia-em-2023-diz-relatorio/"
+    }
+   ],
+   "verificado": false,
+   "corroboracao": [
+    {
+     "fonte": "Agregado SIM/Atlas no banco do projeto Arandu/trans (humano_nacional.json); conferência indireta, ETL do projeto irmão não reauditada",
+     "resultado": "diverge",
+     "detalhe": "O agregado dá −35,8% na taxa (contagem de jovens −38,9%); 30,2% vem de relatório que usa a população de cada edição. Direção corrobora, valor não reproduzido."
+    }
+   ]
+  }
+ ],
+ "perguntas_abertas": [
+  "Quantas pessoas deixaram de nascer, estudar ou produzir por causa de cada evento? Os números aqui são mortes ou prevalências, não contrafactuais.",
+  "Qual era a população indígena em 1500? A faixa de estimativas é ampla e a controvérsia sobre a linha de base muda a escala do declínio.",
+  "Quantas mortes por seca e fome (1877, 1915, 1979-83) devem ser atribuídas a clima e quantas a decisões de assistência? Os dados não separam.",
+  "Qual o total de mortos pelo Estado na ditadura somando indígenas, camponeses e urbanos com um mesmo critério de prova?",
+  "Quantos trabalhadores em condição análoga à de escravo nunca foram encontrados pela fiscalização?",
+  "Quanto da queda da mortalidade infantil é atribuível a cada política (vacinação, saneamento, renda)?",
+  "O que o 'bônus demográfico' realmente rendeu em produtividade e o que teria rendido com outra educação? Não há medida direta.",
+  "Quantos anos de estudo médios e que qualidade de aprendizagem se perdem na evasão, além da contagem de quem saiu da escola?",
+  "O excesso de mortalidade na covid-19 se distribui entre mortes diretas e efeitos indiretos de sistema de saúde? As estimativas divergem em 135 mil entre IHME e OMS.",
+  "Quanta fuga de cérebros ocorre além dos doutores titulados no Brasil (emigração de graduados e técnicos)?",
+  "O que a queda da taxa de homicídios desde 2017 diz sobre causas, e não só sobre contagem?"
+ ]
+}

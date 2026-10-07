@@ -1,0 +1,2147 @@
+{
+ "gerado_em": "2026-10-07T01:36:23.893Z",
+ "resumo": {
+  "total": 31,
+  "por_status": {
+   "oficial": 2,
+   "preliminar": 1,
+   "parcial": 16,
+   "derivado": 7,
+   "julgamento": 5
+  },
+  "atencao": 29
+ },
+ "paginas": {
+  "home": [
+   "tse-2022",
+   "tse-2026",
+   "ibge-censo-2022",
+   "forense",
+   "modelo-macro",
+   "evolucoes",
+   "custo-corrupcao",
+   "fator-humano",
+   "historia",
+   "trans-arandu",
+   "clima",
+   "potenciais-brasil",
+   "pilares-pensamento"
+  ],
+  "mapa": [
+   "tse-2022",
+   "tse-2026",
+   "ibge-censo-2022",
+   "funai-incra",
+   "forense",
+   "trans-arandu",
+   "humano-municipal",
+   "clima-rs"
+  ],
+  "municipio": [
+   "tse-2022",
+   "tse-2026",
+   "ibge-censo-2022",
+   "funai-incra",
+   "forense",
+   "clima-rs"
+  ],
+  "decisoes": [
+   "tse-2022",
+   "tse-2026",
+   "modelo-macro",
+   "decisoes",
+   "cadeia-cenarios",
+   "pessimismo"
+  ],
+  "historia": [
+   "historia",
+   "evolucoes",
+   "cadeia-cenarios",
+   "aneis"
+  ],
+  "antes": [
+   "ibge-censo-2022",
+   "trans-arandu",
+   "historia",
+   "antes-de-1500"
+  ],
+  "gente": [
+   "ibge-censo-2022",
+   "funai-incra",
+   "trans-arandu",
+   "humano-municipal",
+   "fator-humano",
+   "historia",
+   "economia-historica",
+   "series-historicas",
+   "cruzamento-territorial"
+  ],
+  "clima": [
+   "series-historicas",
+   "modelo-macro",
+   "clima",
+   "clima-valor",
+   "clima-rs"
+  ],
+  "potenciais": [
+   "modelo-macro",
+   "decisoes",
+   "potenciais-brasil"
+  ],
+  "pilares": [
+   "historia",
+   "decisoes",
+   "pilares-pensamento"
+  ],
+  "forense": [
+   "tse-2022",
+   "tse-2026",
+   "forense"
+  ],
+  "corrupcao": [
+   "modelo-macro",
+   "decisoes",
+   "custo-corrupcao",
+   "clima-valor"
+  ],
+  "pessimismo": [
+   "modelo-macro",
+   "custo-corrupcao",
+   "pessimismo",
+   "visoes-pessimistas"
+  ],
+  "quebras": [
+   "historia",
+   "economia-historica",
+   "series-historicas",
+   "modelo-macro",
+   "quebras"
+  ],
+  "futuro": [
+   "futuros",
+   "leis-tecnologicas",
+   "modelo-macro",
+   "series-historicas",
+   "propostas"
+  ],
+  "propostas": [
+   "propostas"
+  ],
+  "metodo": [
+   "tse-2022",
+   "tse-2026",
+   "ibge-censo-2022",
+   "funai-incra",
+   "forense",
+   "trans-arandu",
+   "humano-municipal",
+   "fator-humano",
+   "historia",
+   "economia-historica",
+   "series-historicas",
+   "cruzamento-territorial",
+   "modelo-macro",
+   "decisoes",
+   "referencias",
+   "propostas",
+   "antes-de-1500",
+   "clima",
+   "potenciais-brasil",
+   "pilares-pensamento",
+   "leis-tecnologicas",
+   "futuros",
+   "evolucoes",
+   "cadeia-cenarios",
+   "aneis",
+   "quebras",
+   "custo-corrupcao",
+   "clima-valor",
+   "clima-rs",
+   "pessimismo",
+   "visoes-pessimistas"
+  ],
+  "referencias": [
+   "referencias"
+  ]
+ },
+ "bases": [
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "TSE Dados Abertos — votação por seção e detalhe da seção",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_2022_BR.zip"
+   },
+   "extraido_em": "2026-10-06T21:17:25+00:00",
+   "hashes": [
+    {
+     "rotulo": "Presidente 2022 · 1º turno · votação",
+     "sha256": "9353993de5cf03778aef44e01d4925e7ee105f5262491d344a2f0dbc956b0139",
+     "curto": "9353993d…956b0139"
+    },
+    {
+     "rotulo": "Presidente 2022 · 1º turno · detalhe",
+     "sha256": "ad22c50b9e6d9dfb096a2170680a190f1734895ba89d8977b95fd63ca02c03da",
+     "curto": "ad22c50b…a02c03da"
+    },
+    {
+     "rotulo": "Presidente 2022 · 2º turno · votação",
+     "sha256": "9353993de5cf03778aef44e01d4925e7ee105f5262491d344a2f0dbc956b0139",
+     "curto": "9353993d…956b0139"
+    },
+    {
+     "rotulo": "Presidente 2022 · 2º turno · detalhe",
+     "sha256": "ad22c50b9e6d9dfb096a2170680a190f1734895ba89d8977b95fd63ca02c03da",
+     "curto": "ad22c50b…a02c03da"
+    }
+   ],
+   "cobertura": "5.570 municípios · 471.010 seções · Presidente",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "2022 · 1º turno: soma por seção de Lula = 57.259.504 (publicado 57.259.504; diferença 0)"
+    },
+    {
+     "ok": true,
+     "texto": "2022 · 1º turno: soma por seção de Bolsonaro = 51.072.345 (publicado 51.072.345; diferença 0)"
+    },
+    {
+     "ok": true,
+     "texto": "2022 · 1º turno: 471.010 seções · duplicadas 0 · comparecimento > aptos 0 · divergência entre os dois arquivos do TSE 0"
+    },
+    {
+     "ok": true,
+     "texto": "2022 · 1º turno: join TSE→IBGE em 5.570 municípios"
+    },
+    {
+     "ok": null,
+     "texto": "2022 · 1º turno: 1 seção não instalada/anulada, excluída"
+    },
+    {
+     "ok": true,
+     "texto": "2022 · 2º turno: soma por seção de Lula = 60.345.999 (publicado 60.345.999; diferença 0)"
+    },
+    {
+     "ok": true,
+     "texto": "2022 · 2º turno: soma por seção de Bolsonaro = 58.206.354 (publicado 58.206.354; diferença 0)"
+    },
+    {
+     "ok": true,
+     "texto": "2022 · 2º turno: 471.010 seções · duplicadas 0 · comparecimento > aptos 0 · divergência entre os dois arquivos do TSE 0"
+    },
+    {
+     "ok": true,
+     "texto": "2022 · 2º turno: join TSE→IBGE em 5.570 municípios"
+    },
+    {
+     "ok": null,
+     "texto": "2022 · 2º turno: 1 seção não instalada/anulada, excluída"
+    }
+   ],
+   "limites": [
+    "Reconciliar com os totais publicados valida a ingestão, não a lisura da eleição nem o software da urna."
+   ],
+   "links": [
+    {
+     "titulo": "Dados abertos do TSE",
+     "url": "https://dadosabertos.tse.jus.br"
+    },
+    {
+     "titulo": "Arquivo de detalhe da seção",
+     "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2022.zip"
+    }
+   ],
+   "arquivos": [
+    "elections/pres_2022_t1.json",
+    "elections/pres_2022_t2.json"
+   ],
+   "paginas": [
+    "mapa",
+    "municipio",
+    "forense",
+    "decisoes",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "tse-2022",
+   "nome": "TSE · Presidente 2022 (1º e 2º turnos)",
+   "chip": {
+    "rotulo": "TSE 2022",
+    "detalhe": "oficial"
+   },
+   "status": "oficial",
+   "status_rotulo": "oficial"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "TSE Dados Abertos — votação por seção e detalhe da seção",
+    "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_secao/votacao_secao_2026_BR.zip"
+   },
+   "extraido_em": "2026-10-06T21:17:37+00:00",
+   "hashes": [
+    {
+     "rotulo": "Presidente 2026 · 1º turno · votação",
+     "sha256": "223c555acef3096e83628ce63726d4b4a91c7a78d31560825971c26222ce9aa4",
+     "curto": "223c555a…22ce9aa4"
+    },
+    {
+     "rotulo": "Presidente 2026 · 1º turno · detalhe",
+     "sha256": "1222acec579cb2c4560346fb081cf41e006a9e393b115ef79558660d7b4696b3",
+     "curto": "1222acec…7b4696b3"
+    }
+   ],
+   "cobertura": "5.570 municípios · 497.897 seções · Presidente",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "2026 · 1º turno: soma por seção de Lula = 53.879.538 (publicado 53.879.538; diferença 0)"
+    },
+    {
+     "ok": true,
+     "texto": "2026 · 1º turno: soma por seção de Flávio Bolsonaro = 56.104.503 (publicado 56.104.503; diferença 0)"
+    },
+    {
+     "ok": true,
+     "texto": "2026 · 1º turno: 497.897 seções · duplicadas 0 · comparecimento > aptos 0 · divergência entre os dois arquivos do TSE 0"
+    },
+    {
+     "ok": null,
+     "texto": "2026 · 1º turno: join TSE→IBGE em 5.570 municípios (1 sem correspondência: BOA ESPERANÇA DO NORTE — município novo fora da malha)"
+    }
+   ],
+   "limites": [
+    "Reconciliar com os totais publicados valida a ingestão, não a lisura da eleição nem o software da urna.",
+    "Snapshot do TSE de 05/10/2026 (1º turno); o 2º turno é em 25/10/2026. Os números podem mudar até a diplomação."
+   ],
+   "links": [
+    {
+     "titulo": "Dados abertos do TSE",
+     "url": "https://dadosabertos.tse.jus.br"
+    },
+    {
+     "titulo": "Arquivo de detalhe da seção",
+     "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2026.zip"
+    }
+   ],
+   "arquivos": [
+    "elections/pres_2026_t1.json"
+   ],
+   "paginas": [
+    "mapa",
+    "municipio",
+    "forense",
+    "decisoes",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "tse-2026",
+   "nome": "TSE · Presidente 2026 (1º turno)",
+   "chip": {
+    "rotulo": "TSE 2026",
+    "detalhe": "preliminar"
+   },
+   "status": "preliminar",
+   "status_rotulo": "preliminar"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "IBGE SIDRA (tabelas 9605, 9718, 9578) e API de malhas",
+    "url": "https://sidra.ibge.gov.br"
+   },
+   "extraido_em": "2026-10-06T21:44:27+00:00",
+   "hashes": [
+    {
+     "rotulo": "9605",
+     "sha256": "01ebbb535278bb5dce37fe9887e9d27fdc8c66b82a2116de5fb6caad45a69aca",
+     "curto": "01ebbb53…45a69aca"
+    },
+    {
+     "rotulo": "9718",
+     "sha256": "8fd1bf2fd98a1243231252e57fd1fc9e54dd1e27aeae10ab387f74015a359353",
+     "curto": "8fd1bf2f…5a359353"
+    },
+    {
+     "rotulo": "9578",
+     "sha256": "8d78e80225ab363d8553aa3b33fb2463f514d33d0f7602f3ceb8ef25cc589c9b",
+     "curto": "8d78e802…cc589c9b"
+    },
+    {
+     "rotulo": "malhas/estados/{uf}",
+     "sha256": "49eee293cd3f7575bb48e3e3e7bab01c8ca4146d4d30735243d98303558cd20d",
+     "curto": "49eee293…558cd20d"
+    }
+   ],
+   "cobertura": "5.570 municípios · população total, cor/raça, indígenas (quesito total e cor/raça) e quilombolas",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Soma dos municípios = total nacional publicado: população 203.080.756; indígenas 1.694.836; quilombolas 1.330.186; indígenas por cor/raça 1.227.642 (diferença 0 em todas as UFs)"
+    },
+    {
+     "ok": true,
+     "texto": "Join com a malha: 5.570 = 5.570 = 5.570, sem sobras nos dois sentidos"
+    },
+    {
+     "ok": null,
+     "texto": "Células com sigilo estatístico (X) ficam null: 29 municípios (indígenas em TI) e 36 (quilombolas em território)"
+    },
+    {
+     "ok": null,
+     "texto": "Nove códigos IBGE oficiais não passam no dígito verificador; registrados, não corrigidos"
+    }
+   ],
+   "limites": [
+    "Autodeclaração (Censo) ≠ residir em terra indígena. Quilombola = população declarada, não território titulado.",
+    "Correlações por município não descrevem comportamento individual (falácia ecológica)."
+   ],
+   "links": [
+    {
+     "titulo": "SIDRA — Censo 2022",
+     "url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022/inicial"
+    }
+   ],
+   "arquivos": [
+    "territorios.json",
+    "geo/municipios.geojson"
+   ],
+   "paginas": [
+    "mapa",
+    "municipio",
+    "gente",
+    "metodo",
+    "antes"
+   ],
+   "nota": null,
+   "id": "ibge-censo-2022",
+   "nome": "IBGE · Censo 2022 (população, cor/raça, indígenas, quilombolas) e malha municipal",
+   "chip": {
+    "rotulo": "IBGE Censo 2022",
+    "detalhe": "oficial"
+   },
+   "status": "oficial",
+   "status_rotulo": "oficial"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "FUNAI Geoserver · INCRA Áreas de Quilombolas",
+    "url": "https://geoserver.funai.gov.br/geoserver/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=Funai:tis_poligonais&outputFormat=application/json&maxFeatures=5000"
+   },
+   "extraido_em": "2026-10-06T21:46:46+00:00",
+   "hashes": [
+    {
+     "rotulo": "FUNAI Geoserver — terras indígenas (polígonos)",
+     "sha256": "d3c105e37590ab39b8a84b08cc8e992546b476eef036b9e8bcafa3a0becd12af",
+     "curto": "d3c105e3…becd12af"
+    },
+    {
+     "rotulo": "INCRA — Áreas de Quilombolas (shapefile)",
+     "sha256": "58860d2d88e01cb6077108906370a5c7940e444cd65aaf0847dba640c0099ad5",
+     "curto": "58860d2d…c0099ad5"
+    }
+   ],
+   "cobertura": "571 municípios com terra indígena · 413 com território quilombola do INCRA",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Área de TI: 127,19 M ha nos polígonos e 127,14 M ha atribuídos a municípios (FUNAI declara 125,42 M ha; diferença de 1,4%)"
+    },
+    {
+     "ok": true,
+     "texto": "Área quilombola: 3,324 M ha nos polígonos = 3,324 M ha atribuídos"
+    }
+   ],
+   "limites": [
+    "Território quilombola: a camada do INCRA contém só territórios com processo/delimitação; a maioria das comunidades quilombolas identificadas pelo Censo não tem polígono (quilombo_n = 0 não significa ausência de população quilombola).",
+    "Terras indígenas: o Censo 2022 publica a população residente em TI por município (pop_indigena_em_ti), mas TIs sem polígono na FUNAI (p.ex. reservas/ocupações não delimitadas) e áreas em estudo sem geometria ficam fora de ti_*.",
+    "Territórios quilombolas tradicionais sem processo no INCRA, terras estaduais não repassadas ao INCRA e quilombos urbanos não aparecem na camada. Nenhuma fonte exigiu login; nada foi contornado."
+   ],
+   "links": [],
+   "arquivos": [
+    "territorios.json"
+   ],
+   "paginas": [
+    "mapa",
+    "municipio",
+    "gente"
+   ],
+   "nota": "População indígena/quilombola vem do Censo 2022 (autodeclaração); áreas de TI e de território quilombola vêm de camadas oficiais de FUNAI/INCRA e NÃO são equivalentes: morar em terra indígena ≠ autodeclarar-se indígena, e o INCRA só cobre territórios com processo/delimitação, não toda comunidade quilombola. Zero em ti_*/quilombo_* = nenhuma feição da camada no município.",
+   "id": "funai-incra",
+   "nome": "FUNAI e INCRA · terras indígenas e territórios quilombolas (polígonos)",
+   "chip": {
+    "rotulo": "FUNAI/INCRA",
+    "detalhe": "parcial"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "Derivado dos dados por seção do TSE — src/sociolibero/eleicoes/forensics",
+    "url": null
+   },
+   "extraido_em": null,
+   "hashes": [],
+   "cobertura": "z robusto vs vizinhos (comparecimento, voto, brancos+nulos), último dígito, correlação comparecimento×voto, múltiplos de 5",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Último dígito calibrado em dados reais: 5,8% (2022) e 5,6% (2026) dos municípios com p < 0,05 (esperado ≈ 5%)"
+    },
+    {
+     "ok": false,
+     "texto": "Benford de 2º dígito reprova 60% dos municípios reais: inválido nesta escala e fora do score"
+    },
+    {
+     "ok": true,
+     "texto": "Persistência: 30% dos municípios sinalizados em 2022 T1 voltam a ser sinalizados em T2, contra 3,3% de base — os sinais refletem sobretudo estrutura local, não evento"
+    },
+    {
+     "ok": null,
+     "texto": "Validação sintética (300 simulações): Benford 2º dígito dispara em 99% sem fraude; correlação comparecimento×voto pega enchimento a partir de ~10% das seções; nenhum detector de seção enxerga transferência de votos"
+    }
+   ],
+   "limites": [
+    "Anomalia estatística não é prova de fraude.",
+    "Nada aqui detecta fraude de software ou hardware da urna.",
+    "25 pontos por teste sinalizado (q<0,05 ou |z|≥4) + 5 por unidade de |z| acima de 2; heurístico."
+   ],
+   "links": [
+    {
+     "titulo": "Método, validação e limites",
+     "url": "#/metodo"
+    }
+   ],
+   "arquivos": [
+    "forensics/pres_2022_t1.json",
+    "forensics/pres_2022_t2.json",
+    "forensics/pres_2026_t1.json",
+    "forensics/validacao_sintetica.json"
+   ],
+   "paginas": [
+    "forense",
+    "mapa",
+    "municipio",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "forense",
+   "nome": "Testes forenses por município (triagem, não prova)",
+   "chip": {
+    "rotulo": "Forense",
+    "detalhe": "derivado"
+   },
+   "status": "derivado",
+   "status_rotulo": "derivado"
+  },
+  {
+   "tipo": "proveniencia-indireta",
+   "fonte": {
+    "nome": "Banco SQLite local do projeto irmão do usuário (não publicado)",
+    "url": null
+   },
+   "extraido_em": null,
+   "hashes": [],
+   "cobertura": "Agregados por município, UF e ano de SIM/DATASUS, SINAN, SINASC, Atlas da Violência, CNES — sem nenhum dado pessoal",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Homicídios nacionais batem com o publicado: 2022 = 46.408 (publicado 46.409); 2023 = 45.747; 2024 = 42.590"
+    },
+    {
+     "ok": true,
+     "texto": "População por cor/raça por município = pipeline independente do Censo (5.570 de 5.570 iguais; 1.227.642 indígenas por cor/raça)"
+    },
+    {
+     "ok": true,
+     "texto": "Soma das 27 UFs = total Brasil em todos os anos; 0 chaves duplicadas e 0 valores negativos"
+    },
+    {
+     "ok": false,
+     "texto": "DEFEITO NA ORIGEM: Atlas municipal de 2020 corrompido (625 de 5.566 linhas com jovens ou mulheres > total). Esses campos ficam nulos; o SIM cobre 2020"
+    }
+   ],
+   "limites": [
+    "A ETL do projeto irmão não foi reauditada aqui; os números citam fontes primárias, mas passam por ela.",
+    "Corrigir o Atlas municipal de 2020 na origem é uma proposta em aberto."
+   ],
+   "links": [],
+   "arquivos": [],
+   "paginas": [
+    "mapa",
+    "gente",
+    "metodo",
+    "antes"
+   ],
+   "nota": "Os números vêm de um banco local; conferimos totais com fontes públicas, mas isto não substitui a leitura da fonte primária.",
+   "id": "trans-arandu",
+   "nome": "Projeto Arandu / trans (projeto irmão) — proveniência indireta",
+   "chip": {
+    "rotulo": "Arandu/trans",
+    "detalhe": "indireta"
+   },
+   "status": "derivado",
+   "status_rotulo": "derivado"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "Atlas da Violência (Ipea/FBSP) e SIM/DATASUS, via Arandu/trans",
+    "url": "https://www.ipea.gov.br/atlasviolencia/"
+   },
+   "extraido_em": "2026-10-06T22:13:36+00:00",
+   "hashes": [],
+   "cobertura": "5.570 municípios · anos 2010–2024 · 71 séries nacionais/UF",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Atlas municipal idêntico ao SIM (homicídio + intervenção legal) em 100% dos municípios em 2015–2019, 2021 e 2022"
+    },
+    {
+     "ok": null,
+     "texto": "A soma municipal fica 560 a 1.155 abaixo do Brasil por ano: óbitos sem município de residência válido (não é erro de join)"
+    }
+   ],
+   "limites": [
+    "Proveniência indireta: números vêm do banco do projeto Arandu/trans, não das fontes primárias; a ETL daquele projeto não foi reauditada aqui.",
+    "Atlas municipal termina em 2022 (SIM consolida tarde); 2023-2024 só existem no nível UF/Brasil do Atlas. Em 2023, `sim_homicidios`/`sim_intervencao_legal` (SIM agregado) cobrem o município; 2024 não tem SIM municipal.",
+    "consumo_alcool municipal NÃO é exportado: é a taxa da UF repetida para cada município (estimativa, não medida). O valor medido (PNS 2019) está em humano_nacional.json por UF.",
+    "saude_mental só tem retrato 2024 e só municípios com alguma estrutura (2.363); ausência de linha NÃO é exportada como zero (pode ser zero real ou lacuna do CNES).",
+    "violencia_infantil e sinan_violencia: contagem de notificações, não de casos; municípios sem linha ficam null (sem notificante ≠ sem violência).",
+    "populacao_grupo municipal só existe nos anos de Censo (2010, 2022); taxas por grupo (jovens, mulheres) só nesses anos.",
+    "Contagens pequenas oscilam por acaso: não ranqueie taxas de municípios pequenos."
+   ],
+   "links": [
+    {
+     "titulo": "Atlas da Violência",
+     "url": "https://www.ipea.gov.br/atlasviolencia/"
+    }
+   ],
+   "arquivos": [
+    "humano_municipal.json",
+    "humano_nacional.json"
+   ],
+   "paginas": [
+    "mapa",
+    "gente",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "humano-municipal",
+   "nome": "Violência e mortes violentas por município (SIM, Atlas da Violência, SINAN, SINASC)",
+   "chip": {
+    "rotulo": "Violência (SIM)",
+    "detalhe": "via Arandu"
+   },
+   "status": "derivado",
+   "status_rotulo": "derivado"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "Compilação de fontes primárias e secundárias; cada indicador traz as suas",
+    "url": null
+   },
+   "extraido_em": "2026-10-06",
+   "hashes": [],
+   "cobertura": "53 indicadores · 27 estimativas · 26 contagens · 11 perguntas abertas",
+   "validacoes": [
+    {
+     "ok": null,
+     "texto": "12 de 53 indicadores conferidos na fonte; 41 vêm de resumo de busca ou de memória (marcados “a confirmar”)"
+    },
+    {
+     "ok": true,
+     "texto": "3 corroboram, 3 aproximados e 2 divergem (por denominador ou definição) na reconciliação com agregados do banco Arandu/trans e com o Censo"
+    }
+   ],
+   "limites": [
+    "Inventário de números sobre custo humano e potencial humano desperdiçado. Cada número tem valor, unidade, período, tipo (contagem ou estimativa), fonte e flag de verificação. Nao implica causalidade nem atribui culpa a um ciclo; o ciclo indica em que período o número se situa. Estimativas históricas variam muito por método; nenhuma faixa deve ser lida como valor exato.",
+    "Atlas municipal de 2020 corrompido no banco do trans (625 de 5.566 linhas com jovens/mulheres > total); campos de 2020 ficaram null no município."
+   ],
+   "links": [],
+   "arquivos": [
+    "fator_humano.json"
+   ],
+   "paginas": [
+    "gente",
+    "metodo"
+   ],
+   "nota": "8 indicadores confrontados com agregados derivados do banco do projeto Arandu/trans e com territorios.json: 3 corroboram, 3 aproximados, 2 divergem (por denominador/definição). Proveniência indireta: ver docs/METHODS.md seção 9.",
+   "id": "fator-humano",
+   "nome": "Fator humano — custo humano e potencial perdido (inventário)",
+   "chip": {
+    "rotulo": "Fator humano",
+    "detalhe": "12/53 conferidos"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "Legislação do Planalto, Wikipedia, imprensa e DOIs (secundárias)",
+    "url": null
+   },
+   "extraido_em": "2026-10-06",
+   "hashes": [],
+   "cobertura": "117 eventos · 8 períodos · 13 princípios · 10 direções",
+   "validacoes": [
+    {
+     "ok": null,
+     "texto": "“Link ok” = URL respondeu (HTTP 200) e corresponde ao tema: 163 de 168 fontes; 5 com erro 403/500. NÃO significa leitura integral nem conferência de cada número"
+    },
+    {
+     "ok": true,
+     "texto": "CNV: 434 mortos e desaparecidos, ao menos 8.350 indígenas (relatório de 10/12/2014); ADPF 153 julgada em 28–29/04/2010 por 7 a 2; ADPF 854: 6 a 5 em 19/12/2022"
+    }
+   ],
+   "limites": [
+    "Revisão histórica compilada de fontes públicas (legislação do Planalto, Wikipedia, imprensa e DOIs). 'verificado: true' significa que a URL foi acessada com sucesso (HTTP 200) e corresponde ao tema; não significa leitura integral nem validação de cada número. Itens marcados no texto como 'de memória' ou 'aproximado' devem ser conferidos em fonte primária. Fontes com verificado:false retornaram erro (403/500) ou não foram abertas. O resultado do 1º turno de 2026 usa o snapshot do TSE de 05/10/2026 (preliminar). Não substitui pesquisa historiográfica.",
+    "Datas e votos marcados como “de memória” ou “aproximado” precisam de conferência em fonte primária (acórdão, Diário Oficial)."
+   ],
+   "links": [
+    {
+     "titulo": "Constituição Federal de 1988 (compilado) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+     "verificado": true,
+     "n": 4
+    },
+    {
+     "titulo": "Marco temporal das terras indígenas - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Marco_temporal_das_terras_ind%C3%ADgenas",
+     "verificado": true,
+     "n": 4
+    },
+    {
+     "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal",
+     "url": "https://www.mattosfilho.com.br/unico/stf-lei-marco-temporal/",
+     "verificado": false,
+     "n": 4
+    },
+    {
+     "titulo": "Poder moderador - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Poder_moderador",
+     "verificado": true,
+     "n": 3
+    },
+    {
+     "titulo": "Constituição (1946) - Planalto",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao46.htm",
+     "verificado": true,
+     "n": 3
+    },
+    {
+     "titulo": "Comissão Nacional da Verdade - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Comiss%C3%A3o_Nacional_da_Verdade",
+     "verificado": true,
+     "n": 3
+    }
+   ],
+   "arquivos": [
+    "historia.json"
+   ],
+   "paginas": [
+    "historia",
+    "gente",
+    "metodo",
+    "antes",
+    "pilares",
+    "quebras"
+   ],
+   "nota": null,
+   "id": "historia",
+   "nome": "Revisão histórica das instituições (Colônia → 2026), três trilhas",
+   "chip": {
+    "rotulo": "História",
+    "detalhe": "link ok 163/168"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "Fontes secundárias abertas (principalmente Wikipedia); sem consulta direta a IBGE/IPEA/BCB",
+    "url": null
+   },
+   "extraido_em": "2026-10-06",
+   "hashes": [],
+   "cobertura": "14 ciclos · 54 mudanças drásticas · 9 classes transversais",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Todos os links para eventos da História foram checados contra os ids de historia.json"
+    },
+    {
+     "ok": null,
+     "texto": "33 de 60 entradas de fonte conferidas (fonte secundária aberta); o texto traz marcações “(não verificado)”"
+    }
+   ],
+   "limites": [
+    "Síntese estrutural da economia brasileira por ciclo, compilada em pesquisa aberta. Fatos marcados '(não verificado)' vêm de memória ou de resumos de busca e devem ser conferidos em fonte primária (IBGE, IPEA, BCB, Planalto) antes de uso. O intervalo 1780-1808 não é coberto como ciclo. Números de 2024-2026 e o resultado da eleição de 2026 não foram verificados. Classes e efeitos distributivos são interpretações da literatura, não medições, salvo onde há número citado.",
+    "Os ciclos 2015–2022 e 2023–2026 têm menos números conferidos. O intervalo 1780–1808 não é um ciclo.",
+    "Quem ganhou e quem perdeu é interpretação da literatura; onde não há evidência específica, a linha diz “não conferido”."
+   ],
+   "links": [
+    {
+     "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
+     "url": "docs/HISTORIA.md",
+     "verificado": false,
+     "n": 14
+    },
+    {
+     "titulo": "Economic history of Brazil - Wikipedia (en)",
+     "url": "https://en.wikipedia.org/wiki/Economic_history_of_Brazil",
+     "verificado": true,
+     "n": 10
+    },
+    {
+     "titulo": "Imigração no Brasil - Wikipedia (pt)",
+     "url": "https://pt.wikipedia.org/wiki/Imigra%C3%A7%C3%A3o_no_Brasil",
+     "verificado": true,
+     "n": 3
+    },
+    {
+     "titulo": "Tráfico negreiro no Brasil - Wikipedia (pt)",
+     "url": "https://pt.wikipedia.org/wiki/Tr%C3%A1fico_negreiro_no_Brasil",
+     "verificado": true,
+     "n": 2
+    },
+    {
+     "titulo": "Convênio de Taubaté - Wikipedia (pt)",
+     "url": "https://pt.wikipedia.org/wiki/Conv%C3%AAnio_de_Taubat%C3%A9",
+     "verificado": true,
+     "n": 2
+    },
+    {
+     "titulo": "PUC-Rio TD 158, dívida externa (só trecho de busca)",
+     "url": "https://www.econ.puc-rio.br/uploads/adm/trabalhos/files/td158.pdf",
+     "verificado": false,
+     "n": 2
+    }
+   ],
+   "arquivos": [
+    "economia_historica.json"
+   ],
+   "paginas": [
+    "gente",
+    "metodo",
+    "quebras"
+   ],
+   "nota": null,
+   "id": "economia-historica",
+   "nome": "Economia histórica — 14 ciclos, classes e mudanças drásticas",
+   "chip": {
+    "rotulo": "Ciclos econômicos",
+    "detalhe": "33/60 fontes"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "Maddison Project, Ipeadata, IBGE, BCB (conforme cada série)",
+    "url": null
+   },
+   "extraido_em": "2026-10-06T22:43:25+00:00",
+   "hashes": [],
+   "cobertura": "30 séries anuais",
+   "validacoes": [
+    {
+     "ok": null,
+     "texto": "7 lacunas declaradas; metodologias diferentes ficam marcadas como quebra de série"
+    }
+   ],
+   "limites": [
+    "trabalhadores_resgatados_trabalho_escravo: Sem fonte aberta acessível: o Smartlab (smartlabbr.org) falha na validação do certificado TLS (SEC_E_WRONG_PRINCIPAL, não contornado); o Radar SIT/MTE está 'temporariamente fora do ar' (comunicado oficial em sit.trabalho.gov.br/radar); dados.gov.br exige token (HTTP 401). O Cadastro de Empregadores do MTE (lista suja) é aberto, mas é fotografia atual de empregadores, não série de resgatados por ano.",
+    "inseg_alimentar_grave_penssan: Rede PENSSAN/VIGISAN (2020, 2022) publica relatórios em PDF sem tabela aberta estruturada; não ingeridos para não transcrever números à mão.",
+    "desocupacao_antes_de_2012: Séries anteriores (PME, PNAD) têm universo e metodologia diferentes da PNADC e aparecem como INATIVAS no Ipeadata (DISOC_DESE, Dese_Pnad). Não ingeridas nem emendadas.",
+    "pobreza_extrema_pobreza_antes_de_1995: Nas fontes abertas usadas, a série Ipea começa em 1995 (PNAD); antes disso não há série comparável acessível.",
+    "analfabetismo_censos_1930_1960_e_anual_1992_2015: Censos de 1930-1960 não constam nas séries abertas do Ipeadata consultadas (TXA15M, TXA15M7091, ADH_T_ANALF15M); PNAD anual 1992-2015 não foi ingerida; a PNADC começa em 2016.",
+    "pib_per_capita_real_ibge_longo_prazo: Não encontrado PIB per capita real contínuo do IBGE antes de 1996 em tabela aberta verificada (SIDRA 6784 começa em 1996); o longo prazo vem do Maddison.",
+    "africanos_total_estimado_do_trafico: Só as viagens documentadas da base SlaveVoyages (edição 2019) foram somadas; as estimativas totais do tráfico (com viagens sem registro) ficam em página dinâmica do site, sem download estruturado verificado. Não foi possível verificar se há edição mais nova da base."
+   ],
+   "links": [],
+   "arquivos": [
+    "series_historicas.json"
+   ],
+   "paginas": [
+    "gente",
+    "metodo",
+    "clima",
+    "futuro",
+    "quebras"
+   ],
+   "nota": null,
+   "id": "series-historicas",
+   "nome": "Séries históricas econômicas e sociais (PIB per capita, inflação, Gini, expectativa de vida…)",
+   "chip": {
+    "rotulo": "Séries históricas",
+    "detalhe": "30 séries"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "Derivado: elections/*.json (TSE) × territorios.json (IBGE, FUNAI, INCRA)",
+    "url": null
+   },
+   "extraido_em": null,
+   "hashes": [],
+   "cobertura": "5.570 municípios · ponderado por votos válidos · bruta e dentro da UF · IC95 por bootstrap",
+   "validacoes": [
+    {
+     "ok": null,
+     "texto": "Resultado estável em 2022 T1, T2 e 2026 T1; pretos+pardos ≈ +0,6 (bruta) e ≈ +0,37 (dentro da UF) com o voto em Lula"
+    }
+   ],
+   "limites": [
+    "Correlação entre municípios, ponderada pelos votos válidos; 'dentro da UF' remove a média estadual. Não descreve o comportamento de indivíduos (falácia ecológica) nem é causal.",
+    "Renda, urbanização, religião e região correlacionam com todas as variáveis."
+   ],
+   "links": [],
+   "arquivos": [
+    "cruzamento_territorial.json"
+   ],
+   "paginas": [
+    "home",
+    "gente",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "cruzamento-territorial",
+   "nome": "Cruzamento voto × composição territorial (correlação entre municípios)",
+   "chip": {
+    "rotulo": "Voto × território",
+    "detalhe": "derivado"
+   },
+   "status": "derivado",
+   "status_rotulo": "derivado"
+  },
+  {
+   "tipo": "modelo",
+   "fonte": {
+    "nome": "BCB SGS 13762 (dívida bruta/PIB) · Focus de 02/10/2026",
+    "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados/ultimos/1?formato=json"
+   },
+   "extraido_em": null,
+   "hashes": [],
+   "cobertura": "4 cenários 2027–2038 · trajetórias Monte Carlo · não é previsão",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Backtest de um passo 2022–2025 (RMSE): Selic 1,8 vs 3,0 do ingênuo; IPCA 0,6 vs 2,2; dívida/PIB 3,5 vs 3,5 (empate)"
+    },
+    {
+     "ok": false,
+     "texto": "A calibração por busca aleatória quase não melhora o teste; o juro neutro não é identificado pelos dados (fica em 5% com incerteza 3,5–5,5%)"
+    },
+    {
+     "ok": null,
+     "texto": "Sensibilidade: o custo implícito da dívida domina (±25% muda a dívida em 50–200 pp do PIB em 2035), antes de credibilidade fiscal e primário-alvo"
+    }
+   ],
+   "limites": [
+    "Pesos dos cenários, parâmetros de risco institucional e proxies históricos são julgamentos editáveis.",
+    "Dívida acima de 120% do PIB é ruptura de regime: o modelo não diz o que acontece depois.",
+    "Câmbio e choques externos não entram."
+   ],
+   "links": [
+    {
+     "titulo": "BCB SGS 13762 — dívida bruta/PIB",
+     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados/ultimos/1?formato=json"
+    },
+    {
+     "titulo": "Boletim Focus (BCB)",
+     "url": "https://www.bcb.gov.br/publicacoes/focus"
+    }
+   ],
+   "arquivos": [],
+   "paginas": [
+    "decisoes",
+    "metodo",
+    "clima",
+    "potenciais",
+    "futuro",
+    "pessimismo",
+    "quebras",
+    "corrupcao"
+   ],
+   "nota": null,
+   "id": "modelo-macro",
+   "nome": "Modelo macro reduzido (dívida, juros, expectativas, risco institucional)",
+   "chip": {
+    "rotulo": "Modelo macro",
+    "detalhe": "julgamento"
+   },
+   "status": "julgamento",
+   "status_rotulo": "julgamento"
+  },
+  {
+   "tipo": "modelo",
+   "fonte": {
+    "nome": "src/sociolibero/decisoes.py — quóruns da CF/88 × composição eleita em 2026",
+    "url": null
+   },
+   "extraido_em": null,
+   "hashes": [],
+   "cobertura": "33 decisões · 9 com P ≥ 50% sob presidência de direita · 9 sob presidência de esquerda",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Quóruns conferidos com a CF/88: PEC 308 e 49; LC 257 e 41; remoção de ministro do STF 54"
+    },
+    {
+     "ok": true,
+     "texto": "Composição: PL 121, Fed. PP-União 87, Fed. PT-PCdoB-PV 88, PSD 43, Republicanos 41, outros 133 (Câmara); Senado 81 cadeiras"
+    }
+   ],
+   "limites": [
+    "Efeitos são julgamentos editáveis; P(aprovação) usa modelo de bancadas simplificado.",
+    "Efeitos (deltas) são julgamentos, não estimativas da literatura; P(aprovação) supõe independência entre iniciativa, Câmara e Senado."
+   ],
+   "links": [
+    {
+     "titulo": "Proposta: trocar efeitos julgados por estimativas publicadas",
+     "url": "#/propostas"
+    }
+   ],
+   "arquivos": [
+    "decisoes.json"
+   ],
+   "paginas": [
+    "decisoes",
+    "metodo",
+    "potenciais",
+    "pilares",
+    "corrupcao"
+   ],
+   "nota": null,
+   "id": "decisoes",
+   "nome": "Catálogo de decisões econômicas e institucionais (viabilidade × impacto)",
+   "chip": {
+    "rotulo": "Decisões",
+    "detalhe": "julgamento"
+   },
+   "status": "julgamento",
+   "status_rotulo": "julgamento"
+  },
+  {
+   "tipo": "texto",
+   "fonte": null,
+   "extraido_em": null,
+   "hashes": [],
+   "cobertura": "127 itens · 113 verificados (DOI no Crossref, URL por requisição) · 14 a confirmar",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Dois DOIs lembrados de memória estavam errados e foram corrigidos pela consulta ao Crossref"
+    }
+   ],
+   "limites": [
+    "Vários artigos foram checados por metadados e resumo, não lidos na íntegra.",
+    "O relatório original das Forças Armadas e o laudo da PF sobre a urna de 2022 não foram obtidos."
+   ],
+   "links": [],
+   "arquivos": [
+    "references.json"
+   ],
+   "paginas": [
+    "referencias",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "referencias",
+   "nome": "Referências (forense eleitoral, dados abertos, visualização, antifraude, segurança da urna)",
+   "chip": {
+    "rotulo": "Referências",
+    "detalhe": "113/127"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "texto",
+   "fonte": null,
+   "extraido_em": null,
+   "hashes": [],
+   "cobertura": "12 propostas · 2 em andamento · 10 propostas",
+   "validacoes": [],
+   "limites": [
+    "Propostas são próximos passos e hipóteses de trabalho, não resultados. Cada uma diz o que precisa para ser validada e o que pode dar errado."
+   ],
+   "links": [],
+   "arquivos": [
+    "propostas.json"
+   ],
+   "paginas": [
+    "propostas",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "propostas",
+   "nome": "Propostas e próximos passos",
+   "chip": {
+    "rotulo": "Propostas",
+    "detalhe": "12"
+   },
+   "status": "julgamento",
+   "status_rotulo": "julgamento"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "IBGE SIDRA (Censo 2022, lido via API) e fontes secundárias abertas (principalmente Wikipedia); artigos científicos só por resumo",
+    "url": "https://apisidra.ibge.gov.br/values/t/9605/n1/all/v/93/p/2022/c86/all"
+   },
+   "extraido_em": "2026-10-06",
+   "hashes": [],
+   "cobertura": "3 períodos · 22 eventos · 12 eventos climáticos · 16 grupos e origens",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Censo 2022 por cor/raça lido na API do SIDRA (tabela 9605): total 203.080.756; indígenas por cor/raça 1.227.642, igual ao territorios.json e ao banco do trans (três fontes independentes)"
+    },
+    {
+     "ok": null,
+     "texto": "42 de 126 entradas de fonte conferidas; muitas são fonte secundária ou resumo de busca"
+    },
+    {
+     "ok": false,
+     "texto": "Etnias e línguas (305/274 em 2010; 391/295 em 2022) vêm de resumo de imprensa e NÃO são comparáveis: 2022 usou outro desenho de pergunta"
+    }
+   ],
+   "limites": [
+    "Panorama do território do atual Brasil antes de 1500 e da composição da população até hoje. Datas em anos antes do presente (AP, referência 1950 d.C.; 1500 d.C. = 450 AP) com calendário aproximado. Quase tudo antes de 1500 é estimativa ou interpretação arqueológica com controvérsia; as faixas importam mais que os valores centrais. 'Pré-colonial' não é uma unidade: povos, línguas e sociedades eram muitos. Ancestralidade genética não é categoria social (cor/raça do Censo e autodeclaração). Nada aqui e determinismo racial, cultural ou climático: clima e etnia são contexto, não destino. Correlação clima-ocupação não é causa.",
+    "Datas e expansões (Tupi, mandioca, megafauna, evento de 4,2 mil AP) estão de memória e marcadas assim.",
+    "O total ampliado de indígenas aqui (1.693.535) difere da soma do SIDRA 9718 em territorios.json (1.694.836).",
+    "Etnia não é destino: as trajetórias são processo histórico e institucional, não determinismo."
+   ],
+   "links": [
+    {
+     "titulo": "Wikipedia pt - Línguas indígenas do Brasil [primeiros 100 mil caracteres lidos; fonte secundária]",
+     "url": "https://pt.wikipedia.org/wiki/L%C3%ADnguas_ind%C3%ADgenas_do_Brasil",
+     "verificado": true,
+     "n": 9
+    },
+    {
+     "titulo": "Wikipedia pt - Imigração no Brasil [primeiros 100 mil caracteres lidos; fonte secundária]",
+     "url": "https://pt.wikipedia.org/wiki/Imigra%C3%A7%C3%A3o_no_Brasil",
+     "verificado": true,
+     "n": 5
+    },
+    {
+     "titulo": "Wikipedia en - Pedra Furada [página lida; fonte secundária aberta]",
+     "url": "https://en.wikipedia.org/wiki/Pedra_Furada",
+     "verificado": true,
+     "n": 4
+    },
+    {
+     "titulo": "Wikipedia pt - Sambaqui [página lida; fonte secundária]",
+     "url": "https://pt.wikipedia.org/wiki/Sambaqui",
+     "verificado": true,
+     "n": 4
+    },
+    {
+     "titulo": "Heckenberger et al. 2008, Science - Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon [só resumo de busca]",
+     "url": "https://repositorio.museu-goeldi.br/items/dbf9b77e-30a1-468f-8f91-1270fe4d8462/full",
+     "verificado": false,
+     "n": 4
+    },
+    {
+     "titulo": "Apaestegui et al. 2014, Climate of the Past 10 - SASM nos últimos 2 milênios (speleotemas) [só resumo de busca]",
+     "url": "https://cp.copernicus.org/articles/10/1967/2014/cp-10-1967-2014.pdf",
+     "verificado": false,
+     "n": 4
+    }
+   ],
+   "arquivos": [
+    "antes_de_1500.json"
+   ],
+   "paginas": [
+    "antes",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "antes-de-1500",
+   "nome": "Antes de 1500 — povos, diversidade, clima e manejo (anos antes do presente)",
+   "chip": {
+    "rotulo": "Antes de 1500",
+    "detalhe": "42/126 fontes"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "NOAA (ONI, ERSSTv5), CRU TS 4.09 e ERA5 via Banco Mundial CCKP, Berkeley Earth, NASA GISS, INPE, ONS, IBGE/SIDRA, BCB, IPCC AR6",
+    "url": null
+   },
+   "extraido_em": "2026-10-06T23:20:29+00:00",
+   "hashes": [
+    {
+     "rotulo": "NOAA/CPC — Oceanic Niño Index (ERSSTv5)",
+     "sha256": "5d6fa3a2f857d916550d39c2c686e94cb942430195c82518e6a5d0f5ffbd0665",
+     "curto": "5d6fa3a2…ffbd0665"
+    },
+    {
+     "rotulo": "NOAA/PSL — Niño 3.4, HadISST (anomalia vs 1981-2010)",
+     "sha256": "46e501b91f624ef85b525d73fbb427f9d04d30411ba6e5c7cff579b35fb4ff01",
+     "curto": "46e501b9…5fb4ff01"
+    },
+    {
+     "rotulo": "NOAA/PSL — Multivariate ENSO Index v2",
+     "sha256": "5bb93aa5564b125211a43b4b444b18937b65bc4f7e74fb0285416c0a8defb903",
+     "curto": "5bb93aa5…8defb903"
+    },
+    {
+     "rotulo": "Berkeley Earth — Brasil, temperatura do ar na superfície (terra)",
+     "sha256": "8f03fcf5285697beb0f718d1ad96fe64e897831c75f46f24817087b43ada72b3",
+     "curto": "8f03fcf5…3ada72b3"
+    },
+    {
+     "rotulo": "Berkeley Earth — América do Sul, temperatura do ar (terra)",
+     "sha256": "33bf34d833ea12176bfa3fa68562b6772f4443ea8503a4e86c9a6f3589aff1f2",
+     "curto": "33bf34d8…89aff1f2"
+    },
+    {
+     "rotulo": "NASA GISS — GISTEMP v4, média global terra+oceano (J-D)",
+     "sha256": "c9ce0750ca93a8241c42fe86cd5bf54d07b28b21ae650b0ae49a206907018cd9",
+     "curto": "c9ce0750…07018cd9"
+    },
+    {
+     "rotulo": "Banco Mundial CCKP — CRU TS 4.09, média espacial do Brasil",
+     "sha256": "b9524bbaa91d50eb84d3fd5dda636a464ac4fbd76de8fb105c7633eb08bb3d8c",
+     "curto": "b9524bba…08bb3d8c"
+    },
+    {
+     "rotulo": "Banco Mundial CCKP — ERA5 (reanálise), média espacial do Brasil",
+     "sha256": "b9524bbaa91d50eb84d3fd5dda636a464ac4fbd76de8fb105c7633eb08bb3d8c",
+     "curto": "b9524bba…08bb3d8c"
+    }
+   ],
+   "cobertura": "51 séries · 36 relações · 7 episódios · 39 projeções físicas · 12 estimativas de custo",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Produtos climáticos concordam: CRU × ERA5 r = 0.947; IPCA alimentação BCB × SIDRA: diferença máxima 0 pp"
+    },
+    {
+     "ok": null,
+     "texto": "6 de 36 intervalos de confiança excluem o zero; por acaso se esperaria ~1.8. Só relações de mecanismo físico claro se sustentam"
+    },
+    {
+     "ok": null,
+     "texto": "Conferidos na fonte: 6 de 7 episódios, 39 de 39 projeções, 12 de 12 custos"
+    }
+   ],
+   "limites": [
+    "Relações descritivas entre séries curtas e autocorrelacionadas NÃO são causalidade: variáveis omitidas (juros, câmbio, preço de commodities, política agrícola e energética), poucas observações e múltiplos testes produzem correlações que somem ou invertem de sinal. Os IC95 vêm de bootstrap em blocos e descrevem só a incerteza amostral, não a de especificação. Cenários futuros e o choque no modelo macro são suposições rotuladas, não previsões.",
+    "O desenho não tem poder para ligar clima a PIB agropecuário nem a inflação de alimentos (chuva média nacional, séries curtas, sem controles).",
+    "Estimativas de custo medem coisas diferentes e não são somáveis.",
+    "2026 é ano corrente e não entra na série anual (só anos com 12 meses completos nos arquivos anuais).",
+    "PLD (preço de liquidação das diferenças, CCEE): dadosabertos.ccee.org.br respondeu 403 (Forbidden) nesta execução; não contornado. O CMO do ONS (aberto) foi usado como proxy de preço de curto prazo.",
+    "Mortes da Grande Seca por província (Ceará): sem número único; fontes acadêmicas (Fundação Joaquim Nabuco, CPDOC, Embrapa) não foram abertas em texto legível.",
+    "Geada negra 1975: efeito sobre preço internacional e exportação não conferido em IBC/Embrapa/CEPEA/IBGE; trecho da CNA sobre safra seguinte de apenas 3,8 mil sacas parece erro e não foi usado; percentual de 60% de cafezais destruídos não conferido."
+   ],
+   "links": [
+    {
+     "titulo": "Agência Senado - O retrato da Grande Seca do Império",
+     "url": "https://www12.senado.leg.br/noticias/especiais/arquivo-s/500-mil-mortes-doenca-fome-desvio-de-verbas-e-pedido-de-cpi-o-retrato-da-grande-seca-do-imperio",
+     "verificado": null,
+     "n": 1
+    },
+    {
+     "titulo": "SciELO - A seca de 1877-1879 no Império do Brasil (Hist. Ciênc. Saúde-Manguinhos)",
+     "url": "http://www.scielo.br/j/hcsm/a/ynZxC9TkBJS5GdCnjKXmGKd/?lang=pt",
+     "verificado": null,
+     "n": 1
+    },
+    {
+     "titulo": "SciELO - Teorias médicas e gestão urbana: a seca de 1877-79 em Fortaleza",
+     "url": "http://www.scielo.br/j/hcsm/a/RsqDrVbzDm6wGyT3MXqsZyB/?lang=pt",
+     "verificado": null,
+     "n": 1
+    },
+    {
+     "titulo": "Wikipedia (en) - Grande Seca (fonte secundária, só para divergência)",
+     "url": "https://en.wikipedia.org/wiki/Grande_Seca",
+     "verificado": null,
+     "n": 1
+    },
+    {
+     "titulo": "CNA - Geada negra: 50 anos do evento climático que modificou o agro do Paraná",
+     "url": "https://cnabrasil.org.br/noticias/geada-negra-50-anos-do-evento-climatico-que-modificou-o-agro-do-parana",
+     "verificado": null,
+     "n": 1
+    },
+    {
+     "titulo": "Ateliê de História UEPG - Modernização agrícola e o declínio da cafeicultura pós-geada de 1975",
+     "url": "https://revistas.uepg.br/index.php/ahu/article/download/8759/5672/34783",
+     "verificado": null,
+     "n": 1
+    }
+   ],
+   "arquivos": [
+    "clima.json"
+   ],
+   "paginas": [
+    "clima",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "clima",
+   "nome": "Clima e economia — séries abertas, relações com IC95, episódios e cenários",
+   "chip": {
+    "rotulo": "Clima",
+    "detalhe": "51 séries"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "USGS Mineral Commodity Summaries 2026, FMI Article IV 2025 (CR 25/194), Ipea, IBGE Atlas Rural, Embrapa; água e biodiversidade via Wikipedia (secundária)",
+    "url": null
+   },
+   "extraido_em": "2026-10-06",
+   "hashes": [],
+   "cobertura": "18 potências · 80 métricas · 7 armadilhas",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Lidos em PDF primário: USGS 2026 (nióbio, terras raras, grafite, lítio, manganês, níquel), FMI (crescimento de 2,5% no médio prazo), Ipea (PTF agropecuária) e IBGE Atlas Rural (Gini da terra 0,867)"
+    },
+    {
+     "ok": null,
+     "texto": "52 de 80 métricas conferidas; 28 sem conferência (12% da água doce, potencial solar, eólica offshore, PISA 2022, custo Brasil…)"
+    },
+    {
+     "ok": true,
+     "texto": "Todos os ids de decisões e de tendências foram checados contra decisoes.json e leis_tecnologicas.json"
+    }
+   ],
+   "limites": [
+    "Levantamento de potências e potencial de crescimento do Brasil a partir de pesquisa aberta. 'Potencial' técnico não é projeção nem direito adquirido: exige investimento, instituições e escolhas, e tem armadilhas (ver 'armadilhas'). Dados de 2024-2026 e o resultado da eleição de 2026 não foram validados em fonte primária; várias fontes são secundárias (imprensa, Wikipedia) e estão assim marcadas. Nenhum número aqui alimenta o modelo macro sem calibração.",
+    "Sem decomposição do crescimento (capital, trabalho, produtividade) da economia total; o único PIB potencial verificado é o do FMI.",
+    "Tabelas do USGS vieram de PDF com colunas desalinhadas: a leitura das reservas de nióbio e terras raras tem incerteza residual.",
+    "Potencial técnico não é potencial econômico."
+   ],
+   "links": [
+    {
+     "titulo": "MapBiomas RAD 2024 (Poder360)",
+     "url": "https://www.poder360.com.br/poder-sustentavel/desmatamento-no-brasil-cai-324-em-2024-diz-mapbiomas/",
+     "verificado": true,
+     "n": 3
+    },
+    {
+     "titulo": "FMI Article IV 2025 (Brasil)",
+     "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+     "verificado": true,
+     "n": 3
+    },
+    {
+     "titulo": "Embrapa/Revista Cultivar (28 Mha)",
+     "url": "https://revistacultivar.com.br/noticias/brasil-possui-28-milhoes-de-ha-de-pastagens-degradadas-com-potencial-para-expansao-agricola",
+     "verificado": true,
+     "n": 2
+    },
+    {
+     "titulo": "Demographics of Brazil (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Brazil",
+     "verificado": true,
+     "n": 2
+    },
+    {
+     "titulo": "Recursos hídricos e desenvolvimento sustentável no Brasil (Senado)",
+     "url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/outras-publicacoes/temas-e-agendas-para-o-desenvolvimento-sustentavel/recursos-hidricos-e-desenvolvimento-sustentavel-no-brasil",
+     "verificado": false,
+     "n": 1
+    },
+    {
+     "titulo": "List of countries by total renewable water resources (Wikipedia, FAO AQUASTAT)",
+     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_total_renewable_water_resources",
+     "verificado": true,
+     "n": 1
+    }
+   ],
+   "arquivos": [
+    "potenciais_brasil.json"
+   ],
+   "paginas": [
+    "potenciais",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "potenciais-brasil",
+   "nome": "Potências do Brasil e potencial de crescimento",
+   "chip": {
+    "rotulo": "Potenciais",
+    "detalhe": "52/80 métricas"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "texto",
+   "fonte": {
+    "nome": "Constituição do Equador (Constitute Project) e Sentencia T-622/2016 lidas; demais obras e normas de resumo de busca ou memória",
+    "url": "https://www.constituteproject.org/constitution/Ecuador_2021"
+   },
+   "extraido_em": "2026-10-06",
+   "hashes": [],
+   "cobertura": "47 pensadores · 10 pilares · 17 diálogos · 15 propostas de viabilização",
+   "validacoes": [
+    {
+     "ok": null,
+     "texto": "2 de 99 obras e 2 de 40 casos com selo “verificado”; o restante é de resumo de busca ou de memória"
+    },
+    {
+     "ok": true,
+     "texto": "Todos os ids de ciclos, decisões, potências e leis foram checados contra os outros arquivos"
+    }
+   ],
+   "limites": [
+    "Síntese de pesquisa aberta sobre pilares de pensamento (indígena latino-americano, afro-brasileiro, decolonial, antropologia, sociologia histórica e economia institucional) e sua tradução em desenho institucional. Não é prescrição nem previsão: as propostas são hipóteses de desenho com evidência parcial e risco de captura declarado. Conceitos indígenas e quilombolas são citados com fonte e sem pretensão de representar os povos; nenhuma proposta foi elaborada com consulta a eles.",
+    "Nenhuma fonte primária indígena foi lida; maia, mapuche, guarani e ayni/ayllu estão fracos.",
+    "Nenhuma proposta foi consultada a povo ou comunidade; os quóruns seguem a convenção de institutions.py e não estimam chance de aprovação.",
+    "Não há evidência de efeito medido dos direitos da natureza em municípios brasileiros (Bonito, Paudalho)."
+   ],
+   "links": [
+    {
+     "titulo": "Constitución de la República del Ecuador (preâmbulo, arts. 14 e 71-74)",
+     "url": "https://www.constituteproject.org/constitution/Ecuador_2021",
+     "verificado": true,
+     "n": 2
+    },
+    {
+     "titulo": "Ley nº 71 de Derechos de la Madre Tierra, 21/12/2010",
+     "url": "https://www.lexivox.org/norms/BO-L-N71.html",
+     "verificado": false,
+     "n": 2
+    },
+    {
+     "titulo": "The Falling Sky: Words of a Yanomami Shaman, Harvard University Press",
+     "url": "https://blogs.lse.ac.uk/lsereviewofbooks/2014/02/01/book-review-the-falling-sky-words-of-a-yanomami-shaman-by-davi-kopenawa-and-bruce-albert",
+     "verificado": false,
+     "n": 2
+    },
+    {
+     "titulo": "Corte Constitucional da Colômbia, Sentencia T-622 de 2016, 10/11/2016",
+     "url": "https://www.corteconstitucional.gov.co/relatoria/2016/t-622-16.htm",
+     "verificado": true,
+     "n": 2
+    },
+    {
+     "titulo": "Lei orgânica do município de Bonito (PE), emenda de 21/12/2017, direitos da natureza",
+     "url": "https://ecojurisprudence.org/initiatives/the-organic-law-of-the-municipal-of-bonito-2/",
+     "verificado": false,
+     "n": 2
+    },
+    {
+     "titulo": "A terra dá, a terra quer, Ubu/Piseagrama",
+     "url": "https://www.brasildefato.com.br/2023/12/04/estarei-vivo-mesmo-enterrado-disse-nego-bispo-quilombola-contracolonialista-que-morre-aos-63-anos",
+     "verificado": false,
+     "n": 2
+    }
+   ],
+   "arquivos": [
+    "pilares_pensamento.json"
+   ],
+   "paginas": [
+    "pilares",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "pilares-pensamento",
+   "nome": "Pilares de pensamento — pensadores, pilares, diálogos e propostas de viabilização",
+   "chip": {
+    "rotulo": "Pilares",
+    "detalhe": "2/99 obras"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "texto",
+   "fonte": {
+    "nome": "Epoch AI, BNEF, FMI, OIT, FGV IBRE, arXiv e DOIs conferidos no Crossref; vários expoentes e parâmetros de memória",
+    "url": null
+   },
+   "extraido_em": "2026-10-06",
+   "hashes": [],
+   "cobertura": "27 leis e modelos · 11 tendências · 44 parâmetros empíricos · 71 referências",
+   "validacoes": [
+    {
+     "ok": null,
+     "texto": "19 de 44 parâmetros e 39 de 71 referências conferidos; expoentes de Kaplan, p/q de Bass, taxa de Swanson e “20 tokens por parâmetro” de Chinchilla estão de memória"
+    }
+   ],
+   "limites": [
+    "Compilação de leis, modelos e tendências para cenários 2026-2040. Leis empíricas descrevem o passado, não garantem o futuro; nenhum número aqui e previsão do modelo macro. Itens verificado:false foram citados de resumo de busca, de memória ou sem fonte primária lida.",
+    "Leis empíricas valem dentro de um domínio; fora dele falham (fim do escalonamento de Dennard, desaceleração de Moore).",
+    "O impacto econômico das tendências está em termos qualitativos, sem números inventados."
+   ],
+   "links": [
+    {
+     "titulo": "Epoch AI - Trends dashboard (atualizado em 05/02/2026)",
+     "url": "https://epoch.ai/trends",
+     "verificado": true,
+     "n": 5
+    },
+    {
+     "titulo": "IRENA - Renewable Power Generation Costs in 2024",
+     "url": "https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024",
+     "verificado": false,
+     "n": 3
+    },
+    {
+     "titulo": "IEA - Energy and AI (2025)",
+     "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+     "verificado": false,
+     "n": 3
+    },
+    {
+     "titulo": "FGV IBRE (Duque, 27/04/2026) - IA generativa e mercado de trabalho no Brasil",
+     "url": "https://blogdoibre.fgv.br/posts/inteligencia-artificial-generativa-e-mercado-de-trabalho-no-brasil-evidencias-iniciais-sobre",
+     "verificado": true,
+     "n": 3
+    },
+    {
+     "titulo": "ABSOLAR via Canal Solar - capacidade solar instalada no Brasil (jul/2026)",
+     "url": "https://canalsolar.com.br/energia-solar-potencia-instalada-brasil-absolar/",
+     "verificado": false,
+     "n": 2
+    },
+    {
+     "titulo": "BloombergNEF - Lithium-ion battery pack prices fall to $108/kWh (09/12/2025)",
+     "url": "https://about.bnef.com/insights/commodities/lithium-ion-battery-pack-prices-fall-to-108-per-kilowatt-hour-despite-rising-metal-prices/",
+     "verificado": true,
+     "n": 2
+    }
+   ],
+   "arquivos": [
+    "leis_tecnologicas.json"
+   ],
+   "paginas": [
+    "futuro",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "leis-tecnologicas",
+   "nome": "Leis e tendências tecnológicas (Moore, Wright, difusão, escala de IA…)",
+   "chip": {
+    "rotulo": "Leis",
+    "detalhe": "19/44 parâmetros"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "modelo",
+   "fonte": {
+    "nome": "BCB (Pix), IBGE PNAD TIC, ANEEL, OWID/IRENA/Ember/IEA/Epoch AI",
+    "url": null
+   },
+   "extraido_em": "2026-10-06T23:19:57+00:00",
+   "hashes": [
+    {
+     "rotulo": "bcb_pix_usuarios_dict",
+     "sha256": "cce03893822714dbcef41bcd55bb72d3e12ff7b68f0e38982f3f2ea9600ef803",
+     "curto": "cce03893…600ef803"
+    },
+    {
+     "rotulo": "bcb_pix_transacoes",
+     "sha256": "1a1f92600726b0ac3ddd1ff8eb5a41181cb8d8e38203947606126d2cd7e9dc1f",
+     "curto": "1a1f9260…d7e9dc1f"
+    },
+    {
+     "rotulo": "ibge_sidra_7307_internet",
+     "sha256": "5aee931dc81dfe3077e6a2d43c40b1765e2d79324dc63b5ab2423ae74d8cd2a0",
+     "curto": "5aee931d…4d8cd2a0"
+    },
+    {
+     "rotulo": "ibge_sidra_6863_celular",
+     "sha256": "e6a550d2c10afaa89e0bd46448af2545408cc8acb2b01348a6e8fc884455add9",
+     "curto": "e6a550d2…4455add9"
+    },
+    {
+     "rotulo": "aneel_gd_empreendimentos",
+     "sha256": "b51b9c9a2db1bc3c8ac91ac52fa6482aaff043a4efc0698e4ad59efc61b1f7e3",
+     "curto": "b51b9c9a…61b1f7e3"
+    },
+    {
+     "rotulo": "owid_solar_capacidade",
+     "sha256": "b67451e97291c42cd655f8658e785b980216f26fdfb0725aaf7bc5e846ae8c95",
+     "curto": "b67451e9…46ae8c95"
+    },
+    {
+     "rotulo": "owid_carros_eletricos",
+     "sha256": "defce0b8c9a5f4e1e6f4e09cea1f6bdb311e87dd1adde4dac460dca064fa8a5a",
+     "curto": "defce0b8…64fa8a5a"
+    },
+    {
+     "rotulo": "owid_epoch_computacao_treino",
+     "sha256": "7183ddec8eee6cf9c67cdffd3590a593075faf73172fa5e974b5096a883e83cf",
+     "curto": "7183ddec…883e83cf"
+    }
+   ],
+   "cobertura": "11 curvas ajustadas · horizonte 2026–2038 · 300 réplicas de bootstrap",
+   "validacoes": [
+    {
+     "ok": null,
+     "texto": "Teste fora da amostra contra o baseline: 5 superam, 3 empatam, 3 perdem (de 11)"
+    },
+    {
+     "ok": false,
+     "texto": "O teto de adoção é pouco identificado; banda estreita do bootstrap não é confiança"
+    }
+   ],
+   "limites": [
+    "Projeções são extrapolações de formas funcionais ajustadas a poucos pontos, com incerteza apenas de parâmetro (bootstrap de resíduos). NÃO são previsões. O teto (K) de curvas S é pouco identificado quando a série ainda não saturou; ver identificacao_teto. O ganho de produtividade do macro é suposição explícita.",
+    "O ganho de produtividade por tecnologia é SUPOSIÇÃO rotulada (0,3 pp/ano, varrida de 0,05 a 1,0), não estimativa.",
+    "Emplacamentos de veículos elétricos e híbridos (ABVE/Fenabrave): sem série aberta baixável confirmada nesta execução; usadas vendas de carros elétricos BEV+PHEV da IEA via OWID (anual, sem híbridos leves).",
+    "Cetic.br TIC Domicílios: não baixado (tabelas em portal sem API aberta verificada); usadas as séries IBGE/PNAD Contínua TIC via SIDRA (tabelas 7307 e 6863). 2020 não existe na PNAD TIC.",
+    "Solar centralizada separada da distribuída: não há série aberta publicada que a separe; 'solar_total_brasil' (OWID/IRENA) inclui GD e 'solar_gd_brasil' (ANEEL) é só a GD. Não derivei a diferença."
+   ],
+   "links": [],
+   "arquivos": [
+    "futuros.json"
+   ],
+   "paginas": [
+    "futuro",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "futuros",
+   "nome": "Curvas de adoção e custo (Pix, solar, carros elétricos…) e integração ao modelo macro",
+   "chip": {
+    "rotulo": "Curvas",
+    "detalhe": "5/11 superam baseline"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "modelo",
+   "fonte": {
+    "nome": "Regimes of the World (V-Dem v16) via Our World in Data, CC BY 4.0",
+    "url": "https://ourworldindata.org/grapher/political-regime.csv"
+   },
+   "extraido_em": "2026-10-07T00:11:07+00:00",
+   "hashes": [
+    {
+     "rotulo": "political-regime.csv (OWID)",
+     "sha256": "75c22655789931f1843be687700135bba079b8ac20ba9361524a43d460fb5bb5",
+     "curto": "75c22655…60fb5bb5"
+    }
+   ],
+   "cobertura": "183 países, 1900–2025 (Brasil desde 1822) · 4 regimes · matrizes do Brasil (encolhida), da América Latina e do mundo, e semi-Markov",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Leave-country-out, 1 ano: log-loss 0.207 (cadeia) contra 0.231 (persistência calibrada); Brier quase igual: o ganho está nas trocas raras"
+    },
+    {
+     "ok": true,
+     "texto": "Calibração por faixas: ECE 0.003 em 1 ano; controle sintético recupera a cadeia (cobertura do IC90 de 89%; ~85% no tamanho do Brasil)"
+    },
+    {
+     "ok": false,
+     "texto": "Regimes econômicos: a cadeia NÃO bate a climatologia (crescimento) nem a persistência calibrada (inflação)"
+    },
+    {
+     "ok": false,
+     "texto": "Pressuposto markoviano rejeitado em parte: a permanência não é geométrica e o semi-Markov vence fora da amostra; matriz de 1900–49 prevê 2000–24 pior que a de 1990–99"
+    }
+   ],
+   "limites": [
+    "Cadeias de Markov NÃO são previsão: extrapolam frequências históricas de transição sob um pressuposto (estado discreto, saída dependente só do estado atual) que os testes abaixo REFUTAM em parte (dependência de duração, heterogeneidade por era/região). Eventos raros e choques externos não estão no modelo. Os intervalos são incerteza de parâmetro. A matriz da cadeia de cenários é SUPOSIÇÃO (julgamento ancorado em duas taxas empíricas).",
+    "Golpes, guerras e crises globais (eventos raros) e choques externos não entram; os intervalos medem só a incerteza dos parâmetros.",
+    "A classificação V-Dem diverge da periodização de historia.json (ex.: Brasil 1950–86 como autocracia eleitoral); usamos os estados da fonte, sem ajuste.",
+    "A fonte imputa regimes a países ainda não soberanos e não marca essas linhas; séries duplicadas de ex-colônias provavelmente estreitam os intervalos.",
+    "O dado do Brasil vai até 2025; 2026 e a eleição de 25/10/2026 estão fora."
+   ],
+   "links": [
+    {
+     "titulo": "Our World in Data — Political regime",
+     "url": "https://ourworldindata.org/grapher/political-regime.csv"
+    }
+   ],
+   "arquivos": [
+    "evolucoes.json"
+   ],
+   "paginas": [
+    "historia",
+    "home",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "evolucoes",
+   "nome": "Evoluções: cadeias de Markov entre regimes políticos e econômicos",
+   "chip": {
+    "rotulo": "Markov",
+    "detalhe": "regimes"
+   },
+   "status": "derivado",
+   "status_rotulo": "derivado"
+  },
+  {
+   "tipo": "modelo",
+   "fonte": {
+    "nome": "src/sociolibero/markov.py + scenarios.py; cenarios_macro.json (scenarios.run, semente 7)",
+    "url": null
+   },
+   "extraido_em": "2026-10-07T00:34:12+00:00",
+   "hashes": [],
+   "cobertura": "4 cenários × 4 ciclos eleitorais (2026, 2030, 2034, 2038) · P(dívida > 120% até 2038) = 78% na matriz julgada",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Duas taxas têm âncora empírica (erosão 6.7% e recuperação 6.3% por ciclo de 4 anos), da matriz do Brasil"
+    },
+    {
+     "ok": false,
+     "texto": "O restante da matriz é julgamento: permanência de cada cenário, deriva do pragmático, captura e moderação"
+    },
+    {
+     "ok": null,
+     "texto": "A mistura macro quase não discrimina matrizes: o resultado é dominado pelos próprios cenários, que já passam de 120% em três dos quatro"
+    }
+   ],
+   "limites": [
+    "A matriz é premissa editável, não estimativa; o editor mostra o que muda, não o que vai acontecer.",
+    "Macro no editor = média das medianas por cenário ponderada pela ocupação (aproximação); a mistura exata não é recalculável no navegador.",
+    "Acima de 120% de dívida/PIB é ruptura de regime, não trajetória; a mistura ignora a dívida herdada na troca de cenário."
+   ],
+   "links": [],
+   "arquivos": [
+    "evolucoes.json",
+    "cenarios_macro.json"
+   ],
+   "paginas": [
+    "historia",
+    "home",
+    "decisoes",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "cadeia-cenarios",
+   "nome": "Cadeia de cenários (matriz julgada) e editor “e se?”",
+   "chip": {
+    "rotulo": "Cadeia de cenários",
+    "detalhe": "julgamento"
+   },
+   "status": "julgamento",
+   "status_rotulo": "julgamento"
+  },
+  {
+   "tipo": "modelo",
+   "fonte": {
+    "nome": "Curadoria do repositório (Forrester, Meadows) ancorada em economy.py e nos demais arquivos de dados",
+    "url": null
+   },
+   "extraido_em": "2026-10-06",
+   "hashes": [],
+   "cobertura": "14 anéis (9 reforçadores, 5 equilibradores) · 68 arestas · 11 anéis ausentes por falta de evidência",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Todo laço fecha; o tipo (R ou B) bate com a contagem de sinais negativos; ids de decisões, potências, pilares e leis conferidos"
+    },
+    {
+     "ok": null,
+     "texto": "137 de 175 citações de evidência verificadas; 15 de 34 referências externas (as demais só tiveram o DOI conferido)"
+    },
+    {
+     "ok": null,
+     "texto": "7 anéis têm equação em economy.py; os outros são hipóteses causais qualitativas"
+    }
+   ],
+   "limites": [
+    "Diagramas de laços causais (system dynamics, Forrester/Meadows) das possíveis evoluções do Brasil. Só os anéis 1 a 4 e partes dos anéis 2, 7, 8 e 10 têm equação em src/sociolibero/economy.py; os demais são hipóteses causais qualitativas, e as arestas marcadas como contestadas refletem divergência da literatura. Evidência de correlação não é causalidade. As execuções ilustrativas (sim_ilus) usam o modelo anual reduzido com alavancas arbitrárias, não os cenários do projeto, e não são previsão.",
+    "28 das 68 arestas são contestadas na literatura; defasagens e forças são estimativas qualitativas, nenhuma foi medida em dados.",
+    "O modelo não tem câmbio nem dívida indexada: o anel das expectativas não vira espiral na dívida dentro dele (limite da estrutura)."
+   ],
+   "links": [
+    {
+     "titulo": "Meadows (1999), Leverage Points: Places to Intervene in a System",
+     "url": "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
+     "verificado": true,
+     "n": 1
+    },
+    {
+     "titulo": "Forrester (1971), Counterintuitive behavior of social systems, Technological Forecasting and Social Change",
+     "url": "https://doi.org/10.1016/S0040-1625(71)80001-X",
+     "verificado": true,
+     "n": 1
+    },
+    {
+     "titulo": "Blanchard (2004), Fiscal Dominance and Inflation Targeting: Lessons from Brazil, NBER WP 10389",
+     "url": "https://www.nber.org/papers/w10389",
+     "verificado": true,
+     "n": 1
+    },
+    {
+     "titulo": "Bohn (1998), The Behavior of U.S. Public Debt and Deficits, QJE",
+     "url": "https://doi.org/10.1162/003355398555793",
+     "verificado": false,
+     "n": 1
+    },
+    {
+     "titulo": "Taylor (1993), Discretion versus policy rules in practice",
+     "url": "https://doi.org/10.1016/0167-2231(93)90009-L",
+     "verificado": false,
+     "n": 1
+    },
+    {
+     "titulo": "Ardagna, Caselli, Lane (2007), Fiscal Discipline and the Cost of Public Debt Service",
+     "url": "https://doi.org/10.2202/1935-1690.1417",
+     "verificado": false,
+     "n": 1
+    }
+   ],
+   "arquivos": [
+    "aneis.json"
+   ],
+   "paginas": [
+    "historia",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "aneis",
+   "nome": "Anéis de realimentação (diagramas de laços causais)",
+   "chip": {
+    "rotulo": "Anéis",
+    "detalhe": "137/175 evidências"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "modelo",
+   "fonte": {
+    "nome": "src/sociolibero/quebras.py sobre series_historicas.json (BCB, IBGE, Ipea, Maddison, OWID…)",
+    "url": null
+   },
+   "extraido_em": "2026-10-07T01:30:11+00:00",
+   "hashes": [],
+   "cobertura": "18 séries · 4 quebras · 13 séries fora por serem curtas",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Procedimento escolhido pela validação com quebras sintéticas de verdade conhecida (falso positivo e poder), não por ajuste às séries reais"
+    },
+    {
+     "ok": false,
+     "texto": "Controle metodológico: só 2 de 14 artefatos conhecidos foram recuperados: o poder é baixo"
+    },
+    {
+     "ok": false,
+     "texto": "Cruzamento com a história: 1 de 2 quebras coincidem com datas históricas, mas o esperado por acaso é 1.2 (p de permutação = 1)"
+    }
+   ],
+   "limites": [
+    "Quebra estatística não é causa nem evento: coincidência com datas históricas é descritiva. Muitas quebras são artefatos de mudança metodológica das séries (marcadas). Com n pequeno e persistência alta, o detector tem poder baixo e FPR acima do nominal sob heterocedasticidade/outliers/I(1): ver validacao.",
+    "Quebra estatística não é causa nem evento; muitas são artefato de mudança de metodologia da série (marcadas).",
+    "Detector sem poder não pode ser lido como “não houve quebra”."
+   ],
+   "links": [],
+   "arquivos": [
+    "quebras.json"
+   ],
+   "paginas": [
+    "quebras",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "quebras",
+   "nome": "Quebras estruturais nas séries históricas, com validação sintética",
+   "chip": {
+    "rotulo": "Quebras",
+    "detalhe": "4 em 18 séries"
+   },
+   "status": "derivado",
+   "status_rotulo": "derivado"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "CGU, TCU, Receita (DGT), CADE, BCB, IBGE e pesquisa aberta; ver cada valor",
+    "url": null
+   },
+   "extraido_em": "2026-10-06",
+   "hashes": [],
+   "cobertura": "16 áreas · 75 valores (45 de contagem, 30 de estimativa) · 14 benefícios a empresas · 14 modelos",
+   "validacoes": [
+    {
+     "ok": null,
+     "texto": "23 de 75 valores lidos na fonte; 7 de 14 benefícios a empresas"
+    },
+    {
+     "ok": false,
+     "texto": "PIB-âncora 2025: R$ 12.700 bi, valor arredondado NÃO verificado (o IBGE respondeu 403); todas as conversões de pp do PIB em R$ dependem dele"
+    },
+    {
+     "ok": true,
+     "texto": "Itens que só tinham link de imprensa foram rebaixados a “não lido na fonte”"
+    }
+   ],
+   "limites": [
+    "Levantamento de pesquisa aberta, não auditoria. Contagem não é estimativa e nenhuma das duas é prova de culpa de pessoa ou empresa: casos aparecem como 'apurado por X' com o status; nada aqui acusa nominalmente. Estimativas macro de corrupção (percepção, extrapolações) têm incerteza grande e fontes com interesse; parte do desvio não é recuperável. Nenhum número alimenta o modelo macro sem a suposição rotulada em `recuperacao_macro`.",
+    "Contagem (apurada) e estimativa (modelo) medem coisas diferentes: não some as linhas.",
+    "O valor em R$ de cada decisão é o delta julgado de primário × PIB nominal: é escala, não a conta do orçamento.",
+    "Gasto tributário 2026: R$ 612,84 bi (xlsx da Receita, DGT PLOA 2026, lido) vs R$ 620,8 bi/4,53% do PIB (imprensa); Simples R$ 134,29 bi vs R$ 120,1 bi; agro R$ 79,25 bi vs R$ 101,3 bi. Não reconciliado; ambas as pontas ficam na faixa.",
+    "FIESP: R$ 41,5-69,1 bi (preços de 2008) vs R$ 80,3-132,8 bi (atualização) vs R$ 120 bi (preços de 2016): anos-base misturados nas fontes.",
+    "Lava Jato recuperado: MPF R$ 4,07 bi restituídos vs Petrobras R$ 6,17 bi (até 2021) vs títulos de imprensa de R$ 28 bi (inclui valores comprometidos; não usado). Dieese 4,4 mi de vagas não localizado (só ~3,5 mi em fontes sindicais)."
+   ],
+   "links": [
+    {
+     "titulo": "Receita Federal - DGT PLOA 2026 Quadro X",
+     "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-quadros.xlsx",
+     "verificado": true,
+     "n": 8
+    },
+    {
+     "titulo": "ANEEL via Cenario Energia",
+     "url": "https://cenarioenergia.com.br/2025/12/05/cde-2026-deve-chegar-a-r-527-bilhoes-e-pressiona-debate-sobre-subsidios-no-setor-eletrico/",
+     "verificado": false,
+     "n": 4
+    },
+    {
+     "titulo": "Correio Braziliense, 'Dino cobra cronograma e reforço de auditorias em emendas da saúde' (resumo de busca; relatório MS/STF não aberto)",
+     "url": "https://www.correiobraziliense.com.br/politica/2026/01/7334826-dino-cobra-cronograma-e-reforco-de-auditorias-em-emendas-da-saude.html",
+     "verificado": false,
+     "n": 3
+    },
+    {
+     "titulo": "TCU, 'Metade das obras financiadas com recursos federais estão paradas'",
+     "url": "https://portal.tcu.gov.br/imprensa/noticias/metade-das-obras-financiadas-com-recursos-federais-estao-paradas",
+     "verificado": false,
+     "n": 3
+    },
+    {
+     "titulo": "PGFN via IBET; TCU via O Fator",
+     "url": "https://www.ibet.com.br/receita-com-divida-ativa-tem-pico-em-2025-e-oscila-entre-r-50-e-60-bi-ano-a-partir-de-2026/",
+     "verificado": false,
+     "n": 2
+    },
+    {
+     "titulo": "Receita Federal - DGT PLOA 2026",
+     "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-base-conceitual.pdf",
+     "verificado": true,
+     "n": 2
+    }
+   ],
+   "arquivos": [
+    "custo_corrupcao.json"
+   ],
+   "paginas": [
+    "corrupcao",
+    "pessimismo",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "custo-corrupcao",
+   "nome": "Custo da corrupção e da captura, em R$ (áreas, benefícios a empresas, recuperação)",
+   "chip": {
+    "rotulo": "Custo da corrupção",
+    "detalhe": "23/75 lidos"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "BID/CEPAL/Banco Mundial, CNM, CNseg, TCU, governo do RS (via reportagens que citam a fonte)",
+    "url": null
+   },
+   "extraido_em": "2026-10-06",
+   "hashes": [],
+   "cobertura": "14 itens · 5 razões prevenção × resposta",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "13 de 14 itens lidos em página aberta (quase todos em reportagem que cita a fonte primária)"
+    },
+    {
+     "ok": false,
+     "texto": "As razões prevenção × resposta do TCU (2,3) e da CNseg (9,7) não se reconciliam: medem coisas diferentes"
+    }
+   ],
+   "limites": [
+    "Valores em R$ bilhões a preços correntes de cada fonte, sem deflacionar. A tabela mistura coisas que não são comparáveis: avaliação de danos e perdas, declarações municipais, indenização de seguro, crédito e gasto público. Estimativa de dano não é custo de reconstrução, e crédito ou adiamento de dívida não é perda evitada. Razões prevenção x resposta são de gasto público federal ou de média internacional, não do RS, e não provam retorno de uma obra específica.",
+    "Não somar as linhas. (1) rs2024_danos_perdas_dala e rs2024_cnm_prejuizo_municipal_parcial medem o mesmo evento por métodos diferentes; (2) seguros pagos são parte dos danos privados já contados na avaliação DaLA; (3) o gasto estadual, o federal, o crédito do BID e a suspensão de dívida são fontes de financiamento da recuperação, não danos, e parte é empréstimo; (4) os dois estudos nacionais da CNM e as médias anuais cobrem a mesma década e se sobrepõem; (5) contagem (soma de registros) e estimativa (modelo, anúncio ou conta derivada) não compõem um total."
+   ],
+   "links": [],
+   "arquivos": [
+    "clima_valor_financeiro.json"
+   ],
+   "paginas": [
+    "clima",
+    "corrupcao",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "clima-valor",
+   "nome": "Clima: valor financeiro (RS 2024, Brasil, prevenção × resposta)",
+   "chip": {
+    "rotulo": "Clima em R$",
+    "detalhe": "13/14 lidos"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "Projeto climate (snapshot congelado de 09/08/2026) sobre IBGE MUNIC 2024, JRC GSW, GHSL, ANA, NOAA CPC",
+    "url": null
+   },
+   "extraido_em": "2026-08-09T22:33:31Z",
+   "hashes": [],
+   "cobertura": "497 municípios do RS · 459 completos, 37 parciais, 1 sem índice",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Junção com a malha: 497 do snapshot e 497 do RS na malha, sem sobras"
+    },
+    {
+     "ok": true,
+     "texto": "Cobertura mínima de peso 0,60: 0 violações; 1 município sem índice, corretamente (não promovido)"
+    },
+    {
+     "ok": null,
+     "texto": "População do snapshot (estimativa 2024) 3.19% acima do Censo 2022 de territorios.json; nenhum município com diferença acima de 10%"
+    }
+   ],
+   "limites": [
+    "Índice de PRIORIDADE PREVENTIVA, não previsão de cheia: ordena onde a próxima tempestade encontra a pior combinação de impacto já observado (MUNIC 2024, evento de 26/04/2024), déficit declarado de prevenção e exposição. Os componentes impacto e déficit são auto-declaração da prefeitura ao IBGE. O perigo sazonal (ONI) é estadual e uniforme: desloca o nível de todos, nunca reordena. Pesos são escolha editorial declarada, nunca calibrada contra desfecho. Valores vêm do snapshot do projeto climate; aqui não foram recalculados.",
+    "Impacto e déficit de prevenção são auto-declaração da prefeitura ao IBGE; manutenção de ativos é sempre nula (sem base pública).",
+    "Proveniência indireta: a ETL do projeto climate não foi reauditada aqui. Pesos do índice são escolha editorial, nunca calibrada contra desfecho.",
+    "Município sem índice aparece hachurado no mapa e fora do ranking: não é “risco baixo”."
+   ],
+   "links": [],
+   "arquivos": [
+    "clima_rs_municipal.json"
+   ],
+   "paginas": [
+    "mapa",
+    "municipio",
+    "clima",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "clima-rs",
+   "nome": "Risco climático no RS: índice de prioridade preventiva (projeto climate)",
+   "chip": {
+    "rotulo": "Risco RS",
+    "detalhe": "497 municípios"
+   },
+   "status": "derivado",
+   "status_rotulo": "derivado"
+  },
+  {
+   "tipo": "modelo",
+   "fonte": {
+    "nome": "src/sociolibero/pessimismo.py sobre economy.py, decisoes.py e institutions.py",
+    "url": null
+   },
+   "extraido_em": "2026-10-06",
+   "hashes": [],
+   "cobertura": "30 decisões varridas · adverso em 2 cenários · 4096 combinações de choques (reverse stress)",
+   "validacoes": [
+    {
+     "ok": true,
+     "texto": "Regressão: com eficiência 1,0 os resultados do catálogo ficam idênticos; monotonicidade: 0 violações em 30 decisões"
+    },
+    {
+     "ok": true,
+     "texto": "Sementes: piso de ruído de 0.28 pp na dívida de 2035"
+    },
+    {
+     "ok": false,
+     "texto": "Eficiência de execução, severidades, vazamento e desperdício são suposições declaradas; a incerteza sobre elas não entra nos p10–p90"
+    }
+   ],
+   "limites": [
+    "cenários de risco, não previsões",
+    "Sem câmbio: não há canal de Blanchard (desvalorização → inflação → Selic), nem passivo externo; o canal clássico de crise de balanço de pagamentos está FORA do modelo e, portanto, o teste subestima ruptura por câmbio.",
+    "Sem dívida indexada: toda a dívida é tratada como nominal com custo `implicit × Selic`; inflação maior CORRÓI a dívida no modelo, quando na prática parte é indexada a IPCA e Selic (e o repasse piora o estoque). O efeito de desancoragem sobre a dívida é subestimado ou até invertido.",
+    "Defasagem: as decisões aplicam custo e benefício desde o 1º ano (`defasagem_anos` ignorado) e as vagas do STF entram desde 2027; benefícios tardios são subestimados e custos judiciais iniciais, superestimados.",
+    "Eficiência de execução NÃO é medida: a faixa 0,4-1,0 e o central 0,6 são suposições ancoradas em proxies (obras paralisadas, emendas)."
+   ],
+   "links": [],
+   "arquivos": [
+    "pessimismo.json"
+   ],
+   "paginas": [
+    "pessimismo",
+    "decisoes",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "pessimismo",
+   "nome": "Testes de estresse (má execução, adverso composto, liderança judicial como mecanismo)",
+   "chip": {
+    "rotulo": "Estresse",
+    "detalhe": "cenário de risco"
+   },
+   "status": "julgamento",
+   "status_rotulo": "julgamento"
+  },
+  {
+   "tipo": "dado",
+   "fonte": {
+    "nome": "TCU, Tesouro, Receita, Banco Mundial (WGI), WJP, FMI, STF e literatura; cada item com a sua fonte",
+    "url": null
+   },
+   "extraido_em": "2026-10-06",
+   "hashes": [],
+   "cobertura": "10 decisões ruins · 8 mecanismos · 16 proxies · 8 pré-mortems · 9 fundamentos",
+   "validacoes": [
+    {
+     "ok": null,
+     "texto": "41 de 114 itens com selo foram lidos na fonte; itens de imprensa ficam “não lidos na fonte” mesmo quando a página foi aberta"
+    },
+    {
+     "ok": true,
+     "texto": "Nenhuma pessoa é acusada; “interesse próprio” é tratado como mecanismo, com a leitura contrária ao lado"
+    }
+   ],
+   "limites": [
+    "Levantamento de pesquisa aberta, não auditoria nem previsão. Visões pessimistas são hipóteses fundamentadas, não sentenças: cada número é uma contagem (apurada por órgão) ou uma estimativa (modelo, renúncia, extrapolação) e nenhum deles acusa pessoa, ministro, partido ou empresa. 'Interesse próprio' de juízes e políticos é tratado como mecanismo de teoria da decisão (modelos atitudinal, estratégico e de escolha racional), com evidência comparada e institucional, e as leituras contrárias (mérito nas indicações; escrutínio legítimo do STF; reformas defensáveis) estão ao lado de cada mecanismo. Não existe 'taxa de incompetência': a capacidade estatal é aproximada por proxies, cada um com o que não mede.",
+    "Não existe “taxa de incompetência” medida: os proxies medem partes da capacidade do Estado e dizem o que não medem.",
+    "Nenhuma estimativa em R$ foi encontrada para o Cruzado e o efeito econômico de mudanças de composição do STF no Brasil; os campos ficam nulos ou como 'nao_localizado', e não foram preenchidos por palpite.",
+    "As referências acadêmicas (Acemoglu e Robinson, Olson, Turchin, Tainter, Minsky, Kindleberger, Dixit, Persson e Tabellini, Segal e Spaeth, Epstein e Knight, Posner, Clark, Vanberg, Haggard e Tiede, Merton) são citadas de conhecimento prévio; só o resumo de Feld e Voigt (2003) foi aberto. DOIs não conferidos têm verificado:false.",
+    "Fontes primárias que não abriram (HTTP 403, 429 ou conexão recusada): site do STF, Planalto (Constituição, AI-2, AI-5 e AI-6 foram reutilizados de historia.json), Banco de Israel, theglobaleconomy (V-Dem, WGI). Esses itens ficam verificado:false."
+   ],
+   "links": [],
+   "arquivos": [
+    "visoes_pessimistas.json"
+   ],
+   "paginas": [
+    "pessimismo",
+    "metodo"
+   ],
+   "nota": null,
+   "id": "visoes-pessimistas",
+   "nome": "Visões pessimistas: decisões ruins, captura judicial (mecanismos), capacidade estatal",
+   "chip": {
+    "rotulo": "Visões pessimistas",
+    "detalhe": "41/114 lidos"
+   },
+   "status": "parcial",
+   "status_rotulo": "parcial"
+  }
+ ]
+}

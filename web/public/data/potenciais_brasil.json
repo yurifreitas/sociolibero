@@ -1,0 +1,2109 @@
+{
+ "meta": {
+  "gerado_em": "2026-10-06",
+  "aviso": "Levantamento de potências e potencial de crescimento do Brasil a partir de pesquisa aberta. 'Potencial' técnico não é projeção nem direito adquirido: exige investimento, instituições e escolhas, e tem armadilhas (ver 'armadilhas'). Dados de 2024-2026 e o resultado da eleição de 2026 não foram validados em fonte primária; várias fontes são secundárias (imprensa, Wikipedia) e estão assim marcadas. Nenhum número aqui alimenta o modelo macro sem calibração.",
+  "criterio_verificacao": "verificado=true: a página/PDF foi aberta nesta pesquisa e o número foi lido no texto (USGS MCS 2026, FMI Country Report 25/194, Ipea TD, Embrapa/Land via Revista Cultivar, MapBiomas via Poder360/IHU, INPE/PRODES via Poder360, Ember, ILOS, ANP via CNN Brasil, Wikipedia). Isso inclui fontes secundárias. verificado=false: só resumo de busca, URL que retornou 403/404, ou memória. Valores derivados (parcelas calculadas) são marcados como cálculo nosso. Tabelas USGS foram lidas de PDF com colunas desalinhadas e reconciliadas pelos totais mundiais, ver 'nota' nas métricas."
+ },
+ "potencias": [
+  {
+   "id": "agua-doce",
+   "titulo": "Água doce: a maior vazão renovável do planeta e 8,2 Mha irrigados com folga para crescer",
+   "categoria": "recursos naturais",
+   "metricas": [
+    {
+     "nome": "Recursos hídricos renováveis totais",
+     "valor": "8.647",
+     "unidade": "km³/ano",
+     "ano": "2020",
+     "fonte": "FAO AQUASTAT / Banco Mundial (via Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_total_renewable_water_resources",
+     "verificado": true,
+     "nota": "Maior valor da lista (Rússia 4.525; EUA 3.069; Canadá 2.860). A coluna de ranking da página está mal formatada; o 1º lugar é inferido do valor."
+    },
+    {
+     "nome": "Parcela da água doce superficial do planeta",
+     "valor": "~12",
+     "unidade": "%",
+     "ano": "n/d",
+     "fonte": "ANA / Senado Federal (resumo de busca)",
+     "url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/outras-publicacoes/temas-e-agendas-para-o-desenvolvimento-sustentavel/recursos-hidricos-e-desenvolvimento-sustentavel-no-brasil",
+     "verificado": false,
+     "nota": "Número repetido por ANA e Senado; depende da definição (vazão superficial vs. recurso renovável total, que inclui fluxos vindos de fora)."
+    },
+    {
+     "nome": "Área equipada para irrigação",
+     "valor": "8,2",
+     "unidade": "milhões de ha",
+     "ano": "n/d",
+     "fonte": "ANA, Atlas Irrigação (resumo de busca)",
+     "url": "https://www.revistacultivar.com.br/noticias/atlas-irrigacao-atualiza-area-irrigada-total-no-brasil-em-8-2-milhoes-de-hectares",
+     "verificado": false
+    },
+    {
+     "nome": "Potencial de expansão da irrigação (critérios físicos e de ocupação)",
+     "valor": "76,2",
+     "unidade": "milhões de ha",
+     "ano": "n/d",
+     "fonte": "ANA, Atlas Irrigação (resumo de busca)",
+     "url": "https://www.revistacultivar.com.br/noticias/atlas-irrigacao-atualiza-area-irrigada-total-no-brasil-em-8-2-milhoes-de-hectares",
+     "verificado": false,
+     "nota": "Potencial físico; não inclui custo de energia, outorga nem viabilidade econômica."
+    }
+   ],
+   "ranking_mundial": "1º em recursos hídricos renováveis totais (FAO AQUASTAT 2020, inferido da tabela)",
+   "grau_de_uso": "Baixo em volume (a maior parte da vazão está na bacia amazônica, longe de quem consome); estresse hídrico local no Semiárido e em bacias do Sudeste.",
+   "por_que_poucos_notam": "A abundância é um número nacional que esconde a distribuição: a água está onde há pouca gente. 'Maior reserva' não é segurança hídrica.",
+   "barreiras": [
+    "Distribuição espacial desigual (Amazônia vs. Semiárido e metrópoles)",
+    "Saneamento e perdas na distribuição (dado não coletado aqui)",
+    "Outorga, energia para bombeamento e custo de infraestrutura de adução e irrigação",
+    "Mudança climática alterando o regime de chuvas e a recarga"
+   ],
+   "quem_ganha": [
+    "Agricultura irrigada (Cerrado, Matopiba, Nordeste)",
+    "Indústria e geração hidrelétrica",
+    "Regiões com infraestrutura hídrica"
+   ],
+   "quem_perde": [
+    "Populações do Semiárido sem adução",
+    "Ribeirinhos e pescadores afetados por barragens e mineração",
+    "Ecossistemas que dependem de vazão ecológica"
+   ],
+   "risco_ambiental": "Alto: irrigação expandida compete com vazão ecológica e hidrelétricas; secas extremas reduzem navegação fluvial e geração hidrelétrica.",
+   "ligacao_decisoes": [
+    "privatizacoes",
+    "credito-subsidiado",
+    "cortar-beneficios-fiscais"
+   ],
+   "ligacao_nota": "O catálogo não tem decisão específica de água (lacuna). Mais próximas: 'privatizacoes' (concessões de saneamento), 'credito-subsidiado' (crédito de irrigação) e 'cortar-beneficios-fiscais'.",
+   "ligacao_tendencias": [
+    "energia_data_centers",
+    "biotec_agro",
+    "jevons"
+   ],
+   "regioes": [
+    "Norte (bacia amazônica)",
+    "Nordeste (Semiárido)",
+    "Centro-Oeste e Matopiba (irrigação)",
+    "Sudeste (metrópoles)"
+   ],
+   "fontes": [
+    {
+     "titulo": "Recursos hídricos e desenvolvimento sustentável no Brasil (Senado)",
+     "url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/outras-publicacoes/temas-e-agendas-para-o-desenvolvimento-sustentavel/recursos-hidricos-e-desenvolvimento-sustentavel-no-brasil",
+     "verificado": false
+    },
+    {
+     "titulo": "List of countries by total renewable water resources (Wikipedia, FAO AQUASTAT)",
+     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_total_renewable_water_resources",
+     "verificado": true
+    },
+    {
+     "titulo": "Atlas Irrigação / ANA (via Revista Cultivar)",
+     "url": "https://www.revistacultivar.com.br/noticias/atlas-irrigacao-atualiza-area-irrigada-total-no-brasil-em-8-2-milhoes-de-hectares",
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "biodiversidade",
+   "titulo": "Biodiversidade: maior riqueza de espécies do mundo, ativo genético pouco convertido em valor",
+   "categoria": "recursos naturais",
+   "metricas": [
+    {
+     "nome": "Espécies de plantas",
+     "valor": "~60.000",
+     "unidade": "espécies",
+     "ano": "n/d",
+     "fonte": "Wikipedia (Biodiversity of Brazil)",
+     "url": "https://en.wikipedia.org/wiki/Biodiversity_of_Brazil",
+     "verificado": true,
+     "nota": "Fonte secundária; a página aponta o Brasil como 1º em plantas, peixes de água doce, anfíbios, mamíferos, primatas e insetos."
+    },
+    {
+     "nome": "Parcela das espécies do planeta",
+     "valor": "~9,5",
+     "unidade": "%",
+     "ano": "n/d",
+     "fonte": "Wikipedia (Biodiversity of Brazil)",
+     "url": "https://en.wikipedia.org/wiki/Biodiversity_of_Brazil",
+     "verificado": true,
+     "nota": "Estimativa de enciclopédia; cifras de 15-20% circulam, sem fonte primária conferida aqui."
+    },
+    {
+     "nome": "Espécies de mamíferos",
+     "valor": "775",
+     "unidade": "espécies",
+     "ano": "n/d",
+     "fonte": "Wikipedia (Biodiversity of Brazil)",
+     "url": "https://en.wikipedia.org/wiki/Biodiversity_of_Brazil",
+     "verificado": true
+    },
+    {
+     "nome": "Perda de vegetação nativa em 2024 (todos os biomas)",
+     "valor": "1.242.079",
+     "unidade": "ha",
+     "ano": "2024",
+     "fonte": "MapBiomas RAD 2024 (via Poder360)",
+     "url": "https://www.poder360.com.br/poder-sustentavel/desmatamento-no-brasil-cai-324-em-2024-diz-mapbiomas/",
+     "verificado": true
+    }
+   ],
+   "ranking_mundial": "1º em espécies de plantas, mamíferos, anfíbios, peixes de água doce e insetos (Wikipedia, secundária)",
+   "grau_de_uso": "Baixo em valor agregado: exporta-se produto bruto (açaí, castanha, óleos), com pouca biotecnologia, fármacos e cosméticos de alto valor baseados no patrimônio genético.",
+   "por_que_poucos_notam": "Biodiversidade aparece como custo regulatório (licença, proteção), não como ativo; o retorno de P&D leva décadas e o acesso à genética é regulado.",
+   "barreiras": [
+    "Repartição de benefícios e segurança jurídica sobre acesso ao patrimônio genético",
+    "Baixo investimento privado em P&D de longo prazo",
+    "Muitas espécies ainda sem descrição",
+    "Perda de habitat antes de conhecer o que se perde"
+   ],
+   "quem_ganha": [
+    "Empresas de biotecnologia e cosméticos com acesso ao saber tradicional",
+    "Universidades e institutos de pesquisa",
+    "Comunidades detentoras do conhecimento associado (se a repartição funcionar)"
+   ],
+   "quem_perde": [
+    "Comunidades tradicionais sem repartição efetiva",
+    "Regiões onde a perda de habitat precede a descoberta"
+   ],
+   "risco_ambiental": "Muito alto: a perda de habitat é irreversível; bioprospecção sem controle gera biopirataria.",
+   "ligacao_decisoes": [
+    "acordo-mercosul-ue",
+    "credito-subsidiado"
+   ],
+   "ligacao_nota": "O acordo UE-Mercosul traz cláusulas ambientais que afetam acesso a mercado; crédito subsidiado pode financiar P&D ou desmatamento, conforme a condicionalidade.",
+   "ligacao_tendencias": [
+    "biotec_agro",
+    "carlson",
+    "ia_generativa_agentes"
+   ],
+   "regioes": [
+    "Amazônia",
+    "Mata Atlântica",
+    "Cerrado",
+    "Caatinga",
+    "Pantanal"
+   ],
+   "fontes": [
+    {
+     "titulo": "Biodiversity of Brazil (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Biodiversity_of_Brazil",
+     "verificado": true
+    },
+    {
+     "titulo": "MapBiomas RAD 2024 (Poder360)",
+     "url": "https://www.poder360.com.br/poder-sustentavel/desmatamento-no-brasil-cai-324-em-2024-diz-mapbiomas/",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "sociobioeconomia",
+   "titulo": "Sociobiodiversidade e bioeconomia: cadeias extrativas de floresta em pé (açaí, castanha)",
+   "categoria": "bioeconomia",
+   "metricas": [
+    {
+     "nome": "Valor adicionado total das cadeias de açaí e castanha-do-pará",
+     "valor": ">11",
+     "unidade": "R$ bilhões",
+     "ano": "2023",
+     "fonte": "Resumo de busca (dados IBGE/PAM citados por Portal Amazônia)",
+     "url": "https://portalamazonia.com/amazonia-ameaca-ou-oportunidade/floresta-mercado-desafio-amazonia/",
+     "verificado": false,
+     "nota": "Açaí 47% e castanha 26% desse total, segundo o resumo; metodologia não conferida."
+    },
+    {
+     "nome": "Colheita de açaí",
+     "valor": "1,6",
+     "unidade": "milhão t",
+     "ano": "2023",
+     "fonte": "IBGE PAM 2023 (resumo de busca)",
+     "url": "https://portalamazonia.com/amazonia-ameaca-ou-oportunidade/floresta-mercado-desafio-amazonia/",
+     "verificado": false,
+     "nota": "Pará responde por ~94% (resumo de busca)."
+    }
+   ],
+   "ranking_mundial": "Sem ranking comparável",
+   "grau_de_uso": "Baixo a médio: o extrativismo gera renda local, mas a maior parte do valor (processamento, marca, exportação) fica fora da floresta.",
+   "por_que_poucos_notam": "Os números parecem pequenos ao lado de soja e minério, e o discurso de 'bioeconomia' mistura commodities florestais de baixo valor com biotecnologia de alto valor.",
+   "barreiras": [
+    "Logística e energia em comunidades isoladas",
+    "Atravessadores capturam preço (a literatura 'Bioeconomia para quem?' discute a cadeia do açaí)",
+    "Regularização fundiária e escala",
+    "Qualidade, rastreabilidade e certificação"
+   ],
+   "quem_ganha": [
+    "Extrativistas organizados em cooperativas",
+    "Processadores e exportadores",
+    "Municípios com polos agroindustriais"
+   ],
+   "quem_perde": [
+    "Extrativistas dependentes de atravessadores",
+    "Áreas onde a monocultura de açaí substitui floresta diversa"
+   ],
+   "risco_ambiental": "Médio: o manejo pode manter a floresta, mas a intensificação (açaí manejado em monocultura) reduz a diversidade.",
+   "ligacao_decisoes": [
+    "credito-subsidiado",
+    "reforma-administrativa"
+   ],
+   "ligacao_nota": "Crédito direcionado e capacidade estatal (fiscalização, assistência técnica) são o gargalo.",
+   "ligacao_tendencias": [
+    "biotec_agro",
+    "conectividade",
+    "pagamentos_digitais"
+   ],
+   "regioes": [
+    "Norte (Pará, Amazonas, Acre)"
+   ],
+   "fontes": [
+    {
+     "titulo": "Da floresta ao mercado (Portal Amazônia)",
+     "url": "https://portalamazonia.com/amazonia-ameaca-ou-oportunidade/floresta-mercado-desafio-amazonia/",
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "matriz-eletrica-renovavel",
+   "titulo": "Matriz elétrica renovável: 88% de geração limpa, com solar e eólica em rápida expansão",
+   "categoria": "energia",
+   "metricas": [
+    {
+     "nome": "Renovável na matriz elétrica",
+     "valor": "88,2",
+     "unidade": "%",
+     "ano": "2024",
+     "fonte": "EPE, BEN 2025 (via Cenário Energia)",
+     "url": "https://cenarioenergia.com.br/2025/05/29/brasil-bate-recorde-de-participacao-de-renovaveis-na-matriz-eletrica-e-reforca-papel-na-transicao-energetica-global/",
+     "verificado": true,
+     "nota": "Página secundária lida; o relatório da EPE não foi aberto (a página da EPE só lista os arquivos)."
+    },
+    {
+     "nome": "Renovável na matriz energética total",
+     "valor": "50",
+     "unidade": "%",
+     "ano": "2024",
+     "fonte": "EPE, BEN 2025 (via Cenário Energia)",
+     "url": "https://cenarioenergia.com.br/2025/05/29/brasil-bate-recorde-de-participacao-de-renovaveis-na-matriz-eletrica-e-reforca-papel-na-transicao-energetica-global/",
+     "verificado": true
+    },
+    {
+     "nome": "Eólica + solar na geração elétrica",
+     "valor": "24",
+     "unidade": "%",
+     "ano": "2024",
+     "fonte": "EPE, BEN 2025 (via Cenário Energia)",
+     "url": "https://cenarioenergia.com.br/2025/05/29/brasil-bate-recorde-de-participacao-de-renovaveis-na-matriz-eletrica-e-reforca-papel-na-transicao-energetica-global/",
+     "verificado": true
+    },
+    {
+     "nome": "Intensidade de emissões da eletricidade",
+     "valor": "59,9",
+     "unidade": "kg CO2e/MWh",
+     "ano": "2024",
+     "fonte": "EPE, BEN 2025 (via Cenário Energia)",
+     "url": "https://cenarioenergia.com.br/2025/05/29/brasil-bate-recorde-de-participacao-de-renovaveis-na-matriz-eletrica-e-reforca-papel-na-transicao-energetica-global/",
+     "verificado": true
+    },
+    {
+     "nome": "Renovável na eletricidade: Brasil vs. média mundial",
+     "valor": "89 vs 30",
+     "unidade": "%",
+     "ano": "2023",
+     "fonte": "Ember",
+     "url": "https://ember-energy.org/latest-insights/brazil-rises-as-g20-renewables-powerhouse/",
+     "verificado": true,
+     "nota": "Hidro 60% e eólica+solar 21% da geração brasileira em 2023."
+    }
+   ],
+   "ranking_mundial": "1º entre as economias do G20 em parcela renovável da eletricidade (Ember, 2023)",
+   "grau_de_uso": "Alto: a vantagem já existe e já é usada; o potencial de crescimento está em exportar energia embutida (indústria eletrointensiva, hidrogênio) mais que em vender kWh.",
+   "por_que_poucos_notam": "Parece herança das hidrelétricas; o que muda é que eólica e solar adicionam capacidade barata e o risco passa de falta de energia para curtailment e integração à rede.",
+   "barreiras": [
+    "Transmissão e integração (excesso de oferta em horas de pico no Nordeste)",
+    "Dependência hidrológica (hidro 60% em 2023, sujeita a secas)",
+    "Encargos e subsídios setoriais na tarifa (valor não coletado)",
+    "Previsibilidade regulatória para investimentos de longo prazo"
+   ],
+   "quem_ganha": [
+    "Indústria eletrointensiva (alumínio, aço verde, fertilizantes)",
+    "Geradores eólicos e solares",
+    "Consumidores livres"
+   ],
+   "quem_perde": [
+    "Térmicas fósseis marginalizadas",
+    "Consumidores cativos se encargos e subsídios continuarem a crescer",
+    "Comunidades afetadas por parques mal licenciados"
+   ],
+   "risco_ambiental": "Médio: hidrelétricas na Amazônia e parques eólicos/solares geram impactos locais; a seca reduz o ativo.",
+   "ligacao_decisoes": [
+    "privatizacoes",
+    "politica-precos-combustiveis",
+    "acelerar-ibs-cbs",
+    "cortar-beneficios-fiscais"
+   ],
+   "ligacao_nota": "Concessões no setor elétrico, preços de combustíveis (concorrência com eletrificação), reforma do consumo e subsídios setoriais definem se a vantagem vira custo menor ou renda de poucos.",
+   "ligacao_tendencias": [
+    "solar_eolica",
+    "swanson",
+    "baterias_ve",
+    "aprendizado_baterias",
+    "energia_data_centers",
+    "wright"
+   ],
+   "regioes": [
+    "Nordeste (eólica e solar)",
+    "Sudeste e Sul (hidro e transmissão)",
+    "Norte (hidro de grande porte)"
+   ],
+   "fontes": [
+    {
+     "titulo": "BEN 2025 (Cenário Energia)",
+     "url": "https://cenarioenergia.com.br/2025/05/29/brasil-bate-recorde-de-participacao-de-renovaveis-na-matriz-eletrica-e-reforca-papel-na-transicao-energetica-global/",
+     "verificado": true
+    },
+    {
+     "titulo": "Ember, Brazil rises as G20 renewables powerhouse",
+     "url": "https://ember-energy.org/latest-insights/brazil-rises-as-g20-renewables-powerhouse/",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "solar-eolica-potencial-tecnico",
+   "titulo": "Potencial técnico solar e eólico em terra: uma ordem de grandeza acima do necessário",
+   "categoria": "energia",
+   "metricas": [
+    {
+     "nome": "Potencial eólico onshore (torres acima de 100 m)",
+     "valor": "880",
+     "unidade": "GW",
+     "ano": "2016",
+     "fonte": "INPE (Ênio Bueno Pereira)/INCT-Clima, via Agência FAPESP",
+     "url": "https://agencia.fapesp.br/index.php/potencial-eolico-em-terra-do-brasil-pode-ser-seis-vezes-maior-do-que-o-estimado/24053",
+     "verificado": true,
+     "nota": "O Atlas de 2001 (torres de 50 m) estimava 143 GW; estudo apresentado em conferência, sem revisão por pares na fonte lida."
+    },
+    {
+     "nome": "Potencial técnico solar fotovoltaico centralizado",
+     "valor": "28.519",
+     "unidade": "GW",
+     "ano": "n/d",
+     "fonte": "EPE (resumo de busca)",
+     "url": "https://canalsolar.com.br/epe-analisa-a-evolucao-tecnica-dos-projetos-de-geracao-centralizada-no-brasil/",
+     "verificado": false,
+     "nota": "Exclui áreas sensíveis (Amazônia, Pantanal, Mata Atlântica, UCs, terras indígenas e quilombolas), segundo o resumo; potencial técnico, não econômico."
+    },
+    {
+     "nome": "Potencial técnico solar distribuído (telhados)",
+     "valor": "164,1",
+     "unidade": "GW",
+     "ano": "n/d",
+     "fonte": "EPE (resumo de busca)",
+     "url": "https://canalsolar.com.br/epe-analisa-a-evolucao-tecnica-dos-projetos-de-geracao-centralizada-no-brasil/",
+     "verificado": false
+    },
+    {
+     "nome": "Projeção PNE 2050 para solar centralizada",
+     "valor": "27 a 90",
+     "unidade": "GW em 2050",
+     "ano": "2020",
+     "fonte": "EPE PNE 2050 (resumo de busca)",
+     "url": "https://canalsolar.com.br/epe-analisa-a-evolucao-tecnica-dos-projetos-de-geracao-centralizada-no-brasil/",
+     "verificado": false
+    }
+   ],
+   "ranking_mundial": "Sem ranking verificado",
+   "grau_de_uso": "Muito baixo frente ao potencial técnico (a capacidade instalada não foi coletada nesta pesquisa).",
+   "por_que_poucos_notam": "O potencial técnico é tão grande que deixa de ser a restrição; a restrição é demanda, transmissão e capital. Citar '28.519 GW' como riqueza é retórica.",
+   "barreiras": [
+    "Transmissão e curtailment (cortes de geração)",
+    "Falta de demanda firme local (daí a ligação com hidrogênio e indústria)",
+    "Licenciamento e conflito fundiário (eólicas em terras de comunidades tradicionais)",
+    "Custo de capital (juros)"
+   ],
+   "quem_ganha": [
+    "Proprietários de terra arrendada a parques",
+    "Fabricantes e instaladores de FV",
+    "Consumidores com geração distribuída"
+   ],
+   "quem_perde": [
+    "Comunidades tradicionais e pescadores no litoral nordestino",
+    "Consumidores sem geração distribuída, que pagam o custo da rede"
+   ],
+   "risco_ambiental": "Médio: impactos locais (fauna, paisagem, uso da terra); baixo carbono no ciclo de vida.",
+   "ligacao_decisoes": [
+    "abertura-comercial",
+    "credito-subsidiado",
+    "reforcar-arcabouco"
+   ],
+   "ligacao_nota": "Tarifa de importação de módulos e aerogeradores (abertura comercial), crédito do BNDES e o custo de capital (arcabouço fiscal, prêmio de risco) determinam a velocidade.",
+   "ligacao_tendencias": [
+    "solar_eolica",
+    "swanson",
+    "wright",
+    "baterias_ve",
+    "aprendizado_baterias"
+   ],
+   "regioes": [
+    "Nordeste (BA, RN, CE, PI)",
+    "Sul (RS, SC)",
+    "Norte de Minas Gerais"
+   ],
+   "fontes": [
+    {
+     "titulo": "Potencial eólico em terra pode ser seis vezes maior (Agência FAPESP)",
+     "url": "https://agencia.fapesp.br/index.php/potencial-eolico-em-terra-do-brasil-pode-ser-seis-vezes-maior-do-que-o-estimado/24053",
+     "verificado": true
+    },
+    {
+     "titulo": "EPE e potencial solar (Canal Solar)",
+     "url": "https://canalsolar.com.br/epe-analisa-a-evolucao-tecnica-dos-projetos-de-geracao-centralizada-no-brasil/",
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "eolica-offshore-hidrogenio-verde",
+   "titulo": "Eólica offshore e hidrogênio verde no Nordeste: potencial enorme, projetos ainda anunciados",
+   "categoria": "energia",
+   "metricas": [
+    {
+     "nome": "Potencial técnico eólico offshore",
+     "valor": ">1.200",
+     "unidade": "GW",
+     "ano": "2020-2024",
+     "fonte": "Banco Mundial / EPE (resumo de busca)",
+     "url": "https://www.worldbank.org/pt/news/opinion/2024/08/15/eolicas-offshore-vem-do-mar-o-vento-que-sopra-novas-oportunidades-para-o-brasil",
+     "verificado": false,
+     "nota": "A URL citada retornou 404 na abertura; valor vem do resumo de busca. O Roadmap Eólica Offshore da EPE (2020) não foi aberto."
+    },
+    {
+     "nome": "Projetos de hidrogênio verde no Nordeste (anunciados)",
+     "valor": "44 em 6 estados",
+     "unidade": "projetos",
+     "ano": "2024",
+     "fonte": "Eixos (resumo de busca)",
+     "url": "https://eixos.com.br/hidrogenio/cinco-estados-no-nordeste-tem-projetos-para-hidrogenio-verde",
+     "verificado": false,
+     "nota": "Cerca de 2/3 das iniciativas nacionais; anúncio não é decisão final de investimento."
+    },
+    {
+     "nome": "Investimento esperado no Complexo do Pecém (CE)",
+     "valor": "110,6",
+     "unidade": "R$ bilhões",
+     "ano": "n/d",
+     "fonte": "AgFeed (resumo de busca)",
+     "url": "https://agfeed.com.br/caminhos-do-agro/casa-do-hidrogenio-verde-porto-de-pecem-espera-r-1106-bilhoes-em-investimentos",
+     "verificado": false,
+     "nota": "Valor esperado/anunciado."
+    }
+   ],
+   "ranking_mundial": "Sem ranking verificado",
+   "grau_de_uso": "Praticamente nulo: sem usina eólica offshore comercial em operação (afirmação de memória, não verificada); hidrogênio verde em fase de memorandos e pilotos.",
+   "por_que_poucos_notam": "O Brasil tem vantagem em eletricidade renovável barata, mas o hidrogênio verde depende da curva de aprendizado de eletrolisadores e do preço do carbono lá fora; muitos memorandos não viram usinas.",
+   "barreiras": [
+    "Marco regulatório offshore (cessão de áreas) e licenciamento",
+    "Custo de eletrolisadores e de capital",
+    "Demanda firme (contratos de compra com Europa e Ásia)",
+    "Porto, água e transmissão no Nordeste",
+    "Certificação de 'verde' e CBAM definem quem compra"
+   ],
+   "quem_ganha": [
+    "Portos-indústria como Pecém",
+    "Fabricantes e estaleiros se houver conteúdo local",
+    "Compradores europeus e asiáticos"
+   ],
+   "quem_perde": [
+    "Comunidades costeiras e pesca artesanal",
+    "Contribuinte, se incentivos e Zonas de Processamento de Exportação forem amplos"
+   ],
+   "risco_ambiental": "Médio: impactos em ecossistemas marinhos e uso de água em região árida; baixo carbono se a energia for renovável de fato.",
+   "ligacao_decisoes": [
+    "credito-subsidiado",
+    "abertura-comercial",
+    "acordo-mercosul-ue",
+    "privatizacoes",
+    "reforcar-arcabouco"
+   ],
+   "ligacao_nota": "Financiamento do BNDES, tarifa de equipamentos, acesso ao mercado europeu, concessões de portos e custo de capital.",
+   "ligacao_tendencias": [
+    "hidrogenio",
+    "aprendizado_eletrolisadores",
+    "solar_eolica",
+    "wright"
+   ],
+   "regioes": [
+    "Nordeste (Ceará/Pecém, Rio Grande do Norte, Bahia, Piauí)",
+    "Sul e Sudeste (offshore)"
+   ],
+   "fontes": [
+    {
+     "titulo": "Cinco estados no Nordeste têm projetos para hidrogênio verde (Eixos)",
+     "url": "https://eixos.com.br/hidrogenio/cinco-estados-no-nordeste-tem-projetos-para-hidrogenio-verde",
+     "verificado": false
+    },
+    {
+     "titulo": "Eólicas offshore: vem do mar o vento (Banco Mundial)",
+     "url": "https://www.worldbank.org/pt/news/opinion/2024/08/15/eolicas-offshore-vem-do-mar-o-vento-que-sopra-novas-oportunidades-para-o-brasil",
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "niobio-concentracao-global",
+   "titulo": "Nióbio: o quase-monopólio mundial que o Brasil tem e pouco usa para adensar a cadeia",
+   "categoria": "minerais críticos",
+   "metricas": [
+    {
+     "nome": "Produção de nióbio do Brasil",
+     "valor": "104.000",
+     "unidade": "t",
+     "ano": "2025e",
+     "fonte": "USGS Mineral Commodity Summaries 2026",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-niobium.pdf",
+     "verificado": true,
+     "nota": "Mundo: 112.000 t; o USGS diz que o Brasil responde por ~93% da produção mundial."
+    },
+    {
+     "nome": "Reservas de nióbio do Brasil",
+     "valor": "14.000.000",
+     "unidade": "t",
+     "ano": "2025",
+     "fonte": "USGS MCS 2026",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-niobium.pdf",
+     "verificado": true,
+     "nota": "Mundo >21.000.000 t (~67%). Leitura de tabela de PDF com colunas desalinhadas; consistente com a soma mundial."
+    },
+    {
+     "nome": "Exportações de ferronióbio (HS 7202.93)",
+     "valor": "92.000",
+     "unidade": "t",
+     "ano": "2024",
+     "fonte": "USGS MCS 2026 (dados de comércio)",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-niobium.pdf",
+     "verificado": true,
+     "nota": "49% para a China, 17% Países Baixos, 9% Singapura, 8% Coreia do Sul e 8% EUA."
+    },
+    {
+     "nome": "Parcela do consumo mundial de produtos de nióbio saída de Araxá (CBMM)",
+     "valor": "~90",
+     "unidade": "%",
+     "ano": "2021",
+     "fonte": "Revista Pesquisa FAPESP (resumo de busca)",
+     "url": "https://revistapesquisa.fapesp.br/o-polemico-niobio/",
+     "verificado": false
+    }
+   ],
+   "ranking_mundial": "1º em produção (~93%) e em reservas (~67%), USGS MCS 2026",
+   "grau_de_uso": "Alto em extração, baixo em cadeia: cerca de 90% vai como ferronióbio para aço; aplicações de maior valor (supercondutores, ligas aeroespaciais, baterias) são minoria (resumo de busca, não verificado).",
+   "por_que_poucos_notam": "É um dado tão concentrado que parece curiosidade de almanaque; a renda fica com poucas empresas (CBMM, CMOC), e o nióbio é insumo barato por tonelada de aço e parcialmente substituível (USGS lista molibdênio, vanádio, tântalo e tungstênio).",
+   "barreiras": [
+    "Demanda derivada do aço de alta resistência: o Brasil não controla o ciclo siderúrgico",
+    "Substituibilidade parcial limita poder de preço",
+    "P&D de aplicações avançadas é pequeno no país",
+    "Mineração concentrada em Araxá (MG) e Catalão (GO)"
+   ],
+   "quem_ganha": [
+    "Controladores da CBMM e acionistas",
+    "Siderúrgicas compradoras",
+    "Municípios de Araxá e Catalão (royalties)"
+   ],
+   "quem_perde": [
+    "O país, se a renda mineral não for capturada por tributos e P&D",
+    "Comunidades vizinhas a barragens de rejeito"
+   ],
+   "risco_ambiental": "Médio: barragens de rejeito; carbonatitos com radioatividade natural (conhecimento geral, não verificado aqui).",
+   "ligacao_decisoes": [
+    "abertura-comercial",
+    "credito-subsidiado",
+    "acelerar-ibs-cbs"
+   ],
+   "ligacao_nota": "A reforma do consumo muda a tributação de bens intermediários e da exportação; crédito e P&D público podem financiar aplicações avançadas.",
+   "ligacao_tendencias": [
+    "baterias_ve",
+    "aprendizado_baterias",
+    "difusao_cauda"
+   ],
+   "regioes": [
+    "Sudeste (Araxá, MG)",
+    "Centro-Oeste (Catalão, GO)"
+   ],
+   "fontes": [
+    {
+     "titulo": "USGS MCS 2026 Niobium",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-niobium.pdf",
+     "verificado": true
+    },
+    {
+     "titulo": "O polêmico nióbio (Revista Pesquisa FAPESP)",
+     "url": "https://revistapesquisa.fapesp.br/o-polemico-niobio/",
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "minerais-transicao-reservas",
+   "titulo": "Minerais da transição (terras raras, grafite, lítio, manganês, níquel): reserva relevante, produção pequena, cadeia no exterior",
+   "categoria": "minerais críticos",
+   "metricas": [
+    {
+     "nome": "Terras raras: reservas do Brasil",
+     "valor": "11.000.000",
+     "unidade": "t de óxidos (REO)",
+     "ano": "2025",
+     "fonte": "USGS MCS 2026",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf",
+     "verificado": true,
+     "nota": "Mundo >75.000.000 t (~15%). O dígito da tabela depende do alinhamento do PDF; a soma mundial só fecha com esse valor."
+    },
+    {
+     "nome": "Terras raras: produção do Brasil",
+     "valor": "560 (2024); 2.000 (2025e)",
+     "unidade": "t REO",
+     "ano": "2024-2025",
+     "fonte": "USGS MCS 2026",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf",
+     "verificado": true,
+     "nota": "Mundo: 380.000 (2024) e 390.000 (2025e); China 270.000 e EUA 45.500-51.000."
+    },
+    {
+     "nome": "Grafite natural: produção do Brasil",
+     "valor": "58.000 (2024); 65.000 (2025e)",
+     "unidade": "t",
+     "ano": "2024-2025",
+     "fonte": "USGS MCS 2026",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-graphite.pdf",
+     "verificado": true,
+     "nota": "Mundo 1.550.000 e 1.800.000 t (~3,6% em 2025e); China 1,27-1,4 Mt."
+    },
+    {
+     "nome": "Grafite natural: reservas do Brasil",
+     "valor": "74.000.000",
+     "unidade": "t",
+     "ano": "2025",
+     "fonte": "USGS MCS 2026",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-graphite.pdf",
+     "verificado": true,
+     "nota": "Mundo 310.000.000 t (~24%); 2º depois da China (100 Mt) na tabela lida."
+    },
+    {
+     "nome": "Lítio: produção do Brasil",
+     "valor": "10.200 (2024); 12.000 (2025e)",
+     "unidade": "t de lítio contido",
+     "ano": "2024-2025",
+     "fonte": "USGS MCS 2026",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lithium.pdf",
+     "verificado": true,
+     "nota": "Mundo 222.000 e 290.000 t (~4%); Austrália 82.700-92.000, China 41.400-62.000, Chile 56.000 (2025), Argentina 23.000."
+    },
+    {
+     "nome": "Lítio: reservas do Brasil",
+     "valor": "540.000",
+     "unidade": "t",
+     "ano": "2025",
+     "fonte": "USGS MCS 2026",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lithium.pdf",
+     "verificado": true,
+     "nota": "Mundo 37.000.000 t (~1,5%); Chile 9,2 Mt. Recursos medidos e indicados do Brasil: 1,4 Mt (texto do USGS)."
+    },
+    {
+     "nome": "Manganês: produção do Brasil",
+     "valor": "705 (2024); 800 (2025e)",
+     "unidade": "mil t contido",
+     "ano": "2024-2025",
+     "fonte": "USGS MCS 2026",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-manganese.pdf",
+     "verificado": true,
+     "nota": "Mundo 18.700 e 20.000 mil t (~4%); África do Sul 7.490-7.600."
+    },
+    {
+     "nome": "Manganês: reservas do Brasil",
+     "valor": "300.000",
+     "unidade": "mil t",
+     "ano": "2025",
+     "fonte": "USGS MCS 2026",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-manganese.pdf",
+     "verificado": true,
+     "nota": "Mundo 1.800.000 mil t (~17%); Austrália 580.000."
+    },
+    {
+     "nome": "Níquel: produção do Brasil",
+     "valor": "67.500 (2024); 70.000 (2025e)",
+     "unidade": "t",
+     "ano": "2024-2025",
+     "fonte": "USGS MCS 2026",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nickel.pdf",
+     "verificado": true,
+     "nota": "Mundo 3.710.000 e 3.900.000 t (~1,8%); Indonésia 2,31-2,6 Mt."
+    },
+    {
+     "nome": "Níquel: reservas do Brasil",
+     "valor": "16.000.000",
+     "unidade": "t",
+     "ano": "2025",
+     "fonte": "USGS MCS 2026",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nickel.pdf",
+     "verificado": true,
+     "nota": "Mundo >140.000.000 t (~11%); Indonésia 62 Mt, Austrália 25 Mt."
+    },
+    {
+     "nome": "Serra Verde: meta de produção de óxidos de terras raras (Fase I)",
+     "valor": "5.000",
+     "unidade": "t/ano",
+     "ano": "2024",
+     "fonte": "Jornal Opção (resumo de busca)",
+     "url": "https://www.jornalopcao.com.br/goias/conheca-a-mineradora-em-goias-que-e-a-unica-produtora-do-mercado-mundial-de-terras-raras-fora-da-asia-728792/",
+     "verificado": false,
+     "nota": "Mina Pela Ema, Minaçu (GO), argila iônica; produção comercial desde 2024; descrita como a única produtora em escala fora da Ásia."
+    },
+    {
+     "nome": "Venda da Serra Verde à USA Rare Earth",
+     "valor": "~2,8",
+     "unidade": "US$ bilhões",
+     "ano": "2026",
+     "fonte": "Gazeta do Povo (resumo de busca)",
+     "url": "https://www.gazetadopovo.com.br/economia/empresa-dos-eua-compra-mineradora-brasileira-de-terras-raras-por-us-28-bi-em-disputa-com-a-china/",
+     "verificado": false,
+     "nota": "Notícia de abril de 2026 em resumo de busca; termos não conferidos."
+    }
+   ],
+   "ranking_mundial": "Reservas: grafite ~2º, manganês ~3º, terras raras e níquel entre os maiores (inferido das tabelas USGS); produção: pequena parcela em todos (0,5% a 4%).",
+   "grau_de_uso": "Baixo: reserva grande, produção pequena; a captura de valor é ainda menor porque separação de terras raras, refino de grafite para anodo, química de lítio de grau bateria e fabricação de ímãs estão majoritariamente na China (resumo de busca; fabricação de ímãs em escala no Brasil não foi confirmada).",
+   "por_que_poucos_notam": "O debate público é 'ter terras raras'; o gargalo é o elo intermediário (separação, ligas, ímãs, anodos, cátodos). Reserva não é cadeia. A China responde por mais de 90% do processamento de terras raras (resumo de busca).",
+   "barreiras": [
+    "Falta de escala e de tecnologia de separação e refino no Brasil",
+    "Capital intensivo e prazo de licenciamento",
+    "Compra estrangeira de ativos estratégicos (caso Serra Verde) sem política de prioridade de oferta ao país",
+    "Preço volátil e dominado pela China",
+    "Conflitos com territórios indígenas e quilombolas"
+   ],
+   "quem_ganha": [
+    "Controladores de mineradoras e fundos estrangeiros",
+    "Compradores asiáticos e dos EUA",
+    "Municípios minerários (CFEM)"
+   ],
+   "quem_perde": [
+    "O contribuinte, se o país exportar concentrado e importar ímã",
+    "Comunidades de Minas (Jequitinhonha) e de territórios afetados",
+    "Indústria brasileira de motores e eólicas que importa ímãs"
+   ],
+   "risco_ambiental": "Alto: barragens e rejeitos, uso de água e energia; terras raras de argila iônica têm menor impacto que o processo tradicional (resumo de busca).",
+   "ligacao_decisoes": [
+    "abertura-comercial",
+    "credito-subsidiado",
+    "privatizacoes",
+    "acordo-mercosul-ue",
+    "acelerar-ibs-cbs"
+   ],
+   "ligacao_nota": "Política de minerais críticos é lacuna do catálogo. Mais próximas: crédito BNDES, tarifas de insumos, concessões, acordos que incluam minerais e tributação de bens intermediários.",
+   "ligacao_tendencias": [
+    "baterias_ve",
+    "aprendizado_baterias",
+    "solar_eolica",
+    "robotica_automacao",
+    "difusao_cauda"
+   ],
+   "regioes": [
+    "Centro-Oeste (GO)",
+    "Sudeste (MG: Jequitinhonha, Araxá)",
+    "Norte (PA: níquel, manganês)",
+    "Nordeste (BA, CE: lítio, grafite)"
+   ],
+   "fontes": [
+    {
+     "titulo": "USGS MCS 2026 Rare Earths",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf",
+     "verificado": true
+    },
+    {
+     "titulo": "USGS MCS 2026 Graphite",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-graphite.pdf",
+     "verificado": true
+    },
+    {
+     "titulo": "USGS MCS 2026 Lithium",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-lithium.pdf",
+     "verificado": true
+    },
+    {
+     "titulo": "USGS MCS 2026 Manganese",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-manganese.pdf",
+     "verificado": true
+    },
+    {
+     "titulo": "USGS MCS 2026 Nickel",
+     "url": "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nickel.pdf",
+     "verificado": true
+    },
+    {
+     "titulo": "Serra Verde (Jornal Opção)",
+     "url": "https://www.jornalopcao.com.br/goias/conheca-a-mineradora-em-goias-que-e-a-unica-produtora-do-mercado-mundial-de-terras-raras-fora-da-asia-728792/",
+     "verificado": false
+    },
+    {
+     "titulo": "Venda da Serra Verde à USA Rare Earth (Gazeta do Povo)",
+     "url": "https://www.gazetadopovo.com.br/economia/empresa-dos-eua-compra-mineradora-brasileira-de-terras-raras-por-us-28-bi-em-disputa-com-a-china/",
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "agricultura-tropical-ptf",
+   "titulo": "Agricultura tropical: PTF crescendo ~3% ao ano, o maior caso de ganho de produtividade do país",
+   "categoria": "agricultura",
+   "metricas": [
+    {
+     "nome": "Crescimento da PTF agropecuária 2000-2019",
+     "valor": "3,18",
+     "unidade": "% ao ano",
+     "ano": "2000-2019",
+     "fonte": "Ipea (Gasques et al.) com dados USDA/ERS",
+     "url": "https://repositorio.ipea.gov.br/bitstream/11058/11199/1/td_2764.pdf",
+     "verificado": true,
+     "nota": "Mundo: ~1,7% a.a.; a maior taxa entre os países selecionados no gráfico 4 do texto."
+    },
+    {
+     "nome": "Crescimento da PTF agropecuária 1975-2020",
+     "valor": "3,33",
+     "unidade": "% ao ano",
+     "ano": "1975-2020",
+     "fonte": "Ipea, texto para discussão (cálculo com PAM/PPM-IBGE)",
+     "url": "https://repositorio.ipea.gov.br/bitstream/11058/11199/1/td_2764.pdf",
+     "verificado": true,
+     "nota": "Índice de PTF 100→378,2; produto 100→504,9; insumos 100→133,5."
+    },
+    {
+     "nome": "Parcela da PTF no crescimento do produto",
+     "valor": "87,9 (1975-2020); 61,2 (2000-2020)",
+     "unidade": "%",
+     "ano": "1975-2020",
+     "fonte": "Ipea",
+     "url": "https://repositorio.ipea.gov.br/bitstream/11058/11199/1/td_2764.pdf",
+     "verificado": true,
+     "nota": "A queda recente reflete choques climáticos (seca, geada) sobre a PTF."
+    },
+    {
+     "nome": "Produtividade do milho safrinha",
+     "valor": "~2.000 → >5.000",
+     "unidade": "kg/ha",
+     "ano": "n/d",
+     "fonte": "Embrapa (resumo de busca)",
+     "url": "https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1118785/1/cap7.pdf",
+     "verificado": false
+    }
+   ],
+   "ranking_mundial": "1º em crescimento da PTF agrícola em 2000-2019 entre os países selecionados (Ipea com USDA/ERS)",
+   "grau_de_uso": "Alto e já capturado, sobretudo por produtores médios e grandes do Centro-Oeste e do Sul; pequenos do Nordeste e do Norte ficam de fora.",
+   "por_que_poucos_notam": "É a única potência 'invisível' que virou renda de verdade; o Ipea atribui o ganho a pesquisa (Embrapa), crédito, plantio direto e integração lavoura-pecuária-floresta, e escreve que o crescimento 'não foi uma dádiva'.",
+   "barreiras": [
+    "Choques climáticos reduzem a PTF (Ipea)",
+    "Logística (rodoviário ~62% da carga, resumo de busca)",
+    "Concentração fundiária: Gini 0,867 (Censo 2017)",
+    "Insumos importados (fertilizantes: conhecimento geral, não verificado)",
+    "Crédito e assistência técnica para pequenos"
+   ],
+   "quem_ganha": [
+    "Produtores do Centro-Oeste e do Sul e tradings",
+    "Consumidores urbanos (alimento barato)",
+    "Embrapa e as cadeias de máquinas e sementes"
+   ],
+   "quem_perde": [
+    "Pequenos produtores sem escala",
+    "Biomas convertidos (Cerrado, Amazônia) quando a área cresce junto com a PTF",
+    "Trabalhadores deslocados pela mecanização"
+   ],
+   "risco_ambiental": "Alto: o MapBiomas atribui 97% da perda de vegetação nativa de 2024 à agropecuária; mais PTF não garante poupar terra (efeito rebote, Jevons).",
+   "ligacao_decisoes": [
+    "perdao-dividas",
+    "credito-subsidiado",
+    "abertura-comercial",
+    "acordo-mercosul-ue",
+    "acelerar-ibs-cbs"
+   ],
+   "ligacao_nota": "Renegociação de dívidas rurais, crédito rural, acesso a mercados (Mercosul-UE) e tributação do consumo alteram a rentabilidade e o incentivo a intensificar ou expandir.",
+   "ligacao_tendencias": [
+    "biotec_agro",
+    "robotica_automacao",
+    "conectividade",
+    "jevons"
+   ],
+   "regioes": [
+    "Centro-Oeste",
+    "Sul",
+    "Matopiba",
+    "Sudeste"
+   ],
+   "fontes": [
+    {
+     "titulo": "Ipea, Produtividade total dos fatores na agricultura (Brasil e países selecionados)",
+     "url": "https://repositorio.ipea.gov.br/bitstream/11058/11199/1/td_2764.pdf",
+     "verificado": true
+    },
+    {
+     "titulo": "Embrapa/Revista Cultivar (28 Mha)",
+     "url": "https://revistacultivar.com.br/noticias/brasil-possui-28-milhoes-de-ha-de-pastagens-degradadas-com-potencial-para-expansao-agricola",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "pastagens-recuperaveis",
+   "titulo": "Pastagens degradadas recuperáveis: 28 milhões de hectares como alternativa ao novo desmatamento",
+   "categoria": "agricultura",
+   "metricas": [
+    {
+     "nome": "Pastagens plantadas com degradação intermediária ou severa e potencial agrícola",
+     "valor": "28",
+     "unidade": "milhões de ha",
+     "ano": "2024",
+     "fonte": "Embrapa (periódico Land, fev/2024), via Revista Cultivar",
+     "url": "https://revistacultivar.com.br/noticias/brasil-possui-28-milhoes-de-ha-de-pastagens-degradadas-com-potencial-para-expansao-agricola",
+     "verificado": true,
+     "nota": "10,5 Mha severa + 17,5 Mha intermediária; exclui áreas protegidas e prioritárias; equivale a ~35% da área de grãos de 2022/23."
+    },
+    {
+     "nome": "Estados líderes",
+     "valor": "MT 5,1; GO 4,7; MS 4,3; MG 4,0; PA 2,1",
+     "unidade": "milhões de ha",
+     "ano": "2024",
+     "fonte": "Embrapa via Revista Cultivar",
+     "url": "https://revistacultivar.com.br/noticias/brasil-possui-28-milhoes-de-ha-de-pastagens-degradadas-com-potencial-para-expansao-agricola",
+     "verificado": true
+    },
+    {
+     "nome": "Pastagens e parcela degradada (Atlas das Pastagens, Lapig/UFG)",
+     "valor": "~177 Mha; ~40% vigor médio e ~20% baixo",
+     "unidade": "milhões de ha; %",
+     "ano": "2022",
+     "fonte": "Lapig/UFG (resumo de busca)",
+     "url": "https://wwfbr.awsassets.panda.org/downloads/qualidade_e_aptidao_agricola_das_areas_de_pastagens_no_bioma_cerrado.pdf",
+     "verificado": false,
+     "nota": "Os números de degradação dependem do critério de vigor vegetativo; não equivalem a 'improdutiva'."
+    }
+   ],
+   "ranking_mundial": "Sem ranking",
+   "grau_de_uso": "Muito baixo: a intensificação e a conversão para lavoura ou integração avançam, mas a maior parte da área segue em pecuária extensiva.",
+   "por_que_poucos_notam": "Cada hectare recuperado compete com a renda especulativa da terra nova; desmatar é mais barato que investir em corretivo, adubação e rotação, e o crédito não discrimina.",
+   "barreiras": [
+    "Custo de recuperação por ha e juros altos",
+    "Regularização fundiária e titularidade nas fronteiras",
+    "Assistência técnica e logística em áreas pouco acessíveis",
+    "Preço da terra nova menor que o custo de intensificar",
+    "Risco de que o ganho pague a abertura de outra fronteira (efeito rebote)"
+   ],
+   "quem_ganha": [
+    "Pecuaristas e agricultores que recuperam",
+    "Fornecedores de insumos e máquinas",
+    "Clima e biodiversidade, se a lei for aplicada"
+   ],
+   "quem_perde": [
+    "Especuladores de terra e grileiros",
+    "Vegetação nativa, se a recuperação não vier com proibição efetiva da conversão"
+   ],
+   "risco_ambiental": "Baixo a médio: converter pastagem degradada em lavoura reduz a pressão sobre a vegetação nativa, mas exige fertilização e pode deslocar o gado para a fronteira.",
+   "ligacao_decisoes": [
+    "credito-subsidiado",
+    "perdao-dividas",
+    "cortar-beneficios-fiscais",
+    "reforcar-arcabouco"
+   ],
+   "ligacao_nota": "Crédito condicionado à recuperação (e não à abertura), renegociação de dívidas rurais que premia ou pune a conformidade, e o custo de capital definem a viabilidade.",
+   "ligacao_tendencias": [
+    "biotec_agro",
+    "robotica_automacao",
+    "conectividade",
+    "jevons"
+   ],
+   "regioes": [
+    "Centro-Oeste (MT, GO, MS)",
+    "Sudeste (MG)",
+    "Norte (PA)"
+   ],
+   "fontes": [
+    {
+     "titulo": "Brasil possui 28 milhões de ha de pastagens degradadas (Revista Cultivar, Embrapa/Land)",
+     "url": "https://revistacultivar.com.br/noticias/brasil-possui-28-milhoes-de-ha-de-pastagens-degradadas-com-potencial-para-expansao-agricola",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "floresta-carbono-restauracao",
+   "titulo": "Floresta e carbono: queda recente do desmatamento e meta de 12 Mha restaurados até 2030",
+   "categoria": "floresta e clima",
+   "metricas": [
+    {
+     "nome": "Desmatamento PRODES Amazônia (ago/2024 a jul/2025)",
+     "valor": "5.796",
+     "unidade": "km²",
+     "ano": "2025",
+     "fonte": "INPE/PRODES (via Poder360)",
+     "url": "https://www.poder360.com.br/poder-sustentavel/desmatamento-da-amazonia-cai-118-em-2025-diz-inpe/",
+     "verificado": true,
+     "nota": "-11,8% sobre o ano anterior; menor taxa em 11 anos; Mato Grosso subiu 25%."
+    },
+    {
+     "nome": "Desmatamento PRODES Cerrado (ago/2024 a jul/2025)",
+     "valor": "7.235",
+     "unidade": "km²",
+     "ano": "2025",
+     "fonte": "INPE/PRODES (via Poder360)",
+     "url": "https://www.poder360.com.br/poder-sustentavel/desmatamento-da-amazonia-cai-118-em-2025-diz-inpe/",
+     "verificado": true,
+     "nota": "-11,49%."
+    },
+    {
+     "nome": "Perda de vegetação nativa, todos os biomas",
+     "valor": "1.242.079 (2024) vs 1.836.749 (2023)",
+     "unidade": "ha",
+     "ano": "2024",
+     "fonte": "MapBiomas RAD 2024 (via Poder360)",
+     "url": "https://www.poder360.com.br/poder-sustentavel/desmatamento-no-brasil-cai-324-em-2024-diz-mapbiomas/",
+     "verificado": true,
+     "nota": "-32,4%; agropecuária responde por 97%; Cerrado 52,5% e Amazônia 30,4% do total."
+    },
+    {
+     "nome": "Meta de restauração Planaveg 2.0",
+     "valor": "12",
+     "unidade": "milhões de ha até 2030",
+     "ano": "2024",
+     "fonte": "Governo federal (via Mongabay, resumo de busca)",
+     "url": "https://news.mongabay.com/short-article/2024/11/brazil-renews-plan-to-restore-degraded-land-half-the-size-of-the-uk/",
+     "verificado": false,
+     "nota": "Mais de 75% da área-alvo é propriedade privada; financiamento parcial, segundo o resumo."
+    },
+    {
+     "nome": "Regeneração natural já em curso na Amazônia",
+     "valor": "5,6",
+     "unidade": "milhões de ha",
+     "ano": "n/d",
+     "fonte": "Resumo de busca (Mongabay)",
+     "url": "https://news.mongabay.com/short-article/2024/11/brazil-renews-plan-to-restore-degraded-land-half-the-size-of-the-uk/",
+     "verificado": false
+    }
+   ],
+   "ranking_mundial": "Sem ranking verificado",
+   "grau_de_uso": "Médio: o ativo é grande, mas o mercado de carbono regulado ainda não opera em escala e o desmatamento ilegal consome o estoque; a queda de 2023-2025 mostra que a fiscalização muda o resultado.",
+   "por_que_poucos_notam": "A conta ambiental é debatida como custo. O FMI cita estudo do Banco Mundial (2023) segundo o qual o Brasil poderia zerar o desmatamento ilegal até 2030 sem efeito nocivo no PIB ou nas exportações, e diz que a maior parte do desmatamento atual é ilegal.",
+   "barreiras": [
+    "Fiscalização, rastreabilidade e titularidade fundiária",
+    "Preço do carbono baixo e mercado regulado em montagem",
+    "Custo da restauração e do capital",
+    "Risco de reversão por ciclo político"
+   ],
+   "quem_ganha": [
+    "Extrativistas e povos indígenas (se houver pagamento por serviço ambiental)",
+    "Exportadores com rastreabilidade",
+    "Investidores em restauração"
+   ],
+   "quem_perde": [
+    "Grileiros e desmatadores ilegais",
+    "Pecuaristas dependentes de expansão de fronteira"
+   ],
+   "risco_ambiental": "Há risco de ponto de não retorno na Amazônia (literatura de savanização; limiar não coletado aqui).",
+   "ligacao_decisoes": [
+    "acordo-mercosul-ue",
+    "credito-subsidiado",
+    "reforma-administrativa",
+    "anistia-politica",
+    "reforcar-arcabouco"
+   ],
+   "ligacao_nota": "Mercosul-UE (cláusulas ambientais), crédito condicionado e capacidade administrativa do IBAMA e do ICMBio. 'anistia-politica' é só política no catálogo; anistias fundiárias ou ambientais não existem como decisão (lacuna).",
+   "ligacao_tendencias": [
+    "conectividade",
+    "ia_generativa_agentes",
+    "biotec_agro"
+   ],
+   "regioes": [
+    "Amazônia Legal (MT, PA, RO, AM)",
+    "Cerrado e Matopiba",
+    "Mata Atlântica (restauração)"
+   ],
+   "fontes": [
+    {
+     "titulo": "PRODES 2025 (Poder360/INPE)",
+     "url": "https://www.poder360.com.br/poder-sustentavel/desmatamento-da-amazonia-cai-118-em-2025-diz-inpe/",
+     "verificado": true
+    },
+    {
+     "titulo": "MapBiomas RAD 2024 (Poder360)",
+     "url": "https://www.poder360.com.br/poder-sustentavel/desmatamento-no-brasil-cai-324-em-2024-diz-mapbiomas/",
+     "verificado": true
+    },
+    {
+     "titulo": "FMI Article IV 2025 (Brasil)",
+     "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+     "verificado": true
+    },
+    {
+     "titulo": "Mongabay: Planaveg 2.0",
+     "url": "https://news.mongabay.com/short-article/2024/11/brazil-renews-plan-to-restore-degraded-land-half-the-size-of-the-uk/",
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "terras-indigenas-contencao",
+   "titulo": "Terras indígenas: o mais eficaz escudo observado contra a perda de vegetação nativa",
+   "categoria": "floresta e clima",
+   "metricas": [
+    {
+     "nome": "Perda de vegetação nativa em terras indígenas, 1985-2023",
+     "valor": "1",
+     "unidade": "%",
+     "ano": "1985-2023",
+     "fonte": "MapBiomas (via IHU Unisinos)",
+     "url": "https://ihu.unisinos.br/categorias/644315-protecao-de-povos-originarios-faz-de-terras-indigenas-as-areas-mais-preservadas-do-brasil",
+     "verificado": true,
+     "nota": "Contra 28% em terras privadas no mesmo período."
+    },
+    {
+     "nome": "Perda de vegetação nativa em terras indígenas em 2024",
+     "valor": "15.938",
+     "unidade": "ha",
+     "ano": "2024",
+     "fonte": "MapBiomas RAD 2024 (via Poder360)",
+     "url": "https://www.poder360.com.br/poder-sustentavel/desmatamento-no-brasil-cai-324-em-2024-diz-mapbiomas/",
+     "verificado": true,
+     "nota": "-24% sobre 2023; dois terços das terras indígenas não tiveram desmatamento em 2024."
+    },
+    {
+     "nome": "Terras indígenas na Amazônia (430 áreas)",
+     "valor": "115.803.611",
+     "unidade": "ha",
+     "ano": "2024",
+     "fonte": "MapBiomas (via IHU Unisinos)",
+     "url": "https://ihu.unisinos.br/categorias/644315-protecao-de-povos-originarios-faz-de-terras-indigenas-as-areas-mais-preservadas-do-brasil",
+     "verificado": true,
+     "nota": "23% da região amazônica."
+    },
+    {
+     "nome": "Parcela do território e da vegetação nativa em TI",
+     "valor": "13% do território; 19% da vegetação nativa",
+     "unidade": "%",
+     "ano": "2024",
+     "fonte": "MapBiomas (resumo de busca)",
+     "url": "https://ihu.unisinos.br/categorias/644315-protecao-de-povos-originarios-faz-de-terras-indigenas-as-areas-mais-preservadas-do-brasil",
+     "verificado": false
+    }
+   ],
+   "ranking_mundial": "Sem ranking; é evidência comparativa interna (TI vs. terras privadas)",
+   "grau_de_uso": "Alto para conservação, baixo para valorização econômica (gestão territorial e ambiental, bioeconomia indígena).",
+   "por_que_poucos_notam": "Tratar terra indígena como política climática custo-eficaz contraria a narrativa de 'terra improdutiva'. Cautela: o estudo MapBiomas é descritivo, não estima o efeito causal; TI foram demarcadas em parte onde havia mais floresta e têm proteção legal.",
+   "barreiras": [
+    "Invasão e garimpo ilegal",
+    "Insegurança jurídica sobre demarcações",
+    "Falta de renda e serviços nas terras indígenas",
+    "Pressão de mineração e infraestrutura"
+   ],
+   "quem_ganha": [
+    "Povos indígenas",
+    "Clima e regime de chuvas (floresta e chuva: conhecimento geral)",
+    "Exportadores com reputação ambiental"
+   ],
+   "quem_perde": [
+    "Garimpo e grilagem ilegais",
+    "Projetos de mineração e agropecuária que dependeriam da abertura de TI"
+   ],
+   "risco_ambiental": "Baixo nas TI protegidas; alto se houver invasão ou abertura legal à mineração.",
+   "ligacao_decisoes": [
+    "remover-ministros-stf",
+    "ampliar-stf",
+    "anistia-politica",
+    "reforma-administrativa"
+   ],
+   "ligacao_nota": "O destino das demarcações depende de decisão judicial e de capacidade estatal; as decisões do catálogo sobre STF e anistia atuam apenas indiretamente sobre a segurança jurídica.",
+   "ligacao_tendencias": [
+    "conectividade",
+    "ia_generativa_agentes"
+   ],
+   "regioes": [
+    "Amazônia",
+    "Cerrado (Mato Grosso)",
+    "Pantanal"
+   ],
+   "fontes": [
+    {
+     "titulo": "MapBiomas, proteção de povos originários (IHU Unisinos)",
+     "url": "https://ihu.unisinos.br/categorias/644315-protecao-de-povos-originarios-faz-de-terras-indigenas-as-areas-mais-preservadas-do-brasil",
+     "verificado": true
+    },
+    {
+     "titulo": "MapBiomas RAD 2024 (Poder360)",
+     "url": "https://www.poder360.com.br/poder-sustentavel/desmatamento-no-brasil-cai-324-em-2024-diz-mapbiomas/",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "amazonia-azul-petroleo",
+   "titulo": "Amazônia Azul: plataforma continental estendida, pré-sal e economia do mar",
+   "categoria": "mar e petróleo",
+   "metricas": [
+    {
+     "nome": "Produção de petróleo do Brasil",
+     "valor": "3,770",
+     "unidade": "milhões bpd",
+     "ano": "2025",
+     "fonte": "ANP (via Reuters/CNN Brasil)",
+     "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/producao-de-petroleo-do-brasil-cresce-123-e-bate-recorde-em-2025-diz-anp/",
+     "verificado": true,
+     "nota": "+12,3% sobre 2024; recorde; pré-sal 79,63% da produção; gás 179 milhões m³/dia (+17%)."
+    },
+    {
+     "nome": "Posição do Brasil entre os produtores de petróleo",
+     "valor": "9º",
+     "unidade": "posição",
+     "ano": "jan/2026",
+     "fonte": "Wikipedia (List of countries by oil production)",
+     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_oil_production",
+     "verificado": true,
+     "nota": "3.953 mil bpd na tabela, entre os Emirados Árabes e o Kuwait."
+    },
+    {
+     "nome": "Pedido de extensão da plataforma continental à ONU (2004)",
+     "valor": "963 mil",
+     "unidade": "km²",
+     "ano": "2004",
+     "fonte": "Artigo acadêmico hospedado pela Marinha",
+     "url": "https://hotsites.marinha.mil.br/amazonia-azul/artigos/artigo-amazonia-azul-do-brasil.pdf",
+     "verificado": true,
+     "nota": "O CLCS não se opôs e pediu argumentos adicionais para 19% da área em 2007."
+    },
+    {
+     "nome": "Área da ZEE somada à plataforma ('Amazônia Azul')",
+     "valor": "~5,7",
+     "unidade": "milhões de km²",
+     "ano": "n/d",
+     "fonte": "Marinha do Brasil (resumo de busca)",
+     "url": "https://www.marinha.mil.br/economia-azul/noticias/o-que-é-amazônia-azul-e-por-que-o-brasil-quer-se-tornar-potência-militar-no-atlântico",
+     "verificado": false,
+     "nota": "Parte da plataforma estendida foi aprovada em 2019 (170 mil km² no Sul, resumo de busca)."
+    },
+    {
+     "nome": "Petróleo bruto como maior item da pauta exportadora",
+     "valor": "13,3 (US$ 44,8 bi)",
+     "unidade": "% das exportações",
+     "ano": "2024",
+     "fonte": "ComexStat (resumo de busca)",
+     "url": "https://istoedinheiro.com.br/produtos-e-destinos-exportacoes-2024",
+     "verificado": false,
+     "nota": "Superou a soja pela primeira vez."
+    }
+   ],
+   "ranking_mundial": "9º produtor de petróleo (Wikipedia, jan/2026)",
+   "grau_de_uso": "Alto em petróleo em águas profundas; baixo em pesca, aquicultura marinha, eólica offshore, turismo costeiro e minerais marinhos.",
+   "por_que_poucos_notam": "A conversa pública mistura 'Amazônia Azul' (soberania e economia do mar) com royalties de petróleo; o petróleo cresce, mas é o ativo que mais conflita com a transição e com a reputação ambiental.",
+   "barreiras": [
+    "Dependência do preço do barril e da política de preços da Petrobras",
+    "Licenciamento de novas fronteiras (Margem Equatorial)",
+    "Capacidade da Marinha e dos órgãos de fiscalização do mar",
+    "Falta de política integrada de economia azul"
+   ],
+   "quem_ganha": [
+    "Petrobras e acionistas, operadores privados",
+    "Estados e municípios produtores (royalties)",
+    "Estaleiros e fornecedores"
+   ],
+   "quem_perde": [
+    "Pescadores artesanais e comunidades costeiras em acidentes",
+    "O contribuinte, se houver preço controlado ou subsídio",
+    "O clima"
+   ],
+   "risco_ambiental": "Alto: vazamentos e emissões; o petróleo depende de a demanda global cair mais devagar que o previsto.",
+   "ligacao_decisoes": [
+    "politica-precos-combustiveis",
+    "privatizacoes",
+    "reforcar-arcabouco",
+    "acordo-mercosul-ue"
+   ],
+   "ligacao_nota": "Política de preços de combustíveis e governança da Petrobras são decisões diretas do catálogo; o FMI cita a aceleração da produção de hidrocarbonetos como um dos motores do crescimento médio de 2,5%.",
+   "ligacao_tendencias": [
+    "solar_eolica",
+    "hidrogenio",
+    "baterias_ve",
+    "ia_generativa_agentes"
+   ],
+   "regioes": [
+    "Sudeste (Bacias de Santos e Campos)",
+    "Norte (Margem Equatorial)",
+    "Nordeste (offshore eólico)"
+   ],
+   "fontes": [
+    {
+     "titulo": "Produção de petróleo cresce 12,3% em 2025 (CNN Brasil/Reuters, ANP)",
+     "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/producao-de-petroleo-do-brasil-cresce-123-e-bate-recorde-em-2025-diz-anp/",
+     "verificado": true
+    },
+    {
+     "titulo": "List of countries by oil production (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_oil_production",
+     "verificado": true
+    },
+    {
+     "titulo": "Amazônia Azul e extensão da plataforma (artigo, Marinha)",
+     "url": "https://hotsites.marinha.mil.br/amazonia-azul/artigos/artigo-amazonia-azul-do-brasil.pdf",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "janela-demografica",
+   "titulo": "Janela demográfica: população ativa no auge relativo, envelhecimento rápido e pico populacional em 2041",
+   "categoria": "demografia",
+   "metricas": [
+    {
+     "nome": "Pico populacional projetado",
+     "valor": "220,4",
+     "unidade": "milhões de habitantes",
+     "ano": "2041",
+     "fonte": "IBGE, Projeções da População 2024 (via DGABC)",
+     "url": "https://www.dgabc.com.br/Noticia/4159808/populacao-brasileira-e-de-quase-212-6-milhoes-estima-ibge",
+     "verificado": true,
+     "nota": "Em 2070: 199,2 milhões. A página do IBGE retornou 403."
+    },
+    {
+     "nome": "Estrutura etária 2024",
+     "valor": "0-14: 19,6; 15-64: 69,5; 65+: 10,9",
+     "unidade": "% da população",
+     "ano": "2024",
+     "fonte": "Wikipedia (Demographics of Brazil)",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Brazil",
+     "verificado": true,
+     "nota": "Razão de dependência total derivada: (19,6+10,9)/69,5 = ~44 por 100. Cálculo nosso, não número oficial."
+    },
+    {
+     "nome": "Taxa de fecundidade",
+     "valor": "2,32 (2000) → 1,57 (2023)",
+     "unidade": "filhos por mulher",
+     "ano": "2023",
+     "fonte": "FMI Article IV 2025",
+     "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+     "verificado": true
+    },
+    {
+     "nome": "Expectativa de vida ao nascer",
+     "valor": "71,1 (2000) → 76,4 (2023)",
+     "unidade": "anos",
+     "ano": "2023",
+     "fonte": "FMI Article IV 2025",
+     "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+     "verificado": true
+    },
+    {
+     "nome": "Idosos com 65 anos ou mais",
+     "valor": "~22 milhões (11% da população)",
+     "unidade": "pessoas",
+     "ano": "2022",
+     "fonte": "FMI Article IV 2025",
+     "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+     "verificado": true,
+     "nota": "Quase dobraram em relação a 2000."
+    },
+    {
+     "nome": "Déficit do RGPS projetado pelas autoridades",
+     "valor": "6",
+     "unidade": "% do PIB em 2060",
+     "ano": "2060",
+     "fonte": "FMI Article IV 2025 (projeção das autoridades)",
+     "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+     "verificado": true,
+     "nota": "~2,5% do PIB até 2030 após a reforma de 2019."
+    },
+    {
+     "nome": "Fim da janela (razão de dependência mínima)",
+     "valor": "antes de 2030",
+     "unidade": "ano",
+     "ano": "n/d",
+     "fonte": "Resumo de busca (IBGE)",
+     "url": "https://www.dgabc.com.br/Noticia/4159808/populacao-brasileira-e-de-quase-212-6-milhoes-estima-ibge",
+     "verificado": false,
+     "nota": "A série oficial de razão de dependência não foi obtida; o ano exato do mínimo é pergunta aberta."
+    }
+   ],
+   "ranking_mundial": "7º país mais populoso (Wikipedia, 203 milhões em 2022)",
+   "grau_de_uso": "Parcial: o bônus existe, mas parte da força de trabalho está na informalidade (mais de 40% dos ocupados, FMI) e a participação feminina é 20 pontos abaixo da masculina (FMI).",
+   "por_que_poucos_notam": "O bônus não é dinheiro: é um período em que há mais gente em idade ativa; só vira crescimento com emprego produtivo e poupança, e já está acabando.",
+   "barreiras": [
+    "Informalidade (>40% dos ocupados)",
+    "Baixa participação feminina (gap de 20 pontos)",
+    "Baixa produtividade do trabalho (21,2 vs. 81,8 dos EUA, ILO 2025, em dólares internacionais de 2021)",
+    "Rigidez fiscal e previdenciária"
+   ],
+   "quem_ganha": [
+    "Trabalhadores qualificados e mulheres, se creche e flexibilidade chegarem",
+    "Setores que atendem idosos (saúde, cuidado)"
+   ],
+   "quem_perde": [
+    "Jovens pouco qualificados no informal",
+    "Gerações futuras, se a conta previdenciária subir"
+   ],
+   "risco_ambiental": "Baixo direto; pressão urbana e hídrica nas metrópoles.",
+   "ligacao_decisoes": [
+    "reforma-previdencia-2",
+    "reforma-administrativa",
+    "desvincular-minimo",
+    "ampliar-assistencia",
+    "desoneracao-ampla",
+    "reforcar-arcabouco"
+   ],
+   "ligacao_nota": "Previdência, salário mínimo, assistência e folha. O FMI estima que reduzir o gap de participação feminina de 20 para 10 pontos até 2033 acrescentaria ~0,5 p.p. ao crescimento anual na transição.",
+   "ligacao_tendencias": [
+    "ia_generativa_agentes",
+    "robotica_automacao",
+    "tarefas",
+    "exposicao_ia",
+    "baumol",
+    "solow"
+   ],
+   "regioes": [
+    "Todas; Sul e Sudeste envelhecem primeiro, Norte e Nordeste ainda têm bônus (conhecimento geral)"
+   ],
+   "fontes": [
+    {
+     "titulo": "IBGE: população vai parar de crescer em 2041 (via DGABC)",
+     "url": "https://www.dgabc.com.br/Noticia/4159808/populacao-brasileira-e-de-quase-212-6-milhoes-estima-ibge",
+     "verificado": true
+    },
+    {
+     "titulo": "FMI Article IV 2025",
+     "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+     "verificado": true
+    },
+    {
+     "titulo": "Demographics of Brazil (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Brazil",
+     "verificado": true
+    },
+    {
+     "titulo": "List of countries by labour productivity (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/List_of_countries_by_labour_productivity",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "infraestrutura-publica-digital",
+   "titulo": "Infraestrutura pública digital: Pix, gov.br e SUS/PNI como ativos institucionais",
+   "categoria": "instituições e tecnologia",
+   "metricas": [
+    {
+     "nome": "Transações Pix",
+     "valor": "~80",
+     "unidade": "bilhões",
+     "ano": "2025",
+     "fonte": "Banco Central (via BMC News)",
+     "url": "https://bmcnews.com.br/economia/pix-2025-80-bilhoes-transacoes-35-trilhoes-banco-central/",
+     "verificado": true,
+     "nota": "Mais de R$ 35 trilhões movimentados; recorde diário de 313,3 milhões em 5/12/2025. Página do BCB não aberta."
+    },
+    {
+     "nome": "Usuários Pix: pessoas físicas e jurídicas",
+     "valor": "148 milhões PF; 12,8 milhões PJ",
+     "unidade": "usuários",
+     "ano": "dez/2025",
+     "fonte": "Banco Central (via BMC News)",
+     "url": "https://bmcnews.com.br/economia/pix-2025-80-bilhoes-transacoes-35-trilhoes-banco-central/",
+     "verificado": true
+    },
+    {
+     "nome": "Chaves Pix cadastradas",
+     "valor": ">920",
+     "unidade": "milhões",
+     "ano": "2025",
+     "fonte": "Banco Central (via BMC News)",
+     "url": "https://bmcnews.com.br/economia/pix-2025-80-bilhoes-transacoes-35-trilhoes-banco-central/",
+     "verificado": true
+    },
+    {
+     "nome": "Certificado de eliminação do sarampo recuperado",
+     "valor": "2024",
+     "unidade": "ano",
+     "ano": "2024",
+     "fonte": "Revista Pesquisa FAPESP (resumo de busca)",
+     "url": "https://revistapesquisa.fapesp.br/cobertura-de-vacinas-para-criancas-de-ate-2-anos-volta-a-subir-a-partir-de-2022/",
+     "verificado": false,
+     "nota": "A cobertura vacinal caiu por seis anos desde 2016 e voltou a subir a partir de 2022; nenhuma vacina infantil atingiu a meta em todos os estados em 2023."
+    }
+   ],
+   "ranking_mundial": "Sem ranking verificado",
+   "grau_de_uso": "Pix: muito alto. gov.br e SUS: alto, mas com desigualdade de qualidade e sistemas legados. O ativo subutilizado é a camada de dados (Open Finance, prontuário eletrônico, identidade). Dados de gov.br não foram coletados.",
+   "por_que_poucos_notam": "A infraestrutura pública digital é invisível como potência porque está na vida cotidiana; mas barateia pagamentos, inclui informais e reduz o poder de plataformas privadas sobre o pagamento.",
+   "barreiras": [
+    "Fraude e engenharia social",
+    "Concentração de nuvem e IA em empresas estrangeiras",
+    "Capacidade de TI do Estado e remuneração de carreiras",
+    "Privacidade e governança de dados"
+   ],
+   "quem_ganha": [
+    "Consumidores, microempreendedores e informais",
+    "Bancos digitais e fintechs",
+    "Setor público (arrecadação e transferência)"
+   ],
+   "quem_perde": [
+    "Bancos incumbentes que cobravam tarifas de transferência",
+    "Cartões (parte da receita)",
+    "Excluídos digitais"
+   ],
+   "risco_ambiental": "Baixo; o consumo de energia de data centers é o ponto de pressão.",
+   "ligacao_decisoes": [
+    "reforma-administrativa",
+    "ampliar-assistencia",
+    "reduzir-autonomia-bc",
+    "diretoria-bc-alinhada",
+    "credito-subsidiado"
+   ],
+   "ligacao_nota": "O Pix é criado e governado pelo Banco Central; a autonomia do BC protege essa governança técnica. A reforma administrativa afeta carreiras de TI do Estado; a assistência social depende de cadastro digital.",
+   "ligacao_tendencias": [
+    "pagamentos_digitais",
+    "conectividade",
+    "ia_generativa_agentes",
+    "energia_data_centers",
+    "metcalfe"
+   ],
+   "regioes": [
+    "Nacional"
+   ],
+   "fontes": [
+    {
+     "titulo": "Pix 2025 (BMC News, dados do Banco Central)",
+     "url": "https://bmcnews.com.br/economia/pix-2025-80-bilhoes-transacoes-35-trilhoes-banco-central/",
+     "verificado": true
+    },
+    {
+     "titulo": "Cobertura de vacinas volta a subir (Pesquisa FAPESP)",
+     "url": "https://revistapesquisa.fapesp.br/cobertura-de-vacinas-para-criancas-de-ate-2-anos-volta-a-subir-a-partir-de-2022/",
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "capital-humano-gap",
+   "titulo": "Capital humano: o gap de aprendizagem é a restrição mais cara ao crescimento potencial",
+   "categoria": "capital humano",
+   "metricas": [
+    {
+     "nome": "PISA 2022 matemática: Brasil vs. média OCDE",
+     "valor": "379 vs 472",
+     "unidade": "pontos",
+     "ano": "2022",
+     "fonte": "OCDE, PISA 2022 country note (resumo de busca)",
+     "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/brazil_61690648-en.html",
+     "verificado": false,
+     "nota": "A página da OCDE retornou 403; um resumo citou OCDE 479, mas 472 é o valor da nota-país; conferir na fonte primária."
+    },
+    {
+     "nome": "Estudantes abaixo do nível 2 em matemática",
+     "valor": "73 vs 31",
+     "unidade": "%",
+     "ano": "2022",
+     "fonte": "OCDE (resumo de busca)",
+     "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/brazil_61690648-en.html",
+     "verificado": false
+    },
+    {
+     "nome": "Informalidade entre ocupados",
+     "valor": ">40",
+     "unidade": "%",
+     "ano": "2025",
+     "fonte": "FMI Article IV 2025",
+     "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+     "verificado": true
+    },
+    {
+     "nome": "Taxa de desemprego (fim de 2024)",
+     "valor": "6,2",
+     "unidade": "%",
+     "ano": "2024",
+     "fonte": "FMI Article IV 2025",
+     "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+     "verificado": true,
+     "nota": "Menor desde 2000, segundo o FMI."
+    },
+    {
+     "nome": "Gap de participação feminina no mercado de trabalho",
+     "valor": "20",
+     "unidade": "pontos percentuais",
+     "ano": "2025",
+     "fonte": "FMI Article IV 2025",
+     "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+     "verificado": true
+    }
+   ],
+   "ranking_mundial": "Posições 64º (matemática), 53º (leitura) e 61º (ciências) no PISA 2022 (resumo de busca; não conferido)",
+   "grau_de_uso": "Baixo: o país não converte a maior geração em idade ativa da sua história em produtividade porque a base de aprendizagem é fraca. Anos de escolaridade e gap em anos vs. OCDE não foram coletados.",
+   "por_que_poucos_notam": "O ganho de PTF agrícola e o sucesso do Pix mascaram que a maioria da força de trabalho tem baixa aprendizagem e atua em setores de baixa produtividade; o retorno em educação leva 15 a 25 anos.",
+   "barreiras": [
+    "Qualidade da alfabetização e do ensino médio",
+    "Desigualdade regional e de renda entre escolas",
+    "Evasão e baixa conexão com o mercado de trabalho",
+    "Vinculações e rigidez do gasto (FMI)"
+   ],
+   "quem_ganha": [
+    "Gerações futuras e setores intensivos em conhecimento",
+    "Famílias de baixa renda, se a permanência escolar melhorar (Pé-de-Meia citado pelo FMI)"
+   ],
+   "quem_perde": [
+    "Jovens dos quintis mais pobres, hoje",
+    "Empresas que não encontram qualificação"
+   ],
+   "risco_ambiental": "Baixo.",
+   "ligacao_decisoes": [
+    "reforma-administrativa",
+    "ampliar-assistencia",
+    "reforcar-arcabouco",
+    "desvincular-minimo"
+   ],
+   "ligacao_nota": "O catálogo não tem decisão de educação (lacuna); a ligação é indireta via folha de professores (reforma administrativa), transferências e espaço fiscal.",
+   "ligacao_tendencias": [
+    "ia_generativa_agentes",
+    "tarefas",
+    "exposicao_ia",
+    "romer",
+    "solow",
+    "conectividade"
+   ],
+   "regioes": [
+    "Nordeste e Norte (resultados piores; dado não coletado)",
+    "Periferias urbanas"
+   ],
+   "fontes": [
+    {
+     "titulo": "OCDE, PISA 2022 country note Brasil",
+     "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/brazil_61690648-en.html",
+     "verificado": false
+    },
+    {
+     "titulo": "FMI Article IV 2025",
+     "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "criativo-cultural-turismo",
+   "titulo": "Setor criativo, cultural e turismo: ativos de reputação ainda pequenos em PIB",
+   "categoria": "cultura e serviços",
+   "metricas": [
+    {
+     "nome": "Chegadas de turistas internacionais",
+     "valor": "~9",
+     "unidade": "milhões",
+     "ano": "2025",
+     "fonte": "Embratur (resumo de busca)",
+     "url": "https://diariodocomercio.com.br/turismo/brasil-tem-recorde-9-milhoes-turistas-internacionais-2025/",
+     "verificado": false,
+     "nota": "Recorde; 2024: 6,77 milhões; as fontes divergem entre 9,0 e 9,3 milhões."
+    },
+    {
+     "nome": "Gasto de turistas estrangeiros",
+     "valor": "7,9 (R$ 41,5 bi)",
+     "unidade": "US$ bilhões",
+     "ano": "2025",
+     "fonte": "Banco Central (resumo de busca)",
+     "url": "https://sbtnews.sbt.com.br/noticia/economia/turismo-internacional-movimenta-r-41-5-bilhoes-no-brasil-em-2025",
+     "verificado": false,
+     "nota": "+7,1% sobre 2024."
+    },
+    {
+     "nome": "PIB criativo (participação no PIB)",
+     "valor": "2,91 (2,61 em 2017)",
+     "unidade": "% do PIB",
+     "ano": "2020",
+     "fonte": "Firjan, Mapeamento da Indústria Criativa 2022 (resumo de busca)",
+     "url": "https://appsext.firjan.com.br/economiacriativa/downloads/MapeamentoIndustriaCriativa2022.pdf",
+     "verificado": false,
+     "nota": "Metodologia da Firjan; 935 mil profissionais criativos formais."
+    }
+   ],
+   "ranking_mundial": "Sem ranking verificado",
+   "grau_de_uso": "Baixo a médio: o turismo internacional é pequeno para o tamanho do país (cerca de 9 milhões de chegadas) e a economia criativa é concentrada no Sudeste.",
+   "por_que_poucos_notam": "O Brasil exporta cultura (música, novela, futebol) como influência, não como receita; soft power e valor de marca são difíceis de converter em PIB.",
+   "barreiras": [
+    "Percepção de segurança",
+    "Conectividade aérea e infraestrutura turística",
+    "Custo do voo e tributação",
+    "Baixa remuneração dos criadores em plataformas",
+    "Dependência de leis de incentivo e orçamentos públicos"
+   ],
+   "quem_ganha": [
+    "Destinos turísticos (Nordeste, Rio, Foz do Iguaçu)",
+    "Artistas e produtores com acesso a plataformas globais",
+    "Plataformas globais de streaming"
+   ],
+   "quem_perde": [
+    "Cenas culturais regionais sem financiamento",
+    "Comunidades afetadas por turismo predatório"
+   ],
+   "risco_ambiental": "Médio: o turismo costeiro e de natureza pressiona ecossistemas; o desmatamento prejudica a marca-país.",
+   "ligacao_decisoes": [
+    "acelerar-ibs-cbs",
+    "abertura-comercial",
+    "cortar-beneficios-fiscais"
+   ],
+   "ligacao_nota": "Regimes tributários (IBS/CBS sobre serviços) e vistos e abertura (turismo) alteram custo; incentivos fiscais à cultura entram em 'gastos tributários'.",
+   "ligacao_tendencias": [
+    "ia_generativa_agentes",
+    "conectividade",
+    "pagamentos_digitais",
+    "baumol"
+   ],
+   "regioes": [
+    "Nordeste (turismo)",
+    "Sudeste (indústria criativa)",
+    "Norte (biodiversidade e cultura)"
+   ],
+   "fontes": [
+    {
+     "titulo": "Brasil tem recorde de 9 milhões de turistas em 2025",
+     "url": "https://diariodocomercio.com.br/turismo/brasil-tem-recorde-9-milhoes-turistas-internacionais-2025/",
+     "verificado": false
+    },
+    {
+     "titulo": "Turismo internacional movimenta R$ 41,5 bilhões em 2025",
+     "url": "https://sbtnews.sbt.com.br/noticia/economia/turismo-internacional-movimenta-r-41-5-bilhoes-no-brasil-em-2025",
+     "verificado": false
+    },
+    {
+     "titulo": "Firjan, Mapeamento da Indústria Criativa 2022",
+     "url": "https://appsext.firjan.com.br/economiacriativa/downloads/MapeamentoIndustriaCriativa2022.pdf",
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "diversidade-ativo-institucional",
+   "titulo": "Diversidade e potência demográfica: ativo institucional e cultural, sem determinismo",
+   "categoria": "sociedade",
+   "metricas": [
+    {
+     "nome": "Composição por cor ou raça (Censo 2022)",
+     "valor": "pardos 45,34; brancos 43,46; pretos 10,17; indígenas 0,60; amarelos 0,42",
+     "unidade": "% da população",
+     "ano": "2022",
+     "fonte": "IBGE, Censo 2022 (via Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Brazil",
+     "verificado": true,
+     "nota": "Autodeclaração; não mede ancestralidade."
+    },
+    {
+     "nome": "População total",
+     "valor": "203 milhões",
+     "unidade": "habitantes",
+     "ano": "2022",
+     "fonte": "IBGE (via Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Brazil",
+     "verificado": true,
+     "nota": "Estimativa IBGE 2024: 212,6 milhões."
+    }
+   ],
+   "ranking_mundial": "7º mais populoso; não há ranking de 'diversidade' (conceito sem medida única)",
+   "grau_de_uso": "Mal medido: a diversidade aparece como identidade e como desigualdade racial persistente, não como capital institucional (convivência, mercado interno de escala, reputação cultural).",
+   "por_que_poucos_notam": "O mito da democracia racial atrasou o debate; o oposto, tratar diversidade como destino genético ou cultural, é determinismo. A tese defensável é institucional: escala (203 milhões), língua única, migrações internas e externas e redes de diáspora são ativos cuja realização depende de instituições, não de 'tipos' de pessoa. Não há evidência quantitativa coletada aqui de que diversidade cause crescimento; a literatura internacional é mista.",
+   "barreiras": [
+    "Desigualdade racial de renda, educação e violência (dado não coletado aqui)",
+    "Discriminação no mercado de trabalho",
+    "Baixa representação em decisões políticas e econômicas",
+    "Concentração da informalidade entre pretos e pardos (dado não coletado)"
+   ],
+   "quem_ganha": [
+    "Empresas e territórios com capital social diverso",
+    "Setor cultural e turismo",
+    "Exportadores de serviços criativos"
+   ],
+   "quem_perde": [
+    "Grupos com exclusão persistente, se o ativo for celebrado sem política",
+    "Povos indígenas e quilombolas, se 'diversidade' virar marketing sem direito territorial"
+   ],
+   "risco_ambiental": "Baixo direto; ligado a territórios tradicionais.",
+   "ligacao_decisoes": [
+    "ampliar-assistencia",
+    "reforma-administrativa",
+    "anistia-politica",
+    "ampliar-stf"
+   ],
+   "ligacao_nota": "Transferências de renda e serviços públicos afetam a mobilidade; regras institucionais (STF, anistia) afetam a proteção de direitos de minorias.",
+   "ligacao_tendencias": [
+    "ia_generativa_agentes",
+    "conectividade",
+    "exposicao_ia",
+    "metcalfe"
+   ],
+   "regioes": [
+    "Nacional"
+   ],
+   "fontes": [
+    {
+     "titulo": "Demographics of Brazil (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Demographics_of_Brazil",
+     "verificado": true
+    }
+   ]
+  }
+ ],
+ "crescimento_potencial": {
+  "estimativas": [
+   {
+    "fonte": "FMI, Article IV 2025 (Country Report 25/194)",
+    "valor": "2,5% ao ano no médio prazo (revisado de 2,0% na consulta de 2024)",
+    "periodo": "médio prazo (após 2025)",
+    "metodo": "Projeção do corpo técnico; cita reforma do IVA (2023), aceleração da produção de hidrocarbonetos e alta da PTF após reformas como a trabalhista de 2017",
+    "verificado": true,
+    "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx"
+   },
+   {
+    "fonte": "FMI, Article IV 2025: cenário de reformas",
+    "valor": "+1,5 p.p. ao ano de crescimento adicional em 2026-2030 (camada S2 do cenário de dívida); reformas de 'primeira geração' (regulação, governança, setor externo): ~+1,0 p.p. ao ano por 5 anos; participação feminina: +0,5 p.p.",
+    "periodo": "2026-2030",
+    "metodo": "Análise do corpo técnico (Budina et al., SDN/2023/007 atualizado)",
+    "verificado": true,
+    "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx"
+   },
+   {
+    "fonte": "JPMorgan (via Times Brasil)",
+    "valor": "PIB potencial 1,5% (2024) → ~2% (2025)",
+    "periodo": "2024-2025",
+    "metodo": "Não detalhado no resumo; atribuído às reformas desde 2016",
+    "verificado": false,
+    "url": "https://timesbrasil.com.br/brasil/economia-brasileira/pib-potencial-do-brasil-sobe-para-2-em-2025-aponta-jpmorgan/"
+   },
+   {
+    "fonte": "Ministério do Planejamento (via Gazeta SP, só manchete)",
+    "valor": "PIB potencial de 1% para até 2,5%",
+    "periodo": "n/d",
+    "metodo": "Não obtido (página 403)",
+    "verificado": false,
+    "url": "https://www.gazetasp.com.br/economia/planejamento-estima-que-pib-potencial-do-brasil-passou-de-1-para-ate/"
+   },
+   {
+    "fonte": "OCDE (via vLex, projeção de longo prazo)",
+    "valor": "PIB potencial per capita +1,1% ao ano em 2020-2030 e +1,4% em 2030-2060; Brasil chegaria a ~27% do padrão de vida dos EUA em 2060",
+    "periodo": "2020-2060",
+    "metodo": "Projeção de longo prazo da OCDE (safra anterior, não atualizada)",
+    "verificado": false,
+    "url": "https://vlex.com.br/vid/brazil-to-have-27-877038388"
+   },
+   {
+    "fonte": "Banco Central, Relatório de Política Monetária (via resumo de busca)",
+    "valor": "Hiato do produto +0,9% no 1T25 (economia acima do potencial)",
+    "periodo": "1T25",
+    "metodo": "Estimativa interna do BCB; o nível do PIB potencial não foi obtido (PDF aberto não trazia a decomposição)",
+    "verificado": false,
+    "url": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202506/rpm202506b8p.pdf"
+   },
+   {
+    "fonte": "FGV IBRE, Penn World Table, Conference Board, Ipea (economia total)",
+    "valor": "não obtido",
+    "periodo": "n/d",
+    "metodo": "Nenhuma estimativa de PTF ou PIB potencial da economia inteira foi aberta nesta pesquisa; o único PTF conferido é o agropecuário (Ipea)",
+    "verificado": false,
+    "url": ""
+   }
+  ],
+  "decomposicao": [
+   {
+    "componente": "PTF agropecuária",
+    "valor": "3,18% ao ano (2000-2019), mundo ~1,7%; PTF explicou 87,9% do crescimento do produto agropecuário em 1975-2020 e 61,2% em 2000-2020",
+    "fonte": "Ipea TD (Gasques et al.)",
+    "verificado": true,
+    "url": "https://repositorio.ipea.gov.br/bitstream/11058/11199/1/td_2764.pdf"
+   },
+   {
+    "componente": "PTF economia total",
+    "valor": "FMI: crescimento da PTF 'subiu nos últimos anos' (sem número no relatório lido)",
+    "fonte": "FMI Article IV 2025, par. 40",
+    "verificado": true,
+    "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx"
+   },
+   {
+    "componente": "Trabalho: demografia",
+    "valor": "População chega ao pico em 2041 (220,4 milhões); razão de dependência total ~44 por 100 em 2024 (derivada)",
+    "fonte": "IBGE via DGABC; Wikipedia",
+    "verificado": true,
+    "url": "https://www.dgabc.com.br/Noticia/4159808/populacao-brasileira-e-de-quase-212-6-milhoes-estima-ibge"
+   },
+   {
+    "componente": "Trabalho: participação e informalidade",
+    "valor": "Gap de participação feminina de 20 p.p.; >40% dos ocupados no informal; desemprego 6,2% (fim de 2024)",
+    "fonte": "FMI Article IV 2025",
+    "verificado": true,
+    "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx"
+   },
+   {
+    "componente": "Capital: investimento (FBCF)",
+    "valor": "não obtido como % do PIB; o FMI aponta que o financiamento de longo prazo migrou do BNDES para debêntures incentivadas, com custo fiscal ~0,1% do PIB",
+    "fonte": "FMI Article IV 2025",
+    "verificado": true,
+    "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx"
+   },
+   {
+    "componente": "Decomposição formal (capital, trabalho, PTF) da economia inteira",
+    "valor": "não obtida; precisa de PWT 10.x, Conference Board TED ou nota do BCB/Ipea",
+    "fonte": "-",
+    "verificado": false,
+    "url": ""
+   }
+  ],
+  "gaps": [
+   {
+    "gap": "Produtividade do trabalho (PIB por hora trabalhada)",
+    "valor": "Brasil 21,2 vs. EUA 81,8 (ILO, projeção 2025, dólares internacionais de 2021): ~26% do nível dos EUA; OCDE/EUA 2023: 97,05 USD PPP por hora",
+    "fonte": "Wikipedia, List of countries by labour productivity (ILO e OCDE)",
+    "verificado": true,
+    "url": "https://en.wikipedia.org/wiki/List_of_countries_by_labour_productivity",
+    "nota": "Brasil não consta na tabela da OCDE da página; a comparação mistura bases ILO e OCDE e deve ser vista como ordem de grandeza."
+   },
+   {
+    "gap": "Custo Brasil",
+    "valor": "R$ 1,7 trilhão por ano, 19,5% do PIB (2022, vs. média OCDE; em 2019: R$ 1,5 tri, 22% do PIB)",
+    "fonte": "MBC/MDIC com FGV (via Panrotas)",
+    "verificado": false,
+    "url": "https://www.panrotas.com.br/100xbrasil/pesquisas-e-estatisticas/2023/05/custo-brasil-atinge-o-patamar-de-r-17-trilhao_196810.html",
+    "nota": "É custo adicional para produzir vs. a média da OCDE em 12 áreas; metodologia contestada em parte (não verificado aqui); não é perda líquida eliminável por completo."
+   },
+   {
+    "gap": "Custo logístico",
+    "valor": "15,5% do PIB (2025, projeção) e 15,6% (2024); composição: transporte 8,5%, estoque 5,3%, armazenagem 1,0%, administração 0,6%",
+    "fonte": "ILOS (via en.ilos.com.br)",
+    "verificado": true,
+    "url": "https://en.ilos.com.br/custo-logistico-cai-mas-ainda-consome-155-do-pib/",
+    "nota": "A mesma fonte, em resumo de busca, cita 18,4% em 2023 (pico por estoque) e 10,4% em 2014; o texto aberto cita 'abaixo de 15% por quatro anos' de forma contraditória; tratar como faixa de 14-18% conforme metodologia."
+   },
+   {
+    "gap": "Concentração de mercado",
+    "valor": "Markups acima de outras regiões da América Latina segundo estudos citados pelo FMI",
+    "fonte": "FMI Article IV 2025, par. 45",
+    "verificado": true,
+    "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+    "nota": "Sem número no relatório lido."
+   },
+   {
+    "gap": "Aprendizagem (PISA 2022)",
+    "valor": "379 vs. 472 (OCDE) em matemática; 73% abaixo do nível 2",
+    "fonte": "OCDE (resumo de busca)",
+    "verificado": false,
+    "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/brazil_61690648-en.html",
+    "nota": "Diferença de 93 pontos; cerca de 2-3 anos de escolaridade pelo rule-of-thumb da OCDE (não verificado aqui)."
+   }
+  ],
+  "o_que_cada_decisao_mexe": {
+   "acelerar-ibs-cbs": "Eleva PTF via fim da cumulatividade (FMI: reforma do IVA lifta produto e produtividade); delta do modelo supply_reform +0,25 é julgamento, não literatura.",
+   "abertura-comercial": "Competição e insumos baratos; FMI aponta setor externo como área de reforma de 1ª geração (+~1 p.p. por 5 anos se fechado o gap em três áreas).",
+   "acordo-mercosul-ue": "Acesso a mercado para agro e industrializados, com cláusulas ambientais; sobe o retorno de rastreabilidade.",
+   "privatizacoes": "Concessões de saneamento, portos, rodovias e energia atacam custo logístico; efeito fiscal recorrente pequeno.",
+   "reforma-previdencia-2": "Contém o déficit do RGPS (6% do PIB em 2060 pelas autoridades) e libera espaço para investimento.",
+   "reforma-administrativa": "Capacidade de Estado (fiscalização ambiental, TI pública, educação) com efeito lento.",
+   "reforcar-arcabouco": "Reduz prêmio de risco e custo de capital, que condiciona investimento em energia, minerais e restauração.",
+   "flexibilizar-arcabouco": "Pode financiar investimento público (infraestrutura) ao custo de prêmio de risco.",
+   "credito-subsidiado": "Pode acelerar hidrogênio, minerais e restauração, mas FMI nota que BNDES perdeu espaço para debêntures incentivadas; qualidade da seleção decide.",
+   "perdao-dividas": "Rural: alivia devedores, pode premiar quem ignorou regras ambientais; efeito sobre moral hazard.",
+   "cortar-beneficios-fiscais": "Libera receita e reduz distorções; ganho de alocação.",
+   "politica-precos-combustiveis": "Preço de petróleo e governança da Petrobras afetam capital e inflação.",
+   "desoneracao-ampla": "Formalização de emprego versus perda de arrecadação.",
+   "ampliar-assistencia": "Reduz pobreza; FMI aponta que benefícios mal desenhados desestimulam participação feminina formal.",
+   "desvincular-minimo": "Abre espaço fiscal para investimento; custo distributivo.",
+   "reduzir-autonomia-bc": "Risco de prêmio de risco maior, que destrói o investimento de longo prazo e o Pix como governança técnica.",
+   "diretoria-bc-alinhada": "Mesmo canal, efeito menor.",
+   "ampliar-stf": "Segurança jurídica de contratos e demarcações.",
+   "remover-ministros-stf": "Segurança jurídica de contratos e demarcações.",
+   "anistia-politica": "Efeito indireto via risco institucional e reputação."
+  }
+ },
+ "armadilhas": [
+  {
+   "id": "doenca-holandesa-commodity",
+   "titulo": "Doença holandesa e dependência de commodities",
+   "descricao": "Petróleo, minério e soja dominam a pauta; booms cambiais valorizam o real e encarecem a manufatura. A queda de participação da indústria é anterior ao pré-sal (a hipótese é antiga na literatura brasileira; não conferida aqui), mas o pré-sal reforça o canal. Potências 'invisíveis' (minerais, energia) correm o mesmo risco se forem exportadas como bruto.",
+   "evidencia": "Em 2024 o petróleo bruto foi o maior item exportado (13,3% da pauta, US$ 44,8 bi), à frente de minério de ferro (9,1%) e açúcar (5,5%); produção de petróleo de 3,77 milhões bpd em 2025, 79,6% no pré-sal. Para a China, petróleo, minério e soja somam ~72% das vendas (resumo de busca).",
+   "fontes": [
+    "https://istoedinheiro.com.br/produtos-e-destinos-exportacoes-2024",
+    "https://www.cnnbrasil.com.br/economia/macroeconomia/producao-de-petroleo-do-brasil-cresce-123-e-bate-recorde-em-2025-diz-anp/"
+   ]
+  },
+  {
+   "id": "dependencia-poucos-produtos-destinos",
+   "titulo": "Dependência de poucos produtos e poucos compradores",
+   "descricao": "A renda das potências depende de demanda de poucos países: 49% do ferronióbio vai à China; no total, petróleo, minério de ferro e soja dominam as vendas à China. Choques de demanda e guerras tarifárias passam direto para o câmbio e a renda.",
+   "evidencia": "USGS MCS 2026: exportações de ferronióbio de 92.000 t em 2024, 49% China. Resumo de busca: 25% petróleo, 25% minério, 22% soja nas vendas à China.",
+   "fontes": [
+    "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-niobium.pdf",
+    "https://istoedinheiro.com.br/produtos-e-destinos-exportacoes-2024"
+   ]
+  },
+  {
+   "id": "captura-por-poucos-minerais",
+   "titulo": "Captura por poucos: minerais, terra e concessões",
+   "descricao": "Reserva não é cadeia: o Brasil tem 67% das reservas de nióbio, ~24% do grafite e ~15% das terras raras, mas a renda e o refino ficam com poucas empresas e com a China. A venda da Serra Verde a uma empresa dos EUA mostra a ausência de política de prioridade de oferta nacional. A mesma lógica vale para terra (Gini fundiário 0,867) e para concessões.",
+   "evidencia": "USGS MCS 2026 (reservas e produção); Serra Verde adquirida por US$ ~2,8 bi (resumo de busca, não conferido); China >90% do processamento de terras raras (resumo de busca).",
+   "fontes": [
+    "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-niobium.pdf",
+    "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-rare-earths.pdf",
+    "https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-graphite.pdf",
+    "https://www.jornalopcao.com.br/goias/conheca-a-mineradora-em-goias-que-e-a-unica-produtora-do-mercado-mundial-de-terras-raras-fora-da-asia-728792/",
+    "https://www.gazetadopovo.com.br/economia/empresa-dos-eua-compra-mineradora-brasileira-de-terras-raras-por-us-28-bi-em-disputa-com-a-china/"
+   ]
+  },
+  {
+   "id": "risco-climatico-reputacao-ambiental",
+   "titulo": "Risco climático e de reputação ambiental",
+   "descricao": "A agropecuária causa 97% da perda de vegetação nativa e depende do clima que a floresta ajuda a regular; a PTF agrícola é sensível a seca e geada (Ipea). A reputação ambiental condiciona acesso a mercados (cláusulas do acordo UE-Mercosul, regulações antidesmatamento, não verificadas aqui) e capital. A matriz elétrica 60% hidrelétrica está exposta à seca.",
+   "evidencia": "MapBiomas RAD 2024: 1,24 milhão de ha, 97% agropecuária; Ipea: PTF cai com choques climáticos; Ember: hidro 60% em 2023; FMI: a maior parte do desmatamento é ilegal e zerá-lo até 2030 não prejudicaria PIB ou exportações (Banco Mundial 2023).",
+   "fontes": [
+    "https://www.poder360.com.br/poder-sustentavel/desmatamento-no-brasil-cai-324-em-2024-diz-mapbiomas/",
+    "https://repositorio.ipea.gov.br/bitstream/11058/11199/1/td_2764.pdf",
+    "https://ember-energy.org/latest-insights/brazil-rises-as-g20-renewables-powerhouse/",
+    "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx"
+   ]
+  },
+  {
+   "id": "concentracao-fundiaria",
+   "titulo": "Concentração fundiária",
+   "descricao": "A produtividade agrícola e o potencial de pastagens recuperadas acumulam-se em quem já tem terra; o ganho de PTF não distribui terra. A concentração aumentou entre 2006 e 2017. Concentração de terra alimenta conflitos, grilagem e pressão de fronteira.",
+   "evidencia": "Censo Agropecuário 2017: Gini da terra 0,867 (0,854 em 2006; 0,856 em 1995-96; 0,857 em 1985); Maranhão 0,888, Amapá 0,885, Mato Grosso 0,876. Resumo de busca: 48% da área está em 51,2 mil estabelecimentos.",
+   "fontes": [
+    "https://www.ibge.gov.br/apps/atlasrural/pdfs/02_00_Texto.pdf"
+   ]
+  },
+  {
+   "id": "potencial-tecnico-vs-economico",
+   "titulo": "Confundir potencial técnico com potencial econômico",
+   "descricao": "'28.519 GW de solar' e '>1.200 GW offshore' são potenciais técnicos. A restrição é demanda firme, transmissão, capital e preço do carbono; hidrogênio verde tem dezenas de projetos anunciados, nenhum comprovado como decisão final de investimento nesta pesquisa. Retórica de 'país do futuro' vive nessa confusão.",
+   "evidencia": "Potencial onshore saltou de 143 para 880 GW só por mudar a altura de torre (INPE, 2016): a cifra depende do pressuposto. 44 projetos de H2V no Nordeste são anúncios.",
+   "fontes": [
+    "https://agencia.fapesp.br/index.php/potencial-eolico-em-terra-do-brasil-pode-ser-seis-vezes-maior-do-que-o-estimado/24053",
+    "https://eixos.com.br/hidrogenio/cinco-estados-no-nordeste-tem-projetos-para-hidrogenio-verde"
+   ]
+  },
+  {
+   "id": "janela-demografica-fechando",
+   "titulo": "A janela demográfica está fechando antes de a produtividade chegar",
+   "descricao": "A população ativa relativa já está perto do pico, a fecundidade é 1,57, e o gasto previdenciário sobe (6% do PIB em 2060). Se a aprendizagem e a informalidade não melhorarem, o Brasil envelhece antes de enriquecer.",
+   "evidencia": "IBGE: população atinge 220,4 mi em 2041 e cai para 199,2 mi em 2070; FMI: fecundidade de 2,32 para 1,57 (2000-2023); informalidade >40%; PISA 2022: 379 vs. 472.",
+   "fontes": [
+    "https://www.dgabc.com.br/Noticia/4159808/populacao-brasileira-e-de-quase-212-6-milhoes-estima-ibge",
+    "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+    "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/brazil_61690648-en.html"
+   ]
+  }
+ ],
+ "perguntas_abertas": [
+  "Qual é o ano oficial do mínimo da razão de dependência (IBGE, Projeções 2024) e a série 2000-2070? A página do IBGE retornou 403; só há 'antes de 2030' em resumo de busca.",
+  "Qual é a decomposição de crescimento (capital, trabalho, PTF) da economia total em Penn World Table 10.x, Conference Board TED, Ipea e FGV IBRE? Nenhuma foi aberta; só o PTF agropecuário (Ipea) foi conferido.",
+  "Qual é o PIB potencial do Banco Central (RPM) em nível e a metodologia (função de produção)? O PDF aberto não trazia a decomposição.",
+  "Quais são os valores atuais de capacidade instalada eólica, solar e hidrelétrica (ONS/ANEEL) frente ao potencial técnico, e quanto de curtailment há?",
+  "O potencial técnico eólico offshore (>1.200 GW) vem do Roadmap Eólica Offshore da EPE ou de estudo do Banco Mundial? Abrir o Roadmap e conferir o corte (profundidade, distância).",
+  "Qual é a parcela de reservas e produção de terras raras de cada país considerando a revisão do USGS? As reservas do Brasil caíram de 21 para 11 Mt REO entre as edições? (a leitura do PDF 2026 indica 11 Mt; conferir contra o MCS 2025 que não foi aberto).",
+  "Quanto do valor da cadeia de ímãs de terras raras e de anodos de grafite o Brasil poderia capturar com política industrial e a que custo fiscal? Não há estimativa coletada.",
+  "Qual é a parte do ganho de PTF agrícola atribuível a Embrapa vs. crédito vs. clima (decomposição causal)? O Ipea é descritivo.",
+  "Qual é o potencial real de recuperação das pastagens (28 Mha) após critérios de custo, sem deslocar o gado para a fronteira (leakage)?",
+  "O efeito das terras indígenas na contenção do desmatamento sobrevive a controle de viés de localização (estudos revisados por pares)? O MapBiomas é descritivo; faltam estudos com controle.",
+  "Qual é o valor econômico e o emprego da economia do mar (pesca, portos, turismo costeiro, petróleo) em um só indicador oficial?",
+  "Pix, gov.br e SUS/PNI: quais indicadores de qualidade (uptime, fraude, cobertura vacinal 2024-2025) são oficiais e comparáveis? Só o volume do Pix foi lido, via imprensa.",
+  "Qual é a diferença de anos de escolaridade e de aprendizagem vs. OCDE por faixa de renda e raça? Nenhum dado de anos de escolaridade foi coletado.",
+  "Existe evidência causal de que a diversidade cultural ou étnica aumente produtividade ou inovação no Brasil, ao nível de município ou firma? Nenhum estudo foi coletado; a tese é institucional e hipotética.",
+  "O Custo Brasil (R$ 1,7 trilhão) tem metodologia contestada por economistas? Verificar crítica e eliminável vs. estrutural.",
+  "O catálogo de decisões não tem itens para água, minerais críticos, restauração, educação ou política industrial; incluir novas decisões (ex.: royalties de minerais críticos, concessão offshore, pagamento por serviço ambiental)?"
+ ]
+}

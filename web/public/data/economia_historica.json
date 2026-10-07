@@ -1,0 +1,2208 @@
+{
+  "meta": {
+    "gerado_em": "2026-10-06",
+    "aviso": "Síntese estrutural da economia brasileira por ciclo, compilada em pesquisa aberta. Fatos marcados '(não verificado)' vêm de memória ou de resumos de busca e devem ser conferidos em fonte primária (IBGE, IPEA, BCB, Planalto) antes de uso. O intervalo 1780-1808 não é coberto como ciclo. Números de 2024-2026 e o resultado da eleição de 2026 não foram verificados. Classes e efeitos distributivos são interpretações da literatura, não medições, salvo onde há número citado.",
+    "criterio_verificacao": "verificado=true significa que a página foi aberta nesta pesquisa e o dado citado foi lido no texto (Wikipedia pt/en, fonte secundária aberta; não é fonte primária). verificado=false significa que só se obteve um resumo de busca (a página não foi lida), que a URL é de lei herdada de historia.json e não foi aberta aqui, ou que a fonte é este repositório. Contagens (ex.: 12,7 milhões de famílias do Bolsa Família, votos 296-177) são distintas de estimativas (ex.: ~1.000 toneladas de ouro, tráfego de africanos, população em 1772); estimativas são sinalizadas no texto."
+  },
+  "ciclos": [
+    {
+      "id": "pau-brasil",
+      "rotulo": "Pau-brasil e feitorias",
+      "inicio": 1500,
+      "fim": 1530,
+      "motor_economico": "Extração de pau-brasil (corante e madeira) por escambo com povos indígenas, em feitorias litorâneas, sob monopólio régio arrendado a mercadores; comércio disputado por corsários franceses.",
+      "potenciais": [
+        "Litoral atlântico extenso e densa Mata Atlântica com pau-brasil abundante.",
+        "Mão de obra indígena conhecedora do território, mobilizada por troca de ferramentas e miçangas (escambo) - relato clássico; a página consultada da Wikipedia não detalha o escambo (não verificado).",
+        "Posição geográfica no Atlântico Sul, que depois serviria às rotas do açúcar e do tráfico."
+      ],
+      "problemas": [
+        "Atividade predatória e itinerante: sem povoamento nem produção própria, o Estado quase não se instala.",
+        "Ameaça à posse: contrabando e ataques de corsários franceses (a Wikipedia cita a expedição de Villegaignon em 1555, fora do período) motivam a colonização por capitanias.",
+        "Ausência de dados quantitativos confiáveis: a fonte aberta consultada não traz toneladas nem número de navios."
+      ],
+      "classes": [
+        {
+          "classe": "Povos indígenas",
+          "posicao": "Fornecedores de trabalho por escambo e, depois, alvo de cativeiro",
+          "efeito": "Início da perda territorial e demográfica no litoral",
+          "evidencia": "Lei de 1570 e escravização 'em guerra justa' vêm depois (historia.json: lei-1570); volume de mortes no período (não verificado)"
+        },
+        {
+          "classe": "Mercadores e Coroa",
+          "posicao": "Arrendatários do monopólio e beneficiários da renda",
+          "efeito": "Lucro de curto prazo com baixo investimento fixo",
+          "evidencia": "Wikipedia (pau-brasil): 'primeira atividade econômica dos colonos portugueses'; arrendamento a mercadores (não verificado)"
+        },
+        {
+          "classe": "Corsários e comerciantes franceses",
+          "posicao": "Concorrentes do comércio",
+          "efeito": "Pressionam a Coroa a ocupar o litoral",
+          "evidencia": "Wikipedia (pau-brasil) cita corsários franceses atacando navios portugueses"
+        }
+      ],
+      "mudancas_drasticas": [
+        {
+          "id": "pb-1500-monopolio",
+          "data": "1500-1530",
+          "titulo": "Monopólio do pau-brasil e feitorias litorâneas",
+          "descricao": "Primeiro uso econômico do território: extração sem produção local, antecedendo a opção da Coroa por colonizar com capitanias hereditárias (1534, de memória (não verificado)).",
+          "quem_ganhou": "Mercadores arrendatários e Coroa.",
+          "quem_perdeu": "Povos indígenas do litoral, a médio prazo; a floresta costeira.",
+          "links_historia": []
+        }
+      ],
+      "regioes": [
+        "Litoral do atual Nordeste e Sudeste (Pernambuco, Bahia, Rio)"
+      ],
+      "fontes": [
+        {
+          "titulo": "Pau-brasil - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Pau-brasil",
+          "verificado": true
+        },
+        {
+          "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
+          "url": "docs/HISTORIA.md",
+          "verificado": false
+        }
+      ]
+    },
+    {
+      "id": "acucar",
+      "rotulo": "Açúcar e plantation escravista",
+      "inicio": 1530,
+      "fim": 1700,
+      "motor_economico": "Engenhos de açúcar em plantation monocultora de exportação, com trabalho escravizado (indígena, depois majoritariamente africano), amarrada ao pacto colonial e ao capital mercantil português e holandês.",
+      "potenciais": [
+        "Massapê e clima do litoral nordestino; Pernambuco chegou a ser a maior região açucareira do mundo no início do século XVII (Wikipedia, ciclo do açúcar).",
+        "Capacidade de organizar unidades agroindustriais (engenho) e rotas de exportação; a expulsão dos holandeses (1654) deixou know-how que alimentou o açúcar das Antilhas (Wikipedia, Economic history of Brazil) - ou seja, parte do potencial foi transferida a concorrentes.",
+        "Controle do tráfico atlântico a partir de Angola e do Brasil, gerando renda própria de mercadores coloniais (não verificado)."
+      ],
+      "problemas": [
+        "Concentração fundiária desde a origem (capitanias, sesmarias, engenhos) e monocultura de exportação.",
+        "Dependência de um único produto e de preços externos; concorrência antilhana encerra o monopólio de fato no fim do século XVII.",
+        "Escravidão como base da produção; o tráfico para o Brasil envolveu mais de 5 milhões de pessoas ao longo de toda a história (Wikipedia); a série completa de desembarques por período não foi conferida.",
+        "Excedente exportado, pouco mercado interno e pouca diversificação: pacto colonial restringe o comércio ao reino."
+      ],
+      "classes": [
+        {
+          "classe": "Escravizados africanos",
+          "posicao": "Base do trabalho dos engenhos",
+          "efeito": "Cativeiro hereditário, alta mortalidade, resistência por quilombos",
+          "evidencia": "Palmares destruído em 1694-95 (historia.json: palmares-1695); mortalidade média no período (não verificado)"
+        },
+        {
+          "classe": "Povos indígenas",
+          "posicao": "Mão de obra cativa inicial e vítimas de aldeamentos e guerras",
+          "efeito": "Escravização, deslocamento, epidemias",
+          "evidencia": "Lei de 1570 limita a escravização à 'guerra justa', com burlas (historia.json: lei-1570)"
+        },
+        {
+          "classe": "Senhores de engenho",
+          "posicao": "Elite agrária local",
+          "efeito": "Poder fundiário, social e político hereditário",
+          "evidencia": "Wikipedia (ciclo do açúcar): 256 engenhos em meados do século XVII; 'mais vaidade em Pernambuco que em Lisboa' (Jesuíta citado)"
+        },
+        {
+          "classe": "Comerciantes e Coroa portuguesa",
+          "posicao": "Capturavam parte do excedente via pacto colonial e tráfico",
+          "efeito": "Renda comercial e fiscal",
+          "evidencia": "Wikipedia (ciclo do açúcar): pacto colonial restringia o comércio ao reino; valor do tráfico 'gerava lucros substanciais'"
+        },
+        {
+          "classe": "Homens livres pobres e mestiços",
+          "posicao": "Agregados, lavradores de cana e de subsistência, pequeno comércio",
+          "efeito": "Dependência dos grandes proprietários",
+          "evidencia": "Descrição geral da historiografia; não conferida em fonte específica nesta rodada (não verificado)"
+        }
+      ],
+      "mudancas_drasticas": [
+        {
+          "id": "ac-1534-capitanias",
+          "data": "1534-1549",
+          "titulo": "Capitanias hereditárias e primeiros engenhos",
+          "descricao": "Doações de terra a donatários; em 1549 havia 30 engenhos em Pernambuco, 18 na Bahia e 2 em São Vicente (Wikipedia). A data de 1534 é de memória (não verificado).",
+          "quem_ganhou": "Donatários, senhores de engenho, mercadores.",
+          "quem_perdeu": "Povos indígenas, escravizados.",
+          "links_historia": []
+        },
+        {
+          "id": "ac-1630-holandeses",
+          "data": "1630-1654",
+          "titulo": "Ocupação holandesa do Nordeste açucareiro",
+          "descricao": "A Holanda ocupou a zona açucareira entre 1630 e 1654 e adquiriu conhecimento técnico que alimentou o açúcar caribenho (Wikipedia, Economic history of Brazil).",
+          "quem_ganhou": "Produtores antilhanos e capital holandês.",
+          "quem_perdeu": "Produtores nordestinos, que perderam mercado a longo prazo.",
+          "links_historia": []
+        },
+        {
+          "id": "ac-1694-palmares",
+          "data": "1694-1695",
+          "titulo": "Destruição de Palmares",
+          "descricao": "Maior quilombo colonial é destruído por expedições financiadas pela Coroa; Zumbi morre em 20/11/1695.",
+          "quem_ganhou": "Senhores e Coroa (preservação da ordem escravista).",
+          "quem_perdeu": "Quilombolas e escravizados.",
+          "links_historia": [
+            "palmares-1695"
+          ]
+        },
+        {
+          "id": "ac-1570-lei",
+          "data": "1570",
+          "titulo": "Lei de 1570 sobre escravização indígena",
+          "descricao": "Limita o cativeiro indígena à 'guerra justa'; na prática a exceção virou regra em várias regiões.",
+          "quem_ganhou": "Colonos que burlavam a norma.",
+          "quem_perdeu": "Povos indígenas.",
+          "links_historia": [
+            "lei-1570"
+          ]
+        }
+      ],
+      "regioes": [
+        "Zona da Mata nordestina (Pernambuco, Bahia)",
+        "Recôncavo baiano",
+        "Capitanias do Sul: pouca relevância açucareira, base de apresamento indígena (de memória (não verificado))"
+      ],
+      "fontes": [
+        {
+          "titulo": "Ciclo do açúcar - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Ciclo_do_a%C3%A7%C3%BAcar",
+          "verificado": true
+        },
+        {
+          "titulo": "Economic history of Brazil - Wikipedia (en)",
+          "url": "https://en.wikipedia.org/wiki/Economic_history_of_Brazil",
+          "verificado": true
+        },
+        {
+          "titulo": "Tráfico negreiro no Brasil - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Tr%C3%A1fico_negreiro_no_Brasil",
+          "verificado": true
+        },
+        {
+          "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
+          "url": "docs/HISTORIA.md",
+          "verificado": false
+        }
+      ]
+    },
+    {
+      "id": "ouro-diamantes",
+      "rotulo": "Ouro e diamantes",
+      "inicio": 1700,
+      "fim": 1780,
+      "motor_economico": "Mineração aurífera e diamantífera em Minas, Mato Grosso e Goiás, tributada pela Coroa (quinto, capitação, derrama) e sustentada por mão de obra escravizada; ouro escoado para Portugal e, via tratados, para a Inglaterra.",
+      "potenciais": [
+        "Jazidas aluviais de ouro, descobertas na década de 1690 e com cerca de mil toneladas extraídas até 1760, segundo a Wikipedia (estimativa).",
+        "Mercado interno inédito: urbanização, abastecimento (pecuária, tropeirismo, agricultura de subsistência) e integração Centro-Sul; capital transferido de Salvador ao Rio em 1763 (Wikipedia).",
+        "Capacidade de arrecadação fiscal da Coroa e circulação monetária interna."
+      ],
+      "problemas": [
+        "Riqueza finita: aluviões esgotam-se a partir de 1760 e a economia declina sem diversificação.",
+        "Drenagem: quinto de 20%, capitação (1734-1750) e derrama (pós-1750) e o Tratado de Methuen (1703); historiadores sustentam que o ouro financiou parte da Revolução Industrial inglesa, tese debatida (Wikipedia).",
+        "Escravidão em larga escala e controle de diamantes por monopólio régio (Distrito Diamantino, de memória (não verificado)).",
+        "Fiscalismo gera revolta (Inconfidência Mineira, 1789, de memória (não verificado))."
+      ],
+      "classes": [
+        {
+          "classe": "Escravizados africanos",
+          "posicao": "Força de trabalho nas lavras e na vida urbana mineira",
+          "efeito": "Alta mortalidade, trabalho pesado, alforria por compra em minoria (de memória (não verificado))",
+          "evidencia": "Capitação taxava trabalhadores livres e escravizados (Wikipedia, ciclo do ouro)"
+        },
+        {
+          "classe": "Mineradores, comerciantes e tropeiros",
+          "posicao": "Novo empresariado colonial",
+          "efeito": "Enriquecimento desigual, endividamento ante a derrama",
+          "evidencia": "População de Minas: 319.769 habitantes em 1772 (Wikipedia)"
+        },
+        {
+          "classe": "Coroa e comerciantes ingleses",
+          "posicao": "Beneficiários da renda fiscal e do comércio",
+          "efeito": "Transferência de excedente ao exterior",
+          "evidencia": "Tratado de Methuen (1703) e quotas de 100 arrobas anuais da derrama (Wikipedia)"
+        },
+        {
+          "classe": "Povos indígenas do interior",
+          "posicao": "Atingidos pelo avanço das frentes mineradoras e bandeiras",
+          "efeito": "Perda de território, apresamento",
+          "evidencia": "Diretório dos Índios (1757) seculariza aldeamentos (historia.json: diretorio-1757)"
+        },
+        {
+          "classe": "Homens livres pobres",
+          "posicao": "Garimpeiros 'faiscadores' e agregados",
+          "efeito": "Instabilidade, dependência de crédito e abastecimento",
+          "evidencia": "Descrição geral; não conferida em fonte específica (não verificado)"
+        }
+      ],
+      "mudancas_drasticas": [
+        {
+          "id": "ou-1697-descoberta",
+          "data": "1690s-1720s",
+          "titulo": "Corrida do ouro e deslocamento populacional",
+          "descricao": "Descobertas na década de 1690 (a Wikipedia cita 1697) e em Mato Grosso (1718-1719) e Goiás (1725); a população colonial aumenta fortemente. O texto fala em 3 milhões ao fim do século, valor ambíguo (não verificado).",
+          "quem_ganhou": "Mineradores, comerciantes, Coroa.",
+          "quem_perdeu": "Escravizados, indígenas do interior; economia açucareira perde mão de obra.",
+          "links_historia": []
+        },
+        {
+          "id": "ou-1763-capital",
+          "data": "1763",
+          "titulo": "Capital transferida para o Rio de Janeiro",
+          "descricao": "Reconhece o eixo econômico deslocado para o Centro-Sul, vinculado ao escoamento do ouro (Wikipedia).",
+          "quem_ganhou": "Elites do Rio e do Centro-Sul.",
+          "quem_perdeu": "Elites baianas.",
+          "links_historia": []
+        },
+        {
+          "id": "ou-1760-declinio",
+          "data": "c. 1760",
+          "titulo": "Esgotamento dos aluviões",
+          "descricao": "Produção cai e a economia mineira recua à subsistência regional; a Coroa mantém a cobrança (derrama).",
+          "quem_ganhou": "Nenhum grupo; Coroa insiste na fiscalidade.",
+          "quem_perdeu": "Mineradores, trabalhadores livres e escravizados.",
+          "links_historia": []
+        }
+      ],
+      "regioes": [
+        "Minas Gerais",
+        "Goiás e Mato Grosso",
+        "Rio de Janeiro (porto e capital em 1763)",
+        "Nordeste açucareiro em declínio relativo"
+      ],
+      "fontes": [
+        {
+          "titulo": "Ciclo do ouro - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Ciclo_do_ouro",
+          "verificado": true
+        },
+        {
+          "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
+          "url": "docs/HISTORIA.md",
+          "verificado": false
+        }
+      ]
+    },
+    {
+      "id": "agroexportacao-imperial",
+      "rotulo": "Abertura dos portos e agroexportação imperial",
+      "inicio": 1808,
+      "fim": 1850,
+      "motor_economico": "Economia agroexportadora (açúcar, algodão, café em ascensão) com tráfico e escravidão, sob dependência comercial e financeira da Inglaterra, após a abertura dos portos (1808) e a independência (1822). O intervalo 1780-1808 não é coberto como ciclo.",
+      "potenciais": [
+        "Vale do Paraíba fluminense: terra, clima e escravos para o café, que se torna o principal produto da pauta.",
+        "Mercado externo em expansão e Estado nacional com capacidade de arrecadação aduaneira.",
+        "Demanda mundial por café, açúcar e algodão em contexto da Revolução Industrial."
+      ],
+      "problemas": [
+        "Dependência de tarifas baixas negociadas com a Inglaterra: o Tratado de 1810 (15%) é de memória (não verificado).",
+        "Receita pública presa à tarifa aduaneira e ao endividamento externo (primeiro empréstimo inglês em 1824, de memória (não verificado)).",
+        "Escravidão e tráfico (mesmo ilegal após 1831) mantêm baixo incentivo a salários, tecnologia e mercado interno.",
+        "Concentração fundiária mantida por sesmarias e posses; ausência de lei de terras até 1850."
+      ],
+      "classes": [
+        {
+          "classe": "Escravizados africanos",
+          "posicao": "Maioria do trabalho em plantation e cidade",
+          "efeito": "Intensificação do tráfico ilegal após a lei de 1831, 'para inglês ver'",
+          "evidencia": "historia.json: lei-1831 (amplamente descumprida); a Wikipedia indica mais de 5 milhões de pessoas no tráfico total para o Brasil"
+        },
+        {
+          "classe": "Fazendeiros do café (barões)",
+          "posicao": "Elite agrária ascendente",
+          "efeito": "Poder político no Império e crédito via comissários",
+          "evidencia": "Café = 63% das exportações em 1891 (Wikipedia, Economic history) - marca o fim da trajetória iniciada neste período"
+        },
+        {
+          "classe": "Comerciantes e capital inglês",
+          "posicao": "Credores e exportadores",
+          "efeito": "Controle do crédito e do frete",
+          "evidencia": "Tratado de 1810 e posição inglesa (não verificado)"
+        },
+        {
+          "classe": "Povos indígenas",
+          "posicao": "Atingidos por expansão de frentes agrícolas",
+          "efeito": "Aldeamentos e Regulamento das Missões (1845)",
+          "evidencia": "historia.json: missoes-1845 (data de memória lá também)"
+        },
+        {
+          "classe": "Livres pobres e libertos",
+          "posicao": "Agregados, tropeiros, artesãos",
+          "efeito": "Sem acesso à terra por via regular",
+          "evidencia": "Descrição geral (não verificado)"
+        }
+      ],
+      "mudancas_drasticas": [
+        {
+          "id": "ag-1808-portos",
+          "data": "1808",
+          "titulo": "Abertura dos portos e chegada da corte",
+          "descricao": "Fim do pacto colonial de fato e abertura ao comércio, em prática dominada pela Inglaterra. Detalhes (tarifas de 24% e 15%) de memória (não verificado).",
+          "quem_ganhou": "Comerciantes britânicos, exportadores e elites do Rio.",
+          "quem_perdeu": "Monopólio mercantil português, artesãos locais.",
+          "links_historia": [
+            "indep-1822"
+          ]
+        },
+        {
+          "id": "ag-1822-independencia",
+          "data": "1822",
+          "titulo": "Independência política com continuidade econômica",
+          "descricao": "Soberania formal sem ruptura na escravidão e na pauta agroexportadora.",
+          "quem_ganhou": "Elites agrárias e burocracia do Império.",
+          "quem_perdeu": "Escravizados e indígenas, sem mudança de status.",
+          "links_historia": [
+            "indep-1822",
+            "c1824"
+          ]
+        },
+        {
+          "id": "ag-1831-lei",
+          "data": "1831",
+          "titulo": "Lei de 7 de novembro de 1831",
+          "descricao": "Proíbe o tráfico, descumprida; milhares de africanos foram trazidos ilegalmente até 1850.",
+          "quem_ganhou": "Traficantes e fazendeiros.",
+          "quem_perdeu": "Africanos ilegalmente escravizados.",
+          "links_historia": [
+            "lei-1831"
+          ]
+        }
+      ],
+      "regioes": [
+        "Vale do Paraíba (RJ, SP, MG)",
+        "Nordeste açucareiro e algodoeiro em declínio relativo",
+        "Maranhão algodoeiro (de memória (não verificado))",
+        "Sul pastoril (charque)"
+      ],
+      "fontes": [
+        {
+          "titulo": "Economic history of Brazil - Wikipedia (en)",
+          "url": "https://en.wikipedia.org/wiki/Economic_history_of_Brazil",
+          "verificado": true
+        },
+        {
+          "titulo": "Tráfico negreiro no Brasil - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Tr%C3%A1fico_negreiro_no_Brasil",
+          "verificado": true
+        },
+        {
+          "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
+          "url": "docs/HISTORIA.md",
+          "verificado": false
+        }
+      ]
+    },
+    {
+      "id": "cafe-escravidao-abolicao",
+      "rotulo": "Café, fim do tráfico, abolição e imigração",
+      "inicio": 1850,
+      "fim": 1889,
+      "motor_economico": "Expansão cafeeira (Vale do Paraíba, depois Oeste Paulista) com ferrovias e transição do trabalho escravo para o assalariado e imigrante, sob regime de propriedade pela compra (Lei de Terras).",
+      "potenciais": [
+        "Terra roxa do Oeste Paulista e demanda mundial por café; ferrovias saem de 223 km (1860) para 6.930 km (1885) (Wikipedia, Economic history).",
+        "Capital liberado pela extinção do tráfico (1850) e acumulado no café, que financia ferrovias, bancos e a incipiente indústria (tese clássica, não conferida em fonte específica (não verificado)).",
+        "Oferta potencial de trabalho livre (nacional, liberto e imigrante), que o Estado optou por subsidiar apenas para imigrantes."
+      ],
+      "problemas": [
+        "Lei de Terras (1850): só a compra dá acesso a terras devolutas, o que dificulta o acesso por libertos, posseiros e imigrantes e reforça a concentração; a efetividade foi limitada por fraude e fiscalização fraca (síntese de literatura acadêmica via busca, páginas não abertas).",
+        "Abolição (1888) sem indenização aos libertos nem política de terra, educação ou crédito (historia.json: aurea-1888).",
+        "Dependência do café e de um único mercado comprador (EUA, em período posterior) e do crédito de comissários.",
+        "Desigualdade regional: o Norte e o Nordeste perdem escravos para o Sudeste via tráfico interprovincial (de memória (não verificado))."
+      ],
+      "classes": [
+        {
+          "classe": "Escravizados e libertos",
+          "posicao": "Trabalho forçado, depois liberdade formal sem recursos",
+          "efeito": "Ventre Livre (1871), Sexagenários (1885), Áurea (1888); sem reparação nem terra",
+          "evidencia": "historia.json: ventre-1871, sexa-1885, aurea-1888; a população escrava em 1872 (~1,5 milhão) e em 1887 (não verificado)"
+        },
+        {
+          "classe": "Fazendeiros do Oeste Paulista",
+          "posicao": "Elite agrária modernizadora",
+          "efeito": "Passam a organizar imigração subsidiada e consolidam o poder republicano",
+          "evidencia": "Wikipedia (Economic history): 201 mil imigrantes em SP entre 1884-1890 e 733 mil entre 1891-1900"
+        },
+        {
+          "classe": "Imigrantes europeus",
+          "posicao": "Trabalho assalariado e colonato nos cafezais",
+          "efeito": "Mobilidade parcial, endividamento nas fazendas",
+          "evidencia": "Wikipedia (Imigração): ~71 mil imigrantes/ano entre 1877-1903, 58,5% italianos; subsídio paulista ao imigrante (de memória (não verificado))"
+        },
+        {
+          "classe": "Povos indígenas",
+          "posicao": "Perdem terras de aldeamento potencialmente devolutas",
+          "efeito": "Lei de Terras transforma terra em mercadoria",
+          "evidencia": "historia.json: terras-1850 (terras de aldeamento potencialmente devolutas)"
+        },
+        {
+          "classe": "Camponeses e posseiros",
+          "posicao": "Perdem o direito por posse; precisam titular",
+          "efeito": "Exclusão da propriedade formal",
+          "evidencia": "Síntese de literatura acadêmica sobre Lei de Terras (página não aberta)"
+        },
+        {
+          "classe": "Comerciantes, banqueiros e engenheiros",
+          "posicao": "Elite urbana nascente",
+          "efeito": "Ferrovias, bancos, comércio de importação",
+          "evidencia": "Ferrovias 223 km (1860) a 6.930 km (1885) (Wikipedia, Economic history)"
+        }
+      ],
+      "mudancas_drasticas": [
+        {
+          "id": "cf-1850-eusebio",
+          "data": "1850-09-04",
+          "titulo": "Lei Eusébio de Queirós: fim do tráfico atlântico",
+          "descricao": "Efetiva o fim do tráfico sob pressão britânica; amplia o tráfico interprovincial e libera capital que antes ia ao tráfico (tese corrente, não conferida (não verificado)).",
+          "quem_ganhou": "Cafeicultores do Sudeste (que compram escravos do Nordeste), setores financeiros.",
+          "quem_perdeu": "Africanos traficados e províncias do Norte e Nordeste, que perdem escravos.",
+          "links_historia": [
+            "eusebio-1850"
+          ]
+        },
+        {
+          "id": "cf-1850-terras",
+          "data": "1850-09-18",
+          "titulo": "Lei de Terras",
+          "descricao": "Impede a aquisição de terras devolutas por outro modo que não a compra e regulariza posses e sesmarias.",
+          "quem_ganhou": "Grandes proprietários, que legalizam áreas.",
+          "quem_perdeu": "Libertos, posseiros, indígenas e imigrantes pobres.",
+          "links_historia": [
+            "terras-1850"
+          ]
+        },
+        {
+          "id": "cf-1871-1885-gradual",
+          "data": "1871-1885",
+          "titulo": "Abolição gradual: Ventre Livre e Sexagenários",
+          "descricao": "Reformas que empurram a abolição para o futuro e mantêm a tutela dos senhores.",
+          "quem_ganhou": "Senhores, que ganham tempo e indenizações por serviços.",
+          "quem_perdeu": "Escravizados, na prática.",
+          "links_historia": [
+            "ventre-1871",
+            "sexa-1885"
+          ]
+        },
+        {
+          "id": "cf-1888-aurea",
+          "data": "1888-05-13",
+          "titulo": "Lei Áurea",
+          "descricao": "Extingue a escravidão sem indenização aos libertos nem política de acesso à terra ou à educação; o Brasil foi o último país independente das Américas a abolir (historia.json).",
+          "quem_ganhou": "Abolicionistas e libertos (liberdade formal); cafeicultores paulistas já recorriam à imigração.",
+          "quem_perdeu": "Libertos (sem terra, renda ou instrução), e fazendeiros do Vale do Paraíba, sem mão de obra.",
+          "links_historia": [
+            "aurea-1888"
+          ]
+        }
+      ],
+      "regioes": [
+        "Oeste Paulista (polo do café e da imigração)",
+        "Vale do Paraíba (declínio)",
+        "Nordeste (exportador de escravos e sem imigração)",
+        "Amazônia (início da borracha)"
+      ],
+      "fontes": [
+        {
+          "titulo": "Economic history of Brazil - Wikipedia (en)",
+          "url": "https://en.wikipedia.org/wiki/Economic_history_of_Brazil",
+          "verificado": true
+        },
+        {
+          "titulo": "Imigração no Brasil - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Imigra%C3%A7%C3%A3o_no_Brasil",
+          "verificado": true
+        },
+        {
+          "titulo": "Lei de Terras e concentração fundiária - ANPUH (só trecho de busca)",
+          "url": "https://anpuh.org.br/uploads/anais-simposios/pdf/2019-01/1548856593_0107914a69584e70fa2736d4b4b1b76e.pdf",
+          "verificado": false
+        },
+        {
+          "titulo": "Lei nº 601/1850 (Lei de Terras) - Planalto (URL herdada de historia.json; não aberta aqui)",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lim/lim601.htm",
+          "verificado": false
+        },
+        {
+          "titulo": "Lei nº 581/1850 (Eusébio de Queirós) - Planalto (não aberta aqui)",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lim/lim581.htm",
+          "verificado": false
+        },
+        {
+          "titulo": "Lei nº 3.353/1888 (Lei Áurea) - Planalto (não aberta aqui)",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lim/lim3353.htm",
+          "verificado": false
+        },
+        {
+          "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
+          "url": "docs/HISTORIA.md",
+          "verificado": false
+        }
+      ]
+    },
+    {
+      "id": "borracha-cafe-republica-velha",
+      "rotulo": "Café com leite, borracha e Encilhamento",
+      "inicio": 1889,
+      "fim": 1930,
+      "motor_economico": "Hegemonia do café (51% das exportações em 1901-1910; 63% em 1891, Wikipedia), com valorização estatal (Convênio de Taubaté, 1906), crédito externo, imigração subsidiada e, em paralelo, boom da borracha amazônica (1879-1912) e início da indústria leve.",
+      "potenciais": [
+        "Poder de mercado do Brasil no café: cerca de três quartos da oferta mundial segundo a Wikipedia, o que permitia manipular preços por estoques.",
+        "Fluxo de imigrantes: cerca de 3,52 milhões entre 1890 e 1929, 2,03 milhões para São Paulo (Wikipedia, Imigração, conferido na página, mas números não cruzados).",
+        "Capital cafeeiro que financia ferrovias, comércio e fábricas em São Paulo; indústria têxtil e de alimentos."
+      ],
+      "problemas": [
+        "Monocultura e endividamento: o Convênio de Taubaté socializa perdas via empréstimos externos e não reduz a produção.",
+        "Política dos governadores e voto restrito: o Estado serve às oligarquias estaduais (historia.json: governadores-1898).",
+        "Instabilidade monetária: o Encilhamento (1890-91) expande a emissão e termina em colapso de empresas e inflação.",
+        "Exclusão: libertos sem políticas; analfabetos sem voto; indígenas sob tutela (SPI, 1910).",
+        "Borracha: aviamento, dívida e violência; colapso após 1912 pela concorrência asiática."
+      ],
+      "classes": [
+        {
+          "classe": "Libertos e população negra",
+          "posicao": "Sem reparação, empregos precários e discriminação",
+          "efeito": "Exclusão do voto por analfabetismo e menor acesso ao trabalho assalariado do café, preferido ao imigrante",
+          "evidencia": "historia.json: chibata-1910 como protesto; a preferência pelo imigrante é consenso historiográfico mas não conferida em fonte aberta específica (não verificado)"
+        },
+        {
+          "classe": "Imigrantes (italianos, portugueses, espanhóis, japoneses)",
+          "posicao": "Colonos e assalariados do café; operários nas cidades",
+          "efeito": "Mobilidade desigual, greves e anarquismo (de memória (não verificado))",
+          "evidencia": "Wikipedia (Imigração): 58,5% italianos em 1877-1903; portugueses lideram em 1904-1930"
+        },
+        {
+          "classe": "Cafeicultores paulistas e mineiros",
+          "posicao": "Elite hegemônica ('café com leite')",
+          "efeito": "Valorização do café protege sua renda com risco socializado",
+          "evidencia": "Convênio de Taubaté 26/02/1906: compras com empréstimos externos pagos por imposto de exportação (Wikipedia)"
+        },
+        {
+          "classe": "Seringueiros e nordestinos na Amazônia",
+          "posicao": "Trabalho sob aviamento",
+          "efeito": "Endividamento, doenças e isolamento",
+          "evidencia": "Wikipedia (Ciclo da borracha): aviamento, altas taxas de mortalidade; número exato de migrantes não consta"
+        },
+        {
+          "classe": "Povos indígenas",
+          "posicao": "Violência na frente da borracha e tutela do SPI",
+          "efeito": "Trabalho forçado, massacres e deslocamentos",
+          "evidencia": "Wikipedia (Ciclo da borracha) cita 'deslocamentos forçados e violência'; historia.json: spi-1910"
+        },
+        {
+          "classe": "Operários urbanos",
+          "posicao": "Força de trabalho nascente, sem legislação trabalhista ampla",
+          "efeito": "Jornadas longas, trabalho infantil (de memória (não verificado))",
+          "evidencia": "Não conferido em fonte específica (não verificado)"
+        },
+        {
+          "classe": "Banqueiros e especuladores",
+          "posicao": "Beneficiários do Encilhamento",
+          "efeito": "Concentração de riqueza após o colapso",
+          "evidencia": "Wikipedia (Encilhamento): ~90 empresas listadas em 1888 e ~450 em 1891; 'concentrou riqueza entre elites'"
+        }
+      ],
+      "mudancas_drasticas": [
+        {
+          "id": "rv-1890-encilhamento",
+          "data": "1890-1892",
+          "titulo": "Encilhamento",
+          "descricao": "Política de crédito liberal e emissão de papel-moeda sob Rui Barbosa (decreto de 17/01/1890); a bolha estoura em 1890-91 com a quebra da Baring e o calote argentino; inflação e falências; recuperação só no início do século XX sob austeridade.",
+          "quem_ganhou": "Especuladores bem posicionados e elites financeiras.",
+          "quem_perdeu": "Pequenos investidores, consumidores urbanos (inflação) e o Tesouro.",
+          "links_historia": [
+            "rep-1889",
+            "c1891"
+          ]
+        },
+        {
+          "id": "rv-1906-taubate",
+          "data": "1906-02-26",
+          "titulo": "Convênio de Taubaté e valorização do café",
+          "descricao": "SP, MG e RJ acordam comprar excedentes com empréstimos externos, pagos por imposto de exportação em ouro; a produção continuou a crescer.",
+          "quem_ganhou": "Cafeicultores (renda garantida).",
+          "quem_perdeu": "Contribuintes, consumidores, setores sem proteção e a diversificação econômica.",
+          "links_historia": [
+            "governadores-1898"
+          ]
+        },
+        {
+          "id": "rv-1912-borracha",
+          "data": "c. 1910-1912",
+          "titulo": "Colapso da borracha amazônica",
+          "descricao": "A produção asiática supera a amazônica na década de 1910; comércio e urbanização de Manaus e Belém sofrem.",
+          "quem_ganhou": "Plantadores asiáticos (britânicos e holandeses).",
+          "quem_perdeu": "Seringueiros, casas comerciais, cidades amazônicas.",
+          "links_historia": [
+            "spi-1910"
+          ]
+        },
+        {
+          "id": "rv-1914-guerra",
+          "data": "1914-1918",
+          "titulo": "Primeira Guerra e substituição de importações incidental",
+          "descricao": "Falta de importados estimula a indústria nacional (tese clássica, não conferida (não verificado)).",
+          "quem_ganhou": "Industriais paulistas.",
+          "quem_perdeu": "Importadores.",
+          "links_historia": []
+        }
+      ],
+      "regioes": [
+        "São Paulo (polo cafeeiro, industrial e imigrante)",
+        "Minas Gerais (política e leite)",
+        "Amazônia (borracha: Manaus e Belém)",
+        "Nordeste (fonte de migrantes, estagnação relativa)"
+      ],
+      "fontes": [
+        {
+          "titulo": "Economic history of Brazil - Wikipedia (en)",
+          "url": "https://en.wikipedia.org/wiki/Economic_history_of_Brazil",
+          "verificado": true
+        },
+        {
+          "titulo": "Encilhamento - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Encilhamento",
+          "verificado": true
+        },
+        {
+          "titulo": "Convênio de Taubaté - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Conv%C3%AAnio_de_Taubat%C3%A9",
+          "verificado": true
+        },
+        {
+          "titulo": "Imigração no Brasil - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Imigra%C3%A7%C3%A3o_no_Brasil",
+          "verificado": true
+        },
+        {
+          "titulo": "Ciclo da borracha - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Ciclo_da_borracha",
+          "verificado": true
+        },
+        {
+          "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
+          "url": "docs/HISTORIA.md",
+          "verificado": false
+        }
+      ]
+    },
+    {
+      "id": "industrializacao-vargas",
+      "rotulo": "Crise de 1929, industrialização e Estado Novo",
+      "inicio": 1930,
+      "fim": 1945,
+      "motor_economico": "Colapso do café, intervenção estatal e substituição de importações; criação de instituições (Justiça do Trabalho, CLT, CSN, Vale), com apoio norte-americano na Segunda Guerra.",
+      "potenciais": [
+        "Capital e mercado interno gerados pelo café e por estoques comprados e queimados pelo governo, que mantiveram renda e protegeram implicitamente a indústria (Wikipedia, Economic history).",
+        "Minério de ferro, hidrelétricas potenciais e posição estratégica no Atlântico, usada para barganhar financiamento da CSN com os EUA nos Acordos de Washington (Wikipedia, CSN).",
+        "Massa de trabalhadores urbanos a organizar por legislação e sindicato oficial."
+      ],
+      "problemas": [
+        "Falta de estratégia nacional de desenvolvimento: a Wikipedia (Crise de 1929) observa que o crescimento industrial era limitado por falta de orientação nacional.",
+        "Dívida acumulada na defesa do café e dependência de bens de capital importados.",
+        "Autoritarismo: sindicato atrelado ao Estado e fim dos partidos em 1937 (historia.json).",
+        "Direitos urbanos sem extensão ao campo: trabalhadores rurais e domésticos inicialmente fora da CLT, de acordo com a Wikipedia, 'historicamente'."
+      ],
+      "classes": [
+        {
+          "classe": "Trabalhadores urbanos formais",
+          "posicao": "Beneficiários de direitos regulados",
+          "efeito": "CLT (DL 5.452, 01/05/1943), Justiça do Trabalho e salário mínimo; também controle sindical",
+          "evidencia": "Wikipedia (CLT): 922 artigos, vigência em 09/08/1943; salário mínimo de 1940, de memória (não verificado)"
+        },
+        {
+          "classe": "Trabalhadores rurais e domésticos",
+          "posicao": "Excluídos da regulação",
+          "efeito": "Sem proteção até a Constituição de 1988 e a EC 72/2013",
+          "evidencia": "Wikipedia (CLT): rurais e domésticos não cobertos inicialmente; EC 72/2013 estendeu direitos"
+        },
+        {
+          "classe": "Cafeicultores",
+          "posicao": "Perdem poder político após 1930, mantêm renda via compra estatal",
+          "efeito": "Estado assume dívidas do café",
+          "evidencia": "Wikipedia (Convênio de Taubaté e Crise de 1929): governo federal assume obrigações e queima café"
+        },
+        {
+          "classe": "Industriais e burocracia estatal",
+          "posicao": "Ganham proteção cambial, tarifária e crédito",
+          "efeito": "Indústria acelera após 1930",
+          "evidencia": "Wikipedia (Economic history): crise estimula indústria; CSN criada em 1941"
+        },
+        {
+          "classe": "Povos indígenas",
+          "posicao": "Marcha para o Oeste e frentes de expansão",
+          "efeito": "Contatos e epidemias na expansão do Centro-Oeste",
+          "evidencia": "historia.json: oeste-1943"
+        },
+        {
+          "classe": "População negra e imigrantes",
+          "posicao": "Frente Negra (1931) até a extinção em 1937; imigração diminui",
+          "efeito": "Imigração cai para ~33,5 mil por ano (1931-1963)",
+          "evidencia": "Wikipedia (Imigração) e historia.json: fnb-1931"
+        }
+      ],
+      "mudancas_drasticas": [
+        {
+          "id": "iv-1929-crash",
+          "data": "1929-1930",
+          "titulo": "Crash de 1929 e queda do café",
+          "descricao": "Os EUA, maior comprador, reduzem importações; preços desabam; o governo compra e queima café, endividando-se.",
+          "quem_ganhou": "Industriais e o Estado centralizador, em retrospecto.",
+          "quem_perdeu": "Cafeicultores e trabalhadores rurais.",
+          "links_historia": [
+            "rev-1930"
+          ]
+        },
+        {
+          "id": "iv-1930-revolucao",
+          "data": "1930-10-24",
+          "titulo": "Revolução de 1930",
+          "descricao": "Fim da República Velha, concentração de poder no Executivo e início de política econômica federal ativa.",
+          "quem_ganhou": "Novas elites políticas, militares e industriais.",
+          "quem_perdeu": "Oligarquias cafeeiras paulistas.",
+          "links_historia": [
+            "rev-1930",
+            "rev-1932"
+          ]
+        },
+        {
+          "id": "iv-1937-estadonovo",
+          "data": "1937-11-10",
+          "titulo": "Estado Novo",
+          "descricao": "Ditadura com decretos-lei; base para CSN, Vale e CLT.",
+          "quem_ganhou": "Burocracia estatal e industriais; trabalhadores formais.",
+          "quem_perdeu": "Oposições políticas, sindicatos autônomos, Frente Negra (extinta).",
+          "links_historia": [
+            "estado-novo-1937",
+            "fnb-1931"
+          ]
+        },
+        {
+          "id": "iv-1941-csn",
+          "data": "1941-04-09",
+          "titulo": "Companhia Siderúrgica Nacional",
+          "descricao": "Siderurgia estatal em Volta Redonda (operação em 1946), financiada pelo Eximbank em troca do alinhamento aos Aliados.",
+          "quem_ganhou": "Indústria nacional de base e Vale do Paraíba.",
+          "quem_perdeu": "Nenhum perdedor direto identificado nesta rodada.",
+          "links_historia": [
+            "oeste-1943"
+          ]
+        },
+        {
+          "id": "iv-1943-clt",
+          "data": "1943-05-01",
+          "titulo": "CLT",
+          "descricao": "Consolida a legislação trabalhista urbana (DL 5.452).",
+          "quem_ganhou": "Trabalhadores formais urbanos; Estado (controle sindical).",
+          "quem_perdeu": "Trabalhadores informais, rurais e domésticos, excluídos.",
+          "links_historia": [
+            "estado-novo-1937"
+          ]
+        }
+      ],
+      "regioes": [
+        "Sudeste (indústria e CSN)",
+        "Centro-Oeste (Marcha para o Oeste)",
+        "Nordeste (quase sem industrialização)"
+      ],
+      "fontes": [
+        {
+          "titulo": "Crise de 1929 - Wikipedia (pt), trecho sobre o Brasil",
+          "url": "https://pt.wikipedia.org/wiki/Crise_de_1929",
+          "verificado": true
+        },
+        {
+          "titulo": "Convênio de Taubaté - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Conv%C3%AAnio_de_Taubat%C3%A9",
+          "verificado": true
+        },
+        {
+          "titulo": "Companhia Siderúrgica Nacional - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Companhia_Sider%C3%BArgica_Nacional",
+          "verificado": true
+        },
+        {
+          "titulo": "Consolidação das Leis do Trabalho - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Consolida%C3%A7%C3%A3o_das_Leis_do_Trabalho",
+          "verificado": true
+        },
+        {
+          "titulo": "Economic history of Brazil - Wikipedia (en)",
+          "url": "https://en.wikipedia.org/wiki/Economic_history_of_Brazil",
+          "verificado": true
+        },
+        {
+          "titulo": "Imigração no Brasil - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Imigra%C3%A7%C3%A3o_no_Brasil",
+          "verificado": true
+        },
+        {
+          "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
+          "url": "docs/HISTORIA.md",
+          "verificado": false
+        }
+      ]
+    },
+    {
+      "id": "desenvolvimentismo",
+      "rotulo": "Desenvolvimentismo e substituição de importações",
+      "inicio": 1946,
+      "fim": 1964,
+      "motor_economico": "Industrialização por substituição de importações com forte papel do Estado (Plano de Metas, 1956-61), capital estrangeiro (indústria automobilística) e inflação crescente; crescimento do PIB acima de 7% ao ano entre 1950 e 1961.",
+      "potenciais": [
+        "Mercado interno urbano e demanda reprimida por bens duráveis; durável sobe de 6% para 18% do valor adicionado industrial entre 1949 e 1960 (Wikipedia, Economic history).",
+        "Energia (de 2.806 MW em 1954 para 5.783 MW em 1962), rodovias e a indústria automobilística via GEIA (Wikipedia, Plano de Metas).",
+        "Capital externo e Estado planejador (BNDE, de memória (não verificado))."
+      ],
+      "problemas": [
+        "Inflação e déficit externo: o plano priorizou crescimento sobre estabilidade (Wikipedia, Plano de Metas).",
+        "Concentração regional: industrialização no Centro-Sul; SUDENE só em 1959; a agricultura cresceu cerca de 40% (Wikipedia).",
+        "Questão agrária não enfrentada; reforma agrária como pauta de 1961-64 (de memória (não verificado)).",
+        "Instabilidade política (suicídio de Vargas, renúncia de Jânio, plebiscito) e aumento da polarização."
+      ],
+      "classes": [
+        {
+          "classe": "Trabalhadores urbanos industriais",
+          "posicao": "Crescimento do emprego e da organização sindical",
+          "efeito": "Ganhos reais parciais; greve e mobilização crescente",
+          "evidencia": "Indústria cresceu mais de 9% a.a. entre 1950 e 1961 (Wikipedia, Economic history); salários reais, de memória (não verificado)"
+        },
+        {
+          "classe": "Industriais e capital estrangeiro",
+          "posicao": "Beneficiários de proteção e crédito",
+          "efeito": "Automobilística, bens de capital",
+          "evidencia": "Plano de Metas: 30 metas; GEIA; ~43% dos investimentos em bens e serviços importados (Wikipedia)"
+        },
+        {
+          "classe": "Camponeses, posseiros e trabalhadores rurais",
+          "posicao": "Sem direitos trabalhistas, migração rural-urbana",
+          "efeito": "Êxodo para o Sudeste e conflitos por terra",
+          "evidencia": "Agricultura cresceu ~40% (Wikipedia); êxodo e Ligas Camponesas de memória (não verificado)"
+        },
+        {
+          "classe": "Classe média urbana",
+          "posicao": "Cresce com burocracia, serviços e consumo",
+          "efeito": "Consumo de duráveis, mas corroída pela inflação",
+          "evidencia": "Não conferido em fonte específica (não verificado)"
+        },
+        {
+          "classe": "Povos indígenas",
+          "posicao": "Parque Indígena do Xingu (1961) e expansão do Centro-Oeste e de Brasília",
+          "efeito": "Proteção parcial e pressão por estradas",
+          "evidencia": "historia.json: xingu-1961"
+        },
+        {
+          "classe": "Nordeste e regiões periféricas",
+          "posicao": "Atrasadas em industrialização",
+          "efeito": "SUDENE (1959) como resposta limitada",
+          "evidencia": "Wikipedia (Plano de Metas): SUDENE criada em 1959"
+        }
+      ],
+      "mudancas_drasticas": [
+        {
+          "id": "de-1951-vargas",
+          "data": "1951-1954",
+          "titulo": "Segundo governo Vargas e criação da Petrobras",
+          "descricao": "Nacionalismo econômico e Petrobras (1953, de memória (não verificado)).",
+          "quem_ganhou": "Estado e nacionalistas.",
+          "quem_perdeu": "Capital estrangeiro do petróleo.",
+          "links_historia": [
+            "vargas-1954"
+          ]
+        },
+        {
+          "id": "de-1956-metas",
+          "data": "1956-1961",
+          "titulo": "Plano de Metas e Brasília",
+          "descricao": "30 metas em cinco setores (energia, transporte, alimentação, indústria de base, educação); Brasília e Belém-Brasília reforçam a ocupação do interior; a inflação sobe.",
+          "quem_ganhou": "Industriais, capital estrangeiro e classes urbanas do Centro-Sul.",
+          "quem_perdeu": "Regiões periféricas, agricultura e poupadores (inflação).",
+          "links_historia": [
+            "c1946",
+            "lott-1955",
+            "xingu-1961"
+          ]
+        },
+        {
+          "id": "de-1961-crise",
+          "data": "1961-1964",
+          "titulo": "Crise política e econômica",
+          "descricao": "Renúncia de Jânio, parlamentarismo, plebiscito, inflação e estagnação; reformas de base não aprovadas.",
+          "quem_ganhou": "Setores que apoiavam o golpe de 1964.",
+          "quem_perdeu": "Trabalhadores organizados e camponeses.",
+          "links_historia": [
+            "janio-1961",
+            "plebiscito-1963",
+            "golpe-1964"
+          ]
+        }
+      ],
+      "regioes": [
+        "Centro-Sul (SP, RJ, MG, indústria)",
+        "Nordeste (SUDENE)",
+        "Centro-Oeste (Brasília)",
+        "Amazônia (Belém-Brasília)"
+      ],
+      "fontes": [
+        {
+          "titulo": "Plano de Metas - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Plano_de_Metas",
+          "verificado": true
+        },
+        {
+          "titulo": "Economic history of Brazil - Wikipedia (en)",
+          "url": "https://en.wikipedia.org/wiki/Economic_history_of_Brazil",
+          "verificado": true
+        },
+        {
+          "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
+          "url": "docs/HISTORIA.md",
+          "verificado": false
+        }
+      ]
+    },
+    {
+      "id": "milagre-endividamento",
+      "rotulo": "Ditadura, milagre econômico e endividamento",
+      "inicio": 1964,
+      "fim": 1980,
+      "motor_economico": "Crescimento acelerado com Estado e capital estrangeiro (milagre 1968-73, PIB acima de 10% ao ano), depois endividamento externo no II PND (1974-80) após o choque do petróleo.",
+      "potenciais": [
+        "Crédito internacional abundante; PIB médio de 11,1% em 1968-73 (Wikipedia, Economic history) e 6,9% em 1974-80.",
+        "Exportações industriais: de US$1,4 bi (1963) para US$6,2 bi (1973); manufaturados de 5% para 29% da pauta (Wikipedia).",
+        "Estrutura estatal (estatais, BNDE, infraestrutura) e fronteira agrícola e amazônica."
+      ],
+      "problemas": [
+        "Arrocho salarial e concentração de renda: a Wikipedia cita Gini de 0,581 (1970) a 0,589 (1979) e interpreta como sem grande aumento, enquanto o topo 5% teria chegado a 36,3% da renda; o debate sobre a concentração (Langoni e críticos) não foi conferido nesta rodada.",
+        "Dívida externa: de US$6,4 bi (1963) a quase US$54 bi (1980) segundo a Wikipedia (Economic history), e 'US$90 bi no fim dos anos 1970' em outra página da mesma enciclopédia; a divergência decorre provavelmente de definição bruta/líquida e de curto prazo, e não foi resolvida.",
+        "Violência do Estado, repressão política e censura (historia.json).",
+        "Impacto ambiental e indígena: Transamazônica e BR-174 (historia.json: transam-1970, wai-1974)."
+      ],
+      "classes": [
+        {
+          "classe": "Trabalhadores urbanos",
+          "posicao": "Salário mínimo contido, sindicatos sob intervenção",
+          "efeito": "Arrocho e rotatividade; porém salário mínimo real cresceu entre 1969 e 1973 segundo a Wikipedia (milagre)",
+          "evidencia": "Evidência divergente entre o discurso do 'arrocho' e a página consultada; matéria disputada (não verificado)"
+        },
+        {
+          "classe": "Classe média urbana",
+          "posicao": "Beneficiária do crédito ao consumo e do emprego em serviços e estatais",
+          "efeito": "Ampliação do consumo de duráveis",
+          "evidencia": "Não conferido em fonte específica (não verificado)"
+        },
+        {
+          "classe": "Elites industriais e financeiras",
+          "posicao": "Aliadas do regime",
+          "efeito": "Crédito subsidiado, capital externo e grandes obras",
+          "evidencia": "Wikipedia (milagre): topo 5% com 36,3% da renda"
+        },
+        {
+          "classe": "Camponeses e posseiros",
+          "posicao": "Expulsão de terras, conflitos na Amazônia e Araguaia",
+          "efeito": "Colonização dirigida e latifúndios agropecuários",
+          "evidencia": "historia.json: araguaia-1972"
+        },
+        {
+          "classe": "Povos indígenas",
+          "posicao": "Obras de integração e remoções",
+          "efeito": "Mortes, epidemias, perda de terras",
+          "evidencia": "historia.json: transam-1970, wai-1974; CNV cita ao menos 8.350 indígenas mortos (HISTORIA.md)"
+        },
+        {
+          "classe": "Mulheres e população negra",
+          "posicao": "Trabalho precário, domésticas sem direitos; censura ao tema racial",
+          "efeito": "Exclusão persistente; MNU (1978) reorganiza o movimento",
+          "evidencia": "historia.json: mnu-1978"
+        },
+        {
+          "classe": "Servidores e militares",
+          "posicao": "Expansão do Estado",
+          "efeito": "Emprego público e estatais",
+          "evidencia": "Não conferido (não verificado)"
+        }
+      ],
+      "mudancas_drasticas": [
+        {
+          "id": "mi-1964-golpe",
+          "data": "1964-03-31",
+          "titulo": "Golpe de 1964 e PAEG",
+          "descricao": "Programa de ajuste (PAEG, de memória (não verificado)) com controle salarial; AI-1 e AI-5 retiram contrapesos.",
+          "quem_ganhou": "Elites empresariais, capital externo e setores civis aliados.",
+          "quem_perdeu": "Sindicatos, camponeses e oposição.",
+          "links_historia": [
+            "golpe-1964",
+            "ai1-1964",
+            "ai5-1968"
+          ]
+        },
+        {
+          "id": "mi-1968-milagre",
+          "data": "1968-1973",
+          "titulo": "Milagre econômico",
+          "descricao": "PIB cresce em média acima de 10% a.a. (Wikipedia) com inflação em torno de 15-20%.",
+          "quem_ganhou": "Indústria, exportadores, classes médias e altas.",
+          "quem_perdeu": "Trabalhadores de baixa renda, em termos relativos; ambiente e indígenas.",
+          "links_historia": [
+            "ai5-1968",
+            "transam-1970"
+          ]
+        },
+        {
+          "id": "mi-1973-petroleo",
+          "data": "1973-1979",
+          "titulo": "Choque do petróleo e II PND",
+          "descricao": "O governo opta por crescer com dívida externa; juros internacionais sobem de 7,7% (1977) para 21,5% (1980) e preços das commodities caem (trecho de busca, PUC-Rio).",
+          "quem_ganhou": "Estatais, empreiteiras e bancos credores.",
+          "quem_perdeu": "Tesouro e gerações seguintes, pelo serviço da dívida.",
+          "links_historia": []
+        }
+      ],
+      "regioes": [
+        "Sudeste (indústria)",
+        "Amazônia (Transamazônica, projetos minerais e agropecuários)",
+        "Centro-Oeste (fronteira agrícola)",
+        "Nordeste (SUDENE, migração para o Sudeste)"
+      ],
+      "fontes": [
+        {
+          "titulo": "Milagre econômico brasileiro - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Milagre_econ%C3%B4mico_brasileiro",
+          "verificado": true
+        },
+        {
+          "titulo": "Economic history of Brazil - Wikipedia (en)",
+          "url": "https://en.wikipedia.org/wiki/Economic_history_of_Brazil",
+          "verificado": true
+        },
+        {
+          "titulo": "PUC-Rio TD 158, dívida externa (só trecho de busca)",
+          "url": "https://www.econ.puc-rio.br/uploads/adm/trabalhos/files/td158.pdf",
+          "verificado": false
+        },
+        {
+          "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
+          "url": "docs/HISTORIA.md",
+          "verificado": false
+        }
+      ]
+    },
+    {
+      "id": "decada-perdida-hiperinflacao",
+      "rotulo": "Década perdida, crise da dívida e hiperinflação",
+      "inicio": 1980,
+      "fim": 1994,
+      "motor_economico": "Economia sem motor externo: crise da dívida pós-1982, ajuste recessivo, inflação crônica e indexação, tentativas heterodoxas de estabilização (Cruzado 1986, Bresser 1987, Verão 1989, Collor 1990) e redemocratização com a Constituição de 1988.",
+      "potenciais": [
+        "Parque industrial já instalado e superávits comerciais obtidos ao longo dos anos 1980 pela contração (de memória (não verificado)).",
+        "Capacidade técnica estatal (BC, Tesouro, IBGE) e o capital político da redemocratização.",
+        "Mercado interno de grande escala, a ser ancorado em estabilidade monetária futura."
+      ],
+      "problemas": [
+        "Dívida externa: US$74,4 bi em 1982 (mais de US$90 bi incluindo curto prazo) após a moratória mexicana de agosto de 1982; acordo com o FMI em 1983 e moratória unilateral em 1987 (resumo de busca, PUC-Rio).",
+        "Inflação: aproximadamente 2.000% em 1993 (Wikipedia, Economic history) ou 2.700% (resumo de busca) conforme o índice; a divergência não foi resolvida.",
+        "Renda per capita: queda de 6% entre 1981 e 1992 e crescimento médio de 2,9% (Wikipedia, Economic history).",
+        "Desigualdade elevada e crescimento da informalidade (de memória (não verificado)).",
+        "Indexação desigual: quem tinha acesso a ativos indexados se protegia; o assalariado de baixa renda e o não bancarizado pagavam o imposto inflacionário (interpretação corrente; não conferida em fonte específica (não verificado))."
+      ],
+      "classes": [
+        {
+          "classe": "Assalariados de baixa renda e informais",
+          "posicao": "Maiores pagadores do imposto inflacionário",
+          "efeito": "Perda de poder de compra e informalidade",
+          "evidencia": "Inflação de ~2.000% a 2.700% em 1993 (fontes divergentes); papel do imposto inflacionário não conferido (não verificado)"
+        },
+        {
+          "classe": "Poupadores e classe média",
+          "posicao": "Atingidos por planos de estabilização",
+          "efeito": "Plano Collor: bloqueio de 80% dos depósitos acima de NCz$50 mil por 18 meses",
+          "evidencia": "Wikipedia (Plano Collor); inflação mensal de 81% em março de 1990 e 9% em junho"
+        },
+        {
+          "classe": "Bancos e detentores de ativos indexados",
+          "posicao": "Ganharam com o 'floating' inflacionário",
+          "efeito": "Lucros bancários com a inflação",
+          "evidencia": "Tese corrente, não conferida em fonte específica (não verificado)"
+        },
+        {
+          "classe": "Servidores públicos",
+          "posicao": "Perdas salariais reais e crise fiscal",
+          "efeito": "Arrocho do funcionalismo e depois estabilidade na CF/88",
+          "evidencia": "Não conferido (não verificado)"
+        },
+        {
+          "classe": "Povos indígenas e quilombolas",
+          "posicao": "Direitos constitucionais em 1988 (arts. 231-232; ADCT art. 68)",
+          "efeito": "Reconhecimento formal, execução lenta",
+          "evidencia": "historia.json: indigena-231-1988, adct68-1988"
+        },
+        {
+          "classe": "Mulheres e população negra",
+          "posicao": "Constituição de 1988 e Lei Caó (1989)",
+          "efeito": "Direitos civis ampliados; igualdade econômica distante",
+          "evidencia": "historia.json: l7716-1989; indicadores salariais (não verificado)"
+        },
+        {
+          "classe": "Devedores externos e Estado",
+          "posicao": "Tesouro assume a dívida privada externa (de memória (não verificado))",
+          "efeito": "Socialização da dívida",
+          "evidencia": "Não conferido (não verificado)"
+        }
+      ],
+      "mudancas_drasticas": [
+        {
+          "id": "dp-1982-divida",
+          "data": "1982-1983",
+          "titulo": "Crise da dívida externa",
+          "descricao": "Moratória mexicana de agosto de 1982; o Brasil recorre ao FMI (acordo em 1983) e gera superávits para pagar juros; a década perdida segue com PIB per capita em queda até 1992.",
+          "quem_ganhou": "Bancos credores internacionais.",
+          "quem_perdeu": "Trabalhadores, Estado e investimento público.",
+          "links_historia": [
+            "dante-1984"
+          ]
+        },
+        {
+          "id": "dp-1986-cruzado",
+          "data": "1986-1989",
+          "titulo": "Planos Cruzado, Bresser e Verão",
+          "descricao": "Congelamentos de preços e proibição de indexação sem sustentação fiscal; fracassam em reduzir a inflação (Wikipedia, Economic history). A data do Cruzado (fev/1986) e do Verão (jan/1989) é de memória (não verificado).",
+          "quem_ganhou": "Alguns grupos no curto prazo.",
+          "quem_perdeu": "Consumidores e credibilidade do governo.",
+          "links_historia": [
+            "constituinte-1987"
+          ]
+        },
+        {
+          "id": "dp-1988-cf",
+          "data": "1988-10-05",
+          "titulo": "Constituição de 1988",
+          "descricao": "Amplia direitos sociais, cria a seguridade social e o SUS (de memória (não verificado)) e reconhece direitos indígenas e quilombolas.",
+          "quem_ganhou": "Trabalhadores, indígenas, quilombolas, servidores.",
+          "quem_perdeu": "Pressão fiscal futura (debate).",
+          "links_historia": [
+            "cf88-1988",
+            "indigena-231-1988",
+            "adct68-1988"
+          ]
+        },
+        {
+          "id": "dp-1990-collor",
+          "data": "1990-03-16",
+          "titulo": "Plano Collor (confisco)",
+          "descricao": "Bloqueio de 80% dos depósitos acima de NCz$50.000 por 18 meses, retirada de cerca de 80% do meio circulante e troca do cruzado novo pelo cruzeiro 1:1; inflação cai de 81% em março para 9% em junho e volta a 20% em janeiro de 1991 (Wikipedia).",
+          "quem_ganhou": "Governo (efeito fiscal de curto prazo).",
+          "quem_perdeu": "Poupadores e empresas; recessão com forte queda do comércio e da produção.",
+          "links_historia": [
+            "collor-1989",
+            "collor-impeach-1992"
+          ]
+        },
+        {
+          "id": "dp-1993-hiper",
+          "data": "1993-1994",
+          "titulo": "Pico inflacionário",
+          "descricao": "Inflação mensal de 46,58% em junho de 1994, às vésperas do Real (Wikipedia, Plano Real).",
+          "quem_ganhou": "Detentores de ativos indexados.",
+          "quem_perdeu": "Assalariados de baixa renda.",
+          "links_historia": [
+            "real-1994"
+          ]
+        }
+      ],
+      "regioes": [
+        "Sudeste (urbano, industrial)",
+        "Nordeste (pobreza, migração)",
+        "Amazônia (colonização e garimpo, de memória (não verificado))"
+      ],
+      "fontes": [
+        {
+          "titulo": "Economic history of Brazil - Wikipedia (en)",
+          "url": "https://en.wikipedia.org/wiki/Economic_history_of_Brazil",
+          "verificado": true
+        },
+        {
+          "titulo": "Plano Collor - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Plano_Collor",
+          "verificado": true
+        },
+        {
+          "titulo": "Plano Real - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Plano_Real",
+          "verificado": true
+        },
+        {
+          "titulo": "PUC-Rio TD 158, dívida externa (só trecho de busca)",
+          "url": "https://www.econ.puc-rio.br/uploads/adm/trabalhos/files/td158.pdf",
+          "verificado": false
+        },
+        {
+          "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
+          "url": "docs/HISTORIA.md",
+          "verificado": false
+        }
+      ]
+    },
+    {
+      "id": "estabilizacao-real",
+      "rotulo": "Plano Real, abertura e privatizações",
+      "inicio": 1994,
+      "fim": 2002,
+      "motor_economico": "Estabilização monetária com âncora cambial (R$1 = US$1 em julho de 1994), abertura comercial, privatizações, reformas institucionais (LRF 2000) e dependência de capitais de curto prazo; crises externas e mudança do câmbio em 1999 (de memória (não verificado)).",
+      "potenciais": [
+        "Estabilidade de preços liberta o consumo popular: o Real incluiu cerca de 25 milhões de pessoas no consumo, segundo a Wikipedia (Economic history; número não cruzado).",
+        "Mercado de infraestrutura aberto ao capital privado (telecomunicações, mineração, energia) e modernização regulatória (agências).",
+        "Capacidade institucional do BC e do Tesouro; LRF (2000) como regra fiscal."
+      ],
+      "problemas": [
+        "Âncora cambial valorizada: o dólar chegou a R$0,85 em novembro de 1994 (Wikipedia) e deteriorou a balança comercial (de memória (não verificado)).",
+        "Juros altos e dívida pública crescente (de memória (não verificado)).",
+        "Privatização com desindustrialização relativa e debate sobre preços e tarifas; arrecadação do PND no governo Itamar: US$4,6 bi mais US$1,9 bi de dívida transferida (resumo de busca).",
+        "Desigualdade de renda ainda elevada, Gini de 0,587 em 2002 (resumo de busca).",
+        "Reforma agrária lenta e informalidade, sem dados conferidos (não verificado)."
+      ],
+      "classes": [
+        {
+          "classe": "Trabalhadores de baixa renda",
+          "posicao": "Fim do imposto inflacionário",
+          "efeito": "Ganho de poder de compra com o Real",
+          "evidencia": "Primeiro IPC pós-Real de 6,08% (Wikipedia, Plano Real); 25 milhões incluídos no consumo (Wikipedia)"
+        },
+        {
+          "classe": "Classe média",
+          "posicao": "Crédito e consumo, mas desemprego urbano em alta no fim da década",
+          "efeito": "Beneficiária da estabilidade; vulnerável ao desemprego",
+          "evidencia": "Desemprego sem fonte conferida (não verificado)"
+        },
+        {
+          "classe": "Banqueiros e financeiras",
+          "posicao": "Lucros com juros altos e ativos públicos",
+          "efeito": "Rentabilidade elevada",
+          "evidencia": "Não conferido (não verificado)"
+        },
+        {
+          "classe": "Servidores públicos",
+          "posicao": "Reformas administrativas e da Previdência (1998)",
+          "efeito": "Perdas salariais e mudanças de carreira",
+          "evidencia": "Não conferido (não verificado)"
+        },
+        {
+          "classe": "Operários da indústria",
+          "posicao": "Abertura comercial pressiona a indústria",
+          "efeito": "Perda de postos formais na indústria de transformação",
+          "evidencia": "Não conferido (não verificado)"
+        },
+        {
+          "classe": "Povos indígenas",
+          "posicao": "Decreto 1.775/1996 e contraditório",
+          "efeito": "Demarcação ganha rito e mais judicialização",
+          "evidencia": "historia.json: d1775-1996"
+        },
+        {
+          "classe": "Empresas estatais privatizadas e compradores",
+          "posicao": "Novos donos da Vale (1997), Telebrás (1998) e outros",
+          "efeito": "Transferência de patrimônio público",
+          "evidencia": "Telebrás desmembrada em 12 empresas em 1998 (resumo de busca); data da Vale de memória (não verificado)"
+        }
+      ],
+      "mudancas_drasticas": [
+        {
+          "id": "er-1994-real",
+          "data": "1994-07-01",
+          "titulo": "Plano Real",
+          "descricao": "URV desde 1º de março de 1994, conversão de CR$2.750 a R$1,00 e âncora de R$1 = US$1 (Wikipedia); a inflação cai e o dólar chega a R$0,85 em novembro de 1994.",
+          "quem_ganhou": "Assalariados e consumidores de baixa renda; governo FHC.",
+          "quem_perdeu": "Exportadores, indústria exposta ao câmbio valorizado e devedores externos.",
+          "links_historia": [
+            "real-1994"
+          ]
+        },
+        {
+          "id": "er-1990s-privatizacao",
+          "data": "1990-2002",
+          "titulo": "Privatizações e Programa Nacional de Desestatização",
+          "descricao": "Lei 8.031/1990 (de memória (não verificado)) e leilões de siderúrgicas, Vale (1997), telecomunicações (1998); o governo Itamar privatizou 15 empresas por US$4,6 bi (busca).",
+          "quem_ganhou": "Compradores, consumidores de telefonia (expansão da oferta) e Tesouro (receita).",
+          "quem_perdeu": "Servidores das estatais e a política industrial.",
+          "links_historia": [
+            "real-1994"
+          ]
+        },
+        {
+          "id": "er-1997-reeleicao",
+          "data": "1997-06-04",
+          "titulo": "Reeleição (EC 16/1997)",
+          "descricao": "Altera a dinâmica política do ciclo de estabilização.",
+          "quem_ganhou": "Governo FHC.",
+          "quem_perdeu": "Oposição.",
+          "links_historia": [
+            "ec16-1997"
+          ]
+        },
+        {
+          "id": "er-2000-lrf",
+          "data": "2000-05-04",
+          "titulo": "Lei de Responsabilidade Fiscal",
+          "descricao": "Limites de despesa com pessoal e endividamento para União, estados e municípios.",
+          "quem_ganhou": "Credores e estabilidade fiscal.",
+          "quem_perdeu": "Gestores com pouca margem; serviços públicos em municípios.",
+          "links_historia": [
+            "lrf-2000"
+          ]
+        }
+      ],
+      "regioes": [
+        "Sudeste (privatizações e serviços)",
+        "Nordeste (pouca industrialização, aumento do consumo)",
+        "Centro-Oeste (agronegócio emergente)"
+      ],
+      "fontes": [
+        {
+          "titulo": "Plano Real - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Plano_Real",
+          "verificado": true
+        },
+        {
+          "titulo": "Economic history of Brazil - Wikipedia (en)",
+          "url": "https://en.wikipedia.org/wiki/Economic_history_of_Brazil",
+          "verificado": true
+        },
+        {
+          "titulo": "Privatização no Brasil - Politize! (só trecho de busca)",
+          "url": "https://www.politize.com.br/privatizacao-no-brasil/",
+          "verificado": false
+        },
+        {
+          "titulo": "Gini 2002-2014 (PNAD) - IPECE NT 14 (só trecho de busca)",
+          "url": "https://www.ipece.ce.gov.br/wp-content/uploads/sites/45/2012/12/NT_14.pdf",
+          "verificado": false
+        },
+        {
+          "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
+          "url": "docs/HISTORIA.md",
+          "verificado": false
+        }
+      ]
+    },
+    {
+      "id": "boom-commodities-inclusao",
+      "rotulo": "Boom de commodities e inclusão social",
+      "inicio": 2003,
+      "fim": 2014,
+      "motor_economico": "Alta dos preços de commodities e da demanda chinesa (de memória (não verificado)), expansão do crédito e do mercado interno, valorização do salário mínimo e transferências (Bolsa Família), com crescimento de 5,7% (2004), 6,1% (2007), 5,1% (2008) e 7,5% (2010) (Wikipedia, Economic history).",
+      "potenciais": [
+        "Agronegócio e mineração competitivos (soja, minério de ferro, petróleo pré-sal; de memória (não verificado)).",
+        "Estado capaz de transferir renda em escala: o Bolsa Família atendeu 12,7 milhões de famílias em 2010 por cerca de 0,4% do PIB em 2006 (Wikipedia).",
+        "Mercado interno de massa com crédito e emprego formal."
+      ],
+      "problemas": [
+        "Reprimarização: a pauta volta a depender de commodities (de memória (não verificado)).",
+        "Desigualdade ainda muito alta: Gini cai de 0,587 (2002) para 0,497 (2014) segundo resumo de busca (PNAD, renda domiciliar); o ritmo de queda estaciona em 2011-2013.",
+        "Baixa produtividade e investimento, e carga tributária regressiva (de memória (não verificado)).",
+        "Dependência política de coalizões e escândalos (Mensalão 2005-2012; historia.json: mensalao-2012)."
+      ],
+      "classes": [
+        {
+          "classe": "Pobres e extremamente pobres",
+          "posicao": "Beneficiários de transferências e do emprego formal",
+          "efeito": "Queda de 75% da pobreza extrema entre 2001 e 2014, com múltiplas causas",
+          "evidencia": "Wikipedia (Bolsa Família): -75% entre 2001-2014; contribuição de mercado de trabalho e salários também citada"
+        },
+        {
+          "classe": "Trabalhadores formais de baixa renda",
+          "posicao": "Salário mínimo real em alta",
+          "efeito": "Aumento do poder de compra",
+          "evidencia": "Política de valorização do mínimo; percentuais exatos (não verificado)"
+        },
+        {
+          "classe": "Mulheres",
+          "posicao": "Beneficiárias do cadastro do Bolsa Família (titulares principais)",
+          "efeito": "Autonomia financeira parcial",
+          "evidencia": "Não conferido em fonte específica (não verificado)"
+        },
+        {
+          "classe": "População negra",
+          "posicao": "Cotas (Lei 12.711/2012) e maior acesso ao ensino superior",
+          "efeito": "Mobilidade educacional",
+          "evidencia": "historia.json: l12711-2012; efeitos na renda (não verificado)"
+        },
+        {
+          "classe": "Quilombolas e indígenas",
+          "posicao": "Decreto 4.887/2003 e debates sobre terras e Belo Monte",
+          "efeito": "Titulação lenta; pressão de obras",
+          "evidencia": "historia.json: d4887-2003; Belo Monte (não verificado)"
+        },
+        {
+          "classe": "Agronegócio e mineradoras",
+          "posicao": "Beneficiários do boom",
+          "efeito": "Expansão da fronteira e exportação",
+          "evidencia": "Não conferido (não verificado)"
+        },
+        {
+          "classe": "Classe média tradicional",
+          "posicao": "Perda relativa de posição e concorrência por serviços",
+          "efeito": "Insatisfação política crescente (hipótese)",
+          "evidencia": "Interpretação; não conferida (não verificado)"
+        },
+        {
+          "classe": "Servidores públicos",
+          "posicao": "Expansão de concursos",
+          "efeito": "Estabilidade e recomposição",
+          "evidencia": "Não conferido (não verificado)"
+        }
+      ],
+      "mudancas_drasticas": [
+        {
+          "id": "bc-2003-bf",
+          "data": "2003-10-20",
+          "titulo": "Bolsa Família",
+          "descricao": "Medida Provisória 132 (20/10/2003), convertida na Lei 10.836 (09/01/2004); 12,7 milhões de famílias em 2010; custo de 0,4% do PIB em 2006.",
+          "quem_ganhou": "Famílias pobres e economias locais.",
+          "quem_perdeu": "Críticas de 'dependência'; a Wikipedia cita avaliação do Banco Mundial de efeito desincentivo 'pequeno'.",
+          "links_historia": []
+        },
+        {
+          "id": "bc-2005-salminimo",
+          "data": "2003-2014",
+          "titulo": "Política de valorização do salário mínimo",
+          "descricao": "Reajustes reais do mínimo; percentual preciso não verificado (não verificado).",
+          "quem_ganhou": "Trabalhadores formais, aposentados.",
+          "quem_perdeu": "Finanças públicas (benefícios previdenciários indexados, de memória (não verificado)).",
+          "links_historia": []
+        },
+        {
+          "id": "bc-2008-crise",
+          "data": "2008-2010",
+          "titulo": "Crise financeira global e resposta anticíclica",
+          "descricao": "PIB de 5,1% em 2008 e 7,5% em 2010 (Wikipedia); 2009 em queda leve, de memória (não verificado).",
+          "quem_ganhou": "Consumidores e indústria beneficiada por crédito público.",
+          "quem_perdeu": "Contas públicas no médio prazo.",
+          "links_historia": []
+        },
+        {
+          "id": "bc-2012-cotas",
+          "data": "2012-08-29",
+          "titulo": "Lei de Cotas",
+          "descricao": "Reserva de vagas em universidades federais para escola pública, negros, pardos e indígenas.",
+          "quem_ganhou": "Estudantes negros, indígenas e de escola pública.",
+          "quem_perdeu": "Debate sobre mérito, sem perdedores diretos medidos.",
+          "links_historia": [
+            "l12711-2012"
+          ]
+        },
+        {
+          "id": "bc-2014-lavajato",
+          "data": "2014-03-17",
+          "titulo": "Operação Lava Jato",
+          "descricao": "Investigação de corrupção em Petrobras e empreiteiras; efeitos econômicos sobre construção e petróleo discutidos.",
+          "quem_ganhou": "Instituições de controle (visibilidade).",
+          "quem_perdeu": "Empreiteiras e empregos no setor (de memória (não verificado)).",
+          "links_historia": [
+            "lj-2014"
+          ]
+        }
+      ],
+      "regioes": [
+        "Nordeste (maior ganho relativo de renda, de memória (não verificado))",
+        "Centro-Oeste (soja)",
+        "Sudeste (pré-sal, indústria naval)",
+        "Amazônia (hidrelétricas e fronteira agrícola)"
+      ],
+      "fontes": [
+        {
+          "titulo": "Bolsa Família - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Bolsa_Fam%C3%ADlia",
+          "verificado": true
+        },
+        {
+          "titulo": "Economic history of Brazil - Wikipedia (en)",
+          "url": "https://en.wikipedia.org/wiki/Economic_history_of_Brazil",
+          "verificado": true
+        },
+        {
+          "titulo": "Gini 2002-2014 (PNAD) - IPECE NT 14 (só trecho de busca)",
+          "url": "https://www.ipece.ce.gov.br/wp-content/uploads/sites/45/2012/12/NT_14.pdf",
+          "verificado": false
+        },
+        {
+          "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
+          "url": "docs/HISTORIA.md",
+          "verificado": false
+        }
+      ]
+    },
+    {
+      "id": "recessao-ajuste-polarizacao",
+      "rotulo": "Recessão, ajuste fiscal e polarização",
+      "inicio": 2015,
+      "fim": 2022,
+      "motor_economico": "Fim do ciclo de commodities, recessão de 2015-16, ajuste fiscal (EC 95), reformas liberalizantes (trabalhista 2017, previdência 2019), pandemia e estímulos emergenciais; baixo crescimento e inflação em alta em 2021-22.",
+      "potenciais": [
+        "Setor agroexportador e mineral ainda competitivo; mercado interno de grande escala.",
+        "Capacidade de resposta fiscal na pandemia: o auxílio emergencial de 2020 incluiu R$600 em cinco parcelas e R$300 em quatro, e reduziu a pobreza ao menor nível em 40 anos segundo o resumo de busca (Correio Braziliense).",
+        "Digitalização e serviços (de memória (não verificado))."
+      ],
+      "problemas": [
+        "Recessão de 2015-2016: o PIB caiu 3,8% e 3,6% pela primeira divulgação, com 7,2% acumulados, a pior desde 1947 segundo o IBGE (resumo de busca); revisões posteriores existem (não verificado).",
+        "Teto de gastos (EC 95/2016) por 20 anos corrigido pelo IPCA e comprimindo despesa discricionária (resumo de busca).",
+        "Informalidade: 41,1% do emprego em 2019 (Wikipedia, Reforma trabalhista) e desocupação de 14,9% no 1º tri de 2021, com 15,2 milhões de desocupados (Wikipedia, Pandemia).",
+        "Polarização política e instabilidade institucional (impeachment 2016, 8 de janeiro de 2023 já fora do ciclo)."
+      ],
+      "classes": [
+        {
+          "classe": "Desempregados e informais",
+          "posicao": "Principais atingidos pela recessão e pela pandemia",
+          "efeito": "Desemprego de 14,9% no 1º tri de 2021; aumento da informalidade na recuperação",
+          "evidencia": "Wikipedia (Pandemia): 15,2 milhões; 'recuperação com informalidade'"
+        },
+        {
+          "classe": "Trabalhadores formais",
+          "posicao": "Mudança de regras (reforma trabalhista)",
+          "efeito": "Negociado sobre o legislado, trabalho intermitente, fim da contribuição sindical obrigatória",
+          "evidencia": "Wikipedia (Reforma): 13,3% das vagas de 2019 foram intermitentes; ações trabalhistas -32% em dois anos"
+        },
+        {
+          "classe": "Pobres",
+          "posicao": "Auxílio emergencial amortece a queda e depois cai",
+          "efeito": "Pobreza no menor nível em 40 anos em 2020; recuo posterior",
+          "evidencia": "Resumo de busca (Correio Braziliense); trajetória pós-2020 (não verificado)"
+        },
+        {
+          "classe": "Servidores públicos",
+          "posicao": "Congelamento e limites do teto",
+          "efeito": "Perda real de salários em vários anos (de memória (não verificado))",
+          "evidencia": "Não conferido (não verificado)"
+        },
+        {
+          "classe": "Mulheres e população negra",
+          "posicao": "Maior perda de emprego na pandemia (de memória (não verificado))",
+          "efeito": "Aumento de cuidado não remunerado e desemprego",
+          "evidencia": "Não conferido (não verificado)"
+        },
+        {
+          "classe": "Povos indígenas e quilombolas",
+          "posicao": "Pandemia e pressão ambiental",
+          "efeito": "ADPF 709 (2020) e discussão sobre marco temporal",
+          "evidencia": "historia.json: indigena-adpf709-2020, re1017365-2023"
+        },
+        {
+          "classe": "Elites financeiras e agroexportadoras",
+          "posicao": "Juros altos e câmbio favorável à exportação (de memória (não verificado))",
+          "efeito": "Renda estável",
+          "evidencia": "Não conferido (não verificado)"
+        }
+      ],
+      "mudancas_drasticas": [
+        {
+          "id": "ra-2015-recessao",
+          "data": "2015-2016",
+          "titulo": "Recessão e ajuste",
+          "descricao": "PIB cai 3,8% (2015) e 3,6% (2016) pela primeira divulgação (IBGE, resumo de busca); causas debatidas (política fiscal, preços externos e crise política).",
+          "quem_ganhou": "Credores e quem tinha ativos indexados.",
+          "quem_perdeu": "Desempregados, indústria, construção civil.",
+          "links_historia": [
+            "dilma-2016",
+            "ec86-2015"
+          ]
+        },
+        {
+          "id": "ra-2016-ec95",
+          "data": "2016-12-15",
+          "titulo": "EC 95/2016: teto de gastos",
+          "descricao": "Limite federal da despesa primária por 20 anos corrigido pelo IPCA; o limite de 2017 correspondeu à despesa de 2016 mais 7,2% (resumo de busca).",
+          "quem_ganhou": "Credores e mercado financeiro (previsibilidade).",
+          "quem_perdeu": "Saúde, educação e investimento, segundo críticos; debate sobre rigidez.",
+          "links_historia": [
+            "ec95-2016"
+          ]
+        },
+        {
+          "id": "ra-2017-trabalhista",
+          "data": "2017-07-13",
+          "titulo": "Reforma trabalhista (Lei 13.467)",
+          "descricao": "Aprovada em 296-177 na Câmara e 50-26 no Senado; vigência em 10/11/2017; prevê negociado sobre o legislado, trabalho intermitente e contribuição sindical voluntária; geração de empregos ficou aquém do prometido (Wikipedia).",
+          "quem_ganhou": "Empregadores e trabalhadores com contratos flexíveis; menos litígios.",
+          "quem_perdeu": "Sindicatos e trabalhadores com menor proteção.",
+          "links_historia": [
+            "dilma-2016"
+          ]
+        },
+        {
+          "id": "ra-2019-previdencia",
+          "data": "2019-11-12",
+          "titulo": "Reforma da Previdência (EC 103/2019)",
+          "descricao": "Idade mínima e novas regras; detalhes e estimativas de economia não verificados (não verificado).",
+          "quem_ganhou": "Tesouro, em tese.",
+          "quem_perdeu": "Futuros aposentados, em especial os de menor contribuição (não verificado).",
+          "links_historia": []
+        },
+        {
+          "id": "ra-2020-pandemia",
+          "data": "2020-2021",
+          "titulo": "Pandemia de COVID-19 e auxílio emergencial",
+          "descricao": "Choque econômico e sanitário (716.238 mortes até 06/06/2025, Wikipedia); PIB de 2020 -4,1% pela primeira divulgação (revisado depois (não verificado)); auxílio emergencial de R$600 e depois R$300.",
+          "quem_ganhou": "Famílias de baixa renda contempladas; setores digitais.",
+          "quem_perdeu": "Informais, serviços presenciais, idosos e populações vulneráveis.",
+          "links_historia": [
+            "indigena-adpf709-2020",
+            "lc179-2021"
+          ]
+        },
+        {
+          "id": "ra-2021-bcautonomo",
+          "data": "2021-02-24",
+          "titulo": "Autonomia do Banco Central (LC 179/2021)",
+          "descricao": "Mandatos fixos para a diretoria do BC.",
+          "quem_ganhou": "Credibilidade monetária.",
+          "quem_perdeu": "Margem do Executivo sobre a política monetária.",
+          "links_historia": [
+            "lc179-2021",
+            "rp9-2021"
+          ]
+        }
+      ],
+      "regioes": [
+        "Sudeste (desemprego industrial)",
+        "Nordeste (dependência de transferências)",
+        "Centro-Oeste (agronegócio)",
+        "Amazônia (desmatamento, pandemia)"
+      ],
+      "fontes": [
+        {
+          "titulo": "PIB fecha 2016 com queda de 3,6% - Money Times (só trecho de busca)",
+          "url": "https://www.moneytimes.com.br/pib-fecha-2016-com-uma-queda-de-36/",
+          "verificado": false
+        },
+        {
+          "titulo": "Senado promulga emenda que congela gastos - Congresso em Foco (só trecho de busca)",
+          "url": "https://congressoemfoco.com.br/noticias/senado-promulga-emenda-constitucional-que-congela-gastos-da-uniao-nos-proximos-anos",
+          "verificado": false
+        },
+        {
+          "titulo": "Reforma trabalhista no Brasil em 2017 - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Reforma_trabalhista_no_Brasil_em_2017",
+          "verificado": true
+        },
+        {
+          "titulo": "Pandemia de COVID-19 no Brasil - Wikipedia (pt)",
+          "url": "https://pt.wikipedia.org/wiki/Pandemia_de_COVID-19_no_Brasil",
+          "verificado": true
+        },
+        {
+          "titulo": "PIB de 2020 e auxílio emergencial - Correio Braziliense (só trecho de busca)",
+          "url": "https://www.correiobraziliense.com.br/economia/2021/03/4910096-pib-de-2020-e-o-terceiro-pior-da-historia-cenario-segue-nebuloso.html",
+          "verificado": false
+        },
+        {
+          "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
+          "url": "docs/HISTORIA.md",
+          "verificado": false
+        }
+      ]
+    },
+    {
+      "id": "retomada-incerteza",
+      "rotulo": "Retomada, arcabouço fiscal e incerteza",
+      "inicio": 2023,
+      "fim": 2026,
+      "motor_economico": "Retomada do consumo e das transferências, novo arcabouço fiscal (LC 200/2023), reforma tributária (EC 132/2023) e commodities; incertezas fiscais e eleitorais (eleição de 2026, resultado não verificado). Dados 2024-2026 não foram conferidos nesta rodada.",
+      "potenciais": [
+        "Agroexportação, mineração e energia (petróleo e renováveis; de memória (não verificado)).",
+        "Reforma tributária sobre consumo para simplificar impostos (EC 132/2023, historia.json) com efeito esperado de longo prazo (não verificado).",
+        "Capacidade fiscal de combinar regras e flexibilidade, caso o arcabouço seja cumprido."
+      ],
+      "problemas": [
+        "Arcabouço fiscal: despesa limitada a 70% do crescimento real da receita, com banda de 0,6% a 2,5%; metas primárias de -1% (2023), 0% (2024), +0,5% (2025) e +1% (2026), segundo resumo de busca; cumprimento não conferido.",
+        "Emendas parlamentares e orçamento secreto (RP9 declarado inconstitucional em 2022; historia.json) reduzem a margem do Executivo.",
+        "Juros altos e dívida pública (de memória (não verificado)).",
+        "Informalidade e baixa produtividade continuam (sem dado conferido para 2023-2026 (não verificado))."
+      ],
+      "classes": [
+        {
+          "classe": "Beneficiários de transferências",
+          "posicao": "Voltam ao Bolsa Família e outros programas",
+          "efeito": "Apoio à renda de baixa classe",
+          "evidencia": "Retorno do Bolsa Família citado em busca; valores e impactos (não verificado)"
+        },
+        {
+          "classe": "Servidores públicos",
+          "posicao": "Pressão fiscal sobre despesas",
+          "efeito": "Reajustes limitados pelo arcabouço",
+          "evidencia": "Não conferido (não verificado)"
+        },
+        {
+          "classe": "Mercado financeiro e credores",
+          "posicao": "Beneficiários de juros altos",
+          "efeito": "Receita financeira e demanda por credibilidade fiscal",
+          "evidencia": "Não conferido (não verificado)"
+        },
+        {
+          "classe": "Povos indígenas e quilombolas",
+          "posicao": "Marco temporal, Yanomami e Censo 2022",
+          "efeito": "Conflito entre Judiciário e Legislativo; contagem quilombola inédita",
+          "evidencia": "historia.json: re1017365-2023, l14701-2023, pec48-2025, yanomami-2023, censo-2022"
+        },
+        {
+          "classe": "Trabalhadores informais e mulheres",
+          "posicao": "Mercado de trabalho com recuperação desigual",
+          "efeito": "Sem dados conferidos",
+          "evidencia": "Não verificado (não verificado)"
+        },
+        {
+          "classe": "Agronegócio e mineração",
+          "posicao": "Exportadores",
+          "efeito": "Renda estável",
+          "evidencia": "Não conferido (não verificado)"
+        }
+      ],
+      "mudancas_drasticas": [
+        {
+          "id": "ri-2023-arcabouco",
+          "data": "2023-08-30",
+          "titulo": "Arcabouço fiscal (LC 200/2023)",
+          "descricao": "Substitui o teto de gastos: limita a despesa a 70% do crescimento da receita, com piso de 0,6% e teto de 2,5%; punição automática reduz a 50% se a meta falhar (resumo de busca).",
+          "quem_ganhou": "Executivo (margem em relação ao teto) e credores (regra).",
+          "quem_perdeu": "Despesas discricionárias; controvérsia sobre cumprimento.",
+          "links_historia": [
+            "lc200-2023",
+            "ec95-2016"
+          ]
+        },
+        {
+          "id": "ri-2023-tributaria",
+          "data": "2023-12-20",
+          "titulo": "Reforma tributária (EC 132/2023)",
+          "descricao": "Aprovada em 20/12/2023 (historia.json); efeitos econômicos de implantação gradual não verificados (não verificado).",
+          "quem_ganhou": "Setores com maior carga cumulativa (tese).",
+          "quem_perdeu": "Setores beneficiados por regimes especiais (tese).",
+          "links_historia": [
+            "ec132-2023"
+          ]
+        },
+        {
+          "id": "ri-2023-8jan",
+          "data": "2023-01-08",
+          "titulo": "Ataques de 8 de janeiro",
+          "descricao": "Choque institucional com efeito sobre expectativas; efeito econômico direto não verificado (não verificado).",
+          "quem_ganhou": "Nenhum identificado.",
+          "quem_perdeu": "Confiança institucional.",
+          "links_historia": [
+            "oito-janeiro-2023"
+          ]
+        },
+        {
+          "id": "ri-2025-incerteza",
+          "data": "2025-2026",
+          "titulo": "Condenações de 2025 e eleição de 2026",
+          "descricao": "Quadro político-institucional em disputa; resultado eleitoral e efeitos econômicos não foram verificados (não verificado).",
+          "quem_ganhou": "Sem avaliação.",
+          "quem_perdeu": "Sem avaliação.",
+          "links_historia": [
+            "bolsonaro-2025",
+            "eleicao-2026"
+          ]
+        }
+      ],
+      "regioes": [
+        "Centro-Oeste e Sul (agronegócio)",
+        "Nordeste (transferências e renováveis, de memória (não verificado))",
+        "Amazônia (Yanomami, desmatamento)"
+      ],
+      "fontes": [
+        {
+          "titulo": "Arcabouço fiscal x teto de gastos - Money Times (só trecho de busca)",
+          "url": "https://www.moneytimes.com.br/entenda-a-diferenca-entre-novo-arcabouco-fiscal-e-teto-de-gastos/",
+          "verificado": false
+        },
+        {
+          "titulo": "docs/HISTORIA.md e web/public/data/historia.json (repositório; fontes lá têm critério próprio)",
+          "url": "docs/HISTORIA.md",
+          "verificado": false
+        }
+      ]
+    }
+  ],
+  "classes": [
+    {
+      "id": "escravizados-libertos-negros",
+      "rotulo": "Escravizados, libertos e populações negras",
+      "descricao": "Africanos e descendentes: do cativeiro (1530-1888) à exclusão pós-abolição e às políticas de cotas.",
+      "trajetoria": [
+        {
+          "ciclo": "acucar",
+          "situacao": "Base do trabalho dos engenhos; resistência por quilombos (Palmares)."
+        },
+        {
+          "ciclo": "ouro-diamantes",
+          "situacao": "Força de trabalho das lavras; capitação taxa também escravizados."
+        },
+        {
+          "ciclo": "agroexportacao-imperial",
+          "situacao": "Tráfico ilegal pós-1831; escravidão como base da agroexportação."
+        },
+        {
+          "ciclo": "cafe-escravidao-abolicao",
+          "situacao": "Abolição gradual; Lei Áurea sem reparação nem terra."
+        },
+        {
+          "ciclo": "borracha-cafe-republica-velha",
+          "situacao": "Liberdade formal e exclusão do voto; Revolta da Chibata (1910)."
+        },
+        {
+          "ciclo": "industrializacao-vargas",
+          "situacao": "CLT sem cobertura rural e doméstica; Frente Negra (1931-37)."
+        },
+        {
+          "ciclo": "desenvolvimentismo",
+          "situacao": "Lei Afonso Arinos (1951); migração rural-urbana."
+        },
+        {
+          "ciclo": "milagre-endividamento",
+          "situacao": "Censura ao tema racial; MNU (1978)."
+        },
+        {
+          "ciclo": "decada-perdida-hiperinflacao",
+          "situacao": "Constituição de 1988 e Lei Caó."
+        },
+        {
+          "ciclo": "estabilizacao-real",
+          "situacao": "Sem dados conferidos para renda por raça."
+        },
+        {
+          "ciclo": "boom-commodities-inclusao",
+          "situacao": "Cotas (2012) e ganhos educacionais."
+        },
+        {
+          "ciclo": "recessao-ajuste-polarizacao",
+          "situacao": "Impacto desigual da recessão e da pandemia (hipótese não conferida)."
+        },
+        {
+          "ciclo": "retomada-incerteza",
+          "situacao": "Sem dados conferidos."
+        }
+      ]
+    },
+    {
+      "id": "povos-indigenas",
+      "rotulo": "Povos indígenas",
+      "descricao": "Povos originários: escambo, cativeiro, aldeamentos, tutela e disputa por territórios.",
+      "trajetoria": [
+        {
+          "ciclo": "pau-brasil",
+          "situacao": "Escambo e primeiro contato."
+        },
+        {
+          "ciclo": "acucar",
+          "situacao": "Escravização e aldeamentos; lei de 1570."
+        },
+        {
+          "ciclo": "ouro-diamantes",
+          "situacao": "Perdas com frentes mineradoras; Diretório (1757)."
+        },
+        {
+          "ciclo": "agroexportacao-imperial",
+          "situacao": "Regulamento das Missões (1845)."
+        },
+        {
+          "ciclo": "cafe-escravidao-abolicao",
+          "situacao": "Terras de aldeamento ficam potencialmente devolutas (Lei de Terras)."
+        },
+        {
+          "ciclo": "borracha-cafe-republica-velha",
+          "situacao": "SPI (1910) e violência da borracha."
+        },
+        {
+          "ciclo": "industrializacao-vargas",
+          "situacao": "Marcha para o Oeste."
+        },
+        {
+          "ciclo": "desenvolvimentismo",
+          "situacao": "Parque do Xingu (1961)."
+        },
+        {
+          "ciclo": "milagre-endividamento",
+          "situacao": "Transamazônica, FUNAI e mortes (CNV)."
+        },
+        {
+          "ciclo": "decada-perdida-hiperinflacao",
+          "situacao": "Arts. 231-232 da CF/88."
+        },
+        {
+          "ciclo": "estabilizacao-real",
+          "situacao": "Decreto 1.775/1996."
+        },
+        {
+          "ciclo": "boom-commodities-inclusao",
+          "situacao": "Raposa Serra do Sol (2009) e Belo Monte."
+        },
+        {
+          "ciclo": "recessao-ajuste-polarizacao",
+          "situacao": "ADPF 709 na pandemia."
+        },
+        {
+          "ciclo": "retomada-incerteza",
+          "situacao": "Marco temporal e Yanomami."
+        }
+      ]
+    },
+    {
+      "id": "camponeses-posseiros",
+      "rotulo": "Camponeses e posseiros",
+      "descricao": "Lavradores sem título, agregados e trabalhadores rurais em um país de terra concentrada.",
+      "trajetoria": [
+        {
+          "ciclo": "acucar",
+          "situacao": "Agregados e lavradores de cana."
+        },
+        {
+          "ciclo": "agroexportacao-imperial",
+          "situacao": "Posse sem lei de terras."
+        },
+        {
+          "ciclo": "cafe-escravidao-abolicao",
+          "situacao": "Lei de Terras exige compra."
+        },
+        {
+          "ciclo": "borracha-cafe-republica-velha",
+          "situacao": "Colonato e aviamento."
+        },
+        {
+          "ciclo": "industrializacao-vargas",
+          "situacao": "Fora da CLT."
+        },
+        {
+          "ciclo": "desenvolvimentismo",
+          "situacao": "Êxodo rural; reforma agrária em pauta (de memória)."
+        },
+        {
+          "ciclo": "milagre-endividamento",
+          "situacao": "Conflitos fundiários e Araguaia."
+        },
+        {
+          "ciclo": "decada-perdida-hiperinflacao",
+          "situacao": "Reforma agrária na Constituinte (de memória)."
+        },
+        {
+          "ciclo": "boom-commodities-inclusao",
+          "situacao": "Transferências alcançam o campo pobre."
+        },
+        {
+          "ciclo": "recessao-ajuste-polarizacao",
+          "situacao": "Sem dados conferidos."
+        },
+        {
+          "ciclo": "retomada-incerteza",
+          "situacao": "Sem dados conferidos."
+        }
+      ]
+    },
+    {
+      "id": "trabalhadores-urbanos",
+      "rotulo": "Trabalhadores urbanos e informais",
+      "descricao": "Operários, comerciários, domésticas e informais, entre CLT e informalidade.",
+      "trajetoria": [
+        {
+          "ciclo": "borracha-cafe-republica-velha",
+          "situacao": "Operariado sem legislação ampla."
+        },
+        {
+          "ciclo": "industrializacao-vargas",
+          "situacao": "CLT (1943) e Justiça do Trabalho."
+        },
+        {
+          "ciclo": "desenvolvimentismo",
+          "situacao": "Crescimento do emprego industrial."
+        },
+        {
+          "ciclo": "milagre-endividamento",
+          "situacao": "Arrocho e sindicatos sob intervenção, com crescimento do emprego."
+        },
+        {
+          "ciclo": "decada-perdida-hiperinflacao",
+          "situacao": "Inflação alta e informalidade crescente."
+        },
+        {
+          "ciclo": "estabilizacao-real",
+          "situacao": "Fim do imposto inflacionário."
+        },
+        {
+          "ciclo": "boom-commodities-inclusao",
+          "situacao": "Salário mínimo em alta e emprego formal."
+        },
+        {
+          "ciclo": "recessao-ajuste-polarizacao",
+          "situacao": "Desemprego de 14,9% (2021) e reforma trabalhista."
+        },
+        {
+          "ciclo": "retomada-incerteza",
+          "situacao": "Sem dados conferidos."
+        }
+      ]
+    },
+    {
+      "id": "imigrantes",
+      "rotulo": "Imigrantes",
+      "descricao": "Europeus e asiáticos que vieram trabalhar nos cafezais e nas cidades.",
+      "trajetoria": [
+        {
+          "ciclo": "cafe-escravidao-abolicao",
+          "situacao": "Início do subsídio em SP."
+        },
+        {
+          "ciclo": "borracha-cafe-republica-velha",
+          "situacao": "3,52 milhões entre 1890 e 1929 (Wikipedia)."
+        },
+        {
+          "ciclo": "industrializacao-vargas",
+          "situacao": "Imigração cai; restrições (de memória)."
+        }
+      ]
+    },
+    {
+      "id": "elites-agrarias",
+      "rotulo": "Elites agrárias",
+      "descricao": "Proprietários de terra e senhores de engenho, barões do café e agronegócio.",
+      "trajetoria": [
+        {
+          "ciclo": "acucar",
+          "situacao": "Senhores de engenho."
+        },
+        {
+          "ciclo": "ouro-diamantes",
+          "situacao": "Perdem peso relativo."
+        },
+        {
+          "ciclo": "agroexportacao-imperial",
+          "situacao": "Barões do café ascendem."
+        },
+        {
+          "ciclo": "cafe-escravidao-abolicao",
+          "situacao": "Lei de Terras e transição à imigração."
+        },
+        {
+          "ciclo": "borracha-cafe-republica-velha",
+          "situacao": "Hegemonia do café com leite e valorização estatal."
+        },
+        {
+          "ciclo": "industrializacao-vargas",
+          "situacao": "Perdem poder político, mantêm renda."
+        },
+        {
+          "ciclo": "desenvolvimentismo",
+          "situacao": "Questão agrária adiada."
+        },
+        {
+          "ciclo": "milagre-endividamento",
+          "situacao": "Expansão agropecuária subsidiada."
+        },
+        {
+          "ciclo": "boom-commodities-inclusao",
+          "situacao": "Agronegócio no boom."
+        },
+        {
+          "ciclo": "retomada-incerteza",
+          "situacao": "Agroexportação segue relevante (sem dado conferido)."
+        }
+      ]
+    },
+    {
+      "id": "elites-industriais-financeiras",
+      "rotulo": "Elites industriais e financeiras",
+      "descricao": "Industriais, banqueiros e investidores de capital estrangeiro e nacional.",
+      "trajetoria": [
+        {
+          "ciclo": "borracha-cafe-republica-velha",
+          "situacao": "Encilhamento e indústria leve."
+        },
+        {
+          "ciclo": "industrializacao-vargas",
+          "situacao": "CSN e proteção industrial."
+        },
+        {
+          "ciclo": "desenvolvimentismo",
+          "situacao": "Plano de Metas e GEIA."
+        },
+        {
+          "ciclo": "milagre-endividamento",
+          "situacao": "Crédito subsidiado e capital externo."
+        },
+        {
+          "ciclo": "decada-perdida-hiperinflacao",
+          "situacao": "Bancos ganham com a inflação (hipótese)."
+        },
+        {
+          "ciclo": "estabilizacao-real",
+          "situacao": "Privatizações e juros altos."
+        },
+        {
+          "ciclo": "recessao-ajuste-polarizacao",
+          "situacao": "Teto de gastos e reformas."
+        },
+        {
+          "ciclo": "retomada-incerteza",
+          "situacao": "Juros altos e arcabouço (sem dado conferido)."
+        }
+      ]
+    },
+    {
+      "id": "classe-media-servidores",
+      "rotulo": "Classe média e servidores",
+      "descricao": "Profissionais urbanos, funcionários públicos e aposentados.",
+      "trajetoria": [
+        {
+          "ciclo": "desenvolvimentismo",
+          "situacao": "Cresce com serviços e burocracia."
+        },
+        {
+          "ciclo": "milagre-endividamento",
+          "situacao": "Beneficiária do crédito e do emprego público."
+        },
+        {
+          "ciclo": "decada-perdida-hiperinflacao",
+          "situacao": "Confisco de 1990 e corrosão inflacionária."
+        },
+        {
+          "ciclo": "estabilizacao-real",
+          "situacao": "Crédito e consumo; reformas administrativas."
+        },
+        {
+          "ciclo": "boom-commodities-inclusao",
+          "situacao": "Concorrência por serviços e posição relativa."
+        },
+        {
+          "ciclo": "recessao-ajuste-polarizacao",
+          "situacao": "Congelamento salarial e reforma previdenciária."
+        },
+        {
+          "ciclo": "retomada-incerteza",
+          "situacao": "Pressão fiscal."
+        }
+      ]
+    },
+    {
+      "id": "mulheres",
+      "rotulo": "Mulheres",
+      "descricao": "Trabalho produtivo e reprodutivo, direitos civis e desigualdade de renda.",
+      "trajetoria": [
+        {
+          "ciclo": "industrializacao-vargas",
+          "situacao": "Voto feminino (1934) e proteção no trabalho."
+        },
+        {
+          "ciclo": "milagre-endividamento",
+          "situacao": "Domésticas sem direitos."
+        },
+        {
+          "ciclo": "decada-perdida-hiperinflacao",
+          "situacao": "Igualdade formal na CF/88."
+        },
+        {
+          "ciclo": "boom-commodities-inclusao",
+          "situacao": "Titulares do Bolsa Família."
+        },
+        {
+          "ciclo": "recessao-ajuste-polarizacao",
+          "situacao": "Perda de emprego na pandemia (hipótese)."
+        }
+      ]
+    }
+  ]
+}

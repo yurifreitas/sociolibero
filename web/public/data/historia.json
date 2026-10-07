@@ -1,7 +1,7 @@
 {
  "meta": {
   "gerado_em": "2026-10-06",
-  "aviso": "Revisão histórica compilada de fontes públicas (legislação do Planalto, Wikipedia, imprensa e DOIs). 'verificado: true' significa que a URL foi acessada com sucesso (HTTP 200) e corresponde ao tema; não significa leitura integral nem validação de cada número. Itens marcados no texto como 'de memória' ou 'aproximado' devem ser conferidos em fonte primária. Fontes com verificado:false retornaram erro (403/500) ou não foram abertas. Resultados das eleições de 2026 não foram verificados. Não substitui pesquisa historiográfica.",
+  "aviso": "Revisão histórica compilada de fontes públicas (legislação do Planalto, Wikipedia, imprensa e DOIs). 'verificado: true' significa que a URL foi acessada com sucesso (HTTP 200) e corresponde ao tema; não significa leitura integral nem validação de cada número. Itens marcados no texto como 'de memória' ou 'aproximado' devem ser conferidos em fonte primária. Fontes com verificado:false retornaram erro (403/500) ou não foram abertas. O resultado do 1º turno de 2026 usa o snapshot do TSE de 05/10/2026 (preliminar). Não substitui pesquisa historiográfica.",
   "criterio_verificacao": "HTTP 200 e correspondência temática; fatos não lidos integralmente marcados na própria descrição."
  },
  "periodos": [

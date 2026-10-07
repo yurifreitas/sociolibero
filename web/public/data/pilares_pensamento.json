@@ -1,0 +1,2999 @@
+{
+ "meta": {
+  "gerado_em": "2026-10-06",
+  "aviso": "Síntese de pesquisa aberta sobre pilares de pensamento (indígena latino-americano, afro-brasileiro, decolonial, antropologia, sociologia histórica e economia institucional) e sua tradução em desenho institucional. Não é prescrição nem previsão: as propostas são hipóteses de desenho com evidência parcial e risco de captura declarado. Conceitos indígenas e quilombolas são citados com fonte e sem pretensão de representar os povos; nenhuma proposta foi elaborada com consulta a eles.",
+  "criterio_verificacao": "verificado=true somente quando a página da fonte foi lida nesta pesquisa (texto da Constituição do Equador no Constitute Project e página da Sentencia T-622/2016 da Corte Constitucional da Colômbia). verificado=false quando o dado veio de resumo de busca ou de memória, ou quando o URL não foi aberto; url vazio significa obra citada de memória sem link conferido. Títulos, anos, edições e números de memória podem conter erro e precisam de conferência na fonte primária antes de publicação."
+ },
+ "pensadores": [
+  {
+   "id": "sumak-kawsay-buen-vivir",
+   "nome": "Sumak Kawsay / Buen Vivir (quéchua; Equador 2008)",
+   "tradicao": "Indígena andino-amazônico (quéchua), codificado em constituição",
+   "obra_chave": [
+    {
+     "titulo": "Constitución de la República del Ecuador (preâmbulo, arts. 14 e 71-74)",
+     "ano": 2008,
+     "url": "https://www.constituteproject.org/constitution/Ecuador_2021",
+     "verificado": true
+    },
+    {
+     "titulo": "Viteri Gualinga, C. 'Visión indígena del desarrollo en la Amazonía', Polis",
+     "ano": 2002,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Gudynas, E. 'Buen Vivir: today's tomorrow', Development 54(4)",
+     "ano": 2011,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Vida plena em relação com a comunidade e a natureza, e não acumulação individual. Na Constituição do Equador vira princípio de ordenamento (preâmbulo, art. 14) e a natureza (Pacha Mama) ganha direitos (arts. 71-74).",
+   "conceitos": [
+    "sumak kawsay (quéchua)",
+    "Pacha Mama",
+    "direitos da natureza",
+    "plurinacionalidade",
+    "régimen del buen vivir"
+   ],
+   "uso_operacional": "Ler o conceito como critério de política pública: o que o texto constitucional torna exigível (direito à restauração, art. 72; medidas preventivas e restritivas contra extinção de espécies, art. 73) e o que fica retórico. Serve de modelo de redação para emenda ou lei orgânica municipal (ver proposta V05).",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Arts. 71-74 da Constituição do Equador: a natureza tem direito a respeito integral, à restauração independente de indenização a pessoas, e o Estado deve aplicar medidas preventivas e restritivas; art. 14 cita o sumak kawsay.",
+     "fonte": "Constitute Project (texto lido)",
+     "url": "https://www.constituteproject.org/constitution/Ecuador_2021",
+     "verificado": true
+    },
+    {
+     "descricao": "Referendo de 20/ago/2023: cerca de 59% votaram por deixar o petróleo do bloco 43 (Yasuní-ITT) no subsolo.",
+     "fonte": "Resumo de busca (CorpWatch e outros)",
+     "url": "https://corpwatch.org/article/ecuadorians-vote-stop-petroecuadors-oil-drilling-yasuni-national-park",
+     "verificado": false
+    }
+   ],
+   "criticas": "Críticas: (1) o conceito indígena original é plural e local, e a versão estatal é uma tradução seletiva; (2) há debate sobre se o termo, na forma atual, é construção recente de intelectuais e movimentos (Gudynas e Rivera Cusicanqui chamam de retórica quando convive com extrativismo); (3) o Estado que o proclama licenciou petróleo e mineração: a iniciativa Yasuní-ITT (deixar o petróleo no solo mediante compensação internacional) foi encerrada em 2013 e só voltou pela via do referendo de 2023. O cumprimento do referendo está por verificar.",
+   "relevancia_brasil": "O Brasil não tem cláusula equivalente na CF/88 (art. 225 é antropocêntrico e intergeracional), mas tem caminho por emenda ou lei orgânica municipal. Teste útil: quantos licenciamentos seriam barrados por um direito à restauração?",
+   "ligacoes": {
+    "ciclos": [
+     "retomada-incerteza",
+     "recessao-ajuste-polarizacao"
+    ],
+    "decisoes": [
+     "acordo-mercosul-ue"
+    ],
+    "potencias": [
+     "biodiversidade",
+     "sociobioeconomia"
+    ],
+    "leis": [
+     "jevons"
+    ]
+   }
+  },
+  {
+   "id": "suma-qamana-aimara",
+   "nome": "Suma qamaña / Vivir Bien (aimará; Bolívia 2009)",
+   "tradicao": "Indígena andino (aimará), codificado em constituição e leis",
+   "obra_chave": [
+    {
+     "titulo": "Constitución Política del Estado Plurinacional de Bolivia (art. 8: suma qamaña, ñandereko, teko kavi, ivi maraei, qhapaj ñan)",
+     "ano": 2009,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Ley nº 71 de Derechos de la Madre Tierra, 21/12/2010",
+     "ano": 2010,
+     "url": "https://www.lexivox.org/norms/BO-L-N71.html",
+     "verificado": false
+    },
+    {
+     "titulo": "Ley nº 300 Marco de la Madre Tierra y Desarrollo Integral para Vivir Bien, 15/10/2012",
+     "ano": 2012,
+     "url": "https://bolivia.infoleyes.com/norma/4126/ley-marco-de-la-madre-tierra-y-desarrollo-integral-para-vivir-bien-300",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Viver bem com, não melhor que: equilíbrio entre pessoas e Madre Tierra. A Lei 71 diz que o exercício de direitos individuais é limitado pelo exercício de direitos coletivos nos sistemas de vida da Madre Tierra e que conflitos devem ser resolvidos sem afetar irreversivelmente esses sistemas (resumo de busca).",
+   "conceitos": [
+    "suma qamaña",
+    "Madre Tierra",
+    "sistemas de vida",
+    "derechos colectivos",
+    "Estado plurinacional"
+   ],
+   "uso_operacional": "Compara-se com o Equador: a Bolívia fez lei ordinária (71 e 300) além do texto constitucional. Operacional: regra de precedência em conflito de direitos e dever de regenerar. Teste de eficácia: quantos atos administrativos foram anulados com base nela (não verificado).",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Leis 71 (21/12/2010) e 300 (15/10/2012): marco jurídico de Madre Tierra e Vivir Bien, aplicável ao nível central e aos entes autônomos.",
+     "fonte": "Resumo de busca (lexivox, infoleyes)",
+     "url": "https://www.lexivox.org/norms/BO-L-N71.html",
+     "verificado": false
+    },
+    {
+     "descricao": "TIPNIS: em 25/set/2011 a polícia reprimiu marcha indígena contra rodovia de cerca de 306 km pelo território e parque Isiboro-Sécure; o governo suspendeu a obra pela Lei 180.",
+     "fonte": "Resumo de busca (Type Investigations e outros)",
+     "url": "https://typeinvestigations.org/investigation/2012/08/27/bolivia-battles-highway/",
+     "verificado": false
+    }
+   ],
+   "criticas": "Crítica central: o governo Morales proclamou Vivir Bien e promoveu hidrocarbonetos, mineração e estradas (TIPNIS). Rivera Cusicanqui chama o discurso de decorativo (memória). Direitos da Madre Tierra sem órgão com poder de veto e sem consulta vinculante ficam como declaração.",
+   "relevancia_brasil": "Mostra o risco de captura que V04 (consulta vinculante) e V05 (direitos da natureza municipais) precisam prever no desenho: órgão independente e consentimento, não só consulta.",
+   "ligacoes": {
+    "ciclos": [
+     "boom-commodities-inclusao"
+    ],
+    "decisoes": [
+     "politica-precos-combustiveis"
+    ],
+    "potencias": [
+     "biodiversidade"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "ayni-minka-ayllu",
+   "nome": "Ayni, minka e ayllu (Andes: quéchua e aimará)",
+   "tradicao": "Indígena andino (organização social e econômica)",
+   "obra_chave": [
+    {
+     "titulo": "Murra, J. Formaciones económicas y políticas del mundo andino, IEP",
+     "ano": 1975,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Platt, T. Estado boliviano y ayllu andino, IEP",
+     "ano": 1982,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Reciprocidade como instituição produtiva: ayni (troca de trabalho simétrica e diferida), minka (trabalho coletivo para obra de interesse comum), ayllu (unidade territorial e parental com acesso a pisos ecológicos). Murra descreveu o controle vertical de um máximo de pisos ecológicos.",
+   "conceitos": [
+    "ayni",
+    "minka",
+    "mita (obrigação estatal inca)",
+    "ayllu",
+    "verticalidade",
+    "reciprocidade assimétrica"
+   ],
+   "uso_operacional": "Traduz-se em contabilidade de tempo (bancos de tempo, mutirões), e em governança de terra comum por unidade territorial. Cuidado: a mita foi apropriada pelo Estado inca e pela colônia (mita de Potosí) como trabalho forçado.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Murra: economia andina organizada por reciprocidade e redistribuição sem mercado generalizado (tese discutida; casos locais variam).",
+     "fonte": "Obra de memória, não conferida",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Reciprocidade andina é hierárquica em parte (redistribuição estatal inca, mita, yanacona). Idealizar um comunismo inca é erro antigo. Ayllus mudaram sob colônia e república; o ayllu atual é produto de história, não relíquia.",
+   "relevancia_brasil": "Equivalente brasileiro: mutirão e puxirum, ajuda mútua rural, bancos comunitários. Útil para economia solidária (V09) e habitação por autogestão.",
+   "ligacoes": {
+    "ciclos": [
+     "pau-brasil",
+     "acucar"
+    ],
+    "decisoes": [
+     "ampliar-assistencia"
+    ],
+    "potencias": [
+     "sociobioeconomia"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "tekoha-nande-reko",
+   "nome": "Tekoha e ñande reko (Guarani)",
+   "tradicao": "Indígena guarani (Mbya, Kaiowá, Ñandeva)",
+   "obra_chave": [
+    {
+     "titulo": "Melià, B. El guaraní conquistado y reducido: ensayos de etnohistoria",
+     "ano": 1986,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Clastres, H. La terre sans mal: le prophétisme tupi-guarani, Seuil",
+     "ano": 1975,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Tekoha é o lugar onde se pode ser guarani (teko): território e modo de ser (ñande reko) indissociáveis; sem tekoha não há teko porã (vida boa). Para os Kaiowá e Guarani de Mato Grosso do Sul, a perda de terra costuma ser associada a violência e a altas taxas de suicídio (a conferir).",
+   "conceitos": [
+    "tekoha",
+    "ñande reko",
+    "teko porã",
+    "yvy marã e'ỹ (terra sem mal)",
+    "aty guasu (assembleia)"
+   ],
+   "uso_operacional": "Operacional: demarcação como condição de política de saúde e educação, não só fundiária; aty guasu como instância de consulta já existente, a respeitar na consulta prévia.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Retomadas no MS (Dourados, Caarapó): conflito fundiário prolongado com mortes de lideranças (números em Cimi, Relatório Violência contra os Povos Indígenas, não conferidos).",
+     "fonte": "Memória; fonte primária não conferida",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Risco de essencializar 'o guarani' (Mbya, Kaiowá e Ñandeva divergem). A 'terra sem mal' foi lida como messianismo migratório (H. Clastres), com debate sobre sua origem pré ou pós-contato.",
+   "relevancia_brasil": "Mato Grosso do Sul concentra conflito fundiário indígena; a tese do marco temporal incide diretamente (V03).",
+   "ligacoes": {
+    "ciclos": [
+     "desenvolvimentismo",
+     "milagre-endividamento",
+     "retomada-incerteza"
+    ],
+    "decisoes": [],
+    "potencias": [
+     "terras-indigenas-contencao"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "az-mapu",
+   "nome": "Az mapu e küme mongen (Mapuche)",
+   "tradicao": "Indígena mapuche (Chile e Argentina)",
+   "obra_chave": [
+    {
+     "titulo": "Bengoa, J. Historia del pueblo mapuche (siglos XIX y XX), Ediciones Sur",
+     "ano": 1985,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Az mapu: conjunto de normas que ordenam a relação entre pessoas, territórios (mapu) e forças (newen); küme mongen: vida equilibrada. Base de reivindicação de autonomia e restituição.",
+   "conceitos": [
+    "az mapu",
+    "küme mongen",
+    "newen",
+    "lof (comunidade)",
+    "itrofill mongen (totalidade da vida)"
+   ],
+   "uso_operacional": "Caso de teste de desenho constitucional: a Convenção Constituinte do Chile propôs Estado plurinacional e o texto foi rejeitado em plebiscito em 4/set/2022 por ampla margem (cerca de 62%, não verificado), mostrando o custo de legitimidade quando o desenho vem sem pacto amplo.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Plebiscito de saída chileno de 2022: texto rejeitado (percentual a conferir).",
+     "fonte": "Memória",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Mapuche não são monolíticos (movimentos de autonomia, de restituição e de violência política coexistem). Evitar usar o conceito como emblema sem fonte mapuche.",
+   "relevancia_brasil": "Lição de processo: pluralismo constitucional exige construção de maioria; ver V04.",
+   "ligacoes": {
+    "ciclos": [],
+    "decisoes": [],
+    "potencias": [],
+    "leis": []
+   }
+  },
+  {
+   "id": "utz-kaslemal",
+   "nome": "Utz k'aslemal (Maia K'iche', Guatemala)",
+   "tradicao": "Indígena maia",
+   "obra_chave": [
+    {
+     "titulo": "Acuerdo sobre Identidad y Derechos de los Pueblos Indígenas (Guatemala, México, 31/03/1995)",
+     "ano": 1995,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "'Vida boa' no pensamento maia contemporâneo: bem-estar articulado à comunidade, ao calendário e à milpa. O conceito circula em organizações maias; a documentação acadêmica que consegui indicar é menos consolidada que a do sumak kawsay.",
+   "conceitos": [
+    "utz k'aslemal",
+    "milpa",
+    "cosmovisión maya"
+   ],
+   "uso_operacional": "Mostra que bem viver tem versões regionais e que acordos de paz (AIDPI) trataram direitos indígenas como pauta de Estado; a implementação ficou aquém (não conferido).",
+   "casos_e_evidencias": [],
+   "criticas": "Fonte e uso do termo não verificados; tratar como indicação, não como fonte. Nenhum caso empírico foi conferido.",
+   "relevancia_brasil": "Reforça a regra metodológica do projeto: citar o conceito na língua e na organização que o formula.",
+   "ligacoes": {
+    "ciclos": [],
+    "decisoes": [],
+    "potencias": [],
+    "leis": []
+   }
+  },
+  {
+   "id": "ailton-krenak",
+   "nome": "Ailton Krenak",
+   "tradicao": "Indígena brasileiro (Krenak, Vale do Rio Doce), pensador e ativista",
+   "obra_chave": [
+    {
+     "titulo": "Ideias para adiar o fim do mundo, Companhia das Letras",
+     "ano": 2019,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "A vida não é útil, Companhia das Letras",
+     "ano": 2020,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Discurso na Assembleia Nacional Constituinte (pintura do rosto com jenipapo)",
+     "ano": 1987,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "A ideia de humanidade separada da Terra sustenta o clube da humanidade que consome o planeta; adiar o fim do mundo é contar mais uma história. Crítica do desenvolvimento sustentável como slogan; a vida não deve ser medida por utilidade.",
+   "conceitos": [
+    "adiar o fim do mundo",
+    "humanidade como clube",
+    "sustentabilidade como mito corporativo",
+    "Watu (rio Doce)",
+    "vida não útil"
+   ],
+   "uso_operacional": "Obriga a perguntar de quem é a categoria 'recurso' em cada indicador. Operacional: o rio Doce (rompimento da barragem de Fundão, Mariana, 5/nov/2015) como caso em que 'bem comum' e personalidade jurídica do rio entram em disputa.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Rompimento da barragem de Fundão (Mariana, 2015) atingiu o Watu (rio Doce); ação de reconhecimento do rio como sujeito de direitos (Associação Pachamama, 2017) não foi decidida favoravelmente.",
+     "fonte": "Resumo de busca (ecojurisprudence.org)",
+     "url": "https://ecojurisprudence.org/?p=511",
+     "verificado": false
+    }
+   ],
+   "criticas": "Crítica: ensaios curtos, de forte valor retórico e pouco operacionais; risco de uso decorativo por empresas e governos (citar Krenak sem mudar licenciamento). Ele próprio rejeita transformar a obra em programa.",
+   "relevancia_brasil": "Voz de maior alcance público do pensamento indígena no país (eleição para a Academia Brasileira de Letras em 2023: não verificado).",
+   "ligacoes": {
+    "ciclos": [
+     "retomada-incerteza",
+     "recessao-ajuste-polarizacao"
+    ],
+    "decisoes": [],
+    "potencias": [
+     "biodiversidade",
+     "terras-indigenas-contencao"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "kopenawa-albert",
+   "nome": "Davi Kopenawa e Bruce Albert",
+   "tradicao": "Yanomami (xamã e porta-voz) e antropólogo franco-brasileiro",
+   "obra_chave": [
+    {
+     "titulo": "La chute du ciel: paroles d'un chaman yanomami, Plon",
+     "ano": 2010,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "The Falling Sky: Words of a Yanomami Shaman, Harvard University Press",
+     "ano": 2013,
+     "url": "https://blogs.lse.ac.uk/lsereviewofbooks/2014/02/01/book-review-the-falling-sky-words-of-a-yanomami-shaman-by-davi-kopenawa-and-bruce-albert",
+     "verificado": false
+    },
+    {
+     "titulo": "A queda do céu: palavras de um xamã yanomami, Companhia das Letras",
+     "ano": 2015,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Relato em primeira pessoa de cosmologia e ecologia xamânica: o povo da mercadoria não ouve a floresta; se os xamãs morrerem, os espíritos xapiri não sustentarão o céu e ele cairá. Denuncia garimpo, epidemias (xawara) e a cobiça.",
+   "conceitos": [
+    "xapiri",
+    "xawara (epidemia)",
+    "povo da mercadoria",
+    "queda do céu",
+    "Hutukara"
+   ],
+   "uso_operacional": "Indicador-sentinela: saúde e mortalidade yanomami e área garimpada. Em jan/2023 houve emergência em saúde pública no Território Yanomami (não verificado em detalhe).",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Livro produzido por gravação, tradução e edição conjunta com Bruce Albert; edição brasileira em 2015.",
+     "fonte": "Resumo de busca (LSE Review of Books)",
+     "url": "https://blogs.lse.ac.uk/lsereviewofbooks/2014/02/01/book-review-the-falling-sky-words-of-a-yanomami-shaman-by-davi-kopenawa-and-bruce-albert",
+     "verificado": false
+    }
+   ],
+   "criticas": "A obra é coautoria mediada (pacto etnográfico); há debate sobre quanto é voz de Kopenawa e quanto edição de Albert. Cosmologia não é programa político; garimpo tem cadeia econômica (ouro) que a cosmologia sozinha não corta.",
+   "relevancia_brasil": "Território Yanomami (RR/AM): a maior TI do país; a crise 2022-23 liga demarcação, fiscalização e ouro (V01, V07).",
+   "ligacoes": {
+    "ciclos": [
+     "retomada-incerteza"
+    ],
+    "decisoes": [
+     "politica-precos-combustiveis"
+    ],
+    "potencias": [
+     "terras-indigenas-contencao",
+     "biodiversidade"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "alto-xingu-kayapo",
+   "nome": "Alto Xingu e manejo kayapó (paisagens antropogênicas)",
+   "tradicao": "Povos indígenas e arqueologia amazônica",
+   "obra_chave": [
+    {
+     "titulo": "Heckenberger, M. et al. 'Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon', Science 321",
+     "ano": 2008,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Posey, D. 'Indigenous management of tropical forest ecosystems: the case of the Kayapó', Agroforestry Systems 3",
+     "ano": 1985,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Levis, C. et al. 'Persistent effects of pre-Columbian plant domestication on Amazonian forest composition', Science 355",
+     "ano": 2017,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "A floresta amazônica não é natureza intocada: inclui séculos de manejo (terra preta, ilhas de floresta apêtê kayapó, redes xinguanas). Povos indígenas produzem biodiversidade por manejo, o que desmonta a dicotomia preservar ou usar.",
+   "conceitos": [
+    "terra preta de índio",
+    "apêtê (ilhas de floresta)",
+    "paisagem antropogênica",
+    "jardim-floresta",
+    "Parque Indígena do Xingu (1961)"
+   ],
+   "uso_operacional": "Fundamenta política de manejo comunitário e sociobioeconomia e a prioridade de regularização antes de concessão.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Heckenberger et al. descrevem aglomerados pré-colombianos conectados no Alto Xingu, de baixa densidade e manejo extensivo.",
+     "fonte": "Memória, não lido",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Debate: quanto da Amazônia é antropogênica? A extrapolação de sítios é criticada (McMichael et al. 2012 apontam impacto humano localizado). Usar 'manejo' para legitimar qualquer exploração é distorção.",
+   "relevancia_brasil": "O Parque Indígena do Xingu (1961, irmãos Villas-Bôas e Darcy Ribeiro) é marco da política territorial indigenista.",
+   "ligacoes": {
+    "ciclos": [
+     "pau-brasil"
+    ],
+    "decisoes": [],
+    "potencias": [
+     "sociobioeconomia",
+     "terras-indigenas-contencao",
+     "biodiversidade"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "jurisprudencia-natureza",
+   "nome": "Rio Atrato (T-622/2016) e outros casos de natureza como sujeito de direitos",
+   "tradicao": "Direito constitucional comparado, com comunidades étnicas",
+   "obra_chave": [
+    {
+     "titulo": "Corte Constitucional da Colômbia, Sentencia T-622 de 2016, 10/11/2016",
+     "ano": 2016,
+     "url": "https://www.corteconstitucional.gov.co/relatoria/2016/t-622-16.htm",
+     "verificado": true
+    },
+    {
+     "titulo": "Lei orgânica do município de Bonito (PE), emenda de 21/12/2017, direitos da natureza",
+     "ano": 2017,
+     "url": "https://ecojurisprudence.org/initiatives/the-organic-law-of-the-municipal-of-bonito-2/",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "A Corte colombiana declarou o rio Atrato, sua bacia e afluentes entidade sujeito de direitos à proteção, conservação, manutenção e restauração, com guardiães (Estado e comunidades étnicas).",
+   "conceitos": [
+    "sujeito de direitos",
+    "guardiães",
+    "enfoque biocultural",
+    "direitos bioculturais"
+   ],
+   "uso_operacional": "Tradução: ação judicial estrutural com ordens de descontaminação e erradicação de mineração ilegal e comissão de guardiães. Em Bonito e Paudalho (PE) o município incorporou direitos da natureza à lei orgânica.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "T-622/2016 (10/11/2016): Atrato sujeito de direitos; ordens de plano de descontaminação, neutralização da mineração ilegal no Chocó e proteção dos direitos fundamentais das comunidades.",
+     "fonte": "Corte Constitucional (página lida; resumo da decisão)",
+     "url": "https://www.corteconstitucional.gov.co/relatoria/2016/t-622-16.htm",
+     "verificado": true
+    },
+    {
+     "descricao": "Bonito (PE) incorporou direitos da natureza à lei orgânica em 21/12/2017; Paudalho em 2018.",
+     "fonte": "Resumo de busca (ecojurisprudence.org)",
+     "url": "https://ecojurisprudence.org/initiatives/the-organic-law-of-the-municipal-of-bonito-2/",
+     "verificado": false
+    }
+   ],
+   "criticas": "A implementação no Atrato é descrita como lenta e contestada (fonte a conferir). Personalidade jurídica sem orçamento e sem poder fiscalizador é simbólica; a mineração ilegal persiste. Em Bonito não encontrei evidência de uso judicial relevante (a verificar).",
+   "relevancia_brasil": "Não há decisão federal brasileira equivalente; o pedido para o rio Doce não foi acolhido (2017). Municípios de PE são laboratório, sem efeito medido.",
+   "ligacoes": {
+    "ciclos": [
+     "retomada-incerteza"
+    ],
+    "decisoes": [],
+    "potencias": [
+     "agua-doce",
+     "biodiversidade"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "oit-169-consulta",
+   "nome": "OIT 169 e consulta prévia, livre e informada",
+   "tradicao": "Direito internacional dos direitos humanos",
+   "obra_chave": [
+    {
+     "titulo": "Convenção 169 da OIT sobre Povos Indígenas e Tribais, Genebra, 27/06/1989 (em vigor 1991)",
+     "ano": 1989,
+     "url": "https://normlex.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C169",
+     "verificado": false
+    },
+    {
+     "titulo": "Decreto nº 5.051/2004 (promulga a Convenção 169 no Brasil)",
+     "ano": 2004,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Corte IDH, Pueblo Indígena Kichwa de Sarayaku vs. Ecuador, 27/06/2012",
+     "ano": 2012,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Povos devem ser consultados, de boa-fé e por seus procedimentos, antes de medidas legislativas ou administrativas que os afetem (art. 6), e participar das decisões sobre seu desenvolvimento (art. 7). No caso Sarayaku (Corte IDH, 2012) o Equador foi responsabilizado por não consultar.",
+   "conceitos": [
+    "consulta prévia, livre e informada",
+    "consentimento",
+    "protocolos autônomos de consulta (Munduruku, Wajãpi)"
+   ],
+   "uso_operacional": "O Brasil promulgou a Convenção por decreto em 2004; falta lei que regule procedimento e efeito, e a consulta é tratada pelo Executivo como não vinculante. Protocolos autônomos (ex.: Munduruku, 2014) funcionam como contra-instrumento.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Sarayaku v. Ecuador (2012): Corte IDH condenou o Estado pela entrada de petroleira sem consulta.",
+     "fonte": "Memória, não conferido",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Consulta sem poder de veto vira ritual; consentimento vinculante gera conflito com o interesse nacional em energia e minérios (Belo Monte: consultas contestadas, não conferido). Risco de consulta fabricada por empresas.",
+   "relevancia_brasil": "A escolha entre consulta e consentimento é central em V04.",
+   "ligacoes": {
+    "ciclos": [
+     "boom-commodities-inclusao",
+     "retomada-incerteza"
+    ],
+    "decisoes": [],
+    "potencias": [
+     "terras-indigenas-contencao"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "nego-bispo",
+   "nome": "Antônio Bispo dos Santos (Nêgo Bispo)",
+   "tradicao": "Afro-brasileiro quilombola (Vale do Rio Itaueira, Piauí), contra-colonialismo",
+   "obra_chave": [
+    {
+     "titulo": "Colonização, quilombos: modos e significados, INCTI/UnB",
+     "ano": 2015,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "A terra dá, a terra quer, Ubu/Piseagrama",
+     "ano": 2023,
+     "url": "https://www.brasildefato.com.br/2023/12/04/estarei-vivo-mesmo-enterrado-disse-nego-bispo-quilombola-contracolonialista-que-morre-aos-63-anos",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Contra-colonialismo: a resistência dos povos que recusam a lógica monoteísta, linear e de acumulação do colonizador. Opõe confluência (encontro sem fusão) a sincretismo, biointeração a desenvolvimento, e os saberes orgânicos aos sintéticos.",
+   "conceitos": [
+    "contra-colonialismo",
+    "confluência",
+    "biointeração",
+    "saber orgânico x sintético",
+    "compartilhamento",
+    "diversais"
+   ],
+   "uso_operacional": "Critério para política rural quilombola: titulação coletiva, assistência técnica que respeite o manejo local e compras públicas (PAA, PNAE) como confluência com agricultura camponesa. Indicador: sementes crioulas e uso de terra sem insumos sintéticos.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Nêgo Bispo faleceu em 3/12/2023, sete meses depois de 'A terra dá, a terra quer'.",
+     "fonte": "Resumo de busca (Brasil de Fato, O Povo)",
+     "url": "https://www.brasildefato.com.br/2023/12/04/estarei-vivo-mesmo-enterrado-disse-nego-bispo-quilombola-contracolonialista-que-morre-aos-63-anos",
+     "verificado": false
+    },
+    {
+     "descricao": "PAA e PNAE: a Lei 11.947/2009 exige no mínimo 30% das verbas do PNAE para a agricultura familiar (valor de memória).",
+     "fonte": "Memória, não conferido",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Escrita ensaística e de vocabulário próprio (oral) com pouca operacionalização; risco de uso metafórico por quem nunca enfrentou o fundiário; dicotomias duras (orgânico/sintético, colonizador/contra-colonizador) simplificam.",
+   "relevancia_brasil": "Quilombos: art. 68 do ADCT (CF/88) garante propriedade definitiva aos remanescentes; titulação é lenta (ver V02).",
+   "ligacoes": {
+    "ciclos": [
+     "cafe-escravidao-abolicao",
+     "retomada-incerteza"
+    ],
+    "decisoes": [
+     "ampliar-assistencia"
+    ],
+    "potencias": [
+     "sociobioeconomia",
+     "diversidade-ativo-institucional"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "beatriz-nascimento",
+   "nome": "Beatriz Nascimento",
+   "tradicao": "Afro-brasileira, historiadora (Sergipe, Rio de Janeiro; 1942-1995)",
+   "obra_chave": [
+    {
+     "titulo": "Uma história feita por mãos negras (org. Alex Ratts), Zahar",
+     "ano": 2021,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Ori (filme, dir. Raquel Gerber, roteiro e narração de B. Nascimento)",
+     "ano": 1989,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Ratts, A. Eu sou atlântica: sobre a trajetória de Beatriz Nascimento",
+     "ano": 2006,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "O quilombo como paradigma de organização e de continuidade negra, e não só como fuga e resistência escrava; o território como corpo ('o meu espaço é o meu corpo'); o negro como sujeito histórico e não objeto de análise.",
+   "conceitos": [
+    "quilombo como paradigma",
+    "transmigração atlântica",
+    "território-corpo",
+    "Ori (cabeça e memória)"
+   ],
+   "uso_operacional": "Dá base conceitual para ler quilombo como unidade de governança territorial, útil para desenhos de titulação e proteção coletiva, e para o currículo (Lei 10.639/2003).",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Beatriz Nascimento foi assassinada em 1995; sua obra foi ampliada em edição póstuma de 2021.",
+     "fonte": "Memória",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Textos fragmentados (ensaios, falas, poemas), com tradução institucional por fazer; interpretação disputada entre uso político e leitura histórica estrita.",
+   "relevancia_brasil": "Ajuda a ler o quilombismo como inovação territorial brasileira, não só como identidade.",
+   "ligacoes": {
+    "ciclos": [
+     "cafe-escravidao-abolicao"
+    ],
+    "decisoes": [],
+    "potencias": [
+     "diversidade-ativo-institucional"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "abdias-nascimento",
+   "nome": "Abdias do Nascimento (quilombismo)",
+   "tradicao": "Afro-brasileiro (Franca, SP, 1914-2011): ator, senador, ativista",
+   "obra_chave": [
+    {
+     "titulo": "O quilombismo, Vozes",
+     "ano": 1980,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "O genocídio do negro brasileiro: processo de um racismo mascarado, Paz e Terra",
+     "ano": 1978,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Quilombismo: programa político-econômico de organização da população negra a partir da experiência quilombola, com propriedade coletiva, cooperação e Estado democrático e antirracista. Denuncia a democracia racial como máscara.",
+   "conceitos": [
+    "quilombismo",
+    "genocídio do negro brasileiro",
+    "democracia racial (crítica)",
+    "Teatro Experimental do Negro (1944)"
+   ],
+   "uso_operacional": "Fonte de ações afirmativas, de política fundiária coletiva e de indicadores desagregados por raça.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Lei 12.711/2012 (cotas em universidades federais) e ADPF 186 (STF, 2012, constitucionalidade de cotas): desenvolvimento posterior da pauta.",
+     "fonte": "Memória, não conferido",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "O 'genocídio' tem uso retórico forte e contestado por demógrafos; propostas de socialismo quilombista têm baixa tradução em desenho concreto.",
+   "relevancia_brasil": "Raça é eixo central do desenho distributivo no Brasil; relaciona-se a homicídios (risco 2,7 vezes maior para negros, FATOR_HUMANO).",
+   "ligacoes": {
+    "ciclos": [
+     "cafe-escravidao-abolicao",
+     "milagre-endividamento",
+     "retomada-incerteza"
+    ],
+    "decisoes": [
+     "ampliar-assistencia"
+    ],
+    "potencias": [
+     "diversidade-ativo-institucional"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "lelia-gonzalez",
+   "nome": "Lélia Gonzalez (amefricanidade)",
+   "tradicao": "Afro-brasileira (Belo Horizonte, 1935-1994): filósofa e antropóloga",
+   "obra_chave": [
+    {
+     "titulo": "A categoria político-cultural de amefricanidade, Tempo Brasileiro 92/93",
+     "ano": 1988,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Racismo e sexismo na cultura brasileira, Ciências Sociais Hoje",
+     "ano": 1984,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Amefricanidade: identidade compartilhada por africanos e indígenas nas Américas, contra o eurocentrismo e o mito da democracia racial; 'pretuguês' como marca da fala brasileira; intersecção entre racismo e sexismo, com a mulher negra no centro.",
+   "conceitos": [
+    "amefricanidade",
+    "pretuguês",
+    "neurose cultural brasileira",
+    "interseccionalidade (avant la lettre)"
+   ],
+   "uso_operacional": "Fundamenta desagregação de indicadores por raça e gênero e política de combate à violência contra mulheres negras.",
+   "casos_e_evidencias": [],
+   "criticas": "Categoria ampla pode apagar diferenças entre povos indígenas e afrodescendentes; menos aplicável a casos fora das Américas.",
+   "relevancia_brasil": "Marco para política antirracista e de gênero; aproxima a pauta indígena e a negra sem fundi-las.",
+   "ligacoes": {
+    "ciclos": [
+     "retomada-incerteza"
+    ],
+    "decisoes": [],
+    "potencias": [
+     "diversidade-ativo-institucional"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "milton-santos",
+   "nome": "Milton Santos (território usado)",
+   "tradicao": "Brasil, geógrafo (Brotas de Macaúbas, BA, 1926-2001)",
+   "obra_chave": [
+    {
+     "titulo": "A natureza do espaço: técnica e tempo, razão e emoção, Hucitec",
+     "ano": 1996,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Santos, M.; Silveira, M. L. O Brasil: território e sociedade no início do século XXI, Record",
+     "ano": 2001,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Território usado: o território é o espaço apropriado e usado pelos atores, e não só o recorte de Estado; o espaço é sistema de objetos e de ações; o 'uso' revela quem manda (verticalidades) e quem vive (horizontalidades).",
+   "conceitos": [
+    "território usado",
+    "verticalidades x horizontalidades",
+    "meio técnico-científico-informacional",
+    "guerra dos lugares",
+    "cidadania mutilada"
+   ],
+   "uso_operacional": "Traduz-se em avaliação de política pública por território: quem decide, quem vive, que normas incidem. Alimenta o cruzamento territorial do projeto (cruzamento_territorial.json).",
+   "casos_e_evidencias": [],
+   "criticas": "Fraseado teórico denso; poucas métricas diretas. Críticas à subestimação de política e a certo determinismo técnico (debate).",
+   "relevancia_brasil": "Brasil como território-mosaico: TIs, quilombos, assentamentos e grandes áreas de commodities convivem; o uso determina o efeito do investimento.",
+   "ligacoes": {
+    "ciclos": [
+     "desenvolvimentismo",
+     "boom-commodities-inclusao"
+    ],
+    "decisoes": [],
+    "potencias": [
+     "terras-indigenas-contencao"
+    ],
+    "leis": [
+     "potencia_pareto"
+    ]
+   }
+  },
+  {
+   "id": "darcy-ribeiro",
+   "nome": "Darcy Ribeiro",
+   "tradicao": "Brasil, antropólogo e político (Montes Claros, 1922-1997)",
+   "obra_chave": [
+    {
+     "titulo": "O povo brasileiro: a formação e o sentido do Brasil, Companhia das Letras",
+     "ano": 1995,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Os índios e a civilização, Civilização Brasileira",
+     "ano": 1970,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "A formação do Brasil como processo de 'moinho de gastar gente': a mestiçagem de matrizes indígena, europeia e africana, a violência da gênese e a promessa de uma 'nova Roma tropical'. Defendeu a escola de tempo integral (CIEPs) e a Universidade de Brasília.",
+   "conceitos": [
+    "moinho de gastar gente",
+    "povo-nação",
+    "ranchos sobre aldeias (transfiguração étnica)",
+    "CIEP"
+   ],
+   "uso_operacional": "Educação integral como projeto de Estado e política indigenista (Parque do Xingu 1961, FUNAI 1967 com críticas).",
+   "casos_e_evidencias": [
+    {
+     "descricao": "CIEPs (Rio de Janeiro, anos 1980): escolas de tempo integral; avaliações posteriores mistas e descontinuadas.",
+     "fonte": "Memória, não conferido",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Crítica: otimismo mestiço próximo à democracia racial; ênfase assimilacionista; imprecisão histórica em generalizações. Contudo, é fonte primária de projeto nacional.",
+   "relevancia_brasil": "Educação em tempo integral hoje (Lei 14.640/2023 Programa Escola em Tempo Integral, valor de memória).",
+   "ligacoes": {
+    "ciclos": [
+     "industrializacao-vargas",
+     "desenvolvimentismo",
+     "milagre-endividamento"
+    ],
+    "decisoes": [],
+    "potencias": [
+     "capital-humano-gap",
+     "diversidade-ativo-institucional"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "paulo-freire",
+   "nome": "Paulo Freire",
+   "tradicao": "Brasil, educador (Recife, 1921-1997)",
+   "obra_chave": [
+    {
+     "titulo": "Pedagogia do oprimido (manuscrito 1968; ed. inglesa 1970; ed. brasileira 1974)",
+     "ano": 1968,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Educação como prática da liberdade",
+     "ano": 1967,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Educação como prática dialógica de conscientização, contra a educação bancária; alfabetização lê a palavra e o mundo. Reconhece o saber popular como ponto de partida.",
+   "conceitos": [
+    "educação bancária",
+    "conscientização",
+    "palavra geradora",
+    "círculo de cultura",
+    "inédito viável"
+   ],
+   "uso_operacional": "Orienta educação intercultural e de jovens e adultos, e processos deliberativos (inspirou o orçamento participativo e a educação popular).",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Programa de alfabetização de adultos, Angicos (RN), 1963: ficou famoso e foi interrompido pelo golpe de 1964; resultados não são mensurados pelos padrões atuais.",
+     "fonte": "Memória",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Críticas: pouca evidência experimental em larga escala; risco de dirigismo do educador; debates sobre 'doutrinação' e sobre fidelidade da prática ao método.",
+   "relevancia_brasil": "Ponto de partida para currículo intercultural (V10) e para participação em orçamento (V08).",
+   "ligacoes": {
+    "ciclos": [
+     "desenvolvimentismo",
+     "milagre-endividamento"
+    ],
+    "decisoes": [],
+    "potencias": [
+     "capital-humano-gap"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "josue-de-castro",
+   "nome": "Josué de Castro",
+   "tradicao": "Brasil, médico, geógrafo e político (Recife, 1908-1973)",
+   "obra_chave": [
+    {
+     "titulo": "Geografia da fome",
+     "ano": 1946,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Geopolítica da fome",
+     "ano": 1951,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "A fome não é fatalidade natural mas produto de estrutura social e econômica (monocultura, latifúndio, salário baixo); descreve a fome oculta de micronutrientes. Foi presidente do Conselho da FAO.",
+   "conceitos": [
+    "fome oculta",
+    "áreas alimentares do Brasil",
+    "fome como fenômeno social",
+    "geopolítica da fome"
+   ],
+   "uso_operacional": "Base de indicadores de segurança alimentar (EBIA, VIGISAN) e de política de abastecimento.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Brasil saiu do Mapa da Fome da FAO em 2014 e voltou em 2018-2020; nova saída em 2025 (SOFI).",
+     "fonte": "FATOR_HUMANO.md (resumos de busca)",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Algumas teses nutricionais (proteína) foram superadas; descreve causa estrutural sem teoria de transição.",
+   "relevancia_brasil": "Ligação direta com os indicadores de fome e insegurança alimentar do projeto.",
+   "ligacoes": {
+    "ciclos": [
+     "recessao-ajuste-polarizacao",
+     "retomada-incerteza"
+    ],
+    "decisoes": [
+     "ampliar-assistencia"
+    ],
+    "potencias": [
+     "agricultura-tropical-ptf"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "celso-furtado",
+   "nome": "Celso Furtado",
+   "tradicao": "Brasil, economista (Pombal, PB, 1920-2004)",
+   "obra_chave": [
+    {
+     "titulo": "Formação econômica do Brasil",
+     "ano": 1959,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "O mito do desenvolvimento econômico",
+     "ano": 1974,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Subdesenvolvimento como estrutura histórica, não etapa; propõe que o padrão de consumo das elites periféricas copia o centro e bloqueia desenvolvimento. Em 1974 argumentou que generalizar o padrão de consumo do centro é inviável pelos limites do planeta.",
+   "conceitos": [
+    "subdesenvolvimento como processo histórico",
+    "dependência",
+    "padrão de consumo imitativo",
+    "criatividade cultural",
+    "SUDENE (1959)"
+   ],
+   "uso_operacional": "Une economia histórica e limites planetários: uma ponte entre ECONOMIA_HISTORICA.md e a Agenda 2030.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "O mito do desenvolvimento econômico (1974) antecede em poucos anos os debates sobre limites ao crescimento e conecta-se a Meadows.",
+     "fonte": "Memória",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Teoria estruturalista com limites empíricos (Coreia e China divergiram); menos micro-evidência.",
+   "relevancia_brasil": "O ciclo 'desenvolvimentismo' é seu laboratório; o argumento do 'mito' dialoga com Daly e Meadows.",
+   "ligacoes": {
+    "ciclos": [
+     "desenvolvimentismo",
+     "industrializacao-vargas",
+     "milagre-endividamento"
+    ],
+    "decisoes": [
+     "credito-subsidiado"
+    ],
+    "potencias": [
+     "criativo-cultural-turismo"
+    ],
+    "leis": [
+     "solow",
+     "baumol"
+    ]
+   }
+  },
+  {
+   "id": "viveiros-de-castro",
+   "nome": "Eduardo Viveiros de Castro (perspectivismo ameríndio)",
+   "tradicao": "Brasil, antropólogo (Museu Nacional/UFRJ)",
+   "obra_chave": [
+    {
+     "titulo": "Os pronomes cosmológicos e o perspectivismo ameríndio, Mana 2(2)",
+     "ano": 1996,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "A inconstância da alma selvagem, Cosac Naify",
+     "ano": 2002,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Métaphysiques cannibales, PUF",
+     "ano": 2009,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Em cosmologias ameríndias, humanidade é a posição de sujeito comum (todos os seres veem a si como humanos) e os corpos diferem: multinaturalismo contra o multiculturalismo ocidental. Convida a levar a sério o pensamento indígena como filosofia.",
+   "conceitos": [
+    "perspectivismo",
+    "multinaturalismo",
+    "antropologia reversa",
+    "descolonização permanente do pensamento"
+   ],
+   "uso_operacional": "Dá legitimidade epistêmica à consulta e ao pluralismo de saberes; sustenta pensar 'sujeito' além do humano, relevante para direitos da natureza.",
+   "casos_e_evidencias": [],
+   "criticas": "Críticas: generaliza a partir da Amazônia (Turner, Ingold, Bessire e Bond), pouca atenção à política atual; Turner e outros questionam a coerência do modelo; risco de exotizar. Debates sobre 'virada ontológica' (Graeber, Carrithers et al. 2010).",
+   "relevancia_brasil": "Brasil: nome mais citado da antropologia nacional no debate global.",
+   "ligacoes": {
+    "ciclos": [],
+    "decisoes": [],
+    "potencias": [
+     "biodiversidade"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "descola",
+   "nome": "Philippe Descola",
+   "tradicao": "França, antropólogo (Collège de France)",
+   "obra_chave": [
+    {
+     "titulo": "Par-delà nature et culture, Gallimard",
+     "ano": 2005,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Beyond Nature and Culture, University of Chicago Press",
+     "ano": 2013,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Quatro ontologias (naturalismo, animismo, totemismo, analogismo) como modos de distribuir continuidades e descontinuidades entre humanos e não humanos; o naturalismo ocidental é uma entre outras.",
+   "conceitos": [
+    "naturalismo",
+    "animismo",
+    "totemismo",
+    "analogismo",
+    "Achuar (estudo de campo)"
+   ],
+   "uso_operacional": "Serve para planejar tradução institucional: quais instituições pressupõem naturalismo (propriedade, valoração) e quais admitem relação.",
+   "casos_e_evidencias": [],
+   "criticas": "Esquema tipológico criticado por rigidez e por tratar sociedades como blocos ontológicos (Ingold).",
+   "relevancia_brasil": "Referência para dialogar com a Amazônia sem romantizar.",
+   "ligacoes": {
+    "ciclos": [],
+    "decisoes": [],
+    "potencias": [],
+    "leis": []
+   }
+  },
+  {
+   "id": "eduardo-kohn",
+   "nome": "Eduardo Kohn",
+   "tradicao": "EUA/Canadá, antropólogo (McGill), trabalho com os Runa (Ávila, Equador)",
+   "obra_chave": [
+    {
+     "titulo": "How Forests Think: Toward an Anthropology Beyond the Human, University of California Press",
+     "ano": 2013,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Antropologia além do humano: os seres vivos interpretam signos (semiose peirceana); a floresta 'pensa' em sentido semiótico, e o humano é uma forma de vida entre outras.",
+   "conceitos": [
+    "semiose",
+    "selves",
+    "antropologia além do humano",
+    "Runa puma"
+   ],
+   "uso_operacional": "Argumenta por incluir não humanos como agentes em modelos de governança de bacias e fauna.",
+   "casos_e_evidencias": [],
+   "criticas": "Crítica de obscuridade e do uso extensivo de Peirce, e de reduzir a política a semiótica; poucas ferramentas operacionais.",
+   "relevancia_brasil": "Marginal ao desenho; útil para educar o olhar do técnico.",
+   "ligacoes": {
+    "ciclos": [],
+    "decisoes": [],
+    "potencias": [],
+    "leis": []
+   }
+  },
+  {
+   "id": "pierre-clastres",
+   "nome": "Pierre Clastres",
+   "tradicao": "França, antropólogo (1934-1977); Guayaki/Aché (Paraguai) e Guarani",
+   "obra_chave": [
+    {
+     "titulo": "La Société contre l'État, Minuit",
+     "ano": 1974,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Archéologie de la violence: la guerre dans les sociétés primitives",
+     "ano": 1980,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Sociedades sem Estado não são sociedades 'incompletas': elas mantêm dispositivos que impedem o surgimento de poder coercitivo separado (chefe sem poder, guerra permanente, dádiva em direção ao chefe). Pergunta: por que o Estado surgiu, e não por que não surgiu?",
+   "conceitos": [
+    "sociedade contra o Estado",
+    "chefe sem poder",
+    "guerra como centrífuga",
+    "servidão voluntária (La Boétie)"
+   ],
+   "uso_operacional": "Convida a desenhar freios internos contra concentração de poder (rotatividade, revogabilidade, limites de mandato).",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Chefes tupi-guarani e outras chefias sem coerção, descritos em Chroniques des Indiens Guayaki (1972) e La Société contre l'État (1974).",
+     "fonte": "Memória",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Críticas: generalização a partir de poucas etnografias (Guayaki, Guarani); arqueologia mostra chefias hierárquicas na Amazônia (Heckenberger) e Estados em outros lugares; Descola e Viveiros de Castro dialogam; Graeber & Wengrow o usam com ressalva. Clastres morreu cedo (1977), obra inacabada.",
+   "relevancia_brasil": "Útil como contrapeso do desejo de Estado como solução única; não substitui capacidade estatal para violência e tributo (ver Elias).",
+   "ligacoes": {
+    "ciclos": [
+     "pau-brasil"
+    ],
+    "decisoes": [],
+    "potencias": [],
+    "leis": []
+   }
+  },
+  {
+   "id": "james-scott",
+   "nome": "James C. Scott",
+   "tradicao": "EUA, cientista político e antropólogo (Yale)",
+   "obra_chave": [
+    {
+     "titulo": "Seeing Like a State, Yale University Press",
+     "ano": 1998,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "The Art of Not Being Governed, Yale University Press",
+     "ano": 2009,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Against the Grain, Yale University Press",
+     "ano": 2017,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "O Estado exige legibilidade (cadastro, nome fixo, monocultura) e projetos de alto modernismo falham quando ignoram a metis (saber prático local). Zomia, terras altas do sudeste asiático, seria zona de fuga do Estado; o Estado inicial dependia de grãos fáceis de contar e tributar.",
+   "conceitos": [
+    "legibilidade",
+    "metis",
+    "alto modernismo",
+    "Zomia",
+    "grãos e tributo"
+   ],
+   "uso_operacional": "Teste de desenho: antes de uma política, perguntar o que o Estado precisa ler (cadastro, CAR) e o que o ato de ler destrói. Aplica-se a REDD+, CAR e regularização.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Brasília, a ação de planejamento urbano do alto modernismo, é um dos casos de Scott; Tanzânia (ujamaa) e a Rússia (kolkhoz) também.",
+     "fonte": "Memória",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Críticas: Zomia é generalização (Michaud 2010; Jonsson); tendência anti-Estado ignora o papel do Estado na proteção social; Scott admite que o Estado também é fonte de bens públicos. Against the Grain tem estimativas contestadas (arqueólogos).",
+   "relevancia_brasil": "Ferramenta crítica para Brasil: CAR, georreferenciamento e SISBOV como projetos de legibilidade; ver V06.",
+   "ligacoes": {
+    "ciclos": [
+     "industrializacao-vargas",
+     "milagre-endividamento"
+    ],
+    "decisoes": [
+     "reforma-administrativa"
+    ],
+    "potencias": [],
+    "leis": []
+   }
+  },
+  {
+   "id": "graeber-wengrow",
+   "nome": "David Graeber e David Wengrow",
+   "tradicao": "Antropólogo (1961-2020) e arqueólogo britânicos",
+   "obra_chave": [
+    {
+     "titulo": "The Dawn of Everything: A New History of Humanity, Farrar, Straus and Giroux / Allen Lane",
+     "ano": 2021,
+     "url": "https://leiterreports.com/2022/01/30/do-graeber-and-wengrow-know-what-theyre-talking-about-in-the-dawn-of-everything/",
+     "verificado": false
+    },
+    {
+     "titulo": "Graeber, D. Debt: The First 5,000 Years, Melville House",
+     "ano": 2011,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Humanos experimentaram formas políticas variadas (sazonais, igualitárias e hierárquicas) e tinham liberdades de desobedecer, de migrar e de recompor a ordem social; a história não é uma escada rumo a hierarquia. Critica a narrativa 'agricultura, propriedade, Estado'.",
+   "conceitos": [
+    "três liberdades básicas",
+    "esquizogênese",
+    "crítica indígena (Kondiaronk)",
+    "alternância sazonal de regimes",
+    "urbanismo sem Estado (Teotihuacan, Çatalhöyük)"
+   ],
+   "uso_operacional": "Amplia o espaço de possíveis para o desenho: instituições são escolhas, e a reversibilidade e a saída são parte da liberdade.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Críticas recebidas: Birch e Kotsakis alertam para casos selecionados; M. Smith e I. Morris pedem quadros transculturais e quantitativos; Nakamura aponta que se reproduz uma nova grande narrativa. Em geral, elogiado como libertador e criticado pela evidência seletiva.",
+     "fonte": "Resumo de busca (revisões)",
+     "url": "https://leiterreports.com/2022/01/30/do-graeber-and-wengrow-know-what-theyre-talking-about-in-the-dawn-of-everything/",
+     "verificado": false
+    }
+   ],
+   "criticas": "Evidência seletiva, tom retórico e demonstrações exageradas sobre a 'crítica indígena' ter inspirado o Iluminismo (Kondiaronk, atribuição contestada); falta ligação entre casos igualitários e como manter-os em escala.",
+   "relevancia_brasil": "Serve de antídoto contra o determinismo ('só existe Estado hierárquico'), sem dar receita.",
+   "ligacoes": {
+    "ciclos": [],
+    "decisoes": [],
+    "potencias": [],
+    "leis": []
+   }
+  },
+  {
+   "id": "anibal-quijano",
+   "nome": "Aníbal Quijano (colonialidade do poder)",
+   "tradicao": "Peru (1928-2018), sociólogo",
+   "obra_chave": [
+    {
+     "titulo": "Colonialidad del poder, eurocentrismo y América Latina (in Lander, E. org., La colonialidad del saber, CLACSO)",
+     "ano": 2000,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "A 'raça' como princípio de classificação social criado na conquista da América estruturou o capitalismo mundial; a colonialidade sobrevive à descolonização formal em poder, saber e ser.",
+   "conceitos": [
+    "colonialidade do poder",
+    "raça como classificação",
+    "eurocentrismo",
+    "heterogeneidade histórico-estrutural"
+   ],
+   "uso_operacional": "Orienta desagregação racial em indicadores e a avaliação de políticas distributivas por estratificação.",
+   "casos_e_evidencias": [],
+   "criticas": "Crítica: ênfase na raça pode sub-teorizar classe e gênero (Lugones); ensaísmo com baixa operacionalização; linha 'decolonial' é acusada de reificar a Europa como mal único.",
+   "relevancia_brasil": "Dá quadro teórico para a desigualdade racial do Brasil.",
+   "ligacoes": {
+    "ciclos": [
+     "pau-brasil",
+     "acucar",
+     "cafe-escravidao-abolicao"
+    ],
+    "decisoes": [],
+    "potencias": [],
+    "leis": []
+   }
+  },
+  {
+   "id": "enrique-dussel",
+   "nome": "Enrique Dussel",
+   "tradicao": "Argentina/México (1934-2023), filósofo",
+   "obra_chave": [
+    {
+     "titulo": "1492: El encubrimiento del Otro, Nueva Utopía",
+     "ano": 1992,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Filosofía de la liberación",
+     "ano": 1977,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Modernidade começa em 1492 com o encobrimento do Outro; filosofia da libertação parte do ponto de vista do oprimido; transmodernidade como projeto de diálogo entre culturas.",
+   "conceitos": [
+    "transmodernidade",
+    "encobrimento",
+    "ética da libertação",
+    "política da libertação"
+   ],
+   "uso_operacional": "Critério: avaliar instituições a partir das vítimas.",
+   "casos_e_evidencias": [],
+   "criticas": "Críticas: tese de 1492 como origem única é historiograficamente discutível (Mignolo, Hobson); risco de essencialismo.",
+   "relevancia_brasil": "Marginal; útil como fundamento ético para consulta.",
+   "ligacoes": {
+    "ciclos": [],
+    "decisoes": [],
+    "potencias": [],
+    "leis": []
+   }
+  },
+  {
+   "id": "arturo-escobar",
+   "nome": "Arturo Escobar",
+   "tradicao": "Colômbia/EUA (UNC), antropólogo",
+   "obra_chave": [
+    {
+     "titulo": "Encountering Development, Princeton University Press",
+     "ano": 1995,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Designs for the Pluriverse, Duke University Press",
+     "ano": 2018,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "O desenvolvimento é um regime discursivo que produziu o 'Terceiro Mundo'; propõe pós-desenvolvimento e design para o pluriverso (um mundo onde caibam muitos mundos), a partir de comunidades afro do Pacífico colombiano (PCN).",
+   "conceitos": [
+    "pós-desenvolvimento",
+    "pluriverso",
+    "design autônomo",
+    "ontologia política",
+    "Processo de Comunidades Negras"
+   ],
+   "uso_operacional": "Fornece método de desenho participativo e de territórios de vida (Pacífico colombiano).",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Estudo do PCN em Anchoring Hope; Ley 70 de 1993 da Colômbia reconhece territórios coletivos afrocolombianos.",
+     "fonte": "Memória, Ley 70 não conferida",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Crítica: pós-desenvolvimento descarta ganhos materiais (saúde, expectativa de vida); linguagem difícil; difícil escalar.",
+   "relevancia_brasil": "Ley 70/93 colombiana é comparável ao art. 68 do ADCT brasileiro.",
+   "ligacoes": {
+    "ciclos": [],
+    "decisoes": [],
+    "potencias": [],
+    "leis": []
+   }
+  },
+  {
+   "id": "eduardo-gudynas",
+   "nome": "Eduardo Gudynas",
+   "tradicao": "Uruguai, ecologista social (CLAES)",
+   "obra_chave": [
+    {
+     "titulo": "Extractivismos: ecología, economía y política de un modo de entender el desarrollo y la Naturaleza, CEDIB/CLAES",
+     "ano": 2015,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Buen Vivir: today's tomorrow, Development 54(4)",
+     "ano": 2011,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Distingue Buen Vivir como alternativa ao desenvolvimento de seus usos oficiais; o 'neoextrativismo progressista' latino-americano usa renda extrativa para política social sem mudar o padrão. Propõe 'extrativismo indispensável' e transições.",
+   "conceitos": [
+    "neoextrativismo progressista",
+    "extrativismo predatório",
+    "transições",
+    "direitos da natureza"
+   ],
+   "uso_operacional": "Fornece métrica de dependência extrativa (participação de commodities nas exportações) e checklist de captura do Buen Vivir.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Brasil: commodities na pauta exportadora; dependência a poucos produtos e destinos documentada em potenciais_brasil.json (armadilhas).",
+     "fonte": "Dados do projeto",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Posição ecologista pode subestimar custo social de transição em países pobres; propostas de transição pouco detalhadas.",
+   "relevancia_brasil": "Pauta exata do ciclo boom-commodities: política social financiada por renda extrativa.",
+   "ligacoes": {
+    "ciclos": [
+     "boom-commodities-inclusao",
+     "recessao-ajuste-polarizacao"
+    ],
+    "decisoes": [
+     "politica-precos-combustiveis"
+    ],
+    "potencias": [
+     "niobio-concentracao-global"
+    ],
+    "leis": [
+     "jevons"
+    ]
+   }
+  },
+  {
+   "id": "alberto-acosta",
+   "nome": "Alberto Acosta",
+   "tradicao": "Equador, economista; presidente da Assembleia Constituinte de 2008",
+   "obra_chave": [
+    {
+     "titulo": "El Buen Vivir: sumak kawsay, una oportunidad para imaginar otros mundos, Icaria/Abya Yala",
+     "ano": 2013,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "O Bem Viver: uma oportunidade para imaginar outros mundos, Autonomia Literária/Elefante",
+     "ano": 2016,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "A maldição da abundância (La maldición de la abundancia), CEDA/Abya Yala",
+     "ano": 2009,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Bem Viver como projeto civilizatório plural e crítico do desenvolvimento; a 'maldição da abundância' descreve a renda de recursos naturais como armadilha; propõe pós-extrativismo e decrescimento seletivo no Norte.",
+   "conceitos": [
+    "Bem Viver",
+    "pós-extrativismo",
+    "maldição da abundância",
+    "iniciativa Yasuní-ITT (Ramírez/Acosta, 2007)"
+   ],
+   "uso_operacional": "Fonte do desenho constituinte do Equador; mostra a distância entre texto constitucional e política: em 2013 o governo encerrou a iniciativa Yasuní-ITT.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Acosta participou do desenho de Yasuní-ITT e de 2008; rompeu com o governo Correa depois da Constituinte.",
+     "fonte": "Memória, não conferido",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Proposta macro sem plano fiscal de transição crível; risco de que sem renda extrativa o Estado perca capacidade distributiva.",
+   "relevancia_brasil": "Lê-se junto com Furtado e Gudynas, ponte com o debate fiscal (decisões de arcabouço).",
+   "ligacoes": {
+    "ciclos": [
+     "boom-commodities-inclusao"
+    ],
+    "decisoes": [
+     "flexibilizar-arcabouco"
+    ],
+    "potencias": [],
+    "leis": [
+     "jevons"
+    ]
+   }
+  },
+  {
+   "id": "rivera-cusicanqui",
+   "nome": "Silvia Rivera Cusicanqui",
+   "tradicao": "Bolívia, socióloga e historiadora (aimará-mestiça)",
+   "obra_chave": [
+    {
+     "titulo": "Ch'ixinakax utxiwa: una reflexión sobre prácticas y discursos descolonizadores, Tinta Limón",
+     "ano": 2010,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Un mundo ch'ixi es posible: ensayos desde un presente en crisis, Tinta Limón",
+     "ano": 2018,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Ch'ixi: coexistência de opostos sem síntese (mistura manchada, como o cinza da cor aimará); crítica dura do 'discurso decolonial' acadêmico e do Estado plurinacional boliviano como decoração de poder extrativo. Propõe sociologia da imagem e práticas descolonizadoras concretas.",
+   "conceitos": [
+    "ch'ixi",
+    "descolonização como prática",
+    "colonialismo interno",
+    "sociologia da imagem"
+   ],
+   "uso_operacional": "Teste de realidade: toda política 'decolonial' deve mostrar mudança material (terra, trabalho, linguagem), não só nome.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Rivera critica o governo boliviano por TIPNIS e por 'colonialismo interno' mantido.",
+     "fonte": "Memória",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Polêmica e fragmentada; ceticismo deixa pouco programa institucional.",
+   "relevancia_brasil": "Antídoto de captura para V04 e V05.",
+   "ligacoes": {
+    "ciclos": [
+     "boom-commodities-inclusao"
+    ],
+    "decisoes": [],
+    "potencias": [],
+    "leis": []
+   }
+  },
+  {
+   "id": "boaventura-sousa-santos",
+   "nome": "Boaventura de Sousa Santos",
+   "tradicao": "Portugal, sociólogo e jurista (Coimbra)",
+   "obra_chave": [
+    {
+     "titulo": "Epistemologias do Sul (com M. P. Meneses, orgs.), Almedina",
+     "ano": 2009,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Pela mão de Alice: o social e o político na pós-modernidade, Cortez",
+     "ano": 1995,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Epistemologias do Sul: sociologia das ausências e das emergências; ecologia de saberes (diálogo entre saberes científicos e não científicos); tradução intercultural como método. Defende democracia de alta intensidade.",
+   "conceitos": [
+    "epistemicídio",
+    "ecologia de saberes",
+    "sociologia das ausências",
+    "tradução intercultural",
+    "linha abissal"
+   ],
+   "uso_operacional": "Estrutura a ideia de pluralismo epistêmico na avaliação de políticas (comitês mistos, saberes tradicionais em licenciamento).",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Acusações de má conduta sexual contra o autor circularam na imprensa e em obra coletiva (2023); não verifiquei o estado dos processos e não faço juízo sobre elas.",
+     "fonte": "Memória, não conferido",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Críticas epistemológicas (relativismo, uso político-militante, vagueza do 'Sul'); polêmicas éticas pessoais, que não anulam a obra mas exigem cautela na citação e na dependência de uma só fonte.",
+   "relevancia_brasil": "Forte recepção no Brasil e na Colômbia; ecologia de saberes vira conceito de política de educação superior.",
+   "ligacoes": {
+    "ciclos": [],
+    "decisoes": [],
+    "potencias": [],
+    "leis": []
+   }
+  },
+  {
+   "id": "norbert-elias",
+   "nome": "Norbert Elias",
+   "tradicao": "Alemanha/Reino Unido, sociólogo (1897-1990)",
+   "obra_chave": [
+    {
+     "titulo": "Über den Prozess der Zivilisation (Der Prozess der Zivilisation, 2 vols., Haus zum Falken, Basileia)",
+     "ano": 1939,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Die höfische Gesellschaft (Habilitationsschrift de 1933)",
+     "ano": 1969,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Elias, N.; Scotson, J. The Established and the Outsiders (Winston Parva)",
+     "ano": 1965,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Dois processos entrelaçados: sociogênese do Estado (competição entre senhores leva a monopólio da violência física e da tributação, 'mecanismo do monopólio') e psicogênese (aumento da interdependência produz maior autocontrole e vergonha, constrangimento externo vira autocoerção). Em 'Os estabelecidos e os outsiders', grupos estabelecidos estigmatizam recém-chegados pela diferença de poder e coesão, não por traços reais.",
+   "conceitos": [
+    "processo civilizador",
+    "monopólio da violência e da tributação",
+    "mecanismo do monopólio",
+    "figuração",
+    "interdependência",
+    "autocoerção",
+    "habitus",
+    "estabelecidos e outsiders",
+    "descivilização"
+   ],
+   "uso_operacional": "Traduz-se em indicador de capacidade estatal: fração do território com monopólio legítimo (homicídios, controle por facção), arrecadação, confiança. Em 'estabelecidos', mede estigma territorial (acesso a serviços por bairro e raça).",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Homicídios no Brasil: 45.747 em 2023, risco 2,7 vezes maior para negros (FATOR_HUMANO.md).",
+     "fonte": "FATOR_HUMANO.md do projeto",
+     "url": "",
+     "verificado": false
+    },
+    {
+     "descricao": "Elias foi relido para tendências de longo prazo de redução de homicídios na Europa (Eisner 2003, Crime and Justice 30); a série de longo prazo tem críticas de método.",
+     "fonte": "Memória; Eisner 2003 não conferido",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Críticas: (1) eurocentrismo e teleologia (Duerr, Der Mythos vom Zivilisationsprozess, 1988-2002: nudez, vergonha e violência não crescem linearmente; o debate 'Elias-Duerr'); (2) dependência de manuais de etiqueta como fonte; (3) a violência 'civilizada' do Estado (colonialismo, guerras mundiais) fica sem explicação, e Elias teve de falar em descivilização (Studien über die Deutschen, 1989); (4) Clastres e Graeber negam o Estado como progresso necessário. Pinker (2011) usou Elias de forma pública e foi criticado por Ferguson e Fry.",
+   "relevancia_brasil": "Pergunta brasileira: monopólio da violência é parcial (milícias, facções, grilagem). Uma política de segurança é uma política de sociogênese do Estado, com risco de brutalidade (letalidade policial).",
+   "ligacoes": {
+    "ciclos": [
+     "milagre-endividamento",
+     "decada-perdida-hiperinflacao",
+     "retomada-incerteza"
+    ],
+    "decisoes": [
+     "ampliar-stf",
+     "remover-ministros-stf",
+     "anistia-politica"
+    ],
+    "potencias": [
+     "diversidade-ativo-institucional"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "hans-peter-duerr",
+   "nome": "Hans Peter Duerr (crítica a Elias)",
+   "tradicao": "Alemanha, antropólogo (1943-)",
+   "obra_chave": [
+    {
+     "titulo": "Nacktheit und Scham (Der Mythos vom Zivilisationsprozess, vol. 1), Suhrkamp",
+     "ano": 1988,
+     "url": "https://www.perlentaucher.de/buch/hans-peter-duerr/die-tatsachen-des-lebens-der-mythos-vom-zivilisationsprozess-band-5.html",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Série de volumes que sustenta que as evidências históricas e etnográficas desmentem a tese de Elias sobre vergonha e controle de pulsões; alerta para a projeção de uma 'imagem distorcida' de culturas passadas e alheias.",
+   "conceitos": [
+    "mito do processo civilizador",
+    "vergonha e nudez",
+    "violência 'civilizada'"
+   ],
+   "uso_operacional": "Dispositivo metodológico: antes de usar Elias como teoria, exigir evidência local, e evitar escalas morais entre povos.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Segundo a literatura secundária, Duerr encontrou pouco apoio nas ciências sociais, mas deu início ao debate Elias-Duerr.",
+     "fonte": "Resumo de busca",
+     "url": "https://www.perlentaucher.de/buch/hans-peter-duerr/die-tatsachen-des-lebens-der-mythos-vom-zivilisationsprozess-band-5.html",
+     "verificado": false
+    }
+   ],
+   "criticas": "Duerr foi criticado por tratar afirmações de Elias de modo literal e por usar anedotas; a refutação definitiva é debatida.",
+   "relevancia_brasil": "Cautela contra a leitura de povos indígenas e periféricos como 'menos civilizados'.",
+   "ligacoes": {
+    "ciclos": [],
+    "decisoes": [],
+    "potencias": [],
+    "leis": []
+   }
+  },
+  {
+   "id": "marcel-mauss",
+   "nome": "Marcel Mauss (dádiva)",
+   "tradicao": "França, sociólogo e antropólogo (1872-1950)",
+   "obra_chave": [
+    {
+     "titulo": "Essai sur le don: forme et raison de l'échange dans les sociétés archaïques, L'Année sociologique",
+     "ano": 1925,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "A dádiva é um 'fato social total' regido por três obrigações: dar, receber e retribuir; liga pessoas e grupos, e cria hierarquia e vínculo. A troca arcaica não é mercado mal feito, é outro sistema moral.",
+   "conceitos": [
+    "fato social total",
+    "dar-receber-retribuir",
+    "hau",
+    "potlatch",
+    "reciprocidade"
+   ],
+   "uso_operacional": "Desenho de instituições de reciprocidade: seguros mútuos, mutirão, bancos de tempo, cooperativas, tributos como retribuição visível.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "O mutirão e o puxirum, bancos comunitários e consórcios cooperativos brasileiros operam por reciprocidade.",
+     "fonte": "Memória; ver P01",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Mauss lê fontes de segunda mão; a leitura de 'hau' é contestada (Sahlins, Lévi-Strauss, Testart); reciprocidade pode ser coerção disfarçada, e a dádiva produz dívida e dominação (Graeber).",
+   "relevancia_brasil": "Fundamento de economia solidária e de política de transferência com contrapartida social.",
+   "ligacoes": {
+    "ciclos": [],
+    "decisoes": [
+     "ampliar-assistencia"
+    ],
+    "potencias": [
+     "sociobioeconomia"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "karl-polanyi",
+   "nome": "Karl Polanyi",
+   "tradicao": "Hungria/EUA, economista político (1886-1964)",
+   "obra_chave": [
+    {
+     "titulo": "The Great Transformation, Farrar & Rinehart",
+     "ano": 1944,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Trade and Market in the Early Empires (com Arensberg e Pearson)",
+     "ano": 1957,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "A economia está embutida (embedded) em relações sociais; o mercado autorregulado exige transformar terra, trabalho e dinheiro em mercadorias fictícias, e a sociedade reage com um 'duplo movimento' de proteção.",
+   "conceitos": [
+    "embeddedness",
+    "mercadorias fictícias",
+    "duplo movimento",
+    "reciprocidade, redistribuição e troca"
+   ],
+   "uso_operacional": "Quadro para regular a mercantilização da terra (grilagem), do trabalho e do dinheiro (crédito e dívida); previsão: onde a proteção falta, surgem reações autoritárias.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Polanyi serve de chave para ler o ciclo 'recessão-ajuste-polarização' como duplo movimento (hipótese, não demonstração).",
+     "fonte": "Interpretação do projeto",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Hipótese de um mercado 'desembutido' no século XIX é contestada (Block); tendência a ver proteção como sempre benigna, quando pode ser reacionária.",
+   "relevancia_brasil": "Terras, trabalho e crédito: o Brasil tem os três debates abertos (marco temporal, reforma trabalhista, juros).",
+   "ligacoes": {
+    "ciclos": [
+     "recessao-ajuste-polarizacao",
+     "retomada-incerteza"
+    ],
+    "decisoes": [
+     "credito-subsidiado",
+     "perdao-dividas",
+     "privatizacoes"
+    ],
+    "potencias": [],
+    "leis": [
+     "baumol"
+    ]
+   }
+  },
+  {
+   "id": "elinor-ostrom",
+   "nome": "Elinor Ostrom",
+   "tradicao": "EUA, cientista política (1933-2012); Nobel de Economia 2009",
+   "obra_chave": [
+    {
+     "titulo": "Governing the Commons: The Evolution of Institutions for Collective Action, Cambridge University Press",
+     "ano": 1990,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Cox, M.; Arnold, G.; Villamayor Tomás, S. 'A review of design principles for community-based natural resource management', Ecology and Society 15(4):38",
+     "ano": 2010,
+     "url": "https://www.lincolninst.edu/pubs/dl/1707_925_Cox%20Final.pdf",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Comunidades podem gerir bens comuns sem Estado nem mercado se tiverem regras apropriadas. Oito princípios de desenho: limites claros; regras adaptadas ao local; escolha coletiva; monitoramento; sanções graduadas; resolução de conflitos barata; reconhecimento externo do direito de se organizar; governança aninhada.",
+   "conceitos": [
+    "bens comuns (CPR)",
+    "policentrismo",
+    "princípios de desenho",
+    "sanções graduadas",
+    "governança aninhada",
+    "quadro IAD"
+   ],
+   "uso_operacional": "Check-list para desenhar governança de TI, resex, bacia, pesqueiro e pasto; mostra que o monitoramento local é peça crítica.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Cox, Arnold e Villamayor (2010) revisaram 91 estudos: os princípios têm bom apoio empírico e foram reformulados em dez.",
+     "fonte": "Resumo de busca (Lincoln Institute; Ecology and Society)",
+     "url": "https://www.lincolninst.edu/pubs/dl/1707_925_Cox%20Final.pdf",
+     "verificado": false
+    },
+    {
+     "descricao": "Exemplos: pastos alpinos de Törbel (Netting), zanjeras das Filipinas, huerta de Valência (Tribunal de las Aguas).",
+     "fonte": "Memória, via Ostrom 1990",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Críticas: os casos de sucesso são pequenos, homogêneos e de longa duração (Agrawal 2001); escala, heterogeneidade e mercado externo mudam o resultado; o Estado pode destruir ou apoiar; a parte de 'sem poder' fica de fora (Cleaver).",
+   "relevancia_brasil": "Resex e RDS (SNUC, Lei 9.985/2000), manejo de pirarucu (Mamirauá, Amazonas), comunidades extrativistas: lugar natural de aplicação.",
+   "ligacoes": {
+    "ciclos": [
+     "retomada-incerteza"
+    ],
+    "decisoes": [
+     "privatizacoes"
+    ],
+    "potencias": [
+     "agua-doce",
+     "sociobioeconomia",
+     "terras-indigenas-contencao"
+    ],
+    "leis": [
+     "potencia_pareto"
+    ]
+   }
+  },
+  {
+   "id": "amartya-sen",
+   "nome": "Amartya Sen (capacidades)",
+   "tradicao": "Índia/Reino Unido, economista e filósofo; Nobel 1998",
+   "obra_chave": [
+    {
+     "titulo": "Commodities and Capabilities, North-Holland",
+     "ano": 1985,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Development as Freedom, Knopf",
+     "ano": 1999,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "The Idea of Justice, Harvard University Press",
+     "ano": 2009,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Bem-estar deve ser avaliado pelo que as pessoas podem ser e fazer (capacidades e funcionamentos), e não só por renda ou utilidade; desenvolvimento é expansão de liberdades reais. Inspirou o IDH (1990, com Mahbub ul Haq).",
+   "conceitos": [
+    "capacidade",
+    "funcionamento",
+    "liberdade substantiva",
+    "fatores de conversão",
+    "IDH"
+   ],
+   "uso_operacional": "Base para indicadores multidimensionais (IDH, IPM) e para desenhar transferências com avaliação de capacidades; aproxima 'bem viver' de métricas mensuráveis.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "IDH (PNUD, 1990) incorpora saúde, educação e renda; IDH municipal do Brasil existe desde o Atlas do Desenvolvimento Humano.",
+     "fonte": "Memória",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Críticas: sem lista de capacidades (Nussbaum propõe a sua), sem pesos; difícil operacionalizar; individualista (Deneulin sobre capacidades coletivas).",
+   "relevancia_brasil": "Ponte entre Buen Vivir e política mensurável: capacidades coletivas e culturais como complemento.",
+   "ligacoes": {
+    "ciclos": [
+     "boom-commodities-inclusao",
+     "retomada-incerteza"
+    ],
+    "decisoes": [
+     "ampliar-assistencia"
+    ],
+    "potencias": [
+     "capital-humano-gap",
+     "janela-demografica"
+    ],
+    "leis": []
+   }
+  },
+  {
+   "id": "kate-raworth",
+   "nome": "Kate Raworth (donut)",
+   "tradicao": "Reino Unido, economista",
+   "obra_chave": [
+    {
+     "titulo": "Doughnut Economics: Seven Ways to Think Like a 21st-Century Economist, Random House",
+     "ano": 2017,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "O'Neill, D. et al. 'A good life for all within planetary means', Nature Sustainability 1:88-95",
+     "ano": 2018,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Mirar um espaço seguro e justo: um piso social (12 dimensões) e um teto ecológico (limites planetários); economia deve prosperar entre os dois, sendo agnóstica quanto ao crescimento.",
+   "conceitos": [
+    "piso social",
+    "teto ecológico",
+    "limites planetários",
+    "donut",
+    "agnosticismo do crescimento"
+   ],
+   "uso_operacional": "Painel de indicadores (piso e teto) por território; Amsterdã adotou o donut como estratégia da cidade em 2020 (memória).",
+   "casos_e_evidencias": [
+    {
+     "descricao": "O'Neill et al. (2018) mostram que nenhum país atende às necessidades básicas de seus cidadãos dentro dos limites planetários.",
+     "fonte": "Memória",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Crítica: o donut é metáfora, sem mecanismo de trade-offs e de preços; os dados locais são incompletos; 'agnosticismo' esconde escolha de política.",
+   "relevancia_brasil": "Aplicável a municípios (donut municipal), com piso (saneamento, saúde, educação) e teto (carbono, água).",
+   "ligacoes": {
+    "ciclos": [
+     "retomada-incerteza"
+    ],
+    "decisoes": [],
+    "potencias": [
+     "janela-demografica",
+     "biodiversidade"
+    ],
+    "leis": [
+     "jevons"
+    ]
+   }
+  },
+  {
+   "id": "herman-daly",
+   "nome": "Herman Daly (estado estacionário)",
+   "tradicao": "EUA, economista ecológico (1938-2022)",
+   "obra_chave": [
+    {
+     "titulo": "Steady-State Economics, W. H. Freeman",
+     "ano": 1977,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Beyond Growth: The Economics of Sustainable Development, Beacon Press",
+     "ano": 1996,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "A economia é subsistema finito da biosfera; um estado estacionário mantém estoques de capital e população constantes, com fluxo de matéria e energia dentro da capacidade de regeneração e assimilação. Regras: colheita ≤ regeneração, emissão ≤ assimilação, renováveis a ritmo da substituição.",
+   "conceitos": [
+    "estado estacionário",
+    "crescimento antieconômico",
+    "regras de Daly",
+    "capital natural"
+   ],
+   "uso_operacional": "Regras de Daly como metas de política: cotas de extração, impostos sobre fluxo de matéria e carbono, e licenças transferíveis.",
+   "casos_e_evidencias": [],
+   "criticas": "Críticas: agenda de crescimento zero é politicamente inviável para países pobres; confunde crescimento do PIB com fluxo físico (desacoplamento relativo é possível; absoluto é raro). Evidência de desacoplamento absoluto é debatida (Haberl et al. 2020).",
+   "relevancia_brasil": "Cotas e tributos de recursos (água, carbono) como política, em coerência com limites ao crescimento.",
+   "ligacoes": {
+    "ciclos": [],
+    "decisoes": [],
+    "potencias": [
+     "agua-doce"
+    ],
+    "leis": [
+     "jevons"
+    ]
+   }
+  },
+  {
+   "id": "georgescu-roegen",
+   "nome": "Nicholas Georgescu-Roegen (entropia)",
+   "tradicao": "Romênia/EUA, economista (1906-1994)",
+   "obra_chave": [
+    {
+     "titulo": "The Entropy Law and the Economic Process, Harvard University Press",
+     "ano": 1971,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "O processo econômico é irreversível: a segunda lei da termodinâmica implica que matéria e energia se degradam, o que torna o crescimento ilimitado impossível; proposta de bioeconomia e, depois, de decrescimento.",
+   "conceitos": [
+    "entropia",
+    "bioeconomia",
+    "fluxo-fundo",
+    "quarta lei (controvertida)"
+   ],
+   "uso_operacional": "Base conceitual para contabilidade física (fluxos de matéria e energia) ao lado da monetária.",
+   "casos_e_evidencias": [],
+   "criticas": "A 'quarta lei' (reciclagem completa é impossível) é contestada por físicos; termodinâmica de sistemas abertos pede cautela (a Terra recebe energia solar).",
+   "relevancia_brasil": "Importa para minerais críticos e energia (reciclagem, intensidade).",
+   "ligacoes": {
+    "ciclos": [],
+    "decisoes": [],
+    "potencias": [
+     "minerais-transicao-reservas"
+    ],
+    "leis": [
+     "jevons",
+     "koomey"
+    ]
+   }
+  },
+  {
+   "id": "donella-meadows",
+   "nome": "Donella Meadows (alavancas e limites)",
+   "tradicao": "EUA, cientista de sistemas (1941-2001)",
+   "obra_chave": [
+    {
+     "titulo": "The Limits to Growth (com D. H. Meadows, J. Randers, W. Behrens III), Universe Books / Club of Rome",
+     "ano": 1972,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Leverage Points: Places to Intervene in a System, Sustainability Institute",
+     "ano": 1999,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Thinking in Systems, Chelsea Green",
+     "ano": 2008,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Sistemas têm pontos de alavanca de força diferente: parâmetros (fracos) < laços de feedback < regras < metas < paradigma (fortes). Os limites ao crescimento mostram que crescimento exponencial em planeta finito leva a overshoot e colapso se não houver correção.",
+   "conceitos": [
+    "pontos de alavanca",
+    "feedback",
+    "overshoot",
+    "limites ao crescimento",
+    "estoques e fluxos"
+   ],
+   "uso_operacional": "Classificação de decisões do projeto por força de alavanca: parâmetros fiscais (fracos) x regras e metas (fortes). Aplicável a decisoes.json.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "Turner (2008, Global Environmental Change 18(3)) comparou o cenário padrão de 1972 com 30 anos de dados e viu aderência razoável; Herrington (2021, Journal of Industrial Ecology) atualizou e achou compatibilidade com cenários de colapso no século XXI.",
+     "fonte": "Memória, não conferido",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Críticas desde 1973 (Nordhaus; Cole, Models of Doom): dados sem base e preços ignorados; substituição e tecnologia; mas as projeções não foram simplesmente refutadas.",
+   "relevancia_brasil": "Linguagem para discutir 'quais alavancas as 20 decisões mexem' (parâmetro, regra, meta).",
+   "ligacoes": {
+    "ciclos": [],
+    "decisoes": [
+     "reforcar-arcabouco",
+     "flexibilizar-arcabouco"
+    ],
+    "potencias": [],
+    "leis": [
+     "jevons",
+     "logistica"
+    ]
+   }
+  },
+  {
+   "id": "hartmut-rosa",
+   "nome": "Hartmut Rosa (ressonância e aceleração)",
+   "tradicao": "Alemanha, sociólogo (Jena)",
+   "obra_chave": [
+    {
+     "titulo": "Beschleunigung: Die Veränderung der Zeitstrukturen in der Moderne, Suhrkamp",
+     "ano": 2005,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Resonanz: Eine Soziologie der Weltbeziehung, Suhrkamp",
+     "ano": 2016,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "A modernidade tardia é aceleração (técnica, social, ritmo de vida) com estabilização dinâmica (crescer para manter-se); a boa vida é relação de ressonância (resposta e transformação mútua com o mundo), não otimização de recursos.",
+   "conceitos": [
+    "aceleração social",
+    "estabilização dinâmica",
+    "ressonância",
+    "alienação",
+    "incontrolabilidade (Unverfügbarkeit)"
+   ],
+   "uso_operacional": "Traduz-se em política de tempo (jornada, férias, licença, pausa digital) e em medir qualidade de vínculo (tempo de deslocamento, solidão).",
+   "casos_e_evidencias": [],
+   "criticas": "Conceito de ressonância é fluido e pouco falsificável; crítica de elitismo da vida contemplativa; faltam métricas padronizadas.",
+   "relevancia_brasil": "Aceleração e escassez de tempo atingem trabalhadores urbanos; deslocamento é mensurável (IBGE/PNAD).",
+   "ligacoes": {
+    "ciclos": [],
+    "decisoes": [],
+    "potencias": [
+     "janela-demografica",
+     "capital-humano-gap"
+    ],
+    "leis": [
+     "amara"
+    ]
+   }
+  },
+  {
+   "id": "edgar-morin",
+   "nome": "Edgar Morin (complexidade)",
+   "tradicao": "França, filósofo e sociólogo (1921-)",
+   "obra_chave": [
+    {
+     "titulo": "Introduction à la pensée complexe, ESF",
+     "ano": 1990,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "La Méthode (6 vols.), Seuil",
+     "ano": 1977,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Pensamento complexo religa o que a ciência disciplinar separou; princípios dialógico, recursivo e hologramático; critica a simplificação. Em educação defende os 'sete saberes necessários'.",
+   "conceitos": [
+    "complexidade",
+    "dialógica",
+    "recursão",
+    "hologramático",
+    "sete saberes necessários (UNESCO, 1999)"
+   ],
+   "uso_operacional": "Cautela metodológica para que modelo macro não vire certeza: usar cenários e incertezas, não previsão.",
+   "casos_e_evidencias": [],
+   "criticas": "Falta de procedimento operacional e linguagem vaga; a complexidade vira desculpa para não decidir.",
+   "relevancia_brasil": "Reforça o aviso do projeto: modelos descrevem, não prevêem.",
+   "ligacoes": {
+    "ciclos": [],
+    "decisoes": [],
+    "potencias": [],
+    "leis": [
+     "amara"
+    ]
+   }
+  },
+  {
+   "id": "joseph-tainter",
+   "nome": "Joseph Tainter (colapso)",
+   "tradicao": "EUA, antropólogo e arqueólogo",
+   "obra_chave": [
+    {
+     "titulo": "The Collapse of Complex Societies, Cambridge University Press",
+     "ano": 1988,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Sociedades resolvem problemas aumentando a complexidade, com retornos marginais decrescentes; quando o custo marginal supera o benefício, a sociedade se torna vulnerável a choques e simplifica (colapso como estratégia econômica racional).",
+   "conceitos": [
+    "retornos marginais da complexidade",
+    "colapso",
+    "custos de manutenção",
+    "simplificação"
+   ],
+   "uso_operacional": "Mede-se: custo de manter a complexidade institucional (normas, tributos, litigância) por unidade de benefício; alerta contra empilhar regras.",
+   "casos_e_evidencias": [],
+   "criticas": "Críticas: colapso mal definido; evidências arqueológicas diversas (Middleton 2012); ignora conflito de classe e clima; pouco testável.",
+   "relevancia_brasil": "Brasil tem alta complexidade tributária e normativa, que a reforma tributária (decisão acelerar IBS/CBS) tenta reduzir.",
+   "ligacoes": {
+    "ciclos": [
+     "recessao-ajuste-polarizacao"
+    ],
+    "decisoes": [
+     "acelerar-ibs-cbs",
+     "reforma-administrativa"
+    ],
+    "potencias": [],
+    "leis": [
+     "baumol"
+    ]
+   }
+  },
+  {
+   "id": "robert-putnam",
+   "nome": "Robert Putnam (capital social)",
+   "tradicao": "EUA, cientista político (Harvard)",
+   "obra_chave": [
+    {
+     "titulo": "Making Democracy Work: Civic Traditions in Modern Italy, Princeton University Press",
+     "ano": 1993,
+     "url": "",
+     "verificado": false
+    },
+    {
+     "titulo": "Bowling Alone: The Collapse and Revival of American Community, Simon & Schuster",
+     "ano": 2000,
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "ideia_central": "Redes de reciprocidade e confiança (capital social) explicam o desempenho de instituições: no norte italiano, tradição cívica antiga predisse melhor governo regional do que o sul.",
+   "conceitos": [
+    "capital social",
+    "confiança generalizada",
+    "associativismo",
+    "laços fracos e fortes (bonding x bridging)"
+   ],
+   "uso_operacional": "Indicador: confiança, associativismo e participação eleitoral por território, ao lado de indicadores de capacidade estatal.",
+   "casos_e_evidencias": [
+    {
+     "descricao": "O orçamento participativo e os conselhos de política são formas brasileiras de capital social formalizado.",
+     "fonte": "Interpretação",
+     "url": "",
+     "verificado": false
+    }
+   ],
+   "criticas": "Críticas: determinismo histórico (Tarrow 1996), causalidade reversa e aplicação a países com desigualdade extrema; a diversidade etnolinguística é debatida (Putnam 2007).",
+   "relevancia_brasil": "Confiança e associativismo baixos aparecem em pesquisas (valores não conferidos); a política deve ser incentivo, não esperar cultura.",
+   "ligacoes": {
+    "ciclos": [
+     "retomada-incerteza"
+    ],
+    "decisoes": [],
+    "potencias": [
+     "diversidade-ativo-institucional"
+    ],
+    "leis": []
+   }
+  }
+ ],
+ "pilares": [
+  {
+   "id": "reciprocidade-e-darva",
+   "nome": "Reciprocidade e dádiva",
+   "origem": [
+    "marcel-mauss",
+    "ayni-minka-ayllu",
+    "karl-polanyi",
+    "nego-bispo"
+   ],
+   "principio": "Vínculo e confiança se constroem por dar, receber e retribuir; a economia está embutida na sociedade.",
+   "traducao_institucional": "Economia solidária, cooperativas, bancos comunitários e moedas sociais, bancos de tempo, mutirão remunerado, compras públicas da agricultura familiar com contrapartida social.",
+   "exemplos_em_operacao": [
+    "Banco Palmas (Fortaleza, 20/01/1998, capital inicial de R$ 2.000, moeda palma lastreada 1:1 em reais; resumo de busca: O Povo, 2023).",
+    "Rede Brasileira de Bancos Comunitários: expansão do modelo (número de bancos não conferido).",
+    "PNAE: mínimo de 30% das compras da alimentação escolar da agricultura familiar (Lei 11.947/2009, valor de memória)."
+   ],
+   "indicadores": [
+    "Giro da moeda social no território (vezes/mês)",
+    "Parcela do consumo local em estabelecimentos do bairro",
+    "Renda de cooperados e inadimplência de microcrédito",
+    "Participação da agricultura familiar nas compras públicas"
+   ],
+   "riscos": [
+    "Dádiva cria dívida e dominação se assimétrica (Graeber)",
+    "Escala limitada e dependência de lideranças",
+    "Captura por política clientelista",
+    "Risco regulatório de moeda social (BCB)"
+   ],
+   "tensoes": [
+    "Com o pilar autocontrole e monopólio legítimo: reciprocidade informal pode abrigar milícias e redes de proteção ilegal",
+    "Com capacidades: transferência incondicional x contrapartida"
+   ],
+   "ligacao_decisoes": [
+    "ampliar-assistencia",
+    "credito-subsidiado",
+    "perdao-dividas"
+   ]
+  },
+  {
+   "id": "bens-comuns",
+   "nome": "Bens comuns e governança policêntrica",
+   "origem": [
+    "elinor-ostrom",
+    "ayni-minka-ayllu",
+    "alto-xingu-kayapo",
+    "tekoha-nande-reko"
+   ],
+   "principio": "Comunidades com limites claros, regras locais, monitoramento e sanções graduadas conseguem governar recursos de uso comum sem privatizar nem estatizar.",
+   "traducao_institucional": "Resex e RDS, manejo comunitário (pirarucu, castanha, açaí), comitês de bacia, regulamentação de pastos comunais (fundo de pasto, BA), terras indígenas e territórios quilombolas com governança própria reconhecida pelo Estado (princípio 7 de Ostrom).",
+   "exemplos_em_operacao": [
+    "Terras Indígenas: menos de 1% de perda de vegetação nativa em 1985-2022 contra 17% em terras privadas (MapBiomas, resumo de busca, agenciagov.ebc.com.br); na Amazônia, 0,8% em TIs contra 21,5% fora de áreas protegidas (resumo de busca).",
+    "Garnett et al. 2018 (Nature Sustainability): povos indígenas manejam ou têm direitos sobre cerca de 38 milhões de km², mais de um quarto da terra do planeta, e esse território cruza cerca de 40% das áreas protegidas e das paisagens intactas (DOI 10.1038/s41893-018-0100-6, resumo de busca).",
+    "Fa et al. 2020: mais de um terço das paisagens florestais intactas está em terras indígenas (resumo de busca).",
+    "Manejo de pirarucu em comunidades amazônicas com recuperação de estoques (Campos-Silva e Peres 2016, Scientific Reports; valores de memória e a conferir).",
+    "Cox, Arnold e Villamayor 2010: 91 estudos apoiam os princípios de Ostrom (resumo de busca)."
+   ],
+   "indicadores": [
+    "Perda de vegetação nativa por categoria fundiária (MapBiomas)",
+    "Estoque do recurso manejado",
+    "Taxa de descumprimento de regras e conflitos",
+    "Renda do manejo por família"
+   ],
+   "riscos": [
+    "Correlação não é causalidade: TIs ficam também em áreas remotas e de menor pressão (viés de localização)",
+    "Pressão externa (garimpo, grilagem, estradas) supera a governança local",
+    "Comunidade vira gestora sem orçamento (privatização do ônus)",
+    "Tragédia dos comuns pode ocorrer em comunidades que perderam laços"
+   ],
+   "tensoes": [
+    "Com direitos individuais de propriedade: titulação coletiva x individual",
+    "Com crescimento agropecuário: pastagens e soja pressionam"
+   ],
+   "ligacao_decisoes": [
+    "cortar-beneficios-fiscais",
+    "privatizacoes"
+   ]
+  },
+  {
+   "id": "territorio-e-cuidado",
+   "nome": "Território e cuidado",
+   "origem": [
+    "milton-santos",
+    "tekoha-nande-reko",
+    "beatriz-nascimento",
+    "nego-bispo",
+    "kopenawa-albert"
+   ],
+   "principio": "Território é o espaço usado e vivido, base de identidade, de saúde e de renda; sem terra segura não há política social eficaz.",
+   "traducao_institucional": "Regularização fundiária de TIs e quilombos (CF 231; ADCT 68), proteção contra invasão, cadastro compatível com uso coletivo, saúde e educação territorializadas.",
+   "exemplos_em_operacao": [
+    "Constituição de 1988, art. 231 (direitos originários indígenas) e art. 68 do ADCT (quilombolas), de memória.",
+    "Colômbia: Ley 70/1993 reconheceu territórios coletivos afrocolombianos (memória).",
+    "Censo 2022: 1.694.836 indígenas (FATOR_HUMANO.md)."
+   ],
+   "indicadores": [
+    "Porcentagem de TIs e territórios quilombolas regularizados",
+    "Invasões e área garimpada",
+    "Mortalidade infantil e desnutrição por território",
+    "Tempo médio de titulação"
+   ],
+   "riscos": [
+    "Demarcação como bandeira sem execução; conflito com 'marco temporal'",
+    "Território protegido sem renda: pressão para arrendar",
+    "Idealização de comunidades homogêneas"
+   ],
+   "tensoes": [
+    "Com monopólio legítimo: presença do Estado para proteger vs. riscos de militarização",
+    "Com crescimento: licenciamento vs. consentimento"
+   ],
+   "ligacao_decisoes": [
+    "anistia-politica",
+    "politica-precos-combustiveis"
+   ]
+  },
+  {
+   "id": "tempo-longo-e-geracoes",
+   "nome": "Tempo longo e gerações",
+   "origem": [
+    "donella-meadows",
+    "hartmut-rosa",
+    "joseph-tainter",
+    "kopenawa-albert",
+    "celso-furtado"
+   ],
+   "principio": "Decidir considerando sete gerações e horizonte de recomposição de estoques e instituições; resistir à aceleração.",
+   "traducao_institucional": "Comissário de gerações futuras, avaliação intergeracional de leis e orçamentos, metas de longo prazo com revisão (ex.: carbono e biodiversidade), teto de complexidade (sunset clauses), pausa e tempo social.",
+   "exemplos_em_operacao": [
+    "País de Gales: Well-being of Future Generations Act 2015, com Comissária das Gerações Futuras (memória).",
+    "Hungria: ombudsman para gerações futuras (2008, memória, não conferido).",
+    "LDO e PPA brasileiros já têm horizonte fiscal, mas sem avaliação intergeracional (observação do projeto)."
+   ],
+   "indicadores": [
+    "Dívida líquida e passivo ambiental por geração",
+    "Estoque de capital natural",
+    "Tempo médio de vigência de leis tributárias",
+    "Gasto em P&D e educação como proporção do PIB"
+   ],
+   "riscos": [
+    "Captura por tecnocracia sem legitimidade",
+    "Presentismo eleitoral (ciclo de 4 anos)",
+    "Cláusula vazia sem sanção"
+   ],
+   "tensoes": [
+    "Com reciprocidade imediata (urgência social) x investimento de longo prazo",
+    "Com pluralismo epistêmico: tempo cíclico e linear"
+   ],
+   "ligacao_decisoes": [
+    "reforcar-arcabouco",
+    "flexibilizar-arcabouco",
+    "reforma-previdencia-2"
+   ]
+  },
+  {
+   "id": "pluralismo-epistemico",
+   "nome": "Pluralismo epistêmico e consulta",
+   "origem": [
+    "boaventura-sousa-santos",
+    "viveiros-de-castro",
+    "oit-169-consulta",
+    "rivera-cusicanqui",
+    "arturo-escobar"
+   ],
+   "principio": "Saberes científicos e tradicionais dialogam sem hierarquia automática; decisões que afetam povos exigem consulta e, quando afetam a existência, consentimento.",
+   "traducao_institucional": "Lei de regulamentação da consulta prévia com consentimento qualificado, protocolos autônomos de consulta, comitês mistos em licenciamento e em P&D de biodiversidade (Lei 13.123/2015), currículos interculturais.",
+   "exemplos_em_operacao": [
+    "Protocolos autônomos de consulta de povos como os Munduruku (2014) e Wajãpi (memória, a conferir).",
+    "Lei 13.123/2015 (Marco da Biodiversidade): repartição de benefícios do patrimônio genético e do conhecimento tradicional (memória).",
+    "Sarayaku v. Equador (Corte IDH 2012) afirma consulta prévia (memória)."
+   ],
+   "indicadores": [
+    "Parcela de projetos com consulta realizada antes da licença",
+    "Taxa de aceite e de alteração do projeto por consulta",
+    "Tempo de processo",
+    "Litígios por ausência de consulta"
+   ],
+   "riscos": [
+    "Consulta fabricada por empresas",
+    "Vetos vistos como bloqueio e retaliação",
+    "Representatividade (quem fala pelo povo)",
+    "Folclorização do saber"
+   ],
+   "tensoes": [
+    "Com monopólio legítimo e interesse nacional: quem decide em conflito?",
+    "Com capacidades: saber tradicional não é substituto de escola e de saúde"
+   ],
+   "ligacao_decisoes": [
+    "ampliar-stf",
+    "acordo-mercosul-ue"
+   ]
+  },
+  {
+   "id": "direitos-da-natureza",
+   "nome": "Direitos da natureza",
+   "origem": [
+    "sumak-kawsay-buen-vivir",
+    "suma-qamana-aimara",
+    "jurisprudencia-natureza",
+    "ailton-krenak",
+    "eduardo-kohn"
+   ],
+   "principio": "Ecossistemas têm direito à existência e à restauração; a pessoa humana é parte, não dona.",
+   "traducao_institucional": "Cláusula constitucional ou lei orgânica municipal, guardiães com orçamento, ação popular com legitimidade ampliada, dever de restauração independente de indenização (Equador, art. 72).",
+   "exemplos_em_operacao": [
+    "Equador 2008, arts. 71-74 (texto lido, constituteproject.org).",
+    "Colômbia, T-622/2016: rio Atrato como sujeito de direitos (página lida, corteconstitucional.gov.co).",
+    "Bolívia, Lei 71/2010 e Lei 300/2012 (resumos de busca).",
+    "Bonito (PE) 2017 e Paudalho (PE) 2018: lei orgânica com direitos da natureza (resumo de busca); sem evidência de efeito medido."
+   ],
+   "indicadores": [
+    "Processos com decisão baseada em direito da natureza",
+    "Área restaurada",
+    "Orçamento dos guardiães",
+    "Número de licenças negadas ou condicionadas"
+   ],
+   "riscos": [
+    "Captura estatal (Yasuní-ITT encerrado em 2013; TIPNIS 2011)",
+    "Símbolo sem execução",
+    "Judicialização com custo de segurança jurídica",
+    "Conflito com direitos de comunidades locais"
+   ],
+   "tensoes": [
+    "Com crescimento e energia: custos de transição",
+    "Com autocontrole do Estado: o Estado é guardião e infrator"
+   ],
+   "ligacao_decisoes": [
+    "acordo-mercosul-ue"
+   ]
+  },
+  {
+   "id": "autocontrole-e-monopolio-legitimo",
+   "nome": "Autocontrole e monopólio legítimo da violência",
+   "origem": [
+    "norbert-elias",
+    "hans-peter-duerr",
+    "pierre-clastres",
+    "james-scott",
+    "joseph-tainter"
+   ],
+   "principio": "Estados capazes e controlados monopolizam a violência e a tributação com freios e legitimidade; a civilização do comportamento depende de interdependência e de confiança, e pode regredir.",
+   "traducao_institucional": "Controle externo e câmeras corporais nas polícias, investigação integrada de milícias e facções, justiça acessível, tributação transparente e progressiva, limites de mandato e freios de poder (Clastres), legibilidade com salvaguardas (Scott).",
+   "exemplos_em_operacao": [
+    "Homicídios: 45.747 em 2023 (FATOR_HUMANO.md).",
+    "Câmeras corporais na PM de São Paulo e redução da letalidade: estudos avaliam redução; magnitude não conferida.",
+    "Elias × Clastres: Estado como pacificação ou como dominação (ver dialogos)."
+   ],
+   "indicadores": [
+    "Taxa de homicídios e letalidade policial",
+    "Controle territorial por facção (mapa)",
+    "Arrecadação / PIB e confiança no judiciário",
+    "Casos de abuso apurados"
+   ],
+   "riscos": [
+    "Brutalidade em nome do monopólio",
+    "Estado como agente de violência contra comunidades",
+    "Eurocentrismo da teoria (Duerr)",
+    "Centralização sem controle"
+   ],
+   "tensoes": [
+    "Com território e cuidado: presença do Estado vs. autonomia",
+    "Com reciprocidade: redes informais tanto protegem quanto dominam"
+   ],
+   "ligacao_decisoes": [
+    "ampliar-stf",
+    "remover-ministros-stf",
+    "anistia-politica"
+   ]
+  },
+  {
+   "id": "capacidades-e-suficiencia",
+   "nome": "Capacidades e suficiência",
+   "origem": [
+    "amartya-sen",
+    "kate-raworth",
+    "josue-de-castro",
+    "paulo-freire",
+    "darcy-ribeiro",
+    "robert-putnam"
+   ],
+   "principio": "O objetivo é ampliar o que as pessoas podem ser e fazer, com piso universal, e declarar suficiência: acima de certo nível, mais consumo não aumenta bem-estar.",
+   "traducao_institucional": "Piso social em saúde, educação e alimentação; indicadores multidimensionais; escola integral; renda básica por faixa; contas de bem viver complementares ao PIB.",
+   "exemplos_em_operacao": [
+    "IDH (PNUD, 1990) a partir de Sen e Mahbub ul Haq (memória).",
+    "Saída do Mapa da Fome em 2014, retorno em 2018-2020 e nova saída em 2025 (FATOR_HUMANO.md).",
+    "Orçamento participativo e mortalidade infantil: Gonçalves (World Development, 2014) e Touchton e Wampler (2014) encontram queda associada (resumo de busca)."
+   ],
+   "indicadores": [
+    "IPM e IDH municipal",
+    "Desnutrição e insegurança alimentar",
+    "Anos de escolaridade e proficiência",
+    "Tempo livre e deslocamento"
+   ],
+   "riscos": [
+    "Lista de capacidades paternalista",
+    "Suficiência vira teto ao pobre",
+    "Medir o que é fácil"
+   ],
+   "tensoes": [
+    "Com crescimento: o piso exige renda",
+    "Com limites planetários: teto ecológico"
+   ],
+   "ligacao_decisoes": [
+    "ampliar-assistencia",
+    "desvincular-minimo"
+   ]
+  },
+  {
+   "id": "limites-planetarios",
+   "nome": "Limites planetários e entropia",
+   "origem": [
+    "donella-meadows",
+    "herman-daly",
+    "georgescu-roegen",
+    "kate-raworth",
+    "celso-furtado",
+    "eduardo-gudynas",
+    "alberto-acosta"
+   ],
+   "principio": "O sistema econômico é parte de um sistema físico finito; metas de fluxo (carbono, água, minerais) são regras de primeira ordem.",
+   "traducao_institucional": "Orçamento de carbono, tributação de externalidades, metas de uso de água e solo, contabilidade física (SCN ambiental), licenciamento por capacidade de suporte e política de transição extrativista (Gudynas).",
+   "exemplos_em_operacao": [
+    "Rockström et al. 2009 (Nature 461:472) definiram nove limites; Richardson et al. 2023 (Science Advances) estimam seis transgredidos (memória).",
+    "O'Neill et al. 2018 (Nature Sustainability): nenhum país atende às necessidades básicas dentro dos limites (memória).",
+    "Turner 2008 e Herrington 2021 sobre aderência do cenário de Limits to Growth (memória)."
+   ],
+   "indicadores": [
+    "Emissões per capita e líquidas",
+    "Pegada hídrica",
+    "Uso de terra por bioma",
+    "Intensidade material do PIB"
+   ],
+   "riscos": [
+    "Efeito rebote (Jevons)",
+    "Transferir o custo aos mais pobres",
+    "Hipótese de desacoplamento absoluto sem evidência",
+    "Captura por setor"
+   ],
+   "tensoes": [
+    "Com capacidades: piso exige crescimento em países pobres",
+    "Com tempo longo: urgência vs. aceitação"
+   ],
+   "ligacao_decisoes": [
+    "politica-precos-combustiveis",
+    "cortar-beneficios-fiscais",
+    "acordo-mercosul-ue"
+   ]
+  },
+  {
+   "id": "autonomia-e-confluencia",
+   "nome": "Autonomia, confluência e pluralidade política",
+   "origem": [
+    "pierre-clastres",
+    "graeber-wengrow",
+    "nego-bispo",
+    "rivera-cusicanqui"
+   ],
+   "principio": "Povos e comunidades devem poder organizar sua vida e decidir sobre seus territórios, e as instituições devem tolerar a saída e a reversão; confluência, não fusão.",
+   "traducao_institucional": "Autonomia territorial, jurisdições indígenas e quilombolas reconhecidas, federalismo fino, cláusulas de revogação e consulta; pluralismo político constitucional (Estado plurinacional).",
+   "exemplos_em_operacao": [
+    "Bolívia, Estado plurinacional (2009) e Equador (2008): autonomias indígenas, com implementação desigual.",
+    "Chile 2022: proposta plurinacional rejeitada no plebiscito (memória)."
+   ],
+   "indicadores": [
+    "Autonomias reconhecidas",
+    "Conflitos de competência",
+    "Participação política indígena e quilombola",
+    "Aprovação em plebiscito"
+   ],
+   "riscos": [
+    "Fragmentação e conflito de jurisdição",
+    "Elites locais capturam a autonomia",
+    "Romantizar a comunidade (poder interno desigual: mulheres, jovens)"
+   ],
+   "tensoes": [
+    "Com monopólio legítimo: pluralismo jurídico x Estado de Direito",
+    "Com bens comuns: autonomia x pressão de mercado"
+   ],
+   "ligacao_decisoes": [
+    "ampliar-stf"
+   ]
+  }
+ ],
+ "dialogos": [
+  {
+   "entre": [
+    "norbert-elias",
+    "pierre-clastres"
+   ],
+   "tema": "Estado: pacificação ou dominação",
+   "convergencia": "Ambos tratam o poder separado como problema histórico a explicar e ligam violência, tributo e interdependência.",
+   "divergencia": "Elias vê o monopólio da violência como condição de pacificação interna e de autocontrole; Clastres vê o Estado como ruptura que sociedades indígenas evitam de propósito. Exemplo de teste: baixas de homicídio onde o Estado é presente (Europa) vs. violência de Estado colonial; nenhum caso resolve o debate."
+  },
+  {
+   "entre": [
+    "norbert-elias",
+    "graeber-wengrow"
+   ],
+   "tema": "Teleologia e liberdade",
+   "convergencia": "Os dois rejeitam explicações monocausais e dão peso à interdependência e ao hábito.",
+   "divergencia": "Graeber e Wengrow negam a escada evolutiva em que Elias se apoia, e afirmam que havia experimentos políticos variados; Elias tem a vantagem de oferecer mecanismo, G&W a de ampliar o possível. Críticas a G&W (evidência seletiva) e a Elias (Duerr, eurocentrismo) são simétricas."
+  },
+  {
+   "entre": [
+    "norbert-elias",
+    "hans-peter-duerr"
+   ],
+   "tema": "Vergonha e violência como medidas de civilização",
+   "convergencia": "Concordam que hábitos corporais e violência têm história social.",
+   "divergencia": "Duerr nega a direção linear (nudez, intimidade, violência 'civilizada'), enquanto Elias propõe tendência de longo prazo; debate sem veredito, com crítica de método a ambos."
+  },
+  {
+   "entre": [
+    "elinor-ostrom",
+    "sumak-kawsay-buen-vivir"
+   ],
+   "tema": "Governar o comum",
+   "convergencia": "Ambos descrevem governança comunitária de recursos e a defesa do comum contra a privatização.",
+   "divergencia": "Ostrom é empírica e instrumental (regras, monitoramento, sanção), Buen Vivir é ontológico e político (direitos da natureza). Ostrom aceita preços e Estado aninhado; Buen Vivir tem um componente anticapitalista. A tradução operacional exige combinar: Ostrom no como, Buen Vivir no porquê."
+  },
+  {
+   "entre": [
+    "james-scott",
+    "norbert-elias"
+   ],
+   "tema": "Legibilidade e monopólio",
+   "convergencia": "Ambos tratam a tributação e o cadastro como núcleo da construção do Estado.",
+   "divergencia": "Scott enfatiza o custo humano da legibilidade e a metis; Elias, o ganho de segurança. Política: mapear e cobrar com salvaguardas."
+  },
+  {
+   "entre": [
+    "viveiros-de-castro",
+    "descola"
+   ],
+   "tema": "Ontologias e multinaturalismo",
+   "convergencia": "Ambos tiram o naturalismo ocidental de lugar de norma e dão estatuto filosófico a cosmologias indígenas.",
+   "divergencia": "Viveiros de Castro propõe perspectivismo (uma cultura, muitas naturezas); Descola classifica quatro ontologias. Críticas comuns: generalização e risco de exotização (Bessire e Bond)."
+  },
+  {
+   "entre": [
+    "ailton-krenak",
+    "celso-furtado"
+   ],
+   "tema": "Limite ao desenvolvimento",
+   "convergencia": "Ambos criticam o padrão de consumo e a ideia de desenvolvimento como imitação.",
+   "divergencia": "Krenak rejeita a categoria de recurso e a utilidade, Furtado pensa em política econômica e planejamento do Estado."
+  },
+  {
+   "entre": [
+    "nego-bispo",
+    "viveiros-de-castro"
+   ],
+   "tema": "Contra-colonialismo e perspectivismo",
+   "convergencia": "Os dois partem de cosmologias não ocidentais como filosofia.",
+   "divergencia": "Bispo escreve do ponto de vista quilombola e de um programa de confluência; Viveiros de Castro, como antropólogo acadêmico. Risco de apropriação mútua."
+  },
+  {
+   "entre": [
+    "alberto-acosta",
+    "eduardo-gudynas"
+   ],
+   "tema": "Buen Vivir e pós-extrativismo",
+   "convergencia": "Ambos defendem transição pós-extrativista e crítica do neoextrativismo progressista.",
+   "divergencia": "Acosta propõe decrescimento seletivo e pós-extrativismo mais radical; Gudynas propõe transições pragmáticas e o 'extrativismo indispensável'."
+  },
+  {
+   "entre": [
+    "rivera-cusicanqui",
+    "alberto-acosta"
+   ],
+   "tema": "Discurso e prática",
+   "convergencia": "Ambos denunciam a captura do Buen Vivir pelo Estado.",
+   "divergencia": "Rivera critica o próprio uso acadêmico do 'descolonial' e o Estado plurinacional como decoração; Acosta mantém o projeto constitucional como horizonte."
+  },
+  {
+   "entre": [
+    "amartya-sen",
+    "kate-raworth"
+   ],
+   "tema": "Capacidades e donut",
+   "convergencia": "Ambos medem bem-estar de forma multidimensional.",
+   "divergencia": "Sen não impõe teto ecológico, e a Raworth o torna central; Sen é neutro quanto à lista de capacidades, Raworth tem 12 dimensões."
+  },
+  {
+   "entre": [
+    "herman-daly",
+    "amartya-sen"
+   ],
+   "tema": "Crescimento e desenvolvimento",
+   "convergencia": "Valorizam bem-estar acima de PIB.",
+   "divergencia": "Daly quer estado estacionário, enquanto Sen vê o crescimento como meio (a depender de capacidades); países pobres pedem expansão."
+  },
+  {
+   "entre": [
+    "joseph-tainter",
+    "donella-meadows"
+   ],
+   "tema": "Colapso e overshoot",
+   "convergencia": "Ambos descrevem sistemas que excedem a capacidade de manutenção.",
+   "divergencia": "Tainter lê a complexidade institucional (custo marginal), Meadows lê a dinâmica de estoques físicos; remédios distintos (simplificar vs. limitar)."
+  },
+  {
+   "entre": [
+    "karl-polanyi",
+    "marcel-mauss"
+   ],
+   "tema": "Reciprocidade e mercado",
+   "convergencia": "Ambos mostram que o mercado não é a forma natural da economia.",
+   "divergencia": "Mauss descreve a dádiva, Polanyi a transformação em mercado e o duplo movimento; Polanyi ocupa-se do Estado, Mauss do vínculo."
+  },
+  {
+   "entre": [
+    "robert-putnam",
+    "elinor-ostrom"
+   ],
+   "tema": "Capital social e governança do comum",
+   "convergencia": "Ambos ligam confiança e redes a desempenho institucional.",
+   "divergencia": "Putnam atribui o desempenho a tradições cívicas longas; Ostrom mostra que regras bem desenhadas podem criar a cooperação (desenho, não cultura)."
+  },
+  {
+   "entre": [
+    "hartmut-rosa",
+    "joseph-tainter"
+   ],
+   "tema": "Aceleração e complexidade",
+   "convergencia": "Ambos descrevem custos crescentes de manter o sistema.",
+   "divergencia": "Rosa fala de alienação e ressonância (experiência), Tainter de retornos decrescentes (custo)."
+  },
+  {
+   "entre": [
+    "milton-santos",
+    "james-scott"
+   ],
+   "tema": "Território e legibilidade",
+   "convergencia": "Ambos olham o território como campo de poder.",
+   "divergencia": "Milton Santos descreve verticalidades e horizontalidades do uso; Scott descreve o Estado que lê e ordena. Convergem na crítica a planejamento que ignora o lugar."
+  }
+ ],
+ "viabilizacao": [
+  {
+   "id": "V01",
+   "pilar": "territorio-e-cuidado",
+   "proposta": "Regularização e proteção efetiva de Terras Indígenas, com vigilância comunitária e recursos permanentes",
+   "instrumento_legal": "Decreto de homologação (Executivo) + dotação orçamentária (LOA); lei de proteção territorial (PL)",
+   "quorum_aproximado": "Executivo para homologação; Lei ordinária: maioria simples (convenção do projeto: ~231 deputados e 37 senadores, quórum de abertura) para lei de proteção",
+   "custo_beneficio": "Custo recorrente de fiscalização (monitoramento, bases, brigadas) e custo político com agropecuária e mineração; benefício: contenção de desmatamento, carbono e saúde territorial (qualitativo).",
+   "evidencia": "TIs: menos de 1% de perda de vegetação nativa 1985-2022 contra 17% em terras privadas (MapBiomas, resumo de busca); Garnett 2018 e Fa 2020; viés de localização reduz a força causal.",
+   "risco_de_captura": "Invasão e garimpo, 'regularização' que legaliza grilagem, uso do argumento ambiental para ceder terra a terceiros.",
+   "indicador_de_sucesso": "Área de TI com alerta de desmatamento ou garimpo; % de TIs homologadas; mortalidade infantil indígena.",
+   "fontes": [
+    "https://agenciagov.ebc.com.br/noticias/202309/territorios-indigenas-sao-os-mais-preservados-do-pais",
+    "https://ideas.repec.org/a/nat/natsus/v1y2018i7d10.1038_s41893-018-0100-6.html"
+   ]
+  },
+  {
+   "id": "V02",
+   "pilar": "territorio-e-cuidado",
+   "proposta": "Titulação de territórios quilombolas com prazo legal e meta anual",
+   "instrumento_legal": "Art. 68 ADCT (norma de eficácia plena); decreto 4.887/2003 (memória); lei de prazos (PL)",
+   "quorum_aproximado": "Lei ordinária: maioria simples (convenção do projeto: ~231 deputados e 37 senadores, quórum de abertura)",
+   "custo_beneficio": "Custo de cartografia, laudos e indenização; benefício: segurança fundiária, acesso a crédito e serviços, redução de conflito.",
+   "evidencia": "STF julgou a constitucionalidade do decreto 4.887/2003 na ADI 3239 em 2018 (memória, a conferir); a titulação é lenta e as estimativas variam.",
+   "risco_de_captura": "Fragmentação por interesse fundiário; titulação para terceiros não quilombolas; capacidade do INCRA.",
+   "indicador_de_sucesso": "Títulos expedidos por ano; tempo médio de processo; renda e acesso a serviços em comunidades tituladas.",
+   "fontes": []
+  },
+  {
+   "id": "V03",
+   "pilar": "territorio-e-cuidado",
+   "proposta": "Segurança jurídica do art. 231: consolidar os direitos originários por lei ou PEC e rejeitar o marco temporal",
+   "instrumento_legal": "Lei interpretativa e/ou PEC; ADI e ADPF no STF",
+   "quorum_aproximado": "PEC: 308 deputados e 49 senadores; lei ordinária: maioria simples",
+   "custo_beneficio": "Reduz litígio e insegurança de ambos os lados; custo político alto; ganho de previsibilidade para investimento.",
+   "evidencia": "STF rejeitou a tese em setembro de 2023 (RE 1017365, Tema 1031, memória) e o Congresso aprovou depois lei em sentido contrário (Lei 14.701/2023, memória), com judicialização subsequente (a conferir).",
+   "risco_de_captura": "Captura por bancadas rurais; instabilidade normativa.",
+   "indicador_de_sucesso": "Número de ações de demarcação paralisadas; tempo de processo; conflitos fundiários por ano.",
+   "fontes": []
+  },
+  {
+   "id": "V04",
+   "pilar": "pluralismo-epistemico",
+   "proposta": "Lei de consulta prévia, livre e informada, com consentimento qualificado para projetos que afetam a existência de povos e comunidades",
+   "instrumento_legal": "Lei ordinária regulamentando a Convenção 169 (Decreto 5.051/2004)",
+   "quorum_aproximado": "Lei ordinária: maioria simples (convenção do projeto: ~231 deputados e 37 senadores, quórum de abertura)",
+   "custo_beneficio": "Custo de tempo de projetos (6 a 24 meses, a medir); benefício: menos litígio, projetos desenhados com a comunidade; custo de capacidade de facilitação.",
+   "evidencia": "Sarayaku v. Equador (Corte IDH 2012); protocolos autônomos Munduruku e Wajãpi; TIPNIS (consulta tardia e disputada).",
+   "risco_de_captura": "Consulta de fachada, divisão comunitária por dinheiro, veto como bloqueio; incentivo a capturar o representante.",
+   "indicador_de_sucesso": "% de projetos consultados antes da licença; mudanças de projeto geradas; litígios por falta de consulta.",
+   "fontes": [
+    "https://normlex.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C169",
+    "https://typeinvestigations.org/investigation/2012/08/27/bolivia-battles-highway/"
+   ]
+  },
+  {
+   "id": "V05",
+   "pilar": "direitos-da-natureza",
+   "proposta": "Direitos da natureza em lei orgânica municipal, com guardiães e fundo de restauração",
+   "instrumento_legal": "Emenda à lei orgânica municipal (quórum local, em regra 2/3 da câmara); lei municipal de guardiães",
+   "quorum_aproximado": "Local: câmara municipal (em geral 2/3 para emenda à lei orgânica)",
+   "custo_beneficio": "Custo baixo (conselho de guardiães e fundo); benefício incerto: poder simbólico e base legal para ação.",
+   "evidencia": "Bonito (2017) e Paudalho (2018) em PE; Equador, arts. 71-74; Atrato T-622/2016; sem avaliação de efeito.",
+   "risco_de_captura": "Símbolo sem orçamento (Yasuní, TIPNIS); captura do conselho por poder municipal; judicialização insegura.",
+   "indicador_de_sucesso": "Ações e decisões baseadas na lei; área restaurada; orçamento do fundo.",
+   "fontes": [
+    "https://ecojurisprudence.org/initiatives/the-organic-law-of-the-municipal-of-bonito-2/",
+    "https://www.constituteproject.org/constitution/Ecuador_2021",
+    "https://www.corteconstitucional.gov.co/relatoria/2016/t-622-16.htm"
+   ]
+  },
+  {
+   "id": "V06",
+   "pilar": "bens-comuns",
+   "proposta": "Pagamento por serviços ambientais (PSA) com governança comunitária e CAR auditável por comunidade",
+   "instrumento_legal": "Lei 14.119/2021 (Política Nacional de PSA, memória) e regulamento; CAR (Lei 12.651/2012)",
+   "quorum_aproximado": "Lei ordinária: maioria simples (convenção do projeto: ~231 deputados e 37 senadores, quórum de abertura) para ajustes; regulamento no Executivo",
+   "custo_beneficio": "Custo: fundos de PSA e monitoramento por satélite com validação local; benefício: renda e retenção de floresta; risco de pagamento por não-desmatamento que já ocorreria.",
+   "evidencia": "Efeitos de PSA são mistos na literatura (adicionalidade); Ostrom: monitoramento local e sanções graduadas; Scott: legibilidade pode destruir metis.",
+   "risco_de_captura": "Grilagem registrada no CAR; intermediários que capturam a renda; REDD+ sem consulta.",
+   "indicador_de_sucesso": "Adicionalidade medida (desmatamento evitado por hectare); % de renda que chega à comunidade; conflitos.",
+   "fontes": [
+    "https://www.lincolninst.edu/pubs/dl/1707_925_Cox%20Final.pdf"
+   ]
+  },
+  {
+   "id": "V07",
+   "pilar": "territorio-e-cuidado",
+   "proposta": "Rastreabilidade do ouro e fiscalização do garimpo ilegal em TIs",
+   "instrumento_legal": "Nota fiscal eletrônica do ouro; revisão da boa-fé presumida (Lei 12.844/2013, memória); operações integradas",
+   "quorum_aproximado": "Lei ordinária: maioria simples (convenção do projeto: ~231 deputados e 37 senadores, quórum de abertura)",
+   "custo_beneficio": "Custo de fiscalização e fechamento de brechas; benefício: saúde yanomami, rios, redução de violência e lavagem de dinheiro.",
+   "evidencia": "Crise yanomami 2022-23 (memória); STF restringiu a boa-fé presumida em 2023 (memória, a conferir).",
+   "risco_de_captura": "Fraude de notas, corrupção em fiscalização, deslocamento do garimpo.",
+   "indicador_de_sucesso": "Área de garimpo ilegal em TIs; ouro com origem rastreada; mortalidade por desnutrição e malária.",
+   "fontes": []
+  },
+  {
+   "id": "V08",
+   "pilar": "capacidades-e-suficiencia",
+   "proposta": "Orçamento participativo com vinculação mínima e transparência em municípios",
+   "instrumento_legal": "Estatuto da Cidade, Lei 10.257/2001, art. 44 (gestão orçamentária participativa, memória); leis municipais",
+   "quorum_aproximado": "Lei ordinária: maioria simples (convenção do projeto: ~231 deputados e 37 senadores, quórum de abertura) para norma nacional; maioria simples da câmara municipal",
+   "custo_beneficio": "Custo administrativo de assembleias e de execução; benefício: redução de mortalidade infantil e mais gasto em saúde e saneamento.",
+   "evidencia": "Gonçalves (World Development, 2014): OP aumenta a parcela do orçamento em saúde e saneamento e reduz mortalidade infantil; Touchton e Wampler (2014): efeito maior quando institucionalizado (resumos de busca).",
+   "risco_de_captura": "Clientelismo, esvaziamento ou OP sem execução; captura por associações.",
+   "indicador_de_sucesso": "Percentual do orçamento deliberado; execução das demandas; mortalidade infantil.",
+   "fontes": [
+    "https://library.uniteddiversity.coop/Decision_Making_and_Democracy/Participatory_Budgeting/The_Effects_of_Participatory_Budgeting_on_Municipal_Expenditures_and_Infant_Mortality_in_Brazil.pdf"
+   ]
+  },
+  {
+   "id": "V09",
+   "pilar": "reciprocidade-e-darva",
+   "proposta": "Economia solidária e moedas sociais: marco legal, crédito e compras públicas",
+   "instrumento_legal": "Lei de economia solidária (PL), Lei 12.865/2013 sobre arranjos de pagamento (memória); resolução do BCB; PNAE/PAA",
+   "quorum_aproximado": "Lei ordinária: maioria simples (convenção do projeto: ~231 deputados e 37 senadores, quórum de abertura)",
+   "custo_beneficio": "Custo: fundo de crédito e apoio técnico; benefício: circulação local, renda, resiliência. Escala limitada.",
+   "evidencia": "Banco Palmas (1998, Fortaleza): moeda palma lastreada 1:1; ativos em dezenas de milhares de transações; avaliação causal rara.",
+   "risco_de_captura": "Informalidade fiscal, clientelismo, risco de fraude, captura por políticos.",
+   "indicador_de_sucesso": "Giro local; operações de microcrédito e inadimplência; renda de cooperados.",
+   "fontes": [
+    "https://mais.opovo.com.br/jornal/reportagem/2023/01/19/em-25-anos-moeda-social-criada-no-ceara-beneficia-10-mil-pessoas-e-movimenta-rs-35-milhoes.html"
+   ]
+  },
+  {
+   "id": "V10",
+   "pilar": "pluralismo-epistemico",
+   "proposta": "Educação intercultural: Leis 10.639/2003 e 11.645/2008 com formação docente e licenciaturas interculturais",
+   "instrumento_legal": "Lei 11.645/2008 (existente); portaria do MEC; fundos do FUNDEB (memória)",
+   "quorum_aproximado": "Lei ordinária: maioria simples (convenção do projeto: ~231 deputados e 37 senadores, quórum de abertura) ou ato do MEC",
+   "custo_beneficio": "Custo: formação docente e material; benefício: reconhecimento, permanência escolar (a medir).",
+   "evidencia": "Lei 10.639/2003 e 11.645/2008 existem; avaliações apontam implementação desigual (memória, a conferir).",
+   "risco_de_captura": "Folclorização e material sem formação; terceirização por editoras.",
+   "indicador_de_sucesso": "% de redes com plano de implementação; proficiência e permanência de estudantes indígenas e negros.",
+   "fontes": []
+  },
+  {
+   "id": "V11",
+   "pilar": "capacidades-e-suficiencia",
+   "proposta": "Indicadores de bem viver complementares ao PIB, incluindo contas ambientais e tempo",
+   "instrumento_legal": "Lei ou decreto de contas complementares; IBGE; relatório anual ao Congresso",
+   "quorum_aproximado": "Lei ordinária: maioria simples (convenção do projeto: ~231 deputados e 37 senadores, quórum de abertura) ou decreto",
+   "custo_beneficio": "Custo baixo; benefício: política menos viciada em PIB; risco de painel decorativo.",
+   "evidencia": "IDH (PNUD 1990); Stiglitz-Sen-Fitoussi (2009, memória); donut municipal (Amsterdã 2020, memória).",
+   "risco_de_captura": "Gaming de indicador, escolha política das ponderações, uso retórico.",
+   "indicador_de_sucesso": "Número de decisões orçamentárias referenciadas ao painel; publicação periódica.",
+   "fontes": []
+  },
+  {
+   "id": "V12",
+   "pilar": "tempo-longo-e-geracoes",
+   "proposta": "Comissário das Gerações Futuras e avaliação intergeracional de leis e orçamento",
+   "instrumento_legal": "Lei federal criando o órgão; modelo gales de 2015 (memória)",
+   "quorum_aproximado": "Lei complementar: maioria absoluta (257 deputados e 41 senadores) (se criar órgão com independência) ou Lei ordinária: maioria simples (convenção do projeto: ~231 deputados e 37 senadores, quórum de abertura)",
+   "custo_beneficio": "Custo baixo (órgão pequeno); benefício incerto: voz técnica de longo prazo, risco de irrelevância.",
+   "evidencia": "País de Gales 2015; Hungria (memória, a conferir); sem avaliação robusta do efeito.",
+   "risco_de_captura": "Aparelhamento; parecer sem consequência; captura por tecnocracia.",
+   "indicador_de_sucesso": "Pareceres emitidos e leis alteradas; metas intergeracionais cumpridas.",
+   "fontes": []
+  },
+  {
+   "id": "V13",
+   "pilar": "bens-comuns",
+   "proposta": "Manejo comunitário (Resex, RDS, pesca e extrativismo) com cadeia de valor e compra pública",
+   "instrumento_legal": "SNUC (Lei 9.985/2000); decretos de criação; programa de compras",
+   "quorum_aproximado": "Lei ordinária: maioria simples (convenção do projeto: ~231 deputados e 37 senadores, quórum de abertura) ou decreto",
+   "custo_beneficio": "Custo: assistência técnica, logística e beneficiamento; benefício: renda e conservação.",
+   "evidencia": "Pirarucu em lagos manejados (Campos-Silva e Peres 2016, a conferir); Mamirauá; Ostrom.",
+   "risco_de_captura": "Atravessadores, elite local, pressão externa, cota esgotada.",
+   "indicador_de_sucesso": "Estoque do recurso; renda por família; conflitos.",
+   "fontes": []
+  },
+  {
+   "id": "V14",
+   "pilar": "autocontrole-e-monopolio-legitimo",
+   "proposta": "Controle externo da polícia, câmeras corporais e redução da letalidade, com investigação de milícias e facções",
+   "instrumento_legal": "Leis federais e estaduais; Ministério Público; normas do Conselho Nacional",
+   "quorum_aproximado": "Lei ordinária: maioria simples (convenção do projeto: ~231 deputados e 37 senadores, quórum de abertura)",
+   "custo_beneficio": "Custo: equipamento e corregedoria; benefício: menos letalidade e abusos, mais confiança (evidência mista).",
+   "evidencia": "Estudos em São Paulo indicam redução de letalidade com câmeras (magnitude a conferir); homicídios: 45.747 em 2023 (FATOR_HUMANO).",
+   "risco_de_captura": "Captura do controle por corporação; câmeras desligadas; uso para vigilância.",
+   "indicador_de_sucesso": "Mortes por intervenção policial; homicídios; confiança na polícia.",
+   "fontes": []
+  },
+  {
+   "id": "V15",
+   "pilar": "pluralismo-epistemico",
+   "proposta": "Comitês mistos de saber tradicional e ciência no licenciamento e na repartição de benefícios da biodiversidade",
+   "instrumento_legal": "Lei 13.123/2015 e CGen (memória); regulamento do licenciamento",
+   "quorum_aproximado": "Lei ordinária: maioria simples (convenção do projeto: ~231 deputados e 37 senadores, quórum de abertura) ou regulamento",
+   "custo_beneficio": "Custo: tempo de análise; benefício: projetos melhor ajustados e repartição de benefícios.",
+   "evidencia": "Marco da Biodiversidade 2015 (memória); evidência de efeito pouco medida.",
+   "risco_de_captura": "Biopirataria legalizada; representação capturada; burocracia.",
+   "indicador_de_sucesso": "Valor repassado a comunidades; tempo de análise; reclamações.",
+   "fontes": []
+  }
+ ]
+}

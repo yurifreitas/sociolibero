@@ -1,0 +1,3365 @@
+{
+ "meta": {
+  "gerado_em": "2026-10-06",
+  "aviso": "Diagramas de laços causais (system dynamics, Forrester/Meadows) das possíveis evoluções do Brasil. Só os anéis 1 a 4 e partes dos anéis 2, 7, 8 e 10 têm equação em src/sociolibero/economy.py; os demais são hipóteses causais qualitativas, e as arestas marcadas como contestadas refletem divergência da literatura. Evidência de correlação não é causalidade. As execuções ilustrativas (sim_ilus) usam o modelo anual reduzido com alavancas arbitrárias, não os cenários do projeto, e não são previsão.",
+  "criterio": "verificado: true só quando a página da fonte foi aberta, o resumo foi lido ou o item do repositório já tinha verificado: true; DOI apenas conferido no Crossref (título, autor, ano) sem ler o resultado fica false. Evidências internas apontam para o id do arquivo do repositório e herdam o seu campo verificado. Estatísticas de clima.json são cálculo do repositório sobre séries abertas validadas, e valem como contexto, não como efeito causal. 'forca' é qualitativa: forte = mecanismo contábil do modelo ou efeito identificado em desenho causal; media = evidência plausível mas indireta; fraca = só hipótese com um indício; incerta = literatura diverge ou sem estimativa. Defasagens são estimativas com base declarada (equação do modelo, catálogo de decisões ou ciclo político).",
+  "como_ler": "Cada anel é um laço fechado de arestas com sinal. Produto dos sinais positivo = reforçador (R); negativo = equilibrador (B). Arestas com ramal = true são ramais fora do laço principal e não entram na conta de polaridade.",
+  "contagens": {
+   "aneis": 14,
+   "reforcadores": 9,
+   "equilibradores": 5,
+   "arestas": 68,
+   "arestas_contestadas": 28,
+   "citacoes_de_evidencia": 175,
+   "citacoes_verificadas": 137,
+   "aneis_com_simulacao_total_ou_parcial": 7,
+   "aneis_ausentes": 11,
+   "referencias": 34,
+   "referencias_verificadas": 15
+  }
+ },
+ "aneis": [
+  {
+   "id": "fiscal-juros-divida",
+   "nome": "Anel fiscal: juros, dívida e prêmio de risco",
+   "tipo": "reforco",
+   "descricao": "Mais dívida acima de ~75% do PIB eleva o prêmio de risco; o prêmio entra na Selic; a Selic mais alta encarece a dívida e a eleva. Um ramal secundário passa pelo crescimento: juro real acima do neutro derruba o PIB, e menos PIB piora a razão dívida/PIB.",
+   "nos": [
+    {
+     "id": "divida",
+     "rotulo": "Dívida bruta/PIB",
+     "dominio": "economia"
+    },
+    {
+     "id": "premio",
+     "rotulo": "Prêmio de risco (pp)",
+     "dominio": "economia"
+    },
+    {
+     "id": "selic",
+     "rotulo": "Selic",
+     "dominio": "economia"
+    },
+    {
+     "id": "custo_div",
+     "rotulo": "Custo de carregar a dívida",
+     "dominio": "Estado"
+    },
+    {
+     "id": "juro_real",
+     "rotulo": "Juro real (Selic - IPCA)",
+     "dominio": "economia"
+    },
+    {
+     "id": "pib",
+     "rotulo": "Crescimento do PIB",
+     "dominio": "economia"
+    }
+   ],
+   "arestas": [
+    {
+     "de": "divida",
+     "para": "premio",
+     "sinal": "+",
+     "defasagem": "contemporânea no modelo (base: premium usa d do período anterior); prática de mercado em semanas a meses",
+     "forca": "forte",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      },
+      {
+       "ref": "Blanchard (2004), Fiscal Dominance and Inflation Targeting: Lessons from Brazil (resumo aberto: juro real maior com dívida alta e dívida em moeda estrangeira pode depreciar o câmbio e piorar a inflação)",
+       "url": "https://www.nber.org/papers/w10389",
+       "verificado": true
+      },
+      {
+       "ref": "Ardagna, Caselli, Lane (2007), Fiscal Discipline and the Cost of Public Debt Service (DOI conferido; conteúdo não lido)",
+       "url": "https://doi.org/10.2202/1935-1690.1417",
+       "verificado": false
+      }
+     ],
+     "contestada": false,
+     "nota": "No modelo: prem_debt = 0,8 pp por 10 pp de dívida acima de 75%, mais prem_cred = 2,0 vezes (1 - credibilidade) por 10 pp. A inclinação resulta em 0,26 pp de prêmio por pp de dívida com credibilidade 0,1; 0,18 com 0,5; 0,10 com 0,9 (cálculo nosso). Ardagna et al. (DOI conferido, conteúdo não lido) tratam do custo da dívida em países da OCDE; a magnitude brasileira não foi estimada aqui."
+    },
+    {
+     "de": "premio",
+     "para": "selic",
+     "sinal": "+",
+     "defasagem": "suavização 0,6/0,4: a Selic fecha ~40% da lacuna por ano (meia-vida ~1,4 ano, derivada da equação)",
+     "forca": "forte",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      },
+      {
+       "ref": "Taylor (1993), Discretion versus policy rules in practice (DOI conferido; conteúdo de memória)",
+       "url": "https://doi.org/10.1016/0167-2231(93)90009-L",
+       "verificado": false
+      }
+     ],
+     "contestada": false,
+     "nota": "i = 0,6*i_prev + 0,4*(neutral_real 5,0 + pi + premio + taylor). Passagem de 1 para 1 no longo prazo. A regra de Taylor do modelo (taylor_pi 0,5; taylor_gap 0,5) é estilizada."
+    },
+    {
+     "de": "selic",
+     "para": "custo_div",
+     "sinal": "+",
+     "defasagem": "1 a 2 anos (estoque de dívida refinancia aos poucos)",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "O modelo usa implicit = 0,8: o custo implícito da dívida é 80% da Selic, sem separar títulos prefixados, indexados ao IPCA, à Selic ou ao câmbio. A parcela real indexada não foi levantada nesta rodada."
+    },
+    {
+     "de": "custo_div",
+     "para": "divida",
+     "sinal": "+",
+     "defasagem": "1 ano",
+     "forca": "forte",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "d_t = d_{t-1}*(1 + 0,8*i/100)/(1 + g_nominal) - p. Cálculo nosso: ∂d/∂i ≈ 0,008*d, ou ~0,7 a 0,8 pp de dívida por pp de Selic para d entre 90% e 100%."
+    },
+    {
+     "de": "selic",
+     "para": "juro_real",
+     "sinal": "+",
+     "defasagem": "contemporânea",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "real = i - pi. A inflação sobe junto com a Selic nas equações, então o juro real sobe menos que a Selic.",
+     "ramal": true
+    },
+    {
+     "de": "juro_real",
+     "para": "pib",
+     "sinal": "-",
+     "defasagem": "contemporânea no modelo; na literatura, 4 a 8 trimestres",
+     "forca": "incerta",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      },
+      {
+       "ref": "Herndon, Ash, Pollin (2014), Does high public debt consistently stifle economic growth? A critique of Reinhart and Rogoff (DOI conferido; título sustenta a controvérsia)",
+       "url": "https://doi.org/10.1093/cje/bet075",
+       "verificado": false
+      }
+     ],
+     "contestada": true,
+     "nota": "g = 2,0 + ... - g_rate*(real - 5,0), com g_rate = 0,30. É um parâmetro de calibração do projeto e não foi estimado em microdados. A relação entre dívida alta e crescimento é contestada (Reinhart-Rogoff vs. Herndon et al.).",
+     "ramal": true
+    },
+    {
+     "de": "pib",
+     "para": "divida",
+     "sinal": "-",
+     "defasagem": "1 ano",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "O crescimento nominal entra no denominador da dívida. Fecha um segundo laço reforçador pelo crescimento.",
+     "ramal": true
+    }
+   ],
+   "simulado_no_modelo": {
+    "sim": true,
+    "onde": "economy.py, função simulate(): variáveis debt, selic, ipca, gdp; Params prem_debt, prem_cred, prem_base, neutral_real, implicit, g_rate, taylor_pi, taylor_gap; alavancas fiscal_credibility e primary_target",
+    "equacao": "debt_excess = max(d-75,0)/10; premium = prem_base 1,0 + prem_debt 0,8*debt_excess + prem_inst 2,5*institutional_risk + prem_cred 2,0*(1-fiscal_credibility)*debt_excess + climate_premium; i = max(2, 0,6*i_prev + 0,4*(5,0 + pi + premium + 0,5*(pi-3) + 0,5*gap)); d = d*(1+0,8*i/100)/(1+g_nominal) - p"
+   },
+   "decisoes": [
+    "flexibilizar-arcabouco",
+    "reforcar-arcabouco",
+    "desvincular-minimo",
+    "reforma-previdencia-2",
+    "cortar-beneficios-fiscais",
+    "desoneracao-ampla",
+    "ampliar-assistencia",
+    "perdao-dividas",
+    "credito-subsidiado",
+    "privatizacoes",
+    "reforma-administrativa"
+   ],
+   "potencias": [
+    "janela-demografica",
+    "matriz-eletrica-renovavel"
+   ],
+   "tendencias": [
+    "difusao_cauda"
+   ],
+   "leis": [
+    "solow"
+   ],
+   "pilares": [
+    "tempo-longo-e-geracoes",
+    "capacidades-e-suficiencia"
+   ],
+   "alavancas": [
+    "Meadows 6 (ganho do laço reforçador): a credibilidade fiscal muda a inclinação do prêmio (prem_cred); nas execuções ilustrativas, credibilidade 0,1 leva a dívida de 2038 a 233% do PIB e 0,9 a 102%, contra 136% em 0,5 (ver sim_ilus)",
+    "Meadows 5 e 8: regras que fortalecem o laço balanceador (reação fiscal, anel 3) e a regra fiscal em si (reforcar-arcabouco: primary_target +1,2, credibilidade +0,2)",
+    "Meadows 4 (defasagem): alongar prazo médio da dívida reduz o repasse da Selic ao custo (hipótese; sem dado do prazo nesta rodada)"
+   ],
+   "evolucao_se_dominar": {
+    "virtuosa": "Com primário consistente e credibilidade alta, a dívida estabiliza perto de 100% e o prêmio cai, a Selic converge ao neutro e o juro real baixo recompõe o crescimento. Nas execuções ilustrativas, credibilidade 0,9 leva Selic de 2038 a 10,9% e dívida a 102%.",
+    "viciosa": "Dívida crescente com baixa credibilidade amplia o prêmio e o custo, a Selic sobe e o primário exigido cresce. Nas execuções ilustrativas, credibilidade 0,1 leva a Selic de 2038 a 34% e a dívida a 233%, e primário alvo de -1,0 leva a 193%. São resultados de um modelo anual reduzido, sem câmbio nem indexação, para mostrar a dinâmica e não para prever."
+   },
+   "enfraquece": [
+    "Reação endógena do primário (anel 3)",
+    "Prazo médio longo e base de investidores doméstica (hipótese não conferida)",
+    "Inflação que corrói a dívida nominal (efeito presente no modelo, mas limitado pelo repasse à Selic)",
+    "Superávit primário persistente"
+   ],
+   "notas": "Execuções ilustrativas deste trabalho (sim_ilus): dívida 2038 = 135,7% com credibilidade 0,5; 233,1% com 0,1; 102,0% com 0,9; 193,5% com primary_target = -1,0."
+  },
+  {
+   "id": "expectativas-ancoragem",
+   "nome": "Anel de expectativas: erosão do BC, inflação esperada e Selic",
+   "tipo": "reforco",
+   "descricao": "Mais dívida com baixa credibilidade fiscal (dominância fiscal) eleva a inflação de longo prazo esperada; a Selic sobe para conter a inflação (regra de Taylor mais a inflação no piso da taxa); a Selic alta aumenta a dívida. A erosão da independência do BC é a alavanca exógena que desloca a inflação de longo prazo. O laço só fecha se o aperto monetário não for compensado pela erosão nominal da dívida, e esse é o ponto frágil do modelo.",
+   "nos": [
+    {
+     "id": "divida",
+     "rotulo": "Dívida bruta/PIB",
+     "dominio": "economia"
+    },
+    {
+     "id": "dominancia",
+     "rotulo": "Dominância fiscal (dívida acima de 75% sem credibilidade)",
+     "dominio": "economia"
+    },
+    {
+     "id": "pi_lr",
+     "rotulo": "Inflação de longo prazo esperada",
+     "dominio": "economia"
+    },
+    {
+     "id": "selic",
+     "rotulo": "Selic",
+     "dominio": "economia"
+    },
+    {
+     "id": "bc",
+     "rotulo": "Independência do BC (alavanca bc_erosion)",
+     "dominio": "instituições"
+    }
+   ],
+   "arestas": [
+    {
+     "de": "divida",
+     "para": "dominancia",
+     "sinal": "+",
+     "defasagem": "contemporânea no modelo; na prática, anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      },
+      {
+       "ref": "economia_historica.json#decada-perdida-hiperinflacao: crise da dívida, hiperinflação e planos de estabilização (precedente histórico de dominância fiscal; descritivo)",
+       "url": "https://pt.wikipedia.org/wiki/Plano_Real",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "pi_debt = 0,6 pp de inflação por 10 pp de dívida acima de 75%, multiplicado por (1 - credibilidade). O precedente da hiperinflação é descritivo e não identifica o mecanismo."
+    },
+    {
+     "de": "dominancia",
+     "para": "pi_lr",
+     "sinal": "+",
+     "defasagem": "meia-vida ~0,7 ano (pi = 0,5*pi_prev + 0,5*pi_lr)",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      },
+      {
+       "ref": "Blanchard (2004), Fiscal Dominance and Inflation Targeting: Lessons from Brazil (resumo aberto: juro real maior com dívida alta e dívida em moeda estrangeira pode depreciar o câmbio e piorar a inflação)",
+       "url": "https://www.nber.org/papers/w10389",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "pi_lr = 3,0 + pi_bc*bc_erosion + pi_debt*excess*(1-cred). Blanchard (2004) discute a dominância fiscal no Brasil de 2002-03."
+    },
+    {
+     "de": "pi_lr",
+     "para": "selic",
+     "sinal": "+",
+     "defasagem": "contemporânea; suavização da Selic 0,6/0,4",
+     "forca": "forte",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      },
+      {
+       "ref": "Taylor (1993), Discretion versus policy rules in practice (DOI conferido; conteúdo de memória)",
+       "url": "https://doi.org/10.1016/0167-2231(93)90009-L",
+       "verificado": false
+      }
+     ],
+     "contestada": true,
+     "nota": "A inflação entra duas vezes na Selic: 1 para 1 em neutral_real + pi, e 0,5 pela regra de Taylor. A Selic nominal sobe 1,5 pp por pp de inflação (cálculo nosso)."
+    },
+    {
+     "de": "selic",
+     "para": "divida",
+     "sinal": "+",
+     "defasagem": "1 ano",
+     "forca": "forte",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      },
+      {
+       "ref": "Blanchard (2004), Fiscal Dominance and Inflation Targeting: Lessons from Brazil (resumo aberto: juro real maior com dívida alta e dívida em moeda estrangeira pode depreciar o câmbio e piorar a inflação)",
+       "url": "https://www.nber.org/papers/w10389",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "No modelo, mais Selic eleva a dívida, mas mais inflação a reduz pelo denominador nominal. Execução ilustrativa: bc_erosion de 0 para 0,4 sobe a Selic de 2038 de 17,11% para 18,58% e o IPCA de 4,43% para 5,60%, e a dívida cai de 135,7% para 134,8% (sim_ilus). Ou seja, o laço de expectativas NÃO se mostra reforçador na dívida dentro do modelo. Blanchard (2004) argumenta que, com dívida alta e passivos em moeda estrangeira, apertar pode piorar a inflação por depreciação, canal ausente do modelo."
+    },
+    {
+     "de": "bc",
+     "para": "pi_lr",
+     "sinal": "+",
+     "defasagem": "anos (ancoragem se perde devagar e se recupera mais devagar)",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      },
+      {
+       "ref": "Alesina e Summers (1993), Central Bank Independence and Macroeconomic Performance (DOI conferido; conteúdo não lido)",
+       "url": "https://doi.org/10.2307/2077833",
+       "verificado": false
+      },
+      {
+       "ref": "historia.json#lc179-2021: LC 179/2021, autonomia do BC, mandato fixo de 4 anos",
+       "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp179.htm",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "Alavanca exógena bc_erosion (0-1) multiplicada por pi_bc = 3,0 pp. A literatura sobre independência do BC (Alesina e Summers; DOI conferido, conteúdo não lido) é cross-country e debate causalidade. Decisões do catálogo mudam a alavanca: reduzir-autonomia-bc +0,4, diretoria-bc-alinhada +0,15.",
+     "ramal": true
+    }
+   ],
+   "simulado_no_modelo": {
+    "sim": true,
+    "onde": "economy.py: pi_lr, pi e taylor dentro de simulate(); alavanca Levers.bc_erosion; Params pi_bc, pi_debt, taylor_pi. Parcial: a sinalização do BC é exógena, e não há câmbio nem dívida indexada",
+    "equacao": "pi_lr = 3,0 + 3,0*bc_erosion + 0,6*debt_excess*(1-fiscal_credibility); pi = max(1, 0,5*pi_prev + 0,5*pi_lr); taylor = 0,5*(pi-3) + 0,5*gap"
+   },
+   "decisoes": [
+    "reduzir-autonomia-bc",
+    "diretoria-bc-alinhada",
+    "politica-precos-combustiveis",
+    "flexibilizar-arcabouco",
+    "reforcar-arcabouco"
+   ],
+   "potencias": [
+    "infraestrutura-publica-digital"
+   ],
+   "tendencias": [
+    "pagamentos_digitais"
+   ],
+   "leis": [],
+   "pilares": [
+    "autocontrole-e-monopolio-legitimo",
+    "tempo-longo-e-geracoes"
+   ],
+   "alavancas": [
+    "Meadows 8 (regras): mandato fixo e objetivo único do BC (LC 179/2021)",
+    "Meadows 7 (informação): metas, relatórios e comunicação que reforçam a ancoragem",
+    "Meadows 10 (objetivos): coerência entre meta fiscal e meta de inflação"
+   ],
+   "evolucao_se_dominar": {
+    "virtuosa": "Âncora firme: inflação de longo prazo perto de 3%, Selic menor e prêmio menor, o que libera espaço fiscal.",
+    "viciosa": "Âncora perdida: na simulação, inflação de longo prazo ~1,2 pp acima e Selic ~1,5 pp acima em 2038, com queda adicional de crescimento. A espiral explosiva clássica (inflação, juros e dívida) só aparece se houver canal cambial ou dívida indexada, o que o modelo não tem; isso é hipótese, apoiada em Blanchard (2004) e na história de 1980-94."
+   },
+   "enfraquece": [
+    "Credibilidade fiscal alta",
+    "Mandato fixo do BC e diretoria não alinhada",
+    "Prazo longo e prefixado da dívida (hipótese)",
+    "Câmbio estável e reservas (fora do modelo)"
+   ]
+  },
+  {
+   "id": "reacao-fiscal",
+   "nome": "Anel balanceador: reação do primário à dívida",
+   "tipo": "equilibrio",
+   "descricao": "Quando a dívida passa de 80% do PIB, o primário-alvo é ajustado para cima (reação à Bohn), com força maior se o mercado acredita na regra. Mais primário reduz a dívida.",
+   "nos": [
+    {
+     "id": "divida",
+     "rotulo": "Dívida bruta/PIB",
+     "dominio": "economia"
+    },
+    {
+     "id": "react",
+     "rotulo": "Reação fiscal (ajuste do primário)",
+     "dominio": "Estado"
+    },
+    {
+     "id": "primario",
+     "rotulo": "Resultado primário (% PIB)",
+     "dominio": "Estado"
+    }
+   ],
+   "arestas": [
+    {
+     "de": "divida",
+     "para": "react",
+     "sinal": "+",
+     "defasagem": "1 a 3 anos (processo orçamentário e político)",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      },
+      {
+       "ref": "Bohn (1998), The Behavior of U.S. Public Debt and Deficits (DOI conferido no Crossref; conteúdo não lido nesta rodada)",
+       "url": "https://doi.org/10.1162/003355398555793",
+       "verificado": false
+      },
+      {
+       "ref": "Ghosh et al. (2013), Fiscal Fatigue, Fiscal Space and Debt Sustainability in Advanced Economies (DOI conferido; título sustenta a ideia de reação fiscal que se esgota; resumo não lido)",
+       "url": "https://doi.org/10.1111/ecoj.12010",
+       "verificado": false
+      }
+     ],
+     "contestada": true,
+     "nota": "react = reaction*(0,3 + 0,7*credibilidade)*clip(d - 80, -10, 40), reaction = 0,14. Com d = 100 e credibilidade 0,5, react = 1,8 pp. Bohn (1998) é o referencial teórico (DOI conferido, conteúdo não lido); Ghosh et al. (2013) tratam de fadiga fiscal, em que a reação se esgota em dívida alta. O parâmetro 0,14 é de calibração, não estimativa brasileira com intervalo."
+    },
+    {
+     "de": "react",
+     "para": "primario",
+     "sinal": "+",
+     "defasagem": "meia-vida ~1,4 ano (p = 0,6*p_prev + 0,4*alvo)",
+     "forca": "forte",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#lc200-2023: LC 200/2023, arcabouço fiscal (despesa limitada a 70% do aumento da receita, banda 0,6% a 2,5%)",
+       "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "No mundo real, o primário-alvo depende da regra (LC 200/2023: despesa limitada a 70% do aumento da receita) e do Congresso, não da dívida diretamente."
+    },
+    {
+     "de": "primario",
+     "para": "divida",
+     "sinal": "-",
+     "defasagem": "1 ano",
+     "forca": "forte",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "d_t = ... - p. É identidade contábil do modelo."
+    }
+   ],
+   "simulado_no_modelo": {
+    "sim": true,
+    "onde": "economy.py: bloco 'reação fiscal (tipo Bohn)' em simulate(); Params.reaction; Levers.primary_target e fiscal_credibility",
+    "equacao": "react = 0,14*(0,3+0,7*fiscal_credibility)*clip(d-80,-10,40); p = 0,6*p_prev + 0,4*(primary_target + react) + ruído(0; 0,35)"
+   },
+   "decisoes": [
+    "reforcar-arcabouco",
+    "desvincular-minimo",
+    "reforma-previdencia-2",
+    "reforma-administrativa",
+    "cortar-beneficios-fiscais",
+    "comissario-das-geracoes-futuras"
+   ],
+   "potencias": [
+    "janela-demografica"
+   ],
+   "tendencias": [],
+   "leis": [],
+   "pilares": [
+    "tempo-longo-e-geracoes",
+    "capacidades-e-suficiencia"
+   ],
+   "alavancas": [
+    "Meadows 5 (força do laço balanceador): rigidez do gasto obrigatório reduz a capacidade de reagir; desvincular-minimo e reforma-previdencia-2 aumentam a margem",
+    "Meadows 4 (defasagem): quanto mais lenta a reação (maior defasagem), maior a oscilação da dívida",
+    "Meadows 8 (regras): gatilhos automáticos de despesa (reforcar-arcabouco)"
+   ],
+   "evolucao_se_dominar": {
+    "virtuosa": "Dívida converge para o nível em que o primário-alvo a estabiliza; choques são absorvidos em poucos anos.",
+    "viciosa": "Se a reação é lenta ou politicamente bloqueada (fadiga fiscal), a reação some e prevalece o anel 1. A reação do modelo é mecânica e não inclui o custo político."
+   },
+   "enfraquece": [
+    "Despesa obrigatória rígida e vinculada",
+    "Calendário eleitoral",
+    "Fadiga fiscal e conflito distributivo",
+    "Gastos tributários e emendas impositivas (EC 86/2015, EC 100/2019) que reduzem a margem discricionária"
+   ]
+  },
+  {
+   "id": "disciplina-de-mercado",
+   "nome": "Anel balanceador: mercado de capitais disciplinando o fiscal",
+   "tipo": "equilibrio",
+   "descricao": "Prêmio e Selic altos encarecem a dívida e aumentam o custo político de gastar sem regra; isso cria demanda por regras fiscais críveis e por ajuste; mais credibilidade reduz o prêmio. O modelo simula só o efeito da credibilidade sobre o prêmio e a dívida; a reação política que eleva a credibilidade é hipótese.",
+   "nos": [
+    {
+     "id": "premio",
+     "rotulo": "Prêmio de risco",
+     "dominio": "economia"
+    },
+    {
+     "id": "custo_pol",
+     "rotulo": "Custo político de gastar sem regra",
+     "dominio": "instituições"
+    },
+    {
+     "id": "regra",
+     "rotulo": "Regra fiscal crível (fiscal_credibility)",
+     "dominio": "instituições"
+    }
+   ],
+   "arestas": [
+    {
+     "de": "premio",
+     "para": "custo_pol",
+     "sinal": "+",
+     "defasagem": "1 a 3 anos (ciclos de estresse levam a mudança de regra)",
+     "forca": "incerta",
+     "evidencia": [
+      {
+       "ref": "economia_historica.json#recessao-ajuste-polarizacao: recessão de 2015-16 seguida da EC 95 (resposta institucional a estresse fiscal; correlação temporal, não prova causal)",
+       "url": "https://pt.wikipedia.org/wiki/Reforma_trabalhista_no_Brasil_em_2017",
+       "verificado": false
+      },
+      {
+       "ref": "historia.json#ec95-2016: EC 95/2016, teto de gastos, sem teto para juros",
+       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc95.htm",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#lc200-2023: LC 200/2023, arcabouço fiscal (despesa limitada a 70% do aumento da receita, banda 0,6% a 2,5%)",
+       "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#direcoes/fiscal: regras fiscais restringem a política orçamentária",
+       "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "Hipótese: depois dos estresses de 2015-16 vieram a EC 95/2016 e depois a LC 200/2023. A sequência é temporal e não identifica causalidade (houve também mudança de governo). Não há estimativa do custo político."
+    },
+    {
+     "de": "custo_pol",
+     "para": "regra",
+     "sinal": "+",
+     "defasagem": "1 a 2 anos para aprovar, mais para a regra ganhar credibilidade",
+     "forca": "fraca",
+     "evidencia": [
+      {
+       "ref": "historia.json#lrf-2000: LRF (LC 101/2000)",
+       "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp101.htm",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#ec95-2016: EC 95/2016, teto de gastos, sem teto para juros",
+       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc95.htm",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#lc200-2023: LC 200/2023, arcabouço fiscal (despesa limitada a 70% do aumento da receita, banda 0,6% a 2,5%)",
+       "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp200.htm",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Decisões do catálogo mexem na credibilidade: reforcar-arcabouco +0,20, flexibilizar-arcabouco -0,25. A credibilidade é uma alavanca exógena do modelo."
+    },
+    {
+     "de": "regra",
+     "para": "premio",
+     "sinal": "-",
+     "defasagem": "contemporânea no modelo; na prática, a credibilidade se constrói em anos",
+     "forca": "forte",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      },
+      {
+       "ref": "Ardagna, Caselli, Lane (2007), Fiscal Discipline and the Cost of Public Debt Service (DOI conferido; conteúdo não lido)",
+       "url": "https://doi.org/10.2202/1935-1690.1417",
+       "verificado": false
+      },
+      {
+       "ref": "Blanchard (2004), Fiscal Dominance and Inflation Targeting: Lessons from Brazil (resumo aberto: juro real maior com dívida alta e dívida em moeda estrangeira pode depreciar o câmbio e piorar a inflação)",
+       "url": "https://www.nber.org/papers/w10389",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "No modelo, (1 - credibilidade) multiplica prem_cred = 2,0 sobre o excesso de dívida: com credibilidade 0,9 o prêmio por dívida cai ~45% frente a 0,5 (cálculo nosso: 0,10 vs. 0,18 pp por pp de dívida)."
+    }
+   ],
+   "simulado_no_modelo": {
+    "sim": false,
+    "onde": "Parcial: a aresta regra → prêmio está em economy.py (prem_cred e fiscal_credibility); as arestas prêmio → custo político → regra são exógenas (alavanca fiscal_credibility definida por cenário e por decisão)",
+    "equacao": "premium inclui prem_cred*(1-fiscal_credibility)*debt_excess"
+   },
+   "decisoes": [
+    "reforcar-arcabouco",
+    "flexibilizar-arcabouco",
+    "perdao-dividas",
+    "politica-precos-combustiveis",
+    "comissario-das-geracoes-futuras"
+   ],
+   "potencias": [],
+   "tendencias": [],
+   "leis": [],
+   "pilares": [
+    "tempo-longo-e-geracoes"
+   ],
+   "alavancas": [
+    "Meadows 7 (fluxo de informação): metas e relatórios fiscais acessíveis",
+    "Meadows 8 (regras): gatilhos e sanções da regra fiscal",
+    "Meadows 9 (autoorganização): instituição fiscal independente (hipótese; não consta do catálogo)"
+   ],
+   "evolucao_se_dominar": {
+    "virtuosa": "O mercado sinaliza cedo, a regra se endurece antes da crise e o prêmio permanece baixo.",
+    "viciosa": "Se o custo político nunca ultrapassa o benefício de gastar (ou se as regras são flexibilizadas a cada estresse), o anel não opera e o anel 1 domina."
+   },
+   "enfraquece": [
+    "Captura do orçamento por emendas e benefícios setoriais (anel 5)",
+    "Regras flexibilizadas sem contrapartida",
+    "Financiamento por bancos públicos e dívidas rurais que contornam a regra (perdao-dividas, credito-subsidiado)"
+   ]
+  },
+  {
+   "id": "captura-concentracao",
+   "nome": "Anel de captura: concentração, influência política e regras favoráveis",
+   "tipo": "reforco",
+   "descricao": "Quem concentra renda e poder de mercado tem mais capacidade de financiar e influenciar a política; a influência produz regras, subsídios e contratos favoráveis; essas regras aumentam a concentração. É uma hipótese causal qualitativa; não está no modelo.",
+   "nos": [
+    {
+     "id": "conc",
+     "rotulo": "Concentração de renda e de mercado",
+     "dominio": "desigualdade"
+    },
+    {
+     "id": "infl",
+     "rotulo": "Influência política (financiamento, lobby, emendas)",
+     "dominio": "instituições"
+    },
+    {
+     "id": "regras",
+     "rotulo": "Regras, benefícios e contratos favoráveis",
+     "dominio": "Estado"
+    },
+    {
+     "id": "renda",
+     "rotulo": "Renda extraordinária e vantagem competitiva",
+     "dominio": "economia"
+    }
+   ],
+   "arestas": [
+    {
+     "de": "conc",
+     "para": "infl",
+     "sinal": "+",
+     "defasagem": "ciclo eleitoral (2 a 4 anos)",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "Boas, Hidalgo, Richardson (2014), The Spoils of Victory: Campaign Donations and Government Contracts in Brazil (DOI conferido; resumo não lido)",
+       "url": "https://doi.org/10.1017/s002238161300145x",
+       "verificado": false
+      },
+      {
+       "ref": "custo_corrupcao.json#stigler-captura: teoria da captura regulatória",
+       "url": "https://doi.org/10.2307/3003160",
+       "verificado": true
+      },
+      {
+       "ref": "leis_tecnologicas.json#potencia_pareto: 10% mais ricos do Brasil com ~59% da renda (WIR 2026, resumo de busca)",
+       "url": "web/public/data/leis_tecnologicas.json",
+       "verificado": false
+      }
+     ],
+     "contestada": false,
+     "nota": "Boas et al. (2014) estudam doações de campanha e contratos públicos no Brasil (DOI conferido; resumo não lido). A concentração de renda do topo (10% com ~59%, WIR, não verificado) é o motivo para supor que o dinheiro político é desigual. A causalidade é contestada (doadores escolhem vencedores prováveis)."
+    },
+    {
+     "de": "infl",
+     "para": "regras",
+     "sinal": "+",
+     "defasagem": "1 a 5 anos (aprovação de lei e regulamentação)",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "custo_corrupcao.json#emendas-orcamento-secreto: transferências especiais ('emendas Pix') >R$ 22 bi em 2020-2024, auditoria do TCU (via imprensa)",
+       "url": "https://www.poder360.com.br/poder-congresso/tcu-aprova-auditoria-sobre-r-22-bilhoes-em-emendas-pix/",
+       "verificado": false
+      },
+      {
+       "ref": "historia.json#rp9-2021: emendas de relator (RP9) como moeda de troca sem transparência",
+       "url": "https://pt.wikipedia.org/wiki/Or%C3%A7amento_secreto",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#adpf854-2022: STF (6 a 5) declara o orçamento secreto inconstitucional",
+       "url": "https://www.conjur.com.br/2022-dez-19/maioria-stf-declara-inconstitucionalidade-orcamento-secreto/",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#direcoes/coalizao: presidencialismo de coalizão e poder sobre o orçamento",
+       "url": "https://pt.wikipedia.org/wiki/S%C3%A9rgio_Abranches",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#ec86-2015: EC 86/2015, emendas individuais impositivas",
+       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc86.htm",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#ec100-2019: EC 100/2019, emendas de bancada impositivas",
+       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc100.htm",
+       "verificado": true
+      },
+      {
+       "ref": "custo_corrupcao.json#gastos-tributarios: gasto tributário federal 2026 de R$ 612,84 bi = 4,43% do PIB (RFB, DGT PLOA 2026). É estimativa de renúncia, não prova de captura (parte é desenho do regime)",
+       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-base-conceitual.pdf",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "Há mecanismos documentados de poder do Congresso sobre o orçamento (RP9 declarado inconstitucional por 6 a 5; migração do volume para emendas individuais, de bancada, de comissão e transferências especiais). O tamanho dos gastos tributários (R$ 612,84 bi em 2026, 4,43% do PIB) mede renúncia, e a RFB e o repositório ressaltam que parte é desenho do regime, não abuso. Ligar o tamanho à captura é hipótese."
+    },
+    {
+     "de": "regras",
+     "para": "renda",
+     "sinal": "+",
+     "defasagem": "imediata a 3 anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "custo_corrupcao.json#gastos-tributarios: gasto tributário federal 2026 de R$ 612,84 bi = 4,43% do PIB (RFB, DGT PLOA 2026). É estimativa de renúncia, não prova de captura (parte é desenho do regime)",
+       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-base-conceitual.pdf",
+       "verificado": true
+      },
+      {
+       "ref": "custo_corrupcao.json#licitacoes-carteis: sobrepreço típico de cartéis 10-20% (OCDE), TCU adotou 17%",
+       "url": "https://portal.tcu.gov.br/imprensa/noticias/carteis-superfaturamento-e-a-atuacao-do-tcu",
+       "verificado": true
+      },
+      {
+       "ref": "custo_corrupcao.json#tullock-krueger-rent-seeking: rent-seeking",
+       "url": "https://doi.org/10.1111/j.1465-7295.1967.tb01923.x",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Rent-seeking (Tullock, Krueger). O catálogo lista 14 benefícios a empresas (7 verificados) em custo_corrupcao.json#beneficios_a_empresas, com valores em R$; a incidência real (quem captura a renda) não foi medida."
+    },
+    {
+     "de": "renda",
+     "para": "conc",
+     "sinal": "+",
+     "defasagem": "contínua",
+     "forca": "incerta",
+     "evidencia": [
+      {
+       "ref": "custo_corrupcao.json#acemoglu-robinson-extrativas: instituições extrativas vs inclusivas",
+       "url": "https://doi.org/10.1257/aer.91.5.1369",
+       "verificado": true
+      },
+      {
+       "ref": "custo_corrupcao.json#klitgaard: corrupção = monopólio + discricionariedade - accountability",
+       "url": "https://doi.org/10.1525/9780520911185",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "Acemoglu e Robinson descrevem instituições extrativas que perpetuam elites; a evidência brasileira específica sobre o laço fechado (renda captada que volta a concentrar) não foi encontrada nesta rodada."
+    }
+   ],
+   "simulado_no_modelo": {
+    "sim": false,
+    "onde": "Não há nó de concentração nem de influência política. O modelo só vê o resultado final das decisões (primary_target e fiscal_credibility dos itens do catálogo, por exemplo cortar-beneficios-fiscais +0,6 e desoneracao-ampla -0,5)",
+    "equacao": null
+   },
+   "decisoes": [
+    "cortar-beneficios-fiscais",
+    "desoneracao-ampla",
+    "credito-subsidiado",
+    "privatizacoes",
+    "perdao-dividas",
+    "politica-precos-combustiveis",
+    "estrategia-minerais-criticos",
+    "reforma-administrativa",
+    "ampliar-assistencia"
+   ],
+   "potencias": [
+    "niobio-concentracao-global",
+    "minerais-transicao-reservas",
+    "agricultura-tropical-ptf",
+    "sociobioeconomia",
+    "amazonia-azul-petroleo",
+    "matriz-eletrica-renovavel"
+   ],
+   "tendencias": [
+    "difusao_cauda",
+    "ia_generativa_agentes"
+   ],
+   "leis": [
+    "potencia_pareto"
+   ],
+   "pilares": [
+    "bens-comuns",
+    "reciprocidade-e-darva"
+   ],
+   "alavancas": [
+    "Meadows 7 (informação): transparência de beneficiários (ADPF 854 determinou divulgação)",
+    "Meadows 8 (regras): sunset e avaliação de gastos tributários; financiamento eleitoral",
+    "Meadows 9: capacidade de organização de quem hoje não tem voz (conselhos, orçamento participativo)"
+   ],
+   "evolucao_se_dominar": {
+    "virtuosa": "Se o laço é interrompido por transparência e competição, as regras passam a ser avaliadas por resultado e a renda extraordinária diminui.",
+    "viciosa": "Elites extrativas consolidadas: gastos tributários e emendas crescem, a margem fiscal diminui (alimenta o anel 1), a desconfiança aumenta (alimenta o anel 6)."
+   },
+   "enfraquece": [
+    "Transparência de beneficiários e avaliação periódica de gastos tributários",
+    "Concorrência (CADE) e abertura comercial",
+    "Controle externo e eleitoral (anel 14)",
+    "Financiamento eleitoral limitado"
+   ]
+  },
+  {
+   "id": "legitimidade-impunidade",
+   "nome": "Anel de legitimidade: impunidade, desconfiança e erosão institucional",
+   "tipo": "reforco",
+   "descricao": "A percepção de impunidade reduz a confiança nas instituições; menos confiança reduz o custo político de romper regras; a ruptura de regras erode controles; controles erodidos aumentam a impunidade. Anel de hipótese; o modelo só simula o custo econômico da erosão (institutional_risk), não o mecanismo que a produz.",
+   "nos": [
+    {
+     "id": "imp",
+     "rotulo": "Impunidade percebida",
+     "dominio": "instituições"
+    },
+    {
+     "id": "desc",
+     "rotulo": "Desconfiança e polarização",
+     "dominio": "instituições"
+    },
+    {
+     "id": "custo",
+     "rotulo": "Custo político de romper regras",
+     "dominio": "instituições"
+    },
+    {
+     "id": "erosao",
+     "rotulo": "Erosão institucional (alavanca institutional_risk)",
+     "dominio": "instituições"
+    }
+   ],
+   "arestas": [
+    {
+     "de": "imp",
+     "para": "desc",
+     "sinal": "+",
+     "defasagem": "ciclos eleitorais; anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "custo_corrupcao.json#ti-ipc-2025: Brasil 35/100, 107º de 182 no IPC 2025 (percepção, não mede R$)",
+       "url": "https://transparenciainternacional.org.br/ipc/",
+       "verificado": true
+      },
+      {
+       "ref": "custo_corrupcao.json#fisman-miguel: cultura de corrupção",
+       "url": "https://doi.org/10.1086/527495",
+       "verificado": true
+      },
+      {
+       "ref": "custo_corrupcao.json#ferraz-finan-reeleicao: revelar desvios apurados reduziu a reeleição do prefeito, ~20% no resumo do working paper (efeito maior com rádio local)",
+       "url": "https://doi.org/10.1162/qjec.2008.123.2.703",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "O IPC 2025 do Brasil é 35/100, medida de percepção, não de impunidade real. Fisman e Miguel mostram que a tolerância à corrupção depende de normas (modelo no repositório). Percepção e impunidade real não são a mesma coisa; a causalidade percepção -> desconfiança política é contestada."
+    },
+    {
+     "de": "desc",
+     "para": "custo",
+     "sinal": "-",
+     "defasagem": "anos",
+     "forca": "incerta",
+     "evidencia": [
+      {
+       "ref": "Svolik (2019), Polarization versus Democracy, Journal of Democracy (DOI conferido; conteúdo de memória)",
+       "url": "https://doi.org/10.1353/jod.2019.0039",
+       "verificado": false
+      },
+      {
+       "ref": "historia.json#principios/levitsky: Levitsky e Ziblatt (2018), How Democracies Die",
+       "url": "https://en.wikipedia.org/wiki/How_Democracies_Die",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#principios/bermeo: Bermeo (2016), On Democratic Backsliding",
+       "url": "https://doi.org/10.1353/jod.2016.0012",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "Hipótese: eleitores polarizados toleram violações de regras do lado de quem apoiam (Svolik 2019, DOI conferido, conteúdo de memória). Não há medida brasileira do 'custo político' no repositório."
+    },
+    {
+     "de": "custo",
+     "para": "erosao",
+     "sinal": "-",
+     "defasagem": "1 a 5 anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "historia.json#principios/bermeo: Bermeo (2016), On Democratic Backsliding",
+       "url": "https://doi.org/10.1353/jod.2016.0012",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#principios/levitsky: Levitsky e Ziblatt (2018), How Democracies Die",
+       "url": "https://en.wikipedia.org/wiki/How_Democracies_Die",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#oito-janeiro-2023: ataques de 8 de janeiro de 2023",
+       "url": "https://pt.wikipedia.org/wiki/Ataques_de_8_de_janeiro_em_Bras%C3%ADlia",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#bolsonaro-2025: STF condena Bolsonaro e outros sete por trama golpista",
+       "url": "https://www.metropoles.com/brasil/trama-golpista-stf-condena-bolsonaro-a-27-anos-e-3-meses-de-prisao",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#tse-inelegivel-2023: TSE declara Bolsonaro inelegível (data de memória no JSON)",
+       "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%B5es_gerais_no_Brasil_em_2022",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#pec8-2023: Senado aprova PEC que limita decisões monocráticas (52 a 18)",
+       "url": "https://www.poder360.com.br/congresso/senado-aprova-pec-que-limita-poderes-do-stf",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#direcoes/militares: papel dos militares e o art. 142",
+       "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "Bermeo e Levitsky-Ziblatt descrevem erosão gradual por meios legais. No catálogo, as decisões institucionais mexem na alavanca (ampliar-stf +0,25; remover-ministros-stf +0,30; anistia-politica +0,08). Os eventos de 2023-2025 mostram também resposta institucional (condenação em 2025), que é o laço balanceador, não o reforçador."
+    },
+    {
+     "de": "erosao",
+     "para": "imp",
+     "sinal": "+",
+     "defasagem": "1 a 4 anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "historia.json#l14230-2021: Lei 14.230/2021 exige dolo específico e reduz prescrição na improbidade",
+       "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14230.htm",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#lj-anulacoes-2021: STF anula condenações da Lava Jato e declara Moro suspeito",
+       "url": "https://www.gazetadopovo.com.br/republica/fachin-explica-anulacao-condenacoes-lula-lava-jato/",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#direcoes/autonomias: autonomia de órgãos de controle e de Estado",
+       "url": "https://pt.wikipedia.org/wiki/Tribunal_de_Contas_da_Uni%C3%A3o",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#direcoes/judicializacao: judicialização e protagonismo do STF",
+       "url": "https://pt.wikipedia.org/wiki/Judicializa%C3%A7%C3%A3o_da_pol%C3%ADtica",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "Mudanças como a Lei 14.230/2021 (dolo específico na improbidade) e as anulações da Lava Jato (2021) são lidas por uns como correção de abuso e por outros como enfraquecimento do controle: a leitura é contestada e depende de juízo normativo."
+    }
+   ],
+   "simulado_no_modelo": {
+    "sim": false,
+    "onde": "Parcial: o custo da erosão está em economy.py (institutional_risk entra no prêmio e no crescimento), mas institutional_risk é alavanca exógena; as quatro arestas do anel não são simuladas",
+    "equacao": "premium += 2,5*institutional_risk; g -= 1,2*institutional_risk. Execução ilustrativa: institutional_risk de 0,1 para 0,4 leva Selic 2038 de 17,1% para 19,8%, dívida de 135,7% para 158,6% e PIB de -0,42% para -1,47% (sim_ilus)"
+   },
+   "decisoes": [
+    "ampliar-stf",
+    "remover-ministros-stf",
+    "anistia-politica",
+    "reduzir-autonomia-bc",
+    "diretoria-bc-alinhada",
+    "reforma-administrativa",
+    "consulta-previa-regulamentada",
+    "comissario-das-geracoes-futuras"
+   ],
+   "potencias": [
+    "diversidade-ativo-institucional",
+    "infraestrutura-publica-digital"
+   ],
+   "tendencias": [],
+   "leis": [],
+   "pilares": [
+    "autocontrole-e-monopolio-legitimo",
+    "autonomia-e-confluencia",
+    "pluralismo-epistemico"
+   ],
+   "alavancas": [
+    "Meadows 7 (informação): auditoria pública e transparência de decisões",
+    "Meadows 8 (regras): critérios de composição e mandato de cortes e agências",
+    "Meadows 10 (objetivos) e 11 (paradigmas): norma social de que regras valem para todos"
+   ],
+   "evolucao_se_dominar": {
+    "virtuosa": "Se a sanção é percebida como imparcial (processo, prova, devido processo), a confiança sobe e o custo de romper regras aumenta.",
+    "viciosa": "Espiral de desconfiança: cada lado vê o outro como ilegítimo; no modelo, risco institucional de 0,4 custa ~2,7 pp de Selic e ~1 pp de crescimento em 2038 (execução ilustrativa)."
+   },
+   "enfraquece": [
+    "Sanção imparcial e previsível (anel 14)",
+    "Mandatos fixos e critérios técnicos de indicação",
+    "Eleições competitivas e aceitação do resultado",
+    "Redução de captura (anel 5)"
+   ]
+  },
+  {
+   "id": "clima-floresta-agro",
+   "nome": "Anel clima–floresta–agro: desmatamento, chuva e pressão por expansão",
+   "tipo": "reforco",
+   "descricao": "O desmatamento reduz a chuva regional (além de um limiar de escala); menos chuva reduz a produtividade e a renda agropecuária; renda menor por hectare pode induzir mais abertura de área para compensar; mais abertura é mais desmatamento. O tipo do anel depende de uma aresta contestada (renda menor leva a mais ou a menos expansão?).",
+   "nos": [
+    {
+     "id": "desm",
+     "rotulo": "Desmatamento",
+     "dominio": "território"
+    },
+    {
+     "id": "chuva",
+     "rotulo": "Chuva regional na estação seca",
+     "dominio": "clima"
+    },
+    {
+     "id": "prod",
+     "rotulo": "Produtividade agropecuária",
+     "dominio": "economia"
+    },
+    {
+     "id": "renda",
+     "rotulo": "Renda por hectare",
+     "dominio": "economia"
+    },
+    {
+     "id": "pressao",
+     "rotulo": "Pressão por abrir área nova",
+     "dominio": "economia"
+    },
+    {
+     "id": "focos_ref",
+     "rotulo": "Focos de calor na Amazônia",
+     "dominio": "clima"
+    }
+   ],
+   "arestas": [
+    {
+     "de": "desm",
+     "para": "chuva",
+     "sinal": "-",
+     "defasagem": "anos a décadas; efeito não linear por escala",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "Leite-Filho et al. (2021), Deforestation reduces rainfall and agricultural revenues in the Brazilian Amazon, Nature Communications (resumo lido: até 55-60% de perda em células de 28 km eleva a chuva, acima disso reduz; limiar menor em escalas maiores)",
+       "url": "https://doi.org/10.1038/s41467-021-22840-7",
+       "verificado": true
+      },
+      {
+       "ref": "Staal et al. (2020), Hysteresis of tropical forests in the 21st century, Nature Communications (resumo lido: feedback floresta-chuva amplia a faixa de estados possíveis da floresta e a histerese)",
+       "url": "https://doi.org/10.1038/s41467-020-18728-7",
+       "verificado": true
+      },
+      {
+       "ref": "Spracklen, Arnold, Taylor (2012), Observations of increased tropical rainfall preceded by air passage over forests, Nature (DOI conferido; só o título foi lido)",
+       "url": "https://doi.org/10.1038/nature11390",
+       "verificado": false
+      },
+      {
+       "ref": "Nobre et al. (2016), Land-use and climate change risks in the Amazon and the need of a novel sustainable development paradigm, PNAS (DOI conferido; limiares citados em docs/CLIMA_E_ECONOMIA.md §5)",
+       "url": "https://doi.org/10.1073/pnas.1605516113",
+       "verificado": false
+      },
+      {
+       "ref": "clima.json#cenarios_futuros: limiares de tipping point da Amazônia divergem entre fontes (Lovejoy e Nobre 2018: 20-25% de desmatamento; Nobre et al. 2016: 40%); IPCC AR6 com confiança média e sem limiar numérico",
+       "url": "web/public/data/clima.json",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Leite-Filho et al.: até 55-60% de perda em células de 28 km eleva a chuva; acima disso a reduz. Os limiares no nível da bacia amazônica divergem (20-25% vs. 40%) e o IPCC AR6 dá confiança média, sem limiar numérico."
+    },
+    {
+     "de": "chuva",
+     "para": "prod",
+     "sinal": "+",
+     "defasagem": "mesma safra (seca) a poucos anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "Leite-Filho et al. (2021), Deforestation reduces rainfall and agricultural revenues in the Brazilian Amazon, Nature Communications (resumo lido: até 55-60% de perda em células de 28 km eleva a chuva, acima disso reduz; limiar menor em escalas maiores)",
+       "url": "https://doi.org/10.1038/s41467-021-22840-7",
+       "verificado": true
+      },
+      {
+       "ref": "clima.json#relacoes/chuva_agro_lag0: chuva média nacional vs. PIB agropecuário, 1996-2025: r = -0,07 (IC95 -0,40 a 0,40), indistinguível de zero; a média nacional não representa o ano agrícola regional",
+       "url": "web/public/data/clima.json",
+       "verificado": true
+      },
+      {
+       "ref": "clima.json#relacoes/nino_pib_agro_lag0: ENSO vs. PIB agropecuário: r = -0,02 (IC95 -0,43 a 0,43); sem poder para detectar efeito",
+       "url": "web/public/data/clima.json",
+       "verificado": true
+      },
+      {
+       "ref": "potenciais_brasil.json#agricultura-tropical-ptf: PTF agropecuária +3,18% a.a. em 2000-2019 (Ipea); queda recente associada a choques climáticos",
+       "url": "https://repositorio.ipea.gov.br/bitstream/11058/11199/1/td_2764.pdf",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "A relação regional em Leite-Filho et al. conflita com a ausência de sinal na série nacional do repositório (r = -0,07; IC95 -0,40 a 0,40). A divergência é de escala e de poder estatístico: o repositório declara que a média nacional não representa o ano agrícola regional."
+    },
+    {
+     "de": "prod",
+     "para": "renda",
+     "sinal": "+",
+     "defasagem": "mesma safra",
+     "forca": "forte",
+     "evidencia": [
+      {
+       "ref": "potenciais_brasil.json#agricultura-tropical-ptf: PTF agropecuária +3,18% a.a. em 2000-2019 (Ipea); queda recente associada a choques climáticos",
+       "url": "https://repositorio.ipea.gov.br/bitstream/11058/11199/1/td_2764.pdf",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "A PTF agropecuária cresceu 3,18% a.a. em 2000-2019 (Ipea), com queda recente associada a choques climáticos."
+    },
+    {
+     "de": "renda",
+     "para": "pressao",
+     "sinal": "-",
+     "defasagem": "1 a 3 anos",
+     "forca": "incerta",
+     "evidencia": [
+      {
+       "ref": "Cohn et al. (2014), Cattle ranching intensification in Brazil can reduce global greenhouse gas emissions by sparing land from deforestation, PNAS (resumo lido: política de intensificação poderia limitar desmatamento futuro; é um modelo)",
+       "url": "https://doi.org/10.1073/pnas.1307163111",
+       "verificado": true
+      },
+      {
+       "ref": "de Assis Costa et al. (2026), Agricultural intensification increases rather than reduces pressure on the Amazon Forest: Jevons paradox..., Land Use Policy (DOI conferido; só o título foi lido)",
+       "url": "https://doi.org/10.1016/j.landusepol.2025.107842",
+       "verificado": false
+      },
+      {
+       "ref": "Barona et al. (2010), The role of pasture and soybean in deforestation of the Brazilian Amazon (DOI conferido; título lido)",
+       "url": "https://doi.org/10.1088/1748-9326/5/2/024002",
+       "verificado": false
+      },
+      {
+       "ref": "Assunção, Gandour, Rocha (2015), Deforestation slowdown in the Brazilian Amazon: prices or policies? (resumo lido: o desmatamento respondeu a preços; políticas de 2004 e 2008 evitaram ~73.000 km², 56% do que ocorreria em 2005-2009)",
+       "url": "https://doi.org/10.1017/s1355770x15000078",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "Se a renda por hectare cai, o produtor pode compensar abrindo mais terra (sinal -, anel reforçador) ou reduzir o investimento em expansão (sinal +, o anel viraria balanceador). Cohn et al. (2014) modelam que intensificar pode poupar terra; de Assis Costa et al. (2026, só o título foi lido) falam em paradoxo de Jevons. Assunção et al. mostram que o desmatamento respondeu aos preços agrícolas. A literatura diverge."
+    },
+    {
+     "de": "pressao",
+     "para": "desm",
+     "sinal": "+",
+     "defasagem": "1 ano",
+     "forca": "forte",
+     "evidencia": [
+      {
+       "ref": "Assunção, Gandour, Rocha (2015), Deforestation slowdown in the Brazilian Amazon: prices or policies? (resumo lido: o desmatamento respondeu a preços; políticas de 2004 e 2008 evitaram ~73.000 km², 56% do que ocorreria em 2005-2009)",
+       "url": "https://doi.org/10.1017/s1355770x15000078",
+       "verificado": true
+      },
+      {
+       "ref": "Assunção, Gandour, Rocha, Rocha (2020), The Effect of Rural Credit on Deforestation: Evidence from the Brazilian Amazon, Economic Journal (resumo lido: a restrição de crédito rural de 2008 reduziu o desmatamento, sobretudo onde a pecuária domina)",
+       "url": "https://doi.org/10.1093/ej/uez060",
+       "verificado": true
+      },
+      {
+       "ref": "Nepstad et al. (2014), Slowing Amazon deforestation through public policy and interventions in beef and soy supply chains, Science (resumo lido: queda de 70% atribuída a fiscalização, cadeias de soja e carne, crédito e áreas protegidas; dependência de gestão de risco corporativo)",
+       "url": "https://doi.org/10.1126/science.1248525",
+       "verificado": true
+      },
+      {
+       "ref": "potenciais_brasil.json#floresta-carbono-restauracao: PRODES Amazônia 5.796 km² em 2025 (-11,8%); perda nativa de 1,24 Mha em 2024 (-32,4%), 97% agropecuária",
+       "url": "https://www.poder360.com.br/poder-sustentavel/desmatamento-no-brasil-cai-324-em-2024-diz-mapbiomas/",
+       "verificado": true
+      },
+      {
+       "ref": "potenciais_brasil.json#pastagens-recuperaveis: 28 Mha de pastagens degradadas com potencial agrícola (Embrapa); terra nova ainda é mais barata que intensificar",
+       "url": "https://revistacultivar.com.br/noticias/brasil-possui-28-milhoes-de-ha-de-pastagens-degradadas-com-potencial-para-expansao-agricola",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Em 2024, 97% da perda de vegetação nativa veio da agropecuária; terra nova ainda é mais barata que intensificar nas pastagens (28 Mha recuperáveis). Políticas de 2004 e 2008 evitaram ~73 mil km² (56%) em 2005-2009 e a restrição de crédito rural reduziu o desmatamento: esse é o canal que o desenho de decisões atinge."
+    },
+    {
+     "de": "chuva",
+     "para": "focos_ref",
+     "sinal": "-",
+     "defasagem": "1 ano",
+     "forca": "fraca",
+     "evidencia": [
+      {
+       "ref": "clima.json#relacoes/nino_focos_amazonia_lag1: ENSO vs. focos de calor na Amazônia, defasagem 1 ano, 2003-2025 (n = 23): r = +0,48 (IC95 0,08 a 0,72); 1 teste entre 36",
+       "url": "web/public/data/clima.json",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "ENSO tende a antecipar menos chuva e mais fogo na Amazônia com 1 ano de defasagem (r = +0,48, 1 teste em 36, n = 23); os focos também seguem fiscalização.",
+     "ramal": true
+    }
+   ],
+   "simulado_no_modelo": {
+    "sim": false,
+    "onde": "Não há desmatamento, chuva nem terra no modelo. O efeito econômico final entra de forma exógena por climate_shock (pp de PIB por ano) e climate_premium (pp de prêmio), ambos 0 por padrão; severidades 0,1/0,3/0,6 são SUPOSIÇÕES",
+    "equacao": "g -= climate_shock; premium += climate_premium. Repositório (clima.json#integracao_macro): choque moderado = +3,3 p.p. de dívida/PIB em 2035 no cenário pragmático"
+   },
+   "decisoes": [
+    "recuperar-pastagens-degradadas",
+    "credito-subsidiado",
+    "perdao-dividas",
+    "acordo-mercosul-ue",
+    "psa-governanca-comunitaria",
+    "homologar-terras-indigenas-e-titular-quilombos",
+    "combate-garimpo-ilegal-e-rastreio-do-ouro",
+    "direitos-da-natureza-municipais",
+    "seguranca-hidrica-saneamento",
+    "reforcar-arcabouco"
+   ],
+   "potencias": [
+    "floresta-carbono-restauracao",
+    "pastagens-recuperaveis",
+    "agricultura-tropical-ptf",
+    "agua-doce",
+    "terras-indigenas-contencao"
+   ],
+   "tendencias": [
+    "biotec_agro"
+   ],
+   "leis": [
+    "jevons"
+   ],
+   "pilares": [
+    "limites-planetarios",
+    "direitos-da-natureza",
+    "bens-comuns",
+    "tempo-longo-e-geracoes"
+   ],
+   "alavancas": [
+    "Meadows 8 (regras): crédito condicionado, rastreabilidade de cadeias, fiscalização (Assunção; Nepstad)",
+    "Meadows 2 (estoque tampão): manter cobertura florestal acima do limiar é o estoque que protege a chuva",
+    "Meadows 6: reduzir o ganho do laço pelo preço da terra nova (restauração de pastagens, titulação)",
+    "Meadows 10 (objetivos): meta de desmatamento zero com restauração"
+   ],
+   "evolucao_se_dominar": {
+    "virtuosa": "Se o anel for contido, a floresta mantém a chuva, a produtividade rural se sustenta e a pressão de expansão é absorvida por intensificação que poupa terra.",
+    "viciosa": "Ultrapassado o limiar regional, menos chuva e mais fogo reduzem produtividade e renda, o que pode induzir mais abertura (se a aresta renda -> pressão for negativa). O limiar da Amazônia é incerto; é o risco de cauda, não previsão."
+   },
+   "enfraquece": [
+    "Fiscalização e punição efetivas (anel 13)",
+    "Crédito condicionado e rastreabilidade",
+    "Intensificação com preço de terra que inibe expansão",
+    "Áreas protegidas e terras indígenas"
+   ]
+  },
+  {
+   "id": "clima-fiscal-adaptacao",
+   "nome": "Anel clima–fiscal: eventos extremos, gasto emergencial e prevenção",
+   "tipo": "reforco",
+   "descricao": "Eventos extremos geram danos e gasto de resposta; o gasto de resposta consome o espaço e a atenção política que iriam para prevenção; sem prevenção, o próximo evento causa mais dano. Um ramal passa pelo prêmio soberano. Há ainda o ramal hídrico-energético (afluência, CMO, inflação, Selic).",
+   "nos": [
+    {
+     "id": "dano",
+     "rotulo": "Dano por evento extremo",
+     "dominio": "clima"
+    },
+    {
+     "id": "resp",
+     "rotulo": "Gasto de resposta e recuperação",
+     "dominio": "Estado"
+    },
+    {
+     "id": "prev",
+     "rotulo": "Recursos para prevenção e adaptação",
+     "dominio": "Estado"
+    },
+    {
+     "id": "invest",
+     "rotulo": "Investimento efetivo em prevenção",
+     "dominio": "Estado"
+    },
+    {
+     "id": "vuln",
+     "rotulo": "Vulnerabilidade e exposição",
+     "dominio": "território"
+    },
+    {
+     "id": "premio_c",
+     "rotulo": "Prêmio de risco soberano",
+     "dominio": "economia"
+    },
+    {
+     "id": "cmo",
+     "rotulo": "CMO e tarifa de energia",
+     "dominio": "economia"
+    }
+   ],
+   "arestas": [
+    {
+     "de": "dano",
+     "para": "resp",
+     "sinal": "+",
+     "defasagem": "meses (dano) a 1-2 anos (reconstrução)",
+     "forca": "forte",
+     "evidencia": [
+      {
+       "ref": "clima_valor_financeiro.json#rs2024_danos_perdas_dala: R$ 88,9 bi de danos e perdas da enchente do RS 2024 (BID/CEPAL/Banco Mundial, DaLA)",
+       "url": "https://www.worldbank.org/pt/news/press-release/2024/11/28/relatorio-banco-mundial-bid-cepal-impacto-enchentes-pib-rio-grande-sul",
+       "verificado": true
+      },
+      {
+       "ref": "clima_valor_financeiro.json#rs2024_uniao_destinado_emergencial_62_5: R$ 62,5 bi 'destinados emergencialmente' pela União ao RS, maior parte crédito e adiamento de dívida, não gasto",
+       "url": "https://www.noticiasagricolas.com.br/noticias/politica-economia/377817-ajuda-do-governo-federal-ao-rio-grande-do-sul-ja-soma-r-625-bilhoes.html",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "RS 2024: R$ 88,9 bi de danos e perdas; dos R$ 62,5 bi 'destinados emergencialmente', a maior parte foi crédito e adiamento de dívida, não gasto. As linhas medem coisas diferentes e não se somam."
+    },
+    {
+     "de": "resp",
+     "para": "prev",
+     "sinal": "-",
+     "defasagem": "1 a 3 anos (orçamento, atenção política)",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "clima_valor_financeiro.json#tcu_federal_2013_2022: gasto federal de 31% em prevenção e 69% em resposta e recuperação (R$ 5,9 bi e R$ 13,4 bi; razão 2,3)",
+       "url": "https://www.poder360.com.br/brasil/governo-investiu-31-dos-recursos-para-desastres-em-prevencao/",
+       "verificado": true
+      },
+      {
+       "ref": "clima_valor_financeiro.json#cnseg_2019_2024: R$ 2,4 bi em prevenção contra R$ 23,3 bi em resposta em 2019-2024 (razão 9,7); não reconcilia com a razão do TCU (períodos e classificações diferentes)",
+       "url": "https://legismap.com.br/conteudos/artigos-e-noticias/cnseg-brasil-gasta-quase-10-vezes-mais-com-resposta-a-desastres-do-que-com-prevencao",
+       "verificado": true
+      },
+      {
+       "ref": "Healy e Malhotra (2009), Myopic Voters and Natural Disaster Policy (resumo lido: eleitores premiam socorro, não preparação; US$ 1 de preparação evitaria ~US$ 15 de dano, nos EUA)",
+       "url": "https://doi.org/10.1017/S0003055409990104",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "Gasto federal 2013-2022: 31% em prevenção e 69% em resposta (TCU); CNseg dá razão resposta/prevenção de 9,7 em 2019-2024; as razões não se reconciliam. Healy e Malhotra: nos EUA, eleitores premiam o socorro, não a preparação, o que desloca o orçamento para a resposta (evidência de outro país)."
+    },
+    {
+     "de": "prev",
+     "para": "invest",
+     "sinal": "+",
+     "defasagem": "1 a 2 anos (execução)",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "clima_valor_financeiro.json#tcu_federal_2013_2022: gasto federal de 31% em prevenção e 69% em resposta e recuperação (R$ 5,9 bi e R$ 13,4 bi; razão 2,3)",
+       "url": "https://www.poder360.com.br/brasil/governo-investiu-31-dos-recursos-para-desastres-em-prevencao/",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Execução de prevenção depende de capacidade estatal e não só de dotação (não medido aqui)."
+    },
+    {
+     "de": "invest",
+     "para": "vuln",
+     "sinal": "-",
+     "defasagem": "3 a 10 anos (obras, zoneamento, drenagem)",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "clima_valor_financeiro.json#rs2024_danos_perdas_dala: R$ 88,9 bi de danos e perdas da enchente do RS 2024 (BID/CEPAL/Banco Mundial, DaLA)",
+       "url": "https://www.worldbank.org/pt/news/press-release/2024/11/28/relatorio-banco-mundial-bid-cepal-impacto-enchentes-pib-rio-grande-sul",
+       "verificado": true
+      },
+      {
+       "ref": "Healy e Malhotra (2009), Myopic Voters and Natural Disaster Policy (resumo lido: eleitores premiam socorro, não preparação; US$ 1 de preparação evitaria ~US$ 15 de dano, nos EUA)",
+       "url": "https://doi.org/10.1017/S0003055409990104",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Razões de retorno citadas (US$ 4 a 15 por US$ 1; R$ 10 por R$ 1) vieram de resultados de busca (verificado = false) e não se transferem automaticamente ao RS."
+    },
+    {
+     "de": "vuln",
+     "para": "dano",
+     "sinal": "+",
+     "defasagem": "imediata no próximo evento",
+     "forca": "forte",
+     "evidencia": [
+      {
+       "ref": "clima_valor_financeiro.json#rs2024_danos_perdas_dala: R$ 88,9 bi de danos e perdas da enchente do RS 2024 (BID/CEPAL/Banco Mundial, DaLA)",
+       "url": "https://www.worldbank.org/pt/news/press-release/2024/11/28/relatorio-banco-mundial-bid-cepal-impacto-enchentes-pib-rio-grande-sul",
+       "verificado": true
+      },
+      {
+       "ref": "clima.json#relacoes/nino_chuva_brasil_lag1: ENSO vs. chuva média do Brasil, 1901-2024: r = -0,33 (IC95 -0,50 a -0,15), defasagem de 1 ano",
+       "url": "web/public/data/clima.json",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Dano = perigo × exposição × vulnerabilidade. A frequência do perigo (ENSO, chuva) tem sinal moderado nos dados (ENSO vs. chuva do Brasil, r = -0,33)."
+    },
+    {
+     "de": "dano",
+     "para": "premio_c",
+     "sinal": "+",
+     "defasagem": "1 a 5 anos",
+     "forca": "incerta",
+     "evidencia": [
+      {
+       "ref": "Klusak et al. (2023), Rising Temperatures, Falling Ratings, Management Science (resumo lido: simulação para 109 países indica rebaixamentos soberanos induzidos pelo clima a partir de 2030; não é estimativa específica do Brasil)",
+       "url": "https://doi.org/10.1287/mnsc.2023.4869",
+       "verificado": true
+      },
+      {
+       "ref": "clima.json#integracao_macro: choque moderado (0,3 pp/ano e prêmio 0,3 pp, SUPOSIÇÕES) eleva a dívida/PIB de 2035 em ~3,3 p.p. e rebaixa o nível do PIB em ~3% no cenário pragmático; âncoras de ordem de grandeza: G20 Climate Risk Atlas ~0,11 pp/ano, MPO/BID 0,3-0,45 pp/ano",
+       "url": "web/public/data/clima.json",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "Klusak et al. simulam rebaixamentos soberanos por clima para 109 países a partir de 2030; não é estimativa do Brasil. No modelo, climate_premium é suposição (0,1/0,3/0,6 pp).",
+     "ramal": true
+    },
+    {
+     "de": "premio_c",
+     "para": "prev",
+     "sinal": "-",
+     "defasagem": "1 a 3 anos",
+     "forca": "incerta",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Prêmio maior encarece a dívida (anel 1) e reduz o espaço fiscal; elo hipotético, não quantificado.",
+     "ramal": true
+    },
+    {
+     "de": "dano",
+     "para": "cmo",
+     "sinal": "+",
+     "defasagem": "mesma estação a 1 ano",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "clima.json#relacoes/ena_se_cmo_se_lag0: afluência do Sudeste vs. CMO do Sudeste, 2005-2025 (n = 21): r = -0,50 (IC95 -0,75 a -0,25)",
+       "url": "web/public/data/clima.json",
+       "verificado": true
+      },
+      {
+       "ref": "clima.json#relacoes/ear_nov_se_cmo_se_lag1: energia armazenada em 30/nov vs. CMO do ano seguinte: r = -0,42 (IC95 -0,66 a -0,08)",
+       "url": "web/public/data/clima.json",
+       "verificado": true
+      },
+      {
+       "ref": "clima.json#episodios/crise-hidro-energetica-2021: afluência anual do Sudeste a 72% da média, CMO do Sudeste R$ 548/MWh, IPCA de energia +21,2% e IPCA geral +10,1% (contexto anual, não efeito causal)",
+       "url": "web/public/data/clima.json",
+       "verificado": true
+      },
+      {
+       "ref": "clima.json#relacoes/ena_se_ipca_energia_lag0: afluência e CMO vs. IPCA de energia incluem zero; o IPCA de energia caiu 19% em 2022 por corte de tributos",
+       "url": "web/public/data/clima.json",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "Menos afluência significa maior CMO (r = -0,50; ENA do Sudeste vs. CMO do Sudeste, n = 21). A relação com o IPCA de energia não é distinguível de zero (tarifa depende de bandeiras, reajustes e tributos). A crise de 2021 mostra o contexto, não o efeito causal.",
+     "ramal": true
+    }
+   ],
+   "simulado_no_modelo": {
+    "sim": false,
+    "onde": "Parcial: o custo final entra via Levers.climate_shock e climate_premium (economy.py), que alimentam o anel 1; as arestas do anel (resposta, prevenção, vulnerabilidade) não são simuladas",
+    "equacao": "g = ... - climate_shock; premium = ... + climate_premium"
+   },
+   "decisoes": [
+    "seguranca-hidrica-saneamento",
+    "reforcar-arcabouco",
+    "reforma-administrativa",
+    "psa-governanca-comunitaria",
+    "direitos-da-natureza-municipais",
+    "comissario-das-geracoes-futuras",
+    "politica-industrial-verde"
+   ],
+   "potencias": [
+    "agua-doce",
+    "matriz-eletrica-renovavel",
+    "solar-eolica-potencial-tecnico",
+    "floresta-carbono-restauracao"
+   ],
+   "tendencias": [
+    "solar_eolica",
+    "baterias_ve"
+   ],
+   "leis": [
+    "wright"
+   ],
+   "pilares": [
+    "limites-planetarios",
+    "tempo-longo-e-geracoes",
+    "territorio-e-cuidado"
+   ],
+   "alavancas": [
+    "Meadows 3 (estrutura física): drenagem, zoneamento, diversificação da matriz",
+    "Meadows 7 (informação): alerta precoce e mapa de risco",
+    "Meadows 8 (regras): piso de gasto em prevenção protegido de contingenciamento (hipótese)",
+    "Meadows 2 (estoque tampão): reserva de contingência e seguro público"
+   ],
+   "evolucao_se_dominar": {
+    "virtuosa": "Investir em prevenção diminui a vulnerabilidade, reduz o dano por evento e libera orçamento: o laço se inverte.",
+    "viciosa": "Cada evento consome o orçamento de prevenção; no modelo, o choque moderado custa ~3,3 p.p. de dívida/PIB em 2035 e ~3% de nível do PIB (suposições), sem contar o efeito endógeno do anel."
+   },
+   "enfraquece": [
+    "Piso de prevenção blindado",
+    "Capacidade estatal local (defesa civil, planos de risco)",
+    "Seguro e resseguro",
+    "Diversificação da matriz elétrica e segurança hídrica"
+   ]
+  },
+  {
+   "id": "desigualdade-educacao-produtividade",
+   "nome": "Anel desigualdade–educação–produtividade",
+   "tipo": "reforco",
+   "descricao": "Desigualdade de renda e de oportunidade reduz o acesso a educação de qualidade; menos capital humano reduz a renda do trabalho de baixa renda; isso perpetua a desigualdade. Ramal: menos capital humano reduz produtividade e crescimento, e menos arrecadação limita o investimento em educação.",
+   "nos": [
+    {
+     "id": "desig",
+     "rotulo": "Desigualdade de renda e de oportunidade",
+     "dominio": "desigualdade"
+    },
+    {
+     "id": "acesso",
+     "rotulo": "Acesso a educação de qualidade",
+     "dominio": "desigualdade"
+    },
+    {
+     "id": "kh",
+     "rotulo": "Capital humano e aprendizagem",
+     "dominio": "economia"
+    },
+    {
+     "id": "renda_b",
+     "rotulo": "Renda do trabalho de baixa renda",
+     "dominio": "economia"
+    },
+    {
+     "id": "prodt",
+     "rotulo": "Produtividade do trabalho",
+     "dominio": "economia"
+    },
+    {
+     "id": "arrec",
+     "rotulo": "Arrecadação e espaço fiscal",
+     "dominio": "Estado"
+    }
+   ],
+   "arestas": [
+    {
+     "de": "desig",
+     "para": "acesso",
+     "sinal": "-",
+     "defasagem": "uma geração (8 a 15 anos)",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "Galor e Zeira (1993), Income Distribution and Macroeconomics (DOI conferido; conteúdo de memória: restrição de crédito e desigualdade reduzem investimento em capital humano)",
+       "url": "https://doi.org/10.2307/2297811",
+       "verificado": false
+      },
+      {
+       "ref": "Bourguignon, Ferreira, Menéndez (2007), Inequality of Opportunity in Brazil, Review of Income and Wealth (DOI conferido; resumo não lido)",
+       "url": "https://doi.org/10.1111/j.1475-4991.2007.00247.x",
+       "verificado": false
+      },
+      {
+       "ref": "potenciais_brasil.json#capital-humano-gap: PISA 2022 matemática 379 vs. 472 da OCDE (resumo de busca)",
+       "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/brazil_61690648-en.html",
+       "verificado": false
+      },
+      {
+       "ref": "fator_humano.json#edu-jovens-sem-em-2023: ~9 milhões de jovens de 14 a 29 anos sem ensino médio completo (IBGE, PNAD Contínua; não conferido na fonte)",
+       "url": "https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html",
+       "verificado": false
+      }
+     ],
+     "contestada": false,
+     "nota": "Galor e Zeira (1993): restrição de crédito e desigualdade reduzem investimento em capital humano (DOI conferido; conteúdo de memória). Bourguignon et al. estudam a desigualdade de oportunidade no Brasil (DOI conferido; resumo não lido). PISA 2022 e 'jovens sem ensino médio' estão com verificado = false."
+    },
+    {
+     "de": "acesso",
+     "para": "kh",
+     "sinal": "+",
+     "defasagem": "4 a 12 anos (alfabetização na idade certa a ensino médio)",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "potenciais_brasil.json#capital-humano-gap: PISA 2022 matemática 379 vs. 472 da OCDE (resumo de busca)",
+       "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/brazil_61690648-en.html",
+       "verificado": false
+      },
+      {
+       "ref": "fator_humano.json#edu-jovens-sem-em-2023: ~9 milhões de jovens de 14 a 29 anos sem ensino médio completo (IBGE, PNAD Contínua; não conferido na fonte)",
+       "url": "https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html",
+       "verificado": false
+      }
+     ],
+     "contestada": false,
+     "nota": "O catálogo estima defasagem de 8 anos para educacao-tecnica-e-alfabetizacao (limite do modelo: aplica o benefício desde o 1º ano)."
+    },
+    {
+     "de": "kh",
+     "para": "renda_b",
+     "sinal": "+",
+     "defasagem": "10 a 30 anos para o efeito na renda",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "Hanushek e Woessmann (2012), Do better schools lead to more growth? (DOI conferido; título lido)",
+       "url": "https://doi.org/10.1007/s10887-012-9081-x",
+       "verificado": false
+      },
+      {
+       "ref": "potenciais_brasil.json (FMI Article IV 2025): informalidade >40% dos ocupados; gap de participação feminina de 20 p.p.; fecundidade 1,57; déficit do RGPS a ~6% do PIB em 2060 (projeção das autoridades)",
+       "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "Hanushek e Woessmann ligam habilidades cognitivas e resultados econômicos (título lido; a causalidade é discutida). A informalidade >40% (FMI) dilui o retorno à qualificação (hipótese)."
+    },
+    {
+     "de": "renda_b",
+     "para": "desig",
+     "sinal": "-",
+     "defasagem": "contínua",
+     "forca": "forte",
+     "evidencia": [
+      {
+       "ref": "Bourguignon, Ferreira, Menéndez (2007), Inequality of Opportunity in Brazil, Review of Income and Wealth (DOI conferido; resumo não lido)",
+       "url": "https://doi.org/10.1111/j.1475-4991.2007.00247.x",
+       "verificado": false
+      }
+     ],
+     "contestada": false,
+     "nota": "Renda do trabalho de baixa renda mais alta reduz a desigualdade por definição estatística; a magnitude depende da estrutura de salários e de transferências."
+    },
+    {
+     "de": "kh",
+     "para": "prodt",
+     "sinal": "+",
+     "defasagem": "10 a 30 anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "Hanushek e Woessmann (2012), Do better schools lead to more growth? (DOI conferido; título lido)",
+       "url": "https://doi.org/10.1007/s10887-012-9081-x",
+       "verificado": false
+      },
+      {
+       "ref": "potenciais_brasil.json#agricultura-tropical-ptf: PTF agropecuária +3,18% a.a. em 2000-2019 (Ipea); queda recente associada a choques climáticos",
+       "url": "https://repositorio.ipea.gov.br/bitstream/11058/11199/1/td_2764.pdf",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Produtividade do trabalho: 21,2 no Brasil vs. 81,8 nos EUA (ILO 2025; mistura de bases, só ordem de grandeza).",
+     "ramal": true
+    },
+    {
+     "de": "prodt",
+     "para": "arrec",
+     "sinal": "+",
+     "defasagem": "anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "futuros.json#integracao_macro: a difusão tecnológica entra como tech_productivity (SUPOSIÇÃO explícita), não como estimativa do modelo",
+       "url": "web/public/data/futuros.json",
+       "verificado": true
+      },
+      {
+       "ref": "custo_corrupcao.json#gastos-tributarios: gasto tributário federal 2026 de R$ 612,84 bi = 4,43% do PIB (RFB, DGT PLOA 2026). É estimativa de renúncia, não prova de captura (parte é desenho do regime)",
+       "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-base-conceitual.pdf",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Mais produtividade eleva a base tributável; o modelo traduz isso em supply_reform (suposição).",
+     "ramal": true
+    },
+    {
+     "de": "arrec",
+     "para": "acesso",
+     "sinal": "+",
+     "defasagem": "1 a 3 anos",
+     "forca": "fraca",
+     "evidencia": [
+      {
+       "ref": "potenciais_brasil.json (FMI Article IV 2025): informalidade >40% dos ocupados; gap de participação feminina de 20 p.p.; fecundidade 1,57; déficit do RGPS a ~6% do PIB em 2060 (projeção das autoridades)",
+       "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "Rigidez do gasto obrigatório e vinculação limitam a capacidade de expandir educação (barreira citada em capital-humano-gap).",
+     "ramal": true
+    }
+   ],
+   "simulado_no_modelo": {
+    "sim": false,
+    "onde": "Não há desigualdade nem capital humano no modelo. O efeito final de educação entra como supply_reform da decisão educacao-tecnica-e-alfabetizacao (+0,12 pp/ano) e primary_target -0,3 (custo)",
+    "equacao": "g = 2,0 + tech_boost + supply_reform - ..."
+   },
+   "decisoes": [
+    "educacao-tecnica-e-alfabetizacao",
+    "ampliar-assistencia",
+    "desvincular-minimo",
+    "reforma-administrativa",
+    "orcamento-participativo-e-moedas-sociais",
+    "indicadores-complementares-ao-pib"
+   ],
+   "potencias": [
+    "capital-humano-gap",
+    "janela-demografica",
+    "diversidade-ativo-institucional",
+    "sociobioeconomia"
+   ],
+   "tendencias": [
+    "conectividade",
+    "ia_generativa_agentes"
+   ],
+   "leis": [
+    "solow",
+    "romer",
+    "potencia_pareto"
+   ],
+   "pilares": [
+    "capacidades-e-suficiencia",
+    "reciprocidade-e-darva",
+    "tempo-longo-e-geracoes"
+   ],
+   "alavancas": [
+    "Meadows 4 (defasagem): o benefício chega em ~8 anos, então o horizonte de política precisa ser maior que o ciclo eleitoral",
+    "Meadows 3 (estrutura de estoques e fluxos): creche, alfabetização na idade certa e permanência no ensino médio",
+    "Meadows 8 (regras): critérios de distribuição de recursos por necessidade (hipótese)",
+    "Meadows 10 (objetivos): meta de aprendizagem, não só de matrícula"
+   ],
+   "evolucao_se_dominar": {
+    "virtuosa": "Acesso crescente a educação de qualidade eleva a renda dos mais pobres, reduz desigualdade e amplia a base tributária; a janela demográfica é aproveitada.",
+    "viciosa": "Armadilha de baixa qualificação: a população atinge o pico em 2041 e o país envelhece antes de enriquecer (cenário descrito em potenciais_brasil.json#janela-demografica-fechando)."
+   },
+   "enfraquece": [
+    "Alfabetização na idade certa e ensino técnico",
+    "Transferências de renda condicionadas",
+    "Crédito educacional e acesso à creche",
+    "Redução da informalidade"
+   ]
+  },
+  {
+   "id": "tecnologia-produtividade-capacidade",
+   "nome": "Anel tecnologia–produtividade–capacidade de investir",
+   "tipo": "reforco",
+   "descricao": "A difusão de tecnologia eleva o PIB potencial; o crescimento maior melhora a razão dívida/PIB e a arrecadação; mais espaço fiscal e menor prêmio financiam infraestrutura, conectividade e educação que aceleram a difusão. As duas primeiras arestas estão no modelo; o fechamento é hipótese.",
+   "nos": [
+    {
+     "id": "dif",
+     "rotulo": "Difusão tecnológica",
+     "dominio": "tecnologia"
+    },
+    {
+     "id": "pot",
+     "rotulo": "PIB potencial (tech_boost)",
+     "dominio": "economia"
+    },
+    {
+     "id": "espaco",
+     "rotulo": "Espaço fiscal e prêmio menor",
+     "dominio": "Estado"
+    },
+    {
+     "id": "infra",
+     "rotulo": "Investimento em infraestrutura digital, energia e educação",
+     "dominio": "Estado"
+    }
+   ],
+   "arestas": [
+    {
+     "de": "dif",
+     "para": "pot",
+     "sinal": "+",
+     "defasagem": "tech_lag = 1 ano no modelo; curva logística com ponto médio em 2031",
+     "forca": "incerta",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      },
+      {
+       "ref": "futuros.json#integracao_macro: a difusão tecnológica entra como tech_productivity (SUPOSIÇÃO explícita), não como estimativa do modelo",
+       "url": "web/public/data/futuros.json",
+       "verificado": true
+      },
+      {
+       "ref": "leis_tecnologicas.json#tarefas: Acemoglu (2024) estima ganho de PTF de até 0,66% em 10 anos nos EUA (resumo; limite conservador de referência, não previsão para o Brasil)",
+       "url": "web/public/data/leis_tecnologicas.json",
+       "verificado": false
+      },
+      {
+       "ref": "leis_tecnologicas.json#ia_generativa_agentes: Epoch AI, compute de treino 5x/ano desde 2020; preço de inferência cai 9x a 900x/ano a desempenho fixo",
+       "url": "https://epoch.ai/trends",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "tech_boost = tech_productivity * (S(ano - lag) - S0)/(1 - S0), com S logística (tech_midpoint 2031; tech_rate 0,8). tech_productivity é SUPOSIÇÃO explícita. Acemoglu estima ≤ 0,66% de PTF em 10 anos nos EUA (resumo), limite conservador de referência."
+    },
+    {
+     "de": "pot",
+     "para": "espaco",
+     "sinal": "+",
+     "defasagem": "1 a 3 anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "economy.py: equações de simulate(), Params e Levers (leitura do código-fonte nesta rodada)",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      },
+      {
+       "ref": "Execução determinística ilustrativa deste trabalho (n=1, shocks=False, MacroBase FALLBACK: dívida 82,86%, Selic 13,5%) com alavancas primary_target=1,0, institutional_risk=0,1, bc_erosion=0, supply_reform=0, fiscal_credibility=0,5; resultados em 2038 citados na nota. Não é cenário do projeto",
+       "url": "src/sociolibero/economy.py",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Mais crescimento reduz a dívida pelo denominador e o prêmio pelo excesso de dívida. Execução ilustrativa: tech_productivity de 0 para 0,5 leva a dívida de 2038 de 135,7% a 129,5% e a Selic de 17,1% a 16,5% (sim_ilus)."
+    },
+    {
+     "de": "espaco",
+     "para": "infra",
+     "sinal": "+",
+     "defasagem": "2 a 5 anos",
+     "forca": "fraca",
+     "evidencia": [
+      {
+       "ref": "leis_tecnologicas.json#solar_eolica: custo nivelado solar US$0,417 -> 0,043/kWh em 2010-2024 (IRENA, resumo); gargalos de rede e curtailment",
+       "url": "https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024",
+       "verificado": false
+      },
+      {
+       "ref": "potenciais_brasil.json (FMI Article IV 2025): informalidade >40% dos ocupados; gap de participação feminina de 20 p.p.; fecundidade 1,57; déficit do RGPS a ~6% do PIB em 2060 (projeção das autoridades)",
+       "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Hipótese: capacidade de investir depende de espaço fiscal e de capacidade estatal; gargalos de rede elétrica e curtailment aparecem na tendência solar_eolica."
+    },
+    {
+     "de": "infra",
+     "para": "dif",
+     "sinal": "+",
+     "defasagem": "2 a 8 anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "leis_tecnologicas.json#ia_generativa_agentes: Epoch AI, compute de treino 5x/ano desde 2020; preço de inferência cai 9x a 900x/ano a desempenho fixo",
+       "url": "https://epoch.ai/trends",
+       "verificado": true
+      },
+      {
+       "ref": "leis_tecnologicas.json#solar_eolica: custo nivelado solar US$0,417 -> 0,043/kWh em 2010-2024 (IRENA, resumo); gargalos de rede e curtailment",
+       "url": "https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024",
+       "verificado": false
+      }
+     ],
+     "contestada": false,
+     "nota": "Conectividade, rede e energia são pré-requisitos de difusão (Pix, fibra, solar); o catálogo não tem decisão específica de infraestrutura digital."
+    }
+   ],
+   "simulado_no_modelo": {
+    "sim": true,
+    "onde": "economy.py: tech_boost() e a equação do PIB (primeiras duas arestas, via Levers.tech_productivity, tech_midpoint, tech_rate, tech_lag). As arestas de investimento são exógenas",
+    "equacao": "g = 2,0 + tech_boost + supply_reform - 0,30*(real-5,0) - 1,2*institutional_risk - climate_shock; gap = 0,6*gap + (g - 2,0 - boost)"
+   },
+   "decisoes": [
+    "politica-industrial-verde",
+    "abertura-comercial",
+    "acordo-mercosul-ue",
+    "acelerar-ibs-cbs",
+    "privatizacoes",
+    "educacao-tecnica-e-alfabetizacao",
+    "estrategia-minerais-criticos"
+   ],
+   "potencias": [
+    "infraestrutura-publica-digital",
+    "matriz-eletrica-renovavel",
+    "solar-eolica-potencial-tecnico",
+    "eolica-offshore-hidrogenio-verde",
+    "minerais-transicao-reservas"
+   ],
+   "tendencias": [
+    "ia_generativa_agentes",
+    "solar_eolica",
+    "baterias_ve",
+    "conectividade",
+    "pagamentos_digitais",
+    "energia_data_centers"
+   ],
+   "leis": [
+    "moore",
+    "wright",
+    "aprendizado_baterias",
+    "scaling_chinchilla",
+    "tendencia_compute_ia",
+    "logistica",
+    "bass"
+   ],
+   "pilares": [
+    "tempo-longo-e-geracoes",
+    "limites-planetarios"
+   ],
+   "alavancas": [
+    "Meadows 3 (estrutura física): rede de transmissão e armazenamento",
+    "Meadows 6 (ganho do laço reforçador): complementaridade entre educação e tecnologia",
+    "Meadows 8 (regras): regra de GD, tarifas de importação e regulação de IA (PL 2338/2023 em tramitação)"
+   ],
+   "evolucao_se_dominar": {
+    "virtuosa": "Difusão ampla com capacidade estatal e energia disponível: PIB potencial mais alto, menor dívida/PIB e financiamento de mais infraestrutura.",
+    "viciosa": "Difusão concentrada e gargalo de rede/energia: o ganho de produtividade fica em poucos setores e não chega à arrecadação; leis de aprendizado falham fora de seus domínios de validade (docs/LEIS_E_TENDENCIAS.md §2)."
+   },
+   "enfraquece": [
+    "Gargalos de rede e energia (curtailment)",
+    "Juros reais altos encarecem tecnologias intensivas em capital",
+    "Capital humano insuficiente (anel 9)",
+    "Concentração dos ganhos (anel 5)"
+   ]
+  },
+  {
+   "id": "automacao-trabalho-demanda",
+   "nome": "Anel balanceador: automação, trabalho e demanda",
+   "tipo": "equilibrio",
+   "descricao": "Quando o trabalho fica relativamente caro, aumenta o incentivo para automatizar; a automação desloca tarefas e reduz a demanda por trabalho e o salário, o que reduz o custo relativo do trabalho. Ramal: novas tarefas (reinstatement) e queda da demanda agregada. É hipótese qualitativa ancorada em Acemoglu-Restrepo; o Brasil tem informalidade alta que muda o cálculo.",
+   "nos": [
+    {
+     "id": "custo_trab",
+     "rotulo": "Custo relativo do trabalho",
+     "dominio": "economia"
+    },
+    {
+     "id": "incentivo",
+     "rotulo": "Incentivo à automação (IA, robôs)",
+     "dominio": "tecnologia"
+    },
+    {
+     "id": "deslocamento",
+     "rotulo": "Deslocamento de tarefas",
+     "dominio": "tecnologia"
+    },
+    {
+     "id": "demanda_trab",
+     "rotulo": "Demanda por trabalho e salários",
+     "dominio": "economia"
+    },
+    {
+     "id": "novas",
+     "rotulo": "Novas tarefas",
+     "dominio": "economia"
+    },
+    {
+     "id": "demanda_ag",
+     "rotulo": "Demanda agregada das famílias",
+     "dominio": "economia"
+    }
+   ],
+   "arestas": [
+    {
+     "de": "custo_trab",
+     "para": "incentivo",
+     "sinal": "+",
+     "defasagem": "1 a 5 anos (adoção)",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "Acemoglu e Restrepo (2019), Automation and New Tasks, JEP (resumo lido: automação desloca trabalho e reduz a parcela do trabalho; a criação de novas tarefas contrabalança)",
+       "url": "https://doi.org/10.1257/jep.33.2.3",
+       "verificado": true
+      },
+      {
+       "ref": "leis_tecnologicas.json#exposicao_ia: FGV IBRE (27/04/2026): 29,6% dos ocupados com alguma exposição à IA generativa (~30 milhões), ~5,2 milhões na mais alta; efeito detectado concentrado em jovens de 18 a 29 anos",
+       "url": "https://blogdoibre.fgv.br/posts/inteligencia-artificial-generativa-e-mercado-de-trabalho-no-brasil-evidencias-iniciais-sobre",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Framework de tarefas: automação substitui trabalho onde o capital é mais barato. A elasticidade para o Brasil não é conhecida (repositório: exposição ≠ adoção)."
+    },
+    {
+     "de": "incentivo",
+     "para": "deslocamento",
+     "sinal": "+",
+     "defasagem": "2 a 8 anos (curva de adoção, logística/Bass)",
+     "forca": "incerta",
+     "evidencia": [
+      {
+       "ref": "leis_tecnologicas.json#exposicao_ia: FGV IBRE (27/04/2026): 29,6% dos ocupados com alguma exposição à IA generativa (~30 milhões), ~5,2 milhões na mais alta; efeito detectado concentrado em jovens de 18 a 29 anos",
+       "url": "https://blogdoibre.fgv.br/posts/inteligencia-artificial-generativa-e-mercado-de-trabalho-no-brasil-evidencias-iniciais-sobre",
+       "verificado": true
+      },
+      {
+       "ref": "leis_tecnologicas.json#exposicao_ia: FMI (jan/2024), ~40% do emprego global exposto; nas avançadas metade ganha e metade perde",
+       "url": "https://www.imf.org/en/Blogs/Articles/2024/01/14/ai-will-transform-the-global-economy-lets-make-sure-it-benefits-humanity",
+       "verificado": true
+      },
+      {
+       "ref": "leis_tecnologicas.json#ia_generativa_agentes: Epoch AI, compute de treino 5x/ano desde 2020; preço de inferência cai 9x a 900x/ano a desempenho fixo",
+       "url": "https://epoch.ai/trends",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "29,6% dos ocupados com alguma exposição (FGV IBRE) e ~5,2 milhões na mais alta; efeito detectado concentrado em jovens de 18 a 29 anos nos dados de 2022-2025; FMI: nas avançadas, metade dos expostos tende a ganhar. Exposição não é desemprego."
+    },
+    {
+     "de": "deslocamento",
+     "para": "demanda_trab",
+     "sinal": "-",
+     "defasagem": "1 a 5 anos",
+     "forca": "incerta",
+     "evidencia": [
+      {
+       "ref": "Acemoglu e Restrepo (2019), Automation and New Tasks, JEP (resumo lido: automação desloca trabalho e reduz a parcela do trabalho; a criação de novas tarefas contrabalança)",
+       "url": "https://doi.org/10.1257/jep.33.2.3",
+       "verificado": true
+      },
+      {
+       "ref": "leis_tecnologicas.json#exposicao_ia: FGV IBRE (27/04/2026): 29,6% dos ocupados com alguma exposição à IA generativa (~30 milhões), ~5,2 milhões na mais alta; efeito detectado concentrado em jovens de 18 a 29 anos",
+       "url": "https://blogdoibre.fgv.br/posts/inteligencia-artificial-generativa-e-mercado-de-trabalho-no-brasil-evidencias-iniciais-sobre",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "Displacement effect, contrabalançado por reinstatement. O sinal líquido depende da criação de novas tarefas e é a divergência central da literatura."
+    },
+    {
+     "de": "demanda_trab",
+     "para": "custo_trab",
+     "sinal": "+",
+     "defasagem": "1 a 3 anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "potenciais_brasil.json (FMI Article IV 2025): informalidade >40% dos ocupados; gap de participação feminina de 20 p.p.; fecundidade 1,57; déficit do RGPS a ~6% do PIB em 2060 (projeção das autoridades)",
+       "url": "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Menos demanda por trabalho e salários mais baixos reduzem o custo relativo do trabalho. A informalidade >40% (FMI) torna o ajuste via renda mais provável que via desemprego aberto (hipótese)."
+    },
+    {
+     "de": "deslocamento",
+     "para": "novas",
+     "sinal": "+",
+     "defasagem": "anos a décadas",
+     "forca": "incerta",
+     "evidencia": [
+      {
+       "ref": "Acemoglu e Restrepo (2019), Automation and New Tasks, JEP (resumo lido: automação desloca trabalho e reduz a parcela do trabalho; a criação de novas tarefas contrabalança)",
+       "url": "https://doi.org/10.1257/jep.33.2.3",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "Novas tarefas criadas por tecnologia amortecem o efeito líquido; sem medida brasileira.",
+     "ramal": true
+    },
+    {
+     "de": "demanda_trab",
+     "para": "demanda_ag",
+     "sinal": "+",
+     "defasagem": "1 ano",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "leis_tecnologicas.json#potencia_pareto: 10% mais ricos do Brasil com ~59% da renda (WIR 2026, resumo de busca)",
+       "url": "web/public/data/leis_tecnologicas.json",
+       "verificado": false
+      }
+     ],
+     "contestada": false,
+     "nota": "Menos renda do trabalho reduz o consumo; a distribuição (leis de potência) define quanto da produtividade vira demanda. Hipótese, não estimada.",
+     "ramal": true
+    }
+   ],
+   "simulado_no_modelo": {
+    "sim": false,
+    "onde": "Não simulado. O catálogo de tendências marca a alavanca do modelo como supply_reform e fiscal (arrecadação sobre folha), mas nenhum delas representa deslocamento de trabalho",
+    "equacao": null
+   },
+   "decisoes": [
+    "educacao-tecnica-e-alfabetizacao",
+    "ampliar-assistencia",
+    "desoneracao-ampla",
+    "reforma-previdencia-2",
+    "acelerar-ibs-cbs"
+   ],
+   "potencias": [
+    "capital-humano-gap",
+    "janela-demografica",
+    "infraestrutura-publica-digital"
+   ],
+   "tendencias": [
+    "ia_generativa_agentes",
+    "robotica_automacao",
+    "conectividade",
+    "difusao_cauda"
+   ],
+   "leis": [
+    "tarefas",
+    "exposicao_ia",
+    "baumol",
+    "kurzweil"
+   ],
+   "pilares": [
+    "capacidades-e-suficiencia",
+    "reciprocidade-e-darva"
+   ],
+   "alavancas": [
+    "Meadows 3: estrutura de requalificação e transição",
+    "Meadows 7: dados de adoção por setor e idade",
+    "Meadows 8: tributação de capital vs. trabalho e proteção social para informais (hipótese)",
+    "Meadows 9: capacidade de negociar a adoção"
+   ],
+   "evolucao_se_dominar": {
+    "virtuosa": "A automação libera trabalho para novas tarefas, a produtividade sobe e o ganho é compartilhado.",
+    "viciosa": "Deslocamento rápido de jovens qualificados em tarefas de entrada, com informalidade e renda menor, o que reforça a desigualdade (anel 9) e reduz a base de folha (anel 1)."
+   },
+   "enfraquece": [
+    "Requalificação e educação técnica",
+    "Proteção social para informais",
+    "Adoção gradual e complementar (humano+máquina)",
+    "Regulação de IA"
+   ]
+  },
+  {
+   "id": "violencia-capital-humano",
+   "nome": "Anel violência–capital humano",
+   "tipo": "reforco",
+   "descricao": "Violência armada local interrompe a escola e reduz a aprendizagem; menos capital humano reduz as alternativas lícitas de renda; menos alternativas facilitam o recrutamento por facções; o recrutamento aumenta a violência.",
+   "nos": [
+    {
+     "id": "viol",
+     "rotulo": "Violência armada local",
+     "dominio": "social"
+    },
+    {
+     "id": "apr",
+     "rotulo": "Aprendizagem e permanência escolar",
+     "dominio": "desigualdade"
+    },
+    {
+     "id": "alt",
+     "rotulo": "Alternativas lícitas de renda",
+     "dominio": "economia"
+    },
+    {
+     "id": "recrut",
+     "rotulo": "Recrutamento por facções",
+     "dominio": "social"
+    }
+   ],
+   "arestas": [
+    {
+     "de": "viol",
+     "para": "apr",
+     "sinal": "-",
+     "defasagem": "mesmo ano letivo",
+     "forca": "forte",
+     "evidencia": [
+      {
+       "ref": "Monteiro e Rocha (2017), Drug Battles and School Achievement: Evidence from Rio de Janeiro's Favelas (resumo lido: tiroteios entre facções reduzem notas de matemática; mecanismo de oferta escolar)",
+       "url": "https://doi.org/10.1162/REST_a_00628",
+       "verificado": true
+      },
+      {
+       "ref": "fator_humano.json#vu-homicidios-2023: 45.747 homicídios em 2023, 21.856 de jovens de 15 a 29 anos",
+       "url": "https://www.poder360.com.br/poder-brasil/brasil-teve-60-jovens-assassinados-por-dia-em-2023-diz-relatorio/",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Monteiro e Rocha (2017): tiroteios entre facções reduzem notas de matemática no Rio, com mecanismo de oferta (faltas de professores, fechamento de escolas). Caso de favelas do Rio; não se extrapola ao país. No Brasil houve 45.747 homicídios em 2023, 21.856 de jovens."
+    },
+    {
+     "de": "apr",
+     "para": "alt",
+     "sinal": "+",
+     "defasagem": "5 a 15 anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "Hanushek e Woessmann (2012), Do better schools lead to more growth? (DOI conferido; título lido)",
+       "url": "https://doi.org/10.1007/s10887-012-9081-x",
+       "verificado": false
+      },
+      {
+       "ref": "fator_humano.json#edu-jovens-sem-em-2023: ~9 milhões de jovens de 14 a 29 anos sem ensino médio completo (IBGE, PNAD Contínua; não conferido na fonte)",
+       "url": "https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html",
+       "verificado": false
+      },
+      {
+       "ref": "potenciais_brasil.json#capital-humano-gap: PISA 2022 matemática 379 vs. 472 da OCDE (resumo de busca)",
+       "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/brazil_61690648-en.html",
+       "verificado": false
+      }
+     ],
+     "contestada": false,
+     "nota": "~9 milhões de jovens sem ensino médio (não conferido na fonte). O elo educação -> renda lícita é o mesmo do anel 9."
+    },
+    {
+     "de": "alt",
+     "para": "recrut",
+     "sinal": "-",
+     "defasagem": "1 a 5 anos",
+     "forca": "incerta",
+     "evidencia": [
+      {
+       "ref": "custo_corrupcao.json#becker-crime: economia do crime e da punição",
+       "url": "https://doi.org/10.1086/259394",
+       "verificado": true
+      },
+      {
+       "ref": "fator_humano.json#vu-queda-2017: taxa de homicídio de jovens -30,2% entre 2017 e 2023 (mostra que o nível não é destino)",
+       "url": "https://www.poder360.com.br/poder-brasil/brasil-teve-60-jovens-assassinados-por-dia-em-2023-diz-relatorio/",
+       "verificado": false
+      }
+     ],
+     "contestada": true,
+     "nota": "Becker: o crime responde a retornos e punição (DOI conferido no repositório). Evidência brasileira específica sobre renda lícita e recrutamento não foi lida nesta rodada. A queda de 30,2% na taxa de homicídio de jovens entre 2017 e 2023 mostra que o nível pode mudar rápido por outras causas (arranjos entre facções, policiamento)."
+    },
+    {
+     "de": "recrut",
+     "para": "viol",
+     "sinal": "+",
+     "defasagem": "1 a 3 anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "fator_humano.json#vu-homicidios-2023: 45.747 homicídios em 2023, 21.856 de jovens de 15 a 29 anos",
+       "url": "https://www.poder360.com.br/poder-brasil/brasil-teve-60-jovens-assassinados-por-dia-em-2023-diz-relatorio/",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Mais membros e territórios disputados significam mais confrontos (hipótese)."
+    }
+   ],
+   "simulado_no_modelo": {
+    "sim": false,
+    "onde": "Não simulado; sem variável de violência ou capital humano em economy.py",
+    "equacao": null
+   },
+   "decisoes": [
+    "educacao-tecnica-e-alfabetizacao",
+    "ampliar-assistencia",
+    "orcamento-participativo-e-moedas-sociais",
+    "combate-garimpo-ilegal-e-rastreio-do-ouro"
+   ],
+   "potencias": [
+    "capital-humano-gap",
+    "janela-demografica"
+   ],
+   "tendencias": [
+    "conectividade"
+   ],
+   "leis": [],
+   "pilares": [
+    "autocontrole-e-monopolio-legitimo",
+    "territorio-e-cuidado",
+    "capacidades-e-suficiencia"
+   ],
+   "alavancas": [
+    "Meadows 3: escola aberta e protegida em áreas de conflito",
+    "Meadows 8: protocolo de operações policiais perto de escolas (hipótese)",
+    "Meadows 7: dados georreferenciados de violência e evasão"
+   ],
+   "evolucao_se_dominar": {
+    "virtuosa": "Menor violência mantém a escola funcionando, eleva a renda lícita futura e reduz o recrutamento.",
+    "viciosa": "Territórios em que a escola não funciona e a facção é a opção de renda: armadilha local que reproduz violência por gerações."
+   },
+   "enfraquece": [
+    "Escola protegida e permanência no ensino médio",
+    "Emprego formal para jovens",
+    "Policiamento focalizado e inteligência",
+    "Políticas de saída para membros jovens"
+   ]
+  },
+  {
+   "id": "territorio-indigena-conservacao",
+   "nome": "Anel balanceador: território, terras indígenas e conservação",
+   "tipo": "equilibrio",
+   "descricao": "Pressão de invasão, garimpo e grilagem causa dano no território; o dano mobiliza fiscalização, homologação e proteção; a proteção efetiva reduz a pressão. O anel é frágil porque a fiscalização depende de capacidade estatal e de decisões políticas e judiciais (marco temporal).",
+   "nos": [
+    {
+     "id": "pressao",
+     "rotulo": "Pressão de invasão, garimpo e grilagem",
+     "dominio": "território"
+    },
+    {
+     "id": "dano",
+     "rotulo": "Dano ao território (desmatamento, saúde, violência)",
+     "dominio": "território"
+    },
+    {
+     "id": "resposta",
+     "rotulo": "Resposta pública (fiscalização, homologação, rastreio do ouro)",
+     "dominio": "Estado"
+    },
+    {
+     "id": "protecao",
+     "rotulo": "Proteção efetiva do território",
+     "dominio": "território"
+    }
+   ],
+   "arestas": [
+    {
+     "de": "pressao",
+     "para": "dano",
+     "sinal": "+",
+     "defasagem": "meses a 1 ano",
+     "forca": "forte",
+     "evidencia": [
+      {
+       "ref": "potenciais_brasil.json#terras-indigenas-contencao: perda de 1% da vegetação nativa em TIs em 1985-2023 vs. 28% em terras privadas (MapBiomas; descritivo, sem controle de localização)",
+       "url": "https://ihu.unisinos.br/categorias/644315-protecao-de-povos-originarios-faz-de-terras-indigenas-as-areas-mais-preservadas-do-brasil",
+       "verificado": true
+      },
+      {
+       "ref": "custo_corrupcao.json#crime-ambiental-ouro-madeira-terra: 228,99 t de ouro comercializado com indício de ilegalidade em 2015-2020 (47% da produção estimada)",
+       "url": "https://escolhas.org/wp-content/uploads/2022/12/Ouro-200-toneladas.pdf",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#yanomami-2023: emergência de saúde pública na Terra Yanomami",
+       "url": "https://www.poder360.com.br/brasil/governo-decreta-emergencia-de-saude-publica-em-terra-yanomami/",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Emergência de saúde na Terra Yanomami (2023); 228,99 t de ouro com indício de ilegalidade em 2015-2020 (47% do estimado); MapBiomas: 1% de perda em TIs vs. 28% em terras privadas (descritivo; TIs ficam em áreas remotas, e a proteção pode ser efeito de localização)."
+    },
+    {
+     "de": "dano",
+     "para": "resposta",
+     "sinal": "+",
+     "defasagem": "meses a 2 anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "historia.json#yanomami-2023: emergência de saúde pública na Terra Yanomami",
+       "url": "https://www.poder360.com.br/brasil/governo-decreta-emergencia-de-saude-publica-em-terra-yanomami/",
+       "verificado": true
+      },
+      {
+       "ref": "potenciais_brasil.json#floresta-carbono-restauracao: PRODES Amazônia 5.796 km² em 2025 (-11,8%); perda nativa de 1,24 Mha em 2024 (-32,4%), 97% agropecuária",
+       "url": "https://www.poder360.com.br/poder-sustentavel/desmatamento-no-brasil-cai-324-em-2024-diz-mapbiomas/",
+       "verificado": true
+      },
+      {
+       "ref": "Nepstad et al. (2014), Slowing Amazon deforestation through public policy and interventions in beef and soy supply chains, Science (resumo lido: queda de 70% atribuída a fiscalização, cadeias de soja e carne, crédito e áreas protegidas; dependência de gestão de risco corporativo)",
+       "url": "https://doi.org/10.1126/science.1248525",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "A queda de 32,4% da perda de vegetação nativa em 2024 e de 11,8% do PRODES em 2025 é associada à fiscalização, não ao potencial; aumento de 25% no Mato Grosso mostra heterogeneidade."
+    },
+    {
+     "de": "resposta",
+     "para": "protecao",
+     "sinal": "+",
+     "defasagem": "1 a 3 anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "BenYishay et al. (2017), Indigenous land rights and deforestation: Evidence from the Brazilian Amazon, JEEM (DOI conferido; resumo não lido)",
+       "url": "https://doi.org/10.1016/j.jeem.2017.07.008",
+       "verificado": false
+      },
+      {
+       "ref": "Nolte et al. (2013), Governance regime and location influence avoided deforestation success of protected areas in the Brazilian Amazon, PNAS (resumo lido apenas no início: o debate sobre qual regime de proteção é mais eficaz está aberto)",
+       "url": "https://doi.org/10.1073/pnas.1214786110",
+       "verificado": true
+      },
+      {
+       "ref": "custo_corrupcao.json#crime-ambiental-ouro-madeira-terra: auditoria do TCU, processos sancionadores ambientais autuados x julgados em 1ª instância (2019: 14.426 / 13.903; 2020: 9.184 / queda forte de julgados)",
+       "url": "https://portal.tcu.gov.br/data/files/15/96/6E/EB/4E1D28102DFE0FF7F18818A8/038.685-2021-3-MBC%20-%20Auditoria%20operacional%20sancoes%20Ibama.pdf",
+       "verificado": true
+      },
+      {
+       "ref": "custo_corrupcao.json#crime-ambiental-ouro-madeira-terra: Ibama arrecada ~5% das multas aplicadas (~R$ 3,8 bi/ano aplicados em 2015-2017)",
+       "url": "https://www.aosfatos.org/noticias/por-que-o-ibama-arrecada-so-5-das-multas-ambientais-que-aplica/",
+       "verificado": false
+      }
+     ],
+     "contestada": true,
+     "nota": "BenYishay et al. (DOI conferido; resumo não lido) tratam do reconhecimento de terras indígenas e do desmatamento. Nolte et al.: o debate sobre qual regime de proteção é mais eficaz está aberto. A capacidade de punir é limitada: autuados vs. julgados do Ibama em queda e arrecadação de ~5% das multas (não verificado)."
+    },
+    {
+     "de": "protecao",
+     "para": "pressao",
+     "sinal": "-",
+     "defasagem": "1 a 5 anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "potenciais_brasil.json#terras-indigenas-contencao: perda de 1% da vegetação nativa em TIs em 1985-2023 vs. 28% em terras privadas (MapBiomas; descritivo, sem controle de localização)",
+       "url": "https://ihu.unisinos.br/categorias/644315-protecao-de-povos-originarios-faz-de-terras-indigenas-as-areas-mais-preservadas-do-brasil",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#direcoes/marco-temporal: conflito Legislativo x STF sobre o marco temporal",
+       "url": "https://pt.wikipedia.org/wiki/Marco_temporal_das_terras_ind%C3%ADgenas",
+       "verificado": true
+      },
+      {
+       "ref": "Nolte et al. (2013), Governance regime and location influence avoided deforestation success of protected areas in the Brazilian Amazon, PNAS (resumo lido apenas no início: o debate sobre qual regime de proteção é mais eficaz está aberto)",
+       "url": "https://doi.org/10.1073/pnas.1214786110",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "O efeito pode ser desfeito por mudanças de regra: conflito Legislativo x STF sobre o marco temporal (a decisão de 2026 só consta em síntese jornalística)."
+    }
+   ],
+   "simulado_no_modelo": {
+    "sim": false,
+    "onde": "Não simulado. As decisões homologar-terras-indigenas-e-titular-quilombos e combate-garimpo-ilegal-e-rastreio-do-ouro entram só com custo fiscal (primary_target -0,05) e institutional_risk -0,02/-0,03; o benefício ambiental não é modelado",
+    "equacao": null
+   },
+   "decisoes": [
+    "homologar-terras-indigenas-e-titular-quilombos",
+    "combate-garimpo-ilegal-e-rastreio-do-ouro",
+    "consulta-previa-regulamentada",
+    "psa-governanca-comunitaria",
+    "direitos-da-natureza-municipais",
+    "ampliar-stf",
+    "remover-ministros-stf",
+    "reforma-administrativa"
+   ],
+   "potencias": [
+    "terras-indigenas-contencao",
+    "floresta-carbono-restauracao",
+    "biodiversidade",
+    "sociobioeconomia",
+    "diversidade-ativo-institucional"
+   ],
+   "tendencias": [
+    "conectividade",
+    "biotec_agro"
+   ],
+   "leis": [],
+   "pilares": [
+    "territorio-e-cuidado",
+    "pluralismo-epistemico",
+    "direitos-da-natureza",
+    "autonomia-e-confluencia",
+    "bens-comuns"
+   ],
+   "alavancas": [
+    "Meadows 7: monitoramento por satélite com divulgação (DETER/PRODES, MapBiomas)",
+    "Meadows 8: rastreabilidade do ouro e cadeias",
+    "Meadows 9: governança comunitária e consulta prévia",
+    "Meadows 3: presença estatal permanente em campo (base operacional)"
+   ],
+   "evolucao_se_dominar": {
+    "virtuosa": "Proteção efetiva e titulação reduzem a pressão e mantêm a cobertura que sustenta a chuva (ligação com o anel 7).",
+    "viciosa": "Se a resposta é intermitente ou revertida, a pressão volta e o dano se acumula; o efeito é de histerese ecológica difícil de reverter."
+   },
+   "enfraquece": [
+    "Cortes na capacidade de fiscalização e na Funai/Ibama (hipótese; não medido aqui)",
+    "Mudanças legais como o marco temporal",
+    "Alta do preço do ouro e da terra",
+    "Captura local (anel 5)"
+   ]
+  },
+  {
+   "id": "controle-externo-eleitor",
+   "nome": "Anel balanceador: auditoria, imprensa, Judiciário e voto",
+   "tipo": "equilibrio",
+   "descricao": "Irregularidades geram detecção (auditoria, imprensa, MP, PF, tribunais); a detecção gera custo esperado (eleitoral, penal, administrativo); o custo esperado reduz a irregularidade. Este anel funciona quando as quatro condições existem: ser detectado, divulgado, punido e lembrado pelo eleitor.",
+   "nos": [
+    {
+     "id": "irreg",
+     "rotulo": "Irregularidade e corrupção",
+     "dominio": "Estado"
+    },
+    {
+     "id": "detec",
+     "rotulo": "Detecção e divulgação (auditoria, imprensa, MP/PF, tribunais)",
+     "dominio": "instituições"
+    },
+    {
+     "id": "custo_esp",
+     "rotulo": "Custo esperado (eleitoral, penal, administrativo)",
+     "dominio": "instituições"
+    }
+   ],
+   "arestas": [
+    {
+     "de": "irreg",
+     "para": "detec",
+     "sinal": "+",
+     "defasagem": "meses a anos (auditorias, inquéritos)",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "custo_corrupcao.json#ferraz-finan-reeleicao: revelar desvios apurados reduziu a reeleição do prefeito, ~20% no resumo do working paper (efeito maior com rádio local)",
+       "url": "https://doi.org/10.1162/qjec.2008.123.2.703",
+       "verificado": true
+      },
+      {
+       "ref": "custo_corrupcao.json#avis-ferraz-finan-dissuasao: auditorias e dissuasão",
+       "url": "https://doi.org/10.1086/699209",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#lj-2014: Operação Lava Jato",
+       "url": "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Lava_Jato",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#mensalao-2012: Ação Penal 470 (Mensalão)",
+       "url": "https://pt.wikipedia.org/wiki/Mensal%C3%A3o",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "As auditorias aleatórias da CGU revelaram irregularidades em municípios sorteados; a CGU registrou irregularidades em licitações em 55 de 60 municípios na 24ª edição (via imprensa, não verificado)."
+    },
+    {
+     "de": "detec",
+     "para": "custo_esp",
+     "sinal": "+",
+     "defasagem": "1 a 4 anos (ciclo eleitoral, processos)",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "custo_corrupcao.json#ferraz-finan-reeleicao: revelar desvios apurados reduziu a reeleição do prefeito, ~20% no resumo do working paper (efeito maior com rádio local)",
+       "url": "https://doi.org/10.1162/qjec.2008.123.2.703",
+       "verificado": true
+      },
+      {
+       "ref": "Ferraz e Finan (2011), Electoral Accountability and Corruption: Evidence from the Audits of Local Governments (DOI conferido; resumo não lido)",
+       "url": "https://doi.org/10.1257/aer.101.4.1274",
+       "verificado": false
+      },
+      {
+       "ref": "Besley e Burgess (2002), The Political Economy of Government Responsiveness: Theory and Evidence from India (DOI conferido; resumo não lido; caso da Índia)",
+       "url": "https://doi.org/10.1162/003355302320935061",
+       "verificado": false
+      },
+      {
+       "ref": "historia.json#direcoes/judicializacao: judicialização e protagonismo do STF",
+       "url": "https://pt.wikipedia.org/wiki/Judicializa%C3%A7%C3%A3o_da_pol%C3%ADtica",
+       "verificado": true
+      }
+     ],
+     "contestada": false,
+     "nota": "Ferraz e Finan (2008): revelar desvios reduziu a reeleição do prefeito (~20% no resumo do working paper), com efeito maior com rádio local. A resposta do eleitor foi estimada em municípios pequenos e médios; o eleitor pode tolerar corrupção em troca de entregas. Besley e Burgess (Índia) para imprensa e responsividade."
+    },
+    {
+     "de": "custo_esp",
+     "para": "irreg",
+     "sinal": "-",
+     "defasagem": "1 a 4 anos",
+     "forca": "media",
+     "evidencia": [
+      {
+       "ref": "custo_corrupcao.json#avis-ferraz-finan-dissuasao: auditorias e dissuasão",
+       "url": "https://doi.org/10.1086/699209",
+       "verificado": true
+      },
+      {
+       "ref": "custo_corrupcao.json#klitgaard: corrupção = monopólio + discricionariedade - accountability",
+       "url": "https://doi.org/10.1525/9780520911185",
+       "verificado": true
+      },
+      {
+       "ref": "custo_corrupcao.json#crime-ambiental-ouro-madeira-terra: auditoria do TCU, processos sancionadores ambientais autuados x julgados em 1ª instância (2019: 14.426 / 13.903; 2020: 9.184 / queda forte de julgados)",
+       "url": "https://portal.tcu.gov.br/data/files/15/96/6E/EB/4E1D28102DFE0FF7F18818A8/038.685-2021-3-MBC%20-%20Auditoria%20operacional%20sancoes%20Ibama.pdf",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#l14230-2021: Lei 14.230/2021 exige dolo específico e reduz prescrição na improbidade",
+       "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2021/lei/l14230.htm",
+       "verificado": true
+      },
+      {
+       "ref": "historia.json#lj-anulacoes-2021: STF anula condenações da Lava Jato e declara Moro suspeito",
+       "url": "https://www.gazetadopovo.com.br/republica/fachin-explica-anulacao-condenacoes-lula-lava-jato/",
+       "verificado": true
+      }
+     ],
+     "contestada": true,
+     "nota": "Avis, Ferraz e Finan (DOI no repositório) mostram menor corrupção em municípios auditados. O custo esperado é minado pela fraqueza de sanção: Ibama (autuados vs. julgados), transação tributária (57,9% voltaram a inadimplir, via imprensa), mudanças legais (Lei 14.230) e anulações da Lava Jato."
+    }
+   ],
+   "simulado_no_modelo": {
+    "sim": false,
+    "onde": "Não simulado. Entra de forma indireta no custo de erosão institucional (institutional_risk) e na credibilidade (fiscal_credibility) quando decisões do catálogo mexem nas alavancas",
+    "equacao": null
+   },
+   "decisoes": [
+    "reforma-administrativa",
+    "ampliar-stf",
+    "remover-ministros-stf",
+    "anistia-politica",
+    "comissario-das-geracoes-futuras",
+    "indicadores-complementares-ao-pib",
+    "orcamento-participativo-e-moedas-sociais"
+   ],
+   "potencias": [
+    "infraestrutura-publica-digital",
+    "diversidade-ativo-institucional"
+   ],
+   "tendencias": [
+    "conectividade",
+    "ia_generativa_agentes"
+   ],
+   "leis": [],
+   "pilares": [
+    "autocontrole-e-monopolio-legitimo",
+    "pluralismo-epistemico",
+    "bens-comuns"
+   ],
+   "alavancas": [
+    "Meadows 7 (informação): publicação das auditorias antes das eleições, dados abertos, rastreio de despesas",
+    "Meadows 8 (regras): independência e orçamento de órgãos de controle (TCU, CGU, MP); transparência de beneficiários de emendas",
+    "Meadows 5: reforço do laço balanceador com capacidade de julgamento (taxa de julgamento de processos)"
+   ],
+   "evolucao_se_dominar": {
+    "virtuosa": "Detecção e sanção previsíveis, imparciais e rápidas reduzem a irregularidade e aumentam a confiança (enfraquece o anel 6 e o anel 5).",
+    "viciosa": "Se a detecção não gera sanção (ou é revertida), o anel se esvazia: a impunidade percebida alimenta o anel 6."
+   },
+   "enfraquece": [
+    "Redução do orçamento e da autonomia de órgãos de controle",
+    "Mudanças legais que dificultam sanção (ex.: prescrição, dolo específico) e anulações processuais",
+    "Opacidade de emendas e transferências especiais",
+    "Captura dos controladores (anel 5)"
+   ]
+  }
+ ],
+ "interacoes": [
+  {
+   "de": "legitimidade-impunidade",
+   "para": "fiscal-juros-divida",
+   "tipo": "reforca",
+   "descricao": "institutional_risk eleva o prêmio (prem_inst 2,5 pp por unidade) e reduz o crescimento (g_inst 1,2 pp por unidade): a única ligação entre um anel institucional e o laço fiscal que o modelo simula, e o valor de entrada é exógeno."
+  },
+  {
+   "de": "expectativas-ancoragem",
+   "para": "fiscal-juros-divida",
+   "tipo": "reforca",
+   "descricao": "A Selic mais alta por inflação esperada eleva o custo da dívida; no modelo, o ganho é parcialmente compensado pela erosão nominal da dívida."
+  },
+  {
+   "de": "fiscal-juros-divida",
+   "para": "expectativas-ancoragem",
+   "tipo": "reforca",
+   "descricao": "Dívida alta com baixa credibilidade alimenta a dominância fiscal e a inflação de longo prazo (pi_debt)."
+  },
+  {
+   "de": "fiscal-juros-divida",
+   "para": "reacao-fiscal",
+   "tipo": "aciona",
+   "descricao": "A dívida acima de 80% do PIB aciona a reação do primário (react)."
+  },
+  {
+   "de": "reacao-fiscal",
+   "para": "fiscal-juros-divida",
+   "tipo": "amortece",
+   "descricao": "O primário maior reduz a dívida e enfraquece o anel 1."
+  },
+  {
+   "de": "fiscal-juros-divida",
+   "para": "disciplina-de-mercado",
+   "tipo": "aciona",
+   "descricao": "Prêmio e Selic altos criam demanda por regra fiscal crível (hipótese)."
+  },
+  {
+   "de": "disciplina-de-mercado",
+   "para": "fiscal-juros-divida",
+   "tipo": "amortece",
+   "descricao": "Maior credibilidade reduz o prêmio (prem_cred); simulado como alavanca, não como resposta política."
+  },
+  {
+   "de": "captura-concentracao",
+   "para": "fiscal-juros-divida",
+   "tipo": "reforca",
+   "descricao": "Gastos tributários e emendas reduzem a margem do primário; no modelo, aparecem como primary_target e fiscal_credibility das decisões (cortar-beneficios-fiscais, desoneracao-ampla)."
+  },
+  {
+   "de": "captura-concentracao",
+   "para": "legitimidade-impunidade",
+   "tipo": "reforca",
+   "descricao": "Regras favoráveis a poucos alimentam a percepção de impunidade e desconfiança (hipótese)."
+  },
+  {
+   "de": "legitimidade-impunidade",
+   "para": "controle-externo-eleitor",
+   "tipo": "enfraquece",
+   "descricao": "Erosão institucional reduz a independência e a capacidade de órgãos de controle."
+  },
+  {
+   "de": "controle-externo-eleitor",
+   "para": "legitimidade-impunidade",
+   "tipo": "amortece",
+   "descricao": "Detecção e sanção previsíveis reduzem a impunidade percebida."
+  },
+  {
+   "de": "controle-externo-eleitor",
+   "para": "captura-concentracao",
+   "tipo": "amortece",
+   "descricao": "Detecção e divulgação reduzem a renda extraordinária obtida por regras favoráveis."
+  },
+  {
+   "de": "clima-floresta-agro",
+   "para": "clima-fiscal-adaptacao",
+   "tipo": "reforca",
+   "descricao": "Seca, fogo e menor chuva aumentam o dano por evento extremo (hipótese; ENSO e focos têm sinal moderado nos dados)."
+  },
+  {
+   "de": "clima-fiscal-adaptacao",
+   "para": "fiscal-juros-divida",
+   "tipo": "reforca",
+   "descricao": "climate_shock e climate_premium entram no anel 1 (simulado, mas como suposição de severidade)."
+  },
+  {
+   "de": "fiscal-juros-divida",
+   "para": "clima-fiscal-adaptacao",
+   "tipo": "reforca",
+   "descricao": "Menos espaço fiscal reduz recursos de prevenção (hipótese)."
+  },
+  {
+   "de": "territorio-indigena-conservacao",
+   "para": "clima-floresta-agro",
+   "tipo": "amortece",
+   "descricao": "Proteção efetiva do território contém o desmatamento e preserva a chuva."
+  },
+  {
+   "de": "legitimidade-impunidade",
+   "para": "territorio-indigena-conservacao",
+   "tipo": "enfraquece",
+   "descricao": "Erosão institucional e captura local reduzem a fiscalização e a segurança jurídica (ex.: marco temporal)."
+  },
+  {
+   "de": "desigualdade-educacao-produtividade",
+   "para": "violencia-capital-humano",
+   "tipo": "reforca",
+   "descricao": "Baixa escolaridade reduz alternativas lícitas e alimenta o recrutamento."
+  },
+  {
+   "de": "violencia-capital-humano",
+   "para": "desigualdade-educacao-produtividade",
+   "tipo": "reforca",
+   "descricao": "A violência reduz a aprendizagem, piorando o anel 9."
+  },
+  {
+   "de": "desigualdade-educacao-produtividade",
+   "para": "automacao-trabalho-demanda",
+   "tipo": "modula",
+   "descricao": "Menor qualificação aumenta a exposição ao deslocamento sem acesso a novas tarefas."
+  },
+  {
+   "de": "automacao-trabalho-demanda",
+   "para": "desigualdade-educacao-produtividade",
+   "tipo": "reforca",
+   "descricao": "Deslocamento de jovens em tarefas de entrada pressiona a renda do trabalho de baixa renda."
+  },
+  {
+   "de": "tecnologia-produtividade-capacidade",
+   "para": "fiscal-juros-divida",
+   "tipo": "amortece",
+   "descricao": "tech_boost eleva g e reduz a dívida/PIB (simulado como suposição)."
+  },
+  {
+   "de": "automacao-trabalho-demanda",
+   "para": "fiscal-juros-divida",
+   "tipo": "reforca",
+   "descricao": "Se a automação reduz a base de folha e a demanda, a arrecadação cai (hipótese; não simulado)."
+  },
+  {
+   "de": "fiscal-juros-divida",
+   "para": "desigualdade-educacao-produtividade",
+   "tipo": "reforca",
+   "descricao": "Aperto fiscal sobre despesa discricionária (investimento, educação) reduz o acesso (hipótese, ligada à rigidez do gasto)."
+  },
+  {
+   "de": "clima-floresta-agro",
+   "para": "tecnologia-produtividade-capacidade",
+   "tipo": "modula",
+   "descricao": "A matriz renovável e a hidrologia condicionam o custo de energia para difusão (hipótese)."
+  }
+ ],
+ "aneis_ausentes": [
+  {
+   "id": "cambio-divida-inflacao",
+   "descricao": "Câmbio, dívida em moeda estrangeira e inflação (o canal de Blanchard 2004). Falta no modelo e não houve evidência atual conferida sobre a estrutura da dívida (prefixada, IPCA, Selic, câmbio) nem sobre o repasse do câmbio."
+  },
+  {
+   "id": "previdencia-envelhecimento-primario",
+   "descricao": "Envelhecimento, gasto previdenciário e primário (RGPS a ~6% do PIB em 2060, projeção das autoridades via FMI). Há dado de nível, mas não elasticidade nem laço de retorno com evidência."
+  },
+  {
+   "id": "doenca-holandesa",
+   "descricao": "Commodities, câmbio e indústria. A armadilha está listada em potenciais_brasil.json, mas nenhuma fonte conferida desmente ou confirma o laço."
+  },
+  {
+   "id": "informalidade-produtividade-arrecadacao",
+   "descricao": "Informalidade (>40% dos ocupados, FMI), baixa produtividade e baixa arrecadação. Sem estimativa causal conferida."
+  },
+  {
+   "id": "crime-organizado-infiltracao-estado",
+   "descricao": "Crime organizado, financiamento ilegal e infiltração em cadeias econômicas (combustíveis, ouro). O repositório lista áreas de custo, mas as fontes do laço político não foram lidas."
+  },
+  {
+   "id": "federativo-estados-divida",
+   "descricao": "Estados endividados, regime de recuperação fiscal e investimento subnacional: sem evidência coletada."
+  },
+  {
+   "id": "polarizacao-plataformas-digitais",
+   "descricao": "Polarização, plataformas digitais e desconfiança: não há dado no repositório, e a literatura não foi aberta."
+  },
+  {
+   "id": "saude-produtividade",
+   "descricao": "Saúde (SUS), produtividade e demanda por gasto: o repositório tem indicadores (mortalidade infantil, epidemias) mas nenhuma relação com produtividade."
+  },
+  {
+   "id": "data-centers-energia-tarifa",
+   "descricao": "Data centers de IA, demanda de energia e tarifas (Jevons). Há número da IEA (resumo, não verificado); sem estimativa para o Brasil."
+  },
+  {
+   "id": "desigualdade-racial-capital-humano",
+   "descricao": "Desigualdade racial de renda e capital humano: o dado de renda por cor não foi coletado (lacuna declarada em potenciais_brasil.json)."
+  },
+  {
+   "id": "credito-publico-subsidio-divida",
+   "descricao": "Bancos públicos, crédito subsidiado e dívida pública (equalização): as decisões existem no catálogo, mas o laço (subsídio, concentração, custo fiscal) não tem evidência conferida aqui, só o efeito fiscal em deltas."
+  }
+ ],
+ "arestas_contestadas": [
+  {
+   "anel": "fiscal-juros-divida",
+   "de": "juro_real",
+   "para": "pib",
+   "nota": "g = 2,0 + ... - g_rate*(real - 5,0), com g_rate = 0,30. É um parâmetro de calibração do projeto e não foi estimado em microdados. A relação entre dívida alta e crescimento é contestada (Reinhart-Rogoff vs. Herndon et al.)."
+  },
+  {
+   "anel": "expectativas-ancoragem",
+   "de": "pi_lr",
+   "para": "selic",
+   "nota": "A inflação entra duas vezes na Selic: 1 para 1 em neutral_real + pi, e 0,5 pela regra de Taylor. A Selic nominal sobe 1,5 pp por pp de inflação (cálculo nosso)."
+  },
+  {
+   "anel": "expectativas-ancoragem",
+   "de": "selic",
+   "para": "divida",
+   "nota": "No modelo, mais Selic eleva a dívida, mas mais inflação a reduz pelo denominador nominal. Execução ilustrativa: bc_erosion de 0 para 0,4 sobe a Selic de 2038 de 17,11% para 18,58% e o IPCA de 4,43% para 5,60%, e a dívida cai de 135,7% para 134,8% (sim_ilus). Ou seja, o laço de expectativas NÃO se mostra reforçador na dívida dentro do modelo. Blanchard (2004) argumenta que, com dívida alta e passivos em moeda estrangeira, apertar pode piorar a inflação por depreciação, canal ausente do modelo."
+  },
+  {
+   "anel": "expectativas-ancoragem",
+   "de": "bc",
+   "para": "pi_lr",
+   "nota": "Alavanca exógena bc_erosion (0-1) multiplicada por pi_bc = 3,0 pp. A literatura sobre independência do BC (Alesina e Summers; DOI conferido, conteúdo não lido) é cross-country e debate causalidade. Decisões do catálogo mudam a alavanca: reduzir-autonomia-bc +0,4, diretoria-bc-alinhada +0,15."
+  },
+  {
+   "anel": "reacao-fiscal",
+   "de": "divida",
+   "para": "react",
+   "nota": "react = reaction*(0,3 + 0,7*credibilidade)*clip(d - 80, -10, 40), reaction = 0,14. Com d = 100 e credibilidade 0,5, react = 1,8 pp. Bohn (1998) é o referencial teórico (DOI conferido, conteúdo não lido); Ghosh et al. (2013) tratam de fadiga fiscal, em que a reação se esgota em dívida alta. O parâmetro 0,14 é de calibração, não estimativa brasileira com intervalo."
+  },
+  {
+   "anel": "disciplina-de-mercado",
+   "de": "premio",
+   "para": "custo_pol",
+   "nota": "Hipótese: depois dos estresses de 2015-16 vieram a EC 95/2016 e depois a LC 200/2023. A sequência é temporal e não identifica causalidade (houve também mudança de governo). Não há estimativa do custo político."
+  },
+  {
+   "anel": "captura-concentracao",
+   "de": "infl",
+   "para": "regras",
+   "nota": "Há mecanismos documentados de poder do Congresso sobre o orçamento (RP9 declarado inconstitucional por 6 a 5; migração do volume para emendas individuais, de bancada, de comissão e transferências especiais). O tamanho dos gastos tributários (R$ 612,84 bi em 2026, 4,43% do PIB) mede renúncia, e a RFB e o repositório ressaltam que parte é desenho do regime, não abuso. Ligar o tamanho à captura é hipótese."
+  },
+  {
+   "anel": "captura-concentracao",
+   "de": "renda",
+   "para": "conc",
+   "nota": "Acemoglu e Robinson descrevem instituições extrativas que perpetuam elites; a evidência brasileira específica sobre o laço fechado (renda captada que volta a concentrar) não foi encontrada nesta rodada."
+  },
+  {
+   "anel": "legitimidade-impunidade",
+   "de": "imp",
+   "para": "desc",
+   "nota": "O IPC 2025 do Brasil é 35/100, medida de percepção, não de impunidade real. Fisman e Miguel mostram que a tolerância à corrupção depende de normas (modelo no repositório). Percepção e impunidade real não são a mesma coisa; a causalidade percepção -> desconfiança política é contestada."
+  },
+  {
+   "anel": "legitimidade-impunidade",
+   "de": "desc",
+   "para": "custo",
+   "nota": "Hipótese: eleitores polarizados toleram violações de regras do lado de quem apoiam (Svolik 2019, DOI conferido, conteúdo de memória). Não há medida brasileira do 'custo político' no repositório."
+  },
+  {
+   "anel": "legitimidade-impunidade",
+   "de": "custo",
+   "para": "erosao",
+   "nota": "Bermeo e Levitsky-Ziblatt descrevem erosão gradual por meios legais. No catálogo, as decisões institucionais mexem na alavanca (ampliar-stf +0,25; remover-ministros-stf +0,30; anistia-politica +0,08). Os eventos de 2023-2025 mostram também resposta institucional (condenação em 2025), que é o laço balanceador, não o reforçador."
+  },
+  {
+   "anel": "legitimidade-impunidade",
+   "de": "erosao",
+   "para": "imp",
+   "nota": "Mudanças como a Lei 14.230/2021 (dolo específico na improbidade) e as anulações da Lava Jato (2021) são lidas por uns como correção de abuso e por outros como enfraquecimento do controle: a leitura é contestada e depende de juízo normativo."
+  },
+  {
+   "anel": "clima-floresta-agro",
+   "de": "chuva",
+   "para": "prod",
+   "nota": "A relação regional em Leite-Filho et al. conflita com a ausência de sinal na série nacional do repositório (r = -0,07; IC95 -0,40 a 0,40). A divergência é de escala e de poder estatístico: o repositório declara que a média nacional não representa o ano agrícola regional."
+  },
+  {
+   "anel": "clima-floresta-agro",
+   "de": "renda",
+   "para": "pressao",
+   "nota": "Se a renda por hectare cai, o produtor pode compensar abrindo mais terra (sinal -, anel reforçador) ou reduzir o investimento em expansão (sinal +, o anel viraria balanceador). Cohn et al. (2014) modelam que intensificar pode poupar terra; de Assis Costa et al. (2026, só o título foi lido) falam em paradoxo de Jevons. Assunção et al. mostram que o desmatamento respondeu aos preços agrícolas. A literatura diverge."
+  },
+  {
+   "anel": "clima-floresta-agro",
+   "de": "chuva",
+   "para": "focos_ref",
+   "nota": "ENSO tende a antecipar menos chuva e mais fogo na Amazônia com 1 ano de defasagem (r = +0,48, 1 teste em 36, n = 23); os focos também seguem fiscalização."
+  },
+  {
+   "anel": "clima-fiscal-adaptacao",
+   "de": "resp",
+   "para": "prev",
+   "nota": "Gasto federal 2013-2022: 31% em prevenção e 69% em resposta (TCU); CNseg dá razão resposta/prevenção de 9,7 em 2019-2024; as razões não se reconciliam. Healy e Malhotra: nos EUA, eleitores premiam o socorro, não a preparação, o que desloca o orçamento para a resposta (evidência de outro país)."
+  },
+  {
+   "anel": "clima-fiscal-adaptacao",
+   "de": "dano",
+   "para": "premio_c",
+   "nota": "Klusak et al. simulam rebaixamentos soberanos por clima para 109 países a partir de 2030; não é estimativa do Brasil. No modelo, climate_premium é suposição (0,1/0,3/0,6 pp)."
+  },
+  {
+   "anel": "clima-fiscal-adaptacao",
+   "de": "dano",
+   "para": "cmo",
+   "nota": "Menos afluência significa maior CMO (r = -0,50; ENA do Sudeste vs. CMO do Sudeste, n = 21). A relação com o IPCA de energia não é distinguível de zero (tarifa depende de bandeiras, reajustes e tributos). A crise de 2021 mostra o contexto, não o efeito causal."
+  },
+  {
+   "anel": "desigualdade-educacao-produtividade",
+   "de": "kh",
+   "para": "renda_b",
+   "nota": "Hanushek e Woessmann ligam habilidades cognitivas e resultados econômicos (título lido; a causalidade é discutida). A informalidade >40% (FMI) dilui o retorno à qualificação (hipótese)."
+  },
+  {
+   "anel": "desigualdade-educacao-produtividade",
+   "de": "arrec",
+   "para": "acesso",
+   "nota": "Rigidez do gasto obrigatório e vinculação limitam a capacidade de expandir educação (barreira citada em capital-humano-gap)."
+  },
+  {
+   "anel": "tecnologia-produtividade-capacidade",
+   "de": "dif",
+   "para": "pot",
+   "nota": "tech_boost = tech_productivity * (S(ano - lag) - S0)/(1 - S0), com S logística (tech_midpoint 2031; tech_rate 0,8). tech_productivity é SUPOSIÇÃO explícita. Acemoglu estima ≤ 0,66% de PTF em 10 anos nos EUA (resumo), limite conservador de referência."
+  },
+  {
+   "anel": "automacao-trabalho-demanda",
+   "de": "incentivo",
+   "para": "deslocamento",
+   "nota": "29,6% dos ocupados com alguma exposição (FGV IBRE) e ~5,2 milhões na mais alta; efeito detectado concentrado em jovens de 18 a 29 anos nos dados de 2022-2025; FMI: nas avançadas, metade dos expostos tende a ganhar. Exposição não é desemprego."
+  },
+  {
+   "anel": "automacao-trabalho-demanda",
+   "de": "deslocamento",
+   "para": "demanda_trab",
+   "nota": "Displacement effect, contrabalançado por reinstatement. O sinal líquido depende da criação de novas tarefas e é a divergência central da literatura."
+  },
+  {
+   "anel": "automacao-trabalho-demanda",
+   "de": "deslocamento",
+   "para": "novas",
+   "nota": "Novas tarefas criadas por tecnologia amortecem o efeito líquido; sem medida brasileira."
+  },
+  {
+   "anel": "violencia-capital-humano",
+   "de": "alt",
+   "para": "recrut",
+   "nota": "Becker: o crime responde a retornos e punição (DOI conferido no repositório). Evidência brasileira específica sobre renda lícita e recrutamento não foi lida nesta rodada. A queda de 30,2% na taxa de homicídio de jovens entre 2017 e 2023 mostra que o nível pode mudar rápido por outras causas (arranjos entre facções, policiamento)."
+  },
+  {
+   "anel": "territorio-indigena-conservacao",
+   "de": "resposta",
+   "para": "protecao",
+   "nota": "BenYishay et al. (DOI conferido; resumo não lido) tratam do reconhecimento de terras indígenas e do desmatamento. Nolte et al.: o debate sobre qual regime de proteção é mais eficaz está aberto. A capacidade de punir é limitada: autuados vs. julgados do Ibama em queda e arrecadação de ~5% das multas (não verificado)."
+  },
+  {
+   "anel": "territorio-indigena-conservacao",
+   "de": "protecao",
+   "para": "pressao",
+   "nota": "O efeito pode ser desfeito por mudanças de regra: conflito Legislativo x STF sobre o marco temporal (a decisão de 2026 só consta em síntese jornalística)."
+  },
+  {
+   "anel": "controle-externo-eleitor",
+   "de": "custo_esp",
+   "para": "irreg",
+   "nota": "Avis, Ferraz e Finan (DOI no repositório) mostram menor corrupção em municípios auditados. O custo esperado é minado pela fraqueza de sanção: Ibama (autuados vs. julgados), transação tributária (57,9% voltaram a inadimplir, via imprensa), mudanças legais (Lei 14.230) e anulações da Lava Jato."
+  }
+ ],
+ "referencias": [
+  {
+   "titulo": "Meadows (1999), Leverage Points: Places to Intervene in a System",
+   "url": "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/",
+   "doi": null,
+   "verificado": true,
+   "tipo_verificacao": "resumo ou página aberta nesta rodada"
+  },
+  {
+   "titulo": "Forrester (1971), Counterintuitive behavior of social systems, Technological Forecasting and Social Change",
+   "url": "https://doi.org/10.1016/S0040-1625(71)80001-X",
+   "doi": "10.1016/S0040-1625(71)80001-X",
+   "verificado": true,
+   "tipo_verificacao": "resumo ou página aberta nesta rodada"
+  },
+  {
+   "titulo": "Blanchard (2004), Fiscal Dominance and Inflation Targeting: Lessons from Brazil, NBER WP 10389",
+   "url": "https://www.nber.org/papers/w10389",
+   "doi": "10.3386/w10389",
+   "verificado": true,
+   "tipo_verificacao": "resumo ou página aberta nesta rodada"
+  },
+  {
+   "titulo": "Bohn (1998), The Behavior of U.S. Public Debt and Deficits, QJE",
+   "url": "https://doi.org/10.1162/003355398555793",
+   "doi": "10.1162/003355398555793",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Taylor (1993), Discretion versus policy rules in practice",
+   "url": "https://doi.org/10.1016/0167-2231(93)90009-L",
+   "doi": "10.1016/0167-2231(93)90009-L",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Ardagna, Caselli, Lane (2007), Fiscal Discipline and the Cost of Public Debt Service",
+   "url": "https://doi.org/10.2202/1935-1690.1417",
+   "doi": "10.2202/1935-1690.1417",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Alesina e Summers (1993), Central Bank Independence and Macroeconomic Performance, JMCB",
+   "url": "https://doi.org/10.2307/2077833",
+   "doi": "10.2307/2077833",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Ghosh et al. (2013), Fiscal Fatigue, Fiscal Space and Debt Sustainability in Advanced Economies, Economic Journal",
+   "url": "https://doi.org/10.1111/ecoj.12010",
+   "doi": "10.1111/ecoj.12010",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Herndon, Ash, Pollin (2014), Does high public debt consistently stifle economic growth?, Cambridge Journal of Economics",
+   "url": "https://doi.org/10.1093/cje/bet075",
+   "doi": "10.1093/cje/bet075",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Ferraz e Finan (2008), Exposing Corrupt Politicians, QJE",
+   "url": "https://doi.org/10.1162/qjec.2008.123.2.703",
+   "doi": "10.1162/qjec.2008.123.2.703",
+   "verificado": true,
+   "tipo_verificacao": "resumo ou página aberta nesta rodada"
+  },
+  {
+   "titulo": "Ferraz e Finan (2011), Electoral Accountability and Corruption, AER",
+   "url": "https://doi.org/10.1257/aer.101.4.1274",
+   "doi": "10.1257/aer.101.4.1274",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Besley e Burgess (2002), The Political Economy of Government Responsiveness, QJE",
+   "url": "https://doi.org/10.1162/003355302320935061",
+   "doi": "10.1162/003355302320935061",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Boas, Hidalgo, Richardson (2014), The Spoils of Victory, Journal of Politics",
+   "url": "https://doi.org/10.1017/s002238161300145x",
+   "doi": "10.1017/s002238161300145x",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Healy e Malhotra (2009), Myopic Voters and Natural Disaster Policy, APSR",
+   "url": "https://doi.org/10.1017/S0003055409990104",
+   "doi": "10.1017/S0003055409990104",
+   "verificado": true,
+   "tipo_verificacao": "resumo ou página aberta nesta rodada"
+  },
+  {
+   "titulo": "Monteiro e Rocha (2017), Drug Battles and School Achievement, Review of Economics and Statistics",
+   "url": "https://doi.org/10.1162/REST_a_00628",
+   "doi": "10.1162/REST_a_00628",
+   "verificado": true,
+   "tipo_verificacao": "resumo ou página aberta nesta rodada"
+  },
+  {
+   "titulo": "Assunção, Gandour, Rocha, Rocha (2020), The Effect of Rural Credit on Deforestation, Economic Journal",
+   "url": "https://doi.org/10.1093/ej/uez060",
+   "doi": "10.1093/ej/uez060",
+   "verificado": true,
+   "tipo_verificacao": "resumo ou página aberta nesta rodada"
+  },
+  {
+   "titulo": "Assunção, Gandour, Rocha (2015), Deforestation slowdown in the Brazilian Amazon: prices or policies?, Environment and Development Economics",
+   "url": "https://doi.org/10.1017/s1355770x15000078",
+   "doi": "10.1017/s1355770x15000078",
+   "verificado": true,
+   "tipo_verificacao": "resumo ou página aberta nesta rodada"
+  },
+  {
+   "titulo": "Leite-Filho et al. (2021), Deforestation reduces rainfall and agricultural revenues in the Brazilian Amazon, Nature Communications",
+   "url": "https://doi.org/10.1038/s41467-021-22840-7",
+   "doi": "10.1038/s41467-021-22840-7",
+   "verificado": true,
+   "tipo_verificacao": "resumo ou página aberta nesta rodada"
+  },
+  {
+   "titulo": "Staal et al. (2020), Hysteresis of tropical forests in the 21st century, Nature Communications",
+   "url": "https://doi.org/10.1038/s41467-020-18728-7",
+   "doi": "10.1038/s41467-020-18728-7",
+   "verificado": true,
+   "tipo_verificacao": "resumo ou página aberta nesta rodada"
+  },
+  {
+   "titulo": "Spracklen, Arnold, Taylor (2012), Observations of increased tropical rainfall preceded by air passage over forests, Nature",
+   "url": "https://doi.org/10.1038/nature11390",
+   "doi": "10.1038/nature11390",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Nobre et al. (2016), Land-use and climate change risks in the Amazon, PNAS",
+   "url": "https://doi.org/10.1073/pnas.1605516113",
+   "doi": "10.1073/pnas.1605516113",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Nepstad et al. (2014), Slowing Amazon deforestation through public policy and interventions in beef and soy supply chains, Science",
+   "url": "https://doi.org/10.1126/science.1248525",
+   "doi": "10.1126/science.1248525",
+   "verificado": true,
+   "tipo_verificacao": "resumo ou página aberta nesta rodada"
+  },
+  {
+   "titulo": "BenYishay et al. (2017), Indigenous land rights and deforestation, JEEM",
+   "url": "https://doi.org/10.1016/j.jeem.2017.07.008",
+   "doi": "10.1016/j.jeem.2017.07.008",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Nolte et al. (2013), Governance regime and location influence avoided deforestation success of protected areas, PNAS",
+   "url": "https://doi.org/10.1073/pnas.1214786110",
+   "doi": "10.1073/pnas.1214786110",
+   "verificado": true,
+   "tipo_verificacao": "resumo ou página aberta nesta rodada"
+  },
+  {
+   "titulo": "Cohn et al. (2014), Cattle ranching intensification in Brazil can reduce global GHG emissions by sparing land from deforestation, PNAS",
+   "url": "https://doi.org/10.1073/pnas.1307163111",
+   "doi": "10.1073/pnas.1307163111",
+   "verificado": true,
+   "tipo_verificacao": "resumo ou página aberta nesta rodada"
+  },
+  {
+   "titulo": "de Assis Costa et al. (2026), Agricultural intensification increases rather than reduces pressure on the Amazon Forest, Land Use Policy",
+   "url": "https://doi.org/10.1016/j.landusepol.2025.107842",
+   "doi": "10.1016/j.landusepol.2025.107842",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Barona et al. (2010), The role of pasture and soybean in deforestation of the Brazilian Amazon, Environmental Research Letters",
+   "url": "https://doi.org/10.1088/1748-9326/5/2/024002",
+   "doi": "10.1088/1748-9326/5/2/024002",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Klusak et al. (2023), Rising Temperatures, Falling Ratings, Management Science",
+   "url": "https://doi.org/10.1287/mnsc.2023.4869",
+   "doi": "10.1287/mnsc.2023.4869",
+   "verificado": true,
+   "tipo_verificacao": "resumo ou página aberta nesta rodada"
+  },
+  {
+   "titulo": "Acemoglu e Restrepo (2019), Automation and New Tasks, JEP",
+   "url": "https://doi.org/10.1257/jep.33.2.3",
+   "doi": "10.1257/jep.33.2.3",
+   "verificado": true,
+   "tipo_verificacao": "resumo ou página aberta nesta rodada"
+  },
+  {
+   "titulo": "Galor e Zeira (1993), Income Distribution and Macroeconomics, Review of Economic Studies",
+   "url": "https://doi.org/10.2307/2297811",
+   "doi": "10.2307/2297811",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Hanushek e Woessmann (2012), Do better schools lead to more growth?, Journal of Economic Growth",
+   "url": "https://doi.org/10.1007/s10887-012-9081-x",
+   "doi": "10.1007/s10887-012-9081-x",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Barro (2000), Inequality and Growth in a Panel of Countries, Journal of Economic Growth",
+   "url": "https://doi.org/10.1023/A:1009850119329",
+   "doi": "10.1023/A:1009850119329",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Bourguignon, Ferreira, Menéndez (2007), Inequality of Opportunity in Brazil, Review of Income and Wealth",
+   "url": "https://doi.org/10.1111/j.1475-4991.2007.00247.x",
+   "doi": "10.1111/j.1475-4991.2007.00247.x",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  },
+  {
+   "titulo": "Svolik (2019), Polarization versus Democracy, Journal of Democracy",
+   "url": "https://doi.org/10.1353/jod.2019.0039",
+   "doi": "10.1353/jod.2019.0039",
+   "verificado": false,
+   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+  }
+ ]
+}
