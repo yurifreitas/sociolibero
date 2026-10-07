@@ -6,9 +6,9 @@ Tipo: emenda | Autoridade: Mesas da Câmara dos Deputados e do Senado Federal | 
 Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc117.htm
 Data de captura: 2026-10-07
 Tipo de versão: original de época
-Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: Planalto. Reserva mínima de 5% do fundo partidário para programas de participação política das mulheres (art. 17, §§ 7º e 8º).
-Lacunas: Fonte única.
+Status da conferência: conferência cruzada parcial entre duas fontes oficiais
+Observações: Planalto. Reserva mínima de 5% do fundo partidário para programas de participação política das mulheres (art. 17, §§ 7º e 8º). Segunda fonte (revisão de 07/10/2026): Senado, 97,4% do gravado na página e 99,1% da página no gravado; a diferença está na ordem e na grafia das assinaturas da Mesa. Câmara: página não localizada.
+Lacunas: Segunda fonte única (Senado).
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 2267b4c403293ab48ec019c516038f256f366273ea870b47b5390ac63c63a24d
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

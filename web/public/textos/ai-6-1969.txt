@@ -6,9 +6,9 @@ Tipo: ato institucional | Autoridade: Presidente Artur da Costa e Silva | Status
 Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/ait/ait-06-69.htm
 Data de captura: 2026-10-07
 Tipo de versão: original de época
-Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: Planalto. Reduz o STF de 16 para 11 ministros e retira da apreciação judicial os atos do AI-5.
-Lacunas: Fonte única.
+Status da conferência: conferência cruzada parcial entre duas fontes oficiais
+Observações: Planalto. Reduz o STF de 16 para 11 ministros e retira da apreciação judicial os atos do AI-5. Segunda fonte (revisão de 07/10/2026): Senado, 96,2% do gravado na página e 99,5% da página no gravado (a página do Senado não traz as notas remissivas do Planalto). Câmara: página não localizada.
+Lacunas: Segunda fonte única (Senado); Câmara não localizada.
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): f859b96b3398818f00e0e369c12c58d1176106b2f12bc336502339b1e1b9a9a5
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

@@ -6,9 +6,9 @@ Tipo: ato institucional | Autoridade: Presidente Humberto Castelo Branco | Statu
 Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/ait/ait-03-66.htm
 Data de captura: 2026-10-07
 Tipo de versão: original de época
-Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: Planalto. Eleição indireta de governadores.
-Lacunas: Fonte única.
+Status da conferência: texto original conferido contra a fonte
+Observações: Planalto. Eleição indireta de governadores. Segunda e terceira fontes (revisão de 07/10/2026): Câmara 99,3% / 99,8% e Senado 94,4% / 99,5% (o Senado traz notas e formatação distintas).
+Lacunas: Sem lacunas conhecidas.
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 577746dfc98d36ae37d10867e154239df1d19749b95420065535ccaffafa28ca
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

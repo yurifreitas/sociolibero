@@ -6,9 +6,9 @@ Tipo: emenda | Autoridade: Mesas da Câmara dos Deputados e do Senado Federal | 
 Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc52.htm
 Data de captura: 2026-10-07
 Tipo de versão: original de época
-Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: Planalto. A EC 97/2017 deu nova redação ao art. 17, § 1º, vedando coligações em eleições proporcionais.
-Lacunas: Fonte única.
+Status da conferência: conferência cruzada parcial entre duas fontes oficiais
+Observações: Planalto. A EC 97/2017 deu nova redação ao art. 17, § 1º, vedando coligações em eleições proporcionais. Segunda e terceira fontes (revisão de 07/10/2026): cobertura do gravado 90,0% (Câmara) e 92,0% (Senado); a diferença vem das notas "Vide ADI 3.685-8" do Planalto e da diagramação das assinaturas da Mesa. O dispositivo (nova redação do § 1º do art. 17) é o mesmo nas três fontes.
+Lacunas: Texto curto; diferenças de formatação nas assinaturas.
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): e4687e8ce02719b4990aa1b239a1be7ca5ac44f109e463495c8ae01ba6c75571
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

@@ -7,9 +7,9 @@ Fonte (URL exata): https://www.tse.jus.br/legislacao/compilada/res/2024/resoluca
 Espelho (URL exata): https://web.archive.org/web/20241225122605id_/https://www.tse.jus.br/legislacao/compilada/res/2024/resolucao-no-23-732-de-27-de-fevereiro-de-2024
 Data de captura: 2026-10-07
 Tipo de versão: original de época
-Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: O site do TSE bloqueia a coleta automática (HTTP 403). O texto foi obtido do espelho da Wayback Machine (captura de 25/12/2024) da página "legislação compilada" do TSE. A resolução altera a Res. 23.610/2019 para as Eleições 2024; pode ter sido superada por resoluções posteriores (verificar para 2026).
-Lacunas: Texto como na página do TSE; não conferido com o DJE-TSE nº 29, de 4/3/2024.
+Status da conferência: texto original conferido contra a fonte
+Observações: O site do TSE bloqueia a coleta automática (HTTP 403). O texto foi obtido do espelho da Wayback Machine (captura de 25/12/2024) da página "legislação compilada" do TSE. A resolução altera a Res. 23.610/2019 para as Eleições 2024; pode ter sido superada por resoluções posteriores (verificar para 2026). Revisão de 07/10/2026: a página atual do TSE (lida direto no site, sem passar pela Wayback) tem exatamente o mesmo texto da captura de 25/12/2024, do título até "Brasília, 27 de fevereiro de 2024." (45.790 caracteres com espaços normalizados; mesmo SHA-256 nos dois). Versão atual para 2026: a Res. 23.732/2024 apenas altera a Res. 23.610/2019; em 2/3/2026 o TSE aprovou a Resolução nº 23.755, que altera de novo a Res. 23.610/2019 (inclusive o uso de inteligência artificial na propaganda), conforme a compilada da Res. 23.610 e a notícia oficial do TSE de 3/3/2026. O texto de referência para as Eleições 2026 é a Res. 23.610 compilada, não a 23.732 isolada.
+Lacunas: O texto gravado é a Res. 23.732/2024 como publicada (DJE-TSE nº 29, 4/3/2024); não reproduz as alterações de 2026 (Res. 23.755/2026, página do TSE: https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-755-de-2-de-marco-de-2026). Não conferido com o DJE-TSE.
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 91c12fef80e7d85c4a07bcfaca773a04a2df30d042957fd1dc3b21d6d39d68d8
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

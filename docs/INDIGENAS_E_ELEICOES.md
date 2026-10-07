@@ -82,7 +82,7 @@ As divergências pequenas de contagem vêm de data de corte (registros que o TSE
 
 ### Eleitos em figuras públicas (só cargos majoritários e Câmara Federal)
 
-Gerados do TSE e conferidos em imprensa quando indicado: 2018 Joênia Wapichana (Rede-RR); 2022 Sônia Guajajara (PSOL-SP), Célia Xakriabá (PSOL-MG), Juliana Cardoso (PT-SP), Paulo Guedes (PT-MG); 2026 Sônia, Juliana e Paulo Guedes (preliminar). Também aparecem como autodeclarados indígenas no registro (nota no JSON): Hamilton Mourão (vice-presidente 2018, senador RS 2022), Wellington Dias (senador PI 2022) e Jerônimo Rodrigues (governador BA, 2022 e 2026), sendo que apenas Mourão e Wellington Dias foram conferidos em fonte aberta (ISA). Nenhum candidato não eleito, deputado estadual ou vereador é nomeado.
+Gerados do TSE e conferidos em imprensa quando indicado: 2018 Joênia Wapichana (Rede-RR); 2022 Sônia Guajajara (PSOL-SP), Célia Xakriabá (PSOL-MG), Juliana Cardoso (PT-SP), Paulo Guedes (PT-MG); 2026 Sônia, Juliana e Paulo Guedes (preliminar). Também aparecem como autodeclarados indígenas no registro (nota no JSON): Hamilton Mourão (vice-presidente 2018, senador RS 2022), Wellington Dias (senador PI 2022) e Jerônimo Rodrigues (governador BA, 2022 e 2026), sendo que Mourão (2018, em imprensa: Congresso em Foco e Poder360), Wellington Dias e Mourão (2022, ISA) e Jerônimo Rodrigues (2022, BNews, que consultou o portal de candidaturas do TSE) foram conferidos em fonte aberta; o registro de Jerônimo em 2026 (snapshot preliminar do TSE) segue sem confirmação em imprensa. Nota: em agosto de 2022 o Poder360 noticiou que Mourão trocou a declaração para "branca" no registro ao Senado e ele falou em erro de preenchimento; o CSV do TSE usado aqui traz INDÍGENA. Nenhum candidato não eleito, deputado estadual ou vereador é nomeado.
 
 ### Municípios com maior % indígena (Censo 2022) contra os demais da mesma UF
 
@@ -110,6 +110,6 @@ Validação: 94,1% das seções têm coordenada válida; dos 303 locais com "ind
 - Autodeclaração não validada: eleitos "indígenas" no TSE incluem figuras sem vínculo com o movimento; não equivale a "bancada do cocar".
 - Eleitorado por cor/raça é praticamente não informado.
 - A divergência de 2022 (Silvia Waiãpi) não foi resolvida.
-- Não verificado: votos exatos de 1982 e de Joênia em 2018; crowdfunding e candidaturas coletivas; bancada ruralista na Constituinte; posições da CNA e de Bolsonaro em 2026; habeas corpus de Juruna; dias da assembleia de 1974; placar 9 a 2 do RE 1.017.365.
+- Não verificado: votos exatos de 1982 e de Joênia em 2018; crowdfunding e candidaturas coletivas; bancada ruralista na Constituinte; posições da CNA e de Bolsonaro em 2026; habeas corpus de Juruna; dias da assembleia de 1974. O placar 9 a 2 do RE 1.017.365 está no título de reportagem do Poder360 (aberta em 07/10/2026), não no corpo; o STF julgou em conjunto a ADC 87 e as ADIs 7582, 7583 e 7586 sobre a Lei 14.701/2023, com acórdão publicado em 18/3/2026 (relato do escritório Mattos Filho, lido; acórdão não lido).
 - Erros em `historia.json` a corrigir fora deste trabalho: `l14701-2023` diz veto integral (foi parcial); `marco-2026` (acórdão em 18/03/2026) não foi confirmado e o julgamento terminou em dezembro de 2025; `adc87-2024` só em resumo de busca.
 - O espectro partidário é uma classificação convencional simplificada do projeto.

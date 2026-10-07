@@ -7,9 +7,9 @@ Fonte (URL exata): https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-387-
 Publicação original (informada pela fonte): Este texto não substitui o original publicado no Coleção de Leis do Império do Brasil de 1846
 Data de captura: 2026-10-07
 Tipo de versão: original de época
-Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: Câmara dos Deputados, Legislação Informatizada, publicação original (Coleção de Leis do Império, 1846).
-Lacunas: Sem lacuna de artigos detectada (arts. 1 a 129 presentes).
+Status da conferência: texto original conferido contra a fonte
+Observações: Câmara dos Deputados, Legislação Informatizada, publicação original (Coleção de Leis do Império, 1846). Segunda fonte (revisão de 07/10/2026): Senado, 100% / 100% nos trechos de 4 palavras (as duas transcrições coincidem; não é leitura integral).
+Lacunas: Sem lacunas conhecidas.
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 1575cf37789407e16ed5fedc968c625062fb2e8a9abd04c39b590802a80ed464
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

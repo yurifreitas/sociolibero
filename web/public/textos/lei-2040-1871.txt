@@ -6,9 +6,9 @@ Tipo: lei | Autoridade: Princesa Imperial Regente / Assembleia Geral | Status da
 Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/leis/lim/lim2040.htm
 Data de captura: 2026-10-07
 Tipo de versão: original de época
-Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: Planalto (coleção de leis do Império).
-Lacunas: Fonte única.
+Status da conferência: conferência cruzada parcial entre duas fontes oficiais
+Observações: Planalto (coleção de leis do Império). Segunda fonte (revisão de 07/10/2026): Senado 98,0% / 98,1%, mas com divergências verbais entre Planalto (texto gravado) e Senado: "filhos de mulher escrava" (Senado "da mulher"), "ficarão em poder o sob a autoridade" (Senado "e sob"), "terá opção" (Senado "terá a opção"), "utilizar-se" (Senado "utilisar-se"), "o fundo de emancipação" (Senado "da emancipação"), "outrossim" (Senado "outrosim"), "famlia" (erro de digitação do Planalto), "secretário de estado de negocios" (Senado "dos negocios"). Nenhuma altera o sentido; a ortografia de época varia entre as transcrições.
+Lacunas: Divergências de transcrição entre Planalto e Senado; erros de digitação do Planalto preservados.
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 1c1877bc7a259b6fd906333f762aaed2b91129c73aa53a765e7acf00116cb363
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

@@ -71,19 +71,19 @@
    "nota": "Autodeclarado indígena no TSE; o ISA o cita como exemplo do limite da autodeclaração."
   },
   "General Mourão|2018": {
-   "fonte": "TSE consulta_cand_2018",
-   "verificado": false,
-   "nota": "Eleito vice-presidente (PRTB) com autodeclaração indígena no registro; não conferido em imprensa nesta pesquisa."
+   "fonte": "TSE consulta_cand_2018; Congresso em Foco, 15/8/2018 (\"Após criticar indolência de índios, vice de Bolsonaro se declara indígena\"); Poder360, 9/8/2022",
+   "verificado": true,
+   "nota": "Eleito vice-presidente (PRTB) com autodeclaração indígena no registro; confirmado em imprensa (páginas abertas em 07/10/2026). Em agosto de 2022 o Poder360 noticiou que ele mudou a declaração para \"branca\" no registro para o Senado e ele atribuiu a mudança a erro de preenchimento; o CSV do TSE de 2022 usado neste projeto traz INDÍGENA para ele (ver Hamilton Mourão, 2022). Sem vínculo com o movimento indígena segundo as fontes; a autodeclaração não é validada pelo TSE."
   },
   "Jerônimo|2022": {
-   "fonte": "TSE consulta_cand_2022",
-   "verificado": false,
-   "nota": "Autodeclaração indígena no registro do TSE; não conferida em imprensa nesta pesquisa."
+   "fonte": "TSE consulta_cand_2022; BNews (consulta ao portal de candidaturas do TSE, 2022)",
+   "verificado": true,
+   "nota": "Autodeclaração indígena no registro do TSE confirmada em reportagem do BNews (aberta em 07/10/2026): \"Jerônimo Rodrigues (PT), autodeclarou-se indígena. O vice dele, Geraldo Jr (MDB), pardo.\" A autodeclaração não é validada pelo TSE."
   },
   "Jerônimo Rodrigues|2026": {
    "fonte": "TSE consulta_cand_2026 (preliminar)",
    "verificado": false,
-   "nota": "Autodeclaração indígena no registro; não conferida em imprensa."
+   "nota": "Autodeclaração indígena no registro do snapshot do TSE de 06/10/2026; não localizada em imprensa nesta revisão (a confirmação existente é para 2022). Eleição de 2026 ainda sem resultado final para governador (2º turno pendente)."
   }
  },
  "linha_do_tempo": [
@@ -592,13 +592,13 @@
      "trecho_confirmado": "Lei de 20/10/2023 regulamenta o art. 231; página traz 'Mensagem de veto' e 'Promulgação partes vetadas'; altera a Lei 6.001/1973 (posse em 05/10/1988)."
     },
     {
-     "titulo": "Poder360 (14/12/2023): Agro prevalece e Congresso derruba veto de Lula",
+     "titulo": "Poder360: \"Por 9 a 2, STF rejeita tese do marco temporal\"",
      "url": "https://www.poder360.com.br/congresso/agro-prevalece-e-congresso-derruba-veto-de-lula-ao-marco-temporal/",
      "verificado": true,
      "trecho_confirmado": "Câmara derrubou o veto por 321 a 137 e 1 abstenção; Senado por 53 a 19; derrubada liderada pela bancada do agronegócio."
     },
     {
-     "titulo": "Poder360 (28/12/2023): Congresso promulga marco temporal",
+     "titulo": "Poder360: \"Por 9 a 2, STF rejeita tese do marco temporal\"",
      "url": "https://www.poder360.com.br/congresso/congresso-promulga-marco-temporal-e-desoneracao-da-folha",
      "verificado": true,
      "trecho_confirmado": "Rodrigo Pacheco promulgou o marco temporal em 28/12/2023; vetos derrubados em 14/12."
@@ -643,7 +643,13 @@
      "titulo": "IHU/Unisinos (28/09/2023): STF sela vitória dos indígenas e sepulta a tese do marco temporal",
      "url": "https://ihu.unisinos.br/632781-stf-sela-vitoria-dos-indigenas-e-sepulta-a-tese-do-marco-temporal",
      "verificado": false,
-     "trecho_confirmado": "Página aberta confirma a conclusão do julgamento e a aprovação do PL 2.903 no Senado por 43 a 21 em 27/09/2023, mas o placar 9 a 2 do RE 1.017.365 veio de resumo de busca, não de trecho da página."
+     "trecho_confirmado": "Página aberta confirma a conclusão do julgamento e a aprovação do PL 2.903 no Senado por 43 a 21 em 27/09/2023; o placar 9 a 2 do RE 1.017.365 vem de resumo de busca nesta página e está confirmado no título da reportagem do Poder360 (fonte seguinte)."
+    },
+    {
+     "titulo": "Poder360: \"Por 9 a 2, STF rejeita tese do marco temporal\"",
+     "url": "https://www.poder360.com.br/justica/por-9-a-2-stf-rejeita-tese-do-marco-temporal/",
+     "verificado": true,
+     "trecho_confirmado": "Título da reportagem aberta confirma o placar de 9 a 2 no RE 1.017.365 (Tema 1.031); o texto do corpo não foi lido."
     }
    ],
    "incerteza": "Divergências com historia.json: (a) o item l14701-2023 diz que Lula 'veta integralmente os pontos centrais' e o Planalto/Wikipedia tratam como veto parcial; (b) adc87-2024 tem data aproximada: a suspensão por Gilmar em 22/04/2024 aparece em resumo de busca (ISA/Conjur) sem trecho aberto; (c) marco-2026 afirma publicação do acórdão em 18/03/2026 com base em Mattos Filho, página que não abriu (Cloudflare) e o julgamento terminou em dezembro de 2025 (STF: 19/12; ISA: 18/12), então o acórdão em março de 2026 é plausível mas não verificado; (d) a data de entrada da PEC na Câmara: ficha mostra apresentação 10/12/2025 e CCJC em 07/05/2026 (resumo de busca sugeriu outubro de 2026, o que é erro). RE 1.017.365: 9 a 2 (Mendonça e Nunes Marques vencidos) só em resumo de busca; no julgamento de 2025 Nunes Marques acompanhou o relator e apenas Mendonça divergiu quanto ao marco (STF). Posição de Bolsonaro e da CNA em 2026 não verificada; posição do governo Lula em 2026 sobre PEC 48 não verificada.",

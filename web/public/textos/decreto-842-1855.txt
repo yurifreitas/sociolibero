@@ -8,8 +8,8 @@ Publicação original (informada pela fonte): Este texto não substitui o origin
 Data de captura: 2026-10-07
 Tipo de versão: original de época
 Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: Câmara dos Deputados, publicação original. Altera a Lei de 19/08/1846 (divide as províncias em distritos de um deputado).
-Lacunas: Texto curto, sem lacunas detectadas.
+Observações: Câmara dos Deputados, publicação original. Altera a Lei de 19/08/1846 (divide as províncias em distritos de um deputado). Revisão de 07/10/2026: a página da Câmara foi relida e coincide 100% com o texto gravado, mas é a mesma fonte; segunda fonte não localizada (o LexML não resolveu a URN do decreto e a página do Senado exige verificação de navegador).
+Lacunas: Fonte única (Câmara); texto curto, sem lacunas detectadas.
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 15cdd88e35db9d4ac2056e2e8c39e35454b250e1c204247109d0e1244284698e
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

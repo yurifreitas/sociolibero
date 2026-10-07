@@ -6,9 +6,9 @@ Tipo: emenda | Autoridade: Mesas da Câmara dos Deputados e do Senado Federal | 
 Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc25-85.htm
 Data de captura: 2026-10-07
 Tipo de versão: original de época
-Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: Planalto. Confirmado: a EC 25/1985 restabelece a eleição direta do Presidente (art. 74) e prevê que a lei disponha sobre o alistamento e voto dos analfabetos (art. 147, § 4º), mas MANTÉM analfabetos inelegíveis (art. 150) e restabelece partidos (art. 6º). A convocação da Constituinte foi a EC 26/1985 (não incluída no acervo).
-Lacunas: Fonte única. A "forma pela qual" os analfabetos votam foi regulada por lei posterior (não incluída).
+Status da conferência: texto original conferido contra a fonte
+Observações: Planalto. Confirmado: a EC 25/1985 restabelece a eleição direta do Presidente (art. 74) e prevê que a lei disponha sobre o alistamento e voto dos analfabetos (art. 147, § 4º), mas MANTÉM analfabetos inelegíveis (art. 150) e restabelece partidos (art. 6º). A convocação da Constituinte foi a EC 26/1985 (não incluída no acervo). Segunda fonte (revisão de 07/10/2026): Câmara 98,4% / 98,9%; arts. 147 § 4º e 150 conferem nas duas fontes.
+Lacunas: Sem lacunas conhecidas.
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 2f82d976aead89731d9ce8494bf9506c1008982cfb6fcb63f79df5627ea40b40
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

@@ -9,7 +9,7 @@ Data de captura: 2026-10-07
 Tipo de versão: original de época
 Status da conferência: texto original conferido contra a fonte
 Observações: Câmara dos Deputados, publicação original (DOU 26/07/1950). Comparação automática com o Planalto: 99.4% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 98.3% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).
-Lacunas: O HTML da Câmara não traz o artigo 14 (numeração salta); não investigado.
+Lacunas: O texto não traz o artigo 14: a numeração salta do art. 13 (e seus §§ 1º a 4º) para o título "Dos Tribunais Regionais" e o art. 15. A página do Planalto (l1164.htm, lida em 07/10/2026) salta do mesmo modo, então o salto está na publicação e não é falha da extração da Câmara. Não conferido no Diário Oficial de 26/07/1950.
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 247331194f3d2cd0b3b63bd342beb4c261b4f517b93eadcdfd0fcc2c673e8ebb
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

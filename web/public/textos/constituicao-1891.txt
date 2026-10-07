@@ -9,7 +9,7 @@ Data de captura: 2026-10-07
 Tipo de versão: original de época
 Status da conferência: conferência cruzada parcial entre duas fontes oficiais
 Observações: Câmara dos Deputados, publicação original (Diário do Congresso Nacional 24/02/1891). Ortografia de época preservada. Comparação automática com o Planalto: 71.6% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 61.4% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).
-Lacunas: Falta o artigo 86 na extração (erro de transcrição da fonte ou numeração distinta); não investigado.
+Lacunas: Art. 86 (serviço militar obrigatório: "Todo brazileiro é obrigado ao serviço militar, em defesa da Patria e da Constituição, na fórma das leis federaes.") PRESENTE no texto: na extração ficou na mesma linha do art. 85 ("85. ... Art. 86. ..."), por isso uma busca por início de linha não o encontra; a lacuna registrada antes era falsa. Conferido em 07/10/2026 contra o Planalto (Constituição de 1891, art. 86, mesmo conteúdo). Sem outras lacunas conhecidas.
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 6d714fe5fe5597cace2b1867fb42590163c609b89e6edaa479b1b868a8941326
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

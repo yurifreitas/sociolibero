@@ -2404,6 +2404,428 @@
      "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/votacao_candidato_munzona/votacao_candidato_munzona_1994.zip"
     },
     "verificado": true
+   },
+   {
+    "id": "lei-saraiva-1881",
+    "data": "2026-10-07",
+    "campo": "regras_de_voto",
+    "antes": {
+     "quem_votava": "Eleição direta; exigência de saber ler e escrever (após set/1882 para novos alistados; analfabetos já inscritos mantiveram o direito); renda mínima de 200 mil réis.",
+     "voto_secreto": false,
+     "mulheres": false,
+     "analfabetos": true,
+     "idade_minima": null,
+     "obrigatorio": null,
+     "regras_verificado": true
+    },
+    "depois": {
+     "quem_votava": "Eleição direta; renda mínima de 200 mil réis; saber ler e escrever é exigido para a INCLUSÃO no alistamento nas revisões anuais, a primeira em setembro de 1882 (Decreto 3.029/1881, art. 8º, II e § 1º). O art. 6º, § 14 manda constar no título \"a circumstancia de saber ou não ler e escrever\", o que mostra que o primeiro alistamento admitia quem não sabia; a revisão só inclui quem souber (art. 8º, II).",
+     "voto_secreto": false,
+     "mulheres": false,
+     "analfabetos": true,
+     "idade_minima": null,
+     "obrigatorio": null,
+     "regras_verificado": true
+    },
+    "motivo": "Referência corrigida (era \"art. 6º § 1º\" em docs e curadoria): a prova de saber ler e escrever está no art. 8º, II e § 1º. A ressalva de que analfabetos já inscritos mantiveram o direito é compatível com o texto (a exigência vale para inclusão em revisão), mas o texto não diz expressamente \"mantêm\".",
+    "fonte": {
+     "titulo": "Decreto 3.029/1881, arts. 6º § 14 e 8º (texto gravado em textos/decreto-3029-1881.txt; conferido com TSE, glossário Lei Saraiva)",
+     "url": "https://www.tse.jus.br/servicos-eleitorais/glossario/termos/lei-saraiva"
+    },
+    "verificado": true
+   },
+   {
+    "id": "indireta-1964",
+    "data": "2026-10-07",
+    "campo": "regras_de_voto",
+    "antes": {
+     "quem_votava": "Parlamentares em votação nominal.",
+     "voto_secreto": null,
+     "mulheres": null,
+     "analfabetos": null,
+     "idade_minima": null,
+     "obrigatorio": null,
+     "regras_verificado": false
+    },
+    "depois": {
+     "quem_votava": "Presidente e Vice eleitos pela maioria absoluta dos membros do Congresso Nacional, em sessão pública e votação nominal, dentro de dois dias da edição do ato (AI-1, art. 2º); sem inelegibilidades para essa eleição (art. 2º, § 2º).",
+     "voto_secreto": false,
+     "mulheres": null,
+     "analfabetos": null,
+     "idade_minima": null,
+     "obrigatorio": null,
+     "regras_verificado": true
+    },
+    "motivo": "Regra lida no texto do AI-1 (art. 2º e § 1º, § 2º).",
+    "fonte": {
+     "titulo": "Ato Institucional nº 1, de 9/4/1964 - art. 2º (texto gravado, Planalto e Câmara)",
+     "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-01-64.htm"
+    },
+    "verificado": true
+   },
+   {
+    "id": "indireta-1969",
+    "data": "2026-10-07",
+    "campo": "regras_de_voto",
+    "antes": {
+     "quem_votava": "Congresso em votação nominal; candidato único.",
+     "voto_secreto": null,
+     "mulheres": null,
+     "analfabetos": null,
+     "idade_minima": null,
+     "obrigatorio": null,
+     "regras_verificado": false
+    },
+    "depois": {
+     "quem_votava": "Eleição pelos membros do Congresso Nacional em sessão pública e votação nominal, em 25 de outubro de 1969 (AI-16, art. 4º). O fato de Médici ser candidato único vem de fonte secundária (Wikipédia) e não foi conferido em fonte primária.",
+     "voto_secreto": false,
+     "mulheres": null,
+     "analfabetos": null,
+     "idade_minima": null,
+     "obrigatorio": null,
+     "regras_verificado": true
+    },
+    "motivo": "Rito lido no AI-16 (art. 4º); \"candidato único\" mantido como informação secundária no texto.",
+    "fonte": {
+     "titulo": "Ato Institucional nº 16, de 14/10/1969 - art. 4º (Planalto, lido em 07/10/2026)",
+     "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-16-69.htm"
+    },
+    "verificado": true
+   },
+   {
+    "id": "geral-1970",
+    "data": "2026-10-07",
+    "campo": "regras_de_voto",
+    "antes": {
+     "quem_votava": "Voto obrigatório e direto para o legislativo; presidente por colégio.",
+     "voto_secreto": null,
+     "mulheres": null,
+     "analfabetos": null,
+     "idade_minima": null,
+     "obrigatorio": null,
+     "regras_verificado": false
+    },
+    "depois": {
+     "quem_votava": "Voto direto, secreto e obrigatório para Câmara e dois terços do Senado (EC 1/1969, arts. 147, § 1º, e 148); eleitores maiores de 18 anos, de ambos os sexos, sem os analfabetos (art. 147, caput e § 3º, a). Presidente por colégio eleitoral (art. 74); governadores de 1970 pelas Assembleias Legislativas em votação nominal (art. 189).",
+     "voto_secreto": true,
+     "mulheres": true,
+     "analfabetos": false,
+     "idade_minima": 18,
+     "obrigatorio": true,
+     "regras_verificado": true
+    },
+    "motivo": "Regras lidas na EC 1/1969 original (arts. 74, 147 a 148 e 189).",
+    "fonte": {
+     "titulo": "Emenda Constitucional nº 1/1969, arts. 74, 147, 148 e 189 (texto gravado, Câmara)",
+     "url": "https://www2.camara.leg.br/legin/fed/emecon/1960-1969/emendaconstitucional-1-17-outubro-1969-364989-publicacaooriginal-1-pl.html"
+    },
+    "verificado": true
+   },
+   {
+    "id": "lei-falcao-1976",
+    "data": "2026-10-07",
+    "campo": "regras_de_voto",
+    "antes": {
+     "quem_votava": "Aplicada às eleições municipais de 1976.",
+     "voto_secreto": null,
+     "mulheres": null,
+     "analfabetos": null,
+     "idade_minima": null,
+     "obrigatorio": null,
+     "regras_verificado": false
+    },
+    "depois": {
+     "quem_votava": "A Lei 6.339/1976 dá nova redação ao art. 250 do Código Eleitoral: o § 1º trata das eleições de âmbito municipal (30 dias de horário gratuito, só legenda, currículo, número e fotografias dos candidatos) e a lei vale desde a publicação, 1º/7/1976 (art. 4º), portanto para as eleições municipais de novembro de 1976. Não altera quem vota.",
+     "voto_secreto": null,
+     "mulheres": null,
+     "analfabetos": null,
+     "idade_minima": null,
+     "obrigatorio": null,
+     "regras_verificado": true
+    },
+    "motivo": "Aplicabilidade a 1976 lida no texto: § 1º do art. 250 (âmbito municipal) e vigência na publicação.",
+    "fonte": {
+     "titulo": "Lei nº 6.339, de 1º/7/1976 - art. 1º (art. 250, § 1º) e art. 4º (texto gravado, Câmara)",
+     "url": "https://www2.camara.leg.br/legin/fed/lei/1970-1979/lei-6339-1-julho-1976-357658-publicacaooriginal-1-pl.html"
+    },
+    "verificado": true
+   },
+   {
+    "id": "geral-1978",
+    "data": "2026-10-07",
+    "campo": "regras_de_voto",
+    "antes": {
+     "quem_votava": "Voto direto para os demais cargos; senadores biônicos por colégios.",
+     "voto_secreto": null,
+     "mulheres": null,
+     "analfabetos": null,
+     "idade_minima": null,
+     "obrigatorio": null,
+     "regras_verificado": false
+    },
+    "depois": {
+     "quem_votava": "Voto direto, secreto e majoritário para Câmara e demais vagas do Senado; em cada renovação por dois terços, uma das vagas do Senado é preenchida pelo colégio eleitoral do Governador, os senadores \"biônicos\" (EC 8/1977, art. 41, § 2º).",
+     "voto_secreto": null,
+     "mulheres": null,
+     "analfabetos": null,
+     "idade_minima": null,
+     "obrigatorio": null,
+     "regras_verificado": true
+    },
+    "motivo": "Regra lida na EC 8/1977.",
+    "fonte": {
+     "titulo": "Emenda Constitucional nº 8, de 14/4/1977 - art. 41, § 2º (texto gravado, Planalto e Câmara)",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc08-77.htm"
+    },
+    "verificado": true
+   },
+   {
+    "id": "geral-1982",
+    "data": "2026-10-07",
+    "campo": "regras_de_voto",
+    "antes": {
+     "quem_votava": "Voto direto; 'voto vinculado': o eleitor devia votar em candidatos do mesmo partido para todos os cargos, ou o voto era anulado.",
+     "voto_secreto": true,
+     "mulheres": true,
+     "analfabetos": false,
+     "idade_minima": 18,
+     "obrigatorio": true,
+     "regras_verificado": false
+    },
+    "depois": {
+     "quem_votava": "Voto direto, secreto e obrigatório, maiores de 18 anos de ambos os sexos, sem analfabetos (EC 1/1969, arts. 147 e 148); \"voto vinculado\": o eleitor votava apenas em candidatos do mesmo partido, sob pena de nulidade do voto para todos os cargos (Lei 6.978/1982, art. 8º, na redação da Lei 7.015/1982).",
+     "voto_secreto": true,
+     "mulheres": true,
+     "analfabetos": false,
+     "idade_minima": 18,
+     "obrigatorio": true,
+     "regras_verificado": true
+    },
+    "motivo": "Todos os campos de regras lidos em fonte primária.",
+    "fonte": {
+     "titulo": "EC 1/1969, arts. 147-148 (texto gravado) e Lei nº 6.978, de 19/1/1982, art. 8º (Planalto, lido em 07/10/2026)",
+     "url": "https://www.planalto.gov.br/ccivil_03/leis/1980-1988/l6978.htm"
+    },
+    "verificado": true
+   },
+   {
+    "id": "geral-1974",
+    "data": "2026-10-07",
+    "campo": "regras_de_voto.quem_votava",
+    "antes": {
+     "quem_votava": "Voto direto obrigatório para o legislativo; governadores eleitos indiretamente pelas Assembleias (AI-3, 1966), não nomeados diretamente; 'biônicos' são os senadores indiretos criados em 1977.",
+     "voto_secreto": null,
+     "mulheres": null,
+     "analfabetos": null,
+     "idade_minima": null,
+     "obrigatorio": null,
+     "regras_verificado": false
+    },
+    "depois": {
+     "quem_votava": "Voto direto, secreto e obrigatório para Câmara e dois terços do Senado (EC 1/1969, arts. 147-148). Governadores: a EC 1/1969 (art. 13, § 2º, texto original) prevê voto direto e o art. 189 só regula a eleição de 1970 por colégio das Assembleias; a base legal da escolha indireta dos governadores em 1974 não foi lida (o AI-3, de 1966, tratou da eleição de 1966). Os senadores \"biônicos\" só existem a partir da EC 8/1977, art. 41, § 2º, posterior a esta eleição.",
+     "voto_secreto": null,
+     "mulheres": null,
+     "analfabetos": null,
+     "idade_minima": null,
+     "obrigatorio": null,
+     "regras_verificado": false,
+     "regras_nota": "Parte lida (voto direto, secreto, obrigatório; EC 1/1969); base legal da eleição indireta de governadores em 1974 não localizada."
+    },
+    "motivo": "A frase anterior atribuía a escolha indireta de 1974 ao AI-3 (1966) e dizia que \"biônicos\" foram criados em 1977 em referência a esta eleição; o texto foi corrigido para o que foi lido e a base de 1974 segue em aberto.",
+    "fonte": {
+     "titulo": "EC 1/1969, arts. 13, 147-148, 189 (texto gravado, Câmara)",
+     "url": "https://www2.camara.leg.br/legin/fed/emecon/1960-1969/emendaconstitucional-1-17-outubro-1969-364989-publicacaooriginal-1-pl.html"
+    },
+    "verificado": false
+   },
+   {
+    "id": "pres-2026-t2",
+    "data": "2026-10-07",
+    "campo": "regras_de_voto",
+    "antes": {
+     "quem_votava": "Idem.",
+     "voto_secreto": null,
+     "mulheres": null,
+     "analfabetos": null,
+     "idade_minima": null,
+     "obrigatorio": null,
+     "regras_verificado": false
+    },
+    "depois": {
+     "quem_votava": "Mesmas regras do 1º turno: voto obrigatório para maiores de 18 anos e facultativo para analfabetos, maiores de 70 e jovens de 16 e 17 anos (CF, art. 14, § 1º). O 2º turno ocorre no último domingo de outubro (art. 77, na redação da EC 16/1997); 25/10/2026 é o último domingo de outubro.",
+     "voto_secreto": true,
+     "mulheres": true,
+     "analfabetos": true,
+     "idade_minima": 16,
+     "obrigatorio": true,
+     "regras_verificado": true
+    },
+    "motivo": "Regra lida na Constituição e na EC 16/1997; data conferida no calendário.",
+    "fonte": {
+     "titulo": "CF/1988, art. 14, § 1º (texto original gravado) e art. 77 (EC 16/1997, texto gravado)",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-publicacaooriginal-1-pl.html"
+    },
+    "verificado": true
+   },
+   {
+    "id": "pres-1960",
+    "data": "2026-10-07",
+    "campo": "eleitorado",
+    "antes": {
+     "valor": 15542332,
+     "pct_populacao": 18.0,
+     "tipo": "eleitores (resumo de busca de dado TSE)",
+     "fonte": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra)",
+     "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+     "verificado": false,
+     "nota": "15.542.332 aparece só em resumo de busca; o 18% é rótulo de gráfico de Nicolau. Atenção: no texto do artigo de Nicolau, extraído do PDF, os rótulos do Gráfico 2 aparecem fora de ordem (15,9; 15,2; 17,0; 18,1; 19,4; 20,0; 20,9 para 1950-1966) e a nota diz que o gráfico mede o comparecimento para a Câmara; a associação de cada rótulo a 1955 e 1960 é ambígua. Valores só confirmados no texto: 1933 = 3,3%; 1945 = 13,4%; 1962 = 20,0%; 1966 = 20,4%; 1982 = 39,3%."
+    },
+    "depois": {
+     "valor": 15542332,
+     "pct_populacao": null,
+     "tipo": "eleitores inscritos (quadro de evolução do eleitorado do TSE, citado em matéria do Senado de 1989)",
+     "fonte": "Castanho, V. \"Eleitorado cresce 528% em relação a 1960\" (arquivo do Senado Federal; cita o quadro de evolução do eleitorado do TSE: 15.542.332 eleitores em 1960)",
+     "url": "https://www2.senado.leg.br/jspui/bitstream/id/892392/1/Eleicao_presidencial_P055_R0217.pdf",
+     "verificado": true,
+     "nota": "Número lido na matéria (fonte secundária, de 1989, que cita o TSE). O percentual de 18,0% foi retirado: era rótulo de gráfico de Nicolau, ambíguo, e o comparecimento (12.586.354) já está em \"comparecimento\". Não há dado aberto do TSE de 1960 para conferir."
+    },
+    "motivo": "Número 15.542.332 lido em matéria do Senado que cita o TSE (antes só em resumo de busca); percentual retirado por ser rótulo ambíguo de gráfico.",
+    "fonte": {
+     "titulo": "Castanho, V. (Senado, 1989), cita TSE",
+     "url": "https://www2.senado.leg.br/jspui/bitstream/id/892392/1/Eleicao_presidencial_P055_R0217.pdf"
+    },
+    "verificado": true
+   },
+   {
+    "id": "republicanismo-viradas-2",
+    "data": "2026-10-07",
+    "campo": "movimentos/republicanismo/viradas[2]",
+    "antes": {
+     "data": "1889-11-15",
+     "fato": "Proclamação da República (historia.json: rep-1889).",
+     "fonte": "Eleição presidencial de 1894 - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_1894",
+     "verificado": false
+    },
+    "depois": {
+     "data": "1889-11-15",
+     "fato": "Proclamação da República (historia.json: rep-1889).",
+     "fonte": "Decreto nº 1, de 15/11/1889 (Governo Provisório) - Planalto, lido em 07/10/2026",
+     "url": "https://www.planalto.gov.br/ccivil_03/decreto/1851-1899/d0001.htm",
+     "verificado": true
+    },
+    "motivo": "Data e fato lidos em fonte primária (antes: Wikipédia ou resumo de busca).",
+    "fonte": {
+     "titulo": "Decreto nº 1, de 15/11/1889 (Governo Provisório) - Planalto, lido em 07/10/2026",
+     "url": "https://www.planalto.gov.br/ccivil_03/decreto/1851-1899/d0001.htm"
+    },
+    "verificado": true
+   },
+   {
+    "id": "constituinte-1987-como_se_construiu-0",
+    "data": "2026-10-07",
+    "campo": "movimentos/constituinte-1987/como_se_construiu[0]",
+    "antes": {
+     "passo": 1,
+     "data": "1985-11-27",
+     "descricao": "EC 26 convoca a Constituinte.",
+     "verificado": false,
+     "fonte": "Assembleia Nacional Constituinte de 1987 - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Assembleia_Nacional_Constituinte_de_1987"
+    },
+    "depois": {
+     "passo": 1,
+     "data": "1985-11-27",
+     "descricao": "EC 26 convoca a Constituinte.",
+     "verificado": true,
+     "fonte": "Emenda Constitucional nº 26, de 27/11/1985 - Planalto, lida em 07/10/2026 (convoca a Assembleia Nacional Constituinte para 1º/2/1987)",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc26-85.htm"
+    },
+    "motivo": "Data e fato lidos em fonte primária (antes: Wikipédia ou resumo de busca).",
+    "fonte": {
+     "titulo": "Emenda Constitucional nº 26, de 27/11/1985 - Planalto, lida em 07/10/2026 (convoca a Assembleia Nacional Constituinte para 1º/2/1987)",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc26-85.htm"
+    },
+    "verificado": true
+   },
+   {
+    "id": "constituinte-1987-viradas-2",
+    "data": "2026-10-07",
+    "campo": "movimentos/constituinte-1987/viradas[2]",
+    "antes": {
+     "data": "1988-10-05",
+     "fato": "Promulgação (historia.json: cf88-1988).",
+     "fonte": "Assembleia Nacional Constituinte de 1987 - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Assembleia_Nacional_Constituinte_de_1987",
+     "verificado": false
+    },
+    "depois": {
+     "data": "1988-10-05",
+     "fato": "Promulgação (historia.json: cf88-1988).",
+     "fonte": "Constituição de 1988, texto original - fecho datado \"Brasília, 5 de outubro de 1988\" (cópia gravada em textos/constituicao-1988.txt, origem Câmara)",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-publicacaooriginal-1-pl.html",
+     "verificado": true
+    },
+    "motivo": "Data e fato lidos em fonte primária (antes: Wikipédia ou resumo de busca).",
+    "fonte": {
+     "titulo": "Constituição de 1988, texto original - fecho datado \"Brasília, 5 de outubro de 1988\" (cópia gravada em textos/constituicao-1988.txt, origem Câmara)",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-publicacaooriginal-1-pl.html"
+    },
+    "verificado": true
+   },
+   {
+    "id": "constituinte-1987-como_se_construiu-4",
+    "data": "2026-10-07",
+    "campo": "movimentos/constituinte-1987/como_se_construiu[4]",
+    "antes": {
+     "passo": 5,
+     "data": "1988-10-05",
+     "descricao": "Promulgação.",
+     "verificado": false,
+     "fonte": "Assembleia Nacional Constituinte de 1987 - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Assembleia_Nacional_Constituinte_de_1987"
+    },
+    "depois": {
+     "passo": 5,
+     "data": "1988-10-05",
+     "descricao": "Promulgação.",
+     "verificado": true,
+     "fonte": "Constituição de 1988, texto original - fecho datado \"Brasília, 5 de outubro de 1988\" (cópia gravada em textos/constituicao-1988.txt, origem Câmara)",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-publicacaooriginal-1-pl.html"
+    },
+    "motivo": "Data e fato lidos em fonte primária (antes: Wikipédia ou resumo de busca).",
+    "fonte": {
+     "titulo": "Constituição de 1988, texto original - fecho datado \"Brasília, 5 de outubro de 1988\" (cópia gravada em textos/constituicao-1988.txt, origem Câmara)",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-publicacaooriginal-1-pl.html"
+    },
+    "verificado": true
+   },
+   {
+    "id": "real-psdb-pfl-como_se_construiu-6",
+    "data": "2026-10-07",
+    "campo": "movimentos/real-psdb-pfl/como_se_construiu[6]",
+    "antes": {
+     "passo": 7,
+     "data": "1997-06-04",
+     "descricao": "EC 16 (reeleição).",
+     "verificado": false,
+     "fonte": "Eleição presidencial de 1998 - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_1998"
+    },
+    "depois": {
+     "passo": 7,
+     "data": "1997-06-04",
+     "descricao": "EC 16 (reeleição).",
+     "verificado": true,
+     "fonte": "Emenda Constitucional nº 16, de 4/6/1997 (texto gravado; Planalto, Câmara e Senado coincidem na data)",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc16.htm"
+    },
+    "motivo": "Data e fato lidos em fonte primária (antes: Wikipédia ou resumo de busca).",
+    "fonte": {
+     "titulo": "Emenda Constitucional nº 16, de 4/6/1997 (texto gravado; Planalto, Câmara e Senado coincidem na data)",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc16.htm"
+    },
+    "verificado": true
    }
   ]
  },
@@ -2422,7 +2844,8 @@
     "analfabetos": null,
     "idade_minima": null,
     "obrigatorio": null,
-    "regras_verificado": false
+    "regras_verificado": false,
+    "regras_nota": "Fonte lida (nota institucional da Assembleia Legislativa de SP) não descreve quem votava."
    },
    "eleitorado": {
     "valor": null,
@@ -2472,7 +2895,8 @@
     "analfabetos": null,
     "idade_minima": null,
     "obrigatorio": null,
-    "regras_verificado": false
+    "regras_verificado": false,
+    "regras_nota": "Instruções de 22/11/1820 (modelo de Cádis) não foram lidas; fonte acadêmica só em resumo de busca."
    },
    "eleitorado": {
     "valor": null,
@@ -2480,7 +2904,8 @@
     "tipo": "n/d",
     "fonte": "Motta, K. S. 'Diretas ou indiretas? O debate sobre as eleições no Brasil (1821-1823)' (TSE/UNIFESP; lido só em resumo de busca)",
     "url": "https://bibliotecadigital.tse.jus.br/items/6e4aaf4b-e594-46cd-a41a-d1071edee29b",
-    "verificado": false
+    "verificado": false,
+    "nota": "Entrada de norma ou de evento, não de pleito com eleitorado próprio. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Indireta (dois graus no Brasil, um grau a menos que o modelo de Cádis em comarca única, como no Rio de Janeiro).",
@@ -2525,7 +2950,8 @@
     "tipo": "n/d",
     "fonte": "Constituição de 1824 - Wikipédia (secundária)",
     "url": "https://pt.wikipedia.org/wiki/Constitui%C3%A7%C3%A3o_brasileira_de_1824",
-    "verificado": false
+    "verificado": false,
+    "nota": "Entrada de norma ou de evento, não de pleito com eleitorado próprio. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Indireta, em dois graus (assembleias paroquiais escolhem eleitores; estes escolhem deputados). Deputados deviam professar a religião católica (art. 95, III, segundo a página lida).",
@@ -2613,7 +3039,7 @@
    "cargo": "Câmara dos Deputados (1ª eleição direta, sob a Lei Saraiva, Decreto 3.029 de 09/01/1881)",
    "regime": "Império (monarquia constitucional)",
    "regras_de_voto": {
-    "quem_votava": "Eleição direta; exigência de saber ler e escrever (após set/1882 para novos alistados; analfabetos já inscritos mantiveram o direito); renda mínima de 200 mil réis.",
+    "quem_votava": "Eleição direta; renda mínima de 200 mil réis; saber ler e escrever é exigido para a INCLUSÃO no alistamento nas revisões anuais, a primeira em setembro de 1882 (Decreto 3.029/1881, art. 8º, II e § 1º). O art. 6º, § 14 manda constar no título \"a circumstancia de saber ou não ler e escrever\", o que mostra que o primeiro alistamento admitia quem não sabia; a revisão só inclui quem souber (art. 8º, II).",
     "voto_secreto": false,
     "mulheres": false,
     "analfabetos": true,
@@ -2695,7 +3121,8 @@
     "tipo": "n/d",
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Eleição indireta: o colégio eleitoral era parlamentar (Congresso ou Assembleias) e seu tamanho não foi contado nesta coleta. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Indireta, pelos constituintes.",
@@ -2936,7 +3363,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Entrada de norma ou de evento, não de pleito com eleitorado próprio. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Distritos de 5 deputados (art. 58) e voto cumulativo: o eleitor podia acumular votos num só candidato (art. 59).",
@@ -3135,7 +3563,8 @@
     "tipo": "n/d",
     "fonte": "Eleição presidencial de 1922 - Wikipédia (secundária)",
     "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_1922",
-    "verificado": false
+    "verificado": false,
+    "nota": "Número de eleitores não localizado em fonte lida (nenhum dado aberto do TSE para essa data); a Wikipédia e resumos de busca não foram aceitos como fonte. Sem valor, sem selo."
    },
    "comparecimento": {
     "valor": 1066000,
@@ -3449,7 +3878,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Eleição indireta: o colégio eleitoral era parlamentar (Congresso ou Assembleias) e seu tamanho não foi contado nesta coleta. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Indireta.",
@@ -3523,7 +3953,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Entrada de norma ou de evento, não de pleito com eleitorado próprio. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Sem eleições; partidos extintos por decreto em 02/12/1937.",
@@ -3814,7 +4245,7 @@
     "fonte": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra)",
     "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
     "verificado": false,
-    "nota": "Atenção: no texto do artigo de Nicolau, extraído do PDF, os rótulos do Gráfico 2 aparecem fora de ordem (15,9; 15,2; 17,0; 18,1; 19,4; 20,0; 20,9 para 1950-1966) e a nota diz que o gráfico mede o comparecimento para a Câmara; a associação de cada rótulo a 1955 e 1960 é ambígua. Valores só confirmados no texto: 1933 = 3,3%; 1945 = 13,4%; 1962 = 20,0%; 1966 = 20,4%; 1982 = 39,3%."
+    "nota": "Valor exato não localizado; Nicolau (2022, Estudos Históricos, DOI 10.1590/s2178-149420220109, página lida) diz que o eleitorado ficou do mesmo tamanho entre as eleições de 1955 e 1960, \"15,5 milhões inscritos para votar em 1955 e 1960\". Sem valor exato, sem selo. O pct_populacao de 15,0 é rótulo de gráfico de Nicolau (2004), ambíguo."
    },
    "comparecimento": {
     "valor": 9097014,
@@ -3918,12 +4349,12 @@
    },
    "eleitorado": {
     "valor": 15542332,
-    "pct_populacao": 18.0,
-    "tipo": "eleitores (resumo de busca de dado TSE)",
-    "fonte": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra)",
-    "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
-    "verificado": false,
-    "nota": "15.542.332 aparece só em resumo de busca; o 18% é rótulo de gráfico de Nicolau. Atenção: no texto do artigo de Nicolau, extraído do PDF, os rótulos do Gráfico 2 aparecem fora de ordem (15,9; 15,2; 17,0; 18,1; 19,4; 20,0; 20,9 para 1950-1966) e a nota diz que o gráfico mede o comparecimento para a Câmara; a associação de cada rótulo a 1955 e 1960 é ambígua. Valores só confirmados no texto: 1933 = 3,3%; 1945 = 13,4%; 1962 = 20,0%; 1966 = 20,4%; 1982 = 39,3%."
+    "pct_populacao": null,
+    "tipo": "eleitores inscritos (quadro de evolução do eleitorado do TSE, citado em matéria do Senado de 1989)",
+    "fonte": "Castanho, V. \"Eleitorado cresce 528% em relação a 1960\" (arquivo do Senado Federal; cita o quadro de evolução do eleitorado do TSE: 15.542.332 eleitores em 1960); Nicolau (2022), Estudos Históricos, DOI 10.1590/s2178-149420220109",
+    "url": "https://www2.senado.leg.br/jspui/bitstream/id/892392/1/Eleicao_presidencial_P055_R0217.pdf",
+    "verificado": true,
+    "nota": "Número lido na matéria (fonte secundária, de 1989, que cita o TSE). O percentual de 18,0% foi retirado: era rótulo de gráfico de Nicolau, ambíguo, e o comparecimento (12.586.354) já está em \"comparecimento\". Não há dado aberto do TSE de 1960 para conferir. Corroborado por Nicolau, J. \"As eleições presidenciais de 1960: uma análise a partir dos dados municipais\", Estudos Históricos 35(75), 2022, p. 159-175 (DOI 10.1590/s2178-149420220109, conferido no Crossref; página lida): \"15,5 milhões inscritos para votar em 1955 e 1960\"."
    },
    "comparecimento": {
     "valor": 12586354,
@@ -4030,7 +4461,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Número de eleitores não localizado em fonte lida (nenhum dado aberto do TSE para essa data); a Wikipédia e resumos de busca não foram aceitos como fonte. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Proporcional para a Câmara (409 cadeiras): PSD 123, PTB 104, UDN 94, PSP 23, outros 65. Senado: PSD 16, PTB 11, UDN 9, outros 7.",
@@ -4105,7 +4537,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Número de eleitores não localizado em fonte lida (nenhum dado aberto do TSE para essa data); a Wikipédia e resumos de busca não foram aceitos como fonte. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Consulta direta: manter o sistema parlamentarista ou voltar ao presidencialismo.",
@@ -4184,13 +4617,13 @@
    "cargo": "Presidente (Congresso Nacional como Colégio Eleitoral, AI-1)",
    "regime": "Ditadura civil-militar",
    "regras_de_voto": {
-    "quem_votava": "Parlamentares em votação nominal.",
-    "voto_secreto": null,
+    "quem_votava": "Presidente e Vice eleitos pela maioria absoluta dos membros do Congresso Nacional, em sessão pública e votação nominal, dentro de dois dias da edição do ato (AI-1, art. 2º); sem inelegibilidades para essa eleição (art. 2º, § 2º).",
+    "voto_secreto": false,
     "mulheres": null,
     "analfabetos": null,
     "idade_minima": null,
     "obrigatorio": null,
-    "regras_verificado": false
+    "regras_verificado": true
    },
    "eleitorado": {
     "valor": null,
@@ -4198,7 +4631,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Eleição indireta: o colégio eleitoral era parlamentar (Congresso ou Assembleias) e seu tamanho não foi contado nesta coleta. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Indireta pelo Congresso, após o AI-1 (09/04/1964).",
@@ -4255,7 +4689,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Eleição indireta: o colégio eleitoral era parlamentar (Congresso ou Assembleias) e seu tamanho não foi contado nesta coleta. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Extinguiu os partidos (art. 18); o bipartidarismo ARENA x MDB veio com o Ato Complementar nº 4 (historia.json). Ampliou o STF de 11 para 16 ministros; permitiu cassar mandatos e suspender direitos políticos por 10 anos.",
@@ -4320,7 +4755,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Eleição indireta: o colégio eleitoral era parlamentar (Congresso ou Assembleias) e seu tamanho não foi contado nesta coleta. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Indireta, bipartidarismo ARENA x MDB.",
@@ -4383,13 +4819,13 @@
    "cargo": "Presidente (Médici), Congresso reaberto sob AI-16",
    "regime": "Ditadura civil-militar",
    "regras_de_voto": {
-    "quem_votava": "Congresso em votação nominal; candidato único.",
-    "voto_secreto": null,
+    "quem_votava": "Eleição pelos membros do Congresso Nacional em sessão pública e votação nominal, em 25 de outubro de 1969 (AI-16, art. 4º). O fato de Médici ser candidato único vem de fonte secundária (Wikipédia) e não foi conferido em fonte primária.",
+    "voto_secreto": false,
     "mulheres": null,
     "analfabetos": null,
     "idade_minima": null,
     "obrigatorio": null,
-    "regras_verificado": false
+    "regras_verificado": true
    },
    "eleitorado": {
     "valor": null,
@@ -4397,7 +4833,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Eleição indireta: o colégio eleitoral era parlamentar (Congresso ou Assembleias) e seu tamanho não foi contado nesta coleta. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Indireta; só um candidato.",
@@ -4438,13 +4875,13 @@
    "cargo": "Câmara (310 cadeiras), 2/3 do Senado",
    "regime": "Ditadura civil-militar",
    "regras_de_voto": {
-    "quem_votava": "Voto obrigatório e direto para o legislativo; presidente por colégio.",
-    "voto_secreto": null,
-    "mulheres": null,
-    "analfabetos": null,
-    "idade_minima": null,
-    "obrigatorio": null,
-    "regras_verificado": false
+    "quem_votava": "Voto direto, secreto e obrigatório para Câmara e dois terços do Senado (EC 1/1969, arts. 147, § 1º, e 148); eleitores maiores de 18 anos, de ambos os sexos, sem os analfabetos (art. 147, caput e § 3º, a). Presidente por colégio eleitoral (art. 74); governadores de 1970 pelas Assembleias Legislativas em votação nominal (art. 189).",
+    "voto_secreto": true,
+    "mulheres": true,
+    "analfabetos": false,
+    "idade_minima": 18,
+    "obrigatorio": true,
+    "regras_verificado": true
    },
    "eleitorado": {
     "valor": null,
@@ -4452,7 +4889,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Número de eleitores não localizado em fonte lida (nenhum dado aberto do TSE para essa data); a Wikipédia e resumos de busca não foram aceitos como fonte. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "ARENA 223 cadeiras e MDB 87 na Câmara (TSE v. 9 via Pecoraro e Kinzo concordam); Senado (46): ARENA 41 e MDB 5 segundo Kinzo, ARENA 40 e MDB 6 segundo o TSE v. 9 citado por Pecoraro (divergência de uma cadeira, não resolvida).",
@@ -4575,13 +5013,14 @@
    "cargo": "Senado (22 vagas), Câmara (364), assembleias",
    "regime": "Ditadura civil-militar",
    "regras_de_voto": {
-    "quem_votava": "Voto direto obrigatório para o legislativo; governadores eleitos indiretamente pelas Assembleias (AI-3, 1966), não nomeados diretamente; 'biônicos' são os senadores indiretos criados em 1977.",
+    "quem_votava": "Voto direto, secreto e obrigatório para Câmara e dois terços do Senado (EC 1/1969, arts. 147-148). Governadores: a EC 1/1969 (art. 13, § 2º, texto original) prevê voto direto e o art. 189 só regula a eleição de 1970 por colégio das Assembleias; a base legal da escolha indireta dos governadores em 1974 não foi lida (o AI-3, de 1966, tratou da eleição de 1966). Os senadores \"biônicos\" só existem a partir da EC 8/1977, art. 41, § 2º, posterior a esta eleição.",
     "voto_secreto": null,
     "mulheres": null,
     "analfabetos": null,
     "idade_minima": null,
     "obrigatorio": null,
-    "regras_verificado": false
+    "regras_verificado": false,
+    "regras_nota": "Parte lida (voto direto, secreto, obrigatório; EC 1/1969); base legal da eleição indireta de governadores em 1974 não localizada."
    },
    "eleitorado": {
     "valor": null,
@@ -4589,7 +5028,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Número de eleitores não localizado em fonte lida (nenhum dado aberto do TSE para essa data); a Wikipédia e resumos de busca não foram aceitos como fonte. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Câmara (364): ARENA 204 e MDB 160 segundo Kinzo (1988) e a página da eleição; ARENA 203 e MDB 161 segundo o TSE (Dados Estatísticos, v. 11, 1977, p. 26, citado por Pecoraro 2019); a página do MDB registra 165. Senado: MDB 16 das 22 vagas e ARENA 6 (Kinzo e TSE concordam).",
@@ -4678,13 +5118,13 @@
    "cargo": "Lei nº 6.339: propaganda restrita no rádio e TV",
    "regime": "Ditadura civil-militar",
    "regras_de_voto": {
-    "quem_votava": "Aplicada às eleições municipais de 1976.",
+    "quem_votava": "A Lei 6.339/1976 dá nova redação ao art. 250 do Código Eleitoral: o § 1º trata das eleições de âmbito municipal (30 dias de horário gratuito, só legenda, currículo, número e fotografias dos candidatos) e a lei vale desde a publicação, 1º/7/1976 (art. 4º), portanto para as eleições municipais de novembro de 1976. Não altera quem vota.",
     "voto_secreto": null,
     "mulheres": null,
     "analfabetos": null,
     "idade_minima": null,
     "obrigatorio": null,
-    "regras_verificado": false
+    "regras_verificado": true
    },
    "eleitorado": {
     "valor": null,
@@ -4692,7 +5132,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Entrada de norma ou de evento, não de pleito com eleitorado próprio. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Partidos só podiam mencionar legenda, currículo e número do candidato e divulgar fotografia (TV).",
@@ -4735,7 +5176,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Entrada de norma ou de evento, não de pleito com eleitorado próprio. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Um terço do Senado por eleição indireta (senadores 'biônicos': na renovação de 2/3, uma vaga direta e outra pelo colégio, art. 41, §2º, EC 8), governadores por colégio ampliado com delegados municipais (já eram indiretos desde o AI-3, 1966; art. 13, §2º), mandato presidencial de 5 para 6 anos (art. 75, §3º; o mandato de Geisel terminaria em 15/03/1979, art. 208), colégio presidencial com 3 delegados por Assembleia mais 1 por milhão de habitantes e mínimo de 4 (art. 74, §2º), emendas aprovadas por maioria absoluta do total do Congresso (art. 48), não 'maioria simples'; Lei Falcão estendida às eleições gerais estaduais pelo DL 1.538.",
@@ -4806,7 +5248,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Eleição indireta: o colégio eleitoral era parlamentar (Congresso ou Assembleias) e seu tamanho não foi contado nesta coleta. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Indireta.",
@@ -4856,13 +5299,13 @@
    "cargo": "Senado (45 vagas, 22 indiretas), Câmara (420)",
    "regime": "Ditadura civil-militar",
    "regras_de_voto": {
-    "quem_votava": "Voto direto para os demais cargos; senadores biônicos por colégios.",
+    "quem_votava": "Voto direto, secreto e majoritário para Câmara e demais vagas do Senado; em cada renovação por dois terços, uma das vagas do Senado é preenchida pelo colégio eleitoral do Governador, os senadores \"biônicos\" (EC 8/1977, art. 41, § 2º).",
     "voto_secreto": null,
     "mulheres": null,
     "analfabetos": null,
     "idade_minima": null,
     "obrigatorio": null,
-    "regras_verificado": false
+    "regras_verificado": true
    },
    "eleitorado": {
     "valor": null,
@@ -4870,7 +5313,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Número de eleitores não localizado em fonte lida (nenhum dado aberto do TSE para essa data); a Wikipédia e resumos de busca não foram aceitos como fonte. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "ARENA 231 e MDB 189 cadeiras na Câmara (420), segundo Kinzo (1988); Senado: 22 indiretos (EC 8/1977) e 23 diretos (ARENA 15 e MDB 8). A leitura 228 x 196 (página do MDB) soma 424, mais que as 420 cadeiras existentes (EC 8, art. 39: até 420), logo não pode ser resultado da eleição.",
@@ -4918,13 +5362,13 @@
    "cargo": "Governadores (22), Senado, Câmara",
    "regime": "Abertura",
    "regras_de_voto": {
-    "quem_votava": "Voto direto; 'voto vinculado': o eleitor devia votar em candidatos do mesmo partido para todos os cargos, ou o voto era anulado.",
+    "quem_votava": "Voto direto, secreto e obrigatório, maiores de 18 anos de ambos os sexos, sem analfabetos (EC 1/1969, arts. 147 e 148); \"voto vinculado\": o eleitor votava apenas em candidatos do mesmo partido, sob pena de nulidade do voto para todos os cargos (Lei 6.978/1982, art. 8º, na redação da Lei 7.015/1982).",
     "voto_secreto": true,
     "mulheres": true,
     "analfabetos": false,
     "idade_minima": 18,
     "obrigatorio": true,
-    "regras_verificado": false
+    "regras_verificado": true
    },
    "eleitorado": {
     "valor": 58616588,
@@ -5018,7 +5462,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Entrada de norma ou de evento, não de pleito com eleitorado próprio. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Emenda constitucional rejeitada por falta de quórum.",
@@ -5166,7 +5611,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Entrada de norma ou de evento, não de pleito com eleitorado próprio. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Alargamento do sufrágio.",
@@ -5309,7 +5755,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Entrada de norma ou de evento, não de pleito com eleitorado próprio. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Dois turnos para presidente (art. 77). A regra de segundo turno para prefeitos de municípios com mais de 200 mil eleitores não é de 1988: entrou no art. 29, II, pela EC 16/1997, e já valera em 1996 por lei ordinária (Lei 9.100/1995, art. 2º, §2º).",
@@ -5808,7 +6255,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Entrada de norma ou de evento, não de pleito com eleitorado próprio. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Permitiu um segundo mandato consecutivo.",
@@ -6438,7 +6886,8 @@
     "analfabetos": null,
     "idade_minima": null,
     "obrigatorio": null,
-    "regras_verificado": false
+    "regras_verificado": false,
+    "regras_nota": "Entrada sobre financiamento; \"sem mudança no eleitorado\" é consequência do objeto da ação e não foi lida no acórdão do STF."
    },
    "eleitorado": {
     "valor": null,
@@ -6446,7 +6895,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Entrada de norma ou de evento, não de pleito com eleitorado próprio. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Julgamento por 8 a 3, relator Luiz Fux; efeitos a partir de 2016, sem retroação.",
@@ -6590,7 +7040,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "Entrada de norma ou de evento, não de pleito com eleitorado próprio. Sem valor, sem selo."
    },
    "comparecimento": {},
    "sistema": "Cláusula de desempenho (EC 97, art. 3º, texto lido): para ter fundo partidário e tempo de rádio e TV, os partidos precisam, após as eleições de 2018, de 1,5% dos votos válidos para a Câmara (em pelo menos um terço das UFs) ou 9 deputados; após 2022, 2% ou 11; após 2026, 2,5% ou 13; a partir de 2030, 3% ou 15 (art. 17, §3º). Fim das coligações em eleições proporcionais a partir de 2020 (art. 2º).",
@@ -7349,13 +7800,13 @@
    "cargo": "Presidente, 2º turno (AGENDADO, sem resultado)",
    "regime": "Nova República",
    "regras_de_voto": {
-    "quem_votava": "Idem.",
-    "voto_secreto": null,
-    "mulheres": null,
-    "analfabetos": null,
-    "idade_minima": null,
-    "obrigatorio": null,
-    "regras_verificado": false
+    "quem_votava": "Mesmas regras do 1º turno: voto obrigatório para maiores de 18 anos e facultativo para analfabetos, maiores de 70 e jovens de 16 e 17 anos (CF, art. 14, § 1º). O 2º turno ocorre no último domingo de outubro (art. 77, na redação da EC 16/1997); 25/10/2026 é o último domingo de outubro.",
+    "voto_secreto": true,
+    "mulheres": true,
+    "analfabetos": true,
+    "idade_minima": 16,
+    "obrigatorio": true,
+    "regras_verificado": true
    },
    "eleitorado": {
     "valor": null,
@@ -7363,7 +7814,8 @@
     "tipo": null,
     "fonte": null,
     "url": null,
-    "verificado": false
+    "verificado": false,
+    "nota": "O 2º turno (25/10/2026) ainda não ocorreu; o eleitorado do 1º turno (158.745.502) está em pres-2026-t1. Sem valor próprio, sem selo."
    },
    "comparecimento": {},
    "sistema": "Dois turnos.",
@@ -7486,7 +7938,8 @@
      "descricao": "Campanha de Nabuco no Recife; eleição anulada em 1884 (resumo de busca).",
      "verificado": false,
      "fonte": "Resumos de busca sobre Nabuco e a eleição de 1884 em Recife (infoescola, USP/BBM; não lidos na íntegra)",
-     "url": "https://digital.bbm.usp.br/bitstream/bbm/4601/1/012050_COMPLETO.pdf"
+     "url": "https://digital.bbm.usp.br/bitstream/bbm/4601/1/012050_COMPLETO.pdf",
+     "nota": "Eleição de Nabuco em Recife em 1884-1885 (anulação) segue só em resumo de busca; o PDF da USP/BBM (obra de Nabuco) não foi lido nesta revisão."
     },
     {
      "passo": 6,
@@ -7597,9 +8050,9 @@
     {
      "data": "1889-11-15",
      "fato": "Proclamação da República (historia.json: rep-1889).",
-     "fonte": "Eleição presidencial de 1894 - Wikipédia (secundária)",
-     "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_1894",
-     "verificado": false
+     "fonte": "Decreto nº 1, de 15/11/1889 (Governo Provisório) - Planalto, lido em 07/10/2026",
+     "url": "https://www.planalto.gov.br/ccivil_03/decreto/1851-1899/d0001.htm",
+     "verificado": true
     }
    ],
    "como_se_construiu": [
@@ -7633,7 +8086,8 @@
      "descricao": "Reação às medidas do Império; Proclamação em 15/11/1889.",
      "verificado": false,
      "fonte": "Abolicionismo no Brasil - Wikipédia (secundária)",
-     "url": "https://pt.wikipedia.org/wiki/Abolicionismo_no_Brasil"
+     "url": "https://pt.wikipedia.org/wiki/Abolicionismo_no_Brasil",
+     "nota": "Só a data de 15/11/1889 foi lida em fonte primária (Decreto nº 1); \"reação às medidas do Império\" é interpretação de fonte secundária."
     },
     {
      "passo": 5,
@@ -8443,7 +8897,8 @@
      "fato": "Deposição de Vargas (historia.json: depos-1945).",
      "fonte": "Eleição presidencial de 1945 - Wikipédia (queremismo, 'Ele disse')",
      "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_1945",
-     "verificado": false
+     "verificado": false,
+     "nota": "Data da deposição (29/10/1945) não foi lida em fonte primária nesta revisão; a página da Wikipédia é secundária."
     }
    ],
    "como_se_construiu": [
@@ -9770,7 +10225,8 @@
      "descricao": "Perde a batalha da reforma agrária na Constituinte (UDR e TFP, resumo de busca).",
      "verificado": false,
      "fonte": "Resumo de busca: 122 emendas populares na ANC; UDR e TFP (UFSC/Em Debate; não lido na íntegra)",
-     "url": "https://periodicos.ufsc.br/index.php/emdebate/article/view/1980-3532.2011n5p1"
+     "url": "https://periodicos.ufsc.br/index.php/emdebate/article/view/1980-3532.2011n5p1",
+     "nota": "Página do periódico (UFSC/Em Debate) abriu só com resumo; o artigo não foi lido; 122 emendas populares e embate UDR/TFP seguem sem leitura do texto."
     },
     {
      "passo": 4,
@@ -10013,9 +10469,9 @@
     {
      "data": "1988-10-05",
      "fato": "Promulgação (historia.json: cf88-1988).",
-     "fonte": "Assembleia Nacional Constituinte de 1987 - Wikipédia (secundária)",
-     "url": "https://pt.wikipedia.org/wiki/Assembleia_Nacional_Constituinte_de_1987",
-     "verificado": false
+     "fonte": "Constituição de 1988, texto original - fecho datado \"Brasília, 5 de outubro de 1988\" (cópia gravada em textos/constituicao-1988.txt, origem Câmara)",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-publicacaooriginal-1-pl.html",
+     "verificado": true
     }
    ],
    "como_se_construiu": [
@@ -10023,9 +10479,9 @@
      "passo": 1,
      "data": "1985-11-27",
      "descricao": "EC 26 convoca a Constituinte.",
-     "verificado": false,
-     "fonte": "Assembleia Nacional Constituinte de 1987 - Wikipédia (secundária)",
-     "url": "https://pt.wikipedia.org/wiki/Assembleia_Nacional_Constituinte_de_1987"
+     "verificado": true,
+     "fonte": "Emenda Constitucional nº 26, de 27/11/1985 - Planalto, lida em 07/10/2026 (convoca a Assembleia Nacional Constituinte para 1º/2/1987)",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc26-85.htm"
     },
     {
      "passo": 2,
@@ -10049,15 +10505,16 @@
      "descricao": "122 emendas populares processadas; embate sobre reforma agrária.",
      "verificado": false,
      "fonte": "Resumo de busca: 122 emendas populares na ANC; UDR e TFP (UFSC/Em Debate; não lido na íntegra)",
-     "url": "https://periodicos.ufsc.br/index.php/emdebate/article/view/1980-3532.2011n5p1"
+     "url": "https://periodicos.ufsc.br/index.php/emdebate/article/view/1980-3532.2011n5p1",
+     "nota": "Idem MST: contagem de 122 emendas populares não verificada no texto do artigo."
     },
     {
      "passo": 5,
      "data": "1988-10-05",
      "descricao": "Promulgação.",
-     "verificado": false,
-     "fonte": "Assembleia Nacional Constituinte de 1987 - Wikipédia (secundária)",
-     "url": "https://pt.wikipedia.org/wiki/Assembleia_Nacional_Constituinte_de_1987"
+     "verificado": true,
+     "fonte": "Constituição de 1988, texto original - fecho datado \"Brasília, 5 de outubro de 1988\" (cópia gravada em textos/constituicao-1988.txt, origem Câmara)",
+     "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-publicacaooriginal-1-pl.html"
     }
    ],
    "resultado_eleitoral": [
@@ -10343,9 +10800,9 @@
      "passo": 7,
      "data": "1997-06-04",
      "descricao": "EC 16 (reeleição).",
-     "verificado": false,
-     "fonte": "Eleição presidencial de 1998 - Wikipédia (secundária)",
-     "url": "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_1998"
+     "verificado": true,
+     "fonte": "Emenda Constitucional nº 16, de 4/6/1997 (texto gravado; Planalto, Câmara e Senado coincidem na data)",
+     "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc16.htm"
     },
     {
      "passo": 8,
@@ -10689,7 +11146,8 @@
      "fato": "32 constituintes evangélicos.",
      "fonte": "Resumos de busca sobre bancada evangélica (ISER; UFPEL; Poder360; O Povo)",
      "url": "https://www.opovo.com.br/eleicoes-2022/2022/10/08/campeoes-de-voto-reforcam-bancada-evangelica-no-congresso.html",
-     "verificado": false
+     "verificado": false,
+     "nota": "A página do jornal O Povo abriu mas a passagem sobre 32 constituintes evangélicos não foi localizada no texto; contagem segue não verificada."
     },
     {
      "data": "2003-09-18",
@@ -10713,7 +11171,8 @@
      "descricao": "32 constituintes.",
      "verificado": false,
      "fonte": "Resumos de busca sobre bancada evangélica (ISER; UFPEL; Poder360; O Povo)",
-     "url": "https://www.opovo.com.br/eleicoes-2022/2022/10/08/campeoes-de-voto-reforcam-bancada-evangelica-no-congresso.html"
+     "url": "https://www.opovo.com.br/eleicoes-2022/2022/10/08/campeoes-de-voto-reforcam-bancada-evangelica-no-congresso.html",
+     "nota": "Idem: 32 constituintes evangélicos não verificado."
     },
     {
      "passo": 2,
@@ -10762,14 +11221,16 @@
      "desempenho": "32 constituintes evangélicos.",
      "fonte": "Resumos de busca sobre bancada evangélica (ISER; UFPEL; Poder360; O Povo)",
      "url": "https://www.opovo.com.br/eleicoes-2022/2022/10/08/campeoes-de-voto-reforcam-bancada-evangelica-no-congresso.html",
-     "verificado": false
+     "verificado": false,
+     "nota": "Revisão 07/10/2026: segue não verificado (fonte secundária ou resumo; contagem/percentual não lido em fonte primária)."
     },
     {
      "eleicao_id": "pres-2022-t1",
      "desempenho": "Sem votação própria medida; deputados: 75 (DIAP, lido), 96 (ISER) ou 102 (bancada), mais 13 senadores na contagem da bancada; ver controvérsias.",
      "fonte": "Resumos de busca sobre bancada evangélica (ISER; UFPEL; Poder360; O Povo)",
      "url": "https://www.opovo.com.br/eleicoes-2022/2022/10/08/campeoes-de-voto-reforcam-bancada-evangelica-no-congresso.html",
-     "verificado": false
+     "verificado": false,
+     "nota": "Revisão 07/10/2026: segue não verificado (fonte secundária ou resumo; contagem/percentual não lido em fonte primária)."
     }
    ],
    "declinio_ou_transformacao": "Crescimento da bancada e da população evangélica; bancada ficou abaixo da meta de 30% das cadeiras em 2022 (102 deputados, 20%).",
@@ -10855,7 +11316,8 @@
      "descricao": "UDR e TFP contra a reforma agrária.",
      "verificado": false,
      "fonte": "Resumo de busca: 122 emendas populares na ANC; UDR e TFP (UFSC/Em Debate; não lido na íntegra)",
-     "url": "https://periodicos.ufsc.br/index.php/emdebate/article/view/1980-3532.2011n5p1"
+     "url": "https://periodicos.ufsc.br/index.php/emdebate/article/view/1980-3532.2011n5p1",
+     "nota": "Idem MST: fonte lida só em resumo."
     },
     {
      "passo": 2,
@@ -10880,7 +11342,8 @@
      "desempenho": "Representação ruralista na Constituinte não quantificada nas fontes lidas.",
      "fonte": "Frente Parlamentar da Agropecuária - Wikipédia (secundária)",
      "url": "https://pt.wikipedia.org/wiki/Frente_Parlamentar_da_Agropecu%C3%A1ria",
-     "verificado": false
+     "verificado": false,
+     "nota": "Revisão 07/10/2026: segue não verificado (fonte secundária ou resumo; contagem/percentual não lido em fonte primária)."
     }
    ],
    "declinio_ou_transformacao": "Cresceu: a FPA reúne parte majoritária do Congresso (estimativa).",
@@ -10946,7 +11409,8 @@
      "fato": "Ao menos 1 milhão de pessoas nas ruas (resumo de busca).",
      "fonte": "Resumo de busca sobre perfil dos manifestantes e estimativa de 20/06/2013 (Ibope, Datafolha, Clave de Fá; A Pública, Ridenti/Unicamp)",
      "url": "https://apublica.org/2023/06/dez-anos-de-protestos-qual-o-perfil-dos-manifestantes-que-vao-as-ruas-no-brasil/",
-     "verificado": false
+     "verificado": false,
+     "nota": "A página da Agência Pública abriu (184 mil caracteres) mas a estimativa de 1 milhão de pessoas em 20/06/2013 não foi localizada no texto lido; segue não verificada."
     },
     {
      "data": "2013-06-24",
@@ -11279,7 +11743,8 @@
      "desempenho": "Efeito sobre 2018 não medido; Bolsonaro 46,03% (1º turno) e Haddad 29,28%.",
      "fonte": "2018 Brazilian general election - Wikipedia (secundária)",
      "url": "https://en.wikipedia.org/wiki/2018_Brazilian_general_election",
-     "verificado": false
+     "verificado": false,
+     "nota": "Revisão 07/10/2026: segue não verificado (fonte secundária ou resumo; contagem/percentual não lido em fonte primária)."
     }
    ],
    "declinio_ou_transformacao": "Encerrada em 01/02/2021; condenações anuladas pelo STF em 2021.",

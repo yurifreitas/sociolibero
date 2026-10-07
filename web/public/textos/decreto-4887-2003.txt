@@ -6,9 +6,9 @@ Tipo: decreto | Autoridade: Presidente Luiz Inácio Lula da Silva | Status da no
 Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/decreto/2003/d4887.htm
 Data de captura: 2026-10-07
 Tipo de versão: original de época
-Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: Planalto, com nota "Vide ADIN 3.239" (julgada improcedente pelo STF em 2018).
-Lacunas: Fonte única.
+Status da conferência: conferência cruzada parcial entre duas fontes oficiais
+Observações: Planalto, com nota "Vide ADIN 3.239" (julgada improcedente pelo STF em 2018). Segunda fonte (revisão de 07/10/2026): Câmara 92,6% / 92,9%; a diferença vem das marcas de ordinal ("1o", "2o") e das notas "Vide ADIN nº 3.239" do Planalto, ausentes na publicação original.
+Lacunas: Sem lacunas conhecidas no dispositivo.
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 0e2d1030277c2a710605f1db68f5da61b3fd12edc7db8b297d9f8c9f96821230
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

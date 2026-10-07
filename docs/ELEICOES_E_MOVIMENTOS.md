@@ -707,11 +707,11 @@ Linha do tempo de 60 eleições e marcos de regra, e fichas de 30 movimentos com
 **Alianças e rupturas.** Blocos do Centrão (não verificado em fonte); Bancada evangélica de 32 constituintes (evang_busca); Bancada ruralista e UDR
 
 **Como se construiu.**
-1. 1985-11-27: EC 26 convoca a Constituinte. (não verificado)
+1. 1985-11-27: EC 26 convoca a Constituinte. (verificado: EC 26/1985, Planalto, lida em 07/10/2026: reunião unicameral em 1º/2/1987)
 2. 1986-11-15: PMDB elege 260 deputados.
 3. 1987-02-01: Instalação.
 4. 1987-1988: 122 emendas populares processadas; embate sobre reforma agrária. (não verificado)
-5. 1988-10-05: Promulgação. (não verificado)
+5. 1988-10-05: Promulgação. (verificado: fecho datado "Brasília, 5 de outubro de 1988" no texto original da Constituição)
 
 **Resultado eleitoral.**
 - const-1986: PMDB 260 deputados (53,39%), PFL 118.
@@ -779,7 +779,7 @@ Linha do tempo de 60 eleições e marcos de regra, e fichas de 30 movimentos com
 4. 1994-07-01: Lançamento do real.
 5. 1994-08: FHC 40%, Lula 22% nas pesquisas.
 6. 1994-10-03: Vitória no 1º turno.
-7. 1997-06-04: EC 16 (reeleição). (não verificado)
+7. 1997-06-04: EC 16 (reeleição). (verificado: texto da EC 16, de 4/6/1997; Planalto, Câmara e Senado coincidem)
 8. 1998-10-04: Reeleição.
 
 **Resultado eleitoral.**
@@ -1466,3 +1466,26 @@ Marca: [P] confirmado em texto primário ou em dados do TSE; [S] confirmado em f
 - **Páginas institucionais:** TSE (referendo de 1963, plebiscito de 1993, urna eletrônica 25 anos, voto feminino, glossário da Lei Agamenon), Agência Senado (2005 e 2018), Assembleia Legislativa de SP, Agência FPA, Fundação Ulysses Guimarães (tabela adaptada de Kinzo), Fundação Casa de Rui Barbosa, CPDOC/FGV.
 - **Acadêmicas abertas:** Pecoraro (UFRRJ, 2019; tabelas do TSE 1966-1974), Nóbrega (UFRJ, 2019; CPI do IBAD e entrevistas de Gordon), Estudos Históricos 37(82), 2024 (Peyton; doi 10.1590/S2178-149420240212), REVES 7(1), 2024 (bancada evangélica; doi 10.18540/revesvl7iss1pp19054), Educar em Revista 50, 2013 (Lei Saraiva; Ferraro).
 - **Imprensa e ONG (secundárias, lidas):** Migalhas (referendo de 1963), Congresso em Foco (Censo 2022), Jornal Opção (carta de Isabel), Anistia Internacional (Eldorado dos Carajás), Georgetown PDBA (versão de 2005 dos resultados de 1998).
+
+## Revisão de fontes de 07/10/2026 (segunda leitura)
+
+Esta revisão leu o dado na fonte primária (textos da biblioteca em `web/public/textos`, Planalto, Câmara, Senado, TSE) e só trocou `verificado` para `true` quando o dado foi lido. Cada alteração está em `meta.revisao` de `eleicoes_timeline.json`.
+
+**Regras de voto agora lidas na fonte (`regras_verificado: true`):**
+- Eleição indireta de 1964: o AI-1, art. 2º, manda eleger Presidente e Vice por maioria absoluta do Congresso, em sessão pública e votação nominal, dentro de dois dias; `voto_secreto` passa a `false`.
+- Eleição indireta de 1969: AI-16, art. 4º, eleição em 25/10/1969 pelo Congresso, em sessão pública e votação nominal. "Candidato único" (Médici) segue como informação secundária (Wikipédia).
+- Eleições gerais de 1970: EC 1/1969, arts. 147 e 148 (maiores de 18 anos, ambos os sexos, sem analfabetos, voto obrigatório, direto e secreto), art. 74 (Presidente por colégio) e art. 189 (governadores de 1970 pelas Assembleias).
+- Lei Falcão (1976): a Lei 6.339/1976 dá nova redação ao art. 250 do Código Eleitoral; o § 1º trata das eleições de âmbito municipal e a lei vale desde a publicação (1º/7/1976, art. 4º).
+- Eleições de 1978: EC 8/1977, art. 41, § 2º: uma das vagas do Senado, em cada renovação por dois terços, é preenchida pelo colégio eleitoral do Governador (senadores "biônicos").
+- Eleições de 1982: voto direto, secreto e obrigatório (EC 1/1969) e **voto vinculado** (Lei 6.978/1982, art. 8º, na redação da Lei 7.015/1982: voto apenas em candidatos do mesmo partido, sob pena de nulidade para todos os cargos).
+- 2º turno de 2026 (25/10/2026): mesmas regras do 1º turno (CF, art. 14, § 1º); o art. 77 (EC 16/1997) fixa o último domingo de outubro, que em 2026 é dia 25.
+
+**Correção de valor:**
+- `regras_de_voto` de 1974 dizia que os governadores eram escolhidos indiretamente "(AI-3, 1966)" e que os "biônicos" foram criados em 1977. O AI-3 tratou da eleição de 1966; a EC 1/1969 (art. 13, § 2º, texto original) prevê voto direto e o art. 189 só regula 1970. A base legal da escolha indireta de 1974 **não foi localizada**; o texto foi corrigido e `regras_verificado` segue `false` com `regras_nota`.
+- Lei Saraiva (1881): a exigência de saber ler e escrever está no **Decreto 3.029, art. 8º, II e § 1º** (inclusão nas revisões do alistamento, a primeira em setembro de 1882), e não no art. 6º § 1º. O art. 6º § 14 prevê que o título registre se o eleitor sabe ou não ler e escrever, o que torna compatível com o texto a ressalva de que analfabetos já inscritos mantiveram o direito, embora a lei não a diga expressamente.
+- Eleitorado de 1960: 15.542.332 lido em matéria do Senado (1989) que cita o quadro de evolução do eleitorado do TSE (`verificado: true`, fonte secundária). O `pct_populacao` de 18,0% foi retirado do eleitorado: era rótulo de gráfico de Nicolau, ambíguo, parecido com o comparecimento sobre a população. Corroboração em fonte revisada por pares: Nicolau, "As eleições presidenciais de 1960: uma análise a partir dos dados municipais", Estudos Históricos 35(75), 2022, p. 159-175 (DOI 10.1590/s2178-149420220109, conferido no Crossref), que fala em "15,5 milhões inscritos para votar em 1955 e 1960" (o valor de 1955 segue sem número exato).
+- Código Eleitoral de 1965, art. 6º: confirmado no texto que o alistamento e o voto são obrigatórios "de um e outro sexo", sem a exceção das mulheres sem profissão lucrativa que a Lei 1.164/1950, art. 4º, I, d, trazia.
+
+**Movimentos (`verificado: true` nesta revisão):** Decreto nº 1, de 15/11/1889 (proclamação da República); EC 26/1985 (convocação da Constituinte, 27/11/1985); Constituição de 1988 (fecho datado de 5/10/1988) e EC 16/1997 (4/6/1997).
+
+**Segue `false`, com o motivo registrado em `nota`:** eleitorado de eleições indiretas (colégio parlamentar não contado), de entradas de norma e de pleitos sem número aberto (1922, 1955, 1962, 1963, 1970, 1974, 1978); regras de São Vicente (1532) e das Cortes de Lisboa (1821); ADI 4650; Nabuco no Recife (1884-1885); "reação às medidas do Império" (1888-1889); deposição de Vargas em 29/10/1945; 122 emendas populares; 32 constituintes evangélicos (a página do jornal O Povo não trouxe a passagem); estimativa de 1 milhão de manifestantes em 20/06/2013 (a página da Agência Pública não trouxe a passagem); desempenho de 2018 de Bolsonaro e Haddad (46,03% e 29,28%) sem leitura na fonte primária.

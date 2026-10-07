@@ -6,7 +6,7 @@
     "como_verificar_hash": "O SHA-256 vale para o corpo do arquivo: tudo depois da linha \"=== TEXTO ===\" até o fim, sem a quebra de linha final, codificado em UTF-8.",
     "n_textos": 44,
     "n_sem_texto": 6,
-    "n_caracteres_total": 2235711
+    "n_caracteres_total": 2241839
   },
   "documentos": [
     {
@@ -135,7 +135,7 @@
         "tipo_de_fonte": "oficial (Câmara dos Deputados)",
         "data_captura": "2026-10-07",
         "sha256": "1575cf37789407e16ed5fedc968c625062fb2e8a9abd04c39b590802a80ed464",
-        "sha256_arquivo": "72a1862350136567c7018a882f1c2d41ff8ad41a42cb521b68917cf246476a37"
+        "sha256_arquivo": "274797e9c4d55477cff63b7cfd11f3dab861995e54d1a7ac6615a61252f37a8f"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 55288,
@@ -183,13 +183,20 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "texto original conferido contra a fonte",
         "conferido_contra": [
-          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-387-19-agosto-1846-555122-publicacaooriginal-83186-pl.html"
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-387-19-agosto-1846-555122-publicacaooriginal-83186-pl.html",
+          "Senado Federal, legis.senado.leg.br (independente da Câmara): http://legis.senado.leg.br/norma/541668/publicacao/15632071"
         ],
-        "observacoes": "Câmara dos Deputados, Legislação Informatizada, publicação original (Coleção de Leis do Império, 1846).",
-        "lacunas": "Sem lacuna de artigos detectada (arts. 1 a 129 presentes).",
-        "comparacao_planalto": null
+        "observacoes": "Câmara dos Deputados, Legislação Informatizada, publicação original (Coleção de Leis do Império, 1846). Segunda fonte (revisão de 07/10/2026): Senado, 100% / 100% nos trechos de 4 palavras (as duas transcrições coincidem; não é leitura integral).",
+        "lacunas": "Sem lacunas conhecidas.",
+        "comparacao_planalto": null,
+        "comparacao_senado": {
+          "url": "http://legis.senado.leg.br/norma/541668/publicacao/15632071",
+          "cob_gravado_na_outra": 1.0,
+          "cob_outra_no_gravado": 1.0,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026"
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -212,7 +219,7 @@
         "tipo_de_fonte": "oficial (Câmara dos Deputados)",
         "data_captura": "2026-10-07",
         "sha256": "15cdd88e35db9d4ac2056e2e8c39e35454b250e1c204247109d0e1244284698e",
-        "sha256_arquivo": "ec0d95862423d9370f123268737f54267d43a7735e0ef1f501ccb7697fa5390e"
+        "sha256_arquivo": "e1b36149ae7aae1a907bb6d937f2ad70248e0c11985d641e227a90944b8a86d9"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 7983,
@@ -249,8 +256,8 @@
         "conferido_contra": [
           "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-842-19-setembro-1855-558297-publicacaooriginal-79444-pl.html"
         ],
-        "observacoes": "Câmara dos Deputados, publicação original. Altera a Lei de 19/08/1846 (divide as províncias em distritos de um deputado).",
-        "lacunas": "Texto curto, sem lacunas detectadas.",
+        "observacoes": "Câmara dos Deputados, publicação original. Altera a Lei de 19/08/1846 (divide as províncias em distritos de um deputado). Revisão de 07/10/2026: a página da Câmara foi relida e coincide 100% com o texto gravado, mas é a mesma fonte; segunda fonte não localizada (o LexML não resolveu a URN do decreto e a página do Senado exige verificação de navegador).",
+        "lacunas": "Fonte única (Câmara); texto curto, sem lacunas detectadas.",
         "comparacao_planalto": null
       },
       "dominio_publico": true,
@@ -273,11 +280,11 @@
         "espelho": null,
         "tipo_de_fonte": "oficial (Câmara dos Deputados)",
         "data_captura": "2026-10-07",
-        "sha256": "7f1ff99d593f62c110bc7564f67c311b54e563823ff7bab6e323f5d98cb47a7a",
-        "sha256_arquivo": "2da73f0fec101bf0f3384bd29a958a1cf3115768162cca8bad811b4da325d650"
+        "sha256": "bfb1997172088b164dcd9d81448a7e780238cd2dbf0611da14168b7560a58388",
+        "sha256_arquivo": "c067107762b33b14142bfa17c9c2693cafe31461001b1219c88bed679430ddc8"
       },
       "tipo_de_versao": "original de época",
-      "n_caracteres": 64973,
+      "n_caracteres": 71101,
       "trechos_chave": [
         {
           "id": "decreto-3029-1881-t1",
@@ -311,9 +318,9 @@
         },
         {
           "id": "decreto-3029-1881-t3",
-          "rotulo": "Prova de saber ler e escrever (art. 6º, § 1º)",
+          "rotulo": "Prova de saber ler e escrever (art. 8º, II e § 1º)",
           "ancora": "e a de saber ler e escrever pela lettra e assignatura do cidadão que requerer a sua inclusão no alistamento",
-          "por_que_importa": "Primeira exigência de alfabetização como condição de alistamento: base do corte de analfabetos até 1985.",
+          "por_que_importa": "Primeira exigência de alfabetização como condição de alistamento: vale para a inclusão em revisões do alistamento (art. 8º, II e § 1º); o art. 6º, § 14 prevê que o título registre se o eleitor sabe ou não ler e escrever, o que indica que os primeiros alistados não precisavam saber. Base do corte de analfabetos até 1985.",
           "tema": "voto_analfabeto",
           "eleicoes_ids": [
             "lei-saraiva-1881",
@@ -335,16 +342,56 @@
           "movimentos_ids": [],
           "historia_ids": [],
           "indigenas_ids": []
+        },
+        {
+          "id": "decreto-3029-1881-t5",
+          "rotulo": "Prova da renda (art. 3º; texto do TSE)",
+          "ancora": "A prova da renda, de que trata o artigo antecedente, far-se-ha",
+          "por_que_importa": "Define como se provava a renda de 200$ (imóveis, indústria e profissão, emprego público, títulos da dívida, ações): o mecanismo concreto do censo de renda.",
+          "tema": "censo",
+          "eleicoes_ids": [
+            "lei-saraiva-1881",
+            "votantes-1873"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "decreto-3029-1881-t6",
+          "rotulo": "Renda presumida de categorias profissionais, clérigos e diplomados (art. 4º)",
+          "ancora": "São considerados como tendo a renda legal, independentemente de prova",
+          "por_que_importa": "Dispensa a prova de renda de ministros, magistrados, clérigos de ordens sacras, militares oficiais, professores e diplomados: o censo era desenhado para incluir a elite letrada.",
+          "tema": "censo",
+          "eleicoes_ids": [
+            "lei-saraiva-1881"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
         "conferido_contra": [
-          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-3029-9-janeiro-1881-546079-publicacaooriginal-59786-pl.html"
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-3029-9-janeiro-1881-546079-publicacaooriginal-59786-pl.html",
+          "TSE, Glossário eleitoral, \"Lei Saraiva\" (reproduz o decreto e cita a Coleção das Leis do Império, v. 1, p. 1-29; lido no navegador em 07/10/2026): https://www.tse.jus.br/servicos-eleitorais/glossario/termos/lei-saraiva"
         ],
-        "observacoes": "Câmara dos Deputados, publicação original (Coleção de Leis do Império, 1881, vol. 1, parte 1). Eleição direta, título de eleitor, renda de 200$ e prova de saber ler e escrever.",
-        "lacunas": "O HTML da Câmara omite os artigos 3º e 4º (a numeração salta de 2º para 5º; aparecem incisos X a XII sem o caput). Não encontrei segunda fonte aberta do texto integral (tentei URLs prováveis do Planalto, que responderam 404; uma busca apontou apenas um livro de 1881 no acervo do Senado, que não processei). Tratar o texto como incompleto nesse trecho.",
-        "comparacao_planalto": null
+        "observacoes": "Câmara dos Deputados, publicação original (Coleção de Leis do Império, 1881, vol. 1, parte 1). Eleição direta, título de eleitor, renda de 200$ e prova de saber ler e escrever. Revisão de 07/10/2026: segunda fonte aberta localizada (TSE, glossário \"Lei Saraiva\"; a coleta automática responde 403, a leitura foi feita no navegador). A página do TSE traz os arts. 3º e 4º, que faltam no HTML da Câmara; os dois artigos foram incorporados ao texto gravado (o bloco inserido tem a mesma sequência de letras e números que o TSE, verificada por hash). A mesma verificação revelou outra omissão do HTML da Câmara: no art. 31, o § 2º (multas aplicadas pelos juízes de direito, incisos I e II) e o fim do inciso II do § 1º (\"200$000\") não constam na Câmara e foram completados com o TSE. Dos 36 artigos comparados (1º a 36º), 16 coincidem em letras e números com o TSE e 20 diferem em 1 a 8 caracteres (grafia e pontuação, por exemplo \"esclusões\" no TSE contra \"exclusões\" na Câmara); não houve medida por 4 palavras. Correção de rótulo: a exigência de saber ler e escrever está no art. 8º, II e § 1º (revisão do alistamento), e não no art. 6º § 1º; o art. 6º § 14 manda registrar no título \"a circumstancia de saber ou não ler e escrever\", o que indica que o primeiro alistamento admitia quem não sabia ler. Os trechos inseridos (arts. 3º, 4º I a IX e art. 31 § 2º) são transcrição do TSE e não do HTML da Câmara.",
+        "lacunas": "Arts. 3º e 4º e art. 31 § 2º completados a partir do TSE (no art. 4º os incisos X a XII coincidem com a Câmara). No art. 37 a Câmara traz \"Ficam revogadas as disposições em contrario\" e o TSE \"Ficam revogados as disposições em contrario\" (mantida a Câmara). Não conferido contra a Coleção das Leis do Império de 1881 (v. 1, p. 1-29).",
+        "comparacao_planalto": null,
+        "comparacao_tse": {
+          "url": "https://www.tse.jus.br/servicos-eleitorais/glossario/termos/lei-saraiva",
+          "artigos_lidos": "1 a 36",
+          "identicos_em_letras_e_numeros": 16,
+          "diferem_1_a_8_caracteres": 20,
+          "preenchidos_com_o_tse": [
+            "art. 3º",
+            "art. 4º (caput e incisos I a IX)",
+            "art. 31, § 2º e fim do § 1º, II"
+          ],
+          "metodo": "hash de letras e números por artigo, calculado no navegador sobre a página do TSE e em script sobre o texto gravado"
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -450,7 +497,7 @@
         "tipo_de_fonte": "oficial (Câmara dos Deputados)",
         "data_captura": "2026-10-07",
         "sha256": "6d714fe5fe5597cace2b1867fb42590163c609b89e6edaa479b1b868a8941326",
-        "sha256_arquivo": "a665588678361ddb6e9e3859bb91a41b6d745522ba4bff839d51df7f2d83663e"
+        "sha256_arquivo": "5c99d01d78e50774dd1fd8a44257861a69956c96e7746f1c6f3ab506f816e4e0"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 59277,
@@ -515,7 +562,7 @@
           "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/constituicao/constituicao91.htm"
         ],
         "observacoes": "Câmara dos Deputados, publicação original (Diário do Congresso Nacional 24/02/1891). Ortografia de época preservada. Comparação automática com o Planalto: 71.6% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 61.4% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
-        "lacunas": "Falta o artigo 86 na extração (erro de transcrição da fonte ou numeração distinta); não investigado.",
+        "lacunas": "Art. 86 (serviço militar obrigatório: \"Todo brazileiro é obrigado ao serviço militar, em defesa da Patria e da Constituição, na fórma das leis federaes.\") PRESENTE no texto: na extração ficou na mesma linha do art. 85 (\"85. ... Art. 86. ...\"), por isso uma busca por início de linha não o encontra; a lacuna registrada antes era falsa. Conferido em 07/10/2026 contra o Planalto (Constituição de 1891, art. 86, mesmo conteúdo). Sem outras lacunas conhecidas.",
         "comparacao_planalto": {
           "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao91.htm",
           "cob_gravado_na_outra": 0.7157,
@@ -1017,7 +1064,7 @@
         "tipo_de_fonte": "oficial (Câmara dos Deputados)",
         "data_captura": "2026-10-07",
         "sha256": "247331194f3d2cd0b3b63bd342beb4c261b4f517b93eadcdfd0fcc2c673e8ebb",
-        "sha256_arquivo": "c9d5438b70539c3f835efa40d9396906134bb04e8fbc2c4dbbd3898346aea9a1"
+        "sha256_arquivo": "3b4962e732afc59d3d22bda1810a91030e10ade391127a97cf608f84a836c979"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 111392,
@@ -1059,7 +1106,7 @@
           "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/leis/1950-1969/l1164.htm"
         ],
         "observacoes": "Câmara dos Deputados, publicação original (DOU 26/07/1950). Comparação automática com o Planalto: 99.4% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 98.3% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
-        "lacunas": "O HTML da Câmara não traz o artigo 14 (numeração salta); não investigado.",
+        "lacunas": "O texto não traz o artigo 14: a numeração salta do art. 13 (e seus §§ 1º a 4º) para o título \"Dos Tribunais Regionais\" e o art. 15. A página do Planalto (l1164.htm, lida em 07/10/2026) salta do mesmo modo, então o salto está na publicação e não é falha da extração da Câmara. Não conferido no Diário Oficial de 26/07/1950.",
         "comparacao_planalto": {
           "url": "https://www.planalto.gov.br/ccivil_03/leis/1950-1969/l1164.htm",
           "cob_gravado_na_outra": 0.9935,
@@ -1190,7 +1237,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "0cd960951ce4e763a7c23ecd02e5fe7367636a45d50022a92ae3df89c2629461",
-        "sha256_arquivo": "15ad6a805407c047912c2b8db181da077ada3ed892c7d71ca1934420eaea8cf6"
+        "sha256_arquivo": "38c4b1eb37661c2b8cba9a4f8596096ec650d25e14230b97894fdb9de0616ac5"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 9130,
@@ -1228,13 +1275,20 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "texto original conferido contra a fonte",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/ait/ait-01-64.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/ait/ait-01-64.htm",
+          "Câmara dos Deputados, Legislação Informatizada (publicação original, DOU 9/4/1964): https://www2.camara.leg.br/legin/fed/atoins/1960-1969/atoinstitucional-1-9-abril-1964-364977-publicacaooriginal-1-csr.html"
         ],
-        "observacoes": "Planalto (texto do ato com notas remissivas \"Vide\" entre parênteses, mantidas). Não consegui segunda fonte para comparar.",
-        "lacunas": "Fonte única.",
-        "comparacao_planalto": null
+        "observacoes": "Planalto (texto do ato com notas remissivas \"Vide\" entre parênteses, mantidas). Não consegui segunda fonte para comparar. Segunda fonte (revisão de 07/10/2026): Câmara, publicação original. Cobertura do gravado na Câmara 99,4% e da Câmara no gravado 99,5% (trechos de 4 palavras, dispositivo). Diferenças: \"dos fatos que o motivaram\" (Planalto) contra \"os motivaram\" (Câmara) e \"tem brig\" contra \"ten brig\". A Câmara tem também a republicação de 11/4/1964, não comparada.",
+        "lacunas": "Segunda fonte (Câmara) conferida; republicação de 11/4/1964 não comparada.",
+        "comparacao_planalto": null,
+        "comparacao_camara": {
+          "url": "https://www2.camara.leg.br/legin/fed/atoins/1960-1969/atoinstitucional-1-9-abril-1964-364977-publicacaooriginal-1-csr.html",
+          "cob_gravado_na_outra": 0.994,
+          "cob_outra_no_gravado": 0.995,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026"
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -1257,7 +1311,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "0e40bd9a36e5a758c7f966afbb9623b4823b35e1b404691f496cdd6b216cf722",
-        "sha256_arquivo": "9aa1522d01e29645565d1aad737c56abf856c5fe5abf90c6b0f402df0ce58c47"
+        "sha256_arquivo": "5e30c0b486197ce6b1767696417987897ebb7e925c7b96607e97f328707abed4"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 19078,
@@ -1315,13 +1369,20 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/ait/ait-02-65.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/ait/ait-02-65.htm",
+          "Câmara dos Deputados, Legislação Informatizada (publicação original, DOU 27/10/1965): https://www2.camara.leg.br/legin/fed/atoins/1960-1969/atoinstitucional-2-27-outubro-1965-363603-publicacaooriginal-1-pe.html"
         ],
-        "observacoes": "Planalto (com notas remissivas). Extingue os partidos (art. 18) e amplia o STF para 16 ministros (art. 6º, que dá nova redação ao art. 98 da Constituição de 1946).",
-        "lacunas": "Fonte única.",
-        "comparacao_planalto": null
+        "observacoes": "Planalto (com notas remissivas). Extingue os partidos (art. 18) e amplia o STF para 16 ministros (art. 6º, que dá nova redação ao art. 98 da Constituição de 1946). Segunda fonte (revisão de 07/10/2026): Câmara, publicação original. Cobertura 98,2% / 98,1%, mas há divergências verbais reais entre as duas fontes: Planalto \"um governo que afundavam\" (Câmara \"afundava\"), \"continuará assim o seu poder\" (Câmara \"por isso\"), \"acentuou-se por isso no esquema daqueles\" (Câmara \"pelo contrário traçou-lhe no esquema daqueles\"), \"o provimento inicial dos cargos da justiça federal\" (Câmara \"do cargo de juiz federal\"), \"pelos prefeito\" (Câmara \"prefeitos\"), além de \"§ 1º do art.\" contra \"parágrafo 1º do artigo\". Não se sabe qual delas segue a republicação de 5/11/1965; o texto gravado segue o Planalto.",
+        "lacunas": "Divergências verbais entre Planalto e Câmara não resolvidas (ver observações); republicações de 28/10 e 5/11/1965 não comparadas.",
+        "comparacao_planalto": null,
+        "comparacao_camara": {
+          "url": "https://www2.camara.leg.br/legin/fed/atoins/1960-1969/atoinstitucional-2-27-outubro-1965-363603-publicacaooriginal-1-pe.html",
+          "cob_gravado_na_outra": 0.982,
+          "cob_outra_no_gravado": 0.981,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026"
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -1344,7 +1405,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "577746dfc98d36ae37d10867e154239df1d19749b95420065535ccaffafa28ca",
-        "sha256_arquivo": "57e30e1958bc34be5a0a2c07a25a3622835703886b18ec81d9af850ce3525dbd"
+        "sha256_arquivo": "9457bba4ce021f272fb90c7f450d96b50c8d5511e23fd4558bdfa39db1add907"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 4022,
@@ -1382,13 +1443,26 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "texto original conferido contra a fonte",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/ait/ait-03-66.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/ait/ait-03-66.htm",
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/atoins/1960-1969/atoinstitucional-3-5-fevereiro-1966-363627-publicacaooriginal-1-pe.html",
+          "Senado Federal, legis.senado.leg.br: https://legis.senado.leg.br/norma/584055/publicacao/15668128"
         ],
-        "observacoes": "Planalto. Eleição indireta de governadores.",
-        "lacunas": "Fonte única.",
-        "comparacao_planalto": null
+        "observacoes": "Planalto. Eleição indireta de governadores. Segunda e terceira fontes (revisão de 07/10/2026): Câmara 99,3% / 99,8% e Senado 94,4% / 99,5% (o Senado traz notas e formatação distintas).",
+        "lacunas": "Sem lacunas conhecidas.",
+        "comparacao_planalto": null,
+        "comparacao_camara": {
+          "url": "https://www2.camara.leg.br/legin/fed/atoins/1960-1969/atoinstitucional-3-5-fevereiro-1966-363627-publicacaooriginal-1-pe.html",
+          "cob_gravado_na_outra": 0.993,
+          "cob_outra_no_gravado": 0.998,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026",
+          "senado": {
+            "url": "https://legis.senado.leg.br/norma/584055/publicacao/15668128",
+            "cob_gravado_na_outra": 0.944,
+            "cob_outra_no_gravado": 0.995
+          }
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -1411,7 +1485,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "333431ecd2be822435dabf388c2a95e9fef74910368f97706fdd04ec61d7e0f0",
-        "sha256_arquivo": "8642102f862796daf92062f0ba82783ac77a66ede9b35c01b98ff51d2dba4b77"
+        "sha256_arquivo": "16770e74551bfdf9462fcf298ab24e8d0823071685bbf1c4dbf9168f831c6924"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 8832,
@@ -1462,13 +1536,26 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "texto original conferido contra a fonte",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/ait/ait-05-68.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/ait/ait-05-68.htm",
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/atoins/1960-1969/atoinstitucional-5-13-dezembro-1968-363600-publicacaooriginal-1-pe.html",
+          "Senado Federal, legis.senado.leg.br: https://legis.senado.leg.br/norma/584057/publicacao/15669952"
         ],
-        "observacoes": "Planalto (com notas remissivas). Revogado pela EC 11/1978.",
-        "lacunas": "Fonte única.",
-        "comparacao_planalto": null
+        "observacoes": "Planalto (com notas remissivas). Revogado pela EC 11/1978. Segunda e terceira fontes (revisão de 07/10/2026): Câmara 98,2% / 99,0% e Senado 97,3% / 99,4%.",
+        "lacunas": "Sem lacunas conhecidas.",
+        "comparacao_planalto": null,
+        "comparacao_camara": {
+          "url": "https://www2.camara.leg.br/legin/fed/atoins/1960-1969/atoinstitucional-5-13-dezembro-1968-363600-publicacaooriginal-1-pe.html",
+          "cob_gravado_na_outra": 0.982,
+          "cob_outra_no_gravado": 0.99,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026",
+          "senado": {
+            "url": "https://legis.senado.leg.br/norma/584057/publicacao/15669952",
+            "cob_gravado_na_outra": 0.973,
+            "cob_outra_no_gravado": 0.994
+          }
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -1491,7 +1578,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "f859b96b3398818f00e0e369c12c58d1176106b2f12bc336502339b1e1b9a9a5",
-        "sha256_arquivo": "6940842201a65406eef2653334f364589b8c3efd22f1ad43e84bd67303cec3ff"
+        "sha256_arquivo": "05b560c6972fb4d596822ce4be94117e4a7861eef87ed6d70fbe84d95a2722bb"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 4885,
@@ -1528,13 +1615,20 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/ait/ait-06-69.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/ait/ait-06-69.htm",
+          "Senado Federal, legis.senado.leg.br: https://legis.senado.leg.br/norma/584058/publicacao/15668409"
         ],
-        "observacoes": "Planalto. Reduz o STF de 16 para 11 ministros e retira da apreciação judicial os atos do AI-5.",
-        "lacunas": "Fonte única.",
-        "comparacao_planalto": null
+        "observacoes": "Planalto. Reduz o STF de 16 para 11 ministros e retira da apreciação judicial os atos do AI-5. Segunda fonte (revisão de 07/10/2026): Senado, 96,2% do gravado na página e 99,5% da página no gravado (a página do Senado não traz as notas remissivas do Planalto). Câmara: página não localizada.",
+        "lacunas": "Segunda fonte única (Senado); Câmara não localizada.",
+        "comparacao_planalto": null,
+        "comparacao_senado": {
+          "url": "https://legis.senado.leg.br/norma/584058/publicacao/15668409",
+          "cob_gravado_na_outra": 0.962,
+          "cob_outra_no_gravado": 0.995,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026"
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -1811,7 +1905,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "e9e35e2974963faa21a8f3206510e9b5b85a2108d7c22c4f64ccbb5fde1d07f5",
-        "sha256_arquivo": "48c097c870f40b69f3a38aee7efd810b3e8ebc66fa49121c6228466bc9bb56a2"
+        "sha256_arquivo": "831035cccb2c2b1b25b5c04a9cac1b6fdf72af6fffd43ae337286a8cb0f09d03"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 1222,
@@ -1855,8 +1949,8 @@
         "conferido_contra": [
           "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/acp/acp-102-77.htm"
         ],
-        "observacoes": "Planalto. O ato é de 1º/04/1977 e foi publicado no DOU de 13/04/1977, um dia antes da EC 8; suspenso pelo Ato Complementar 103 (14/04/1977).",
-        "lacunas": "Fonte única.",
+        "observacoes": "Planalto. O ato é de 1º/04/1977 e foi publicado no DOU de 13/04/1977, um dia antes da EC 8; suspenso pelo Ato Complementar 103 (14/04/1977). Revisão de 07/10/2026: buscas pela página da Câmara (Legislação Informatizada) e do Senado não localizaram o Ato Complementar 102; o índice do Planalto o lista como de 1º/4/1977, com suspensão pelo Ato Complementar 103 (14/4/1977).",
+        "lacunas": "Fonte única (Planalto); segunda fonte não localizada.",
         "comparacao_planalto": null
       },
       "dominio_publico": true,
@@ -1880,7 +1974,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "014cc0b51f078694db35a2d6e206b4c402c6e35270423c27a41bbc0c24c8efe1",
-        "sha256_arquivo": "2a5b2973a41f4edfc67858140e3c8f5b061b7e94c7172e359e11ca89e8ae38ef"
+        "sha256_arquivo": "1238acc4fa2eaac3848e3b8b44d712a947918e11f60735343cd50926e28eb71c"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 8684,
@@ -1936,13 +2030,20 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "texto original conferido contra a fonte",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc08-77.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc08-77.htm",
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/emecon/1970-1979/emendaconstitucional-8-14-abril-1977-366978-publicacaooriginal-1-pl.html"
         ],
-        "observacoes": "Planalto. Confirmado: a EC 8 é de 14/04/1977 (a EC 7, de 13/04/1977, reformou o Judiciário). Contém o colégio eleitoral para governador (art. 13), voto cumulativo de delegados e eleições municipais simultâneas. Outros dispositivos da emenda (por exemplo sobre o Senado) não foram analisados aqui.",
-        "lacunas": "Fonte única. O texto traz reticências (\"......\") onde a EC remete a dispositivos mantidos; não é o texto consolidado da Constituição.",
-        "comparacao_planalto": null
+        "observacoes": "Planalto. Confirmado: a EC 8 é de 14/04/1977 (a EC 7, de 13/04/1977, reformou o Judiciário). Contém o colégio eleitoral para governador (art. 13), voto cumulativo de delegados e eleições municipais simultâneas. Outros dispositivos da emenda (por exemplo sobre o Senado) não foram analisados aqui. Segunda fonte (revisão de 07/10/2026): Câmara 99,0% / 99,6%.",
+        "lacunas": "Sem lacunas conhecidas.",
+        "comparacao_planalto": null,
+        "comparacao_camara": {
+          "url": "https://www2.camara.leg.br/legin/fed/emecon/1970-1979/emendaconstitucional-8-14-abril-1977-366978-publicacaooriginal-1-pl.html",
+          "cob_gravado_na_outra": 0.99,
+          "cob_outra_no_gravado": 0.996,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026"
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -1965,7 +2066,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "79750c4da19a08d9fb693bed5e1a52b41a664e3f2ec99a222c3e861539f453fb",
-        "sha256_arquivo": "cd94ecb14798bcac8c33d954ff887720e0e70c062dec1da2976bef97134d9caa"
+        "sha256_arquivo": "e1da505b73d710b23e8f378998f75c2469b427faf5ef86ed759e83396e5ff24a"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 10835,
@@ -2000,13 +2101,20 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "texto original conferido contra a fonte",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc22-82.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc22-82.htm",
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/emecon/1980-1987/emendaconstitucional-22-29-junho-1982-363993-publicacaooriginal-1-pl.html"
         ],
-        "observacoes": "Planalto. Eleição direta de prefeitos em todo o País (art. 15, I), previsão de voto distrital misto para deputados (art. 148, parágrafo único) e regras transitórias para 15/11/1982.",
-        "lacunas": "Fonte única. O texto reproduz só os dispositivos alterados, com reticências.",
-        "comparacao_planalto": null
+        "observacoes": "Planalto. Eleição direta de prefeitos em todo o País (art. 15, I), previsão de voto distrital misto para deputados (art. 148, parágrafo único) e regras transitórias para 15/11/1982. Segunda fonte (revisão de 07/10/2026): Câmara 99,0% / 99,7%.",
+        "lacunas": "Sem lacunas conhecidas.",
+        "comparacao_planalto": null,
+        "comparacao_camara": {
+          "url": "https://www2.camara.leg.br/legin/fed/emecon/1980-1987/emendaconstitucional-22-29-junho-1982-363993-publicacaooriginal-1-pl.html",
+          "cob_gravado_na_outra": 0.99,
+          "cob_outra_no_gravado": 0.997,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026"
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -2029,7 +2137,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "2f82d976aead89731d9ce8494bf9506c1008982cfb6fcb63f79df5627ea40b40",
-        "sha256_arquivo": "c6d7d35b944bab0bb1a3e581fc07dd88866ccd21ca58999f2ad8f523ea32d837"
+        "sha256_arquivo": "a0374122237406732e885fee59563b6d77eb19d136ea785279dde59c69ac9a6b"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 9045,
@@ -2104,13 +2212,20 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "texto original conferido contra a fonte",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc25-85.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc25-85.htm",
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/emecon/1980-1987/emendaconstitucional-25-15-maio-1985-364956-publicacaooriginal-1-pl.html"
         ],
-        "observacoes": "Planalto. Confirmado: a EC 25/1985 restabelece a eleição direta do Presidente (art. 74) e prevê que a lei disponha sobre o alistamento e voto dos analfabetos (art. 147, § 4º), mas MANTÉM analfabetos inelegíveis (art. 150) e restabelece partidos (art. 6º). A convocação da Constituinte foi a EC 26/1985 (não incluída no acervo).",
-        "lacunas": "Fonte única. A \"forma pela qual\" os analfabetos votam foi regulada por lei posterior (não incluída).",
-        "comparacao_planalto": null
+        "observacoes": "Planalto. Confirmado: a EC 25/1985 restabelece a eleição direta do Presidente (art. 74) e prevê que a lei disponha sobre o alistamento e voto dos analfabetos (art. 147, § 4º), mas MANTÉM analfabetos inelegíveis (art. 150) e restabelece partidos (art. 6º). A convocação da Constituinte foi a EC 26/1985 (não incluída no acervo). Segunda fonte (revisão de 07/10/2026): Câmara 98,4% / 98,9%; arts. 147 § 4º e 150 conferem nas duas fontes.",
+        "lacunas": "Sem lacunas conhecidas.",
+        "comparacao_planalto": null,
+        "comparacao_camara": {
+          "url": "https://www2.camara.leg.br/legin/fed/emecon/1980-1987/emendaconstitucional-25-15-maio-1985-364956-publicacaooriginal-1-pl.html",
+          "cob_gravado_na_outra": 0.984,
+          "cob_outra_no_gravado": 0.989,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026"
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -2901,7 +3016,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "d25ba6348c65665dcacd398a4d9fb795d26260fb5afb43bfc61a2827a6ad7fa9",
-        "sha256_arquivo": "13b9a7e0beed5c6908cc788d2a0aa4c3c192dc5dfa92b4f76e390f50e51cd2a2"
+        "sha256_arquivo": "843193f629e237a3e35790dad267a1ca03e3e40151d39a756b872d341668029b"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 2705,
@@ -2942,13 +3057,26 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc16.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc16.htm",
+          "Câmara dos Deputados, Legislação Informatizada (publicação original, DOU 5/6/1997): https://www2.camara.leg.br/legin/fed/emecon/1997/emendaconstitucional-16-4-junho-1997-355726-publicacaooriginal-1-pl.html",
+          "Senado Federal, legis.senado.leg.br: http://legis.senado.leg.br/norma/540603/publicacao/15635208"
         ],
-        "observacoes": "Planalto. Permite uma reeleição para Presidente, governadores e prefeitos e fixa mandato de 4 anos (art. 82).",
-        "lacunas": "Fonte única.",
-        "comparacao_planalto": null
+        "observacoes": "Planalto. Permite uma reeleição para Presidente, governadores e prefeitos e fixa mandato de 4 anos (art. 82). Segunda e terceira fontes (revisão de 07/10/2026): Câmara 96,6% / 96,9% e Senado igual. Divergências verbais: o Planalto (texto gravado) traz \"passam a vigorar com a seginte redação:.\" (erro de digitação) e \"ao caput do art. 28\" onde Câmara e Senado trazem \"o caput do art. 28\"; os dois outros textos trazem \"seguinte\". A redação operativa (§ 5º do art. 14 e art. 82) é a mesma nas três fontes.",
+        "lacunas": "Erros de digitação do Planalto preservados no texto gravado (\"seginte\").",
+        "comparacao_planalto": null,
+        "comparacao_camara": {
+          "url": "https://www2.camara.leg.br/legin/fed/emecon/1997/emendaconstitucional-16-4-junho-1997-355726-publicacaooriginal-1-pl.html",
+          "cob_gravado_na_outra": 0.966,
+          "cob_outra_no_gravado": 0.969,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026",
+          "senado": {
+            "url": "http://legis.senado.leg.br/norma/540603/publicacao/15635208",
+            "cob_gravado_na_outra": 0.966,
+            "cob_outra_no_gravado": 0.969
+          }
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -2971,7 +3099,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "e4687e8ce02719b4990aa1b239a1be7ca5ac44f109e463495c8ae01ba6c75571",
-        "sha256_arquivo": "54294bb8d6a2c9710afea9c8a33a9592db31dd8966053c47c1957cb5301c0cd1"
+        "sha256_arquivo": "b5a4d2d081cacb99792a8ed3f60d88e3a8fb90b7a7616a79704c5d77f94746c7"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 1826,
@@ -3005,13 +3133,25 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc52.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc52.htm",
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/emecon/2006/emendaconstitucional-52-8-marco-2006-541400-publicacaooriginal-45037-pl.html",
+          "Senado Federal, legis.senado.leg.br: http://legis.senado.leg.br/norma/540655/publicacao/15837533"
         ],
-        "observacoes": "Planalto. A EC 97/2017 deu nova redação ao art. 17, § 1º, vedando coligações em eleições proporcionais.",
-        "lacunas": "Fonte única.",
-        "comparacao_planalto": null
+        "observacoes": "Planalto. A EC 97/2017 deu nova redação ao art. 17, § 1º, vedando coligações em eleições proporcionais. Segunda e terceira fontes (revisão de 07/10/2026): cobertura do gravado 90,0% (Câmara) e 92,0% (Senado); a diferença vem das notas \"Vide ADI 3.685-8\" do Planalto e da diagramação das assinaturas da Mesa. O dispositivo (nova redação do § 1º do art. 17) é o mesmo nas três fontes.",
+        "lacunas": "Texto curto; diferenças de formatação nas assinaturas.",
+        "comparacao_planalto": null,
+        "comparacao_camara": {
+          "url": "https://www2.camara.leg.br/legin/fed/emecon/2006/emendaconstitucional-52-8-marco-2006-541400-publicacaooriginal-45037-pl.html",
+          "cob_gravado_na_outra": 0.9,
+          "cob_outra_no_gravado": null,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026",
+          "senado": {
+            "url": "http://legis.senado.leg.br/norma/540655/publicacao/15837533",
+            "cob_gravado_na_outra": 0.92
+          }
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -3034,7 +3174,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "e21697c44afb77c09f7c459ef23c38104a97f4749f5fda5ecc4690dbd2113b5b",
-        "sha256_arquivo": "1418b2358c6e480c9137f766a7f03c546e289b59e0596cc1472368937d0a86d7"
+        "sha256_arquivo": "ce5aa76cb7adaacb6650eea6563a7fa30a4358901f4374540452b21462d8a675"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 4909,
@@ -3069,13 +3209,26 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "texto original conferido contra a fonte",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc97.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc97.htm",
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/emecon/2017/emendaconstitucional-97-4-outubro-2017-785543-publicacaooriginal-153897-pl.html",
+          "Senado Federal, legis.senado.leg.br: http://legis.senado.leg.br/norma/26247394/publicacao/26247403"
         ],
-        "observacoes": "Planalto. Vale para as eleições a partir de 2020 (proporcionais) e escalonamento da cláusula até 2030.",
-        "lacunas": "Fonte única.",
-        "comparacao_planalto": null
+        "observacoes": "Planalto. Vale para as eleições a partir de 2020 (proporcionais) e escalonamento da cláusula até 2030. Segunda e terceira fontes (revisão de 07/10/2026): Câmara 98,6% / 99,5% e Senado 97,9% / 99,3%.",
+        "lacunas": "Sem lacunas conhecidas.",
+        "comparacao_planalto": null,
+        "comparacao_camara": {
+          "url": "https://www2.camara.leg.br/legin/fed/emecon/2017/emendaconstitucional-97-4-outubro-2017-785543-publicacaooriginal-153897-pl.html",
+          "cob_gravado_na_outra": 0.986,
+          "cob_outra_no_gravado": 0.995,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026",
+          "senado": {
+            "url": "http://legis.senado.leg.br/norma/26247394/publicacao/26247403",
+            "cob_gravado_na_outra": 0.979,
+            "cob_outra_no_gravado": 0.993
+          }
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -3098,7 +3251,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "8a7b82c05516b59b4fa196aec2f4c712f20b168e35165b06df5289ebedf5e8a0",
-        "sha256_arquivo": "d55efc3972cf8f0cebcce82525c993f921ba931641b0113c730fb657b6ce8c61"
+        "sha256_arquivo": "8b99adaf1713ed4adcb65c589dd6856a0d7731f2114ca27744e2fe73e624e60f"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 5112,
@@ -3147,13 +3300,20 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "texto original conferido contra a fonte",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc111.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc111.htm",
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/emecon/2021/emendaconstitucional-111-28-setembro-2021-791789-publicacaooriginal-163502-pl.html"
         ],
-        "observacoes": "Planalto. Consultas populares junto às eleições municipais, voto em dobro para mulheres e negros na distribuição de fundos (2022 a 2030), posse do Presidente em 5 de janeiro.",
-        "lacunas": "Fonte única.",
-        "comparacao_planalto": null
+        "observacoes": "Planalto. Consultas populares junto às eleições municipais, voto em dobro para mulheres e negros na distribuição de fundos (2022 a 2030), posse do Presidente em 5 de janeiro. Segunda fonte (revisão de 07/10/2026): Câmara 99,0% / 99,7%.",
+        "lacunas": "Sem lacunas conhecidas.",
+        "comparacao_planalto": null,
+        "comparacao_camara": {
+          "url": "https://www2.camara.leg.br/legin/fed/emecon/2021/emendaconstitucional-111-28-setembro-2021-791789-publicacaooriginal-163502-pl.html",
+          "cob_gravado_na_outra": 0.99,
+          "cob_outra_no_gravado": 0.997,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026"
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -3176,7 +3336,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "2267b4c403293ab48ec019c516038f256f366273ea870b47b5390ac63c63a24d",
-        "sha256_arquivo": "ef1a4d4068bf75b310107d47811cadb55f45be796f86b5f7d82f930d82de5700"
+        "sha256_arquivo": "45cd9175504da8861133f1576a873832645a72933a4fce9a6b7a90ba57ae7584"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 3393,
@@ -3214,13 +3374,20 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc117.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc117.htm",
+          "Senado Federal, legis.senado.leg.br: http://legis.senado.leg.br/norma/35647460/publicacao/35649607"
         ],
-        "observacoes": "Planalto. Reserva mínima de 5% do fundo partidário para programas de participação política das mulheres (art. 17, §§ 7º e 8º).",
-        "lacunas": "Fonte única.",
-        "comparacao_planalto": null
+        "observacoes": "Planalto. Reserva mínima de 5% do fundo partidário para programas de participação política das mulheres (art. 17, §§ 7º e 8º). Segunda fonte (revisão de 07/10/2026): Senado, 97,4% do gravado na página e 99,1% da página no gravado; a diferença está na ordem e na grafia das assinaturas da Mesa. Câmara: página não localizada.",
+        "lacunas": "Segunda fonte única (Senado).",
+        "comparacao_planalto": null,
+        "comparacao_senado": {
+          "url": "http://legis.senado.leg.br/norma/35647460/publicacao/35649607",
+          "cob_gravado_na_outra": 0.974,
+          "cob_outra_no_gravado": 0.991,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026"
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -3243,7 +3410,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "60e4e1abcf11d6668e318e3414efed03a166a942fb557ce93a97177b171039a1",
-        "sha256_arquivo": "784ab3b706de3fb5c0588105238cefa4a4db6d541689e82afe51849f69ecfe35"
+        "sha256_arquivo": "1e05eed017b57aa9b9c6161b5c381bffac1040e8e8d85a5b8c550f99c983cadc"
       },
       "tipo_de_versao": "consolidada",
       "n_caracteres": 17081,
@@ -3302,13 +3469,20 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14701.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14701.htm",
+          "Câmara dos Deputados, Legislação Informatizada (publicação original, texto sancionado): https://www2.camara.leg.br/legin/fed/lei/2023/lei-14701-20-outubro-2023-794847-publicacaooriginal-169790-pl.html"
         ],
-        "observacoes": "Planalto. A página mostra os dispositivos vetados como \"(VETADO)\" e, em seguida, o texto das partes promulgadas após a derrubada do veto (nota \"Promulgação partes vetadas\"). Portanto NÃO é o texto sancionado de 20/10/2023: é a versão com as partes promulgadas depois. O texto vigente sofre contestação no STF (ADIs/ADC; ver RE 1.017.365).",
-        "lacunas": "Fonte única. Não verifiquei o status atual das ações no STF.",
-        "comparacao_planalto": null
+        "observacoes": "Planalto. A página mostra os dispositivos vetados como \"(VETADO)\" e, em seguida, o texto das partes promulgadas após a derrubada do veto (nota \"Promulgação partes vetadas\"). Portanto NÃO é o texto sancionado de 20/10/2023: é a versão com as partes promulgadas depois. O texto vigente sofre contestação no STF (ADIs/ADC; ver RE 1.017.365). Segunda fonte (revisão de 07/10/2026): a Câmara publica o texto sancionado em 20/10/2023 (antes da derrubada de vetos). Só 40,0% do texto gravado (consolidado, com os dispositivos promulgados depois da derrubada dos vetos) aparece nessa publicação, e 94,0% da publicação aparece no texto gravado: isso confirma que o gravado é a versão consolidada e não o texto sancionado. Não foi verificado o andamento atual das ações no STF. Andamento judicial (lido em 07/10/2026 em Mattos Filho, \"STF publica íntegra do julgamento da Lei do Marco Temporal\", 9/4/2026; fonte secundária de escritório): o STF julgou em conjunto a ADC 87 e as ADIs 7582, 7583 e 7586 (julgamento iniciado em 10/12/2025), seguindo por maioria o voto do relator Gilmar Mendes e reafirmando a tese do Tema 1.031; julgou as ações parcialmente procedentes e declarou inconstitucionais dispositivos da lei (por exemplo, o art. 4º, caput); acórdão publicado em 18/3/2026. A lista exata dos dispositivos invalidados não foi conferida no acórdão.",
+        "lacunas": "Texto gravado = versão consolidada com vetos derrubados; o texto sancionado está na Câmara. Dispositivos declarados inconstitucionais pelo STF (acórdão de 18/3/2026) seguem no texto gravado, sem marcação; acórdão não lido, só relato de escritório.",
+        "comparacao_planalto": null,
+        "comparacao_camara": {
+          "url": "https://www2.camara.leg.br/legin/fed/lei/2023/lei-14701-20-outubro-2023-794847-publicacaooriginal-169790-pl.html",
+          "cob_gravado_na_outra": 0.4,
+          "cob_outra_no_gravado": 0.94,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026"
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -3398,7 +3572,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "0e2d1030277c2a710605f1db68f5da61b3fd12edc7db8b297d9f8c9f96821230",
-        "sha256_arquivo": "4b2f3de35a53a8ad26de5563d4030414febb8e1bfe30f7168fa697705081bcdb"
+        "sha256_arquivo": "d9122ccc4aae565ad1f8e774ff8f846913358943088215527ea5289cfa6c93af"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 12781,
@@ -3433,13 +3607,20 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/decreto/2003/d4887.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/decreto/2003/d4887.htm",
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/decret/2003/decreto-4887-20-novembro-2003-497664-publicacaooriginal-1-pe.html"
         ],
-        "observacoes": "Planalto, com nota \"Vide ADIN 3.239\" (julgada improcedente pelo STF em 2018).",
-        "lacunas": "Fonte única.",
-        "comparacao_planalto": null
+        "observacoes": "Planalto, com nota \"Vide ADIN 3.239\" (julgada improcedente pelo STF em 2018). Segunda fonte (revisão de 07/10/2026): Câmara 92,6% / 92,9%; a diferença vem das marcas de ordinal (\"1o\", \"2o\") e das notas \"Vide ADIN nº 3.239\" do Planalto, ausentes na publicação original.",
+        "lacunas": "Sem lacunas conhecidas no dispositivo.",
+        "comparacao_planalto": null,
+        "comparacao_camara": {
+          "url": "https://www2.camara.leg.br/legin/fed/decret/2003/decreto-4887-20-novembro-2003-497664-publicacaooriginal-1-pe.html",
+          "cob_gravado_na_outra": 0.926,
+          "cob_outra_no_gravado": 0.929,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026"
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -3462,7 +3643,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "5f637c61d670233681c3eb0969399794b8f16ab6285a291cab2468a22ab149df",
-        "sha256_arquivo": "a6c086c843a8395f28038ccfcb04802dfa9e7ea5cb1199378f6683edbe311fd3"
+        "sha256_arquivo": "c189651ac2a3bdf8a529512e66448099f6677f602388f0f9f129b4b706bf9eea"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 1368,
@@ -3501,13 +3682,21 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "texto original conferido contra a fonte",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/leis/lim/lim3353.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/leis/lim/lim3353.htm",
+          "Senado Federal, legis.senado.leg.br: http://legis.senado.leg.br/norma/545155/publicacao/15723556"
         ],
-        "observacoes": "Planalto (coleção de leis do Império). Ortografia de época preservada.",
-        "lacunas": "Fonte única.",
-        "comparacao_planalto": null
+        "observacoes": "Planalto (coleção de leis do Império). Ortografia de época preservada. Segunda fonte (revisão de 07/10/2026): Senado. Os dois artigos (extinção da escravidão e revogação das disposições em contrário) coincidem na leitura lado a lado; o percentual por 4 palavras (94,2%) é afetado pelo cabeçalho e pelas notas do Senado em um texto de 1.368 caracteres.",
+        "lacunas": "Sem lacunas conhecidas.",
+        "comparacao_planalto": null,
+        "comparacao_senado": {
+          "url": "http://legis.senado.leg.br/norma/545155/publicacao/15723556",
+          "cob_gravado_na_outra": 0.942,
+          "cob_outra_no_gravado": null,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026",
+          "leitura_lado_a_lado": "artigos 1º e 2º idênticos"
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -3530,7 +3719,7 @@
         "tipo_de_fonte": "oficial (Planalto)",
         "data_captura": "2026-10-07",
         "sha256": "1c1877bc7a259b6fd906333f762aaed2b91129c73aa53a765e7acf00116cb363",
-        "sha256_arquivo": "4a4c7e644622103eb005d73a7875c01f6232af70a32dd865fdd2563470761373"
+        "sha256_arquivo": "ff207b22a11efd1694488805e295e6e6f5e759fe08d9832241a22106bc6afc81"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 10569,
@@ -3569,13 +3758,20 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
         "conferido_contra": [
-          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/leis/lim/lim2040.htm"
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/leis/lim/lim2040.htm",
+          "Senado Federal, legis.senado.leg.br: http://legis.senado.leg.br/norma/543813/publicacao/15631093"
         ],
-        "observacoes": "Planalto (coleção de leis do Império).",
-        "lacunas": "Fonte única.",
-        "comparacao_planalto": null
+        "observacoes": "Planalto (coleção de leis do Império). Segunda fonte (revisão de 07/10/2026): Senado 98,0% / 98,1%, mas com divergências verbais entre Planalto (texto gravado) e Senado: \"filhos de mulher escrava\" (Senado \"da mulher\"), \"ficarão em poder o sob a autoridade\" (Senado \"e sob\"), \"terá opção\" (Senado \"terá a opção\"), \"utilizar-se\" (Senado \"utilisar-se\"), \"o fundo de emancipação\" (Senado \"da emancipação\"), \"outrossim\" (Senado \"outrosim\"), \"famlia\" (erro de digitação do Planalto), \"secretário de estado de negocios\" (Senado \"dos negocios\"). Nenhuma altera o sentido; a ortografia de época varia entre as transcrições.",
+        "lacunas": "Divergências de transcrição entre Planalto e Senado; erros de digitação do Planalto preservados.",
+        "comparacao_planalto": null,
+        "comparacao_senado": {
+          "url": "http://legis.senado.leg.br/norma/543813/publicacao/15631093",
+          "cob_gravado_na_outra": 0.98,
+          "cob_outra_no_gravado": 0.981,
+          "metodo": "trechos de 4 palavras, texto normalizado, só o dispositivo (até o último artigo, sem assinaturas); 07/10/2026"
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
@@ -3598,7 +3794,7 @@
         "tipo_de_fonte": "oficial (TSE) via Wayback Machine",
         "data_captura": "2026-10-07",
         "sha256": "91c12fef80e7d85c4a07bcfaca773a04a2df30d042957fd1dc3b21d6d39d68d8",
-        "sha256_arquivo": "20a234d6b6e8692933e2262ea0259697ee1b7580fb3cfcb09c6806e385486b13"
+        "sha256_arquivo": "4ba3ff1235a298508838362a8a4776d27b19f456deeeda5b03a2e502d37001b0"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 46150,
@@ -3634,17 +3830,24 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "texto original conferido contra a fonte",
         "conferido_contra": [
-          "TSE, legislação compilada via Wayback Machine: https://web.archive.org/web/20241225122605id_/https://www.tse.jus.br/legislacao/compilada/res/2024/resolucao-no-23-732-de-27-de-fevereiro-de-2024"
+          "TSE, legislação compilada via Wayback Machine: https://web.archive.org/web/20241225122605id_/https://www.tse.jus.br/legislacao/compilada/res/2024/resolucao-no-23-732-de-27-de-fevereiro-de-2024",
+          "TSE, legislação compilada (página atual, lida no navegador em 07/10/2026): https://www.tse.jus.br/legislacao/compilada/res/2024/resolucao-no-23-732-de-27-de-fevereiro-de-2024"
         ],
-        "observacoes": "O site do TSE bloqueia a coleta automática (HTTP 403). O texto foi obtido do espelho da Wayback Machine (captura de 25/12/2024) da página \"legislação compilada\" do TSE. A resolução altera a Res. 23.610/2019 para as Eleições 2024; pode ter sido superada por resoluções posteriores (verificar para 2026).",
-        "lacunas": "Texto como na página do TSE; não conferido com o DJE-TSE nº 29, de 4/3/2024.",
-        "comparacao_planalto": null
+        "observacoes": "O site do TSE bloqueia a coleta automática (HTTP 403). O texto foi obtido do espelho da Wayback Machine (captura de 25/12/2024) da página \"legislação compilada\" do TSE. A resolução altera a Res. 23.610/2019 para as Eleições 2024; pode ter sido superada por resoluções posteriores (verificar para 2026). Revisão de 07/10/2026: a página atual do TSE (lida direto no site, sem passar pela Wayback) tem exatamente o mesmo texto da captura de 25/12/2024, do título até \"Brasília, 27 de fevereiro de 2024.\" (45.790 caracteres com espaços normalizados; mesmo SHA-256 nos dois). Versão atual para 2026: a Res. 23.732/2024 apenas altera a Res. 23.610/2019; em 2/3/2026 o TSE aprovou a Resolução nº 23.755, que altera de novo a Res. 23.610/2019 (inclusive o uso de inteligência artificial na propaganda), conforme a compilada da Res. 23.610 e a notícia oficial do TSE de 3/3/2026. O texto de referência para as Eleições 2026 é a Res. 23.610 compilada, não a 23.732 isolada.",
+        "lacunas": "O texto gravado é a Res. 23.732/2024 como publicada (DJE-TSE nº 29, 4/3/2024); não reproduz as alterações de 2026 (Res. 23.755/2026, página do TSE: https://www.tse.jus.br/legislacao/compilada/res/2026/resolucao-no-23-755-de-2-de-marco-de-2026). Não conferido com o DJE-TSE.",
+        "comparacao_planalto": null,
+        "comparacao_tse": {
+          "url": "https://www.tse.jus.br/legislacao/compilada/res/2024/resolucao-no-23-732-de-27-de-fevereiro-de-2024",
+          "identico_ao_gravado": true,
+          "metodo": "SHA-256 do texto com espaços normalizados, do título a \"Brasília, 27 de fevereiro de 2024.\": calculado no navegador sobre a página atual e em script sobre o texto gravado; ambos 42c2e16c...f06cb",
+          "resolucao_posterior": "Resolução nº 23.755, de 2 de março de 2026 (altera a Res. 23.610/2019)"
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
-      "texto_vigente_url": null
+      "texto_vigente_url": "https://www.tse.jus.br/legislacao/compilada/res/2019/resolucao-no-23-610-de-18-de-dezembro-de-2019"
     },
     {
       "id": "manifesto-republicano-1870",
@@ -3663,7 +3866,7 @@
         "tipo_de_fonte": "espelho privado (não oficial)",
         "data_captura": "2026-10-07",
         "sha256": "d706125a81ee251943c9e547a087d931f7e14f711eb2a17107ce8f266137848a",
-        "sha256_arquivo": "ae557811ff30515f53702ce7a57d78f33dec065a11a467c42a0b72a7ff17fa90"
+        "sha256_arquivo": "a3c3ef5f1cced0456be4989bb098020014ae89f6139989966c1704aedb4c5b2f"
       },
       "tipo_de_versao": "original de época",
       "n_caracteres": 40507,
@@ -3700,13 +3903,21 @@
         }
       ],
       "conferencia": {
-        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "status": "conferência cruzada parcial entre duas fontes (uma delas acadêmica); texto gravado é espelho privado",
         "conferido_contra": [
-          "Espelho privado (não oficial): https://doutormiguelvieiraferreira.org/wp-content/uploads/2022/11/1889.12.10-Manif-Republ-Word.pdf"
+          "Espelho privado (não oficial): https://doutormiguelvieiraferreira.org/wp-content/uploads/2022/11/1889.12.10-Manif-Republ-Word.pdf",
+          "Pessoa, R. C. \"O Primeiro Centenário do Manifesto Republicano de 1870\". Revista de História (USP), 1970, p. 401 ss., DOI 10.11606/issn.2316-9141.rh.1970.129541 (republica o texto integral com ortografia de época a partir de A. Brasiliense, Os Programas dos Partidos e o 2º Império, 1878, p. 59-88): https://www.revistas.usp.br/revhistoria/article/view/129541"
         ],
-        "observacoes": "ESPELHO PRIVADO, não oficial: PDF no site doutormiguelvieiraferreira.org (transcrição do manifesto antes da lista de signatários; o PDF acrescenta apontamentos do próprio autor, que NÃO foram incluídos). Foi reflowed (quebras de linha do PDF removidas; hífen espúrio \"ex -\" corrigido). Não consegui edição oficial/Wikisource para conferir.",
-        "lacunas": "Não conferido contra a edição de 1870 nem contra segunda transcrição. A ortografia pode ter sido atualizada em pontos.",
-        "comparacao_planalto": null
+        "observacoes": "ESPELHO PRIVADO, não oficial: PDF no site doutormiguelvieiraferreira.org (transcrição do manifesto antes da lista de signatários; o PDF acrescenta apontamentos do próprio autor, que NÃO foram incluídos). Foi reflowed (quebras de linha do PDF removidas; hífen espúrio \"ex -\" corrigido). Não consegui edição oficial/Wikisource para conferir. Revisão de 07/10/2026: localizada fonte melhor que o espelho privado. A Revista de História da USP (n. 1970, DOI conferido no Crossref) republica o manifesto integral, citando como origem a transcrição de Américo Brasiliense (1878) e mantendo a ortografia da época (\"fallar\", \"paiz\", \"ella\"). O texto gravado (espelho privado) tem ortografia atualizada; com a ortografia normalizada, só cerca de 43% dos trechos de 4 palavras e 53% dos de 3 palavras coincidem, valor baixo porque o PDF da revista é uma digitalização com ruído de OCR e traz notas e bibliografia do autor. As duas âncoras: a primeira (\"Não reconhecendo nós outra soberania...\") tem 77% dos trechos de 3 palavras no PDF; a frase \"Somos da América e queremos ser americanos.\" está no PDF (OCR com ruído). Não se afirma equivalência palavra a palavra.",
+        "lacunas": "Não conferido palavra a palavra contra a edição da Revista de História (1970) nem contra o jornal A República de 3/12/1870 ou a Hemeroteca Digital da Biblioteca Nacional. Wikisource, Câmara e Arquivo Nacional continuam sem o texto. Para citação, preferir a edição da Revista de História, que identifica a origem e mantém a ortografia.",
+        "comparacao_planalto": null,
+        "comparacao_academica": {
+          "url": "https://www.revistas.usp.br/revhistoria/article/view/129541",
+          "doi": "10.11606/issn.2316-9141.rh.1970.129541",
+          "cob_gravado_na_outra_4_palavras": 0.43,
+          "cob_gravado_na_outra_3_palavras": 0.53,
+          "observacao": "ortografia de época vs. modernizada; PDF com OCR"
+        }
       },
       "dominio_publico": true,
       "base_legal_dominio_publico": "Obra de autoria coletiva de 1870; todos os autores identificados morreram há mais de 70 anos (Lei 9.610/1998, art. 41): domínio público.",

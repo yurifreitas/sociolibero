@@ -6,9 +6,9 @@ Tipo: emenda | Autoridade: Mesas da Câmara dos Deputados e do Senado Federal | 
 Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc16.htm
 Data de captura: 2026-10-07
 Tipo de versão: original de época
-Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: Planalto. Permite uma reeleição para Presidente, governadores e prefeitos e fixa mandato de 4 anos (art. 82).
-Lacunas: Fonte única.
+Status da conferência: conferência cruzada parcial entre duas fontes oficiais
+Observações: Planalto. Permite uma reeleição para Presidente, governadores e prefeitos e fixa mandato de 4 anos (art. 82). Segunda e terceira fontes (revisão de 07/10/2026): Câmara 96,6% / 96,9% e Senado igual. Divergências verbais: o Planalto (texto gravado) traz "passam a vigorar com a seginte redação:." (erro de digitação) e "ao caput do art. 28" onde Câmara e Senado trazem "o caput do art. 28"; os dois outros textos trazem "seguinte". A redação operativa (§ 5º do art. 14 e art. 82) é a mesma nas três fontes.
+Lacunas: Erros de digitação do Planalto preservados no texto gravado ("seginte").
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): d25ba6348c65665dcacd398a4d9fb795d26260fb5afb43bfc61a2827a6ad7fa9
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

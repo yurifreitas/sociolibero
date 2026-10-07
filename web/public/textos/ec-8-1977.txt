@@ -6,9 +6,9 @@ Tipo: emenda | Autoridade: Presidente Ernesto Geisel (com base no AI-5, durante 
 Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc08-77.htm
 Data de captura: 2026-10-07
 Tipo de versão: original de época
-Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: Planalto. Confirmado: a EC 8 é de 14/04/1977 (a EC 7, de 13/04/1977, reformou o Judiciário). Contém o colégio eleitoral para governador (art. 13), voto cumulativo de delegados e eleições municipais simultâneas. Outros dispositivos da emenda (por exemplo sobre o Senado) não foram analisados aqui.
-Lacunas: Fonte única. O texto traz reticências ("......") onde a EC remete a dispositivos mantidos; não é o texto consolidado da Constituição.
+Status da conferência: texto original conferido contra a fonte
+Observações: Planalto. Confirmado: a EC 8 é de 14/04/1977 (a EC 7, de 13/04/1977, reformou o Judiciário). Contém o colégio eleitoral para governador (art. 13), voto cumulativo de delegados e eleições municipais simultâneas. Outros dispositivos da emenda (por exemplo sobre o Senado) não foram analisados aqui. Segunda fonte (revisão de 07/10/2026): Câmara 99,0% / 99,6%.
+Lacunas: Sem lacunas conhecidas.
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 014cc0b51f078694db35a2d6e206b4c402c6e35270423c27a41bbc0c24c8efe1
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

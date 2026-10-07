@@ -6,9 +6,9 @@ Tipo: emenda | Autoridade: Mesas da Câmara dos Deputados e do Senado Federal | 
 Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc111.htm
 Data de captura: 2026-10-07
 Tipo de versão: original de época
-Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: Planalto. Consultas populares junto às eleições municipais, voto em dobro para mulheres e negros na distribuição de fundos (2022 a 2030), posse do Presidente em 5 de janeiro.
-Lacunas: Fonte única.
+Status da conferência: texto original conferido contra a fonte
+Observações: Planalto. Consultas populares junto às eleições municipais, voto em dobro para mulheres e negros na distribuição de fundos (2022 a 2030), posse do Presidente em 5 de janeiro. Segunda fonte (revisão de 07/10/2026): Câmara 99,0% / 99,7%.
+Lacunas: Sem lacunas conhecidas.
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 8a7b82c05516b59b4fa196aec2f4c712f20b168e35165b06df5289ebedf5e8a0
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

@@ -7,10 +7,10 @@ Fonte (URL exata): https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto
 Publicação original (informada pela fonte): Este texto não substitui o original publicado no Coleção de Leis do Império do Brasil de 1881
 Data de captura: 2026-10-07
 Tipo de versão: original de época
-Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: Câmara dos Deputados, publicação original (Coleção de Leis do Império, 1881, vol. 1, parte 1). Eleição direta, título de eleitor, renda de 200$ e prova de saber ler e escrever.
-Lacunas: O HTML da Câmara omite os artigos 3º e 4º (a numeração salta de 2º para 5º; aparecem incisos X a XII sem o caput). Não encontrei segunda fonte aberta do texto integral (tentei URLs prováveis do Planalto, que responderam 404; uma busca apontou apenas um livro de 1881 no acervo do Senado, que não processei). Tratar o texto como incompleto nesse trecho.
-SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 7f1ff99d593f62c110bc7564f67c311b54e563823ff7bab6e323f5d98cb47a7a
+Status da conferência: conferência cruzada parcial entre duas fontes oficiais
+Observações: Câmara dos Deputados, publicação original (Coleção de Leis do Império, 1881, vol. 1, parte 1). Eleição direta, título de eleitor, renda de 200$ e prova de saber ler e escrever. Revisão de 07/10/2026: segunda fonte aberta localizada (TSE, glossário "Lei Saraiva"; a coleta automática responde 403, a leitura foi feita no navegador). A página do TSE traz os arts. 3º e 4º, que faltam no HTML da Câmara; os dois artigos foram incorporados ao texto gravado (o bloco inserido tem a mesma sequência de letras e números que o TSE, verificada por hash). A mesma verificação revelou outra omissão do HTML da Câmara: no art. 31, o § 2º (multas aplicadas pelos juízes de direito, incisos I e II) e o fim do inciso II do § 1º ("200$000") não constam na Câmara e foram completados com o TSE. Dos 36 artigos comparados (1º a 36º), 16 coincidem em letras e números com o TSE e 20 diferem em 1 a 8 caracteres (grafia e pontuação, por exemplo "esclusões" no TSE contra "exclusões" na Câmara); não houve medida por 4 palavras. Correção de rótulo: a exigência de saber ler e escrever está no art. 8º, II e § 1º (revisão do alistamento), e não no art. 6º § 1º; o art. 6º § 14 manda registrar no título "a circumstancia de saber ou não ler e escrever", o que indica que o primeiro alistamento admitia quem não sabia ler. Os trechos inseridos (arts. 3º, 4º I a IX e art. 31 § 2º) são transcrição do TSE e não do HTML da Câmara.
+Lacunas: Arts. 3º e 4º e art. 31 § 2º completados a partir do TSE (no art. 4º os incisos X a XII coincidem com a Câmara). No art. 37 a Câmara traz "Ficam revogadas as disposições em contrario" e o TSE "Ficam revogados as disposições em contrario" (mantida a Câmara). Não conferido contra a Coleção das Leis do Império de 1881 (v. 1, p. 1-29).
+SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): bfb1997172088b164dcd9d81448a7e780238cd2dbf0611da14168b7560a58388
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.
 === TEXTO ===
@@ -29,6 +29,64 @@ Dos eleitores
 Art. 2º E' eleitor todo cidadão brazileiro, nos termos dos arts. 6º, 91 e 92 da Constituição do Imperio, que tiver renda liquida annual não inferior a 200$ por bens de raiz, industria, commercio ou emprego.
 
 Nas exclusões do referido art. 92 comprehendem-se as praças de pret do exercito, da armada e dos corpos policiaes, e os serventes das repartições e estabelecimentos publicos.
+
+Art. 3º A prova da renda, de que trata o artigo antecedente, far-se-ha:
+
+§ 1º Quanto á renda proveniente de immoveis:
+
+I. Si o immovel se achar na demarcação do imposto predial ou decima urbana - com certidão de repartição fiscal de estar o immovel averbado com valor locativo não inferior a 200$ ou com recibo daquelle imposto passado pela mesma repartição.
+
+II. Si o immovel não se achar na demarcação do imposto predial ou decima urbana, ou não estiver sujeito a este imposto, ou si consistir em terrenos de lavoura ou de criação, ou em quaesquer outros estabelecimentos agricolas ou ruraes:
+
+Quando occupar o proprio dono - pela computação da renda á razão de 6% sobre o valor do immovel, verificado por titulo legitimo de propriedade ou posse, ou por sentença judicial que as reconheça.
+
+Quando não occupar o proprio dono - pela computação da renda feita do mesmo modo, ou pela exhibição de contrato do arrendamento ou aluguel do immovel, lançado em livro de notas com antecedencia de um anno, pelo menos, e expressa declaração do preço do arrendamento ou aluguel.
+
+§ 2º Quanto á renda proveniente de industria ou profissão:
+
+I. Com certidão que mostre estar o cidadão inscripto, desde um anno antes, no registro do commercio, como negociante, corretor, agente de leilões, administrador de trapiche, capitão de navio, piloto de carta, ou como guarda-livros ou 1º caixeiro de casa commercial, ou administrador de fábrica industrial, uma vez que a casa commercial ou a fabrica tenha o fundo capital de 6:800$ pelo menos.
+
+II. Com a certidão, passada pela respectiva repartição fiscal, de possuir o cidadão fabrica, officina ou outro estabelecimento industrial ou rural, cujo fundo capital seja, pelo menos, de 3:400$, ou com certidão ou talão de pagamento de imposto de industria ou profissão ou de qualquer outro imposto baseado no valor locativo do immovel urbano ou rural, em importancia annual não inferior a 24$ no municipio da Côrte, a 12$ dentro das cidades e a 6$ nos demais lógares do Imperio.
+
+III. Com certidão, passada pela respectiva repartição fiscal de possuir o cidadão estabelecimento commercial, cujo fundo capital seja 3:400$, pelo menos, e pelo qual também pague o imposto declarado no numero antecedente.
+
+IV. Os impostos a que se referem os dous ultimos numeros só conferem a capacidade eleitoral, havendo sido pagos pelo menos um anno antes do alistamento.
+
+Não servirão para prova da renda quaesquer outros impostos não mencionados nesta lei.
+
+§ 3º Quanto á renda proveniente de emprego publico:
+
+I. Com certidão do Thesouro Nacional e das Thesourarias de Fazenda geraes e provinciaes, que mostre perceber annualmente o cidadão ordenado não inferior a 200$, por emprego que dê direito á aposentação, não sendo, porém, esta ultima condição applicavel aos empregados do Senado, da Camara dos Deputados e das Assembléas Legislativas Proviciaes, comtanto que tenham nomeação effectiva.
+
+II. Com igual certidão das Camaras Municipaes, quanto aos que nellas exercerem empregos que dê direito á aposentação.
+
+III. A mesma prova servirá para os empregados aposentados ou jubilados e para os officiaes reformados do exercito, da armada e dos corpos policiaes, comprehendidos os officiaes honorarios que percebam soldo ou pensão.
+
+IV. Os serventuarios providos vitaliciamente em officios de justiça, cuja locação não fôr inferior a 200$ por anno, provarão a respectiva renda com certidão da lotação dos mesmos officios, passada pela repartição competente.
+
+§ 4º Quanto á renda proveniente de titulos de divida publica geral ou provincial - com certidão authentica de possuir o cidadão no proprio nome ou, si fôr casado, no da mulher, desde um anno antes do alistamento, titulos que produzam annualmente quantia não inferior á renda exigida.
+
+§ 5º Quanto á renda proveniente de acções de bancos e companhias, legalmente autorizados, e de depositos em caixas economicas do Governo - com certidão authentica de possuir o cidadão, desde um anno antes do alistamento, no proprio nome ou, si fôr casado, no da mulher, titulos que produzam quantia não inferior á mencionada renda.
+
+Art. 4º São considerados como tendo a renda legal, independentemente de prova:
+
+I. Os Ministros e os Conselheiros de Estado, os Bispos, e os Presidentes de provincia e seus secretarios.
+
+II. Os Senadores, os Deputados á Assembléa Geral e os membros das Assembléas Legislativas Proviciaes.
+
+III. Os magistrados perpetuos ou temporarios, o secretario do Supremo Tribunal de Justiça e os das Relações, os promotores publicos, os curadores geraes de orphãos, os Chefes de Policia e seus secretarios, os delegados e subdelegados de policia.
+
+IV. Os crerigos de ordens sacras.
+
+V. Os directores do Thesouro Nacional e das Thesourarias de Fazenda geraes e provinciaes, os procuradores fiscaes e os dos Feitos da Fazenda, os inspectores das Alfandegas e os Chefes de outras repartições de arrecadação.
+
+VI. Os directores das Secretarias de Estado, o inspector das terras publicas e colonisação, o director geral e os administradores dos Correios, o director geral e vice-director dos Telegraphos, os inspectores ou directores das Obras Publicas geraes ou provinciaes, os directores das estradas de ferro pertencentes ao Estado, e os chefes de quaesquer outras repartições ou estabelecimentos públicos.
+
+VII. Os empregados do Corpo Diplomatico ou Consular.
+
+VIII. Os officiaes do exercito, da armada e dos corpos policiaes.
+
+IX. Os directores, lentes e professores das faculdades, academias e escolas de instrucção superior, os inspectores geraes ou directores da instrucção pública na Côrte e provincias, os directores ou reitores de institutos, collegios ou outros estabelecimentos publicos de instrucção, e os respectivos professores, os professores publicos de instrucção primaria por titulo de nomeação effectiva ou vitalicia.
 
 X. Os habilitados com diplomas scientificos ou litterarios de qualquer faculdade, academia, escola ou instituto nacional ou estrangeiro, legalmente reconhecidos.
 
@@ -676,7 +734,13 @@ Art. 31. Serão multados administrativamente quando deixarem de cumprir quaesque
 
 I. Os juizes de direito e as Camaras Municipaes, funccionando como apuradores de actas de assembléas eleitoraes: na quantia de 100$ a 300$ os primeiros, e de 50$ a 200$ cada vereador.
 
-II. Os funccionarios e empregados publicos que deixarem de prestar as informações exigidas para o alistamento dos eleitores: na quantia de 50$ a 200$ cada um.
+II. Os funccionarios e empregados publicos que deixarem de prestar as informações exigidas para o alistamento dos eleitores: na quantia de 50$ a 200$000.
+
+§ 2º Pelos juizes de direito:
+
+I. As mesas eleitoraes: na quantia de 250$ a 500$, repartidamente pelos seus membros.
+
+II. Os presidentes das mesas eleitoraes ou seus substitutos, chamados para apuração de actas de assembléas eleitoraes, que não comparecerem sem motivo justificado: na quantia de 50$ a 200$ cada um.
 
 III. Os tabelliães incumbidos da transcripção de acta de apuração dos votos: na quantia de 50$ a 100$000.
 

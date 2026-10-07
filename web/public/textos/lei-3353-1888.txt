@@ -6,9 +6,9 @@ Tipo: lei | Autoridade: Princesa Imperial Regente / Assembleia Geral | Status da
 Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/leis/lim/lim3353.htm
 Data de captura: 2026-10-07
 Tipo de versão: original de época
-Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: Planalto (coleção de leis do Império). Ortografia de época preservada.
-Lacunas: Fonte única.
+Status da conferência: texto original conferido contra a fonte
+Observações: Planalto (coleção de leis do Império). Ortografia de época preservada. Segunda fonte (revisão de 07/10/2026): Senado. Os dois artigos (extinção da escravidão e revogação das disposições em contrário) coincidem na leitura lado a lado; o percentual por 4 palavras (94,2%) é afetado pelo cabeçalho e pelas notas do Senado em um texto de 1.368 caracteres.
+Lacunas: Sem lacunas conhecidas.
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 5f637c61d670233681c3eb0969399794b8f16ab6285a291cab2468a22ab149df
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

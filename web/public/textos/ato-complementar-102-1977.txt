@@ -7,8 +7,8 @@ Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/acp/acp-102-77.htm
 Data de captura: 2026-10-07
 Tipo de versão: original de época
 Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: Planalto. O ato é de 1º/04/1977 e foi publicado no DOU de 13/04/1977, um dia antes da EC 8; suspenso pelo Ato Complementar 103 (14/04/1977).
-Lacunas: Fonte única.
+Observações: Planalto. O ato é de 1º/04/1977 e foi publicado no DOU de 13/04/1977, um dia antes da EC 8; suspenso pelo Ato Complementar 103 (14/04/1977). Revisão de 07/10/2026: buscas pela página da Câmara (Legislação Informatizada) e do Senado não localizaram o Ato Complementar 102; o índice do Planalto o lista como de 1º/4/1977, com suspensão pelo Ato Complementar 103 (14/4/1977).
+Lacunas: Fonte única (Planalto); segunda fonte não localizada.
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): e9e35e2974963faa21a8f3206510e9b5b85a2108d7c22c4f64ccbb5fde1d07f5
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.

@@ -6,9 +6,9 @@ Tipo: ato institucional | Autoridade: Presidente Humberto Castelo Branco | Statu
 Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/ait/ait-02-65.htm
 Data de captura: 2026-10-07
 Tipo de versão: original de época
-Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
-Observações: Planalto (com notas remissivas). Extingue os partidos (art. 18) e amplia o STF para 16 ministros (art. 6º, que dá nova redação ao art. 98 da Constituição de 1946).
-Lacunas: Fonte única.
+Status da conferência: conferência cruzada parcial entre duas fontes oficiais
+Observações: Planalto (com notas remissivas). Extingue os partidos (art. 18) e amplia o STF para 16 ministros (art. 6º, que dá nova redação ao art. 98 da Constituição de 1946). Segunda fonte (revisão de 07/10/2026): Câmara, publicação original. Cobertura 98,2% / 98,1%, mas há divergências verbais reais entre as duas fontes: Planalto "um governo que afundavam" (Câmara "afundava"), "continuará assim o seu poder" (Câmara "por isso"), "acentuou-se por isso no esquema daqueles" (Câmara "pelo contrário traçou-lhe no esquema daqueles"), "o provimento inicial dos cargos da justiça federal" (Câmara "do cargo de juiz federal"), "pelos prefeito" (Câmara "prefeitos"), além de "§ 1º do art." contra "parágrafo 1º do artigo". Não se sabe qual delas segue a republicação de 5/11/1965; o texto gravado segue o Planalto.
+Lacunas: Divergências verbais entre Planalto e Câmara não resolvidas (ver observações); republicações de 28/10 e 5/11/1965 não comparadas.
 SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 0e40bd9a36e5a758c7f966afbb9623b4823b35e1b404691f496cdd6b216cf722
 Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
 Aviso: cópia para consulta; não substitui o texto oficial publicado.
