@@ -1,0 +1,74 @@
+# Potências do Brasil e potencial de crescimento
+
+> Compilado em 2026-10-06. Dados estruturados em `web/public/data/potenciais_brasil.json` (18 potências, 80 métricas, 7 armadilhas). Ids de decisões vêm de `src/sociolibero/decisoes.py`; ids de tendências e leis, de `web/public/data/leis_tecnologicas.json`. **Critério:** `verificado: true` = a página ou o PDF foi aberto nesta pesquisa e o número foi lido no texto. Isso inclui fontes secundárias (imprensa, Wikipedia), que estão indicadas como tal. `verificado: false` = resumo de busca, página que retornou 403/404, ou memória. Das 80 métricas, 52 estão verificadas e 28 não. Valores derivados (parcelas, razões) são cálculo nosso e estão marcados.
+
+## Como ler
+
+Potencial técnico não é projeção nem direito adquirido. Cada potência traz: métricas com fonte, ranking mundial quando houve fonte, grau de uso atual, por que poucos notam, barreiras, quem ganha e perde, risco ambiental, e as decisões e tendências que a tocam. O catálogo de decisões não cobre água, minerais críticos, restauração, educação nem política industrial; onde falta decisão, o JSON diz isso na `ligacao_nota`.
+
+## Quadro: potência × uso atual × barreira × decisão que destrava
+
+| Potência (id) | Número-âncora (fonte) | Uso atual | Barreira principal | Decisão do catálogo que mais mexe |
+|---|---|---|---|---|
+| Água doce (`agua-doce`) | 8.647 km³/ano de recursos renováveis, o maior valor da lista FAO AQUASTAT 2020 (verificado, via Wikipedia); ~12% da água superficial mundial segundo ANA (não verificado) | Baixo em volume; estresse local no Semiárido | Distribuição espacial; custo de adução e irrigação | `privatizacoes` (saneamento), `credito-subsidiado`; lacuna no catálogo |
+| Biodiversidade (`biodiversidade`) | ~60.000 espécies de plantas; 1º em várias classes (Wikipedia, verificado) | Baixo valor agregado | Segurança jurídica do acesso genético; P&D de longo prazo | `acordo-mercosul-ue`, `credito-subsidiado` |
+| Sociobioeconomia (`sociobioeconomia`) | Açaí + castanha: >R$ 11 bi de valor adicionado em 2023 (não verificado) | Baixo a médio | Atravessadores, logística, escala | `credito-subsidiado`, `reforma-administrativa` |
+| Matriz elétrica (`matriz-eletrica-renovavel`) | 88,2% renovável em 2024 (BEN 2025 via imprensa, verificado); Ember: 89% vs. 30% mundial em 2023 | Alto | Transmissão, curtailment, seca | `privatizacoes`, `politica-precos-combustiveis`, `acelerar-ibs-cbs` |
+| Solar e eólica em terra (`solar-eolica-potencial-tecnico`) | 880 GW eólico onshore (INPE 2016, verificado); 28.519 GW solar técnico (não verificado) | Muito baixo vs. potencial | Demanda firme e rede, não recurso | `abertura-comercial`, `credito-subsidiado`, `reforcar-arcabouco` |
+| Offshore e hidrogênio verde (`eolica-offshore-hidrogenio-verde`) | >1.200 GW offshore e 44 projetos de H2V no Nordeste (não verificados) | Praticamente nulo | Marco regulatório, custo de eletrolisador, demanda | `credito-subsidiado`, `acordo-mercosul-ue`, `privatizacoes` |
+| Nióbio (`niobio-concentracao-global`) | 104.000 t de 112.000 t (~93%); reservas 14 Mt de >21 Mt (USGS MCS 2026, verificado) | Alto em extração, baixo em cadeia | Substituibilidade; aplicações avançadas pequenas | `abertura-comercial`, `credito-subsidiado` |
+| Minerais da transição (`minerais-transicao-reservas`) | Reservas: grafite 74 Mt de 310 Mt (~24%); terras raras 11 Mt de >75 Mt (~15%); manganês ~17%; níquel ~11%; lítio ~1,5% (USGS, verificado). Produção: 0,5% a 4% | Baixo; refino fora do país | Separação, refino e ímãs; compra estrangeira de ativos | `credito-subsidiado`, `privatizacoes`, `abertura-comercial`; lacuna no catálogo |
+| Agricultura tropical (`agricultura-tropical-ptf`) | PTF agropecuária +3,18% a.a. em 2000-2019 vs. ~1,7% mundial (Ipea, verificado) | Alto | Clima, logística, terra concentrada | `credito-subsidiado`, `perdao-dividas`, `acordo-mercosul-ue` |
+| Pastagens recuperáveis (`pastagens-recuperaveis`) | 28 Mha (10,5 severa + 17,5 intermediária), ~35% da área de grãos (Embrapa/Land 2024, verificado) | Muito baixo | Custo por ha, terra nova mais barata, fiscalização | `credito-subsidiado`, `perdao-dividas`, `reforcar-arcabouco` |
+| Floresta e carbono (`floresta-carbono-restauracao`) | PRODES Amazônia 5.796 km² em 2025 (-11,8%); perda nativa de 1,24 Mha em 2024, 97% agropecuária (verificado) | Médio | Fiscalização, titularidade, preço do carbono | `acordo-mercosul-ue`, `reforma-administrativa`, `credito-subsidiado` |
+| Terras indígenas (`terras-indigenas-contencao`) | Perda de 1% da vegetação nativa em 1985-2023 vs. 28% em terras privadas (MapBiomas, verificado; descritivo) | Alto para conservação | Invasão, insegurança jurídica | Indireto: `ampliar-stf`, `remover-ministros-stf` |
+| Amazônia Azul e petróleo (`amazonia-azul-petroleo`) | 3,77 milhões bpd em 2025, 79,6% pré-sal (ANP, verificado); 9º produtor (Wikipedia, jan/2026) | Alto em petróleo; baixo no resto do mar | Preço do barril, licenciamento, reputação | `politica-precos-combustiveis`, `privatizacoes` |
+| Janela demográfica (`janela-demografica`) | Pico de 220,4 mi em 2041; fecundidade 1,57; RGPS a 6% do PIB em 2060 pelas autoridades (verificado) | Parcial | Informalidade >40%; gap feminino de 20 p.p. | `reforma-previdencia-2`, `desvincular-minimo`, `ampliar-assistencia` |
+| Infraestrutura digital (`infraestrutura-publica-digital`) | Pix: ~80 bi de transações e >R$ 35 tri em 2025; 148 mi de pessoas físicas (via imprensa, verificado) | Muito alto (Pix) | Fraude, nuvem estrangeira, capacidade de TI do Estado | `reduzir-autonomia-bc`, `reforma-administrativa` |
+| Capital humano (`capital-humano-gap`) | PISA 2022 matemática 379 vs. 472 da OCDE (não verificado) | Baixo | Qualidade do ensino, evasão, rigidez do gasto | Indireto: `reforma-administrativa`, `reforcar-arcabouco`; lacuna no catálogo |
+| Criativo, cultura e turismo (`criativo-cultural-turismo`) | ~9 mi de turistas em 2025; PIB criativo 2,91% em 2020 (não verificado) | Baixo a médio | Segurança, conectividade, remuneração dos criadores | `acelerar-ibs-cbs`, `abertura-comercial` |
+| Diversidade como ativo institucional (`diversidade-ativo-institucional`) | 203 mi de habitantes; pardos 45,3%, brancos 43,5%, pretos 10,2% no Censo 2022 (verificado, via Wikipedia) | Mal medido | Desigualdade racial persistente (dado não coletado) | `ampliar-assistencia`, `ampliar-stf` |
+
+## Potencial de crescimento: o que foi achado e o que não
+
+**Estimativas publicadas (verificadas).** O FMI (Article IV 2025, Country Report 25/194) projeta crescimento de 2,5% ao ano no médio prazo, revisado de 2,0% na consulta de 2024, atribuindo a revisão à reforma do IVA, à aceleração da produção de hidrocarbonetos e a uma alta da PTF atribuída a reformas como a trabalhista de 2017. O mesmo relatório estima que fechar lacunas em regulação de negócios, governança e setor externo poderia elevar o crescimento em cerca de 1,0 p.p. ao ano por cinco anos, e que reduzir o gap de participação feminina de 20 para 10 pontos até 2033 acrescentaria cerca de 0,5 p.p. ao ano na transição. Num cenário de dívida, a camada com reformas soma 1,5 p.p. ao ano em 2026-2030.
+
+**Estimativas não verificadas.** JPMorgan (via imprensa): potencial de ~1,5% em 2024 para ~2% em 2025. Ministério do Planejamento: "de 1% para até 2,5%", só manchete (página 403). OCDE (via vLex, safra anterior): PIB potencial per capita de +1,1% ao ano em 2020-2030 e +1,4% em 2030-2060. Banco Central: hiato do produto de +0,9% no 1T25; o nível do PIB potencial não foi obtido.
+
+**Decomposição.** Só se conferiu a PTF agropecuária (Ipea): +3,33% a.a. em 1975-2020, com a PTF respondendo por 87,9% do crescimento do produto do setor (61,2% em 2000-2020), e queda recente associada a choques climáticos. Para a economia total, **não foi obtida decomposição em capital, trabalho e PTF** (Penn World Table, Conference Board, FGV IBRE e Ipea não foram abertos). O FMI apenas afirma que a PTF subiu nos últimos anos.
+
+**Gaps.** Produtividade do trabalho: 21,2 no Brasil vs. 81,8 nos EUA (ILO, projeção 2025, dólares internacionais de 2021), ou cerca de 26%; a comparação mistura bases ILO e OCDE e serve só como ordem de grandeza. Custo logístico: 15,5% do PIB em 2025 (ILOS, verificado; a fonte cita 18,4% em 2023 em resumo de busca). Custo Brasil: R$ 1,7 trilhão por ano, 19,5% do PIB (MBC/MDIC, não verificado), medida como custo adicional frente à média da OCDE em 12 áreas, não como perda eliminável. Concentração de mercado: markups acima de outras regiões da América Latina (FMI, sem número).
+
+## O que o discurso do país do futuro esconde
+
+1. **Reserva não é cadeia.** O Brasil tem ~93% da produção e ~67% das reservas de nióbio, mas o nióbio é insumo barato por tonelada de aço, parcialmente substituível, e a renda está concentrada em poucas empresas. Em terras raras, grafite, lítio e níquel, a produção brasileira é 0,5% a 4% da mundial; o refino e os ímãs estão fora. A venda da Serra Verde, descrita como a única produtora em escala fora da Ásia, a uma empresa dos EUA (não verificado) mostra que ter o recurso não garante prioridade de oferta nem renda.
+
+2. **Potencial técnico não é potencial econômico.** O potencial eólico em terra foi de 143 GW para 880 GW só porque a altura de torre mudou. Os 28.519 GW de solar e os >1.200 GW offshore não são restrição; a restrição é demanda firme, transmissão, capital e preço do carbono. Há 44 projetos de hidrogênio verde anunciados no Nordeste, sem decisão final de investimento comprovada aqui.
+
+3. **A única potência convertida em renda foi construída, não dada.** O ganho de PTF agrícola, o maior entre os países comparados em 2000-2019, vem de pesquisa pública, crédito e tecnologia tropical (o Ipea escreve que o crescimento "não foi uma dádiva"). Ele é também o canal de maior risco ambiental: 97% da perda de vegetação nativa em 2024 vem da agropecuária, e mais PTF não garante poupar terra.
+
+4. **A alternativa ao desmatamento existe e não é automática.** São 28 Mha de pastagens degradadas com potencial agrícola (Embrapa), mas terra nova ainda é mais barata que intensificar, e o ganho pode empurrar o gado para a fronteira. O que mudou a trajetória em 2023-2025 foi fiscalização, não potencial: queda de 32,4% na perda de vegetação nativa em 2024 e de 11,8% no desmatamento PRODES da Amazônia em 2025, com aumento de 25% em Mato Grosso.
+
+5. **A janela demográfica está fechando.** A população ativa relativa está perto do pico, a fecundidade caiu para 1,57, a população atinge o máximo em 2041, mais de 40% dos ocupados estão no informal e o PISA 2022 mostra gap de ~93 pontos em matemática (não verificado). Sem melhoria de aprendizagem, o país envelhece antes de enriquecer.
+
+6. **Concentração de ganhos.** Gini da terra de 0,867 em 2017, o mais alto da série, com aumento desde 2006; renda mineral e de concessões em poucas mãos; e custo de capital alto que favorece quem já tem capital.
+
+7. **Dependência de commodities e de poucos compradores.** Petróleo foi o maior item exportado em 2024 (13,3%, não verificado); 49% do ferronióbio exportado vai à China (USGS). O risco de doença holandesa não é desmentido por nenhuma fonte aqui, e a retórica de "país do futuro" não faz parte de nenhuma estimativa de crescimento publicada: o FMI trabalha com 2,5% ao ano.
+
+8. **Diversidade sem determinismo.** A tese defensável é institucional (escala de 203 milhões, língua comum, redes de diáspora, mercado interno), cuja realização depende de instituições. Não há evidência quantitativa coletada aqui de que diversidade cause crescimento; ela convive com desigualdade racial persistente, e tratá-la como destino cultural ou étnico é determinismo.
+
+## Armadilhas (ver `armadilhas` no JSON)
+
+`doenca-holandesa-commodity`, `dependencia-poucos-produtos-destinos`, `captura-por-poucos-minerais`, `risco-climatico-reputacao-ambiental`, `concentracao-fundiaria`, `potencial-tecnico-vs-economico`, `janela-demografica-fechando`.
+
+## O que cada decisão do catálogo mexe (resumo)
+
+Detalhado em `crescimento_potencial.o_que_cada_decisao_mexe`. As decisões com maior ligação a potências: `credito-subsidiado` (hidrogênio, minerais, restauração, pastagens), `acordo-mercosul-ue` (agro, floresta, minerais), `abertura-comercial` (equipamentos de energia, insumos), `privatizacoes` (saneamento, portos, energia, Petrobras), `reforcar-arcabouco` (custo de capital de todos os investimentos de longo prazo), `reforma-previdencia-2` e `desvincular-minimo` (janela demográfica), `reforma-administrativa` (capacidade estatal em fiscalização, TI e educação) e `reduzir-autonomia-bc` (prêmio de risco e governança do Pix). Os deltas do modelo (`supply_reform` etc.) são julgamentos, não estimativas da literatura; só o FMI traz efeitos quantificados (itens acima).
+
+## O que não foi verificado, com franqueza
+
+- **Penn World Table, Conference Board, FGV IBRE, Ipea (economia total), BCB (PIB potencial):** não abertos; sem decomposição de capital, trabalho e PTF.
+- **Páginas que retornaram 403 ou 404:** IBGE (projeções e razão de dependência), OCDE (PISA e estudo econômico), Banco Mundial (eólica offshore), Planejamento. Os números dessas fontes vêm de resumos de busca e estão com `verificado: false`.
+- **Tabelas USGS 2026:** lidas de PDF com colunas desalinhadas; reservas e produção do Brasil reconciliadas com os totais mundiais. Reservas de terras raras do Brasil (11 Mt) parecem ter sido revisadas para baixo em relação a edições anteriores; não conferido.
+- **Sem dado:** anos de escolaridade, gov.br (usuários), capacidade instalada atual de eólica e solar, estoque de carbono, valor da economia do mar, desigualdade racial de renda, minerais por município.
+- **Fontes secundárias:** BEN 2025, ANP, MapBiomas, PRODES, IBGE (população) e Pix foram lidos via imprensa ou Wikipedia, não nas fontes primárias.

@@ -88,3 +88,23 @@ para cruzar decisões × municípios (ex.: quem perde com reforma administrativa
 - `historia.json`: cada evento tem `trilha` (`estado|indigena|quilombola`) ou `trilhas[]`/`cruza[]` para cruzamentos; sem trilha ⇒ `estado`.
 - `territorios.json`: `pct_*` em fração **ou** percentual (a UI infere pelo máximo do arquivo); preferir um só e documentar.
 - Caminhos padrão quando ausentes do `index.json`: `historia.json`, `territorios.json`, `decisoes.json`, `exposicao.json`, `references.json`.
+
+## Terceira rodada (Evoluções, Anéis, Corrupção, Pessimismo, Quebras, Risco RS)
+Todos os arquivos abaixo são opcionais; ausência vira estado vazio (`PageGate`), nunca zero. Esquemas zod em `web/src/features/*/schemas.ts`
+(`looseObject`, campos `nullish`).
+
+| arquivo | consumido por | pontos de atenção |
+|---|---|---|
+| `evolucoes.json` | História › Evoluções, home | `regimes_politicos` (matrizes Brasil/AL/Mundo com IC90, primeira passagem, semi-Markov, validação leave-country-out, cemitério), `regimes_economicos` (resultados nulos), `cadeia_cenarios` (matriz **julgada**, ocupação, ruptura da dívida > 120%). |
+| `cenarios_macro.json` | editor "e se?" | Gerado por `web/scripts/make-cenarios-macro.py` (`scenarios.run`, semente 7, n=2000): p10/p50/p90 por cenário e ano. A mistura no navegador é a média das medianas ponderada pela ocupação: aproxima (~1 pp na dívida de 2038: 159,5 contra 158,1 publicado), não reproduz a mistura exata. |
+| `aneis.json` | História › Anéis | `aneis[].arestas[]` (`sinal`, `forca`, `contestada`, `ramal`, `evidencia[]`), `interacoes`, `aneis_ausentes`. `simulado` é verdadeiro em 4 anéis, enquanto o relatório do agente fala em 7 com cobertura parcial: a UI mostra o campo, não o texto. |
+| `custo_corrupcao.json` | /corrupcao | `areas[].valores[]` com `tipo` (contagem/estimativa) e `verificado`. **Divergência:** o texto do arquivo está sem acentos (gerado antes da regra); a UI exibe como está. |
+| `clima_valor_financeiro.json` | /corrupcao › clima, /clima | Razões prevenção × resposta não se reconciliam (TCU 2,3 × CNseg 9,7); não somar itens. |
+| `clima_rs_municipal.json` | mapa (camada "Risco climático RS"), município RS, painel | 497 municípios: 459 completos, 37 parciais, 1 sem índice. Município sem índice (`indice` nulo) é hachurado e fora do ranking; nunca "risco baixo". `basis` por componente alimenta o selo. |
+| `pessimismo.json` | /pessimismo › estresse | Eficiência de execução, adverso composto (com reverse stress) e bloco judicial **sem nomes**: mostra a vaga que abre por ano. |
+| `visoes_pessimistas.json` | /pessimismo › visões | Mecanismos com leitura contrária ao lado; proxies de capacidade estatal dizem o que não medem. |
+| `quebras.json` | /quebras | Quebras por série (`oco` = artefato metodológico), cruzamento com a história (14/15 coincidências contra 14,2 esperadas, p=1,0), validação (poder, FPR, detectores descartados). |
+
+Selo `basis` (`medido|modelado|sintetico`) é eixo separado do `status` e da verificação. `bases.json` (gerado por `pnpm bases` a partir dos metas
+reais) passou a incluir: evolucoes, cadeia-cenarios, aneis, quebras, custo-corrupcao, clima-valor, clima-rs, pessimismo, visoes-pessimistas.
+O seletor de matriz da aba Evoluções oferece Brasil/AL/Mundo; o semi-Markov não tem matriz única e aparece só na projeção e na tabela de primeira passagem.
