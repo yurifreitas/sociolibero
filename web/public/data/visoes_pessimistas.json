@@ -29,7 +29,7 @@
       "id": "plano-cruzado-1986",
       "titulo": "Plano Cruzado e Cruzado II: congelamento de preços sem sustentação fiscal",
       "periodo": "fev/1986 a 1987",
-      "mecanismo_do_dano": "O Decreto-Lei 2.283 (27/02/1986) instituiu o cruzado e o seguro-desemprego e entregou o controle de preços a órgãos como SEAP, CIP e SUNAB. O congelamento geral, mantido enquanto o déficit público (3,9% do PIB operacional ao fim de 1986, segundo resumo de busca) não era controlado, gerou demanda acima da oferta, desabastecimento e ágio. O Cruzado II (nov/1986) fez reajustes e congelamento parcial, e a inflação voltou a passar de 20% ao mês em meados de 1987. O dano é de credibilidade (a desindexação por decreto perdeu a confiança) mais do que um fluxo de caixa mensurável.",
+      "mecanismo_do_dano": "O Decreto-Lei 2.283 (27/02/1986) instituiu o cruzado e o seguro-desemprego e congelou preços e salários nos níveis de 27/02/1986 e atribuiu a SEAP, CIP e SUNAB a vigilância sobre a estabilidade de todos os preços (art. 37). O congelamento geral, mantido enquanto o déficit público (3,9% do PIB operacional ao fim de 1986, segundo resumo de busca) não era controlado, gerou demanda acima da oferta, desabastecimento e ágio. O Cruzado II (nov/1986) fez reajustes e congelamento parcial, e a inflação voltou a passar de 20% ao mês em meados de 1987. O dano é de credibilidade (a desindexação por decreto perdeu a confiança) mais do que um fluxo de caixa mensurável.",
       "custo": {
         "valor_rs_bi": null,
         "faixa_rs_bi": null,
@@ -37,7 +37,8 @@
         "tipo": "nao_localizado",
         "fonte": "Nenhuma estimativa em R$ com método foi localizada nesta pesquisa. O Decreto-Lei 2.283 foi lido (Senado), mas não traz custo; desabastecimento, ágio e inflação de 1987 vêm de fontes secundárias.",
         "url": "https://legis.senado.leg.br/norma/527179",
-        "verificado": false
+        "verificado": false,
+        "nota": "Lido em 07/10/2026. Decreto-Lei 2.283 lido no Planalto (del2283): congelamento nos níveis de 27/02/1986 e vigilância de SEAP, CIP e SUNAB (art. 37), sem estimativa de custo; \"nenhuma estimativa localizada\" é afirmação negativa e por isso fica false."
       },
       "quem_pagou": "Consumidores (desabastecimento, ágio), produtores com margens comprimidas pelo congelamento e, depois, assalariados pela aceleração inflacionária; o custo de credibilidade passou aos planos seguintes.",
       "setores_afetados": [
@@ -54,17 +55,20 @@
         {
           "titulo": "Decreto-Lei 2.283/1986 (Senado, legis)",
           "url": "https://legis.senado.leg.br/norma/527179",
-          "verificado": true
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. A página do Senado traz só ementa e indexação; o texto integral foi conferido no Planalto (https://www.planalto.gov.br/ccivil_03/decreto-lei/del2283.htm)."
         },
         {
           "titulo": "Suno: Plano Cruzado (imprensa financeira, resumo)",
           "url": "https://www.suno.com.br/artigos/plano-cruzado/amp/",
-          "verificado": false
+          "verificado": false,
+          "nota": "Lido em 07/10/2026. Suno lido: confirma congelamento, escassez e Cruzado II com congelamento parcial, sem estabilizar; NÃO traz o déficit de 3,9% do PIB operacional, o ágio nem a inflação de 1987 (esses itens seguem sem fonte lida). Fonte secundária de imprensa financeira."
         },
         {
           "titulo": "docs/ECONOMIA_HISTORICA.md (repositório)",
           "url": "docs/ECONOMIA_HISTORICA.md",
-          "verificado": false
+          "verificado": false,
+          "nota": "Referência interna ao repositório; o dado depende das fontes citadas nesse documento, não reabertas aqui."
         }
       ]
     },
@@ -81,9 +85,10 @@
         ],
         "ano_base": 2025,
         "tipo": "contagem",
-        "fonte": "Acordo coletivo sobre os planos Bresser, Verão, Collor I e Collor II: mais de 326 mil adesões e mais de R$ 5 bi pagos até fev/2025 (apresentação do ministro relator, via Migalhas; noticiado também pelo STF). É o piso do que já foi pago a poupadores, não o custo econômico do plano (recessão, perda de renda) nem o total das ações.",
+        "fonte": "Acordo coletivo sobre os planos Bresser, Verão, Collor I e Collor II: mais de 326 mil acordos firmados e pagamentos superiores a R$ 5 bi até fev/2025 (apresentação do ministro relator, via Migalhas; noticiado também pelo STF). É o piso do que já foi pago a poupadores, não o custo econômico do plano (recessão, perda de renda) nem o total das ações.",
         "url": "https://www.migalhas.com.br/quentes/430535/stf-julga-planos-economicos-zanin-propoe-mais-prazo-para-acordo",
-        "verificado": false
+        "verificado": false,
+        "nota": "Lido em 07/10/2026. Migalhas lido e confere (voto do ministro Zanin, \"dados atualizados do Comitê de Governança do acordo\"; \"mais de 326 mil acordos... pagamentos superiores a R$ 5 bilhões\" até fevereiro). Imprensa que replica o relator; página do STF não abre (403): segue false."
       },
       "quem_pagou": "Poupadores e empresas (liquidez retida, recessão) na época; bancos, via ações judiciais e acordo, décadas depois; o ganho fiscal de curto prazo ficou com o governo.",
       "setores_afetados": [
@@ -92,7 +97,7 @@
         "indústria",
         "consumo das famílias"
       ],
-      "controversia": "O STF julgou a constitucionalidade dos planos (ADPF 165, sessão virtual encerrada em 23/05/2025, resultado noticiado como unânime) e validou o acordo coletivo. A defesa do plano diz que a hiperinflação exigia choque de liquidez; a crítica, que o confisco violou direito de propriedade e não estabilizou preços.",
+      "controversia": "O STF julgou a constitucionalidade dos planos (ADPF 165, sessão virtual iniciada em 16/05/2025 com prazo de votos até 23/05/2025; o resultado final não consta da página lida (Migalhas) e deve ser conferido no STF) e validou o acordo coletivo. A defesa do plano diz que a hiperinflação exigia choque de liquidez; a crítica, que o confisco violou direito de propriedade e não estabilizou preços.",
       "decisoes_relacionadas": [
         "perdao-dividas"
       ],
@@ -100,17 +105,20 @@
         {
           "titulo": "Migalhas: STF julga planos econômicos (326 mil adesões, R$ 5 bi)",
           "url": "https://www.migalhas.com.br/quentes/430535/stf-julga-planos-economicos-zanin-propoe-mais-prazo-para-acordo",
-          "verificado": false
+          "verificado": false,
+          "nota": "Lido em 07/10/2026. Confere; imprensa jurídica, primário (STF) não aberto."
         },
         {
           "titulo": "STF: prorroga em 24 meses prazo para novas adesões (não aberto: HTTP 403 ao robô)",
           "url": "https://noticias.stf.jus.br/postsnoticias/stf-prorroga-em-24-meses-prazo-para-novas-adesoes-de-poupadores-em-acordo-dos-planos-economicos/",
-          "verificado": false
+          "verificado": false,
+          "nota": "Página do STF recusou o acesso automatizado (HTTP 403); não lida."
         },
         {
           "titulo": "docs/ECONOMIA_HISTORICA.md: bloqueio de 80% dos depósitos acima de NCz$ 50 mil",
           "url": "docs/ECONOMIA_HISTORICA.md",
-          "verificado": false
+          "verificado": false,
+          "nota": "Referência interna ao repositório; dado não reaberto aqui."
         }
       ]
     },
@@ -149,12 +157,14 @@
         {
           "titulo": "Conjur: decisão do TCU sobre as contas do governo (07/10/2015)",
           "url": "https://www.conjur.com.br/2015-out-10/decisao-tcu-contas-governo-foi-destaque-semana//?print=1",
-          "verificado": false
+          "verificado": false,
+          "nota": "Lido em 07/10/2026. Conjur lido: \"recomendou que sejam rejeitadas as contas de 2014\" na quarta-feira (7/10) e \"A decisão foi unânime\". Imprensa; o primário (TCU) não foi aberto para esta data."
         },
         {
           "titulo": "docs/HISTORIA.md, seção sobre o impeachment de 2016",
           "url": "docs/HISTORIA.md",
-          "verificado": false
+          "verificado": false,
+          "nota": "Referência interna ao repositório; dado não reaberto aqui."
         }
       ]
     },
@@ -162,7 +172,7 @@
       "id": "desoneracoes-nova-matriz-2011-2014",
       "titulo": "Desonerações generalizadas da folha e de tributos (Plano Brasil Maior)",
       "periodo": "2011 a 2018 (reoneração gradual desde 2015; nova desoneração em 2023-2026)",
-      "mecanismo_do_dano": "A Lei 12.546/2011 trocou a contribuição previdenciária sobre a folha por alíquota sobre a receita bruta, em 56 setores ao final, sem compensação permanente de receita. O mecanismo de dano é fiscal: renúncia ampla e crescente sem avaliação prévia de efeito sobre emprego e investimento, num momento de desaceleração. O Tesouro cobria a perda da Previdência e a rigidez política dificultou o fim dos benefícios.",
+      "mecanismo_do_dano": "A Lei 12.546/2011 trocou a contribuição previdenciária sobre a folha por alíquota sobre a receita bruta, em até 56 setores (máximo, segundo o Poder360), sem compensação permanente de receita. O mecanismo de dano é fiscal: renúncia ampla e crescente sem avaliação prévia de efeito sobre emprego e investimento, num momento de desaceleração. O Tesouro cobria a perda da Previdência e a rigidez política dificultou o fim dos benefícios.",
       "custo": {
         "valor_rs_bi": 118.3,
         "faixa_rs_bi": [
@@ -171,9 +181,10 @@
         ],
         "ano_base": 2020,
         "tipo": "estimativa",
-        "fonte": "Receita Federal, citada pelo Poder360 (27/08/2020): R$ 118,3 bi de renúncia acumulada com a desoneração da folha de 2012 a jul/2020 (R$ 9,77 bi em 2019; pico de R$ 25,2 bi em 2015 segundo a mesma série noticiada). É renúncia estimada pela Receita, a preços correntes de cada ano, não perda líquida (parte do emprego pode ter sido preservada).",
+        "fonte": "Poder360 (27/08/2020): renúncia fiscal da União de R$ 118,3 bi com a desoneração da folha de 2012 a jul/2020 (R$ 9,77 bi em 2019, 0,13% do PIB; R$ 68,5 bi de 2012 a mai/2016). A reportagem não nomeia a Receita Federal como fonte desses números. É renúncia estimada pela Receita, a preços correntes de cada ano, não perda líquida (parte do emprego pode ter sido preservada).",
         "url": "https://www.poder360.com.br/governo/por-bolsa-empresario-governo-abre-mao-ao-equivalente-a-meio-bolsa-familia/",
-        "verificado": false
+        "verificado": false,
+        "nota": "Lido em 07/10/2026. DIVERGÊNCIA corrigida: a reportagem não atribui os R$ 118,3 bi à Receita Federal (a Receita só aparece em outro número, R$ 4,7 bi até jul/2020) e não traz o \"pico de R$ 25,2 bi em 2015\", que foi removido por não constar da fonte lida. Valor confere; fonte primária não localizada."
       },
       "custos_adicionais": [
         {
@@ -182,7 +193,8 @@
           "tipo": "estimativa",
           "ano_base": 2026,
           "fonte": "Receita Federal, DGT PLOA 2026 (valor herdado de web/public/data/custo_corrupcao.json, onde consta verificado; não reaberto nesta pesquisa)",
-          "verificado": false
+          "verificado": false,
+          "nota": "Valor herdado de custo_corrupcao.json, não reaberto nesta rodada."
         }
       ],
       "quem_pagou": "O conjunto dos contribuintes, via maior dívida ou tributos futuros; beneficiaram-se os setores listados na lei.",
@@ -201,9 +213,10 @@
       ],
       "fontes": [
         {
-          "titulo": "Poder360: desoneração da folha, R$ 118,3 bi 2012-jul/2020 (via Receita)",
+          "titulo": "Poder360: desoneração da folha, R$ 118,3 bi 2012-jul/2020",
           "url": "https://www.poder360.com.br/governo/por-bolsa-empresario-governo-abre-mao-ao-equivalente-a-meio-bolsa-familia/",
-          "verificado": false
+          "verificado": false,
+          "nota": "Lido em 07/10/2026. Confere o valor; não cita a Receita (ver custo)."
         },
         {
           "titulo": "Banco Mundial, Um Ajuste Justo (2017), síntese, parágrafo 20",
@@ -262,14 +275,15 @@
       "custo": {
         "valor_rs_bi": 22.0,
         "faixa_rs_bi": [
-          9.0,
+          7.0,
           22.0
         ],
-        "ano_base": 2014,
+        "ano_base": 2013,
         "tipo": "estimativa",
-        "fonte": "Resumos de busca de recortes arquivados pelo Instituto Acende Brasil (entidade do setor): aporte do Tesouro de R$ 9 bi à CDE e estimativa do instituto de buraco de pelo menos R$ 22 bi nas contas federais com a MP 579. Não abri o recorte nem a fonte primária (Tesouro/ANEEL); o instituto tem interesse no tema.",
-        "url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20140510_OGlobo.pdf",
-        "verificado": false
+        "fonte": "Estimativa do Instituto Acende Brasil (entidade do setor) publicada pelo Estado de Minas em 04/01/2013: rombo de no mínimo R$ 22 bi nas contas federais com a MP 579, soma de R$ 7 bi que o governo teria de dispor para reduzir a conta de luz e R$ 15 bi de perda de receita da Eletrobras. O secretário do Tesouro (Arno Augustin) rebateu na mesma matéria: \"O Tesouro Nacional não vai ter prejuízo\". O Globo (10/05/2014): aporte do Tesouro ao setor previsto em R$ 3,3 bi, depois R$ 5 bi e R$ 12 bi, mais empréstimo de R$ 11,2 bi via CCEE. É projeção de parte interessada, não custo apurado.",
+        "url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20130104_EstadodeMinas.pdf",
+        "verificado": false,
+        "nota": "Lido em 07/10/2026. DIVERGÊNCIA corrigida: o recorte O Globo de 10/05/2014 NÃO traz \"R$ 9 bi à CDE\" nem \"buraco de R$ 22 bi\"; o R$ 22 bi vem do Estado de Minas de 04/01/2013 (Acende) e a faixa [9, 22] não tinha base (o R$ 9 bi não foi localizado). Faixa passa a [7, 22] = componente governo vs soma. Imprensa citando estimativa de entidade interessada: segue false."
       },
       "quem_pagou": "Contribuinte (aportes do Tesouro de 2013-2014) e consumidores (reajustes tarifários extraordinários de 2015).",
       "setores_afetados": [
@@ -284,9 +298,16 @@
       ],
       "fontes": [
         {
-          "titulo": "Acende Brasil, recorte O Globo 10/05/2014 (resultado de busca, não aberto)",
+          "titulo": "Estado de Minas, 04/01/2013 (recorte no site do Instituto Acende Brasil): rombo de R$ 22 bi com a MP 579",
+          "url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20130104_EstadodeMinas.pdf",
+          "verificado": false,
+          "nota": "Lido em 07/10/2026. PDF lido."
+        },
+        {
+          "titulo": "O Globo, 10/05/2014: TCU quer apurar causa da crise das elétricas (recorte no site do Acende)",
           "url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20140510_OGlobo.pdf",
-          "verificado": false
+          "verificado": false,
+          "nota": "Lido em 07/10/2026. PDF lido; relator José Jorge: aporte do Tesouro de R$ 3,3 bi para R$ 5 bi e R$ 12 bi; linha de R$ 11,2 bi via CCEE; distribuidoras precisariam de mais R$ 7,9 bi em 2014."
         }
       ]
     },
@@ -385,15 +406,13 @@
       "mecanismo_do_dano": "Programas de parcelamento com reduções de multa, juros e encargos criam expectativa de novo programa, o que incentiva o atraso (risco moral). Estudo da Receita aponta que cerca de 50% dos optantes ficam inadimplentes e que o Refis de 2000 regularizou só 6,81% dos 129.100 contribuintes que aderiram. Quem paga em dia financia, na prática, quem espera o próximo perdão.",
       "custo": {
         "valor_rs_bi": 176.0,
-        "faixa_rs_bi": [
-          60.9,
-          176.0
-        ],
+        "faixa_rs_bi": null,
         "ano_base": 2019,
         "tipo": "estimativa",
-        "fonte": "Estudo da Receita Federal noticiado pelo Poder360 (06/01/2020, lido): renúncia de R$ 176 bi nos programas de parcelamento especial em 18 anos; Refis da Crise R$ 60,9 bi; PERT (2017) R$ 62 bi. A faixa vai do maior programa individual (Crise) ao total. É renúncia de multas e juros, não crédito tributário perdido integralmente, e soma valores de anos distintos.",
+        "fonte": "Estudo da Receita Federal noticiado pelo Poder360 (06/01/2020): renúncia fiscal de R$ 176 bi com quase 40 programas de parcelamento especial criados nos últimos 18 anos. É renúncia de multas e juros, não crédito tributário perdido integralmente, e soma valores de anos distintos.",
         "url": "https://www.poder360.com.br/economia/governo-deixa-de-arrecadar-r-176-bilhoes-com-programas-de-refis/",
-        "verificado": false
+        "verificado": false,
+        "nota": "Lido em 07/10/2026. DIVERGÊNCIA corrigida: a reportagem NÃO traz \"Refis da Crise R$ 60,9 bi\" nem \"PERT R$ 62 bi\"; a faixa [60,9; 176] foi removida (sem base lida). Confere: R$ 176 bi, ~40 programas em 18 anos, ~50% dos optantes inadimplentes, Refis de 2000 regularizou 6,81% dos 129.100 contribuintes. Imprensa que replica estudo da Receita: segue false."
       },
       "quem_pagou": "Contribuintes adimplentes (concorrência desleal e tributação futura) e o Estado, pela arrecadação não feita.",
       "setores_afetados": [
@@ -409,7 +428,8 @@
         {
           "titulo": "Poder360: Governo deixa de arrecadar R$ 176 bi com programas de Refis",
           "url": "https://www.poder360.com.br/economia/governo-deixa-de-arrecadar-r-176-bilhoes-com-programas-de-refis/",
-          "verificado": false
+          "verificado": false,
+          "nota": "Lido em 07/10/2026. Confere o R$ 176 bi; ver custo."
         }
       ]
     },
@@ -476,7 +496,8 @@
             "efeito": "Fato histórico (ver historico_brasil). O efeito econômico específico dessas mudanças não foi isolado em fonte lida.",
             "fonte": "Atos Institucionais 2 e 6 (Planalto)",
             "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-02-65.htm",
-            "verificado": false
+            "verificado": true,
+            "nota": "Lido em 07/10/2026. AI-2 (27/10/1965), art. 6º: art. 98 passa a dizer que o STF \"compor-se-á de dezesseis Ministros\" (texto no Planalto)."
           }
         ],
         "leitura_contraria": "Aumentar ou reduzir o número de cadeiras pode ter justificativa administrativa (carga de processos, dificuldade de deliberar em corte pequena ou grande) e há países onde o tamanho da corte variou várias vezes sem colapso institucional. O que diferencia os casos acima é o conjunto (quórum baixo, ato unilateral, momento de conflito aberto), não a mudança em si.",
@@ -487,7 +508,8 @@
             "ano": 1988,
             "fonte": "Constituição Federal, art. 101 (texto não reaberto: o servidor do Planalto recusou a conexão)",
             "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
-            "verificado": false
+            "verificado": true,
+            "nota": "Lido em 07/10/2026. CF art. 101: \"O Supremo Tribunal Federal compõe-se de onze Ministros\" (texto compilado do Planalto lido nesta data; a idade limite tem redações sucessivas: 65 no original, 70 pela EC 122/2022)."
           },
           {
             "nome": "Quórum de aprovação de indicado no Senado (maioria absoluta)",
@@ -495,7 +517,8 @@
             "ano": 1988,
             "fonte": "src/sociolibero/institutions.py (constante SENATE_ABS) e CF art. 101",
             "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
-            "verificado": false
+            "verificado": true,
+            "nota": "Lido em 07/10/2026. CF art. 101, parágrafo único: nomeação pelo Presidente \"depois de aprovada a escolha pela maioria absoluta do Senado Federal\"; 41 de 81 é aritmética da maioria absoluta (constante SENATE_ABS do repositório)."
           },
           {
             "nome": "Quórum de remoção de ministro por impeachment no Senado",
@@ -503,7 +526,8 @@
             "ano": 1988,
             "fonte": "src/sociolibero/institutions.py (constante SENATE_REMOVE_MINISTER) e CF art. 52",
             "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
-            "verificado": false
+            "verificado": true,
+            "nota": "Lido em 07/10/2026. CF art. 52, II e parágrafo único: Senado julga ministros do STF nos crimes de responsabilidade; condenação \"somente será proferida por dois terços dos votos do Senado Federal\"; 54 de 81 é 2/3 de 81."
           }
         ]
       },
@@ -525,7 +549,8 @@
             "efeito": "Fato histórico registrado em web/public/data/historia.json (em 16/01/1969 aposentam-se três ministros). Não localizei estimativa econômica.",
             "fonte": "AI-5 (Planalto)",
             "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-05-68.htm",
-            "verificado": false
+            "verificado": true,
+            "nota": "Lido em 07/10/2026. AI-5 (13/12/1968): art. 6º suspende as garantias de vitaliciedade, inamovibilidade e estabilidade e o §1º permite ao Presidente demitir, remover, aposentar ou pôr em disponibilidade por decreto; art. 10 suspende habeas corpus em crimes políticos; art. 11 exclui apreciação judicial. O AI-5 não nomeia os ministros aposentados (ver historico_brasil)."
           },
           {
             "caso": "Brasil 2015: EC 88/2015 elevou a aposentadoria compulsória de 70 para 75 anos",
@@ -543,7 +568,8 @@
             "ano": 2026,
             "fonte": "src/sociolibero/data.py (STF_VACANCIES), derivado de data de nascimento e art. 100 do ADCT",
             "url": "src/sociolibero/data.py",
-            "verificado": false
+            "verificado": false,
+            "nota": "Datas derivadas de nascimentos (Fux 26/04/1953, Cármen Lúcia 19/04/1954, Gilmar Mendes 30/12/1955). Lido: art. 100 do ADCT (aposentadoria compulsória aos 75 anos, EC 88/2015) no Planalto, e imprensa que confere mês/ano de saída (abr/2028, abr/2029, dez/2030). Os dias de nascimento não foram conferidos em registro oficial."
           }
         ]
       },
@@ -555,17 +581,19 @@
         "evidencia_comparada": [
           {
             "caso": "México 2024-2025: reforma que submete juízes e ministros à eleição popular",
-            "efeito": "Segundo análise de escritório de advocacia (Mayer Brown, 02/10/2024): reforma assinada em 15/09/2024; cerca de 1.600 juízes concorreriam, parte em junho de 2025, o restante em 2027; a Moody's alertou para dano a investimentos de nearshoring; a Morgan Stanley rebaixou o México (agosto de 2024); empresas estrangeiras reteriam cerca de US$ 35 bi em projetos (relato de mercado); a Oxford Economics estimou investimento até 12% abaixo da linha de base. São projeções e relatos de mercado, não efeitos medidos ex-post.",
+            "efeito": "Segundo análise de escritório de advocacia (Mayer Brown, 02/10/2024): reforma assinada em 15/09/2024; cerca de 1.600 juízes concorreriam, parte em junho de 2025, o restante em 2027; a Moody's alertou que a reforma seria \"particularmente danosa\" para investimentos de nearshoring; a Morgan Stanley rebaixou o México para underweight (agosto de 2024); empresas estrangeiras supostamente reteriam cerca de US$ 35 bi em projetos (relato de mercado atribuído à MoneyWeek, não verificado pelo escritório); e a Oxford Economics teria apontado investimento até 12% abaixo da linha de base (via legit.ng). São projeções e relatos de mercado, não efeitos medidos ex-post. Leituras rivais: defensores da reforma a apresentam como democratização e combate à corrupção judicial; este arquivo não decide entre elas.",
             "fonte": "Mayer Brown (2024)",
             "url": "https://www.mayerbrown.com/en/insights/publications/2024/10/mexicos-controversial-judicial-reform-takes-effect-assessing-its-impact",
-            "verificado": false
+            "verificado": true,
+            "nota": "Lido em 07/10/2026. Mayer Brown (02/10/2024) lido: reforma em 15/09/2024; \"approximately 1,600 judges\" (cita NYT); eleição em junho de 2025 e o restante em 2027; Moody's: \"particularly harmful to future investment in nearshoring\"; Morgan Stanley rebaixou para underweight em agosto; US$ 35 bi \"supposedly holding back\" (cita MoneyWeek); Oxford Economics, \"investment could fall 12 percent below its baseline\" (cita legit.ng). Os dois últimos são relatos de terceiros, não apurados pelo escritório."
           },
           {
             "caso": "Polônia 2015-2023: reformas do Judiciário e o bloqueio de fundos da UE",
             "efeito": "A Comissão Europeia liberou até 137 bi de euros em fev/2024 (cerca de 59,8 bi do plano de recuperação, 25,3 bi em subvenções e 34,5 bi em empréstimos, e 76 bi de coesão), condicionado a marcos de independência judicial, como retirar influência política do Conselho Nacional da Magistratura. O valor é de fundos bloqueados, não de PIB perdido.",
             "fonte": "Notes from Poland (23/02/2024)",
             "url": "https://notesfrompoland.com/2024/02/23/brussels-to-unlock-polands-e137-billion-of-frozen-eu-funds-announces-von-der-leyen-in-warsaw/",
-            "verificado": false
+            "verificado": false,
+            "nota": "Lido em 07/10/2026. Notes from Poland lido: \"up to €137 billion\"; plano de recuperação €59,8 bi (€25,3 bi em subvenções e €34,5 bi em empréstimos); coesão €76 bi; liberação atrelada a reformas, incluindo projeto que altera a lei do Conselho Nacional da Magistratura (KRS); anúncio em 23/02/2024. Os componentes somam ~€135,8 bi, abaixo do €137 bi do título. Imprensa citando a Comissão Europeia; primário não aberto."
           },
           {
             "caso": "Hungria 2022: congelamento de 6,3 bi de euros de fundos de coesão",
@@ -579,7 +607,8 @@
             "efeito": "Não li fontes primárias nesta pesquisa sobre a Turquia (referendo de 2010 sobre o conselho de juízes) nem a Índia (invalidação do NJAC em 2015 e colégio de juízes). Sobre Israel há estimativas do Banco Central de Israel (ver custo_economico), não verificadas. Ficam como casos a pesquisar, sem número.",
             "fonte": "sem fonte lida",
             "url": "",
-            "verificado": false
+            "verificado": false,
+            "nota": "Turquia e Índia: não lidas fontes primárias. Pistas: Turquia, reforma de 2010 (referendo de 12/09/2010) e pareceres da Comissão de Veneza (CDL-AD(2010)042, CDL-AD(2011)004), que apareceram em busca mas não foram abertos; Índia, Supreme Court Advocates-on-Record Association v. Union of India (2015), em que a Suprema Corte declarou inconstitucional por 4 a 1 a 99ª Emenda e o NJAC (LiveLaw, lido; a data de 16/10/2015 não consta da página). Seguem como casos a pesquisar. Israel: ver custo_economico."
           }
         ],
         "leitura_contraria": "Indicações podem refletir mérito e perfil jurídico, e o escrutínio do Senado e da sociedade sobre o STF pode ser legítimo e até necessário diante do poder da corte. Muitos países com seleção política mantêm cortes independentes; o que importa é pluralidade de indicadores e tempo de mandato, não a origem da indicação.",
@@ -606,7 +635,8 @@
             "ano": 2024,
             "fonte": "V-Dem via The Global Economy (página retornou HTTP 429 ao robô; valor vem de resumo de busca)",
             "url": "https://www.theglobaleconomy.com/Brazil/judicial_constraints_on_executive/",
-            "verificado": false
+            "verificado": false,
+            "nota": "V-Dem via The Global Economy: a página responde HTTP 429/302 ao acesso automatizado; valor 0,959 (2024) segue de resumo de busca. Sugestão: ler o dataset V-Dem v2x_jucon em v-dem.net."
           }
         ]
       },
@@ -632,15 +662,17 @@
             "ano": 2025,
             "fonte": "Poder360, citando apresentação do presidente do STF",
             "url": "https://www.poder360.com.br/poder-justica/stf-emite-805-de-decisoes-de-forma-individual-em-2025-diz-fachin/",
-            "verificado": false
+            "verificado": false,
+            "nota": "Lido em 07/10/2026. Poder360 lido: balanço de Fachin em 19/12/2025; 116.170 decisões, 93.559 monocráticas (80,5%), 22.611 colegiadas (19,5%). Imprensa citando a presidência do STF; primário não aberto."
           },
           {
-            "nome": "Decisões monocráticas em 2023 (imprensa, dados da Corte Aberta)",
-            "valor": "cerca de 83% (84.650 de 101.970 em uma contagem; 87.837 de 106.028 em outra: contagens divergem por critério)",
+            "nome": "Decisões monocráticas em 2023 (imprensa, balanço da presidência do STF)",
+            "valor": "cerca de 83% (84.650 de 101.970 segundo Barroso, via Monitor Mercantil; 87.837 de 106.028 segundo a coluna de Marcelo Schenk Duque no Migalhas, 28/10/2024: contagens divergem por critério)",
             "ano": 2023,
             "fonte": "Monitor Mercantil",
             "url": "https://monitormercantil.com.br/das-101-970-medidas-adotadas-em-2023-pelo-stf-83-foram-monocraticas/",
-            "verificado": false
+            "verificado": false,
+            "nota": "Lido em 07/10/2026. Monitor Mercantil lido: 101.970 decisões em 2023, 83% (84.650) monocráticas, a partir do balanço do presidente do STF (Barroso). DIVERGÊNCIA: a página NÃO traz 87.837/106.028 nem cita Corte Aberta; esse par vem da coluna do Migalhas (também 75.962 de 93.337 até out/2024). Imprensa; primário não aberto."
           }
         ]
       },
@@ -653,27 +685,30 @@
           {
             "caso": "Brasil 2025: PL 3.640/2025 sobre decisões monocráticas contra leis",
             "efeito": "Segundo o Poder360, a CCJ da Câmara aprovou projeto que restringe decisões individuais contra leis aprovadas pelo Congresso. Há análise jurídica (Migalhas) que discute se o limite é pertinente ou retaliação; não decido entre elas e não li o texto do projeto.",
-            "fonte": "Poder360; Migalhas (coluna Dinâmica Constitucional)",
+            "fonte": "Migalhas, coluna Dinâmica Constitucional (sobre a PEC 8/2021); Poder360 (PL 3.640/2025, não lido)",
             "url": "https://www.migalhas.com.br/coluna/dinamica-constitucional/418326/limite-as-decisoes-monocraticas-do-stf-pertinencia-ou-retaliacao",
-            "verificado": false
+            "verificado": false,
+            "nota": "Lido em 07/10/2026. Coluna do Migalhas lida (Marcelo Schenk Duque, 28/10/2024): trata da PEC 8/2021 (não do PL 3.640/2025); defende que limitar monocráticas é defensável e pode fortalecer a colegialidade, embora situe o contexto como disputa de poder (\"revanchismo\"). NÃO cita o Poder360. O PL 3.640/2025 e a aprovação na CCJ da Câmara não foram confirmados nesta rodada: o caso mistura duas proposições e segue false."
           },
           {
             "caso": "Estados Unidos",
             "efeito": "A literatura de court-curbing (Clark, 2009) é majoritariamente sobre os EUA; não li nesta pesquisa o estudo, então só cito a referência.",
             "fonte": "Clark (2009), DOI 10.1111/j.1540-5907.2009.00411.x",
             "url": "https://doi.org/10.1111/j.1540-5907.2009.00411.x",
-            "verificado": false
+            "verificado": true,
+            "nota": "Lido em 07/10/2026. DOI conferido no Crossref: Clark, T. S. (2009), The Separation of Powers, Court Curbing, and Judicial Legitimacy, AJPS 53(4):971-989. O artigo em si não foi lido; a afirmação do item é só que a literatura é sobretudo dos EUA."
           }
         ],
         "leitura_contraria": "Limitar monocráticas é uma pauta antiga, defendida por ministros e por juristas de diferentes campos como forma de reforçar o colegiado; e o Regimento do STF já foi alterado pela própria corte para limitar decisões individuais em alguns casos. Uma proposta do Legislativo pode ser legítima mesmo se coincidir com interesse político do momento.",
         "indicadores_brasil": [
           {
-            "nome": "Aumento de decisões colegiadas em relação a 2024",
+            "nome": "Aumento do total de decisões dos ministros em relação a 2024",
             "valor": "+5,5% (informado na apresentação)",
             "ano": 2025,
             "fonte": "Poder360",
             "url": "https://www.poder360.com.br/poder-justica/stf-emite-805-de-decisoes-de-forma-individual-em-2025-diz-fachin/",
-            "verificado": false
+            "verificado": false,
+            "nota": "Lido em 07/10/2026. DIVERGÊNCIA corrigida: o Poder360 liga o +5,5% ao conjunto das decisões dos ministros (\"houve um aumento de 5,5% no número de decisões tomadas pelo conjunto dos ministros\"), não às colegiadas. Imprensa; primário não aberto."
           }
         ]
       },
@@ -686,9 +721,10 @@
           {
             "caso": "Israel 2023",
             "efeito": "O Banco de Israel (abr/2023) estimou impacto médio anual de cerca de 0,8% do PIB em três anos se os efeitos se dissipassem rápido e cerca de 2,8% do PIB por ano se fossem percebidos como duradouros; a Moody's mudou a perspectiva de positiva para estável. São cenários do próprio banco, lidos em resumos de busca, não conferidos no relatório.",
-            "fonte": "Times of Israel; Bank of Israel (não aberto: página bloqueada ao robô)",
-            "url": "https://www.timesofisrael.com/bank-of-israel-holds-rates-for-now-warns-about-judicial-risk-to-economy",
-            "verificado": false
+            "fonte": "Globes (04/04/2023, Bar Lavi), relatando o Departamento de Pesquisa do Banco de Israel; Times of Israel (10/07/2023, não traz esses cenários)",
+            "url": "https://en.globes.co.il/en/article-what-will-the-bank-of-israel-do-if-the-worst-happens-1001443286",
+            "verificado": false,
+            "nota": "Lido em 07/10/2026. Globes lido: se o efeito \"subsides relatively quickly\", impacto médio de cerca de 0,8% do PIB por ano em três anos; se a percepção é de que o efeito persiste, cerca de 2,8% do PIB por ano em três anos. DIVERGÊNCIA: o Times of Israel (10/07/2023) não contém esses cenários (traz a revisão de crescimento para 3% em 2023 e 2024); a URL anterior foi trocada. A afirmação sobre a Moody's não foi conferida. Imprensa relatando o banco central; relatório do Banco de Israel não aberto."
           }
         ],
         "leitura_contraria": "Queda de confiança pode refletir polarização e campanhas, não mau desempenho da corte; e pesquisa de opinião varia com o resultado de casos recentes (a mesma instituição foi melhor avaliada em outras ondas). O escrutínio público é parte do controle democrático.",
@@ -699,7 +735,8 @@
             "ano": 2026,
             "fonte": "Datafolha via Folha de Pernambuco; 2.004 entrevistas, margem de 2 pontos, registro TSE BR-03715/2026",
             "url": "https://www.folhape.com.br/politica/indice-de-brasileiros-que-nao-confiam-no-stf-atinge-patamar-recorde-de/473157/",
-            "verificado": false
+            "verificado": false,
+            "nota": "Lido em 07/10/2026. Folha de Pernambuco lido: Datafolha, 3 a 5 de março, 2.004 pessoas; 43% não confiam no STF, maior da série iniciada em 2012, contra 38% em dezembro de 2024; \"confia muito\" de 24% para 16%. O registro TSE e a margem de 2 pontos não constam do resumo lido. Imprensa; Datafolha não aberto."
           },
           {
             "nome": "Datafolha: avaliação do trabalho do STF",
@@ -707,7 +744,8 @@
             "ano": 2026,
             "fonte": "Datafolha via Folha de Pernambuco",
             "url": "https://www.folhape.com.br/politica/indice-de-brasileiros-que-nao-confiam-no-stf-atinge-patamar-recorde-de/473157/",
-            "verificado": false
+            "verificado": false,
+            "nota": "Lido em 07/10/2026. Confere (ótimo/bom 32% para 23%; ruim/péssimo 35% para 39%). A mesma pesquisa mostra polarização: entre eleitores de Lula 44% satisfeitos e 12% não; entre eleitores de Flávio Bolsonaro, 67% insatisfeitos e 7% satisfeitos (leitura rival: parte da queda reflete o escândalo do banco Master e os \"penduricalhos\", segundo a reportagem)."
           }
         ]
       },
@@ -755,7 +793,8 @@
             "efeito": "R$ 1,7 tri (19,5% do PIB de 2021; 22% em 2019, quando era R$ 1,5 tri), por comparação com a média da OCDE em 12 eixos; os seis eixos de maior impacto somam mais de 80%: financiamento, capital humano, infraestrutura, ambiente regulatório e legal, integração a cadeias globais e tributos.",
             "fonte": "Monitor Mercantil (MBC/MDIC)",
             "url": "https://monitormercantil.com.br/custo-brasil-chega-a-r-17-trilhao/",
-            "verificado": false
+            "verificado": false,
+            "nota": "Lido em 07/10/2026. Monitor Mercantil (17/05/2023) lido: R$ 1,7 tri, 19,5% do PIB de 2021 (R$ 1,5 tri e 22% em 2019), 12 áreas, seis respondem por mais de 80%, baixa qualificação da mão de obra com maior peso (8%); cálculo do MBC com o MDIC e participação técnica da FGV. Imprensa replicando o MBC; metodologia original não aberta."
           }
         ],
         "leitura_contraria": "A comparação com a média da OCDE mede distância de um grupo de países mais ricos, não custo evitável; parte das diferenças (renda, tamanho do país, estrutura produtiva) não é política pública. O número é de uma associação empresarial com interesse e parceria com o governo. Os eixos não separam insegurança jurídica de outras causas, e este arquivo não tem um número isolado para ela.",
@@ -766,7 +805,8 @@
             "ano": 2024,
             "fonte": "Poder360, citando CNJ",
             "url": "https://www.poder360.com.br/poder-justica/gasto-com-judiciario-bate-novo-recorde-e-chega-a-r-1465-bilhoes/",
-            "verificado": false
+            "verificado": false,
+            "nota": "Lido em 07/10/2026. Poder360 lido: Justiça em Números 2025 (CNJ), divulgado em 23/09/2025; R$ 146,5 bi, 1,2% do PIB, estadual R$ 91,7 bi (62,6%), trabalho R$ 25,5 bi (17,4%), alta real de 5,5% sobre R$ 138,9 bi em 2023. Imprensa citando o CNJ; relatório do CNJ não aberto."
           }
         ]
       }
@@ -777,28 +817,32 @@
         "fato": "O Ato Institucional nº 2 amplia o STF de 11 para 16 ministros (norma de exceção editada pelo Executivo).",
         "fonte": "Ato Institucional nº 2 (Planalto); registro em web/public/data/historia.json (ai2-1965)",
         "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-02-65.htm",
-        "verificado": false
+        "verificado": true,
+        "nota": "Lido em 07/10/2026. AI-2, art. 6º, texto no Planalto: STF \"compor-se-á de dezesseis Ministros\"; data 27/10/1965."
       },
       {
         "data": "1969-01-16",
         "fato": "Três ministros do STF são aposentados compulsoriamente sob o AI-5 (nomes registrados em historia.json: Victor Nunes Leal, Evandro Lins e Silva e Hermes Lima).",
         "fonte": "AI-5 (Planalto); registro em web/public/data/historia.json (ai5-1968)",
         "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-05-68.htm",
-        "verificado": false
+        "verificado": false,
+        "nota": "AI-5 (13/12/1968) lido: art. 6º permite aposentar por decreto; o texto do AI-5 não nomeia ministros nem data as aposentadorias. Nomes e a data de 16/01/1969 vêm de historia.json e não foram conferidos em decreto/DOU nesta rodada."
       },
       {
         "data": "1969-02-01",
-        "fato": "O AI-6 reduz o STF de 16 para 11 ministros e retira da corte o julgamento de crimes contra a segurança nacional.",
+        "fato": "O AI-6 reduz o STF de 16 para 11 ministros e, no art. 122, §2º, atribui ao Superior Tribunal Militar o julgamento de governadores e secretários nos crimes contra a segurança nacional.",
         "fonte": "Ato Institucional nº 6 (Planalto); registro em historia.json (ai6-1969)",
         "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-06-69.htm",
-        "verificado": false
+        "verificado": true,
+        "nota": "Lido em 07/10/2026. AI-6 (01/02/1969): STF \"compõe-se de 11 (onze) Ministros\" (nova redação do art. 113); art. 122 §2º lido. Correção: a redação anterior (\"retira da corte o julgamento de crimes contra a segurança nacional\") não era sustentada pelo texto lido e foi substituída pelo que o AI-6 diz."
       },
       {
         "data": "1988-10-05",
         "fato": "A Constituição fixa o STF em 11 ministros nomeados pelo Presidente após aprovação por maioria absoluta do Senado (art. 101); impeachment de ministro exige dois terços (art. 52).",
         "fonte": "Constituição Federal (texto não reaberto nesta pesquisa)",
         "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
-        "verificado": false
+        "verificado": true,
+        "nota": "Lido em 07/10/2026. Texto compilado da CF no Planalto lido: art. 101 (onze ministros; parágrafo único, maioria absoluta do Senado) e art. 52, parágrafo único (dois terços)."
       },
       {
         "data": "2015-05-07",
@@ -816,7 +860,8 @@
         "fonte": "MBC/MDIC, via Monitor Mercantil",
         "url": "https://monitormercantil.com.br/custo-brasil-chega-a-r-17-trilhao/",
         "verificado": false,
-        "ressalva": "Metodologia contestada: distância em relação à média de países mais ricos não é custo evitável, e o número vem de associação empresarial com interesse. Não é custo de decisões judiciais."
+        "ressalva": "Metodologia contestada: distância em relação à média de países mais ricos não é custo evitável, e o número vem de associação empresarial com interesse. Não é custo de decisões judiciais.",
+        "nota": "Lido em 07/10/2026. Confere o R$ 1,7 tri e 19,5% do PIB de 2021 na reportagem; metodologia do MBC não aberta."
       },
       {
         "descricao": "Fundos da UE desbloqueados para a Polônia após restabelecimento de marcos de independência judicial (fev/2024)",
@@ -825,7 +870,8 @@
         "fonte": "Notes from Poland, citando a Comissão Europeia",
         "url": "https://notesfrompoland.com/2024/02/23/brussels-to-unlock-polands-e137-billion-of-frozen-eu-funds-announces-von-der-leyen-in-warsaw/",
         "verificado": false,
-        "ressalva": "É valor que ficou bloqueado, não PIB perdido; parte do dinheiro foi liberada em tranches e o motivo do bloqueio incluiu outros pontos; não é conversão para R$."
+        "ressalva": "É valor que ficou bloqueado, não PIB perdido; parte do dinheiro foi liberada em tranches e o motivo do bloqueio incluiu outros pontos; não é conversão para R$.",
+        "nota": "Lido em 07/10/2026. Componentes (59,8 + 76 = 135,8) abaixo do total de \"até 137 bi\" declarado na reportagem."
       },
       {
         "descricao": "Fundos de coesão retidos à Hungria (16/12/2022)",
@@ -838,21 +884,23 @@
       },
       {
         "descricao": "México: retenção de projetos, perda de investimento projetada após a reforma judicial de 2024",
-        "valor": "cerca de US$ 35 bi em projetos retidos (relato de mercado); investimento até 12% abaixo da linha de base (Oxford Economics)",
+        "valor": "cerca de US$ 35 bi em projetos supostamente retidos (relato de mercado); investimento até 12% abaixo da linha de base (Oxford Economics, via legit.ng)",
         "tipo": "estimativa",
         "fonte": "Mayer Brown, citando analistas",
         "url": "https://www.mayerbrown.com/en/insights/publications/2024/10/mexicos-controversial-judicial-reform-takes-effect-assessing-its-impact",
-        "verificado": false,
-        "ressalva": "Projeções e relatos 'supostamente', em 2024, antes das eleições de 2025; não são efeitos medidos ex-post."
+        "verificado": true,
+        "ressalva": "Projeções e relatos 'supostamente', em 2024, antes das eleições de 2025; não são efeitos medidos ex-post.",
+        "nota": "Lido em 07/10/2026. Mayer Brown lido; US$ 35 bi \"supposedly\" (MoneyWeek) e 12% (Oxford Economics, via legit.ng) são relatos de terceiros dentro da análise; o item já os qualifica como relato de mercado."
       },
       {
         "descricao": "Israel: cenários do Banco de Israel sobre o PIB em 2023",
         "valor": "-0,8% do PIB ao ano (cenário de dissipação rápida) a -2,8% ao ano (cenário de persistência), por três anos",
         "tipo": "estimativa",
-        "fonte": "Times of Israel, citando Bank of Israel",
-        "url": "https://www.timesofisrael.com/bank-of-israel-holds-rates-for-now-warns-about-judicial-risk-to-economy",
+        "fonte": "Globes (04/04/2023), relatando o Departamento de Pesquisa do Banco de Israel",
+        "url": "https://en.globes.co.il/en/article-what-will-the-bank-of-israel-do-if-the-worst-happens-1001443286",
         "verificado": false,
-        "ressalva": "Cenários condicionais do banco central, lidos em resumo de busca; o evento (guerra de out/2023) mudou o contexto e impede atribuir efeitos ex-post."
+        "ressalva": "Cenários condicionais do banco central, lidos em resumo de busca; o evento (guerra de out/2023) mudou o contexto e impede atribuir efeitos ex-post.",
+        "nota": "Lido em 07/10/2026. Globes lido: ~0,8% do PIB por ano se o efeito se dissipa rápido e ~2,8% por ano se persiste, em média nos três anos seguintes. A fonte fala em impacto médio anual, não em variação negativa do PIB ano a ano. Times of Israel citado antes não traz esses números."
       },
       {
         "descricao": "Brasil: efeito econômico de mudanças de composição do STF",
@@ -861,7 +909,8 @@
         "fonte": "-",
         "url": "",
         "verificado": false,
-        "ressalva": "Não há, nas fontes lidas, estimativa revisada por pares do efeito da composição do STF em investimento, prêmio de risco ou crescimento no Brasil. O que existe é evidência de seção cruzada (Feld e Voigt, Haggard e Tiede) e casos estrangeiros."
+        "ressalva": "Não há, nas fontes lidas, estimativa revisada por pares do efeito da composição do STF em investimento, prêmio de risco ou crescimento no Brasil. O que existe é evidência de seção cruzada (Feld e Voigt, Haggard e Tiede) e casos estrangeiros.",
+        "nota": "Afirmação negativa (nada localizado); não se aplica verificação positiva."
       },
       {
         "descricao": "Despesa do Poder Judiciário (custo do sistema, não de insegurança)",
@@ -870,7 +919,8 @@
         "fonte": "Justiça em Números 2025 (CNJ), via Poder360",
         "url": "https://www.poder360.com.br/poder-justica/gasto-com-judiciario-bate-novo-recorde-e-chega-a-r-1465-bilhoes/",
         "verificado": false,
-        "ressalva": "Mede o gasto com a Justiça, que é bem público; não é custo de decisões ruins e não deve ser somado aos itens acima."
+        "ressalva": "Mede o gasto com a Justiça, que é bem público; não é custo de decisões ruins e não deve ser somado aos itens acima.",
+        "nota": "Lido em 07/10/2026. Confere na reportagem do Poder360 (ver indicador de despesa)."
       }
     ]
   },
@@ -940,7 +990,8 @@
         "fonte": "V-Dem via The Global Economy (a página retornou HTTP 429; valor vem de resumo de busca)",
         "url": "https://www.theglobaleconomy.com/Brazil/judicial_constraints_on_executive/",
         "verificado": false,
-        "o_que_nao_mede": "É avaliação de especialistas sobre se os tribunais constrangem o Executivo; um valor alto é compatível com o ponto de vista contrário (corte forte demais?) e não mede o poder do Judiciário sobre o Legislativo."
+        "o_que_nao_mede": "É avaliação de especialistas sobre se os tribunais constrangem o Executivo; um valor alto é compatível com o ponto de vista contrário (corte forte demais?) e não mede o poder do Judiciário sobre o Legislativo.",
+        "nota": "A página do The Global Economy recusa o acesso automatizado (429/302); valor 0,959 (2024) segue de resumo de busca. Ler o dataset V-Dem para fechar."
       },
       {
         "id": "iesgo-igg-tcu",
@@ -995,51 +1046,56 @@
         "fonte": "Imprensa (Jornal Opção, CNN Brasil); não abri série oficial (Casa Civil/Presidência)",
         "url": "https://www.jornalopcao.com.br/brasil/o-que-mudou-como-lula-aumentou-a-quantidade-de-ministerios-de-22-para-37-454564/",
         "verificado": false,
-        "o_que_nao_mede": "Número de pastas reflete coalizão e política partidária; rotatividade pode ser sinal de instabilidade ou de correção de rota; a literatura associa alta rotatividade a pior execução, mas não li um estudo causal."
+        "o_que_nao_mede": "Número de pastas reflete coalizão e política partidária; rotatividade pode ser sinal de instabilidade ou de correção de rota; a literatura associa alta rotatividade a pior execução, mas não li um estudo causal.",
+        "nota": "Jornal Opção recusou o acesso (HTTP 403, também via curl); números de pastas e trocas ministeriais não lidos. Série oficial (Casa Civil) também não aberta."
       },
       {
         "id": "atlas-estado-vinculos",
         "nome": "Vínculos públicos e cargos de livre nomeação (Atlas do Estado, Ipea)",
-        "valor_brasil": "6,3 milhões de vínculos públicos em 1995 e 11,5 milhões em 2016; decreto federal reserva 75% dos cargos DAS 1 a 3 e 50% do DAS 4 a servidores de carreira e determina 60% dos cargos de alto escalão para servidores concursados",
+        "valor_brasil": "6,3 milhões de vínculos públicos em 1995 e 11,5 milhões em 2016",
         "comparacao": "Sem comparação internacional lida",
         "ano": 2016,
         "fonte": "Aos Fatos, citando Ipea; não abri o Atlas do Estado nem os decretos",
         "url": "https://aosfatos.org/noticias/situacao-do-funcionalismo-publico-brasileiro-em-seis-graficos/",
         "verificado": false,
-        "o_que_nao_mede": "Livre nomeação não é sinônimo de baixa competência (há nomeados técnicos e concursados incompetentes); mede a porta de entrada, não o desempenho."
+        "o_que_nao_mede": "Livre nomeação não é sinônimo de baixa competência (há nomeados técnicos e concursados incompetentes); mede a porta de entrada, não o desempenho.",
+        "nota": "Lido em 07/10/2026. Aos Fatos lido: confere 6,3 milhões (1995) e 11,5 milhões (2016) segundo o Atlas do Estado (Ipea). DIVERGÊNCIA: a matéria NÃO menciona o decreto que reserva 75% dos DAS 1 a 3 e 50% do DAS 4 a servidores de carreira, e o \"60%\" do texto é o limite de gasto com pessoal da LRF, não cargos de alto escalão; essas afirmações foram removidas do valor e seguem sem fonte lida."
       },
       {
         "id": "execucao-investimento-2024",
         "nome": "Execução orçamentária do investimento federal (2024)",
-        "valor_brasil": "Autorizado R$ 79,6 bi (1,5% do orçamento de R$ 5,4 tri); empenhado R$ 68,63 bi (96,6%); pago no exercício R$ 32,79 bi; total desembolsado incluindo restos a pagar R$ 60,13 bi",
+        "valor_brasil": "Dotação autorizada R$ 71,05 bi (1,29% do orçamento de R$ 5,5 tri, em 31/12/2024); empenhado R$ 68,63 bi (96,6%); liquidado R$ 33,9 bi; pago no exercício R$ 32,79 bi (46,2%); total pago incluindo restos a pagar R$ 60,13 bi",
         "comparacao": "Ministério dos Transportes: R$ 13,395 bi autorizados, 100% empenhado e 70,1% pago",
         "ano": 2024,
-        "fonte": "CNI, Relatório de Infraestrutura (dez/2024), com dados do Tesouro Transparente; não reabri o Tesouro",
-        "url": "https://sicepot2.task.com.br/Sicepot-Informa/RelatorioInfraestruturaCNI-Dez2024.pdf",
-        "verificado": false,
-        "o_que_nao_mede": "Empenho alto com pagamento baixo pode ser prática orçamentária (restos a pagar), não ineficiência; não mede qualidade nem prazo das obras."
+        "fonte": "CNI, Relatório de Infraestrutura (jan/2025), com dados do Siga Brasil até 31/12/2024",
+        "url": "https://sicepot2.task.com.br/Sicepot-Informa/RelatorioInfraestruturaCNI-Jan2025.pdf",
+        "verificado": true,
+        "o_que_nao_mede": "Empenho alto com pagamento baixo pode ser prática orçamentária (restos a pagar), não ineficiência; não mede qualidade nem prazo das obras.",
+        "nota": "Lido em 07/10/2026. DIVERGÊNCIA corrigida: o item misturava duas edições. R$ 79,6 bi autorizados (1,5% de R$ 5,4 tri) vem do relatório de jul/2024 (consulta de 30/06/2024, empenho de R$ 39 bi); o fechamento de 2024 (jan/2025, Tabela 1) é dotação de R$ 71,05 bi (1,29% de R$ 5,5 tri), empenho R$ 68,63 bi (96,6%), pago R$ 32,79 bi (46,2%) e total pago R$ 60,13 bi. Ministério dos Transportes conferido na Tabela 1: R$ 13.395 mi, empenho 100,0%, pago 70,1%. O URL anterior (edição de dez/2024) não continha esses números. Siga Brasil/Tesouro não reaberto; a fonte citada é a própria CNI."
       },
       {
         "id": "filas-sus",
         "nome": "Filas do SUS como produto final",
-        "valor_brasil": "Auditoria do TCU com dados de 2019 a 2025 (RNDS): em quase dois terços dos tipos de cirurgia oncológica em 2025, pelo menos um quarto dos pacientes esperou além dos 60 dias legais; espera em 2025 no pior nível desde 2022; o SUS fez 14,7 milhões de cirurgias eletivas em 2025 (recorde)",
-        "comparacao": "Estimativas de pessoas na fila variam de 904 mil (CFM) a mais de 1,2 milhão (apresentação na Câmara)",
+        "valor_brasil": "Auditoria do TCU com dados de 2019 a 2025 (RNDS) sobre o programa Agora Tem Especialistas: em cerca de dois terços dos tipos de cirurgia oncológica em 2025, pelo menos um quarto dos pacientes esperou além dos 60 dias legais; espera em 2025 no pior nível desde 2022; em um quinto dos procedimentos monitorados a mediana já excede o prazo legal",
+        "comparacao": "A estimativa de pessoas na fila varia conforme a fonte (CFM, apresentação na Câmara); os números não foram lidos nesta rodada",
         "ano": 2025,
         "fonte": "Jornal de Brasília citando TCU; Folha Vitória (CFM)",
         "url": "https://jornaldebrasilia.com.br/noticias/saude/aumenta-espera-por-cirurgia-de-cancer-no-sus-aponta-tcu/",
         "verificado": false,
-        "o_que_nao_mede": "Fila mede demanda reprimida e capacidade, não ineficiência isolada; os números dependem de registro (RNDS) e de duplicidade; não separa responsabilidade federal, estadual e municipal."
+        "o_que_nao_mede": "Fila mede demanda reprimida e capacidade, não ineficiência isolada; os números dependem de registro (RNDS) e de duplicidade; não separa responsabilidade federal, estadual e municipal.",
+        "nota": "Lido em 07/10/2026. Jornal de Brasília lido: confere o resultado do TCU. DIVERGÊNCIA: a matéria NÃO traz os 14,7 milhões de cirurgias eletivas em 2025 nem os 904 mil da fila (CFM); foram removidos do texto por falta de fonte lida. O Ministério da Saúde contesta/está estruturando a linha de cuidado (Mozart Sales: oito centros regionais de patologia, radioterapia federalizada). Imprensa citando o TCU; relatório do TCU não aberto."
       },
       {
         "id": "custo-violencia",
         "nome": "Segurança: custo da violência (proxy do produto final)",
-        "valor_brasil": "Atlas da Violência/FBSP: cerca de R$ 1 milhão por morte violenta, mais de R$ 46 bi por ano só com homicídios; estimativas de imprensa de até 11% do PIB (mais de R$ 1 tri) com métodos distintos; BID: gasto direto relacionado ao crime de até 3,92% do PIB em 2022",
+        "valor_brasil": "Ipea (cálculo anterior, segundo o InfoMoney): cerca de R$ 1 milhão por morte violenta; mais de R$ 46 bi por ano só com homicídios; Atlas da Violência (Ipea/FBSP, mais recente): custo de 11% do PIB; BID (Os Custos do Crime e da Violência): gasto direto de até 3,92% do PIB em 2022 para o Brasil",
         "comparacao": "Faixa de 3,9% a 11% do PIB mostra a dependência do método",
         "ano": 2022,
         "fonte": "InfoMoney, citando Atlas da Violência (Ipea/FBSP) e BID; não abri os relatórios",
         "url": "https://www.infomoney.com.br/?p=3082091",
         "verificado": false,
-        "o_que_nao_mede": "Mede custo do crime, não a capacidade da polícia ou da Justiça; o custo inclui perdas de produtividade com premissas fortes, e a faixa é larga demais para ser tratada como valor único."
+        "o_que_nao_mede": "Mede custo do crime, não a capacidade da polícia ou da Justiça; o custo inclui perdas de produtividade com premissas fortes, e a faixa é larga demais para ser tratada como valor único.",
+        "nota": "Lido em 07/10/2026. InfoMoney (29/10/2025) lido. DIVERGÊNCIA corrigida: o R$ 1 milhão por morte vem de \"cálculo anterior do próprio Ipea\", não do Atlas; \"11% do PIB\" aparece sem \"até\" e como estimativa do Atlas/FBSP; o BID diz \"até 3,92% em 2022\" sobre custos diretos. Sem datas para o R$ 46 bi e o 11%. Imprensa; relatórios não abertos."
       },
       {
         "id": "gasto-judiciario",
@@ -1050,7 +1106,8 @@
         "fonte": "CNJ, Justiça em Números 2025, via Poder360",
         "url": "https://www.poder360.com.br/poder-justica/gasto-com-judiciario-bate-novo-recorde-e-chega-a-r-1465-bilhoes/",
         "verificado": false,
-        "o_que_nao_mede": "Gasto alto pode refletir cobertura e volume de litígio; não mede produtividade nem acesso à Justiça."
+        "o_que_nao_mede": "Gasto alto pode refletir cobertura e volume de litígio; não mede produtividade nem acesso à Justiça.",
+        "nota": "Lido em 07/10/2026. Ver indicador do Poder360 sobre o Justiça em Números 2025; a alta real de 5,5% confere (R$ 138,9 bi em 2023). A comparação internacional da reportagem (Tesouro: 1,3% do PIB, segundo mais alto entre 50 países, atrás de El Salvador) é estimativa distinta e não foi conferida."
       }
     ],
     "ineficiencia_por_setor": [
@@ -1100,15 +1157,16 @@
         "setor": "Energia",
         "valor_rs_bi": 22.0,
         "faixa_rs_bi": [
-          9.0,
+          7.0,
           22.0
         ],
-        "metodo": "Estimativa do Instituto Acende Brasil (entidade do setor) sobre o efeito da MP 579 nas contas federais, em resumo de busca; o orçamento da CDE em 2026 de R$ 52,7 bi (R$ 47,8 bi pelas tarifas) é outro dado do repositório (custo_corrupcao.json), que não é ineficiência, mas encargo setorial.",
+        "metodo": "Estimativa do Instituto Acende Brasil (entidade do setor), publicada pelo Estado de Minas em 04/01/2013, do rombo mínimo de R$ 22 bi nas contas federais com a MP 579 (R$ 7 bi do governo para reduzir a conta de luz mais R$ 15 bi de perda de receita da Eletrobras); o Tesouro contestou (\"não vai ter prejuízo\"). O orçamento da CDE em 2026 de R$ 52,7 bi (R$ 47,8 bi pelas tarifas) é outro dado do repositório (custo_corrupcao.json), que não é ineficiência, mas encargo setorial.",
         "tipo": "estimativa",
-        "fonte": "Acende Brasil (não aberto); web/public/data/custo_corrupcao.json (tributos-subsidios-energia)",
-        "url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20140510_OGlobo.pdf",
+        "fonte": "Acende Brasil (recorte do Estado de Minas, 04/01/2013, lido); web/public/data/custo_corrupcao.json (tributos-subsidios-energia)",
+        "url": "https://acendebrasil.com.br/wp-content/uploads/2020/04/20130104_EstadodeMinas.pdf",
         "verificado": false,
-        "controversia": "Subsídio setorial é escolha de política, não ineficiência; a MP 579 teve defesa de modicidade tarifária. O número vem de entidade com interesse."
+        "controversia": "Subsídio setorial é escolha de política, não ineficiência; a MP 579 teve defesa de modicidade tarifária. O número vem de entidade com interesse.",
+        "nota": "Lido em 07/10/2026. DIVERGÊNCIA corrigida: a faixa [9, 22] e a atribuição ao recorte de O Globo de 2014 não se sustentam (o R$ 9 bi não consta); ver decisoes_ruins, plano da MP 579."
       },
       {
         "setor": "Segurança pública",
@@ -1122,7 +1180,8 @@
         "fonte": "InfoMoney, citando Atlas da Violência e BID (não abri os relatórios)",
         "url": "https://www.infomoney.com.br/?p=3082091",
         "verificado": false,
-        "controversia": "Misturar custo do crime com ineficiência do Estado é erro comum. O custo depende de premissas sobre vida estatística e produtividade."
+        "controversia": "Misturar custo do crime com ineficiência do Estado é erro comum. O custo depende de premissas sobre vida estatística e produtividade.",
+        "nota": "Lido em 07/10/2026. InfoMoney lido; ver proxy custo-violencia. O custo do crime não é ineficiência do gasto (já dito no texto)."
       },
       {
         "setor": "Previdência e gestão de pessoal",
@@ -1147,7 +1206,8 @@
         "fonte": "web/public/data/custo_corrupcao.json (itens da área crime-ambiental-ouro-madeira-terra, verificado:false); TCU sobre processos sancionadores do Ibama (verificado no repositório)",
         "url": "https://www.aosfatos.org/noticias/por-que-o-ibama-arrecada-so-5-das-multas-ambientais-que-aplica/",
         "verificado": false,
-        "controversia": "Multa aplicada não é multa devida (recursos, prescrição); o estudo de grilagem é estimativa de cenário, de 2019, com premissas de preço da terra; mistura de crime com ineficiência."
+        "controversia": "Multa aplicada não é multa devida (recursos, prescrição); o estudo de grilagem é estimativa de cenário, de 2019, com premissas de preço da terra; mistura de crime com ineficiência.",
+        "nota": "Lido em 07/10/2026. Aos Fatos lido: o Ibama arrecada em média cerca de 5% do valor das multas; 2015-2017 cerca de 16.600 autos por ano, R$ 3,8 bi por ano; em 2017 arrecadou R$ 9,6 mi de R$ 3,2 bi (0,3%) porque o julgamento leva ~3,5 anos; relatório do TCU de 2017: 14 reguladores federais arrecadaram em média 6% das multas de 2011 a 2014. A matéria NÃO traz a estimativa de R$ 118 bi de grilagem, que vem de outra fonte (custo_corrupcao.json) e segue sem leitura. Leitura rival: multa aplicada não é multa devida (recursos, prescrição)."
       }
     ]
   },
@@ -1164,13 +1224,15 @@
           "titulo": "Acemoglu, Johnson e Robinson (2001), The Colonial Origins of Comparative Development, AER 91(5)",
           "url": "https://doi.org/10.1257/aer.91.5.1369",
           "doi": "10.1257/aer.91.5.1369",
-          "verificado": false
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. Crossref: Acemoglu, Johnson e Robinson (2001), \"The Colonial Origins of Comparative Development: An Empirical Investigation\", American Economic Review 91(5):1369-1401."
         },
         {
           "titulo": "Acemoglu e Robinson (2012), Why Nations Fail, Crown",
-          "url": "",
+          "url": "https://openlibrary.org/works/OL16568759W",
           "doi": null,
-          "verificado": false
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. Registro bibliográfico (Open Library): Why Nations Fail, Acemoglu e Robinson, Crown, 2012. Obra não lida; confere só a referência."
         }
       ]
     },
@@ -1184,9 +1246,10 @@
       "referencias": [
         {
           "titulo": "Olson (1982), The Rise and Decline of Nations, Yale University Press",
-          "url": "",
+          "url": "https://openlibrary.org/works/OL108559W",
           "doi": null,
-          "verificado": false
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. Registro bibliográfico (Open Library): The Rise and Decline of Nations, Mancur Olson, Yale University Press, 1982."
         }
       ]
     },
@@ -1200,9 +1263,10 @@
       "referencias": [
         {
           "titulo": "Turchin e Nefedov (2009), Secular Cycles, Princeton University Press",
-          "url": "",
+          "url": "https://openlibrary.org/works/OL1812346W",
           "doi": null,
-          "verificado": false
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. Registro bibliográfico (Open Library): Secular Cycles, Turchin e Nefedov, Princeton University Press, 2009."
         }
       ]
     },
@@ -1216,9 +1280,10 @@
       "referencias": [
         {
           "titulo": "Tainter (1988), The Collapse of Complex Societies, Cambridge University Press",
-          "url": "",
+          "url": "https://openlibrary.org/works/OL4741769W",
           "doi": null,
-          "verificado": false
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. Registro bibliográfico (Open Library): The Collapse of Complex Societies, Joseph Tainter, Cambridge University Press, 1988."
         }
       ]
     },
@@ -1232,15 +1297,17 @@
       "referencias": [
         {
           "titulo": "Minsky (1986), Stabilizing an Unstable Economy, Yale University Press",
-          "url": "",
+          "url": "https://openlibrary.org/works/OL5105728W",
           "doi": null,
-          "verificado": false
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. Registro bibliográfico (Open Library): Stabilizing an Unstable Economy, Hyman Minsky, Yale University Press, 1986."
         },
         {
           "titulo": "Kindleberger (1978), Manias, Panics and Crashes, Basic Books",
-          "url": "",
+          "url": "https://openlibrary.org/works/OL1831957W",
           "doi": null,
-          "verificado": false
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. Registro bibliográfico (Open Library): Manias, Panics, and Crashes, Kindleberger (1978; edição Basic Books listada). Edições posteriores com Aliber (Palgrave). Obra não lida."
         }
       ]
     },
@@ -1254,15 +1321,17 @@
       "referencias": [
         {
           "titulo": "Dixit (1996), The Making of Economic Policy, MIT Press",
-          "url": "",
+          "url": "https://openlibrary.org/works/OL2979493W",
           "doi": null,
-          "verificado": false
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. Registro bibliográfico (Open Library): The Making of Economic Policy, Avinash Dixit, MIT Press, 1996."
         },
         {
           "titulo": "Persson e Tabellini (2000), Political Economics: Explaining Economic Policy, MIT Press",
-          "url": "",
+          "url": "https://openlibrary.org/works/OL16928185W",
           "doi": null,
-          "verificado": false
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. Registro bibliográfico (Open Library): Political Economics: Explaining Economic Policy, Persson e Tabellini, MIT Press, 2000."
         }
       ]
     },
@@ -1278,7 +1347,8 @@
           "titulo": "Merton (1936), The Unanticipated Consequences of Purposive Social Action, American Sociological Review 1(6)",
           "url": "https://doi.org/10.2307/2084615",
           "doi": "10.2307/2084615",
-          "verificado": false
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. Crossref: Merton (1936), \"The Unanticipated Consequences of Purposive Social Action\", American Sociological Review 1(6):894-904."
         }
       ]
     },
@@ -1292,33 +1362,38 @@
       "referencias": [
         {
           "titulo": "Segal e Spaeth (2002), The Supreme Court and the Attitudinal Model Revisited, Cambridge University Press",
-          "url": "",
+          "url": "https://openlibrary.org/works/OL19598980W",
           "doi": null,
-          "verificado": false
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. Registro bibliográfico (Open Library): The Supreme Court and the Attitudinal Model Revisited, Segal e Spaeth, Cambridge University Press, 2002."
         },
         {
           "titulo": "Epstein e Knight (1998), The Choices Justices Make, CQ Press",
-          "url": "",
+          "url": "https://openlibrary.org/works/OL18927598W",
           "doi": null,
-          "verificado": false
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. Registro bibliográfico (Open Library): The Choices Justices Make, Lee Epstein e Jack Knight, CQ Press, 1998."
         },
         {
-          "titulo": "Posner (1993), What Do Judges and Justices Maximize?, Supreme Court Economic Review 3",
-          "url": "",
-          "doi": null,
-          "verificado": false
+          "titulo": "Posner (1993), What Do Judges and Justices Maximize? (The Same Thing Everybody Else Does), Supreme Court Economic Review 3",
+          "url": "https://doi.org/10.1086/scer.3.1147064",
+          "doi": "10.1086/scer.3.1147064",
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. Crossref (DOI 10.1086/scer.3.1147064): título completo \"What Do Judges and Justices Maximize? (The Same Thing Everybody Else Does)\", Supreme Court Economic Review 3:1-41, 1993."
         },
         {
           "titulo": "Clark (2009), The Separation of Powers, Court Curbing, and Judicial Legitimacy, AJPS 53(4)",
           "url": "https://doi.org/10.1111/j.1540-5907.2009.00411.x",
           "doi": "10.1111/j.1540-5907.2009.00411.x",
-          "verificado": false
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. Crossref: Clark (2009), AJPS 53(4):971-989."
         },
         {
           "titulo": "Vanberg (2005), The Politics of Constitutional Review in Germany, Cambridge University Press",
-          "url": "",
+          "url": "https://openlibrary.org/works/OL25653517W",
           "doi": null,
-          "verificado": false
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. Registro bibliográfico (Open Library): The Politics of Constitutional Review in Germany, Georg Vanberg, Cambridge University Press (2004/2005 conforme a edição listada)."
         }
       ]
     },
@@ -1340,7 +1415,8 @@
           "titulo": "Haggard e Tiede (2011), The Rule of Law and Economic Growth: Where Are We?, World Development 39(5)",
           "url": "https://doi.org/10.1016/j.worlddev.2010.10.007",
           "doi": "10.1016/j.worlddev.2010.10.007",
-          "verificado": false
+          "verificado": true,
+          "nota": "Lido em 07/10/2026. Crossref: Haggard e Tiede (2011), \"The Rule of Law and Economic Growth: Where are We?\", World Development 39(5):673-685."
         }
       ]
     }

@@ -7,7 +7,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 - **Pensador** reúne ideia central, conceitos, uso operacional, casos com fonte, críticas e ligações aos ids de `economia_historica.json` (ciclos), `decisoes.json` (decisões), `potenciais_brasil.json` (potências) e `leis_tecnologicas.json` (leis).
 - **Pilar** é a síntese: princípio, tradução institucional, exemplos em operação, indicadores, riscos e tensões com outros pilares.
 - **Proposta** (V01 a V15) traz instrumento legal, quórum aproximado (convenção do projeto: LO 231 deputados e 37 senadores, LC 257 e 41, PEC 308 e 49), custo e benefício qualitativos, evidência, risco de captura e indicador de sucesso. Não entram no modelo macro; os efeitos não foram estimados.
-- **Verificação.** `verificado=true` só para páginas lidas nesta pesquisa: o texto da Constituição do Equador (arts. 14 e 71-74) e a Sentencia T-622/2016 da Corte Constitucional da Colômbia. O resto veio de resumo de busca ou de memória (URL vazio = obra citada de memória sem link conferido). `[nv]` marca item não verificado.
+- **Verificação.** `verificado=true` só para páginas ou registros lidos nesta pesquisa: o texto da Constituição do Equador (arts. 14 e 71-74), a Sentencia T-622/2016 da Colômbia e, na rodada de 2026-10-07, 85 itens de obras e casos conferidos em catálogos (Open Library, Crossref), resumos de artigos, textos de leis e páginas de imprensa/Wikipedia lidas; a nota de cada item diz o que foi aberto. Obras conferidas só em catálogo têm título, autor, ano e editora lidos, não o conteúdo. O resto veio de resumo de busca ou de memória. `[nv]` marca item não verificado.
 
 ## Pilares
 
@@ -50,7 +50,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 - Garnett et al. 2018 (Nature Sustainability): povos indígenas manejam ou têm direitos sobre cerca de 38 milhões de km², mais de um quarto da terra do planeta, e esse território cruza cerca de 40% das áreas protegidas e das paisagens intactas (DOI 10.1038/s41893-018-0100-6, resumo de busca).
 - Fa et al. 2020: mais de um terço das paisagens florestais intactas está em terras indígenas (resumo de busca).
 - Manejo de pirarucu em comunidades amazônicas com recuperação de estoques (Campos-Silva e Peres 2016, Scientific Reports; valores de memória e a conferir).
-- Cox, Arnold e Villamayor 2010: 91 estudos apoiam os princípios de Ostrom (resumo de busca).
+- Cox, Arnold e Villamayor 2010: 91 estudos avaliam os oito princípios de Ostrom; os autores os consideram bem apoiados empiricamente e propõem reformulação (resumo do artigo lido).
 
 **Indicadores.** Perda de vegetação nativa por categoria fundiária (MapBiomas); Estoque do recurso manejado; Taxa de descumprimento de regras e conflitos; Renda do manejo por família.
 
@@ -119,7 +119,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 - Equador 2008, arts. 71-74 (texto lido, constituteproject.org).
 - Colômbia, T-622/2016: rio Atrato como sujeito de direitos (página lida, corteconstitucional.gov.co).
 - Bolívia, Lei 71/2010 e Lei 300/2012 (resumos de busca).
-- Bonito (PE) 2017 e Paudalho (PE) 2018: lei orgânica com direitos da natureza (resumo de busca); sem evidência de efeito medido.
+- Bonito (PE, 21/12/2017) e Paudalho (PE, 20/12/2018, art. 181): lei orgânica com direitos da natureza (ecojurisprudence.org, lido); sem evidência de efeito medido.
 
 **Indicadores.** Processos com decisão baseada em direito da natureza; Área restaurada; Orçamento dos guardiães; Número de licenças negadas ou condicionadas.
 
@@ -169,8 +169,8 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 **Exemplos em operação.**
 - Rockström et al. 2009 (Nature 461:472) definiram nove limites; Richardson et al. 2023 (Science Advances) estimam seis transgredidos (memória).
-- O'Neill et al. 2018 (Nature Sustainability): nenhum país atende às necessidades básicas dentro dos limites (memória).
-- Turner 2008 e Herrington 2021 sobre aderência do cenário de Limits to Growth (memória).
+- O'Neill et al. 2018 (Nature Sustainability): nenhum país atende às necessidades básicas de seus cidadãos em nível de uso de recursos globalmente sustentável (resumo lido).
+- Turner 2008 e Herrington 2021 sobre aderência dos cenários de Limits to Growth: Herrington (resumo lido) acha os dois cenários mais próximos dos dados indicando estagnação nas próximas décadas e só um deles com colapso; Turner foi lido apenas pela descrição de Herrington.
 
 **Indicadores.** Emissões per capita e líquidas; Pegada hídrica; Uso de terra por bioma; Intensidade material do PIB.
 
@@ -186,7 +186,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 **Exemplos em operação.**
 - Bolívia, Estado plurinacional (2009) e Equador (2008): autonomias indígenas, com implementação desigual.
-- Chile 2022: proposta plurinacional rejeitada no plebiscito (memória).
+- Chile 2022: proposta rejeitada no plebiscito de 4/9/2022 (Rechazo 61,89%, Wikipedia lida; Servel não aberto).
 
 **Indicadores.** Autonomias reconhecidas; Conflitos de competência; Participação política indígena e quilombola; Aprovação em plebiscito.
 
@@ -211,7 +211,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Indígena andino-amazônico (quéchua), codificado em constituição.*
 
-**Obras.** [Constitución de la República del Ecuador (preâmbulo, arts. 14 e 71-74) (2008)](https://www.constituteproject.org/constitution/Ecuador_2021); Viteri Gualinga, C. 'Visión indígena del desarrollo en la Amazonía', Polis (2002) [nv]; Gudynas, E. 'Buen Vivir: today's tomorrow', Development 54(4) (2011) [nv]
+**Obras.** [Constitución de la República del Ecuador (preâmbulo, arts. 14 e 71-74) (2008)](https://www.constituteproject.org/constitution/Ecuador_2021); Viteri Gualinga, C. 'Visión indígena del desarrollo en la Amazonía', Polis (2002); Gudynas, E. 'Buen Vivir: today's tomorrow', Development 54(4) (2011)
 
 **Ideia central.** Vida plena em relação com a comunidade e a natureza, e não acumulação individual. Na Constituição do Equador vira princípio de ordenamento (preâmbulo, art. 14) e a natureza (Pacha Mama) ganha direitos (arts. 71-74).
 
@@ -221,7 +221,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 **Casos e evidências.**
 - Arts. 71-74 da Constituição do Equador: a natureza tem direito a respeito integral, à restauração independente de indenização a pessoas, e o Estado deve aplicar medidas preventivas e restritivas; art. 14 cita o sumak kawsay. Fonte: [Constitute Project (texto lido)](https://www.constituteproject.org/constitution/Ecuador_2021).
-- Referendo de 20/ago/2023: cerca de 59% votaram por deixar o petróleo do bloco 43 (Yasuní-ITT) no subsolo. Fonte: [Resumo de busca (CorpWatch e outros)](https://corpwatch.org/article/ecuadorians-vote-stop-petroecuadors-oil-drilling-yasuni-national-park) [nv].
+- Referendo de 20/ago/2023: 58,95% dos votos válidos (54,11% do total de votos) apoiaram deixar o petróleo do bloco 43 (Yasuní-ITT) no subsolo; a proposta foi aprovada. Fonte: [Wikipedia (artigo do referendo de 2023 do Yasuní) lida; a tabela cita o CNE, que não foi aberto](https://en.wikipedia.org/wiki/2023_Ecuadorian_Yasun%C3%AD_National_Park_oil_exploitation_referendum). Nota: Mesmo resultado, dois denominadores: 58,95% dos válidos; 54,11% de todos os votos (5.541.585 de 10.816.748).
 
 **Críticas e limites.** Críticas: (1) o conceito indígena original é plural e local, e a versão estatal é uma tradução seletiva; (2) há debate sobre se o termo, na forma atual, é construção recente de intelectuais e movimentos (Gudynas e Rivera Cusicanqui chamam de retórica quando convive com extrativismo); (3) o Estado que o proclama licenciou petróleo e mineração: a iniciativa Yasuní-ITT (deixar o petróleo no solo mediante compensação internacional) foi encerrada em 2013 e só voltou pela via do referendo de 2023. O cumprimento do referendo está por verificar.
 
@@ -233,7 +233,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Indígena andino (aimará), codificado em constituição e leis.*
 
-**Obras.** Constitución Política del Estado Plurinacional de Bolivia (art. 8: suma qamaña, ñandereko, teko kavi, ivi maraei, qhapaj ñan) (2009) [nv]; [Ley nº 71 de Derechos de la Madre Tierra, 21/12/2010 (2010)](https://www.lexivox.org/norms/BO-L-N71.html) [nv]; [Ley nº 300 Marco de la Madre Tierra y Desarrollo Integral para Vivir Bien, 15/10/2012 (2012)](https://bolivia.infoleyes.com/norma/4126/ley-marco-de-la-madre-tierra-y-desarrollo-integral-para-vivir-bien-300) [nv]
+**Obras.** Constitución Política del Estado Plurinacional de Bolivia (art. 8: suma qamaña, ñandereko, teko kavi, ivi maraei, qhapaj ñan) (2009); [Ley nº 71 de Derechos de la Madre Tierra, 21/12/2010 (2010)](https://www.lexivox.org/norms/BO-L-N71.html); [Ley nº 300 Marco de la Madre Tierra y Desarrollo Integral para Vivir Bien, 15/10/2012 (2012)](https://bolivia.infoleyes.com/norma/4126/ley-marco-de-la-madre-tierra-y-desarrollo-integral-para-vivir-bien-300)
 
 **Ideia central.** Viver bem com, não melhor que: equilíbrio entre pessoas e Madre Tierra. A Lei 71 diz que o exercício de direitos individuais é limitado pelo exercício de direitos coletivos nos sistemas de vida da Madre Tierra e que conflitos devem ser resolvidos sem afetar irreversivelmente esses sistemas (resumo de busca).
 
@@ -242,8 +242,8 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Compara-se com o Equador: a Bolívia fez lei ordinária (71 e 300) além do texto constitucional. Operacional: regra de precedência em conflito de direitos e dever de regenerar. Teste de eficácia: quantos atos administrativos foram anulados com base nela (não verificado).
 
 **Casos e evidências.**
-- Leis 71 (21/12/2010) e 300 (15/10/2012): marco jurídico de Madre Tierra e Vivir Bien, aplicável ao nível central e aos entes autônomos. Fonte: [Resumo de busca (lexivox, infoleyes)](https://www.lexivox.org/norms/BO-L-N71.html) [nv].
-- TIPNIS: em 25/set/2011 a polícia reprimiu marcha indígena contra rodovia de cerca de 306 km pelo território e parque Isiboro-Sécure; o governo suspendeu a obra pela Lei 180. Fonte: [Resumo de busca (Type Investigations e outros)](https://typeinvestigations.org/investigation/2012/08/27/bolivia-battles-highway/) [nv].
+- Leis 71 (21/12/2010) e 300 (15/10/2012): marco jurídico de Madre Tierra e Vivir Bien, aplicável ao nível central e aos entes autônomos. Fonte: [Leis 71 e 300 lidas (lexivox, infoleyes)](https://www.lexivox.org/norms/BO-L-N71.html). Nota: Ley 71: 21/12/2010; Ley 300: 15/10/2012, alcance no nível central e nas entidades autônomas (art. 2).
+- TIPNIS: em set/2011 a polícia reprimiu marcha indígena contra rodovia de cerca de 306 km (Villa Tunari-San Ignacio de Moxos); a Lei 180 (out/2011) declarou o território intangível e vetou rodovia; a Lei 222 (2012) criou consulta, com irregularidades relatadas; a Lei 969 (2017) retirou a intangibilidade. Fonte: [Wikipedia (verbete TIPNIS) lida; Type Investigations lida (cita 182 milhas, cerca de 293 km: divergência com os 306 km)](https://en.wikipedia.org/wiki/Isiboro_S%C3%A9cure_National_Park_and_Indigenous_Territory). Nota: Correção: "25/set/2011" não foi confirmado nas páginas lidas (só "setembro de 2011"); acrescentadas as leis 222 e 969, omitidas antes (a proteção foi depois revertida). O governo contesta a escala do impacto direto.
 
 **Críticas e limites.** Crítica central: o governo Morales proclamou Vivir Bien e promoveu hidrocarbonetos, mineração e estradas (TIPNIS). Rivera Cusicanqui chama o discurso de decorativo (memória). Direitos da Madre Tierra sem órgão com poder de veto e sem consulta vinculante ficam como declaração.
 
@@ -255,7 +255,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Indígena andino (organização social e econômica).*
 
-**Obras.** Murra, J. Formaciones económicas y políticas del mundo andino, IEP (1975) [nv]; Platt, T. Estado boliviano y ayllu andino, IEP (1982) [nv]
+**Obras.** Murra, J. Formaciones económicas y políticas del mundo andino, IEP (1975); Platt, T. Estado boliviano y ayllu andino, IEP (1982)
 
 **Ideia central.** Reciprocidade como instituição produtiva: ayni (troca de trabalho simétrica e diferida), minka (trabalho coletivo para obra de interesse comum), ayllu (unidade territorial e parental com acesso a pisos ecológicos). Murra descreveu o controle vertical de um máximo de pisos ecológicos.
 
@@ -264,7 +264,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Traduz-se em contabilidade de tempo (bancos de tempo, mutirões), e em governança de terra comum por unidade territorial. Cuidado: a mita foi apropriada pelo Estado inca e pela colônia (mita de Potosí) como trabalho forçado.
 
 **Casos e evidências.**
-- Murra: economia andina organizada por reciprocidade e redistribuição sem mercado generalizado (tese discutida; casos locais variam). Fonte: Obra de memória, não conferida [nv].
+- Murra: economia andina organizada por reciprocidade e redistribuição sem mercado generalizado (tese discutida; casos locais variam). Fonte: Obra de memória, não conferida [nv]. Nota: Tese de Murra (reciprocidade e redistribuição andinas) não relida em fonte aberta; permanece de memória.
 
 **Críticas e limites.** Reciprocidade andina é hierárquica em parte (redistribuição estatal inca, mita, yanacona). Idealizar um comunismo inca é erro antigo. Ayllus mudaram sob colônia e república; o ayllu atual é produto de história, não relíquia.
 
@@ -276,7 +276,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Indígena guarani (Mbya, Kaiowá, Ñandeva).*
 
-**Obras.** Melià, B. El guaraní conquistado y reducido: ensayos de etnohistoria (1986) [nv]; Clastres, H. La terre sans mal: le prophétisme tupi-guarani, Seuil (1975) [nv]
+**Obras.** Melià, B. El guaraní conquistado y reducido: ensayos de etnohistoria (1986); Clastres, H. La terre sans mal: le prophétisme tupi-guarani, Seuil (1975) [nv]
 
 **Ideia central.** Tekoha é o lugar onde se pode ser guarani (teko): território e modo de ser (ñande reko) indissociáveis; sem tekoha não há teko porã (vida boa). Para os Kaiowá e Guarani de Mato Grosso do Sul, a perda de terra costuma ser associada a violência e a altas taxas de suicídio (a conferir).
 
@@ -285,7 +285,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Operacional: demarcação como condição de política de saúde e educação, não só fundiária; aty guasu como instância de consulta já existente, a respeitar na consulta prévia.
 
 **Casos e evidências.**
-- Retomadas no MS (Dourados, Caarapó): conflito fundiário prolongado com mortes de lideranças (números em Cimi, Relatório Violência contra os Povos Indígenas, não conferidos). Fonte: Memória; fonte primária não conferida [nv].
+- Retomadas no MS (Dourados, Caarapó): conflito fundiário prolongado com mortes de lideranças (números em Cimi, Relatório Violência contra os Povos Indígenas, não conferidos). Fonte: Memória; fonte primária não conferida [nv]. Nota: Cimi: a busca devolveu o relatório de 2023 (43 assassinatos de indígenas no MS, 2o do país), mas a página não foi aberta; números por município (Dourados, Caarapó) não conferidos.
 
 **Críticas e limites.** Risco de essencializar 'o guarani' (Mbya, Kaiowá e Ñandeva divergem). A 'terra sem mal' foi lida como messianismo migratório (H. Clastres), com debate sobre sua origem pré ou pós-contato.
 
@@ -297,16 +297,16 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Indígena mapuche (Chile e Argentina).*
 
-**Obras.** Bengoa, J. Historia del pueblo mapuche (siglos XIX y XX), Ediciones Sur (1985) [nv]
+**Obras.** Bengoa, J. Historia del pueblo mapuche (siglos XIX y XX), Ediciones Sur (1985)
 
 **Ideia central.** Az mapu: conjunto de normas que ordenam a relação entre pessoas, territórios (mapu) e forças (newen); küme mongen: vida equilibrada. Base de reivindicação de autonomia e restituição.
 
 **Conceitos.** az mapu; küme mongen; newen; lof (comunidade); itrofill mongen (totalidade da vida).
 
-**Uso operacional.** Caso de teste de desenho constitucional: a Convenção Constituinte do Chile propôs Estado plurinacional e o texto foi rejeitado em plebiscito em 4/set/2022 por ampla margem (cerca de 62%, não verificado), mostrando o custo de legitimidade quando o desenho vem sem pacto amplo.
+**Uso operacional.** Caso de teste de desenho constitucional: a Convenção Constituinte do Chile propôs Estado plurinacional e o texto foi rejeitado em plebiscito em 4/set/2022 por ampla margem (61,89% de Rechazo, segundo a Wikipedia; Servel não aberto), mostrando o custo de legitimidade quando o desenho vem sem pacto amplo.
 
 **Casos e evidências.**
-- Plebiscito de saída chileno de 2022: texto rejeitado (percentual a conferir). Fonte: Memória [nv].
+- Plebiscito de saída chileno de 4/set/2022: texto proposto rejeitado (Rechazo 61,89% x Apruebo 38,11%; participação 85,86%). Fonte: [Wikipedia (plebiscito constitucional chileno de 2022) lida; o Servel não foi aberto](https://en.wikipedia.org/wiki/2022_Chilean_constitutional_referendum).
 
 **Críticas e limites.** Mapuche não são monolíticos (movimentos de autonomia, de restituição e de violência política coexistem). Evitar usar o conceito como emblema sem fonte mapuche.
 
@@ -332,7 +332,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Indígena brasileiro (Krenak, Vale do Rio Doce), pensador e ativista.*
 
-**Obras.** Ideias para adiar o fim do mundo, Companhia das Letras (2019) [nv]; A vida não é útil, Companhia das Letras (2020) [nv]; Discurso na Assembleia Nacional Constituinte (pintura do rosto com jenipapo) (1987) [nv]
+**Obras.** Ideias para adiar o fim do mundo, Companhia das Letras (2019); A vida não é útil, Companhia das Letras (2020) [nv]; Discurso na Assembleia Nacional Constituinte (pintura do rosto com jenipapo) (1987) [nv]
 
 **Ideia central.** A ideia de humanidade separada da Terra sustenta o clube da humanidade que consome o planeta; adiar o fim do mundo é contar mais uma história. Crítica do desenvolvimento sustentável como slogan; a vida não deve ser medida por utilidade.
 
@@ -341,7 +341,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Obriga a perguntar de quem é a categoria 'recurso' em cada indicador. Operacional: o rio Doce (rompimento da barragem de Fundão, Mariana, 5/nov/2015) como caso em que 'bem comum' e personalidade jurídica do rio entram em disputa.
 
 **Casos e evidências.**
-- Rompimento da barragem de Fundão (Mariana, 2015) atingiu o Watu (rio Doce); ação de reconhecimento do rio como sujeito de direitos (Associação Pachamama, 2017) não foi decidida favoravelmente. Fonte: [Resumo de busca (ecojurisprudence.org)](https://ecojurisprudence.org/?p=511) [nv].
+- Rompimento da barragem de Fundão (Mariana, 2015) atingiu o Watu (rio Doce). A ação da Associação Pachamama (2017, 6a Vara Federal de Minas Gerais, proc. 1009247-73.2017.4.01.3800) pedia reconhecer a bacia do rio Doce como sujeito de direitos e não foi julgada procedente (segundo o PL 1.974/2024 de MG); o reconhecimento do Watu veio por lei municipal de Linhares (ES), Lei 4.225/2024. Fonte: [Resumos de busca (PL 1.974/2024 da ALMG; artigos); a página ecojurisprudence.org/?p=511 lida não trata do tema](https://ecojurisprudence.org/?p=511) [nv]. Nota: Correção: o texto anterior atribuía à ação de 2017 o reconhecimento do Watu; a ação era sobre a bacia, e o Watu foi reconhecido depois por lei municipal. Mantido false: sentença e lei de Linhares não foram abertas.
 
 **Críticas e limites.** Crítica: ensaios curtos, de forte valor retórico e pouco operacionais; risco de uso decorativo por empresas e governos (citar Krenak sem mudar licenciamento). Ele próprio rejeita transformar a obra em programa.
 
@@ -353,7 +353,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Yanomami (xamã e porta-voz) e antropólogo franco-brasileiro.*
 
-**Obras.** La chute du ciel: paroles d'un chaman yanomami, Plon (2010) [nv]; [The Falling Sky: Words of a Yanomami Shaman, Harvard University Press (2013)](https://blogs.lse.ac.uk/lsereviewofbooks/2014/02/01/book-review-the-falling-sky-words-of-a-yanomami-shaman-by-davi-kopenawa-and-bruce-albert) [nv]; A queda do céu: palavras de um xamã yanomami, Companhia das Letras (2015) [nv]
+**Obras.** La chute du ciel: paroles d'un chaman yanomami, Plon (2010); [The Falling Sky: Words of a Yanomami Shaman, Harvard University Press (2013)](https://blogs.lse.ac.uk/lsereviewofbooks/2014/02/01/book-review-the-falling-sky-words-of-a-yanomami-shaman-by-davi-kopenawa-and-bruce-albert); A queda do céu: palavras de um xamã yanomami, Companhia das Letras (2015)
 
 **Ideia central.** Relato em primeira pessoa de cosmologia e ecologia xamânica: o povo da mercadoria não ouve a floresta; se os xamãs morrerem, os espíritos xapiri não sustentarão o céu e ele cairá. Denuncia garimpo, epidemias (xawara) e a cobiça.
 
@@ -362,7 +362,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Indicador-sentinela: saúde e mortalidade yanomami e área garimpada. Em jan/2023 houve emergência em saúde pública no Território Yanomami (não verificado em detalhe).
 
 **Casos e evidências.**
-- Livro produzido por gravação, tradução e edição conjunta com Bruce Albert; edição brasileira em 2015. Fonte: [Resumo de busca (LSE Review of Books)](https://blogs.lse.ac.uk/lsereviewofbooks/2014/02/01/book-review-the-falling-sky-words-of-a-yanomami-shaman-by-davi-kopenawa-and-bruce-albert) [nv].
+- Livro produzido por gravação, tradução e edição conjunta com Bruce Albert; edição brasileira em 2015. Fonte: [Resumo de busca (LSE Review of Books)](https://blogs.lse.ac.uk/lsereviewofbooks/2014/02/01/book-review-the-falling-sky-words-of-a-yanomami-shaman-by-davi-kopenawa-and-bruce-albert) [nv]. Nota: A página da LSE Review of Books abriu vazia; a produção conjunta com Bruce Albert é conhecida das edições (registros de catálogo lidos), mas não foi lida na resenha.
 
 **Críticas e limites.** A obra é coautoria mediada (pacto etnográfico); há debate sobre quanto é voz de Kopenawa e quanto edição de Albert. Cosmologia não é programa político; garimpo tem cadeia econômica (ouro) que a cosmologia sozinha não corta.
 
@@ -374,7 +374,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Povos indígenas e arqueologia amazônica.*
 
-**Obras.** Heckenberger, M. et al. 'Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon', Science 321 (2008) [nv]; Posey, D. 'Indigenous management of tropical forest ecosystems: the case of the Kayapó', Agroforestry Systems 3 (1985) [nv]; Levis, C. et al. 'Persistent effects of pre-Columbian plant domestication on Amazonian forest composition', Science 355 (2017) [nv]
+**Obras.** Heckenberger, M. et al. 'Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon', Science 321 (2008); Posey, D. 'Indigenous management of tropical forest ecosystems: the case of the Kayapó', Agroforestry Systems 3 (1985); Levis, C. et al. 'Persistent effects of pre-Columbian plant domestication on Amazonian forest composition', Science 355 (2017)
 
 **Ideia central.** A floresta amazônica não é natureza intocada: inclui séculos de manejo (terra preta, ilhas de floresta apêtê kayapó, redes xinguanas). Povos indígenas produzem biodiversidade por manejo, o que desmonta a dicotomia preservar ou usar.
 
@@ -383,7 +383,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Fundamenta política de manejo comunitário e sociobioeconomia e a prioridade de regularização antes de concessão.
 
 **Casos e evidências.**
-- Heckenberger et al. descrevem aglomerados pré-colombianos conectados no Alto Xingu, de baixa densidade e manejo extensivo. Fonte: Memória, não lido [nv].
+- Heckenberger et al. (Science 321, 2008) descrevem, no Alto Xingu, sociedades pré-colombianas organizadas em aglomerados articulados (pequenas políticas independentes dentro de uma política regional), uma forma "galáctica" de urbanismo pré-histórico, com implicações para conservação e desenvolvimento sustentável. Fonte: [Resumo do artigo lido (Crossref, Europe PMC)](https://doi.org/10.1126/science.1159769). Nota: "Baixa densidade e manejo extensivo" vinha de memória e não aparece no resumo; removido do texto.
 
 **Críticas e limites.** Debate: quanto da Amazônia é antropogênica? A extrapolação de sítios é criticada (McMichael et al. 2012 apontam impacto humano localizado). Usar 'manejo' para legitimar qualquer exploração é distorção.
 
@@ -395,7 +395,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Direito constitucional comparado, com comunidades étnicas.*
 
-**Obras.** [Corte Constitucional da Colômbia, Sentencia T-622 de 2016, 10/11/2016 (2016)](https://www.corteconstitucional.gov.co/relatoria/2016/t-622-16.htm); [Lei orgânica do município de Bonito (PE), emenda de 21/12/2017, direitos da natureza (2017)](https://ecojurisprudence.org/initiatives/the-organic-law-of-the-municipal-of-bonito-2/) [nv]
+**Obras.** [Corte Constitucional da Colômbia, Sentencia T-622 de 2016, 10/11/2016 (2016)](https://www.corteconstitucional.gov.co/relatoria/2016/t-622-16.htm); [Lei orgânica do município de Bonito (PE), emenda de 21/12/2017, direitos da natureza (2017)](https://ecojurisprudence.org/initiatives/the-organic-law-of-the-municipal-of-bonito-2/)
 
 **Ideia central.** A Corte colombiana declarou o rio Atrato, sua bacia e afluentes entidade sujeito de direitos à proteção, conservação, manutenção e restauração, com guardiães (Estado e comunidades étnicas).
 
@@ -405,7 +405,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 **Casos e evidências.**
 - T-622/2016 (10/11/2016): Atrato sujeito de direitos; ordens de plano de descontaminação, neutralização da mineração ilegal no Chocó e proteção dos direitos fundamentais das comunidades. Fonte: [Corte Constitucional (página lida; resumo da decisão)](https://www.corteconstitucional.gov.co/relatoria/2016/t-622-16.htm).
-- Bonito (PE) incorporou direitos da natureza à lei orgânica em 21/12/2017; Paudalho em 2018. Fonte: [Resumo de busca (ecojurisprudence.org)](https://ecojurisprudence.org/initiatives/the-organic-law-of-the-municipal-of-bonito-2/) [nv].
+- Bonito (PE) incorporou direitos da natureza à lei orgânica em 21/12/2017; Paudalho (PE) em 20/12/2018 (art. 181). Fonte: [ecojurisprudence.org (Bonito; Paudalho) lidas](https://ecojurisprudence.org/initiatives/the-organic-law-of-the-municipal-of-bonito-2/). Nota: Paudalho: https://ecojurisprudence.org/initiatives/amendment-organic-law-of-the-municipality-of-paudalho/ (20/12/2018, art. 181). Correção: o texto anterior dizia apenas "2018".
 
 **Críticas e limites.** A implementação no Atrato é descrita como lenta e contestada (fonte a conferir). Personalidade jurídica sem orçamento e sem poder fiscalizador é simbólica; a mineração ilegal persiste. Em Bonito não encontrei evidência de uso judicial relevante (a verificar).
 
@@ -426,7 +426,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** O Brasil promulgou a Convenção por decreto em 2004; falta lei que regule procedimento e efeito, e a consulta é tratada pelo Executivo como não vinculante. Protocolos autônomos (ex.: Munduruku, 2014) funcionam como contra-instrumento.
 
 **Casos e evidências.**
-- Sarayaku v. Ecuador (2012): Corte IDH condenou o Estado pela entrada de petroleira sem consulta. Fonte: Memória, não conferido [nv].
+- Sarayaku v. Ecuador (2012): Corte IDH condenou o Estado pela entrada de petroleira sem consulta. Fonte: Memória, não conferido [nv]. Nota: PDF da Corte IDH retornou 403; o resumo oficial, visto em resultado de busca, confirma sentença de 27/6/2012: Equador responsável por violar consulta, propriedade comunal e identidade cultural ao permitir exploração petrolífera sem consulta. Mantido false até abrir a fonte.
 
 **Críticas e limites.** Consulta sem poder de veto vira ritual; consentimento vinculante gera conflito com o interesse nacional em energia e minérios (Belo Monte: consultas contestadas, não conferido). Risco de consulta fabricada por empresas.
 
@@ -438,7 +438,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Afro-brasileiro quilombola (Vale do Rio Itaueira, Piauí), contra-colonialismo.*
 
-**Obras.** Colonização, quilombos: modos e significados, INCTI/UnB (2015) [nv]; [A terra dá, a terra quer, Ubu/Piseagrama (2023)](https://www.brasildefato.com.br/2023/12/04/estarei-vivo-mesmo-enterrado-disse-nego-bispo-quilombola-contracolonialista-que-morre-aos-63-anos) [nv]
+**Obras.** Colonização, quilombos: modos e significados, INCTI/UnB (2015) [nv]; [A terra dá, a terra quer, Ubu/Piseagrama (2023)](https://www.brasildefato.com.br/2023/12/04/estarei-vivo-mesmo-enterrado-disse-nego-bispo-quilombola-contracolonialista-que-morre-aos-63-anos)
 
 **Ideia central.** Contra-colonialismo: a resistência dos povos que recusam a lógica monoteísta, linear e de acumulação do colonizador. Opõe confluência (encontro sem fusão) a sincretismo, biointeração a desenvolvimento, e os saberes orgânicos aos sintéticos.
 
@@ -447,8 +447,8 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Critério para política rural quilombola: titulação coletiva, assistência técnica que respeite o manejo local e compras públicas (PAA, PNAE) como confluência com agricultura camponesa. Indicador: sementes crioulas e uso de terra sem insumos sintéticos.
 
 **Casos e evidências.**
-- Nêgo Bispo faleceu em 3/12/2023, sete meses depois de 'A terra dá, a terra quer'. Fonte: [Resumo de busca (Brasil de Fato, O Povo)](https://www.brasildefato.com.br/2023/12/04/estarei-vivo-mesmo-enterrado-disse-nego-bispo-quilombola-contracolonialista-que-morre-aos-63-anos) [nv].
-- PAA e PNAE: a Lei 11.947/2009 exige no mínimo 30% das verbas do PNAE para a agricultura familiar (valor de memória). Fonte: Memória, não conferido [nv].
+- Nêgo Bispo faleceu em 3/12/2023, aos 63 anos, no mesmo ano da publicação de 'A terra dá, a terra quer' (Ubu, 2023). Fonte: [Brasil de Fato lido](https://www.brasildefato.com.br/2023/12/04/estarei-vivo-mesmo-enterrado-disse-nego-bispo-quilombola-contracolonialista-que-morre-aos-63-anos). Nota: Correção: 'sete meses depois' não foi confirmado (a página não dá o mês de lançamento).
+- PAA e PNAE: a Lei 11.947/2009 exige no mínimo 30% das verbas do PNAE para a agricultura familiar (valor de memória). Fonte: Memória, não conferido [nv]. Nota: Texto do art. 14 da Lei 11.947/2009 ("no mínimo 30%") visto em cópia citada em resumo de busca; texto do Planalto indisponível. Redação alterada pela Lei 14.660/2023 (inclui grupos de mulheres entre os prioritários). Mantido false.
 
 **Críticas e limites.** Escrita ensaística e de vocabulário próprio (oral) com pouca operacionalização; risco de uso metafórico por quem nunca enfrentou o fundiário; dicotomias duras (orgânico/sintético, colonizador/contra-colonizador) simplificam.
 
@@ -469,7 +469,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Dá base conceitual para ler quilombo como unidade de governança territorial, útil para desenhos de titulação e proteção coletiva, e para o currículo (Lei 10.639/2003).
 
 **Casos e evidências.**
-- Beatriz Nascimento foi assassinada em 1995; sua obra foi ampliada em edição póstuma de 2021. Fonte: Memória [nv].
+- Beatriz Nascimento foi assassinada em 28/01/1995, no Rio de Janeiro. Fonte: [Wikipedia (verbete) lida](https://en.wikipedia.org/wiki/Beatriz_Nascimento). Nota: Removida a frase "obra ampliada em edição póstuma de 2021": a página lida não cita a coletânea de 2021 e o catálogo da Companhia das Letras não dá ano.
 
 **Críticas e limites.** Textos fragmentados (ensaios, falas, poemas), com tradução institucional por fazer; interpretação disputada entre uso político e leitura histórica estrita.
 
@@ -481,7 +481,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Afro-brasileiro (Franca, SP, 1914-2011): ator, senador, ativista.*
 
-**Obras.** O quilombismo, Vozes (1980) [nv]; O genocídio do negro brasileiro: processo de um racismo mascarado, Paz e Terra (1978) [nv]
+**Obras.** O quilombismo, Vozes (1980); O genocídio do negro brasileiro: processo de um racismo mascarado, Paz e Terra (1978)
 
 **Ideia central.** Quilombismo: programa político-econômico de organização da população negra a partir da experiência quilombola, com propriedade coletiva, cooperação e Estado democrático e antirracista. Denuncia a democracia racial como máscara.
 
@@ -490,7 +490,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Fonte de ações afirmativas, de política fundiária coletiva e de indicadores desagregados por raça.
 
 **Casos e evidências.**
-- Lei 12.711/2012 (cotas em universidades federais) e ADPF 186 (STF, 2012, constitucionalidade de cotas): desenvolvimento posterior da pauta. Fonte: Memória, não conferido [nv].
+- ADPF 186 (STF, julgada em 25 e 26/04/2012): por unanimidade, relator Min. Ricardo Lewandowski, o Plenário julgou constitucional a política de cotas da UnB e improcedente a ação do DEM. Fonte: [Dizer o Direito (27/04/2012) lido; notícia do STF retornou 403](https://www.dizerodireito.com.br/2012/04/stf-julga-constitucional-sistema-de.html). Nota: A Lei 12.711/2012 (cotas em instituições federais) foi retirada do texto: o texto legal não foi aberto nesta rodada.
 
 **Críticas e limites.** O 'genocídio' tem uso retórico forte e contestado por demógrafos; propostas de socialismo quilombista têm baixa tradução em desenho concreto.
 
@@ -520,7 +520,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Brasil, geógrafo (Brotas de Macaúbas, BA, 1926-2001).*
 
-**Obras.** A natureza do espaço: técnica e tempo, razão e emoção, Hucitec (1996) [nv]; Santos, M.; Silveira, M. L. O Brasil: território e sociedade no início do século XXI, Record (2001) [nv]
+**Obras.** A natureza do espaço: técnica e tempo, razão e emoção, Hucitec (1996); Santos, M.; Silveira, M. L. O Brasil: território e sociedade no início do século XXI, Record (2001) [nv]
 
 **Ideia central.** Território usado: o território é o espaço apropriado e usado pelos atores, e não só o recorte de Estado; o espaço é sistema de objetos e de ações; o 'uso' revela quem manda (verticalidades) e quem vive (horizontalidades).
 
@@ -538,7 +538,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Brasil, antropólogo e político (Montes Claros, 1922-1997).*
 
-**Obras.** O povo brasileiro: a formação e o sentido do Brasil, Companhia das Letras (1995) [nv]; Os índios e a civilização, Civilização Brasileira (1970) [nv]
+**Obras.** O povo brasileiro: a formação e o sentido do Brasil, Companhia das Letras (1995); Os índios e a civilização, Civilização Brasileira (1970)
 
 **Ideia central.** A formação do Brasil como processo de 'moinho de gastar gente': a mestiçagem de matrizes indígena, europeia e africana, a violência da gênese e a promessa de uma 'nova Roma tropical'. Defendeu a escola de tempo integral (CIEPs) e a Universidade de Brasília.
 
@@ -547,7 +547,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Educação integral como projeto de Estado e política indigenista (Parque do Xingu 1961, FUNAI 1967 com críticas).
 
 **Casos e evidências.**
-- CIEPs (Rio de Janeiro, anos 1980): escolas de tempo integral; avaliações posteriores mistas e descontinuadas. Fonte: Memória, não conferido [nv].
+- CIEPs (Rio de Janeiro, anos 1980): escolas de tempo integral; avaliações posteriores mistas e descontinuadas. Fonte: Memória, não conferido [nv]. Nota: Resultados de busca confirmam a criação dos CIEPs (governo Brizola, 1983-87, com Darcy Ribeiro) e a interrupção na gestão seguinte, mas as fontes são em parte militantes e nenhuma avaliou resultados; "avaliações mistas" segue sem fonte.
 
 **Críticas e limites.** Crítica: otimismo mestiço próximo à democracia racial; ênfase assimilacionista; imprecisão histórica em generalizações. Contudo, é fonte primária de projeto nacional.
 
@@ -568,7 +568,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Orienta educação intercultural e de jovens e adultos, e processos deliberativos (inspirou o orçamento participativo e a educação popular).
 
 **Casos e evidências.**
-- Programa de alfabetização de adultos, Angicos (RN), 1963: ficou famoso e foi interrompido pelo golpe de 1964; resultados não são mensurados pelos padrões atuais. Fonte: Memória [nv].
+- Programa de alfabetização de adultos, Angicos (RN), 1963: ficou famoso e foi interrompido pelo golpe de 1964; resultados não são mensurados pelos padrões atuais. Fonte: Memória [nv]. Nota: Resumos de busca dão Angicos como iniciado em 18/1/1963 e encerrado em 2/4/1963, com cerca de 300 alunos, e o plano nacional interrompido pelo golpe de 1964; o PDF baixado não era legível. Mantido false.
 
 **Críticas e limites.** Críticas: pouca evidência experimental em larga escala; risco de dirigismo do educador; debates sobre 'doutrinação' e sobre fidelidade da prática ao método.
 
@@ -580,7 +580,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Brasil, médico, geógrafo e político (Recife, 1908-1973).*
 
-**Obras.** Geografia da fome (1946) [nv]; Geopolítica da fome (1951) [nv]
+**Obras.** Geografia da fome (1946); Geopolítica da fome (1951)
 
 **Ideia central.** A fome não é fatalidade natural mas produto de estrutura social e econômica (monocultura, latifúndio, salário baixo); descreve a fome oculta de micronutrientes. Foi presidente do Conselho da FAO.
 
@@ -589,7 +589,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Base de indicadores de segurança alimentar (EBIA, VIGISAN) e de política de abastecimento.
 
 **Casos e evidências.**
-- Brasil saiu do Mapa da Fome da FAO em 2014 e voltou em 2018-2020; nova saída em 2025 (SOFI). Fonte: FATOR_HUMANO.md (resumos de busca) [nv].
+- Brasil saiu do Mapa da Fome da FAO em 2014 e voltou em 2018-2020; nova saída em 2025 (SOFI). Fonte: FATOR_HUMANO.md (resumos de busca) [nv]. Nota: Notícias de 28/7/2025 (JB, O Povo e outras) relatam a saída do Brasil do Mapa da Fome no SOFI 2025 (média 2022-24, subalimentação abaixo de 2,5%), com a primeira saída em 2014 e o retorno no triênio 2018-2020. Relatório SOFI não aberto. Mantido false.
 
 **Críticas e limites.** Algumas teses nutricionais (proteína) foram superadas; descreve causa estrutural sem teoria de transição.
 
@@ -601,7 +601,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Brasil, economista (Pombal, PB, 1920-2004).*
 
-**Obras.** Formação econômica do Brasil (1959) [nv]; O mito do desenvolvimento econômico (1974) [nv]
+**Obras.** Formação econômica do Brasil (1959); O mito do desenvolvimento econômico (1974)
 
 **Ideia central.** Subdesenvolvimento como estrutura histórica, não etapa; propõe que o padrão de consumo das elites periféricas copia o centro e bloqueia desenvolvimento. Em 1974 argumentou que generalizar o padrão de consumo do centro é inviável pelos limites do planeta.
 
@@ -610,7 +610,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Une economia histórica e limites planetários: uma ponte entre ECONOMIA_HISTORICA.md e a Agenda 2030.
 
 **Casos e evidências.**
-- O mito do desenvolvimento econômico (1974) antecede em poucos anos os debates sobre limites ao crescimento e conecta-se a Meadows. Fonte: Memória [nv].
+- O mito do desenvolvimento econômico (1974) antecede em poucos anos os debates sobre limites ao crescimento e conecta-se a Meadows. Fonte: Memória [nv]. Nota: Interpretação do projeto (nexo com o Clube de Roma/Meadows); só o ano de 1974 foi conferido, no catálogo da obra.
 
 **Críticas e limites.** Teoria estruturalista com limites empíricos (Coreia e China divergiram); menos micro-evidência.
 
@@ -622,7 +622,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Brasil, antropólogo (Museu Nacional/UFRJ).*
 
-**Obras.** Os pronomes cosmológicos e o perspectivismo ameríndio, Mana 2(2) (1996) [nv]; A inconstância da alma selvagem, Cosac Naify (2002) [nv]; Métaphysiques cannibales, PUF (2009) [nv]
+**Obras.** Os pronomes cosmológicos e o perspectivismo ameríndio, Mana 2(2) (1996); A inconstância da alma selvagem, Cosac Naify (2002); Métaphysiques cannibales, PUF (2009)
 
 **Ideia central.** Em cosmologias ameríndias, humanidade é a posição de sujeito comum (todos os seres veem a si como humanos) e os corpos diferem: multinaturalismo contra o multiculturalismo ocidental. Convida a levar a sério o pensamento indígena como filosofia.
 
@@ -640,7 +640,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *França, antropólogo (Collège de France).*
 
-**Obras.** Par-delà nature et culture, Gallimard (2005) [nv]; Beyond Nature and Culture, University of Chicago Press (2013) [nv]
+**Obras.** Par-delà nature et culture, Gallimard (2005); Beyond Nature and Culture, University of Chicago Press (2013)
 
 **Ideia central.** Quatro ontologias (naturalismo, animismo, totemismo, analogismo) como modos de distribuir continuidades e descontinuidades entre humanos e não humanos; o naturalismo ocidental é uma entre outras.
 
@@ -656,7 +656,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *EUA/Canadá, antropólogo (McGill), trabalho com os Runa (Ávila, Equador).*
 
-**Obras.** How Forests Think: Toward an Anthropology Beyond the Human, University of California Press (2013) [nv]
+**Obras.** How Forests Think: Toward an Anthropology Beyond the Human, University of California Press (2013)
 
 **Ideia central.** Antropologia além do humano: os seres vivos interpretam signos (semiose peirceana); a floresta 'pensa' em sentido semiótico, e o humano é uma forma de vida entre outras.
 
@@ -681,7 +681,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Convida a desenhar freios internos contra concentração de poder (rotatividade, revogabilidade, limites de mandato).
 
 **Casos e evidências.**
-- Chefes tupi-guarani e outras chefias sem coerção, descritos em Chroniques des Indiens Guayaki (1972) e La Société contre l'État (1974). Fonte: Memória [nv].
+- Chefes tupi-guarani e outras chefias sem coerção, descritos em Chroniques des Indiens Guayaki (1972) e La Société contre l'État (1974). Fonte: Memória [nv]. Nota: Chronique des Indiens Guayaki: Plon, coleção Terre humaine, 1972 (Wikipedia FR lida); a descrição das chefias sem coerção nos dois livros não foi relida.
 
 **Críticas e limites.** Críticas: generalização a partir de poucas etnografias (Guayaki, Guarani); arqueologia mostra chefias hierárquicas na Amazônia (Heckenberger) e Estados em outros lugares; Descola e Viveiros de Castro dialogam; Graeber & Wengrow o usam com ressalva. Clastres morreu cedo (1977), obra inacabada.
 
@@ -693,7 +693,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *EUA, cientista político e antropólogo (Yale).*
 
-**Obras.** Seeing Like a State, Yale University Press (1998) [nv]; The Art of Not Being Governed, Yale University Press (2009) [nv]; Against the Grain, Yale University Press (2017) [nv]
+**Obras.** Seeing Like a State, Yale University Press (1998); The Art of Not Being Governed, Yale University Press (2009); Against the Grain, Yale University Press (2017)
 
 **Ideia central.** O Estado exige legibilidade (cadastro, nome fixo, monocultura) e projetos de alto modernismo falham quando ignoram a metis (saber prático local). Zomia, terras altas do sudeste asiático, seria zona de fuga do Estado; o Estado inicial dependia de grãos fáceis de contar e tributar.
 
@@ -702,7 +702,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Teste de desenho: antes de uma política, perguntar o que o Estado precisa ler (cadastro, CAR) e o que o ato de ler destrói. Aplica-se a REDD+, CAR e regularização.
 
 **Casos e evidências.**
-- Brasília, a ação de planejamento urbano do alto modernismo, é um dos casos de Scott; Tanzânia (ujamaa) e a Rússia (kolkhoz) também. Fonte: Memória [nv].
+- Seeing Like a State discute, entre os casos de alto modernismo, Brasília (cidade planejada), a "villagização" forçada na Tanzânia dos anos 1970 (ujamaa) e a coletivização soviética. Fonte: [Wikipedia (verbete do livro) lida](https://en.wikipedia.org/wiki/Seeing_Like_a_State). Nota: Lido o verbete, não os capítulos; "kolkhoz" não é citado no verbete (coletivização soviética sim).
 
 **Críticas e limites.** Críticas: Zomia é generalização (Michaud 2010; Jonsson); tendência anti-Estado ignora o papel do Estado na proteção social; Scott admite que o Estado também é fonte de bens públicos. Against the Grain tem estimativas contestadas (arqueólogos).
 
@@ -714,7 +714,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Antropólogo (1961-2020) e arqueólogo britânicos.*
 
-**Obras.** [The Dawn of Everything: A New History of Humanity, Farrar, Straus and Giroux / Allen Lane (2021)](https://leiterreports.com/2022/01/30/do-graeber-and-wengrow-know-what-theyre-talking-about-in-the-dawn-of-everything/) [nv]; Graeber, D. Debt: The First 5,000 Years, Melville House (2011) [nv]
+**Obras.** [The Dawn of Everything: A New History of Humanity, Farrar, Straus and Giroux / Allen Lane (2021)](https://leiterreports.com/2022/01/30/do-graeber-and-wengrow-know-what-theyre-talking-about-in-the-dawn-of-everything/); Graeber, D. Debt: The First 5,000 Years, Melville House (2011) [nv]
 
 **Ideia central.** Humanos experimentaram formas políticas variadas (sazonais, igualitárias e hierárquicas) e tinham liberdades de desobedecer, de migrar e de recompor a ordem social; a história não é uma escada rumo a hierarquia. Critica a narrativa 'agricultura, propriedade, Estado'.
 
@@ -723,7 +723,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Amplia o espaço de possíveis para o desenho: instituições são escolhas, e a reversibilidade e a saída são parte da liberdade.
 
 **Casos e evidências.**
-- Críticas recebidas: Birch e Kotsakis alertam para casos selecionados; M. Smith e I. Morris pedem quadros transculturais e quantitativos; Nakamura aponta que se reproduz uma nova grande narrativa. Em geral, elogiado como libertador e criticado pela evidência seletiva. Fonte: [Resumo de busca (revisões)](https://leiterreports.com/2022/01/30/do-graeber-and-wengrow-know-what-theyre-talking-about-in-the-dawn-of-everything/) [nv].
+- Recepção de The Dawn of Everything: elogiada como libertadora (p. ex. Erle Ellis, Science) e criticada por evidência selecionada (Feinman; Appiah; Bell; Michael E. Smith sobre problemas de evidência e argumentação); Scheidel aponta falta de perspectiva materialista; Ian Morris repete preocupações metodológicas, mas chama o livro de pesquisa cuidadosa e original. Fonte: [Wikipedia (verbete do livro) e Leiter Reports lidos; resenhas originais não abertas](https://en.wikipedia.org/wiki/The_Dawn_of_Everything) [nv]. Nota: Correção: Birch, Kotsakis e Nakamura (citados antes) não aparecem com críticas nas páginas lidas (Birch só consta nas referências); não foram mantidos. Atribuições vêm do verbete, não das resenhas: mantido false.
 
 **Críticas e limites.** Evidência seletiva, tom retórico e demonstrações exageradas sobre a 'crítica indígena' ter inspirado o Iluminismo (Kondiaronk, atribuição contestada); falta ligação entre casos igualitários e como manter-os em escala.
 
@@ -767,7 +767,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Colômbia/EUA (UNC), antropólogo.*
 
-**Obras.** Encountering Development, Princeton University Press (1995) [nv]; Designs for the Pluriverse, Duke University Press (2018) [nv]
+**Obras.** Encountering Development, Princeton University Press (1995); Designs for the Pluriverse, Duke University Press (2018)
 
 **Ideia central.** O desenvolvimento é um regime discursivo que produziu o 'Terceiro Mundo'; propõe pós-desenvolvimento e design para o pluriverso (um mundo onde caibam muitos mundos), a partir de comunidades afro do Pacífico colombiano (PCN).
 
@@ -776,7 +776,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Fornece método de desenho participativo e de territórios de vida (Pacífico colombiano).
 
 **Casos e evidências.**
-- Estudo do PCN em Anchoring Hope; Ley 70 de 1993 da Colômbia reconhece territórios coletivos afrocolombianos. Fonte: Memória, Ley 70 não conferida [nv].
+- Ley 70 de 1993 (Colômbia) reconhece a propriedade coletiva de comunidades negras que ocupam terras baldias rurais ribeirinhas da Bacia do Pacífico, em desenvolvimento do art. transitório 55 da Constituição de 1991. Fonte: Memória, Ley 70 não conferida [nv]. Nota: Texto da Rama Judicial retornou 403; conteúdo visto em resumo de busca. Removida a menção a "Anchoring Hope" (não localizada). Mantido false.
 
 **Críticas e limites.** Crítica: pós-desenvolvimento descarta ganhos materiais (saúde, expectativa de vida); linguagem difícil; difícil escalar.
 
@@ -786,7 +786,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Uruguai, ecologista social (CLAES).*
 
-**Obras.** Extractivismos: ecología, economía y política de un modo de entender el desarrollo y la Naturaleza, CEDIB/CLAES (2015) [nv]; Buen Vivir: today's tomorrow, Development 54(4) (2011) [nv]
+**Obras.** Extractivismos: ecología, economía y política de un modo de entender el desarrollo y la Naturaleza, CEDIB/CLAES (2015); Buen Vivir: today's tomorrow, Development 54(4) (2011)
 
 **Ideia central.** Distingue Buen Vivir como alternativa ao desenvolvimento de seus usos oficiais; o 'neoextrativismo progressista' latino-americano usa renda extrativa para política social sem mudar o padrão. Propõe 'extrativismo indispensável' e transições.
 
@@ -795,7 +795,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Fornece métrica de dependência extrativa (participação de commodities nas exportações) e checklist de captura do Buen Vivir.
 
 **Casos e evidências.**
-- Brasil: commodities na pauta exportadora; dependência a poucos produtos e destinos documentada em potenciais_brasil.json (armadilhas). Fonte: Dados do projeto [nv].
+- Brasil: commodities na pauta exportadora; dependência a poucos produtos e destinos documentada em potenciais_brasil.json (armadilhas). Fonte: Dados do projeto [nv]. Nota: Dado interno do projeto (potenciais_brasil.json); não é fonte externa. Conferir o arquivo de origem, não esta linha.
 
 **Críticas e limites.** Posição ecologista pode subestimar custo social de transição em países pobres; propostas de transição pouco detalhadas.
 
@@ -807,7 +807,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Equador, economista; presidente da Assembleia Constituinte de 2008.*
 
-**Obras.** El Buen Vivir: sumak kawsay, una oportunidad para imaginar otros mundos, Icaria/Abya Yala (2013) [nv]; O Bem Viver: uma oportunidade para imaginar outros mundos, Autonomia Literária/Elefante (2016) [nv]; A maldição da abundância (La maldición de la abundancia), CEDA/Abya Yala (2009) [nv]
+**Obras.** El Buen Vivir: sumak kawsay, una oportunidad para imaginar otros mundos, Icaria/Abya Yala (2013) [nv]; O Bem Viver: uma oportunidade para imaginar outros mundos, Autonomia Literária/Elefante (2016) [nv]; A maldição da abundância (La maldición de la abundancia), Abya-Yala/Comité Ecuménico de Proyectos (2009)
 
 **Ideia central.** Bem Viver como projeto civilizatório plural e crítico do desenvolvimento; a 'maldição da abundância' descreve a renda de recursos naturais como armadilha; propõe pós-extrativismo e decrescimento seletivo no Norte.
 
@@ -816,7 +816,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Fonte do desenho constituinte do Equador; mostra a distância entre texto constitucional e política: em 2013 o governo encerrou a iniciativa Yasuní-ITT.
 
 **Casos e evidências.**
-- Acosta participou do desenho de Yasuní-ITT e de 2008; rompeu com o governo Correa depois da Constituinte. Fonte: Memória, não conferido [nv].
+- Acosta, presidente da Assembleia Constituinte do Equador, apresentou renúncia irrevogável ao cargo em 24/06/2008, em plena Constituinte (antes da conclusão da Constituição de 2008); depois criticou o governo Correa sobre a iniciativa Yasuní-ITT. Fonte: [El Universo (24/6/2008) lido; demais pontos em resumos de busca](https://www.eluniverso.com/2008/06/24/0001/8/DBAF90728AF34B35A1D745CC8CFB988B.html). Nota: Correção: o texto anterior dizia que ele "rompeu com o governo Correa depois da Constituinte"; a renúncia ocorreu durante ela. A página lida não explica os motivos (resumos de busca falam de divergência sobre prazos e procedimento). A crítica posterior ao governo sobre o Yasuní-ITT e o cargo de ministro de Energia e Minas em 2007 vêm só de resumos de busca.
 
 **Críticas e limites.** Proposta macro sem plano fiscal de transição crível; risco de que sem renda extrativa o Estado perca capacidade distributiva.
 
@@ -828,7 +828,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Bolívia, socióloga e historiadora (aimará-mestiça).*
 
-**Obras.** Ch'ixinakax utxiwa: una reflexión sobre prácticas y discursos descolonizadores, Tinta Limón (2010) [nv]; Un mundo ch'ixi es posible: ensayos desde un presente en crisis, Tinta Limón (2018) [nv]
+**Obras.** Ch'ixinakax utxiwa: una reflexión sobre prácticas y discursos descolonizadores, Tinta Limón (2010); Un mundo ch'ixi es posible: ensayos desde un presente en crisis, Tinta Limón (2018)
 
 **Ideia central.** Ch'ixi: coexistência de opostos sem síntese (mistura manchada, como o cinza da cor aimará); crítica dura do 'discurso decolonial' acadêmico e do Estado plurinacional boliviano como decoração de poder extrativo. Propõe sociologia da imagem e práticas descolonizadoras concretas.
 
@@ -837,7 +837,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Teste de realidade: toda política 'decolonial' deve mostrar mudança material (terra, trabalho, linguagem), não só nome.
 
 **Casos e evidências.**
-- Rivera critica o governo boliviano por TIPNIS e por 'colonialismo interno' mantido. Fonte: Memória [nv].
+- Em set/2011 Rivera Cusicanqui criticou publicamente o governo Morales por reprimir a marcha do TIPNIS enquanto dizia buscar diálogo. Fonte: [eju.tv (09/2011) lida](https://eju.tv/2011/09/exmasistas-e-intelectuales-reprochan-soberbia-del-rgimen-de-evo-y-garca-linera/). Nota: Correção: a tese do 'colonialismo interno mantido' (livro Mito y desarrollo en Bolivia, 2014) não foi lida e foi retirada do texto.
 
 **Críticas e limites.** Polêmica e fragmentada; ceticismo deixa pouco programa institucional.
 
@@ -849,7 +849,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Portugal, sociólogo e jurista (Coimbra).*
 
-**Obras.** Epistemologias do Sul (com M. P. Meneses, orgs.), Almedina (2009) [nv]; Pela mão de Alice: o social e o político na pós-modernidade, Cortez (1995) [nv]
+**Obras.** Epistemologias do Sul (com M. P. Meneses, orgs.), Almedina (2009) [nv]; Pela mão de Alice: o social e o político na pós-modernidade, Afrontamento (Porto) (1994)
 
 **Ideia central.** Epistemologias do Sul: sociologia das ausências e das emergências; ecologia de saberes (diálogo entre saberes científicos e não científicos); tradução intercultural como método. Defende democracia de alta intensidade.
 
@@ -858,7 +858,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Estrutura a ideia de pluralismo epistêmico na avaliação de políticas (comitês mistos, saberes tradicionais em licenciamento).
 
 **Casos e evidências.**
-- Acusações de má conduta sexual contra o autor circularam na imprensa e em obra coletiva (2023); não verifiquei o estado dos processos e não faço juízo sobre elas. Fonte: Memória, não conferido [nv].
+- Em 2023 o Centro de Estudos Sociais (Coimbra) suspendeu o autor e outro professor após denúncias de três ex-investigadoras publicadas em capítulo de obra coletiva (Routledge); ambos negaram. Este projeto não verificou o estado dos processos e não faz juízo sobre as alegações. Fonte: Memória, não conferido [nv]. Nota: Reescrito em termos factuais (CONTRIBUTING, regra 6). Fatos vistos só em resumos de busca (rr.pt, Observador, DN); desfecho não verificado. Mantido false.
 
 **Críticas e limites.** Críticas epistemológicas (relativismo, uso político-militante, vagueza do 'Sul'); polêmicas éticas pessoais, que não anulam a obra mas exigem cautela na citação e na dependência de uma só fonte.
 
@@ -868,7 +868,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Alemanha/Reino Unido, sociólogo (1897-1990).*
 
-**Obras.** Über den Prozess der Zivilisation (Der Prozess der Zivilisation, 2 vols., Haus zum Falken, Basileia) (1939) [nv]; Die höfische Gesellschaft (Habilitationsschrift de 1933) (1969) [nv]; Elias, N.; Scotson, J. The Established and the Outsiders (Winston Parva) (1965) [nv]
+**Obras.** Über den Prozess der Zivilisation (Der Prozess der Zivilisation, 2 vols., Haus zum Falken, Basileia) (1939) [nv]; Die höfische Gesellschaft (Habilitationsschrift de 1933) (1969); Elias, N.; Scotson, J. The Established and the Outsiders (Winston Parva) (1965)
 
 **Ideia central.** Dois processos entrelaçados: sociogênese do Estado (competição entre senhores leva a monopólio da violência física e da tributação, 'mecanismo do monopólio') e psicogênese (aumento da interdependência produz maior autocontrole e vergonha, constrangimento externo vira autocoerção). Em 'Os estabelecidos e os outsiders', grupos estabelecidos estigmatizam recém-chegados pela diferença de poder e coesão, não por traços reais.
 
@@ -877,8 +877,8 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Traduz-se em indicador de capacidade estatal: fração do território com monopólio legítimo (homicídios, controle por facção), arrecadação, confiança. Em 'estabelecidos', mede estigma territorial (acesso a serviços por bairro e raça).
 
 **Casos e evidências.**
-- Homicídios no Brasil: 45.747 em 2023, risco 2,7 vezes maior para negros (FATOR_HUMANO.md). Fonte: FATOR_HUMANO.md do projeto [nv].
-- Elias foi relido para tendências de longo prazo de redução de homicídios na Europa (Eisner 2003, Crime and Justice 30); a série de longo prazo tem críticas de método. Fonte: Memória; Eisner 2003 não conferido [nv].
+- Homicídios no Brasil: cerca de 45,7 mil em 2023; risco 2,7 vezes maior para negros do que para não negros (Atlas da Violência 2025). Fonte: [Brasil de Fato (12/05/2025) lido, citando o Atlas da Violência (Ipea/FBSP)](https://www.brasildefato.com.br/2025/05/12/risco-de-negro-ser-vitima-de-homicidio-e-27-vezes-maior-no-brasil/). Nota: O valor exato 45.747 e 35.213 vítimas negras vêm de resumo de busca (Poder360/Agência Brasil); a página lida diz "45,7 mil". Atlas em si não aberto.
+- Eisner (2003, Crime and Justice 30:83-142) documenta queda marcante da violência letal na Europa entre os séculos XVI e XX, com queda desproporcional dos homicídios entre elites e dos conflitos masculinos em público; lista o processo civilizador como uma das explicações, junto com Estado, Reforma e individualismo, e trata a teorização como em grande parte post hoc; aponta problemas de dados (França e Espanha quase ausentes). Fonte: [Resumo (NCJRS/OJP) lido; Crossref lido](https://doi.org/10.1086/652229). Nota: O resumo do OJP não cita Elias pelo nome; a ligação é pelo termo "processo civilizador".
 
 **Críticas e limites.** Críticas: (1) eurocentrismo e teleologia (Duerr, Der Mythos vom Zivilisationsprozess, 1988-2002: nudez, vergonha e violência não crescem linearmente; o debate 'Elias-Duerr'); (2) dependência de manuais de etiqueta como fonte; (3) a violência 'civilizada' do Estado (colonialismo, guerras mundiais) fica sem explicação, e Elias teve de falar em descivilização (Studien über die Deutschen, 1989); (4) Clastres e Graeber negam o Estado como progresso necessário. Pinker (2011) usou Elias de forma pública e foi criticado por Ferguson e Fry.
 
@@ -890,7 +890,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Alemanha, antropólogo (1943-).*
 
-**Obras.** [Nacktheit und Scham (Der Mythos vom Zivilisationsprozess, vol. 1), Suhrkamp (1988)](https://www.perlentaucher.de/buch/hans-peter-duerr/die-tatsachen-des-lebens-der-mythos-vom-zivilisationsprozess-band-5.html) [nv]
+**Obras.** [Nacktheit und Scham (Der Mythos vom Zivilisationsprozess, vol. 1), Suhrkamp (1988)](https://www.perlentaucher.de/buch/hans-peter-duerr/die-tatsachen-des-lebens-der-mythos-vom-zivilisationsprozess-band-5.html)
 
 **Ideia central.** Série de volumes que sustenta que as evidências históricas e etnográficas desmentem a tese de Elias sobre vergonha e controle de pulsões; alerta para a projeção de uma 'imagem distorcida' de culturas passadas e alheias.
 
@@ -899,7 +899,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Dispositivo metodológico: antes de usar Elias como teoria, exigir evidência local, e evitar escalas morais entre povos.
 
 **Casos e evidências.**
-- Segundo a literatura secundária, Duerr encontrou pouco apoio nas ciências sociais, mas deu início ao debate Elias-Duerr. Fonte: [Resumo de busca](https://www.perlentaucher.de/buch/hans-peter-duerr/die-tatsachen-des-lebens-der-mythos-vom-zivilisationsprozess-band-5.html) [nv].
+- Duerr (Der Mythos vom Zivilisationsprozess, 5 vols., 1988-2002) critica a tese de Elias; as resenhas divergem (NZZ elogia; a FR diz que ele refuta Elias de modo convincente; a SZ descreve disputa acadêmica em curso desde 1988). Fonte: [Perlentaucher lido (resenhas de NZZ, FR e SZ)](https://www.perlentaucher.de/buch/hans-peter-duerr/die-tatsachen-des-lebens-der-mythos-vom-zivilisationsprozess-band-5.html). Nota: Correção: o texto anterior dizia que Duerr "encontrou pouco apoio nas ciências sociais"; a página lida não diz isso e traz resenhas favoráveis. Defensores de Elias não estão representados na página: leitura rival a acrescentar.
 
 **Críticas e limites.** Duerr foi criticado por tratar afirmações de Elias de modo literal e por usar anedotas; a refutação definitiva é debatida.
 
@@ -918,7 +918,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Desenho de instituições de reciprocidade: seguros mútuos, mutirão, bancos de tempo, cooperativas, tributos como retribuição visível.
 
 **Casos e evidências.**
-- O mutirão e o puxirum, bancos comunitários e consórcios cooperativos brasileiros operam por reciprocidade. Fonte: Memória; ver P01 [nv].
+- O mutirão e o puxirum, bancos comunitários e consórcios cooperativos brasileiros operam por reciprocidade. Fonte: Memória; ver P01 [nv]. Nota: Afirmação de síntese do projeto sobre mutirão/puxirum e bancos comunitários; sem fonte externa nesta rodada.
 
 **Críticas e limites.** Mauss lê fontes de segunda mão; a leitura de 'hau' é contestada (Sahlins, Lévi-Strauss, Testart); reciprocidade pode ser coerção disfarçada, e a dádiva produz dívida e dominação (Graeber).
 
@@ -930,7 +930,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Hungria/EUA, economista político (1886-1964).*
 
-**Obras.** The Great Transformation, Farrar & Rinehart (1944) [nv]; Trade and Market in the Early Empires (com Arensberg e Pearson) (1957) [nv]
+**Obras.** The Great Transformation, Farrar & Rinehart (1944); Trade and Market in the Early Empires (com Arensberg e Pearson) (1957)
 
 **Ideia central.** A economia está embutida (embedded) em relações sociais; o mercado autorregulado exige transformar terra, trabalho e dinheiro em mercadorias fictícias, e a sociedade reage com um 'duplo movimento' de proteção.
 
@@ -939,7 +939,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Quadro para regular a mercantilização da terra (grilagem), do trabalho e do dinheiro (crédito e dívida); previsão: onde a proteção falta, surgem reações autoritárias.
 
 **Casos e evidências.**
-- Polanyi serve de chave para ler o ciclo 'recessão-ajuste-polarização' como duplo movimento (hipótese, não demonstração). Fonte: Interpretação do projeto [nv].
+- Polanyi serve de chave para ler o ciclo 'recessão-ajuste-polarização' como duplo movimento (hipótese, não demonstração). Fonte: Interpretação do projeto [nv]. Nota: Interpretação editorial do projeto (hipótese), não fato verificável em fonte externa; não deve virar true.
 
 **Críticas e limites.** Hipótese de um mercado 'desembutido' no século XIX é contestada (Block); tendência a ver proteção como sempre benigna, quando pode ser reacionária.
 
@@ -951,7 +951,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *EUA, cientista política (1933-2012); Nobel de Economia 2009.*
 
-**Obras.** Governing the Commons: The Evolution of Institutions for Collective Action, Cambridge University Press (1990) [nv]; [Cox, M.; Arnold, G.; Villamayor Tomás, S. 'A review of design principles for community-based natural resource management', Ecology and Society 15(4):38 (2010)](https://www.lincolninst.edu/pubs/dl/1707_925_Cox%20Final.pdf) [nv]
+**Obras.** Governing the Commons: The Evolution of Institutions for Collective Action, Cambridge University Press (1990) [nv]; [Cox, M.; Arnold, G.; Villamayor Tomás, S. 'A review of design principles for community-based natural resource management', Ecology and Society 15(4):38 (2010)](https://www.lincolninst.edu/pubs/dl/1707_925_Cox%20Final.pdf)
 
 **Ideia central.** Comunidades podem gerir bens comuns sem Estado nem mercado se tiverem regras apropriadas. Oito princípios de desenho: limites claros; regras adaptadas ao local; escolha coletiva; monitoramento; sanções graduadas; resolução de conflitos barata; reconhecimento externo do direito de se organizar; governança aninhada.
 
@@ -960,8 +960,8 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Check-list para desenhar governança de TI, resex, bacia, pesqueiro e pasto; mostra que o monitoramento local é peça crítica.
 
 **Casos e evidências.**
-- Cox, Arnold e Villamayor (2010) revisaram 91 estudos: os princípios têm bom apoio empírico e foram reformulados em dez. Fonte: [Resumo de busca (Lincoln Institute; Ecology and Society)](https://www.lincolninst.edu/pubs/dl/1707_925_Cox%20Final.pdf) [nv].
-- Exemplos: pastos alpinos de Törbel (Netting), zanjeras das Filipinas, huerta de Valência (Tribunal de las Aguas). Fonte: Memória, via Ostrom 1990 [nv].
+- Cox, Arnold e Villamayor Tomás (2010) analisaram 91 estudos que avaliaram os oito princípios de projeto de Ostrom (1990), concluíram que os princípios têm bom apoio empírico e propuseram uma reformulação. Fonte: [Resumo do artigo lido (Semantic Scholar, Crossref); PDF do Lincoln Institute indisponível (404)](https://doi.org/10.5751/es-03704-150438). Nota: Correção: "reformuladas em dez" não aparece no resumo; número de princípios da reformulação não confirmado.
+- Exemplos: pastos alpinos de Törbel (Netting), zanjeras das Filipinas, huerta de Valência (Tribunal de las Aguas). Fonte: Memória, via Ostrom 1990 [nv]. Nota: Exemplos de Ostrom (1990), cap. 3 (Törbel, zanjeras, Valência): livro não aberto.
 
 **Críticas e limites.** Críticas: os casos de sucesso são pequenos, homogêneos e de longa duração (Agrawal 2001); escala, heterogeneidade e mercado externo mudam o resultado; o Estado pode destruir ou apoiar; a parte de 'sem poder' fica de fora (Cleaver).
 
@@ -973,7 +973,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Índia/Reino Unido, economista e filósofo; Nobel 1998.*
 
-**Obras.** Commodities and Capabilities, North-Holland (1985) [nv]; Development as Freedom, Knopf (1999) [nv]; The Idea of Justice, Harvard University Press (2009) [nv]
+**Obras.** Commodities and Capabilities, North-Holland (1985); Development as Freedom, Knopf (1999); The Idea of Justice, Harvard University Press (2009)
 
 **Ideia central.** Bem-estar deve ser avaliado pelo que as pessoas podem ser e fazer (capacidades e funcionamentos), e não só por renda ou utilidade; desenvolvimento é expansão de liberdades reais. Inspirou o IDH (1990, com Mahbub ul Haq).
 
@@ -982,7 +982,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Base para indicadores multidimensionais (IDH, IPM) e para desenhar transferências com avaliação de capacidades; aproxima 'bem viver' de métricas mensuráveis.
 
 **Casos e evidências.**
-- IDH (PNUD, 1990) incorpora saúde, educação e renda; IDH municipal do Brasil existe desde o Atlas do Desenvolvimento Humano. Fonte: Memória [nv].
+- IDH (PNUD, 1990) incorpora saúde, educação e renda; IDH municipal do Brasil existe desde o Atlas do Desenvolvimento Humano. Fonte: Memória [nv]. Nota: A busca confirma que o 1o Relatório de Desenvolvimento Humano (PNUD, 1990) introduziu o IDH (expectativa de vida, educação, renda) e que o Atlas do Desenvolvimento Humano (PNUD/Ipea/FJP) publica o IDHM com base nos censos de 1991, 2000 e 2010; páginas não abertas.
 
 **Críticas e limites.** Críticas: sem lista de capacidades (Nussbaum propõe a sua), sem pesos; difícil operacionalizar; individualista (Deneulin sobre capacidades coletivas).
 
@@ -994,7 +994,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Reino Unido, economista.*
 
-**Obras.** Doughnut Economics: Seven Ways to Think Like a 21st-Century Economist, Random House (2017) [nv]; O'Neill, D. et al. 'A good life for all within planetary means', Nature Sustainability 1:88-95 (2018) [nv]
+**Obras.** Doughnut Economics: Seven Ways to Think Like a 21st-Century Economist, Random House (2017); O'Neill, D. et al. 'A good life for all within planetary boundaries', Nature Sustainability 1:88-95 (2018)
 
 **Ideia central.** Mirar um espaço seguro e justo: um piso social (12 dimensões) e um teto ecológico (limites planetários); economia deve prosperar entre os dois, sendo agnóstica quanto ao crescimento.
 
@@ -1003,7 +1003,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Painel de indicadores (piso e teto) por território; Amsterdã adotou o donut como estratégia da cidade em 2020 (memória).
 
 **Casos e evidências.**
-- O'Neill et al. (2018) mostram que nenhum país atende às necessidades básicas de seus cidadãos dentro dos limites planetários. Fonte: Memória [nv].
+- O'Neill et al. (2018) encontram que nenhum país atende às necessidades básicas de seus cidadãos em nível de uso de recursos globalmente sustentável; necessidades físicas (nutrição, saneamento, eletricidade, fim da pobreza extrema) poderiam ser atendidas sem exceder os limites, enquanto metas qualitativas (alta satisfação de vida) exigiriam 2 a 6 vezes o uso sustentável. Fonte: [Resumo lido (repositório White Rose, Universidade de Leeds)](https://eprints.whiterose.ac.uk/127264/).
 
 **Críticas e limites.** Crítica: o donut é metáfora, sem mecanismo de trade-offs e de preços; os dados locais são incompletos; 'agnosticismo' esconde escolha de política.
 
@@ -1015,7 +1015,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *EUA, economista ecológico (1938-2022).*
 
-**Obras.** Steady-State Economics, W. H. Freeman (1977) [nv]; Beyond Growth: The Economics of Sustainable Development, Beacon Press (1996) [nv]
+**Obras.** Steady-State Economics, W. H. Freeman (1977); Beyond Growth: The Economics of Sustainable Development, Beacon Press (1996)
 
 **Ideia central.** A economia é subsistema finito da biosfera; um estado estacionário mantém estoques de capital e população constantes, com fluxo de matéria e energia dentro da capacidade de regeneração e assimilação. Regras: colheita ≤ regeneração, emissão ≤ assimilação, renováveis a ritmo da substituição.
 
@@ -1033,7 +1033,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Romênia/EUA, economista (1906-1994).*
 
-**Obras.** The Entropy Law and the Economic Process, Harvard University Press (1971) [nv]
+**Obras.** The Entropy Law and the Economic Process, Harvard University Press (1971)
 
 **Ideia central.** O processo econômico é irreversível: a segunda lei da termodinâmica implica que matéria e energia se degradam, o que torna o crescimento ilimitado impossível; proposta de bioeconomia e, depois, de decrescimento.
 
@@ -1051,7 +1051,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *EUA, cientista de sistemas (1941-2001).*
 
-**Obras.** The Limits to Growth (com D. H. Meadows, J. Randers, W. Behrens III), Universe Books / Club of Rome (1972) [nv]; Leverage Points: Places to Intervene in a System, Sustainability Institute (1999) [nv]; Thinking in Systems, Chelsea Green (2008) [nv]
+**Obras.** The Limits to Growth (com D. H. Meadows, J. Randers, W. Behrens III), Universe Books / Club of Rome (1972); Leverage Points: Places to Intervene in a System, Sustainability Institute (1999) [nv]; Thinking in Systems, Chelsea Green (2008)
 
 **Ideia central.** Sistemas têm pontos de alavanca de força diferente: parâmetros (fracos) < laços de feedback < regras < metas < paradigma (fortes). Os limites ao crescimento mostram que crescimento exponencial em planeta finito leva a overshoot e colapso se não houver correção.
 
@@ -1060,7 +1060,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Classificação de decisões do projeto por força de alavanca: parâmetros fiscais (fracos) x regras e metas (fortes). Aplicável a decisoes.json.
 
 **Casos e evidências.**
-- Turner (2008, Global Environmental Change 18(3)) comparou o cenário padrão de 1972 com 30 anos de dados e viu aderência razoável; Herrington (2021, Journal of Industrial Ecology) atualizou e achou compatibilidade com cenários de colapso no século XXI. Fonte: Memória, não conferido [nv].
+- Turner (2008, Global Environmental Change 18(3):397-411) comparou dados de 1970-2000 com os cenários de Limits to Growth; segundo Herrington, os dados se alinharam ao cenário que termina em colapso. Herrington (J. Industrial Ecology 25(3), 2021; on-line 2020) atualizou com mais dados: os dois cenários mais próximos dos dados indicam estagnação de bem-estar, alimento e produção industrial nas próximas décadas, e só um (colapso por poluição) leva a colapso; o cenário de menores declínios foi o que menos se alinhou aos dados. Fonte: [Resumo de Herrington lido (Crossref); Turner lido só pela descrição de Herrington](https://doi.org/10.1111/jiec.13084). Nota: Correções: "aderência razoável" (Turner) e "compatibilidade com colapso" (Herrington) eram de memória e foram refeitas conforme o resumo. O resumo de Turner não foi aberto (ScienceDirect 403).
 
 **Críticas e limites.** Críticas desde 1973 (Nordhaus; Cole, Models of Doom): dados sem base e preços ignorados; substituição e tecnologia; mas as projeções não foram simplesmente refutadas.
 
@@ -1072,7 +1072,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *Alemanha, sociólogo (Jena).*
 
-**Obras.** Beschleunigung: Die Veränderung der Zeitstrukturen in der Moderne, Suhrkamp (2005) [nv]; Resonanz: Eine Soziologie der Weltbeziehung, Suhrkamp (2016) [nv]
+**Obras.** Beschleunigung: Die Veränderung der Zeitstrukturen in der Moderne, Suhrkamp (2005) [nv]; Resonanz: Eine Soziologie der Weltbeziehung, Suhrkamp (2016)
 
 **Ideia central.** A modernidade tardia é aceleração (técnica, social, ritmo de vida) com estabilização dinâmica (crescer para manter-se); a boa vida é relação de ressonância (resposta e transformação mútua com o mundo), não otimização de recursos.
 
@@ -1090,7 +1090,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *França, filósofo e sociólogo (1921-).*
 
-**Obras.** Introduction à la pensée complexe, ESF (1990) [nv]; La Méthode (6 vols.), Seuil (1977) [nv]
+**Obras.** Introduction à la pensée complexe, ESF (1990); La Méthode (6 vols.), Seuil (1977)
 
 **Ideia central.** Pensamento complexo religa o que a ciência disciplinar separou; princípios dialógico, recursivo e hologramático; critica a simplificação. Em educação defende os 'sete saberes necessários'.
 
@@ -1108,7 +1108,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *EUA, antropólogo e arqueólogo.*
 
-**Obras.** The Collapse of Complex Societies, Cambridge University Press (1988) [nv]
+**Obras.** The Collapse of Complex Societies, Cambridge University Press (1988)
 
 **Ideia central.** Sociedades resolvem problemas aumentando a complexidade, com retornos marginais decrescentes; quando o custo marginal supera o benefício, a sociedade se torna vulnerável a choques e simplifica (colapso como estratégia econômica racional).
 
@@ -1126,7 +1126,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 *EUA, cientista político (Harvard).*
 
-**Obras.** Making Democracy Work: Civic Traditions in Modern Italy, Princeton University Press (1993) [nv]; Bowling Alone: The Collapse and Revival of American Community, Simon & Schuster (2000) [nv]
+**Obras.** Making Democracy Work: Civic Traditions in Modern Italy, Princeton University Press (1993); Bowling Alone: The Collapse and Revival of American Community, Simon & Schuster (2000)
 
 **Ideia central.** Redes de reciprocidade e confiança (capital social) explicam o desempenho de instituições: no norte italiano, tradição cívica antiga predisse melhor governo regional do que o sul.
 
@@ -1135,7 +1135,7 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 **Uso operacional.** Indicador: confiança, associativismo e participação eleitoral por território, ao lado de indicadores de capacidade estatal.
 
 **Casos e evidências.**
-- O orçamento participativo e os conselhos de política são formas brasileiras de capital social formalizado. Fonte: Interpretação [nv].
+- O orçamento participativo e os conselhos de política são formas brasileiras de capital social formalizado. Fonte: Interpretação [nv]. Nota: Interpretação do projeto (orçamento participativo e conselhos como capital social formalizado); sem fonte externa.
 
 **Críticas e limites.** Críticas: determinismo histórico (Tarrow 1996), causalidade reversa e aplicação a países com desigualdade extrema; a diversidade etnolinguística é debatida (Putnam 2007).
 
@@ -1368,4 +1368,4 @@ Companheiro de `web/public/data/pilares_pensamento.json` (47 pensadores e tradi�
 
 ## O que ficou não verificado
 
-Das 139 obras e casos listados em pensadores, 4 são `verificado=true`. As demais precisam ser conferidas antes de publicação, em especial: títulos e anos de livros citados de memória; números de municípios e moedas sociais; Leis 71 e 300 da Bolívia (resumo de busca); OIT 169 (a página da OIT bloqueou a leitura); percentuais do plebiscito chileno e do referendo do Yasuní; MapBiomas; Cox et al. 2010; estudos de orçamento participativo; toda referência a leis e julgados brasileiros (Lei 14.701/2023, Tema 1031, Lei 13.123/2015, Lei 14.119/2021, ADI 3239, Lei 12.844/2013). Nenhum dado das propostas foi validado em fonte primária.
+Das 139 obras e casos listados em pensadores, 89 são `verificado=true` (4 antes da rodada de 2026-10-07) e 50 seguem false. Seguem a conferir, em especial: obras sem registro aberto ou com ano em divergência (Krenak, A vida não é útil; Ratts; Santos e Silveira; Freire; Dussel; Acosta e Elefante; Boaventura, Epistemologias do Sul; Elias, 1939; Rosa, Beschleunigung; Leverage Points); OIT 169 (a página da OIT deu erro de conexão) e Sarayaku (PDF da Corte IDH deu 403); Lei 11.947/2009 e Lei 12.711/2012 (Planalto indisponível); SOFI 2025 e Atlas da Violência (lidos só em imprensa); Ley 70/1993; Angicos, CIEPs e retomadas do MS; casos de interpretação do projeto (Polanyi, Mauss/mutirão, orçamento participativo); números de municípios e moedas sociais; MapBiomas; estudos de orçamento participativo; toda referência a leis e julgados brasileiros (Lei 14.701/2023, Tema 1031, Lei 13.123/2015, Lei 14.119/2021, ADI 3239, Lei 12.844/2013). Nenhum dado das propostas foi validado em fonte primária.

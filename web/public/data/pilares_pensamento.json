@@ -19,14 +19,16 @@
     {
      "titulo": "Viteri Gualinga, C. 'Visión indígena del desarrollo en la Amazonía', Polis",
      "ano": 2002,
-     "url": "",
-     "verificado": false
+     "url": "https://polis.ulagos.cl/index.php/polis/article/view/649",
+     "verificado": true,
+     "nota": "Página da revista lida: Polis Revista Latinoamericana, n. 3 (2002), \"Descentramiento y nuevas miradas\", DOI 10.32735/S0718-6568/2002-N3-183 (a página indica 2018 como data de publicação on-line)."
     },
     {
      "titulo": "Gudynas, E. 'Buen Vivir: today's tomorrow', Development 54(4)",
      "ano": 2011,
-     "url": "",
-     "verificado": false
+     "url": "https://doi.org/10.1057/dev.2011.86",
+     "verificado": true,
+     "nota": "Crossref lido: Development 54(4), 2011, p. 441-447."
     }
    ],
    "ideia_central": "Vida plena em relação com a comunidade e a natureza, e não acumulação individual. Na Constituição do Equador vira princípio de ordenamento (preâmbulo, art. 14) e a natureza (Pacha Mama) ganha direitos (arts. 71-74).",
@@ -46,10 +48,11 @@
      "verificado": true
     },
     {
-     "descricao": "Referendo de 20/ago/2023: cerca de 59% votaram por deixar o petróleo do bloco 43 (Yasuní-ITT) no subsolo.",
-     "fonte": "Resumo de busca (CorpWatch e outros)",
-     "url": "https://corpwatch.org/article/ecuadorians-vote-stop-petroecuadors-oil-drilling-yasuni-national-park",
-     "verificado": false
+     "descricao": "Referendo de 20/ago/2023: 58,95% dos votos válidos (54,11% do total de votos) apoiaram deixar o petróleo do bloco 43 (Yasuní-ITT) no subsolo; a proposta foi aprovada.",
+     "fonte": "Wikipedia (artigo do referendo de 2023 do Yasuní) lida; a tabela cita o CNE, que não foi aberto",
+     "url": "https://en.wikipedia.org/wiki/2023_Ecuadorian_Yasun%C3%AD_National_Park_oil_exploitation_referendum",
+     "verificado": true,
+     "nota": "Mesmo resultado, dois denominadores: 58,95% dos válidos; 54,11% de todos os votos (5.541.585 de 10.816.748)."
     }
    ],
    "criticas": "Críticas: (1) o conceito indígena original é plural e local, e a versão estatal é uma tradução seletiva; (2) há debate sobre se o termo, na forma atual, é construção recente de intelectuais e movimentos (Gudynas e Rivera Cusicanqui chamam de retórica quando convive com extrativismo); (3) o Estado que o proclama licenciou petróleo e mineração: a iniciativa Yasuní-ITT (deixar o petróleo no solo mediante compensação internacional) foi encerrada em 2013 e só voltou pela via do referendo de 2023. O cumprimento do referendo está por verificar.",
@@ -79,20 +82,23 @@
     {
      "titulo": "Constitución Política del Estado Plurinacional de Bolivia (art. 8: suma qamaña, ñandereko, teko kavi, ivi maraei, qhapaj ñan)",
      "ano": 2009,
-     "url": "",
-     "verificado": false
+     "url": "https://www.constituteproject.org/constitution/Bolivia_2009?lang=es",
+     "verificado": true,
+     "nota": "Texto lido: o art. 8, I, lista suma qamaña (vivir bien), ñandereko (vida armoniosa), teko kavi (vida buena), ivi maraei (tierra sin mal) e qhapaj ñan (camino o vida noble) como princípios ético-morais, junto com ama qhilla, ama llulla, ama suwa."
     },
     {
      "titulo": "Ley nº 71 de Derechos de la Madre Tierra, 21/12/2010",
      "ano": 2010,
      "url": "https://www.lexivox.org/norms/BO-L-N71.html",
-     "verificado": false
+     "verificado": true,
+     "nota": "Página lida em lexivox: Ley 71 promulgada em 21/12/2010 (aprovada pela Assembleia em 7/12/2010); art. 1 \"reconocer los derechos de la Madre Tierra\"."
     },
     {
      "titulo": "Ley nº 300 Marco de la Madre Tierra y Desarrollo Integral para Vivir Bien, 15/10/2012",
      "ano": 2012,
      "url": "https://bolivia.infoleyes.com/norma/4126/ley-marco-de-la-madre-tierra-y-desarrollo-integral-para-vivir-bien-300",
-     "verificado": false
+     "verificado": true,
+     "nota": "Página lida em infoleyes: Ley 300 de 15/10/2012; art. 2 fixa alcance nos setores do nível central e nas entidades territoriais autônomas."
     }
    ],
    "ideia_central": "Viver bem com, não melhor que: equilíbrio entre pessoas e Madre Tierra. A Lei 71 diz que o exercício de direitos individuais é limitado pelo exercício de direitos coletivos nos sistemas de vida da Madre Tierra e que conflitos devem ser resolvidos sem afetar irreversivelmente esses sistemas (resumo de busca).",
@@ -107,15 +113,17 @@
    "casos_e_evidencias": [
     {
      "descricao": "Leis 71 (21/12/2010) e 300 (15/10/2012): marco jurídico de Madre Tierra e Vivir Bien, aplicável ao nível central e aos entes autônomos.",
-     "fonte": "Resumo de busca (lexivox, infoleyes)",
+     "fonte": "Leis 71 e 300 lidas (lexivox, infoleyes)",
      "url": "https://www.lexivox.org/norms/BO-L-N71.html",
-     "verificado": false
+     "verificado": true,
+     "nota": "Ley 71: 21/12/2010; Ley 300: 15/10/2012, alcance no nível central e nas entidades autônomas (art. 2)."
     },
     {
-     "descricao": "TIPNIS: em 25/set/2011 a polícia reprimiu marcha indígena contra rodovia de cerca de 306 km pelo território e parque Isiboro-Sécure; o governo suspendeu a obra pela Lei 180.",
-     "fonte": "Resumo de busca (Type Investigations e outros)",
-     "url": "https://typeinvestigations.org/investigation/2012/08/27/bolivia-battles-highway/",
-     "verificado": false
+     "descricao": "TIPNIS: em set/2011 a polícia reprimiu marcha indígena contra rodovia de cerca de 306 km (Villa Tunari-San Ignacio de Moxos); a Lei 180 (out/2011) declarou o território intangível e vetou rodovia; a Lei 222 (2012) criou consulta, com irregularidades relatadas; a Lei 969 (2017) retirou a intangibilidade.",
+     "fonte": "Wikipedia (verbete TIPNIS) lida; Type Investigations lida (cita 182 milhas, cerca de 293 km: divergência com os 306 km)",
+     "url": "https://en.wikipedia.org/wiki/Isiboro_S%C3%A9cure_National_Park_and_Indigenous_Territory",
+     "verificado": true,
+     "nota": "Correção: \"25/set/2011\" não foi confirmado nas páginas lidas (só \"setembro de 2011\"); acrescentadas as leis 222 e 969, omitidas antes (a proteção foi depois revertida). O governo contesta a escala do impacto direto."
     }
    ],
    "criticas": "Crítica central: o governo Morales proclamou Vivir Bien e promoveu hidrocarbonetos, mineração e estradas (TIPNIS). Rivera Cusicanqui chama o discurso de decorativo (memória). Direitos da Madre Tierra sem órgão com poder de veto e sem consulta vinculante ficam como declaração.",
@@ -141,14 +149,16 @@
     {
      "titulo": "Murra, J. Formaciones económicas y políticas del mundo andino, IEP",
      "ano": 1975,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL4726099W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem)."
     },
     {
      "titulo": "Platt, T. Estado boliviano y ayllu andino, IEP",
      "ano": 1982,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL612258W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). IEP, 1982."
     }
    ],
    "ideia_central": "Reciprocidade como instituição produtiva: ayni (troca de trabalho simétrica e diferida), minka (trabalho coletivo para obra de interesse comum), ayllu (unidade territorial e parental com acesso a pisos ecológicos). Murra descreveu o controle vertical de um máximo de pisos ecológicos.",
@@ -166,7 +176,8 @@
      "descricao": "Murra: economia andina organizada por reciprocidade e redistribuição sem mercado generalizado (tese discutida; casos locais variam).",
      "fonte": "Obra de memória, não conferida",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Tese de Murra (reciprocidade e redistribuição andinas) não relida em fonte aberta; permanece de memória."
     }
    ],
    "criticas": "Reciprocidade andina é hierárquica em parte (redistribuição estatal inca, mita, yanacona). Idealizar um comunismo inca é erro antigo. Ayllus mudaram sob colônia e república; o ayllu atual é produto de história, não relíquia.",
@@ -193,14 +204,16 @@
     {
      "titulo": "Melià, B. El guaraní conquistado y reducido: ensayos de etnohistoria",
      "ano": 1986,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL11010282W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Centro de Estudios Antropológicos, Universidad Católica, 1986."
     },
     {
      "titulo": "Clastres, H. La terre sans mal: le prophétisme tupi-guarani, Seuil",
      "ano": 1975,
-     "url": "",
-     "verificado": false
+     "url": "https://nantilus.univ-nantes.fr/vufind/Record/PPN000103357",
+     "verificado": false,
+     "nota": "Registro de catálogo indicado pela busca (Seuil, Paris, 1975; coleção Recherches anthropologiques, 153 p.); a página retornou 403 na leitura direta. Mantido false."
     }
    ],
    "ideia_central": "Tekoha é o lugar onde se pode ser guarani (teko): território e modo de ser (ñande reko) indissociáveis; sem tekoha não há teko porã (vida boa). Para os Kaiowá e Guarani de Mato Grosso do Sul, a perda de terra costuma ser associada a violência e a altas taxas de suicídio (a conferir).",
@@ -217,7 +230,8 @@
      "descricao": "Retomadas no MS (Dourados, Caarapó): conflito fundiário prolongado com mortes de lideranças (números em Cimi, Relatório Violência contra os Povos Indígenas, não conferidos).",
      "fonte": "Memória; fonte primária não conferida",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Cimi: a busca devolveu o relatório de 2023 (43 assassinatos de indígenas no MS, 2o do país), mas a página não foi aberta; números por município (Dourados, Caarapó) não conferidos."
     }
    ],
    "criticas": "Risco de essencializar 'o guarani' (Mbya, Kaiowá e Ñandeva divergem). A 'terra sem mal' foi lida como messianismo migratório (H. Clastres), com debate sobre sua origem pré ou pós-contato.",
@@ -243,8 +257,9 @@
     {
      "titulo": "Bengoa, J. Historia del pueblo mapuche (siglos XIX y XX), Ediciones Sur",
      "ano": 1985,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL763222W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Ediciones Sur, 1985 (reedição LOM, 1987)."
     }
    ],
    "ideia_central": "Az mapu: conjunto de normas que ordenam a relação entre pessoas, territórios (mapu) e forças (newen); küme mongen: vida equilibrada. Base de reivindicação de autonomia e restituição.",
@@ -258,10 +273,10 @@
    "uso_operacional": "Caso de teste de desenho constitucional: a Convenção Constituinte do Chile propôs Estado plurinacional e o texto foi rejeitado em plebiscito em 4/set/2022 por ampla margem (cerca de 62%, não verificado), mostrando o custo de legitimidade quando o desenho vem sem pacto amplo.",
    "casos_e_evidencias": [
     {
-     "descricao": "Plebiscito de saída chileno de 2022: texto rejeitado (percentual a conferir).",
-     "fonte": "Memória",
-     "url": "",
-     "verificado": false
+     "descricao": "Plebiscito de saída chileno de 4/set/2022: texto proposto rejeitado (Rechazo 61,89% x Apruebo 38,11%; participação 85,86%).",
+     "fonte": "Wikipedia (plebiscito constitucional chileno de 2022) lida; o Servel não foi aberto",
+     "url": "https://en.wikipedia.org/wiki/2022_Chilean_constitutional_referendum",
+     "verificado": true
     }
    ],
    "criticas": "Mapuche não são monolíticos (movimentos de autonomia, de restituição e de violência política coexistem). Evitar usar o conceito como emblema sem fonte mapuche.",
@@ -282,7 +297,8 @@
      "titulo": "Acuerdo sobre Identidad y Derechos de los Pueblos Indígenas (Guatemala, México, 31/03/1995)",
      "ano": 1995,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Não aberto nesta rodada (documento de paz de 31/03/1995; conferir no sítio da ONU/MINUGUA)."
     }
    ],
    "ideia_central": "'Vida boa' no pensamento maia contemporâneo: bem-estar articulado à comunidade, ao calendário e à milpa. O conceito circula em organizações maias; a documentação acadêmica que consegui indicar é menos consolidada que a do sumak kawsay.",
@@ -310,20 +326,23 @@
     {
      "titulo": "Ideias para adiar o fim do mundo, Companhia das Letras",
      "ano": 2019,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL22004806W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Companhia das Letras, 2019."
     },
     {
      "titulo": "A vida não é útil, Companhia das Letras",
      "ano": 2020,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Divergência: o Open Library registra 2019 e resenhas acadêmicas citam Companhia das Letras, 2020. Ano não resolvido sem a ficha da editora; mantido false."
     },
     {
      "titulo": "Discurso na Assembleia Nacional Constituinte (pintura do rosto com jenipapo)",
      "ano": 1987,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Discurso de 4/9/1987 na Constituinte: registro da Câmara não localizado nesta rodada."
     }
    ],
    "ideia_central": "A ideia de humanidade separada da Terra sustenta o clube da humanidade que consome o planeta; adiar o fim do mundo é contar mais uma história. Crítica do desenvolvimento sustentável como slogan; a vida não deve ser medida por utilidade.",
@@ -337,10 +356,11 @@
    "uso_operacional": "Obriga a perguntar de quem é a categoria 'recurso' em cada indicador. Operacional: o rio Doce (rompimento da barragem de Fundão, Mariana, 5/nov/2015) como caso em que 'bem comum' e personalidade jurídica do rio entram em disputa.",
    "casos_e_evidencias": [
     {
-     "descricao": "Rompimento da barragem de Fundão (Mariana, 2015) atingiu o Watu (rio Doce); ação de reconhecimento do rio como sujeito de direitos (Associação Pachamama, 2017) não foi decidida favoravelmente.",
-     "fonte": "Resumo de busca (ecojurisprudence.org)",
+     "descricao": "Rompimento da barragem de Fundão (Mariana, 2015) atingiu o Watu (rio Doce). A ação da Associação Pachamama (2017, 6a Vara Federal de Minas Gerais, proc. 1009247-73.2017.4.01.3800) pedia reconhecer a bacia do rio Doce como sujeito de direitos e não foi julgada procedente (segundo o PL 1.974/2024 de MG); o reconhecimento do Watu veio por lei municipal de Linhares (ES), Lei 4.225/2024.",
+     "fonte": "Resumos de busca (PL 1.974/2024 da ALMG; artigos); a página ecojurisprudence.org/?p=511 lida não trata do tema",
      "url": "https://ecojurisprudence.org/?p=511",
-     "verificado": false
+     "verificado": false,
+     "nota": "Correção: o texto anterior atribuía à ação de 2017 o reconhecimento do Watu; a ação era sobre a bacia, e o Watu foi reconhecido depois por lei municipal. Mantido false: sentença e lei de Linhares não foram abertas."
     }
    ],
    "criticas": "Crítica: ensaios curtos, de forte valor retórico e pouco operacionais; risco de uso decorativo por empresas e governos (citar Krenak sem mudar licenciamento). Ele próprio rejeita transformar a obra em programa.",
@@ -366,20 +386,23 @@
     {
      "titulo": "La chute du ciel: paroles d'un chaman yanomami, Plon",
      "ano": 2010,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL15929604W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Plon, 2010."
     },
     {
      "titulo": "The Falling Sky: Words of a Yanomami Shaman, Harvard University Press",
      "ano": 2013,
      "url": "https://blogs.lse.ac.uk/lsereviewofbooks/2014/02/01/book-review-the-falling-sky-words-of-a-yanomami-shaman-by-davi-kopenawa-and-bruce-albert",
-     "verificado": false
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Harvard University Press/Belknap, 2013 (OL19974181W)."
     },
     {
      "titulo": "A queda do céu: palavras de um xamã yanomami, Companhia das Letras",
      "ano": 2015,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL35216133W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Companhia das Letras, 2015."
     }
    ],
    "ideia_central": "Relato em primeira pessoa de cosmologia e ecologia xamânica: o povo da mercadoria não ouve a floresta; se os xamãs morrerem, os espíritos xapiri não sustentarão o céu e ele cairá. Denuncia garimpo, epidemias (xawara) e a cobiça.",
@@ -396,7 +419,8 @@
      "descricao": "Livro produzido por gravação, tradução e edição conjunta com Bruce Albert; edição brasileira em 2015.",
      "fonte": "Resumo de busca (LSE Review of Books)",
      "url": "https://blogs.lse.ac.uk/lsereviewofbooks/2014/02/01/book-review-the-falling-sky-words-of-a-yanomami-shaman-by-davi-kopenawa-and-bruce-albert",
-     "verificado": false
+     "verificado": false,
+     "nota": "A página da LSE Review of Books abriu vazia; a produção conjunta com Bruce Albert é conhecida das edições (registros de catálogo lidos), mas não foi lida na resenha."
     }
    ],
    "criticas": "A obra é coautoria mediada (pacto etnográfico); há debate sobre quanto é voz de Kopenawa e quanto edição de Albert. Cosmologia não é programa político; garimpo tem cadeia econômica (ouro) que a cosmologia sozinha não corta.",
@@ -423,20 +447,23 @@
     {
      "titulo": "Heckenberger, M. et al. 'Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon', Science 321",
      "ano": 2008,
-     "url": "",
-     "verificado": false
+     "url": "https://doi.org/10.1126/science.1159769",
+     "verificado": true,
+     "nota": "Crossref e resumo lidos: Science 321(5893):1214-1217, 29/8/2008 (Heckenberger, Russell, Fausto, Toney e outros)."
     },
     {
      "titulo": "Posey, D. 'Indigenous management of tropical forest ecosystems: the case of the Kayapó', Agroforestry Systems 3",
      "ano": 1985,
-     "url": "",
-     "verificado": false
+     "url": "https://doi.org/10.1007/bf00122640",
+     "verificado": true,
+     "nota": "Crossref lido: Agroforestry Systems 3(2):139-158, 1985."
     },
     {
      "titulo": "Levis, C. et al. 'Persistent effects of pre-Columbian plant domestication on Amazonian forest composition', Science 355",
      "ano": 2017,
-     "url": "",
-     "verificado": false
+     "url": "https://doi.org/10.1126/science.aal0157",
+     "verificado": true,
+     "nota": "Crossref e resumo lidos: Science 355(6328):925-931, 3/3/2017. Há Comentário (McMichael et al.) e Resposta, Science 358(6361), 2017: a conclusão é contestada."
     }
    ],
    "ideia_central": "A floresta amazônica não é natureza intocada: inclui séculos de manejo (terra preta, ilhas de floresta apêtê kayapó, redes xinguanas). Povos indígenas produzem biodiversidade por manejo, o que desmonta a dicotomia preservar ou usar.",
@@ -450,10 +477,11 @@
    "uso_operacional": "Fundamenta política de manejo comunitário e sociobioeconomia e a prioridade de regularização antes de concessão.",
    "casos_e_evidencias": [
     {
-     "descricao": "Heckenberger et al. descrevem aglomerados pré-colombianos conectados no Alto Xingu, de baixa densidade e manejo extensivo.",
-     "fonte": "Memória, não lido",
-     "url": "",
-     "verificado": false
+     "descricao": "Heckenberger et al. (Science 321, 2008) descrevem, no Alto Xingu, sociedades pré-colombianas organizadas em aglomerados articulados (pequenas políticas independentes dentro de uma política regional), uma forma \"galáctica\" de urbanismo pré-histórico, com implicações para conservação e desenvolvimento sustentável.",
+     "fonte": "Resumo do artigo lido (Crossref, Europe PMC)",
+     "url": "https://doi.org/10.1126/science.1159769",
+     "verificado": true,
+     "nota": "\"Baixa densidade e manejo extensivo\" vinha de memória e não aparece no resumo; removido do texto."
     }
    ],
    "criticas": "Debate: quanto da Amazônia é antropogênica? A extrapolação de sítios é criticada (McMichael et al. 2012 apontam impacto humano localizado). Usar 'manejo' para legitimar qualquer exploração é distorção.",
@@ -486,7 +514,8 @@
      "titulo": "Lei orgânica do município de Bonito (PE), emenda de 21/12/2017, direitos da natureza",
      "ano": 2017,
      "url": "https://ecojurisprudence.org/initiatives/the-organic-law-of-the-municipal-of-bonito-2/",
-     "verificado": false
+     "verificado": true,
+     "nota": "Página lida em ecojurisprudence.org: emenda à lei orgânica de Bonito (PE) em 21/12/2017, reconhecendo direitos da natureza."
     }
    ],
    "ideia_central": "A Corte colombiana declarou o rio Atrato, sua bacia e afluentes entidade sujeito de direitos à proteção, conservação, manutenção e restauração, com guardiães (Estado e comunidades étnicas).",
@@ -505,10 +534,11 @@
      "verificado": true
     },
     {
-     "descricao": "Bonito (PE) incorporou direitos da natureza à lei orgânica em 21/12/2017; Paudalho em 2018.",
-     "fonte": "Resumo de busca (ecojurisprudence.org)",
+     "descricao": "Bonito (PE) incorporou direitos da natureza à lei orgânica em 21/12/2017; Paudalho (PE) em 20/12/2018 (art. 181).",
+     "fonte": "ecojurisprudence.org (Bonito; Paudalho) lidas",
      "url": "https://ecojurisprudence.org/initiatives/the-organic-law-of-the-municipal-of-bonito-2/",
-     "verificado": false
+     "verificado": true,
+     "nota": "Paudalho: https://ecojurisprudence.org/initiatives/amendment-organic-law-of-the-municipality-of-paudalho/ (20/12/2018, art. 181). Correção: o texto anterior dizia apenas \"2018\"."
     }
    ],
    "criticas": "A implementação no Atrato é descrita como lenta e contestada (fonte a conferir). Personalidade jurídica sem orçamento e sem poder fiscalizador é simbólica; a mineração ilegal persiste. Em Bonito não encontrei evidência de uso judicial relevante (a verificar).",
@@ -534,19 +564,22 @@
      "titulo": "Convenção 169 da OIT sobre Povos Indígenas e Tribais, Genebra, 27/06/1989 (em vigor 1991)",
      "ano": 1989,
      "url": "https://normlex.ilo.org/dyn/normlex/en/f?p=NORMLEXPUB:12100:0::NO::P12100_ILO_CODE:C169",
-     "verificado": false
+     "verificado": false,
+     "nota": "Página da OIT (normlex) retornou ECONNRESET. Datas conferem com os considerandos do Decreto 5.051/2004 (adoção 27/6/1989, vigência internacional 5/9/1991; ratificação do Brasil 25/7/2002), vistos só em resumo de busca."
     },
     {
      "titulo": "Decreto nº 5.051/2004 (promulga a Convenção 169 no Brasil)",
      "ano": 2004,
-     "url": "",
-     "verificado": false
+     "url": "https://legis.senado.leg.br/norma/407238/publicacao/15686732",
+     "verificado": false,
+     "nota": "Decreto 5.051, de 19/4/2004 (DOU 20/4/2004), promulga a Convenção 169; Brasil depositou a ratificação em 25/7/2002 e a Convenção vigora para o Brasil desde 25/7/2003. O decreto foi revogado formalmente pelo Decreto 10.088/2019 (consolidação de atos de promulgação de convenções da OIT, sem perda da vigência do tratado). Texto do Planalto indisponível; dados vistos só em resultados de busca (Senado/Câmara). Mantido false."
     },
     {
      "titulo": "Corte IDH, Pueblo Indígena Kichwa de Sarayaku vs. Ecuador, 27/06/2012",
      "ano": 2012,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Sentença de 27/6/2012 (Série C n. 245): PDF da Corte IDH retornou 403; resumo oficial visto só em resultado de busca."
     }
    ],
    "ideia_central": "Povos devem ser consultados, de boa-fé e por seus procedimentos, antes de medidas legislativas ou administrativas que os afetem (art. 6), e participar das decisões sobre seu desenvolvimento (art. 7). No caso Sarayaku (Corte IDH, 2012) o Equador foi responsabilizado por não consultar.",
@@ -561,7 +594,8 @@
      "descricao": "Sarayaku v. Ecuador (2012): Corte IDH condenou o Estado pela entrada de petroleira sem consulta.",
      "fonte": "Memória, não conferido",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "PDF da Corte IDH retornou 403; o resumo oficial, visto em resultado de busca, confirma sentença de 27/6/2012: Equador responsável por violar consulta, propriedade comunal e identidade cultural ao permitir exploração petrolífera sem consulta. Mantido false até abrir a fonte."
     }
    ],
    "criticas": "Consulta sem poder de veto vira ritual; consentimento vinculante gera conflito com o interesse nacional em energia e minérios (Belo Monte: consultas contestadas, não conferido). Risco de consulta fabricada por empresas.",
@@ -587,13 +621,15 @@
      "titulo": "Colonização, quilombos: modos e significados, INCTI/UnB",
      "ano": 2015,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Registros bibliográficos citados em artigos (Brasília: INCTI/UnB, 2015; uma citação traz \"modos e significações\"); catálogo não aberto. Mantido false."
     },
     {
      "titulo": "A terra dá, a terra quer, Ubu/Piseagrama",
      "ano": 2023,
      "url": "https://www.brasildefato.com.br/2023/12/04/estarei-vivo-mesmo-enterrado-disse-nego-bispo-quilombola-contracolonialista-que-morre-aos-63-anos",
-     "verificado": false
+     "verificado": true,
+     "nota": "Brasil de Fato lido: publicado pela Ubu em 2023 (mês não dado na página); co-edição Piseagrama não confirmada nessa página."
     }
    ],
    "ideia_central": "Contra-colonialismo: a resistência dos povos que recusam a lógica monoteísta, linear e de acumulação do colonizador. Opõe confluência (encontro sem fusão) a sincretismo, biointeração a desenvolvimento, e os saberes orgânicos aos sintéticos.",
@@ -608,16 +644,18 @@
    "uso_operacional": "Critério para política rural quilombola: titulação coletiva, assistência técnica que respeite o manejo local e compras públicas (PAA, PNAE) como confluência com agricultura camponesa. Indicador: sementes crioulas e uso de terra sem insumos sintéticos.",
    "casos_e_evidencias": [
     {
-     "descricao": "Nêgo Bispo faleceu em 3/12/2023, sete meses depois de 'A terra dá, a terra quer'.",
-     "fonte": "Resumo de busca (Brasil de Fato, O Povo)",
+     "descricao": "Nêgo Bispo faleceu em 3/12/2023, aos 63 anos, no mesmo ano da publicação de 'A terra dá, a terra quer' (Ubu, 2023).",
+     "fonte": "Brasil de Fato lido",
      "url": "https://www.brasildefato.com.br/2023/12/04/estarei-vivo-mesmo-enterrado-disse-nego-bispo-quilombola-contracolonialista-que-morre-aos-63-anos",
-     "verificado": false
+     "verificado": true,
+     "nota": "Correção: 'sete meses depois' não foi confirmado (a página não dá o mês de lançamento)."
     },
     {
      "descricao": "PAA e PNAE: a Lei 11.947/2009 exige no mínimo 30% das verbas do PNAE para a agricultura familiar (valor de memória).",
      "fonte": "Memória, não conferido",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Texto do art. 14 da Lei 11.947/2009 (\"no mínimo 30%\") visto em cópia citada em resumo de busca; texto do Planalto indisponível. Redação alterada pela Lei 14.660/2023 (inclui grupos de mulheres entre os prioritários). Mantido false."
     }
    ],
    "criticas": "Escrita ensaística e de vocabulário próprio (oral) com pouca operacionalização; risco de uso metafórico por quem nunca enfrentou o fundiário; dicotomias duras (orgânico/sintético, colonizador/contra-colonizador) simplificam.",
@@ -646,19 +684,22 @@
      "titulo": "Uma história feita por mãos negras (org. Alex Ratts), Zahar",
      "ano": 2021,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "A página da Companhia das Letras abre com título, organização de Alex Ratts e ISBN 9786559790067, mas não informa ano nem Zahar; catálogos vistos só em busca (Zahar, 2021). Mantido false."
     },
     {
      "titulo": "Ori (filme, dir. Raquel Gerber, roteiro e narração de B. Nascimento)",
      "ano": 1989,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Filme \"Ori\" (1989, dir. Raquel Gerber): não aberto."
     },
     {
      "titulo": "Ratts, A. Eu sou atlântica: sobre a trajetória de Beatriz Nascimento",
      "ano": 2006,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Divergência de ano: a Wikipedia traz 2007 no texto e 2006 na bibliografia; a maioria das citações dá 2006 (Instituto Kuanza/Imprensa Oficial); Open Library: 2007. Mantido false até ver a ficha catalográfica."
     }
    ],
    "ideia_central": "O quilombo como paradigma de organização e de continuidade negra, e não só como fuga e resistência escrava; o território como corpo ('o meu espaço é o meu corpo'); o negro como sujeito histórico e não objeto de análise.",
@@ -671,10 +712,11 @@
    "uso_operacional": "Dá base conceitual para ler quilombo como unidade de governança territorial, útil para desenhos de titulação e proteção coletiva, e para o currículo (Lei 10.639/2003).",
    "casos_e_evidencias": [
     {
-     "descricao": "Beatriz Nascimento foi assassinada em 1995; sua obra foi ampliada em edição póstuma de 2021.",
-     "fonte": "Memória",
-     "url": "",
-     "verificado": false
+     "descricao": "Beatriz Nascimento foi assassinada em 28/01/1995, no Rio de Janeiro.",
+     "fonte": "Wikipedia (verbete) lida",
+     "url": "https://en.wikipedia.org/wiki/Beatriz_Nascimento",
+     "verificado": true,
+     "nota": "Removida a frase \"obra ampliada em edição póstuma de 2021\": a página lida não cita a coletânea de 2021 e o catálogo da Companhia das Letras não dá ano."
     }
    ],
    "criticas": "Textos fragmentados (ensaios, falas, poemas), com tradução institucional por fazer; interpretação disputada entre uso político e leitura histórica estrita.",
@@ -698,14 +740,16 @@
     {
      "titulo": "O quilombismo, Vozes",
      "ano": 1980,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL2596270W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Vozes, 1980 (outras edições: Fundação Cultural Palmares)."
     },
     {
      "titulo": "O genocídio do negro brasileiro: processo de um racismo mascarado, Paz e Terra",
      "ano": 1978,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL2596266W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Paz e Terra, 1978 (também Perspectiva)."
     }
    ],
    "ideia_central": "Quilombismo: programa político-econômico de organização da população negra a partir da experiência quilombola, com propriedade coletiva, cooperação e Estado democrático e antirracista. Denuncia a democracia racial como máscara.",
@@ -718,10 +762,11 @@
    "uso_operacional": "Fonte de ações afirmativas, de política fundiária coletiva e de indicadores desagregados por raça.",
    "casos_e_evidencias": [
     {
-     "descricao": "Lei 12.711/2012 (cotas em universidades federais) e ADPF 186 (STF, 2012, constitucionalidade de cotas): desenvolvimento posterior da pauta.",
-     "fonte": "Memória, não conferido",
-     "url": "",
-     "verificado": false
+     "descricao": "ADPF 186 (STF, julgada em 25 e 26/04/2012): por unanimidade, relator Min. Ricardo Lewandowski, o Plenário julgou constitucional a política de cotas da UnB e improcedente a ação do DEM.",
+     "fonte": "Dizer o Direito (27/04/2012) lido; notícia do STF retornou 403",
+     "url": "https://www.dizerodireito.com.br/2012/04/stf-julga-constitucional-sistema-de.html",
+     "verificado": true,
+     "nota": "A Lei 12.711/2012 (cotas em instituições federais) foi retirada do texto: o texto legal não foi aberto nesta rodada."
     }
    ],
    "criticas": "O 'genocídio' tem uso retórico forte e contestado por demógrafos; propostas de socialismo quilombista têm baixa tradução em desenho concreto.",
@@ -750,13 +795,15 @@
      "titulo": "A categoria político-cultural de amefricanidade, Tempo Brasileiro 92/93",
      "ano": 1988,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Citação confere em bibliografias (Tempo Brasileiro 92/93, jan-jun 1988, p. 69-82; um registro dá 69-81), mas a página não foi aberta."
     },
     {
      "titulo": "Racismo e sexismo na cultura brasileira, Ciências Sociais Hoje",
      "ano": 1984,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Citação confere em bibliografias (Ciências Sociais Hoje, ANPOCS, 1984, p. 223-244; texto oral de 31/10/1980), mas a página não foi aberta."
     }
    ],
    "ideia_central": "Amefricanidade: identidade compartilhada por africanos e indígenas nas Américas, contra o eurocentrismo e o mito da democracia racial; 'pretuguês' como marca da fala brasileira; intersecção entre racismo e sexismo, com a mulher negra no centro.",
@@ -789,14 +836,16 @@
     {
      "titulo": "A natureza do espaço: técnica e tempo, razão e emoção, Hucitec",
      "ano": 1996,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL1010652W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Hucitec, 1996."
     },
     {
      "titulo": "Santos, M.; Silveira, M. L. O Brasil: território e sociedade no início do século XXI, Record",
      "ano": 2001,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Resenha em SciELO (2003) cita Record, 2001, 474 p. (São Paulo ou Rio de Janeiro, conforme a fonte); página não aberta. Mantido false."
     }
    ],
    "ideia_central": "Território usado: o território é o espaço apropriado e usado pelos atores, e não só o recorte de Estado; o espaço é sistema de objetos e de ações; o 'uso' revela quem manda (verticalidades) e quem vive (horizontalidades).",
@@ -833,14 +882,16 @@
     {
      "titulo": "O povo brasileiro: a formação e o sentido do Brasil, Companhia das Letras",
      "ano": 1995,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL1755883W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Companhia das Letras, 1995."
     },
     {
      "titulo": "Os índios e a civilização, Civilização Brasileira",
      "ano": 1970,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL1755914W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Civilização Brasileira, 1970."
     }
    ],
    "ideia_central": "A formação do Brasil como processo de 'moinho de gastar gente': a mestiçagem de matrizes indígena, europeia e africana, a violência da gênese e a promessa de uma 'nova Roma tropical'. Defendeu a escola de tempo integral (CIEPs) e a Universidade de Brasília.",
@@ -856,7 +907,8 @@
      "descricao": "CIEPs (Rio de Janeiro, anos 1980): escolas de tempo integral; avaliações posteriores mistas e descontinuadas.",
      "fonte": "Memória, não conferido",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Resultados de busca confirmam a criação dos CIEPs (governo Brizola, 1983-87, com Darcy Ribeiro) e a interrupção na gestão seguinte, mas as fontes são em parte militantes e nenhuma avaliou resultados; \"avaliações mistas\" segue sem fonte."
     }
    ],
    "criticas": "Crítica: otimismo mestiço próximo à democracia racial; ênfase assimilacionista; imprecisão histórica em generalizações. Contudo, é fonte primária de projeto nacional.",
@@ -884,13 +936,15 @@
      "titulo": "Pedagogia do oprimido (manuscrito 1968; ed. inglesa 1970; ed. brasileira 1974)",
      "ano": 1968,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Datas do título (manuscrito 1968; ed. inglesa 1970; ed. brasileira 1974) não conferidas: o Open Library agrega edições desde 1967. Mantido false."
     },
     {
      "titulo": "Educação como prática da liberdade",
      "ano": 1967,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Sem registro conferido nesta rodada."
     }
    ],
    "ideia_central": "Educação como prática dialógica de conscientização, contra a educação bancária; alfabetização lê a palavra e o mundo. Reconhece o saber popular como ponto de partida.",
@@ -907,7 +961,8 @@
      "descricao": "Programa de alfabetização de adultos, Angicos (RN), 1963: ficou famoso e foi interrompido pelo golpe de 1964; resultados não são mensurados pelos padrões atuais.",
      "fonte": "Memória",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Resumos de busca dão Angicos como iniciado em 18/1/1963 e encerrado em 2/4/1963, com cerca de 300 alunos, e o plano nacional interrompido pelo golpe de 1964; o PDF baixado não era legível. Mantido false."
     }
    ],
    "criticas": "Críticas: pouca evidência experimental em larga escala; risco de dirigismo do educador; debates sobre 'doutrinação' e sobre fidelidade da prática ao método.",
@@ -932,14 +987,16 @@
     {
      "titulo": "Geografia da fome",
      "ano": 1946,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL1002886W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). \"Geografia da fome; a fome no Brasil\", O Cruzeiro, 1946. Wikipedia lida confere (1946, O Cruzeiro)."
     },
     {
      "titulo": "Geopolítica da fome",
      "ano": 1951,
-     "url": "",
-     "verificado": false
+     "url": "https://en.wikipedia.org/wiki/Josu%C3%A9_de_Castro",
+     "verificado": true,
+     "nota": "Wikipedia lida: Geopolítica da Fome, 1951, Casa do Estudante do Brasil (Rio). O Open Library mostra edições de 1955 e 1957; um artigo cita edição anterior em 1949, não confirmada."
     }
    ],
    "ideia_central": "A fome não é fatalidade natural mas produto de estrutura social e econômica (monocultura, latifúndio, salário baixo); descreve a fome oculta de micronutrientes. Foi presidente do Conselho da FAO.",
@@ -955,7 +1012,8 @@
      "descricao": "Brasil saiu do Mapa da Fome da FAO em 2014 e voltou em 2018-2020; nova saída em 2025 (SOFI).",
      "fonte": "FATOR_HUMANO.md (resumos de busca)",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Notícias de 28/7/2025 (JB, O Povo e outras) relatam a saída do Brasil do Mapa da Fome no SOFI 2025 (média 2022-24, subalimentação abaixo de 2,5%), com a primeira saída em 2014 e o retorno no triênio 2018-2020. Relatório SOFI não aberto. Mantido false."
     }
    ],
    "criticas": "Algumas teses nutricionais (proteína) foram superadas; descreve causa estrutural sem teoria de transição.",
@@ -982,14 +1040,16 @@
     {
      "titulo": "Formação econômica do Brasil",
      "ano": 1959,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL2305472W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Primeira edição 1959 (Editora Fundo de Cultura)."
     },
     {
      "titulo": "O mito do desenvolvimento econômico",
      "ano": 1974,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL2305449W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Paz e Terra, 1974."
     }
    ],
    "ideia_central": "Subdesenvolvimento como estrutura histórica, não etapa; propõe que o padrão de consumo das elites periféricas copia o centro e bloqueia desenvolvimento. Em 1974 argumentou que generalizar o padrão de consumo do centro é inviável pelos limites do planeta.",
@@ -1006,7 +1066,8 @@
      "descricao": "O mito do desenvolvimento econômico (1974) antecede em poucos anos os debates sobre limites ao crescimento e conecta-se a Meadows.",
      "fonte": "Memória",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Interpretação do projeto (nexo com o Clube de Roma/Meadows); só o ano de 1974 foi conferido, no catálogo da obra."
     }
    ],
    "criticas": "Teoria estruturalista com limites empíricos (Coreia e China divergiram); menos micro-evidência.",
@@ -1037,20 +1098,23 @@
     {
      "titulo": "Os pronomes cosmológicos e o perspectivismo ameríndio, Mana 2(2)",
      "ano": 1996,
-     "url": "",
-     "verificado": false
+     "url": "https://doi.org/10.1590/s0104-93131996000200005",
+     "verificado": true,
+     "nota": "Crossref lido: Mana 2(2):115-144, 1996."
     },
     {
      "titulo": "A inconstância da alma selvagem, Cosac Naify",
      "ano": 2002,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL3423507W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Título completo: \"A inconstância da alma selvagem e outros ensaios de antropologia\", Cosac & Naify, 2002."
     },
     {
      "titulo": "Métaphysiques cannibales, PUF",
      "ano": 2009,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL19887574W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). PUF, 2009."
     }
    ],
    "ideia_central": "Em cosmologias ameríndias, humanidade é a posição de sujeito comum (todos os seres veem a si como humanos) e os corpos diferem: multinaturalismo contra o multiculturalismo ocidental. Convida a levar a sério o pensamento indígena como filosofia.",
@@ -1081,14 +1145,16 @@
     {
      "titulo": "Par-delà nature et culture, Gallimard",
      "ano": 2005,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL3258956W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Gallimard (NRF), 2005."
     },
     {
      "titulo": "Beyond Nature and Culture, University of Chicago Press",
      "ano": 2013,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL20375051W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). University of Chicago Press, 2013."
     }
    ],
    "ideia_central": "Quatro ontologias (naturalismo, animismo, totemismo, analogismo) como modos de distribuir continuidades e descontinuidades entre humanos e não humanos; o naturalismo ocidental é uma entre outras.",
@@ -1118,8 +1184,9 @@
     {
      "titulo": "How Forests Think: Toward an Anthropology Beyond the Human, University of California Press",
      "ano": 2013,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL21542079W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). University of California Press, 2013."
     }
    ],
    "ideia_central": "Antropologia além do humano: os seres vivos interpretam signos (semiose peirceana); a floresta 'pensa' em sentido semiótico, e o humano é uma forma de vida entre outras.",
@@ -1149,13 +1216,15 @@
      "titulo": "La Société contre l'État, Minuit",
      "ano": 1974,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Open Library traz o ano \"1900\" (erro de catálogo); 1974 (Minuit) não conferido. Mantido false."
     },
     {
      "titulo": "Archéologie de la violence: la guerre dans les sociétés primitives",
      "ano": 1980,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Texto publicado primeiro em revista (Libre, 1977) e depois em livro; ano de 1980 não conferido. Mantido false."
     }
    ],
    "ideia_central": "Sociedades sem Estado não são sociedades 'incompletas': elas mantêm dispositivos que impedem o surgimento de poder coercitivo separado (chefe sem poder, guerra permanente, dádiva em direção ao chefe). Pergunta: por que o Estado surgiu, e não por que não surgiu?",
@@ -1171,7 +1240,8 @@
      "descricao": "Chefes tupi-guarani e outras chefias sem coerção, descritos em Chroniques des Indiens Guayaki (1972) e La Société contre l'État (1974).",
      "fonte": "Memória",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Chronique des Indiens Guayaki: Plon, coleção Terre humaine, 1972 (Wikipedia FR lida); a descrição das chefias sem coerção nos dois livros não foi relida."
     }
    ],
    "criticas": "Críticas: generalização a partir de poucas etnografias (Guayaki, Guarani); arqueologia mostra chefias hierárquicas na Amazônia (Heckenberger) e Estados em outros lugares; Descola e Viveiros de Castro dialogam; Graeber & Wengrow o usam com ressalva. Clastres morreu cedo (1977), obra inacabada.",
@@ -1193,20 +1263,23 @@
     {
      "titulo": "Seeing Like a State, Yale University Press",
      "ano": 1998,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL26241985W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Yale University Press, 1998 (Wikipedia lida: março de 1998)."
     },
     {
      "titulo": "The Art of Not Being Governed, Yale University Press",
      "ano": 2009,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL2692034W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Yale University Press, 2009."
     },
     {
      "titulo": "Against the Grain, Yale University Press",
      "ano": 2017,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/search?q=against+the+grain+james+c+scott",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Yale University Press, 2017."
     }
    ],
    "ideia_central": "O Estado exige legibilidade (cadastro, nome fixo, monocultura) e projetos de alto modernismo falham quando ignoram a metis (saber prático local). Zomia, terras altas do sudeste asiático, seria zona de fuga do Estado; o Estado inicial dependia de grãos fáceis de contar e tributar.",
@@ -1220,10 +1293,11 @@
    "uso_operacional": "Teste de desenho: antes de uma política, perguntar o que o Estado precisa ler (cadastro, CAR) e o que o ato de ler destrói. Aplica-se a REDD+, CAR e regularização.",
    "casos_e_evidencias": [
     {
-     "descricao": "Brasília, a ação de planejamento urbano do alto modernismo, é um dos casos de Scott; Tanzânia (ujamaa) e a Rússia (kolkhoz) também.",
-     "fonte": "Memória",
-     "url": "",
-     "verificado": false
+     "descricao": "Seeing Like a State discute, entre os casos de alto modernismo, Brasília (cidade planejada), a \"villagização\" forçada na Tanzânia dos anos 1970 (ujamaa) e a coletivização soviética.",
+     "fonte": "Wikipedia (verbete do livro) lida",
+     "url": "https://en.wikipedia.org/wiki/Seeing_Like_a_State",
+     "verificado": true,
+     "nota": "Lido o verbete, não os capítulos; \"kolkhoz\" não é citado no verbete (coletivização soviética sim)."
     }
    ],
    "criticas": "Críticas: Zomia é generalização (Michaud 2010; Jonsson); tendência anti-Estado ignora o papel do Estado na proteção social; Scott admite que o Estado também é fonte de bens públicos. Against the Grain tem estimativas contestadas (arqueólogos).",
@@ -1248,14 +1322,16 @@
     {
      "titulo": "The Dawn of Everything: A New History of Humanity, Farrar, Straus and Giroux / Allen Lane",
      "ano": 2021,
-     "url": "https://leiterreports.com/2022/01/30/do-graeber-and-wengrow-know-what-theyre-talking-about-in-the-dawn-of-everything/",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL24663287W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Wikipedia lida: 1a edição em 19/10/2021 (Allen Lane); FSG nos EUA. O link anterior (blog Leiter Reports) é crítica, não ficha do livro."
     },
     {
      "titulo": "Graeber, D. Debt: The First 5,000 Years, Melville House",
      "ano": 2011,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Open Library não retornou o registro; Melville House, 2011 não conferido. Mantido false."
     }
    ],
    "ideia_central": "Humanos experimentaram formas políticas variadas (sazonais, igualitárias e hierárquicas) e tinham liberdades de desobedecer, de migrar e de recompor a ordem social; a história não é uma escada rumo a hierarquia. Critica a narrativa 'agricultura, propriedade, Estado'.",
@@ -1269,10 +1345,11 @@
    "uso_operacional": "Amplia o espaço de possíveis para o desenho: instituições são escolhas, e a reversibilidade e a saída são parte da liberdade.",
    "casos_e_evidencias": [
     {
-     "descricao": "Críticas recebidas: Birch e Kotsakis alertam para casos selecionados; M. Smith e I. Morris pedem quadros transculturais e quantitativos; Nakamura aponta que se reproduz uma nova grande narrativa. Em geral, elogiado como libertador e criticado pela evidência seletiva.",
-     "fonte": "Resumo de busca (revisões)",
-     "url": "https://leiterreports.com/2022/01/30/do-graeber-and-wengrow-know-what-theyre-talking-about-in-the-dawn-of-everything/",
-     "verificado": false
+     "descricao": "Recepção de The Dawn of Everything: elogiada como libertadora (p. ex. Erle Ellis, Science) e criticada por evidência selecionada (Feinman; Appiah; Bell; Michael E. Smith sobre problemas de evidência e argumentação); Scheidel aponta falta de perspectiva materialista; Ian Morris repete preocupações metodológicas, mas chama o livro de pesquisa cuidadosa e original.",
+     "fonte": "Wikipedia (verbete do livro) e Leiter Reports lidos; resenhas originais não abertas",
+     "url": "https://en.wikipedia.org/wiki/The_Dawn_of_Everything",
+     "verificado": false,
+     "nota": "Correção: Birch, Kotsakis e Nakamura (citados antes) não aparecem com críticas nas páginas lidas (Birch só consta nas referências); não foram mantidos. Atribuições vêm do verbete, não das resenhas: mantido false."
     }
    ],
    "criticas": "Evidência seletiva, tom retórico e demonstrações exageradas sobre a 'crítica indígena' ter inspirado o Iluminismo (Kondiaronk, atribuição contestada); falta ligação entre casos igualitários e como manter-os em escala.",
@@ -1293,7 +1370,8 @@
      "titulo": "Colonialidad del poder, eurocentrismo y América Latina (in Lander, E. org., La colonialidad del saber, CLACSO)",
      "ano": 2000,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Capítulo em Lander (org.), CLACSO, 2000: página da CLACSO não aberta nesta rodada."
     }
    ],
    "ideia_central": "A 'raça' como princípio de classificação social criado na conquista da América estruturou o capitalismo mundial; a colonialidade sobrevive à descolonização formal em poder, saber e ser.",
@@ -1327,13 +1405,15 @@
      "titulo": "1492: El encubrimiento del Otro, Nueva Utopía",
      "ano": 1992,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Fontes divergem: Madrid, Nueva Utopía, 1992 (resenha de 1995) x La Paz, Plural, 1994. Edição e ano não resolvidos. Mantido false."
     },
     {
      "titulo": "Filosofía de la liberación",
      "ano": 1977,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Open Library não traz o registro de 1977 (Edicol, México); não conferido."
     }
    ],
    "ideia_central": "Modernidade começa em 1492 com o encobrimento do Outro; filosofia da libertação parte do ponto de vista do oprimido; transmodernidade como projeto de diálogo entre culturas.",
@@ -1362,14 +1442,16 @@
     {
      "titulo": "Encountering Development, Princeton University Press",
      "ano": 1995,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL3486963W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Princeton University Press, 1995 (reimpressão 2012)."
     },
     {
      "titulo": "Designs for the Pluriverse, Duke University Press",
      "ano": 2018,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL17890251W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Duke University Press, 2018."
     }
    ],
    "ideia_central": "O desenvolvimento é um regime discursivo que produziu o 'Terceiro Mundo'; propõe pós-desenvolvimento e design para o pluriverso (um mundo onde caibam muitos mundos), a partir de comunidades afro do Pacífico colombiano (PCN).",
@@ -1383,10 +1465,11 @@
    "uso_operacional": "Fornece método de desenho participativo e de territórios de vida (Pacífico colombiano).",
    "casos_e_evidencias": [
     {
-     "descricao": "Estudo do PCN em Anchoring Hope; Ley 70 de 1993 da Colômbia reconhece territórios coletivos afrocolombianos.",
+     "descricao": "Ley 70 de 1993 (Colômbia) reconhece a propriedade coletiva de comunidades negras que ocupam terras baldias rurais ribeirinhas da Bacia do Pacífico, em desenvolvimento do art. transitório 55 da Constituição de 1991.",
      "fonte": "Memória, Ley 70 não conferida",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Texto da Rama Judicial retornou 403; conteúdo visto em resumo de busca. Removida a menção a \"Anchoring Hope\" (não localizada). Mantido false."
     }
    ],
    "criticas": "Crítica: pós-desenvolvimento descarta ganhos materiais (saúde, expectativa de vida); linguagem difícil; difícil escalar.",
@@ -1406,14 +1489,16 @@
     {
      "titulo": "Extractivismos: ecología, economía y política de un modo de entender el desarrollo y la Naturaleza, CEDIB/CLAES",
      "ano": 2015,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL43398085W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). CEDIB (Cochabamba), 2015."
     },
     {
      "titulo": "Buen Vivir: today's tomorrow, Development 54(4)",
      "ano": 2011,
-     "url": "",
-     "verificado": false
+     "url": "https://doi.org/10.1057/dev.2011.86",
+     "verificado": true,
+     "nota": "Crossref lido: Development 54(4), 2011, p. 441-447."
     }
    ],
    "ideia_central": "Distingue Buen Vivir como alternativa ao desenvolvimento de seus usos oficiais; o 'neoextrativismo progressista' latino-americano usa renda extrativa para política social sem mudar o padrão. Propõe 'extrativismo indispensável' e transições.",
@@ -1429,7 +1514,8 @@
      "descricao": "Brasil: commodities na pauta exportadora; dependência a poucos produtos e destinos documentada em potenciais_brasil.json (armadilhas).",
      "fonte": "Dados do projeto",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Dado interno do projeto (potenciais_brasil.json); não é fonte externa. Conferir o arquivo de origem, não esta linha."
     }
    ],
    "criticas": "Posição ecologista pode subestimar custo social de transição em países pobres; propostas de transição pouco detalhadas.",
@@ -1459,19 +1545,22 @@
      "titulo": "El Buen Vivir: sumak kawsay, una oportunidad para imaginar otros mundos, Icaria/Abya Yala",
      "ano": 2013,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Resenhas citam Abya-Yala 2012 e Icaria (Barcelona) 2013, 190 p.; registro não aberto. Mantido false."
     },
     {
      "titulo": "O Bem Viver: uma oportunidade para imaginar outros mundos, Autonomia Literária/Elefante",
      "ano": 2016,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Open Library traz \"Bem Viver, O\", Autonomia Literária, 2018; o par Autonomia Literária/Elefante 2016 não foi conferido. Mantido false."
     },
     {
-     "titulo": "A maldição da abundância (La maldición de la abundancia), CEDA/Abya Yala",
+     "titulo": "A maldição da abundância (La maldición de la abundancia), Abya-Yala/Comité Ecuménico de Proyectos",
      "ano": 2009,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL15889646W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Correção: o catálogo lista Abya-Yala e Comité Ecuménico de Proyectos (o \"CEDA\" do texto anterior não aparece)."
     }
    ],
    "ideia_central": "Bem Viver como projeto civilizatório plural e crítico do desenvolvimento; a 'maldição da abundância' descreve a renda de recursos naturais como armadilha; propõe pós-extrativismo e decrescimento seletivo no Norte.",
@@ -1484,10 +1573,11 @@
    "uso_operacional": "Fonte do desenho constituinte do Equador; mostra a distância entre texto constitucional e política: em 2013 o governo encerrou a iniciativa Yasuní-ITT.",
    "casos_e_evidencias": [
     {
-     "descricao": "Acosta participou do desenho de Yasuní-ITT e de 2008; rompeu com o governo Correa depois da Constituinte.",
-     "fonte": "Memória, não conferido",
-     "url": "",
-     "verificado": false
+     "descricao": "Acosta, presidente da Assembleia Constituinte do Equador, apresentou renúncia irrevogável ao cargo em 24/06/2008, em plena Constituinte (antes da conclusão da Constituição de 2008); depois criticou o governo Correa sobre a iniciativa Yasuní-ITT.",
+     "fonte": "El Universo (24/6/2008) lido; demais pontos em resumos de busca",
+     "url": "https://www.eluniverso.com/2008/06/24/0001/8/DBAF90728AF34B35A1D745CC8CFB988B.html",
+     "verificado": true,
+     "nota": "Correção: o texto anterior dizia que ele \"rompeu com o governo Correa depois da Constituinte\"; a renúncia ocorreu durante ela. A página lida não explica os motivos (resumos de busca falam de divergência sobre prazos e procedimento). A crítica posterior ao governo sobre o Yasuní-ITT e o cargo de ministro de Energia e Minas em 2007 vêm só de resumos de busca."
     }
    ],
    "criticas": "Proposta macro sem plano fiscal de transição crível; risco de que sem renda extrativa o Estado perca capacidade distributiva.",
@@ -1513,14 +1603,16 @@
     {
      "titulo": "Ch'ixinakax utxiwa: una reflexión sobre prácticas y discursos descolonizadores, Tinta Limón",
      "ano": 2010,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL21215168W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Tinta Limón, 2010."
     },
     {
      "titulo": "Un mundo ch'ixi es posible: ensayos desde un presente en crisis, Tinta Limón",
      "ano": 2018,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL20119808W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Tinta Limón, 2018."
     }
    ],
    "ideia_central": "Ch'ixi: coexistência de opostos sem síntese (mistura manchada, como o cinza da cor aimará); crítica dura do 'discurso decolonial' acadêmico e do Estado plurinacional boliviano como decoração de poder extrativo. Propõe sociologia da imagem e práticas descolonizadoras concretas.",
@@ -1533,10 +1625,11 @@
    "uso_operacional": "Teste de realidade: toda política 'decolonial' deve mostrar mudança material (terra, trabalho, linguagem), não só nome.",
    "casos_e_evidencias": [
     {
-     "descricao": "Rivera critica o governo boliviano por TIPNIS e por 'colonialismo interno' mantido.",
-     "fonte": "Memória",
-     "url": "",
-     "verificado": false
+     "descricao": "Em set/2011 Rivera Cusicanqui criticou publicamente o governo Morales por reprimir a marcha do TIPNIS enquanto dizia buscar diálogo.",
+     "fonte": "eju.tv (09/2011) lida",
+     "url": "https://eju.tv/2011/09/exmasistas-e-intelectuales-reprochan-soberbia-del-rgimen-de-evo-y-garca-linera/",
+     "verificado": true,
+     "nota": "Correção: a tese do 'colonialismo interno mantido' (livro Mito y desarrollo en Bolivia, 2014) não foi lida e foi retirada do texto."
     }
    ],
    "criticas": "Polêmica e fragmentada; ceticismo deixa pouco programa institucional.",
@@ -1559,13 +1652,15 @@
      "titulo": "Epistemologias do Sul (com M. P. Meneses, orgs.), Almedina",
      "ano": 2009,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Almedina/CES, 2009: não conferido (sem registro no Open Library)."
     },
     {
-     "titulo": "Pela mão de Alice: o social e o político na pós-modernidade, Cortez",
-     "ano": 1995,
-     "url": "",
-     "verificado": false
+     "titulo": "Pela mão de Alice: o social e o político na pós-modernidade, Afrontamento (Porto)",
+     "ano": 1994,
+     "url": "https://openlibrary.org/works/OL1644288W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Correção: o registro lido traz Afrontamento, 1994; a edição brasileira (Cortez, 1995) citada antes não foi conferida."
     }
    ],
    "ideia_central": "Epistemologias do Sul: sociologia das ausências e das emergências; ecologia de saberes (diálogo entre saberes científicos e não científicos); tradução intercultural como método. Defende democracia de alta intensidade.",
@@ -1579,10 +1674,11 @@
    "uso_operacional": "Estrutura a ideia de pluralismo epistêmico na avaliação de políticas (comitês mistos, saberes tradicionais em licenciamento).",
    "casos_e_evidencias": [
     {
-     "descricao": "Acusações de má conduta sexual contra o autor circularam na imprensa e em obra coletiva (2023); não verifiquei o estado dos processos e não faço juízo sobre elas.",
+     "descricao": "Em 2023 o Centro de Estudos Sociais (Coimbra) suspendeu o autor e outro professor após denúncias de três ex-investigadoras publicadas em capítulo de obra coletiva (Routledge); ambos negaram. Este projeto não verificou o estado dos processos e não faz juízo sobre as alegações.",
      "fonte": "Memória, não conferido",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Reescrito em termos factuais (CONTRIBUTING, regra 6). Fatos vistos só em resumos de busca (rr.pt, Observador, DN); desfecho não verificado. Mantido false."
     }
    ],
    "criticas": "Críticas epistemológicas (relativismo, uso político-militante, vagueza do 'Sul'); polêmicas éticas pessoais, que não anulam a obra mas exigem cautela na citação e na dependência de uma só fonte.",
@@ -1603,19 +1699,22 @@
      "titulo": "Über den Prozess der Zivilisation (Der Prozess der Zivilisation, 2 vols., Haus zum Falken, Basileia)",
      "ano": 1939,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Basel, Haus zum Falken, 1939, 2 vols. aparece em fichas de livreiro/biblioteca vistas só por resumo; o Open Library traz 1937 (provável erro de catálogo). Mantido false."
     },
     {
      "titulo": "Die höfische Gesellschaft (Habilitationsschrift de 1933)",
      "ano": 1969,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL505121W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Luchterhand, 1969 (a Habilitationsschrift de 1933 não foi conferida)."
     },
     {
      "titulo": "Elias, N.; Scotson, J. The Established and the Outsiders (Winston Parva)",
      "ano": 1965,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL10604350W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Frank Cass, 1965 (Elias e Scotson)."
     }
    ],
    "ideia_central": "Dois processos entrelaçados: sociogênese do Estado (competição entre senhores leva a monopólio da violência física e da tributação, 'mecanismo do monopólio') e psicogênese (aumento da interdependência produz maior autocontrole e vergonha, constrangimento externo vira autocoerção). Em 'Os estabelecidos e os outsiders', grupos estabelecidos estigmatizam recém-chegados pela diferença de poder e coesão, não por traços reais.",
@@ -1633,16 +1732,18 @@
    "uso_operacional": "Traduz-se em indicador de capacidade estatal: fração do território com monopólio legítimo (homicídios, controle por facção), arrecadação, confiança. Em 'estabelecidos', mede estigma territorial (acesso a serviços por bairro e raça).",
    "casos_e_evidencias": [
     {
-     "descricao": "Homicídios no Brasil: 45.747 em 2023, risco 2,7 vezes maior para negros (FATOR_HUMANO.md).",
-     "fonte": "FATOR_HUMANO.md do projeto",
-     "url": "",
-     "verificado": false
+     "descricao": "Homicídios no Brasil: cerca de 45,7 mil em 2023; risco 2,7 vezes maior para negros do que para não negros (Atlas da Violência 2025).",
+     "fonte": "Brasil de Fato (12/05/2025) lido, citando o Atlas da Violência (Ipea/FBSP)",
+     "url": "https://www.brasildefato.com.br/2025/05/12/risco-de-negro-ser-vitima-de-homicidio-e-27-vezes-maior-no-brasil/",
+     "verificado": true,
+     "nota": "O valor exato 45.747 e 35.213 vítimas negras vêm de resumo de busca (Poder360/Agência Brasil); a página lida diz \"45,7 mil\". Atlas em si não aberto."
     },
     {
-     "descricao": "Elias foi relido para tendências de longo prazo de redução de homicídios na Europa (Eisner 2003, Crime and Justice 30); a série de longo prazo tem críticas de método.",
-     "fonte": "Memória; Eisner 2003 não conferido",
-     "url": "",
-     "verificado": false
+     "descricao": "Eisner (2003, Crime and Justice 30:83-142) documenta queda marcante da violência letal na Europa entre os séculos XVI e XX, com queda desproporcional dos homicídios entre elites e dos conflitos masculinos em público; lista o processo civilizador como uma das explicações, junto com Estado, Reforma e individualismo, e trata a teorização como em grande parte post hoc; aponta problemas de dados (França e Espanha quase ausentes).",
+     "fonte": "Resumo (NCJRS/OJP) lido; Crossref lido",
+     "url": "https://doi.org/10.1086/652229",
+     "verificado": true,
+     "nota": "O resumo do OJP não cita Elias pelo nome; a ligação é pelo termo \"processo civilizador\"."
     }
    ],
    "criticas": "Críticas: (1) eurocentrismo e teleologia (Duerr, Der Mythos vom Zivilisationsprozess, 1988-2002: nudez, vergonha e violência não crescem linearmente; o debate 'Elias-Duerr'); (2) dependência de manuais de etiqueta como fonte; (3) a violência 'civilizada' do Estado (colonialismo, guerras mundiais) fica sem explicação, e Elias teve de falar em descivilização (Studien über die Deutschen, 1989); (4) Clastres e Graeber negam o Estado como progresso necessário. Pinker (2011) usou Elias de forma pública e foi criticado por Ferguson e Fry.",
@@ -1673,7 +1774,8 @@
      "titulo": "Nacktheit und Scham (Der Mythos vom Zivilisationsprozess, vol. 1), Suhrkamp",
      "ano": 1988,
      "url": "https://www.perlentaucher.de/buch/hans-peter-duerr/die-tatsachen-des-lebens-der-mythos-vom-zivilisationsprozess-band-5.html",
-     "verificado": false
+     "verificado": true,
+     "nota": "Perlentaucher lido: a série \"Der Mythos vom Zivilisationsprozess\" (5 vols., Suhrkamp) começa em 1988; vol. 5 saiu em 2002. Título do vol. 1 e editora (Suhrkamp, 1988, 1a ed.) vistos em registros de biblioteca indicados pela busca."
     }
    ],
    "ideia_central": "Série de volumes que sustenta que as evidências históricas e etnográficas desmentem a tese de Elias sobre vergonha e controle de pulsões; alerta para a projeção de uma 'imagem distorcida' de culturas passadas e alheias.",
@@ -1685,10 +1787,11 @@
    "uso_operacional": "Dispositivo metodológico: antes de usar Elias como teoria, exigir evidência local, e evitar escalas morais entre povos.",
    "casos_e_evidencias": [
     {
-     "descricao": "Segundo a literatura secundária, Duerr encontrou pouco apoio nas ciências sociais, mas deu início ao debate Elias-Duerr.",
-     "fonte": "Resumo de busca",
+     "descricao": "Duerr (Der Mythos vom Zivilisationsprozess, 5 vols., 1988-2002) critica a tese de Elias; as resenhas divergem (NZZ elogia; a FR diz que ele refuta Elias de modo convincente; a SZ descreve disputa acadêmica em curso desde 1988).",
+     "fonte": "Perlentaucher lido (resenhas de NZZ, FR e SZ)",
      "url": "https://www.perlentaucher.de/buch/hans-peter-duerr/die-tatsachen-des-lebens-der-mythos-vom-zivilisationsprozess-band-5.html",
-     "verificado": false
+     "verificado": true,
+     "nota": "Correção: o texto anterior dizia que Duerr \"encontrou pouco apoio nas ciências sociais\"; a página lida não diz isso e traz resenhas favoráveis. Defensores de Elias não estão representados na página: leitura rival a acrescentar."
     }
    ],
    "criticas": "Duerr foi criticado por tratar afirmações de Elias de modo literal e por usar anedotas; a refutação definitiva é debatida.",
@@ -1709,7 +1812,8 @@
      "titulo": "Essai sur le don: forme et raison de l'échange dans les sociétés archaïques, L'Année sociologique",
      "ano": 1925,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Publicado em L'Année sociologique, n.s., t. 1 (1923-24; saiu 1925): ano não conferido em fonte aberta nesta rodada."
     }
    ],
    "ideia_central": "A dádiva é um 'fato social total' regido por três obrigações: dar, receber e retribuir; liga pessoas e grupos, e cria hierarquia e vínculo. A troca arcaica não é mercado mal feito, é outro sistema moral.",
@@ -1726,7 +1830,8 @@
      "descricao": "O mutirão e o puxirum, bancos comunitários e consórcios cooperativos brasileiros operam por reciprocidade.",
      "fonte": "Memória; ver P01",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Afirmação de síntese do projeto sobre mutirão/puxirum e bancos comunitários; sem fonte externa nesta rodada."
     }
    ],
    "criticas": "Mauss lê fontes de segunda mão; a leitura de 'hau' é contestada (Sahlins, Lévi-Strauss, Testart); reciprocidade pode ser coerção disfarçada, e a dádiva produz dívida e dominação (Graeber).",
@@ -1750,14 +1855,16 @@
     {
      "titulo": "The Great Transformation, Farrar & Rinehart",
      "ano": 1944,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL3617884W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Farrar & Rinehart, 1944."
     },
     {
      "titulo": "Trade and Market in the Early Empires (com Arensberg e Pearson)",
      "ano": 1957,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL3617893W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Free Press, 1957 (Polanyi, Arensberg, Pearson)."
     }
    ],
    "ideia_central": "A economia está embutida (embedded) em relações sociais; o mercado autorregulado exige transformar terra, trabalho e dinheiro em mercadorias fictícias, e a sociedade reage com um 'duplo movimento' de proteção.",
@@ -1773,7 +1880,8 @@
      "descricao": "Polanyi serve de chave para ler o ciclo 'recessão-ajuste-polarização' como duplo movimento (hipótese, não demonstração).",
      "fonte": "Interpretação do projeto",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Interpretação editorial do projeto (hipótese), não fato verificável em fonte externa; não deve virar true."
     }
    ],
    "criticas": "Hipótese de um mercado 'desembutido' no século XIX é contestada (Block); tendência a ver proteção como sempre benigna, quando pode ser reacionária.",
@@ -1803,13 +1911,15 @@
      "titulo": "Governing the Commons: The Evolution of Institutions for Collective Action, Cambridge University Press",
      "ano": 1990,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "O resumo de Cox et al. (lido) confirma que Ostrom propôs oito princípios em 1990; editora (CUP) não conferida."
     },
     {
      "titulo": "Cox, M.; Arnold, G.; Villamayor Tomás, S. 'A review of design principles for community-based natural resource management', Ecology and Society 15(4):38",
      "ano": 2010,
-     "url": "https://www.lincolninst.edu/pubs/dl/1707_925_Cox%20Final.pdf",
-     "verificado": false
+     "url": "https://doi.org/10.5751/es-03704-150438",
+     "verificado": true,
+     "nota": "Crossref lido: Ecology and Society 15(4), 2010, art. 38."
     }
    ],
    "ideia_central": "Comunidades podem gerir bens comuns sem Estado nem mercado se tiverem regras apropriadas. Oito princípios de desenho: limites claros; regras adaptadas ao local; escolha coletiva; monitoramento; sanções graduadas; resolução de conflitos barata; reconhecimento externo do direito de se organizar; governança aninhada.",
@@ -1824,16 +1934,18 @@
    "uso_operacional": "Check-list para desenhar governança de TI, resex, bacia, pesqueiro e pasto; mostra que o monitoramento local é peça crítica.",
    "casos_e_evidencias": [
     {
-     "descricao": "Cox, Arnold e Villamayor (2010) revisaram 91 estudos: os princípios têm bom apoio empírico e foram reformulados em dez.",
-     "fonte": "Resumo de busca (Lincoln Institute; Ecology and Society)",
-     "url": "https://www.lincolninst.edu/pubs/dl/1707_925_Cox%20Final.pdf",
-     "verificado": false
+     "descricao": "Cox, Arnold e Villamayor Tomás (2010) analisaram 91 estudos que avaliaram os oito princípios de projeto de Ostrom (1990), concluíram que os princípios têm bom apoio empírico e propuseram uma reformulação.",
+     "fonte": "Resumo do artigo lido (Semantic Scholar, Crossref); PDF do Lincoln Institute indisponível (404)",
+     "url": "https://doi.org/10.5751/es-03704-150438",
+     "verificado": true,
+     "nota": "Correção: \"reformuladas em dez\" não aparece no resumo; número de princípios da reformulação não confirmado."
     },
     {
      "descricao": "Exemplos: pastos alpinos de Törbel (Netting), zanjeras das Filipinas, huerta de Valência (Tribunal de las Aguas).",
      "fonte": "Memória, via Ostrom 1990",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Exemplos de Ostrom (1990), cap. 3 (Törbel, zanjeras, Valência): livro não aberto."
     }
    ],
    "criticas": "Críticas: os casos de sucesso são pequenos, homogêneos e de longa duração (Agrawal 2001); escala, heterogeneidade e mercado externo mudam o resultado; o Estado pode destruir ou apoiar; a parte de 'sem poder' fica de fora (Cleaver).",
@@ -1863,20 +1975,23 @@
     {
      "titulo": "Commodities and Capabilities, North-Holland",
      "ano": 1985,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL8006981W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). North-Holland, 1985."
     },
     {
      "titulo": "Development as Freedom, Knopf",
      "ano": 1999,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL116534W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Knopf, 1999."
     },
     {
      "titulo": "The Idea of Justice, Harvard University Press",
      "ano": 2009,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL13770925W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Belknap/Harvard University Press, 2009."
     }
    ],
    "ideia_central": "Bem-estar deve ser avaliado pelo que as pessoas podem ser e fazer (capacidades e funcionamentos), e não só por renda ou utilidade; desenvolvimento é expansão de liberdades reais. Inspirou o IDH (1990, com Mahbub ul Haq).",
@@ -1893,7 +2008,8 @@
      "descricao": "IDH (PNUD, 1990) incorpora saúde, educação e renda; IDH municipal do Brasil existe desde o Atlas do Desenvolvimento Humano.",
      "fonte": "Memória",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "A busca confirma que o 1o Relatório de Desenvolvimento Humano (PNUD, 1990) introduziu o IDH (expectativa de vida, educação, renda) e que o Atlas do Desenvolvimento Humano (PNUD/Ipea/FJP) publica o IDHM com base nos censos de 1991, 2000 e 2010; páginas não abertas."
     }
    ],
    "criticas": "Críticas: sem lista de capacidades (Nussbaum propõe a sua), sem pesos; difícil operacionalizar; individualista (Deneulin sobre capacidades coletivas).",
@@ -1921,14 +2037,16 @@
     {
      "titulo": "Doughnut Economics: Seven Ways to Think Like a 21st-Century Economist, Random House",
      "ano": 2017,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL19651110W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Random House Business Books, 2017 (Chelsea Green nos EUA)."
     },
     {
-     "titulo": "O'Neill, D. et al. 'A good life for all within planetary means', Nature Sustainability 1:88-95",
+     "titulo": "O'Neill, D. et al. 'A good life for all within planetary boundaries', Nature Sustainability 1:88-95",
      "ano": 2018,
-     "url": "",
-     "verificado": false
+     "url": "https://doi.org/10.1038/s41893-018-0021-4",
+     "verificado": true,
+     "nota": "Crossref lido. Correção: o título é \"...within planetary boundaries\", não \"means\"."
     }
    ],
    "ideia_central": "Mirar um espaço seguro e justo: um piso social (12 dimensões) e um teto ecológico (limites planetários); economia deve prosperar entre os dois, sendo agnóstica quanto ao crescimento.",
@@ -1942,10 +2060,10 @@
    "uso_operacional": "Painel de indicadores (piso e teto) por território; Amsterdã adotou o donut como estratégia da cidade em 2020 (memória).",
    "casos_e_evidencias": [
     {
-     "descricao": "O'Neill et al. (2018) mostram que nenhum país atende às necessidades básicas de seus cidadãos dentro dos limites planetários.",
-     "fonte": "Memória",
-     "url": "",
-     "verificado": false
+     "descricao": "O'Neill et al. (2018) encontram que nenhum país atende às necessidades básicas de seus cidadãos em nível de uso de recursos globalmente sustentável; necessidades físicas (nutrição, saneamento, eletricidade, fim da pobreza extrema) poderiam ser atendidas sem exceder os limites, enquanto metas qualitativas (alta satisfação de vida) exigiriam 2 a 6 vezes o uso sustentável.",
+     "fonte": "Resumo lido (repositório White Rose, Universidade de Leeds)",
+     "url": "https://eprints.whiterose.ac.uk/127264/",
+     "verificado": true
     }
    ],
    "criticas": "Crítica: o donut é metáfora, sem mecanismo de trade-offs e de preços; os dados locais são incompletos; 'agnosticismo' esconde escolha de política.",
@@ -1972,14 +2090,16 @@
     {
      "titulo": "Steady-State Economics, W. H. Freeman",
      "ano": 1977,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL2006601W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). W. H. Freeman, 1977."
     },
     {
      "titulo": "Beyond Growth: The Economics of Sustainable Development, Beacon Press",
      "ano": 1996,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL2006600W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Beacon Press, 1996."
     }
    ],
    "ideia_central": "A economia é subsistema finito da biosfera; um estado estacionário mantém estoques de capital e população constantes, com fluxo de matéria e energia dentro da capacidade de regeneração e assimilação. Regras: colheita ≤ regeneração, emissão ≤ assimilação, renováveis a ritmo da substituição.",
@@ -2012,8 +2132,9 @@
     {
      "titulo": "The Entropy Law and the Economic Process, Harvard University Press",
      "ano": 1971,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL6760406W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Harvard University Press, 1971."
     }
    ],
    "ideia_central": "O processo econômico é irreversível: a segunda lei da termodinâmica implica que matéria e energia se degradam, o que torna o crescimento ilimitado impossível; proposta de bioeconomia e, depois, de decrescimento.",
@@ -2047,20 +2168,23 @@
     {
      "titulo": "The Limits to Growth (com D. H. Meadows, J. Randers, W. Behrens III), Universe Books / Club of Rome",
      "ano": 1972,
-     "url": "",
-     "verificado": false
+     "url": "https://collections.dartmouth.edu/archive/text/meadows/diplomatic/meadows_ltg-diplomatic.html",
+     "verificado": true,
+     "nota": "Página lida (Dartmouth): Meadows, Meadows, Randers, Behrens III; Universe Books; relatório ao Club of Rome; 1972."
     },
     {
      "titulo": "Leverage Points: Places to Intervene in a System, Sustainability Institute",
      "ano": 1999,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "A página do ensaio (donellameadows.org) não informa Sustainability Institute nem Hartland; catálogo dá 1999, outra fonte diz 1a publicação em 1997. Mantido false."
     },
     {
      "titulo": "Thinking in Systems, Chelsea Green",
      "ano": 2008,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL3737036W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Chelsea Green, 2008 (Meadows, ed. Diana Wright)."
     }
    ],
    "ideia_central": "Sistemas têm pontos de alavanca de força diferente: parâmetros (fracos) < laços de feedback < regras < metas < paradigma (fortes). Os limites ao crescimento mostram que crescimento exponencial em planeta finito leva a overshoot e colapso se não houver correção.",
@@ -2074,10 +2198,11 @@
    "uso_operacional": "Classificação de decisões do projeto por força de alavanca: parâmetros fiscais (fracos) x regras e metas (fortes). Aplicável a decisoes.json.",
    "casos_e_evidencias": [
     {
-     "descricao": "Turner (2008, Global Environmental Change 18(3)) comparou o cenário padrão de 1972 com 30 anos de dados e viu aderência razoável; Herrington (2021, Journal of Industrial Ecology) atualizou e achou compatibilidade com cenários de colapso no século XXI.",
-     "fonte": "Memória, não conferido",
-     "url": "",
-     "verificado": false
+     "descricao": "Turner (2008, Global Environmental Change 18(3):397-411) comparou dados de 1970-2000 com os cenários de Limits to Growth; segundo Herrington, os dados se alinharam ao cenário que termina em colapso. Herrington (J. Industrial Ecology 25(3), 2021; on-line 2020) atualizou com mais dados: os dois cenários mais próximos dos dados indicam estagnação de bem-estar, alimento e produção industrial nas próximas décadas, e só um (colapso por poluição) leva a colapso; o cenário de menores declínios foi o que menos se alinhou aos dados.",
+     "fonte": "Resumo de Herrington lido (Crossref); Turner lido só pela descrição de Herrington",
+     "url": "https://doi.org/10.1111/jiec.13084",
+     "verificado": true,
+     "nota": "Correções: \"aderência razoável\" (Turner) e \"compatibilidade com colapso\" (Herrington) eram de memória e foram refeitas conforme o resumo. O resumo de Turner não foi aberto (ScienceDirect 403)."
     }
    ],
    "criticas": "Críticas desde 1973 (Nordhaus; Cole, Models of Doom): dados sem base e preços ignorados; substituição e tecnologia; mas as projeções não foram simplesmente refutadas.",
@@ -2104,13 +2229,15 @@
      "titulo": "Beschleunigung: Die Veränderung der Zeitstrukturen in der Moderne, Suhrkamp",
      "ano": 2005,
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Registro do Open Library é \"Soziale Beschleunigung\" (Suhrkamp, 2005): título não bate; conferir DNB. Mantido false."
     },
     {
      "titulo": "Resonanz: Eine Soziologie der Weltbeziehung, Suhrkamp",
      "ano": 2016,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL20230166W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Suhrkamp, 2016."
     }
    ],
    "ideia_central": "A modernidade tardia é aceleração (técnica, social, ritmo de vida) com estabilização dinâmica (crescer para manter-se); a boa vida é relação de ressonância (resposta e transformação mútua com o mundo), não otimização de recursos.",
@@ -2145,14 +2272,16 @@
     {
      "titulo": "Introduction à la pensée complexe, ESF",
      "ano": 1990,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL9009082W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). ESF, 1990 (também Seuil)."
     },
     {
      "titulo": "La Méthode (6 vols.), Seuil",
      "ano": 1977,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL959015W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Seuil, 1977 (vol. 1); a extensão em 6 volumes não foi conferida."
     }
    ],
    "ideia_central": "Pensamento complexo religa o que a ciência disciplinar separou; princípios dialógico, recursivo e hologramático; critica a simplificação. Em educação defende os 'sete saberes necessários'.",
@@ -2184,8 +2313,9 @@
     {
      "titulo": "The Collapse of Complex Societies, Cambridge University Press",
      "ano": 1988,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL4741769W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Cambridge University Press, 1988."
     }
    ],
    "ideia_central": "Sociedades resolvem problemas aumentando a complexidade, com retornos marginais decrescentes; quando o custo marginal supera o benefício, a sociedade se torna vulnerável a choques e simplifica (colapso como estratégia econômica racional).",
@@ -2221,14 +2351,16 @@
     {
      "titulo": "Making Democracy Work: Civic Traditions in Modern Italy, Princeton University Press",
      "ano": 1993,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL19813051W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Princeton University Press, 1993-94; o livro é de Putnam com Leonardi e Nanetti."
     },
     {
      "titulo": "Bowling Alone: The Collapse and Revival of American Community, Simon & Schuster",
      "ano": 2000,
-     "url": "",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL4291077W",
+     "verificado": true,
+     "nota": "Registro de catálogo Open Library lido (título, autor, ano e editora conferem). Simon & Schuster, 2000."
     }
    ],
    "ideia_central": "Redes de reciprocidade e confiança (capital social) explicam o desempenho de instituições: no norte italiano, tradição cívica antiga predisse melhor governo regional do que o sul.",
@@ -2244,7 +2376,8 @@
      "descricao": "O orçamento participativo e os conselhos de política são formas brasileiras de capital social formalizado.",
      "fonte": "Interpretação",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Interpretação do projeto (orçamento participativo e conselhos como capital social formalizado); sem fonte externa."
     }
    ],
    "criticas": "Críticas: determinismo histórico (Tarrow 1996), causalidade reversa e aplicação a países com desigualdade extrema; a diversidade etnolinguística é debatida (Putnam 2007).",

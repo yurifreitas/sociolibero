@@ -1426,7 +1426,7 @@
   {
    "id": "tese-03-laissez-faire-planejado",
    "titulo": "O laissez-faire foi planejado e imposto pelo Estado",
-   "enunciado": "Polanyi (A Grande Transformação, 1944): o mercado autorregulado não surgiu espontaneamente; foi instituído por leis (cercamentos, Poor Law de 1834, Peel Act, Corn Laws, padrão-ouro) e por força do Estado; a sociedade reagiu (\"duplo movimento\"). A formulação: \"laissez-faire foi planejado; o planejamento não\" (frase a conferir na fonte, não lida aqui). Marx dá base para a primeira parte (t26: o Estado como instrumento da transição).",
+   "enunciado": "Polanyi (A Grande Transformação, 1944): o mercado autorregulado não surgiu espontaneamente; foi instituído por leis (cercamentos, Poor Law de 1834, Peel Act, Corn Laws, padrão-ouro) e por força do Estado; a sociedade reagiu (\"duplo movimento\"). A formulação: \"laissez-faire foi planejado; o planejamento não\" (frase conferida em 07/10/2026 na The Great Transformation, Beacon Press, 2001, cap. 12 \"Birth of the Liberal Creed\", p. 148, no original inglês \"Laissez-faire was planned; planning was not.\"; tradução nossa. Polanyi a usa para contrastar o laissez-faire, produto de ação deliberada do Estado, com as restrições posteriores, que surgiram de forma espontânea). Marx dá base para a primeira parte (t26: o Estado como instrumento da transição).",
    "premissas": [
     "Terra, trabalho e dinheiro não são mercadorias \"de verdade\" (mercadorias fictícias); precisam de instituição para circular como se fossem.",
     "Os métodos da acumulação primitiva \"utilizaram o poder do Estado\" (t26).",
@@ -2286,7 +2286,7 @@
      "verificado": true
     }
    ],
-   "posicao": "O mercado autorregulado de terra, trabalho e dinheiro é construção política; a sociedade reage em \"duplo movimento\". A frase \"laissez-faire foi planejado; o planejamento não\" é dele (não conferida na fonte nesta pesquisa).",
+   "posicao": "O mercado autorregulado de terra, trabalho e dinheiro é construção política; a sociedade reage em \"duplo movimento\". A frase \"laissez-faire foi planejado; o planejamento não\" é dele (conferida em 07/10/2026 no texto da The Great Transformation, Beacon Press, 2ª ed. brochura 2001, cap. 12 \"Birth of the Liberal Creed\", p. 148: \"Laissez-faire was planned; planning was not.\"; tradução nossa).",
    "relacao_com_marx": "Compatível com Marx na tese de que a economia de mercado foi instituída; diverge ao enfatizar proteção social e reciprocidade, e ao rejeitar parte do vocabulário de classe.",
    "id_no_projeto_pilares_pensamento": "karl-polanyi"
   },
@@ -2455,10 +2455,12 @@
    "nome": "James O'Connor (1930-2017)",
    "obra_chave": [
     {
-     "titulo": "Capitalism, Nature, Socialism (revista; ensaio \"The Second Contradiction of Capitalism\")",
+     "titulo": "O'Connor, J. (1988), Capitalism, Nature, Socialism: a theoretical introduction, Capitalism Nature Socialism 1(1):11-38 (traz o argumento da segunda contradição do capitalismo)",
      "ano": 1988,
-     "url": "https://en.wikipedia.org/wiki/Second_contradiction_of_capitalism",
-     "verificado": false
+     "url": "https://doi.org/10.1080/10455758809358356",
+     "verificado": true,
+     "doi": "10.1080/10455758809358356",
+     "nota": "Lido em 07/10/2026: DOI conferido no Crossref (título, autor, periódico, volume, páginas, 1988). O artigo não foi lido; a descrição da tese vem do repositório."
     }
    ],
    "posicao": "A \"segunda contradição do capitalismo\": o capital destrói as condições de produção (natureza, trabalho, espaço urbano) e gera crise de custos.",
@@ -2635,13 +2637,14 @@
   },
   {
    "id": "lazzarini",
-   "nome": "Sérgio Lazzarini (a conferir)",
+   "nome": "Sérgio G. Lazzarini",
    "obra_chave": [
     {
-     "titulo": "Capitalismo de Laços: Os Donos do Brasil e Suas Conexões",
+     "titulo": "Capitalismo de laços: os donos do Brasil e suas conexões (Campus/Elsevier, 2011)",
      "ano": 2011,
-     "url": "https://pt.wikipedia.org/wiki/S%C3%A9rgio_Lazzarini",
-     "verificado": false
+     "url": "https://openlibrary.org/works/OL23386401W",
+     "verificado": true,
+     "nota": "Lido em 07/10/2026: registro bibliográfico (Open Library) confere título, autor e editora/ano. A obra não foi lida; a posição resumida vem do repositório e da recepção do livro."
     }
    ],
    "posicao": "Capitalismo de laços: redes políticas e financeiras entre empresas, Estado e fundos.",

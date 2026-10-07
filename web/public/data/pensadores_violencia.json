@@ -176,8 +176,9 @@
     {
      "descricao": "Homicídios no Brasil: 65.602 em 2017 e 42.590 em 2024 (contagem Atlas); o Estado não monopoliza a morte violenta, mas a queda mostra variação grande dentro do mesmo regime.",
      "fonte": "humano_nacional.json#atlas_homicidios",
-     "url": "",
-     "verificado": false
+     "url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='AVIOL12_HOMIC')",
+     "verificado": true,
+     "nota": "Lido na série Ipeadata AVIOL12_HOMIC (Atlas da Violência, Ipea/FBSP): 65.602 (2017) e 42.590 (2024). 42.590 confirmado também em reportagem sobre o Atlas 2026 (DGABC). A série Atlas soma homicídios e intervenção legal; queda de 35,1% é aritmética."
     }
    ],
    "criticas": "Definição formal (\"com sucesso\", \"legítimo\") esconde o conteúdo: monopólio exercido com seletividade racial e territorial é legítimo para quem? Críticas pós-coloniais (Mbembe, Fanon) e de Foucault (poder difuso, não só soberano) apontam que o Estado não detém o monopólio de fato nas periferias, e sim o compartilha.",
@@ -205,11 +206,12 @@
    "tradicao": "Teoria jurídica e política alemã (1888-1985)",
    "obra_chave": [
     {
-     "titulo": "Politische Theologie",
+     "titulo": "Politische Theologie. Vier Kapitel zur Lehre von der Souveränität",
      "ano": 1922,
-     "url": "",
+     "url": "https://www.helveticarchives.ch/detail.aspx?ID=341975",
      "doi": "",
-     "verificado": false
+     "verificado": true,
+     "nota": "Registro HelveticArchives (exemplar do próprio Schmitt): Politische Theologie. Vier Kapitel zur Lehre von der Souveränität, München und Leipzig, Duncker & Humblot, 1922, 56 p. Confere título, editor e ano; conteúdo não lido."
     },
     {
      "titulo": "Der Begriff des Politischen",
@@ -277,8 +279,9 @@
     {
      "descricao": "Violência fundadora medida: quase 4,8 milhões de africanos desembarcados no Brasil (1501-1866, estimativa não conferida) e 15% da população recenseada como escravizada em 1872 (contagem verificada). Conservadora: 6.393 mortes por intervenção policial em 2023.",
      "fonte": "fator_humano.json#esc-desembarcados-brasil, #esc-censo-1872; FBSP",
-     "url": "",
-     "verificado": false
+     "url": "https://jornaldebrasilia.com.br/noticias/brasil/mortes-por-intervencao-policial-quase-triplicam-em-10-anos-no-pais/",
+     "verificado": false,
+     "nota": "Lido: 6.393 mortes por intervenção policial em 2023 (18º Anuário do FBSP, via Jornal de Brasília). Não reabertos: 4,8 milhões de desembarcados (SlaveVoyages) e 15% em 1872 (Censo); o rótulo 'contagem verificada' do Censo de 1872 foi mantido sem checagem nesta rodada."
     }
    ],
    "criticas": "Texto enigmático; a \"violência divina\" não é prescrição e foi lida de modos opostos (Derrida, Agamben, Butler). Não oferece critério empírico. Cuidado com leituras que justifiquem violência política como \"pura\".",
@@ -371,10 +374,11 @@
    "explica_no_brasil": "Dá nome à geografia da violência brasileira: a cidade partida, a vida urbana segregada por cor e território, e a polícia como fronteira entre compartimentos. Lélia Gonzalez e Abdias dialogam com essa leitura.",
    "evidencias": [
     {
-     "descricao": "Brasil: risco de homicídio de pessoa negra é 2,7 vezes o de não negra (2023) e 77,8% das vítimas com raça informada eram negras; a segmentação racial da morte é medida, a explicação por colonialidade é interpretação.",
-     "fonte": "fator_humano.json#vu-negros-2023; humano_nacional.json#pct_vitimas_negras_raca_informada",
-     "url": "",
-     "verificado": false
+     "descricao": "Brasil: risco de homicídio de pessoa negra é 2,7 vezes o de não negra (2023) e cerca de 77% das vítimas (35.213 de 45.747) eram negras; a segmentação racial da morte é medida, a explicação por colonialidade é interpretação.",
+     "fonte": "Atlas da Violência 2025 (Ipea/FBSP), via Jornal do Brasil; fator_humano.json#vu-negros-2023",
+     "url": "https://www.jb.com.br/brasil/direitos-humanos/2025/05/1055452-risco-de-negro-ser-vitima-de-homicidio-e-27-vezes-maior-no-brasil.html",
+     "verificado": false,
+     "nota": "Lido em reportagem do JB sobre o Atlas da Violência 2025: razão de risco 2,7 (2023), 35.213 homicídios de pretos e pardos e 45.747 no total (35.213/45.747 = 77,0%, aritmética). O 77,8% antigo é o cálculo do repositório sobre o SIM entre as mortes com raça informada (denominador diferente) e não foi reaberto no SIM; o texto passou a usar o número do Atlas. Relatório do Atlas não aberto, só a reportagem. [Régua única: reportagem/citação que replica o órgão não conta como leitura na fonte; confere, mas segue false até abrir o relatório oficial.]"
     },
     {
      "descricao": "Resumo lido: campanhas não violentas foram mais bem-sucedidas que as armadas na comparação histórica de Chenoweth e Stephan, o que tensiona a tese fanoniana da violência necessária (os números 323 campanhas, 53% x 26%, vêm de resumos de busca e ficam não verificados).",
@@ -428,7 +432,8 @@
      "descricao": "Sem dado quantitativo brasileiro verificado nesta pesquisa; a recepção no sindicalismo brasileiro da Primeira República é de memória.",
      "fonte": "não verificado",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Declara ausência de dado; não há número a conferir. Mantido false até haver fonte sobre a recepção do sorelismo no sindicalismo brasileiro."
     }
    ],
    "criticas": "Mito sem teste empírico; a apologia da violência foi apropriada pelo fascismo (Mussolini citou-o). Evidências comparadas (Chenoweth) apontam que a disciplina não violenta é mais eficaz.",
@@ -474,7 +479,8 @@
      "descricao": "Camponeses mortos e desaparecidos no campo, 1961-1988: 1.196 (estimativa da Comissão Camponesa da Verdade, via repositório); mede violência agrária de Estado e de latifundiários, não verifica a teoria.",
      "fonte": "fator_humano.json#est-ccv-camponeses",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Número 1.196 (Comissão Camponesa da Verdade, 2014) não reaberto. O vol. II do Relatório da CNV cita a lista da SDH de camponeses mortos e desaparecidos 1961-1988 mas não traz 1.196 (0 ocorrências no texto). Há estimativa posterior de 1.654 (registrada em fator_humano.json)."
     }
    ],
    "criticas": "A frase da parteira é descritiva e foi usada para justificar terror (stalinismo); a teoria subestima a autonomia do político e das instituições. O determinismo econômico é contestado (Weber, Skocpol).",
@@ -524,10 +530,11 @@
    "explica_no_brasil": "Lembra que a violência política sem democracia interna tende a degenerar em dominação; relevância para reflexão sobre tortura e poder paralelo.",
    "evidencias": [
     {
-     "descricao": "A repressão da ditadura brasileira (1964-1985) é medida em 434 mortos e desaparecidos reconhecidos pela CNV; ilustra o ciclo autoritário, não testa Luxemburgo.",
+     "descricao": "A repressão da ditadura brasileira é medida em 434 mortos e desaparecidos políticos reconhecidos pela CNV (1946-1988); ilustra o ciclo autoritário, não testa Luxemburgo.",
      "fonte": "fator_humano.json#est-cnv-434",
-     "url": "",
-     "verificado": false
+     "url": "http://www.marxists.org/portugues/tematica/livros/cnv/pdf/volume_3_digital.pdf",
+     "verificado": true,
+     "nota": "CNV, Relatório Final vol. III (Apresentação e Introdução, p. 25-26): perfis de 434 mortos e desaparecidos políticos de 18/09/1946 a 05/10/1988. Texto corrigido: o recorte da CNV é 1946-1988, não 1964-1985. É piso, não total."
     }
    ],
    "criticas": "Sua aposta na espontaneidade foi desmentida em parte pela organização leninista; limita-se a um contexto europeu. Posição sobre violência revolucionária é ambígua.",
@@ -567,10 +574,11 @@
    "explica_no_brasil": "Interessa como objeto histórico: a doutrina de \"quebrar\" o Estado inspirou a luta armada urbana nos anos 1960 (Marighella) e a reação da ditadura brasileira. Não oferece guia para a segurança pública atual.",
    "evidencias": [
     {
-     "descricao": "A repressão estatal brasileira de 1964-1988 deixou 434 mortos e desaparecidos reconhecidos (CNV); o contexto de Guerra Fria explica parte do imaginário de ambos os lados.",
+     "descricao": "A repressão estatal brasileira deixou 434 mortos e desaparecidos reconhecidos pela CNV (1946-1988); o contexto de Guerra Fria explica parte do imaginário de ambos os lados.",
      "fonte": "fator_humano.json#est-cnv-434",
-     "url": "",
-     "verificado": false
+     "url": "http://www.marxists.org/portugues/tematica/livros/cnv/pdf/volume_3_digital.pdf",
+     "verificado": true,
+     "nota": "CNV vol. III, p. 25-26: 434 mortos e desaparecidos de 18/09/1946 a 05/10/1988. Texto corrigido de '1964-1988' para '1946-1988' (recorte da CNV)."
     }
    ],
    "criticas": "A promessa de extinção do Estado não se realizou; o terror contra opositores é bem documentado (Gulag, Terror Vermelho). Estudos comparados indicam que revoluções violentas produzem mais frequentemente ditaduras (Chenoweth e Stephan).",
@@ -611,10 +619,11 @@
    "explica_no_brasil": "Ajuda a ler por que a coerção (polícia, prisão) aumenta onde o consenso falta: o discurso do medo funciona como cimento de hegemonia (Vera Malaguti Batista). Conecta o anel de legitimidade ao uso da força.",
    "evidencias": [
     {
-     "descricao": "Taxa de homicídio por 100 mil: 26,15 (2000), 31,72 (2017) e 19,57 (2024), ciclo que coincide com variações de políticas e coalizões criminais; sem modelo causal neste repositório.",
+     "descricao": "Taxa de homicídio por 100 mil (série Atlas/Ipeadata): 27,35 (2000), 32,1 (2017) e 20,1 (2024); o ciclo coincide com variações de políticas e coalizões criminais, sem modelo causal neste repositório. O repositório recalcula com denominador IBGE e obtém 26,15, 31,72 e 19,57.",
      "fonte": "humano_nacional.json#taxa_homicidios",
-     "url": "",
-     "verificado": false
+     "url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='AVIOL12_THOMIC')",
+     "verificado": true,
+     "nota": "Corrigido. A série Ipeadata/Atlas AVIOL12_THOMIC (lida) dá 27,35 (2000), 32,1 (2017) e 20,1 (2024); 20,1 em 2024 confirmado em reportagem do Atlas 2026. O repositório recalculava com população IBGE (26,15; 31,72; 19,57), divergência de denominador. Para 2017 o Atlas 2019 divulgou 31,6 (base populacional antiga)."
     }
    ],
    "criticas": "Texto fragmentário, de leitura contestada; hegemonia é difícil de medir; o conceito pode explicar qualquer resultado. Não distingue bem consenso induzido de consenso genuíno.",
@@ -659,10 +668,11 @@
    "explica_no_brasil": "Explica a prisão como dispositivo que reproduz o público que diz combater e a política de drogas como gestão de populações. No repositório, os dados prisionais permitem ver o peso do tráfico de drogas entre os crimes.",
    "evidencias": [
     {
-     "descricao": "População prisional (2025): 214.653 registros por tráfico de drogas e 133.985 pessoas pretas presas (SENAPPEN via repositório; unidade do primeiro número não confirmada); não há série histórica no repositório.",
+     "descricao": "População prisional (31/12/2025): 214.653 incidências penais por tráfico de drogas e 133.985 pessoas pretas presas, somando celas físicas e prisão domiciliar (SENAPPEN/SISDEPEN); são contagens paralelas que não se cruzam, e não há série histórica no repositório.",
      "fonte": "humano_nacional.json#prisional_trafico_drogas e #prisional_pretos",
-     "url": "",
-     "verificado": false
+     "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen/relatorios/relatorios-de-informacoes-penitenciarias/relatorio-do-2o-semestre-de-2025.pdf/@@display-file/file",
+     "verificado": true,
+     "nota": "Lido no Relatório SISDEPEN/SENAPPEN do 2º semestre de 2025 (19º ciclo, posição 31/12/2025). Pretos: 116.552 (cela física) + 11.898 (domiciliar com monitoramento) + 5.535 (sem monitoramento) = 133.985. Tráfico de drogas (item 'Tráfico de Drogas', sem associação nem tráfico internacional): 192.699 + 17.637 + 4.317 = 214.653 incidências penais (não pessoas)."
     }
    ],
    "criticas": "Evidência em Foucault é histórica e de arquivo, pouco quantitativa; a tese da prisão que \"fracassa para produzir delinquência útil\" não é testada. Críticos (Garland) apontam subestimar a política e a resistência.",
@@ -794,9 +804,10 @@
     {
      "titulo": "Über den Prozess der Zivilisation",
      "ano": 1939,
-     "url": "",
+     "url": "https://www.livre-rare-book.com/book/28279079/52608",
      "doi": "",
-     "verificado": false
+     "verificado": true,
+     "nota": "Registro de livreiro especializado: Basel, Haus zum Falken, 1939, 2 vols. Confere título, editor e ano; conteúdo não lido. Edição brasileira (Zahar) e inglesa (The Civilizing Process, 1969/1982) são traduções."
     }
    ],
    "ideia_central": "Já tratado em pilares_pensamento.json (id norbert-elias): monopólio estatal da violência e do imposto mais crescente interdependência produzem autocontrole. Aqui entra só como remissão para os diálogos com Tilly, Pinker e Clastres.",
@@ -812,7 +823,8 @@
      "descricao": "Ver pilares_pensamento.json#norbert-elias, que cita a queda secular de homicídios na Europa.",
      "fonte": "pilares_pensamento.json",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Remissão a pilares_pensamento.json#norbert-elias; a verificação depende daquele item (também false). Nada a conferir aqui."
     }
    ],
    "criticas": "Críticas em Duerr (cf. pilares). A teoria tem validação desigual fora da Europa.",
@@ -841,7 +853,8 @@
      "ano": 1974,
      "url": "",
      "doi": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Open Library confirma título, autor e editora (Éditions de Minuit), mas o ano 1974 não foi lido em registro bibliográfico (o catálogo traz data genérica). Mantido false."
     }
    ],
    "ideia_central": "Já tratado em pilares_pensamento.json (id pierre-clastres): sociedades ameríndias recusam o poder coercitivo separado. Entra aqui como contraponto a Hobbes, Weber, Elias e Tilly.",
@@ -857,7 +870,8 @@
      "descricao": "Ver pilares_pensamento.json#pierre-clastres.",
      "fonte": "pilares_pensamento.json",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Remissão a pilares_pensamento.json#pierre-clastres; a verificação depende daquele item. Nada a conferir aqui."
     }
    ],
    "criticas": "Críticos apontam romantização e uma tese pouco testável; a ligação entre guerra e antiestatismo é contestada na antropologia.",
@@ -911,7 +925,8 @@
      "descricao": "Tilly: a analogia vale por dizer que proteção é mercadoria; na América Latina, Centeno (2002) argumenta que guerras foram poucas e curtas e não construíram Estados fortes (referência de memória).",
      "fonte": "Centeno (2002), Blood and Debt; não conferido",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Centeno (2002), Blood and Debt (Penn State UP): a obra existe no catálogo Open Library, mas o argumento sobre guerras curtas na América Latina não foi lido."
     },
     {
      "descricao": "Registro do capítulo (resumo lido): \"war making and state making ... qualify as our largest examples of organized crime\".",
@@ -1019,10 +1034,11 @@
      "verificado": true
     },
     {
-     "descricao": "Crítica estatística: séries de conflitos têm cauda pesada; a queda observada não é distinguível de uma flutuação (Cirillo e Taleb).",
-     "fonte": "Cirillo e Taleb (2016), Physica A; conteúdo de memória",
-     "url": "https://doi.org/10.1016/j.physa.2016.01.050",
-     "verificado": false
+     "descricao": "Crítica estatística: séries de conflitos têm cauda pesada; Cirillo e Taleb concluem que seus resultados contradizem a tese de declínio da violência e que não há tendência clara nos intervalos entre eventos extremos.",
+     "fonte": "Cirillo e Taleb (2016), Physica A (DOI 10.1016/j.physa.2016.01.050); resumo no arXiv 1505.04722",
+     "url": "https://arxiv.org/abs/1505.04722",
+     "verificado": true,
+     "nota": "Resumo do arXiv 1505.04722 (Cirillo e Taleb) lido: suas estatísticas contradizem a tese da 'longa paz' (declínio da violência); não acham tendência clara nos intervalos entre eventos extremos; a média real das baixas é maior que a amostral. Texto ajustado: o resumo não diz que a queda 'não é distinguível de flutuação'. Defensores de Pinker contestam o método (ver evidências anteriores); a réplica não foi lida aqui."
     }
    ],
    "criticas": "Críticos: escolha de métricas (mortes relativas), subestimação de violência estrutural e colonial (Galtung, Scheper-Hughes), de guerras recentes e de cauda pesada (Cirillo e Taleb, Fazal). Para o Brasil, falta série homogênea de homicídios antes de 1979.",
@@ -1190,8 +1206,9 @@
     {
      "descricao": "No Brasil, o risco relativo de homicídio de pessoa negra é 2,7 e 9 milhões de jovens de 14 a 29 anos não concluíram o ensino médio (2023): indicadores de violência estrutural no vocabulário de Galtung.",
      "fonte": "fator_humano.json#vu-negros-2023, #edu-jovens-sem-em-2023",
-     "url": "",
-     "verificado": false
+     "url": "https://www.jb.com.br/brasil/direitos-humanos/2025/05/1055452-risco-de-negro-ser-vitima-de-homicidio-e-27-vezes-maior-no-brasil.html",
+     "verificado": false,
+     "nota": "2,7 (2023) lido em reportagem do Atlas 2025 (JB). 9 milhões de jovens de 14 a 29 anos sem ensino médio (2023) lido em reportagem do Metrópoles que cita a PNAD Contínua Educação (IBGE); página do IBGE não aberta. [Régua única: reportagem/citação que replica o órgão não conta como leitura na fonte; confere, mas segue false até abrir o relatório oficial.]"
     }
    ],
    "criticas": "Conceito tão amplo que quase tudo é violência (perda de poder analítico); sem contrafactual claro para o \"potencial\". Críticos (Boulding) preferem medir danos específicos. A estrutura não explica por que nem todos os pobres praticam violência.",
@@ -1224,9 +1241,10 @@
     {
      "titulo": "Bourdieu e Passeron, La reproduction (A reprodução)",
      "ano": 1970,
-     "url": "",
+     "url": "https://openlibrary.org/works/OL528010W",
      "doi": "",
-     "verificado": false
+     "verificado": true,
+     "nota": "Open Library: La reproduction, Bourdieu e Passeron, primeira publicação 1970. Editor (Minuit) não lido no registro."
     },
     {
      "titulo": "La domination masculine (A dominação masculina)",
@@ -1250,7 +1268,8 @@
      "descricao": "Repositório: jovens sem ensino médio (9 milhões, 2023) e violência notificada contra crianças e adolescentes (201.453 notificações em 2024) indicam onde instituições escolares e familiares falham; a violência simbólica em si não é medida.",
      "fonte": "fator_humano.json#edu-jovens-sem-em-2023; humano_nacional.json#viol_infantil_total",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "9 milhões (2023) lido via Metrópoles/PNAD Educação, mas os 201.453 casos notificados no SINAN (2024) vêm de microdados DATASUS, não reabertos. Mantido false pelo número do SINAN."
     }
    ],
    "criticas": "Difícil de operacionalizar e de falsear; pode retirar a agência dos dominados; conceito difundido com sentidos distintos. Wacquant continua o programa e o aplica ao Estado penal.",
@@ -1295,10 +1314,11 @@
    "explica_no_brasil": "Sugere leituras de espirais de vingança entre facções, linchamentos (José de Souza Martins estudou linchamentos no Brasil) e do bode expiatório do \"inimigo da sociedade\". Interpretação sem teste direto nos dados brasileiros.",
    "evidencias": [
     {
-     "descricao": "Linchamentos no Brasil foram objeto de estudo sociológico (Martins, 1995, Estudos Avançados); resumo não lido nesta pesquisa.",
+     "descricao": "Martins (1995) reuniu 515 linchamentos e tentativas no Brasil entre 1970 e 1994 (739 vítimas, 366 mortas, base de imprensa que, pela estimativa dele, capta cerca de um terço dos casos) e os interpreta como resposta punitiva a mudanças sociais, não mera desordem.",
      "fonte": "Martins (1995), Estudos Avançados (DOI: 10.1590/s0103-40141995000300022)",
-     "url": "",
-     "verificado": false
+     "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0103-40141995000300022&lng=pt&tlng=pt",
+     "verificado": true,
+     "nota": "Página SciELO do artigo lida. Martins (1995) registra 515 linchamentos e tentativas no Brasil, 1970-1994, em 739 vítimas (366 mortas), e lê o linchamento como resposta punitiva a mudanças sociais, 'forma incipiente de participação democrática' contraditória; estima que a imprensa captou cerca de 1/3 dos casos."
     }
    ],
    "criticas": "Pouco falseável; análise antropológica de ritual contestada; generalização excessiva. Útil como hipótese, não como causa demonstrada.",
@@ -1321,9 +1341,10 @@
     {
      "titulo": "Death Without Weeping: The Violence of Everyday Life in Brazil",
      "ano": 1992,
-     "url": "",
+     "url": "https://openlibrary.org/works/OL4083766W",
      "doi": "",
-     "verificado": false
+     "verificado": true,
+     "nota": "Open Library: Death Without Weeping, Scheper-Hughes, University of California Press, 1992."
     },
     {
      "titulo": "Small wars and invisible genocides, Social Science & Medicine 43(5)",
@@ -1335,9 +1356,10 @@
     {
      "titulo": "Scheper-Hughes e Bourgois (orgs.), Violence in War and Peace",
      "ano": 2004,
-     "url": "",
+     "url": "https://openlibrary.org/works/OL18251517W",
      "doi": "",
-     "verificado": false
+     "verificado": true,
+     "nota": "Open Library: Violence in War and Peace: An Anthology (Blackwell). Registros trazem 2004 e outubro de 2003 (impressão); mantido 2004."
     }
    ],
    "ideia_central": "Violência cotidiana: a morte infantil naturalizada e a indiferença socialmente produzida num bairro canavieiro de Pernambuco; \"continuum\" entre violência de guerra e de paz (genocídios invisíveis). Mortes de pobres tratadas como normais são violência institucional.",
@@ -1354,7 +1376,8 @@
      "descricao": "Mortalidade infantil: 146,6 por mil nascidos vivos (1940), 69,1 (1980), 12,9 (2022).",
      "fonte": "fator_humano.json#saude-mi-1940, #saude-mi-1980, #saude-mi-2022",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Não conferido na fonte. O Ipeadata DEPIS_TMI (IBGE/DEPIS, lido) dá 10,9 por mil em 2022 e o IBGE (Tábua 2024, lida) 12,26 em 2024; 12,9 (2022) provém de outra série (Tábua de mortalidade), e 146,6 (1940) e 69,1 (1980) não foram reabertos. Misturar séries de projeção e de tábua exige cuidado."
     }
    ],
    "criticas": "A etnografia foi criticada por generalizar o caso de uma comunidade e pela interpretação das mães e da \"indiferença\", e por ética de pesquisa (debate na antropologia). Os dados de mortalidade infantil melhoraram muito, o que tensiona a imagem de normalização.",
@@ -1460,10 +1483,11 @@
    "explica_no_brasil": "No Brasil, a população prisional de 2025 mostra grande peso de tráfico (214.653 registros) e de pessoas pretas (133.985); a tese ajuda a perguntar quem é punido por quê. Debate com Misse: sujeição criminal e acumulação social da violência são mecanismos locais não redutíveis ao neoliberalismo.",
    "evidencias": [
     {
-     "descricao": "Dados prisionais 2025 do repositório (SENAPPEN): pretos 133.985; tráfico 214.653; sem série histórica.",
+     "descricao": "Dados prisionais de 31/12/2025 (SENAPPEN/SISDEPEN): pretos 133.985; incidências de tráfico 214.653; sem série histórica.",
      "fonte": "humano_nacional.json#prisional_pretos, #prisional_trafico_drogas",
-     "url": "",
-     "verificado": false
+     "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen/relatorios/relatorios-de-informacoes-penitenciarias/relatorio-do-2o-semestre-de-2025.pdf/@@display-file/file",
+     "verificado": true,
+     "nota": "Lido no relatório SISDEPEN/SENAPPEN 2º semestre de 2025: pretos 133.985 e tráfico 214.653 incidências (somas das três modalidades, ver item de Foucault)."
     }
    ],
    "criticas": "Crítica: crescimento prisional ocorre também em contextos não neoliberais; a tese é funcionalista; para o Brasil falta ligação direta entre cortes sociais e prisões (o gasto social cresceu em 2003-2014 e o encarceramento também). Wacquant exagera a coerência do projeto neoliberal.",
@@ -1508,10 +1532,11 @@
    "explica_no_brasil": "Referência para movimentos de direitos no Brasil e para a tese de que organização cívica reduz violência; não é política de segurança pública. Relevante para conflitos fundiários e retomadas indígenas, sempre com ressalva de contexto.",
    "evidencias": [
     {
-     "descricao": "Comparação histórica: campanhas não violentas tiveram mais êxito em 323 campanhas (1900-2006); não equivale a prova de que funcione em qualquer contexto.",
+     "descricao": "Comparação histórica de campanhas de resistência de 1900 a 2006: as não violentas tiveram mais êxito que as armadas na base dos autores; não equivale a prova de que funcione em qualquer contexto.",
      "fonte": "Chenoweth e Stephan (2008); números de resumos de busca",
      "url": "https://doi.org/10.1162/isec.2008.33.1.7",
-     "verificado": false
+     "verificado": true,
+     "nota": "Resumo do artigo (International Security 33(1), 2008) lido: base com todas as campanhas de resistência violentas e não violentas conhecidas de 1900 a 2006; as não violentas tiveram mais êxito. O número 323 não consta do resumo e foi retirado do texto; ver item de Chenoweth e Stephan."
     }
    ],
    "criticas": "Ambedkar criticou a posição de Gandhi sobre castas; historiadores apontam atitudes raciais do jovem Gandhi na África do Sul; a independência indiana veio com violência (Partição, cerca de milhão de mortos, estimativa de memória). Resultado depende do contexto e da resposta do oponente.",
@@ -1555,8 +1580,9 @@
     {
      "descricao": "Carta de Birmingham, 1963: argumenta que a espera por reforma voluntária fracassa e que a ação não violenta é necessária.",
      "fonte": "Letter from Birmingham Jail",
-     "url": "https://en.wikipedia.org/wiki/Letter_from_Birmingham_Jail",
-     "verificado": false
+     "url": "https://okra.stanford.edu/link/document630416-001",
+     "verificado": false,
+     "nota": "Texto da carta não aberto (Wikipedia deixou de ser a URL; páginas do Stanford King Institute, Penn e Atlantic estavam indisponíveis ou só traziam catálogo). O registro OKRA/Stanford confirma título e data (16/04/1963), não o conteúdo."
     }
    ],
    "criticas": "Resultados legislativos (1964-65) vieram junto de pressão e de contexto de Guerra Fria; ao mesmo tempo, ao lado do movimento houve distúrbios urbanos; a comparação com o Brasil é limitada pela ausência de segregação legal formal.",
@@ -1603,10 +1629,11 @@
    "explica_no_brasil": "Serve para descrever mobilizações políticas (Diretas Já, 1984; greves) e protestos contra violência policial; é lido como manual cívico, não como tese sobre criminalidade.",
    "evidencias": [
     {
-     "descricao": "As campanhas não violentas teriam taxa de sucesso maior que as armadas na comparação histórica; fonte consultada apenas em resumo de busca.",
-     "fonte": "Chenoweth e Stephan (2008)",
+     "descricao": "Na base de campanhas de 1900 a 2006, as campanhas não violentas tiveram mais sucesso que as armadas em atingir seus objetivos (resumo do artigo); causalidade e viés de seleção são discutidos pela literatura.",
+     "fonte": "Chenoweth e Stephan (2008), International Security 33(1); resumo lido",
      "url": "https://doi.org/10.1162/isec.2008.33.1.7",
-     "verificado": false
+     "verificado": true,
+     "nota": "Resumo do artigo lido (International Security 33(1), 2008): 'as campanhas não violentas foram mais bem-sucedidas que as armadas em alcançar objetivos finais', mesmo contra oponentes semelhantes e sob repressão."
     }
    ],
    "criticas": "Acusado de ingenuidade sobre repressão e de ter sido instrumentalizado por programas de \"mudança de regime\" (controvérsia sobre financiamento externo, de memória); o catálogo é descritivo e não indica quando cada método funciona.",
@@ -1674,7 +1701,8 @@
      "descricao": "Os números 323, 53% e 26% e a regra dos 3,5% vêm de resumos de busca (Harvard Gazette e outros) e não foram conferidos na obra.",
      "fonte": "busca web",
      "url": "https://www.ericachenoweth.com/research/wcrw",
-     "verificado": false
+     "verificado": false,
+     "nota": "Página da autora lida confirma só 'mais de duas vezes mais eficazes' (Columbia UP, 2011). 323 campanhas, 53% x 26% e regra dos 3,5% seguem sem leitura na obra."
     }
    ],
    "criticas": "Críticas: viés de seleção e definição de sucesso; pesquisa de Lehoucq (2016) questiona a robustez; a regra de 3,5% é descrita pela própria autora como não garantida; efeito em regimes que podem reprimir massivamente; campanhas armadas muitas vezes vencem em contextos específicos.",
@@ -1716,7 +1744,8 @@
      "descricao": "Sem dado brasileiro verificado nesta pesquisa.",
      "fonte": "não verificado",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Declara ausência de dado; não há número a conferir."
     }
    ],
    "criticas": "Individualismo e elitismo; sem teoria de organização; vinculação entre consciência privada e ação coletiva eficaz é frágil.",
@@ -1904,9 +1933,10 @@
    "evidencias": [
     {
      "descricao": "Brasil: Nunca Mais reuniu 1.843 denúncias de tortura em 707 processos (1964-1979); CNV reconheceu 434 mortos e desaparecidos.",
-     "fonte": "fator_humano.json#est-bnm-torturados, #est-cnv-434",
-     "url": "",
-     "verificado": false
+     "fonte": "Brasil: Nunca Mais (projeto BNM) e Relatório da CNV vol. III",
+     "url": "http://www.marxists.org/portugues/tematica/livros/nunca/index.htm",
+     "verificado": true,
+     "nota": "BNM lido (Marxists.org, texto do projeto): cópias de 707 processos completos da Justiça Militar; 'relação nominal de 1843 pessoas que prestaram depoimentos denunciando torturas' (Tomo V, vol. 1); recorte abril de 1964 a março de 1979. CNV vol. III: 434 mortos e desaparecidos (1946-1988)."
     }
    ],
    "criticas": "Tese criticada por subestimar o antissemitismo específico e as motivações ideológicas; Elias e Browning sugerem outras explicações. A comparação com contextos brasileiros é limitada.",
@@ -1955,10 +1985,11 @@
      "verificado": true
     },
     {
-     "descricao": "Revisão: dissuasão depende mais da certeza do que da severidade da punição.",
+     "descricao": "Revisão: a dissuasão depende mais da certeza de apreensão do que da severidade da pena; Nagin conclui que penas longas e mínimos obrigatórios não se justificam por dissuasão.",
      "fonte": "Nagin (2013), Crime and Justice (DOI: 10.1086/670398)",
-     "url": "",
-     "verificado": false
+     "url": "https://doi.org/10.1086/670398",
+     "verificado": true,
+     "nota": "Resumo de Nagin (2013) lido: 'a certeza de apreensão, não a severidade da consequência legal, é o dissuasor mais eficaz'; penas longas e mínimos obrigatórios não se justificam por dissuasão."
     }
    ],
    "criticas": "Racionalidade limitada, jovens e impulsividade; muitos homicídios são expressivos; efeito da severidade é pequeno; ignora determinantes sociais. Cerqueira e Lobão (2004) discutem as limitações no Brasil.",
@@ -2001,10 +2032,11 @@
    "explica_no_brasil": "Fundamenta policiamento focado em lugares de risco: pontos quentes, iluminação, horários de bares.",
    "evidencias": [
     {
-     "descricao": "Revisão Campbell sobre policiamento de pontos quentes e deslocamento do crime; o resumo lido traz objetivos e métodos, e o resultado (redução modesta, deslocamento limitado) é de memória e não foi conferido.",
+     "descricao": "Revisão Campbell (65 estudos, 78 testes): policiamento de pontos quentes tem efeito médio pequeno, mas significativo, na redução de crime; 62 de 78 testes relataram reduções; há difusão de benefícios, e o deslocamento não é inevitável.",
      "fonte": "Braga et al. (2019), Campbell Systematic Reviews",
      "url": "https://doi.org/10.1002/cl2.1046",
-     "verificado": false
+     "verificado": true,
+     "nota": "Resumo de Braga et al. (2019) lido: 65 estudos (78 testes); 62 de 78 relataram reduções de crime e desordem; efeito médio pequeno, mas significativo; efeito menor nos desenhos aleatorizados; difusão de benefícios associada, e deslocamento não inevitável. Texto corrigido: sai 'deslocamento limitado' de memória. Leitura rival (custos de legitimidade e disparidade racial da presença policial) não está no resumo e fica como pergunta aberta."
     }
    ],
    "criticas": "Explica oportunidade, não motivação; pode levar a deslocamento; não cobre violência doméstica ou expressiva em casa; efeito em contexto de crime organizado é incerto.",
@@ -2099,10 +2131,11 @@
    "explica_no_brasil": "Útil para ler o recrutamento de jovens para mercados ilegais onde faltam alternativas: 9 milhões de jovens sem ensino médio (2023) e aspiração de consumo. O anel violência-capital humano formaliza o ciclo.",
    "evidencias": [
     {
-     "descricao": "Indicadores do repositório: 9 milhões de jovens de 14 a 29 anos sem ensino médio completo (2023, estimativa não conferida na fonte).",
+     "descricao": "Indicador do repositório: cerca de 9 milhões de jovens de 14 a 29 anos sem ensino médio completo (2023, estimativa amostral da PNAD Contínua Educação, IBGE).",
      "fonte": "fator_humano.json#edu-jovens-sem-em-2023",
-     "url": "",
-     "verificado": false
+     "url": "https://www.metropoles.com/brasil/nove-milhoes-de-jovens-nao-terminaram-o-ensino-medio-em-2023-diz-pnad",
+     "verificado": false,
+     "nota": "Lido em reportagem do Metrópoles sobre a PNAD Contínua Educação 2023 (IBGE): 9 milhões de jovens de 14 a 29 anos não completaram o ensino médio (abandono ou nunca frequentaram); 71,6% pretos ou pardos. Página do IBGE não aberta; estimativa amostral. [Régua única: reportagem/citação que replica o órgão não conta como leitura na fonte; confere, mas segue false até abrir o relatório oficial.]"
     }
    ],
    "criticas": "Foca em crime utilitário; não explica violência expressiva; ignora crime de colarinho branco (Sutherland) e agência; a maioria dos pobres não comete crime.",
@@ -2131,9 +2164,10 @@
     {
      "titulo": "Broken Windows, The Atlantic Monthly",
      "ano": 1982,
-     "url": "",
+     "url": "https://www.theatlantic.com/magazine/archive/1982/03/broken-windows/304465/",
      "doi": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "URL do arquivo do The Atlantic (março de 1982) não pôde ser aberta (bloqueio do site); título, autores e data seguem de memória e de Crossref indireto. Mantido false."
     }
    ],
    "ideia_central": "Desordem visível não tratada (janelas quebradas) sinaliza ausência de controle e atrai crime mais grave; propõe policiamento de manutenção da ordem em nível local. A forma de implementação (tolerância zero) foi derivação posterior.",
@@ -2155,7 +2189,8 @@
      "descricao": "Sampson e Raudenbush (1999) argumentam que desordem e crime têm causas comuns na estrutura do bairro (resumo não lido).",
      "fonte": "Sampson e Raudenbush (1999), AJS (DOI: 10.1086/210356)",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Crossref confirma título, autores e ano (DOI 10.1086/210356: 'Systematic Social Observation of Public Spaces: A New Look at Disorder in Urban Neighborhoods'), mas o resumo não estava disponível. A tese de causas comuns de desordem e crime segue de memória."
     }
    ],
    "criticas": "Crítica empírica: a relação entre desordem e crime seria espúria (pobreza, desvantagem); policiamento agressivo gera prisões seletivas, efeitos raciais e desconfiança. Atribuir queda de homicídios em Nova York só a janelas quebradas é contestado.",
@@ -2201,10 +2236,11 @@
    "explica_no_brasil": "Liga violência e corrupção: o custo do crime de poder (custo_corrupcao.json) e a seletividade penal; tensiona leituras que só olham o crime de rua.",
    "evidencias": [
     {
-     "descricao": "Seletividade penal: prisões por tráfico e roubo pesam na população prisional; crimes econômicos pesam pouco (dado prisional por tipo de crime no repositório, sem série).",
-     "fonte": "humano_nacional.json#prisional_trafico_drogas",
-     "url": "",
-     "verificado": false
+     "descricao": "Seletividade penal (31/12/2025): entre as incidências penais, tráfico de drogas (214.653) e roubo (180.923) pesam muito; estelionato (4.819) e apropriação indébita previdenciária (171) pesam pouco, mas a tabela não traz crimes tributários ou financeiros; sem série.",
+     "fonte": "SENAPPEN/SISDEPEN 19º ciclo (2º semestre de 2025)",
+     "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen/relatorios/relatorios-de-informacoes-penitenciarias/relatorio-do-2o-semestre-de-2025.pdf/@@display-file/file",
+     "verificado": true,
+     "nota": "SISDEPEN 31/12/2025 lido, somando celas físicas e domiciliar: tráfico (item 'Tráfico de Drogas') 214.653; roubo simples 62.690 + qualificado 118.233 = 180.923; estelionato 4.819 e apropriação indébita previdenciária 171. A tabela não tem categoria para crimes tributários, financeiros ou contra a ordem econômica, então 'crimes econômicos pesam pouco' é leitura parcial (só o que a tabela separa). Incidências, não pessoas. Leitura rival: o perfil reflete a distribuição real de crimes e a capacidade de investigação, não só seleção."
     }
    ],
    "criticas": "Associação diferencial é pouco falseável; Sutherland não mediu a violência; a definição de crime de colarinho branco é debatida (Tappan).",
@@ -2246,9 +2282,10 @@
     {
      "titulo": "The Narrow Corridor",
      "ano": 2019,
-     "url": "",
+     "url": "https://openlibrary.org/works/OL20220421W",
      "doi": "",
-     "verificado": false
+     "verificado": true,
+     "nota": "Open Library: The Narrow Corridor, Acemoglu e Robinson, Penguin Press, 2019."
     }
    ],
    "ideia_central": "Prosperidade e paz dependem de instituições inclusivas e de um Estado forte, mas \"acorrentado\" por uma sociedade mobilizada (corredor estreito). Estado ausente (sem monopólio) ou despótico produz violência. Na Colômbia, paramilitares persistem quando convêm a políticos.",
@@ -2558,10 +2595,11 @@
    "explica_no_brasil": "Fundamenta a leitura da violência racial como resultado de exclusão histórica: a diferença de risco de homicídio por raça (2,7) é herança medida. A autocracia explica a convivência entre democracia formal e violência de Estado.",
    "evidencias": [
     {
-     "descricao": "Em 2023 a razão de risco de homicídio negro vs. não negro foi 2,7 e 77,8% das vítimas com raça informada eram negras (SIM).",
-     "fonte": "fator_humano.json#vu-negros-2023; humano_nacional.json#pct_vitimas_negras_raca_informada",
-     "url": "",
-     "verificado": false
+     "descricao": "Em 2023 a razão de risco de homicídio negro vs. não negro foi 2,7 e cerca de 77% das vítimas (35.213 de 45.747) eram negras (Atlas da Violência 2025).",
+     "fonte": "Atlas da Violência 2025 (Ipea/FBSP), via Jornal do Brasil",
+     "url": "https://www.jb.com.br/brasil/direitos-humanos/2025/05/1055452-risco-de-negro-ser-vitima-de-homicidio-e-27-vezes-maior-no-brasil.html",
+     "verificado": false,
+     "nota": "Lido em reportagem do JB sobre o Atlas da Violência 2025: razão de risco 2,7 (2023), 35.213 homicídios de pretos e pardos e 45.747 no total (35.213/45.747 = 77,0%, aritmética). O 77,8% antigo é o cálculo do repositório sobre o SIM entre as mortes com raça informada (denominador diferente) e não foi reaberto no SIM; o texto passou a usar o número do Atlas. Relatório do Atlas não aberto, só a reportagem. [Régua única: reportagem/citação que replica o órgão não conta como leitura na fonte; confere, mas segue false até abrir o relatório oficial.]"
     }
    ],
    "criticas": "Críticas: determinismo de classe, subestima agência do movimento negro; revisões (Guimarães) sobre racismo e classes. A explicação não separa desigualdade de racismo em cada caso.",
@@ -2607,8 +2645,9 @@
     {
      "descricao": "Indígenas mortos por ação ou omissão do Estado, 1946-1988: ao menos 8.350 (estimativa CNV).",
      "fonte": "fator_humano.json#ind-cnv-8350",
-     "url": "",
-     "verificado": false
+     "url": "http://www.marxists.org/portugues/tematica/livros/cnv/pdf/volume_2_digital.pdf",
+     "verificado": true,
+     "nota": "CNV vol. II, Texto 5 (povos indígenas), p. 205: 'foi possível estimar ao menos 8.350 indígenas mortos no período de investigação da CNV' por ação direta ou omissão; a CNV diz que o número real deve ser 'exponencialmente maior', pois só uma parcela dos povos foi analisada."
     }
    ],
    "criticas": "Romantização da mestiçagem; narrativa de síntese contestada por pensadores negros e indígenas; precisão de números de memória.",
@@ -2660,10 +2699,11 @@
    "explica_no_brasil": "Fornece o fio histórico entre escravidão, mandonismo local e violência de Estado, reforçando o anel de legitimidade; também a crítica ao mito de passado pacífico.",
    "evidencias": [
     {
-     "descricao": "Para 2023, 77,8% das vítimas de homicídio com raça informada eram negras; o número descreve e a história oferece interpretação.",
-     "fonte": "humano_nacional.json#pct_vitimas_negras_raca_informada",
-     "url": "",
-     "verificado": false
+     "descricao": "Para 2023, cerca de 77% das vítimas de homicídio (35.213 de 45.747, Atlas 2025) eram negras; o número descreve e a história oferece interpretação.",
+     "fonte": "Atlas da Violência 2025 (Ipea/FBSP), via Jornal do Brasil",
+     "url": "https://www.jb.com.br/brasil/direitos-humanos/2025/05/1055452-risco-de-negro-ser-vitima-de-homicidio-e-27-vezes-maior-no-brasil.html",
+     "verificado": false,
+     "nota": "Lido em reportagem do JB sobre o Atlas da Violência 2025: razão de risco 2,7 (2023), 35.213 homicídios de pretos e pardos e 45.747 no total (35.213/45.747 = 77,0%, aritmética). O 77,8% antigo é o cálculo do repositório sobre o SIM entre as mortes com raça informada (denominador diferente) e não foi reaberto no SIM; o texto passou a usar o número do Atlas. Relatório do Atlas não aberto, só a reportagem. [Régua única: reportagem/citação que replica o órgão não conta como leitura na fonte; confere, mas segue false até abrir o relatório oficial.]"
     }
    ],
    "criticas": "Texto ensaístico, de difícil falseamento; a lista de \"raízes\" pode diluir a explicação; evidências quantitativas são de outros autores.",
@@ -2745,9 +2785,10 @@
     {
      "titulo": "Malandros, marginais e vagabundos e a acumulação social da violência no Rio de Janeiro (tese)",
      "ano": 1999,
-     "url": "",
+     "url": "https://www.uece.br/cesa/wp-content/uploads/sites/32/2022/06/malandros_marginais_e_vagabundos_michel_misse.pdf",
      "doi": "",
-     "verificado": false
+     "verificado": true,
+     "nota": "Folha de rosto lida no PDF: Michel Misse, 'Malandros, marginais e vagabundos & a acumulação social da violência no Rio de Janeiro', tese de doutorado em Ciências Humanas (Sociologia), IUPERJ, defendida em 20/12/1999."
     },
     {
      "titulo": "Crime, sujeito e sujeição criminal, Lua Nova 79",
@@ -2864,9 +2905,10 @@
     {
      "titulo": "Cidade de muros: crime, segregação e cidadania em São Paulo (City of Walls)",
      "ano": 2000,
-     "url": "",
+     "url": "https://openlibrary.org/works/OL5157625W",
      "doi": "",
-     "verificado": false
+     "verificado": true,
+     "nota": "Open Library: City of Walls, Caldeira, University of California Press, 2000; edição brasileira Editora 34/Edusp, 2000."
     }
    ],
    "ideia_central": "O medo do crime e a \"fala do crime\" levam a enclaves fortificados (condomínios, shoppings), segurança privada e segregação: a elite se isola, o espaço público encolhe e a cidadania se fragmenta. A violência é também produtora de desigualdade espacial.",
@@ -2911,7 +2953,8 @@
      "ano": 1995,
      "url": "",
      "doi": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Autor, periódico, volume 10(2), 1995, p. 299-342 apontados por listagem do periódico em resultado de busca; página do artigo não aberta e Crossref não retornou DOI."
     },
     {
      "titulo": "O fracasso do controle legal dos crimes e da violência na sociedade brasileira contemporânea, Ciência & Cultura",
@@ -2964,16 +3007,18 @@
     {
      "titulo": "Autoritarismo e transição, Revista USP 9",
      "ano": 1991,
-     "url": "",
-     "doi": "",
-     "verificado": false
+     "url": "https://doi.org/10.11606/issn.2316-9036.v0i9p45-56",
+     "doi": "10.11606/issn.2316-9036.v0i9p45-56",
+     "verificado": true,
+     "nota": "Crossref: Pinheiro, 'Autoritarismo e transição', Revista USP 9, 1991, p. 45-56."
     },
     {
      "titulo": "Violência fatal: conflitos policiais em São Paulo (81-89), Revista USP 9",
      "ano": 1991,
-     "url": "",
-     "doi": "",
-     "verificado": false
+     "url": "https://doi.org/10.11606/issn.2316-9036.v0i9p95-112",
+     "doi": "10.11606/issn.2316-9036.v0i9p95-112",
+     "verificado": true,
+     "nota": "Crossref: Pinheiro, Izumino e Fernandes, 'Violência fatal: conflitos policiais em São Paulo (81-89)', Revista USP 9, 1991, p. 95-112. Coautoria registrada."
     }
    ],
    "ideia_central": "O \"autoritarismo socialmente implantado\": práticas autoritárias (tortura, execução, arbitrariedade) persistem em instituições e na sociedade depois da transição democrática, de modo que a democracia política convive com ilegalidade no tratamento dos pobres.",
@@ -3017,9 +3062,10 @@
     {
      "titulo": "Letalidade da ação policial no Rio de Janeiro, ISER",
      "ano": 1997,
-     "url": "",
+     "url": "https://openlibrary.org/works/OL23942082W",
      "doi": "",
-     "verificado": false
+     "verificado": true,
+     "nota": "Open Library: Cano, Letalidade da ação policial no Rio de Janeiro, ISER, 1997."
     }
    ],
    "ideia_central": "Medir a letalidade policial e avaliar políticas com evidência: a razão entre mortos e feridos, o perfil das vítimas e a ligação com o contexto de confronto.",
@@ -3124,9 +3170,10 @@
     {
      "titulo": "Entre palavras e números: violência, democracia e segurança pública no Brasil",
      "ano": 2011,
-     "url": "",
+     "url": "https://openlibrary.org/works/OL22774036W",
      "doi": "",
-     "verificado": false
+     "verificado": true,
+     "nota": "Open Library: Renato Sérgio de Lima, Entre palavras e números, Alameda, 2011."
     },
     {
      "titulo": "Anuário Brasileiro de Segurança Pública (FBSP)",
@@ -3178,23 +3225,26 @@
     {
      "titulo": "Difíceis ganhos fáceis: drogas e juventude pobre no Rio de Janeiro",
      "ano": 1998,
-     "url": "",
+     "url": "https://openlibrary.org/works/OL7804924W",
      "doi": "",
-     "verificado": false
+     "verificado": true,
+     "nota": "Open Library: Difíceis ganhos fáceis, Batista, Freitas Bastos/Instituto Carioca de Criminologia, 1998 (reed. Revan, 2003)."
     },
     {
      "titulo": "O medo na cidade do Rio de Janeiro: dois tempos de uma história",
      "ano": 2003,
-     "url": "",
+     "url": "https://openlibrary.org/works/OL23943073W",
      "doi": "",
-     "verificado": false
+     "verificado": true,
+     "nota": "Open Library: O medo na cidade do Rio de Janeiro, Batista, Revan, 2003."
     },
     {
      "titulo": "Introdução crítica à criminologia brasileira",
      "ano": 2011,
      "url": "",
      "doi": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Bibliografia da UFRJ (resultado de busca) lista Revan, 2011; registro bibliográfico próprio não aberto."
     }
    ],
    "ideia_central": "O sistema penal brasileiro, desde o século XIX, controla a juventude pobre e negra; o medo foi produzido como política de ordem e a \"guerra às drogas\" substitui o controle da escravidão pela criminalização.",
@@ -3207,10 +3257,11 @@
    "explica_no_brasil": "Serve de contraponto às leituras punitivistas: pergunta quem é encarcerado e por quê. Pode ser testada com dados prisionais por tipo de crime e raça, que estão no repositório apenas para 2025.",
    "evidencias": [
     {
-     "descricao": "População prisional 2025 no repositório: pessoas pretas 133.985; registros de tráfico 214.653.",
-     "fonte": "humano_nacional.json#prisional_pretos",
-     "url": "",
-     "verificado": false
+     "descricao": "População prisional em 31/12/2025: pessoas pretas 133.985; incidências de tráfico de drogas 214.653 (contagens paralelas).",
+     "fonte": "SENAPPEN/SISDEPEN 19º ciclo (2º semestre de 2025)",
+     "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen/relatorios/relatorios-de-informacoes-penitenciarias/relatorio-do-2o-semestre-de-2025.pdf/@@display-file/file",
+     "verificado": true,
+     "nota": "SISDEPEN 31/12/2025 lido: pretos 133.985 e incidências de tráfico 214.653 (ver item de Foucault); são contagens paralelas, não se cruzam."
     }
    ],
    "criticas": "Pouco diálogo com evidência quantitativa de eficácia policial; críticos dizem subestimar o dano das facções às comunidades pobres. As obras são citadas de memória.",
@@ -3253,10 +3304,11 @@
    "explica_no_brasil": "Ajuda a ler a seletividade racial da polícia e da justiça como efeito de instituições que se protegem; liga violência simbólica (Bourdieu) à física (homicídios).",
    "evidencias": [
     {
-     "descricao": "Razão de risco de homicídio negro vs. não negro: 2,7 (2023); 77,8% das vítimas com raça informada eram negras.",
-     "fonte": "fator_humano.json#vu-negros-2023",
-     "url": "",
-     "verificado": false
+     "descricao": "Razão de risco de homicídio negro vs. não negro: 2,7 (2023); cerca de 77% das vítimas (35.213 de 45.747) eram negras.",
+     "fonte": "Atlas da Violência 2025 (Ipea/FBSP), via Jornal do Brasil",
+     "url": "https://www.jb.com.br/brasil/direitos-humanos/2025/05/1055452-risco-de-negro-ser-vitima-de-homicidio-e-27-vezes-maior-no-brasil.html",
+     "verificado": false,
+     "nota": "Lido em reportagem do JB sobre o Atlas da Violência 2025: razão de risco 2,7 (2023), 35.213 homicídios de pretos e pardos e 45.747 no total (35.213/45.747 = 77,0%, aritmética). O 77,8% antigo é o cálculo do repositório sobre o SIM entre as mortes com raça informada (denominador diferente) e não foi reaberto no SIM; o texto passou a usar o número do Atlas. Relatório do Atlas não aberto, só a reportagem. [Régua única: reportagem/citação que replica o órgão não conta como leitura na fonte; confere, mas segue false até abrir o relatório oficial.]"
     }
    ],
    "criticas": "Conceito de difícil teste quantitativo; pode ser lido como atribuição de intenção coletiva; a ligação com a letalidade exige estudos específicos.",
@@ -3396,10 +3448,11 @@
    "explica_no_brasil": "Ver pilares_pensamento.json. A CNV estimou ao menos 8.350 indígenas mortos por ação ou omissão do Estado (1946-1988); a violência ambiental e territorial continua.",
    "evidencias": [
     {
-     "descricao": "Indígenas mortos por ação ou omissão do Estado (estimativa CNV): 8.350.",
+     "descricao": "Indígenas mortos por ação ou omissão do Estado (estimativa da CNV, ao menos): 8.350.",
      "fonte": "fator_humano.json#ind-cnv-8350",
-     "url": "",
-     "verificado": false
+     "url": "http://www.marxists.org/portugues/tematica/livros/cnv/pdf/volume_2_digital.pdf",
+     "verificado": true,
+     "nota": "CNV vol. II, Texto 5, p. 205: 'ao menos 8.350 indígenas mortos' (ação direta ou omissão), cifra que a CNV chama de parcial."
     }
    ],
    "criticas": "Pensamento de natureza ensaística; sem prescrição legal; alguns críticos dizem generalizar \"os indígenas\".",
@@ -3495,7 +3548,8 @@
      "descricao": "Notificações de violência contra mulheres: 437.734 em 2024, das quais 115.351 por parceiro íntimo e 73.616 sexual (SINAN; notificação e não incidência).",
      "fonte": "humano_nacional.json#sinan_mulheres_total",
      "url": "",
-     "verificado": false
+     "verificado": false,
+     "nota": "Números do SINAN (2024) derivados de microdados DATASUS, não reabertos nesta rodada."
     }
    ],
    "criticas": "Obra dispersa e de memória oral; nem sempre sistemática; relação com dados quantitativos é indireta.",
@@ -3540,8 +3594,9 @@
     {
      "descricao": "CNV: 434 mortos e desaparecidos políticos (1946-1988) reconhecidos; BNM: 1.843 pessoas denunciaram tortura em 707 processos.",
      "fonte": "fator_humano.json#est-cnv-434, #est-bnm-torturados",
-     "url": "",
-     "verificado": false
+     "url": "http://www.marxists.org/portugues/tematica/livros/cnv/pdf/volume_3_digital.pdf",
+     "verificado": true,
+     "nota": "CNV vol. III: 434 (1946-1988) lido; BNM lido: 1843 depoentes denunciando tortura em 707 processos. Fonte do BNM: texto do projeto no Marxists.org."
     }
    ],
    "criticas": "Debate sobre classificar ações como \"terrorismo\" ou \"resistência\"; críticas à luta armada pela falta de base de massa (Goldstone/Skocpol, Chenoweth); críticas ao regime pela violência sistemática. A apresentação deve manter os dois lados da violência sem equiparar escalas.",
@@ -3593,8 +3648,9 @@
     {
      "descricao": "BNM: 1.843 pessoas denunciaram tortura em 707 processos (1964-1979); CNV: 434 mortos e desaparecidos; 8.350 indígenas (estimativa).",
      "fonte": "fator_humano.json#est-bnm-torturados, #est-cnv-434, #ind-cnv-8350",
-     "url": "",
-     "verificado": false
+     "url": "http://www.marxists.org/portugues/tematica/livros/cnv/pdf/volume_3_digital.pdf",
+     "verificado": true,
+     "nota": "BNM: 1843 depoentes e 707 processos (1964-1979); CNV vol. III: 434; CNV vol. II, Texto 5, p. 205: ao menos 8.350 indígenas. Todos lidos."
     }
    ],
    "criticas": "Números são mínimos (subnotificação, documentos destruídos); controvérsia política sobre o relatório; a CNV não teve poder de persecução.",
@@ -3630,9 +3686,11 @@
    "exemplos_brasil": [
     {
      "descricao": "Homicídios (Atlas)",
-     "valor": "42.590 em 2024; 19,57 por 100 mil",
+     "valor": "42.590 em 2024; 20,1 por 100 mil (Atlas)",
      "fonte": "humano_nacional.json#atlas_homicidios",
-     "verificado": false
+     "verificado": true,
+     "url": "http://www.ipeadata.gov.br/api/odata4/ValoresSerie(SERCODIGO='AVIOL12_HOMIC')",
+     "nota": "Corrigido: 42.590 lido no Ipeadata AVIOL12_HOMIC e em reportagem do Atlas 2026; taxa de 20,1 por 100 mil (Ipeadata AVIOL12_THOMIC). O 19,57 era o recálculo do repositório com população IBGE."
     },
     {
      "descricao": "Mortes violentas intencionais (FBSP)",
@@ -3658,20 +3716,25 @@
     {
      "descricao": "Razão de risco de homicídio negro vs. não negro",
      "valor": "2,7 (2023)",
-     "fonte": "fator_humano.json#vu-negros-2023",
-     "verificado": false
+     "fonte": "Atlas da Violência 2025 via Jornal do Brasil",
+     "verificado": false,
+     "url": "https://www.jb.com.br/brasil/direitos-humanos/2025/05/1055452-risco-de-negro-ser-vitima-de-homicidio-e-27-vezes-maior-no-brasil.html",
+     "nota": "Lido em reportagem do JB sobre o Atlas da Violência 2025: razão de risco 2,7 (2023), 35.213 homicídios de pretos e pardos e 45.747 no total (35.213/45.747 = 77,0%, aritmética). O 77,8% antigo é o cálculo do repositório sobre o SIM entre as mortes com raça informada (denominador diferente) e não foi reaberto no SIM; o texto passou a usar o número do Atlas. Relatório do Atlas não aberto, só a reportagem. [Régua única: reportagem/citação que replica o órgão não conta como leitura na fonte; confere, mas segue false até abrir o relatório oficial.]"
     },
     {
      "descricao": "Jovens de 14 a 29 anos sem ensino médio",
      "valor": "cerca de 9 milhões (2023)",
      "fonte": "fator_humano.json#edu-jovens-sem-em-2023",
-     "verificado": false
+     "verificado": false,
+     "url": "https://www.metropoles.com/brasil/nove-milhoes-de-jovens-nao-terminaram-o-ensino-medio-em-2023-diz-pnad",
+     "nota": "Lido via Metrópoles/PNAD Contínua Educação 2023 (IBGE); página do IBGE não aberta. [Régua única: reportagem/citação que replica o órgão não conta como leitura na fonte; confere, mas segue false até abrir o relatório oficial.]"
     },
     {
      "descricao": "Trabalhadores resgatados de condição análoga à de escravo",
      "valor": "65.598 (1995-2024, cumulativo)",
      "fonte": "fator_humano.json#trab-resgates-1995-2024",
-     "verificado": false
+     "verificado": false,
+     "nota": "65.598 resgatados (1995-2024, MTE/SIT) lido apenas por reportagem de busca; sem leitura da fonte."
     }
    ],
    "como_medir": "Diferenciais evitáveis (mortalidade, escolaridade, renda) por grupo; contrafactual do \"potencial\".",
@@ -3698,7 +3761,8 @@
      "descricao": "Atitudes de apoio à violência (pesquisas de opinião)",
      "valor": "não medido no repositório",
      "fonte": "ausente",
-     "verificado": false
+     "verificado": false,
+     "nota": "Declara ausência de medida no repositório; nada a conferir."
     }
    ],
    "como_medir": "Pesquisas de atitudes, análise de discurso e de mídia, legislação histórica.",
@@ -3767,7 +3831,8 @@
      "descricao": "Intervenção legal no SIM (Y35-Y36)",
      "valor": "2.274 (2023)",
      "fonte": "humano_nacional.json#sim_intervencao_legal",
-     "verificado": false
+     "verificado": false,
+     "nota": "2.274 (SIM Y35-Y36, 2023) vem de microdados DATASUS não reabertos. Contraste: o FBSP conta 6.393 mortes por intervenção policial em 2023 (inclui policiais fora de serviço e fontes estaduais); a diferença é de cobertura, não de erro."
     },
     {
      "descricao": "Mortes por intervenção policial no FBSP (mesmo ano)",
@@ -3793,19 +3858,24 @@
      "descricao": "Fundadora: africanos desembarcados no Brasil",
      "valor": "quase 4,8 milhões (1501-1866, estimativa)",
      "fonte": "fator_humano.json#esc-desembarcados-brasil",
-     "verificado": false
+     "verificado": false,
+     "nota": "SlaveVoyages não reaberto; faixa de 4,5 a 5 milhões segue sem conferência."
     },
     {
      "descricao": "Fundadora: indígenas mortos por ação ou omissão do Estado",
      "valor": "8.350 (1946-1988, estimativa CNV)",
      "fonte": "fator_humano.json#ind-cnv-8350",
-     "verificado": false
+     "verificado": true,
+     "url": "http://www.marxists.org/portugues/tematica/livros/cnv/pdf/volume_2_digital.pdf",
+     "nota": "CNV vol. II, Texto 5, p. 205 (ver Krenak/Darcy)."
     },
     {
      "descricao": "Conservadora: população prisional por tráfico (registros)",
      "valor": "214.653 (2025)",
      "fonte": "humano_nacional.json#prisional_trafico_drogas",
-     "verificado": false
+     "verificado": true,
+     "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen/relatorios/relatorios-de-informacoes-penitenciarias/relatorio-do-2o-semestre-de-2025.pdf/@@display-file/file",
+     "nota": "SENAPPEN/SISDEPEN 2º sem. 2025: 192.699 + 17.637 + 4.317 = 214.653 incidências (cela física + domiciliares)."
     }
    ],
    "como_medir": "Análise histórica e jurídica; contagens de mortes em conquista e em policiamento.",
@@ -3822,9 +3892,11 @@
    "exemplos_brasil": [
     {
      "descricao": "Ciclos de retaliação entre facções e linchamentos",
-     "valor": "não medido",
-     "fonte": "Martins (1995, linchamentos; resumo não lido)",
-     "verificado": false
+     "valor": "linchamentos: 515 casos noticiados em 1970-1994 (Martins 1995); retaliação entre facções: não medido",
+     "fonte": "Martins (1995), Estudos Avançados",
+     "verificado": true,
+     "url": "http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0103-40141995000300022&lng=pt&tlng=pt",
+     "nota": "Martins (1995) lido: 515 linchamentos e tentativas em 1970-1994 (imprensa). Ciclos de retaliação entre facções seguem sem medida no repositório."
     }
    ],
    "como_medir": "Séries de eventos de retaliação, análise de redes de conflito; sem indicador padrão.",
@@ -3846,19 +3918,24 @@
      "descricao": "Mortos e desaparecidos políticos reconhecidos pela CNV",
      "valor": "434 (1946-1988)",
      "fonte": "fator_humano.json#est-cnv-434",
-     "verificado": false
+     "verificado": true,
+     "url": "http://www.marxists.org/portugues/tematica/livros/cnv/pdf/volume_3_digital.pdf",
+     "nota": "CNV vol. III, p. 25-26: 434 (18/09/1946 a 05/10/1988)."
     },
     {
      "descricao": "Pessoas que denunciaram tortura (BNM)",
      "valor": "1.843 em 707 processos (1964-1979)",
      "fonte": "fator_humano.json#est-bnm-torturados",
-     "verificado": false
+     "verificado": true,
+     "url": "http://www.marxists.org/portugues/tematica/livros/nunca/index.htm",
+     "nota": "BNM lido: 1843 depoentes e 707 processos; recorte 1964-1979."
     },
     {
      "descricao": "Camponeses mortos e desaparecidos",
      "valor": "1.196 (1961-1988, estimativa)",
      "fonte": "fator_humano.json#est-ccv-camponeses",
-     "verificado": false
+     "verificado": false,
+     "nota": "1.196 (Comissão Camponesa da Verdade) não reaberto; ver nota do item de Marx e Engels."
     }
    ],
    "como_medir": "Relatórios de comissões da verdade, registros policiais, ouvidorias, controle externo.",
@@ -3878,15 +3955,18 @@
    "exemplos_brasil": [
     {
      "descricao": "Luta armada e repressão, 1964-1974",
-     "valor": "ver CNV: 434 mortos e desaparecidos",
+     "valor": "CNV: 434 mortos e desaparecidos políticos em 1946-1988 (não recorta a luta armada)",
      "fonte": "fator_humano.json#est-cnv-434",
-     "verificado": false
+     "verificado": true,
+     "url": "http://www.marxists.org/portugues/tematica/livros/cnv/pdf/volume_3_digital.pdf",
+     "nota": "O 434 da CNV cobre 1946-1988 e todos os tipos de vítima política (inclusive guerrilheiros mortos); não é recorte da luta armada 1964-1974. Texto ajustado."
     },
     {
      "descricao": "Violência política e eleitoral contemporânea",
      "valor": "sem série verificada no repositório",
      "fonte": "ausente",
-     "verificado": false
+     "verificado": false,
+     "nota": "Declara ausência de série; nada a conferir."
     }
    ],
    "como_medir": "Bases de eventos (ACLED, observatórios), comissões da verdade.",
@@ -3912,7 +3992,8 @@
      "descricao": "Notificações de violência contra mulheres por parceiro íntimo",
      "valor": "115.351 em 2024 (SINAN)",
      "fonte": "humano_nacional.json#sinan_mulheres_parceiro",
-     "verificado": false
+     "verificado": false,
+     "nota": "SINAN 115.351 (2024) vem de microdados DATASUS, não reabertos."
     }
    ],
    "como_medir": "Feminicídios (tipificação penal), SINAN, pesquisas de vitimização.",
@@ -3931,13 +4012,15 @@
      "descricao": "Notificações SINAN de violência contra 0-17 anos",
      "valor": "201.453 em 2024 (sexual 58.250)",
      "fonte": "humano_nacional.json#viol_infantil_total",
-     "verificado": false
+     "verificado": false,
+     "nota": "SINAN 201.453 (2024) e 58.250 sexual vêm de microdados DATASUS, não reabertos."
     },
     {
      "descricao": "Crianças e adolescentes entre as vítimas de estupro (FBSP)",
      "valor": "61% das vítimas de estupro em 2024 (resultado de busca)",
      "fonte": "ANDI via busca",
-     "verificado": false
+     "verificado": false,
+     "nota": "61% de crianças e adolescentes entre vítimas de estupro (FBSP 2024) lido só em resultado de busca; Anuário do FBSP não aberto."
     }
    ],
    "como_medir": "SINAN, Disque 100, registros policiais.",
@@ -3958,8 +4041,10 @@
     {
      "descricao": "Razão de risco de homicídio negro vs. não negro",
      "valor": "2,7 (2023)",
-     "fonte": "fator_humano.json#vu-negros-2023",
-     "verificado": false
+     "fonte": "Atlas da Violência 2025 via Jornal do Brasil",
+     "verificado": false,
+     "url": "https://www.jb.com.br/brasil/direitos-humanos/2025/05/1055452-risco-de-negro-ser-vitima-de-homicidio-e-27-vezes-maior-no-brasil.html",
+     "nota": "Lido em reportagem do JB sobre o Atlas da Violência 2025: razão de risco 2,7 (2023), 35.213 homicídios de pretos e pardos e 45.747 no total (35.213/45.747 = 77,0%, aritmética). O 77,8% antigo é o cálculo do repositório sobre o SIM entre as mortes com raça informada (denominador diferente) e não foi reaberto no SIM; o texto passou a usar o número do Atlas. Relatório do Atlas não aberto, só a reportagem. [Régua única: reportagem/citação que replica o órgão não conta como leitura na fonte; confere, mas segue false até abrir o relatório oficial.]"
     },
     {
      "descricao": "Negros entre mortos por intervenção policial",
@@ -3992,7 +4077,8 @@
      "descricao": "Camponeses mortos e desaparecidos (1961-1988)",
      "valor": "1.196 (estimativa)",
      "fonte": "fator_humano.json#est-ccv-camponeses",
-     "verificado": false
+     "verificado": false,
+     "nota": "1.196 (Comissão Camponesa da Verdade) não reaberto."
     }
    ],
    "como_medir": "Monitoramento por satélite (garimpo), registros de saúde, comissões de conflitos agrários.",
@@ -4039,7 +4125,8 @@
      "descricao": "Homicídios por arma de fogo (SIM)",
      "valor": "30.549 de 42.936 em 2023",
      "fonte": "humano_nacional.json#sim_homicidios_arma_fogo",
-     "verificado": false
+     "verificado": false,
+     "nota": "30.549 de 42.936 (SIM 2023) vêm de microdados DATASUS, não reabertos. Observação: o Atlas contabiliza 45.747 homicídios em 2023, que incluem intervenção legal e outras definições; 42.936 é a contagem SIM X85-Y09 do repositório."
     }
    ],
    "como_medir": "SIM por instrumento, rastreamento de armas.",
@@ -4423,7 +4510,8 @@
    "fonte": "Correio Braziliense e Diário do Nordeste (atribuição ao Atlas)",
    "url": "https://www.correiobraziliense.com.br/politica/2025/11/7284010-cada-morte-violenta-no-pais-custa-em-media-rs-1-milhao-aos-cofres-publicos.html",
    "verificado": false,
-   "ressalva": "A atribuição ao Atlas 2025 não foi confirmada no documento do Ipea; a coluna do Diário do Nordeste cita o FBSP; o valor é próximo ao do Igarapé (10,24%), que mistura segmentos. Tratar como não verificado e controverso."
+   "ressalva": "A atribuição ao Atlas 2025 não foi confirmada no documento do Ipea; a coluna do Diário do Nordeste cita o FBSP; o valor é próximo ao do Igarapé (10,24%), que mistura segmentos. Tratar como não verificado e controverso.",
+   "nota": "Lido: o Correio Braziliense (nov/2025) atribui ao Atlas da Violência 2025 'custos diretos e indiretos somam cerca de 11% do PIB, mais de R$ 1 trilhão por ano'. O documento do Ipea com essa cifra não foi localizado (o repositório Ipea acessado trazia outro texto, TD 1295/2007). Reportagens também citam R$ 1 milhão por morte violenta e mais de R$ 46 bilhões só em homicídios, de cálculos anteriores do Ipea. Seguir tratando como alegação de imprensa não confirmada."
   },
   {
    "descricao": "Custo da criminalidade na América Latina e Caribe: em média 3,55% do PIB (17 países, 2010-2014); Brasil é o país com maior custo em termos nominais (BID, Jaitman, 2017)",
