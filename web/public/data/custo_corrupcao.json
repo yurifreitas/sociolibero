@@ -1,0 +1,2221 @@
+{
+ "meta": {
+  "gerado_em": "2026-10-06",
+  "aviso": "Levantamento de pesquisa aberta, não auditoria. Contagem não é estimativa e nenhuma das duas é prova de culpa de pessoa ou empresa: casos aparecem como 'apurado por X' com o status; nada aqui acusa nominalmente. Estimativas macro de corrupção (percepção, extrapolações) têm incerteza grande e fontes com interesse; parte do desvio não é recuperável. Nenhum número alimenta o modelo macro sem a suposição rotulada em `recuperacao_macro`.",
+  "criterio_verificacao": "verificado=true: a página/PDF da fonte foi aberta nesta pesquisa e o número foi lido nela. verificado=false: o número veio de resumo de busca ou de imprensa secundária e precisa ser reconferido antes de citar. contagem = valor apurado em processo, auditoria, balanço ou relatório oficial; estimativa = modelo ou extrapolação.",
+  "ancora_pib": {
+   "ano": 2025,
+   "valor_rs_bi": 12700.0,
+   "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)",
+   "url": "https://agenciadenoticias.ibge.gov.br/agencia-sala-de-imprensa/45968-pib-cresce-2-3-em-2025-e-fecha-o-ano-em-r-12-7-trilhoes.html",
+   "verificado": false,
+   "nota": "Pagina do IBGE retornou HTTP 403 (nao contornado). Manchete IBGE 'fecha o ano em R$ 12,7 trilhoes' vista no titulo da busca; InfoMoney e Movimento Economico (abertos) repetem R$ 12,7 tri, sem casas decimais. Valor exato em R$ mi: LACUNA (conferir SIDRA/Contas Nacionais). PIB 2024 (corrente) nao encontrado em fonte aberta; referencia de memoria ~R$ 11,7 tri (NAO verificado, so ordem de grandeza). Para o DGT PLOA 2026 a Receita usa PIB projetado 2026 = R$ 13.826,3 bi (verificado no xlsx, Quadro VI)."
+  },
+  "resumo": {
+   "areas": 16,
+   "valores": 75,
+   "valores_verificados": 23,
+   "contagem": 45,
+   "estimativa": 30,
+   "beneficios": 14,
+   "beneficios_verificados": 7,
+   "modelos": 14
+  },
+  "lacunas": [
+   "PIB nominal 2025: IBGE respondeu 403 (não contornado); âncora R$ 12.700 bi é o valor arredondado da manchete do IBGE confirmado em imprensa (verificado=false); conferir em SIDRA/Contas Nacionais.",
+   "FIESP/Decomtec: PDF original não localizado; faixa 1,38-2,3% vem de resumo de busca.",
+   "FGV: nenhuma estimativa com número foi lida (item sem valor).",
+   "Banco Mundial (Kaufmann 2004) e FMI Fiscal Monitor 2019: citados sem abrir a fonte primária.",
+   "Economia subterrânea (ETCO/FGV): só 2020 aberto; 2022 e posteriores por resumo; Sonegômetro sem valor 2025; sem estimativa oficial de sonegação da Receita.",
+   "Saúde/covid: sem total consolidado CGU/TCU/CPI; FNDE: sem total consolidado; obras: sem sobrepreço agregado do Fiscobras (só volume fiscalizado).",
+   "Emendas: sem % do orçamento discricionário, sem série anual do RP9, sem resultado da auditoria da CGU; números de imprensa.",
+   "Combustíveis: estimativa do ICL só por imprensa; sem ETCO/ANP. CADE 2024/2025 (multas) não confirmados na fonte (403). Compras públicas: % do PIB do Brasil não localizado; fracionamento sem dado.",
+   "Ibama (taxa de pagamento), MapBiomas (garimpo), madeira ilegal e valor em R$ do ouro ilegal: sem fonte lida. Concessões: sem agregado de aditivos/reequilíbrios (item de um caso, não é perda). Lavagem: sem estimativa para o Brasil. CGU: relatório de gestão 2025 não carregou; sem % de achados graves nem agregados de Tribunais de Contas.",
+   "Custo dos regimes diferenciados da reforma tributária, desconto concedido em transação tributária e custo total da dedução de JCP: não encontrados em fonte aberta (central=null).",
+   "Jabutis: R$ 197 bi/25 anos (associação de consumidores) e R$ 348 bi até 2050 (autoria não identificada) vêm de resumo de busca; nenhum estudo de TCU/ANEEL/ABRADEE com número foi achado; não foram anualizados.",
+   "Krueger 1974 e livros (Klitgaard 1988, Rose-Ackerman 1978, Acemoglu-Robinson 2012) sem DOI conferido; Klitgaard, Shleifer-Vishny e Stigler descritos de memória (só a referência foi conferida)."
+  ],
+  "divergencias": [
+   "Gasto tributário 2026: R$ 612,84 bi (xlsx da Receita, DGT PLOA 2026, lido) vs R$ 620,8 bi/4,53% do PIB (imprensa); Simples R$ 134,29 bi vs R$ 120,1 bi; agro R$ 79,25 bi vs R$ 101,3 bi. Não reconciliado; ambas as pontas ficam na faixa.",
+   "FIESP: R$ 41,5-69,1 bi (preços de 2008) vs R$ 80,3-132,8 bi (atualização) vs R$ 120 bi (preços de 2016): anos-base misturados nas fontes.",
+   "Lava Jato recuperado: MPF R$ 4,07 bi restituídos vs Petrobras R$ 6,17 bi (até 2021) vs títulos de imprensa de R$ 28 bi (inclui valores comprometidos; não usado). Dieese 4,4 mi de vagas não localizado (só ~3,5 mi em fontes sindicais).",
+   "Carbono Oculto: R$ 52 bi como 2020-2024 (Receita) e 2017-2025 (denúncia do MPSP).",
+   "INSS: R$ 6,3 bi é 2019-2024 na maioria das fontes (mar/2020-mar/2025 em uma) e é estimativa de PF/CGU, não total comprovado.",
+   "Fundos de pensão: prejuízo da CPI R$ 6,62 bi vs déficit R$ 50 bi (Previc, imprensa) vs R$ 113 bi: conceitos distintos.",
+   "Mauro (1995): números de 1 d.p. 2,9 pp de investimento e 0,8 pp de crescimento (premissa da demanda) NÃO confirmados; o artigo reporta ~4,75 pp e pouco mais de 0,5 pp para o índice de eficiência burocrática. Ferraz-Finan 2008: ~20% (resumo do working paper) vs 27% (busca, não aberto).",
+   "Recuperação PGFN 2025: R$ 68,1 bi na maioria das fontes, R$ 66,1 bi em outras."
+  ]
+ },
+ "panorama": [
+  {
+   "id": "fiesp-decomtec",
+   "descricao": "Custo medio anual da corrupcao no Brasil segundo FIESP/Decomtec (relatorio 'Corrupcao: custos economicos e propostas de combate', 2010): 1,38% a 2,3% do PIB",
+   "faixa_rs_bi": [
+    41.5,
+    69.1
+   ],
+   "pct_pib": null,
+   "periodo": "base 2008 (precos de 2008); relatorio 2010",
+   "tipo": "estimativa",
+   "metodo": "Extrapolacao: custo medio baseado em estudos internacionais de percepcao/propina (faixa 1,38%-2,3% do PIB). R$ 41,5-69,1 bi sao precos de 2008. Variante citada na imprensa (atualizacao posterior, base PIB ~R$ 5,9 tri): R$ 80,3 bi (1,36%, cenario realista) e R$ 132,84 bi (2,25%). Aplicacao ilustrativa dos % ao PIB 2025 (R$ 12.700 bi, calculo nosso, nao da FIESP): R$ 175 bi a R$ 292 bi.",
+   "fonte": "FIESP/Decomtec via Monitor Mercantil 'O preco da corrupcao' (PDF original da FIESP nao localizado; URL tentada deu 404)",
+   "url": "https://monitormercantil.com.br/o-preco-da-corrupcao/",
+   "verificado": false,
+   "critica_metodologica": "Divergencia: fontes secundarias misturam anos-base (2008: R$41,5-69,1 bi; versao atualizada: R$80,3-132,8 bi; outra citacao: R$120 bi a valores de 2016). A pagina aberta (Monitor Mercantil) so traz R$80,3/132,84 bi e 1,36%/2,25%; os 1,38%-2,3% e R$41,5-69,1 bi vieram de resumo de busca. Metodo baseia-se em percepcao, nao em desvio apurado; nao e valor recuperavel.",
+   "faixa_pct_pib": [
+    1.38,
+    2.3
+   ],
+   "equivalente_rs_bi_ancora": {
+    "faixa": [
+     175,
+     292
+    ],
+    "nota": "% do PIB × PIB nominal 2025; cálculo nosso, não da fonte."
+   }
+  },
+  {
+   "id": "ti-ipc-2025",
+   "descricao": "Transparencia Internacional, Indice de Percepcao da Corrupcao 2025: Brasil 35/100, 107o entre 182 paises (34 em 2024; media global 42)",
+   "faixa_rs_bi": null,
+   "pct_pib": null,
+   "periodo": "2025 (divulgado fev/2026)",
+   "tipo": "contagem",
+   "metodo": "Indice composto de pesquisas de percepcao de especialistas e executivos (0-100); nao mede valor financeiro. 'Contagem' = nota publicada, nao R$.",
+   "fonte": "Transparencia Internacional Brasil - IPC",
+   "url": "https://transparenciainternacional.org.br/ipc/",
+   "verificado": true,
+   "critica_metodologica": "Mede percepcao, nao desvio efetivo; variacao de +1 ponto considerada estatisticamente insignificante pela propria TI. Melhor nota do Brasil: 43 (2012 e 2014); pior: 34 (2024). Nao permite derivar R$. InfoMoney confirma 35/107/182."
+  },
+  {
+   "id": "fmi-fiscal-monitor-2019",
+   "descricao": "FMI, Fiscal Monitor abril/2019 cap. 2 'Curbing Corruption': paises menos corruptos arrecadam cerca de 4% do PIB a mais em tributos que pares com mesmo nivel de desenvolvimento e maior corrupcao",
+   "faixa_rs_bi": null,
+   "pct_pib": 4.0,
+   "periodo": "2019 (analise cross-country, 180+ paises)",
+   "tipo": "estimativa",
+   "metodo": "Regressao entre indices de corrupcao e receita tributaria em ~180 paises; NAO e estimativa para o Brasil. Nao convertido em R$ (aplicar 4% ao PIB daria ~R$ 508 bi, extrapolacao indevida).",
+   "fonte": "FMI Fiscal Monitor Abr/2019 (resumo via Monitor Mercantil/resultado de busca; pagina do blog FMI deu 404)",
+   "url": "https://www.imf.org/en/Publications/FM/Issues/2019/03/18/fiscal-monitor-april-2019",
+   "verificado": false,
+   "critica_metodologica": "Correlacao cross-country baseada em indices de percepcao; causalidade e custo nacional nao estabelecidos. Paolo Mauro (1995, FMI) e a referencia classica sobre menor investimento/crescimento; nao consultado diretamente."
+  },
+  {
+   "id": "banco-mundial-suborno",
+   "descricao": "Banco Mundial (Kaufmann, 2004): propinas globais ~US$ 1 trilhao/ano (cerca de 3% do PIB mundial)",
+   "faixa_rs_bi": null,
+   "pct_pib": null,
+   "periodo": "2004 (global)",
+   "tipo": "estimativa",
+   "metodo": "Pesquisa de empresas extrapolada; valor global, sem recorte Brasil. Nao convertido em R$.",
+   "fonte": "Banco Mundial - NAO consultado nesta pesquisa (citacao de memoria)",
+   "url": null,
+   "verificado": false,
+   "critica_metodologica": "Apenas propinas pagas por firmas, exclui desvio; dado global antigo. LACUNA: fonte nao aberta."
+  },
+  {
+   "id": "fgv-estimativa",
+   "descricao": "Estimativa FGV sobre custo da corrupcao",
+   "faixa_rs_bi": null,
+   "pct_pib": null,
+   "periodo": null,
+   "tipo": "estimativa",
+   "metodo": "LACUNA: nao foi localizada/aberta estimativa FGV com numero verificavel (busca apontou so artigo da Revista Brasileira de Economia, nao lido).",
+   "fonte": "FGV (periodicos.fgv.br RBE) - nao lido",
+   "url": "https://periodicos.fgv.br/rbe/article/download/90275/87703/217586",
+   "verificado": false,
+   "critica_metodologica": "Sem numero confirmado, nao usar."
+  },
+  {
+   "id": "critica-metodologica",
+   "descricao": "Sintese das criticas: percepcao de corrupcao nao equivale a desvio; estimativas de custo sao extrapolacoes; valor desviado nao e integralmente recuperavel",
+   "faixa_rs_bi": null,
+   "pct_pib": null,
+   "periodo": null,
+   "tipo": "estimativa",
+   "metodo": "Qualitativo.",
+   "fonte": "Sintese a partir de TI-IPC, FIESP, FMI",
+   "url": null,
+   "verificado": false,
+   "critica_metodologica": "(1) IPC mede opiniao de especialistas, nao fluxos financeiros. (2) FIESP e FMI aplicam % medios internacionais ao PIB, sem apuracao em processos. (3) Valores apurados em processos/acordos de leniencia (contagem) sao muito menores que as estimativas e parte e irrecuperavel. (4) Nao somar corrupcao com sonegacao/gastos tributarios (categorias distintas, legais ou nao)."
+  }
+ ],
+ "areas": [
+  {
+   "id": "sonegacao-economia-subterranea",
+   "nome": "Sonegacao, economia subterranea e divida ativa",
+   "mecanismo": "Producao e renda nao declaradas (economia subterranea), tributos devidos nao pagos (sonegacao) e creditos inscritos em divida ativa com baixa capacidade de recuperacao.",
+   "valores": [
+    {
+     "descricao": "Indice de Economia Subterranea ETCO/FGV-Ibre 2020: 17,1% do PIB (~R$ 1,2 tri); 2019: 17,3%",
+     "valor_rs_bi": 1200.0,
+     "faixa_rs_bi": null,
+     "periodo": "2020",
+     "tipo": "estimativa",
+     "metodo": "Modelo de estimativa de producao deliberadamente nao declarada (nao e sonegacao arrecadatoria; e base economica oculta). Fonte aberta: Monitor Mercantil.",
+     "fonte": "ETCO/FGV Ibre via Monitor Mercantil",
+     "url": "https://monitormercantil.com.br/economia-subterranea-movimentou-algo-proximo-a-r-12-trilhoes/",
+     "verificado": false,
+     "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+    },
+    {
+     "descricao": "IES ETCO/FGV mais recente localizado: 2022 = 17,8% do PIB (~R$ 1,7 tri); 2021 = 17,4%",
+     "valor_rs_bi": 1700.0,
+     "faixa_rs_bi": null,
+     "periodo": "2022",
+     "tipo": "estimativa",
+     "metodo": "Mesmo modelo IES. Valor vindo de resumo de busca (pagina nao aberta). LACUNA: 2023-2025 nao encontrados.",
+     "fonte": "ETCO/FGV Ibre via Contabeis",
+     "url": "https://www.contabeis.com.br/noticias/53883/economia-informal-cresce-em-2022-e-equivale-a-pib-da-suecia/",
+     "verificado": false
+    },
+    {
+     "descricao": "Sonegometro (Sinprofaz): sem valor 2025 verificado. Historico via busca: 2018 = R$ 626,8 bi; estudo Sinprofaz cita >R$ 500 bi/ano",
+     "valor_rs_bi": null,
+     "faixa_rs_bi": [
+      500.0,
+      627.0
+     ],
+     "periodo": "2018 e estudos anteriores",
+     "tipo": "estimativa",
+     "metodo": "Estimativa de entidade de classe (Sinprofaz) a partir de 13 tributos (87,4% da arrecadacao) com taxa de sonegacao presumida; metodologia contestada; usar so com ressalva. Nao foi encontrada estimativa de sonegacao da Receita Federal. LACUNA: valor 2025 do Sonegometro.",
+     "fonte": "Sinprofaz (via resultados de busca)",
+     "url": "https://www.sinprofaz.org.br/pdfs/artigo-ernane-brito-estadao.pdf",
+     "verificado": false
+    },
+    {
+     "descricao": "Estoque da Divida Ativa da Uniao (PGFN) ~ R$ 3 trilhoes (inclui previdenciario); TCU cita > R$ 2,9 tri",
+     "valor_rs_bi": 3000.0,
+     "faixa_rs_bi": [
+      2900.0,
+      3000.0
+     ],
+     "periodo": "2024-2025",
+     "tipo": "contagem",
+     "metodo": "Estoque contabil de creditos inscritos. Fontes abertas secundarias: IBET (cita PGFN/LDO) e O Fator (cita auditoria TCU). Painel PGFN e dinamico, nao extraivel.",
+     "fonte": "PGFN via IBET; TCU via O Fator",
+     "url": "https://www.ibet.com.br/receita-com-divida-ativa-tem-pico-em-2025-e-oscila-entre-r-50-e-60-bi-ano-a-partir-de-2026/",
+     "verificado": false,
+     "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+    },
+    {
+     "descricao": "Classificacao PGFN por capacidade de recuperacao (2024): A = R$ 196,7 bi (6,6%); B = R$ 696 bi; irrecuperaveis = ~R$ 2,13 tri (~70% do estoque)",
+     "valor_rs_bi": 2130.0,
+     "faixa_rs_bi": null,
+     "periodo": "31/12/2024",
+     "tipo": "contagem",
+     "metodo": "Rating PGFN A-D (A alta, B media, C baixa, D irrecuperavel). Valor do rotulo 'irrecuperaveis' conforme IBET (C+D nao separados); soma ~R$ 3,0 tri. Dados 2025 nao obtidos (LACUNA).",
+     "fonte": "IBET citando PGFN",
+     "url": "https://www.ibet.com.br/receita-com-divida-ativa-tem-pico-em-2025-e-oscila-entre-r-50-e-60-bi-ano-a-partir-de-2026/",
+     "verificado": false,
+     "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+    },
+    {
+     "descricao": "Recuperacao PGFN 2025: R$ 68,1 bi (recorde; +R$ 8 bi vs 2024), ~R$ 30,8 bi via transacao; LDO preve R$ 89,7 bi em 2025, 60 bi em 2026, 52,9 bi em 2027, 50,8 bi em 2028",
+     "valor_rs_bi": 68.1,
+     "faixa_rs_bi": null,
+     "periodo": "2025",
+     "tipo": "contagem",
+     "metodo": "Pagina do Min. Fazenda exigiu login (conteudo restrito, nao contornado); valores de resumos de busca; projecoes LDO lidas no IBET. Divergencia: algumas fontes citam R$ 66,1 bi.",
+     "fonte": "PGFN em Numeros 2026 (via imprensa)",
+     "url": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/marco/pgfn-recupera-mais-de-r-68-bilhoes-e-tem-novo-recorde-de-recuperacao",
+     "verificado": false
+    },
+    {
+     "descricao": "Auditoria TCU sobre transacao tributaria: de R$ 2,9 tri inscritos, R$ 718,41 bi entraram em negociacao; 57,9% dos que negociaram voltaram a inadimplir; ~26% dos acordos nao publicados",
+     "valor_rs_bi": 718.41,
+     "faixa_rs_bi": null,
+     "periodo": "auditoria TCU (ano nao confirmado, ~2025)",
+     "tipo": "contagem",
+     "metodo": "Achados de auditoria do TCU (valor em negociacao, nao desconto concedido). Fonte aberta: O Fator.",
+     "fonte": "TCU via O Fator",
+     "url": "https://ofator.com.br/?p=48687",
+     "verificado": false,
+     "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+    }
+   ],
+   "efeitos_na_economia": "Concorrencia desleal contra quem paga, erosao da base tributaria e carga maior sobre adimplentes; divida ativa de baixa recuperabilidade incentiva inadimplencia estrategica e programas de transacao/parcelamento.",
+   "classes_afetadas": [
+    "empresas adimplentes",
+    "consumidores",
+    "trabalhadores formais",
+    "Estado (receita)"
+   ],
+   "limites": "IES mede producao oculta, nao imposto sonegado; Sonegometro nao e estatistica oficial; divida ativa inclui empresas falidas/baixadas (parte irrecuperavel por natureza) e nao equivale a perda anual; nao somar com gastos tributarios. Estimativa oficial de sonegacao da Receita Federal nao localizada.",
+   "evidencia_empirica": [],
+   "decisoes_relacionadas": [
+    "acelerar-ibs-cbs",
+    "cortar-beneficios-fiscais"
+   ]
+  },
+  {
+   "id": "gastos-tributarios",
+   "nome": "Gastos tributarios federais",
+   "mecanismo": "Isencoes, deducoes, aliquotas reduzidas e regimes favorecidos que reduzem a arrecadacao federal em relacao a tributacao 'normal' (conceito RFB).",
+   "valores": [
+    {
+     "descricao": "Gasto tributario total 2026: R$ 612,84 bi = 4,43% do PIB e 20,20% da arrecadacao administrada pela RFB (+12,56% vs DGT PLOA anterior)",
+     "valor_rs_bi": 612.84,
+     "faixa_rs_bi": null,
+     "periodo": "2026 (projecao PLOA)",
+     "tipo": "estimativa",
+     "metodo": "Receita Federal, DGT PLOA 2026 (Quadros, xlsx), lido diretamente; projecao 2026; PIB projetado 2026 = R$ 13.826,3 bi. Metodo: simulacao de tributacao normal sobre operacoes desoneradas.",
+     "fonte": "Receita Federal - DGT PLOA 2026",
+     "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-base-conceitual.pdf",
+     "verificado": true
+    },
+    {
+     "descricao": "Simples Nacional - regime especial unificado (21,91% do total)",
+     "valor_rs_bi": 134.29,
+     "faixa_rs_bi": [
+      120.1,
+      134.29
+     ],
+     "periodo": "2026",
+     "tipo": "estimativa",
+     "metodo": "Receita Federal, DGT PLOA 2026 (Quadros, xlsx), lido diretamente; projecao 2026; PIB projetado 2026 = R$ 13.826,3 bi. Divergencia: imprensa cita R$ 120,1 bi para o Simples em total de R$ 620,8 bi (4,53% PIB), recorte/versao distinta; nao reconciliado.",
+     "fonte": "Receita Federal - DGT PLOA 2026 Quadro X",
+     "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-quadros.xlsx",
+     "verificado": true
+    },
+    {
+     "descricao": "Agricultura e agroindustria (12,93%) - inclui exportacao da producao rural R$ 23,99 bi, Funrural R$ 2,76 bi, seguro rural R$ 0,81 bi, defensivos/credito presumido PIS-Cofins",
+     "valor_rs_bi": 79.25,
+     "faixa_rs_bi": [
+      79.25,
+      101.3
+     ],
+     "periodo": "2026",
+     "tipo": "estimativa",
+     "metodo": "Receita Federal, DGT PLOA 2026 (Quadros, xlsx), lido diretamente; projecao 2026; PIB projetado 2026 = R$ 13.826,3 bi. Por funcao orcamentaria 'Agricultura' = 14,95% (R$ 91,6 bi, calculo nosso). Divergencia: imprensa cita 'Agricultura R$ 101,3 bi' no total de R$ 620,8 bi.",
+     "fonte": "Receita Federal - DGT PLOA 2026 Quadros X e III",
+     "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-quadros.xlsx",
+     "verificado": true
+    },
+    {
+     "descricao": "Entidades sem fins lucrativos imunes/isentas (9,13%) - inclui educacao R$ 10,44 bi e assistencia social e saude R$ 11,10 bi",
+     "valor_rs_bi": 55.92,
+     "faixa_rs_bi": null,
+     "periodo": "2026",
+     "tipo": "estimativa",
+     "metodo": "Receita Federal, DGT PLOA 2026 (Quadros, xlsx), lido diretamente; projecao 2026; PIB projetado 2026 = R$ 13.826,3 bi.",
+     "fonte": "Receita Federal - DGT PLOA 2026 Quadro X",
+     "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-quadros.xlsx",
+     "verificado": true
+    },
+    {
+     "descricao": "Zona Franca de Manaus e areas de livre comercio (5,87%)",
+     "valor_rs_bi": 35.99,
+     "faixa_rs_bi": [
+      24.2,
+      55.3
+     ],
+     "periodo": "2026",
+     "tipo": "estimativa",
+     "metodo": "Receita Federal, DGT PLOA 2026 (Quadros, xlsx), lido diretamente; projecao 2026; PIB projetado 2026 = R$ 13.826,3 bi. Faixa: serie historica de estimativas da RFB muito volatil (2021 R$24,2 bi; 2022 R$45,6 bi; 2023 R$55,3 bi; 2024 R$32,7 bi, segundo relatorio FGV/EESP jun/2025 via busca, nao verificado).",
+     "fonte": "Receita Federal - DGT PLOA 2026 Quadro X",
+     "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-quadros.xlsx",
+     "verificado": true
+    },
+    {
+     "descricao": "Desoneracao da folha de salarios (Lei 14.784/2023 e reoneracao gradual 2025-27) R$ 7,65 bi + desoneracao da folha dos municipios R$ 5,50 bi",
+     "valor_rs_bi": 13.15,
+     "faixa_rs_bi": null,
+     "periodo": "2026",
+     "tipo": "estimativa",
+     "metodo": "Receita Federal, DGT PLOA 2026 (Quadros, xlsx), lido diretamente; projecao 2026; PIB projetado 2026 = R$ 13.826,3 bi. Reducao reflete reoneracao gradual (CPRB 60% e folha 50% em 2026).",
+     "fonte": "Receita Federal - DGT PLOA 2026 Quadro III",
+     "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-quadros.xlsx",
+     "verificado": true
+    },
+    {
+     "descricao": "Deducoes IRPF: despesas medicas R$ 35,44 bi; despesas com educacao R$ 6,25 bi; total deducoes do rendimento tributavel R$ 41,69 bi",
+     "valor_rs_bi": 41.69,
+     "faixa_rs_bi": null,
+     "periodo": "2026",
+     "tipo": "estimativa",
+     "metodo": "Receita Federal, DGT PLOA 2026 (Quadros, xlsx), lido diretamente; projecao 2026; PIB projetado 2026 = R$ 13.826,3 bi. Saude (funcao) total R$ 106,67 bi (17,41%); Educacao R$ 21,98 bi.",
+     "fonte": "Receita Federal - DGT PLOA 2026 Quadros III e X",
+     "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-quadros.xlsx",
+     "verificado": true
+    },
+    {
+     "descricao": "MEI (Microempreendedor Individual)",
+     "valor_rs_bi": 11.28,
+     "faixa_rs_bi": null,
+     "periodo": "2026",
+     "tipo": "estimativa",
+     "metodo": "Receita Federal, DGT PLOA 2026 (Quadros, xlsx), lido diretamente; projecao 2026; PIB projetado 2026 = R$ 13.826,3 bi.",
+     "fonte": "Receita Federal - DGT PLOA 2026 Quadro X",
+     "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-quadros.xlsx",
+     "verificado": true
+    },
+    {
+     "descricao": "Poupanca e titulos de credito do setor imobiliario e do agronegocio (LCI/LCA/CRI/CRA)",
+     "valor_rs_bi": 36.88,
+     "faixa_rs_bi": null,
+     "periodo": "2026",
+     "tipo": "estimativa",
+     "metodo": "Receita Federal, DGT PLOA 2026 (Quadros, xlsx), lido diretamente; projecao 2026; PIB projetado 2026 = R$ 13.826,3 bi.",
+     "fonte": "Receita Federal - DGT PLOA 2026 Quadro X",
+     "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-quadros.xlsx",
+     "verificado": true
+    },
+    {
+     "descricao": "Total por tributo: COFINS 22,62% (R$ 138,6 bi), IRPJ 19,23% (R$ 117,8 bi), IRPF 17,22% (R$ 105,5 bi), Contrib. Previdenciaria 15,85% (R$ 97,1 bi)",
+     "valor_rs_bi": 138.63,
+     "faixa_rs_bi": null,
+     "periodo": "2026",
+     "tipo": "estimativa",
+     "metodo": "Receita Federal, DGT PLOA 2026 (Quadros, xlsx), lido diretamente; projecao 2026; PIB projetado 2026 = R$ 13.826,3 bi.",
+     "fonte": "Receita Federal - DGT PLOA 2026 Quadro VI",
+     "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-base-conceitual.pdf",
+     "verificado": true
+    }
+   ],
+   "efeitos_na_economia": "Reduzem a arrecadacao em ~20% da receita administrada, concentram-se em comercio/servicos, saude, agro, trabalho e industria; criam assimetrias competitivas e exigem aliquotas maiores sobre a base nao beneficiada. Norte e Nordeste: renuncia = 81,8% e 34,8% da arrecadacao regional.",
+   "classes_afetadas": [
+    "pequenos negocios (Simples/MEI)",
+    "agronegocio",
+    "setor de saude/educacao e familias de renda alta (deducoes IRPF)",
+    "industria incentivada (ZFM)",
+    "entidades filantropicas",
+    "investidores em LCI/LCA"
+   ],
+   "limites": "Gasto tributario e estimativa de renuncia (sem contrafactual comportamental) e nao implica abuso; parte e desenho do regime. JCP nao consta como gasto tributario no DGT. LC 224/2025 (corte linear 10% de beneficios, 2026) pode alterar valores; DGT PLOA 2026 foi elaborado em ago-set/2025. Diverge de R$ 620,8 bi (4,53% PIB) citado na imprensa (nao reconciliado).",
+   "evidencia_empirica": [],
+   "decisoes_relacionadas": [
+    "cortar-beneficios-fiscais",
+    "desoneracao-ampla",
+    "acelerar-ibs-cbs"
+   ]
+  },
+  {
+   "id": "tributos-subsidios-energia",
+   "nome": "Subsidios e encargos no setor eletrico (CDE e 'jabutis')",
+   "mecanismo": "Conta de Desenvolvimento Energetico (CDE) financia subsidios custeados na tarifa de todos os consumidores; leis com 'jabutis' criam contratacao compulsoria/incentivos com custo na conta de luz.",
+   "valores": [
+    {
+     "descricao": "Orcamento CDE 2026 proposto pela area tecnica da ANEEL (consulta publica dez/2025): R$ 52,7 bi, +7% vs 2025 homologado; R$ 47,8 bi custeados pelas tarifas",
+     "valor_rs_bi": 52.7,
+     "faixa_rs_bi": [
+      47.8,
+      52.7
+     ],
+     "periodo": "2026",
+     "tipo": "contagem",
+     "metodo": "Orcamento anual do encargo (projecao regulatoria). Fonte aberta: Cenario Energia replicando ANEEL. LACUNA: valor final homologado (deliberacao prevista fev/2026) nao conferido.",
+     "fonte": "ANEEL via Cenario Energia",
+     "url": "https://cenarioenergia.com.br/2025/12/05/cde-2026-deve-chegar-a-r-527-bilhoes-e-pressiona-debate-sobre-subsidios-no-setor-eletrico/",
+     "verificado": false,
+     "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+    },
+    {
+     "descricao": "CDE 2026 - descontos a fontes incentivadas (eolica/solar/biomassa/PCH): R$ 19,6 bi (2025: R$ 16,9 bi, +16%)",
+     "valor_rs_bi": 19.6,
+     "faixa_rs_bi": [
+      16.9,
+      19.6
+     ],
+     "periodo": "2026",
+     "tipo": "contagem",
+     "metodo": "Componente do orcamento CDE (proposta ANEEL).",
+     "fonte": "ANEEL via Cenario Energia",
+     "url": "https://cenarioenergia.com.br/2025/12/05/cde-2026-deve-chegar-a-r-527-bilhoes-e-pressiona-debate-sobre-subsidios-no-setor-eletrico/",
+     "verificado": false,
+     "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+    },
+    {
+     "descricao": "CDE 2026 - Tarifa Social de Energia Eletrica: R$ 10,4 bi (+33%)",
+     "valor_rs_bi": 10.4,
+     "faixa_rs_bi": null,
+     "periodo": "2026",
+     "tipo": "contagem",
+     "metodo": "Componente do orcamento CDE (proposta ANEEL).",
+     "fonte": "ANEEL via Cenario Energia",
+     "url": "https://cenarioenergia.com.br/2025/12/05/cde-2026-deve-chegar-a-r-527-bilhoes-e-pressiona-debate-sobre-subsidios-no-setor-eletrico/",
+     "verificado": false,
+     "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+    },
+    {
+     "descricao": "CDE 2026 - geracao distribuida (GD, subsidio cruzado): R$ 6,8 bi (2025: R$ 3,6 bi, +87,4%)",
+     "valor_rs_bi": 6.8,
+     "faixa_rs_bi": [
+      3.6,
+      6.8
+     ],
+     "periodo": "2026",
+     "tipo": "contagem",
+     "metodo": "Componente do orcamento CDE (proposta ANEEL); outros estudos podem estimar subsidio cruzado da GD maior (nao verificados).",
+     "fonte": "ANEEL via Cenario Energia",
+     "url": "https://cenarioenergia.com.br/2025/12/05/cde-2026-deve-chegar-a-r-527-bilhoes-e-pressiona-debate-sobre-subsidios-no-setor-eletrico/",
+     "verificado": false,
+     "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+    },
+    {
+     "descricao": "Jabutis restabelecidos em 2025 (vetos derrubados: Proinfa, 4,9 GW PCHs etc.): R$ 197 bi aos consumidores em 25 anos (~R$ 7,9 bi/ano)",
+     "valor_rs_bi": 7.9,
+     "faixa_rs_bi": null,
+     "periodo": "2025-2050",
+     "tipo": "estimativa",
+     "metodo": "Estimativa da Frente Nacional dos Consumidores de Energia (entidade de consumidores, nao orgao oficial); R$ 197 bi/25 anos = R$ 7,9 bi/ano (divisao nossa). Resultado de busca, pagina nao aberta.",
+     "fonte": "Frente Nacional dos Consumidores de Energia via O Povo",
+     "url": "https://www.opovo.com.br/noticias/economia/2025/06/18/amp/congresso-retoma-jabutis-e-conta-de-luz-pode-subir.html",
+     "verificado": false
+    },
+    {
+     "descricao": "Pacote de jabutis da lei das eolicas offshore (incl. vetos em votacao): ate R$ 348 bi na conta de luz ate 2050 (+9% no preco da energia)",
+     "valor_rs_bi": null,
+     "faixa_rs_bi": null,
+     "periodo": "ate 2050",
+     "tipo": "estimativa",
+     "metodo": "Total acumulado R$ 348 bi ate 2050; autoria da estimativa nao identificada na pagina vista (provavelmente entidades de consumidores) - tratar com cautela. Sem valor anual verificado.",
+     "fonte": "Jornal de Brasilia (resultado de busca)",
+     "url": "https://jornaldebrasilia.com.br/noticias/economia/congresso-votara-retorno-dos-jabutis-das-eolicas-offshore-que-custarao-r-348-bi-na-conta-de-luz/",
+     "verificado": false
+    },
+    {
+     "descricao": "TCU bloqueou cautelarmente R$ 5,03 bi destinados a reduzir reajustes tarifarios em areas Sudene/Sudam",
+     "valor_rs_bi": 5.03,
+     "faixa_rs_bi": null,
+     "periodo": "2026",
+     "tipo": "contagem",
+     "metodo": "Decisao cautelar do TCU (resumo de busca; pagina nao aberta).",
+     "fonte": "TCU via Movimento Economico",
+     "url": "https://movimentoeconomico.com.br/economia/energia/2026/08/18/tcu-trava-r-5-bi-para-conta-de-luz-no-norte-e-nordeste-por-impasse-orcamentario/",
+     "verificado": false
+    }
+   ],
+   "efeitos_na_economia": "Encargos setoriais sao rateados na tarifa; Lei 15.269/2025 criou teto da CDE a partir de 2027 (orcamento 2025 + inflacao) e redistribuiu custos entre mercado cativo e livre. Subsidios cruzados elevam a tarifa de quem nao tem GD/nao e beneficiario.",
+   "classes_afetadas": [
+    "consumidores cativos residenciais sem GD",
+    "industria/mercado livre",
+    "beneficiarios da Tarifa Social",
+    "geradores incentivados e proprietarios de GD"
+   ],
+   "limites": "CDE 2026 e proposta; 'jabutis' sao estimativas de partes interessadas, acumuladas por decadas e nao anuais; nao foram localizados estudos de TCU/ANEEL/ABRADEE com numero verificavel sobre jabutis.",
+   "evidencia_empirica": [],
+   "decisoes_relacionadas": [
+    "politica-industrial-verde"
+   ]
+  },
+  {
+   "id": "saude-sus",
+   "nome": "Saúde / SUS",
+   "mecanismo": "Fraude e superfaturamento em compras e convênios; aplicação irregular de emendas parlamentares na saúde; capacidade de auditoria (Denasus) reduzida.",
+   "valores": [
+    {
+     "descricao": "Prestações de contas de emendas de saúde analisadas pelo Denasus/MS: 698 irregulares de 1.282 (723 propostas), com mais de R$ 335 milhões repassados e cerca de R$ 66 milhões ainda em conta",
+     "valor_rs_bi": 0.335,
+     "faixa_rs_bi": null,
+     "periodo": "até jun/2025",
+     "tipo": "contagem",
+     "metodo": "Análise de prestações de contas (Denasus); valor é o repassado às iniciativas irregulares, não dano comprovado",
+     "fonte": "Correio Braziliense, 'Dino cobra cronograma e reforço de auditorias em emendas da saúde' (resumo de busca; relatório MS/STF não aberto)",
+     "url": "https://www.correiobraziliense.com.br/politica/2026/01/7334826-dino-cobra-cronograma-e-reforco-de-auditorias-em-emendas-da-saude.html",
+     "verificado": false
+    },
+    {
+     "descricao": "Possível dano ao erário apontado em auditoria recente do Denasus (caso específico)",
+     "valor_rs_bi": 0.02595,
+     "faixa_rs_bi": null,
+     "periodo": "2025-2026 (data exata não confirmada)",
+     "tipo": "contagem",
+     "metodo": "Auditoria Denasus; achado de possível dano, sem trânsito em julgado",
+     "fonte": "Resumo de busca (Correio Braziliense/Congresso em Foco); fonte primária não aberta",
+     "url": "https://www.congressoemfoco.com.br/noticia/122078/dino-cobra-apuracao-sobre-uso-irregular-de-r-8-4-milhoes-em-emendas",
+     "verificado": false
+    },
+    {
+     "descricao": "Prejuízo ao sistema de saúde apontado por auditorias em MG, RS e DF (soma citada)",
+     "valor_rs_bi": 6.5,
+     "faixa_rs_bi": null,
+     "periodo": "não especificado (baixa confiança)",
+     "tipo": "contagem",
+     "metodo": "Agregado citado em resumo de busca; origem e período não identificados; usar com cautela ou descartar",
+     "fonte": "Resumo de busca (veículo não identificado)",
+     "url": "https://www.correiobraziliense.com.br/politica/2026/01/7334826-dino-cobra-cronograma-e-reforco-de-auditorias-em-emendas-da-saude.html",
+     "verificado": false
+    },
+    {
+     "descricao": "Volume de emendas parlamentares no orçamento da saúde (contexto de exposição a risco): de R$ 5,7 bi (2016) para estimados R$ 26,3 bi (2025)",
+     "valor_rs_bi": 26.3,
+     "faixa_rs_bi": null,
+     "periodo": "2025",
+     "tipo": "estimativa",
+     "metodo": "Estimativa de volume de emendas na saúde; não é valor de desvio",
+     "fonte": "Resumo de busca (Correio Braziliense, jan/2026)",
+     "url": "https://www.correiobraziliense.com.br/politica/2026/01/7334826-dino-cobra-cronograma-e-reforco-de-auditorias-em-emendas-da-saude.html",
+     "verificado": false
+    }
+   ],
+   "efeitos_na_economia": "Recursos de saúde mal aplicados reduzem oferta efetiva de serviços; capacidade de fiscalização do Denasus caiu cerca de metade entre 2001 e 2025 (resumo de busca), com 268 auditorias previstas para 2026.",
+   "classes_afetadas": [
+    "usuários do SUS de menor renda",
+    "municípios pequenos",
+    "contribuintes"
+   ],
+   "limites": "LACUNAS: não obtive total apurado de CGU/TCU/CPI sobre compras na covid (busca devolveu só casos pontuais). DIVERGÊNCIA: no caso Covaxin, CGU concluiu não haver sobrepreço, embora tenha apontado ausência de análise de adequação de preço; o MP junto ao TCU pediu investigação. Nenhuma estimativa de desperdício/fraude do tipo ANS/IESS/Ibeci foi localizada com fonte identificada nesta rodada. Nenhum número foi lido em fonte primária.",
+   "evidencia_empirica": [
+    {
+     "estudo": "Nichter, Ramos, Gao & Weiss (2020), medRxiv (pré-impressão, sem revisão por pares)",
+     "achado": "Auditorias anticorrupção aleatórias reduziram mortalidade neonatal em 6,7%, infantil em 7,3%, de crianças em 7,3% e partos prematuros em 7,4% (resumo lido via Crossref). Atenção: pré-impressão.",
+     "url": "https://www.medrxiv.org/content/10.1101/2020.09.14.20194597v1",
+     "doi": "10.1101/2020.09.14.20194597",
+     "verificado": true
+    },
+    {
+     "estudo": "Lichand, Lopes & Medeiros (2016), Is Corruption Good for Your Health?",
+     "achado": "Trabalho existe segundo resultado de busca (auditorias aleatórias da CGU; pergunta se dissuadir corrupção prejudica serviços); fonte primária não aberta, publicação e DOI não confirmados, resultado não lido.",
+     "url": "https://democracyspot.net/2016/08/",
+     "doi": null,
+     "verificado": false
+    }
+   ],
+   "decisoes_relacionadas": []
+  },
+  {
+   "id": "educacao-merenda-fnde",
+   "nome": "Educação / merenda / FNDE",
+   "mecanismo": "Fraude licitatória e sobrepreço em contratos de alimentação escolar e obras de educação com recursos do FNDE; obras escolares paralisadas.",
+   "valores": [
+    {
+     "descricao": "Contrato de merenda investigado na Operação Merenda Digna (Ilhéus/BA): valor do contrato R$ 15,5 mi; sobrepreço estimado acima de R$ 1,7 mi",
+     "valor_rs_bi": 0.0017,
+     "faixa_rs_bi": null,
+     "periodo": "investigação iniciada em 2025 (data da operação não confirmada)",
+     "tipo": "contagem",
+     "metodo": "Estimativa de sobrepreço da PF/CGU em contratação emergencial; status do caso: em investigação",
+     "fonte": "Bahia Notícias (resumo de busca; nota PF)",
+     "url": "https://www.bahianoticias.com.br/municipios/noticia/50876-pf-realiza-operacao-contra-suposto-desvio-de-recursos-da-merenda-escolar-em-ilheus",
+     "verificado": false
+    },
+    {
+     "descricao": "Obras de educação básica paralisadas (financiadas com recursos federais): 3.580 obras; educação e saúde somam 8.053 das 11.469 paradas",
+     "valor_rs_bi": null,
+     "faixa_rs_bi": null,
+     "periodo": "dados até abril/2025 (painel TCU, atualização 30/07/2025)",
+     "tipo": "contagem",
+     "metodo": "Painel de obras paralisadas do TCU (Obrasgov); o número de 3.580 vem de relatório TCU anterior citado em busca, o de 8.053 foi lido na página do TCU",
+     "fonte": "TCU, 'Metade das obras financiadas com recursos federais estão paradas'",
+     "url": "https://portal.tcu.gov.br/imprensa/noticias/metade-das-obras-financiadas-com-recursos-federais-estao-paradas",
+     "verificado": true
+    }
+   ],
+   "efeitos_na_economia": "Merenda desviada ou superfaturada reduz qualidade nutricional e cobertura; creches e escolas paralisadas retiram oferta de vagas.",
+   "classes_afetadas": [
+    "estudantes da rede pública",
+    "famílias de baixa renda",
+    "municípios pequenos"
+   ],
+   "limites": "LACUNA: não achei total consolidado de desvios do FNDE (CGU/TCU/PF) com fonte aberta. Operações PF/CGU citadas são casos pontuais, sem trânsito em julgado. Operação PF/CGU no FNDE de 2023 (Brasília e Alagoas) apareceu nas buscas sem valor lido.",
+   "evidencia_empirica": [
+    {
+     "estudo": "Ferraz, Finan & Moreira (2012), Corrupting Learning",
+     "achado": "Onde se detectou corrupção em educação, alunos tiveram 0,35 desvio-padrão a menos nas provas, mais evasão e reprovação, e menos insumos escolares (resumo NBER lido).",
+     "url": "https://www.nber.org/papers/w18150",
+     "doi": "10.3386/w18150",
+     "verificado": true
+    }
+   ],
+   "decisoes_relacionadas": []
+  },
+  {
+   "id": "obras-infraestrutura",
+   "nome": "Obras e infraestrutura",
+   "mecanismo": "Obras federais paralisadas ou inacabadas e irregularidades graves (sobrepreço, projeto deficiente) apuradas pelo TCU no Fiscobras.",
+   "valores": [
+    {
+     "descricao": "Obras com recursos federais paralisadas: 8.603 de 21.007 (41%); R$ 113,65 bi alocados na carteira",
+     "valor_rs_bi": 113.65,
+     "faixa_rs_bi": null,
+     "periodo": "relatório de 18/10/2023",
+     "tipo": "contagem",
+     "metodo": "Levantamento TCU sobre cadastro Obrasgov; o valor é o alocado na carteira total, não o perdido",
+     "fonte": "TCU, 'Brasil tem 8,6 mil obras paralisadas financiadas com recursos federais'",
+     "url": "https://portal.tcu.gov.br/imprensa/noticias/brasil-tem-86-mil-obras-paralisadas-financiadas-com-recursos-federais",
+     "verificado": true
+    },
+    {
+     "descricao": "Obras paralisadas: 11.469 de 22.621 (50,7%); 22% das 5.505 obras iniciadas entre abr/2024 e abr/2025 já paralisadas",
+     "valor_rs_bi": null,
+     "faixa_rs_bi": null,
+     "periodo": "dados até abr/2025 (atualização 30/07/2025)",
+     "tipo": "contagem",
+     "metodo": "Painel TCU de obras paralisadas; a página não traz valores monetários",
+     "fonte": "TCU, 'Metade das obras financiadas com recursos federais estão paradas'",
+     "url": "https://portal.tcu.gov.br/imprensa/noticias/metade-das-obras-financiadas-com-recursos-federais-estao-paradas",
+     "verificado": true
+    },
+    {
+     "descricao": "Valor já investido em obras hoje paradas: R$ 15,9 bi (2025)",
+     "valor_rs_bi": 15.9,
+     "faixa_rs_bi": null,
+     "periodo": "2025",
+     "tipo": "contagem",
+     "metodo": "Citado em resumo de busca sobre o painel TCU; não aparece na página aberta",
+     "fonte": "Resumo de busca (veículo secundário)",
+     "url": "https://portal.tcu.gov.br/imprensa/noticias/metade-das-obras-financiadas-com-recursos-federais-estao-paradas",
+     "verificado": false
+    },
+    {
+     "descricao": "Fiscobras 2024: 23 obras fiscalizadas, mais de R$ 7 bi de recursos fiscalizados, 17 com indício de irregularidade grave (73,9%), 1 com recomendação de paralisação (BR-040/RJ, sobrepreço)",
+     "valor_rs_bi": 7.0,
+     "faixa_rs_bi": null,
+     "periodo": "relatório de 16/10/2024",
+     "tipo": "contagem",
+     "metodo": "Fiscalização por amostra do TCU; R$ 7 bi é volume fiscalizado, NÃO é sobrepreço",
+     "fonte": "TCU, Fiscobras 2024",
+     "url": "https://portal.tcu.gov.br/imprensa/noticias/dezessete-obras-no-pais-tem-indicio-de-irregularidade-grave-aponta-fiscobras-2024",
+     "verificado": true
+    },
+    {
+     "descricao": "Fiscobras 2025: 25 obras, cerca de R$ 5 bi fiscalizados, 15 com indício de irregularidade grave (60%), 1 com recomendação de paralisação (BR-040/RJ)",
+     "valor_rs_bi": 5.0,
+     "faixa_rs_bi": null,
+     "periodo": "sessão de 22/10/2025",
+     "tipo": "contagem",
+     "metodo": "Fiscalização por amostra do TCU; valor é volume fiscalizado, não sobrepreço",
+     "fonte": "TCU, Fiscobras 2025",
+     "url": "https://portal.tcu.gov.br/imprensa/noticias/fiscobras-2025-aponta-15-obras-com-indicios-de-irregularidade-grave",
+     "verificado": true
+    }
+   ],
+   "efeitos_na_economia": "Capital imobilizado sem entrega de serviço; o TCU registra aumento da fatia paralisada (29% em 2020, 41% em 2023, 50,7% em 2025).",
+   "classes_afetadas": [
+    "usuários de escolas, creches e saúde",
+    "regiões Norte e Nordeste (MA, BA, PA concentram mais obras paradas)",
+    "contribuintes"
+   ],
+   "limites": "LACUNA: não encontrei na página do TCU o valor de sobrepreço agregado por ano do Fiscobras (as notas dão só volume fiscalizado); precisaria do relatório consolidado/acórdão. Paralisação tem causas diversas além de corrupção (projeto, orçamento, gestão); não é medida de desvio. Possível divergência: o resumo de busca cita 'R$ 9 bi investidos até 2024' e 'R$ 15,9 bi' para obras paradas, sem fonte aberta para conciliar.",
+   "evidencia_empirica": [
+    {
+     "estudo": "Olken (2007), JPE (Indonésia, referência comparada)",
+     "achado": "Anunciar auditoria com probabilidade 100% (base 4%) reduziu despesa ausente em obras viárias em ~8 pontos percentuais; monitoramento comunitário só afetou salários (resumo lido). Não é Brasil.",
+     "url": "https://www.nber.org/papers/w11753",
+     "doi": "10.1086/517935",
+     "verificado": true
+    }
+   ],
+   "decisoes_relacionadas": []
+  },
+  {
+   "id": "petroleo-lava-jato",
+   "nome": "Petróleo / Lava Jato",
+   "mecanismo": "Cartel de empreiteiras e pagamento de propina em contratos da Petrobras (2004-2012); baixa contábil, acordos de colaboração e leniência, devolução de valores; depois anulações e suspensões de multas pelo STF.",
+   "valores": [
+    {
+     "descricao": "Baixa contábil por pagamentos indevidos (corrupção) no balanço 2014 da Petrobras: R$ 6,19 bi (propina estimada em 3% dos contratos com 27 empresas do cartel, 2004-2012)",
+     "valor_rs_bi": 6.19,
+     "faixa_rs_bi": null,
+     "periodo": "contratos 2004-2012; balanço 2014 publicado em 2015",
+     "tipo": "estimativa",
+     "metodo": "Metodologia da Petrobras com base em depoimentos do MPF (3% do valor dos contratos); é estimativa contábil, não valor julgado",
+     "fonte": "Resumo de busca (Congresso em Foco, CartaCapital); balanço no RI da Petrobras não aberto",
+     "url": "https://www.congressoemfoco.com.br/noticias/petrobras-perde-r-62-bilhoes-com-corrupcao/",
+     "verificado": false
+    },
+    {
+     "descricao": "Valores efetivamente restituídos via colaborações, leniências, TAC e renúncias (MPF): R$ 4,07 bi, dos quais R$ 3,02 bi destinados à Petrobras, R$ 416,5 mi à União e R$ 570 mi à redução de pedágios no PR",
+     "valor_rs_bi": 4.07,
+     "faixa_rs_bi": null,
+     "periodo": "balanço divulgado pelo MPF (data exata não confirmada, provavelmente 2021)",
+     "tipo": "contagem",
+     "metodo": "Balanço de devoluções do MPF; fonte citada via Jovem Pan",
+     "fonte": "Jovem Pan (resumo de busca)",
+     "url": "https://jovempan.com.br/brasil/valor-devolvido-operacao-lava-jato-ultrapassa-r-4-bilhoes/",
+     "verificado": false
+    },
+    {
+     "descricao": "Petrobras: cerca de R$ 6,17 bi acumulados recuperados (leniências, repatriações e delações) até o fim de 2021, segundo a empresa",
+     "valor_rs_bi": 6.17,
+     "faixa_rs_bi": null,
+     "periodo": "até dez/2021",
+     "tipo": "contagem",
+     "metodo": "Informação da própria Petrobras; proporção sobre a baixa de R$ 6,19 bi é de cerca de 100%, mas as bases não são idênticas",
+     "fonte": "Resumo de busca (Revista Oeste, Monitor Mercantil)",
+     "url": "https://revistaoeste.com/politica/petrobras-recuperou-mais-de-r-6-bi-a-partir-da-lava-jato/",
+     "verificado": false
+    },
+    {
+     "descricao": "Acordos de leniência da CGU (todas as empresas, não só Lava Jato): 32 acordos desde 2015, R$ 19,3 bi a devolver, R$ 9,8 bi já pagos",
+     "valor_rs_bi": 19.3,
+     "faixa_rs_bi": [
+      9.8,
+      19.3
+     ],
+     "periodo": "2015 a abr/2025",
+     "tipo": "contagem",
+     "metodo": "Balanço oficial CGU; R$ 9,8 bi é o efetivamente pago (cerca de 51%). Em 2025: 4 novos acordos, R$ 1,23 bi comprometidos e R$ 1,3 bi recolhidos no ano",
+     "fonte": "CGU (via resumo de busca; a página gov.br de maio/2025 devolveu 'conteúdo restrito' ao ser aberta)",
+     "url": "https://www.gov.br/cgu/pt-br/assuntos/noticias/2025/04/cgu-firma-acordo-de-cooperacao-tecnica-com-agu-e-mpf-para-fortalecer-acordos-de-leniencia-no-combate-a-corrupcao",
+     "verificado": false
+    },
+    {
+     "descricao": "Multas de leniência suspensas por decisões do ministro Dias Toffoli (STF): J&F R$ 10,3 bi (Greenfield) e Novonor R$ 8,5 bi, com renegociação autorizada para Novonor via PGR/CGU/AGU",
+     "valor_rs_bi": 18.8,
+     "faixa_rs_bi": [
+      8.5,
+      18.8
+     ],
+     "periodo": "decisões 2023-2026 (datas exatas não confirmadas)",
+     "tipo": "contagem",
+     "metodo": "Decisões monocráticas com fundamento em 'dúvida razoável' sobre voluntariedade (conversas de Lava Jato); PGR avaliava recurso; status final não verificado",
+     "fonte": "Folha Vitória, Congresso em Foco (resumo de busca)",
+     "url": "https://www.congressoemfoco.com.br/noticia/8820/toffoli-suspende-multas-de-r-85-bi-da-antiga-odebrecht-e-autoriza-acordo-de-leniencia",
+     "verificado": false
+    },
+    {
+     "descricao": "Estimativa macro (GO Associados): impacto direto e indireto da Lava Jato de R$ 142,6 bi em 2015, cerca de 2,5% do PIB, cenário descrito pela própria consultoria como relativamente pessimista",
+     "valor_rs_bi": 142.6,
+     "faixa_rs_bi": null,
+     "periodo": "2015",
+     "tipo": "estimativa",
+     "metodo": "Modelo de impacto sobre cadeias (metalomecânica, naval, construção pesada); Tendências estimou 2 a 2,5 p.p. de retração do PIB 2015-2016; sindicatos citam cerca de 3,5 milhões de empregos perdidos 2015-2016",
+     "fonte": "Resumo de busca (IHU Unisinos, PT, CUT); estudo original não aberto",
+     "url": "https://ihu.unisinos.br/549741",
+     "verificado": false
+    }
+   ],
+   "efeitos_na_economia": "Dois efeitos opostos se misturam: perda direta do esquema (sobrepreço e propina) e choque de curto prazo pela paralisação de empreiteiras e cadeia de petróleo e gás e naval. Os estudos macro medem o segundo.",
+   "classes_afetadas": [
+    "acionistas minoritários da Petrobras",
+    "trabalhadores da construção pesada e naval",
+    "contribuintes e consumidores de combustíveis"
+   ],
+   "limites": "DIVERGÊNCIAS: (1) não encontrei o 4,4 milhões de vagas do Dieese; só ~3,5 milhões em fontes sindicais e partidárias (CUT/PT) — tratar como não confirmado. (2) Valores de recuperação variam por emissor e data (MPF R$ 4,07 bi; Petrobras R$ 6,17 bi; um título de imprensa fala em R$ 28 bi 'recuperados' segundo o MPF, que parece incluir valores previstos/comprometidos, não verificado). (3) Crítica metodológica (minha ressalva, sem fonte lida): o estudo da GO Associados é cenário contrafactual de choque, não separa recessão doméstica, queda de commodities e corte de investimento da Petrobras do efeito da operação, e não desconta o custo evitado do cartel. (4) Decisões do STF sobre leniência: status posterior a 2025 não confirmado. A página CGU de leniência exigiu autenticação; não contornei.",
+   "evidencia_empirica": [],
+   "decisoes_relacionadas": [
+    "politica-precos-combustiveis",
+    "privatizacoes"
+   ]
+  },
+  {
+   "id": "combustiveis-crime-organizado",
+   "nome": "Combustíveis / crime organizado",
+   "mecanismo": "Sonegação de ICMS e tributos federais, adulteração (metanol), lavagem via fintechs e fundos de investimento, em toda a cadeia de combustíveis.",
+   "valores": [
+    {
+     "descricao": "Operação Carbono Oculto (Receita/PF/MPSP, 28/08/2025): movimentação estimada de R$ 52 bi em postos, com recolhimento de tributos incompatível; perdas aos cofres de R$ 8,6 bi",
+     "valor_rs_bi": 8.6,
+     "faixa_rs_bi": null,
+     "periodo": "2020-2024",
+     "tipo": "estimativa",
+     "metodo": "Estimativa da Receita Federal por cruzamento fiscal e financeiro; status do caso: denunciado em parte (MPSP denunciou 16 pessoas em 2026), sem trânsito em julgado",
+     "fonte": "Diário de Pernambuco / Poder360 (resumo de busca); comunicado do Ministério da Fazenda (PDF não legível pela ferramenta)",
+     "url": "https://www.diariodepernambuco.com.br/amp/brasil/2025/08/11694363-receita-estima-que-organizacao-criminosa-movimentou-rs-52-bilhoes-em-postos-de-combustivel.html",
+     "verificado": false
+    },
+    {
+     "descricao": "Mesma operação: fintech que atuava como 'banco paralelo' movimentou mais de R$ 46 bi; 40 fundos de investimento com patrimônio avaliado em R$ 30 bi; bloqueio judicial superior a R$ 1 bi; 350 alvos em 8 estados",
+     "valor_rs_bi": 46.0,
+     "faixa_rs_bi": null,
+     "periodo": "2020-2024",
+     "tipo": "estimativa",
+     "metodo": "Apuração da Receita Federal divulgada na operação; valores de movimentação financeira, não de sonegação nem de lucro",
+     "fonte": "Diário de Pernambuco (resumo de busca)",
+     "url": "https://www.diariodepernambuco.com.br/amp/brasil/2025/08/11694363-receita-estima-que-organizacao-criminosa-movimentou-rs-52-bilhoes-em-postos-de-combustivel.html",
+     "verificado": false
+    },
+    {
+     "descricao": "Denúncia do MPSP/Gaeco contra 16 pessoas por organização criminosa e lavagem (desvio de metanol, adulteração, 2017-2025), grupo teria movimentado cerca de R$ 52 bi; PGFN com ações cíveis bloqueando mais de R$ 1 bi",
+     "valor_rs_bi": 52.0,
+     "faixa_rs_bi": null,
+     "periodo": "2017-2025",
+     "tipo": "estimativa",
+     "metodo": "Denúncia do MPSP (ago/2026); status: denunciado, em andamento. Fase 3 'Bomba Oculta' (ago/2026) lacrou cerca de 10 mil postos na capital paulista (resumo de busca)",
+     "fonte": "Agência Brasil / SBT News (resumo de busca)",
+     "url": "https://agenciabrasil.ebc.com.br/radioagencia-nacional/justica/audio/2026-08/mp-denuncia-16-por-adulteracao-de-combustiveis-e-lavagem-de-dinheiro",
+     "verificado": false
+    },
+    {
+     "descricao": "Estimativa do Instituto Combustível Legal (ICL): perda anual de R$ 14 bi por sonegação e inadimplência (Sonegômetro, base FGV) mais cerca de R$ 15 bi de fraude operacional, total citado de cerca de R$ 26 bi (sem sobreposição) a mais de R$ 30 bi por ano",
+     "valor_rs_bi": 26.0,
+     "faixa_rs_bi": [
+      14.0,
+      30.0
+     ],
+     "periodo": "valores anuais; ano-base não confirmado (apresentação à Câmara em 28/10/2025)",
+     "tipo": "estimativa",
+     "metodo": "Modelo do ICL, entidade do setor com interesse regulatório; PDF da apresentação não foi legível pela ferramenta",
+     "fonte": "Brazil Journal e resumos de busca; apresentação ICL na CME/Câmara",
+     "url": "https://braziljournal.com/combustiveis-tentando-parar-um-roubo-de-r-26-bilhoes",
+     "verificado": false
+    }
+   ],
+   "efeitos_na_economia": "Concorrência desleal com distribuidores regulares, perda de arrecadação de ICMS e tributos federais, danos a motores e consumidores por adulteração, uso do setor para lavagem.",
+   "classes_afetadas": [
+    "consumidores",
+    "revendedores e distribuidores regulares",
+    "estados (ICMS)",
+    "União"
+   ],
+   "limites": "DIVERGÊNCIA de período: Receita fala em 2020-2024 e a denúncia do MPSP em 2017-2025 para o mesmo R$ 52 bi. Movimentação financeira não é sonegação. Estimativas ICL/ETCO partem de entidades do setor. Não achei estimativa ETCO/ANP com valor lido. Nenhum valor lido diretamente na fonte primária (PDFs ilegíveis para a ferramenta).",
+   "evidencia_empirica": [],
+   "decisoes_relacionadas": [
+    "politica-precos-combustiveis"
+   ]
+  },
+  {
+   "id": "previdencia-inss-descontos",
+   "nome": "Previdência / INSS (descontos associativos)",
+   "mecanismo": "Descontos mensais de mensalidades associativas em benefícios, sem autorização, via acordos de cooperação técnica entre INSS e entidades; investigado pela PF e CGU (Operação Sem Desconto, abr/2025; Indébito, mar/2026; nova fase em 27/05/2026).",
+   "valores": [
+    {
+     "descricao": "Descontos de cerca de R$ 6,3 bi por entidades investigadas em benefícios de aposentados e pensionistas",
+     "valor_rs_bi": 6.3,
+     "faixa_rs_bi": null,
+     "periodo": "2019-2024",
+     "tipo": "estimativa",
+     "metodo": "Estimativa de PF/CGU sobre descontos das entidades investigadas; status do caso: em investigação (fase de 27/05/2026 com 31 mandados de busca, STF supervisiona)",
+     "fonte": "O Povo, 27/05/2026 (página aberta, texto de imprensa sobre nota PF/CGU)",
+     "url": "https://www.opovo.com.br/noticias/politica/2026/05/27/amp/inss-pf-e-cgu-investigam-descontos-nao-autorizados-de-pensionistas.html",
+     "verificado": false
+    },
+    {
+     "descricao": "Ressarcimento a aposentados e pensionistas já pago: R$ 2,82 bi; 4,138 milhões de beneficiários atendidos (prazo de pedido até 14/02/2026, depois prorrogado segundo busca)",
+     "valor_rs_bi": 2.82,
+     "faixa_rs_bi": null,
+     "periodo": "posição de fim de 2025 (data exata não confirmada)",
+     "tipo": "contagem",
+     "metodo": "Dados divulgados pelo governo sobre ressarcimento administrativo",
+     "fonte": "SBT News (resumo de busca)",
+     "url": "https://sbtnews.sbt.com.br/noticia/economia/ressarcimento-de-aposentados-e-pensionistas-por-fraude-no-inss-chega-a-r-2-82-bilhoes",
+     "verificado": false
+    }
+   ],
+   "efeitos_na_economia": "Transferência de renda de aposentados de baixa renda para entidades associativas; o ressarcimento é custeado pelo Tesouro/INSS, não necessariamente recuperado dos autores.",
+   "classes_afetadas": [
+    "aposentados e pensionistas do INSS",
+    "contribuintes (custo do ressarcimento)"
+   ],
+   "limites": "DIVERGÊNCIA: o total R$ 6,3 bi aparece como 2019-2024 na maioria das fontes e como mar/2020-mar/2025 em um resumo de busca. O valor é estimativa de descontos pelas entidades investigadas, não o total comprovado como ilícito; há ressarcimento maior ou menor conforme o caso. Não abri o relatório da CGU nem comunicados gov.br. O percentual recuperado dos autores não foi localizado.",
+   "evidencia_empirica": [],
+   "decisoes_relacionadas": []
+  },
+  {
+   "id": "emendas-orcamento-secreto",
+   "nome": "Emendas parlamentares / orçamento secreto",
+   "mecanismo": "Emendas de relator (RP9), declaradas inconstitucionais pelo STF em dez/2022 (ADPF 850, 851, 854, 1014; 6 a 5); migração do volume para emendas individuais, de bancada, de comissão e transferências especiais ('emendas Pix'), com baixa rastreabilidade.",
+   "valores": [
+    {
+     "descricao": "Emendas pagas em 2025: R$ 31,54 bi (recorde nominal), sendo individuais R$ 19,9 bi, bancada R$ 6,3 bi, comissão R$ 5,3 bi; orçamento inicial de cerca de R$ 50 bi, reduzido a cerca de R$ 48,5 bi",
+     "valor_rs_bi": 31.54,
+     "faixa_rs_bi": null,
+     "periodo": "2025",
+     "tipo": "contagem",
+     "metodo": "Execução orçamentária (pagamento) segundo dados do governo federal reportados pela imprensa; a fonte cita 67% de execução dos valores empenhados",
+     "fonte": "Diário de Pernambuco, jan/2026 (resumo de busca)",
+     "url": "https://www.diariodepernambuco.com.br/politica/2026/01/11704130-governo-lula-registra-pagamento-recorde-de-rs-315-bilhoes-em-emendas-em-2025.html",
+     "verificado": false
+    },
+    {
+     "descricao": "Emendas previstas na LOA 2026: R$ 61,4 bi; R$ 49,9 bi sob controle dos parlamentares (RP6 individuais, RP7 bancada, RP8 comissão) e R$ 11,5 bi em RP2 (programação de ministérios)",
+     "valor_rs_bi": 61.4,
+     "faixa_rs_bi": [
+      49.9,
+      61.4
+     ],
+     "periodo": "2026 (previsão)",
+     "tipo": "contagem",
+     "metodo": "Parecer do relator do Orçamento 2026, via resumo de busca (Money Times); valor aprovado final não confirmado",
+     "fonte": "Money Times (resumo de busca)",
+     "url": "https://www.moneytimes.com.br/orcamento-2026-relator-entrega-parecer-com-superavit-de-r-345-bi-e-r-61-bi-em-emendas-jals/",
+     "verificado": false
+    },
+    {
+     "descricao": "Emendas de relator (RP9, 'orçamento secreto'): R$ 18,5 bi citados em resumo de busca como total das emendas de relator; STF declarou o mecanismo inconstitucional em 19/12/2022",
+     "valor_rs_bi": 18.5,
+     "faixa_rs_bi": null,
+     "periodo": "não especificado na fonte (RP9 existiu em 2020-2022; ano do valor não confirmado)",
+     "tipo": "contagem",
+     "metodo": "Resumo de busca sobre a ADPF 854; o ano do total não ficou claro, provavelmente um exercício (2021 ou 2022), não o acumulado",
+     "fonte": "Conjur / Congresso em Foco (resumo de busca)",
+     "url": "https://www.conjur.com.br/2022-dez-19/maioria-stf-declara-inconstitucionalidade-orcamento-secreto//?print=1",
+     "verificado": false
+    },
+    {
+     "descricao": "Transferências especiais ('emendas Pix'): mais de 4.300 transferências, acima de R$ 22 bi (2020-2024); o TCU informou que 81% não são rastreáveis do autor ao beneficiário final; irregularidades em 82% das auditadas, com prejuízo potencial de R$ 49,07 mi",
+     "valor_rs_bi": 22.0,
+     "faixa_rs_bi": null,
+     "periodo": "2020-2024",
+     "tipo": "contagem",
+     "metodo": "Auditoria do TCU sobre transferências especiais; o prejuízo de R$ 49,07 mi refere-se à amostra auditada, não ao universo",
+     "fonte": "Poder360 / Revista Oeste (resumo de busca); PDF do TCU não legível pela ferramenta",
+     "url": "https://www.poder360.com.br/poder-congresso/tcu-aprova-auditoria-sobre-r-22-bilhoes-em-emendas-pix/",
+     "verificado": false
+    }
+   ],
+   "efeitos_na_economia": "Orçamento discricionário de investimento fica sujeito a critério político e com menor planejamento e controle; a rastreabilidade baixa dificulta aferir desvio.",
+   "classes_afetadas": [
+    "municípios sem acesso a parlamentares influentes",
+    "contribuintes",
+    "usuários de serviços públicos"
+   ],
+   "limites": "LACUNAS: não calculei o % do orçamento discricionário (precisa do denominador oficial do Tesouro/SIOP); não obtive série RP9 por ano (2020-2022), nem os números da Transparência Brasil/CGU em fonte aberta. Os PDFs de Transparência Brasil e do TCU foram localizados mas não puderam ser lidos pela ferramenta. A CGU audita por determinação do ministro Flávio Dino (ADPF 854); resultados da auditoria da CGU não foram lidos. Nenhum número desta área foi lido em fonte primária.",
+   "evidencia_empirica": [],
+   "decisoes_relacionadas": [
+    "reforcar-arcabouco"
+   ]
+  },
+  {
+   "id": "licitacoes-carteis",
+   "nome": "Licitações e cartéis",
+   "mecanismo": "Conluio entre licitantes e contratações diretas elevam o preço pago pelo Estado; a sanção do CADE recupera fração pequena do dano.",
+   "valores": [
+    {
+     "descricao": "Contribuições pecuniárias e multas aplicadas pelo CADE (todas as condutas, inclui TCCs) em 2025; infográfico CADE em Números/Anuário: 669 R$ milhões (TCCs principais: 369 R$ milhões)",
+     "valor_rs_bi": 0.669,
+     "faixa_rs_bi": null,
+     "periodo": "2025",
+     "tipo": "contagem",
+     "metodo": "Soma de multas do Tribunal e contribuições de TCC conforme infográfico do CADE",
+     "fonte": "CADE - Resumo Anuário 2025 (infográfico)",
+     "url": "https://cdn.cade.gov.br/Portal/assuntos/noticias/2026/Resumo%20Anuario%2011.pdf",
+     "verificado": true
+    },
+    {
+     "descricao": "Multas do CADE em processos administrativos julgados: 2024 R$ 303 mi; 2025 R$ 301 mi; acordos 2025 R$ 390 mi (histórico: 2021 R$ 1,3 bi; 2022 R$ 1,7 bi; 2023 R$ 144 mi); 17 casos de cartel julgados em 2024",
+     "valor_rs_bi": 0.301,
+     "faixa_rs_bi": null,
+     "periodo": "2025 (2024: 0,303)",
+     "tipo": "contagem",
+     "metodo": "Retrospectiva de escritório de advocacia a partir de dados do CADE; a página retornou 403 (não contornado), números vieram de resumo de busca",
+     "fonte": "Mattos Filho, Retrospectiva 2025 (secundária)",
+     "url": "https://www.mattosfilho.com.br/unico/condutas-anticompetitivas-2026-1/",
+     "verificado": false
+    },
+    {
+     "descricao": "Sobrepreço típico em cartéis: 10-20% (OCDE), podendo chegar a 50%; TCU adotou 17% sobre a estimativa da licitação (14,49% sobre o valor do contrato) como prejuízo mais provável em ambiente cartelizado",
+     "valor_rs_bi": null,
+     "faixa_rs_bi": null,
+     "periodo": "Literatura 1890-2013; aplicação do TCU",
+     "tipo": "estimativa",
+     "metodo": "Meta-análises citadas pelo TCU (valor em % do preço: faixa 10-20%; não é R$ bi)",
+     "fonte": "TCU - Cartéis, superfaturamento e a atuação do TCU",
+     "url": "https://portal.tcu.gov.br/imprensa/noticias/carteis-superfaturamento-e-a-atuacao-do-tcu",
+     "verificado": true
+    },
+    {
+     "descricao": "Contratações diretas (dispensa + inexigibilidade) no governo federal: ~R$ 151 bi em 2019-2023 (480.389 de 724.580 compras homologadas, ~67% em número); 2016-2020: dispensa ~R$ 82 bi e inexigibilidade ~R$ 78 bi",
+     "valor_rs_bi": 151.0,
+     "faixa_rs_bi": null,
+     "periodo": "2019-2023 (acumulado, ~5 anos)",
+     "tipo": "contagem",
+     "metodo": "Painel de Compras do Governo Federal citado em resumo de busca; painel não aberto",
+     "fonte": "Painel de Compras / resumo de busca (secundária)",
+     "url": "https://www.gov.br/compras/pt-br",
+     "verificado": false
+    },
+    {
+     "descricao": "Compras públicas no Brasil: ~17% da despesa total do governo (OCDE); % do PIB para o Brasil não localizado em fonte lida (média América Latina e Caribe: 6,6% do PIB em 2021)",
+     "valor_rs_bi": null,
+     "faixa_rs_bi": null,
+     "periodo": "2021",
+     "tipo": "contagem",
+     "metodo": "OCDE Government at a Glance LAC 2024 (resumo de busca)",
+     "fonte": "OCDE",
+     "url": "https://oecd.org/en/publications/government-at-a-glance-latin-america-and-the-caribbean-2024_4abdba16-en/full-report/component-34",
+     "verificado": false
+    }
+   ],
+   "efeitos_na_economia": "Preço acima do competitivo reduz obras e serviços entregues por real gasto; multas do CADE (centenas de milhões) são ordens de grandeza menores que o dano estimado.",
+   "classes_afetadas": [
+    "contribuintes",
+    "usuários de serviços públicos",
+    "empresas não cartelizadas"
+   ],
+   "limites": "Sobrepreço 10-20% é média internacional, não medida para o Brasil. Não há total oficial de dano de cartel em licitações. Valor de dispensa/inexigibilidade vem de resumo de busca; abrir o Painel de Compras. Mattos Filho retornou 403. Lacuna: % do PIB das compras públicas do Brasil e volume anual de fracionamento.",
+   "evidencia_empirica": [
+    {
+     "estudo": "Colonnelli & Prem (2022), Corruption and Firms, REStud",
+     "achado": "Após auditorias anticorrupção sorteadas, municípios têm mais firmas, concentradas em setores dependentes de governo e compras públicas; firmas politicamente conectadas sofrem; autores falam em imposto de corrupção sobre firmas dependentes do governo (resumo lido).",
+     "url": "https://doi.org/10.1093/restud/rdab040",
+     "doi": "10.1093/restud/rdab040",
+     "verificado": true
+    },
+    {
+     "estudo": "Bandiera, Prat & Valletti (2009), Active and Passive Waste, AER (Itália)",
+     "achado": "Decompõe desperdício em compras públicas em ativo (corrupção) e passivo (ineficiência). Resumo e números não lidos.",
+     "url": "https://doi.org/10.1257/aer.99.4.1278",
+     "doi": "10.1257/aer.99.4.1278",
+     "verificado": false
+    }
+   ],
+   "decisoes_relacionadas": []
+  },
+  {
+   "id": "crime-ambiental-ouro-madeira-terra",
+   "nome": "Crime ambiental: ouro, madeira e terra",
+   "mecanismo": "Extração ilegal e lavagem via títulos minerários e DTVMs; multas ambientais pouco pagas; apropriação de terras públicas.",
+   "valores": [
+    {
+     "descricao": "Ouro comercializado com indícios de ilegalidade: 228,99 t em 2015-2020 (47% da produção estimada de 487,6 t); em 2020: 42,4 t (46%)",
+     "valor_rs_bi": null,
+     "faixa_rs_bi": null,
+     "periodo": "2015-2020",
+     "tipo": "estimativa",
+     "metodo": "Cruzamento de dados da ANM (CFEM), títulos e imagens MapBiomas; produção estimada via CFEM. Valor em R$ não consta do trecho lido",
+     "fonte": "Instituto Escolhas - Raio X do Ouro (2022)",
+     "url": "https://escolhas.org/wp-content/uploads/2022/12/Ouro-200-toneladas.pdf",
+     "verificado": true
+    },
+    {
+     "descricao": "Ouro de 2021 com indício de ilegalidade: 52,8 t (54% do comercializado); Europa em 2023: 1,5 t de ~1,7 t importadas vinham de áreas de alto risco",
+     "valor_rs_bi": null,
+     "faixa_rs_bi": null,
+     "periodo": "2021 e 2023",
+     "tipo": "estimativa",
+     "metodo": "Atualizações do Instituto Escolhas citadas pela imprensa",
+     "fonte": "Instituto Escolhas via InfoMoney (secundária)",
+     "url": "https://www.infomoney.com.br/?p=2046379",
+     "verificado": false
+    },
+    {
+     "descricao": "Ibama: multas aplicadas ~R$ 3,8 bi/ano em média (2015-2017, ~16,6 mil autos/ano); arrecadação histórica ~5%. Reportagem sobre 5 anos: Ibama aplicou R$ 14,6 bi e arrecadou 0,6% (R$ 84 mi)",
+     "valor_rs_bi": 3.8,
+     "faixa_rs_bi": null,
+     "periodo": "2015-2017 (aplicadas por ano)",
+     "tipo": "contagem",
+     "metodo": "Dados CGU/Ibama reportados pela imprensa; tabela primária não localizada",
+     "fonte": "Aos Fatos (secundária) citando CGU/Ibama",
+     "url": "https://www.aosfatos.org/noticias/por-que-o-ibama-arrecada-so-5-das-multas-ambientais-que-aplica/",
+     "verificado": false
+    },
+    {
+     "descricao": "TCU: processos sancionadores ambientais autuados x julgados em 1a instância: 2019 14.426/13.903; 2020 9.184/2.160 (23,5%); 2021 8.931/3.294 (36,9%); desfecho de conciliação: 47% desconto à vista, 41% conversão indireta",
+     "valor_rs_bi": null,
+     "faixa_rs_bi": null,
+     "periodo": "2019-2021",
+     "tipo": "contagem",
+     "metodo": "Auditoria operacional do processo sancionador do Ibama (contagem de processos, não R$)",
+     "fonte": "TCU - Auditoria 038.685/2021-3 (Ac. 1973/2022)",
+     "url": "https://portal.tcu.gov.br/data/files/15/96/6E/EB/4E1D28102DFE0FF7F18818A8/038.685-2021-3-MBC%20-%20Auditoria%20operacional%20sancoes%20Ibama.pdf",
+     "verificado": true
+    },
+    {
+     "descricao": "Grilagem: estudo estima perda de ~R$ 118 bi (7% do PIB) com a regularização de terras públicas griladas a preços abaixo do mercado e estímulo ao desmatamento; Pará: R$ 6,7 bi em descontos a grileiros",
+     "valor_rs_bi": 118.0,
+     "faixa_rs_bi": null,
+     "periodo": "Estudo de 2019",
+     "tipo": "estimativa",
+     "metodo": "Modelo Imazon (Environmental Research Letters), citado pela imprensa",
+     "fonte": "Imazon via IHU Unisinos / O Eco (secundária)",
+     "url": "https://ihu.unisinos.br/categorias/590161-privatizar-terras-da-amazonia-dariam-prejuizo-de-r-118-bilhoes-para-o-pais-alerta-estudo",
+     "verificado": false
+    },
+    {
+     "descricao": "PF apreendeu 447,09 kg de ouro ilegal em 2025 (jan-dez) contra 100,7 kg em 2024; apreensões ligadas a garimpo desde 2011 somam ~R$ 1,02 bi",
+     "valor_rs_bi": 1.02,
+     "faixa_rs_bi": null,
+     "periodo": "2011-2025",
+     "tipo": "contagem",
+     "metodo": "Apreensões da PF compiladas por veículo de imprensa",
+     "fonte": "PF via Fiquem Sabendo / Correio da Manhã (secundária)",
+     "url": "https://news.fiquemsabendo.com.br/p/as-prisoes-e-confiscos-da-pf-contra",
+     "verificado": false
+    }
+   ],
+   "efeitos_na_economia": "Ouro ilegal contamina mercado financeiro e exportações, gera mercúrio e perda de arrecadação (CFEM/tributos); baixa cobrança de multas reduz a dissuasão.",
+   "classes_afetadas": [
+    "povos indígenas e ribeirinhos",
+    "contribuintes",
+    "empresas legais dos setores mineral e agropecuário"
+   ],
+   "limites": "Escolhas é estimativa por indícios, não condenação. Taxa de pagamento de multas do Ibama sem tabela primária lida (o PDF do TCU não traz taxa clara). MapBiomas: garimpo ~241 mil ha na Amazônia (2022) só por resumo de busca; área nacional não verificada. Madeira ilegal: lacuna. Valor em R$ do ouro ilegal: não extraído.",
+   "evidencia_empirica": [],
+   "decisoes_relacionadas": [
+    "combate-garimpo-ilegal-e-rastreio-do-ouro",
+    "homologar-terras-indigenas-e-titular-quilombos"
+   ]
+  },
+  {
+   "id": "concessoes-renegociacoes",
+   "nome": "Concessões e renegociações",
+   "mecanismo": "Reequilíbrio, repactuação e relicitação de concessões (rodovias, aeroportos), com disputa sobre quem arca com o desequilíbrio.",
+   "valores": [
+    {
+     "descricao": "Repactuação de uma concessão rodoviária federal (BR-163/MS) aprovada pelo TCU: capex R$ 9,3 bi e opex R$ 7,1 bi, prazo +10 anos (29 anos). É valor de investimento contratual, não de prejuízo",
+     "valor_rs_bi": 9.3,
+     "faixa_rs_bi": null,
+     "periodo": "2024",
+     "tipo": "contagem",
+     "metodo": "Decisão do TCU em solução consensual, via imprensa especializada",
+     "fonte": "Agência Infra (secundária) citando TCU",
+     "url": "https://agenciainfra.com/blog/tcu-aprova-repactuacao-da-br-163-ms-com-acrescimo-de-dez-anos-de-contrato-e-capex-de-r-93-bi/",
+     "verificado": false
+    }
+   ],
+   "efeitos_na_economia": "Renegociações podem socializar risco de projetos mal estimados e alongar prazos e tarifas; também podem destravar obras paradas. O efeito líquido depende do caso.",
+   "classes_afetadas": [
+    "usuários de pedágio e tarifas",
+    "contribuintes",
+    "concessionários e financiadores"
+   ],
+   "limites": "Lacuna importante: não obtive valor agregado de aditivos/reequilíbrios (TCU/ANTT) em fonte primária lida; o único número é de um caso e não é perda. Sem agregado, não tratar como custo da corrupção. Buscar auditorias de acompanhamento de reequilíbrios (Covid) do TCU e relatórios da ANTT.",
+   "evidencia_empirica": [],
+   "decisoes_relacionadas": [
+    "privatizacoes"
+   ]
+  },
+  {
+   "id": "fundos-de-pensao-lavagem",
+   "nome": "Fundos de pensão e lavagem de dinheiro",
+   "mecanismo": "Investimentos temerários ou fraudulentos em fundos de estatais; lavagem via setor financeiro e fintechs.",
+   "valores": [
+    {
+     "descricao": "CPI dos Fundos de Pensão (Funcef, Postalis, Petros, Previ): prejuízo apurado R$ 6,62 bi (estimativa inicial R$ 4,26 bi); Funcef R$ 5,5 bi de rombo por negócios de risco. Indiciamentos sugeridos, sem trânsito em julgado",
+     "valor_rs_bi": 6.62,
+     "faixa_rs_bi": null,
+     "periodo": "Relatório final, abr/2016",
+     "tipo": "contagem",
+     "metodo": "Relatório final de CPI parlamentar",
+     "fonte": "Câmara dos Deputados",
+     "url": "https://www.camara.leg.br/noticias/485584-cpi-dos-fundos-de-pensao-aprova-relatorio-que-pede-indiciamento-de-146-pessoas/",
+     "verificado": true
+    },
+    {
+     "descricao": "Operação Greenfield (PF/MPF): termos de compromisso com garantias de R$ 2,28 bi de 26 investigados em um mês; bloqueio cautelar de bens de até R$ 8 bi (103 pessoas/empresas, valor do bloqueio vem de resumo de busca); prejuízo suspeito > R$ 8 bi nos quatro fundos; processos em andamento",
+     "valor_rs_bi": 2.28,
+     "faixa_rs_bi": null,
+     "periodo": "2016-2017",
+     "tipo": "contagem",
+     "metodo": "Termos de compromisso e medida cautelar (MPF)",
+     "fonte": "MPF - Greenfield",
+     "url": "https://combateacorrupcao.mpf.mp.br/feeder_novo/noticias-do-portal-do-mpf-boletim-mpf-em-destaque/e2deb4984ba763ec974f5cf91b246262",
+     "verificado": true
+    },
+    {
+     "descricao": "Rombo/déficit dos fundos: R$ 50 bi nos quatro fundos (levantamento da Previc segundo imprensa); R$ 70,6 bi (2017, imprensa). Conceito de déficit atuarial inclui perdas de mercado e não é todo ilícito",
+     "valor_rs_bi": 50.0,
+     "faixa_rs_bi": [
+      40.0,
+      70.6
+     ],
+     "periodo": "2016-2017",
+     "tipo": "estimativa",
+     "metodo": "Déficit atuarial divulgado por imprensa",
+     "fonte": "Previc via Istoé Dinheiro (secundária)",
+     "url": "https://www.istoedinheiro.com.br/fundos-de-pensao-tem-rombo-de-r-706-bilhoes/",
+     "verificado": false
+    },
+    {
+     "descricao": "Coaf: 20.548 RIFs em 2025 (18.762 em 2024; 16.411 em 2023); 786 processos sancionadores e R$ 96,9 mi em multas; base de >65 milhões de comunicações. Valor monetário = multas aplicadas",
+     "valor_rs_bi": 0.0969,
+     "faixa_rs_bi": null,
+     "periodo": "2025",
+     "tipo": "contagem",
+     "metodo": "Produção anual do Coaf (RIFs em número; valor em R$ = multas administrativas)",
+     "fonte": "Coaf - Relatório de Gestão Integrado 2025",
+     "url": "https://www.gov.br/coaf/pt-br/assuntos/noticias/ultimas-noticias/produtividade-do-coaf-cresce-e-bate-novo-recorde-com-20-548-rifs-aponta-novo-relatorio-de-gestao-integrado-2025",
+     "verificado": true
+    },
+    {
+     "descricao": "Operações Carbono Oculto/Quasar/Tank (PF, Receita, MP-SP): esquema no setor de combustíveis movimentou R$ 52 bi (2020-2024); seis fintechs movimentaram R$ 26 bi (2022-2025). Movimentação não é lucro nem dano; investigação em curso",
+     "valor_rs_bi": 26.0,
+     "faixa_rs_bi": null,
+     "periodo": "2020-2025",
+     "tipo": "estimativa",
+     "metodo": "Movimentação financeira divulgada pelas autoridades e reproduzida pela imprensa",
+     "fonte": "BBC/O Povo e Money Times sobre PF/Receita (secundária)",
+     "url": "https://www.opovo.com.br/agencia/bbc/2025/08/28/amp/como-pcc-usa-a-faria-lima-para-lucrar-bilhoes-segundo-investigacoes-da-receita-e-a-pf.html",
+     "verificado": false
+    }
+   ],
+   "efeitos_na_economia": "Perdas de fundos recaem sobre participantes e patrocinadoras estatais (contribuições extraordinárias); lavagem via fintechs distorce a concorrência.",
+   "classes_afetadas": [
+    "participantes e assistidos de fundos de pensão",
+    "empresas patrocinadoras estatais e contribuintes",
+    "concorrentes honestos do setor de combustíveis"
+   ],
+   "limites": "Estimativa de lavagem no Brasil (% do PIB) não localizada; UNODC 2-5% do PIB mundial não verificado. Divergência: prejuízo da CPI R$ 6,62 bi x déficit Previc R$ 50 bi x desvalorização de ativos R$ 113 bi (resumo de busca) são conceitos distintos. Valores de bets: sem fonte oficial encontrada. Casos sem trânsito em julgado.",
+   "evidencia_empirica": [],
+   "decisoes_relacionadas": []
+  },
+  {
+   "id": "fraude-financeira-sistema",
+   "nome": "Fraude financeira no sistema (liquidações recentes)",
+   "mecanismo": "Liquidação extrajudicial por crise de liquidez e infrações regulatórias; custo recai sobre o FGC (bancos associados) e credores.",
+   "valores": [
+    {
+     "descricao": "FGC: total de garantias a pagar na liquidação decretada pelo BCB em 18/11/2025 (conglomerado com três instituições): R$ 40,6 bi (estimativa inicial R$ 41,3 bi); ~800 mil credores (estimativa inicial 1,6 milhão)",
+     "valor_rs_bi": 40.6,
+     "faixa_rs_bi": [
+      40.6,
+      41.3
+     ],
+     "periodo": "nov/2025 a jan/2026",
+     "tipo": "contagem",
+     "metodo": "Comunicado ao Mercado do FGC de 17/01/2026",
+     "fonte": "FGC - Comunicado ao Mercado",
+     "url": "https://www.fgc.org.br/documents/55449/55491/17_01_2026+FGC+d%C3%A1+in%C3%ADcio+ao+pagamento+da+garantia+aos+credores+dos+Bancos+Master,+Master+de+Investimentos+e+Letsbank.pdf/1bd4ea2e-95e8-4f4f-265d-22d6e87adb03?download=true&t=1768862149916&version=1.0",
+     "verificado": true
+    },
+    {
+     "descricao": "Pago pelo FGC: R$ 38,4 bi (94% do total) até 05/03/2026; liquidez do FGC de R$ 125 bi (nov/2025)",
+     "valor_rs_bi": 38.4,
+     "faixa_rs_bi": null,
+     "periodo": "até 05/03/2026",
+     "tipo": "contagem",
+     "metodo": "Informação do FGC reproduzida em resumo de busca",
+     "fonte": "FGC (resumo de busca)",
+     "url": "https://fgc.org.br/en/pagamento-de-garantia",
+     "verificado": false
+    },
+    {
+     "descricao": "BCB decretou liquidação em 18/11/2025 por grave crise de liquidez e violações regulatórias; o conglomerado detinha 0,57% dos ativos do SFN e 0,55% dos depósitos",
+     "valor_rs_bi": null,
+     "faixa_rs_bi": null,
+     "periodo": "18/11/2025",
+     "tipo": "contagem",
+     "metodo": "Comunicado do BCB reproduzido pela imprensa",
+     "fonte": "BCB via Poder360 (secundária)",
+     "url": "https://poder360.com.br/poder-economia/banco-central-decreta-liquidacao-extrajudicial-do-banco-master/",
+     "verificado": false
+    },
+    {
+     "descricao": "PF/MPF (operação de 18/11/2025, investigação em curso): suspeita de venda de R$ 12,2 bi em carteiras de crédito inexistentes; bloqueio de bens ~R$ 27,7 bi; R$ 230 mi apreendidos",
+     "valor_rs_bi": 12.2,
+     "faixa_rs_bi": null,
+     "periodo": "2025-2026",
+     "tipo": "estimativa",
+     "metodo": "Valores noticiados da investigação em andamento; sem condenação",
+     "fonte": "JB / Diário de Pernambuco sobre PF/MPF (secundária)",
+     "url": "https://www.jb.com.br/brasil/policia/2026/05/1059669-master-operacao-da-pf-contra-fraude-bilionaria-completa-seis-meses.html",
+     "verificado": false
+    }
+   ],
+   "efeitos_na_economia": "O custo do FGC é financiado por contribuições dos bancos e tende a ser repassado via spreads e tarifas; houve comunicado de antecipação de contribuições em 03/2026.",
+   "classes_afetadas": [
+    "depositantes e investidores",
+    "clientes de bancos",
+    "setor bancário (contribuinte do FGC)",
+    "entes públicos que aplicaram recursos"
+   ],
+   "limites": "Só o valor do FGC foi lido em fonte primária. Valores de PF/MPF vêm de imprensa e a investigação está em curso (presunção de inocência). Prejuízo total da fraude e perdas de credores não garantidos não verificados. Pessoas não nomeadas.",
+   "evidencia_empirica": [],
+   "decisoes_relacionadas": []
+  },
+  {
+   "id": "corrupcao-subnacional-municipal",
+   "nome": "Corrupção subnacional e municipal",
+   "mecanismo": "Fraudes em licitações e desvios de recursos federais transferidos a municípios (saúde, educação, assistência), detectados por sorteios e fiscalizações da CGU.",
+   "valores": [
+    {
+     "descricao": "CGU: 76 operações especiais com a PF em 2025 contribuíram para prevenir/combater danos ao erário de R$ 13,6 bi (todos os entes, não só municípios)",
+     "valor_rs_bi": 13.6,
+     "faixa_rs_bi": null,
+     "periodo": "2025",
+     "tipo": "contagem",
+     "metodo": "Relatório de gestão da CGU (resumo de busca; a leitura do PDF falhou)",
+     "fonte": "CGU - Relatório de Gestão 2025",
+     "url": "https://www.gov.br/cgu/pt-br/acesso-a-informacao/auditorias/relatorio-de-gestao-2025.pdf",
+     "verificado": false
+    },
+    {
+     "descricao": "Programa de sorteios (desde 2003): 1.881 municípios fiscalizados, ~R$ 18 bi em recursos examinados; ~1.500-1.600 processos/ano enviados ao TCU, ~R$ 1 bi em uso indevido",
+     "valor_rs_bi": 1.0,
+     "faixa_rs_bi": null,
+     "periodo": "2003 até data indefinida",
+     "tipo": "contagem",
+     "metodo": "Resumo de busca de material da CGU",
+     "fonte": "CGU (resumo de busca)",
+     "url": "https://www.gov.br/cgu/pt-br",
+     "verificado": false
+    },
+    {
+     "descricao": "24a edição do sorteio: 55 de 60 municípios (92%) com irregularidades em licitações; 26a edição: R$ 620,3 mi examinados em 60 municípios",
+     "valor_rs_bi": 0.6203,
+     "faixa_rs_bi": null,
+     "periodo": "Edições 24 e 26 (anos não confirmados)",
+     "tipo": "contagem",
+     "metodo": "Resumo de busca de imprensa",
+     "fonte": "Congresso em Foco / Istoé Dinheiro (secundária)",
+     "url": "https://www.congressoemfoco.com.br/noticia/81695/cgu-norte-e-nordeste-sao-campeoes-em-irregularidades",
+     "verificado": false
+    }
+   ],
+   "efeitos_na_economia": "Desvios reduzem a entrega de serviços locais (saúde, escola, merenda), com mais impacto onde a dependência de transferências é maior.",
+   "classes_afetadas": [
+    "usuários do SUS e da escola pública",
+    "população de municípios pequenos e pobres",
+    "contribuintes"
+   ],
+   "limites": "Sem fonte primária lida. Edições de sorteio citadas são antigas e o ano de encerramento do programa não foi verificado. % de achados graves não localizado. Agregados de Tribunais de Contas estaduais: lacuna. R$ 13,6 bi não separa municípios.",
+   "evidencia_empirica": [
+    {
+     "estudo": "Ferraz & Finan (2008), QJE",
+     "achado": "Em municípios brasileiros sorteados, divulgar desvios apurados pela CGU reduz a probabilidade de reeleição do prefeito (resumo do working paper: ~20%; mais forte onde há rádio local).",
+     "url": "https://ideas.repec.org/p/cdl/econwp/qt9tq6q0qn.html",
+     "doi": "10.1162/qjec.2008.123.2.703",
+     "verificado": true
+    },
+    {
+     "estudo": "Ferraz & Finan (2011), AER",
+     "achado": "Prefeitos com direito a reeleição desviam significativamente menos recursos do que os de segundo mandato (resumo NBER lido); accountability eleitoral limita corrupção.",
+     "url": "https://www.nber.org/papers/w14937",
+     "doi": "10.1257/aer.101.4.1274",
+     "verificado": true
+    },
+    {
+     "estudo": "Avis, Ferraz & Finan (2018), JPE",
+     "achado": "Ter sido auditado reduz corrupção futura em 8% e aumenta em 20% a probabilidade de ação legal posterior (resumo lido).",
+     "url": "https://www.nber.org/papers/w22443",
+     "doi": "10.1086/699209",
+     "verificado": true
+    },
+    {
+     "estudo": "Brollo, Nannicini, Perotti & Tabellini (2013), The Political Resource Curse, AER",
+     "achado": "Com regressão descontínua nos limiares populacionais de transferências federais, maiores transferências aumentam corrupção observada e reduzem a escolaridade média dos candidatos a prefeito (resumo lido).",
+     "url": "https://doi.org/10.1257/aer.103.5.1759",
+     "doi": "10.1257/aer.103.5.1759",
+     "verificado": true
+    },
+    {
+     "estudo": "Zamboni & Litschig (2018), Audit risk and rent extraction, JDE",
+     "achado": "Experimento randomizado no Brasil sobre risco de auditoria e extração de rendas (apenas qualitativo; resumo não lido por bloqueio 403, magnitude não confirmada).",
+     "url": "https://doi.org/10.1016/j.jdeveco.2018.03.008",
+     "doi": "10.1016/j.jdeveco.2018.03.008",
+     "verificado": false
+    },
+    {
+     "estudo": "Bobonis, Cámara Fuertes & Schwabe (2016), Monitoring Corruptible Politicians, AER (Porto Rico)",
+     "achado": "Auditorias antes das eleições reduzem corrupção, mas sem queda em auditorias subsequentes; eleitores selecionam políticos responsivos porém corrompíveis (resumo Crossref lido). Não é Brasil; contraponto de validade externa.",
+     "url": "https://doi.org/10.1257/aer.20130874",
+     "doi": "10.1257/aer.20130874",
+     "verificado": true
+    }
+   ],
+   "decisoes_relacionadas": []
+  }
+ ],
+ "beneficios_a_empresas": [
+  {
+   "id": "desoneracao-folha",
+   "tema": "Desoneracao da folha de pagamento (17 setores + municipios; reoneracao gradual 2025-2027)",
+   "decisao_id": "desoneracao-ampla",
+   "beneficiarios": "empresas de 17 setores intensivos em mao de obra e municipios ate 156 mil hab.",
+   "valor_rs_bi_ano": {
+    "central": 13.15,
+    "faixa": [
+     13.15,
+     19.5
+    ]
+   },
+   "quem_paga": "demais contribuintes/Previdencia",
+   "base": "DGT PLOA 2026: R$ 7,65 bi (setores) + R$ 5,50 bi (municipios) = R$ 13,15 bi, ja com reoneracao parcial",
+   "fonte": "Receita Federal DGT PLOA 2026",
+   "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-quadros.xlsx",
+   "verificado": true,
+   "nota": "Valor 2026 menor que o pre-reoneracao. Faixa superior (R$ 19,5 bi) e impacto citado em resumo de busca, nao verificado e de periodo incerto. Lei 14.784/2023 prorrogou ate 2027; Lei 14.973/2024 instituiu transicao (2025: 80% CPRB/25% folha; 2026: 60%/50%; 2027: 40%/75%; 2028 fim)."
+  },
+  {
+   "id": "simples-nacional",
+   "tema": "Simples Nacional (regime unificado)",
+   "decisao_id": "cortar-beneficios-fiscais",
+   "beneficiarios": "micro e pequenas empresas",
+   "valor_rs_bi_ano": {
+    "central": 134.29,
+    "faixa": [
+     120.1,
+     134.29
+    ]
+   },
+   "quem_paga": "demais contribuintes",
+   "base": "DGT PLOA 2026 Quadro X, 21,91% do gasto tributario total",
+   "fonte": "Receita Federal DGT PLOA 2026",
+   "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-quadros.xlsx",
+   "verificado": true,
+   "nota": "Divergencia R$ 120,1 bi (imprensa, total 620,8) vs R$ 134,29 bi (xlsx lido). Parte do gasto e desenho simplificador, nao privilegio."
+  },
+  {
+   "id": "zona-franca-manaus",
+   "tema": "Zona Franca de Manaus e areas de livre comercio",
+   "decisao_id": "cortar-beneficios-fiscais",
+   "beneficiarios": "industria instalada na ZFM e ALCs; consumo regional",
+   "valor_rs_bi_ano": {
+    "central": 35.99,
+    "faixa": [
+     24.2,
+     55.3
+    ]
+   },
+   "quem_paga": "demais contribuintes",
+   "base": "DGT PLOA 2026 Quadro X (5,87%)",
+   "fonte": "Receita Federal DGT PLOA 2026",
+   "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-quadros.xlsx",
+   "verificado": true,
+   "nota": "Serie RFB muito volatil entre anos (FGV/EESP jun/2025 aponta inconsistencia); faixa baseada em busca (nao verificada)."
+  },
+  {
+   "id": "agro-tributario",
+   "tema": "Beneficios tributarios do agro (PIS/Cofins, Funrural, exportacao da producao rural, defensivos, seguro rural; ITR ~0)",
+   "decisao_id": "cortar-beneficios-fiscais",
+   "beneficiarios": "produtores rurais e agroindustria",
+   "valor_rs_bi_ano": {
+    "central": 79.25,
+    "faixa": [
+     79.25,
+     101.3
+    ]
+   },
+   "quem_paga": "demais contribuintes",
+   "base": "DGT PLOA 2026 Quadro X: Agricultura e Agroindustria R$ 79,25 bi; exportacao producao rural R$ 23,99 bi; Funrural R$ 2,76 bi",
+   "fonte": "Receita Federal DGT PLOA 2026",
+   "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-quadros.xlsx",
+   "verificado": true,
+   "nota": "R$ 101,3 bi aparece em imprensa para 'Agricultura' (total 620,8) - nao reconciliado. Nao inclui beneficios de ICMS estaduais."
+  },
+  {
+   "id": "plano-safra-equalizacao",
+   "tema": "Plano Safra - equalizacao de juros (Tesouro)",
+   "decisao_id": "credito-subsidiado",
+   "beneficiarios": "produtores rurais (Pronaf, Pronamp, demais)",
+   "valor_rs_bi_ano": {
+    "central": 6.1,
+    "faixa": [
+     1.7,
+     6.1
+    ]
+   },
+   "quem_paga": "Tesouro Nacional (todos os contribuintes)",
+   "base": "Plano Safra 2026/27: custo total ao Tesouro R$ 18,2 bi ao longo dos anos (ciclo anterior R$ 13,5 bi); R$ 1,7 bi em 2026, pico R$ 6,1 bi em 2027, R$ 3,3 bi em 2028; montante equalizavel R$ 141,9 bi",
+   "fonte": "Min. Fazenda (Portaria MF 2.170/2026) via Poder360 e BrasilAgro",
+   "url": "https://www.brasilagro.com.br/conteudo/subvencao-da-safra-custara-r-17-bilhao-em-2026.html",
+   "verificado": false,
+   "nota": "Valor 'ano' = pico previsto para 2027; ciclos se sobrepoem. Poder360 traz R$ 18,2 bi e R$ 1,7 bi; BrasilAgro o perfil anual.",
+   "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+  },
+  {
+   "id": "jcp",
+   "tema": "Juros sobre capital proprio (JCP): dedutibilidade e IRRF",
+   "decisao_id": "cortar-beneficios-fiscais",
+   "beneficiarios": "empresas do lucro real que pagam JCP e seus acionistas",
+   "valor_rs_bi_ano": {
+    "central": 6.3,
+    "faixa": [
+     3.1,
+     6.3
+    ]
+   },
+   "quem_paga": "demais contribuintes (a deducao reduz IRPJ/CSLL)",
+   "base": "Nota Cetad/Coest 009/2026 da RFB: aumento do IRRF sobre JCP de 15% para 17,5% (LC 224/2025, vigencia 2026) gera ganho de R$ 3,10 bi (2026), R$ 5,98 bi (2027), R$ 6,32 bi (2028)",
+   "fonte": "Receita Federal Nota Cetad/Coest 009/2026 (PDF lido)",
+   "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/estudos/notas-cetad/notas-tecnicas/2026/nota-cetad-coest-no-009-2026",
+   "verificado": true,
+   "nota": "Central = ganho de arrecadacao anual pleno (2028), NAO a renuncia total do JCP. Pela base implicita (6,32/0,025 = ~R$ 253 bi de JCP/ano, calculo nosso) o custo liquido da deducao seria da ordem de R$ 40-50 bi/ano (ordem de grandeza NAO verificada, depende de aliquotas efetivas). JCP nao aparece no DGT. IN RFB 2.296/2025 tambem restringiu a base de calculo."
+  },
+  {
+   "id": "transacao-refis",
+   "tema": "Transacao tributaria PGFN/RFB, Litigio Zero e parcelamentos especiais",
+   "decisao_id": "perdao-dividas",
+   "beneficiarios": "devedores de grandes debitos (empresas viaveis e inviaveis)",
+   "valor_rs_bi_ano": {
+    "central": null,
+    "faixa": null
+   },
+   "quem_paga": "Uniao (descontos), demais contribuintes",
+   "base": "PGFN recuperou ~R$ 30,8 bi via transacao em 2025; TCU: R$ 718,41 bi do estoque em negociacao, 57,9% voltaram a inadimplir; nova fase Port. Conj. 19/2025 (debitos >= R$ 25 mi, meta ~R$ 9 bi); descontos concedidos NAO apurados",
+   "fonte": "TCU via O Fator",
+   "url": "https://ofator.com.br/?p=48687",
+   "verificado": false,
+   "nota": "LACUNA: valor anual de desconto/renuncia nao encontrado em fonte aberta. TCU apontou que empresas saudaveis receberam descontos pensados para devedores em crise (achado de auditoria, sem individualizar contribuintes).",
+   "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+  },
+  {
+   "id": "divida-ativa-pgfn",
+   "tema": "Divida ativa da Uniao: estoque e recuperabilidade",
+   "decisao_id": "perdao-dividas",
+   "beneficiarios": "devedores inscritos em divida ativa",
+   "valor_rs_bi_ano": {
+    "central": null,
+    "faixa": null
+   },
+   "quem_paga": "Uniao/contribuintes adimplentes",
+   "base": "Estoque ~R$ 3 tri; irrecuperaveis ~R$ 2,13 tri (2024); A R$ 196,7 bi; B R$ 696 bi; recuperacao 2025 ~R$ 68,1 bi",
+   "fonte": "PGFN via IBET",
+   "url": "https://www.ibet.com.br/receita-com-divida-ativa-tem-pico-em-2025-e-oscila-entre-r-50-e-60-bi-ano-a-partir-de-2026/",
+   "verificado": false,
+   "nota": "Estoque nao e custo anual. Recuperacao anual (R$ 61 bi em 2024; R$ 68,1 bi em 2025) ~2% do estoque. Classificacao 2025 nao obtida.",
+   "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+  },
+  {
+   "id": "cde-subsidios",
+   "tema": "CDE - subsidios totais pagos na tarifa",
+   "decisao_id": null,
+   "beneficiarios": "fontes incentivadas, GD, tarifa social, irrigantes, areas isoladas",
+   "valor_rs_bi_ano": {
+    "central": 52.7,
+    "faixa": [
+     47.8,
+     52.7
+    ]
+   },
+   "quem_paga": "consumidores de energia (tarifas)",
+   "base": "Orcamento CDE 2026 proposta ANEEL R$ 52,7 bi (R$ 47,8 bi nas tarifas)",
+   "fonte": "ANEEL via Cenario Energia",
+   "url": "https://cenarioenergia.com.br/2025/12/05/cde-2026-deve-chegar-a-r-527-bilhoes-e-pressiona-debate-sobre-subsidios-no-setor-eletrico/",
+   "verificado": false,
+   "nota": "Proposta de dez/2025; homologacao final nao conferida (LACUNA). Nem toda a CDE e beneficio a empresas (Tarifa Social R$ 10,4 bi vai a familias).",
+   "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+  },
+  {
+   "id": "gd-subsidio-cruzado",
+   "tema": "Subsidio cruzado da geracao distribuida e descontos a fontes incentivadas",
+   "decisao_id": "politica-industrial-verde",
+   "beneficiarios": "proprietarios de GD e geradores incentivados",
+   "valor_rs_bi_ano": {
+    "central": 26.4,
+    "faixa": [
+     20.5,
+     26.4
+    ]
+   },
+   "quem_paga": "demais consumidores (tarifa)",
+   "base": "CDE 2026: GD R$ 6,8 bi + fontes incentivadas R$ 19,6 bi = R$ 26,4 bi (2025: 3,6 + 16,9 = 20,5)",
+   "fonte": "ANEEL via Cenario Energia",
+   "url": "https://cenarioenergia.com.br/2025/12/05/cde-2026-deve-chegar-a-r-527-bilhoes-e-pressiona-debate-sobre-subsidios-no-setor-eletrico/",
+   "verificado": false,
+   "nota": "Faixa: 2025 a 2026, ambos componentes CDE. Outros estudos podem estimar subsidio cruzado total da GD acima do componente CDE (nao verificados).",
+   "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+  },
+  {
+   "id": "bndes-equalizacao",
+   "tema": "Credito subsidiado - Tesouro/BNDES e FINEP (PSI e emprestimos da Uniao)",
+   "decisao_id": "credito-subsidiado",
+   "beneficiarios": "tomadores de credito BNDES/FINEP",
+   "valor_rs_bi_ano": {
+    "central": 1.57,
+    "faixa": [
+     1.57,
+     4.15
+    ]
+   },
+   "quem_paga": "Tesouro Nacional",
+   "base": "Boletim Tesouro 6o bimestre 2025: subsidios financeiros R$ 207,7 mi + creditícios R$ 1,36 bi = R$ 1,57 bi em 2025 (2024: ~R$ 1,23 bi); creditícios projetados R$ 4,15 bi a valor presente ate 2040",
+   "fonte": "Tesouro Nacional - Boletim de Subsidios BNDES/FINEP 6o bim. 2025",
+   "url": "https://cdn.tesouro.gov.br/sistemas-internos/apex/producao/sistemas/thot/arquivos/publicacoes/53784_1733447/Boletim de Subsídios do Tesouro Nacional ao BNDES e a FINEP - 6º Bimestre 2025.pdf",
+   "verificado": true,
+   "nota": "PSI sem novas contratacoes desde 2015: valor residual. Faixa superior (4,15) e valor presente acumulado ate 2040, nao anual. Nao inclui TLP/FAT nem fundos constitucionais (R$ 2,46 bi no DGT)."
+  },
+  {
+   "id": "dividas-rurais",
+   "tema": "Renegociacao de dividas rurais (MP 1.376/2026) e PL 5.122/2023",
+   "decisao_id": "perdao-dividas",
+   "beneficiarios": "produtores rurais com perdas 2019-2025",
+   "valor_rs_bi_ano": {
+    "central": 3.6,
+    "faixa": [
+     2.0,
+     22.4
+    ]
+   },
+   "quem_paga": "Tesouro Nacional",
+   "base": "MP 1.376/2026 (15/07/2026): >R$ 100 bi em dividas; custo estimado R$ 3,6 bi/ano; fundo garantidor ate R$ 2 bi. Alternativa PL 5.122/2023: Fazenda estimou R$ 22,4 bi em 2027 e R$ 139,8 bi em 13 anos; setor contesta (<= R$ 5 bi/ano)",
+   "fonte": "BrasilAgro (MP 1.376) e Jornal de Brasilia (PL)",
+   "url": "https://brasilagro.com.br/conteudo/governo-publica-mp-1376-que-trata-da-renegociacao-das-dividas-rurais.html",
+   "verificado": false,
+   "nota": "Central = MP em vigor (R$ 3,6 bi/ano); R$ 22,4 bi refere-se ao PL mais amplo (R$ 200 bi de divida a juros 3,5%-7,5%), nao a MP. MP so cobre dividas bancarias, juros 5%-12% a.a.",
+   "nota_verificacao": "Número visto em página de imprensa/secundária que replica o órgão; não lido na fonte primária (rebaixado para verificado=false)."
+  },
+  {
+   "id": "entidades-imunes",
+   "tema": "Entidades sem fins lucrativos (imunes/isentas)",
+   "decisao_id": "cortar-beneficios-fiscais",
+   "beneficiarios": "hospitais filantropicos, escolas e entidades assistenciais",
+   "valor_rs_bi_ano": {
+    "central": 55.92,
+    "faixa": [
+     55.92,
+     55.92
+    ]
+   },
+   "quem_paga": "demais contribuintes",
+   "base": "DGT PLOA 2026 Quadro X (9,13%)",
+   "fonte": "Receita Federal DGT PLOA 2026",
+   "url": "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-quadros.xlsx",
+   "verificado": true,
+   "nota": "Beneficio constitucional (imunidade); ha contrapartidas e debate sobre fiscalizacao."
+  },
+  {
+   "id": "reforma-regimes-diferenciados",
+   "tema": "Reforma tributaria: regimes diferenciados IBS/CBS (cesta basica zero, saude, educacao, agro, profissionais liberais)",
+   "decisao_id": "acelerar-ibs-cbs",
+   "beneficiarios": "varios setores e familias de baixa renda",
+   "valor_rs_bi_ano": {
+    "central": null,
+    "faixa": null
+   },
+   "quem_paga": "demais contribuintes via aliquota-padrao (~28% estimada)",
+   "base": "Aliquota padrao IBS+CBS estimada em ~28% (resumo de busca); custo dos regimes diferenciados em R$ nao encontrado em fonte aberta",
+   "fonte": "Resultado de busca (Isto E Dinheiro)",
+   "url": "https://istoedinheiro.com.br/reforma-tributaria-entenda-os-principais-pontos-e-mudancas-nos-impostos",
+   "verificado": false,
+   "nota": "LACUNA: estimativa oficial (Min. Fazenda) do custo dos regimes diferenciados nao obtida; sem valor."
+  }
+ ],
+ "modelos": [
+  {
+   "id": "ferraz-finan-reeleicao",
+   "nome": "Accountability eleitoral e auditorias públicas (Brasil)",
+   "autor": "Claudio Ferraz; Frederico Finan",
+   "ano": 2008,
+   "formula": "Modelo reduzido: Pr(reeleição_m) = a + b·(corrupção apurada_m) + X·g + e, com sorteio das auditorias da CGU gerando variação exógena na divulgação antes/depois da eleição. Teste: b<0 (eleitor pune corrupção revelada).",
+   "uso": "Mostrar que informação sobre corrupção afeta resultado eleitoral; base da literatura de accountability com dados da CGU.",
+   "aplicacao_brasil": "Permite dizer que, em municípios brasileiros sorteados para auditoria, revelar desvios apurados reduziu a probabilidade de reeleição do prefeito, com efeito maior onde há rádio local. No resumo da versão de working paper que li, o efeito é de cerca de 20% de redução na probabilidade de reeleição (a versão publicada pode trazer outro número; conferir o texto do QJE). Não permite extrapolar para estados/União nem para eleições sem divulgação de auditoria.",
+   "limites": "Municípios pequenos e médios com sorteio; corrupção medida por auditoria (só o que o auditor encontra, por amostra), não percepção; efeito de curto prazo e depende de mídia local; eleitor pode tolerar corrupção em troca de entregas (rouba mas faz); prefeitos podem se adaptar.",
+   "referencias": [
+    {
+     "titulo": "Exposing Corrupt Politicians: The Effects of Brazil's Publicly Released Audits on Electoral Outcomes (QJE 2008)",
+     "url": "https://doi.org/10.1162/qjec.2008.123.2.703",
+     "doi": "10.1162/qjec.2008.123.2.703",
+     "verificado": true
+    },
+    {
+     "titulo": "Versão WP (resumo lido)",
+     "url": "https://ideas.repec.org/p/cdl/econwp/qt9tq6q0qn.html",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "ferraz-finan-educacao",
+   "nome": "Corrupção e desempenho escolar (Corrupting Learning)",
+   "autor": "Claudio Ferraz; Frederico Finan; Diana Moreira",
+   "ano": 2012,
+   "formula": "Desempenho_escolar_im = a + b·1[corrupção em educação detectada_m] + controles aluno/escola/município + e. Medida objetiva: irregularidades em recursos federais de educação apuradas pela CGU.",
+   "uso": "Estimar o custo real da corrupção em serviços públicos (aprendizado) e mecanismos via insumos escolares.",
+   "aplicacao_brasil": "Para o Brasil: em municípios onde se detectou corrupção em educação (recursos federais), alunos do ensino fundamental tiveram resultados 0,35 desvio-padrão menores em provas padronizadas, mais evasão e reprovação, e menos insumos (laboratórios de informática, material, formação docente). Aplica-se a transferências federais auditadas; não prova causalidade estrita nem se transfere para merenda sem verificação específica.",
+   "limites": "Associação condicional (não sorteio) entre corrupção e desempenho; corrupção apurada por amostra de auditoria; possíveis variáveis omitidas (capacidade administrativa); a estimativa de desvio em educação em % de recursos não foi confirmada por mim.",
+   "referencias": [
+    {
+     "titulo": "Corrupting Learning: Evidence from Missing Federal Education Funds in Brazil (NBER WP 18150; publicado em J. Human Resources 2012)",
+     "url": "https://doi.org/10.3386/w18150",
+     "doi": "10.3386/w18150",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "avis-ferraz-finan-dissuasao",
+   "nome": "Dissuasão por auditoria e risco de punição",
+   "autor": "Eric Avis; Claudio Ferraz; Frederico Finan",
+   "ano": 2018,
+   "formula": "Modelo de agência política: corrupção_t+1 = f(risco percebido de sanção não eleitoral); estimação: corrupção futura do município auditado vs. não auditado antes (diferença por sorteio). Resultado: auditoria passada reduz corrupção futura.",
+   "uso": "Medir dissuasão de auditorias aleatórias e distinguir canal eleitoral de canal de sanção legal.",
+   "aplicacao_brasil": "Para o Brasil: ser auditado no passado reduz a corrupção futura em 8% e aumenta em 20% a chance de ação legal subsequente (resumo NBER lido). Sugere que fiscalização aleatória com consequência jurídica funciona na esfera municipal. Não permite inferir efeito de auditorias discricionárias, nem de longo prazo após o fim do sorteio.",
+   "limites": "Programa de sorteio da CGU encerrou em 2015; medição só pelo que auditores acham (efeito pode ser mudança de comportamento ou de ocultação); validade para entes maiores incerta.",
+   "referencias": [
+    {
+     "titulo": "Do Government Audits Reduce Corruption? Estimating the Impacts of Exposing Corrupt Politicians (JPE 2018)",
+     "url": "https://doi.org/10.1086/699209",
+     "doi": "10.1086/699209",
+     "verificado": true
+    },
+    {
+     "titulo": "NBER WP 22443 (resumo lido)",
+     "url": "https://www.nber.org/papers/w22443",
+     "doi": "10.3386/w22443",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "olken-monitoramento",
+   "nome": "Monitoramento de corrupção por experimento de campo (Indonésia)",
+   "autor": "Benjamin A. Olken",
+   "ano": 2007,
+   "formula": "Despesa ausente = valor declarado − valor estimado por engenharia independente (preço × quantidade); efeito = diferença entre grupos randomizados (auditoria 4% para 100%; participação comunitária).",
+   "uso": "Estimar o efeito causal de auditoria top-down vs monitoramento comunitário sobre desvios em obras.",
+   "aplicacao_brasil": "Para obras públicas no Brasil: sugere que auditoria com probabilidade alta reduz desvios e é custo-efetiva, e que fiscalização comunitária isolada tem efeito limitado (free-rider). Na Indonésia, anunciar auditoria de 100% (base 4%) reduziu a despesa ausente em cerca de 8 pontos percentuais em mais de 600 estradas de aldeias (resumo lido). Não é estudo brasileiro.",
+   "limites": "Pequenas obras de estradas de aldeia; validade externa limitada; medição por engenheiros pode errar; efeito de anúncio pode não persistir.",
+   "referencias": [
+    {
+     "titulo": "Monitoring Corruption: Evidence from a Field Experiment in Indonesia (JPE 2007)",
+     "url": "https://doi.org/10.1086/517935",
+     "doi": "10.1086/517935",
+     "verificado": true
+    },
+    {
+     "titulo": "NBER WP 11753 (resumo lido)",
+     "url": "https://www.nber.org/papers/w11753",
+     "doi": "10.3386/w11753",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "klitgaard",
+   "nome": "Equação de Klitgaard (monopólio, discricionariedade, accountability)",
+   "autor": "Robert Klitgaard",
+   "ano": 1988,
+   "formula": "C = M + D − A (Corrupção = Monopólio + Discricionariedade − Accountability/transparência).",
+   "uso": "Diagnóstico e desenho de reformas: reduzir monopólio, limitar discricionariedade, aumentar accountability.",
+   "aplicacao_brasil": "Heurística útil para classificar vulnerabilidades (ex.: fornecedor único, poder discricionário sobre emendas, baixa transparência). Não gera estimativas numéricas para o Brasil.",
+   "limites": "Mnemônico qualitativo, não equação estimável; sem calibração empírica; não distingue tipos de corrupção. Fórmula citada de memória, livro não aberto.",
+   "referencias": [
+    {
+     "titulo": "Controlling Corruption (livro 1988; o DOI é da reedição UC Press de 2019)",
+     "url": "https://doi.org/10.1525/9780520911185",
+     "doi": "10.1525/9780520911185",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "becker-crime",
+   "nome": "Economia do crime e da punição",
+   "autor": "Gary S. Becker",
+   "ano": 1968,
+   "formula": "Ganho esperado = (1−p)·B − p·F, onde p = probabilidade de detecção/condenação, B = benefício, F = multa ou custo da pena; ou utilidade esperada EU = (1−p)·U(Y+B) + p·U(Y+B−F). Crime ocorre se EU > U(Y).",
+   "uso": "Fundamenta dissuasão: aumentar p ou F reduz ofensas; custo social ótimo da fiscalização.",
+   "aplicacao_brasil": "Aplicável como arcabouço para crime ambiental, sonegação e corrupção: p baixo (impunidade, baixa taxa de multas pagas) torna B atrativo. O modelo não quantifica p ou F para o Brasil; exige dados próprios.",
+   "limites": "Agente racional neutro ao risco; ignora normas e estigma; difícil medir p e B; dissuasão empírica varia por delito.",
+   "referencias": [
+    {
+     "titulo": "Crime and Punishment: An Economic Approach (JPE 1968)",
+     "url": "https://doi.org/10.1086/259394",
+     "doi": "10.1086/259394",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "rose-ackerman",
+   "nome": "Economia da corrupção (propina como preço e leilão de propina)",
+   "autor": "Susan Rose-Ackerman",
+   "ano": 1975,
+   "formula": "Funcionário com poder de alocar benefício b cobra propina até o ponto em que o ganho marginal do particular iguala o risco/custo da propina; propina como preço de mercado (leilão) em que o funcionário aloca ao maior pagador.",
+   "uso": "Mostra como estrutura de incentivos e regras administrativas determinam a corrupção; base de desenho institucional.",
+   "aplicacao_brasil": "Útil para licitações e licenciamento: quanto maior a renda alocável pelo funcionário e menor o risco, maior a propina. Não fornece magnitude para o Brasil.",
+   "limites": "Teórico; depende de hipóteses sobre risco e informação; sem teste empírico direto no artigo de 1975. O livro de 1978 (Corruption: A Study in Political Economy) não foi verificado por DOI.",
+   "referencias": [
+    {
+     "titulo": "The economics of corruption (J. Public Economics 1975)",
+     "url": "https://doi.org/10.1016/0047-2727(75)90017-1",
+     "doi": "10.1016/0047-2727(75)90017-1",
+     "verificado": true
+    },
+    {
+     "titulo": "Corruption: A Study in Political Economy (1978), livro, sem DOI conferido",
+     "url": "",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "shleifer-vishny",
+   "nome": "Corrupção como monopólio de oferta e estrutura da propina",
+   "autor": "Andrei Shleifer; Robert W. Vishny",
+   "ano": 1993,
+   "formula": "Propina = preço de um bem governamental cobrado por monopolista. Corrupção centralizada (um monopolista): propina é preço de monopólio. Descentralizada (vários vendedores de complementos): cada um cobra sem internalizar os outros, propina total maior e menos bens vendidos.",
+   "uso": "Explicar por que corrupção descentralizada e sem coordenação é mais distorciva do que a centralizada; relação entre sigilo e custo.",
+   "aplicacao_brasil": "Heurística para estruturas onde várias aprovações (licenças, vistorias) multiplicam a propina. Sem estimativa para o Brasil.",
+   "limites": "Modelo estilizado; hipóteses de demanda e monopólio; não identifica magnitudes; corrupção real mistura estruturas. Conteúdo do modelo descrito de memória, artigo não aberto.",
+   "referencias": [
+    {
+     "titulo": "Corruption (QJE 1993)",
+     "url": "https://doi.org/10.2307/2118402",
+     "doi": "10.2307/2118402",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "tullock-krueger-rent-seeking",
+   "nome": "Custo do monopólio, rent-seeking e renda de proteção",
+   "autor": "Gordon Tullock (1967); Anne O. Krueger (1974)",
+   "ano": 1974,
+   "formula": "Custo do monopólio = triângulo de Harberger (perda de peso morto) + retângulo de transferência quando gasto em lobby/competição por renda dissipa o retângulo: custo social = triângulo + (parte ou todo) o retângulo. Krueger: rent-seeking via licenças de importação.",
+   "uso": "Quantificar perdas sociais de rendas criadas por regulação e proteção; base da economia política de privilégios.",
+   "aplicacao_brasil": "Aplica-se a isenções, tarifas, concessões e privilégios tributários: o custo social inclui os recursos gastos para obter a renda, não só a transferência. Segundo fonte secundária (Econlib), Krueger estimou rendas de 7,3% da renda nacional da Índia (1964) e cerca de 15% do PNB da Turquia (1968, só licenças de importação); li isso em fonte secundária, não no artigo original. Não há número equivalente verificado para o Brasil.",
+   "limites": "Estimativas de Krueger dependem de hipóteses de preço sombra; dissipação total do retângulo é controversa; não separa rent-seeking de busca legítima de influência.",
+   "referencias": [
+    {
+     "titulo": "The Welfare Costs of Tariffs, Monopolies, and Theft (Economic Inquiry 1967)",
+     "url": "https://doi.org/10.1111/j.1465-7295.1967.tb01923.x",
+     "doi": "10.1111/j.1465-7295.1967.tb01923.x",
+     "verificado": true
+    },
+    {
+     "titulo": "Krueger 1974 AER (estimativas citadas pela Econlib; artigo original não aberto)",
+     "url": "https://www.econlib.org/library/Enc/RentSeeking.html",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "stigler-captura",
+   "nome": "Captura regulatória",
+   "autor": "George J. Stigler",
+   "ano": 1971,
+   "formula": "Regulação é demandada pela indústria e oferecida pelo regulador: políticos trocam benefícios regulatórios (subsídio, barreiras, preço) por votos e recursos; captura ocorre se ganho concentrado do grupo organizado > custo de organização.",
+   "uso": "Explicar por que regulação tende a servir ao regulado.",
+   "aplicacao_brasil": "Heurística para agências, órgãos ambientais e licenciamento; sem estimativa para o Brasil.",
+   "limites": "Teoria sem teste quantitativo no artigo; ignora benefícios públicos genuínos; captura é difícil de provar. Descrição de memória, artigo não aberto.",
+   "referencias": [
+    {
+     "titulo": "The Theory of Economic Regulation (Bell J. Econ. Management Sci. 1971)",
+     "url": "https://doi.org/10.2307/3003160",
+     "doi": "10.2307/3003160",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "acemoglu-robinson-extrativas",
+   "nome": "Instituições extrativas vs inclusivas",
+   "autor": "Daron Acemoglu; James A. Robinson (Why Nations Fail, 2012); Acemoglu, Johnson, Robinson (AER 2001)",
+   "ano": 2012,
+   "formula": "Prosperidade = f(instituições inclusivas). AJR 2001: renda_i = a + b·instituições_i + e; instituições_i = c + d·mortalidade_de_colonos_i + u (IV).",
+   "uso": "Argumentar que instituições extrativas (rendas para elites) retêm crescimento.",
+   "aplicacao_brasil": "Quadro conceitual sobre privilégios, concentração e rent-seeking no Brasil; não mede nada diretamente. Livro não lido; AJR 2001 confirmado só bibliograficamente via Crossref.",
+   "limites": "Debate sobre o instrumento (mortalidade) e causalidade histórica; difícil falsificar; conceito de extrativa é amplo.",
+   "referencias": [
+    {
+     "titulo": "The Colonial Origins of Comparative Development (AER 2001)",
+     "url": "https://doi.org/10.1257/aer.91.5.1369",
+     "doi": "10.1257/aer.91.5.1369",
+     "verificado": true
+    },
+    {
+     "titulo": "Why Nations Fail (2012), livro, sem DOI conferido",
+     "url": "",
+     "doi": null,
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "mauro-crescimento",
+   "nome": "Corrupção, investimento e crescimento (cross-country)",
+   "autor": "Paolo Mauro",
+   "ano": 1995,
+   "formula": "Regressão cross-country: investimento/PIB e crescimento = a + b·índice de eficiência burocrática (ou de corrupção) + controles; IV com fracionamento etnolinguístico.",
+   "uso": "Primeira evidência cross-country de que corrupção reduz investimento e crescimento.",
+   "aplicacao_brasil": "Lido no artigo: melhoria de 1 desvio-padrão (2,16) no índice de eficiência burocrática associa-se a aumento de ~4,75 p.p. do PIB na taxa de investimento e de pouco mais de 0,5 p.p. no crescimento anual do PIB (exemplo Bangladesh para Uruguai). Os valores 2,9 p.p. e 0,8 p.p. do enunciado NÃO foram confirmados. Não se aplica diretamente a estimativas de custo para o Brasil.",
+   "limites": "Índices subjetivos (percepção); correlação cross-country com risco de endogeneidade; instrumento questionável; não separa tipos de corrupção.",
+   "referencias": [
+    {
+     "titulo": "Corruption and Growth (QJE 1995)",
+     "url": "https://doi.org/10.2307/2946696",
+     "doi": "10.2307/2946696",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "bandiera-prat-valletti",
+   "nome": "Desperdício passivo vs ativo em compras públicas",
+   "autor": "Oriana Bandiera; Andrea Prat; Tommaso Valletti",
+   "ano": 2009,
+   "formula": "Desperdício total = desperdício ativo (corrupção/extração de renda) + desperdício passivo (ineficiência, falta de capacidade ou incentivo do comprador).",
+   "uso": "Decompor perdas de compras públicas.",
+   "aplicacao_brasil": "Conceito útil para separar desvio de ineficiência em licitações no Brasil; não verifiquei os números do artigo (Itália).",
+   "limites": "Dados da Itália; separação depende de hipóteses; artigo não lido.",
+   "referencias": [
+    {
+     "titulo": "Active and Passive Waste in Government Spending (AER 2009)",
+     "url": "https://doi.org/10.1257/aer.99.4.1278",
+     "doi": "10.1257/aer.99.4.1278",
+     "verificado": true
+    }
+   ]
+  },
+  {
+   "id": "fisman-miguel",
+   "nome": "Cultura de corrupção (multas de estacionamento de diplomatas)",
+   "autor": "Raymond Fisman; Edward Miguel",
+   "ano": 2007,
+   "formula": "Violações por diplomata = f(índice de corrupção do país de origem) sob imunidade (sem enforcement); depois, com sanção, medir efeito do enforcement.",
+   "uso": "Separar normas culturais de incentivos legais.",
+   "aplicacao_brasil": "Conceito útil para argumentar que normas e enforcement interagem; sem aplicação direta ao Brasil.",
+   "limites": "Contexto específico (diplomatas em Nova York); não generalizável para grande corrupção. Artigo não lido, só bibliografia conferida.",
+   "referencias": [
+    {
+     "titulo": "Corruption, Norms, and Legal Enforcement: Evidence from Diplomatic Parking Tickets (JPE 2007)",
+     "url": "https://doi.org/10.1086/527495",
+     "doi": "10.1086/527495",
+     "verificado": true
+    }
+   ]
+  }
+ ],
+ "valor_financeiro_decisoes": {
+  "flexibilizar-arcabouco": {
+   "rs_bi_ano": -127.0,
+   "primary_target_pp": -1.0,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "reforcar-arcabouco": {
+   "rs_bi_ano": 152.4,
+   "primary_target_pp": 1.2,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "reforma-administrativa": {
+   "rs_bi_ano": 50.8,
+   "primary_target_pp": 0.4,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "desvincular-minimo": {
+   "rs_bi_ano": 101.6,
+   "primary_target_pp": 0.8,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "reforma-previdencia-2": {
+   "rs_bi_ano": 88.9,
+   "primary_target_pp": 0.7,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "cortar-beneficios-fiscais": {
+   "rs_bi_ano": 76.2,
+   "primary_target_pp": 0.6,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "desoneracao-ampla": {
+   "rs_bi_ano": -63.5,
+   "primary_target_pp": -0.5,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "ampliar-assistencia": {
+   "rs_bi_ano": -50.8,
+   "primary_target_pp": -0.4,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "perdao-dividas": {
+   "rs_bi_ano": -38.1,
+   "primary_target_pp": -0.3,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "credito-subsidiado": {
+   "rs_bi_ano": -25.4,
+   "primary_target_pp": -0.2,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "privatizacoes": {
+   "rs_bi_ano": 25.4,
+   "primary_target_pp": 0.2,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "homologar-terras-indigenas-e-titular-quilombos": {
+   "rs_bi_ano": -6.4,
+   "primary_target_pp": -0.05,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "psa-governanca-comunitaria": {
+   "rs_bi_ano": -12.7,
+   "primary_target_pp": -0.1,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "recuperar-pastagens-degradadas": {
+   "rs_bi_ano": -19.1,
+   "primary_target_pp": -0.15,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "seguranca-hidrica-saneamento": {
+   "rs_bi_ano": -25.4,
+   "primary_target_pp": -0.2,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "estrategia-minerais-criticos": {
+   "rs_bi_ano": 6.4,
+   "primary_target_pp": 0.05,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "educacao-tecnica-e-alfabetizacao": {
+   "rs_bi_ano": -38.1,
+   "primary_target_pp": -0.3,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "politica-industrial-verde": {
+   "rs_bi_ano": -38.1,
+   "primary_target_pp": -0.3,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  },
+  "combate-garimpo-ilegal-e-rastreio-do-ouro": {
+   "rs_bi_ano": -6.4,
+   "primary_target_pp": -0.05,
+   "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+   "ancora_pib": {
+    "ano": 2025,
+    "valor_rs_bi": 12700.0,
+    "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+   },
+   "natureza": "estimativa",
+   "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+  }
+ },
+ "recuperacao_macro": {
+  "suposicao": "SUPOSIÇÃO rotulada (não estimativa): o desvio de referência é 1.84% do PIB/ano (FIESP/Decomtec, 1,38% a 2,3% do PIB, ponto médio; estimativa por extrapolação de percepção, verificado=false); recupera-se 10/25/50% dele como aumento permanente do resultado primário a partir de 2027. Parte do desvio não é recuperável (é dano indireto, custo de oportunidade, ou está em processos prescritos/insolventes) e a estimativa macro tem incerteza maior que a do modelo; leia os cenários como 'quanto vale cada ponto percentual', não como previsão de arrecadação.",
+  "desvio_referencia": {
+   "pct_pib_central": 1.84,
+   "faixa_pct_pib": [
+    1.38,
+    2.3
+   ],
+   "descricao": "FIESP/Decomtec, 1,38% a 2,3% do PIB, ponto médio; estimativa por extrapolação de percepção, verificado=false",
+   "fonte": "FIESP/Decomtec (2010) via Monitor Mercantil",
+   "url": "https://monitormercantil.com.br/o-preco-da-corrupcao/"
+  },
+  "referencia_2035": {
+   "debt": 104.48,
+   "selic": 12.14,
+   "ipca": 3.46,
+   "gdp": 1.12
+  },
+  "cenarios": [
+   {
+    "recuperado_pct": 10,
+    "primario_pp": 0.184,
+    "rs_bi_ano": 23.4,
+    "debt_2035_delta": -1.59,
+    "selic_2035_delta": -0.12
+   },
+   {
+    "recuperado_pct": 25,
+    "primario_pp": 0.46,
+    "rs_bi_ano": 58.4,
+    "debt_2035_delta": -3.95,
+    "selic_2035_delta": -0.31
+   },
+   {
+    "recuperado_pct": 50,
+    "primario_pp": 0.92,
+    "rs_bi_ano": 116.8,
+    "debt_2035_delta": -7.86,
+    "selic_2035_delta": -0.61
+   }
+  ],
+  "limites": "Modelo macro reduzido (economy.py), sem choques, sem incerteza paramétrica; o efeito sobre Selic passa só pelo prêmio de dívida e pelo hiato. Não inclui ganho de produtividade pelo menor desperdício (canal que a literatura aponta, ver `modelos`)."
+ },
+ "nao_somar": "Não some linhas deste arquivo. (1) Contagem (apurado em processo, auditoria ou balanço) e estimativa (modelo) medem coisas diferentes; (2) valores de períodos e bases diferentes (ano-calendário, acumulado de vários anos, estoque, fluxo) não se comparam; (3) gasto tributário é renúncia de receita prevista em lei, não desvio nem ilegalidade; (4) valor apurado em um caso não é a perda econômica total (há dano indireto) nem é valor recuperável; (5) estimativas macro (FIESP, FGV) já incluem, por construção, parte do que as áreas contam. Somar áreas, ou áreas com o panorama, dupla-conta."
+}
