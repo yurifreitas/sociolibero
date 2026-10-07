@@ -44,3 +44,4 @@ code, kbd, pre { font-family: var(--font-mono); font-size: .9em; font-variant-nu
   *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
   ::view-transition-old(root), ::view-transition-new(root) { animation: none !important; }
 }
+main:focus { outline: none; }

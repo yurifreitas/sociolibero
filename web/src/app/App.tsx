@@ -9,6 +9,7 @@ import { EvidenceFooter } from '@/components/organisms/EvidenceFooter'
 import { EvidenceRail } from '@/components/organisms/EvidenceRail'
 import { ChromeProvider } from '@/features/chrome/ChromeContext'
 import { ErrorBoundary } from './ErrorBoundary'
+import { RouteFocus, skipToContent } from './RouteFocus'
 
 const HomePage = lazy(() => import('@/pages/HomePage'))
 const MapaPage = lazy(() => import('@/pages/MapaPage'))
@@ -57,7 +58,8 @@ function Layout() {
   const { pathname } = useLocation()
   return (
     <ChromeProvider>
-      <a href="#conteudo" className="sr-only">Pular para o conteúdo</a>
+      <a href="#conteudo" className="sr-only" onClick={skipToContent}>Pular para o conteúdo</a>
+      <RouteFocus />
       <AppHeader />
       <EvidenceRail />
       <ErrorBoundary resetKey={pathname}>
