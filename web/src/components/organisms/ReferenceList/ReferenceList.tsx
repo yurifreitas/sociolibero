@@ -10,6 +10,10 @@ export const CATEGORY_LABEL: Record<string, string> = {
   'antifraude-gastos': 'Antifraude em gastos públicos',
   'seguranca-urna': 'Segurança da urna',
   'clima-risco': 'Clima, risco e adaptação (projeto climate)',
+  'textos-eleicoes': 'Textos legais e eleições',
+  'pensamento-violencia': 'Pensamento, Estado e violência',
+  'corrupcao-economia': 'Corrupção, economia e clima',
+  'historia-povos': 'História, povos e clima antigo',
 }
 
 export function groupByCategory(refs: Reference[]): [string, Reference[]][] {

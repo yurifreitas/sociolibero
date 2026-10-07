@@ -1,0 +1,337 @@
+{
+ "https://dadosabertos.tse.jus.br": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
+ },
+ "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2022.zip": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
+ },
+ "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2026.zip": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
+ },
+ "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022/inicial": {
+  "verificado": false,
+  "nota": "Não confirmado em 2026-10-07: sidra.ibge.gov.br respondeu 403 ao acesso automatizado (proteção anti-robô); URL não aberta."
+ },
+ "https://www.ipea.gov.br/atlasviolencia/": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
+ },
+ "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm": {
+  "verificado": true
+ },
+ "https://pt.wikipedia.org/wiki/Marco_temporal_das_terras_ind%C3%ADgenas": {
+  "verificado": true
+ },
+ "https://www.mattosfilho.com.br/unico/stf-lei-marco-temporal/": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
+ },
+ "https://pt.wikipedia.org/wiki/Poder_moderador": {
+  "verificado": true
+ },
+ "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao46.htm": {
+  "verificado": true
+ },
+ "https://pt.wikipedia.org/wiki/Comiss%C3%A3o_Nacional_da_Verdade": {
+  "verificado": true
+ },
+ "docs/HISTORIA.md": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: arquivo local do repositório existe (não é URL)"
+ },
+ "https://en.wikipedia.org/wiki/Economic_history_of_Brazil": {
+  "verificado": true
+ },
+ "https://pt.wikipedia.org/wiki/Imigra%C3%A7%C3%A3o_no_Brasil": {
+  "verificado": true
+ },
+ "https://pt.wikipedia.org/wiki/Tr%C3%A1fico_negreiro_no_Brasil": {
+  "verificado": true
+ },
+ "https://pt.wikipedia.org/wiki/Conv%C3%AAnio_de_Taubat%C3%A9": {
+  "verificado": true
+ },
+ "https://www.econ.puc-rio.br/uploads/adm/trabalhos/files/td158.pdf": {
+  "verificado": false,
+  "nota": "LINK QUEBRADO em 2026-10-07: HTTP 404. Busca no site do departamento não devolve o TD nº 158; substituir por fonte que se possa abrir (por exemplo o TD 699, Abreu, \"Dois séculos de dívida externa brasileira\", econ.puc-rio.br/uploads/adm/trabalhos/files/td699.pdf, ainda não lido)."
+ },
+ "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados/ultimos/1?formato=json": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
+ },
+ "https://www.bcb.gov.br/publicacoes/focus": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
+ },
+ "https://pt.wikipedia.org/wiki/L%C3%ADnguas_ind%C3%ADgenas_do_Brasil": {
+  "verificado": true
+ },
+ "https://en.wikipedia.org/wiki/Pedra_Furada": {
+  "verificado": true
+ },
+ "https://pt.wikipedia.org/wiki/Sambaqui": {
+  "verificado": true
+ },
+ "https://repositorio.museu-goeldi.br/items/dbf9b77e-30a1-468f-8f91-1270fe4d8462/full": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema; título da página: Pre-Columbian urbanism, Anthropogenic landscapes, and the Future of the Amazon"
+ },
+ "https://cp.copernicus.org/articles/10/1967/2014/cp-10-1967-2014.pdf": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema; PDF lido: Apaéstegui et al. 2014, speleothem de Palestina (Peru), Monção Sul-Americana nos últimos 1600 anos"
+ },
+ "https://www12.senado.leg.br/noticias/especiais/arquivo-s/500-mil-mortes-doenca-fome-desvio-de-verbas-e-pedido-de-cpi-o-retrato-da-grande-seca-do-imperio": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
+ },
+ "http://www.scielo.br/j/hcsm/a/ynZxC9TkBJS5GdCnjKXmGKd/?lang=pt": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
+ },
+ "http://www.scielo.br/j/hcsm/a/RsqDrVbzDm6wGyT3MXqsZyB/?lang=pt": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
+ },
+ "https://en.wikipedia.org/wiki/Grande_Seca": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (fonte secundária; só para divergência)"
+ },
+ "https://cnabrasil.org.br/noticias/geada-negra-50-anos-do-evento-climatico-que-modificou-o-agro-do-parana": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
+ },
+ "https://revistas.uepg.br/index.php/ahu/article/download/8759/5672/34783": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema; PDF lido: Ateliê de História UEPG 4(1), geada negra de 18/07/1975 e declínio da cafeicultura"
+ },
+ "https://www.poder360.com.br/poder-sustentavel/desmatamento-no-brasil-cai-324-em-2024-diz-mapbiomas/": {
+  "verificado": true
+ },
+ "https://meetings.imf.org/-/media/Files/Publications/CR/2025/English/1braea2025001-source-pdf.ashx": {
+  "verificado": true
+ },
+ "https://revistacultivar.com.br/noticias/brasil-possui-28-milhoes-de-ha-de-pastagens-degradadas-com-potencial-para-expansao-agricola": {
+  "verificado": true
+ },
+ "https://en.wikipedia.org/wiki/Demographics_of_Brazil": {
+  "verificado": true
+ },
+ "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/outras-publicacoes/temas-e-agendas-para-o-desenvolvimento-sustentavel/recursos-hidricos-e-desenvolvimento-sustentavel-no-brasil": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema; PDF lido: Boletim do Legislativo, Recursos hídricos e desenvolvimento sustentável no Brasil (Senado)"
+ },
+ "https://en.wikipedia.org/wiki/List_of_countries_by_total_renewable_water_resources": {
+  "verificado": true
+ },
+ "https://www.constituteproject.org/constitution/Ecuador_2021": {
+  "verificado": true
+ },
+ "https://www.lexivox.org/norms/BO-L-N71.html": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema; Ley nº 71 de 21/12/2010 (Bolívia)"
+ },
+ "https://blogs.lse.ac.uk/lsereviewofbooks/2014/02/01/book-review-the-falling-sky-words-of-a-yanomami-shaman-by-davi-kopenawa-and-bruce-albert": {
+  "verificado": false,
+  "nota": "Não confirmado em 2026-10-07: HTTP 202 sem corpo (a página não foi entregue a robô); resenha do LSE Review of Books sobre A queda do céu não lida."
+ },
+ "https://www.corteconstitucional.gov.co/relatoria/2016/t-622-16.htm": {
+  "verificado": true
+ },
+ "https://ecojurisprudence.org/initiatives/the-organic-law-of-the-municipal-of-bonito-2/": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema; título da página: Bonito (Brazil) Municipal Organic Law: rights of nature"
+ },
+ "https://www.brasildefato.com.br/2023/12/04/estarei-vivo-mesmo-enterrado-disse-nego-bispo-quilombola-contracolonialista-que-morre-aos-63-anos": {
+  "verificado": false,
+  "nota": "Não confirmado em 2026-10-07: a URL responde 200, mas é o obituário de Nêgo Bispo (Brasil de Fato, 04/12/2023) e não cita \"A terra dá, a terra quer\"; o título do link é o do livro. Trocar por página do livro ou do editor."
+ },
+ "https://epoch.ai/trends": {
+  "verificado": true
+ },
+ "https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024": {
+  "verificado": false
+ },
+ "https://www.iea.org/reports/energy-and-ai/executive-summary": {
+  "verificado": false
+ },
+ "https://blogdoibre.fgv.br/posts/inteligencia-artificial-generativa-e-mercado-de-trabalho-no-brasil-evidencias-iniciais-sobre": {
+  "verificado": true
+ },
+ "https://canalsolar.com.br/energia-solar-potencia-instalada-brasil-absolar/": {
+  "verificado": true
+ },
+ "https://about.bnef.com/insights/commodities/lithium-ion-battery-pack-prices-fall-to-108-per-kilowatt-hour-despite-rising-metal-prices/": {
+  "verificado": true
+ },
+ "https://ourworldindata.org/grapher/political-regime.csv": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
+ },
+ "https://donellameadows.org/archives/leverage-points-places-to-intervene-in-a-system/": {
+  "verificado": true
+ },
+ "https://doi.org/10.1016/S0040-1625(71)80001-X": {
+  "verificado": true
+ },
+ "https://www.nber.org/papers/w10389": {
+  "verificado": true
+ },
+ "https://doi.org/10.1162/003355398555793": {
+  "verificado": true
+ },
+ "https://doi.org/10.1016/0167-2231(93)90009-L": {
+  "verificado": true
+ },
+ "https://doi.org/10.2202/1935-1690.1417": {
+  "verificado": true
+ },
+ "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-quadros.xlsx": {
+  "verificado": true
+ },
+ "https://cenarioenergia.com.br/2025/12/05/cde-2026-deve-chegar-a-r-527-bilhoes-e-pressiona-debate-sobre-subsidios-no-setor-eletrico/": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (isto confirma a página, não o valor: o item de origem tem o seu próprio verificado)"
+ },
+ "https://www.correiobraziliense.com.br/politica/2026/01/7334826-dino-cobra-cronograma-e-reforco-de-auditorias-em-emendas-da-saude.html": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (isto confirma a página, não o valor: o item de origem tem o seu próprio verificado)"
+ },
+ "https://portal.tcu.gov.br/imprensa/noticias/metade-das-obras-financiadas-com-recursos-federais-estao-paradas": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (isto confirma a página, não o valor: o item de origem tem o seu próprio verificado)"
+ },
+ "https://www.ibet.com.br/receita-com-divida-ativa-tem-pico-em-2025-e-oscila-entre-r-50-e-60-bi-ano-a-partir-de-2026/": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (isto confirma a página, não o valor: o item de origem tem o seu próprio verificado)"
+ },
+ "https://www.gov.br/receitafederal/pt-br/centrais-de-conteudo/publicacoes/relatorios/renuncia/gastos-tributarios-ploa/dgt-previsao-ploa-2026-base-conceitual.pdf": {
+  "verificado": true
+ },
+ "https://read.19491007.xyz/docs/mew-zeno/23/ME23-741.html": {
+  "verificado": true
+ },
+ "https://read.19491007.xyz/docs/mew-zeno/23/ME23-049.html": {
+  "verificado": true
+ },
+ "https://read.19491007.xyz/docs/mew-zeno/13/ME13-007.html": {
+  "verificado": true
+ },
+ "https://read.19491007.xyz/docs/mew-zeno/23/ME23-161.html": {
+  "verificado": true
+ },
+ "https://read.19491007.xyz/docs/mew-zeno/19/ME19-015.html": {
+  "verificado": true
+ },
+ "https://read.19491007.xyz/docs/mew-zeno/23/ME23-640.html": {
+  "verificado": true
+ },
+ "https://doi.org/10.1162/isec.2008.33.1.7": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: doi.org responde 403 a robôs; DOI conferido no Crossref (Stephan e Chenoweth, \"Why Civil Resistance Works\", International Security, 2008) e resumo lido"
+ },
+ "https://jornaldebrasilia.com.br/noticias/brasil/mortes-por-intervencao-policial-quase-triplicam-em-10-anos-no-pais/": {
+  "verificado": true
+ },
+ "https://doi.org/10.1111/j.1542-4774.2012.01099.x": {
+  "verificado": true
+ },
+ "https://doi.org/10.1002/hec.3137": {
+  "verificado": true
+ },
+ "https://doi.org/10.1162/REST_a_00628": {
+  "verificado": true
+ },
+ "https://www.poder360.com.br/seguranca-publica/so-35-dos-homicidios-sao-solucionados-no-brasil-diz-estudo/": {
+  "verificado": true
+ },
+ "https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35041-25-marco-1824-532540-publicacaooriginal-14770-pl.html": {
+  "verificado": true
+ },
+ "https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-387-19-agosto-1846-555122-publicacaooriginal-83186-pl.html": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (página da Câmara dos Deputados, legislação do Império/República)"
+ },
+ "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-842-19-setembro-1855-558297-publicacaooriginal-79444-pl.html": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (página da Câmara dos Deputados, legislação do Império/República)"
+ },
+ "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-3029-9-janeiro-1881-546079-publicacaooriginal-59786-pl.html": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (página da Câmara dos Deputados, legislação do Império/República)"
+ },
+ "https://www2.camara.leg.br/legin/fed/lei/1900-1909/lei-1269-15-novembro-1904-584304-publicacaooriginal-107057-pl.html": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (página da Câmara dos Deputados, legislação do Império/República)"
+ },
+ "https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35081-24-fevereiro-1891-532699-publicacaooriginal-15017-pl.html": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
+ },
+ "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
+ },
+ "https://pt.wikipedia.org/wiki/Fundo_Especial_de_Financiamento_de_Campanha": {
+  "verificado": true
+ },
+ "https://pt.wikipedia.org/wiki/Movimento_Democr%C3%A1tico_Brasileiro_(1966)": {
+  "verificado": true
+ },
+ "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_presidencial_no_Brasil_em_2026": {
+  "verificado": true
+ },
+ "https://pt.wikipedia.org/wiki/Sufr%C3%A1gio_feminino_no_Brasil": {
+  "verificado": true
+ },
+ "https://www.kas.de/documents/d/brasilien/cadernos-adenauer1_2026_web-capitulo-5": {
+  "verificado": false,
+  "nota": "Não confirmado em 2026-10-07: kas.de respondeu 403 ao acesso automatizado; capítulo de Schaefer não lido."
+ },
+ "https://en.wikipedia.org/wiki/Modernization_theory": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (Wikipédia, fonte secundária)"
+ },
+ "https://en.wikipedia.org/wiki/Three-component_theory_of_stratification": {
+  "verificado": true,
+  "nota": "URL CORRIGIDA em 2026-10-07: o endereço anterior (Class,_Status,_Party) dava HTTP 404; a página vigente cobre o ensaio de Weber \"Class, Status, Party\" (publicado em 1922 em Wirtschaft und Gesellschaft). link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
+ },
+ "https://en.wikipedia.org/wiki/Cultural_hegemony": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (Wikipédia, fonte secundária)"
+ },
+ "https://en.wikipedia.org/wiki/The_Logic_of_Collective_Action": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (Wikipédia, fonte secundária)"
+ },
+ "https://agenciabrasil.ebc.com.br/politica/noticia/2026-10/renovacao-da-camara-federal-chegou-35-veja-nova-composicao-da-casa": {
+  "verificado": true
+ },
+ "https://apublica.org/2018/04/35-anos-depois-do-deputado-juruna-indigenas-continuam-sem-representacao-politica-no-pais/": {
+  "verificado": true
+ },
+ "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/abril-indigena-novas-regras-incentivam-participacao-de-povos-indigenas-nas-eleicoes-2026": {
+  "verificado": true
+ },
+ "https://news.mongabay.com/2022/10/brazils-biggest-elected-indigenous-caucus-to-face-tough-2023-congress/": {
+  "verificado": true
+ },
+ "https://www.nber.org/system/files/working_papers/w8512/w8512.pdf": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema; PDF lido: Engerman e Sokoloff, The Evolution of Suffrage Institutions in the New World (NBER WP 8512)"
+ },
+ "https://descomplica.com.br/gabarito-enem/questoes/2011/primeiro-dia/art-92-sao-excluidos-de-votar-nas-assembleias-paroquiais-os-menores-de-vinte-e-cinco-anos-nos/": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (questão do Enem 2011 que cita o art. 92 da Constituição; fonte secundária, preferir o texto oficial)"
+ },
+ "https://pt.wikipedia.org/wiki/Lei_Saraiva": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
+ },
+ "https://portal2.fazenda.rj.gov.br/wp-content/uploads/2022/09/1934.pdf": {
+  "verificado": true,
+  "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema; PDF lido: Constituições brasileiras, vol. III, 1934 (Senado)"
+ }
+}

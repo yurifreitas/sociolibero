@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-07T17:53:48.890Z",
+ "gerado_em": "2026-10-07T20:27:18.469Z",
  "resumo": {
   "total": 40,
   "por_status": {
@@ -300,11 +300,15 @@
    "links": [
     {
      "titulo": "Dados abertos do TSE",
-     "url": "https://dadosabertos.tse.jus.br"
+     "url": "https://dadosabertos.tse.jus.br",
+     "verificado": true,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     },
     {
      "titulo": "Arquivo de detalhe da seção",
-     "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2022.zip"
+     "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2022.zip",
+     "verificado": true,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     }
    ],
    "arquivos": [
@@ -375,11 +379,15 @@
    "links": [
     {
      "titulo": "Dados abertos do TSE",
-     "url": "https://dadosabertos.tse.jus.br"
+     "url": "https://dadosabertos.tse.jus.br",
+     "verificado": true,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     },
     {
      "titulo": "Arquivo de detalhe da seção",
-     "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2026.zip"
+     "url": "https://cdn.tse.jus.br/estatistica/sead/odsele/detalhe_votacao_secao/detalhe_votacao_secao_2026.zip",
+     "verificado": true,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     }
    ],
    "arquivos": [
@@ -457,7 +465,9 @@
    "links": [
     {
      "titulo": "SIDRA — Censo 2022",
-     "url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022/inicial"
+     "url": "https://sidra.ibge.gov.br/pesquisa/censo-demografico/demografico-2022/inicial",
+     "verificado": false,
+     "nota": "Não confirmado em 2026-10-07: sidra.ibge.gov.br respondeu 403 ao acesso automatizado (proteção anti-robô); URL não aberta."
     }
    ],
    "arquivos": [
@@ -681,7 +691,9 @@
    "links": [
     {
      "titulo": "Atlas da Violência",
-     "url": "https://www.ipea.gov.br/atlasviolencia/"
+     "url": "https://www.ipea.gov.br/atlasviolencia/",
+     "verificado": true,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     }
    ],
    "arquivos": [
@@ -715,7 +727,7 @@
    "validacoes": [
     {
      "ok": null,
-     "texto": "12 de 53 indicadores conferidos na fonte; 41 vêm de resumo de busca ou de memória (marcados “a confirmar”)"
+     "texto": "33 de 53 indicadores conferidos na fonte; 20 vêm de resumo de busca ou de memória (marcados “a confirmar”)"
     },
     {
      "ok": true,
@@ -740,7 +752,7 @@
    "nome": "Fator humano — custo humano e potencial perdido (inventário)",
    "chip": {
     "rotulo": "Fator humano",
-    "detalhe": "12/53 conferidos"
+    "detalhe": "33/53 conferidos"
    },
    "status": "parcial",
    "status_rotulo": "parcial"
@@ -757,7 +769,7 @@
    "validacoes": [
     {
      "ok": null,
-     "texto": "“Link ok” = URL respondeu (HTTP 200) e corresponde ao tema: 169 de 174 fontes; 5 com erro 403/500. NÃO significa leitura integral nem conferência de cada número"
+     "texto": "“Link ok” = URL respondeu (HTTP 200) e corresponde ao tema: 178 de 178 fontes; 0 com erro 403/500. NÃO significa leitura integral nem conferência de cada número"
     },
     {
      "ok": true,
@@ -782,12 +794,6 @@
      "n": 4
     },
     {
-     "titulo": "Mattos Filho: STF publica íntegra do julgamento da Lei do Marco Temporal",
-     "url": "https://www.mattosfilho.com.br/unico/stf-lei-marco-temporal/",
-     "verificado": false,
-     "n": 4
-    },
-    {
      "titulo": "Poder moderador - Wikipedia",
      "url": "https://pt.wikipedia.org/wiki/Poder_moderador",
      "verificado": true,
@@ -802,6 +808,12 @@
     {
      "titulo": "Comissão Nacional da Verdade - Wikipedia",
      "url": "https://pt.wikipedia.org/wiki/Comiss%C3%A3o_Nacional_da_Verdade",
+     "verificado": true,
+     "n": 3
+    },
+    {
+     "titulo": "Operação Lava Jato - Wikipedia",
+     "url": "https://pt.wikipedia.org/wiki/Opera%C3%A7%C3%A3o_Lava_Jato",
      "verificado": true,
      "n": 3
     }
@@ -826,7 +838,7 @@
    "nome": "Revisão histórica das instituições (Colônia → 2026), três trilhas",
    "chip": {
     "rotulo": "História",
-    "detalhe": "link ok 169/174"
+    "detalhe": "link ok 178/178"
    },
    "status": "parcial",
    "status_rotulo": "parcial"
@@ -847,7 +859,7 @@
     },
     {
      "ok": null,
-     "texto": "33 de 60 entradas de fonte conferidas (fonte secundária aberta); o texto traz marcações “(não verificado)”"
+     "texto": "42 de 60 entradas de fonte conferidas (fonte secundária aberta); o texto traz marcações “(não verificado)”"
     }
    ],
    "limites": [
@@ -887,7 +899,7 @@
      "n": 2
     },
     {
-     "titulo": "PUC-Rio TD 158, dívida externa (só trecho de busca)",
+     "titulo": "PUC-Rio TD 158, dívida externa (URL deu 404 em 07/10/2026; só trecho de busca)",
      "url": "https://www.econ.puc-rio.br/uploads/adm/trabalhos/files/td158.pdf",
      "verificado": false,
      "n": 2
@@ -906,7 +918,7 @@
    "nome": "Economia histórica — 14 ciclos, classes e mudanças drásticas",
    "chip": {
     "rotulo": "Ciclos econômicos",
-    "detalhe": "33/60 fontes"
+    "detalhe": "42/60 fontes"
    },
    "status": "parcial",
    "status_rotulo": "parcial"
@@ -1025,11 +1037,15 @@
    "links": [
     {
      "titulo": "BCB SGS 13762 — dívida bruta/PIB",
-     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados/ultimos/1?formato=json"
+     "url": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados/ultimos/1?formato=json",
+     "verificado": true,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     },
     {
      "titulo": "Boletim Focus (BCB)",
-     "url": "https://www.bcb.gov.br/publicacoes/focus"
+     "url": "https://www.bcb.gov.br/publicacoes/focus",
+     "verificado": true,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     }
    ],
    "arquivos": [],
@@ -1109,7 +1125,7 @@
    "fonte": null,
    "extraido_em": null,
    "hashes": [],
-   "cobertura": "127 itens · 113 verificados (DOI no Crossref, URL por requisição) · 14 a confirmar",
+   "cobertura": "236 itens · 222 verificados (DOI no Crossref, URL por requisição) · 14 a confirmar",
    "validacoes": [
     {
      "ok": true,
@@ -1133,7 +1149,7 @@
    "nome": "Referências (forense eleitoral, dados abertos, visualização, antifraude, segurança da urna)",
    "chip": {
     "rotulo": "Referências",
-    "detalhe": "113/127"
+    "detalhe": "222/236"
    },
    "status": "parcial",
    "status_rotulo": "parcial"
@@ -1182,7 +1198,7 @@
     },
     {
      "ok": null,
-     "texto": "42 de 126 entradas de fonte conferidas; muitas são fonte secundária ou resumo de busca"
+     "texto": "119 de 133 entradas de fonte conferidas; muitas são fonte secundária ou resumo de busca"
     },
     {
      "ok": false,
@@ -1221,15 +1237,15 @@
      "n": 4
     },
     {
-     "titulo": "Heckenberger et al. 2008, Science - Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon [só resumo de busca]",
+     "titulo": "Heckenberger et al. 2008, Science 321:1214-1217 (DOI 10.1126/science.1159769) - Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon [resumo lido via Crossref: aglomerados articulados, urbanismo \"galactico\"]",
      "url": "https://repositorio.museu-goeldi.br/items/dbf9b77e-30a1-468f-8f91-1270fe4d8462/full",
-     "verificado": false,
+     "verificado": true,
      "n": 4
     },
     {
-     "titulo": "Apaestegui et al. 2014, Climate of the Past 10 - SASM nos últimos 2 milênios (speleotemas) [só resumo de busca]",
+     "titulo": "Apaestegui et al. 2014, Climate of the Past 10:1967-1981 - Hydroclimate variability of the northwestern Amazon Basin near the Andean foothills of Peru related to the South American Monsoon System during the last 1600 years [resumo lido: caverna Palestina, Peru; monção menos ativa na MCA e mais ativa na LIA]",
      "url": "https://cp.copernicus.org/articles/10/1967/2014/cp-10-1967-2014.pdf",
-     "verificado": false,
+     "verificado": true,
      "n": 4
     }
    ],
@@ -1246,7 +1262,7 @@
    "nome": "Antes de 1500 — povos, diversidade, clima e manejo (anos antes do presente)",
    "chip": {
     "rotulo": "Antes de 1500",
-    "detalhe": "42/126 fontes"
+    "detalhe": "119/133 fontes"
    },
    "status": "parcial",
    "status_rotulo": "parcial"
@@ -1328,38 +1344,44 @@
     {
      "titulo": "Agência Senado - O retrato da Grande Seca do Império",
      "url": "https://www12.senado.leg.br/noticias/especiais/arquivo-s/500-mil-mortes-doenca-fome-desvio-de-verbas-e-pedido-de-cpi-o-retrato-da-grande-seca-do-imperio",
-     "verificado": null,
-     "n": 1
+     "verificado": true,
+     "n": 1,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     },
     {
      "titulo": "SciELO - A seca de 1877-1879 no Império do Brasil (Hist. Ciênc. Saúde-Manguinhos)",
      "url": "http://www.scielo.br/j/hcsm/a/ynZxC9TkBJS5GdCnjKXmGKd/?lang=pt",
-     "verificado": null,
-     "n": 1
+     "verificado": true,
+     "n": 1,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     },
     {
      "titulo": "SciELO - Teorias médicas e gestão urbana: a seca de 1877-79 em Fortaleza",
      "url": "http://www.scielo.br/j/hcsm/a/RsqDrVbzDm6wGyT3MXqsZyB/?lang=pt",
-     "verificado": null,
-     "n": 1
+     "verificado": true,
+     "n": 1,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     },
     {
      "titulo": "Wikipedia (en) - Grande Seca (fonte secundária, só para divergência)",
      "url": "https://en.wikipedia.org/wiki/Grande_Seca",
-     "verificado": null,
-     "n": 1
+     "verificado": true,
+     "n": 1,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (fonte secundária; só para divergência)"
     },
     {
      "titulo": "CNA - Geada negra: 50 anos do evento climático que modificou o agro do Paraná",
      "url": "https://cnabrasil.org.br/noticias/geada-negra-50-anos-do-evento-climatico-que-modificou-o-agro-do-parana",
-     "verificado": null,
-     "n": 1
+     "verificado": true,
+     "n": 1,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     },
     {
      "titulo": "Ateliê de História UEPG - Modernização agrícola e o declínio da cafeicultura pós-geada de 1975",
      "url": "https://revistas.uepg.br/index.php/ahu/article/download/8759/5672/34783",
-     "verificado": null,
-     "n": 1
+     "verificado": true,
+     "n": 1,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema; PDF lido: Ateliê de História UEPG 4(1), geada negra de 18/07/1975 e declínio da cafeicultura"
     }
    ],
    "arquivos": [
@@ -1395,7 +1417,7 @@
     },
     {
      "ok": null,
-     "texto": "52 de 80 métricas conferidas; 28 sem conferência (12% da água doce, potencial solar, eólica offshore, PISA 2022, custo Brasil…)"
+     "texto": "65 de 80 métricas conferidas; 15 sem conferência (12% da água doce, potencial solar, eólica offshore, PISA 2022, custo Brasil…)"
     },
     {
      "ok": true,
@@ -1436,7 +1458,7 @@
     {
      "titulo": "Recursos hídricos e desenvolvimento sustentável no Brasil (Senado)",
      "url": "https://www12.senado.leg.br/publicacoes/estudos-legislativos/tipos-de-estudos/outras-publicacoes/temas-e-agendas-para-o-desenvolvimento-sustentavel/recursos-hidricos-e-desenvolvimento-sustentavel-no-brasil",
-     "verificado": false,
+     "verificado": true,
      "n": 1
     },
     {
@@ -1458,7 +1480,7 @@
    "nome": "Potências do Brasil e potencial de crescimento",
    "chip": {
     "rotulo": "Potenciais",
-    "detalhe": "52/80 métricas"
+    "detalhe": "65/80 métricas"
    },
    "status": "parcial",
    "status_rotulo": "parcial"
@@ -1475,7 +1497,7 @@
    "validacoes": [
     {
      "ok": null,
-     "texto": "2 de 99 obras e 2 de 40 casos com selo “verificado”; o restante é de resumo de busca ou de memória"
+     "texto": "69 de 99 obras e 20 de 40 casos com selo “verificado”; o restante é de resumo de busca ou de memória"
     },
     {
      "ok": true,
@@ -1496,9 +1518,15 @@
      "n": 2
     },
     {
+     "titulo": "Gudynas, E. 'Buen Vivir: today's tomorrow', Development 54(4)",
+     "url": "https://doi.org/10.1057/dev.2011.86",
+     "verificado": true,
+     "n": 2
+    },
+    {
      "titulo": "Ley nº 71 de Derechos de la Madre Tierra, 21/12/2010",
      "url": "https://www.lexivox.org/norms/BO-L-N71.html",
-     "verificado": false,
+     "verificado": true,
      "n": 2
     },
     {
@@ -1508,21 +1536,15 @@
      "n": 2
     },
     {
-     "titulo": "Corte Constitucional da Colômbia, Sentencia T-622 de 2016, 10/11/2016",
-     "url": "https://www.corteconstitucional.gov.co/relatoria/2016/t-622-16.htm",
+     "titulo": "Heckenberger, M. et al. 'Pre-Columbian urbanism, anthropogenic landscapes, and the future of the Amazon', Science 321",
+     "url": "https://doi.org/10.1126/science.1159769",
      "verificado": true,
      "n": 2
     },
     {
-     "titulo": "Lei orgânica do município de Bonito (PE), emenda de 21/12/2017, direitos da natureza",
-     "url": "https://ecojurisprudence.org/initiatives/the-organic-law-of-the-municipal-of-bonito-2/",
-     "verificado": false,
-     "n": 2
-    },
-    {
-     "titulo": "A terra dá, a terra quer, Ubu/Piseagrama",
-     "url": "https://www.brasildefato.com.br/2023/12/04/estarei-vivo-mesmo-enterrado-disse-nego-bispo-quilombola-contracolonialista-que-morre-aos-63-anos",
-     "verificado": false,
+     "titulo": "Corte Constitucional da Colômbia, Sentencia T-622 de 2016, 10/11/2016",
+     "url": "https://www.corteconstitucional.gov.co/relatoria/2016/t-622-16.htm",
+     "verificado": true,
      "n": 2
     }
    ],
@@ -1540,7 +1562,7 @@
    "nome": "Pilares de pensamento — pensadores, pilares, diálogos e propostas de viabilização",
    "chip": {
     "rotulo": "Pilares",
-    "detalhe": "2/99 obras"
+    "detalhe": "69/99 obras"
    },
    "status": "parcial",
    "status_rotulo": "parcial"
@@ -1553,11 +1575,11 @@
    },
    "extraido_em": "2026-10-06",
    "hashes": [],
-   "cobertura": "27 leis e modelos · 11 tendências · 44 parâmetros empíricos · 71 referências",
+   "cobertura": "27 leis e modelos · 11 tendências · 45 parâmetros empíricos · 71 referências",
    "validacoes": [
     {
      "ok": null,
-     "texto": "19 de 44 parâmetros e 39 de 71 referências conferidos; expoentes de Kaplan, p/q de Bass, taxa de Swanson e “20 tokens por parâmetro” de Chinchilla estão de memória"
+     "texto": "30 de 45 parâmetros e 57 de 71 referências conferidos; expoentes de Kaplan, p/q de Bass, taxa de Swanson e “20 tokens por parâmetro” de Chinchilla estão de memória"
     }
    ],
    "limites": [
@@ -1591,9 +1613,9 @@
      "n": 3
     },
     {
-     "titulo": "ABSOLAR via Canal Solar - capacidade solar instalada no Brasil (jul/2026)",
+     "titulo": "ABSOLAR via Canal Solar - capacidade solar instalada no Brasil (mar/2025)",
      "url": "https://canalsolar.com.br/energia-solar-potencia-instalada-brasil-absolar/",
-     "verificado": false,
+     "verificado": true,
      "n": 2
     },
     {
@@ -1615,7 +1637,7 @@
    "nome": "Leis e tendências tecnológicas (Moore, Wright, difusão, escala de IA…)",
    "chip": {
     "rotulo": "Leis",
-    "detalhe": "19/44 parâmetros"
+    "detalhe": "30/45 parâmetros"
    },
    "status": "parcial",
    "status_rotulo": "parcial"
@@ -1748,7 +1770,9 @@
    "links": [
     {
      "titulo": "Our World in Data — Political regime",
-     "url": "https://ourworldindata.org/grapher/political-regime.csv"
+     "url": "https://ourworldindata.org/grapher/political-regime.csv",
+     "verificado": true,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     }
    ],
    "arquivos": [
@@ -1834,7 +1858,7 @@
     },
     {
      "ok": null,
-     "texto": "137 de 175 citações de evidência verificadas; 15 de 34 referências externas (as demais só tiveram o DOI conferido)"
+     "texto": "159 de 175 citações de evidência verificadas; 33 de 34 referências externas (as demais só tiveram o DOI conferido)"
     },
     {
      "ok": null,
@@ -1868,19 +1892,19 @@
     {
      "titulo": "Bohn (1998), The Behavior of U.S. Public Debt and Deficits, QJE",
      "url": "https://doi.org/10.1162/003355398555793",
-     "verificado": false,
+     "verificado": true,
      "n": 1
     },
     {
      "titulo": "Taylor (1993), Discretion versus policy rules in practice",
      "url": "https://doi.org/10.1016/0167-2231(93)90009-L",
-     "verificado": false,
+     "verificado": true,
      "n": 1
     },
     {
      "titulo": "Ardagna, Caselli, Lane (2007), Fiscal Discipline and the Cost of Public Debt Service",
      "url": "https://doi.org/10.2202/1935-1690.1417",
-     "verificado": false,
+     "verificado": true,
      "n": 1
     }
    ],
@@ -1896,7 +1920,7 @@
    "nome": "Anéis de realimentação (diagramas de laços causais)",
    "chip": {
     "rotulo": "Anéis",
-    "detalhe": "137/175 evidências"
+    "detalhe": "159/175 evidências"
    },
    "status": "parcial",
    "status_rotulo": "parcial"
@@ -1953,17 +1977,17 @@
     "nome": "CGU, TCU, Receita (DGT), CADE, BCB, IBGE e pesquisa aberta; ver cada valor",
     "url": null
    },
-   "extraido_em": "2026-10-06",
+   "extraido_em": "2026-10-07",
    "hashes": [],
    "cobertura": "16 áreas · 75 valores (45 de contagem, 30 de estimativa) · 14 benefícios a empresas · 14 modelos",
    "validacoes": [
     {
      "ok": null,
-     "texto": "23 de 75 valores lidos na fonte; 7 de 14 benefícios a empresas"
+     "texto": "29 de 75 valores lidos na fonte; 9 de 14 benefícios a empresas"
     },
     {
-     "ok": false,
-     "texto": "PIB-âncora 2025: R$ 12.700 bi, valor arredondado NÃO verificado (o IBGE respondeu 403); todas as conversões de pp do PIB em R$ dependem dele"
+     "ok": true,
+     "texto": "PIB-âncora 2025: R$ 12.738,6 bi, lido na API SIDRA (soma dos 4 trimestres; o PIB anual oficial ainda não traz 2025); todas as conversões de pp do PIB em R$ dependem dele"
     },
     {
      "ok": true,
@@ -1986,9 +2010,9 @@
      "n": 8
     },
     {
-     "titulo": "ANEEL via Cenario Energia",
-     "url": "https://cenarioenergia.com.br/2025/12/05/cde-2026-deve-chegar-a-r-527-bilhoes-e-pressiona-debate-sobre-subsidios-no-setor-eletrico/",
-     "verificado": false,
+     "titulo": "ANEEL, Voto da Diretora Agnes da Costa, 41ª Reunião Pública Ordinária de 2025, Processo 48500.029180/2025-63 (abertura de consulta pública do orçamento CDE 2026; cópia hospedada pelo Poder360)",
+     "url": "https://static.poder360.com.br/2025/12/cde-2026-aneel.pdf",
+     "verificado": true,
      "n": 4
     },
     {
@@ -2029,7 +2053,7 @@
    "nome": "Custo da corrupção e da captura, em R$ (áreas, benefícios a empresas, recuperação)",
    "chip": {
     "rotulo": "Custo da corrupção",
-    "detalhe": "23/75 lidos"
+    "detalhe": "29/75 lidos"
    },
    "status": "parcial",
    "status_rotulo": "parcial"
@@ -2046,7 +2070,7 @@
    "validacoes": [
     {
      "ok": true,
-     "texto": "13 de 14 itens lidos em página aberta (quase todos em reportagem que cita a fonte primária)"
+     "texto": "14 de 14 itens lidos em página aberta (quase todos em reportagem que cita a fonte primária)"
     },
     {
      "ok": false,
@@ -2071,7 +2095,7 @@
    "nome": "Clima: valor financeiro (RS 2024, Brasil, prevenção × resposta)",
    "chip": {
     "rotulo": "Clima em R$",
-    "detalhe": "13/14 lidos"
+    "detalhe": "14/14 lidos"
    },
    "status": "parcial",
    "status_rotulo": "parcial"
@@ -2186,7 +2210,7 @@
    "validacoes": [
     {
      "ok": null,
-     "texto": "41 de 114 itens com selo foram lidos na fonte; itens de imprensa ficam “não lidos na fonte” mesmo quando a página foi aberta"
+     "texto": "69 de 115 itens com selo foram lidos na fonte; itens de imprensa ficam “não lidos na fonte” mesmo quando a página foi aberta"
     },
     {
      "ok": true,
@@ -2213,7 +2237,7 @@
    "nome": "Visões pessimistas: decisões ruins, captura judicial (mecanismos), capacidade estatal",
    "chip": {
     "rotulo": "Visões pessimistas",
-    "detalhe": "41/114 lidos"
+    "detalhe": "69/115 lidos"
    },
    "status": "parcial",
    "status_rotulo": "parcial"
@@ -2320,11 +2344,11 @@
    "validacoes": [
     {
      "ok": null,
-     "texto": "88 de 106 obras com referência conferida (DOI no Crossref ou página com título e ano): confirma a referência, não o conteúdo"
+     "texto": "102 de 106 obras com referência conferida (DOI no Crossref ou página com título e ano): confirma a referência, não o conteúdo"
     },
     {
      "ok": null,
-     "texto": "49 de 87 evidências lidas na fonte; 30 pensadores sem nenhuma evidência lida na fonte"
+     "texto": "68 de 87 evidências lidas na fonte; 14 pensadores sem nenhuma evidência lida na fonte"
     },
     {
      "ok": null,
@@ -2343,38 +2367,38 @@
    ],
    "links": [
     {
+     "titulo": "FBSP via Jornal de Brasília e NEV-USP",
+     "url": "https://jornaldebrasilia.com.br/noticias/brasil/mortes-por-intervencao-policial-quase-triplicam-em-10-anos-no-pais/",
+     "verificado": false,
+     "n": 6
+    },
+    {
      "titulo": "Why Civil Resistance Works: The Strategic Logic of Nonviolent Conflict, International Security 33(1)",
      "url": "https://doi.org/10.1162/isec.2008.33.1.7",
+     "verificado": true,
+     "n": 5
+    },
+    {
+     "titulo": "Atlas da Violência 2025 (Ipea/FBSP), via Jornal do Brasil; fator_humano.json#vu-negros-2023",
+     "url": "https://www.jb.com.br/brasil/direitos-humanos/2025/05/1055452-risco-de-negro-ser-vitima-de-homicidio-e-27-vezes-maior-no-brasil.html",
      "verificado": false,
      "n": 5
     },
     {
-     "titulo": "FBSP via Jornal de Brasília e NEV-USP",
-     "url": "https://jornaldebrasilia.com.br/noticias/brasil/mortes-por-intervencao-policial-quase-triplicam-em-10-anos-no-pais/",
+     "titulo": "fator_humano.json#est-cnv-434",
+     "url": "http://www.marxists.org/portugues/tematica/livros/cnv/pdf/volume_3_digital.pdf",
      "verificado": true,
-     "n": 5
+     "n": 4
+    },
+    {
+     "titulo": "humano_nacional.json#prisional_trafico_drogas e #prisional_pretos",
+     "url": "https://www.gov.br/senappen/pt-br/servicos/sisdepen/relatorios/relatorios-de-informacoes-penitenciarias/relatorio-do-2o-semestre-de-2025.pdf/@@display-file/file",
+     "verificado": true,
+     "n": 4
     },
     {
      "titulo": "Acemoglu, Robinson e Santos, The Monopoly of Violence: Evidence from Colombia, JEEA 11(s1)",
      "url": "https://doi.org/10.1111/j.1542-4774.2012.01099.x",
-     "verificado": true,
-     "n": 3
-    },
-    {
-     "titulo": "Cerqueira e Soares, The welfare cost of homicides in Brazil, Health Economics (publicação online 2014)",
-     "url": "https://doi.org/10.1002/hec.3137",
-     "verificado": true,
-     "n": 3
-    },
-    {
-     "titulo": "Monteiro e Rocha (2017), REStat; resumo lido",
-     "url": "https://doi.org/10.1162/REST_a_00628",
-     "verificado": true,
-     "n": 3
-    },
-    {
-     "titulo": "Instituto Sou da Paz, Onde mora a impunidade (2023), via Poder360",
-     "url": "https://www.poder360.com.br/seguranca-publica/so-35-dos-homicidios-sao-solucionados-no-brasil-diz-estudo/",
      "verificado": true,
      "n": 3
     }
@@ -2391,7 +2415,7 @@
    "nome": "Pensadores da violência — tipologia, diálogos, dados do repositório e custo econômico",
    "chip": {
     "rotulo": "Violência",
-    "detalhe": "88/106 obras"
+    "detalhe": "102/106 obras"
    },
    "status": "parcial",
    "status_rotulo": "parcial"
@@ -2404,15 +2428,15 @@
    },
    "extraido_em": "2026-10-07",
    "hashes": [],
-   "cobertura": "44 textos integrais (2.235.711 caracteres) · 126 trechos-chave ancorados · 6 documentos só com metadados e link",
+   "cobertura": "44 textos integrais (2.241.839 caracteres) · 128 trechos-chave ancorados · 6 documentos só com metadados e link",
    "validacoes": [
     {
      "ok": true,
-     "texto": "6 de 44 textos conferidos contra a fonte original"
+     "texto": "17 de 44 textos conferidos contra a fonte original"
     },
     {
      "ok": null,
-     "texto": "12 com conferência cruzada parcial entre duas fontes oficiais; 26 extraídos de fonte única e não conferidos com segunda fonte"
+     "texto": "22 com conferência cruzada parcial entre duas fontes oficiais; 5 extraídos de fonte única e não conferidos com segunda fonte"
     },
     {
      "ok": true,
@@ -2438,7 +2462,7 @@
     {
      "titulo": "Lei de 19 de agosto de 1846 (Lei nº 387): regula as eleições de senadores, deputados e outros",
      "url": "https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-387-19-agosto-1846-555122-publicacaooriginal-83186-pl.html",
-     "verificado": false,
+     "verificado": true,
      "n": 1
     },
     {
@@ -2484,7 +2508,7 @@
    "nome": "Biblioteca de textos originais — leis, constituições e atos, com hash e trechos-chave",
    "chip": {
     "rotulo": "Textos",
-    "detalhe": "6/44 conferidos"
+    "detalhe": "17/44 conferidos"
    },
    "status": "parcial",
    "status_rotulo": "parcial"
@@ -2536,11 +2560,11 @@
    "validacoes": [
     {
      "ok": null,
-     "texto": "49 de 60 regras de voto lidas no texto legal; o restante vem de fonte secundária"
+     "texto": "56 de 60 regras de voto lidas no texto legal; o restante vem de fonte secundária"
     },
     {
      "ok": null,
-     "texto": "174 correções na revisão de fontes: 166 lidas na fonte e 8 ainda marcadas como não verificadas"
+     "texto": "189 correções na revisão de fontes: 180 lidas na fonte e 9 ainda marcadas como não verificadas"
     },
     {
      "ok": true,
@@ -2603,7 +2627,7 @@
    "nome": "Eleições, marcos de regra e movimentos — linha do tempo com fonte e selo por número",
    "chip": {
     "rotulo": "Eleições",
-    "detalhe": "49/60 regras lidas"
+    "detalhe": "56/60 regras lidas"
    },
    "status": "parcial",
    "status_rotulo": "parcial"
@@ -2620,11 +2644,11 @@
    "validacoes": [
     {
      "ok": null,
-     "texto": "35 de 50 linhas “ganhou ou perdeu” com fato lido na fonte; as demais são leitura da literatura"
+     "texto": "44 de 50 linhas “ganhou ou perdeu” com fato lido na fonte; as demais são leitura da literatura"
     },
     {
      "ok": null,
-     "texto": "10 de 17 teorias com fonte lida"
+     "texto": "14 de 17 teorias com fonte lida"
     },
     {
      "ok": null,
@@ -2642,38 +2666,42 @@
     {
      "titulo": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF,",
      "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
-     "verificado": null,
-     "n": 6
+     "verificado": true,
+     "n": 6,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     },
     {
      "titulo": "Schaefer, B. M. 'O fim das coligações proporcionais e a reconfiguração das alian",
      "url": "https://www.kas.de/documents/d/brasilien/cadernos-adenauer1_2026_web-capitulo-5",
-     "verificado": null,
-     "n": 3
+     "verificado": false,
+     "n": 3,
+     "nota": "Não confirmado em 2026-10-07: kas.de respondeu 403 ao acesso automatizado; capítulo de Schaefer não lido."
     },
     {
      "titulo": "Modernization theory - Wikipédia (secundária; Lipset 1959 e Przeworski & Limongi",
      "url": "https://en.wikipedia.org/wiki/Modernization_theory",
-     "verificado": null,
-     "n": 2
+     "verificado": true,
+     "n": 2,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (Wikipédia, fonte secundária)"
     },
     {
-     "titulo": "Weber, M. Wirtschaft und Gesellschaft (1922), seção 'Classe, estamento, partido'",
-     "url": "https://en.wikipedia.org/wiki/Class,_Status,_Party",
+     "titulo": "Marx, K.; Engels, F. Manifesto do Partido Comunista, cap. 1 (marxists.org) [lido",
+     "url": "https://www.marxists.org/archive/marx/works/1848/communist-manifesto/ch01.htm",
      "verificado": null,
      "n": 1
     },
     {
-     "titulo": "Cultural hegemony - Wikipédia (secundária) [lido] https://en.wikipedia.org/wiki/",
-     "url": "https://en.wikipedia.org/wiki/Cultural_hegemony",
+     "titulo": "Engels a J. Bloch, 21/09/1890 (marxists.org) [lido] https://www.marxists.org/arc",
+     "url": "https://www.marxists.org/archive/marx/works/1890/letters/90_09_21.htm",
      "verificado": null,
      "n": 1
     },
     {
-     "titulo": "The Logic of Collective Action - Wikipédia (secundária) [lido] https://en.wikipe",
-     "url": "https://en.wikipedia.org/wiki/The_Logic_of_Collective_Action",
-     "verificado": null,
-     "n": 1
+     "titulo": "Three-component theory of stratification - Wikipédia (secundária; a URL anterior",
+     "url": "https://en.wikipedia.org/wiki/Three-component_theory_of_stratification",
+     "verificado": true,
+     "n": 1,
+     "nota": "URL CORRIGIDA em 2026-10-07: o endereço anterior (Class,_Status,_Party) dava HTTP 404; a página vigente cobre o ensaio de Weber \"Class, Status, Party\" (publicado em 1922 em Wirtschaft und Gesellschaft). link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     }
    ],
    "arquivos": [
@@ -2688,7 +2716,7 @@
    "nome": "Classes e interesses — matriz regra × classe, teorias, decisões criticadas e futuro das regras",
    "chip": {
     "rotulo": "Classes",
-    "detalhe": "35/50 fatos lidos"
+    "detalhe": "44/50 fatos lidos"
    },
    "status": "julgamento",
    "status_rotulo": "julgamento"
@@ -2937,33 +2965,39 @@
    "links": [
     {
      "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
-     "verificado": null,
-     "n": 7
+     "verificado": true,
+     "n": 7,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     },
     {
      "url": "https://www.nber.org/system/files/working_papers/w8512/w8512.pdf",
-     "verificado": null,
-     "n": 2
+     "verificado": true,
+     "n": 2,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema; PDF lido: Engerman e Sokoloff, The Evolution of Suffrage Institutions in the New World (NBER WP 8512)"
     },
     {
      "url": "https://descomplica.com.br/gabarito-enem/questoes/2011/primeiro-dia/art-92-sao-excluidos-de-votar-nas-assembleias-paroquiais-os-menores-de-vinte-e-cinco-anos-nos/",
-     "verificado": null,
-     "n": 1
+     "verificado": true,
+     "n": 1,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (questão do Enem 2011 que cita o art. 92 da Constituição; fonte secundária, preferir o texto oficial)"
     },
     {
      "url": "https://pt.wikipedia.org/wiki/Lei_Saraiva",
-     "verificado": null,
-     "n": 1
+     "verificado": true,
+     "n": 1,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     },
     {
      "url": "https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35081-24-fevereiro-1891-532699-publicacaooriginal-15017-pl.html",
-     "verificado": null,
-     "n": 1
+     "verificado": true,
+     "n": 1,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     },
     {
      "url": "https://portal2.fazenda.rj.gov.br/wp-content/uploads/2022/09/1934.pdf",
-     "verificado": null,
-     "n": 1
+     "verificado": true,
+     "n": 1,
+     "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema; PDF lido: Constituições brasileiras, vol. III, 1934 (Senado)"
     }
    ],
    "arquivos": [

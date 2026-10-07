@@ -2,7 +2,7 @@
  "meta": {
   "gerado_em": "2026-10-06",
   "aviso": "Compilação de leis, modelos e tendências para cenários 2026-2040. Leis empíricas descrevem o passado, não garantem o futuro; nenhum número aqui e previsão do modelo macro. Itens verificado:false foram citados de resumo de busca, de memória ou sem fonte primária lida.",
-  "criterio_verificacao": "verificado:true somente quando a página da fonte (ou o DOI no Crossref: titulo, autor, ano) foi aberta e conferida nesta compilação. Números vindos de resumos de busca ou de imprensa (ABSOLAR, ABVE, BCB, IBGE, IEA, IRENA, WIR, Gartner, NHGRI) ficam verificado:false. Valores de memória (expoentes de Kaplan, p e q de Bass, taxas de Wright/Swanson, Kryder, Haitz) ficam verificado:false."
+  "criterio_verificacao": "verificado:true somente quando a página da fonte (ou o DOI no Crossref: titulo, autor, ano) foi aberta e conferida nesta compilação. Números vindos de resumos de busca ou de imprensa (ABSOLAR, ABVE, BCB, IBGE, IEA, IRENA, WIR, Gartner, NHGRI) ficam verificado:false. Valores de memória (expoentes de Kaplan, p e q de Bass, taxas de Wright/Swanson, Kryder, Haitz) ficam verificado:false. Rodada de 2026-10-07: a página da matéria de imprensa passou a contar como fonte lida quando é a referência citada e traz o número, com a fonte primária dita em 'fonte' e 'nota' e não aberta (IBGE, ABVE, ABSOLAR, BCB); IRENA, IEA, OCDE e Gartner bloquearam o acesso automatizado e seguem false. Divergências corrigidas: custo do genoma em 2022 (US$525, não US$500-1.000), período de duplicação de Koomey recente (~2,7 anos, não ~2,5) e recorde do Pix (318,1 milhões). O IBGE (PNAD Contínua TIC 2024) foi lido em página aberta no navegador, não por robô."
  },
  "leis": [
   {
@@ -25,8 +25,8 @@
      "valor": "T ~ 2 anos (revisão de 1975)",
      "unidade": "período de duplicação de transistores",
      "periodo": "1975 em diante",
-     "fonte": "Moore 1975 / reimpressão IEEE (DOI da reimpressão conferido no Crossref)",
-     "verificado": false
+     "fonte": "Moore, 'Progress in digital integrated electronics', IEDM 1975 (texto lido no PDF: 'a doubling every two years, rather than every year, by the end of the decade'); reimpressão IEEE, DOI 10.1109/N-SSC.2006.4804410 conferido no Crossref",
+     "verificado": true
     }
    ],
    "dominio_validade": "Densidade de transistores em CMOS com custo por transistor decrescente. Vale como tendência de longo prazo de 1965 a ~2010; depois, ganhos migram para arquitetura, empacotamento 3D, aceleradores e memória.",
@@ -68,7 +68,8 @@
      "unidade": "frequência de clock estagnada (~3-4 GHz)",
      "periodo": "meados dos anos 2000",
      "fonte": "consenso historiográfico; não conferido em fonte primária nesta compilação",
-     "verificado": false
+     "verificado": false,
+     "nota": "Sem fonte primária lida; é consenso historiográfico (fim do escalonamento de Dennard e estagnação do clock em ~2005-2006). Para conferir: Dennard et al. 1974 (IEEE JSSC) e séries de frequência de CPUs."
     }
    ],
    "dominio_validade": "Enquanto a tensão puder cair junto com o comprimento de canal; quebra quando correntes de fuga e limite de tensão de limiar impedem reduzir V.",
@@ -98,7 +99,8 @@
      "unidade": "LCOE ponderado global do solar fotovoltaico",
      "periodo": "2010-2024",
      "fonte": "IRENA, Renewable Power Generation Costs in 2024 (via resumo de busca)",
-     "verificado": false
+     "verificado": false,
+     "nota": "irena.org bloqueia robôs (HTTP 403 e verificação anti-bot) em 2026-10-07; os valores US$0,417 e US$0,043/kWh não foram lidos na fonte. Abrir o relatório IRENA 2024 em navegador antes de usar."
     }
    ],
    "dominio_validade": "Tecnologias modulares, produzidas em série, com forte cadeia de fornecedores e mercado em expansão. Falha para tecnologias grandes e customizadas (nuclear convencional tem aprendizado fraco ou negativo em varios países) e quando insumos (polissilício, lítio) sobem de preço.",
@@ -116,13 +118,15 @@
      "titulo": "IRENA - Renewable Power Generation Costs in 2024",
      "url": "https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024",
      "doi": null,
-     "verificado": false
+     "verificado": false,
+     "nota": "irena.org: HTTP 403 e verificação anti-bot; página não lida."
     },
     {
      "titulo": "Wright - Factors affecting the cost of airplanes (J. Aeronautical Sciences, 1936)",
-     "url": null,
-     "doi": null,
-     "verificado": false
+     "url": "https://doi.org/10.2514/8.155",
+     "doi": "10.2514/8.155",
+     "verificado": true,
+     "nota": "DOI 10.2514/8.155 conferido no Crossref: título, autor (Wright) e ano (1936). Artigo não lido."
     }
    ]
   },
@@ -140,32 +144,36 @@
      "unidade": "taxa de aprendizado do módulo",
      "periodo": "décadas recentes",
      "fonte": "formulação popular; valor não conferido em fonte primária nesta compilação",
-     "verificado": false
+     "verificado": false,
+     "nota": "Sem fonte primária lida para ~20% por dobra; taxas de aprendizado de módulos FV variam por período e fonte (cerca de 20-24% é a faixa mais citada). Ler Nemet 2006 ou o painel IRENA/OWID antes de usar."
     },
     {
      "valor": "US$0,043/kWh (LCOE 2024); China US$0,033; Índia US$0,038",
      "unidade": "LCOE solar",
      "periodo": "2024",
      "fonte": "IRENA (resumo de busca)",
-     "verificado": false
+     "verificado": false,
+     "nota": "irena.org bloqueia robôs (HTTP 403 e verificação anti-bot) em 2026-10-07; os valores de LCOE da China e da Índia não foram lidos na fonte."
     }
    ],
    "dominio_validade": "Módulos fabricados em escala; não vale para BOS (estruturas, inversores, mão de obra, interconexão) que variam por país.",
    "criticas": "O piso passa a ser dado por materiais e BOS; sobreoferta chinesa de 2023-2025 derrubou preços abaixo do custo marginal sustentável (parte da queda é ciclo, não aprendizado).",
    "estado_atual": "Solar é a fonte de maior expansão mundial; no Brasil é a segunda maior da matriz em capacidade.",
-   "relevancia_brasil": "Capacidade solar total ~55 GW em jul/2026 (37,4 GW GD + 17,6 GW centralizada), 22,2% da capacidade instalada, segundo ABSOLAR via notícia de imprensa (não conferido na fonte primária). Gargalos: curtailment, transmissão, subsídio cruzado da GD (Lei 14.300/2022), tarifas.",
+   "relevancia_brasil": "Capacidade solar total ~55 GW em mar/2025 (matéria de 21/03/2025; valores posteriores da ABSOLAR são maiores, por exemplo 63 GW em jan/2026 segundo imprensa) (37,4 GW GD + 17,6 GW centralizada), 22,2% da capacidade instalada, segundo ABSOLAR via notícia de imprensa (não conferido na fonte primária). Gargalos: curtailment, transmissão, subsídio cruzado da GD (Lei 14.300/2022), tarifas.",
    "referencias": [
     {
      "titulo": "IRENA - Renewable Power Generation Costs in 2024",
      "url": "https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024",
      "doi": null,
-     "verificado": false
+     "verificado": false,
+     "nota": "irena.org: HTTP 403 e verificação anti-bot; página não lida."
     },
     {
-     "titulo": "ABSOLAR via Canal Solar - capacidade solar instalada no Brasil (jul/2026)",
+     "titulo": "ABSOLAR via Canal Solar - capacidade solar instalada no Brasil (mar/2025)",
      "url": "https://canalsolar.com.br/energia-solar-potencia-instalada-brasil-absolar/",
      "doi": null,
-     "verificado": false
+     "verificado": true,
+     "nota": "Matéria lida, publicada em 21/03/2025 (atualizada 18/06/2025): ABSOLAR, 55 GW (37,4 GW de geração distribuída e 17,6 GW centralizada), 22,2% da capacidade instalada, 5 milhões de unidades consumidoras. DIVERGÊNCIA de data corrigida: a versão anterior rotulava esse número como 'jul/2026'. Os dados da ABSOLAR não foram abertos."
     }
    ]
   },
@@ -241,7 +249,8 @@
      "unidade": "taxa de aprendizado / CAPEX por kW",
      "periodo": "n/d",
      "fonte": "nenhuma fonte primária lida",
-     "verificado": false
+     "verificado": false,
+     "nota": "Sem número conferido; a IEA (Global Hydrogen Review) responde 403 ao acesso automatizado em 2026-10-07."
     }
    ],
    "dominio_validade": "Produção modular em massa (alcalino chines) pode seguir Wright; projetos integrados de grande escala (amônia, refinarias) têm custos de engenharia e financiamento não modulares.",
@@ -253,7 +262,8 @@
      "titulo": "IEA - Global Hydrogen Review (serie anual)",
      "url": "https://www.iea.org/reports/global-hydrogen-review-2025",
      "doi": null,
-     "verificado": false
+     "verificado": false,
+     "nota": "iea.org: HTTP 403; página não lida."
     }
    ]
   },
@@ -262,7 +272,7 @@
    "nome": "Lei de Koomey (eficiência energética da computação)",
    "autor": "Jonathan Koomey et al.",
    "ano": 2011,
-   "formula": "Computações por kWh dobram a cada ~1,57 ano (1946-2009); ~2,5 anos após ~2000",
+   "formula": "Computações por kWh dobram a cada ~1,5 ano (1946-2009; Koomey et al. 2011 reportam 1,57 no corpo do artigo); ~2,7 anos após ~2000 (Koomey e Naffziger, 2015)",
    "formula_latex": "E(t)=E_0\\,2^{(t-t_0)/T},\\; T\\approx1{,}57\\ \\text{anos}",
    "descricao": "Eficiência elétrica de computação (operações por joule) cresce exponencialmente por mais de seis décadas.",
    "parametros_empiricos": [
@@ -274,11 +284,12 @@
      "verificado": true
     },
     {
-     "valor": "T ~ 1,57 ano (histórico) ; ~2,5 anos (2015)",
+     "valor": "T ~ 1,5 ano (histórico, 1946-2009; Koomey et al. 2011: 'doubled roughly every year and a half'); ~2,7 anos (desde ~2000; Koomey e Naffziger, IEEE Spectrum, 31/03/2015)",
      "unidade": "período de duplicação",
      "periodo": "1946-2009; ~2000-2015",
-     "fonte": "Koomey et al. 2011 (DOI conferido); valor numérico e Koomey/Naffziger 2015 via resumo de busca",
-     "verificado": false
+     "fonte": "Koomey, Berard, Sanchez, Wong 2011 (DOI 10.1109/MAHC.2010.28; resumo lido) e Koomey e Naffziger, IEEE Spectrum, 31/03/2015 (texto lido: 'about 2.7 years for peak-output efficiency to double'). O valor 1,57 ano é o do corpo do artigo de 2011, não lido.",
+     "verificado": true,
+     "nota": "DIVERGÊNCIA corrigida: a versão anterior trazia ~2,5 anos para o período recente; o texto de 2015 lido na fonte diz ~2,7 anos."
     }
    ],
    "dominio_validade": "Eficiência por operação em condições de pico. Não captura aumento de demanda total (Jevons).",
@@ -302,7 +313,8 @@
      "titulo": "IEA - Energy and AI (2025)",
      "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
      "doi": null,
-     "verificado": false
+     "verificado": false,
+     "nota": "iea.org: HTTP 403; página não lida."
     }
    ]
   },
@@ -320,7 +332,8 @@
      "unidade": "duplicação da densidade areal",
      "periodo": "anos 1990-2000s",
      "fonte": "formulação popular; não conferida nesta compilação",
-     "verificado": false
+     "verificado": false,
+     "nota": "O artigo de Walter (Scientific American, ago/2005) abre no site, mas o texto livre é cortado antes do número; os 13 meses não foram lidos na fonte."
     }
    ],
    "dominio_validade": "Limitada pelo limite superparamagnético; hoje HAMR/MAMR e flash NAND (camadas 3D) sustentam o custo por TB.",
@@ -330,9 +343,10 @@
    "referencias": [
     {
      "titulo": "Walter - Kryder's Law (Scientific American, 2005)",
-     "url": null,
-     "doi": null,
-     "verificado": false
+     "url": "https://www.scientificamerican.com/article/kryders-law/",
+     "doi": "10.1038/scientificamerican0805-32",
+     "verificado": true,
+     "nota": "Página aberta (Scientific American, 01/08/2005, Chip Walter); texto livre cortado, sem o valor de 13 meses. DOI conferido no Crossref."
     }
    ]
   },
@@ -346,11 +360,12 @@
    "descricao": "O valor de uma rede cresce com o número de pares possíveis de conexões. Críticas dizem que nem todas as conexões têm igual valor (cauda longa) e que n log n é mais realista.",
    "parametros_empiricos": [
     {
-     "valor": "ajuste quadrático em dados de usuários ativos do Facebook e Tencent",
-     "unidade": "tipo de relação receita ~ usuários^2",
+     "valor": "Entre quatro leis testadas (Sarnoff, Odlyzko, Metcalfe, Reed), V ∝ n² é a que melhor se ajusta aos dados reais de Tencent e Facebook; o custo das duas empresas é proporcional a n², e os usuários ativos mensais seguem a função netoid",
+     "unidade": "tipo de relação valor ~ usuários^2",
      "periodo": "série histórica até ~2014",
-     "fonte": "Zhang, Liu, Xu 2015 (DOI conferido; ajuste lido de memória)",
-     "verificado": false
+     "fonte": "Zhang, Liu, Xu 2015, J. Comput. Sci. Technol. 30(2):246-251 (resumo lido em jcst.ict.ac.cn; DOI 10.1007/s11390-015-1518-1)",
+     "verificado": true,
+     "nota": "Contestado: Briscoe, Odlyzko e Tilly (IEEE Spectrum, 2006) defendem n log n; a leitura do resumo não substitui a leitura do artigo."
     }
    ],
    "dominio_validade": "Redes de comunicação com valor homogeneo entre pares; falha em redes saturadas e em redes de interesse (efeito de cauda).",
@@ -368,7 +383,8 @@
      "titulo": "Briscoe, Odlyzko, Tilly - Metcalfe's Law is Wrong (IEEE Spectrum, jul/2006)",
      "url": "https://spectrum.ieee.org/metcalfes-law-is-wrong",
      "doi": null,
-     "verificado": false
+     "verificado": true,
+     "nota": "Página lida: Briscoe, Odlyzko e Tilly propõem que o valor da rede cresce em n log(n), não em n²."
     }
    ]
   },
@@ -386,7 +402,8 @@
      "unidade": "LED",
      "periodo": "1970-2000s",
      "fonte": "formulação de Haitz; não conferida nesta compilação",
-     "verificado": false
+     "verificado": false,
+     "nota": "O resumo de Haitz e Tsao (2011, DOI 10.1002/pssa.201026349) foi lido e não traz os números (20x de fluxo e 10x de queda de custo por década), que estão no corpo do artigo, não aberto (Wiley bloqueia robôs)."
     }
    ],
    "dominio_validade": "LEDs inorgânicos de potência até perto do limite de eficácia luminosa teórica.",
@@ -396,9 +413,10 @@
    "referencias": [
     {
      "titulo": "Haitz, Tsao - Solid-state lighting: 'The case' 10 years after and future prospects (Phys. Status Solidi A, 2011)",
-     "url": null,
-     "doi": null,
-     "verificado": false
+     "url": "https://doi.org/10.1002/pssa.201026349",
+     "doi": "10.1002/pssa.201026349",
+     "verificado": true,
+     "nota": "DOI conferido no Crossref (título, autores, ano: publicado online em 2010, no volume de 2011); resumo lido. Os números 20x/10x não constam do resumo."
     }
    ]
   },
@@ -412,29 +430,32 @@
    "descricao": "Custo de leitura/síntese de DNA em função do tempo, usada para projetar biologia sintética e genômica.",
    "parametros_empiricos": [
     {
-     "valor": "de ~US$95 milhões (2001) para ~US$500-1.000 (2022) por genoma humano",
-     "unidade": "custo de sequenciamento (NHGRI)",
+     "valor": "de ~US$95 milhões (set/2001) para ~US$525 por genoma humano (mai/2022; faixa de ~US$450 a US$560 entre mai/2021 e mai/2022)",
+     "unidade": "custo de sequenciamento em centros do NHGRI (Cost per Genome)",
      "periodo": "2001-2022",
-     "fonte": "NHGRI (via resumo de busca)",
-     "verificado": false
+     "fonte": "NHGRI, tabela 'Sequencing Cost Data Table May 2022' (genome.gov), lida: set/2001 US$95.263.072; mai/2021 US$454; ago/2021 US$562; mai/2022 US$525",
+     "verificado": true,
+     "nota": "DIVERGÊNCIA corrigida: a versão anterior trazia ~US$500-1.000 em 2022; a série lida na fonte termina em mai/2022 e fica entre US$454 e US$562 desde mai/2021. A tabela termina em 2022; não há ponto lido para anos posteriores."
     }
    ],
    "dominio_validade": "Custo de leitura; custo total (análise, interpretação, armazenamento, consentimento) cai menos.",
    "criticas": "Queda não é suave: salto em 2007-2008 (NGS), platôs depois; as medidas de custo incluem definições diferentes.",
-   "estado_atual": "Genoma de centenas de dólares; análise e interpretação viram o gargalo.",
+   "estado_atual": "Genoma de algumas centenas de dólares (US$525 em mai/2022, NHGRI); análise e interpretação viram o gargalo.",
    "relevancia_brasil": "Genômica populacional (miscigenação), saúde pública, agro e bioeconomia amazônica; Embrapa e Fiocruz são atores; dependência de reagentes importados.",
    "referencias": [
     {
      "titulo": "NHGRI - DNA Sequencing Costs: Data",
      "url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data",
      "doi": null,
-     "verificado": false
+     "verificado": true,
+     "nota": "Página e tabela de dados (Sequencing_Cost_Data_Table_May2022.xls) lidas; ver parâmetro corrigido."
     },
     {
      "titulo": "Carlson - The pace and proliferation of biological technologies (Biosecurity and Bioterrorism 1(3), 2003)",
-     "url": null,
-     "doi": null,
-     "verificado": false
+     "url": "https://doi.org/10.1089/153871303769201851",
+     "doi": "10.1089/153871303769201851",
+     "verificado": true,
+     "nota": "DOI conferido no Crossref: título, autor (Carlson) e ano (2003). Artigo não lido."
     }
    ]
   },
@@ -451,15 +472,15 @@
      "valor": "93,6% dos domicílios com internet (74,9 milhões); urbano 94,7%, rural 84,8%",
      "unidade": "domicílios com internet",
      "periodo": "2024",
-     "fonte": "IBGE PNAD Contínua TIC (via resumo de busca)",
-     "verificado": false
+     "fonte": "IBGE, PNAD Contínua TIC 2024, Agência de Notícias do IBGE (24/07/2025), página lida no navegador: 74,9 milhões de domicílios com Internet (93,6%), +1,1 p.p. ante 2023; urbano 94,7% e rural 84,8% (diferença de 9,9 p.p.; era maior que 40 p.p. em 2016)",
+     "verificado": true
     },
     {
      "valor": "9,0% de participação de eletrificados leves; 223.912 unidades (+26%)",
      "unidade": "vendas de eletrificados leves",
      "periodo": "2025",
-     "fonte": "ABVE (via resumo de busca)",
-     "verificado": false
+     "fonte": "ABVE, via Conexão Tocantins (06/01/2026; matéria lida: 223.912 eletrificados leves em 2025, +26%, 9% das vendas de leves). O comunicado da ABVE não foi aberto.",
+     "verificado": true
     }
    ],
    "dominio_validade": "Mercado com teto bem definido K. Perigo: estimar K e r no início da curva é muito incerto (qualquer exponencial parece logística no início).",
@@ -468,10 +489,11 @@
    "relevancia_brasil": "Boa aproximação para saturação digital; para VEs e solar, K é função de renda, tarifa, crédito e infraestrutura.",
    "referencias": [
     {
-     "titulo": "IBGE - PNAD Contínua TIC 2024 (Teletime, 24/07/2025)",
-     "url": "https://teletime.com.br/24/07/2025/internet-chega-a-93-dos-domicilios-mas-51-milhoes-de-lares-seguem-offline/",
+     "titulo": "IBGE - PNAD Contínua TIC 2024 (Agência de Notícias do IBGE, 24/07/2025)",
+     "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/44031-internet-chega-a-74-9-milhoes-de-domicilios-do-pais-em-2024",
      "doi": null,
-     "verificado": false
+     "verificado": true,
+     "nota": "Página do IBGE lida no navegador em 2026-10-07 (o acesso por robô dá 403); a matéria da Teletime de 24/07/2025 traz os mesmos números."
     }
    ]
   },
@@ -489,21 +511,32 @@
      "unidade": "coeficientes típicos",
      "periodo": "meta-análise de 1990",
      "fonte": "Sultan, Farley, Lehmann 1990 (valor lembrado, não conferido)",
-     "verificado": false
+     "verificado": false,
+     "nota": "Um trabalho posterior que cita Sultan, Farley e Lehmann (1990) reporta p = 0,03 e q = 0,38 como resultado central (visto em busca); a tabela do artigo original (J. Marketing Research 27:70-77) não foi aberta (JSTOR/SAGE bloqueiam robôs)."
     },
     {
      "valor": "Pix lançado em 16/11/2020; usuários 41,2 mi (nov/2020) -> 93,6 mi (mai/2021) -> 112,6 mi (out/2021)",
      "unidade": "usuários cadastrados",
      "periodo": "2020-2021",
      "fonte": "BCB via imprensa (resumo de busca)",
-     "verificado": false
+     "verificado": false,
+     "nota": "Não localizei fonte lida para usuários cadastrados em 2020-2021 (BCB). Lançamento em 16/11/2020 não foi relido na fonte."
     },
     {
-     "valor": "318,07 milhões de transações em 04/09/2026 (recorde); 22,93 bilhões e R$10,499 trilhões em abr-jun/2026; 76,4% da população usa Pix",
+     "valor": "318,1 milhões de transações em 04/09/2026 (recorde diário), R$ 186,9 bilhões movimentados no dia; Pix usado por 76,4% da população (levantamento do BC de 2025)",
      "unidade": "uso do Pix",
+     "periodo": "2025-2026",
+     "fonte": "GiroNews, 08/09/2026 (matéria lida), citando o Banco Central; a página do BC não foi aberta",
+     "verificado": true,
+     "nota": "DIVERGÊNCIA de arredondamento: a versão anterior trazia 318,07 milhões; a matéria lida diz 318,1 milhões."
+    },
+    {
+     "valor": "22,93 bilhões de transações e R$ 10,499 trilhões em abr-jun/2026",
+     "unidade": "uso do Pix, trimestre",
      "periodo": "2026",
-     "fonte": "BCB via imprensa (resumo de busca)",
-     "verificado": false
+     "fonte": "BCB via imprensa (resumo de busca); não localizado na matéria lida (GiroNews) nem em fonte primária",
+     "verificado": false,
+     "nota": "A API de dados abertos do BCB (olinda.bcb.gov.br, Pix_DadosAbertos) responde, mas a paginação falhou (HTTP 500) e a soma do trimestre não pôde ser refeita."
     }
    ],
    "dominio_validade": "Produto único, mercado de potencial fixo m, sem restrição de oferta. Fitar p, q só é confiável após o pico.",
@@ -518,10 +551,11 @@
      "verificado": true
     },
     {
-     "titulo": "Banco Central do Brasil - estatísticas do Pix (via imprensa)",
+     "titulo": "GiroNews - Pix registra recorde de 318 milhões de transações em um dia (08/09/2026), citando o Banco Central",
      "url": "https://gironews.com/negocios/pix-registra-recorde-de-318-milhoes-de-transacoes-em-um-dia/",
      "doi": null,
-     "verificado": false
+     "verificado": true,
+     "nota": "Matéria lida: 318,1 milhões de transações em 04/09/2026, R$ 186,9 bilhões, Pix usado por 76,4% da população. Página do BC não aberta."
     }
    ]
   },
@@ -530,7 +564,7 @@
    "nome": "Leis de escala de Kaplan (LLMs)",
    "autor": "Jared Kaplan et al.",
    "ano": 2020,
-   "formula": "L(N) = (Nc/N)^aN; L(D) = (Dc/D)^aD; L(C) = (Cc/C)^aC, com aN~0,076, aD~0,095, aC~0,050",
+   "formula": "L(N) = (Nc/N)^aN; L(D) = (Dc/D)^aD; L(C) = (Cc/C)^aC, com aN~0,076, aD~0,095, aC_min~0,050",
    "formula_latex": "L(N)=\\left(\\frac{N_c}{N}\\right)^{\\alpha_N},\\;\\alpha_N\\approx0{,}076",
    "descricao": "A perda de modelos de linguagem cai como lei de potência com parâmetros, dados e computação, por mais de sete ordens de grandeza; arquitetura (profundidade/largura) importa pouco na faixa testada.",
    "parametros_empiricos": [
@@ -545,8 +579,9 @@
      "valor": "aN~0,076; aD~0,095; aC~0,050",
      "unidade": "expoentes",
      "periodo": "2020",
-     "fonte": "do artigo; expoentes lembrados, não conferidos",
-     "verificado": false
+     "fonte": "Kaplan et al. 2020, arXiv 2001.08361 (texto lido, eqs. 1.1 a 1.3: αN ~ 0,076; αD ~ 0,095; αC_min ~ 0,050)",
+     "verificado": true,
+     "nota": "O expoente 0,050 é o da computação mínima (C_min, com tamanho de modelo e lote ótimos); o da computação sem esse ajuste, ao treinar com lote fixo, é outro."
     }
    ],
    "dominio_validade": "Transformers de linguagem, perda de entropia cruzada em distribuição fixa, sem gargalo de dados.",
@@ -579,11 +614,11 @@
      "verificado": true
     },
     {
-     "valor": "~20 tokens por parâmetro",
+     "valor": "~20 tokens por parâmetro (Chinchilla: 70 bilhões de parâmetros treinados em 1,4 trilhão de tokens)",
      "unidade": "razão ótima",
      "periodo": "2022",
-     "fonte": "regra popular derivada do artigo; não conferida",
-     "verificado": false
+     "fonte": "Hoffmann et al. 2022, arXiv 2203.15556 (texto lido: tamanho do modelo e tokens devem crescer na mesma proporção; Chinchilla 70B com 1,4T tokens, o que dá 20 tokens/parâmetro por conta direta)",
+     "verificado": true
     }
    ],
    "dominio_validade": "Treino de compute-ótimo sem levar em conta custo de inferência.",
@@ -666,7 +701,8 @@
      "titulo": "Our World in Data - Computation used to train notable AI systems",
      "url": "https://ourworldindata.org/grapher/artificial-intelligence-training-computation",
      "doi": null,
-     "verificado": false
+     "verificado": true,
+     "nota": "Página aberta (HTTP 200; indicador de computação de treino em FLOP); os valores do gráfico não foram lidos."
     }
    ]
   },
@@ -718,7 +754,8 @@
      "titulo": "Citação tradicional; sem fonte primária conferida",
      "url": null,
      "doi": null,
-     "verificado": false
+     "verificado": false,
+     "nota": "Citação tradicional; fonte primária não localizada."
     }
    ]
   },
@@ -736,7 +773,8 @@
      "unidade": "posição relatada",
      "periodo": "2025",
      "fonte": "Gartner (via resumos de imprensa)",
-     "verificado": false
+     "verificado": false,
+     "nota": "techrepublic.com responde 403 ao acesso automatizado em 2026-10-07; posição no Hype Cycle não lida na fonte (o relatório da Gartner é pago)."
     }
    ],
    "dominio_validade": "Só como narrativa; muitas tecnologias não seguem o formato.",
@@ -748,7 +786,8 @@
      "titulo": "Gartner - Hype Cycle for Artificial Intelligence 2025 (resumo via imprensa)",
      "url": "https://www.techrepublic.com/article/news-gartner-ai-predictions-2028/",
      "doi": null,
-     "verificado": false
+     "verificado": false,
+     "nota": "techrepublic.com: HTTP 403; página não lida."
     }
    ]
   },
@@ -770,13 +809,15 @@
      "titulo": "Baumol - Macroeconomics of unbalanced growth (AER, 1967)",
      "url": null,
      "doi": null,
-     "verificado": false
+     "verificado": false,
+     "nota": "Artigo original (American Economic Review, 1967) sem DOI no Crossref; só republicações em capítulos de livros; texto não lido."
     },
     {
      "titulo": "Aghion, Jones, Jones - Artificial Intelligence and Economic Growth (NBER w23928)",
      "url": "https://www.nber.org/papers/w23928",
      "doi": null,
-     "verificado": false
+     "verificado": true,
+     "nota": "Página do NBER (w23928, out/2017) lida: Aghion, Jones e Jones, Artificial Intelligence and Economic Growth."
     }
    ]
   },
@@ -794,7 +835,8 @@
      "unidade": "projeção IEA",
      "periodo": "2024-2030",
      "fonte": "IEA Energy and AI (resumo de busca)",
-     "verificado": false
+     "verificado": false,
+     "nota": "iea.org responde 403 ao acesso automatizado em 2026-10-07; os 415 TWh e ~945 TWh não foram lidos na fonte."
     }
    ],
    "dominio_validade": "Serviços com demanda elástica e não saturada (iluminação, computação, transporte); fraco em demanda saturada.",
@@ -806,13 +848,15 @@
      "titulo": "IEA - Energy and AI (2025)",
      "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
      "doi": null,
-     "verificado": false
+     "verificado": false,
+     "nota": "iea.org: HTTP 403; página não lida."
     },
     {
      "titulo": "Jevons - The Coal Question (1865)",
-     "url": null,
+     "url": "https://www.econlib.org/library/YPDBooks/Jevons/jvnCQ.html",
      "doi": null,
-     "verificado": false
+     "verificado": true,
+     "nota": "Texto da 2ª edição aberto na Econlib (Liberty Fund); a página abre, o argumento sobre o consumo de carvão não foi relido capítulo a capítulo."
     }
    ]
   },
@@ -848,11 +892,11 @@
    "descricao": "O progresso técnico resulta de P&D motivado por lucro; ideias são não rivais, portanto a escala de mercado e capital humano elevam o crescimento.",
    "parametros_empiricos": [
     {
-     "valor": "produtividade da pesquisa em queda: ideias ficam mais difíceis de encontrar",
+     "valor": "produtividade da pesquisa em queda: ideias ficam mais difíceis de encontrar (Lei de Moore: >18x mais pesquisadores que no início dos anos 1970)",
      "unidade": "achado empírico",
      "periodo": "décadas até ~2015",
-     "fonte": "Bloom, Jones, Van Reenen, Webb 2020 (DOI conferido; números não lidos)",
-     "verificado": false
+     "fonte": "Bloom, Jones, Van Reenen, Webb 2020, American Economic Review (DOI 10.1257/aer.20180338; resumo lido: esforço de pesquisa sobe e produtividade da pesquisa cai; para a Lei de Moore, o número de pesquisadores necessários é mais de 18 vezes o do início dos anos 1970)",
+     "verificado": true
     }
    ],
    "dominio_validade": "Existência de incentivos a P&D e proteção a ideias; escala de mercado e capital humano.",
@@ -887,8 +931,8 @@
      "valor": "ganho de PTF <= 0,66% em 10 anos (<=0,53% considerando tarefas mais difíceis)",
      "unidade": "estimativa para IA nos EUA",
      "periodo": "2024",
-     "fonte": "Acemoglu 2024 NBER w32487 (resumo de busca)",
-     "verificado": false
+     "fonte": "Acemoglu 2024, NBER w32487 (resumo lido em nber.org: 'no more than a 0.66% increase in TFP over 10 years'; <0,53% se as tarefas futuras forem mais difíceis de aprender)",
+     "verificado": true
     }
    ],
    "dominio_validade": "Economias com mercado de trabalho formal; estimativas dependem de exposição e de economia de custo por tarefa, ambas incertas.",
@@ -969,7 +1013,8 @@
      "unidade": "OIT adaptada ao Brasil",
      "periodo": "2025",
      "fonte": "imprensa sindical citando OIT (resumo de busca)",
-     "verificado": false
+     "verificado": false,
+     "nota": "Os 5,4%, 31,3 milhões e 7,8% vs 3,6% não aparecem na página da OIT (WP 140, node 706766) nem em busca; a fonte são notícias sindicais não abertas. O WP 140 traz tabelas por país que não foram abertas."
     }
    ],
    "dominio_validade": "Exposição técnica não é desemprego; depende de adoção e custo.",
@@ -1021,7 +1066,8 @@
      "titulo": "Kurzweil - The Singularity Is Near (2005)",
      "url": null,
      "doi": null,
-     "verificado": false
+     "verificado": false,
+     "nota": "Livro (2005) não aberto; sem URL estável de acesso livre."
     }
    ]
   },
@@ -1039,14 +1085,16 @@
      "unidade": "Brasil",
      "periodo": "WIR 2026",
      "fonte": "World Inequality Report 2026 (via resumo de busca)",
-     "verificado": false
+     "verificado": false,
+     "nota": "Matéria do Cenarium (02/01/2026) lida reporta 59% e 'pouco mais de 9%' atribuídos ao World Inequality Report 2026; o relatório e a base WID não foram abertos (wir2026.wid.world carrega, mas sem dados por país no HTML)."
     },
     {
      "valor": "top 1%: 23,7% (2001) -> 25,4% (2012) -> 20,3% (2019) da renda nacional pré-impostos",
      "unidade": "Brasil",
      "periodo": "2001-2019",
      "fonte": "WID (via resumo de busca)",
-     "verificado": false
+     "verificado": false,
+     "nota": "Série do top 1% (23,7% / 25,4% / 20,3%) não localizada em fonte lida; consultar wid.world (World Inequality Database) para Brasil."
     }
    ],
    "dominio_validade": "A cauda superior, não o corpo; exige muitos dados e teste estatístico.",
@@ -1074,9 +1122,10 @@
     },
     {
      "titulo": "Medeiros, Souza, Castro - The Stability of Income Inequality in Brazil, 2006-2012",
-     "url": null,
-     "doi": null,
-     "verificado": false
+     "url": "https://doi.org/10.1590/1413-81232015204.00362014",
+     "doi": "10.1590/1413-81232015204.00362014",
+     "verificado": true,
+     "nota": "DOI conferido no Crossref (Medeiros, Souza, Castro, Ciência & Saúde Coletiva, 2015); resumo lido: dados do IRPF combinados com a PNAD para a distribuição de renda 2006-2012."
     }
    ]
   }
@@ -1086,7 +1135,7 @@
    "id": "solar_eolica",
    "titulo": "Solar e eólica: expansão continuada e problema de integração",
    "horizonte": "2026-2035 (forte); 2035-2040 (depende de rede e armazenamento)",
-   "evidencia": "LCOE solar global US$0,043/kWh em 2024 (-90% desde 2010, IRENA via resumo). Brasil ~55 GW solar em jul/2026, 22,2% da capacidade (ABSOLAR via imprensa).",
+   "evidencia": "LCOE solar global US$0,043/kWh em 2024 (-90% desde 2010, IRENA via resumo). Brasil ~55 GW solar em mar/2025, 22,2% da capacidade (a matéria é de 21/03/2025; já superado) (ABSOLAR via imprensa).",
    "incerteza": "Curtailment, transmissão, regra de GD (Lei 14.300), sobreoferta chinesa e câmbio; custo de capital alto.",
    "impacto_economico": "Eletricidade mais barata para consumidores e indústria eletrointensiva; risco de transferência entre classes (subsídio cruzado); impacto em PIB positivo, de pequeno a moderado, sem número fixado aqui.",
    "classes_afetadas": [
@@ -1102,13 +1151,15 @@
      "titulo": "IRENA - Renewable Power Generation Costs in 2024",
      "url": "https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024",
      "doi": null,
-     "verificado": false
+     "verificado": false,
+     "nota": "irena.org: HTTP 403 e verificação anti-bot; página não lida."
     },
     {
-     "titulo": "ABSOLAR via Canal Solar - capacidade solar instalada no Brasil (jul/2026)",
+     "titulo": "ABSOLAR via Canal Solar - capacidade solar instalada no Brasil (mar/2025)",
      "url": "https://canalsolar.com.br/energia-solar-potencia-instalada-brasil-absolar/",
      "doi": null,
-     "verificado": false
+     "verificado": true,
+     "nota": "Matéria lida, publicada em 21/03/2025 (atualizada 18/06/2025): ABSOLAR, 55 GW (37,4 GW de geração distribuída e 17,6 GW centralizada), 22,2% da capacidade instalada, 5 milhões de unidades consumidoras. DIVERGÊNCIA de data corrigida: a versão anterior rotulava esse número como 'jul/2026'. Os dados da ABSOLAR não foram abertos."
     }
    ]
   },
@@ -1138,7 +1189,8 @@
      "titulo": "ABVE - fechamento de 2025 (via Conexão TO)",
      "url": "https://conexaoto.com.br/2026/01/06/eletrificados-crescem-26-e-fecham-2025-com-224-mil-veiculos-vendidos",
      "doi": null,
-     "verificado": false
+     "verificado": true,
+     "nota": "Matéria lida: 223.912 eletrificados leves em 2025 (+26%), 9% das vendas."
     }
    ]
   },
@@ -1160,7 +1212,8 @@
      "titulo": "IEA - Global Hydrogen Review",
      "url": "https://www.iea.org/reports/global-hydrogen-review-2025",
      "doi": null,
-     "verificado": false
+     "verificado": false,
+     "nota": "iea.org: HTTP 403; página não lida."
     }
    ]
   },
@@ -1214,7 +1267,8 @@
      "titulo": "Gartner via TechRepublic",
      "url": "https://www.techrepublic.com/article/news-gartner-ai-predictions-2028/",
      "doi": null,
-     "verificado": false
+     "verificado": false,
+     "nota": "techrepublic.com: HTTP 403; página não lida."
     }
    ]
   },
@@ -1236,7 +1290,8 @@
      "titulo": "IEA - Energy and AI (2025)",
      "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
      "doi": null,
-     "verificado": false
+     "verificado": false,
+     "nota": "iea.org: HTTP 403; página não lida."
     },
     {
      "titulo": "Epoch AI - Trends dashboard (atualizado em 05/02/2026)",
@@ -1250,7 +1305,7 @@
    "id": "biotec_agro",
    "titulo": "Biotecnologia, genômica e agrotecnologia",
    "horizonte": "2026-2040",
-   "evidencia": "Custo de sequenciamento caiu de ~US$95 milhões (2001) para centenas de dólares por genoma (NHGRI, via resumo). Brasil tem forte base em agro, Embrapa, Fiocruz.",
+   "evidencia": "Custo de sequenciamento caiu de ~US$95 milhões (set/2001) para ~US$525 por genoma (mai/2022) (tabela do NHGRI, lida). Brasil tem forte base em agro, Embrapa, Fiocruz.",
    "incerteza": "Regulação (CTNBio), acesso a patentes, clima, competição global.",
    "impacto_economico": "Aumento de produtividade agrícola e de saúde; bioeconomia amazônica; sem número fixado.",
    "classes_afetadas": [
@@ -1265,7 +1320,8 @@
      "titulo": "NHGRI - DNA Sequencing Costs",
      "url": "https://www.genome.gov/about-genomics/fact-sheets/DNA-Sequencing-Costs-Data",
      "doi": null,
-     "verificado": false
+     "verificado": true,
+     "nota": "Página e tabela de dados lidas; ver correção do custo por genoma em leis[carlson]."
     }
    ]
   },
@@ -1273,7 +1329,7 @@
    "id": "conectividade",
    "titulo": "Fibra, 5G e satélites de órbita baixa",
    "horizonte": "2026-2032",
-   "evidencia": "93,6% dos domicílios com internet em 2024; rural 84,8%; ~5,1 milhões de lares fora (IBGE via imprensa).",
+   "evidencia": "93,6% dos domicílios com internet em 2024; rural 84,8%; ~5,1 milhões de lares fora (IBGE, Agência de Notícias, página lida).",
    "incerteza": "Qualidade, preço, dependência de provedores estrangeiros (satélites), regulação.",
    "impacto_economico": "Inclusão digital rural e na Amazônia; serviços públicos digitais; saturação de acesso (logística).",
    "classes_afetadas": [
@@ -1284,10 +1340,11 @@
    "alavanca_macro": "supply_reform (acesso e produtividade); desigualdade regional",
    "referencias": [
     {
-     "titulo": "IBGE - PNAD Contínua TIC 2024 (Teletime)",
-     "url": "https://teletime.com.br/24/07/2025/internet-chega-a-93-dos-domicilios-mas-51-milhoes-de-lares-seguem-offline/",
+     "titulo": "IBGE - PNAD Contínua TIC 2024 (Agência de Notícias do IBGE, 24/07/2025)",
+     "url": "https://agenciadenoticias.ibge.gov.br/agencia-noticias/2012-agencia-de-noticias/noticias/44031-internet-chega-a-74-9-milhoes-de-domicilios-do-pais-em-2024",
      "doi": null,
-     "verificado": false
+     "verificado": true,
+     "nota": "Página do IBGE lida no navegador em 2026-10-07 (o acesso por robô dá 403); a matéria da Teletime de 24/07/2025 traz os mesmos números."
     }
    ]
   },
@@ -1307,10 +1364,11 @@
    "alavanca_macro": "supply_reform (custo de transação); risco institucional (independência do BCB)",
    "referencias": [
     {
-     "titulo": "BCB via imprensa",
+     "titulo": "GiroNews - Pix registra recorde de 318 milhões de transações em um dia (08/09/2026), citando o Banco Central",
      "url": "https://gironews.com/negocios/pix-registra-recorde-de-318-milhoes-de-transacoes-em-um-dia/",
      "doi": null,
-     "verificado": false
+     "verificado": true,
+     "nota": "Matéria lida; página do BC não aberta."
     }
    ]
   },
@@ -1332,7 +1390,8 @@
      "titulo": "Sem fonte primária lida",
      "url": null,
      "doi": null,
-     "verificado": false
+     "verificado": false,
+     "nota": "Sem fonte primária lida."
     }
    ]
   },

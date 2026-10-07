@@ -2,7 +2,7 @@
  "meta": {
   "gerado_em": "2026-10-06",
   "aviso": "Diagramas de laços causais (system dynamics, Forrester/Meadows) das possíveis evoluções do Brasil. Só os anéis 1 a 4 e partes dos anéis 2, 7, 8 e 10 têm equação em src/sociolibero/economy.py; os demais são hipóteses causais qualitativas, e as arestas marcadas como contestadas refletem divergência da literatura. Evidência de correlação não é causalidade. As execuções ilustrativas (sim_ilus) usam o modelo anual reduzido com alavancas arbitrárias, não os cenários do projeto, e não são previsão.",
-  "criterio": "verificado: true só quando a página da fonte foi aberta, o resumo foi lido ou o item do repositório já tinha verificado: true; DOI apenas conferido no Crossref (título, autor, ano) sem ler o resultado fica false. Evidências internas apontam para o id do arquivo do repositório e herdam o seu campo verificado. Estatísticas de clima.json são cálculo do repositório sobre séries abertas validadas, e valem como contexto, não como efeito causal. 'forca' é qualitativa: forte = mecanismo contábil do modelo ou efeito identificado em desenho causal; media = evidência plausível mas indireta; fraca = só hipótese com um indício; incerta = literatura diverge ou sem estimativa. Defasagens são estimativas com base declarada (equação do modelo, catálogo de decisões ou ciclo político).",
+  "criterio": "verificado: true só quando a página da fonte foi aberta, o resumo foi lido ou o item do repositório já tinha verificado: true; DOI apenas conferido no Crossref (título, autor, ano) sem ler o resultado fica false. Evidências internas apontam para o id do arquivo do repositório e herdam o seu campo verificado. Estatísticas de clima.json são cálculo do repositório sobre séries abertas validadas, e valem como contexto, não como efeito causal. 'forca' é qualitativa: forte = mecanismo contábil do modelo ou efeito identificado em desenho causal; media = evidência plausível mas indireta; fraca = só hipótese com um indício; incerta = literatura diverge ou sem estimativa. Defasagens são estimativas com base declarada (equação do modelo, catálogo de decisões ou ciclo político). Rodada de 2026-10-07: os resumos de 18 referências acadêmicas foram lidos (Crossref/OpenAlex, nature.com, aiddata.org, hanushek.stanford.edu, ideas.repec.org, eprints.lse.ac.uk, NBER) e Taylor (1993) foi lido no PDF do autor; o item continua false quando só o título foi lido, quando a página bloqueou o acesso automatizado (oecd.org, ibge.gov.br, irena.org) ou quando a fonte lida não sustenta a aresta.",
   "como_ler": "Cada anel é um laço fechado de arestas com sinal. Produto dos sinais positivo = reforçador (R); negativo = equilibrador (B). Arestas com ramal = true são ramais fora do laço principal e não entram na conta de polaridade.",
   "contagens": {
    "aneis": 14,
@@ -11,11 +11,11 @@
    "arestas": 68,
    "arestas_contestadas": 28,
    "citacoes_de_evidencia": 175,
-   "citacoes_verificadas": 137,
+   "citacoes_verificadas": 159,
    "aneis_com_simulacao_total_ou_parcial": 7,
    "aneis_ausentes": 11,
    "referencias": 34,
-   "referencias_verificadas": 15
+   "referencias_verificadas": 33
   }
  },
  "aneis": [
@@ -75,13 +75,13 @@
        "verificado": true
       },
       {
-       "ref": "Ardagna, Caselli, Lane (2007), Fiscal Discipline and the Cost of Public Debt Service (DOI conferido; conteúdo não lido)",
+       "ref": "Ardagna, Caselli, Lane (2007), Fiscal Discipline and the Cost of Public Debt Service: Some Estimates for OECD Countries (DOI conferido no Crossref; resumo lido: painel de 16 países da OCDE; o efeito da dívida sobre os juros longos é não linear e só aparece acima do nível médio de dívida)",
        "url": "https://doi.org/10.2202/1935-1690.1417",
-       "verificado": false
+       "verificado": true
       }
      ],
      "contestada": false,
-     "nota": "No modelo: prem_debt = 0,8 pp por 10 pp de dívida acima de 75%, mais prem_cred = 2,0 vezes (1 - credibilidade) por 10 pp. A inclinação resulta em 0,26 pp de prêmio por pp de dívida com credibilidade 0,1; 0,18 com 0,5; 0,10 com 0,9 (cálculo nosso). Ardagna et al. (DOI conferido, conteúdo não lido) tratam do custo da dívida em países da OCDE; a magnitude brasileira não foi estimada aqui."
+     "nota": "No modelo: prem_debt = 0,8 pp por 10 pp de dívida acima de 75%, mais prem_cred = 2,0 vezes (1 - credibilidade) por 10 pp. A inclinação resulta em 0,26 pp de prêmio por pp de dívida com credibilidade 0,1; 0,18 com 0,5; 0,10 com 0,9 (cálculo nosso). Ardagna et al. (resumo lido) tratam do custo da dívida em 16 países da OCDE, com efeito não linear; a magnitude brasileira não foi estimada aqui."
     },
     {
      "de": "premio",
@@ -96,9 +96,9 @@
        "verificado": true
       },
       {
-       "ref": "Taylor (1993), Discretion versus policy rules in practice (DOI conferido; conteúdo de memória)",
+       "ref": "Taylor (1993), Discretion versus policy rules in practice (DOI conferido no Crossref; texto lido no PDF do autor, web.stanford.edu/~johntayl: r = p + 0,5y + 0,5(p - 2) + 2, com p a inflação de quatro trimestres e y o hiato do produto em %)",
        "url": "https://doi.org/10.1016/0167-2231(93)90009-L",
-       "verificado": false
+       "verificado": true
       }
      ],
      "contestada": false,
@@ -166,9 +166,9 @@
        "verificado": true
       },
       {
-       "ref": "Herndon, Ash, Pollin (2014), Does high public debt consistently stifle economic growth? A critique of Reinhart and Rogoff (DOI conferido; título sustenta a controvérsia)",
+       "ref": "Herndon, Ash, Pollin (2014), Does high public debt consistently stifle economic growth? A critique of Reinhart and Rogoff (DOI conferido; resumo lido: com dívida/PIB acima de 90% o crescimento médio de 20 economias avançadas em 1946-2009 foi 2,2% a.a., não -0,1% como publicado, por exclusão seletiva de dados, erros de codificação e ponderação)",
        "url": "https://doi.org/10.1093/cje/bet075",
-       "verificado": false
+       "verificado": true
       }
      ],
      "contestada": true,
@@ -330,9 +330,9 @@
        "verificado": true
       },
       {
-       "ref": "Taylor (1993), Discretion versus policy rules in practice (DOI conferido; conteúdo de memória)",
+       "ref": "Taylor (1993), Discretion versus policy rules in practice (DOI conferido no Crossref; texto lido no PDF do autor: coeficientes 0,5 sobre a inflação acima de 2% e 0,5 sobre o hiato do produto, mais a inflação corrente)",
        "url": "https://doi.org/10.1016/0167-2231(93)90009-L",
-       "verificado": false
+       "verificado": true
       }
      ],
      "contestada": true,
@@ -372,9 +372,9 @@
        "verificado": true
       },
       {
-       "ref": "Alesina e Summers (1993), Central Bank Independence and Macroeconomic Performance (DOI conferido; conteúdo não lido)",
+       "ref": "Alesina e Summers (1993), Central Bank Independence and Macroeconomic Performance: Some Comparative Evidence (DOI conferido; resumo lido: 16 países da OCDE; bancos centrais sob controle político tendem a inflação alta e variável, sem efeito detectável sobre crescimento, desemprego ou juro real ex ante)",
        "url": "https://doi.org/10.2307/2077833",
-       "verificado": false
+       "verificado": true
       },
       {
        "ref": "historia.json#lc179-2021: LC 179/2021, autonomia do BC, mandato fixo de 4 anos",
@@ -383,7 +383,7 @@
       }
      ],
      "contestada": true,
-     "nota": "Alavanca exógena bc_erosion (0-1) multiplicada por pi_bc = 3,0 pp. A literatura sobre independência do BC (Alesina e Summers; DOI conferido, conteúdo não lido) é cross-country e debate causalidade. Decisões do catálogo mudam a alavanca: reduzir-autonomia-bc +0,4, diretoria-bc-alinhada +0,15.",
+     "nota": "Alavanca exógena bc_erosion (0-1) multiplicada por pi_bc = 3,0 pp. A literatura sobre independência do BC (Alesina e Summers; resumo lido) é cross-country e debate causalidade. Decisões do catálogo mudam a alavanca: reduzir-autonomia-bc +0,4, diretoria-bc-alinhada +0,15.",
      "ramal": true
     }
    ],
@@ -462,18 +462,18 @@
        "verificado": true
       },
       {
-       "ref": "Bohn (1998), The Behavior of U.S. Public Debt and Deficits (DOI conferido no Crossref; conteúdo não lido nesta rodada)",
+       "ref": "Bohn (1998), The Behavior of U.S. Public Debt and Deficits (DOI conferido; resumo lido: o superávit primário dos EUA cresce com a razão dívida/PIB, ação corretiva que satisfaz a restrição orçamentária intertemporal)",
        "url": "https://doi.org/10.1162/003355398555793",
-       "verificado": false
+       "verificado": true
       },
       {
-       "ref": "Ghosh et al. (2013), Fiscal Fatigue, Fiscal Space and Debt Sustainability in Advanced Economies (DOI conferido; título sustenta a ideia de reação fiscal que se esgota; resumo não lido)",
+       "ref": "Ghosh et al. (2013), Fiscal Fatigue, Fiscal Space and Debt Sustainability in Advanced Economies (DOI conferido; resumo lido: 23 economias avançadas, 1970-2007; a capacidade de elevar o saldo primário não acompanha a dívida, o que gera um limite de dívida endógeno)",
        "url": "https://doi.org/10.1111/ecoj.12010",
-       "verificado": false
+       "verificado": true
       }
      ],
      "contestada": true,
-     "nota": "react = reaction*(0,3 + 0,7*credibilidade)*clip(d - 80, -10, 40), reaction = 0,14. Com d = 100 e credibilidade 0,5, react = 1,8 pp. Bohn (1998) é o referencial teórico (DOI conferido, conteúdo não lido); Ghosh et al. (2013) tratam de fadiga fiscal, em que a reação se esgota em dívida alta. O parâmetro 0,14 é de calibração, não estimativa brasileira com intervalo."
+     "nota": "react = reaction*(0,3 + 0,7*credibilidade)*clip(d - 80, -10, 40), reaction = 0,14. Com d = 100 e credibilidade 0,5, react = 1,8 pp. Bohn (1998) é o referencial teórico (resumo lido); Ghosh et al. (2013) tratam de fadiga fiscal, em que a reação se esgota em dívida alta. O parâmetro 0,14 é de calibração, não estimativa brasileira com intervalo."
     },
     {
      "de": "react",
@@ -582,7 +582,7 @@
      "forca": "incerta",
      "evidencia": [
       {
-       "ref": "economia_historica.json#recessao-ajuste-polarizacao: recessão de 2015-16 seguida da EC 95 (resposta institucional a estresse fiscal; correlação temporal, não prova causal)",
+       "ref": "economia_historica.json#recessao-ajuste-polarizacao: recessão de 2015-16 seguida da EC 95 (resposta institucional a estresse fiscal; correlação temporal, não prova causal) [Página citada (Wikipédia, Reforma trabalhista de 2017) trata de outro tema e só menciona a recessão e o Teto de Gastos na navegação; não sustenta a sequência. Substituir por fonte primária (CODACE/FGV IBRE ou IBGE) antes de marcar verificado.]",
        "url": "https://pt.wikipedia.org/wiki/Reforma_trabalhista_no_Brasil_em_2017",
        "verificado": false
       },
@@ -644,7 +644,7 @@
        "verificado": true
       },
       {
-       "ref": "Ardagna, Caselli, Lane (2007), Fiscal Discipline and the Cost of Public Debt Service (DOI conferido; conteúdo não lido)",
+       "ref": "Ardagna, Caselli, Lane (2007), Fiscal Discipline and the Cost of Public Debt Service (DOI conferido; resumo lido: trata do efeito da dívida e do déficit sobre os juros longos, não de credibilidade ou de regra fiscal; a aresta regra → prêmio fica sem sustentação direta nesta referência)",
        "url": "https://doi.org/10.2202/1935-1690.1417",
        "verificado": false
       },
@@ -727,9 +727,9 @@
      "forca": "media",
      "evidencia": [
       {
-       "ref": "Boas, Hidalgo, Richardson (2014), The Spoils of Victory: Campaign Donations and Government Contracts in Brazil (DOI conferido; resumo não lido)",
+       "ref": "Boas, Hidalgo, Richardson (2014), The Spoils of Victory: Campaign Donations and Government Contracts in Brazil (DOI conferido; resumo lido: regressão descontínua; empresas de obras públicas recebem contratos de pelo menos 14 vezes o valor doado quando o candidato a deputado federal do PT doado vence; sem efeito entre partidos aliados)",
        "url": "https://doi.org/10.1017/s002238161300145x",
-       "verificado": false
+       "verificado": true
       },
       {
        "ref": "custo_corrupcao.json#stigler-captura: teoria da captura regulatória",
@@ -737,13 +737,13 @@
        "verificado": true
       },
       {
-       "ref": "leis_tecnologicas.json#potencia_pareto: 10% mais ricos do Brasil com ~59% da renda (WIR 2026, resumo de busca)",
+       "ref": "leis_tecnologicas.json#potencia_pareto: 10% mais ricos do Brasil com ~59% da renda (WIR 2026, resumo de busca) [Matéria do Cenarium (02/01/2026) lida e reporta 59% e 'pouco mais de 9%' do World Inequality Report 2026; o relatório e a base WID não foram abertos, por isso segue false.]",
        "url": "web/public/data/leis_tecnologicas.json",
        "verificado": false
       }
      ],
      "contestada": false,
-     "nota": "Boas et al. (2014) estudam doações de campanha e contratos públicos no Brasil (DOI conferido; resumo não lido). A concentração de renda do topo (10% com ~59%, WIR, não verificado) é o motivo para supor que o dinheiro político é desigual. A causalidade é contestada (doadores escolhem vencedores prováveis)."
+     "nota": "Boas et al. (2014) estudam doações de campanha e contratos públicos no Brasil (resumo lido). A concentração de renda do topo (10% com ~59%, WIR, não verificado) é o motivo para supor que o dinheiro político é desigual. A causalidade é contestada (doadores escolhem vencedores prováveis)."
     },
     {
      "de": "infl",
@@ -753,9 +753,9 @@
      "forca": "media",
      "evidencia": [
       {
-       "ref": "custo_corrupcao.json#emendas-orcamento-secreto: transferências especiais ('emendas Pix') >R$ 22 bi em 2020-2024, auditoria do TCU (via imprensa)",
+       "ref": "custo_corrupcao.json#emendas-orcamento-secreto: transferências especiais ('emendas Pix') >R$ 22 bi em 2020-2024, auditoria do TCU (matéria do Poder360 de 28/01/2026 lida: o TCU aprovou plano especial de auditoria sobre mais de 4.300 transferências especiais, mais de R$ 22 bilhões, 2020 a 2024, em atendimento a decisão do STF na ADPF 854; o item de origem em custo_corrupcao.json segue com o seu próprio verificado)",
        "url": "https://www.poder360.com.br/poder-congresso/tcu-aprova-auditoria-sobre-r-22-bilhoes-em-emendas-pix/",
-       "verificado": false
+       "verificado": true
       },
       {
        "ref": "historia.json#rp9-2021: emendas de relator (RP9) como moeda de troca sem transparência",
@@ -952,9 +952,9 @@
      "forca": "incerta",
      "evidencia": [
       {
-       "ref": "Svolik (2019), Polarization versus Democracy, Journal of Democracy (DOI conferido; conteúdo de memória)",
+       "ref": "Svolik (2019), Polarization versus Democracy, Journal of Democracy (DOI conferido; resumo lido: em eleitorados polarizados os eleitores aceitam trocar princípios democráticos por interesses partidários)",
        "url": "https://doi.org/10.1353/jod.2019.0039",
-       "verificado": false
+       "verificado": true
       },
       {
        "ref": "historia.json#principios/levitsky: Levitsky e Ziblatt (2018), How Democracies Die",
@@ -968,7 +968,7 @@
       }
      ],
      "contestada": true,
-     "nota": "Hipótese: eleitores polarizados toleram violações de regras do lado de quem apoiam (Svolik 2019, DOI conferido, conteúdo de memória). Não há medida brasileira do 'custo político' no repositório."
+     "nota": "Hipótese: eleitores polarizados toleram violações de regras do lado de quem apoiam (Svolik 2019, resumo lido). Não há medida brasileira do 'custo político' no repositório."
     },
     {
      "de": "custo",
@@ -1146,14 +1146,14 @@
        "verificado": true
       },
       {
-       "ref": "Spracklen, Arnold, Taylor (2012), Observations of increased tropical rainfall preceded by air passage over forests, Nature (DOI conferido; só o título foi lido)",
+       "ref": "Spracklen, Arnold, Taylor (2012), Observations of increased tropical rainfall preceded by air passage over forests, Nature (DOI conferido; resumo lido em nature.com: em mais de 60% da superfície tropical terrestre, o ar que passou por vegetação extensa nos dias anteriores produz pelo menos o dobro de chuva)",
        "url": "https://doi.org/10.1038/nature11390",
-       "verificado": false
+       "verificado": true
       },
       {
-       "ref": "Nobre et al. (2016), Land-use and climate change risks in the Amazon and the need of a novel sustainable development paradigm, PNAS (DOI conferido; limiares citados em docs/CLIMA_E_ECONOMIA.md §5)",
+       "ref": "Nobre et al. (2016), Land-use and climate change risks in the Amazon and the need of a novel sustainable development paradigm, PNAS (DOI conferido; resumo lido: dois pontos de inflexão modelados, +4 °C ou desmatamento acima de 40% da floresta)",
        "url": "https://doi.org/10.1073/pnas.1605516113",
-       "verificado": false
+       "verificado": true
       },
       {
        "ref": "clima.json#cenarios_futuros: limiares de tipping point da Amazônia divergem entre fontes (Lovejoy e Nobre 2018: 20-25% de desmatamento; Nobre et al. 2016: 40%); IPCC AR6 com confiança média e sem limiar numérico",
@@ -1224,14 +1224,14 @@
        "verificado": true
       },
       {
-       "ref": "de Assis Costa et al. (2026), Agricultural intensification increases rather than reduces pressure on the Amazon Forest: Jevons paradox..., Land Use Policy (DOI conferido; só o título foi lido)",
+       "ref": "de Assis Costa (2026), Agricultural intensification increases rather than reduces pressure on the Amazon Forest: Jevons' paradox prevails in the cases of soy and cattle in Brazil (2001-2021), Land Use Policy (DOI conferido no Crossref: autor único, vol. 160, jan/2026; resumo não obtido, o site do editor responde 403; só o título foi lido)",
        "url": "https://doi.org/10.1016/j.landusepol.2025.107842",
        "verificado": false
       },
       {
-       "ref": "Barona et al. (2010), The role of pasture and soybean in deforestation of the Brazilian Amazon (DOI conferido; título lido)",
+       "ref": "Barona et al. (2010), The role of pasture and soybean in deforestation of the Brazilian Amazon, Environmental Research Letters (DOI conferido; resumo lido: dados municipais da Amazônia Legal 2000-2006; o desmatamento decorre sobretudo da expansão de pasto, com indício de que a soja em Mato Grosso deslocou pasto para o norte)",
        "url": "https://doi.org/10.1088/1748-9326/5/2/024002",
-       "verificado": false
+       "verificado": true
       },
       {
        "ref": "Assunção, Gandour, Rocha (2015), Deforestation slowdown in the Brazilian Amazon: prices or policies? (resumo lido: o desmatamento respondeu a preços; políticas de 2004 e 2008 evitaram ~73.000 km², 56% do que ocorreria em 2005-2009)",
@@ -1240,7 +1240,7 @@
       }
      ],
      "contestada": true,
-     "nota": "Se a renda por hectare cai, o produtor pode compensar abrindo mais terra (sinal -, anel reforçador) ou reduzir o investimento em expansão (sinal +, o anel viraria balanceador). Cohn et al. (2014) modelam que intensificar pode poupar terra; de Assis Costa et al. (2026, só o título foi lido) falam em paradoxo de Jevons. Assunção et al. mostram que o desmatamento respondeu aos preços agrícolas. A literatura diverge."
+     "nota": "Se a renda por hectare cai, o produtor pode compensar abrindo mais terra (sinal -, anel reforçador) ou reduzir o investimento em expansão (sinal +, o anel viraria balanceador). Cohn et al. (2014) modelam que intensificar pode poupar terra; de Assis Costa (2026, só o título foi lido) falam em paradoxo de Jevons. Assunção et al. mostram que o desmatamento respondeu aos preços agrícolas. A literatura diverge."
     },
     {
      "de": "pressao",
@@ -1664,28 +1664,28 @@
      "forca": "media",
      "evidencia": [
       {
-       "ref": "Galor e Zeira (1993), Income Distribution and Macroeconomics (DOI conferido; conteúdo de memória: restrição de crédito e desigualdade reduzem investimento em capital humano)",
+       "ref": "Galor e Zeira (1993), Income Distribution and Macroeconomics, Review of Economic Studies (DOI conferido; resumo lido: com imperfeições no crédito e indivisibilidades no investimento em capital humano, a distribuição inicial de riqueza afeta produto e investimento, com múltiplos estados estacionários)",
        "url": "https://doi.org/10.2307/2297811",
-       "verificado": false
+       "verificado": true
       },
       {
-       "ref": "Bourguignon, Ferreira, Menéndez (2007), Inequality of Opportunity in Brazil, Review of Income and Wealth (DOI conferido; resumo não lido)",
+       "ref": "Bourguignon, Ferreira, Menéndez (2007), Inequality of Opportunity in Brazil, Review of Income and Wealth (DOI conferido; resumo lido: cinco circunstâncias (escolaridade do pai e da mãe, ocupação do pai, raça, região de nascimento) explicam parte relevante da desigualdade de rendimentos de homens urbanos em 1996)",
        "url": "https://doi.org/10.1111/j.1475-4991.2007.00247.x",
-       "verificado": false
+       "verificado": true
       },
       {
-       "ref": "potenciais_brasil.json#capital-humano-gap: PISA 2022 matemática 379 vs. 472 da OCDE (resumo de busca)",
+       "ref": "potenciais_brasil.json#capital-humano-gap: PISA 2022 matemática 379 vs. 472 da OCDE (resumo de busca) [Página do PISA 2022 da OCDE lida no navegador em 2026-10-07: confirma que o Brasil ficou abaixo da média da OCDE em matemática, mas as médias (379 e 472) estão só em figura e não puderam ser lidas.]",
        "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/brazil_61690648-en.html",
        "verificado": false
       },
       {
-       "ref": "fator_humano.json#edu-jovens-sem-em-2023: ~9 milhões de jovens de 14 a 29 anos sem ensino médio completo (IBGE, PNAD Contínua; não conferido na fonte)",
+       "ref": "fator_humano.json#edu-jovens-sem-em-2023: ~9 milhões de jovens de 14 a 29 anos sem ensino médio completo (IBGE, PNAD Contínua; não conferido na fonte) [Página da PNAD Contínua (educação) do IBGE não lida: 403 a robô em 2026-10-07 e não aberta no navegador; o número de ~9 milhões de jovens segue sem leitura na fonte.]",
        "url": "https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html",
        "verificado": false
       }
      ],
      "contestada": false,
-     "nota": "Galor e Zeira (1993): restrição de crédito e desigualdade reduzem investimento em capital humano (DOI conferido; conteúdo de memória). Bourguignon et al. estudam a desigualdade de oportunidade no Brasil (DOI conferido; resumo não lido). PISA 2022 e 'jovens sem ensino médio' estão com verificado = false."
+     "nota": "Galor e Zeira (1993): restrição de crédito e desigualdade reduzem investimento em capital humano (resumo lido). Bourguignon et al. estudam a desigualdade de oportunidade no Brasil (resumo lido). PISA 2022 e 'jovens sem ensino médio' estão com verificado = false."
     },
     {
      "de": "acesso",
@@ -1695,12 +1695,12 @@
      "forca": "media",
      "evidencia": [
       {
-       "ref": "potenciais_brasil.json#capital-humano-gap: PISA 2022 matemática 379 vs. 472 da OCDE (resumo de busca)",
+       "ref": "potenciais_brasil.json#capital-humano-gap: PISA 2022 matemática 379 vs. 472 da OCDE (resumo de busca) [Página do PISA 2022 da OCDE lida no navegador em 2026-10-07: confirma que o Brasil ficou abaixo da média da OCDE em matemática, mas as médias (379 e 472) estão só em figura e não puderam ser lidas.]",
        "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/brazil_61690648-en.html",
        "verificado": false
       },
       {
-       "ref": "fator_humano.json#edu-jovens-sem-em-2023: ~9 milhões de jovens de 14 a 29 anos sem ensino médio completo (IBGE, PNAD Contínua; não conferido na fonte)",
+       "ref": "fator_humano.json#edu-jovens-sem-em-2023: ~9 milhões de jovens de 14 a 29 anos sem ensino médio completo (IBGE, PNAD Contínua; não conferido na fonte) [Página da PNAD Contínua (educação) do IBGE não lida: 403 a robô em 2026-10-07 e não aberta no navegador; o número de ~9 milhões de jovens segue sem leitura na fonte.]",
        "url": "https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html",
        "verificado": false
       }
@@ -1716,9 +1716,9 @@
      "forca": "media",
      "evidencia": [
       {
-       "ref": "Hanushek e Woessmann (2012), Do better schools lead to more growth? (DOI conferido; título lido)",
+       "ref": "Hanushek e Woessmann (2012), Do better schools lead to more growth? (DOI conferido; resumo lido na página do autor em hanushek.stanford.edu: habilidades cognitivas medidas por testes internacionais mantêm forte relação com o crescimento do PIB entre países, e as estratégias de causalidade não alteram o resultado)",
        "url": "https://doi.org/10.1007/s10887-012-9081-x",
-       "verificado": false
+       "verificado": true
       },
       {
        "ref": "potenciais_brasil.json (FMI Article IV 2025): informalidade >40% dos ocupados; gap de participação feminina de 20 p.p.; fecundidade 1,57; déficit do RGPS a ~6% do PIB em 2060 (projeção das autoridades)",
@@ -1727,7 +1727,7 @@
       }
      ],
      "contestada": true,
-     "nota": "Hanushek e Woessmann ligam habilidades cognitivas e resultados econômicos (título lido; a causalidade é discutida). A informalidade >40% (FMI) dilui o retorno à qualificação (hipótese)."
+     "nota": "Hanushek e Woessmann ligam habilidades cognitivas e crescimento (resumo lido; a causalidade é discutida pelos próprios autores). A informalidade >40% (FMI) dilui o retorno à qualificação (hipótese)."
     },
     {
      "de": "renda_b",
@@ -1737,7 +1737,7 @@
      "forca": "forte",
      "evidencia": [
       {
-       "ref": "Bourguignon, Ferreira, Menéndez (2007), Inequality of Opportunity in Brazil, Review of Income and Wealth (DOI conferido; resumo não lido)",
+       "ref": "Bourguignon, Ferreira, Menéndez (2007), Inequality of Opportunity in Brazil (DOI conferido; resumo lido, mas trata da contribuição das circunstâncias à desigualdade de rendimentos, não da relação aritmética renda do trabalho de baixa renda → desigualdade: evidência só indireta para esta aresta)",
        "url": "https://doi.org/10.1111/j.1475-4991.2007.00247.x",
        "verificado": false
       }
@@ -1753,9 +1753,9 @@
      "forca": "media",
      "evidencia": [
       {
-       "ref": "Hanushek e Woessmann (2012), Do better schools lead to more growth? (DOI conferido; título lido)",
+       "ref": "Hanushek e Woessmann (2012), Do better schools lead to more growth? (DOI conferido; resumo lido: elo entre habilidades cognitivas e crescimento do PIB em painel de países; é evidência macro, não mede produtividade do trabalho brasileira)",
        "url": "https://doi.org/10.1007/s10887-012-9081-x",
-       "verificado": false
+       "verificado": true
       },
       {
        "ref": "potenciais_brasil.json#agricultura-tropical-ptf: PTF agropecuária +3,18% a.a. em 2000-2019 (Ipea); queda recente associada a choques climáticos",
@@ -1903,9 +1903,9 @@
        "verificado": true
       },
       {
-       "ref": "leis_tecnologicas.json#tarefas: Acemoglu (2024) estima ganho de PTF de até 0,66% em 10 anos nos EUA (resumo; limite conservador de referência, não previsão para o Brasil)",
+       "ref": "leis_tecnologicas.json#tarefas: Acemoglu (2024) estima ganho de PTF de até 0,66% em 10 anos nos EUA (resumo lido na página do NBER, w32487: no máximo 0,66% em 10 anos, e abaixo de 0,53% se as tarefas futuras forem mais difíceis de aprender; limite conservador de referência, não previsão para o Brasil)",
        "url": "web/public/data/leis_tecnologicas.json",
-       "verificado": false
+       "verificado": true
       },
       {
        "ref": "leis_tecnologicas.json#ia_generativa_agentes: Epoch AI, compute de treino 5x/ano desde 2020; preço de inferência cai 9x a 900x/ano a desempenho fixo",
@@ -1945,7 +1945,7 @@
      "forca": "fraca",
      "evidencia": [
       {
-       "ref": "leis_tecnologicas.json#solar_eolica: custo nivelado solar US$0,417 -> 0,043/kWh em 2010-2024 (IRENA, resumo); gargalos de rede e curtailment",
+       "ref": "leis_tecnologicas.json#solar_eolica: custo nivelado solar US$0,417 -> 0,043/kWh em 2010-2024 (IRENA, resumo); gargalos de rede e curtailment [irena.org bloqueia robôs (403 e verificação anti-bot); valor não lido na fonte.]",
        "url": "https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024",
        "verificado": false
       },
@@ -1971,7 +1971,7 @@
        "verificado": true
       },
       {
-       "ref": "leis_tecnologicas.json#solar_eolica: custo nivelado solar US$0,417 -> 0,043/kWh em 2010-2024 (IRENA, resumo); gargalos de rede e curtailment",
+       "ref": "leis_tecnologicas.json#solar_eolica: custo nivelado solar US$0,417 -> 0,043/kWh em 2010-2024 (IRENA, resumo); gargalos de rede e curtailment [irena.org bloqueia robôs (403 e verificação anti-bot); valor não lido na fonte.]",
        "url": "https://www.irena.org/Publications/2025/Jun/Renewable-Power-Generation-Costs-in-2024",
        "verificado": false
       }
@@ -2185,7 +2185,7 @@
      "forca": "media",
      "evidencia": [
       {
-       "ref": "leis_tecnologicas.json#potencia_pareto: 10% mais ricos do Brasil com ~59% da renda (WIR 2026, resumo de busca)",
+       "ref": "leis_tecnologicas.json#potencia_pareto: 10% mais ricos do Brasil com ~59% da renda (WIR 2026, resumo de busca) [Matéria do Cenarium (02/01/2026) lida e reporta 59% e 'pouco mais de 9%' do World Inequality Report 2026; o relatório e a base WID não foram abertos, por isso segue false.]",
        "url": "web/public/data/leis_tecnologicas.json",
        "verificado": false
       }
@@ -2302,17 +2302,17 @@
      "forca": "media",
      "evidencia": [
       {
-       "ref": "Hanushek e Woessmann (2012), Do better schools lead to more growth? (DOI conferido; título lido)",
+       "ref": "Hanushek e Woessmann (2012), Do better schools lead to more growth? (DOI conferido; resumo lido: habilidades cognitivas e resultados econômicos; não mede crime nem renda ilícita: sustenta o elo educação → resultado econômico, não esta aresta específica)",
        "url": "https://doi.org/10.1007/s10887-012-9081-x",
        "verificado": false
       },
       {
-       "ref": "fator_humano.json#edu-jovens-sem-em-2023: ~9 milhões de jovens de 14 a 29 anos sem ensino médio completo (IBGE, PNAD Contínua; não conferido na fonte)",
+       "ref": "fator_humano.json#edu-jovens-sem-em-2023: ~9 milhões de jovens de 14 a 29 anos sem ensino médio completo (IBGE, PNAD Contínua; não conferido na fonte) [Página da PNAD Contínua (educação) do IBGE não lida: 403 a robô em 2026-10-07 e não aberta no navegador; o número de ~9 milhões de jovens segue sem leitura na fonte.]",
        "url": "https://www.ibge.gov.br/estatisticas/sociais/educacao/17270-pnad-continua.html",
        "verificado": false
       },
       {
-       "ref": "potenciais_brasil.json#capital-humano-gap: PISA 2022 matemática 379 vs. 472 da OCDE (resumo de busca)",
+       "ref": "potenciais_brasil.json#capital-humano-gap: PISA 2022 matemática 379 vs. 472 da OCDE (resumo de busca) [Página do PISA 2022 da OCDE lida no navegador em 2026-10-07: confirma que o Brasil ficou abaixo da média da OCDE em matemática, mas as médias (379 e 472) estão só em figura e não puderam ser lidas.]",
        "url": "https://www.oecd.org/en/publications/pisa-2022-results-volume-i-and-ii-country-notes_ed6fbcc5-en/brazil_61690648-en.html",
        "verificado": false
       }
@@ -2333,7 +2333,7 @@
        "verificado": true
       },
       {
-       "ref": "fator_humano.json#vu-queda-2017: taxa de homicídio de jovens -30,2% entre 2017 e 2023 (mostra que o nível não é destino)",
+       "ref": "fator_humano.json#vu-queda-2017: taxa de homicídio de jovens -30,2% entre 2017 e 2023 [DIVERGÊNCIA: a matéria do Poder360 (12/05/2025, Atlas da Violência 2025) lida atribui a queda de 30,2% entre 2017 e 2023 aos homicídios no país em geral (legenda da imagem); para jovens traz -6,2% de 2022 para 2023 e 72,4 mortes por 100 mil jovens em 2023. Não confirma -30,2% para a taxa de jovens.]",
        "url": "https://www.poder360.com.br/poder-brasil/brasil-teve-60-jovens-assassinados-por-dia-em-2023-diz-relatorio/",
        "verificado": false
       }
@@ -2486,9 +2486,9 @@
      "forca": "media",
      "evidencia": [
       {
-       "ref": "BenYishay et al. (2017), Indigenous land rights and deforestation: Evidence from the Brazilian Amazon, JEEM (DOI conferido; resumo não lido)",
+       "ref": "BenYishay et al. (2017), Indigenous land rights and deforestation: Evidence from the Brazilian Amazon, JEEM (DOI conferido; resumo lido em aiddata.org: a formalização de terras indígenas desde 1995 (mais de 40 milhões de ha), mesmo com apoio de fiscalização, não mostra efeito sobre o desmatamento medido por satélite, com desmatamento contrafactual baixo em 1982-2010; resultado contestado por Baragwanath e Bayi (PNAS, 2020), que encontram redução)",
        "url": "https://doi.org/10.1016/j.jeem.2017.07.008",
-       "verificado": false
+       "verificado": true
       },
       {
        "ref": "Nolte et al. (2013), Governance regime and location influence avoided deforestation success of protected areas in the Brazilian Amazon, PNAS (resumo lido apenas no início: o debate sobre qual regime de proteção é mais eficaz está aberto)",
@@ -2501,13 +2501,13 @@
        "verificado": true
       },
       {
-       "ref": "custo_corrupcao.json#crime-ambiental-ouro-madeira-terra: Ibama arrecada ~5% das multas aplicadas (~R$ 3,8 bi/ano aplicados em 2015-2017)",
+       "ref": "custo_corrupcao.json#crime-ambiental-ouro-madeira-terra: Ibama arrecada ~5% das multas aplicadas (~R$ 3,8 bi/ano aplicados em 2015-2017) (matéria do Aos Fatos de 31/01/2019 lida: média histórica de arrecadação de 5% do valor, segundo o Ibama; R$ 3,8 bilhões aplicados por ano em 2015-2017; dado de 2019, não atualizado)",
        "url": "https://www.aosfatos.org/noticias/por-que-o-ibama-arrecada-so-5-das-multas-ambientais-que-aplica/",
-       "verificado": false
+       "verificado": true
       }
      ],
      "contestada": true,
-     "nota": "BenYishay et al. (DOI conferido; resumo não lido) tratam do reconhecimento de terras indígenas e do desmatamento. Nolte et al.: o debate sobre qual regime de proteção é mais eficaz está aberto. A capacidade de punir é limitada: autuados vs. julgados do Ibama em queda e arrecadação de ~5% das multas (não verificado)."
+     "nota": "BenYishay et al. (resumo lido: sem efeito detectado sobre o desmatamento; contestado por Baragwanath e Bayi, PNAS 2020) tratam do reconhecimento de terras indígenas e do desmatamento. Nolte et al.: o debate sobre qual regime de proteção é mais eficaz está aberto. A capacidade de punir é limitada: autuados vs. julgados do Ibama em queda e arrecadação de ~5% das multas (não verificado)."
     },
     {
      "de": "protecao",
@@ -2654,14 +2654,14 @@
        "verificado": true
       },
       {
-       "ref": "Ferraz e Finan (2011), Electoral Accountability and Corruption: Evidence from the Audits of Local Governments (DOI conferido; resumo não lido)",
+       "ref": "Ferraz e Finan (2011), Electoral Accountability and Corruption: Evidence from the Audits of Local Governments, AER (DOI conferido; resumo lido: prefeitos com direito a reeleição desviam 27% menos recursos, efeito maior onde há menos informação e menor punição judicial)",
        "url": "https://doi.org/10.1257/aer.101.4.1274",
-       "verificado": false
+       "verificado": true
       },
       {
-       "ref": "Besley e Burgess (2002), The Political Economy of Government Responsiveness: Theory and Evidence from India (DOI conferido; resumo não lido; caso da Índia)",
+       "ref": "Besley e Burgess (2002), The Political Economy of Government Responsiveness: Theory and Evidence from India, QJE (DOI conferido; resumo lido na página do LSE, eprints.lse.ac.uk/2308: gasto com distribuição de alimentos e socorro a calamidades é maior onde o governo enfrenta mais accountability eleitoral e a circulação de jornais é maior. ATENÇÃO: o resumo que o Crossref devolve para este DOI é de outro artigo (disparidades de gênero na China); metadado do Crossref com erro)",
        "url": "https://doi.org/10.1162/003355302320935061",
-       "verificado": false
+       "verificado": true
       },
       {
        "ref": "historia.json#direcoes/judicializacao: judicialização e protagonismo do STF",
@@ -2975,13 +2975,13 @@
    "anel": "expectativas-ancoragem",
    "de": "bc",
    "para": "pi_lr",
-   "nota": "Alavanca exógena bc_erosion (0-1) multiplicada por pi_bc = 3,0 pp. A literatura sobre independência do BC (Alesina e Summers; DOI conferido, conteúdo não lido) é cross-country e debate causalidade. Decisões do catálogo mudam a alavanca: reduzir-autonomia-bc +0,4, diretoria-bc-alinhada +0,15."
+   "nota": "Alavanca exógena bc_erosion (0-1) multiplicada por pi_bc = 3,0 pp. A literatura sobre independência do BC (Alesina e Summers; resumo lido) é cross-country e debate causalidade. Decisões do catálogo mudam a alavanca: reduzir-autonomia-bc +0,4, diretoria-bc-alinhada +0,15."
   },
   {
    "anel": "reacao-fiscal",
    "de": "divida",
    "para": "react",
-   "nota": "react = reaction*(0,3 + 0,7*credibilidade)*clip(d - 80, -10, 40), reaction = 0,14. Com d = 100 e credibilidade 0,5, react = 1,8 pp. Bohn (1998) é o referencial teórico (DOI conferido, conteúdo não lido); Ghosh et al. (2013) tratam de fadiga fiscal, em que a reação se esgota em dívida alta. O parâmetro 0,14 é de calibração, não estimativa brasileira com intervalo."
+   "nota": "react = reaction*(0,3 + 0,7*credibilidade)*clip(d - 80, -10, 40), reaction = 0,14. Com d = 100 e credibilidade 0,5, react = 1,8 pp. Bohn (1998) é o referencial teórico (resumo lido); Ghosh et al. (2013) tratam de fadiga fiscal, em que a reação se esgota em dívida alta. O parâmetro 0,14 é de calibração, não estimativa brasileira com intervalo."
   },
   {
    "anel": "disciplina-de-mercado",
@@ -3011,7 +3011,7 @@
    "anel": "legitimidade-impunidade",
    "de": "desc",
    "para": "custo",
-   "nota": "Hipótese: eleitores polarizados toleram violações de regras do lado de quem apoiam (Svolik 2019, DOI conferido, conteúdo de memória). Não há medida brasileira do 'custo político' no repositório."
+   "nota": "Hipótese: eleitores polarizados toleram violações de regras do lado de quem apoiam (Svolik 2019, resumo lido). Não há medida brasileira do 'custo político' no repositório."
   },
   {
    "anel": "legitimidade-impunidade",
@@ -3035,7 +3035,7 @@
    "anel": "clima-floresta-agro",
    "de": "renda",
    "para": "pressao",
-   "nota": "Se a renda por hectare cai, o produtor pode compensar abrindo mais terra (sinal -, anel reforçador) ou reduzir o investimento em expansão (sinal +, o anel viraria balanceador). Cohn et al. (2014) modelam que intensificar pode poupar terra; de Assis Costa et al. (2026, só o título foi lido) falam em paradoxo de Jevons. Assunção et al. mostram que o desmatamento respondeu aos preços agrícolas. A literatura diverge."
+   "nota": "Se a renda por hectare cai, o produtor pode compensar abrindo mais terra (sinal -, anel reforçador) ou reduzir o investimento em expansão (sinal +, o anel viraria balanceador). Cohn et al. (2014) modelam que intensificar pode poupar terra; de Assis Costa (2026, só o título foi lido) falam em paradoxo de Jevons. Assunção et al. mostram que o desmatamento respondeu aos preços agrícolas. A literatura diverge."
   },
   {
    "anel": "clima-floresta-agro",
@@ -3065,7 +3065,7 @@
    "anel": "desigualdade-educacao-produtividade",
    "de": "kh",
    "para": "renda_b",
-   "nota": "Hanushek e Woessmann ligam habilidades cognitivas e resultados econômicos (título lido; a causalidade é discutida). A informalidade >40% (FMI) dilui o retorno à qualificação (hipótese)."
+   "nota": "Hanushek e Woessmann ligam habilidades cognitivas e crescimento (resumo lido; a causalidade é discutida pelos próprios autores). A informalidade >40% (FMI) dilui o retorno à qualificação (hipótese)."
   },
   {
    "anel": "desigualdade-educacao-produtividade",
@@ -3107,7 +3107,7 @@
    "anel": "territorio-indigena-conservacao",
    "de": "resposta",
    "para": "protecao",
-   "nota": "BenYishay et al. (DOI conferido; resumo não lido) tratam do reconhecimento de terras indígenas e do desmatamento. Nolte et al.: o debate sobre qual regime de proteção é mais eficaz está aberto. A capacidade de punir é limitada: autuados vs. julgados do Ibama em queda e arrecadação de ~5% das multas (não verificado)."
+   "nota": "BenYishay et al. (resumo lido: sem efeito detectado sobre o desmatamento; contestado por Baragwanath e Bayi, PNAS 2020) tratam do reconhecimento de terras indígenas e do desmatamento. Nolte et al.: o debate sobre qual regime de proteção é mais eficaz está aberto. A capacidade de punir é limitada: autuados vs. julgados do Ibama em queda e arrecadação de ~5% das multas (não verificado)."
   },
   {
    "anel": "territorio-indigena-conservacao",
@@ -3148,43 +3148,43 @@
    "titulo": "Bohn (1998), The Behavior of U.S. Public Debt and Deficits, QJE",
    "url": "https://doi.org/10.1162/003355398555793",
    "doi": "10.1162/003355398555793",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido no Crossref; resumo lido (2026-10-07)"
   },
   {
    "titulo": "Taylor (1993), Discretion versus policy rules in practice",
    "url": "https://doi.org/10.1016/0167-2231(93)90009-L",
    "doi": "10.1016/0167-2231(93)90009-L",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido no Crossref; texto lido no PDF do autor (2026-10-07)"
   },
   {
    "titulo": "Ardagna, Caselli, Lane (2007), Fiscal Discipline and the Cost of Public Debt Service",
    "url": "https://doi.org/10.2202/1935-1690.1417",
    "doi": "10.2202/1935-1690.1417",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido no Crossref; resumo lido (2026-10-07)"
   },
   {
    "titulo": "Alesina e Summers (1993), Central Bank Independence and Macroeconomic Performance, JMCB",
    "url": "https://doi.org/10.2307/2077833",
    "doi": "10.2307/2077833",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido no Crossref; resumo lido (2026-10-07)"
   },
   {
    "titulo": "Ghosh et al. (2013), Fiscal Fatigue, Fiscal Space and Debt Sustainability in Advanced Economies, Economic Journal",
    "url": "https://doi.org/10.1111/ecoj.12010",
    "doi": "10.1111/ecoj.12010",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido no Crossref; resumo lido (2026-10-07)"
   },
   {
    "titulo": "Herndon, Ash, Pollin (2014), Does high public debt consistently stifle economic growth?, Cambridge Journal of Economics",
    "url": "https://doi.org/10.1093/cje/bet075",
    "doi": "10.1093/cje/bet075",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido no Crossref; resumo lido (2026-10-07)"
   },
   {
    "titulo": "Ferraz e Finan (2008), Exposing Corrupt Politicians, QJE",
@@ -3197,22 +3197,22 @@
    "titulo": "Ferraz e Finan (2011), Electoral Accountability and Corruption, AER",
    "url": "https://doi.org/10.1257/aer.101.4.1274",
    "doi": "10.1257/aer.101.4.1274",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido no Crossref; resumo lido (2026-10-07)"
   },
   {
    "titulo": "Besley e Burgess (2002), The Political Economy of Government Responsiveness, QJE",
    "url": "https://doi.org/10.1162/003355302320935061",
    "doi": "10.1162/003355302320935061",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido no Crossref; resumo lido no LSE (o Crossref devolve resumo de outro artigo) (2026-10-07)"
   },
   {
    "titulo": "Boas, Hidalgo, Richardson (2014), The Spoils of Victory, Journal of Politics",
    "url": "https://doi.org/10.1017/s002238161300145x",
    "doi": "10.1017/s002238161300145x",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido no Crossref; resumo lido (2026-10-07)"
   },
   {
    "titulo": "Healy e Malhotra (2009), Myopic Voters and Natural Disaster Policy, APSR",
@@ -3260,15 +3260,15 @@
    "titulo": "Spracklen, Arnold, Taylor (2012), Observations of increased tropical rainfall preceded by air passage over forests, Nature",
    "url": "https://doi.org/10.1038/nature11390",
    "doi": "10.1038/nature11390",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido; resumo lido em nature.com (2026-10-07)"
   },
   {
    "titulo": "Nobre et al. (2016), Land-use and climate change risks in the Amazon, PNAS",
    "url": "https://doi.org/10.1073/pnas.1605516113",
    "doi": "10.1073/pnas.1605516113",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido no Crossref; resumo lido (2026-10-07)"
   },
   {
    "titulo": "Nepstad et al. (2014), Slowing Amazon deforestation through public policy and interventions in beef and soy supply chains, Science",
@@ -3281,8 +3281,8 @@
    "titulo": "BenYishay et al. (2017), Indigenous land rights and deforestation, JEEM",
    "url": "https://doi.org/10.1016/j.jeem.2017.07.008",
    "doi": "10.1016/j.jeem.2017.07.008",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido; resumo lido em aiddata.org (2026-10-07)"
   },
   {
    "titulo": "Nolte et al. (2013), Governance regime and location influence avoided deforestation success of protected areas, PNAS",
@@ -3299,18 +3299,18 @@
    "tipo_verificacao": "resumo ou página aberta nesta rodada"
   },
   {
-   "titulo": "de Assis Costa et al. (2026), Agricultural intensification increases rather than reduces pressure on the Amazon Forest, Land Use Policy",
+   "titulo": "de Assis Costa (2026), Agricultural intensification increases rather than reduces pressure on the Amazon Forest, Land Use Policy",
    "url": "https://doi.org/10.1016/j.landusepol.2025.107842",
    "doi": "10.1016/j.landusepol.2025.107842",
    "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "tipo_verificacao": "DOI conferido no Crossref (autor único, vol. 160, jan/2026); resumo não obtido (editor responde 403); só o título foi lido"
   },
   {
    "titulo": "Barona et al. (2010), The role of pasture and soybean in deforestation of the Brazilian Amazon, Environmental Research Letters",
    "url": "https://doi.org/10.1088/1748-9326/5/2/024002",
    "doi": "10.1088/1748-9326/5/2/024002",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido no Crossref; resumo lido (2026-10-07)"
   },
   {
    "titulo": "Klusak et al. (2023), Rising Temperatures, Falling Ratings, Management Science",
@@ -3330,36 +3330,36 @@
    "titulo": "Galor e Zeira (1993), Income Distribution and Macroeconomics, Review of Economic Studies",
    "url": "https://doi.org/10.2307/2297811",
    "doi": "10.2307/2297811",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido no Crossref; resumo lido (2026-10-07)"
   },
   {
    "titulo": "Hanushek e Woessmann (2012), Do better schools lead to more growth?, Journal of Economic Growth",
    "url": "https://doi.org/10.1007/s10887-012-9081-x",
    "doi": "10.1007/s10887-012-9081-x",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido; resumo lido em hanushek.stanford.edu (2026-10-07)"
   },
   {
    "titulo": "Barro (2000), Inequality and Growth in a Panel of Countries, Journal of Economic Growth",
    "url": "https://doi.org/10.1023/A:1009850119329",
    "doi": "10.1023/A:1009850119329",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido; resumo lido em ideas.repec.org (2026-10-07)"
   },
   {
    "titulo": "Bourguignon, Ferreira, Menéndez (2007), Inequality of Opportunity in Brazil, Review of Income and Wealth",
    "url": "https://doi.org/10.1111/j.1475-4991.2007.00247.x",
    "doi": "10.1111/j.1475-4991.2007.00247.x",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido no Crossref; resumo lido (2026-10-07)"
   },
   {
    "titulo": "Svolik (2019), Polarization versus Democracy, Journal of Democracy",
    "url": "https://doi.org/10.1353/jod.2019.0039",
    "doi": "10.1353/jod.2019.0039",
-   "verificado": false,
-   "tipo_verificacao": "DOI conferido no Crossref (título, autor, ano); conteúdo do resultado não lido ou de memória"
+   "verificado": true,
+   "tipo_verificacao": "DOI conferido no Crossref; resumo lido (2026-10-07)"
   }
  ]
 }

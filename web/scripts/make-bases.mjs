@@ -31,6 +31,9 @@ const STATUS_LABEL = {
   'em-preparacao': 'em preparação',
 }
 
+// estado de conferência dos links estáticos (URL -> {verificado, nota}); só preenche o que o dado não informa
+const LINKS_VERIF = existsSync(join(ROOT, 'scripts', 'links-verificados.json')) ? JSON.parse(readFileSync(join(ROOT, 'scripts', 'links-verificados.json'), 'utf8')) : {}
+const withVerif = (l) => (l.verificado == null && !l.nota && LINKS_VERIF[l.url] ? { ...l, ...LINKS_VERIF[l.url] } : l)
 const bases = []
 const add = (b) =>
   bases.push({
@@ -46,6 +49,7 @@ const add = (b) =>
     paginas: [],
     nota: null,
     ...b,
+    links: (b.links ?? []).map(withVerif),
     status_rotulo: STATUS_LABEL[b.status] ?? b.status,
     hashes: (b.hashes ?? []).map((h) => ({ ...h, curto: short(h.sha256) })),
   })
@@ -747,7 +751,7 @@ if (cc2) {
     cobertura: `${cc2.areas.length} áreas · ${r.valores ?? '—'} valores (${r.contagem ?? '—'} de contagem, ${r.estimativa ?? '—'} de estimativa) · ${r.beneficios ?? '—'} benefícios a empresas · ${r.modelos ?? '—'} modelos`,
     validacoes: [
       { ok: null, texto: `${r.valores_verificados ?? '—'} de ${r.valores ?? '—'} valores lidos na fonte; ${r.beneficios_verificados ?? '—'} de ${r.beneficios ?? '—'} benefícios a empresas` },
-      { ok: false, texto: `PIB-âncora ${cc2.meta?.ancora_pib?.ano ?? ''}: R$ ${nf(cc2.meta?.ancora_pib?.valor_rs_bi)} bi, valor arredondado NÃO verificado (o IBGE respondeu 403); todas as conversões de pp do PIB em R$ dependem dele` },
+      { ok: true, texto: `PIB-âncora ${cc2.meta?.ancora_pib?.ano ?? ''}: R$ ${nf(cc2.meta?.ancora_pib?.valor_rs_bi)} bi, lido na API SIDRA (soma dos 4 trimestres; o PIB anual oficial ainda não traz 2025); todas as conversões de pp do PIB em R$ dependem dele` },
       { ok: true, texto: 'Itens que só tinham link de imprensa foram rebaixados a “não lido na fonte”' },
     ],
     limites: [

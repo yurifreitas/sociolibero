@@ -14,13 +14,13 @@ Compilado em 2026-10-06 junto com `web/public/data/leis_tecnologicas.json` (27 l
 | Swanson | ~20% de queda por dobra do módulo FV | valor popular, não verificado |
 | Baterias | Wright aplicada ao pack | US$108/kWh em 2025; estacionário US$70; BEV US$99 (BNEF, verificado) |
 | Eletrolisadores | $LCOH=\frac{CAPEX\cdot CRF+OPEX}{h\eta}+\frac{p_{el}}{\eta}$ | sem número conferido |
-| Koomey | $E(t)=E_02^{(t-t_0)/T}$, T≈1,57 ano, depois ~2,5 | GPUs: +34%/ano (dobra em 2,4 anos) desde 2008 (Epoch, verificado) |
+| Koomey | $E(t)=E_02^{(t-t_0)/T}$, T≈1,5 ano (1,57 no corpo do artigo de 2011), depois ~2,7 (Koomey e Naffziger, 2015) | GPUs: +34%/ano (dobra em 2,4 anos) desde 2008 (Epoch, verificado) |
 | Kryder | densidade areal dobra ~13 meses (auge) | desacelerou; não verificado |
-| Metcalfe | $V\propto n^2$ vs. $n\ln n$ (Odlyzko–Tilly) | ajuste Tencent/Facebook (DOI conferido) |
+| Metcalfe | $V\propto n^2$ vs. $n\ln n$ (Odlyzko–Tilly) | V ∝ n² é a lei que melhor ajusta Tencent e Facebook entre quatro testadas (resumo lido) |
 | Haitz | fluxo ×20 e custo ÷10 por década | não verificado; saturou |
-| Carlson | $c(t)=c_0e^{-\lambda t}$ | ~US$95 mi (2001)→centenas de US$ por genoma (NHGRI, resumo) |
-| Logística (S) | $N(t)=K/(1+e^{-r(t-t_0)})$ | internet em 93,6% dos domicílios, 2024 (IBGE, resumo) |
-| Bass (1969) | $\frac{f}{1-F}=p+qF;\ t^*=\frac{\ln(q/p)}{p+q}$ | p≈0,03, q≈0,38 (meta-análise, lembrado). **Não ajustamos Bass a dados brasileiros** |
+| Carlson | $c(t)=c_0e^{-\lambda t}$ | ~US$95 mi (set/2001)→US$525 por genoma (mai/2022) (tabela do NHGRI, lida) |
+| Logística (S) | $N(t)=K/(1+e^{-r(t-t_0)})$ | internet em 93,6% dos domicílios, 2024 (IBGE, Agência de Notícias, página lida) |
+| Bass (1969) | $\frac{f}{1-F}=p+qF;\ t^*=\frac{\ln(q/p)}{p+q}$ | p≈0,03, q≈0,38 (meta-análise; reportado por trabalho posterior que a cita; tabela original não aberta). **Não ajustamos Bass a dados brasileiros** |
 | Kaplan (2020) | $L(N)=(N_c/N)^{\alpha_N}$ | lei de potência em >7 ordens de grandeza (arXiv, verificado) |
 | Chinchilla (2022) | $L=E+A/N^\alpha+B/D^\beta,\ C\approx6ND$ | 70B com 4× dados superou Gopher 280B (arXiv, verificado) |
 | Compute de IA | $C(t)=C_0g^t$ | 5×/ano (treino), 3,5×/ano (custo), desde 2020 (Epoch, verificado) |
@@ -29,8 +29,8 @@ Compilado em 2026-10-06 junto com `web/public/data/leis_tecnologicas.json` (27 l
 | Baumol | $\dot c_s/c_s=g_{a_p}-g_{a_s}$ | sem parâmetro |
 | Jevons | $\varepsilon<-1\Rightarrow$ consumo total sobe | data centers 415 TWh (2024) → ~945 TWh (2030), IEA (resumo) |
 | Solow | $\dot k=sk^\alpha-(n+\delta+g)k$ | sem parâmetro |
-| Romer | $\dot A=\delta H_AA^\phi$ | ideias mais difíceis de achar (Bloom et al.; DOI conferido) |
-| Tarefas (Acemoglu–Restrepo) | $\Delta\ln TFP\approx s\cdot\overline{\text{economia}}$ | ≤0,66% em 10 anos nos EUA (resumo) |
+| Romer | $\dot A=\delta H_AA^\phi$ | ideias mais difíceis de achar (Bloom et al.; resumo lido: >18× mais pesquisadores para a Lei de Moore que no início dos anos 1970) |
+| Tarefas (Acemoglu–Restrepo) | $\Delta\ln TFP\approx s\cdot\overline{\text{economia}}$ | ≤0,66% em 10 anos nos EUA (resumo lido no NBER) |
 | Exposição a IA | $E=\sum_ow_o\mathbb 1[e_o>\tau]$ | FMI ~40% global; OIT 25% com alguma exposição; Brasil 29,6% (verificados) |
 | Kurzweil | $\frac{d}{dt}\ln P=r(t),\ r'>0$ | hipótese contestada (Nordhaus 2021) |
 | Pareto/Zipf | $P(X>x)=(x_m/x)^\alpha$ | Brasil: 10% mais ricos ~59% da renda (WIR 2026, resumo) |
@@ -43,7 +43,7 @@ Compilado em 2026-10-06 junto com `web/public/data/leis_tecnologicas.json` (27 l
 - **OIT (mai/2025):** 1 em 4 trabalhadores com alguma exposição à IA generativa; 3,3% na categoria mais alta; 34% do emprego em países de renda alta vs. 11% em renda baixa.
 - **FGV IBRE (Duque, 27/04/2026):** 29,6% dos ocupados brasileiros (~30 milhões, 3º tri/2025) com alguma exposição, ~5,2 milhões com a mais alta; efeito detectado concentrado em jovens de 18 a 29 anos (menos emprego e renda), nos dados de 2022–2025.
 
-Brasil, citados de imprensa (não verificados na fonte primária): solar ~55 GW em jul/2026 (22,2% da capacidade); 223.912 eletrificados leves em 2025 (9% das vendas); Pix com recorde de 318,07 milhões de transações em 04/09/2026.
+Brasil, lidos em matérias de imprensa que citam a fonte (a fonte primária não foi aberta): solar ~55 GW em mar/2025 (22,2% da capacidade; Canal Solar/ABSOLAR; matéria de 21/03/2025, já superada por valores maiores em 2026); 223.912 eletrificados leves em 2025 (9% das vendas; Conexão Tocantins/ABVE); internet em 93,6% dos domicílios em 2024 (IBGE, página lida); Pix com recorde de 318,1 milhões de transações em 04/09/2026, R$ 186,9 bi no dia (GiroNews/BC). Corrigido em 2026-10-07: o custo do genoma era dado como US$500-1.000 em 2022 e é US$525 na tabela do NHGRI; a eficiência de computação recente dobra em ~2,7 anos (não ~2,5).
 
 ## 2. Quando cada lei falha
 
@@ -81,7 +81,7 @@ Cada tendência no JSON tem horizonte, evidência, incerteza, impacto econômico
 10. Robótica — depois de 2030.
 11. Concentração e cauda de poder de mercado — `primary_target`, `fiscal_credibility`.
 
-Acemoglu estima ganhos modestos de produtividade total com IA (≤0,66% em 10 anos nos EUA; resumo). Isso é um limite conservador de referência para `supply_reform`, não uma previsão para o Brasil.
+Acemoglu estima ganhos modestos de produtividade total com IA (≤0,66% em 10 anos nos EUA; resumo lido no NBER). Isso é um limite conservador de referência para `supply_reform`, não uma previsão para o Brasil.
 
 ## 4. O que a matemática não prevê
 - **Rupturas.** Curvas exponenciais mudam de regime sem aviso (fim de Dennard, platôs de custo). Extrapolar mais que poucos anos é especulação.
@@ -93,4 +93,4 @@ Acemoglu estima ganhos modestos de produtividade total com IA (≤0,66% em 10 an
 - **Narrativas.** Amara, hype e Kurzweil servem como lembrete de viés, não como modelo.
 
 ## 5. O que ficou não verificado
-Não conferidos na fonte primária: a maioria dos números brasileiros (ABSOLAR, ABVE, BCB, IBGE, WIR/WID, OIT-Brasil), IEA data centers, IRENA, NHGRI, Gartner, Acemoglu 2024 (só resumo), expoentes de Kaplan, p e q de Bass, taxas de Swanson/Kryder/Haitz, eletrolisadores (sem número), computação quântica (sem fonte), Hoffmann "20 tokens por parâmetro". Antes de usar qualquer número como entrada de cenário, abrir a fonte.
+Rodada de 2026-10-07: foram abertos e lidos Moore (1975, PDF), Kaplan e Chinchilla (arXiv), Acemoglu (NBER), Bloom et al. (resumo), Zhang et al. (resumo), Koomey e Naffziger (2015), a tabela de custo de sequenciamento do NHGRI e a página do IBGE (PNAD TIC) e as matérias de imprensa citadas para ABSOLAR, ABVE e Pix. Seguem **não verificados** (motivo entre parênteses): IRENA, IEA (energia e IA, hidrogênio) e Gartner (403 ou verificação anti-bot) e OCDE (a página de PISA abre, mas as médias 379 e 472 estão só em figura); expoentes de Swanson, Kryder (13 meses, texto cortado) e Haitz (20×/10× por década, só no corpo do artigo); p e q de Bass (tabela de Sultan et al. não aberta); usuários do Pix em 2020-2021 e o trimestre abr-jun/2026 (22,93 bi de transações; a API do BCB falhou na paginação); OIT-Brasil (5,4%, 31,3 milhões); WIR/WID 2026 (só imprensa); eletrolisadores (sem número); computação quântica (sem fonte); Baumol (1967) e Kurzweil (2005) sem texto aberto. Antes de usar qualquer número como entrada de cenário, abrir a fonte.
