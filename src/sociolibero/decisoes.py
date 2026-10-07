@@ -39,6 +39,7 @@ class Decisao:
     defasagem_anos: int = 1
     reversibilidade: str = "média"  # alta | média | baixa
     iniciativa_congresso: bool = True  # Congresso pode iniciar sem o Executivo
+    origem: str = ""  # ex.: 'pilares:V04 · potencias:agua-doce' (ligação a outros arquivos de dados)
 
 
 def _d(*a, **k) -> Decisao:
@@ -340,6 +341,209 @@ CATALOGO: list[Decisao] = [
     ),
 ]
 
+# --- Decisões ligadas às potências (potenciais_brasil.json) e aos pilares (pilares_pensamento.json).
+# Efeitos pequenos e JULGADOS; deltas vazios = sem efeito macro estimável (o valor é qualitativo/local).
+CATALOGO += [
+    _d(
+        "homologar-terras-indigenas-e-titular-quilombos",
+        "Homologar terras indígenas e titular territórios quilombolas com meta anual",
+        "social",
+        "EXECUTIVO",
+        -0.6,
+        0.5,
+        {"institutional_risk": -0.02, "primary_target": -0.05},
+        "Segurança fundiária e contenção do desmatamento (reputação ambiental); custo orçamentário pequeno e conflito com ocupações.",
+        ["povos indígenas e quilombolas", "clima e biodiversidade"],
+        ["ocupações irregulares", "garimpo e grilagem"],
+        3,
+        "média",
+        False,
+        origem="pilares:V01,V02 · potencias:terras-indigenas-contencao",
+    ),
+    _d(
+        "consulta-previa-regulamentada",
+        "Regulamentar a consulta prévia (OIT 169) com procedimento claro e consentimento qualificado",
+        "institucional",
+        "LO",
+        -0.5,
+        0.55,
+        {"institutional_risk": -0.02},
+        "Reduz litígio e incerteza de licenciamento se bem desenhada; risco de atraso de projetos se vaga.",
+        ["povos e comunidades tradicionais", "investidores (previsibilidade)"],
+        ["projetos sem diálogo prévio"],
+        2,
+        "média",
+        origem="pilares:V04",
+    ),
+    _d(
+        "psa-governanca-comunitaria",
+        "Pagamento por serviços ambientais com governança comunitária",
+        "setorial",
+        "LO",
+        0.0,
+        0.25,
+        {"primary_target": -0.1, "supply_reform": 0.08},
+        "Remunera quem conserva; efeito produtivo via bioeconomia e reputação, com custo fiscal recorrente.",
+        ["comunidades e produtores que conservam"],
+        ["quem lucra com desmatamento"],
+        3,
+        "alta",
+        origem="pilares:V06 · potencias:floresta-carbono-restauracao",
+    ),
+    _d(
+        "recuperar-pastagens-degradadas",
+        "Programa de recuperação de pastagens degradadas (expansão sem novo desmatamento)",
+        "setorial",
+        "LO",
+        0.2,
+        0.2,
+        {"supply_reform": 0.15, "primary_target": -0.15},
+        "Mais produção por hectare reduz pressão sobre floresta; exige crédito e assistência técnica.",
+        ["produtores rurais", "clima"],
+        ["contribuintes (custo do crédito)"],
+        4,
+        "média",
+        origem="potencias:pastagens-recuperaveis,agricultura-tropical-ptf",
+    ),
+    _d(
+        "seguranca-hidrica-saneamento",
+        "Segurança hídrica e saneamento (irrigação eficiente, reuso e gestão de bacias)",
+        "setorial",
+        "LO",
+        0.0,
+        0.2,
+        {"supply_reform": 0.08, "primary_target": -0.2},
+        "Reduz exposição a secas e custos de saúde; investimento de retorno lento.",
+        ["população urbana e rural", "agro irrigado"],
+        ["contribuintes no curto prazo"],
+        5,
+        "baixa",
+        origem="potencias:agua-doce · clima:seca",
+    ),
+    _d(
+        "estrategia-minerais-criticos",
+        "Estratégia de minerais críticos com agregação de valor e governança contra captura",
+        "setorial",
+        "LO",
+        0.3,
+        0.4,
+        {"supply_reform": 0.15, "institutional_risk": 0.03, "primary_target": 0.05},
+        "Capturar mais da cadeia (refino, baterias) em vez de exportar minério; risco de captura por poucos e impacto socioambiental.",
+        ["indústria de transição", "regiões mineradoras"],
+        ["comunidades afetadas se mal regulada"],
+        6,
+        "baixa",
+        origem="potencias:niobio-concentracao-global,minerais-transicao-reservas",
+    ),
+    _d(
+        "educacao-tecnica-e-alfabetizacao",
+        "Expandir ensino médio técnico e alfabetização na idade certa",
+        "social",
+        "LO",
+        -0.2,
+        0.2,
+        {"supply_reform": 0.12, "primary_target": -0.3},
+        "Capital humano é o maior gap de produtividade; retorno chega em uma década ou mais.",
+        ["jovens de baixa renda", "setor produtivo"],
+        ["contribuintes no curto prazo"],
+        8,
+        "baixa",
+        origem="potencias:capital-humano-gap,janela-demografica",
+    ),
+    _d(
+        "politica-industrial-verde",
+        "Política industrial verde (hidrogênio, baterias, bioindústria)",
+        "setorial",
+        "LO",
+        -0.3,
+        0.35,
+        {"supply_reform": 0.15, "primary_target": -0.3, "institutional_risk": 0.02},
+        "Aposta em vantagem energética; risco de escolher vencedores e de subsídio permanente.",
+        ["regiões com potencial renovável", "novas cadeias"],
+        ["contribuintes", "setores não escolhidos"],
+        6,
+        "média",
+        origem="potencias:eolica-offshore-hidrogenio-verde,matriz-eletrica-renovavel",
+    ),
+    _d(
+        "combate-garimpo-ilegal-e-rastreio-do-ouro",
+        "Rastreabilidade do ouro e combate ao garimpo ilegal em terras indígenas",
+        "institucional",
+        "EXECUTIVO",
+        -0.3,
+        0.3,
+        {"institutional_risk": -0.03, "primary_target": -0.05},
+        "Menos crime ambiental e lavagem; custo de fiscalização; depende de rastreio efetivo.",
+        ["povos indígenas", "mercado formal de ouro"],
+        ["garimpo ilegal e compradores"],
+        2,
+        "média",
+        False,
+        origem="pilares:V07 · potencias:terras-indigenas-contencao",
+    ),
+    _d(
+        "direitos-da-natureza-municipais",
+        "Direitos da natureza em leis orgânicas municipais",
+        "institucional",
+        "LO",
+        -0.3,
+        0.3,
+        {},
+        "Sem efeito macro estimável: o valor é local e jurídico; não há evidência medida de efeito nos casos brasileiros conhecidos.",
+        ["ecossistemas locais", "comunidades"],
+        [],
+        2,
+        "alta",
+        origem="pilares:V05",
+    ),
+    _d(
+        "orcamento-participativo-e-moedas-sociais",
+        "Orçamento participativo e economia solidária (moedas sociais, compras públicas)",
+        "social",
+        "LO",
+        -0.4,
+        0.2,
+        {},
+        "Sem efeito macro estimável; evidência de efeito local em indicadores sociais, com forte dependência de desenho e continuidade.",
+        ["comunidades organizadas"],
+        [],
+        2,
+        "alta",
+        origem="pilares:V08,V09",
+    ),
+    _d(
+        "indicadores-complementares-ao-pib",
+        "Painel oficial de indicadores complementares ao PIB (bem viver, contas ambientais)",
+        "institucional",
+        "EXECUTIVO",
+        -0.2,
+        0.1,
+        {},
+        "Sem efeito macro direto; muda o que é medido e discutido. Risco de virar vitrine sem uso orçamentário.",
+        ["debate público"],
+        [],
+        2,
+        "alta",
+        False,
+        origem="pilares:V11",
+    ),
+    _d(
+        "comissario-das-geracoes-futuras",
+        "Comissário/Defensoria das gerações futuras (avaliação intergeracional de leis e orçamento)",
+        "institucional",
+        "LC",
+        -0.1,
+        0.35,
+        {"fiscal_credibility": 0.03},
+        "Pode melhorar a disciplina de longo prazo se tiver poder real; risco de órgão sem efeito.",
+        ["gerações futuras"],
+        [],
+        3,
+        "média",
+        origem="pilares:V12",
+    ),
+]
+
 
 def _apply(base: Levers, deltas: dict[str, float]) -> Levers:
     d = dict(base.__dict__)
@@ -373,9 +577,24 @@ def p_approval(d: Decisao, president: str, rng: np.random.Generator) -> float:
     return init * pc * ps
 
 
+def _limite_modelo(d: Decisao) -> str | None:
+    """O modelo aplica custo e benefício desde o 1º ano; ignora `defasagem_anos`."""
+    if d.defasagem_anos >= 3 and d.deltas.get("supply_reform", 0) > 0:
+        return (
+            f"Benefício só começa após ~{d.defasagem_anos} anos, mas o modelo aplica o efeito desde o 1º ano "
+            "(custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício."
+        )
+    if not d.deltas:
+        return "Sem efeito macro estimável: o valor é qualitativo ou local."
+    return None
+
+
 def run(seed: int = 11) -> dict:
+    from . import corrupcao  # import tardio: corrupcao também importa decisoes
+
     rng = np.random.default_rng(seed)
     ref = _run(BASELINE)
+    benef = corrupcao.beneficiarios_por_decisao()
     out = []
     for d in CATALOGO:
         res = _run(_apply(BASELINE, d.deltas))
@@ -387,6 +606,11 @@ def run(seed: int = 11) -> dict:
                     p: round(p_approval(d, p, rng), 3) for p in ("direita", "esquerda")
                 },
                 "impacto_2035": {k: round(res[k] - ref[k], 2) for k in ref},
+                "limite_modelo": _limite_modelo(d),
+                # R$ bi/ano do delta de primário (PIB nominal da âncora) e itens de benefício a
+                # empresas ligados a esta decisão (custo_corrupcao.json); None/[] se não houver.
+                "valor_financeiro": corrupcao.valor_financeiro_decisao(d.deltas),
+                "beneficiarios_empresas": benef.get(d.id, []),
             }
         )
     return {

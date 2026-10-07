@@ -78,6 +78,7 @@
    "defasagem_anos": 1,
    "reversibilidade": "alta",
    "iniciativa_congresso": true,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.08,
@@ -88,7 +89,21 @@
     "selic": 3.98,
     "ipca": 0.79,
     "gdp": -1.02
-   }
+   },
+   "limite_modelo": null,
+   "valor_financeiro": {
+    "rs_bi_ano": -127.0,
+    "primary_target_pp": -1.0,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": []
   },
   {
    "id": "reforcar-arcabouco",
@@ -114,6 +129,7 @@
    "defasagem_anos": 2,
    "reversibilidade": "média",
    "iniciativa_congresso": true,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.421,
@@ -124,7 +140,21 @@
     "selic": -1.83,
     "ipca": -0.31,
     "gdp": 0.51
-   }
+   },
+   "limite_modelo": null,
+   "valor_financeiro": {
+    "rs_bi_ano": 152.4,
+    "primary_target_pp": 1.2,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": []
   },
   {
    "id": "reforma-administrativa",
@@ -147,6 +177,7 @@
    "defasagem_anos": 5,
    "reversibilidade": "baixa",
    "iniciativa_congresso": true,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.133,
@@ -157,7 +188,21 @@
     "selic": -0.21,
     "ipca": -0.03,
     "gdp": 0.15
-   }
+   },
+   "limite_modelo": "Benefício só começa após ~5 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+   "valor_financeiro": {
+    "rs_bi_ano": 50.8,
+    "primary_target_pp": 0.4,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": []
   },
   {
    "id": "desvincular-minimo",
@@ -181,6 +226,7 @@
    "defasagem_anos": 2,
    "reversibilidade": "média",
    "iniciativa_congresso": true,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.003,
@@ -191,7 +237,21 @@
     "selic": -1.18,
     "ipca": -0.2,
     "gdp": 0.3
-   }
+   },
+   "limite_modelo": null,
+   "valor_financeiro": {
+    "rs_bi_ano": 101.6,
+    "primary_target_pp": 0.8,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": []
   },
   {
    "id": "reforma-previdencia-2",
@@ -215,6 +275,7 @@
    "defasagem_anos": 4,
    "reversibilidade": "baixa",
    "iniciativa_congresso": true,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.036,
@@ -225,7 +286,21 @@
     "selic": -1.13,
     "ipca": -0.19,
     "gdp": 0.28
-   }
+   },
+   "limite_modelo": null,
+   "valor_financeiro": {
+    "rs_bi_ano": 88.9,
+    "primary_target_pp": 0.7,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": []
   },
   {
    "id": "cortar-beneficios-fiscais",
@@ -248,6 +323,7 @@
    "defasagem_anos": 1,
    "reversibilidade": "alta",
    "iniciativa_congresso": true,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.6,
@@ -258,7 +334,82 @@
     "selic": -0.75,
     "ipca": -0.12,
     "gdp": 0.19
-   }
+   },
+   "limite_modelo": null,
+   "valor_financeiro": {
+    "rs_bi_ano": 76.2,
+    "primary_target_pp": 0.6,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": [
+    {
+     "id": "simples-nacional",
+     "tema": "Simples Nacional (regime unificado)",
+     "valor_rs_bi_ano": {
+      "central": 134.29,
+      "faixa": [
+       120.1,
+       134.29
+      ]
+     },
+     "verificado": true
+    },
+    {
+     "id": "zona-franca-manaus",
+     "tema": "Zona Franca de Manaus e areas de livre comercio",
+     "valor_rs_bi_ano": {
+      "central": 35.99,
+      "faixa": [
+       24.2,
+       55.3
+      ]
+     },
+     "verificado": true
+    },
+    {
+     "id": "agro-tributario",
+     "tema": "Beneficios tributarios do agro (PIS/Cofins, Funrural, exportacao da producao rural, defensivos, seguro rural; ITR ~0)",
+     "valor_rs_bi_ano": {
+      "central": 79.25,
+      "faixa": [
+       79.25,
+       101.3
+      ]
+     },
+     "verificado": true
+    },
+    {
+     "id": "jcp",
+     "tema": "Juros sobre capital proprio (JCP): dedutibilidade e IRRF",
+     "valor_rs_bi_ano": {
+      "central": 6.3,
+      "faixa": [
+       3.1,
+       6.3
+      ]
+     },
+     "verificado": true
+    },
+    {
+     "id": "entidades-imunes",
+     "tema": "Entidades sem fins lucrativos (imunes/isentas)",
+     "valor_rs_bi_ano": {
+      "central": 55.92,
+      "faixa": [
+       55.92,
+       55.92
+      ]
+     },
+     "verificado": true
+    }
+   ]
   },
   {
    "id": "desoneracao-ampla",
@@ -281,6 +432,7 @@
    "defasagem_anos": 1,
    "reversibilidade": "alta",
    "iniciativa_congresso": true,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.79,
@@ -291,7 +443,34 @@
     "selic": 0.37,
     "ipca": 0.04,
     "gdp": -0.05
-   }
+   },
+   "limite_modelo": null,
+   "valor_financeiro": {
+    "rs_bi_ano": -63.5,
+    "primary_target_pp": -0.5,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": [
+    {
+     "id": "desoneracao-folha",
+     "tema": "Desoneracao da folha de pagamento (17 setores + municipios; reoneracao gradual 2025-2027)",
+     "valor_rs_bi_ano": {
+      "central": 13.15,
+      "faixa": [
+       13.15,
+       19.5
+      ]
+     },
+     "verificado": true
+    }
+   ]
   },
   {
    "id": "ampliar-assistencia",
@@ -315,6 +494,7 @@
    "defasagem_anos": 1,
    "reversibilidade": "alta",
    "iniciativa_congresso": true,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.046,
@@ -325,7 +505,21 @@
     "selic": 0.75,
     "ipca": 0.13,
     "gdp": -0.18
-   }
+   },
+   "limite_modelo": null,
+   "valor_financeiro": {
+    "rs_bi_ano": -50.8,
+    "primary_target_pp": -0.4,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": []
   },
   {
    "id": "perdao-dividas",
@@ -349,6 +543,7 @@
    "defasagem_anos": 1,
    "reversibilidade": "baixa",
    "iniciativa_congresso": true,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.092,
@@ -359,7 +554,52 @@
     "selic": 1.17,
     "ipca": 0.23,
     "gdp": -0.28
-   }
+   },
+   "limite_modelo": null,
+   "valor_financeiro": {
+    "rs_bi_ano": -38.1,
+    "primary_target_pp": -0.3,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": [
+    {
+     "id": "transacao-refis",
+     "tema": "Transacao tributaria PGFN/RFB, Litigio Zero e parcelamentos especiais",
+     "valor_rs_bi_ano": {
+      "central": null,
+      "faixa": null
+     },
+     "verificado": false
+    },
+    {
+     "id": "divida-ativa-pgfn",
+     "tema": "Divida ativa da Uniao: estoque e recuperabilidade",
+     "valor_rs_bi_ano": {
+      "central": null,
+      "faixa": null
+     },
+     "verificado": false
+    },
+    {
+     "id": "dividas-rurais",
+     "tema": "Renegociacao de dividas rurais (MP 1.376/2026) e PL 5.122/2023",
+     "valor_rs_bi_ano": {
+      "central": 3.6,
+      "faixa": [
+       2.0,
+       22.4
+      ]
+     },
+     "verificado": false
+    }
+   ]
   },
   {
    "id": "credito-subsidiado",
@@ -382,6 +622,7 @@
    "defasagem_anos": 1,
    "reversibilidade": "média",
    "iniciativa_congresso": false,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.0,
@@ -392,7 +633,46 @@
     "selic": 0.16,
     "ipca": 0.01,
     "gdp": 0.01
-   }
+   },
+   "limite_modelo": null,
+   "valor_financeiro": {
+    "rs_bi_ano": -25.4,
+    "primary_target_pp": -0.2,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": [
+    {
+     "id": "plano-safra-equalizacao",
+     "tema": "Plano Safra - equalizacao de juros (Tesouro)",
+     "valor_rs_bi_ano": {
+      "central": 6.1,
+      "faixa": [
+       1.7,
+       6.1
+      ]
+     },
+     "verificado": false
+    },
+    {
+     "id": "bndes-equalizacao",
+     "tema": "Credito subsidiado - Tesouro/BNDES e FINEP (PSI e emprestimos da Uniao)",
+     "valor_rs_bi_ano": {
+      "central": 1.57,
+      "faixa": [
+       1.57,
+       4.15
+      ]
+     },
+     "verificado": true
+    }
+   ]
   },
   {
    "id": "reduzir-autonomia-bc",
@@ -417,6 +697,7 @@
    "defasagem_anos": 1,
    "reversibilidade": "média",
    "iniciativa_congresso": true,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.076,
@@ -427,7 +708,10 @@
     "selic": 4.25,
     "ipca": 1.71,
     "gdp": -1.0
-   }
+   },
+   "limite_modelo": null,
+   "valor_financeiro": null,
+   "beneficiarios_empresas": []
   },
   {
    "id": "diretoria-bc-alinhada",
@@ -450,6 +734,7 @@
    "defasagem_anos": 3,
    "reversibilidade": "média",
    "iniciativa_congresso": false,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.492,
@@ -460,7 +745,10 @@
     "selic": 0.72,
     "ipca": 0.46,
     "gdp": -0.14
-   }
+   },
+   "limite_modelo": null,
+   "valor_financeiro": null,
+   "beneficiarios_empresas": []
   },
   {
    "id": "politica-precos-combustiveis",
@@ -484,6 +772,7 @@
    "defasagem_anos": 1,
    "reversibilidade": "alta",
    "iniciativa_congresso": false,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.0,
@@ -494,7 +783,10 @@
     "selic": 1.23,
     "ipca": 0.23,
     "gdp": -0.42
-   }
+   },
+   "limite_modelo": null,
+   "valor_financeiro": null,
+   "beneficiarios_empresas": []
   },
   {
    "id": "acelerar-ibs-cbs",
@@ -518,6 +810,7 @@
    "defasagem_anos": 4,
    "reversibilidade": "baixa",
    "iniciativa_congresso": true,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.799,
@@ -528,7 +821,20 @@
     "selic": -0.25,
     "ipca": -0.09,
     "gdp": 0.3
-   }
+   },
+   "limite_modelo": "Benefício só começa após ~4 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+   "valor_financeiro": null,
+   "beneficiarios_empresas": [
+    {
+     "id": "reforma-regimes-diferenciados",
+     "tema": "Reforma tributaria: regimes diferenciados IBS/CBS (cesta basica zero, saude, educacao, agro, profissionais liberais)",
+     "valor_rs_bi_ano": {
+      "central": null,
+      "faixa": null
+     },
+     "verificado": false
+    }
+   ]
   },
   {
    "id": "privatizacoes",
@@ -552,6 +858,7 @@
    "defasagem_anos": 3,
    "reversibilidade": "baixa",
    "iniciativa_congresso": true,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.438,
@@ -562,7 +869,21 @@
     "selic": -0.05,
     "ipca": -0.02,
     "gdp": 0.16
-   }
+   },
+   "limite_modelo": "Benefício só começa após ~3 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+   "valor_financeiro": {
+    "rs_bi_ano": 25.4,
+    "primary_target_pp": 0.2,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": []
   },
   {
    "id": "abertura-comercial",
@@ -585,6 +906,7 @@
    "defasagem_anos": 3,
    "reversibilidade": "média",
    "iniciativa_congresso": false,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 1.0,
@@ -595,7 +917,10 @@
     "selic": 0.17,
     "ipca": -0.01,
     "gdp": 0.25
-   }
+   },
+   "limite_modelo": "Benefício só começa após ~3 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+   "valor_financeiro": null,
+   "beneficiarios_empresas": []
   },
   {
    "id": "acordo-mercosul-ue",
@@ -618,6 +943,7 @@
    "defasagem_anos": 3,
    "reversibilidade": "média",
    "iniciativa_congresso": true,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.794,
@@ -628,7 +954,10 @@
     "selic": 0.08,
     "ipca": -0.01,
     "gdp": 0.12
-   }
+   },
+   "limite_modelo": "Benefício só começa após ~3 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+   "valor_financeiro": null,
+   "beneficiarios_empresas": []
   },
   {
    "id": "ampliar-stf",
@@ -650,6 +979,7 @@
    "defasagem_anos": 1,
    "reversibilidade": "baixa",
    "iniciativa_congresso": true,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.018,
@@ -660,7 +990,10 @@
     "selic": 0.67,
     "ipca": 0.05,
     "gdp": -0.48
-   }
+   },
+   "limite_modelo": null,
+   "valor_financeiro": null,
+   "beneficiarios_empresas": []
   },
   {
    "id": "remover-ministros-stf",
@@ -682,6 +1015,7 @@
    "defasagem_anos": 1,
    "reversibilidade": "baixa",
    "iniciativa_congresso": true,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.011,
@@ -692,7 +1026,10 @@
     "selic": 0.81,
     "ipca": 0.06,
     "gdp": -0.58
-   }
+   },
+   "limite_modelo": null,
+   "valor_financeiro": null,
+   "beneficiarios_empresas": []
   },
   {
    "id": "anistia-politica",
@@ -714,6 +1051,7 @@
    "defasagem_anos": 1,
    "reversibilidade": "baixa",
    "iniciativa_congresso": true,
+   "origem": "",
    "base_evidencia": "julgamento",
    "p_aprovacao": {
     "direita": 0.091,
@@ -724,7 +1062,586 @@
     "selic": 0.21,
     "ipca": 0.02,
     "gdp": -0.15
-   }
+   },
+   "limite_modelo": null,
+   "valor_financeiro": null,
+   "beneficiarios_empresas": []
+  },
+  {
+   "id": "homologar-terras-indigenas-e-titular-quilombos",
+   "rotulo": "Homologar terras indígenas e titular territórios quilombolas com meta anual",
+   "dominio": "social",
+   "instrumento": "EXECUTIVO",
+   "ideologia": -0.6,
+   "controversia": 0.5,
+   "deltas": {
+    "institutional_risk": -0.02,
+    "primary_target": -0.05
+   },
+   "racional": "Segurança fundiária e contenção do desmatamento (reputação ambiental); custo orçamentário pequeno e conflito com ocupações.",
+   "ganhadores": [
+    "povos indígenas e quilombolas",
+    "clima e biodiversidade"
+   ],
+   "perdedores": [
+    "ocupações irregulares",
+    "garimpo e grilagem"
+   ],
+   "defasagem_anos": 3,
+   "reversibilidade": "média",
+   "iniciativa_congresso": false,
+   "origem": "pilares:V01,V02 · potencias:terras-indigenas-contencao",
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.0,
+    "esquerda": 1.0
+   },
+   "impacto_2035": {
+    "debt": -0.02,
+    "selic": -0.02,
+    "ipca": -0.0,
+    "gdp": 0.03
+   },
+   "limite_modelo": null,
+   "valor_financeiro": {
+    "rs_bi_ano": -6.4,
+    "primary_target_pp": -0.05,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": []
+  },
+  {
+   "id": "consulta-previa-regulamentada",
+   "rotulo": "Regulamentar a consulta prévia (OIT 169) com procedimento claro e consentimento qualificado",
+   "dominio": "institucional",
+   "instrumento": "LO",
+   "ideologia": -0.5,
+   "controversia": 0.55,
+   "deltas": {
+    "institutional_risk": -0.02
+   },
+   "racional": "Reduz litígio e incerteza de licenciamento se bem desenhada; risco de atraso de projetos se vaga.",
+   "ganhadores": [
+    "povos e comunidades tradicionais",
+    "investidores (previsibilidade)"
+   ],
+   "perdedores": [
+    "projetos sem diálogo prévio"
+   ],
+   "defasagem_anos": 2,
+   "reversibilidade": "média",
+   "iniciativa_congresso": true,
+   "origem": "pilares:V04",
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.002,
+    "esquerda": 0.056
+   },
+   "impacto_2035": {
+    "debt": -0.45,
+    "selic": -0.05,
+    "ipca": -0.0,
+    "gdp": 0.04
+   },
+   "limite_modelo": null,
+   "valor_financeiro": null,
+   "beneficiarios_empresas": []
+  },
+  {
+   "id": "psa-governanca-comunitaria",
+   "rotulo": "Pagamento por serviços ambientais com governança comunitária",
+   "dominio": "setorial",
+   "instrumento": "LO",
+   "ideologia": 0.0,
+   "controversia": 0.25,
+   "deltas": {
+    "primary_target": -0.1,
+    "supply_reform": 0.08
+   },
+   "racional": "Remunera quem conserva; efeito produtivo via bioeconomia e reputação, com custo fiscal recorrente.",
+   "ganhadores": [
+    "comunidades e produtores que conservam"
+   ],
+   "perdedores": [
+    "quem lucra com desmatamento"
+   ],
+   "defasagem_anos": 3,
+   "reversibilidade": "alta",
+   "iniciativa_congresso": true,
+   "origem": "pilares:V06 · potencias:floresta-carbono-restauracao",
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.809,
+    "esquerda": 0.244
+   },
+   "impacto_2035": {
+    "debt": 0.57,
+    "selic": 0.11,
+    "ipca": 0.0,
+    "gdp": 0.05
+   },
+   "limite_modelo": "Benefício só começa após ~3 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+   "valor_financeiro": {
+    "rs_bi_ano": -12.7,
+    "primary_target_pp": -0.1,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": []
+  },
+  {
+   "id": "recuperar-pastagens-degradadas",
+   "rotulo": "Programa de recuperação de pastagens degradadas (expansão sem novo desmatamento)",
+   "dominio": "setorial",
+   "instrumento": "LO",
+   "ideologia": 0.2,
+   "controversia": 0.2,
+   "deltas": {
+    "supply_reform": 0.15,
+    "primary_target": -0.15
+   },
+   "racional": "Mais produção por hectare reduz pressão sobre floresta; exige crédito e assistência técnica.",
+   "ganhadores": [
+    "produtores rurais",
+    "clima"
+   ],
+   "perdedores": [
+    "contribuintes (custo do crédito)"
+   ],
+   "defasagem_anos": 4,
+   "reversibilidade": "média",
+   "iniciativa_congresso": true,
+   "origem": "potencias:pastagens-recuperaveis,agricultura-tropical-ptf",
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.853,
+    "esquerda": 0.272
+   },
+   "impacto_2035": {
+    "debt": 0.74,
+    "selic": 0.18,
+    "ipca": 0.01,
+    "gdp": 0.1
+   },
+   "limite_modelo": "Benefício só começa após ~4 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+   "valor_financeiro": {
+    "rs_bi_ano": -19.1,
+    "primary_target_pp": -0.15,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": []
+  },
+  {
+   "id": "seguranca-hidrica-saneamento",
+   "rotulo": "Segurança hídrica e saneamento (irrigação eficiente, reuso e gestão de bacias)",
+   "dominio": "setorial",
+   "instrumento": "LO",
+   "ideologia": 0.0,
+   "controversia": 0.2,
+   "deltas": {
+    "supply_reform": 0.08,
+    "primary_target": -0.2
+   },
+   "racional": "Reduz exposição a secas e custos de saúde; investimento de retorno lento.",
+   "ganhadores": [
+    "população urbana e rural",
+    "agro irrigado"
+   ],
+   "perdedores": [
+    "contribuintes no curto prazo"
+   ],
+   "defasagem_anos": 5,
+   "reversibilidade": "baixa",
+   "iniciativa_congresso": true,
+   "origem": "potencias:agua-doce · clima:seca",
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.834,
+    "esquerda": 0.263
+   },
+   "impacto_2035": {
+    "debt": 1.44,
+    "selic": 0.18,
+    "ipca": 0.01,
+    "gdp": 0.03
+   },
+   "limite_modelo": "Benefício só começa após ~5 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+   "valor_financeiro": {
+    "rs_bi_ano": -25.4,
+    "primary_target_pp": -0.2,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": []
+  },
+  {
+   "id": "estrategia-minerais-criticos",
+   "rotulo": "Estratégia de minerais críticos com agregação de valor e governança contra captura",
+   "dominio": "setorial",
+   "instrumento": "LO",
+   "ideologia": 0.3,
+   "controversia": 0.4,
+   "deltas": {
+    "supply_reform": 0.15,
+    "institutional_risk": 0.03,
+    "primary_target": 0.05
+   },
+   "racional": "Capturar mais da cadeia (refino, baterias) em vez de exportar minério; risco de captura por poucos e impacto socioambiental.",
+   "ganhadores": [
+    "indústria de transição",
+    "regiões mineradoras"
+   ],
+   "perdedores": [
+    "comunidades afetadas se mal regulada"
+   ],
+   "defasagem_anos": 6,
+   "reversibilidade": "baixa",
+   "iniciativa_congresso": true,
+   "origem": "potencias:niobio-concentracao-global,minerais-transicao-reservas",
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.691,
+    "esquerda": 0.143
+   },
+   "impacto_2035": {
+    "debt": -0.31,
+    "selic": 0.13,
+    "ipca": -0.0,
+    "gdp": 0.07
+   },
+   "limite_modelo": "Benefício só começa após ~6 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+   "valor_financeiro": {
+    "rs_bi_ano": 6.4,
+    "primary_target_pp": 0.05,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": []
+  },
+  {
+   "id": "educacao-tecnica-e-alfabetizacao",
+   "rotulo": "Expandir ensino médio técnico e alfabetização na idade certa",
+   "dominio": "social",
+   "instrumento": "LO",
+   "ideologia": -0.2,
+   "controversia": 0.2,
+   "deltas": {
+    "supply_reform": 0.12,
+    "primary_target": -0.3
+   },
+   "racional": "Capital humano é o maior gap de produtividade; retorno chega em uma década ou mais.",
+   "ganhadores": [
+    "jovens de baixa renda",
+    "setor produtivo"
+   ],
+   "perdedores": [
+    "contribuintes no curto prazo"
+   ],
+   "defasagem_anos": 8,
+   "reversibilidade": "baixa",
+   "iniciativa_congresso": true,
+   "origem": "potencias:capital-humano-gap,janela-demografica",
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.231,
+    "esquerda": 0.773
+   },
+   "impacto_2035": {
+    "debt": 2.16,
+    "selic": 0.27,
+    "ipca": 0.02,
+    "gdp": 0.04
+   },
+   "limite_modelo": "Benefício só começa após ~8 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+   "valor_financeiro": {
+    "rs_bi_ano": -38.1,
+    "primary_target_pp": -0.3,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": []
+  },
+  {
+   "id": "politica-industrial-verde",
+   "rotulo": "Política industrial verde (hidrogênio, baterias, bioindústria)",
+   "dominio": "setorial",
+   "instrumento": "LO",
+   "ideologia": -0.3,
+   "controversia": 0.35,
+   "deltas": {
+    "supply_reform": 0.15,
+    "primary_target": -0.3,
+    "institutional_risk": 0.02
+   },
+   "racional": "Aposta em vantagem energética; risco de escolher vencedores e de subsídio permanente.",
+   "ganhadores": [
+    "regiões com potencial renovável",
+    "novas cadeias"
+   ],
+   "perdedores": [
+    "contribuintes",
+    "setores não escolhidos"
+   ],
+   "defasagem_anos": 6,
+   "reversibilidade": "média",
+   "iniciativa_congresso": true,
+   "origem": "potencias:eolica-offshore-hidrogenio-verde,matriz-eletrica-renovavel",
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.084,
+    "esquerda": 0.495
+   },
+   "impacto_2035": {
+    "debt": 2.5,
+    "selic": 0.34,
+    "ipca": 0.02,
+    "gdp": 0.03
+   },
+   "limite_modelo": "Benefício só começa após ~6 anos, mas o modelo aplica o efeito desde o 1º ano (custo e ganho simultâneos). Em horizontes curtos o impacto em 2035 tende a subestimar o benefício.",
+   "valor_financeiro": {
+    "rs_bi_ano": -38.1,
+    "primary_target_pp": -0.3,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": [
+    {
+     "id": "gd-subsidio-cruzado",
+     "tema": "Subsidio cruzado da geracao distribuida e descontos a fontes incentivadas",
+     "valor_rs_bi_ano": {
+      "central": 26.4,
+      "faixa": [
+       20.5,
+       26.4
+      ]
+     },
+     "verificado": false
+    }
+   ]
+  },
+  {
+   "id": "combate-garimpo-ilegal-e-rastreio-do-ouro",
+   "rotulo": "Rastreabilidade do ouro e combate ao garimpo ilegal em terras indígenas",
+   "dominio": "institucional",
+   "instrumento": "EXECUTIVO",
+   "ideologia": -0.3,
+   "controversia": 0.3,
+   "deltas": {
+    "institutional_risk": -0.03,
+    "primary_target": -0.05
+   },
+   "racional": "Menos crime ambiental e lavagem; custo de fiscalização; depende de rastreio efetivo.",
+   "ganhadores": [
+    "povos indígenas",
+    "mercado formal de ouro"
+   ],
+   "perdedores": [
+    "garimpo ilegal e compradores"
+   ],
+   "defasagem_anos": 2,
+   "reversibilidade": "média",
+   "iniciativa_congresso": false,
+   "origem": "pilares:V07 · potencias:terras-indigenas-contencao",
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.0,
+    "esquerda": 1.0
+   },
+   "impacto_2035": {
+    "debt": -0.25,
+    "selic": -0.04,
+    "ipca": -0.0,
+    "gdp": 0.05
+   },
+   "limite_modelo": null,
+   "valor_financeiro": {
+    "rs_bi_ano": -6.4,
+    "primary_target_pp": -0.05,
+    "formula": "primary_target (pp do PIB) / 100 × PIB nominal",
+    "ancora_pib": {
+     "ano": 2025,
+     "valor_rs_bi": 12700.0,
+     "fonte": "IBGE, Contas Nacionais Anuais 2025 (divulgado 03/03/2026): PIB a precos correntes ~R$ 12,7 trilhoes (valor arredondado)"
+    },
+    "natureza": "estimativa",
+    "nota": "Conversão do delta de primário (julgamento do catálogo) pelo PIB nominal do ano da âncora; sinal positivo = melhora do resultado primário. Não é projeção, é a escala em R$ do que o delta representa."
+   },
+   "beneficiarios_empresas": []
+  },
+  {
+   "id": "direitos-da-natureza-municipais",
+   "rotulo": "Direitos da natureza em leis orgânicas municipais",
+   "dominio": "institucional",
+   "instrumento": "LO",
+   "ideologia": -0.3,
+   "controversia": 0.3,
+   "deltas": {},
+   "racional": "Sem efeito macro estimável: o valor é local e jurídico; não há evidência medida de efeito nos casos brasileiros conhecidos.",
+   "ganhadores": [
+    "ecossistemas locais",
+    "comunidades"
+   ],
+   "perdedores": [],
+   "defasagem_anos": 2,
+   "reversibilidade": "alta",
+   "iniciativa_congresso": true,
+   "origem": "pilares:V05",
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.125,
+    "esquerda": 0.578
+   },
+   "impacto_2035": {
+    "debt": 0.0,
+    "selic": 0.0,
+    "ipca": 0.0,
+    "gdp": 0.0
+   },
+   "limite_modelo": "Sem efeito macro estimável: o valor é qualitativo ou local.",
+   "valor_financeiro": null,
+   "beneficiarios_empresas": []
+  },
+  {
+   "id": "orcamento-participativo-e-moedas-sociais",
+   "rotulo": "Orçamento participativo e economia solidária (moedas sociais, compras públicas)",
+   "dominio": "social",
+   "instrumento": "LO",
+   "ideologia": -0.4,
+   "controversia": 0.2,
+   "deltas": {},
+   "racional": "Sem efeito macro estimável; evidência de efeito local em indicadores sociais, com forte dependência de desenho e continuidade.",
+   "ganhadores": [
+    "comunidades organizadas"
+   ],
+   "perdedores": [],
+   "defasagem_anos": 2,
+   "reversibilidade": "alta",
+   "iniciativa_congresso": true,
+   "origem": "pilares:V08,V09",
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.185,
+    "esquerda": 0.658
+   },
+   "impacto_2035": {
+    "debt": 0.0,
+    "selic": 0.0,
+    "ipca": 0.0,
+    "gdp": 0.0
+   },
+   "limite_modelo": "Sem efeito macro estimável: o valor é qualitativo ou local.",
+   "valor_financeiro": null,
+   "beneficiarios_empresas": []
+  },
+  {
+   "id": "indicadores-complementares-ao-pib",
+   "rotulo": "Painel oficial de indicadores complementares ao PIB (bem viver, contas ambientais)",
+   "dominio": "institucional",
+   "instrumento": "EXECUTIVO",
+   "ideologia": -0.2,
+   "controversia": 0.1,
+   "deltas": {},
+   "racional": "Sem efeito macro direto; muda o que é medido e discutido. Risco de virar vitrine sem uso orçamentário.",
+   "ganhadores": [
+    "debate público"
+   ],
+   "perdedores": [],
+   "defasagem_anos": 2,
+   "reversibilidade": "alta",
+   "iniciativa_congresso": false,
+   "origem": "pilares:V11",
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.0,
+    "esquerda": 1.0
+   },
+   "impacto_2035": {
+    "debt": 0.0,
+    "selic": 0.0,
+    "ipca": 0.0,
+    "gdp": 0.0
+   },
+   "limite_modelo": "Sem efeito macro estimável: o valor é qualitativo ou local.",
+   "valor_financeiro": null,
+   "beneficiarios_empresas": []
+  },
+  {
+   "id": "comissario-das-geracoes-futuras",
+   "rotulo": "Comissário/Defensoria das gerações futuras (avaliação intergeracional de leis e orçamento)",
+   "dominio": "institucional",
+   "instrumento": "LC",
+   "ideologia": -0.1,
+   "controversia": 0.35,
+   "deltas": {
+    "fiscal_credibility": 0.03
+   },
+   "racional": "Pode melhorar a disciplina de longo prazo se tiver poder real; risco de órgão sem efeito.",
+   "ganhadores": [
+    "gerações futuras"
+   ],
+   "perdedores": [],
+   "defasagem_anos": 3,
+   "reversibilidade": "média",
+   "iniciativa_congresso": true,
+   "origem": "pilares:V12",
+   "base_evidencia": "julgamento",
+   "p_aprovacao": {
+    "direita": 0.095,
+    "esquerda": 0.497
+   },
+   "impacto_2035": {
+    "debt": -1.08,
+    "selic": -0.25,
+    "ipca": -0.05,
+    "gdp": 0.06
+   },
+   "limite_modelo": null,
+   "valor_financeiro": null,
+   "beneficiarios_empresas": []
   }
  ]
 }

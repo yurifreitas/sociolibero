@@ -12,6 +12,15 @@ def main() -> None:
         "decisoes",
         "eleicoes",
         "territorios",
+        "series",
+        "humano",
+        "futuros",
+        "clima",
+        "corrupcao",
+        "quebras",
+        "climars",
+        "evolucoes",
+        "pessimismo",
     ):
         return _diag(sys.argv[1])
 
@@ -49,6 +58,7 @@ def main() -> None:
 
 
 def _diag(cmd: str) -> None:
+    import json
     import sys
 
     sys.stdout.reconfigure(encoding="utf-8")
@@ -74,8 +84,6 @@ def _diag(cmd: str) -> None:
             for n in ingest.FONTES:
                 print(n, ingest.baixar(n)["sha256"][:12])
         else:
-            import json
-
             print(
                 json.dumps(build.build(), ensure_ascii=False, indent=1, default=str)[
                     :6000
@@ -89,12 +97,174 @@ def _diag(cmd: str) -> None:
             for n, m in territorios.baixar_tudo().items():
                 print(n, m["sha256"][:12])
         else:
-            import json
-
             r = territorios.build()
             print(
                 json.dumps(r["meta"]["validacao"], ensure_ascii=False, indent=1)[:6000]
             )
+    elif cmd == "humano":
+        from . import humano
+
+        args = sys.argv[2:]
+        sub = args[0] if args and not args[0].startswith("-") else "build"
+        db = None
+        if "--db" in args:
+            k = args.index("--db")
+            db = args[k + 1] if k + 1 < len(args) else None
+        if sub != "build":
+            raise SystemExit("uso: sociolibero humano build [--db <trans.db>]")
+        r = humano.build(db)
+        v = r["municipal"]["meta"]["validacao"]
+        print(
+            json.dumps(
+                {
+                    k: v[k]
+                    for k in ("homicidios_nacional_por_ano", "homicidios_vs_publicado")
+                },
+                ensure_ascii=False,
+                indent=1,
+            )[:6000]
+        )
+    elif cmd == "futuros":
+        from . import tecnologia
+
+        sub = sys.argv[2] if len(sys.argv) > 2 else "build"
+        if sub == "baixar":
+            for n, m in tecnologia.baixar_tudo().items():
+                print(n, m["sha256"][:12])
+        else:
+            r = tecnologia.build()
+            for c in r["curvas"]:
+                e = (c.get("ajuste") or {}).get("erro_teste")
+                b = (c.get("ajuste") or {}).get("baseline_erro_teste")
+                print(
+                    f"{c['id']:<28} {c['modelo']:<11} teste MAPE "
+                    + (
+                        f"{e['mape_pct']:.1f}% (ingênuo {b['ingenuo']['mape_pct']:.1f}%, linear {b['linear']['mape_pct']:.1f}%)"
+                        if e
+                        else "n/d"
+                    )
+                )
+            print(
+                "macro:",
+                json.dumps(
+                    r["integracao_macro"]["resultados_2035"]["base"]["2035"],
+                    ensure_ascii=False,
+                )[:600],
+            )
+    elif cmd == "series":
+        from .series import build, ingest
+
+        sub = sys.argv[2] if len(sys.argv) > 2 else "build"
+        if sub == "baixar":
+            for n, m in ingest.baixar_tudo().items():
+                print(n, m["sha256"][:12])
+        else:
+            r = build.build()
+            print(
+                json.dumps(r["meta"]["validacao"], ensure_ascii=False, indent=1)[:6000]
+            )
+    elif cmd == "clima":
+        from .clima import build, ingest
+
+        sub = sys.argv[2] if len(sys.argv) > 2 else "build"
+        if sub == "baixar":
+            for n, m in ingest.baixar_tudo().items():
+                print(n, m["sha256"][:12])
+        else:
+            r = build.build()
+            print(json.dumps(r["resumo"], ensure_ascii=False, indent=1)[:6000])
+    elif cmd == "corrupcao":
+        from . import corrupcao
+
+        sub = sys.argv[2] if len(sys.argv) > 2 else "build"
+        if sub != "build":
+            raise SystemExit("uso: sociolibero corrupcao build")
+        r = corrupcao.build()
+        print(json.dumps(r["meta"]["resumo"], ensure_ascii=False, indent=1))
+        for c in r["recuperacao_macro"]["cenarios"]:
+            print(c)
+    elif cmd == "quebras":
+        from . import quebras
+
+        sub = sys.argv[2] if len(sys.argv) > 2 else "build"
+        if sub != "build":
+            raise SystemExit("uso: sociolibero quebras build [--rapido] [--reusar]")
+        r = quebras.build(
+            quick="--rapido" in sys.argv, reusar_validacao="--reusar" in sys.argv
+        )
+        print("procedimento:", r["validacao"]["procedimento_final"]["escolhido"])
+        print("controle metodológico:", r["meta"]["metodo"]["controle_metodologico"])
+        for sr in r["series"]:
+            print(
+                f"{sr['id']:<36} n={sr['n']:<4} {sr['modo']:<9}",
+                [
+                    (b["ano"], b["tipo"], b["artefato_metodologico"])
+                    for b in sr["quebras"]
+                ],
+            )
+        print("cruzamento com a história:", r["cruzamento_historia"])
+    elif cmd == "climars":
+        from . import climars
+
+        args = sys.argv[2:]
+        sub = args[0] if args and not args[0].startswith("-") else "build"
+        if sub != "build":
+            raise SystemExit(
+                "uso: sociolibero climars build [--snapshot <dir>] [--out <json>]"
+            )
+        kw = {}
+        for flag, key in (("--snapshot", "snapshot"), ("--out", "out")):
+            if flag in args:
+                k = args.index(flag)
+                kw[key] = Path(args[k + 1]) if k + 1 < len(args) else None
+        r = climars.build(**kw)
+        v = r["meta"]["validacao"]
+        print(
+            json.dumps(
+                {k: v[k] for k in v if k != "nomes_diferentes_snapshot_vs_geojson"},
+                ensure_ascii=False,
+                indent=1,
+            )[:6000]
+        )
+    elif cmd == "evolucoes":
+        from . import markov
+
+        args = sys.argv[2:]
+        sub = args[0] if args and not args[0].startswith("-") else "build"
+        if sub == "baixar":
+            for n, m in markov.baixar().items():
+                print(n, m["sha256"][:12])
+        elif sub == "build":
+            r = markov.build(rapido="--rapido" in args)
+            print("escrito:", markov.OUT)
+            pb = r["regimes_politicos"]["projecao_brasil"]
+            print("Brasil 2025:", pb["estado_inicial"]["rotulo"])
+            print(
+                "P(democracia eleitoral) 2038 p10/p50/p90:",
+                pb["p10"][-1][2],
+                pb["p50"][-1][2],
+                pb["p90"][-1][2],
+            )
+            print("ocupação por ciclo:", r["cadeia_cenarios"]["ocupacao"]["por_ciclo"])
+        else:
+            raise SystemExit("uso: sociolibero evolucoes [baixar|build [--rapido]]")
+    elif cmd == "pessimismo":
+        from . import pessimismo
+
+        sub = sys.argv[2] if len(sys.argv) > 2 else "build"
+        if sub != "build":
+            raise SystemExit("uso: sociolibero pessimismo build [--rapido]")
+        r = pessimismo.build(rapido="--rapido" in sys.argv)
+        print(r["meta"]["aviso"].upper(), "| escrito:", pessimismo.SAIDA)
+        v = r["validacao"]
+        print("regressão ok:", v["regressao"]["eficiencia_1_igual_ao_catalogo"])
+        print("violações de monotonicidade:", len(v["monotonicidade"]["violacoes"]))
+        for k, x in r["cenario_adverso"]["prob_ruptura"].items():
+            print(f"P(ruptura) {k}: {x}")
+        print(
+            "top fragilidade:",
+            [x["id"] for x in r["eficiencia_de_execucao"]["ranking_fragilidade"][:5]],
+        )
     elif cmd == "decisoes":
         from .decisoes import export
 

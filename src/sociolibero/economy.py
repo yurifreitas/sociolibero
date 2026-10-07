@@ -26,6 +26,22 @@ class Levers:
     bc_erosion: float  # 0-1: perda de independência do BC (ancoragem)
     supply_reform: float  # pp de PIB potencial/ano por reformas
     fiscal_credibility: float  # 0-1: quanto o mercado acredita no alvo primário
+    # Difusão tecnológica (OPCIONAL; 0.0 = desligada, resultados idênticos aos anteriores).
+    # `tech_productivity` é SUPOSIÇÃO explícita (ver tecnologia.py), não estimativa deste modelo.
+    tech_productivity: float = 0.0  # pp/ano de PIB potencial quando a difusão satura
+    tech_midpoint: float = (
+        2031.0  # ano em que a difusão chega a 50% (antes da defasagem)
+    )
+    tech_rate: float = 0.8  # taxa logística da difusão (1/ano)
+    tech_lag: float = 1.0  # anos entre difusão e ganho de produtividade
+    # Choque climático (OPCIONAL; 0.0 = desligado, resultados idênticos aos anteriores).
+    # Ambos são SUPOSIÇÕES de severidade (ver clima/macro.py), não estimativas deste modelo.
+    climate_shock: float = (
+        0.0  # pp de PIB perdidos por ano (constante ao longo do horizonte)
+    )
+    climate_premium: float = (
+        0.0  # pp adicionais de prêmio de risco (seguro/fiscal/expectativa)
+    )
 
 
 @dataclass(frozen=True)
@@ -54,6 +70,21 @@ class Params:
 
 
 DEFAULT = Params()
+
+
+def tech_boost(lv: Levers, year: float) -> float:
+    """pp/ano de PIB potencial por difusão: produtividade × S(ano - defasagem), com S logística
+    normalizada para 0 em 2026 (início do horizonte) e saturando em 1."""
+    if lv.tech_productivity == 0.0:
+        return 0.0
+
+    def sig(y: float) -> float:
+        return 1.0 / (
+            1.0 + np.exp(-lv.tech_rate * (y - lv.tech_lag - lv.tech_midpoint))
+        )
+
+    s0 = sig(float(YEARS[0]) - 1)
+    return float(lv.tech_productivity * (sig(year) - s0) / (1.0 - s0))
 
 
 def simulate(
@@ -105,6 +136,7 @@ def simulate(
             + P.prem_debt * debt_excess
             + P.prem_inst * lv.institutional_risk
             + P.prem_cred * (1 - lv.fiscal_credibility) * debt_excess
+            + lv.climate_premium
         )
         pi_lr = (
             TARGET_INFLATION
@@ -120,14 +152,19 @@ def simulate(
         )
         i = np.maximum(i, 2.0)
         real = i - pi
+        boost = tech_boost(lv, float(YEARS[t]))
         g = (
             POTENTIAL_GROWTH
+            + boost
             + lv.supply_reform
             - P.g_rate * (real - P.neutral_real)
             - P.g_inst * lv.institutional_risk
+            - lv.climate_shock
             + s * rng.normal(0, 0.9, n)
         )
-        gap = 0.6 * gap + (g - POTENTIAL_GROWTH)
+        gap = 0.6 * gap + (
+            g - POTENTIAL_GROWTH - boost
+        )  # o potencial sobe com a tecnologia
         nominal_g = (1 + g / 100) * (1 + pi / 100) - 1
         d = d * (1 + P.implicit * i / 100) / (1 + nominal_g) - p
 
