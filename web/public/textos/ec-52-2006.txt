@@ -1,0 +1,77 @@
+=== PROVENIÊNCIA ===
+Documento: Emenda Constitucional nº 52, de 8 de março de 2006 (fim da verticalização das coligações)
+Id: ec-52-2006
+Data do ato: 2006-03-08
+Tipo: emenda | Autoridade: Mesas da Câmara dos Deputados e do Senado Federal | Status da norma: vigente
+Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc52.htm
+Data de captura: 2026-10-07
+Tipo de versão: original de época
+Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
+Observações: Planalto. A EC 97/2017 deu nova redação ao art. 17, § 1º, vedando coligações em eleições proporcionais.
+Lacunas: Fonte única.
+SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): e4687e8ce02719b4990aa1b239a1be7ca5ac44f109e463495c8ae01ba6c75571
+Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
+Aviso: cópia para consulta; não substitui o texto oficial publicado.
+=== TEXTO ===
+EMENDA CONSTITUCIONAL Nº 52, DE 8 DE MARÇO DE 2006 Vide ADI nº 3.685-8 Dá nova redação ao § 1º do art. 17 da Constituição Federal para disciplinar as coligações eleitorais.
+
+AS MESAS DA CÂMARA DOS DEPUTADOS E DO SENADO FEDERAL, nos termos do § 3º do art. 60 da Constituição Federal, promulgam a seguinte Emenda ao texto constitucional:
+
+Art. 1º O § 1º do art. 17 da Constituição Federal passa a vigorar com a seguinte redação:
+
+"Art. 17. ...................................................................................
+
+§ 1º É assegurada aos partidos políticos autonomia para definir sua estrutura interna, organização e funcionamento e para adotar os critérios de escolha e o regime de suas coligações eleitorais, sem obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal, devendo seus estatutos estabelecer normas de disciplina e fidelidade partidária.
+
+..................................................................................." (NR)
+
+Art. 2º Esta Emenda Constitucional entra em vigor na data de sua publicação, aplicando-se às eleições que ocorrerão no ano de 2002. Vide ADI nº 3.685-8
+
+Brasília, em 8 de março de 2006.
+
+Mesa da Câmara dos Deputados
+
+Mesa do Senado Federal
+
+Deputado ALDO REBELO
+Presidente
+
+Senador RENAN CALHEIROS
+Presidente
+
+Deputado JOSÉ THOMAZ NONÔ
+1º Vice-Presidente
+
+Senador TIÃO VIANA
+1º Vice-Presidente
+
+Deputado CIRO NOGUEIRA
+2º Vice-Presidente
+
+Senador ANTERO PAES DE BARROS
+2º Vice-Presidente
+
+Deputado INOCÊNCIO OLIVEIRA
+1º Secretário
+
+Senador EFRAIM MORAIS
+1º Secretário
+
+Deputado NILTON CAPIXABA
+2º Secretário
+
+Senador JOÃO ALBERTO SOUZA
+2º Secretário
+
+Deputado JOÃO CALDAS
+4º Secretário
+
+Senador PAULO OCTÁVIO
+3º Secretário
+
+Senador EDUARDO SIQUEIRA CAMPOS
+4º Secretário
+
+Este texto não substitui o publicado no DOU 9.3.2006
+
+*

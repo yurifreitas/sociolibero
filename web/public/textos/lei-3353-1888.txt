@@ -1,0 +1,44 @@
+=== PROVENIÊNCIA ===
+Documento: Lei nº 3.353, de 13 de maio de 1888 (Lei Áurea)
+Id: lei-3353-1888
+Data do ato: 1888-05-13
+Tipo: lei | Autoridade: Princesa Imperial Regente / Assembleia Geral | Status da norma: histórico
+Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/leis/lim/lim3353.htm
+Data de captura: 2026-10-07
+Tipo de versão: original de época
+Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
+Observações: Planalto (coleção de leis do Império). Ortografia de época preservada.
+Lacunas: Fonte única.
+SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 5f637c61d670233681c3eb0969399794b8f16ab6285a291cab2468a22ab149df
+Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
+Aviso: cópia para consulta; não substitui o texto oficial publicado.
+=== TEXTO ===
+LEI Nº 3.353, DE 13 DE MAIO DE 1888.
+
+Declara extincta a escravidão no Brazil.
+
+A Princeza Imperial Regente, em Nome de Sua Magestade o Imperador o Senhor D. Pedro II, Faz saber a todos os subditos do Imperio que a Assembléa Geral decretou e Ella sanccionou a Lei seguinte:
+
+Art. 1.° E’ declarada extincta, desde a data desta Lei, a escravidão no Brazil.
+
+Art. 2.° Revogam-se as disposições em contrario.
+
+Manda, portanto, a todas as autoridades, a quem o conhecimento e execução da referida Lei pertencer, que a cumpram, e façam cumprir e guardar tão inteiramente como nella se contém.
+
+O Secretario de Estado dos Negocios da Agricultura, Commercio e Obras Publicas e interino dos Negocios Estrangeiros, Bacharel Rodrigo Augusto da Silva, do Conselho de Sua Magestade o Imperador, a faça imprimir, publicar e correr.
+
+Dada no Palacio do Rio de Janeiro em 13 de maio de 1888, 67º da Independencia e do Imperio.
+
+PRINCEZA IMPERIAL REGENTE.
+
+Rodrigo Augusto da Silva Este texto não substitui o publicado na CLBR, de 1888
+
+Carta de lei, pela qual Vossa Alteza Imperial Manda executar o Decreto da Assembléa Geral, que Houve por bem Sanccionar, declarando extincta a escravidão no Brazil, como nella se declara.
+
+Para Vossa Alteza Imperial Ver.
+
+Chancellaria-mór do Imperio.- Antonio Ferreira Vianna.
+
+Transitou em 13 de Maio de 1888.- José Julio de Albuquerque Barros.
+
+*

@@ -1,0 +1,3929 @@
+{
+  "meta": {
+    "titulo": "Biblioteca de fontes primárias (textos originais)",
+    "gerado_em": "2026-10-07",
+    "descricao": "Textos integrais de leis, constituições, atos oficiais e um manifesto antigo, com proveniência, hash e trechos-chave ancorados. Documentos protegidos por direito autoral aparecem só com metadados e link.",
+    "como_verificar_hash": "O SHA-256 vale para o corpo do arquivo: tudo depois da linha \"=== TEXTO ===\" até o fim, sem a quebra de linha final, codificado em UTF-8.",
+    "n_textos": 44,
+    "n_sem_texto": 6,
+    "n_caracteres_total": 2235711
+  },
+  "documentos": [
+    {
+      "id": "constituicao-1824",
+      "titulo": "Constituição Política do Império do Brasil (1824)",
+      "data": "1824-03-25",
+      "ano": 1824,
+      "tipo": "constituição",
+      "subtipo": null,
+      "autoridade": "Imperador D. Pedro I (carta outorgada)",
+      "status": "revogado",
+      "arquivo": "textos/constituicao-1824.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35041-25-marco-1824-532540-publicacaooriginal-14770-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "e11792b414e6de6d2725824219e0bfda484f626f33dfc11ec384b1c0533960b7",
+        "sha256_arquivo": "120b26d096e2126368611fe2fbadfce989a9efd4bf0ee7f4e42000e0fee69412"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 52766,
+      "trechos_chave": [
+        {
+          "id": "constituicao-1824-t1",
+          "rotulo": "Eleição indireta em dois graus (art. 90)",
+          "ancora": "Art. 90. As nomeações dos Deputados, e Senadores para a Assembléa Geral",
+          "por_que_importa": "Institui a eleição indireta: votantes elegem eleitores de província, e estes elegem os representantes.",
+          "tema": "eleicao_indireta",
+          "eleicoes_ids": [
+            "constituicao-1824",
+            "votantes-1873"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "c1824"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1824-t2",
+          "rotulo": "Renda mínima do votante (art. 92, V)",
+          "ancora": "Os que não tiverem de renda liquida annual cem mil réis por bens de raiz, industria, commercio, ou Empregos.",
+          "por_que_importa": "Voto censitário: excluía quem não tivesse renda líquida anual de 100 mil réis para votar nas assembleias paroquiais.",
+          "tema": "censo",
+          "eleicoes_ids": [
+            "constituicao-1824",
+            "votantes-1873"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "c1824"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1824-t3",
+          "rotulo": "Renda mínima do eleitor e exclusão de libertos (art. 94)",
+          "ancora": "Os que não tiverem de renda liquida annual duzentos mil réis por bens de raiz, industria, commercio, ou emprego.",
+          "por_que_importa": "O eleitor de segundo grau precisava de 200 mil réis; o inciso seguinte exclui os libertos.",
+          "tema": "censo",
+          "eleicoes_ids": [
+            "constituicao-1824",
+            "votantes-1873"
+          ],
+          "movimentos_ids": [
+            "abolicionismo"
+          ],
+          "historia_ids": [
+            "c1824"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1824-t4",
+          "rotulo": "Exclusão dos libertos como eleitores (art. 94, II)",
+          "ancora": "II. Os Libertos.",
+          "por_que_importa": "Libertos podiam votar na paróquia, mas não ser eleitores de segundo grau.",
+          "tema": "censo",
+          "eleicoes_ids": [
+            "constituicao-1824"
+          ],
+          "movimentos_ids": [
+            "abolicionismo"
+          ],
+          "historia_ids": [
+            "c1824"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto original conferido contra a fonte",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35041-25-marco-1824-532540-publicacaooriginal-14770-pl.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/constituicao/constituicao24.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, Legislação Informatizada, publicação original (Coleção de Leis do Império, 1824). Ortografia de época preservada. Comparação automática com o Planalto: 98.4% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 97.6% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "O HTML da Câmara tem erros de transcrição na numeração (ex.: \"Art.. 81\", \"Art. 14I\" no lugar de 141); preservados como estão na fonte.",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao24.htm",
+          "cob_gravado_na_outra": 0.9841,
+          "cob_outra_no_gravado": 0.9764,
+          "strikes": 0
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "lei-387-1846",
+      "titulo": "Lei de 19 de agosto de 1846 (Lei nº 387): regula as eleições de senadores, deputados e outros",
+      "data": "1846-08-19",
+      "ano": 1846,
+      "tipo": "lei",
+      "subtipo": null,
+      "autoridade": "Assembleia Geral do Império / Imperador",
+      "status": "revogado",
+      "arquivo": "textos/lei-387-1846.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-387-19-agosto-1846-555122-publicacaooriginal-83186-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "1575cf37789407e16ed5fedc968c625062fb2e8a9abd04c39b590802a80ed464",
+        "sha256_arquivo": "72a1862350136567c7018a882f1c2d41ff8ad41a42cb521b68917cf246476a37"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 55288,
+      "trechos_chave": [
+        {
+          "id": "lei-387-1846-t1",
+          "rotulo": "Juntas de qualificação (art. 1º)",
+          "ancora": "far-se-ha em cada Parochia huma Junta de Qualificação, para formar a lista geral dos Cidadãos, que tenhão direito de votar",
+          "por_que_importa": "Cria a qualificação paroquial dos votantes por juntas locais, núcleo do alistamento no Império.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "votantes-1873"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-387-1846-t2",
+          "rotulo": "Renda de 200 mil réis e exclusão de libertos (art. 53)",
+          "ancora": "a quantia de duzentos mil réis por bens de raiz, commercio, industria, ou Emprego.",
+          "por_que_importa": "Mantém o critério censitário para eleitores e repete a exclusão dos libertos.",
+          "tema": "censo",
+          "eleicoes_ids": [
+            "votantes-1873"
+          ],
+          "movimentos_ids": [
+            "abolicionismo"
+          ],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-387-1846-t3",
+          "rotulo": "Eleitores são os que podem votar nas assembleias paroquiais (art. 53)",
+          "ancora": "Art. 53. Podem ser Eleitores todos os que podem votar nas Assembléas Parochiaes.",
+          "por_que_importa": "Reafirma o desenho de dois graus da Constituição de 1824.",
+          "tema": "eleicao_indireta",
+          "eleicoes_ids": [
+            "votantes-1873"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/leimp/1824-1899/lei-387-19-agosto-1846-555122-publicacaooriginal-83186-pl.html"
+        ],
+        "observacoes": "Câmara dos Deputados, Legislação Informatizada, publicação original (Coleção de Leis do Império, 1846).",
+        "lacunas": "Sem lacuna de artigos detectada (arts. 1 a 129 presentes).",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "decreto-842-1855",
+      "titulo": "Decreto nº 842, de 19 de setembro de 1855 (Lei dos Círculos)",
+      "data": "1855-09-19",
+      "ano": 1855,
+      "tipo": "decreto",
+      "subtipo": null,
+      "autoridade": "Assembleia Geral / Imperador",
+      "status": "revogado",
+      "arquivo": "textos/decreto-842-1855.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-842-19-setembro-1855-558297-publicacaooriginal-79444-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "15cdd88e35db9d4ac2056e2e8c39e35454b250e1c204247109d0e1244284698e",
+        "sha256_arquivo": "ec0d95862423d9370f123268737f54267d43a7735e0ef1f501ccb7697fa5390e"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 7983,
+      "trechos_chave": [
+        {
+          "id": "decreto-842-1855-t1",
+          "rotulo": "Distritos de um deputado",
+          "ancora": "As Provincias do Imperio serão divididas em tantos Districtos Eleitoraes quantos forem os seus Deputados",
+          "por_que_importa": "Introduz o voto por círculos (distritos uninominais), antecedente do voto distrital.",
+          "tema": "voto_distrital",
+          "eleicoes_ids": [
+            "votantes-1873"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "decreto-842-1855-t2",
+          "rotulo": "Voto limitado nas mesas",
+          "ancora": "votando porêm cada Eleitor em dous nomes sómente",
+          "por_que_importa": "Exemplo de voto limitado para a escolha de secretários e escrutadores dos colégios eleitorais.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "votantes-1873"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-842-19-setembro-1855-558297-publicacaooriginal-79444-pl.html"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original. Altera a Lei de 19/08/1846 (divide as províncias em distritos de um deputado).",
+        "lacunas": "Texto curto, sem lacunas detectadas.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "decreto-3029-1881",
+      "titulo": "Decreto nº 3.029, de 9 de janeiro de 1881 (Lei Saraiva)",
+      "data": "1881-01-09",
+      "ano": 1881,
+      "tipo": "decreto",
+      "subtipo": null,
+      "autoridade": "Assembleia Geral / Imperador (D. Pedro II)",
+      "status": "revogado",
+      "arquivo": "textos/decreto-3029-1881.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-3029-9-janeiro-1881-546079-publicacaooriginal-59786-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "7f1ff99d593f62c110bc7564f67c311b54e563823ff7bab6e323f5d98cb47a7a",
+        "sha256_arquivo": "2da73f0fec101bf0f3384bd29a958a1cf3115768162cca8bad811b4da325d650"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 64973,
+      "trechos_chave": [
+        {
+          "id": "decreto-3029-1881-t1",
+          "rotulo": "Eleição direta (art. 1º)",
+          "ancora": "serão feitas por eleições directas, nas quaes tomarão parte todos os cidadãos alistados eleitores",
+          "por_que_importa": "Extingue o voto em dois graus para todos os cargos eletivos, exceto Regente.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "lei-saraiva-1881",
+            "votantes-1873"
+          ],
+          "movimentos_ids": [
+            "republicanismo"
+          ],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "decreto-3029-1881-t2",
+          "rotulo": "Renda mínima de 200$ (art. 2º)",
+          "ancora": "que tiver renda liquida annual não inferior a 200$ por bens de raiz, industria, commercio ou emprego",
+          "por_que_importa": "Mantém o censo de renda para ser eleitor.",
+          "tema": "censo",
+          "eleicoes_ids": [
+            "lei-saraiva-1881",
+            "votantes-1873"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "decreto-3029-1881-t3",
+          "rotulo": "Prova de saber ler e escrever (art. 6º, § 1º)",
+          "ancora": "e a de saber ler e escrever pela lettra e assignatura do cidadão que requerer a sua inclusão no alistamento",
+          "por_que_importa": "Primeira exigência de alfabetização como condição de alistamento: base do corte de analfabetos até 1985.",
+          "tema": "voto_analfabeto",
+          "eleicoes_ids": [
+            "lei-saraiva-1881",
+            "votantes-1873"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "decreto-3029-1881-t4",
+          "rotulo": "Título de eleitor",
+          "ancora": "exhiba seu titulo de eleitor",
+          "por_que_importa": "Cria o título de eleitor como prova do alistamento.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "lei-saraiva-1881"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-3029-9-janeiro-1881-546079-publicacaooriginal-59786-pl.html"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (Coleção de Leis do Império, 1881, vol. 1, parte 1). Eleição direta, título de eleitor, renda de 200$ e prova de saber ler e escrever.",
+        "lacunas": "O HTML da Câmara omite os artigos 3º e 4º (a numeração salta de 2º para 5º; aparecem incisos X a XII sem o caput). Não encontrei segunda fonte aberta do texto integral (tentei URLs prováveis do Planalto, que responderam 404; uma busca apontou apenas um livro de 1881 no acervo do Senado, que não processei). Tratar o texto como incompleto nesse trecho.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "lei-1269-1904",
+      "titulo": "Lei nº 1.269, de 15 de novembro de 1904 (Lei Rosa e Silva)",
+      "data": "1904-11-15",
+      "ano": 1904,
+      "tipo": "lei",
+      "subtipo": null,
+      "autoridade": "Congresso Nacional / Presidente Rodrigues Alves",
+      "status": "revogado",
+      "arquivo": "textos/lei-1269-1904.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1900-1909/lei-1269-15-novembro-1904-584304-publicacaooriginal-107057-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "6ba508a318b378baca20596c151084d0ef85088fe9966432c2609e357cd40e60",
+        "sha256_arquivo": "1473029851ea4607b3680d058b5565c6c2e40ded68ed664af3e6d8228cde273c"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 73407,
+      "trechos_chave": [
+        {
+          "id": "lei-1269-1904-t1",
+          "rotulo": "Só votam cidadãos alistados maiores de 21 anos (art. 1º)",
+          "ancora": "Nas eleições federaes, estadoaes e municipaes sómente serão admittidos a votar os cidadãos brazileiros, maiores de 21 annos",
+          "por_que_importa": "Define o corpo eleitoral da Primeira República.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "lei-rosa-silva-1904",
+            "pres-1910"
+          ],
+          "movimentos_ids": [
+            "republicanismo"
+          ],
+          "historia_ids": [
+            "c1891"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-1269-1904-t2",
+          "rotulo": "Exclusão dos analfabetos (art. 2º)",
+          "ancora": "2º, os analphabetos;",
+          "por_que_importa": "Reproduz a exclusão constitucional dos analfabetos e dos mendigos.",
+          "tema": "voto_analfabeto",
+          "eleicoes_ids": [
+            "lei-rosa-silva-1904",
+            "pres-1910"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "c1891"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-1269-1904-t3",
+          "rotulo": "Prova de alfabetização",
+          "ancora": "A de saber ler e escrever, escrevendo o alistando",
+          "por_que_importa": "Procedimento da prova: o alistando escreve perante a comissão.",
+          "tema": "voto_analfabeto",
+          "eleicoes_ids": [
+            "lei-rosa-silva-1904"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/lei/1900-1909/lei-1269-15-novembro-1904-584304-publicacaooriginal-107057-pl.html"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 18/11/1904). ATENÇÃO: o pedido citava \"Lei 3.208/1904\"; essa numeração está errada (Lei 3.208 é de 27/12/1916). A Lei Rosa e Silva é a Lei 1.269/1904.",
+        "lacunas": "O HTML da Câmara numera por engano um artigo como \"Art. 135\" no lugar de 13; preservado.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "constituicao-1891",
+      "titulo": "Constituição da República dos Estados Unidos do Brasil (1891)",
+      "data": "1891-02-24",
+      "ano": 1891,
+      "tipo": "constituição",
+      "subtipo": null,
+      "autoridade": "Congresso Nacional Constituinte",
+      "status": "revogado",
+      "arquivo": "textos/constituicao-1891.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35081-24-fevereiro-1891-532699-publicacaooriginal-15017-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "6d714fe5fe5597cace2b1867fb42590163c609b89e6edaa479b1b868a8941326",
+        "sha256_arquivo": "a665588678361ddb6e9e3859bb91a41b6d745522ba4bff839d51df7f2d83663e"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 59277,
+      "trechos_chave": [
+        {
+          "id": "constituicao-1891-t1",
+          "rotulo": "Eleitores: maiores de 21 anos (art. 70)",
+          "ancora": "Art. 70. São eleitores os cidadãos maiores de 21 annos, que se alistarem na fórma da lei.",
+          "por_que_importa": "Fim do voto censitário; voto aberto a homens alfabetizados.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "pres-1891",
+            "pres-1894"
+          ],
+          "movimentos_ids": [
+            "republicanismo"
+          ],
+          "historia_ids": [
+            "c1891"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1891-t2",
+          "rotulo": "Analfabetos e mendigos excluídos (art. 70, § 1º)",
+          "ancora": "2º Os analphabetos;",
+          "por_que_importa": "Exclui analfabetos, mendigos, praças de pré e religiosos de ordens: o corte de alfabetização vira constitucional.",
+          "tema": "voto_analfabeto",
+          "eleicoes_ids": [
+            "pres-1891",
+            "pres-1894",
+            "pres-1898"
+          ],
+          "movimentos_ids": [
+            "republicanismo"
+          ],
+          "historia_ids": [
+            "c1891"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1891-t3",
+          "rotulo": "Inelegibilidade dos não alistáveis (art. 70, § 2º)",
+          "ancora": "São inelegiveis os cidadãos não alistaveis.",
+          "por_que_importa": "Quem não pode votar também não pode ser votado.",
+          "tema": "inelegibilidade",
+          "eleicoes_ids": [
+            "pres-1891"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "c1891"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35081-24-fevereiro-1891-532699-publicacaooriginal-15017-pl.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/constituicao/constituicao91.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (Diário do Congresso Nacional 24/02/1891). Ortografia de época preservada. Comparação automática com o Planalto: 71.6% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 61.4% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "Falta o artigo 86 na extração (erro de transcrição da fonte ou numeração distinta); não investigado.",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao91.htm",
+          "cob_gravado_na_outra": 0.7157,
+          "cob_outra_no_gravado": 0.6144,
+          "strikes": 101
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "decreto-21076-1932",
+      "titulo": "Decreto nº 21.076, de 24 de fevereiro de 1932 (Código Eleitoral)",
+      "data": "1932-02-24",
+      "ano": 1932,
+      "tipo": "decreto",
+      "subtipo": null,
+      "autoridade": "Chefe do Governo Provisório (Getúlio Vargas)",
+      "status": "revogado",
+      "arquivo": "textos/decreto-21076-1932.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/decret/1930-1939/decreto-21076-24-fevereiro-1932-507583-publicacaooriginal-1-pe.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "96ffcec7ecad9e30cd7a8f906fd7976db64862bd14abcea48cd90ffc3d8182b0",
+        "sha256_arquivo": "9f02508dad78232849a512534cf6739a5d2c6ddcf99479224bee3076efac0bcb"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 68271,
+      "trechos_chave": [
+        {
+          "id": "decreto-21076-1932-t1",
+          "rotulo": "Voto feminino (art. 2º)",
+          "ancora": "E' eleitor o cidadão maior de 21 anos, sem distinção de sexo, alistado na fórma deste Codigo.",
+          "por_que_importa": "Primeira norma federal a admitir o voto das mulheres, sem distinção de sexo.",
+          "tema": "sufragio_feminino",
+          "eleicoes_ids": [
+            "codigo-eleitoral-1932"
+          ],
+          "movimentos_ids": [
+            "sufragismo-feminino",
+            "aliancaliberal-1930"
+          ],
+          "historia_ids": [
+            "rev-1930"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "decreto-21076-1932-t2",
+          "rotulo": "Justiça Eleitoral (art. 5º)",
+          "ancora": "É instituida a Justiça Eleitoral, com funções contenciosas e administrativas.",
+          "por_que_importa": "Tira das mãos do Legislativo e das oligarquias a verificação de poderes.",
+          "tema": "poder_judiciario",
+          "eleicoes_ids": [
+            "codigo-eleitoral-1932"
+          ],
+          "movimentos_ids": [
+            "aliancaliberal-1930"
+          ],
+          "historia_ids": [
+            "rev-1930"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "decreto-21076-1932-t3",
+          "rotulo": "Sufrágio universal, voto secreto, proporcional",
+          "ancora": "O sistema de eleição é o do sufragio universal direto, voto secreto e representação proporcional.",
+          "por_que_importa": "Fixa o voto secreto e a representação proporcional.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "codigo-eleitoral-1932"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "rev-1930"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto original conferido contra a fonte",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/decret/1930-1939/decreto-21076-24-fevereiro-1932-507583-publicacaooriginal-1-pe.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/decreto/1930-1949/d21076.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 26/02/1932). Voto feminino, voto secreto e Justiça Eleitoral. Comparação automática com o Planalto: 98.8% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 98.6% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "Sem lacunas de artigos (1 a 144 presentes).",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto/1930-1949/d21076.htm",
+          "cob_gravado_na_outra": 0.9882,
+          "cob_outra_no_gravado": 0.9859,
+          "strikes": 78
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "constituicao-1934",
+      "titulo": "Constituição da República dos Estados Unidos do Brasil (1934)",
+      "data": "1934-07-16",
+      "ano": 1934,
+      "tipo": "constituição",
+      "subtipo": null,
+      "autoridade": "Assembleia Nacional Constituinte",
+      "status": "revogado",
+      "arquivo": "textos/constituicao-1934.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/consti/1930-1939/constituicao-1934-16-julho-1934-365196-publicacaooriginal-1-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "650658f0f7fad9acb0fcd98b9684dbd7f7cad1d4142887837ccc3d64d85bbfdb",
+        "sha256_arquivo": "dc22b3c6c848f3823cedc2da09f365daabfbc3ae1dbf581c46b3441fd46456eb"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 148434,
+      "trechos_chave": [
+        {
+          "id": "constituicao-1934-t1",
+          "rotulo": "Eleitores de ambos os sexos, maiores de 18 anos (art. 108)",
+          "ancora": "Art 108. São eleitores os brasileiros de um e de outro sexo, maiores de 18 annos",
+          "por_que_importa": "Constitucionaliza o voto feminino e baixa a idade para 18 anos.",
+          "tema": "sufragio_feminino",
+          "eleicoes_ids": [
+            "const-1933",
+            "pres-1934"
+          ],
+          "movimentos_ids": [
+            "sufragismo-feminino"
+          ],
+          "historia_ids": [
+            "c1934"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1934-t2",
+          "rotulo": "Analfabetos continuam excluídos (art. 108, parágrafo único)",
+          "ancora": "a) os que não saibam ler e escrever;",
+          "por_que_importa": "Mantém a exclusão por alfabetização.",
+          "tema": "voto_analfabeto",
+          "eleicoes_ids": [
+            "const-1933",
+            "pres-1934"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "c1934"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1934-t3",
+          "rotulo": "Voto obrigatório com ressalva para mulheres (art. 109)",
+          "ancora": "O alistamento e o voto são obrigatorios para os homens e para as mulheres, quando estas exerçam funcção publica remunerada",
+          "por_que_importa": "Obrigatoriedade diferenciada: mulheres só obrigadas se exerciam função pública remunerada.",
+          "tema": "sufragio_feminino",
+          "eleicoes_ids": [
+            "pres-1934"
+          ],
+          "movimentos_ids": [
+            "sufragismo-feminino"
+          ],
+          "historia_ids": [
+            "c1934"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1934-t4",
+          "rotulo": "Justiça Eleitoral constitucionalizada (art. 82)",
+          "ancora": "Art 82. A Justiça Eleitoral terá por orgãos",
+          "por_que_importa": "Eleva a Justiça Eleitoral ao texto constitucional.",
+          "tema": "poder_judiciario",
+          "eleicoes_ids": [
+            "pres-1934"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "c1934"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/consti/1930-1939/constituicao-1934-16-julho-1934-365196-publicacaooriginal-1-pl.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/constituicao/constituicao34.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 16/07/1934, suplemento). Comparação automática com o Planalto: 89.4% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 89.8% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "Sem lacunas de artigos (1 a 187 presentes).",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao34.htm",
+          "cob_gravado_na_outra": 0.8943,
+          "cob_outra_no_gravado": 0.8979,
+          "strikes": 0
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "constituicao-1937",
+      "titulo": "Constituição dos Estados Unidos do Brasil (1937, \"Polaca\")",
+      "data": "1937-11-10",
+      "ano": 1937,
+      "tipo": "constituição",
+      "subtipo": null,
+      "autoridade": "Presidente Getúlio Vargas (carta outorgada)",
+      "status": "revogado",
+      "arquivo": "textos/constituicao-1937.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/consti/1930-1939/constituicao-35093-10-novembro-1937-532849-publicacaooriginal-15246-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "528be52748a39d27bf9240ae2201e1527d9e26c6212e182aa55e99fc96747508",
+        "sha256_arquivo": "bf9c14ec0e3cb80e4de77262961145a2bef796ba20dd8ee2c48820d2ad77ca1d"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 90657,
+      "trechos_chave": [
+        {
+          "id": "constituicao-1937-t1",
+          "rotulo": "Eleitores e exclusão de analfabetos (art. 117)",
+          "ancora": "Art. 117. São eleitores os brasileiros de um e de outro sexo, maiores de dezoito annos",
+          "por_que_importa": "Mantém o alistamento por sexos, ainda que sem eleições efetivas.",
+          "tema": "voto_analfabeto",
+          "eleicoes_ids": [
+            "estado-novo-1937"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "estado-novo-1937"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1937-t2",
+          "rotulo": "Dissolução do Legislativo (art. 178)",
+          "ancora": "Art. 178. São dissolvidos nesta data a Camara dos Deputados, o Senado Federal",
+          "por_que_importa": "Fecha o Parlamento e suspende eleições até plebiscito que não ocorreu.",
+          "tema": "poder_judiciario",
+          "eleicoes_ids": [
+            "estado-novo-1937"
+          ],
+          "movimentos_ids": [
+            "integralismo",
+            "getulismo-ptb"
+          ],
+          "historia_ids": [
+            "estado-novo-1937"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1937-t3",
+          "rotulo": "Plebiscito nunca realizado (art. 187)",
+          "ancora": "será submettida ao plebiscito nacional na forma regulada em decreto do Presidente da Republica",
+          "por_que_importa": "Condiciona a vigência a um plebiscito que não houve: a carta vigorou sem legitimação popular.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "estado-novo-1937"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "estado-novo-1937"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/consti/1930-1939/constituicao-35093-10-novembro-1937-532849-publicacaooriginal-15246-pl.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/constituicao/constituicao37.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 10/11/1937). O plebiscito previsto no art. 187 nunca foi realizado. Comparação automática com o Planalto: 71.4% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 66.0% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "Sem lacunas de artigos (1 a 187).",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao37.htm",
+          "cob_gravado_na_outra": 0.7136,
+          "cob_outra_no_gravado": 0.6603,
+          "strikes": 189
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "decreto-lei-7586-1945",
+      "titulo": "Decreto-Lei nº 7.586, de 28 de maio de 1945 (Lei Agamenon)",
+      "data": "1945-05-28",
+      "ano": 1945,
+      "tipo": "decreto",
+      "subtipo": "decreto-lei",
+      "autoridade": "Presidente Getúlio Vargas",
+      "status": "revogado",
+      "arquivo": "textos/decreto-lei-7586-1945.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-7586-28-maio-1945-417387-publicacaooriginal-1-pe.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "70a985d43dea8f57bd0db7f62733d1b01f36dcdecb4a12ef94788fd526f78900",
+        "sha256_arquivo": "bbefca1e06681749c843f5e5f753942c37c1ba356db4e2fbeb169a2928d4b75f"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 69266,
+      "trechos_chave": [
+        {
+          "id": "decreto-lei-7586-1945-t1",
+          "rotulo": "Eleitores de ambos os sexos (art. 2º)",
+          "ancora": "São eleitores os brasileiros, de um e outro anexo, maiores de 18 anos, alistados na conformidade desta lei.",
+          "por_que_importa": "Base do alistamento de 1945 (voto feminino já existente; alistamento ex officio de servidores).",
+          "tema": "sufragio_feminino",
+          "eleicoes_ids": [
+            "pres-1945"
+          ],
+          "movimentos_ids": [
+            "queremismo-1945",
+            "sufragismo-feminino"
+          ],
+          "historia_ids": [
+            "depos-1945"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "decreto-lei-7586-1945-t2",
+          "rotulo": "Analfabetos excluídos (art. 3º)",
+          "ancora": "a) os que não saibam ler e escrever;",
+          "por_que_importa": "Mantém o corte de alfabetização.",
+          "tema": "voto_analfabeto",
+          "eleicoes_ids": [
+            "pres-1945"
+          ],
+          "movimentos_ids": [
+            "queremismo-1945"
+          ],
+          "historia_ids": [
+            "depos-1945"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "decreto-lei-7586-1945-t3",
+          "rotulo": "Ressalva à obrigatoriedade para mulheres (art. 4º, g)",
+          "ancora": "g) as mulheres que não exerçam profissão lucrativa.",
+          "por_que_importa": "Dispensa do voto obrigatório para mulheres sem profissão lucrativa.",
+          "tema": "sufragio_feminino",
+          "eleicoes_ids": [
+            "pres-1945"
+          ],
+          "movimentos_ids": [
+            "sufragismo-feminino"
+          ],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto original conferido contra a fonte",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/declei/1940-1949/decreto-lei-7586-28-maio-1945-417387-publicacaooriginal-1-pe.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/decreto-lei/1937-1946/del7586.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 28/05/1945). A fonte traz \"de um e outro anexo\" (erro de grafia da fonte para \"sexo\"); preservado. Comparação automática com o Planalto: 99.6% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 98.2% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "Sem lacunas de artigos (1 a 146).",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/decreto-lei/1937-1946/del7586.htm",
+          "cob_gravado_na_outra": 0.9964,
+          "cob_outra_no_gravado": 0.9815,
+          "strikes": 10
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "constituicao-1946",
+      "titulo": "Constituição dos Estados Unidos do Brasil (1946)",
+      "data": "1946-09-18",
+      "ano": 1946,
+      "tipo": "constituição",
+      "subtipo": null,
+      "autoridade": "Assembleia Constituinte",
+      "status": "revogado",
+      "arquivo": "textos/constituicao-1946.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/consti/1940-1949/constituicao-1946-18-julho-1946-365199-publicacaooriginal-1-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "cc1018270b534179c94aa4a1b811ca7fa5185eb36f5964a50701028cbffc171a",
+        "sha256_arquivo": "1f1ae5b18d6748ab2af79f8f0ea51d0102683180661154b466ca99ff8a84852d"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 112985,
+      "trechos_chave": [
+        {
+          "id": "constituicao-1946-t1",
+          "rotulo": "Eleitores maiores de 18 anos (art. 131)",
+          "ancora": "Art. 131. São eleitores os brasileiros maiores de dezoito anos que se alistarem na forma da lei.",
+          "por_que_importa": "Volta ao voto direto, sem distinção de sexo.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "pres-1945",
+            "pres-1950",
+            "pres-1955"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "c1946"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1946-t2",
+          "rotulo": "Analfabetos não alistáveis (art. 132)",
+          "ancora": "Art. 132. Não podem alistar-se eleitores:",
+          "por_que_importa": "Exclui analfabetos e quem não se exprima em português.",
+          "tema": "voto_analfabeto",
+          "eleicoes_ids": [
+            "pres-1950",
+            "pres-1955",
+            "pres-1960"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "c1946"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1946-t3",
+          "rotulo": "Sufrágio universal, voto secreto (art. 134)",
+          "ancora": "Art. 134. O sufrágio é universal e direto; o voto é secreto",
+          "por_que_importa": "Garantias formais de voto direto e secreto.",
+          "tema": "voto_secreto",
+          "eleicoes_ids": [
+            "pres-1950"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "c1946"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/consti/1940-1949/constituicao-1946-18-julho-1946-365199-publicacaooriginal-1-pl.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/constituicao/constituicao46.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 19/09/1946). Comparação automática com o Planalto: 97.4% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 69.3% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "Sem lacunas de artigos (1 a 218).",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao46.htm",
+          "cob_gravado_na_outra": 0.9736,
+          "cob_outra_no_gravado": 0.6926,
+          "strikes": 121
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "lei-1164-1950",
+      "titulo": "Lei nº 1.164, de 24 de julho de 1950 (Código Eleitoral de 1950)",
+      "data": "1950-07-24",
+      "ano": 1950,
+      "tipo": "lei",
+      "subtipo": null,
+      "autoridade": "Congresso Nacional / Presidente Eurico Gaspar Dutra",
+      "status": "revogado",
+      "arquivo": "textos/lei-1164-1950.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1950-1959/lei-1164-24-julho-1950-361738-publicacaooriginal-1-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "247331194f3d2cd0b3b63bd342beb4c261b4f517b93eadcdfd0fcc2c673e8ebb",
+        "sha256_arquivo": "c9d5438b70539c3f835efa40d9396906134bb04e8fbc2c4dbbd3898346aea9a1"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 111392,
+      "trechos_chave": [
+        {
+          "id": "lei-1164-1950-t1",
+          "rotulo": "Eleitores: maiores de 18 anos (art. 2º)",
+          "ancora": "Art. 2º São eleitores os brasileiros maiores de 18 anos que se alistarem na forma da lei.",
+          "por_que_importa": "Base do alistamento das eleições de 1950 a 1962.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "pres-1950",
+            "pres-1955"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-1164-1950-t2",
+          "rotulo": "Analfabetos fora do alistamento (art. 3º, a)",
+          "ancora": "a) os analfabetos;",
+          "por_que_importa": "Reafirma a exclusão de analfabetos.",
+          "tema": "voto_analfabeto",
+          "eleicoes_ids": [
+            "pres-1950",
+            "pres-1955",
+            "pres-1960"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto original conferido contra a fonte",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/lei/1950-1959/lei-1164-24-julho-1950-361738-publicacaooriginal-1-pl.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/leis/1950-1969/l1164.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 26/07/1950). Comparação automática com o Planalto: 99.4% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 98.3% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "O HTML da Câmara não traz o artigo 14 (numeração salta); não investigado.",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/1950-1969/l1164.htm",
+          "cob_gravado_na_outra": 0.9935,
+          "cob_outra_no_gravado": 0.9829,
+          "strikes": 11
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "lei-4737-1965",
+      "titulo": "Lei nº 4.737, de 15 de julho de 1965 (Código Eleitoral)",
+      "data": "1965-07-15",
+      "ano": 1965,
+      "tipo": "lei",
+      "subtipo": null,
+      "autoridade": "Congresso Nacional / Presidente Castelo Branco",
+      "status": "vigente",
+      "arquivo": "textos/lei-4737-1965.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4737-15-julho-1965-356297-publicacaooriginal-1-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "78935fa7a9bec30e28cf6b3ec9ee01f50db962061ed7648b2a55a71507649aa0",
+        "sha256_arquivo": "94f60e1b5f40c5b1c3f3042c2265c0fad0e7a789ea0bfcef3c033800fa3175e4"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 206648,
+      "trechos_chave": [
+        {
+          "id": "lei-4737-1965-t1",
+          "rotulo": "Todo poder emana do povo (art. 2º)",
+          "ancora": "Art. 2º Todo poder emana do povo e será exercido, em seu nome, por mandatários escolhidos, direta e secretamente",
+          "por_que_importa": "Redigido sob o AI-1, que já permitia eleições indiretas; \"ressalvada a eleição indireta\".",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "ai2-1965",
+            "geral-1970"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ai1-1964"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-4737-1965-t2",
+          "rotulo": "Analfabetos não se alistam (art. 5º)",
+          "ancora": "Art. 5º Não podem alistar-se eleitores:",
+          "por_que_importa": "Mantém a exclusão de analfabetos vigente até a EC 25/1985.",
+          "tema": "voto_analfabeto",
+          "eleicoes_ids": [
+            "ai2-1965",
+            "geral-1970",
+            "geral-1974"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-4737-1965-t3",
+          "rotulo": "Proibição de aliança nas proporcionais (art. 105)",
+          "ancora": "Art. 105. Nas eleições pelo sistema de representação proporcional não será permitida aliança de partidos.",
+          "por_que_importa": "Regra original contra coligações proporcionais, mais tarde invertida (1997/2006) e restabelecida pela EC 97/2017.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "ai2-1965",
+            "geral-1970",
+            "ec97-fefc-2017"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-4737-1965-t4",
+          "rotulo": "Quociente eleitoral (art. 106)",
+          "ancora": "Art. 106. Determina-se o quociente eleitoral dividindo-se",
+          "por_que_importa": "Define o cálculo do quociente eleitoral, ainda vigente.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "geral-1970",
+            "ec97-fefc-2017"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/lei/1960-1969/lei-4737-15-julho-1965-356297-publicacaooriginal-1-pl.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/leis/l4737compilado.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 19/07/1965). Ainda é o Código Eleitoral vigente, mas com centenas de alterações; para o texto atual, ver o compilado do Planalto. Comparação automática com o Planalto: 86.5% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 83.2% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "Sem lacunas de artigos (1 a 383).",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l4737compilado.htm",
+          "cob_gravado_na_outra": 0.8651,
+          "cob_outra_no_gravado": 0.8319,
+          "strikes": 5
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": "https://www.planalto.gov.br/ccivil_03/leis/l4737compilado.htm"
+    },
+    {
+      "id": "ai-1-1964",
+      "titulo": "Ato Institucional nº 1 (9 de abril de 1964)",
+      "data": "1964-04-09",
+      "ano": 1964,
+      "tipo": "ato institucional",
+      "subtipo": null,
+      "autoridade": "Comando Supremo da Revolução (Comandantes-em-Chefe do Exército, Marinha e Aeronáutica)",
+      "status": "revogado",
+      "arquivo": "textos/ai-1-1964.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-01-64.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "0cd960951ce4e763a7c23ecd02e5fe7367636a45d50022a92ae3df89c2629461",
+        "sha256_arquivo": "15ad6a805407c047912c2b8db181da077ada3ed892c7d71ca1934420eaea8cf6"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 9130,
+      "trechos_chave": [
+        {
+          "id": "ai-1-1964-t1",
+          "rotulo": "Eleição indireta do Presidente (art. 2º)",
+          "ancora": "A eleição do Presidente e do Vice-Presidente da República, cujos mandatos terminarão em trinta e um (31) de janeiro de 1966, será realizada pela maioria absoluta dos membros do Congresso Nacional",
+          "por_que_importa": "Inaugura a eleição indireta do ciclo militar (Castelo Branco, 1964).",
+          "tema": "eleicao_indireta",
+          "eleicoes_ids": [
+            "indireta-1964"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ai1-1964",
+            "golpe-1964"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ai-1-1964-t2",
+          "rotulo": "Suspensão de direitos políticos e cassações (art. 10)",
+          "ancora": "poderão suspender os direitos políticos pelo prazo de dez (10) anos e cassar mandatos legislativos federais, estaduais e municipais",
+          "por_que_importa": "Base das cassações de 1964, fora do controle judicial.",
+          "tema": "suspensao_direitos_politicos",
+          "eleicoes_ids": [
+            "indireta-1964"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ai1-1964"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/ait/ait-01-64.htm"
+        ],
+        "observacoes": "Planalto (texto do ato com notas remissivas \"Vide\" entre parênteses, mantidas). Não consegui segunda fonte para comparar.",
+        "lacunas": "Fonte única.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "ai-2-1965",
+      "titulo": "Ato Institucional nº 2 (27 de outubro de 1965)",
+      "data": "1965-10-27",
+      "ano": 1965,
+      "tipo": "ato institucional",
+      "subtipo": null,
+      "autoridade": "Presidente Humberto Castelo Branco",
+      "status": "revogado",
+      "arquivo": "textos/ai-2-1965.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-02-65.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "0e40bd9a36e5a758c7f966afbb9623b4823b35e1b404691f496cdd6b216cf722",
+        "sha256_arquivo": "9aa1522d01e29645565d1aad737c56abf856c5fe5abf90c6b0f402df0ce58c47"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 19078,
+      "trechos_chave": [
+        {
+          "id": "ai-2-1965-t1",
+          "rotulo": "Extinção dos partidos (art. 18)",
+          "ancora": "Ficam extintos os atuais Partidos Políticos e cancelados os respectivos registros.",
+          "por_que_importa": "Fim do pluripartidarismo de 1945; origem do bipartidarismo Arena x MDB.",
+          "tema": "partidos",
+          "eleicoes_ids": [
+            "ai2-1965",
+            "indireta-1966",
+            "geral-1970"
+          ],
+          "movimentos_ids": [
+            "mdb-oposicao",
+            "udn-antigetulismo"
+          ],
+          "historia_ids": [
+            "ai2-1965"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ai-2-1965-t2",
+          "rotulo": "Ampliação do STF para 16 ministros (art. 6º)",
+          "ancora": "compor-se-á de dezesseis Ministros.",
+          "por_que_importa": "Aumento de 11 para 16 ministros, nomeados pelo Executivo.",
+          "tema": "poder_judiciario",
+          "eleicoes_ids": [
+            "ai2-1965"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ai2-1965"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ai-2-1965-t3",
+          "rotulo": "Eleição indireta do Presidente (art. 9º)",
+          "ancora": "A eleição do Presidente e do Vice-Presidente, da República será realizada pela maioria absoluta dos membros do Congresso Nacional",
+          "por_que_importa": "Institui a eleição indireta para 1966 em diante.",
+          "tema": "eleicao_indireta",
+          "eleicoes_ids": [
+            "ai2-1965",
+            "indireta-1966"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ai2-1965"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/ait/ait-02-65.htm"
+        ],
+        "observacoes": "Planalto (com notas remissivas). Extingue os partidos (art. 18) e amplia o STF para 16 ministros (art. 6º, que dá nova redação ao art. 98 da Constituição de 1946).",
+        "lacunas": "Fonte única.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "ai-3-1966",
+      "titulo": "Ato Institucional nº 3 (5 de fevereiro de 1966)",
+      "data": "1966-02-05",
+      "ano": 1966,
+      "tipo": "ato institucional",
+      "subtipo": null,
+      "autoridade": "Presidente Humberto Castelo Branco",
+      "status": "revogado",
+      "arquivo": "textos/ai-3-1966.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-03-66.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "577746dfc98d36ae37d10867e154239df1d19749b95420065535ccaffafa28ca",
+        "sha256_arquivo": "57e30e1958bc34be5a0a2c07a25a3622835703886b18ec81d9af850ce3525dbd"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 4022,
+      "trechos_chave": [
+        {
+          "id": "ai-3-1966-t1",
+          "rotulo": "Governadores eleitos pelas Assembleias (art. 1º)",
+          "ancora": "A eleição de Governador e Vice-Governador dos Estados far-se-á pela maioria absoluta dos membros da Assembléia Legislativa",
+          "por_que_importa": "Fim da eleição direta de governadores até 1982.",
+          "tema": "eleicao_indireta",
+          "eleicoes_ids": [
+            "indireta-1966",
+            "geral-1970"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ai3-ai4-1966"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ai-3-1966-t2",
+          "rotulo": "Candidaturas registradas por partido na Mesa da Assembleia",
+          "ancora": "Os Partidos inscreverão os candidatos até quinze dias antes do pleito perante a Mesa da Assembléia Legislativa",
+          "por_que_importa": "Mecânica da candidatura única de fato no Colégio estadual.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "indireta-1966"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ai3-ai4-1966"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/ait/ait-03-66.htm"
+        ],
+        "observacoes": "Planalto. Eleição indireta de governadores.",
+        "lacunas": "Fonte única.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "ai-5-1968",
+      "titulo": "Ato Institucional nº 5 (13 de dezembro de 1968)",
+      "data": "1968-12-13",
+      "ano": 1968,
+      "tipo": "ato institucional",
+      "subtipo": null,
+      "autoridade": "Presidente Artur da Costa e Silva",
+      "status": "revogado",
+      "arquivo": "textos/ai-5-1968.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-05-68.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "333431ecd2be822435dabf388c2a95e9fef74910368f97706fdd04ec61d7e0f0",
+        "sha256_arquivo": "8642102f862796daf92062f0ba82783ac77a66ede9b35c01b98ff51d2dba4b77"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 8832,
+      "trechos_chave": [
+        {
+          "id": "ai-5-1968-t1",
+          "rotulo": "Recesso do Legislativo (art. 2º)",
+          "ancora": "O Presidente da República poderá decretar o recesso do Congresso Nacional",
+          "por_que_importa": "Base legal do fechamento do Congresso em 1968 e 1977 (Ato Complementar 102).",
+          "tema": "poder_judiciario",
+          "eleicoes_ids": [
+            "pacote-abril-1977"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ai5-1968",
+            "pacote-1977"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ai-5-1968-t2",
+          "rotulo": "Suspensão de direitos políticos (art. 4º)",
+          "ancora": "poderá suspender os direitos políticos de quaisquer cidadãos pelo prazo de 10 anos",
+          "por_que_importa": "Poder discricionário de cassação.",
+          "tema": "suspensao_direitos_politicos",
+          "eleicoes_ids": [
+            "geral-1970"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ai5-1968"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ai-5-1968-t3",
+          "rotulo": "Suspensão do habeas corpus (art. 10)",
+          "ancora": "Fica suspensa a garantia de habeas corpus",
+          "por_que_importa": "Retira a garantia judicial contra prisão política.",
+          "tema": "poder_judiciario",
+          "eleicoes_ids": [],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ai5-1968"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/ait/ait-05-68.htm"
+        ],
+        "observacoes": "Planalto (com notas remissivas). Revogado pela EC 11/1978.",
+        "lacunas": "Fonte única.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "ai-6-1969",
+      "titulo": "Ato Institucional nº 6 (1º de fevereiro de 1969)",
+      "data": "1969-02-01",
+      "ano": 1969,
+      "tipo": "ato institucional",
+      "subtipo": null,
+      "autoridade": "Presidente Artur da Costa e Silva",
+      "status": "revogado",
+      "arquivo": "textos/ai-6-1969.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/ait/ait-06-69.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "f859b96b3398818f00e0e369c12c58d1176106b2f12bc336502339b1e1b9a9a5",
+        "sha256_arquivo": "6940842201a65406eef2653334f364589b8c3efd22f1ad43e84bd67303cec3ff"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 4885,
+      "trechos_chave": [
+        {
+          "id": "ai-6-1969-t1",
+          "rotulo": "STF reduzido a 11 ministros (art. 1º)",
+          "ancora": "compõe-se de 11 (onze) Ministros.",
+          "por_que_importa": "Corta de 16 para 11 o número de ministros do STF (aposentadorias compulsórias de 1969).",
+          "tema": "poder_judiciario",
+          "eleicoes_ids": [
+            "indireta-1969"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ai6-1969"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ai-6-1969-t2",
+          "rotulo": "Nomeação pelo Presidente com aprovação do Senado",
+          "ancora": "Os Ministros serão nomeados pelo Presidente da República, depois de aprovada a escolha pelo Senado Federal",
+          "por_que_importa": "Mecanismo de escolha dos ministros do STF.",
+          "tema": "poder_judiciario",
+          "eleicoes_ids": [
+            "indireta-1969"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ai6-1969"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/ait/ait-06-69.htm"
+        ],
+        "observacoes": "Planalto. Reduz o STF de 16 para 11 ministros e retira da apreciação judicial os atos do AI-5.",
+        "lacunas": "Fonte única.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "constituicao-1967",
+      "titulo": "Constituição do Brasil (1967)",
+      "data": "1967-01-24",
+      "ano": 1967,
+      "tipo": "constituição",
+      "subtipo": null,
+      "autoridade": "Congresso Nacional (sob o AI-4)",
+      "status": "revogado",
+      "arquivo": "textos/constituicao-1967.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/consti/1960-1969/constituicao-1967-24-janeiro-1967-365194-publicacaooriginal-1-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "16445cb05064c9d66f2e82f61ab20f586de475d95b1797337b96a78fd3f238c1",
+        "sha256_arquivo": "bebf3ce957430813f6c945052c80fd7b9a8d859d88aaff8bbb03599b1d462aa2"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 140473,
+      "trechos_chave": [
+        {
+          "id": "constituicao-1967-t1",
+          "rotulo": "Colégio eleitoral para Presidente (art. 76)",
+          "ancora": "Art. 76. O Presidente será eleito pelo sufrágio de um colégio eleitoral",
+          "por_que_importa": "Constitucionaliza a eleição indireta do Presidente.",
+          "tema": "eleicao_indireta",
+          "eleicoes_ids": [
+            "indireta-1966",
+            "indireta-1969"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "c1967"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1967-t2",
+          "rotulo": "Eleitores: maiores de 18 anos (art. 142)",
+          "ancora": "Art. 142. São eleitores os brasileiros maiores de dezoito anos, alistados na forma da lei.",
+          "por_que_importa": "Mantém voto obrigatório e exclusão de analfabetos.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "indireta-1966",
+            "geral-1970"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "c1967"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1967-t3",
+          "rotulo": "Analfabetos não se alistam (art. 142, § 3º)",
+          "ancora": "§ 3º Não podem alistar-se eleitores:",
+          "por_que_importa": "Mantém a exclusão dos analfabetos.",
+          "tema": "voto_analfabeto",
+          "eleicoes_ids": [
+            "geral-1970"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "c1967"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/consti/1960-1969/constituicao-1967-24-janeiro-1967-365194-publicacaooriginal-1-pl.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/constituicao/constituicao67.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 24/01/1967). Comparação automática com o Planalto: 97.5% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 95.6% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "Sem lacunas de artigos (1 a 189).",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao67.htm",
+          "cob_gravado_na_outra": 0.9754,
+          "cob_outra_no_gravado": 0.9556,
+          "strikes": 37
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "ec-1-1969",
+      "titulo": "Emenda Constitucional nº 1, de 17 de outubro de 1969 (Constituição de 1967 reeditada)",
+      "data": "1969-10-17",
+      "ano": 1969,
+      "tipo": "emenda",
+      "subtipo": null,
+      "autoridade": "Ministros militares (Junta Militar) no exercício do Executivo",
+      "status": "revogado",
+      "arquivo": "textos/ec-1-1969.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/emecon/1960-1969/emendaconstitucional-1-17-outubro-1969-364989-publicacaooriginal-1-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "699fb2b61d87e67bb8314d03f86684379a9185b379fe4f0209116db92fc6dcb7",
+        "sha256_arquivo": "c36dcb574f354ec3167655d20c8c25a1cdef7a9e1fbc89cde7163db74d06261e"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 156443,
+      "trechos_chave": [
+        {
+          "id": "ec-1-1969-t1",
+          "rotulo": "Sufrágio universal e voto direto e secreto, com ressalvas (art. 148)",
+          "ancora": "Art. 148. O sufrágio é universal e o voto é direto e secreto, salvo nos casos previstos nesta Constituição",
+          "por_que_importa": "A ressalva legitima as eleições indiretas de presidente e governador.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "indireta-1969",
+            "geral-1970",
+            "indireta-1974"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ec1-1969"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ec-1-1969-t2",
+          "rotulo": "Colégio eleitoral presidencial (art. 74)",
+          "ancora": "Art. 74. O Presidente será eleito, entre os brasileiros maiores de trinta e cinco anos",
+          "por_que_importa": "Eleição do Presidente pelo colégio eleitoral.",
+          "tema": "eleicao_indireta",
+          "eleicoes_ids": [
+            "indireta-1969",
+            "indireta-1974",
+            "indireta-1978"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ec1-1969"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ec-1-1969-t3",
+          "rotulo": "Analfabetos não se alistam (art. 147, § 3º, a)",
+          "ancora": "a) os analfabetos;",
+          "por_que_importa": "Mantém a exclusão de analfabetos até EC 25/1985.",
+          "tema": "voto_analfabeto",
+          "eleicoes_ids": [
+            "geral-1970",
+            "geral-1974"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ec1-1969"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto original conferido contra a fonte",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/emecon/1960-1969/emendaconstitucional-1-17-outubro-1969-364989-publicacaooriginal-1-pl.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc01-69.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 20/10/1969). Edita novo texto integral da Constituição de 1967. Comparação automática com o Planalto: 99.9% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 99.8% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "Sem lacunas de artigos (1 a 200).",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc01-69.htm",
+          "cob_gravado_na_outra": 0.999,
+          "cob_outra_no_gravado": 0.9976,
+          "strikes": 0
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "lei-6339-1976",
+      "titulo": "Lei nº 6.339, de 1º de julho de 1976 (Lei Falcão)",
+      "data": "1976-07-01",
+      "ano": 1976,
+      "tipo": "lei",
+      "subtipo": null,
+      "autoridade": "Presidente Ernesto Geisel (ministro da Justiça Armando Falcão)",
+      "status": "revogado",
+      "arquivo": "textos/lei-6339-1976.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1970-1979/lei-6339-1-julho-1976-357658-publicacaooriginal-1-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "b895a94b20bd8b752a3627fa14344248c2d846d54602cdbaf3dfbca3fddd26ae",
+        "sha256_arquivo": "ff319a11268a184afb6386adf77f484810a970c787339587b95453ce9a57c010"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 5067,
+      "trechos_chave": [
+        {
+          "id": "lei-6339-1976-t1",
+          "rotulo": "Propaganda limitada a legenda, currículo e número",
+          "ancora": "I - na propaganda, os partidos limitar-se-ão a mencionar a legenda, o currículo e o número do registro dos candidatos na Justiça Eleitoral",
+          "por_que_importa": "Núcleo da Lei Falcão: sem debate, sem discurso do candidato no rádio e TV.",
+          "tema": "censura_propaganda",
+          "eleicoes_ids": [
+            "lei-falcao-1976",
+            "geral-1978"
+          ],
+          "movimentos_ids": [
+            "mdb-oposicao"
+          ],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-6339-1976-t2",
+          "rotulo": "Fotografias na televisão",
+          "ancora": "bem como a divulgar, pela televisão, suas fotografias",
+          "por_que_importa": "Restringe a presença do candidato na TV a fotografias.",
+          "tema": "censura_propaganda",
+          "eleicoes_ids": [
+            "lei-falcao-1976"
+          ],
+          "movimentos_ids": [
+            "mdb-oposicao"
+          ],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto original conferido contra a fonte",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/lei/1970-1979/lei-6339-1-julho-1976-357658-publicacaooriginal-1-pl.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/leis/1970-1979/l6339.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 02/07/1976). Comparação automática com o Planalto: 99.5% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 96.1% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "O artigo 2º aparece na fonte; a extração numérica por padrão não o detectou devido a formatação, mas o texto está presente.",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/1970-1979/l6339.htm",
+          "cob_gravado_na_outra": 0.9947,
+          "cob_outra_no_gravado": 0.9613,
+          "strikes": 15
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "ato-complementar-102-1977",
+      "titulo": "Ato Complementar nº 102, de 1º de abril de 1977 (recesso do Congresso)",
+      "data": "1977-04-01",
+      "ano": 1977,
+      "tipo": "ato institucional",
+      "subtipo": "ato complementar",
+      "autoridade": "Presidente Ernesto Geisel",
+      "status": "histórico",
+      "arquivo": "textos/ato-complementar-102-1977.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/acp/acp-102-77.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "e9e35e2974963faa21a8f3206510e9b5b85a2108d7c22c4f64ccbb5fde1d07f5",
+        "sha256_arquivo": "48c097c870f40b69f3a38aee7efd810b3e8ebc66fa49121c6228466bc9bb56a2"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 1222,
+      "trechos_chave": [
+        {
+          "id": "ato-complementar-102-1977-t1",
+          "rotulo": "Decreta o recesso do Congresso",
+          "ancora": "Fica decretado o recesso do Congresso Nacional, nos termos do art. 2º e seus parágrafos do Ato Institucional n. 5",
+          "por_que_importa": "Fecha o Congresso por cerca de duas semanas (1º a 14/04/1977) para impor o Pacote de Abril.",
+          "tema": "poder_judiciario",
+          "eleicoes_ids": [
+            "pacote-abril-1977"
+          ],
+          "movimentos_ids": [
+            "mdb-oposicao"
+          ],
+          "historia_ids": [
+            "pacote-1977",
+            "ai5-1968"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ato-complementar-102-1977-t2",
+          "rotulo": "Fundamento no AI-5",
+          "ancora": "fica decretado o recesso do Congresso Nacional.",
+          "por_que_importa": "Mostra que o recesso se apoia no AI-5 e abre competência do Executivo para legislar.",
+          "tema": "poder_judiciario",
+          "eleicoes_ids": [
+            "pacote-abril-1977"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "pacote-1977"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/acp/acp-102-77.htm"
+        ],
+        "observacoes": "Planalto. O ato é de 1º/04/1977 e foi publicado no DOU de 13/04/1977, um dia antes da EC 8; suspenso pelo Ato Complementar 103 (14/04/1977).",
+        "lacunas": "Fonte única.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "ec-8-1977",
+      "titulo": "Emenda Constitucional nº 8, de 14 de abril de 1977 (Pacote de Abril)",
+      "data": "1977-04-14",
+      "ano": 1977,
+      "tipo": "emenda",
+      "subtipo": null,
+      "autoridade": "Presidente Ernesto Geisel (com base no AI-5, durante o recesso do Congresso)",
+      "status": "revogado",
+      "arquivo": "textos/ec-8-1977.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc08-77.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "014cc0b51f078694db35a2d6e206b4c402c6e35270423c27a41bbc0c24c8efe1",
+        "sha256_arquivo": "2a5b2973a41f4edfc67858140e3c8f5b061b7e94c7172e359e11ca89e8ae38ef"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 8684,
+      "trechos_chave": [
+        {
+          "id": "ec-8-1977-t1",
+          "rotulo": "Colégio eleitoral para governador",
+          "ancora": "far-se-á pelo sufrágio de um colégio eleitoral, em sessão pública e mediante votação nominal, obedecidas as seguintes normas:",
+          "por_que_importa": "Indireta para governadores em 1978, com delegados das Câmaras Municipais.",
+          "tema": "eleicao_indireta",
+          "eleicoes_ids": [
+            "pacote-abril-1977",
+            "indireta-1978"
+          ],
+          "movimentos_ids": [
+            "mdb-oposicao"
+          ],
+          "historia_ids": [
+            "pacote-1977"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ec-8-1977-t2",
+          "rotulo": "Motivação: recesso decretado",
+          "ancora": "foi decretado, a partir dessa data, o recesso do Congresso Nacional",
+          "por_que_importa": "Emenda promulgada pelo Executivo durante o recesso do Congresso.",
+          "tema": "poder_judiciario",
+          "eleicoes_ids": [
+            "pacote-abril-1977"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "pacote-1977",
+            "ai5-1968"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ec-8-1977-t3",
+          "rotulo": "Voto cumulativo nas delegações",
+          "ancora": "admitindo-se o voto cumulativo",
+          "por_que_importa": "Garante a maioria governista nos colégios estaduais.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "indireta-1978"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "pacote-1977"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc08-77.htm"
+        ],
+        "observacoes": "Planalto. Confirmado: a EC 8 é de 14/04/1977 (a EC 7, de 13/04/1977, reformou o Judiciário). Contém o colégio eleitoral para governador (art. 13), voto cumulativo de delegados e eleições municipais simultâneas. Outros dispositivos da emenda (por exemplo sobre o Senado) não foram analisados aqui.",
+        "lacunas": "Fonte única. O texto traz reticências (\"......\") onde a EC remete a dispositivos mantidos; não é o texto consolidado da Constituição.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "ec-22-1982",
+      "titulo": "Emenda Constitucional nº 22, de 29 de junho de 1982",
+      "data": "1982-06-29",
+      "ano": 1982,
+      "tipo": "emenda",
+      "subtipo": null,
+      "autoridade": "Mesas da Câmara dos Deputados e do Senado Federal",
+      "status": "revogado",
+      "arquivo": "textos/ec-22-1982.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc22-82.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "79750c4da19a08d9fb693bed5e1a52b41a664e3f2ec99a222c3e861539f453fb",
+        "sha256_arquivo": "cd94ecb14798bcac8c33d954ff887720e0e70c062dec1da2976bef97134d9caa"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 10835,
+      "trechos_chave": [
+        {
+          "id": "ec-22-1982-t1",
+          "rotulo": "Eleição direta de prefeitos e vereadores",
+          "ancora": "pela eleição direta de prefeito, vice-prefeito e vereadores, realizada simultaneamente em todo o País;",
+          "por_que_importa": "Restitui a eleição direta de prefeitos (capitais e áreas de segurança nacional ficaram de fora até 1985).",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "geral-1982"
+          ],
+          "movimentos_ids": [
+            "mdb-oposicao"
+          ],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ec-22-1982-t2",
+          "rotulo": "Distrital misto previsto em lei",
+          "ancora": "os deputados federais e estaduais serão eleitos pelo sistema distrital misto, majoritário e proporcional",
+          "por_que_importa": "Primeira previsão constitucional do voto distrital misto (nunca regulamentado).",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "geral-1982"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc22-82.htm"
+        ],
+        "observacoes": "Planalto. Eleição direta de prefeitos em todo o País (art. 15, I), previsão de voto distrital misto para deputados (art. 148, parágrafo único) e regras transitórias para 15/11/1982.",
+        "lacunas": "Fonte única. O texto reproduz só os dispositivos alterados, com reticências.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "ec-25-1985",
+      "titulo": "Emenda Constitucional nº 25, de 15 de maio de 1985",
+      "data": "1985-05-15",
+      "ano": 1985,
+      "tipo": "emenda",
+      "subtipo": null,
+      "autoridade": "Mesas da Câmara dos Deputados e do Senado Federal",
+      "status": "revogado",
+      "arquivo": "textos/ec-25-1985.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc25-85.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "2f82d976aead89731d9ce8494bf9506c1008982cfb6fcb63f79df5627ea40b40",
+        "sha256_arquivo": "c6d7d35b944bab0bb1a3e581fc07dd88866ccd21ca58999f2ad8f523ea32d837"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 9045,
+      "trechos_chave": [
+        {
+          "id": "ec-25-1985-t1",
+          "rotulo": "Eleição direta do Presidente (art. 74)",
+          "ancora": "por sufrágio universal e voto direto e secreto, em todo o País, cento e vinte dias antes do término do mandato presidencial",
+          "por_que_importa": "Restitui o voto direto para Presidente, mas valendo só para depois do mandato de Sarney.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "ec25-1985",
+            "colegio-1985",
+            "const-1986"
+          ],
+          "movimentos_ids": [
+            "diretas-ja"
+          ],
+          "historia_ids": [
+            "ec25-26-1985",
+            "colegio-1985"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ec-25-1985-t2",
+          "rotulo": "Voto dos analfabetos remetido à lei (art. 147, § 4º)",
+          "ancora": "A Lei disporá sobre a forma pela qual possam os analfabetos alistar-se eleitores e exercer o direito de voto.",
+          "por_que_importa": "Fim da exclusão constitucional dos analfabetos após quase um século (desde 1881).",
+          "tema": "voto_analfabeto",
+          "eleicoes_ids": [
+            "ec25-1985",
+            "const-1986"
+          ],
+          "movimentos_ids": [
+            "diretas-ja"
+          ],
+          "historia_ids": [
+            "ec25-26-1985"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ec-25-1985-t3",
+          "rotulo": "Analfabetos continuam inelegíveis (art. 150)",
+          "ancora": "Art. 150. São inelegíveis os inalistáveis e os analfabetos.",
+          "por_que_importa": "O direito de voto foi ampliado, o de ser votado não.",
+          "tema": "inelegibilidade",
+          "eleicoes_ids": [
+            "ec25-1985"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ec25-26-1985"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ec-25-1985-t4",
+          "rotulo": "Partidos podem se reorganizar (art. 6º)",
+          "ancora": "poderão reorganizar-se, desde que atendidos os princípios estabelecidos no \"caput\" e itens do art. 152 da Constituição",
+          "por_que_importa": "Reabre o espaço para partidos antes proscritos.",
+          "tema": "partidos",
+          "eleicoes_ids": [
+            "ec25-1985"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ec25-26-1985"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc_anterior1988/emc25-85.htm"
+        ],
+        "observacoes": "Planalto. Confirmado: a EC 25/1985 restabelece a eleição direta do Presidente (art. 74) e prevê que a lei disponha sobre o alistamento e voto dos analfabetos (art. 147, § 4º), mas MANTÉM analfabetos inelegíveis (art. 150) e restabelece partidos (art. 6º). A convocação da Constituinte foi a EC 26/1985 (não incluída no acervo).",
+        "lacunas": "Fonte única. A \"forma pela qual\" os analfabetos votam foi regulada por lei posterior (não incluída).",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "constituicao-1988",
+      "titulo": "Constituição da República Federativa do Brasil (redação original de 5/10/1988)",
+      "data": "1988-10-05",
+      "ano": 1988,
+      "tipo": "constituição",
+      "subtipo": null,
+      "autoridade": "Assembleia Nacional Constituinte",
+      "status": "vigente",
+      "arquivo": "textos/constituicao-1988.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-publicacaooriginal-1-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "eb78385f359fe2e30b9d97b708f00dcc675d25db3890497dcdb929a418ecd1cc",
+        "sha256_arquivo": "f136c858491f593751c59436b0cfbd795c827086ad70ab22565d43fafecdb5f1"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 263756,
+      "trechos_chave": [
+        {
+          "id": "constituicao-1988-t1",
+          "rotulo": "Soberania popular e sufrágio universal (art. 14, caput)",
+          "ancora": "A soberania popular será exercida pelo sufrágio universal e pelo voto direto e secreto, com valor igual para todos",
+          "por_que_importa": "Fundamento do voto na Constituição vigente.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "cf-1988",
+            "const-1986",
+            "pres-1989"
+          ],
+          "movimentos_ids": [
+            "constituinte-1987"
+          ],
+          "historia_ids": [
+            "cf88-1988"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1988-t2",
+          "rotulo": "Voto facultativo para analfabetos (art. 14, § 1º, II, a)",
+          "ancora": "II - facultativos para:",
+          "por_que_importa": "Analfabetos votam, mas facultativamente (como idosos e adolescentes de 16 e 17 anos).",
+          "tema": "voto_analfabeto",
+          "eleicoes_ids": [
+            "cf-1988",
+            "pres-1989"
+          ],
+          "movimentos_ids": [
+            "constituinte-1987"
+          ],
+          "historia_ids": [
+            "cf88-1988"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1988-t3",
+          "rotulo": "Analfabetos inelegíveis (art. 14, § 4º)",
+          "ancora": "§ 4º São inelegíveis os inalistáveis e os analfabetos.",
+          "por_que_importa": "A inelegibilidade de analfabetos permanece na redação original.",
+          "tema": "inelegibilidade",
+          "eleicoes_ids": [
+            "cf-1988"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "cf88-1988"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1988-t4",
+          "rotulo": "Sem reeleição para o Executivo (art. 14, § 5º, original)",
+          "ancora": "§ 5º São inelegíveis para os mesmos cargos, no período subseqüente, o Presidente da República",
+          "por_que_importa": "A redação original proíbe a reeleição no Executivo; alterada pela EC 16/1997.",
+          "tema": "reeleicao",
+          "eleicoes_ids": [
+            "cf-1988",
+            "ec16-1997"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "cf88-1988",
+            "ec16-1997"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1988-t5",
+          "rotulo": "Anualidade eleitoral (art. 16, original)",
+          "ancora": "Art. 16. A lei que alterar o processo eleitoral só entrará em vigor um ano após sua promulgação.",
+          "por_que_importa": "Redação original: um ano após a promulgação (alterada pela EC 4/1993 para anualidade da eleição).",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "cf-1988"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "cf88-1988"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1988-t6",
+          "rotulo": "Liberdade de criação de partidos (art. 17, original)",
+          "ancora": "Art. 17. É livre a criação, fusão, incorporação e extinção de partidos políticos",
+          "por_que_importa": "Pluripartidarismo; a cláusula de desempenho só viria com a EC 97/2017.",
+          "tema": "partidos",
+          "eleicoes_ids": [
+            "cf-1988",
+            "ec97-fefc-2017"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "cf88-1988"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1988-t7",
+          "rotulo": "Proibição de cassação de direitos políticos (art. 15)",
+          "ancora": "Art. 15. É vedada a cassação de direitos políticos",
+          "por_que_importa": "Contra o AI-5 e as cassações.",
+          "tema": "suspensao_direitos_politicos",
+          "eleicoes_ids": [
+            "cf-1988"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "cf88-1988"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1988-t8",
+          "rotulo": "Justiça Eleitoral (art. 118)",
+          "ancora": "Art. 118. São órgãos da Justiça Eleitoral:",
+          "por_que_importa": "Estrutura da Justiça Eleitoral na CF.",
+          "tema": "poder_judiciario",
+          "eleicoes_ids": [
+            "cf-1988"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "cf88-1988"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1988-t9",
+          "rotulo": "Direitos originários dos índios (art. 231)",
+          "ancora": "Art. 231. São reconhecidos aos índios sua organização social",
+          "por_que_importa": "Fundamento das terras indígenas e das disputas sobre marco temporal.",
+          "tema": "terra_indigena",
+          "eleicoes_ids": [
+            "cf-1988"
+          ],
+          "movimentos_ids": [
+            "constituinte-1987"
+          ],
+          "historia_ids": [
+            "indigena-231-1988",
+            "cf88-1988"
+          ],
+          "indigenas_ids": [
+            "constituinte-1987-88"
+          ]
+        },
+        {
+          "id": "constituicao-1988-t10",
+          "rotulo": "Legitimidade processual dos índios (art. 232)",
+          "ancora": "Art. 232. Os índios, suas comunidades e organizações são partes legítimas para ingressar em juízo",
+          "por_que_importa": "Garante acesso à Justiça aos povos indígenas.",
+          "tema": "terra_indigena",
+          "eleicoes_ids": [
+            "cf-1988"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "indigena-231-1988"
+          ],
+          "indigenas_ids": [
+            "constituinte-1987-88"
+          ]
+        },
+        {
+          "id": "constituicao-1988-t11",
+          "rotulo": "Cláusulas pétreas (art. 60, § 4º)",
+          "ancora": "§ 4º Não será objeto de deliberação a proposta de emenda tendente a abolir:",
+          "por_que_importa": "Protege o voto direto, secreto, universal e periódico contra emendas.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "cf-1988"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "cf88-1988"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "constituicao-1988-t12",
+          "rotulo": "Igualdade entre homens e mulheres (art. 5º, I)",
+          "ancora": "I - homens e mulheres são iguais em direitos e obrigações, nos termos desta Constituição;",
+          "por_que_importa": "Fecha o ciclo do sufrágio feminino com igualdade geral.",
+          "tema": "sufragio_feminino",
+          "eleicoes_ids": [
+            "cf-1988"
+          ],
+          "movimentos_ids": [
+            "sufragismo-feminino"
+          ],
+          "historia_ids": [
+            "cf88-1988"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/consti/1988/constituicao-1988-5-outubro-1988-322142-publicacaooriginal-1-pl.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 05/10/1988), com preâmbulo. Versão ORIGINAL (sem as emendas). O ADCT original está em arquivo próprio (adct-1988). O texto vigente é outro e está no Planalto/Câmara. Comparação automática com o Planalto: 97.7% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 42.2% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "Sem lacunas de artigos (1 a 245). O ADCT consta em adct-1988.",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+          "cob_gravado_na_outra": 0.9773,
+          "cob_outra_no_gravado": 0.4222,
+          "strikes": 773
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": "https://www.planalto.gov.br/ccivil_03/constituicao/constituicao.htm",
+      "anexo_alteracoes_relevantes": [
+        {
+          "doc_id": "ec-16-1997",
+          "ec": "EC 16/1997",
+          "data": "1997-06-04",
+          "tema": "reeleicao",
+          "resumo": "Permite uma reeleição para Presidente, governadores e prefeitos (art. 14, § 5º) e fixa mandato de quatro anos (art. 82)."
+        },
+        {
+          "doc_id": "ec-52-2006",
+          "ec": "EC 52/2006",
+          "data": "2006-03-08",
+          "tema": "sistema",
+          "resumo": "Acaba com a obrigatoriedade de vinculação das coligações entre esferas (verticalização), art. 17, § 1º."
+        },
+        {
+          "doc_id": "ec-97-2017",
+          "ec": "EC 97/2017",
+          "data": "2017-10-04",
+          "tema": "sistema",
+          "resumo": "Veda coligações em eleições proporcionais e cria cláusula de desempenho escalonada para acesso a fundo partidário e TV (art. 17, §§ 1º e 3º)."
+        },
+        {
+          "doc_id": "ec-111-2021",
+          "ec": "EC 111/2021",
+          "data": "2021-09-28",
+          "tema": "financiamento",
+          "resumo": "Conta em dobro os votos em mulheres e negros para a Câmara (2022 a 2030) na divisão de fundos; consultas populares com as eleições municipais; posse presidencial em 5 de janeiro."
+        },
+        {
+          "doc_id": "ec-117-2022",
+          "ec": "EC 117/2022",
+          "data": "2022-04-05",
+          "tema": "financiamento",
+          "resumo": "Reserva mínima de 5% do fundo partidário para a participação política das mulheres (art. 17, §§ 7º e 8º)."
+        }
+      ]
+    },
+    {
+      "id": "adct-1988",
+      "titulo": "Ato das Disposições Constitucionais Transitórias (ADCT, redação original de 5/10/1988)",
+      "data": "1988-10-05",
+      "ano": 1988,
+      "tipo": "constituição",
+      "subtipo": "ADCT",
+      "autoridade": "Assembleia Nacional Constituinte",
+      "status": "vigente",
+      "arquivo": "textos/adct-1988.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/conadc/1988/constituicao.adct-1988-5-outubro-1988-322234-publicacaooriginal-1-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "a337f06e5f3ef53efffbb7f187fc0fa3ffc6a13255c43e1874b20aab7b8dec48",
+        "sha256_arquivo": "73d9253aa4f745d2f75944f134e559eaff6e3f4d2979c6dbb6cd50fc99d2fc88"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 62385,
+      "trechos_chave": [
+        {
+          "id": "adct-1988-t1",
+          "rotulo": "Quilombos: propriedade definitiva (art. 68)",
+          "ancora": "Art. 68. Aos remanescentes das comunidades dos quilombos que estejam ocupando suas terras é reconhecida a propriedade definitiva",
+          "por_que_importa": "Base constitucional dos direitos territoriais quilombolas (Decreto 4.887/2003).",
+          "tema": "direitos_quilombolas",
+          "eleicoes_ids": [
+            "cf-1988"
+          ],
+          "movimentos_ids": [
+            "constituinte-1987"
+          ],
+          "historia_ids": [
+            "adct68-1988",
+            "cf88-1988"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "adct-1988-t2",
+          "rotulo": "Plebiscito de 1993 (art. 2º)",
+          "ancora": "o eleitorado definirá, através de plebiscito, a forma (república ou monarquia constitucional) e o sistema de governo (parlamentarismo ou presidencialismo)",
+          "por_que_importa": "Previu o plebiscito de 7/9/1993, antecipado para 21/4/1993.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "cf-1988",
+            "plebiscito-1993"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "cf88-1988"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/conadc/1988/constituicao.adct-1988-5-outubro-1988-322234-publicacaooriginal-1-pl.html"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original. Texto da época, sem as emendas posteriores.",
+        "lacunas": "Sem verificação de artigos individual.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "lc-64-1990",
+      "titulo": "Lei Complementar nº 64, de 18 de maio de 1990 (Lei das Inelegibilidades)",
+      "data": "1990-05-18",
+      "ano": 1990,
+      "tipo": "lei",
+      "subtipo": "lei complementar",
+      "autoridade": "Congresso Nacional / Presidente Fernando Collor",
+      "status": "vigente",
+      "arquivo": "textos/lc-64-1990.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/leicom/1990/leicomplementar-64-18-maio-1990-363991-publicacaooriginal-1-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "e9f22c6f3cdcbf46f7b05067e41a16b8784d460d15319f6d5841b49025337aa6",
+        "sha256_arquivo": "6f47f0280768a01170658aff66077e2d3c59e15c295a4775fa3ea9378d9b245a"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 26300,
+      "trechos_chave": [
+        {
+          "id": "lc-64-1990-t1",
+          "rotulo": "Inelegíveis para qualquer cargo (art. 1º, I, a)",
+          "ancora": "a) os inalistáveis e os analfabetos;",
+          "por_que_importa": "Repete na lei complementar a inelegibilidade constitucional.",
+          "tema": "inelegibilidade",
+          "eleicoes_ids": [
+            "pres-1994",
+            "pres-1998"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "cf88-1988"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lc-64-1990-t2",
+          "rotulo": "Rol de inelegibilidades (art. 1º)",
+          "ancora": "Art. 1º São inelegíveis:",
+          "por_que_importa": "Lista os casos que a LC 135/2010 (Ficha Limpa) ampliaria.",
+          "tema": "inelegibilidade",
+          "eleicoes_ids": [
+            "pres-1994",
+            "pres-2010"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/leicom/1990/leicomplementar-64-18-maio-1990-363991-publicacaooriginal-1-pl.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp64.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 21/05/1990). Redação alterada por LC 81/1994, LC 135/2010 etc. Comparação automática com o Planalto: 95.6% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 64.2% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "Sem lacunas.",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp64.htm",
+          "cob_gravado_na_outra": 0.9563,
+          "cob_outra_no_gravado": 0.6421,
+          "strikes": 22
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp64.htm"
+    },
+    {
+      "id": "lc-135-2010",
+      "titulo": "Lei Complementar nº 135, de 4 de junho de 2010 (Lei da Ficha Limpa)",
+      "data": "2010-06-04",
+      "ano": 2010,
+      "tipo": "lei",
+      "subtipo": "lei complementar",
+      "autoridade": "Congresso Nacional / Presidente Lula (iniciativa popular)",
+      "status": "vigente",
+      "arquivo": "textos/lc-135-2010.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/leicom/2010/leicomplementar-135-4-junho-2010-606575-publicacaooriginal-127428-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "4a46a77d5a059d6a85d8a50c2eb21a3187fe3acba10993246ded83cfdee6b013",
+        "sha256_arquivo": "892debf04679be4ce02658828cc378037499fbd6f15425ce84c2b182361fa912"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 12117,
+      "trechos_chave": [
+        {
+          "id": "lc-135-2010-t1",
+          "rotulo": "Condenação por órgão colegiado (art. 1º, I, e)",
+          "ancora": "e) os que forem condenados, em decisão transitada em julgado ou proferida por órgão judicial colegiado, desde a condenação até o transcurso do prazo de 8 (oito) anos",
+          "por_que_importa": "Núcleo da Ficha Limpa: inelegibilidade por condenação colegiada, antes do trânsito em julgado.",
+          "tema": "inelegibilidade",
+          "eleicoes_ids": [
+            "pres-2010",
+            "pres-2014",
+            "pres-2018"
+          ],
+          "movimentos_ids": [
+            "lavajato-antipetismo"
+          ],
+          "historia_ids": [
+            "lj-2014"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lc-135-2010-t2",
+          "rotulo": "Esta Lei altera a LC 64/1990",
+          "ancora": "Esta Lei Complementar altera a Lei Complementar nº 64, de 18 de maio de 1990",
+          "por_que_importa": "Mostra a forma de alteração (nova redação à LC 64).",
+          "tema": "inelegibilidade",
+          "eleicoes_ids": [
+            "pres-2010"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/leicom/2010/leicomplementar-135-4-junho-2010-606575-publicacaooriginal-127428-pl.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp135.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 07/06/2010). Dá nova redação à LC 64/1990. Comparação automática com o Planalto: 94.5% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 92.1% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "Sem lacunas.",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp135.htm",
+          "cob_gravado_na_outra": 0.9446,
+          "cob_outra_no_gravado": 0.9214,
+          "strikes": 0
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp64.htm"
+    },
+    {
+      "id": "lei-9096-1995",
+      "titulo": "Lei nº 9.096, de 19 de setembro de 1995 (Lei dos Partidos Políticos)",
+      "data": "1995-09-19",
+      "ano": 1995,
+      "tipo": "lei",
+      "subtipo": null,
+      "autoridade": "Congresso Nacional / Presidente Fernando Henrique Cardoso",
+      "status": "vigente",
+      "arquivo": "textos/lei-9096-1995.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1995/lei-9096-19-setembro-1995-368874-publicacaooriginal-1-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "42e56e17d1eb7f174ee81b5d69eec336e17ad2f328377f0ef6de3371b64510e9",
+        "sha256_arquivo": "1173907331893e2ad7a1ac267abbb45ec36cd67127a4cfc82247fb2d70a51dc0"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 36382,
+      "trechos_chave": [
+        {
+          "id": "lei-9096-1995-t1",
+          "rotulo": "Cláusula de barreira original (art. 13)",
+          "ancora": "Art. 13. Tem direito a funcionamento parlamentar, em todas as Casas Legislativas para as quais tenha elegido representante, o partido que",
+          "por_que_importa": "Cláusula de desempenho de 5%; anulada pelo STF em 2006.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "pres-1998",
+            "pres-2002",
+            "ec97-fefc-2017"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-9096-1995-t2",
+          "rotulo": "Fundo Partidário (art. 38)",
+          "ancora": "Art. 38. O Fundo Especial de Assistência Financeira aos Partidos Políticos (Fundo Partidário) é constituído por:",
+          "por_que_importa": "Define as fontes do Fundo Partidário, inclusive doações de pessoas jurídicas (inciso III).",
+          "tema": "financiamento",
+          "eleicoes_ids": [
+            "pres-1998",
+            "pres-2010",
+            "adi4650-2015"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-9096-1995-t3",
+          "rotulo": "Doações de pessoa física ou jurídica (art. 38, III)",
+          "ancora": "III - doações de pessoa física ou jurídica, efetuadas por intermédio de depósitos bancários",
+          "por_que_importa": "A redação original admite doações empresariais ao Fundo (proibidas em 2015).",
+          "tema": "financiamento",
+          "eleicoes_ids": [
+            "adi4650-2015"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/lei/1995/lei-9096-19-setembro-1995-368874-publicacaooriginal-1-pl.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/leis/l9096.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 20/09/1995). Inclui o art. 13 com a cláusula de barreira de 5%, declarada inconstitucional pelo STF em 2006 (ADI 1351). Comparação automática com o Planalto: 97.9% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 48.9% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "Sem lacunas.",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9096.htm",
+          "cob_gravado_na_outra": 0.9786,
+          "cob_outra_no_gravado": 0.4892,
+          "strikes": 110
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": "https://www.planalto.gov.br/ccivil_03/leis/l9096.htm"
+    },
+    {
+      "id": "lei-9504-1997",
+      "titulo": "Lei nº 9.504, de 30 de setembro de 1997 (Lei das Eleições)",
+      "data": "1997-09-30",
+      "ano": 1997,
+      "tipo": "lei",
+      "subtipo": null,
+      "autoridade": "Congresso Nacional / Vice-Presidente no exercício da Presidência (Marco Maciel)",
+      "status": "vigente",
+      "arquivo": "textos/lei-9504-1997.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/lei/1997/lei-9504-30-setembro-1997-365408-publicacaooriginal-1-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "d4234c40b4dd4376ce37d244677d12fcbee9d7e6d162250b9760bb813b3f7411",
+        "sha256_arquivo": "bebfbf74bb906aa6abf954b79866829dbe9ee849e4c77993e88b072d346c5bbb"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 84743,
+      "trechos_chave": [
+        {
+          "id": "lei-9504-1997-t1",
+          "rotulo": "Maioria absoluta e segundo turno (art. 2º)",
+          "ancora": "Art. 2º Será considerado eleito o candidato a Presidente ou a Governador que obtiver a maioria absoluta de votos",
+          "por_que_importa": "Define o segundo turno para o Executivo.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "pres-1998",
+            "pres-2002",
+            "pres-2014",
+            "pres-2022-t2"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-9504-1997-t2",
+          "rotulo": "Coligações livres (art. 6º, original)",
+          "ancora": "Art. 6º É facultado aos partidos políticos, dentro da mesma circunscrição, celebrar coligações para eleição majoritária, proporcional, ou para ambas",
+          "por_que_importa": "Permitia coligações nas proporcionais; vedadas pela EC 97/2017.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "pres-1998",
+            "ec97-fefc-2017"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-9504-1997-t3",
+          "rotulo": "Doações de pessoas jurídicas (art. 81, original)",
+          "ancora": "Art. 81. As doações e contribuições de pessoas jurídicas para campanhas eleitorais poderão ser feitas",
+          "por_que_importa": "Financiamento empresarial de campanhas, limitado a 2% do faturamento; proibido pelo STF (ADI 4650, 2015).",
+          "tema": "financiamento",
+          "eleicoes_ids": [
+            "pres-1998",
+            "pres-2014",
+            "adi4650-2015"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-9504-1997-t4",
+          "rotulo": "Cota de candidaturas por sexo (art. 10, § 3º, original)",
+          "ancora": "cada partido ou coligação deverá reservar o mínimo de trinta por cento",
+          "por_que_importa": "Reserva mínima de 30% por sexo, ainda sem efeito prático (a Lei 12.034/2009 trocou \"deverá reservar\" por \"preencherá\").",
+          "tema": "cotas_genero",
+          "eleicoes_ids": [
+            "pres-1998",
+            "pres-2010"
+          ],
+          "movimentos_ids": [
+            "sufragismo-feminino"
+          ],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/lei/1997/lei-9504-30-setembro-1997-365408-publicacaooriginal-1-pl.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/leis/l9504.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 01/10/1997, com vetos). Ainda vigente com muitas alterações. Comparação automática com o Planalto: 96.6% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 43.8% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "Os arts. 103 a 105 aparecem sem quebra de linha na fonte; texto presente.",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm",
+          "cob_gravado_na_outra": 0.9662,
+          "cob_outra_no_gravado": 0.4377,
+          "strikes": 239
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": "https://www.planalto.gov.br/ccivil_03/leis/l9504.htm"
+    },
+    {
+      "id": "lei-12034-2009",
+      "titulo": "Lei nº 12.034, de 29 de setembro de 2009 (minirreforma eleitoral)",
+      "data": "2009-09-29",
+      "ano": 2009,
+      "tipo": "lei",
+      "subtipo": null,
+      "autoridade": "Congresso Nacional / Presidente Lula",
+      "status": "vigente",
+      "arquivo": "textos/lei-12034-2009.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www2.camara.leg.br/legin/fed/lei/2009/lei-12034-29-setembro-2009-591412-publicacaooriginal-116477-pl.html",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Câmara dos Deputados)",
+        "data_captura": "2026-10-07",
+        "sha256": "6a1ab3fe8b5506aee740751f76a5e8fc81aca3d6ab2fb0a95cab7439157a7586",
+        "sha256_arquivo": "5ebbdfda1373041f724e640e825eb0b8ac3b41fede8446f5e9f2ddfd0682f289"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 52618,
+      "trechos_chave": [
+        {
+          "id": "lei-12034-2009-t1",
+          "rotulo": "Cota de 30% efetivamente aplicada",
+          "ancora": "cada partido ou coligação preencherá o mínimo de 30% (trinta por cento) e o máximo de 70% (setenta por cento) para candidaturas de cada sexo",
+          "por_que_importa": "Troca \"deverá reservar\" por \"preencherá\": torna a cota obrigatória.",
+          "tema": "cotas_genero",
+          "eleicoes_ids": [
+            "pres-2010",
+            "municipal-2016"
+          ],
+          "movimentos_ids": [
+            "sufragismo-feminino"
+          ],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-12034-2009-t2",
+          "rotulo": "Poder regulamentar do TSE limitado (art. 105)",
+          "ancora": "atendendo ao caráter regulamentar e sem restringir direitos ou estabelecer sanções distintas das previstas nesta Lei",
+          "por_que_importa": "Limita o poder regulamentar do TSE.",
+          "tema": "poder_judiciario",
+          "eleicoes_ids": [
+            "pres-2010"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-12034-2009-t3",
+          "rotulo": "Mínimo de 5% do fundo partidário para mulheres",
+          "ancora": "conforme percentual que será fixado pelo órgão nacional de direção partidária, observado o mínimo de 5% (cinco por cento) do total",
+          "por_que_importa": "Primeira reserva de recursos do Fundo Partidário para programas de participação política feminina.",
+          "tema": "financiamento",
+          "eleicoes_ids": [
+            "pres-2010"
+          ],
+          "movimentos_ids": [
+            "sufragismo-feminino"
+          ],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "conferência cruzada parcial entre duas fontes oficiais",
+        "conferido_contra": [
+          "Câmara dos Deputados, Legislação Informatizada (publicação original): https://www2.camara.leg.br/legin/fed/lei/2009/lei-12034-29-setembro-2009-591412-publicacaooriginal-116477-pl.html",
+          "Planalto (segunda fonte, comparação automática por trechos de 4 palavras): https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12034.htm"
+        ],
+        "observacoes": "Câmara dos Deputados, publicação original (DOU 30/09/2009). Altera as Leis 9.096/1995, 9.504/1997 e 4.737/1965. Comparação automática com o Planalto: 90.4% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 88.2% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).",
+        "lacunas": "Texto reproduz só os dispositivos alterados (com reticências).",
+        "comparacao_planalto": {
+          "url": "https://www.planalto.gov.br/ccivil_03/_ato2007-2010/2009/lei/l12034.htm",
+          "cob_gravado_na_outra": 0.9041,
+          "cob_outra_no_gravado": 0.8819,
+          "strikes": 0
+        }
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "ec-16-1997",
+      "titulo": "Emenda Constitucional nº 16, de 4 de junho de 1997 (reeleição)",
+      "data": "1997-06-04",
+      "ano": 1997,
+      "tipo": "emenda",
+      "subtipo": null,
+      "autoridade": "Mesas da Câmara dos Deputados e do Senado Federal",
+      "status": "vigente",
+      "arquivo": "textos/ec-16-1997.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc16.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "d25ba6348c65665dcacd398a4d9fb795d26260fb5afb43bfc61a2827a6ad7fa9",
+        "sha256_arquivo": "13b9a7e0beed5c6908cc788d2a0aa4c3c192dc5dfa92b4f76e390f50e51cd2a2"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 2705,
+      "trechos_chave": [
+        {
+          "id": "ec-16-1997-t1",
+          "rotulo": "Reeleição para um único período",
+          "ancora": "poderão ser reeleitos para um único período subseqüente",
+          "por_que_importa": "Permite a reeleição no Executivo (FHC reeleito em 1998).",
+          "tema": "reeleicao",
+          "eleicoes_ids": [
+            "ec16-1997",
+            "pres-1998"
+          ],
+          "movimentos_ids": [
+            "real-psdb-pfl"
+          ],
+          "historia_ids": [
+            "ec16-1997"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ec-16-1997-t2",
+          "rotulo": "Mandato de quatro anos (art. 82)",
+          "ancora": "Art. 82. O mandato do Presidente da República é de quatro anos",
+          "por_que_importa": "Redação do art. 82 dada pela EC.",
+          "tema": "reeleicao",
+          "eleicoes_ids": [
+            "ec16-1997",
+            "pres-1998"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "ec16-1997"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc16.htm"
+        ],
+        "observacoes": "Planalto. Permite uma reeleição para Presidente, governadores e prefeitos e fixa mandato de 4 anos (art. 82).",
+        "lacunas": "Fonte única.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "ec-52-2006",
+      "titulo": "Emenda Constitucional nº 52, de 8 de março de 2006 (fim da verticalização das coligações)",
+      "data": "2006-03-08",
+      "ano": 2006,
+      "tipo": "emenda",
+      "subtipo": null,
+      "autoridade": "Mesas da Câmara dos Deputados e do Senado Federal",
+      "status": "vigente",
+      "arquivo": "textos/ec-52-2006.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc52.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "e4687e8ce02719b4990aa1b239a1be7ca5ac44f109e463495c8ae01ba6c75571",
+        "sha256_arquivo": "54294bb8d6a2c9710afea9c8a33a9592db31dd8966053c47c1957cb5301c0cd1"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 1826,
+      "trechos_chave": [
+        {
+          "id": "ec-52-2006-t1",
+          "rotulo": "Coligação sem vinculação entre esferas",
+          "ancora": "sem obrigatoriedade de vinculação entre as candidaturas em âmbito nacional, estadual, distrital ou municipal",
+          "por_que_importa": "Fim da \"verticalização\" imposta pelo TSE em 2002.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "pres-2006",
+            "pres-2010"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ec-52-2006-t2",
+          "rotulo": "Autonomia dos partidos nas coligações",
+          "ancora": "para adotar os critérios de escolha e o regime de suas coligações eleitorais",
+          "por_que_importa": "Constitucionaliza a liberdade de coligação.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "pres-2006"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc52.htm"
+        ],
+        "observacoes": "Planalto. A EC 97/2017 deu nova redação ao art. 17, § 1º, vedando coligações em eleições proporcionais.",
+        "lacunas": "Fonte única.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "ec-97-2017",
+      "titulo": "Emenda Constitucional nº 97, de 4 de outubro de 2017 (cláusula de desempenho e fim das coligações proporcionais)",
+      "data": "2017-10-04",
+      "ano": 2017,
+      "tipo": "emenda",
+      "subtipo": null,
+      "autoridade": "Mesas da Câmara dos Deputados e do Senado Federal",
+      "status": "vigente",
+      "arquivo": "textos/ec-97-2017.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc97.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "e21697c44afb77c09f7c459ef23c38104a97f4749f5fda5ecc4690dbd2113b5b",
+        "sha256_arquivo": "1418b2358c6e480c9137f766a7f03c546e289b59e0596cc1472368937d0a86d7"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 4909,
+      "trechos_chave": [
+        {
+          "id": "ec-97-2017-t1",
+          "rotulo": "Fim das coligações proporcionais",
+          "ancora": "vedada a sua celebração nas eleições proporcionais",
+          "por_que_importa": "Vale a partir de 2020.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "ec97-fefc-2017",
+            "municipal-2020"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ec-97-2017-t2",
+          "rotulo": "Cláusula de desempenho (art. 17, § 3º)",
+          "ancora": "Somente terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da lei, os partidos políticos que alternativamente:",
+          "por_que_importa": "Acesso a fundo e TV condicionado a 3% dos votos ou 15 deputados.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "ec97-fefc-2017",
+            "pres-2018"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc97.htm"
+        ],
+        "observacoes": "Planalto. Vale para as eleições a partir de 2020 (proporcionais) e escalonamento da cláusula até 2030.",
+        "lacunas": "Fonte única.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "ec-111-2021",
+      "titulo": "Emenda Constitucional nº 111, de 28 de setembro de 2021",
+      "data": "2021-09-28",
+      "ano": 2021,
+      "tipo": "emenda",
+      "subtipo": null,
+      "autoridade": "Mesas da Câmara dos Deputados e do Senado Federal",
+      "status": "vigente",
+      "arquivo": "textos/ec-111-2021.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc111.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "8a7b82c05516b59b4fa196aec2f4c712f20b168e35165b06df5289ebedf5e8a0",
+        "sha256_arquivo": "d55efc3972cf8f0cebcce82525c993f921ba931641b0113c730fb657b6ce8c61"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 5112,
+      "trechos_chave": [
+        {
+          "id": "ec-111-2021-t1",
+          "rotulo": "Voto em dobro para candidatas mulheres e candidatos negros",
+          "ancora": "os votos dados a candidatas mulheres ou a candidatos negros para a Câmara dos Deputados nas eleições realizadas de 2022 a 2030 serão contados em dobro",
+          "por_que_importa": "Incentivo financeiro à diversidade nos partidos (fundo partidário e FEFC).",
+          "tema": "financiamento",
+          "eleicoes_ids": [
+            "pres-2022-t1",
+            "municipal-2024"
+          ],
+          "movimentos_ids": [
+            "sufragismo-feminino"
+          ],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ec-111-2021-t2",
+          "rotulo": "Consultas populares com as eleições municipais (art. 14, § 12)",
+          "ancora": "Serão realizadas concomitantemente às eleições municipais as consultas populares",
+          "por_que_importa": "Novo instrumento de democracia direta.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "municipal-2024"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ec-111-2021-t3",
+          "rotulo": "Posse em 5 de janeiro (art. 82)",
+          "ancora": "terá início em 5 de janeiro do ano seguinte ao de sua eleição",
+          "por_que_importa": "Antecipa a posse presidencial de 1º de janeiro para 5 de janeiro.",
+          "tema": "sistema",
+          "eleicoes_ids": [
+            "pres-2026-t1"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc111.htm"
+        ],
+        "observacoes": "Planalto. Consultas populares junto às eleições municipais, voto em dobro para mulheres e negros na distribuição de fundos (2022 a 2030), posse do Presidente em 5 de janeiro.",
+        "lacunas": "Fonte única.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "ec-117-2022",
+      "titulo": "Emenda Constitucional nº 117, de 5 de abril de 2022",
+      "data": "2022-04-05",
+      "ano": 2022,
+      "tipo": "emenda",
+      "subtipo": null,
+      "autoridade": "Mesas da Câmara dos Deputados e do Senado Federal",
+      "status": "vigente",
+      "arquivo": "textos/ec-117-2022.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc117.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "2267b4c403293ab48ec019c516038f256f366273ea870b47b5390ac63c63a24d",
+        "sha256_arquivo": "ef1a4d4068bf75b310107d47811cadb55f45be796f86b5f7d82f930d82de5700"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 3393,
+      "trechos_chave": [
+        {
+          "id": "ec-117-2022-t1",
+          "rotulo": "5% do fundo partidário para mulheres (art. 17, § 7º)",
+          "ancora": "Os partidos políticos devem aplicar no mínimo 5% (cinco por cento) dos recursos do fundo partidário na criação e na manutenção de programas de promoção e difusão da participação política das mulheres",
+          "por_que_importa": "Constitucionaliza a reserva de recursos.",
+          "tema": "financiamento",
+          "eleicoes_ids": [
+            "pres-2022-t1",
+            "municipal-2024"
+          ],
+          "movimentos_ids": [
+            "sufragismo-feminino"
+          ],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "ec-117-2022-t2",
+          "rotulo": "Candidaturas de mulheres",
+          "ancora": "Art. 1º O art. 17 da Constituição Federal passa a vigorar acrescido dos seguintes §§ 7º e 8º",
+          "por_que_importa": "Identifica o dispositivo alterado.",
+          "tema": "cotas_genero",
+          "eleicoes_ids": [
+            "pres-2022-t1"
+          ],
+          "movimentos_ids": [
+            "sufragismo-feminino"
+          ],
+          "historia_ids": [],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc117.htm"
+        ],
+        "observacoes": "Planalto. Reserva mínima de 5% do fundo partidário para programas de participação política das mulheres (art. 17, §§ 7º e 8º).",
+        "lacunas": "Fonte única.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "lei-14701-2023",
+      "titulo": "Lei nº 14.701, de 20 de outubro de 2023 (marco temporal das terras indígenas)",
+      "data": "2023-10-20",
+      "ano": 2023,
+      "tipo": "lei",
+      "subtipo": null,
+      "autoridade": "Congresso Nacional / Presidente Lula (com vetos parcialmente derrubados)",
+      "status": "vigente",
+      "arquivo": "textos/lei-14701-2023.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14701.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "60e4e1abcf11d6668e318e3414efed03a166a942fb557ce93a97177b171039a1",
+        "sha256_arquivo": "784ab3b706de3fb5c0588105238cefa4a4db6d541689e82afe51849f69ecfe35"
+      },
+      "tipo_de_versao": "consolidada",
+      "n_caracteres": 17081,
+      "trechos_chave": [
+        {
+          "id": "lei-14701-2023-t1",
+          "rotulo": "Definição de terras tradicionalmente ocupadas (art. 4º, promulgado)",
+          "ancora": "Art. 4º São terras tradicionalmente ocupadas pelos indígenas brasileiros aquelas que, na data da promulgação da Constituição Federal, eram, simultaneamente:",
+          "por_que_importa": "Marco temporal de 5/10/1988 inserido em lei, contra a tese do STF (RE 1.017.365).",
+          "tema": "terra_indigena",
+          "eleicoes_ids": [
+            "municipal-2024"
+          ],
+          "movimentos_ids": [
+            "ruralista"
+          ],
+          "historia_ids": [
+            "l14701-2023",
+            "re1017365-2023"
+          ],
+          "indigenas_ids": [
+            "marco-temporal-disputa-legislativa"
+          ]
+        },
+        {
+          "id": "lei-14701-2023-t2",
+          "rotulo": "Regulamenta o art. 231",
+          "ancora": "Art. 1º Esta Lei regulamenta o art. 231 da Constituição Federal",
+          "por_que_importa": "Objeto da lei.",
+          "tema": "terra_indigena",
+          "eleicoes_ids": [],
+          "movimentos_ids": [
+            "ruralista"
+          ],
+          "historia_ids": [
+            "l14701-2023"
+          ],
+          "indigenas_ids": [
+            "marco-temporal-disputa-legislativa"
+          ]
+        },
+        {
+          "id": "lei-14701-2023-t3",
+          "rotulo": "Artigo vetado e promulgado",
+          "ancora": "Art. 4º (VETADO):",
+          "por_que_importa": "Mostra o ponto exato do veto presidencial e da posterior promulgação.",
+          "tema": "terra_indigena",
+          "eleicoes_ids": [],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "l14701-2023"
+          ],
+          "indigenas_ids": [
+            "marco-temporal-disputa-legislativa"
+          ]
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14701.htm"
+        ],
+        "observacoes": "Planalto. A página mostra os dispositivos vetados como \"(VETADO)\" e, em seguida, o texto das partes promulgadas após a derrubada do veto (nota \"Promulgação partes vetadas\"). Portanto NÃO é o texto sancionado de 20/10/2023: é a versão com as partes promulgadas depois. O texto vigente sofre contestação no STF (ADIs/ADC; ver RE 1.017.365).",
+        "lacunas": "Fonte única. Não verifiquei o status atual das ações no STF.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "veto-lei-14701-2023",
+      "titulo": "Mensagem nº 536, de 20 de outubro de 2023 (veto parcial à Lei 14.701/2023)",
+      "data": "2023-10-20",
+      "ano": 2023,
+      "tipo": "mensagem de veto",
+      "subtipo": null,
+      "autoridade": "Presidente da República (Luiz Inácio Lula da Silva)",
+      "status": "histórico",
+      "arquivo": "textos/veto-lei-14701-2023.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/Msg/Vep/VEP-536-23.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "3557c9527f3f1bfd51c51ac890b947ab6252113d3e1c9fceb12bbe5c0df8994b",
+        "sha256_arquivo": "66fd456ca35d4469bd66bf213b07a9dfa26289c266723001db4534d123b4f489"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 51946,
+      "trechos_chave": [
+        {
+          "id": "veto-lei-14701-2023-t1",
+          "rotulo": "Razão central do veto",
+          "ancora": "tal tese já foi rejeitada pelo Supremo Tribunal Federal, em decisão proferida em 27 de setembro de 2023",
+          "por_que_importa": "Registra a fundamentação: o STF rejeitara o marco temporal no RE 1.017.365.",
+          "tema": "terra_indigena",
+          "eleicoes_ids": [],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "l14701-2023",
+            "re1017365-2023"
+          ],
+          "indigenas_ids": [
+            "marco-temporal-disputa-legislativa"
+          ]
+        },
+        {
+          "id": "veto-lei-14701-2023-t2",
+          "rotulo": "Vício de inconstitucionalidade",
+          "ancora": "incorre em vício de inconstitucionalidade e contraria o interesse público por usurpar direitos originários previstos no caput do art. 231 da Constituição Federal",
+          "por_que_importa": "Núcleo jurídico do veto.",
+          "tema": "terra_indigena",
+          "eleicoes_ids": [],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "l14701-2023"
+          ],
+          "indigenas_ids": [
+            "marco-temporal-disputa-legislativa"
+          ]
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/Msg/Vep/VEP-536-23.htm"
+        ],
+        "observacoes": "Planalto. Razões do veto (parcialmente derrubado em dezembro de 2023).",
+        "lacunas": "Fonte única.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "decreto-4887-2003",
+      "titulo": "Decreto nº 4.887, de 20 de novembro de 2003 (titulação de terras quilombolas)",
+      "data": "2003-11-20",
+      "ano": 2003,
+      "tipo": "decreto",
+      "subtipo": null,
+      "autoridade": "Presidente Luiz Inácio Lula da Silva",
+      "status": "vigente",
+      "arquivo": "textos/decreto-4887-2003.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/decreto/2003/d4887.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "0e2d1030277c2a710605f1db68f5da61b3fd12edc7db8b297d9f8c9f96821230",
+        "sha256_arquivo": "4b2f3de35a53a8ad26de5563d4030414febb8e1bfe30f7168fa697705081bcdb"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 12781,
+      "trechos_chave": [
+        {
+          "id": "decreto-4887-2003-t1",
+          "rotulo": "Quem são os remanescentes de quilombos (art. 2º)",
+          "ancora": "Consideram-se remanescentes das comunidades dos quilombos, para os fins deste Decreto",
+          "por_que_importa": "Critério de autoatribuição para titulação.",
+          "tema": "direitos_quilombolas",
+          "eleicoes_ids": [],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "d4887-2003",
+            "adct68-1988"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "decreto-4887-2003-t2",
+          "rotulo": "Autodefinição da comunidade (art. 2º, § 1º)",
+          "ancora": "a caracterização dos remanescentes das comunidades dos quilombos será atestada mediante autodefinição da própria comunidade",
+          "por_que_importa": "Base do procedimento de titulação.",
+          "tema": "direitos_quilombolas",
+          "eleicoes_ids": [],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "d4887-2003",
+            "quilombola-adi3239-2018"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/decreto/2003/d4887.htm"
+        ],
+        "observacoes": "Planalto, com nota \"Vide ADIN 3.239\" (julgada improcedente pelo STF em 2018).",
+        "lacunas": "Fonte única.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "lei-3353-1888",
+      "titulo": "Lei nº 3.353, de 13 de maio de 1888 (Lei Áurea)",
+      "data": "1888-05-13",
+      "ano": 1888,
+      "tipo": "lei",
+      "subtipo": null,
+      "autoridade": "Princesa Imperial Regente / Assembleia Geral",
+      "status": "histórico",
+      "arquivo": "textos/lei-3353-1888.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lim/lim3353.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "5f637c61d670233681c3eb0969399794b8f16ab6285a291cab2468a22ab149df",
+        "sha256_arquivo": "a6c086c843a8395f28038ccfcb04802dfa9e7ea5cb1199378f6683edbe311fd3"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 1368,
+      "trechos_chave": [
+        {
+          "id": "lei-3353-1888-t1",
+          "rotulo": "Extinção da escravidão",
+          "ancora": "declarada extincta, desde a data desta Lei, a escravidão no Brazil.",
+          "por_que_importa": "Fim legal da escravidão, sem reparação nem direitos políticos assegurados aos libertos.",
+          "tema": "escravidao",
+          "eleicoes_ids": [
+            "pres-1891"
+          ],
+          "movimentos_ids": [
+            "abolicionismo"
+          ],
+          "historia_ids": [
+            "aurea-1888"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-3353-1888-t2",
+          "rotulo": "Revogação das disposições em contrário",
+          "ancora": "Revogam-se as disposições em contrario.",
+          "por_que_importa": "Cláusula final.",
+          "tema": "escravidao",
+          "eleicoes_ids": [],
+          "movimentos_ids": [
+            "abolicionismo"
+          ],
+          "historia_ids": [
+            "aurea-1888"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/leis/lim/lim3353.htm"
+        ],
+        "observacoes": "Planalto (coleção de leis do Império). Ortografia de época preservada.",
+        "lacunas": "Fonte única.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "lei-2040-1871",
+      "titulo": "Lei nº 2.040, de 28 de setembro de 1871 (Lei do Ventre Livre)",
+      "data": "1871-09-28",
+      "ano": 1871,
+      "tipo": "lei",
+      "subtipo": null,
+      "autoridade": "Princesa Imperial Regente / Assembleia Geral",
+      "status": "histórico",
+      "arquivo": "textos/lei-2040-1871.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lim/lim2040.htm",
+        "espelho": null,
+        "tipo_de_fonte": "oficial (Planalto)",
+        "data_captura": "2026-10-07",
+        "sha256": "1c1877bc7a259b6fd906333f762aaed2b91129c73aa53a765e7acf00116cb363",
+        "sha256_arquivo": "4a4c7e644622103eb005d73a7875c01f6232af70a32dd865fdd2563470761373"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 10569,
+      "trechos_chave": [
+        {
+          "id": "lei-2040-1871-t1",
+          "rotulo": "Filhos de escravas nascem livres",
+          "ancora": "Os filhos de mulher escrava que nascerem no Imperio desde a data desta lei, serão considerados de condição livre.",
+          "por_que_importa": "Primeira medida legal de emancipação gradual.",
+          "tema": "escravidao",
+          "eleicoes_ids": [
+            "votantes-1873"
+          ],
+          "movimentos_ids": [
+            "abolicionismo"
+          ],
+          "historia_ids": [
+            "ventre-1871"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "lei-2040-1871-t2",
+          "rotulo": "Prazo dos serviços do menor (art. 1º, § 1º)",
+          "ancora": "ou de utilisar-se dos serviços do menor até a idade de 21 annos completos",
+          "por_que_importa": "O senhor podia usar o trabalho do menor até os 21 anos: a liberdade era limitada.",
+          "tema": "escravidao",
+          "eleicoes_ids": [],
+          "movimentos_ids": [
+            "abolicionismo"
+          ],
+          "historia_ids": [
+            "ventre-1871"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Planalto (texto da norma): https://www.planalto.gov.br/ccivil_03/leis/lim/lim2040.htm"
+        ],
+        "observacoes": "Planalto (coleção de leis do Império).",
+        "lacunas": "Fonte única.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "res-tse-23732-2024",
+      "titulo": "Resolução TSE nº 23.732, de 27 de fevereiro de 2024 (propaganda eleitoral e inteligência artificial)",
+      "data": "2024-02-27",
+      "ano": 2024,
+      "tipo": "resolução",
+      "subtipo": null,
+      "autoridade": "Tribunal Superior Eleitoral (relatora: ministra Cármen Lúcia)",
+      "status": "histórico",
+      "arquivo": "textos/res-tse-23732-2024.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://www.tse.jus.br/legislacao/compilada/res/2024/resolucao-no-23-732-de-27-de-fevereiro-de-2024",
+        "espelho": "https://web.archive.org/web/20241225122605id_/https://www.tse.jus.br/legislacao/compilada/res/2024/resolucao-no-23-732-de-27-de-fevereiro-de-2024",
+        "tipo_de_fonte": "oficial (TSE) via Wayback Machine",
+        "data_captura": "2026-10-07",
+        "sha256": "91c12fef80e7d85c4a07bcfaca773a04a2df30d042957fd1dc3b21d6d39d68d8",
+        "sha256_arquivo": "20a234d6b6e8692933e2262ea0259697ee1b7580fb3cfcb09c6806e385486b13"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 46150,
+      "trechos_chave": [
+        {
+          "id": "res-tse-23732-2024-t1",
+          "rotulo": "Dever de informar uso de IA (art. 9º-B)",
+          "ancora": "Art. 9º-B. A utilização na propaganda eleitoral, em qualquer modalidade, de conteúdo sintético multimídia gerado por meio de inteligência artificial",
+          "por_que_importa": "Obriga a rotular conteúdo sintético na propaganda.",
+          "tema": "ia_propaganda",
+          "eleicoes_ids": [
+            "municipal-2024"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [],
+          "indigenas_ids": []
+        },
+        {
+          "id": "res-tse-23732-2024-t2",
+          "rotulo": "Proíbe deep fake (art. 9º-C, § 1º)",
+          "ancora": "que tenha sido gerado ou manipulado digitalmente, ainda que mediante autorização, para criar, substituir ou alterar imagem ou voz de pessoa viva, falecida ou fictícia (deep fake)",
+          "por_que_importa": "Proíbe deep fake para prejudicar ou favorecer candidatura.",
+          "tema": "ia_propaganda",
+          "eleicoes_ids": [
+            "municipal-2024",
+            "pres-2026-t1"
+          ],
+          "movimentos_ids": [],
+          "historia_ids": [
+            "fake-2019"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "TSE, legislação compilada via Wayback Machine: https://web.archive.org/web/20241225122605id_/https://www.tse.jus.br/legislacao/compilada/res/2024/resolucao-no-23-732-de-27-de-fevereiro-de-2024"
+        ],
+        "observacoes": "O site do TSE bloqueia a coleta automática (HTTP 403). O texto foi obtido do espelho da Wayback Machine (captura de 25/12/2024) da página \"legislação compilada\" do TSE. A resolução altera a Res. 23.610/2019 para as Eleições 2024; pode ter sido superada por resoluções posteriores (verificar para 2026).",
+        "lacunas": "Texto como na página do TSE; não conferido com o DJE-TSE nº 29, de 4/3/2024.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.",
+      "texto_vigente_url": null
+    },
+    {
+      "id": "manifesto-republicano-1870",
+      "titulo": "Manifesto Republicano (A República, 3 de dezembro de 1870)",
+      "data": "1870-12-03",
+      "ano": 1870,
+      "tipo": "manifesto",
+      "subtipo": null,
+      "autoridade": "Clube Republicano (Quintino Bocaiúva, Saldanha Marinho, Aristides Lobo e outros)",
+      "status": "histórico",
+      "arquivo": "textos/manifesto-republicano-1870.txt",
+      "texto_disponivel": true,
+      "origem": {
+        "url": "https://doutormiguelvieiraferreira.org/wp-content/uploads/2022/11/1889.12.10-Manif-Republ-Word.pdf",
+        "espelho": null,
+        "tipo_de_fonte": "espelho privado (não oficial)",
+        "data_captura": "2026-10-07",
+        "sha256": "d706125a81ee251943c9e547a087d931f7e14f711eb2a17107ce8f266137848a",
+        "sha256_arquivo": "ae557811ff30515f53702ce7a57d78f33dec065a11a467c42a0b72a7ff17fa90"
+      },
+      "tipo_de_versao": "original de época",
+      "n_caracteres": 40507,
+      "trechos_chave": [
+        {
+          "id": "manifesto-republicano-1870-t1",
+          "rotulo": "Soberania do povo",
+          "ancora": "Não reconhecendo nós outra soberania mais do que a soberania do povo, para ela apelamos.",
+          "por_que_importa": "Princípio de legitimidade republicana contra o Poder Moderador.",
+          "tema": "sistema",
+          "eleicoes_ids": [],
+          "movimentos_ids": [
+            "republicanismo"
+          ],
+          "historia_ids": [
+            "rep-1889"
+          ],
+          "indigenas_ids": []
+        },
+        {
+          "id": "manifesto-republicano-1870-t2",
+          "rotulo": "Americanidade e república federativa",
+          "ancora": "Somos da América e queremos ser americanos.",
+          "por_que_importa": "Slogan do republicanismo federativo.",
+          "tema": "federalismo",
+          "eleicoes_ids": [],
+          "movimentos_ids": [
+            "republicanismo"
+          ],
+          "historia_ids": [
+            "rep-1889"
+          ],
+          "indigenas_ids": []
+        }
+      ],
+      "conferencia": {
+        "status": "texto extraído de fonte única; não conferido com segunda fonte",
+        "conferido_contra": [
+          "Espelho privado (não oficial): https://doutormiguelvieiraferreira.org/wp-content/uploads/2022/11/1889.12.10-Manif-Republ-Word.pdf"
+        ],
+        "observacoes": "ESPELHO PRIVADO, não oficial: PDF no site doutormiguelvieiraferreira.org (transcrição do manifesto antes da lista de signatários; o PDF acrescenta apontamentos do próprio autor, que NÃO foram incluídos). Foi reflowed (quebras de linha do PDF removidas; hífen espúrio \"ex -\" corrigido). Não consegui edição oficial/Wikisource para conferir.",
+        "lacunas": "Não conferido contra a edição de 1870 nem contra segunda transcrição. A ortografia pode ter sido atualizada em pontos.",
+        "comparacao_planalto": null
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Obra de autoria coletiva de 1870; todos os autores identificados morreram há mais de 70 anos (Lei 9.610/1998, art. 41): domínio público.",
+      "texto_vigente_url": null
+    }
+  ],
+  "sem_texto_integral": [
+    {
+      "id": "pec-5-1983-dante-de-oliveira",
+      "titulo": "Proposta de Emenda à Constituição nº 5/1983 (Emenda Dante de Oliveira)",
+      "data": "1983-04-18",
+      "ano": 1983,
+      "tipo": "proposta",
+      "autoridade": "Deputado Dante de Oliveira e outros (Câmara dos Deputados)",
+      "status": "histórico",
+      "texto_disponivel": false,
+      "motivo_sem_texto": "Não obtive o texto da proposta em formato aberto e confiável. A página da Câmara citada abaixo traz o resultado da votação, mas não o inteiro teor da PEC.",
+      "resultado_votacao": {
+        "data": "1984-04-25",
+        "sim": 298,
+        "nao": 65,
+        "abstencao": 3,
+        "faltaram_para_aprovar": 22,
+        "observacao": "Quórum de dois terços não alcançado na Câmara; a proposta não foi ao Senado.",
+        "conferido_na_fonte": true
+      },
+      "links": [
+        {
+          "rotulo": "Câmara dos Deputados, \"Diretas Já: 30 anos do movimento\" (resultado 298/65/3 lido nesta página)",
+          "url": "https://www2.camara.leg.br/atividade-legislativa/plenario/discursos/escrevendohistoria/diretas-ja",
+          "aberto": true
+        }
+      ],
+      "trechos_chave": [],
+      "eleicoes_ids": [
+        "diretas-1984"
+      ],
+      "movimentos_ids": [
+        "diretas-ja"
+      ],
+      "historia_ids": [
+        "dante-1984"
+      ],
+      "conferencia": {
+        "status": "metadados e resultado conferidos contra a página da Câmara; sem texto integral",
+        "conferido_contra": [
+          "https://www2.camara.leg.br/atividade-legislativa/plenario/discursos/escrevendohistoria/diretas-ja"
+        ],
+        "observacoes": "O resultado 298 a favor, 65 contra, 3 abstenções e a falta de 22 votos constam da página.",
+        "lacunas": "Inteiro teor da PEC e lista nominal de votos não obtidos."
+      },
+      "dominio_publico": true,
+      "base_legal_dominio_publico": "Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral. (a proposta de emenda é ato oficial do processo legislativo; o texto não foi gravado por não ter sido obtido)."
+    },
+    {
+      "id": "krenak-discurso-constituinte-1987",
+      "titulo": "Discurso de Ailton Krenak na Assembleia Nacional Constituinte (4/9/1987)",
+      "data": "1987-09-04",
+      "ano": 1987,
+      "tipo": "discurso",
+      "autoridade": "Ailton Krenak (autor, vivo)",
+      "status": "histórico",
+      "texto_disponivel": false,
+      "motivo_sem_texto": "Obra oral de autor vivo (Lei 9.610/1998, art. 7º, V: conferências, alocuções e sermões): protegida por direito autoral. Não reproduzi o texto. A transcrição circula em fonte não oficial; os Anais da Constituinte (Câmara) não foram localizados em formato acessível.",
+      "links": [
+        {
+          "rotulo": "Transcrição hospedada pelo CEDEC (não oficial; aberta e conferida a primeira página)",
+          "url": "https://acervodigital.cedec.org.br/wp-content/uploads/2022/09/Discurso-de-Ailton-Krenak-em-defesa-dos-direitos-dos-indigenas.pdf",
+          "aberto": true
+        }
+      ],
+      "trechos_chave": [],
+      "eleicoes_ids": [
+        "const-1986"
+      ],
+      "movimentos_ids": [
+        "constituinte-1987"
+      ],
+      "historia_ids": [
+        "krenak-1987",
+        "constituinte-1987"
+      ],
+      "indigenas_ids": [
+        "constituinte-1987-88"
+      ],
+      "conferencia": {
+        "status": "apenas metadados e link",
+        "conferido_contra": [],
+        "observacoes": "O link foi aberto (PDF de 2 páginas, título e abertura \"Sr. Presidente, senhores constituintes\" conferidos); o texto não foi gravado.",
+        "lacunas": "Anais da Constituinte não localizados."
+      },
+      "dominio_publico": false,
+      "base_legal_dominio_publico": "Não é domínio público: autor vivo. Apenas metadados e link."
+    },
+    {
+      "id": "manifesto-integralista-1932",
+      "titulo": "Manifesto de Outubro da Ação Integralista Brasileira (7/10/1932)",
+      "data": "1932-10-07",
+      "ano": 1932,
+      "tipo": "manifesto",
+      "autoridade": "Plínio Salgado (falecido em 1975)",
+      "status": "histórico",
+      "texto_disponivel": false,
+      "motivo_sem_texto": "Autor faleceu em 1975: a obra só entra em domínio público em 1º/1/2046 (Lei 9.610/1998, art. 41). Não gravei o texto. Também não localizei uma edição aberta e confiável do texto integral.",
+      "links": [],
+      "trechos_chave": [],
+      "eleicoes_ids": [],
+      "movimentos_ids": [
+        "integralismo"
+      ],
+      "historia_ids": [],
+      "conferencia": {
+        "status": "apenas metadados",
+        "conferido_contra": [],
+        "observacoes": "Sem link verificado.",
+        "lacunas": "Texto integral não obtido."
+      },
+      "dominio_publico": false,
+      "base_legal_dominio_publico": "Não é domínio público (autor morto em 1975; proteção até 2045)."
+    },
+    {
+      "id": "manifesto-anl-1935",
+      "titulo": "Manifesto da Aliança Nacional Libertadora (5/7/1935)",
+      "data": "1935-07-05",
+      "ano": 1935,
+      "tipo": "manifesto",
+      "autoridade": "Luís Carlos Prestes (falecido em 1990)",
+      "status": "histórico",
+      "texto_disponivel": false,
+      "motivo_sem_texto": "Assinado por Luís Carlos Prestes, falecido em 1990: protegido até 2060 (Lei 9.610/1998, art. 41). A transcrição do Marxists Internet Archive declara licença GFDL, mas isso não afasta o direito do autor sobre o texto original; por prudência gravei apenas metadados e link.",
+      "links": [
+        {
+          "rotulo": "Marxists Internet Archive (aberto e conferido; fonte indicada: A Platéa, 6/7/1935, via PCdoB)",
+          "url": "https://www.marxists.org/portugues/prestes/1935/07/05.htm",
+          "aberto": true
+        }
+      ],
+      "trechos_chave": [],
+      "eleicoes_ids": [],
+      "movimentos_ids": [
+        "anl-1935"
+      ],
+      "historia_ids": [],
+      "conferencia": {
+        "status": "apenas metadados e link",
+        "conferido_contra": [],
+        "observacoes": "Página aberta; título e abertura conferidos.",
+        "lacunas": "Texto não gravado por direito autoral."
+      },
+      "dominio_publico": false,
+      "base_legal_dominio_publico": "Não é domínio público (autor morto em 1990)."
+    },
+    {
+      "id": "manifesto-pt-1980",
+      "titulo": "Manifesto de fundação do Partido dos Trabalhadores (10/2/1980)",
+      "data": "1980-02-10",
+      "ano": 1980,
+      "tipo": "manifesto",
+      "autoridade": "Partido dos Trabalhadores (reunião de fundação, Colégio Sion, São Paulo)",
+      "status": "histórico",
+      "texto_disponivel": false,
+      "motivo_sem_texto": "Obra de 1980 de autoria coletiva identificável e ainda protegida; não localizei o texto do manifesto em fonte oficial aberta (a página da Fundação Perseu Abramo aberta é uma matéria sobre os 40 anos do PT, não o documento).",
+      "links": [
+        {
+          "rotulo": "Fundação Perseu Abramo, \"Das fábricas e das ruas, há 40 anos PT chegava pra mudar\" (contexto, não o manifesto)",
+          "url": "https://fpabramo.org.br/das-fabricas-e-das-ruas-ha-40-anos-pt-chegava-pra-mudar/",
+          "aberto": true
+        }
+      ],
+      "trechos_chave": [],
+      "eleicoes_ids": [],
+      "movimentos_ids": [
+        "sindicalismo-abc-pt"
+      ],
+      "historia_ids": [],
+      "conferencia": {
+        "status": "apenas metadados e link",
+        "conferido_contra": [],
+        "observacoes": "Link de contexto aberto.",
+        "lacunas": "Manifesto não localizado em fonte oficial aberta."
+      },
+      "dominio_publico": false,
+      "base_legal_dominio_publico": "Não verificado como domínio público; tratado como protegido."
+    },
+    {
+      "id": "carta-ao-povo-brasileiro-2002",
+      "titulo": "Carta ao Povo Brasileiro (22/6/2002)",
+      "data": "2002-06-22",
+      "ano": 2002,
+      "tipo": "manifesto",
+      "autoridade": "Luiz Inácio Lula da Silva (candidato; autor vivo)",
+      "status": "histórico",
+      "texto_disponivel": false,
+      "motivo_sem_texto": "Texto de autor vivo e de 2002: protegido. A íntegra circula em veículo de imprensa (Congresso em Foco), que não é fonte oficial nem domínio público. Gravei apenas metadados e link.",
+      "links": [
+        {
+          "rotulo": "Congresso em Foco, \"Lula quer fazer nova carta aos brasileiros; veja a íntegra da primeira\" (aberto; não oficial)",
+          "url": "https://www.congressoemfoco.com.br/noticia/51364/lula-quer-fazer-nova-carta-aos-brasileiros-veja-a-integra-da-primeira",
+          "aberto": true
+        }
+      ],
+      "trechos_chave": [],
+      "eleicoes_ids": [
+        "pres-2002"
+      ],
+      "movimentos_ids": [
+        "lulismo"
+      ],
+      "historia_ids": [],
+      "conferencia": {
+        "status": "apenas metadados e link",
+        "conferido_contra": [],
+        "observacoes": "Link aberto.",
+        "lacunas": "Texto não gravado."
+      },
+      "dominio_publico": false,
+      "base_legal_dominio_publico": "Não é domínio público (autor vivo)."
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+=== PROVENIÊNCIA ===
+Documento: Ato Complementar nº 102, de 1º de abril de 1977 (recesso do Congresso)
+Id: ato-complementar-102-1977
+Data do ato: 1977-04-01
+Tipo: ato institucional (ato complementar) | Autoridade: Presidente Ernesto Geisel | Status da norma: histórico
+Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/acp/acp-102-77.htm
+Data de captura: 2026-10-07
+Tipo de versão: original de época
+Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
+Observações: Planalto. O ato é de 1º/04/1977 e foi publicado no DOU de 13/04/1977, um dia antes da EC 8; suspenso pelo Ato Complementar 103 (14/04/1977).
+Lacunas: Fonte única.
+SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): e9e35e2974963faa21a8f3206510e9b5b85a2108d7c22c4f64ccbb5fde1d07f5
+Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
+Aviso: cópia para consulta; não substitui o texto oficial publicado.
+=== TEXTO ===
+ATO COMPLEMENTAR Nº 102, DE 1º DE ABRIL DE 1977
+
+Vide Ato Complementar nº 103, de 1977
+
+Fica decretado o recesso do Congresso Nacional, nos termos do art. 2º e seus parágrafos do Ato Institucional n. 5, de 13 de dezembro de 1968.
+
+O Presidente da República, com fundamento no artigo 182 da Constituição, resolve baixar o seguinte Ato Complementar
+
+Art. 1º No termos do artigo 2º e seus parágrafos do Ato Institucional nº 5, de 13 de dezembro de 1968, fica decretado o recesso do Congresso Nacional.
+
+Art. 2º O presente Ato Complementar entra em vigor nesta data, revogadas as disposições em contrário.
+
+Brasília, 1º de abril de 1977; 156º da Independência e 89º da República.
+
+ERNESTO GEISEL
+Armando Falcão
+Geraldo Azevedo Henning
+Sylvio Frota
+Antônio Francisco Azevedo da Silveira
+Mário Henrique Simonsen
+Dyrceu Araújo Nogueira
+Alysson Paulinelli
+Ney Braga
+Arnaldo Prieto
+J. Araripe Macedo
+Paulo de Almeida Machado
+Angelo Calmon de Sá
+Shigeaki Ueki
+João Paulo dos Reis Velloso
+Mauricio Rangel Reis
+Euclides Quandt de 0liveira
+Hugo de Andrade Abreu
+Golbery do Couto e Silva
+João Baptista de Oliveira Fiqueredo
+Moacyr Barcellos Potyguara
+L. G. do Nascimento e Silva
+
+Este texto não substitui o publicado no DOU de 13.4.1977

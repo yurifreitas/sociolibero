@@ -1,0 +1,474 @@
+=== PROVENIÊNCIA ===
+Documento: Ato das Disposições Constitucionais Transitórias (ADCT, redação original de 5/10/1988)
+Id: adct-1988
+Data do ato: 1988-10-05
+Tipo: constituição (ADCT) | Autoridade: Assembleia Nacional Constituinte | Status da norma: vigente
+Fonte (URL exata): https://www2.camara.leg.br/legin/fed/conadc/1988/constituicao.adct-1988-5-outubro-1988-322234-publicacaooriginal-1-pl.html
+Publicação original (informada pela fonte): Este texto não substitui o original publicado no Diário Oficial da União - Seção 1 de 05/10/1988
+Data de captura: 2026-10-07
+Tipo de versão: original de época
+Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
+Observações: Câmara dos Deputados, publicação original. Texto da época, sem as emendas posteriores.
+Lacunas: Sem verificação de artigos individual.
+SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): a337f06e5f3ef53efffbb7f187fc0fa3ffc6a13255c43e1874b20aab7b8dec48
+Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
+Aviso: cópia para consulta; não substitui o texto oficial publicado.
+=== TEXTO ===
+CONSTITUIÇÃO. ADCT DE 1988
+
+Ato das Disposições Constitucionais Transitórias.
+
+ATO DAS DISPOSIÇÕES CONSTITUCIONAIS TRANSITÓRIAS
+
+Art. 1º O Presidente da República, o Presidente do Supremo Tribunal Federal e os membros do Congresso Nacional prestarão o compromisso de manter, defender e cumprir a Constituição, no ato e na data de sua promulgação.
+
+Art. 2º No dia 7 de setembro de 1993 o eleitorado definirá, através de plebiscito, a forma (república ou monarquia constitucional) e o sistema de governo (parlamentarismo ou presidencialismo) que devem vigorar no País.
+
+§ 1º Será assegurada gratuidade na livre divulgação dessas formas e sistemas, através dos meios de comunicação de massa cessionários de serviço público.
+
+§ 2º O Tribunal Superior Eleitoral, promulgada a Constituição, expedirá as normas regulamentadoras deste artigo.
+
+Art. 3º A revisão constitucional será realizada após cinco anos, contados da promulgação da Constituição, pelo voto da maioria absoluta dos membros do Congresso Nacional, em sessão unicameral.
+
+Art. 4º O mandato do atual Presidente da República terminará em 15 de março de 1990.
+
+§ 1º A primeira eleição para Presidente da República após a promulgação da Constituição será realizada no dia 15 de novembro de 1989, não se lhe aplicando o disposto no art. 16 da Constituição.
+
+§ 2º É assegurada a irredutibilidade da atual representação dos Estados e do Distrito Federal na Câmara dos Deputados.
+
+§ 3º Os mandatos dos Governadores e dos Vice-Governadores eleitos em 15 de novembro de 1986 terminarão em 15 de março de 1991.
+
+§ 4º Os mandatos dos atuais Prefeitos, Vice-Prefeitos e Vereadores terminarão no dia 1º de janeiro de 1989, com a posse dos eleitos.
+
+Art. 5º Não se aplicam às eleições previstas para 15 de novembro de 1988 o disposto no art. 16 e as regras do art. 77 da Constituição.
+
+§ 1º Para as eleições de 15 de novembro de 1988 será exigido domicílio eleitoral na circunscrição pelo menos durante os quatro meses anteriores ao pleito, podendo os candidatos que preencham este requisito, atendidas as demais exigências da lei, ter seu registro efetivado pela Justiça Eleitoral após a promulgação da Constituição.
+
+§ 2º Na ausência de norma legal específica, caberá ao Tribunal Superior Eleitoral editar as normas necessárias à realização das eleições de 1988, respeitada a legislação vigente.
+
+§ 3º Os atuais parlamentares federais e estaduais eleitos Vice-Prefeitos, se convocados a exercer a função de Prefeito, não perderão o mandato parlamentar.
+
+§ 4º O número de Vereadores por município será fixado, para a representação a ser eleita em 1988, pelo respectivo Tribunal Regional Eleitoral, respeitados os limites estipulados no art. 29, IV, da Constituição.
+
+§ 5º Para as eleições de 15 de novembro de 1988, ressalvados os que já exercem mandato eletivo, são inelegíveis para qualquer cargo, no território de jurisdição do titular, o cônjuge e os parentes por consangüinidade ou afinidade, até o segundo grau, ou por adoção, do Presidente da República, do Governador de Estado, do Governador do Distrito Federal e do Prefeito que tenham exercido mais da metade do mandato.
+
+Art. 6º Nos seis meses posteriores à promulgação da Constituição, parlamentares federais, reunidos em número não inferior a trinta, poderão requerer ao Tribunal Superior Eleitoral o registro de novo partido político, juntando ao requerimento o manifesto, o estatuto e o programa devidamente assinados pelos requerentes.
+
+§ 1º O registro provisório, que será concedido de plano pelo Tribunal Superior Eleitoral, nos termos deste artigo, defere ao novo partido todos os direitos, deveres e prerrogativas dos atuais, entre eles o de participar, sob legenda própria, das eleições que vierem a ser realizadas nos doze meses seguintes a sua formação.
+
+§ 2º O novo partido perderá automaticamente seu registro provisório se, no prazo de vinte e quatro meses, contados de sua formação, não obtiver registro definitivo no Tribunal Superior Eleitoral, na forma que a lei dispuser.
+
+Art. 7º O Brasil propugnará pela formação de um tribunal internacional dos direitos humanos.
+
+Art. 8º É concedida anistia aos que, no período de 18 de setembro de 1946 até a data da promulgação da Constituição, foram atingidos, em decorrência de motivação exclusivamente política, por atos de exceção, institucionais ou complementares, aos que foram abrangidos pelo Decreto Legislativo n.º 18, de 15 de dezembro de 1961, e aos atingidos pelo Decreto-Lei n.º 864, de 12 de setembro de 1969, asseguradas as promoções, na inatividade, ao cargo, emprego, posto ou graduação a que teriam direito se estivessem em serviço ativo, obedecidos os prazos de permanência em atividade previstos nas leis e regulamentos vigentes, respeitadas as características e peculiaridades das carreiras dos servidores públicos civis e militares e observados os respectivos regimes jurídicos.
+
+§ 1º O disposto neste artigo somente gerará efeitos financeiros a partir da promulgação da Constituição, vedada a remuneração de qualquer espécie em caráter retroativo.
+
+§ 2º Ficam assegurados os benefícios estabelecidos neste artigo aos trabalhadores do setor privado, dirigentes e representantes sindicais que, por motivos exclusivamente políticos, tenham sido punidos, demitidos ou compelidos ao afastamento das atividades remuneradas que exerciam, bem como aos que foram impedidos de exercer atividades profissionais em virtude de pressões ostensivas ou expedientes oficiais sigilosos.
+
+§ 3º Aos cidadãos que foram impedidos de exercer, na vida civil, atividade profissional específica, em decorrência das Portarias Reservadas do Ministério da Aeronáutica n.º S-50-GM5, de 19 de junho de 1964, e n.º S-285-GM5, será concedida reparação de natureza econômica, na forma que dispuser lei de iniciativa do Congresso Nacional e a entrar em vigor no prazo de doze meses a contar da promulgação da Constituição.
+
+§ 4º Aos que, por força de atos institucionais, tenham exercido gratuitamente mandato eletivo de vereador serão computados, para efeito de aposentadoria no serviço público e previdência social, os respectivos períodos.
+
+§ 5º A anistia concedida nos termos deste artigo aplica-se aos servidores públicos civis e aos empregados em todos os níveis de governo ou em suas fundações, empresas públicas ou empresas mistas sob controle estatal, exceto nos Ministérios militares, que tenham sido punidos ou demitidos por atividades profissionais interrompidas em virtude de decisão de seus trabalhadores, bem como em decorrência do Decreto-Lei n.º 1.632, de 4 de agosto de 1978, ou por motivos exclusivamente políticos, assegurada a readmissão dos que foram atingidos a partir de 1979, observado o disposto no § 1º.
+
+Art. 9º Os que, por motivos exclusivamente políticos, foram cassados ou tiveram seus direitos políticos suspensos no período de 15 de julho a 31 de dezembro de 1969, por ato do então Presidente da República, poderão requerer ao Supremo Tribunal Federal o reconhecimento dos direitos e vantagens interrompidos pelos atos punitivos, desde que comprovem terem sido estes eivados de vício grave.
+
+Parágrafo único. O Supremo Tribunal Federal proferirá a decisão no prazo de cento e vinte dias, a contar do pedido do interessado.
+
+Art. 10. Até que seja promulgada a lei complementar a que se refere o art. 7º, I, da Constituição:
+
+I - fica limitada a proteção nele referida ao aumento, para quatro vezes, da porcentagem prevista no art. 6º, caput e § 1º, da Lei n.º 5.107, de 13 de setembro de 1966;
+II - fica vedada a dispensa arbitrária ou sem justa causa:
+
+a) do empregado eleito para cargo de direção de comissões internas de prevenção de acidentes, desde o registro de sua candidatura até um ano após o final de seu mandato;
+
+b) da empregada gestante, desde a confirmação da gravidez até cinco meses após o parto.
+
+§ 1º Até que a lei venha a disciplinar o disposto no art. 7º, XIX, da Constituição, o prazo da licença-paternidade a que se refere o inciso é de cinco dias.
+
+§ 2º Até ulterior disposição legal, a cobrança das contribuições para o custeio das atividades dos sindicatos rurais será feita juntamente com a do imposto territorial rural, pelo mesmo órgão arrecadador.
+
+§ 3º Na primeira comprovação do cumprimento das obrigações trabalhistas pelo empregador rural, na forma do art. 233, após a promulgação da Constituição, será certificada perante a Justiça do Trabalho a regularidade do contrato e das atualizações das obrigações trabalhistas de todo o período.
+
+Art. 11. Cada Assembléia Legislativa, com poderes constituintes, elaborará a Constituição do Estado, no prazo de um ano, contado da promulgação da Constituição Federal, obedecidos os princípios desta.
+
+Parágrafo único. Promulgada a Constituição do Estado, caberá à Câmara Municipal, no prazo de seis meses, votar a Lei Orgânica respectiva, em dois turnos de discussão e votação, respeitado o disposto na Constituição Federal e na Constituição Estadual.
+
+Art. 12. Será criada, dentro de noventa dias da promulgação da Constituição, Comissão de Estudos Territoriais, com dez membros indicados pelo Congresso Nacional e cinco pelo Poder Executivo, com a finalidade de apresentar estudos sobre o território nacional e anteprojetos relativos a novas unidades territoriais, notadamente na Amazônia Legal e em áreas pendentes de solução.
+
+§ 1º No prazo de um ano, a Comissão submeterá ao Congresso Nacional os resultados de seus estudos para, nos termos da Constituição, serem apreciados nos doze meses subseqüentes, extinguindo-se logo após.
+
+§ 2º Os Estados e os Municípios deverão, no prazo de três anos, a contar da promulgação da Constituição, promover, mediante acordo ou arbitramento, a demarcação de suas linhas divisórias atualmente litigiosas, podendo para isso fazer alterações e compensações de área que atendam aos acidentes naturais, critérios históricos, conveniências administrativas e comodidade das populações limítrofes.
+
+§ 3º Havendo solicitação dos Estados e Municípios interessados, a União poderá encarregar-se dos trabalhos demarcatórios.
+
+§ 4º Se, decorrido o prazo de três anos, a contar da promulgação da Constituição, os trabalhos demarcatórios não tiverem sido concluídos, caberá à União determinar os limites das áreas litigiosas.
+
+§ 5º Ficam reconhecidos e homologados os atuais limites do Estado do Acre com os Estados do Amazonas e de Rondônia, conforme levantamentos cartográficos e geodésicos realizados pela Comissão Tripartite integrada por representantes dos Estados e dos serviços técnico-especializados do Instituto Brasileiro de Geografia e Estatística.
+
+Art. 13. É criado o Estado do Tocantins, pelo desmembramento da área descrita neste artigo, dando-se sua instalação no quadragésimo sexto dia após a eleição prevista no § 3º, mas não antes de 1º de janeiro de 1989.
+
+§ 1º O Estado do Tocantins integra a Região Norte e limita-se com o Estado de Goiás pelas divisas norte dos Municípios de São Miguel do Araguaia, Porangatu, Formoso, Minaçu, Cavalcante, Monte Alegre de Goiás e Campos Belos, conservando a leste, norte e oeste as divisas atuais de Goiás com os Estados da Bahia, Piauí, Maranhão, Pará e Mato Grosso.
+
+§ 2º O Poder Executivo designará uma das cidades do Estado para sua capital provisória até a aprovação da sede definitiva do governo pela Assembléia Constituinte.
+
+§ 3º O Governador, o Vice-Governador, os Senadores, os Deputados Federais e os Deputados Estaduais serão eleitos, em um único turno, até setenta e cinco dias após a promulgação da Constituição, mas não antes de 15 de novembro de 1988, a critério do Tribunal Superior Eleitoral, obedecidas, entre outras, as seguintes normas:
+
+I - o prazo de filiação partidária dos candidatos será encerrado setenta e cinco dias antes da data das eleições;
+II - as datas das convenções regionais partidárias destinadas a deliberar sobre coligações e escolha de candidatos, de apresentação de requerimento de registro dos candidatos escolhidos e dos demais procedimentos legais serão fixadas, em calendário especial, pela Justiça Eleitoral;
+III - são inelegíveis os ocupantes de cargos estaduais ou municipais que não se tenham deles afastado, em caráter definitivo, setenta e cinco dias antes da data das eleições previstas neste parágrafo;
+IV - ficam mantidos os atuais diretórios regionais dos partidos políticos do Estado de Goiás, cabendo às comissões executivas nacionais designar comissões provisórias no Estado do Tocantins, nos termos e para os fins previstos na lei.
+
+§ 4º Os mandatos do Governador, do Vice-Governador, dos Deputados Federais e Estaduais eleitos na forma do parágrafo anterior extinguir-se-ão concomitantemente aos das demais unidades da Federação; o mandato do Senador eleito menos votado extinguir-se-á nessa mesma oportunidade, e os dos outros dois, juntamente com os dos Senadores eleitos em 1986 nos demais Estados.
+
+§ 5º A Assembléia Estadual Constituinte será instalada no quadragésimo sexto dia da eleição de seus integrantes, mas não antes de 1º de janeiro de 1989, sob a presidência do Presidente do Tribunal Regional Eleitoral do Estado de Goiás, e dará posse, na mesma data, ao Governador e ao Vice-Governador eleitos.
+
+§ 6º Aplicam-se à criação e instalação do Estado do Tocantins, no que couber, as normas legais disciplinadoras da divisão do Estado de Mato Grosso, observado o disposto no art. 234 da Constituição.
+
+§ 7º Fica o Estado de Goiás liberado dos débitos e encargos decorrentes de empreendimentos no território do novo Estado, e autorizada a União, a seu critério, a assumir os referidos débitos.
+
+Art. 14. Os Territórios Federais de Roraima e do Amapá são transformados em Estados Federados, mantidos seus atuais limites geográficos.
+
+§ 1º A instalação dos Estados dar-se-á com a posse dos Governadores eleitos em 1990.
+
+§ 2º Aplicam-se à transformação e instalação dos Estados de Roraima e Amapá as normas e os critérios seguidos na criação do Estado de Rondônia, respeitado o disposto na Constituição e neste Ato.
+
+§ 3º O Presidente da República, até quarenta e cinco dias após a promulgação da Constituição, encaminhará à apreciação do Senado Federal os nomes dos governadores dos Estados de Roraima e do Amapá que exercerão o Poder Executivo até a instalação dos novos Estados com a posse dos governadores eleitos.
+
+§ 4º Enquanto não concretizada a transformação em Estados, nos termos deste artigo, os Territórios Federais de Roraima e do Amapá serão beneficiados pela transferência de recursos prevista nos arts. 159, I, a , da Constituição, e 34, § 2º, II, deste Ato.
+
+Art. 15. Fica extinto o Território Federal de Fernando de Noronha, sendo sua área reincorporada ao Estado de Pernambuco.
+
+Art. 16. Até que se efetive o disposto no art. 32, § 2º, da Constituição, caberá ao Presidente da República, com a aprovação do Senado Federal, indicar o Governador e o Vice-Governador do Distrito Federal.
+
+§ 1º A competência da Câmara Legislativa do Distrito Federal, até que se instale, será exercida pelo Senado Federal.
+
+§ 2º A fiscalização contábil, financeira, orçamentária, operacional e patrimonial do Distrito Federal, enquanto não for instalada a Câmara Legislativa, será exercida pelo Senado Federal, mediante controle externo, com o auxílio do Tribunal de Contas do Distrito Federal, observado o disposto no art. 72 da Constituição.
+
+§ 3º Incluem-se entre os bens do Distrito Federal aqueles que lhe vierem a ser atribuídos pela União na forma da lei.
+
+Art. 17. Os vencimentos, a remuneração, as vantagens e os adicionais, bem como os proventos de aposentadoria que estejam sendo percebidos em desacordo com a Constituição serão imediatamente reduzidos aos limites dela decorrentes, não se admitindo, neste caso, invocação de direito adquirido ou percepção de excesso a qualquer título.
+
+§ 1º É assegurado o exercício cumulativo de dois cargos ou empregos privativos de médico que estejam sendo exercidos por médico militar na administração pública direta ou indireta.
+
+§ 2º É assegurado o exercício cumulativo de dois cargos ou empregos privativos de profissionais de saúde que estejam sendo exercidos na administração pública direta ou indireta.
+
+Art. 18. Ficam extintos os efeitos jurídicos de qualquer ato legislativo ou administrativo, lavrado a partir da instalação da Assembléia Nacional Constituinte, que tenha por objeto a concessão de estabilidade a servidor admitido sem concurso público, da administração direta ou indireta, inclusive das fundações instituídas e mantidas pelo Poder Público.
+
+Art. 19. Os servidores públicos civis da União, dos Estados, do Distrito Federal e dos Municípios, da administração direta, autárquica e das fundações públicas, em exercício na data da promulgação da Constituição, há pelo menos cinco anos continuados, e que não tenham sido admitidos na forma regulada no art. 37 da Constituição, são considerados estáveis no serviço público.
+
+§ 1º O tempo de serviço dos servidores referidos neste artigo será contado como título quando se submeterem a concurso para fins de efetivação, na forma da lei.
+
+§ 2º O disposto neste artigo não se aplica aos ocupantes de cargos, funções e empregos de confiança ou em comissão, nem aos que a lei declare de livre exoneração, cujo tempo de serviço não será computado para os fins do caput deste artigo, exceto se se tratar de servidor.
+
+§ 3º O disposto neste artigo não se aplica aos professores de nível superior, nos termos da lei.
+
+Art. 20. Dentro de cento e oitenta dias, proceder-se-á à revisão dos direitos dos servidores públicos inativos e pensionistas e à atualização dos proventos e pensões a eles devidos, a fim de ajustá-los ao disposto na Constituição.
+
+Art. 21. Os juízes togados de investidura limitada no tempo, admitidos mediante concurso público de provas e títulos e que estejam em exercício na data da promulgação da Constituição, adquirem estabilidade, observado o estágio probatório, e passam a compor quadro em extinção, mantidas as competências, prerrogativas e restrições da legislação a que se achavam submetidos, salvo as inerentes à transitoriedade da investidura.
+
+Parágrafo único. A aposentadoria dos juízes de que trata este artigo regular-se-á pelas normas fixadas para os demais juízes estaduais.
+
+Art. 22. É assegurado aos defensores públicos investidos na função até a data de instalação da Assembléia Nacional Constituinte o direito de opção pela carreira, com a observância das garantias e vedações previstas no art. 134, parágrafo único, da Constituição.
+
+Art. 23. Até que se edite a regulamentação do art. 21, XVI, da Constituição, os atuais ocupantes do cargo de censor federal continuarão exercendo funções com este compatíveis, no Departamento de Polícia Federal, observadas as disposições constitucionais.
+
+Parágrafo único. A lei referida disporá sobre o aproveitamento dos censores federais, nos termos deste artigo.
+
+Art. 24. A União, os Estados, o Distrito Federal e os Municípios editarão leis que estabeleçam critérios para a compatibilização de seus quadros de pessoal ao disposto no art. 39 da Constituição e à reforma administrativa dela decorrente, no prazo de dezoito meses, contados da sua promulgação.
+
+Art. 25. Ficam revogados, a partir de cento e oitenta dias da promulgação da Constituição, sujeito este prazo a prorrogação por lei, todos os dispositivos legais que atribuam ou deleguem a órgão do Poder Executivo competência assinalada pela Constituição ao Congresso Nacional, especialmente no que tange a:
+
+I - ação normativa;
+II - alocação ou transferência de recursos de qualquer espécie.
+
+§ 1º Os decretos-leis em tramitação no Congresso Nacional e por este não apreciados até a promulgação da Constituição terão seus efeitos regulados da seguinte forma:
+
+I - se editados até 2 de setembro de 1988, serão apreciados pelo Congresso Nacional no prazo de até cento e oitenta dias a contar da promulgação da Constituição, não computado o recesso parlamentar;
+II - decorrido o prazo definido no inciso anterior, e não havendo apreciação, os decretos-leis ali mencionados serão considerados rejeitados;
+III - nas hipóteses definidas nos incisos I e II, terão plena validade os atos praticados na vigência dos respectivos decretos-leis, podendo o Congresso Nacional, se necessário, legislar sobre os efeitos deles remanescentes.
+
+§ 2º Os decretos-leis editados entre 3 de setembro de 1988 e a promulgação da Constituição serão convertidos, nesta data, em medidas provisórias, aplicando-se-lhes as regras estabelecidas no art. 62, parágrafo único.
+
+Art. 26. No prazo de um ano a contar da promulgação da Constituição, o Congresso Nacional promoverá, através de Comissão mista, exame analítico e pericial dos atos e fatos geradores do endividamento externo brasileiro.
+
+§ 1º A Comissão terá a força legal de Comissão parlamentar de inquérito para os fins de requisição e convocação, e atuará com o auxílio do Tribunal de Contas da União.
+
+§ 2º Apurada irregularidade, o Congresso Nacional proporá ao Poder Executivo a declaração de nulidade do ato e encaminhará o processo ao Ministério Público Federal, que formalizará, no prazo de sessenta dias, a ação cabível.
+
+Art. 27. O Superior Tribunal de Justiça será instalado sob a presidência do Supremo Tribunal Federal.
+
+§ 1º Até que se instale o Superior Tribunal de Justiça, o Supremo Tribunal Federal exercerá as atribuições e competências definidas na ordem constitucional precedente.
+
+§ 2º A composição inicial do Superior Tribunal de Justiça far-se-á:
+
+I - pelo aproveitamento dos Ministros do Tribunal Federal de Recursos;
+II - pela nomeação dos Ministros que sejam necessários para completar o número estabelecido na Constituição.
+
+§ 3º Para os efeitos do disposto na Constituição, os atuais Ministros do Tribunal Federal de Recursos serão considerados pertencentes à classe de que provieram, quando de sua nomeação.
+
+§ 4º Instalado o Tribunal, os Ministros aposentados do Tribunal Federal de Recursos tornar-se-ão, automaticamente, Ministros aposentados do Superior Tribunal de Justiça.
+
+§ 5º Os Ministros a que se refere o § 2º, II, serão indicados em lista tríplice pelo Tribunal Federal de Recursos, observado o disposto no art. 104, parágrafo único, da Constituição.
+
+§ 6º Ficam criados cinco Tribunais Regionais Federais, a serem instalados no prazo de seis meses a contar da promulgação da Constituição, com a jurisdição e sede que lhes fixar o Tribunal Federal de Recursos, tendo em conta o número de processos e sua localização geográfica.
+
+§ 7º Até que se instalem os Tribunais Regionais Federais, o Tribunal Federal de Recursos exercerá a competência a eles atribuída em todo o território nacional, cabendo-lhe promover sua instalação e indicar os candidatos a todos os cargos da composição inicial, mediante lista tríplice, podendo desta constar juízes federais de qualquer região, observado o disposto no § 9º.
+
+§ 8º É vedado, a partir da promulgação da Constituição, o provimento de vagas de Ministros do Tribunal Federal de Recursos.
+
+§ 9º Quando não houver juiz federal que conte o tempo mínimo previsto no art. 107, II, da Constituição, a promoção poderá contemplar juiz com menos de cinco anos no exercício do cargo.
+
+§ 10. Compete à Justiça Federal julgar as ações nela propostas até a data da promulgação da Constituição, e aos Tribunais Regionais Federais, bem como ao Superior Tribunal de Justiça, julgar as ações rescisórias das decisões até então proferidas pela Justiça Federal, inclusive daquelas cuja matéria tenha passado à competência de outro ramo do Judiciário.
+
+Art. 28. Os juízes federais de que trata o art. 123, § 2º, da Constituição de 1967, com a redação dada pela Emenda Constitucional n.º 7, de 1977, ficam investidos na titularidade de varas na seção judiciária para a qual tenham sido nomeados ou designados; na inexistência de vagas, proceder-se-á ao desdobramento das varas existentes.
+
+Parágrafo único. Para efeito de promoção por antiguidade, o tempo de serviço desses juízes será computado a partir do dia de sua posse.
+
+Art. 29. Enquanto não aprovadas as leis complementares relativas ao Ministério Público e à Advocacia-Geral da União, o Ministério Público Federal, a Procuradoria-Geral da Fazenda Nacional, as Consultorias Jurídicas dos Ministérios, as Procuradorias e Departamentos Jurídicos de autarquias federais com representação própria e os membros das Procuradorias das Universidades fundacionais públicas continuarão a exercer suas atividades na área das respectivas atribuições.
+
+§ 1º O Presidente da República, no prazo de cento e vinte dias, encaminhará ao Congresso Nacional projeto de lei complementar dispondo sobre a organização e o funcionamento da Advocacia-Geral da União.
+
+§ 2º Aos atuais Procuradores da República, nos termos da lei complementar, será facultada a opção, de forma irretratável, entre as carreiras do Ministério Público Federal e da Advocacia-Geral da União.
+
+§ 3º Poderá optar pelo regime anterior, no que respeita às garantias e vantagens, o membro do Ministério Público admitido antes da promulgação da Constituição, observando-se, quanto às vedações, a situação jurídica na data desta.
+
+§ 4º Os atuais integrantes do quadro suplementar dos Ministérios Públicos do Trabalho e Militar que tenham adquirido estabilidade nessas funções passam a integrar o quadro da respectiva carreira.
+
+§ 5º Cabe à atual Procuradoria-Geral da Fazenda Nacional, diretamente ou por delegação, que pode ser ao Ministério Público Estadual, representar judicialmente a União nas causas de natureza fiscal, na área da respectiva competência, até a promulgação das leis complementares previstas neste artigo.
+
+Art. 30. A legislação que criar a justiça de paz manterá os atuais juízes de paz até a posse dos novos titulares, assegurando-lhes os direitos e atribuições conferidos a estes, e designará o dia para a eleição prevista no art. 98, II, da Constituição.
+
+Art. 31. Serão estatizadas as serventias do foro judicial, assim definidas em lei, respeitados os direitos dos atuais titulares.
+
+Art. 32. O disposto no art. 236 não se aplica aos serviços notariais e de registro que já tenham sido oficializados pelo Poder Público, respeitando-se o direito de seus servidores.
+
+Art. 33. Ressalvados os créditos de natureza alimentar, o valor dos precatórios judiciais pendentes de pagamento na data da promulgação da Constituição, incluído o remanescente de juros e correção monetária, poderá ser pago em moeda corrente, com atualização, em prestações anuais, iguais e sucessivas, no prazo máximo de oito anos, a partir de 1º de julho de 1989, por decisão editada pelo Poder Executivo até cento e oitenta dias da promulgação da Constituição.
+
+Parágrafo único. Poderão as entidades devedoras, para o cumprimento do disposto neste artigo, emitir, em cada ano, no exato montante do dispêndio, títulos de dívida pública não computáveis para efeito do limite global de endividamento.
+
+Art. 34. O sistema tributário nacional entrará em vigor a partir do primeiro dia do quinto mês seguinte ao da promulgação da Constituição, mantido, até então, o da Constituição de 1967, com a redação dada pela Emenda n.º 1, de 1969, e pelas posteriores.
+
+§ 1º Entrarão em vigor com a promulgação da Constituição os arts. 148, 149, 150, 154, I, 156, III, e 159, I, c , revogadas as disposições em contrário da Constituição de 1967 e das Emendas que a modificaram, especialmente de seu art. 25, III.
+
+§ 2º O Fundo de Participação dos Estados e do Distrito Federal e o Fundo de Participação dos Municípios obedecerão às seguintes determinações:
+
+I - a partir da promulgação da Constituição, os percentuais serão, respectivamente, de dezoito por cento e de vinte por cento, calculados sobre o produto da arrecadação dos impostos referidos no art. 153, III e IV, mantidos os atuais critérios de rateio até a entrada em vigor da lei complementar a que se refere o art. 161, II;
+II - o percentual relativo ao Fundo de Participação dos Estados e do Distrito Federal será acrescido de um ponto percentual no exercício financeiro de 1989 e, a partir de 1990, inclusive, à razão de meio ponto por exercício, até 1992, inclusive, atingindo em 1993 o percentual estabelecido no art. 159, I, a ;
+III - o percentual relativo ao Fundo de Participação dos Municípios, a partir de 1989, inclusive, será elevado à razão de meio ponto percentual por exercício financeiro, até atingir o estabelecido no art. 159, I, b .
+
+§ 3º Promulgada a Constituição, a União, os Estados, o Distrito Federal e os Municípios poderão editar as leis necessárias à aplicação do sistema tributário nacional nela previsto.
+
+§ 4º As leis editadas nos termos do parágrafo anterior produzirão efeitos a partir da entrada em vigor do sistema tributário nacional previsto na Constituição.
+
+§ 5º Vigente o novo sistema tributário nacional, fica assegurada a aplicação da legislação anterior, no que não seja incompatível com ele e com a legislação referida nos §§ 3º e 4º.
+
+§ 6º Até 31 de dezembro de 1989, o disposto no art. 150, III, b , não se aplica aos impostos de que tratam os arts. 155, I, a e b , e 156, II e III, que podem ser cobrados trinta dias após a publicação da lei que os tenha instituído ou aumentado.
+
+§ 7º Até que sejam fixadas em lei complementar, as alíquotas máximas do imposto municipal sobre vendas a varejo de combustíveis líquidos e gasosos não excederão a três por cento.
+
+§ 8º Se, no prazo de sessenta dias contados da promulgação da Constituição, não for editada a lei complementar necessária à instituição do imposto de que trata o art. 155, I, b , os Estados e o Distrito Federal, mediante convênio celebrado nos termos da Lei Complementar n.º 24, de 7 de janeiro de 1975, fixarão normas para regular provisoriamente a matéria.
+
+§ 9º Até que lei complementar disponha sobre a matéria, as empresas distribuidoras de energia elétrica, na condição de contribuintes ou de substitutos tributários, serão as responsáveis, por ocasião da saída do produto de seus estabelecimentos, ainda que destinado a outra unidade da Federação, pelo pagamento do imposto sobre operações relativas à circulação de mercadorias incidente sobre energia elétrica, desde a produção ou importação até a última operação, calculado o imposto sobre o preço então praticado na operação final e assegurado seu recolhimento ao Estado ou ao Distrito Federal, conforme o local onde deva ocorrer essa operação.
+
+§ 10. Enquanto não entrar em vigor a lei prevista no art. 159, I, c , cuja promulgação se fará até 31 de dezembro de 1989, é assegurada a aplicação dos recursos previstos naquele dispositivo da seguinte maneira:
+
+I - seis décimos por cento na Região Norte, através do Banco da Amazônia S.A.;
+II - um inteiro e oito décimos por cento na Região Nordeste, através do Banco do Nordeste do Brasil S.A.;
+III - seis décimos por cento na Região Centro-Oeste, através do Banco do Brasil S.A.
+
+§ 11. Fica criado, nos termos da lei, o Banco de Desenvolvimento do Centro-Oeste, para dar cumprimento, na referida região, ao que determinam os arts. 159, I, c , e 192, § 2º, da Constituição.
+
+§ 12. A urgência prevista no art. 148, II, não prejudica a cobrança do empréstimo compulsório instituído, em benefício das Centrais Elétricas Brasileiras S.A. (Eletrobrás), pela Lei n.º 4.156, de 28 de novembro de 1962, com as alterações posteriores.
+
+Art. 35. O disposto no art. 165, § 7º, será cumprido de forma progressiva, no prazo de até dez anos, distribuindo-se os recursos entre as regiões macroeconômicas em razão proporcional à população, a partir da situação verificada no biênio 1986-87.
+
+§ 1º Para aplicação dos critérios de que trata este artigo, excluem-se das despesas totais as relativas:
+
+I - aos projetos considerados prioritários no plano plurianual;
+II - à segurança e defesa nacional;
+III - à manutenção dos órgãos federais no Distrito Federal;
+IV - ao Congresso Nacional, ao Tribunal de Contas da União e ao Poder Judiciário;
+V - ao serviço da dívida da administração direta e indireta da União, inclusive fundações instituídas e mantidas pelo Poder Público federal.
+
+§ 2º Até a entrada em vigor da lei complementar a que se refere o art. 165, § 9º, I e II, serão obedecidas as seguintes normas:
+
+I - o projeto do plano plurianual, para vigência até o final do primeiro exercício financeiro do mandato presidencial subseqüente, será encaminhado até quatro meses antes do encerramento do primeiro exercício financeiro e devolvido para sanção até o encerramento da sessão legislativa;
+II - o projeto de lei de diretrizes orçamentárias será encaminhado até oito meses e meio antes do encerramento do exercício financeiro e devolvido para sanção até o encerramento do primeiro período da sessão legislativa;
+III - o projeto de lei orçamentária da União será encaminhado até quatro meses antes do encerramento do exercício financeiro e devolvido para sanção até o encerramento da sessão legislativa.
+
+Art. 36. Os fundos existentes na data da promulgação da Constituição, excetuados os resultantes de isenções fiscais que passem a integrar patrimônio privado e os que interessem à defesa nacional, extinguir-se-ão se não forem ratificados pelo Congresso Nacional no prazo de dois anos.
+
+Art. 37. A adaptação ao que estabelece o art. 167, III, deverá processar-se no prazo de cinco anos, reduzindo-se o excesso à base de, pelo menos, um quinto por ano.
+
+Art. 38. Até a promulgação da lei complementar referida no art. 169, a União, os Estados, o Distrito Federal e os Municípios não poderão despender com pessoal mais do que sessenta e cinco por cento do valor das respectivas receitas correntes.
+
+Parágrafo único. A União, os Estados, o Distrito Federal e os Municípios, quando a respectiva despesa de pessoal exceder o limite previsto neste artigo, deverão retornar àquele limite, reduzindo o percentual excedente à razão de um quinto por ano.
+
+Art. 39. Para efeito do cumprimento das disposições constitucionais que impliquem variações de despesas e receitas da União, após a promulgação da Constituição, o Poder Executivo deverá elaborar e o Poder Legislativo apreciar projeto de revisão da lei orçamentária referente ao exercício financeiro de 1989.
+
+Parágrafo único. O Congresso Nacional deverá votar no prazo de doze meses a lei complementar prevista no art. 161, II.
+
+Art. 40. É mantida a Zona Franca de Manaus, com suas características de área livre de comércio, de exportação e importação, e de incentivos fiscais, pelo prazo de vinte e cinco anos, a partir da promulgação da Constituição.
+
+Parágrafo único. Somente por lei federal podem ser modificados os critérios que disciplinaram ou venham a disciplinar a aprovação dos projetos na Zona Franca de Manaus.
+
+Art. 41. Os Poderes Executivos da União, dos Estados, do Distrito Federal e dos Municípios reavaliarão todos os incentivos fiscais de natureza setorial ora em vigor, propondo aos Poderes Legislativos respectivos as medidas cabíveis.
+
+§ 1º Considerar-se-ão revogados após dois anos, a partir da data da promulgação da Constituição, os incentivos que não forem confirmados por lei.
+
+§ 2º A revogação não prejudicará os direitos que já tiverem sido adquiridos, àquela data, em relação a incentivos concedidos sob condição e com prazo certo.
+
+§ 3º Os incentivos concedidos por convênio entre Estados, celebrados nos termos do art. 23, § 6º, da Constituição de 1967, com a redação da Emenda n.º 1, de 17 de outubro de 1969, também deverão ser reavaliados e reconfirmados nos prazos deste artigo.
+
+Art. 42. Durante quinze anos, a União aplicará, dos recursos destinados à irrigação:
+
+I - vinte por cento na Região Centro-Oeste;
+II - cinqüenta por cento na Região Nordeste, preferencialmente no semi-árido.
+
+Art. 43. Na data da promulgação da lei que disciplinar a pesquisa e a lavra de recursos e jazidas minerais, ou no prazo de um ano, a contar da promulgação da Constituição, tornar-se-ão sem efeito as autorizações, concessões e demais títulos atributivos de direitos minerários, caso os trabalhos de pesquisa ou de lavra não hajam sido comprovadamente iniciados nos prazos legais ou estejam inativos.
+
+Art. 44. As atuais empresas brasileiras titulares de autorização de pesquisa, concessão de lavra de recursos minerais e de aproveitamento dos potenciais de energia hidráulica em vigor terão quatro anos, a partir da promulgação da Constituição, para cumprir os requisitos do art. 176, § 1º.
+
+§ 1º Ressalvadas as disposições de interesse nacional previstas no texto constitucional, as empresas brasileiras ficarão dispensadas do cumprimento do disposto no art. 176, § 1º, desde que, no prazo de até quatro anos da data da promulgação da Constituição, tenham o produto de sua lavra e beneficiamento destinado a industrialização no território nacional, em seus próprios estabelecimentos ou em empresa industrial controladora ou controlada.
+
+§ 2º Ficarão também dispensadas do cumprimento do disposto no art. 176, § 1º, as empresas brasileiras titulares de concessão de energia hidráulica para uso em seu processo de industrialização.
+
+§ 3º As empresas brasileiras referidas no § 1º somente poderão ter autorizações de pesquisa e concessões de lavra ou potenciais de energia hidráulica, desde que a energia e o produto da lavra sejam utilizados nos respectivos processos industriais.
+
+Art. 45. Ficam excluídas do monopólio estabelecido pelo art. 177, II, da Constituição as refinarias em funcionamento no País amparadas pelo art. 43 e nas condições do art. 45 da Lei n.º 2.004, de 3 de outubro de 1953.
+
+Parágrafo único. Ficam ressalvados da vedação do art. 177, § 1º, os contratos de risco feitos com a Petróleo Brasileiro S.A. (Petrobrás), para pesquisa de petróleo, que estejam em vigor na data da promulgação da Constituição.
+
+Art. 46. São sujeitos à correção monetária desde o vencimento, até seu efetivo pagamento, sem interrupção ou suspensão, os créditos junto a entidades submetidas aos regimes de intervenção ou liquidação extrajudicial, mesmo quando esses regimes sejam convertidos em falência.
+
+Parágrafo único. O disposto neste artigo aplica-se também:
+
+I - às operações realizadas posteriormente à decretação dos regimes referidos no caput deste artigo;
+II - às operações de empréstimo, financiamento, refinanciamento, assistência financeira de liquidez, cessão ou sub-rogação de créditos ou cédulas hipotecárias, efetivação de garantia de depósitos do público ou de compra de obrigações passivas, inclusive as realizadas com recursos de fundos que tenham essas destinações;
+III - aos créditos anteriores à promulgação da Constituição;
+IV - aos créditos das entidades da administração pública anteriores à promulgação da Constituição, não liquidados até 1º de janeiro de 1988.
+
+Art. 47. Na liquidação dos débitos, inclusive suas renegociações e composições posteriores, ainda que ajuizados, decorrentes de quaisquer empréstimos concedidos por bancos e por instituições financeiras, não existirá correção monetária desde que o empréstimo tenha sido concedido:
+
+I - aos micro e pequenos empresários ou seus estabelecimentos no período de 28 de fevereiro de 1986 a 28 de fevereiro de 1987;
+II - aos mini, pequenos e médios produtores rurais no período de 28 de fevereiro de 1986 a 31 de dezembro de 1987, desde que relativos a crédito rural.
+
+§ 1º Consideram-se, para efeito deste artigo, microempresas as pessoas jurídicas e as firmas individuais com receitas anuais de até dez mil Obrigações do Tesouro Nacional, e pequenas empresas as pessoas jurídicas e as firmas individuais com receita anual de até vinte e cinco mil Obrigações do Tesouro Nacional.
+
+§ 2º A classificação de mini, pequeno e médio produtor rural será feita obedecendo-se às normas de crédito rural vigentes à época do contrato.
+
+§ 3º A isenção da correção monetária a que se refere este artigo só será concedida nos seguintes casos:
+
+I - se a liquidação do débito inicial, acrescido de juros legais e taxas judiciais, vier a ser efetivada no prazo de noventa dias, a contar da data da promulgação da Constituição;
+II - se a aplicação dos recursos não contrariar a finalidade do financiamento, cabendo o ônus da prova à instituição credora;
+III - se não for demonstrado pela instituição credora que o mutuário dispõe de meios para o pagamento de seu débito, excluído desta demonstração seu estabelecimento, a casa de moradia e os instrumentos de trabalho e produção;
+IV - se o financiamento inicial não ultrapassar o limite de cinco mil obrigações do Tesouro Nacional;
+V - se o beneficiário não for proprietário de mais de cinco módulos rurais.
+
+§ 4º Os benefícios de que trata este artigo não se estendem aos débitos já quitados e aos devedores que sejam constituintes.
+
+§ 5º No caso de operações com prazos de vencimento posteriores à data-limite de liquidação da dívida, havendo interesse do mutuário, os bancos e as instituições financeiras promoverão, por instrumento próprio, alteração nas condições contratuais originais de forma a ajustá-las ao presente benefício.
+
+§ 6º A concessão do presente benefício por bancos comerciais privados em nenhuma hipótese acarretará ônus para o Poder Público, ainda que através de refinanciamento e repasse de recursos pelo banco central.
+
+§ 7º No caso de repasse a agentes financeiros oficiais ou cooperativas de crédito, o ônus recairá sobre a fonte de recursos originária.
+
+Art. 48. O Congresso Nacional, dentro de cento e vinte dias da promulgação da Constituição, elaborará código de defesa do consumidor.
+
+Art. 49. A lei disporá sobre o instituto da enfiteuse em imóveis urbanos, sendo facultada aos foreiros, no caso de sua extinção, a remição dos aforamentos mediante aquisição do domínio direto, na conformidade do que dispuserem os respectivos contratos.
+
+§ 1º Quando não existir cláusula contratual, serão adotados os critérios e bases hoje vigentes na legislação especial dos imóveis da União.
+
+§ 2º Os direitos dos atuais ocupantes inscritos ficam assegurados pela aplicação de outra modalidade de contrato.
+
+§ 3º A enfiteuse continuará sendo aplicada aos terrenos de marinha e seus acrescidos, situados na faixa de segurança, a partir da orla marítima.
+
+§ 4º Remido o foro, o antigo titular do domínio direto deverá, no prazo de noventa dias, sob pena de responsabilidade, confiar à guarda do registro de imóveis competente toda a documentação a ele relativa.
+
+Art. 50. Lei agrícola a ser promulgada no prazo de um ano disporá, nos termos da Constituição, sobre os objetivos e instrumentos de política agrícola, prioridades, planejamento de safras, comercialização, abastecimento interno, mercado externo e instituição de crédito fundiário.
+
+Art. 51. Serão revistos pelo Congresso Nacional, através de Comissão mista, nos três anos a contar da data da promulgação da Constituição, todas as doações, vendas e concessões de terras públicas com área superior a três mil hectares, realizadas no período de 1º de janeiro de 1962 a 31 de dezembro de 1987.
+
+§ 1º No tocante às vendas, a revisão será feito com base exclusivamente no critério de legalidade da operação.
+
+§ 2º No caso de concessões e doações, a revisão obedecerá aos critérios de legalidade e de conveniência do interesse público.
+
+§ 3º Nas hipóteses previstas nos parágrafos anteriores, comprovada a ilegalidade, ou havendo interesse público, as terras reverterão ao patrimônio da União, dos Estados, do Distrito Federal ou dos Municípios.
+
+Art. 52. Até que sejam fixadas as condições a que se refere o art. 192, III, são vedados:
+
+I - a instalação, no País, de novas agências de instituições financeiras domiciliadas no exterior;
+II - o aumento do percentual de participação, no capital de instituições financeiras com sede no País, de pessoas físicas ou jurídicas residentes ou domiciliadas no exterior.
+
+Parágrafo único. A vedação a que se refere este artigo não se aplica às autorizações resultantes de acordos internacionais, de reciprocidade, ou de interesse do Governo brasileiro.
+
+Art. 53. Ao ex-combatente que tenha efetivamente participado de operações bélicas durante a Segunda Guerra Mundial, nos termos da Lei n.º 5.315, de 12 de setembro de 1967, serão assegurados os seguintes direitos:
+
+I - aproveitamento no serviço público, sem a exigência de concurso, com estabilidade;
+II - pensão especial correspondente à deixada por segundo-tenente das Forças Armadas, que poderá ser requerida a qualquer tempo, sendo inacumulável com quaisquer rendimentos recebidos dos cofres públicos, exceto os benefícios previdenciários, ressalvado o direito de opção;
+III - em caso de morte, pensão à viúva ou companheira ou dependente, de forma proporcional, de valor igual à do inciso anterior;
+IV - assistência médica, hospitalar e educacional gratuita, extensiva aos dependentes;
+V - aposentadoria com proventos integrais aos vinte e cinco anos de serviço efetivo, em qualquer regime jurídico;
+VI - prioridade na aquisição da casa própria, para os que não a possuam ou para suas viúvas ou companheiras.
+
+Parágrafo único. A concessão da pensão especial do inciso II substitui, para todos os efeitos legais, qualquer outra pensão já concedida ao ex-combatente.
+
+Art. 54. Os seringueiros recrutados nos termos do Decreto-Lei n.º 5.813, de 14 de setembro de 1943, e amparados pelo Decreto-Lei n.º 9.882, de 16 de setembro de 1946, receberão, quando carentes, pensão mensal vitalícia no valor de dois salários mínimos.
+
+§ 1º O benefício é estendido aos seringueiros que, atendendo a apelo do Governo brasileiro, contribuíram para o esforço de guerra, trabalhando na produção de borracha, na Região Amazônica, durante a Segunda Guerra Mundial.
+
+§ 2º Os benefícios estabelecidos neste artigo são transferíveis aos dependentes reconhecidamente carentes.
+
+§ 3º A concessão do benefício far-se-á conforme lei a ser proposta pelo Poder Executivo dentro de cento e cinqüenta dias da promulgação da Constituição.
+
+Art. 55. Até que seja aprovada a lei de diretrizes orçamentárias, trinta por cento, no mínimo, do orçamento da seguridade social, excluído o seguro-desemprego, serão destinados ao setor de saúde.
+
+Art. 56. Até que a lei disponha sobre o art. 195, I, a arrecadação decorrente de, no mínimo, cinco dos seis décimos percentuais correspondentes à alíquota da contribuição de que trata o Decreto-Lei n.º 1.940, de 25 de maio de 1982, alterada pelo Decreto-Lei n.º 2.049, de 1º de agosto de 1983, pelo Decreto n.º 91.236, de 8 de maio de 1985, e pela Lei n.º 7.611, de 8 de julho de 1987, passa a integrar a receita da seguridade social, ressalvados, exclusivamente no exercício de 1988, os compromissos assumidos com programas e projetos em andamento.
+
+Art. 57. Os débitos dos Estados e dos Municípios relativos às contribuições previdenciárias até 30 de junho de 1988 serão liquidados, com correção monetária, em cento e vinte parcelas mensais, dispensados os juros e multas sobre eles incidentes, desde que os devedores requeiram o parcelamento e iniciem seu pagamento no prazo de cento e oitenta dias a contar da promulgação da Constituição.
+
+§ 1º O montante a ser pago em cada um dos dois primeiros anos não será inferior a cinco por cento do total do débito consolidado e atualizado, sendo o restante dividido em parcelas mensais de igual valor.
+
+§ 2º A liquidação poderá incluir pagamentos na forma de cessão de bens e prestação de serviços, nos termos da Lei n.º 7.578, de 23 de dezembro de 1986.
+
+§ 3º Em garantia do cumprimento do parcelamento, os Estados e os Municípios consignarão, anualmente, nos respectivos orçamentos as dotações necessárias ao pagamento de seus débitos.
+
+§ 4º Descumprida qualquer das condições estabelecidas para concessão do parcelamento, o débito será considerado vencido em sua totalidade, sobre ele incidindo juros de mora; nesta hipótese, parcela dos recursos correspondentes aos fundos de participação, destinada aos Estados e Municípios devedores, será bloqueada e repassada à previdência social para pagamento de seus débitos.
+
+Art. 58. Os benefícios de prestação continuada, mantidos pela previdência social na data da promulgação da Constituição, terão seus valores revistos, a fim de que seja restabelecido o poder aquisitivo, expresso em número de salários mínimos, que tinham na data de sua concessão, obedecendo-se a esse critério de atualização até a implantação do plano de custeio e benefícios referidos no artigo seguinte.
+
+Parágrafo único. As prestações mensais dos benefícios atualizadas de acordo com este artigo serão devidas e pagas a partir do sétimo mês a contar da promulgação da Constituição.
+
+Art. 59. Os projetos de lei relativos à organização da seguridade social e aos planos de custeio e de benefício serão apresentados no prazo máximo de seis meses da promulgação da Constituição ao Congresso Nacional, que terá seis meses para apreciá-los.
+
+Parágrafo único. Aprovados pelo Congresso Nacional, os planos serão implantados progressivamente nos dezoito meses seguintes.
+
+Art. 60. Nos dez primeiros anos da promulgação da Constituição, o Poder Público desenvolverá esforços, com a mobilização de todos os setores organizados da sociedade e com a aplicação de, pelo menos, cinqüenta por cento dos recursos a que se refere o art. 212 da Constituição, para eliminar o analfabetismo e universalizar o ensino fundamental.
+
+Parágrafo único. Em igual prazo, as universidades públicas descentralizarão suas atividades, de modo a estender suas unidades de ensino superior às cidades de maior densidade populacional.
+
+Art. 61. As entidades educacionais a que se refere o art. 213, bem como as fundações de ensino e pesquisa cuja criação tenha sido autorizada por lei, que preencham os requisitos dos incisos I e II do referido artigo e que, nos últimos três anos, tenham recebido recursos públicos, poderão continuar a recebê-los, salvo disposição legal em contrário.
+
+Art. 62. A lei criará o Serviço Nacional de Aprendizagem Rural (SENAR) nos moldes da legislação relativa ao Serviço Nacional de Aprendizagem Industrial (SENAI) e ao Serviço Nacional de Aprendizagem do Comércio (SENAC), sem prejuízo das atribuições dos órgãos públicos que atuam na área.
+
+Art. 63. É criada uma Comissão composta de nove membros, sendo três do Poder Legislativo, três do Poder Judiciário e três do Poder Executivo, para promover as comemorações do centenário da proclamação da República e da promulgação da primeira Constituição republicana do País, podendo, a seu critério, desdobrar-se em tantas subcomissões quantas forem necessárias.
+
+Parágrafo único. No desenvolvimento de suas atribuições, a Comissão promoverá estudos, debates e avaliações sobre a evolução política, social, econômica e cultural do País, podendo articular-se com os governos estaduais e municipais e com instituições públicas e privadas que desejem participar dos eventos.
+
+Art. 64. A Imprensa Nacional e demais gráficas da União, dos Estados, do Distrito Federal e dos Municípios, da administração direta ou indireta, inclusive fundações instituídas e mantidas pelo Poder Público, promoverão edição popular do texto integral da Constituição, que será posta à disposição das escolas e dos cartórios, dos sindicatos, dos quartéis, das igrejas e de outras instituições representativas da comunidade, gratuitamente, de modo que cada cidadão brasileiro possa receber do Estado um exemplar da Constituição do Brasil.
+
+Art. 65. O Poder Legislativo regulamentará, no prazo de doze meses, o art. 220, § 4º.
+
+Art. 66. São mantidas as concessões de serviços públicos de telecomunicações atualmente em vigor, nos termos da lei.
+
+Art. 67. A União concluirá a demarcação das terras indígenas no prazo de cinco anos a partir da promulgação da Constituição.
+
+Art. 68. Aos remanescentes das comunidades dos quilombos que estejam ocupando suas terras é reconhecida a propriedade definitiva, devendo o Estado emitir-lhes os títulos respectivos.
+
+Art. 69. Será permitido aos Estados manter consultorias jurídicas separadas de suas Procuradorias-Gerais ou Advocacias-Gerais, desde que, na data da promulgação da Constituição, tenham órgãos distintos para as respectivas funções.
+
+Art. 70. Fica mantida a atual competência dos tribunais estaduais até que a mesma seja definida na Constituição do Estado, nos termos do art. 125, § 1º, da Constituição.
+
+Brasília, 5 de outubro de 1988. Ulysses Guimarães, Presidente - Mauro Benevides, Vice-Presidente - Jorge Arbage, Vice-Presidente - Marcelo Cordeiro, Secretário - Mário Maia, Secretário - Arnaldo Faria de Sá, Secretário - Benedita da Silva, Suplente de Secretário - Luiz Soyer, Suplente de Secretário - Sotero Cunha, Suplente de Secretário - Bernardo Cabral, Relator Geral - Adolfo Oliveira, Relator Adjunto - Antônio Carlos Konder Reis, Relator Adjunto - José Fogaça, Relator Adjunto - Abigail Feitosa - Acival Gomes - Adauto Pereira - Ademir Andrade - Adhemar de Barros Filho - Adroaldo Streck - Adylson Motta - Aécio de Borba - Aécio Neves - Affonso Camargo - Afif Domingos - Afonso Arinos - Afonso Sancho - Agassiz Almeida - Agripino de Oliveira Lima - Airton Cordeiro - Airton Sandoval - Alarico Abib - Albano Franco - Albérico Cordeiro - Albérico Filho - Alceni Guerra - Alcides Saldanha - Aldo Arantes - Alércio Dias - Alexandre Costa - Alexandre Puzyna - Alfredo Campos - Almir Gabriel - Aloisio Vasconcelos - Aloysio Chaves - Aloysio Teixeira - Aluizio Bezerra - Aluízio Campos - Álvaro Antônio - Álvaro Pacheco - Álvaro Valle - Alysson Paulinelli - Amaral Netto - Amaury Müller - Amilcar Moreira - Ângelo Magalhães - Anna Maria Rattes - Annibal Barcellos - Antero de Barros - Antônio Câmara - Antônio Carlos Franco - Antonio Carlos Mendes Thame - Antônio de Jesus - Antonio Ferreira - Antonio Gaspar - Antonio Mariz - Antonio Perosa - Antônio Salim Curiati - Antonio Ueno - Arnaldo Martins - Arnaldo Moraes - Arnaldo Prieto - Arnold Fioravante - Arolde de Oliveira - Artenir Werner - Artur da Távola - Asdrubal Bentes - Assis Canuto - Átila Lira - Augusto Carvalho - Áureo Mello - Basílio Villani - Benedicto Monteiro - Benito Gama - Beth Azize - Bezerra de Melo - Bocayuva Cunha - Bonifácio de Andrada - Bosco França - Brandão Monteiro - Caio Pompeu - Carlos Alberto - Carlos Alberto Caó - Carlos Benevides - Carlos Cardinal - Carlos Chiarelli - Carlos Cotta - Carlos De¿Carli - Carlos Mosconi - Carlos Sant¿Anna - Carlos Vinagre - Carlos Virgílio - Carrel Benevides - Cássio Cunha Lima - Célio de Castro - Celso Dourado - César Cals Neto - César Maia - Chagas Duarte - Chagas Neto - Chagas Rodrigues - Chico Humberto - Christóvam Chiaradia - Cid Carvalho - Cid Sabóia de Carvalho - Cláudio Ávila - Cleonâncio Fonseca - Costa Ferreira - Cristina Tavares - Cunha Bueno - Dálton Canabrava - Darcy Deitos - Darcy Pozza - Daso Coimbra - Davi Alves Silva - Del Bosco Amaral - Delfim Netto - Délio Braz - Denisar Arneiro - Dionisio Dal Prá - Dionísio Hage - Dirce Tutu Quadros - Dirceu Carneiro - Divaldo Suruagy - Djenal Gonçalves - Domingos Juvenil - Domingos Leonelli - Doreto Campanari - Edésio Frias - Edison Lobão - Edivaldo Motta - Edme Tavares - Edmilson Valentim - Eduardo Bonfim - Eduardo Jorge - Eduardo Moreira - Egídio Ferreira Lima - Elias Murad - Eliel Rodrigues - Eliézer Moreira - Enoc Vieira - Eraldo Tinoco - Eraldo Trindade - Erico Pegoraro - Ervin Bonkoski - Etevaldo Nogueira - Euclides Scalco - Eunice Michiles - Evaldo Gonçalves - Expedito Machado - Ézio Ferreira - Fábio Feldmann - Fábio Raunheitti - Farabulini Júnior - Fausto Fernandes - Fausto Rocha - Felipe Mendes - Feres Nader - Fernando Bezerra Coelho - Fernando Cunha - Fernando Gasparian - Fernando Gomes - Fernando Henrique Cardoso - Fernando Lyra - Fernando Santana - Fernando Velasco - Firmo de Castro - Flavio Palmier da Veiga - Flávio Rocha - Florestan Fernandes - Floriceno Paixão - França Teixeira - Francisco Amaral - Francisco Benjamim - Francisco Carneiro - Francisco Coelho - Francisco Diógenes - Francisco Dornelles - Francisco Küster - Francisco Pinto - Francisco Rollemberg - Francisco Rossi - Francisco Sales - Furtado Leite - Gabriel Guerreiro - Gandi Jamil - Gastone Righi - Genebaldo Correia - Genésio Bernardino - Geovani Borges - Geraldo Alckmin Filho - Geraldo Bulhões - Geraldo Campos - Geraldo Fleming - Geraldo Melo - Gerson Camata - Gerson Marcondes - Gerson Peres - Gidel Dantas - Gil César - Gilson Machado - Gonzaga Patriota - Guilherme Palmeira - Gumercindo Milhomem - Gustavo de Faria - Harlan Gadelha - Haroldo Lima - Haroldo Sabóia - Hélio Costa - Hélio Duque - Hélio Manhães - Hélio Rosas - Henrique Córdova - Henrique Eduardo Alves - Heráclito Fortes - Hermes Zaneti - Hilário Braun - Homero Santos - Humberto Lucena - Humberto Souto - Iberê Ferreira - Ibsen Pinheiro - Inocêncio Oliveira - Irajá Rodrigues - Iram Saraiva - Irapuan Costa Júnior - Irma Passoni - Ismael Wanderley - Israel Pinheiro - Itamar Franco - Ivo Cersósimo - Ivo Lech - Ivo Mainardi - Ivo Vanderlinde - Jacy Scanagatta - Jairo Azi - Jairo Carneiro - Jalles Fontoura - Jamil Haddad - Jarbas Passarinho - Jayme Paliarin - Jayme Santana - Jesualdo Cavalcanti - Jesus Tajra - Joaci Góes - João Agripino - João Alves - João Calmon - João Carlos Bacelar - João Castelo - João Cunha - João da Mata - João de Deus Antunes - João Herrmann Neto - João Lobo - João Machado Rollemberg - João Menezes - João Natal - João Paulo - João Rezek - Joaquim Bevilácqua - Joaquim Francisco - Joaquim Hayckel - Joaquim Sucena - Jofran Frejat - Jonas Pinheiro - Jonival Lucas - Jorge Bornhausen - Jorge Hage - Jorge Leite - Jorge Uequed - Jorge Vianna - José Agripino - José Camargo - José Carlos Coutinho - José Carlos Grecco - José Carlos Martinez - José Carlos Sabóia - José Carlos Vasconcelos - José Costa - José da Conceição - José Dutra - José Egreja - José Elias - José Fernandes - José Freire - José Genoíno - José Geraldo - José Guedes - José Ignácio Ferreira - José Jorge - José Lins - José Lourenço - José Luiz de Sá - José Luiz Maia - José Maranhão - José Maria Eymael - José Maurício - José Melo - José Mendonça Bezerra - José Moura - José Paulo Bisol - José Queiroz - José Richa - José Santana de Vasconcellos - José Serra - José Tavares - José Teixeira - José Thomaz Nonô - José Tinoco - José Ulísses de Oliveira - José Viana - José Yunes - Jovanni Masini - Juarez Antunes - Júlio Campos - Júlio Costamilan - Jutahy Júnior - Jutahy Magalhães - Koyu Iha - Lael Varella - Lavoisier Maia - Leite Chaves - Lélio Souza - Leopoldo Peres - Leur Lomanto - Levy Dias - Lézio Sathler - Lídice da Mata - Louremberg Nunes Rocha - Lourival Baptista - Lúcia Braga - Lúcia Vânia - Lúcio Alcântara - Luís Eduardo - Luís Roberto Ponte - Luiz Alberto Rodrigues - Luiz Freire - Luiz Gushiken - Luiz Henrique - Luiz Inácio Lula da Silva - Luiz Leal - Luiz Marques - Luiz Salomão - Luiz Viana - Luiz Viana Neto - Lysâneas Maciel - Maguito Vilela - Maluly Neto - Manoel Castro - Manoel Moreira - Manoel Ribeiro - Mansueto de Lavor - Manuel Viana - Márcia Kubitschek - Márcio Braga - Márcio Lacerda - Marco Maciel - Marcondes Gadelha - Marcos Lima - Marcos Queiroz - Maria de Lourdes Abadia - Maria Lúcia - Mário Assad - Mário Covas - Mário de Oliveira - Mário Lima - Marluce Pinto - Matheus Iensen - Mattos Leão - Maurício Campos - Maurício Correa - Maurício Fruet - Maurício Nasser - Maurício Pádua - Maurílio Ferreira Lima - Mauro Borges - Mauro Campos - Mauro Miranda - Mauro Sampaio - Max Rosenmann - Meira Filho - Melo Freire - Mello Reis - Mendes Botelho - Mendes Canale - Mendes Ribeiro - Messias Góis - Messias Soares - Michel Temer - Milton Barbosa - Milton Lima - Milton Reis - Miraldo Gomes - Miro Teixeira - Moema São Thiago - Moysés Pimentel - Mozarildo Cavalcanti - Mussa Demes - Myrian Portella - Nabor Júnior - Naphtali Alves de Souza - Narciso Mendes - Nelson Aguiar - Nelson Carneiro - Nelson Jobim - Nelson Sabrá - Nelson Seixas - Nelson Wedekin - Nelton Friedrich - Nestor Duarte - Ney Maranhão - Nilso Sguarezi - Nilson Gibson - Nion Albernaz - Noel de Carvalho - Nyder Barbosa - Octávio Elísio - Odacir Soares - Olavo Pires - Olívio Dutra - Onofre Corrêa - Orlando Bezerra - Orlando Pacheco - Oscar Corrêa - Osmar Leitão - Osmir Lima - Osmundo Rebouças - Osvaldo Bender - Osvaldo Coelho - Osvaldo Macedo - Osvaldo Sobrinho - Oswaldo Almeida - Oswaldo Trevisan - Ottomar Pinto - Paes de Andrade - Paes Landim - Paulo Delgado - Paulo Macarini - Paulo Marques - Paulo Mincarone - Paulo Paim - Paulo Pimentel - Paulo Ramos - Paulo Roberto - Paulo Roberto Cunha - Paulo Silva - Paulo Zarzur - Pedro Canedo - Pedro Ceolin - Percival Muniz - Pimenta da Veiga - Plínio Arruda Sampaio - Plínio Martins - Pompeu de Sousa - Rachid Saldanha Derzi - Raimundo Bezerra - Raimundo Lira - Raimundo Rezende - Raquel Cândido - Raquel Capiberibe - Raul Belém - Raul Ferraz - Renan Calheiros - Renato Bernardi - Renato Johnsson - Renato Vianna - Ricardo Fiuza - Ricardo Izar - Rita Camata - Rita Furtado - Roberto Augusto - Roberto Balestra - Roberto Brant - Roberto Campos - Roberto D¿Ávila - Roberto Freire - Roberto Jefferson - Roberto Rollemberg - Roberto Torres - Roberto Vital - Robson Marinho - Rodrigues Palma - Ronaldo Aragão - Ronaldo Carvalho - Ronaldo Cezar Coelho - Ronan Tito - Ronaro Corrêa - Rosa Prata - Rose de Freitas - Rospide Netto - Rubem Branquinho - Rubem Medina - Ruben Figueiró - Ruberval Pilotto - Ruy Bacelar - Ruy Nedel - Sadie Hauache - Salatiel Carvalho - Samir Achôa - Sandra Cavalcanti - Santinho Furtado - Sarney Filho - Saulo Queiroz - Sérgio Brito - Sérgio Spada - Sérgio Werneck - Severo Gomes - Sigmaringa Seixas - Sílvio Abreu - Simão Sessim - Siqueira Campos - Sólon Borges dos Reis - Stélio Dias - Tadeu França - Telmo Kirst - Teotonio Vilela Filho - Theodoro Mendes - Tito Costa - Ubiratan Aguiar - Ubiratan Spinelli - Uldurico Pinto - Valmir Campelo - Valter Pereira - Vasco Alves - Vicente Bogo - Victor Faccioni - Victor Fontana - Victor Trovão - Vieira da Silva - Vilson Souza - Vingt Rosado - Vinicius Cansanção - Virgildásio de Senna - Virgílio Galassi - Virgílio Guimarães - Vitor Buaiz - Vivaldo Barbosa - Vladimir Palmeira - Wagner Lago - Waldec Ornélas - Waldyr Pugliesi - Walmor de Luca - Wilma Maia - Wilson Campos - Wilson Martins - Ziza Valadares. PARTICIPANTES: Álvaro Dias - Antônio Britto - Bete Mendes - Borges da Silveira - Cardoso Alves - Edivaldo Holanda - Expedito Júnior - Fadah Gattass - Francisco Dias - Geovah Amarante - Hélio Gueiros - Horácio Ferraz - Hugo Napoleão - Iturival Nascimento - Ivan Bonato - Jorge Medauar - José Mendonça de Morais - Leopoldo Bessone - Marcelo Miranda - Mauro Fecury - Neuto de Conto - Nivaldo Machado - Oswaldo Lima Filho - Paulo Almada - Prisco Viana - Ralph Biasi - Rosário Congro Neto - Sérgio Naya - Tidei de Lima. IN MEMORIAM: Alair Ferreira - Antônio Farias - Fábio Lucena - Norberto Schwantes - Virgílio Távora.

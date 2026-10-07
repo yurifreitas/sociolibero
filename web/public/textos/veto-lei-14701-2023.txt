@@ -1,0 +1,458 @@
+=== PROVENIÊNCIA ===
+Documento: Mensagem nº 536, de 20 de outubro de 2023 (veto parcial à Lei 14.701/2023)
+Id: veto-lei-14701-2023
+Data do ato: 2023-10-20
+Tipo: mensagem de veto | Autoridade: Presidente da República (Luiz Inácio Lula da Silva) | Status da norma: histórico
+Fonte (URL exata): https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/Msg/Vep/VEP-536-23.htm
+Data de captura: 2026-10-07
+Tipo de versão: original de época
+Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
+Observações: Planalto. Razões do veto (parcialmente derrubado em dezembro de 2023).
+Lacunas: Fonte única.
+SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 3557c9527f3f1bfd51c51ac890b947ab6252113d3e1c9fceb12bbe5c0df8994b
+Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
+Aviso: cópia para consulta; não substitui o texto oficial publicado.
+=== TEXTO ===
+MENSAGEM Nº 536, DE 20 DE OUTUBRO DE 2023
+
+Senhor Presidente do Senado Federal,
+
+Comunico a Vossa Excelência que, nos termos previstos no § 1º do art. 66 da Constituição Federal, decidi vetar parcialmente, por contrariedade ao interesse público e por inconstitucionalidade, o Projeto de Lei nº 2.903, de 2023 (Projeto de Lei nº 490, de 2007, na Câmara dos Deputados), que “Regulamenta o art. 231 da Constituição Federal, para dispor sobre o reconhecimento, a demarcação, o uso e a gestão de terras indígenas; e altera as Leis nºs 11.460, de 21 de março de 2007, 4.132, de 10 de setembro de 1962, e 6.001, de 19 de dezembro de 1973.”.
+
+Ouvidos, o Ministério dos Direitos Humanos e da Cidadania, o Ministério do Meio Ambiente e Mudança do Clima, o Ministério da Justiça e Segurança Pública, o Ministério dos Povos Indígenas e a Advocacia-Geral da União manifestaram-se pelo veto aos seguintes dispositivos:
+
+Caput, incisos I, II, III e IV do caput e § 1º, § 2º, § 3º e § 4º do art. 4º do Projeto de Lei:
+
+“Art. 4º São terras tradicionalmente ocupadas pelos indígenas brasileiros aquelas que, na data da promulgação da Constituição Federal, eram, simultaneamente:
+
+I - habitadas por eles em caráter permanente;
+
+II - utilizadas para suas atividades produtivas;
+
+III - imprescindíveis à preservação dos recursos ambientais necessários a seu bem-estar;
+
+IV - necessárias à sua reprodução física e cultural, segundo seus usos, costumes e tradições.
+
+§ 1º A comprovação dos requisitos a que se refere o caput deste artigo será devidamente fundamentada e baseada em critérios objetivos.
+
+§ 2º A ausência da comunidade indígena em 5 de outubro de 1988 na área pretendida descaracteriza o seu enquadramento no inciso I do caput deste artigo, salvo o caso de renitente esbulho devidamente comprovado.
+
+§ 3º Para os fins desta Lei, considera-se renitente esbulho o efetivo conflito possessório, iniciado no passado e persistente até o marco demarcatório temporal da data de promulgação da Constituição Federal, materializado por circunstâncias de fato ou por controvérsia possessória judicializada.
+
+§ 4º A cessação da posse indígena ocorrida anteriormente a 5 de outubro de 1988, independentemente da causa, inviabiliza o reconhecimento da área como tradicionalmente ocupada, salvo o disposto no § 3º deste artigo.”
+
+Razões dos vetos
+
+“A proposição legislativa estabelece que seriam terras tradicionalmente ocupadas pelos indígenas brasileiros aquelas que, na data da promulgação da Constituição Federal, eram, simultaneamente: I) habitadas por eles em caráter permanente; II) utilizadas para suas atividades produtivas; III) imprescindíveis à preservação dos recursos ambientais necessários a seu bem-estar; IV) necessárias à sua reprodução física e cultural, segundo seus usos, costumes e tradições.
+
+Ademais, estabelece que a comprovação dos requisitos mencionados seria devidamente fundamentada e baseada em critérios objetivos e que a ausência da comunidade indígena em 5 de outubro de 1988 na área pretendida descaracterizaria o seu enquadramento como terras habitadas em caráter permanente, ressalvado o caso de renitente esbulho devidamente comprovado. Ainda, define como renitente esbulho o efetivo conflito possessório, iniciado no passado e persistente até o marco demarcatório temporal da data de promulgação da Constituição Federal, materializado por circunstâncias de fato ou por controvérsia possessória judicializada, situação que excepciona quanto à cessação da posse indígena ocorrida anteriormente a 5 de outubro de 1988, independentemente da causa, que inviabilizaria o reconhecimento da área como tradicionalmente ocupada.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público por introduzir a exigência de comprovação da ocupação indígena na área pretendida na data da promulgação da Constituição Federal, a saber, 5 de outubro de 1988, ou então de renitente esbulho persistente até aquela data, desconsiderando a dificuldade material de obter tal comprovação frente à dinâmica de ocupação do território brasileiro e seus impactos sobre a mobilidade e fixação populacional em diferentes áreas geográficas.
+
+Ademais, a proposição legislativa, ao apresentar a tese do marco temporal e seus desdobramentos, incorre em vício de inconstitucionalidade e contraria o interesse público por usurpar direitos originários previstos no caput do art. 231 da Constituição Federal, haja vista que tal tese já foi rejeitada pelo Supremo Tribunal Federal, em decisão proferida em 27 de setembro de 2023, que estabeleceu a tese de repercussão geral no Recurso Extraordinário (RE) nº 1017365, decisão essa que rejeitou a possibilidade de adotar a data da promulgação da Constituição Federal (5 de outubro de 1988) como marco temporal para definir a ocupação tradicional da terra pelas comunidades indígenas”.
+
+Ouvidos, o Ministério dos Direitos Humanos e da Cidadania, o Ministério do Meio Ambiente e Mudança do Clima e o Ministério dos Povos Indígenas manifestaram-se pelo veto aos seguintes dispositivos:
+
+§ 7º do art. 4º do Projeto de Lei
+
+“§ 7º As informações orais porventura reproduzidas ou mencionadas no procedimento demarcatório somente terão efeitos probatórios quando fornecidas em audiências públicas, ou registradas eletronicamente em áudio e vídeo, com a devida transcrição em vernáculo.”
+
+Razões do veto
+
+“A proposição legislativa estabelece que as informações orais porventura reproduzidas ou mencionadas no procedimento demarcatório somente teriam efeitos probatórios quando fornecidas em audiências públicas ou registradas eletronicamente em áudio e vídeo, com a devida transcrição em vernáculo.
+
+Entretanto, em que pese a boa intenção do legislador, a proposição contraria o interesse público ao criar novas exigências no bojo dos estudos técnicos que subsidiam o procedimento, afrontando o art. 16 da Lei Complementar nº 101, de 4 de maio de 2000 - Lei de Responsabilidade Fiscal. ”
+
+Caput do art. 5º do Projeto de Lei
+
+“Art. 5º A demarcação contará obrigatoriamente com a participação dos Estados e dos Municípios em que se localize a área pretendida, bem como de todas as comunidades diretamente interessadas, franqueada a manifestação de interessados e de entidades da sociedade civil desde o início do processo administrativo demarcatório, a partir da reivindicação das comunidades indígenas.”
+
+Razões do veto
+
+“A proposição legislativa que estabelece a demarcação contaria obrigatoriamente com a participação dos Estados e dos Municípios em que se localizasse a área pretendida e de todas as comunidades diretamente interessadas, franqueada a manifestação de interessados e de entidades da sociedade civil desde o início do processo administrativo demarcatório, a partir da reivindicação das comunidades indígenas.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público ao prever nova etapa para o procedimento administrativo de demarcação de terras indígenas, criando, para os entes federados, obrigação de participação no procedimento sem, contudo, indicar os termos e as etapas processuais nos quais a participação deveria se dar.
+
+Ademais, cabe apontar que atualmente há previsão de manifestação dos Estados, Municípios e demais interessados no procedimento, nos termos do Decreto nº 1.775, de 1996 e da Portaria nº 2.498/11 do Ministério da Justiça.”
+
+Art. 6º do Projeto de Lei
+
+“Art. 6º Aos interessados na demarcação serão assegurados, em todas as suas fases, inclusive nos estudos preliminares, o contraditório e a ampla defesa, e será obrigatória a sua intimação desde o início do procedimento, bem como permitida a indicação de peritos auxiliares. “
+
+Razões do veto
+
+“A proposição legislativa estabelece que aos interessados na demarcação seriam assegurados, em todas as suas fases, inclusive nos estudos preliminares, o contraditório e a ampla defesa, e que seria obrigatória a sua intimação desde o início do procedimento e permitida a indicação de peritos auxiliares.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público por criar exigência incompatível com a sequência do procedimento demarcatório, uma vez que os não indígenas afetados pela demarcação apenas serão identificados ao final dos estudos a cargo do grupo técnico especializado, sendo inexequível proceder à sua identificação prévia.”
+
+Ouvidos, o Ministério da Justiça e Segurança Pública, o Ministério dos Direitos Humanos e da Cidadania, o Ministério do Meio Ambiente e Mudança do Clima, o Ministério dos Povos Indígenas e a Advocacia-Geral da União manifestaram-se pelo veto ao seguinte dispositivo:
+
+Art. 9º do Projeto de Lei
+
+“Art. 9º Antes de concluído o procedimento demarcatório e de indenizadas as benfeitorias de boa-fé, nos termos do § 6º do art. 231 da Constituição Federal, não haverá qualquer limitação de uso e gozo aos não indígenas que exerçam posse sobre a área, garantida a sua permanência na área objeto de demarcação.
+
+§ 1º Consideram-se de boa-fé as benfeitorias realizadas pelos ocupantes até que seja concluído o procedimento demarcatório.
+
+§ 2º A indenização das benfeitorias deve ocorrer após a comprovação e a avaliação realizada em vistoria do órgão federal competente.”
+
+Razões do veto
+
+“A proposição legislativa estabelece que, antes de concluído o procedimento demarcatório e de indenizadas as benfeitorias de boa-fé, nos termos do § 6º do art. 231 da Constituição Federal, não haveria qualquer limitação de uso e gozo aos não indígenas que exercessem posse sobre a área, garantida a sua permanência na área objeto de demarcação. Estabelece, ainda, que seriam consideradas de boa-fé as benfeitorias realizadas pelos ocupantes até que o procedimento demarcatório fosse concluído e que a indenização das benfeitorias deveria ocorrer após a comprovação e a avaliação realizada em vistoria do órgão federal competente.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público por permitir aos ocupantes não indígenas a permanência, uso e gozo das terras indígenas para além da data de expedição da Portaria declaratória de limites, ato administrativo que formaliza o reconhecimento estatal do direito de uma comunidade indígena à terra que deverá ser demarcada, nos termos do Decreto nº 1.775, de 1996. Ao ampliar as hipóteses de benfeitorias classificadas como de boa-fé, o dispositivo pode gerar incentivo à ocupação e à realização de benfeitorias após a expedição da Portaria declaratória, ampliando eventuais custos com pagamento de indenizações a cargo da União.
+
+Além disso, conquanto não se desconheça que aos não indígenas é sim devido o justo ressarcimento do dano sofrido pela titulação indevida, é de se reconhecer que o §6º do art. 231 da Constituição Federal e as teses fixadas no precedente vinculante exarado pelo Supremo Tribunal Federal no bojo do RE 1017365 exigem que a indenização das benfeitorias seja derivada de ocupação ou posse de boa-fé pelos não indígenas.
+
+Desse modo, a proposição legislativa incorre em vício de inconstitucionalidade, pois o art. 9º e seus respectivos parágrafos do Projeto de Lei reproduzem escolha legislativa que contraria a adequada exegese constitucional”.
+
+Ouvido, o Ministério dos Povos Indígenas manifestou-se pelo veto ao seguinte dispositivo:
+
+Art. 10 do Projeto de Lei
+
+“Art. 10. Aplica-se aos antropólogos, aos peritos e a outros profissionais especializados, nomeados pelo poder público, cujos trabalhos fundamentem a demarcação, o disposto no art. 148 da Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil).”
+
+Razões do veto
+
+“A proposição legislativa estabelece que se aplicaria aos antropólogos, aos peritos e a outros profissionais especializados, nomeados pelo poder público, cujos trabalhos fundamentem a demarcação, o disposto no art. 148 da Lei nº 13.105, de 16 de março de 2015 (Código de Processo Civil).
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público por estabelecer parâmetro inadequado ao cumprimento dos atos administrativos previstos no processo demarcatório.”
+
+Ouvidos, o Ministério da Justiça e Segurança Pública, o Ministério dos Direitos Humanos e da Cidadania, o Ministério do Meio Ambiente e Mudança do Clima, o Ministério do Planejamento e Orçamento, o Ministério dos Povos Indígenas e a Advocacia-Geral da União manifestaram-se pelo veto ao seguinte dispositivo:
+
+Art. 11 do Projeto de Lei
+
+“Art. 11. Verificada a existência de justo título de propriedade ou de posse em área considerada necessária à reprodução sociocultural da comunidade indígena, a desocupação da área será indenizável, em razão do erro do Estado, nos termos do § 6º do art. 37 da Constituição Federal.
+
+Parágrafo único. Aplica-se o disposto no caput deste artigo às posses legítimas, cuja concessão pelo Estado possa ser documentalmente comprovada.”
+
+Razões do veto
+
+“A proposição legislativa estabelece que, verificada a existência de justo título de propriedade ou de posse em área considerada necessária à reprodução sociocultural da comunidade indígena, a desocupação da área seria indenizável, em razão do erro do Estado, nos termos do § 6º do art. 37 da Constituição Federal. Ademais, o dispositivo seria aplicado às posses legítimas cuja concessão pelo Estado pudesse ser documentalmente comprovada.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público ao não limitar a possibilidade de indenização às ocupações de boa-fé. Ao alargar as hipóteses de casos indenizáveis, o dispositivo pode gerar incentivo à ocupação e à realização de benfeitorias após a expedição da Portaria declaratória, ampliando eventuais custos com pagamento de indenizações a cargo da União.
+
+Ademais, a proposição legislativa incorre em vício de inconstitucionalidade, pois o § 6º do art. 231 da Constituição Federal e as teses fixadas no precedente vinculante exarado pelo Supremo Tribunal Federal no julgamento do Recurso Extraordinário (RE) nº 1017365, em 27 de setembro de 2023, exigem que a indenização das benfeitorias seja derivada de ocupação ou posse de boa-fé pelos não indígenas, ao passo que a omissão da boa-fé na redação do caput do art. 11 do Projeto de Lei e a vagueza conceitual do que seria ‘posse legítima’, como disposto no respectivo parágrafo único, reproduzem escolha legislativa que contraria a adequada exegese constitucional.
+
+Por fim, ainda que pudesse haver debate sobre a responsabilização no caso de erro de Estado, os termos trazidos pela redação do caput, com terminologias imprecisas para o contexto de demarcação de terras indígenas, dariam margem para insegurança jurídica e contencioso judicial sobre o que poderia se enquadrar no conceito de ´justo título’.”
+
+Ouvidos, o Ministério da Justiça e Segurança Pública, o Ministério dos Direitos Humanos e da Cidadania, o Ministério do Meio Ambiente e Mudança do Clima, o Ministério do Desenvolvimento Agrário e Agricultura Familiar e a Advocacia-Geral da União manifestaram-se pelo veto ao seguinte dispositivo:
+
+Art. 13 do Projeto de Lei
+
+“Art. 13. É vedada a ampliação de terras indígenas já demarcadas.”
+
+Razões do veto
+
+“A proposição legislativa dispõe que seria vedada a ampliação de terras indígenas já demarcadas.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público por restringir o poder-dever da Administração de rever seus atos, o que inviabilizaria procedimentos de revisão de casos comprovados de grave e insanável erro na condução do procedimento administrativo ou na definição dos limites da terra indígena.
+
+Além disso, a proposição legislativa incorre em vício de inconstitucionalidade, por violação ao § 4º do art. 231 da Constituição Federal, ante a imprescritibilidade do direito a terras tradicionalmente ocupadas, e contraria o interesse público, pois a vedação da ampliação de terras indígenas previamente demarcadas não poderia se dar por meio de uma lei ordinária e criaria limite quando o texto constitucional não o fez.
+
+Ademais, conforme decisão no Recurso Extraordinário (RE) nº 1017365, o redimensionamento não é vedado. Assim, o dispositivo impediria a reparação legal, caso seja comprovado erro no processo administrativo, e acarretaria a diminuição dos direitos dos povos e das comunidades tradicionais. Outrossim, a atual interpretação constitucional dada pelo Supremo Tribunal Federal quanto ao alcance do disposto no art. 231 da Constituição Federal permite, ainda que excepcionalmente, o redimensionamento de terra indígena.
+
+O entendimento da Tese VIII do Recurso Extraordinário (RE) nº 1017365 é o de que ‘A instauração de procedimento de redimensionamento de terra indígena não é vedada em caso de descumprimento dos elementos contidos no artigo 231 da Constituição Federal, por meio de procedimento demarcatório até o prazo de cinco anos da demarcação anterior, sendo necessário comprovar grave e insanável erro na condução do procedimento administrativo ou na definição dos limites da terra indígena, ressalvadas as ações judiciais em curso e os pedidos de revisão já instaurados até a data de conclusão deste julgamento.”
+
+Ouvidos, o Ministério dos Direitos Humanos e da Cidadania e o Ministério dos Povos Indígenas manifestaram-se pelo veto ao seguinte dispositivo:
+
+Art. 14 do Projeto de Lei
+
+“Art. 14. Os processos administrativos de demarcação de terras indígenas ainda não concluídos serão adequados ao disposto nesta Lei.”
+
+Razões do veto
+
+“A proposição legislativa estabelece que os processos administrativos de demarcação de terras indígenas ainda não concluídos seriam adequados ao disposto no Projeto de Lei.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público dada a imprecisão redacional do dispositivo, o que tende a gerar insegurança jurídica e permitir questionamentos sobre a validade dos atos administrativos já concluídos no escopo dos processos demarcatórios em andamento.
+
+Ainda, a proposição legislativa incorre em vício de inconstitucionalidade ao exigir que os processos não concluídos fossem adequados àquela legislação e ao tornar nula a demarcação que não atendesse aos preceitos previstos. Isso porque os atos administrativos se regem pela eficiência e o processo administrativo é conduzido em sequência de atos voltada ao cumprimento do dever estatal, do que decorre a existência de preclusão de suas fases. Nesse passo, etapas já finalizadas não são reabertas por ocasião da edição de nova legislação e não sofrem de nulidade os atos já praticados, nem tampouco os subsequentes que daqueles decorram.
+
+Diante disso, a alteração legislativa não deve alcançar fatos jurídicos já constituídos sob a vigência de lei anterior, mesmo em seus efeitos pendentes, pois que corresponderia não a aplicação imediata, mas a aplicação retroativa da norma, o que é vedado pela Constituição Federal que, no âmbito de proteção à segurança jurídica, impõe o respeito ao direito adquirido, ao ato jurídico perfeito e à coisa julgada, consoante o disposto no inciso XXXVI do caput do seu art. 5º.”
+
+Ouvidos, o Ministério da Justiça e Segurança Pública, o Ministério dos Povos Indígenas e o Ministério dos Direitos Humanos e da Cidadania manifestaram-se pelo veto ao seguinte dispositivo:
+
+Art. 15 do Projeto de Lei
+
+“Art. 15. É nula a demarcação que não atenda aos preceitos estabelecidos nesta Lei.”
+
+Razões do veto
+
+“A proposição legislativa estabelece que seria nula a demarcação que não atendesse aos preceitos estabelecidos no Projeto de Lei.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público dada a imprecisão redacional do dispositivo, o que tende a gerar insegurança jurídica e permitir questionamentos sobre a validade dos processos demarcatórios já concluídos.
+
+Ademais, a proposição legislativa incorre em vício de inconstitucionalidade, pois viola o art. 5º, inciso XXXVI da Constituição Federal e macula o primado da segurança jurídica, na medida em que pode gerar a interpretação de que a nova Lei estaria a retroagir para atingir atos jurídicos perfeitos e etapas já vencidas do processo administrativo demarcatório realizados sob os auspícios da legislação anterior”.
+
+Ouvidos, o Ministério do Meio Ambiente e Mudança do Clima, o Ministério da Justiça e Segurança Pública, o Ministério dos Direitos Humanos e da Cidadania e o Ministério dos Povos Indígenas manifestaram-se pelo veto ao seguinte dispositivo:
+
+§ 4º do art. 16 do Projeto de Lei
+
+“§ 4º Caso, em razão da alteração dos traços culturais da comunidade indígena ou de outros fatores ocasionados pelo decurso do tempo, seja verificado que a área indígena reservada não é essencial para o cumprimento da finalidade mencionada no caput deste artigo, poderá a União:
+
+I - retomá-la, dando-lhe outra destinação de interesse público ou social;
+
+II - destiná-la ao Programa Nacional de Reforma Agrária, atribuindo-se os lotes preferencialmente a indígenas que tenham aptidão agrícola e assim o desejarem.”
+
+Razões do veto
+
+“A proposição legislativa dispõe que, caso em razão da alteração dos traços culturais da comunidade indígena ou de outros fatores ocasionados pelo decurso do tempo, fosse verificado que a área indígena reservada não era essencial para o cumprimento da finalidade mencionada no caput do art. 16 do Projeto de Lei, a União poderia retomá-la e dar-lhe outra destinação de interesse público ou social ou destiná-la ao Programa Nacional de Reforma Agrária, com atribuição dos lotes preferencialmente a indígenas com aptidão agrícola e que assim o desejassem.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público ao prever que a União poderá retomar áreas reservadas aos indígenas quando verificada a “alteração dos traços culturais da comunidade ou por outros fatores ocasionados pelo decurso do tempo”. O dispositivo fere o interesse público pela impossibilidade fática de definição, a partir de critérios objetivos, daquilo que caracterizaria uma situação de alteração de traços culturais, condicionando o reconhecimento do direito territorial dos povos indígenas a critérios sem equivalência no ordenamento normativo vigente.
+
+Ainda, a proposição legislativa incorre em vício de inconstitucionalidade, por ofensa ao inciso XXXVI do caput do art. 5º da Constituição Federal, pois as reservas indígenas são áreas com o processo de regularização já finalizado, ou seja, terras indígenas consolidadas, cuja demarcação constitui ato jurídico perfeito e direito adquirido dos indígenas.
+
+A disposição parte de uma premissa não recepcionada pela Constituição Federal de assimilação e integração dos indígenas à sociedade nacional, o que acarretaria a extinção de seus direitos territoriais e a remoção forçada dos grupos indígenas de seus territórios, hipótese vedada pelo § 5º do art. 231 da Constituição Federal. O texto constitucional, em superação à visão integracionista, reconheceu aos indígenas ‘sua organização social, costumes, línguas, crenças e tradições’, além do direito à demarcação de suas terras, as quais estão revestidas de direitos indígenas originários, tudo conforme o art. 231, proteção contra a reversão dos atos de reconhecimento dos direitos indígenas sobre suas terras.”
+
+Ouvido, o Ministério dos Povos Indígenas manifestou-se pelo veto ao seguinte dispositivo:
+
+Art. 18 do Projeto de Lei
+
+“Art. 18. São consideradas áreas indígenas adquiridas as havidas pela comunidade indígena mediante qualquer forma de aquisição permitida pela legislação civil, tal como a compra e venda ou a doação”.
+
+Razões do veto
+
+“A proposição legislativa estabelece que seriam consideradas áreas indígenas adquiridas as havidas pela comunidade indígena mediante qualquer forma de aquisição permitida pela legislação civil, como a compra e venda ou a doação.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público dada a imprecisão do dispositivo que remete a disposições já contidas na Lei 6.001, de 1973, o que poderia ensejar interpretações divergentes sobre a proteção jurídica constitucional das terras indígenas prevista no art. 231, da Constituição Federal”
+
+Ouvidos, o Ministério dos Povos Indígenas e o Ministério da Justiça e Segurança Pública manifestaram-se pelo veto ao seguinte dispositivo:
+
+§1° do Art. 18 do Projeto de Lei
+
+“§ 1º Aplica-se às áreas indígenas adquiridas o regime jurídico da propriedade privada”.
+
+Razões do veto
+
+“A proposição legislativa estabelece que se aplicaria às áreas indígenas adquiridas o regime jurídico da propriedade privada.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público dada a imprecisão do dispositivo que remete, no caput e no § 2º, a disposições já contidas na Lei 6.001, de 1973, ao mesmo tempo em que dispõe, no § 1º, sobre a aplicabilidade do regime jurídico da propriedade privada à totalidade das áreas indígenas adquiridas, o que poderia ensejar interpretações divergentes sobre a proteção jurídica constitucional das terras indígenas prevista no art. 231, da Constituição Federal”
+
+Ouvido, o Ministério dos Povos Indígenas manifestou-se pelo veto ao seguinte dispositivo:
+
+§2° do Art. 18 do Projeto de Lei
+
+“§ 2º As terras de domínio indígena constituídas nos termos da Lei nº 6.001, de 19 dezembro de 1973, serão consideradas áreas indígenas adquiridas nos moldes desta Lei.”
+
+Razões do veto
+
+“A proposição legislativa estabelece as terras de domínio indígena constituídas nos termos da Lei nº 6.001, de 19 dezembro de 1973, seriam consideradas áreas indígenas adquiridas nos moldes do Projeto de Lei.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público dada a imprecisão do dispositivo que remete, no caput e no § 2º, a disposições já contidas na Lei 6.001, de 1973, ao mesmo tempo em que dispõe, no § 1º, sobre a aplicabilidade do regime jurídico da propriedade privada à totalidade das áreas indígenas adquiridas, o que poderia ensejar interpretações divergentes sobre a proteção jurídica constitucional das terras indígenas prevista no art. 231, da Constituição Federal”
+
+Ouvidos, o Ministério da Justiça e Segurança Pública, o Ministério dos Povos Indígenas, o Ministério do Meio Ambiente e Mudança do Clima, o Ministério dos Direitos Humanos e da Cidadania e a Advocacia-Geral da União manifestaram-se pelo veto ao seguinte dispositivo:
+
+Parágrafo único do art. 20 do Projeto de Lei
+
+“Parágrafo único. A instalação de bases, unidades e postos militares e demais intervenções militares, a expansão estratégica da malha viária, a exploração de alternativas energéticas de cunho estratégico e o resguardo das riquezas de cunho estratégico serão implementados independentemente de consulta às comunidades indígenas envolvidas ou ao órgão indigenista federal competente.”
+
+Razões do veto
+
+“A proposição legislativa estabelece que a instalação de bases, unidades e postos militares e demais intervenções militares, a expansão estratégica da malha viária, a exploração de alternativas energéticas de cunho estratégico e o resguardo das riquezas de cunho estratégico seriam implementados independentemente de consulta às comunidades indígenas envolvidas ou ao órgão indigenista federal competente.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público ao dispensar de consulta às comunidades indígenas, em descumprimento à Convenção nº 169 da Organização Internacional do Trabalho sobre Povos Indígenas e Tribais, bem como à Declaração das Nações Unidas sobre os Direitos dos Povos Indígenas (2007), os casos de instalação de bases, unidades e postos militares e demais intervenções militares, expansão estratégica da malha viária, exploração de alternativas energéticas de cunho estratégico e resguardo das riquezas de cunho estratégico, com potencial restritivo ao usufruto exclusivo indígena nessas terras.
+
+Ainda, a proposição legislativa incorre em vício de inconstitucionalidade já que o dispositivo não cumpriria a exigência constitucional formal, visto que tais temas devem ser regulamentados por meio de lei complementar e não de lei ordinária, conforme o previsto no § 6º do art. 231 da Constituição Federal.
+
+Além disso, viola o § 3º do mencionado art. 231, que dispõe que a exploração hídrica e mineral em terras indígenas somente pode ocorrer mediante lei específica, com autorização do Congresso Nacional, ouvidas as comunidades indígenas e garantidas a elas participação nos resultados da lavra. Ou seja, a oitiva dos indígenas é condição prevista na própria Constituição Federal, motivo pelo qual é inconstitucional a expressão ‘independentemente de consulta às comunidades indígenas envolvidas’.”
+
+Ouvido, o Ministério dos Povos Indígenas manifestou-se pelo veto ao seguinte dispositivo:
+
+Art. 21 do Projeto de Lei
+
+“Art. 21. Fica assegurada a atuação das Forças Armadas e da Polícia Federal em área indígena, no âmbito de suas atribuições, independentemente de consulta às comunidades indígenas envolvidas ou ao órgão indigenista federal competente.”
+
+Razões do veto
+
+“A proposição legislativa estabelece que ficaria assegurada a atuação das Forças Armadas e da Polícia Federal em área indígena, no âmbito de suas atribuições, independentemente de consulta às comunidades indígenas envolvidas ou ao órgão indigenista federal competente.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público devido ao caráter demasiadamente amplo da expressão ‘no âmbito de suas atribuições’. Cabe mencionar que a atuação das Forças Armadas e da Polícia Federal em Terras Indígenas já possui lastro na legislação vigente, nos termos do Decreto nº 4.412, de 2002, que prevê que, no exercício das atribuições constitucionais e legais das Forças Armadas e da Polícia Federal em terras indígenas, os órgãos devem adotar ‘medidas de proteção da vida e do patrimônio do índio e de sua comunidade, de respeito aos usos, costumes e tradições indígenas e de superação de eventuais situações de conflito ou tensão envolvendo índios ou grupos indígenas’.”
+
+Ouvida, a Casa Civil da Presidência da República manifestou-se pelo veto ao seguinte dispositivo:
+
+Art. 22 do Projeto de Lei
+
+“Art. 22. Ao poder público é permitida a instalação, em terras indígenas, de equipamentos, de redes de comunicação, de estradas e de vias de transporte, além das construções necessárias à prestação de serviços públicos, especialmente os de saúde e educação.”
+
+Razões do veto
+
+“A proposição legislativa estabelece que ao poder público seria permitida a instalação, em terras indígenas, de equipamentos, de redes de comunicação, de estradas e de vias de transporte, além das construções necessárias à prestação de serviços públicos, especialmente os de saúde e educação.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público devido à ampliação de hipóteses e atores institucionais com autorização para instalação e construção de um rol abrangente de equipamentos, vias e bens com potencial impacto sobre a proteção das terras e direitos assegurados aos povos indígenas. Além disso, o dispositivo afronta o teor da Convenção nº 169 da Organização Internacional do Trabalho sobre Povos Indígenas e Tribais ao não prever consulta prévia aos povos e comunidades potencialmente afetados pelas intervenções previstas no caput.”
+
+Ouvidos, o Ministério da Justiça e Segurança Pública, o Ministério dos Povos Indígenas, o Ministério do Meio Ambiente e Mudança do Clima e a Advocacia-Geral da União manifestaram-se pelo veto ao seguinte dispositivo:
+
+Art. 23 do Projeto de Lei
+
+“Art. 23. O usufruto dos indígenas em terras indígenas superpostas a unidades de conservação fica sob a responsabilidade do órgão federal gestor das áreas protegidas, observada a compatibilidade do respectivo regime de proteção.
+
+§ 1º O órgão federal gestor responderá pela administração das áreas das unidades de conservação superpostas a terras indígenas, com a participação das comunidades indígenas, que deverão ser ouvidas, considerados os seus usos, tradições e costumes, e poderá, para tanto, contar com a consultoria do órgão indigenista federal competente.
+
+§ 2º O trânsito de visitantes e pesquisadores não indígenas deve ser admitido na área afetada à unidade de conservação, nos horários e condições estipulados pelo órgão federal gestor.”
+
+Razões do veto
+
+“A proposição legislativa estabelece que o usufruto dos indígenas em terras indígenas superpostas a unidades de conservação ficaria sob a responsabilidade do órgão federal gestor das áreas protegidas, observada a compatibilidade do respectivo regime de proteção, órgão este que responderia pela administração das áreas das unidades de conservação superpostas a terras indígenas, com a participação das comunidades indígenas, que deveriam ser ouvidas, considerados os seus usos, tradições e costumes, e poderia, para tanto, contar com a consultoria do órgão indigenista federal competente. Estabelece, ainda que o trânsito de visitantes e pesquisadores não indígenas deveria ser admitido na área afetada à unidade de conservação, nos horários e condições estipulados pelo órgão federal gestor.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público ao submeter o usufruto indígena à tutela do órgão ambiental nos casos de sobreposição de terras indígenas a unidades de conservação, quando já há reconhecimento no ordenamento jurídico atual da compatibilidade entre os direitos dos povos indígenas e a proteção ao meio ambiente, por meio da gestão compartilhada desses territórios.
+
+Ainda, a proposição legislativa incorre em vício de inconstitucionalidade, pois é assegurado o exercício das atividades tradicionais dos povos indígenas nas áreas de proteção ambiental. O julgamento do Recurso Extraordinário (RE) nº 1017365, com repercussão geral reconhecida e decisão vinculante, finalizado pelo Supremo Tribunal Federal em 27 de setembro de 2023, que assim dispôs: ‘XII - A ocupação tradicional das terras indígenas é compatível com a tutela constitucional ao meio ambiente, sendo assegurados o exercício das atividades tradicionais dos indígenas’. O dispositivo, portanto, colocaria os indígenas sob tutela da União, os submeteria ao órgão ambiental e violaria seus usos e costumes.
+
+Além disso, são regimes protetivos constitucionais que naturalmente se compatibilizam o das unidades de conservação e o das áreas protegidas - neste inseridas as terras indígenas.
+
+Por fim, o § 2º do art. 23 do Projeto de Lei imporia um dever de aceitação ao trânsito de visitantes e pesquisadores não indígenas na área indígena sobreposta à unidade de conservação e tornaria impositivo aos indígenas a admissão de visitas em terras de ocupação tradicional, o que também viola o art. 231 da Constituição Federal.”
+
+Ouvido, o Ministério da Justiça e Segurança Pública manifestou-se pelo veto ao seguinte dispositivo:
+
+§ 3º do art. 24 do Projeto de Lei
+
+“§ 3º O ingresso, o trânsito e a permanência de não indígenas não podem ser objeto de cobrança de tarifas ou quantias de qualquer natureza por parte das comunidades indígenas.”
+
+Razões do veto
+
+“A proposição legislativa estabelece que o ingresso, o trânsito e a permanência de não indígenas não poderiam ser objeto de cobrança de tarifas ou quantias de qualquer natureza por parte das comunidades indígenas.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público ao impedir a cobrança de tarifas por atividades econômicas desenvolvidas por povos indígenas, como o turismo de base comunitária já realizado em diferentes regiões do país conforme Instrução Normativa nº 03/2015 do Ministério da Justiça e Segurança Pública.
+
+Ouvidos, o Ministério do Meio Ambiente e Mudança do Clima, o Ministério do Planejamento e Orçamento e o Ministério dos Povos Indígenas manifestaram-se pelo veto ao seguinte dispositivo:
+
+Art. 25 do Projeto de Lei
+
+“Art. 25. São vedadas a cobrança de tarifas ou quantias de qualquer natureza ou a troca pela utilização das estradas, dos equipamentos públicos, das linhas de transmissão de energia ou de quaisquer outros equipamentos e instalações colocados a serviço do público em terras indígenas.”
+
+Razões do veto
+
+“A proposição legislativa estabelece que seriam vedadas a cobrança de tarifas ou quantias de qualquer natureza ou a troca pela utilização das estradas, dos equipamentos públicos, das linhas de transmissão de energia ou de quaisquer outros equipamentos e instalações colocados a serviço do público em terras indígenas.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público devido à incompletude e imprecisão redacional do dispositivo, prejudicando a compreensão de seu escopo, do público potencialmente afetado pela medida, além dos critérios e procedimentos necessários para sua aplicação, gerando insegurança normativo-legal em diversas áreas dos setores público e privado.
+
+Ademais, a proposição legislativa incorre em vício de inconstitucionalidade pois, ao versar sobre cobrança pelo uso de bens públicos, trata da ocupação, do domínio e da posse das terras indígenas, utilizadas para estradas, linhas de transmissão de energia ou outras instalações de infraestrutura, sem a necessária via de lei complementar exigida pelo § 6º do art. 231 da Constituição Federal.
+
+Outrossim, o dispositivo veda a cobrança na hipótese de perda do usufruto exclusivo indígena pela instalação de equipamentos a serviço do público em terras indígenas. Trata-se de afronta ao § 2º do art. 231 da Constituição Federal, na medida em que afeta o direito à posse permanente e ao usufruto exclusivo das terras indígenas e impede expressamente qualquer possibilidade de compensação financeira.
+
+Ainda, por estabelecer possível despesa pública sem a correspondente estimativa de impacto orçamentário-financeiro, nos termos do art. 113 do Ato das Disposições Constitucionais Provisórias, e por estabelecer circunstância em que se cria encargo financeiro a ser possivelmente suportado por entes públicos concedentes de serviços públicos, em violação ao disposto no § 7º do art. 167 da Constituição Federal.”
+
+Ouvido, o Ministério dos Povos Indígenas manifestou-se pelo veto aos seguintes dispositivos:
+
+§ 1º e § 2º do art. 26 do Projeto de Lei
+
+“§ 1º As terras indígenas não poderão ser objeto de arrendamento ou de qualquer ato ou negócio jurídico que elimine a posse direta pela comunidade indígena.”
+
+“§ 2º É permitida a celebração de contratos que visem à cooperação entre indígenas e não indígenas para a realização de atividades econômicas, inclusive agrossilvipastoris, em terras indígenas, desde que:
+
+I - os frutos da atividade gerem benefícios para toda a comunidade indígena;
+
+II - a posse dos indígenas sobre a terra seja mantida, ainda que haja atuação conjunta de não indígenas no exercício da atividade;
+
+III - a comunidade indígena, mediante os próprios meios de tomada de decisão, aprove a celebração contratual;
+
+IV - os contratos sejam registrados na Funai.”
+
+Razões do veto
+
+“A proposição legislativa estabelece que seria permitida a celebração de contratos que visassem à cooperação entre indígenas e não indígenas para a realização de atividades econômicas, inclusive agrossilvipastoris, em terras indígenas, desde que: I - os frutos da atividade gerassem benefícios para toda a comunidade indígena; II - a posse dos indígenas sobre a terra fosse mantida, ainda que houvesse atuação conjunta de não indígenas no exercício da atividade; III - a comunidade indígena, mediante os próprios meios de tomada de decisão, aprovasse a celebração contratual; e IV - os contratos fossem registrados na Fundação Nacional dos Povos Indígenas - Funai.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público ao resguardar apenas a posse indígena nas terras indígenas, deixando de contemplar o direito ao usufruto exclusivo, potencialmente afetado pelo desenvolvimento de atividades econômicas realizadas em conjunto com não indígenas.”
+
+Ouvidos, o Ministério do Meio Ambiente e Mudança do Clima, o Ministério do Turismo e o Ministério dos Povos Indígenas manifestaram-se pelo veto ao seguinte dispositivo:
+
+Art. 27 do Projeto de Lei
+
+“Art. 27. É permitido o turismo em terras indígenas, organizado pela própria comunidade indígena, admitida a celebração de contratos para a captação de investimentos de terceiros, desde que respeitadas as condições estabelecidas no § 2º do art. 26 desta Lei.
+
+Parágrafo único. Nas terras indígenas, é vedada a qualquer pessoa estranha às comunidades indígenas a prática de caça, pesca, extrativismo ou coleta de frutos, salvo se relacionada ao turismo organizado pelos próprios indígenas, respeitada a legislação específica.”
+
+Razões do veto
+
+“A proposição legislativa estabelece que seria permitido o turismo em terras indígenas, organizado pela própria comunidade indígena, admitida a celebração de contratos para a captação de investimentos de terceiros, desde que respeitadas as condições estabelecidas no § 2º do art. 26 do Projeto de Lei. Também estabelece que, nas terras indígenas, seria vedada a qualquer pessoa estranha às comunidades indígenas a prática de caça, pesca, extrativismo ou coleta de frutos, salvo se relacionada ao turismo organizado pelos próprios indígenas, respeitada a legislação específica.
+
+Em que pese a boa intenção do legislador, em decorrência do veto do § 2º do art. 26, por arrastamento, a proposição legislativa contraria o interesse público ao resguardar apenas a posse indígena nas terras indígenas, deixando de contemplar o direito ao usufruto exclusivo, potencialmente afetado pelo desenvolvimento de atividades econômicas realizadas em conjunto com não indígenas.”
+
+Ouvidos, o Ministério da Justiça e Segurança Pública, o Ministério dos Direitos Humanos e da Cidadania, o Ministério do Meio Ambiente e Mudança do Clima, o Ministério dos Povos Indígenas e a Advocacia-Geral da União manifestaram-se pelo veto aos seguintes dispositivos:
+
+Art. 28 do Projeto de Lei
+
+“Art. 28. No caso de indígenas isolados, cabe ao Estado e à sociedade civil o absoluto respeito às suas liberdades e aos seus meios tradicionais de vida, e deve ser evitado, ao máximo, o contato com eles, salvo para prestar auxílio médico ou para intermediar ação estatal de utilidade pública.
+
+§ 1º Todo e qualquer contato com indígenas isolados deve ser realizado por agentes estatais e intermediado pela Funai.
+
+§ 2º São vedados o contato e a atuação com comunidades indígenas isoladas de entidades particulares, nacionais ou internacionais, salvo se contratadas pelo Estado para os fins do caput deste artigo, e, em todo caso, é obrigatória a intermediação do contato pela Funai.”
+
+Razões do veto
+
+“A proposição legislativa estabelece que, no caso de indígenas isolados, caberia ao Estado e à sociedade civil o absoluto respeito às suas liberdades e aos seus meios tradicionais de vida e deveria ser evitado, ao máximo, o contato com eles, salvo para prestar auxílio médico ou para intermediar ação estatal de utilidade pública. Ainda, que seriam vedados o contato e a atuação com comunidades indígenas isoladas de entidades particulares, nacionais ou internacionais, salvo se contratadas pelo Estado para os fins do caput do art. 28 do Projeto de Lei, e, em todo caso, seria obrigatória a intermediação do contato pela Fundação Nacional dos Povos Indígenas - Funai. Estabelece também que todo e qualquer contato com indígenas isolados deveria ser realizado por agentes estatais e intermediado pela Funai.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público ao ampliar as exceções à política de não contato com povos indígenas isolados a partir da adoção de expressão imprecisa “para intermediar ação estatal de utilidade pública”, desconsiderando os riscos associados à vulnerabilidade socioepidemiológica que caracteriza os povos indígenas em situação de isolamento voluntário.
+
+Além disso, a proposição legislativa incorre em vício de inconstitucionalidade, uma vez que o Estado brasileiro, desde a construção da Constituição Federal de 1988, estabeleceu destacada política de não contato com povos indígenas que vivem em isolamento. Este dispositivo converte a política de não contato em uma política de contatos forçados com os indígenas isolados ‘para intermediar ação estatal de utilidade pública’, hipótese inédita e demasiadamente ampla que pode gerar ameaças aos povos indígenas em isolamento, em afronta, portanto, ao inciso III do caput do art. 1º, do caput do art. 5º e do caput do art. 231 da Constituição Federal.”
+
+Ouvida, a Casa Civil da Presidência da República manifestou-se pelo veto ao seguinte dispositivo:
+
+Art. 29 do Projeto de Lei
+
+“Art. 29. As terras sob ocupação e posse dos grupos e das comunidades indígenas e o usufruto exclusivo das riquezas naturais e das utilidades existentes nas terras ocupadas, observado o disposto no inciso XVI do caput do art. 49 e no § 3º do art. 231 da Constituição Federal, bem como a renda indígena, gozam de plena isenção tributária, vedada a cobrança de quaisquer impostos, taxas ou contribuições sobre uns ou outros.”
+
+Razões do veto
+
+“A proposição legislativa estabelece que as terras sob ocupação e posse dos grupos e das comunidades indígenas, o usufruto exclusivo das riquezas naturais e das utilidades existentes nas terras ocupadas, observado o disposto no inciso XVI do caput do art. 49 e no § 3º do art. 231 da Constituição Federal, e a renda indígena gozam de plena isenção tributária, vedada a cobrança de quaisquer impostos, taxas ou contribuições sobre uns ou outros.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público e incorre em vício de inconstitucionalidade, por ampliar a renúncia fiscal por parte da União, para além das hipóteses já previstas na Lei 6.001, de 1973, sem a devida estimativa de impacto orçamentário e financeiro, incorrendo em afronta ao Art. 113 do Ato das Disposições Constitucionais Transitórias (ADCT) e ao art. 14 da LRF, bem como violando os art. 131 e art. 132 da Lei nº 14.436, de 9 de agosto de 2022.”
+
+Ouvido, Ministério do Meio Ambiente e Mudança do Clima manifestou-se pelo veto ao seguinte dispositivo:
+
+Art. 30 do Projeto de Lei
+
+“Art. 30. O art. 1º da Lei nº 11.460, de 21 de março de 2007, passa a vigorar com a seguinte redação:
+
+‘Art. 1º Fica vedado o cultivo de organismos geneticamente modificados em áreas de unidades de conservação, exceto nas Áreas de Proteção Ambiental.’ (NR)”
+
+Razões do veto
+
+“A proposição legislativa alteraria o art. 1º da Lei nº 11.460, de 21 de março de 2007, para estabelecer que ficaria vedado o cultivo de organismos geneticamente modificados em áreas de unidades de conservação, exceto nas Áreas de Proteção Ambiental.
+
+Em que pese a boa intenção do legislador, a proposição legislativa contraria o interesse público por autorizar o cultivo de organismos geneticamente modificados em terras indígenas e, consequentemente, em unidades de conservação a elas sobrepostas, contrariando o disposto no art. 1º da Lei nº 11.460, de 2007, com potencial dano à agrobiodiversidade, ao patrimônio genético e à segurança alimentar e nutricional dos povos indígenas e outras comunidades afetadas.”
+
+Ouvidos, o Ministério dos Direitos Humanos e da Cidadania, o Ministério do Meio Ambiente e Mudança do Clima, o Ministério da Justiça e Segurança Pública, o Ministério dos Povos Indígenas e Advocacia-Geral da União manifestaram-se pelo veto aos seguintes dispositivos:
+
+Art. 31 do Projeto de Lei
+
+“Art. 31. O caput do art. 2º da Lei nº 4.132, de 10 de setembro de 1962, passa a vigorar acrescido do seguinte inciso IX:
+
+‘Art. 2º ....................................................................................................................
+
+...............................................................................................................................................
+
+IX - a destinação de áreas às comunidades indígenas que não se encontravam em área de ocupação tradicional em 5 de outubro de 1988, desde que necessárias à reprodução física e cultural, segundo seus usos, costumes e tradições.
+
+.............................................................................................................................’ (NR)”
+
+Razões dos vetos
+
+“A proposição legislativa acresceria o inciso IX ao caput do art. 2º da Lei nº 4.132, de 10 de setembro de 1962, que estabeleceria como de interesse social a destinação de áreas às comunidades indígenas que não se encontravam em área de ocupação tradicional em 5 de outubro de 1988, desde que necessárias à reprodução física e cultural, segundo seus usos, costumes e tradições.
+
+Em que pese a boa intenção do legislador, este dispositivo, como já sinalizado quando da análise do veto do art. 4º, incorre em vício de inconstitucionalidade ao usurpar direitos originários previstos no caput do art. 231 da Constituição Federal, e já foi rejeitada pelo Supremo Tribunal Federal em decisão proferida em 27 de setembro de 2023, que estabeleceu a tese de repercussão geral no Recurso Extraordinário (RE) nº 1017365, decisão essa que rejeitou a possibilidade de se adotar a data da promulgação da Constituição Federal (5 de outubro de 1988) como marco temporal para definir a ocupação tradicional da terra pelas comunidades indígenas.
+
+Ouvidos, o Ministério dos Direitos Humanos e da Cidadania, o Ministério do Meio Ambiente e Mudança do Clima, o Ministério da Justiça e Segurança Pública, o Ministério dos Povos Indígenas e a Advocacia-Geral da União manifestaram-se pelo veto aos seguintes dispositivos:
+
+Art. 32 do Projeto de Lei
+
+“Art. 32. O inciso IX do caput do art. 2º de Lei nº 6.001, de 19 de dezembro de 1973, passa a vigorar com a seguinte redação:
+
+‘Art. 2º ...................................................................................................................
+
+...............................................................................................................................................
+
+IX - garantir aos índios e comunidades indígenas, nos termos da Constituição Federal, a posse permanente das terras tradicionalmente ocupadas em 5 de outubro de 1988, reconhecendo-lhes o direito ao usufruto exclusivo das riquezas naturais e de todas as utilidades naquelas terras existentes;
+
+...................................................................................................................................... ’ (NR)”
+
+Razões dos vetos
+
+“A proposição legislativa estabeleceria que o inciso IX do caput do art. 2º de Lei nº 6.001, de 19 de dezembro de 1973, passaria a vigorar com a seguinte redação: ‘garantir aos índios e comunidades indígenas, nos termos da Constituição Federal, a posse permanente das terras tradicionalmente ocupadas em 5 de outubro de 1988, reconhecendo-lhes o direito ao usufruto exclusivo das riquezas naturais e de todas as utilidades naquelas terras existentes’.
+
+Em que pese a boa intenção do legislador, este dispositivo, como já sinalizado quando da análise do veto do art. 4º, incorre em vício de inconstitucionalidade e contraria o interesse público ao usurpar direitos originários previstos no caput do art. 231 da Constituição Federal, e já foi rejeitada pelo Supremo Tribunal Federal em decisão proferida em 27 de setembro de 2023, que estabeleceu a tese de repercussão geral no Recurso Extraordinário (RE) nº 1017365, decisão essa que rejeitou a possibilidade de se adotar a data da promulgação da Constituição Federal (5 de outubro de 1988) como marco temporal para definir a ocupação tradicional da terra pelas comunidades indígenas.
+
+Essas, Senhor Presidente, são as razões que me conduziram a vetar os dispositivos mencionados do Projeto de Lei em causa, as quais submeto à elevada apreciação dos Senhores Membros do Congresso Nacional.
+
+Este texto não substitui o publicado no DOU de 20.10.2023
+
+- Edição extra.

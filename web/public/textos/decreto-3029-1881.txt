@@ -1,0 +1,725 @@
+=== PROVENIÊNCIA ===
+Documento: Decreto nº 3.029, de 9 de janeiro de 1881 (Lei Saraiva)
+Id: decreto-3029-1881
+Data do ato: 1881-01-09
+Tipo: decreto | Autoridade: Assembleia Geral / Imperador (D. Pedro II) | Status da norma: revogado
+Fonte (URL exata): https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-3029-9-janeiro-1881-546079-publicacaooriginal-59786-pl.html
+Publicação original (informada pela fonte): Este texto não substitui o original publicado no Coleção de Leis do Império do Brasil de 1881
+Data de captura: 2026-10-07
+Tipo de versão: original de época
+Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
+Observações: Câmara dos Deputados, publicação original (Coleção de Leis do Império, 1881, vol. 1, parte 1). Eleição direta, título de eleitor, renda de 200$ e prova de saber ler e escrever.
+Lacunas: O HTML da Câmara omite os artigos 3º e 4º (a numeração salta de 2º para 5º; aparecem incisos X a XII sem o caput). Não encontrei segunda fonte aberta do texto integral (tentei URLs prováveis do Planalto, que responderam 404; uma busca apontou apenas um livro de 1881 no acervo do Senado, que não processei). Tratar o texto como incompleto nesse trecho.
+SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 7f1ff99d593f62c110bc7564f67c311b54e563823ff7bab6e323f5d98cb47a7a
+Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
+Aviso: cópia para consulta; não substitui o texto oficial publicado.
+=== TEXTO ===
+DECRETO Nº 3.029, DE 9 DE JANEIRO DE 1881
+
+Reforma a legislação eleitoral.
+
+Hei por bem Sanccionar e Mandar que se execute a seguinte Resolução da Assembléa Geral:
+
+Art. 1º As nomeações dos Senadores e Deputados para a assembléa geral, membros das Assembléas Legislativas Provinciaes, e quaesquer autoridades electivas, serão feitas por eleições directas, nas quaes tomarão parte todos os cidadãos alistados eleitores de conformidade com esta lei.
+
+A eleição do Regente do Imperio continúa a ser feita na fórma do Acto Addicional á Constituição Politica pelos eleitores de que trata a presente lei.
+
+Dos eleitores
+
+Art. 2º E' eleitor todo cidadão brazileiro, nos termos dos arts. 6º, 91 e 92 da Constituição do Imperio, que tiver renda liquida annual não inferior a 200$ por bens de raiz, industria, commercio ou emprego.
+
+Nas exclusões do referido art. 92 comprehendem-se as praças de pret do exercito, da armada e dos corpos policiaes, e os serventes das repartições e estabelecimentos publicos.
+
+X. Os habilitados com diplomas scientificos ou litterarios de qualquer faculdade, academia, escola ou instituto nacional ou estrangeiro, legalmente reconhecidos.
+
+Será titulo comprobatorio o proprio diploma ou documento authentico que o suppra.
+
+XI. Os que desde mais de um anno antes do alistamento dirigirem casas de educação ou ensino, frequentadas por 20 ou mais alumnos, ou leccionarem nas mesmas casas.
+
+Servirá de prova - certidão passada pelo inspector ou director da instrucção publica na Côrte ou nas provincias.
+
+XII. Os juizes de paz e os vereadores effectivos do quatriennio de 1877 - 1881 e do seguinte, e os cidadãos qualificados jurados na revisão feita no anno de 1879.
+
+Art. 5º O cidadão que não puder provar a renda legal por algum dos meios determinados nos artigos precedentes será admittido a fazel-o:
+
+I. Pelo valor locativo do predio em que houver residido desde um anno antes, pelo menos, com economia propria, sendo o valor locativo annual, por elle pago, de 400$ na cidade do Rio de Janeiro, de 300$ nas da Bahia, Recife, S. Luiz do Maranhão, Belem do Pará, Nictheroy, S. Paulo e Porto Alegre, de 200$ nas demais cidades, e de 100$ nas villas e outras povoações.
+
+II. Pelo valor locativo annual de 200$, pelo menos, de terrenos de lavoura ou de criação, ou de quaesquer outros estabelecimentos agricolas ou ruraes, que o cidadão haja tomado por arrendamento desde um anno antes.
+
+§ 1º A prova será dada em processo summario perante o juiz de direito da comarca; e, nas que tiverem mais de um juiz de direito, perante qualquer delles, e será a seguinte:
+
+I. Quanto aos predios sujeitos ao imposto predial ou decima urbana - certidão de repartição fiscal, de que conste estarem averbados com o referido valor locativo annual.
+
+II. Quanto aos predios não sujeitos ao dito imposto ou decima - contrato de arrendamento ou aluguel, celebrado por escriptura publica com a data de um anno antes, pelo menos, ou por escripto particular lançado com igual antecedencia em livro de notas, havendo expressa declaração do preço do arrendamento ou aluguel; e, em falta destes documentos - o titulo legitimo ou sentença passada em julgado, que prove ter o ultimo dono do predio adquirido a propriedade ou posse deste por valor sobre o qual, á razão de 6 %, se compute a renda annual, na importancia declarada no n. I deste artigo.
+
+III. Quanto aos terrenos de lavoura ou criação, ou outros estabelecimentos agricolas ou ruraes - contrato de arrendamento por escriptura publica com a data de um anno antes, pelo menos, havendo expressa declaração do preço.
+
+IV. A's provas que ficam designadas se addicionará sempre o recibo do proprietario do predio, terreno ou estabelecimento, com data não anterior a um mez, provando estar pago até então do preço do arrendamento ou aluguel.
+
+§ 2º O juiz de direito julgará, á vista das provas estabelecidas no paragrapho antecedente, por sentença proferida no prazo de 15 dias, ouvindo o promotor publico, que responderá dentro do de cinco dias.
+
+Nenhum processo comprehenderá mais de um cidadão, e nelle não terá logar pagamento de sello, nem de custas, excepto as dos escrivães, que serão cobradas pela metade.
+
+§ 3º A sentença do juiz de direito será fundamentada e della haverá recurso voluntario para a relação do districto, interposto dentro do prazo de 10 dias pelo proprio interessado ou por seu procurador especial, no caso de exclusão; e por qualquer eleitor da parochia ou districto, no caso de admissão.
+
+§ 4º As certidões e outros documentos exigidos para o alistamento dos eleitores são isentos de sello e de quaesquer outros direitos.
+
+§ 5º Em caso de falta ou impedimento, o juiz de direito será substituido:
+
+Nas comarcas que tiverem um só juiz de direito: 1º pelo juiz municipal effectivo da séde da comarca; 2º pelos juizes municipaes effectivos dos outros termos da mesma comarca, que forem mais vizinhos.
+
+Nas comarcas que tiverem mais de um juiz de direito: 1º pelos outros juizes de direito, conforme a regra geral de sua substituição; 2º pelos juizes substitutos formados, de conformidade com a mesma regra.
+
+Si todos elles faltarem ou acharem-se impedidos, o processo será feito perante o juiz de direito da comarca mais vizinha.
+
+Do alistamento eleitoral
+
+Art. 6º O alistamento dos eleitores será preparado, em cada termo, pelo respectivo juiz municipal, e definitivamente organizado por comarcas pelos juizes de direito destas.
+
+§ 1º Na côrte o Ministro do Imperio, e nas provincias os Presidentes, marcarão dia para começo dos trabalhos do primeiro alistamento que se fizer em virtude desta lei.
+
+§ 2º Nas comarcas que tiverem mais de um juiz de direito, tanto o preparo como a organização definitiva do alistamento serão feitos pelos juizes de direito, cada um no respectivo districto criminal, competindo ao do 1º o registro do alistamento geral dos eleitores de toda a comarca, pelo modo estabelecido nos §§ 8º a 11 deste artigo.
+
+Para este fim ser-lhe-hão remettidos pelos outros juizes os alistamentos parciaes que tiverem organizado.
+
+§ 3º Em caso de falta ou impedimento, o juiz de direito será substituido: 1º pelo juiz municipal effectivo da séde da comarca; 2º pelos juizes municipaes effectivos dos outros termos da mesma comarca, que forem mais vizinhos.
+
+Nas comarcas que tiverem mais de um juiz de direito: 1º pelos outros juizes de direito, conforme a regra geral de sua substituição; 2º pelos juizes substitutos formados, de conformidade com a mesma regra.
+
+Si todos elles faltarem ou acharem-se impedidos, o alistamento dos eleitores será organizado pelo juiz de direito da comarca mais vizinha.
+
+§ 4º Nenhum cidadão será incluido no alistamento dos eleitores sem o ter requerido por escripto e com assignatura sua ou de especial procurador, provando o seu direito com os documentos exigidos nesta lei.
+
+Em cada requerimento não poderá figurar mais que um cidadão.
+
+O juiz de direito e os juizes municipaes serão, porém, incluidos ex-officio no alistamento da parochia de seu domicilio.
+
+§ 5º Só no alistamento da parochia em que tiver domicilio poderá ser incluido o cidadão que fôr reconhecido eleitor.
+
+§ 6º Os requerimentos de que trata o § 4º serão entregues aos juizes municipaes no prazo de 30 dias, contados da data do edital em que estes deverão convidar para tal fim os cidadãos dos seus municipios.
+
+Desses requerimentos e dos documentos que os acompanharem, ou forem posteriormente apresentados, darão recibo os juizes municipaes.
+
+§ 7º Estes mesmos juizes, no prazo de 10 dias, exigirão por despachos lançados naquelles requerimentos, e que serão publicados por edital, a apresentação dos documentos legaes que não tiverem sido juntos, sendo concedido para essa apresentação o prazo de 20 dias.
+
+§ 8º Findo este ultimo prazo, os juizes municipaes enviarão aos juizes de direito da comarca, dentro do de 20 dias, todos os requerimentos recebidos e respectivos documentos, acompanhados de duas relações, que organizarão por municipios, parochias e districtos de paz, sendo collocados os nomes por ordem alphabetica em cada quarteirão.
+
+Em uma destas relações se conterão os nomes dos cidadãos que houverem exhihido todos os documentos legaes, em devida fórma, e na outra se mencionarão os nomes daquelles cujos requerimentos não se acharem completamente instruidos ou forem acompanhados de documentos defeituosos, declarando-se as faltas ou defeitos. Em ambas as relações farão os juizes municipaes as observações que lhes parecerem convenientes para esclarecimento dos juizes de direito.
+
+§ 9º Os juizes de direito, dentro do prazo de 45 dias, contados do em que tiverem recebido os requerimentos preparados pelos juizes municipaes e as respectivas relações, julgarão provado ou não o direito de cada cidadão de ser reconhecido eleitor, por despachos fundamentados, proferidos nos proprios requerimentos; e, de conformidade com estes despachos, organizarão o alistamento geral e definitivo dos eleitores por comarcas, municipios, parochias, districtos de paz e quarteirões, podendo para esse fim exigir de quaesquer autoridades ou empregados publicos as informações de que necessitarem.
+
+Nos dez primeiros dias do dito prazo será permittido aos cidadãos apresentar aos juizes de direito, para serem juntos aos seus requerimentos, os documentos exigidos pelos juizes municipaes, ou quaesquer outros que melhor provem o seu direito, quando não tenham podido fazel-o perante estes em tempo proprio, devendo ser informados pelos respectivos juizes municipaes os requerimentos que acompanharem esses documentos.
+
+§ 10. No prazo de 20 dias em seguimento do estabelecido no paragrapho antecedente, os juizes de direito farão extrahir cópias do alistamento geral da comarca, das quaes remetterão - uma ao Ministro do Imperio na Côrte, ou nas provincias ao Presidente, e outra ou outras ao tabellião ou tabelliães a quem competir fazer o registro do mesmo alistamento. Além destas farão tambem extrahir cópias parciaes do alistamento, contendo cada uma o relativo a cada municipio da comarca, as quaes remetterão aos respectivos juizes municipaes, que as publicarão por edital logo que as receberem, e as farão registrar pelo tabellião ou tabelliães do municipio, quando este não fôr o da cabeça da comarca.
+
+Em falta absoluta de tabellião será feito este serviço pelo escrivão ou escrivães de paz, que o juiz competente designar.
+
+§ 11. Si houver mais de um tabellião na cabeça da comarca ou no municipio, o juiz de direito ou o juiz municipal poderá mandar fazer o registro por dous ou mais, quando julgar conveniente esta divisão do trabalho á vista do numero das parochias ou dos districtos de paz, designando quaes os municipios, parochias ou districtos de paz que ficarão a cargo de cada um.
+
+§ 12. O registro será feito em livro fornecido pela respectiva Camara Municipal, aberto e encerrado pelo juiz de direito ou pelo juiz municipal, os quaes tambem numerarão e rubricarão as folhas do mesmo livro.
+
+§ 13. O registro ficará concluido no prazo de 40 dias, contados do em que o respectivo tabellião houver recebido a cópia do alistamento. Esta cópia será devolvida ao juiz competente com declaração da data do registro.
+
+O trabalho do registro terá preferencia a qualquer outro.
+
+§ 14. Os titulos de eleitor, extrahidos de livros de talões impressos, serão assignados pelos juizes de direito que tiverem feito o alistamento.
+
+Estes titulos conterão, além da indicação da provincia, comarca, municipio, parochia, districto de paz e quarteirão, o nome, idade, filiação, estado, profissão, domicilio e renda do eleitor, salvas as excepções do art. 4º, a circumstancia de saber ou não ler e escrever, e o numero e data do alistamento.
+
+Os titulos serão extrahidos e remettidos aos juizes municipaes dentro do prazo de 30 dias, contados do em que se tiver concluido o alistamento geral.
+
+Quarenta e oito horas depois de terem recebido os titulos, os juizes municipaes convidarão por edital os eleitores, comprehendidos nos alistamentos dos respectivos municipios, para os irem receber, dentro de 40 dias, nos logares que para este fim designarem, desde as 10 horas da manhã até ás 4 da tarde.
+
+Nas comarcas especiaes a entrega dos titulos será feita pelos juizes de direito, que tiverem organizado o alistamento.
+
+§ 15. Os titulos serão entregues aos proprios eleitores, os quaes os assignarão á margem perante o juiz municipal ou juiz de direito; e em livro especial passarão recibo com sua assignatura, sendo admittido a assignar pelo eleitor, que não souber ou não puder escrever, outro por elle indicado.
+
+§ 16. Os titulos dos eleitores, que os não tiverem procurado dentro do prazo designado para sua entrega, serão remettidos pelo juiz competente ao tabellião que houver feito o registro do respectivo alistamento, o qual os conservará sob sua guarda, afim de entregal-os quando forem solicitados pelos proprios eleitores, satisfeita por estes a exigencia do paragrapho antecedente, sendo assignados o titulo e recibo deste perante o mesmo tabellião.
+
+§ 17. Quando o juiz municipal ou juiz de direito recusar ou demorar por qualquer motivo a entrega do titulo, poderá o proprio eleitor, por simples requerimento, recorrer do juiz municipal para o juiz de direito, e deste para o Ministro do Imperio na Côrte, ou nas provincias para os Presidentes destas.
+
+Nestes casos o juiz de direito, ou o Ministro do Imperio na Côrte e os Presidentes nas provincias, mandarão por despacho, dentro de 24 horas, que o juiz recorrido responda, o que este deverá fazer dentro de igual prazo, contado da hora em que houver recebido o requerimento, e que será certificada pelo agente do Correio ou pelo official de justiça encarregado da entrega.
+
+O recurso será decidido dentro do prazo de 5 dias, contados do recebimento da resposta do juiz recorrido; ou da data em que deveria ter sido dada.
+
+No caso de recusa ou demora na entrega do titulo pelo tabellião que o tiver sob sua guarda, haverá recurso, pelo modo acima estabelecido, para o juiz de direito, na cabeça da comarca, e fóra desta, para o respectivo juiz municipal.
+
+§ 18. No caso de perda de titulo poderá o eleitor requerer ao competente juiz de direito novo titulo, á vista de justificação daquella perda com citação do promotor publico, e de certidão do seu alistamento.
+
+O despacho será proferido no prazo de 48 horas; e, si fôr negativo, haverá recurso para o Ministro do Imperio na Côrte, ou nas provincias para os Presidentes destas.
+
+No novo titulo e no respectivo talão se fará declaração da circumstancia de ser segunda via e do motivo pelo qual foi passado.
+
+Do mesmo modo se procederá quando se passar novo titulo, no caso de verificar-se erro no primeiro.
+
+Art. 7º Para o primeiro alistamento que se fizer, em virtude desta lei, ficam reduzidos a 4 mezes os prazos de que se trata nos arts. 3º § 1º n. II, § 2º ns. I e IV, § 4º e § 5º; art. 4º n. XI; e art. 5º ns. I e II, e § 1º ns. II e III relativamente ás provas de renda.
+
+Art. 8º No primeiro dia util do mez de Setembro de 1882, e de então em diante todos os annos em igual dia, se procederá á revisão do alistamento geral dos eleitores, em todo o Imperio, sómente para os seguintes fins:
+
+I. De serem eliminados os eleitores que tiverem fallecido ou mudado de domicilio para fóra da comarca, os fallidos não rehabilitados, os que estiverem interdictos da administração de seus bens, e os que, nos termos dos arts. 7º e 8º da Constituição, houverem perdido os direitos de cidadão brazileiro ou não estiverem no gozo de seus direitos politicos.
+
+II. De serem incluidos no dito alistamento os cidadãos que requererem e provar em ter adquirido as qualidades de eleitor da conformidade com esta lei, e souberem ler e escrever.
+
+§ 1º A prova de haver o cidadão attingido a idade legal será feita por meio da competente certidão; e a de saber ler e escrever pela lettra e assignatura do cidadão que requerer a sua inclusão no alistamento, uma vez que a lettra e firma estejam reconhecidas por tabellião no requerimento que para este fim dirigir.
+
+§ 2º Para que se considere o cidadão domiciliado na parochia, exige-se que nella resida um anno antes da revisão do alistamento geral dos eleitores, salva a disposição do § 4º.
+
+§ 3º O eleitor eliminado do alistamento de uma comarca, por ter mudado para outra seu domicilio, será incluido no alistamento desta, bastando para este fim que perante o juiz de direito da ultima comarca prove o novo domicilio e exhiba seu titulo de eleitor com a declaração da mudança, nelle posta pelo juiz de direito respectivo, ou, em falta deste titulo, certidão da sua eliminação, por aquelle motivo, do alistamento em que se achava o seu nome.
+
+§ 4º Si a mudança de domicilio fôr para parochia, districto de paz ou secção comprehendidos na mesma comarca, o juiz de direito desta, requerendo o eleitor, fará no alistamento as necessarias declarações.
+
+§ 5º A eliminação do eleitor terá logar sómente nos seguintes casos: - de morte, á vista da certidão de obito; - de mudança do domicilio para fóra da comarca, em virtude do requerimento do proprio eleitor ou de informações da competente autoridade, precedendo annuncio por edital affixado com antecedencia de 30 dias em logar publico da séde da comarca e na parochia, districto de paz ou secção de sua residencia, ou de certidão authentica de estar o eleitor alistado em outra parochia de comarca diversa, onde tenha estabelecido novo domicilio, sendo apresentada esta certidão por meio de requerimento assignado por pessoa competente nos termos do § 7º; - e no de perda dos direitos de cidadão brazileiro ou suspensão do exercicio dos direitos politicos, de fallencia ou interdicção da gerencia de seus bens, á vista das provas exigidas no § 22 do art. 1º do Decreto Legislativo n. 2675 de 20 de Outubro de 1875.
+
+§ 6º Nos trabalhos das revisões dos alistamentos serão observadas as disposições desta lei relativas ao processo estabelecido para o primeiro alistamento geral, reduzidos porém a 10 dias os prazos dos §§ 7º e 8º, a 30 o do § 9º, a 10 o do § 10, e a 30 os dos §§ 13 e 14, todos do art. 6º.
+
+§ 7º A eliminação do eleitor, em qualquer dos casos do n. I deste artigo, será requerida pelo promotor publico ou pelo seu adjunto, ou por tres eleitores da respectiva parochia, por meio de petição documentada nos termos do § 3º.
+
+Os documentos serão fornecidos gratuitamente pela repartição ou pelo funccionario publico competente.
+
+§ 8º As eliminações, inclusões e alterações que se fizerem nos alistamentos, quando se proceder a sua revisão, serão publicadas, com a declaração dos motivos, por editaes affixados nas portas das matrizes e capellas, ou em outros logares publicos.
+
+§ 9º Concluidos os trabalhos das revisões e extrahidas as necessarias cópias, o juiz de direito passará os titulos de eleitor que competirem aos novos alistados, seguindo-se para sua expedição e entrega as disposições dos §§ 14 a 16 do art. 6º desta lei.
+
+§ 10. No caso de dissolução da Camara dos Deputados, servirá para a eleição o alistamento ultimamente revisto, não se procedendo á nova revisão entre a dissolução e a eleição que se fizer em consequencia della.
+
+Art. 9º As decisões dos juizes de direito sobre a inclusão dos cidadãos no alistamento dos eleitores, ou a sua exclusão deste, serão definitivas.
+
+Dellas, porém, terão recurso para a Relação do districto, sem effeito suspensivo: 1º os cidadãos não incluidos e os excluidos, requerendo cada um de per si; 2º qualquer eleitor da comarca, no caso de inclusão indevida de outro, referindo-se cada recurso a um só individuo.
+
+Estes recursos serão interpostos no prazo de 30 dias, quanto ás inclusões ou não inclusões, e em todo o tempo, quanto ás exclusões.
+
+§ 1º Interpondo estes recursos, os recorrentes allegarão as razões e juntarão os documentos que entenderem ser a bem de seu direito.
+
+No prazo de 10 dias, contados do recebimento dos recursos, os juizes de direito reformarão ou confirmarão as suas decisões; e, no ultimo caso, o recorrente fará seguir o processo para a Relação, sem acrescentar razões nem juntar novos documentos.
+
+§ 2º Os recursos interpostos para a Relação de decisões proferidas sobre alistamento de eleitores serão julgados, no prazo de 30 dias, por todos os seus membros presentes.
+
+§ 3º Não é admissivel suspeição de juizes no julgamento dos recursos, salvos sómente os casos do art. 61 do Codigo do Processo Criminal; nem se interromperão os prazos por motivo de férias judiciaes.
+
+§ 4º Serão observadas as disposições do Decreto Legislativo n. 2675 de 20 de Outubro de 1875 e das respectivas Instrucções de 12 de Janeiro de 1876, sobre os recursos, na parte não alterada por esta lei.
+
+Dos elegiveis
+
+Art. 10. E' elegivel para os cargos de Senador, Deputado á Assembléa Geral, membro de Assembléa Legislativa Provincial, vereador e juiz de paz todo cidadão que fôr eleitor nos termos do art. 2º desta lei, não se achando pronunciado em processo criminal, e salvas as disposições especiaes que se seguem:
+
+§ 1º Requer-se:
+
+Para Senador: - a idade de 40 annos para cima e a renda annual de 1:600$ por bens de raiz, industria, commercio ou emprego;
+
+Para Deputado á Assembléa Geral: - a renda annual de 800$ por bens de raiz, industria, commercio ou emprego;
+
+Para membro de Assembléa Legislativa Provincial: - o domicilio na provincia por mais de dous annos;
+
+Para vereador e juiz de paz: - o domicilio no municipio e districto por mais de dous annos.
+
+§ 2º Os cidadãos naturalizados não são, porém, elegiveis para o cargo de Deputado á Assembléa Geral sem terem seis annos de residencia no Imperio, depois da naturalização.
+
+Das incompatibilidades
+
+Art. 11. Não podem ser votados para Senador, Deputado á Assembléa Geral ou membro de Assembléa Legislativa Provincial:
+
+I. Em todo o Imperio:
+
+Os directores geraes do Thesouro Nacional e os directores das Secretarias de Estado.
+
+II. Na Côrte e nas provincias em que exercerem autoridade ou jurisdicção:
+
+Os Presidentes de provincia;
+
+Os Bispos em suas dioceses;
+
+Os commandantes de armas;
+
+Os generaes em chefe de terra e mar;
+
+Os chefes de estações navaes;
+
+Os capitães de porto;
+
+Os inspectores ou directores de Arsenaes;
+
+Os inspectores de corpos do exercito;
+
+Os commandantes de corpos militares e de policia;
+
+Os secretarios de Governo Provincial e os secretarios de Policia da Côrte e Provincias;
+
+Os inspectores de Thesourarias de Fazenda geraes ou provinciaes, e os chefes de outras repartições de arrecadação;
+
+O director geral e os administradores dos Correios;
+
+Os inspectores ou directores de instrucção publica, e os lentes e directores de faculdade ou outros estabelecimentos de instrucção superior;
+
+Os inspectores das Alfandegas;
+
+Os desembargadores;
+
+Os juizes de direito;
+
+Os juizes municipaes, de orphãos e os juizes substitutos;
+
+Os chefes de Policia;
+
+Os promotores publicos;
+
+Os curadores geraes de orphãos;
+
+Os desembargadores de relações ecclesiasticas;
+
+Os vigarios capitulares;
+
+Os governadores de bispado;
+
+Os vigarios geraes, provisores e vigarios foraneos;
+
+Os procuradores fiscaes, e os dos Feitos da Fazenda e seus ajudantes.
+
+III. Nos districtos em que exercerem autoridade ou jurisdicção:
+
+Os delegados e subdelegados de Policia.
+
+§ 1º A incompatibilidade eleitoral prevalece:
+
+I. Para os referidos funccionarios e seus substitutos legaes, que tiverem estado no exercicio dos respectivos empregos dentro de seis mezes anteriores á eleição.
+
+II. Para os substitutos que exercerem os empregos dentro dos seis mezes, bem como para os que os precederem na ordem da substituição e deviam ou podiam assumir o exercicio.
+
+III. Para os funccionarios effectivos, para os substitutos dos juizes de direito, nas comarcas especiaes, e para os supplentes dos juizes municipaes, desde a data da aceitação do emprego ou funcção publica até seis mezes depois de o terem deixado, em virtude de remoção, accesso, renuncia ou demissão.
+
+§ 2º Tambem não poderão ser votados para Senador, Deputado á Assembléa Geral ou membro de Assembléa Legislativa Provincial: - os directores de estradas de ferro pertencentes ao Estado, os directores e engenheiros chefes de obras publicas, emprezarios, contratadores e seus prepostos, arrematantes ou interessados em arrematação de taxas ou rendimentos de qualquer natureza, obras ou fornecimentos publicos, ou em companhias que recebam subvenção, garantia ou fiança de juros ou qualquer auxilio, do qual possam auferir lucro pecuniario da Fazenda geral, provincial ou das Municipalidades, naquellas provincias onde exercerem os ditos cargos, ou os respectivos contratos e arrematações tenham execução e durante o tempo delles.
+
+A palavra «interessados» não comprehende os accionistas.
+
+Art. 12. O funccionario publico de qualquer classe que perceber pelos cofres geraes, provinciaes ou municipaes, vencimentos ou porcentagens ou tiver direito a custas por actos de officios de justiça, si aceitar o logar de Deputado á Assembléo Geral ou de membro de Assembléa Legislativa Provincial, não poderá, durante todo o periodo da legislatura, exercer o emprego ou cargo publico remunerado que tiver, nem perceber vencimentos ou outras vantagens, que delle provenham, nem contar antiguidade para aposentação ou jubilação, nem obter remoção ou accesso em sua carreira, salvo o que lhe competir por antiguidade.
+
+§ 1º Os juizes de direito ficarão avulsos durante o periodo da legislatura, e finda esta voltarão para as comarcas em que se achavam, si estiverem vagas, ou irão servir em comarcas equivalentes, que o Governo lhes designará.
+
+§ 2º A aceitação do logar de Deputado ou de membro do Assembléa Legislativa Provincial importará para os juizes substitutos nos comarcas especiaes, e para os juizes municipaes e de orphãos a renuncia destes cargos.
+
+§ 3º O funccionario publico comprehendido na disposição deste artigo, que aceitar o logar de Senador, será aposentado ou jubilado com o vencimento correspondente ao tempo de exercicio que tiver, na fórma da lei.
+
+§ 4º Das disposições deste artigo exceptuam-se:
+
+I. Os Ministros e Secretarios de Estado;
+
+II. Os Conselheiros de Estado;
+
+III. Os Bispos;
+
+IV. Os embaixadores e os enviados extraordinarios em missão especial;
+
+V. Os Presidentes de provincia;
+
+VI. Os officiaes militares de terra ou mar, quanto á antiguidade, e, nos intervallos das sessões, quanto ao soldo.
+
+Art. 13. Os Ministros e Secretarios de Estado não poderão ser votados para Senador emquanto exercerem o cargo e até seis mezes depois, salvo na provincia de seu nascimento ou domicilio.
+
+Art. 14. Não poderão os Senadores e, durante a legislatura e seis mezes depois, os Deputados á Assembléa Geral, salva a disposição do art. 34 da Constituição, nem os membros das Assembléas Legislativas Provinciaes, aceitar do Governo geral ou provincial commissões ou empregos remunerados, excepto os de Conselheiro de Estado, Presidente de provincia, embaixador ou enviado extraordinario em missão especial, Bispo e commandante de forças de terra ou mar.
+
+Não se comprehendem nesta disposição as nomeações por accesso de antiguidade para emprego civil ou posto militar de terra ou mar.
+
+Não poderão tambem os Senadores, os Deputados á Assembléa Geral e os membros das Assembléas Legislativas Provinciaes obter a concessão, acquisição ou gozo do privilegios, contratos, arrematações de rendas, obras e fornecimentos publicos, embora a titulo de simplices interessados.
+
+Esta disposição não comprehende os privilegios de invenção.
+
+Da eleição em geral
+
+Art. 15. As eleições de Senadores, Deputados á Assembléa Geral, membros das Assembléas Legislativas Provinciaes, vereadores e juizes de paz continuarão a fazer-se nos dias e pelo modo determinados na legislação vigente, com as alterações seguintes:
+
+§ 1º A eleição começará e terminará no mesmo dia.
+
+§ 2º São dispensadas as ceremonias religiosas e a leitura das leis e regulamentos, que deviam preceder aos trabalhos eleitoraes.
+
+§ 3º Fica prohibida a presença ou intervenção de força publica durante o processo eleitoral.
+
+§ 4º O logar, onde dever funccionar a mesa da assembléa eleitoral, será separado, por uma divisão, do recinto destinado á reunião da mesma assembléa de modo que não se impossibilite aos eleitores a inspecção e fiscalisação dos trabalhos.
+
+Dentro daquelle espaço só poderão entrar os eleitores á medida que forem chamados para votar.
+
+§ 5º Compete ao presidente da mesa regular a policia da assembléa eleitoral, chamando á ordem os que della se desviarem, fazendo sahir os que não forem eleitores ou injuriarem os membros da mesa ou a qualquer eleitor, mandando lavrar este caso auto de desobediencia e remettendo-o á autoridade competente.
+
+No caso, porém, de offensa physica contra qualquer dos mesarios ou eleitores, o presidente poderá prender o offensor, remettendo-o ao juiz competente para ulterior procedimento.
+
+§ 6º As eleições se farão por parochias, ou, nas que contiverem numero de eleitores superior a 250, por districtos de paz, ou, finalmente, por secções de parochia ou de districto, quando a parochia, formando um só districto de paz ou o districto, contiver numero do eleitores excedente ao designado. Cada sacção deverá conter 100 eleitores, pelo menos.
+
+O Governo, na Côrte, e os Presidentes, nas provincias, designarão com a precisa antecedencia os edificios em que deverão fazer-se as eleições. Só em falta absoluta de outros edificios poderão ser designados para esse fim os templos religiosos.
+
+§ 7º Em cada parochia, districto de paz ou secção, se organizará uma mesa para o recebimento, apuração dos votos e mais trabalhos da eleição.
+
+Esta mesa se comporá:
+
+I. Nas parochias ou districtos de paz: do juiz de paz mais votado da séde da parochia ou do districto de paz, como presidente, nos termos dos arts. 2º e 3º da lei n. 387 de 19 de Agosto de 1846, e de quatro membros, que serão: os dous juizes de paz que áquelle se seguirem em votos, e os dous cidadãos immediatos em votos ao 4º juiz de paz.
+
+Em caso de ausencia, falta ou impossibilidade do juiz de paz mais votado, exercerá as funcções de presidente da mesa o que se lhe seguir em votos até ao 4º.
+
+Quando por ausencia, falta ou impossibilidade não comparecer o 2º ou o 3º juiz de paz, que devem ser membros da mesa, será convidado o 4º; e si destes tres juizes de paz só comparecer um ou nenhum se apresentar, o presidente da mesa convidará, para supprir as faltas, um ou dous eleitores d'entre os presentes.
+
+Si deixarem de comparecer os dous cidadãos immediatos em votos aos juizes de paz, que devem tambem compor a mesa, ou algum delles, serão convocados um ou dous que áquelles se seguirem em votos, até ao 4º, sendo a falta destes ultimos preenchida por eleitores d'entre os presentes, designados, no caso de faltarem ambos, pelo presidente, e no caso de comparecer um, pelo immediato que tiver comparecido.
+
+Esta mesa será constituida na vespera do dia designado para a eleição, dia em que tambem se reunirá a de que trata o numero seguinte, lavrando o escrivão de paz, em acto continuo, no livro que tiver de servir para a eleição, a acta especial de sua formação ou installação, a qual será assignada pelo presidente e demais membros da mesa constituida.
+
+II. Nas secções da parochia que contiver um só districto de paz ou nos dos districtos de paz: - de um presidente e de quatro membros, os quaes serão nomeados: o presidente e dous destes membros pelos juizes de paz da séde do parochia ou do districto; e os outros dous pelos immediatos dos mesmos juizes de paz.
+
+Estas nomeações serão feitas d'entre os eleitores da secção respectiva tres dias antes do marcado para a eleição, no edificio designado para a da parochia ou districto, havendo convocação dos referidos juizes e de seus quatro immediatos com a antecedencia de 15 dias.
+
+Basta o comparecimento de um dos juizes de paz e de um dos immediatos convocados para se proceder á mesma nomeação.
+
+Concluido este acto, o escrivão de paz lavrará, no livro que tiver de servir para a eleição na respectiva secção, a acta especial da nomeação da mesa.
+
+Esta acta será assignada pelos juizes de paz e seus immediatos, que houverem comparecido.
+
+§ 8º Quando, no caso do § 6º, se dividir em secções alguma parochia ou districto, a mesa da secção onde estiver a séde da parochia será organizado pelo modo estabelecido no § 7º n. I.
+
+Quando o districto dividido não fôr o da séde da parochia, será tambem organizada do mesmo modo a mesa naquella das secções do districto que contiver maior numero de eleitores.
+
+Será applicavel somente ás demais secções a regra estabelecida no n. II do § 7º
+
+§ 9º Os juizes de paz deverão concorrer para formar as mesas eleitoraes, quer estejam ou não em exercicio, estejam embora suspensos por acto do Governo, ou por pronuncia em crime de responsabilidade. Esta disposição é extensiva aos quatro immediatos aos mesmos juizes, na parte que lhes fôr applicavel.
+
+§ 10. Os presidentes e mais membros, que têm de compor as mesas eleitoraes, são obrigados a participar por escripto, até ás 2 horas da tarde da vespera do dia da eleição, o impedimento que tiverem, sob a pena do art. 29 § 14.
+
+Só poderão ser substituidos depois de recebida esta participação, ou depois das 2 horas da tarde, no caso de não ser ella feita.
+
+§ 11. O presidente ou membros das mesas eleitoraes, em caso de falta ou impedimento durante os trabalhos da eleição, serão substituidos pelo modo seguinte:
+
+Nas mesas eleitoraes de parochia, districto ou secção organizadas pela fórma estabelecida no n. I do § 7º: - 1º o presidente, pelo juiz de paz que se lhe seguir em votos, ainda que seja membro da mesa e, no caso de não haver juiz de paz desimpedido, pelo eleitor que os membros presentes nomearem, decidindo a sorte em caso de empate; 2º os membros da mesa pelo modo determinado na 2ª e na 3ª parte do n. I citado.
+
+Nas mesas das secções de que trata a parte final do § 8º: - 1º o presidente, pelo eleitor que os membros presentes nomearem, decidindo a sorte em caso de empate; 2º qualquer dos dous membros que os juizes de paz houverem nomeado, pelo eleitor ou eleitores que o presidente convidar; 3º qualquer dos dous membros que os immediatos dos juizes de paz tiverem nomeado, pelo eleitor que o outro membro presente designar, e, faltando ambos os ditos membros, pelos eleitores que o presidente convidar.
+
+§ 12. Não será válida qualquer eleição feita perante mesa que não fôr organizada pela fórma estabelecida nos paragraphos anteriores.
+
+§ 13. Quando na vespera, ou, não sendo possivel, no dia da eleição até á hora marcada para o começo dos trabalhos, não se puder installar a mesa eleitoral, não haverá eleição na parochia, districto ou secção.
+
+§ 14. Deixará tambem de haver eleição na parochia, districto ou secção onde por qualquer outro motivo não puder ser feita no dia proprio.
+
+§ 15. No dia e no edificio designados para eleição começarão os trabalhos desta ás 9 horas da manhã.
+
+Reunida a mesa, que deve ser installada na vespera, se procederá ao recebimento das cedulas dos eleitores pelo modo estabelecido para a eleição primaria na legislação vigente.
+
+§ 16. Cada candidato á eleição de que se tratar, até ao numero de tres, poderá apresentar um eleitor para o fim de fiscalisar os trabalhos em cada uma das assembléas eleitoraes do districto. Na ausencia do candidato, a apresentação poderá ser feita por qualquer eleitor.
+
+Havendo, porém, mais de tres candidatos, terão preferencia os fiscaes daquelles que apresentarem maior numero de assignaturas de eleitores, declarando que adoptam a sua candidatura.
+
+A apresentação destes fiscaes será feita por escripto aos presidentes das mesas eleitoraes, quando estas se installarem.
+
+Os fiscaes terão assento nas mesas eleitoraes e assignarão as actas com os respectivos membros, mas não terão voto deliberativo nas questões que se suscitarem acerca do processo da eleição.
+
+O não comparecimento dos fiscaes ou a sua recusa de assignatura nas actas não trará interrupção dos trabalhos, nem os annullará.
+
+§ 17. Haverá uma só chamada dos eleitores.
+
+Si depois de findar esta chamada, mas antes da abertura da urna que contiver as cedulas, algum eleitor que, não tendo acudido á mesma chamada, requerer ser admittido a votar, será recebida a sua cedula.
+
+§ 18. Nenhum eleitor será admittido a votar sem apresentar o seu titulo, nem poderá ser recusado o voto do que exhibir o dito titulo, não competindo á mesa entrar no conhecimento da identidade de pessoa do eleitor em qualquer destes casos.
+
+Si, porém, a mesa reconhecer que é falso o titulo apresentado ou que pertence a eleitor, cuja ausencia ou fallecimento seja notorio, ou si houver reclamação de outro eleitor que declare pertencer-lhe o titulo, apresentando certidão de seu alistamento passada pelo competente tabellião, a mesa tomará em separado o voto do portador do titulo, e assim tambem o do reclamante, si exhibir novo titulo expedido nos termos do art. 6º § 18 desta lei, afim de ser examinada a questão em Juizo competente, á vista do titulo impugnado ou sobre que haja duvida, titulo que ficará em poder da mesa para ser remettido ao mesmo Juizo para os devidos effeitos, com quaesquer outros documentos que forem apresentados.
+
+§ 19. O voto será escripto em papel branco ou anilado, não devendo ser transparente, nem ter marca, signal ou numeração. A cedula será fechada de todos os lados, tendo rotulo conforme a eleição a que se proceder.
+
+As cedulas que contiverem signaes exteriores ou interiores, ou forem escriptas em papel de outras côres ou transparente, serão apuradas em separado e remettidas ao poder verificador competente com as respectivas actas.
+
+Depois de lançar na urna sua cedula, o eleitor assignará o seu nome em um livro para esse fim destinado e fornecido pela Camara Municipal, o qual será aberto e encerrado pelo respectivo presidente ou pelo vereador por elle designado, que tambem numerará e rubricará todas as folhas do mesmo livro.
+
+Quando o eleitor não souber ou não puder assignar o seu nome, assignará em seu logar outro por elle indicado, e convidado para este fim pelo presidente da mesa.
+
+Finda a votação, e em seguida á assignatura do ultimo eleitor, a mesa lavrará e assignará um termo, no qual se declare o numero dos eleitores inscriptos no dito livro.
+
+O mesmo livro será remettido á camara municipal com os demais livros concernentes á eleição.
+
+§ 20. Concluida a apuração dos votos, que sa fará pelo modo estabelecido na legislação vigente, será lavrada e assignada pela mesa, e pelos eleitores que quizerem, a acta da eleição, na qual serão mencionados os nomes dos eleitores que não tiverem comparecido, os quaes por essa falta não incorrerão na pena de multa.
+
+A mesma acta será transcripta no livro de notas do tabellião ou do escrivão de paz, e assignada pela mesa e pelos eleitores que quizerem.
+
+§ 21. E' permiltido a qualquer eleitor da parochia, districto ou secção apresentar por escripto e com sua assignatura protesto relativo a actos do processo eleitoral, devendo este protesto, rubricado pela mesa e com o contra-protesto desta, si julgar conveniente fazel-o, ser appensado á cópia da acta que, segundo a disposição do paragrapho seguinte, fôr remettida ao Presidente do Senado, da Camara dos Deputados, da Assembléa Legislativa Provincial, ou á Camara Municipal. Na acta se mencionará simplesmente a apresentação do protesto.
+
+§ 22. A mesa fará extrahir tres cópias da referido acta e das assignaturas dos eleitores no livro de que trata o § 19, sendo as ditas cópias assignadas por ella e concertadas por tabellião ou escrivão de paz.
+
+Destas cópias serão enviadas - uma ao Ministro da Imperio na Côrte, ou ao Presidente nas provincias; outra ao Presidente do Senado, da Camara dos Deputados ou da Assembléa Legislativa Provincial, conforme a eleição a que se proceder; e a terceira ao juiz de direito de que trata o art. 18, si a eleição fôr de Deputado á Assembléa Geral ou de membro de Assembléa Legislativa Provincial.
+
+Na eleição de vereadores, a ultima das ditas cópias será enviada á Camara Municipal respectiva.
+
+Quando a eleição fôr para Senador, será esta ultima cópia enviada á Camara Municipal da Côrte, si a eleição a ella pertencer e á Provincia do Rio de Janeiro, e ás Camaras das capitaes das outras provincias, si a eleição a estas pertencer.
+
+Acompanharão as referidas cópias as das actos da formação das respectivas mesas eleitoraes.
+
+Da eleição de Senadores
+
+Art. 16. A eleição de Senador continúa a ser feita por provincia, mas sempre em lista triplice, ainda quando tenham de ser preenchidos dous ou mais logares: nesta hypothese proceder-se-ha á segunda eleição logo depois da escolha de Senador em virtude da primeira, e assim por diante.
+
+I. O Governo, na Côrte e Provincia do Rio do Janeiro, e os Presidentes nas outras provincias designarão dia para a eleição, devendo proceder-se a esta dentro do prazo de tres mezes.
+
+Este prazo será contado:
+
+No caso de morte do Senador, do dia em que na Côrte o Governo, e nas provincias o Presidente, tiverem conhecimento certo da vaga, ou em que receberem communicação desta, feita ao Governo pelo Presidente do Senado, ou ao Presidente da respectiva provincia pelo Governo ou pelo Presidente do Senado. Estas communicações serão dirigidas pelo Correio sob registro.
+
+No caso de augmento do numero de Senadores, do dia da publicação da respectiva lei na Côrte ou na provincia a que se referir.
+
+II. Cada eleitor votará em tres nomes, constituindo a lista triplice os tres cidadãos que maior numero de votos obtiverem.
+
+§ 1º A apuração geral das authenticas das assembléas eleitores e a formação da lista triplice serão feitas pela Camara Municipal da Côrte, quanto ás eleições desta e da Provincia do Rio de Janeiro, e pelas Camaras das capitaes das outras provincias, quanto ás eleições destas.
+
+A estes actos se procederá dentro do prazo de 60 dias, contados do em que se houver feito a eleição.
+
+I. Devem intervir nos referidos actos ainda os vereadores que se não acharem em exercicio ou estiverem suspensos por acto do Governo, ou por pronuncia em crime de responsabilidade.
+
+II. Na apuração a Camara Municipal se limitará a sommar os votos mencionados nas differentes authenticas, attendendo sómente ás das eleições feitas perante mesas organizadas pela fórma determinada nos §§ 7º a 11 do art. 15.
+
+III. Finda a dita apuração, se lavrará uma acta, na qual se mencionarão os nomes dos cidadãos e o numero de votos que obtiveram para Senador, desde o maximo até ao minimo; as occurrencias que se deram durante os trabalhos da apuração; e as representações que, por escripto e assignadas por qualquer cidadão elegivel, sejam presentes á Camara Municipal, relativas á mesma apuração.
+
+IV. Desta acta, depois de devidamente assignada, a Camara Municipal remetterá - uma cópia authentica ao Ministro e Secretario de Estado dos Negocios do Imperio, acompanhando a lista triplice, assignada pela mesma Camara, para ser presente ao Poder Moderador; - outra cópia da mesma acta ao Presidente do Senado; - e outra ao Presidente da respectiva provincia.
+
+§ 2º Na verificação dos poderes a que proceder o Senado, nos termos do art. 21 da Constituição, si resultar a exclusão da lista triplice do Senador nomeado, far-se-ha nova eleição em toda a provincia: no caso do exclusão recahir em qualquer dos outros dous cidadãos contemplados na lista triplice, será organizada pelo Senado novo lista e sujeita ao Poder Moderador.
+
+I. Si o Senado reconhecer que algum ou alguns dos tres cidadãos incluidos na lista triplice se acham comprehendidos em qualquer dos incompatibilidades especificadas no art. 11, serão declarados nullos os votos que lhes tiverem sido dados; e o cidadão ou cidadãos que se seguirem completarão a lista triplice.
+
+II. Proceder-se-ha tambem á nova eleição em toda a provincia, quando, antes da escolha do Senador, fallecer algum dos tres cidadãos que compuzerem a lista triplice.
+
+O mesmo se observará no caso de morte do Senador nomeado, cujos poderes não tenham sido ainda verificados ou quando algum dos cidadãos incluidos na lista triplice careço de qualquer das condições de elegibilidade exigidas nos ns. I, II e IV do art. 44 da Constituição.
+
+Da eleição de Deputados á Assembléa Geral e membros das Assembléas Legislativas Provinciaes
+
+Art. 17. As provincias serão divididas em tantos districtos eleitoraes quantos forem os seus Deputados á Assembléa Geral, attendendo-se quanto possivel á igualdade de população entre os districtos de cada provincia e respeitando-se a contiguidade do territorio e a integridade do municipio.
+
+§ 1º O Governo organizará e submetterá á approvação do Poder Legislativo a divisão dos ditos districtos sobre os seguintes bases:
+
+I. O municipio da Côrte comprehenderá tres districtos eleitoraes e os das capitaes da Bahia e Pernambuco dous districtos, cada um.
+
+II. Os districtos eleitoraes de cada provincia serão designados por numeros ordinaes, computada a população segundo a base do art. 2º do Decreto Legislativo n. 2675 de 20 de Outubro de 1875.
+
+III. Para cabeça de cada districto eleitoral será designado o logar mais central e importante delle.
+
+IV. Na divisão dos districtos eleitoraes só serão contempladas as parochias e municipios creados até 31 de Dezembro de 1879.
+
+Para todos os effeitos eleitoraes até ao novo arrolamento da população geral do Imperio subsistirão inalteraveis as circumscripções parochiaes e municipaes contempladas na divisão dos districtos eleitoraes feita em virtude desta lei, não obstante qualquer alteração resultante de creação, extincção ou subdivisão de parochias e municipios.
+
+§ 2º A divisão dos districtos eleitoraes, feita de conformidade com o paragrapho precedente, será posta provisoriamente em execução até á definitiva approvação do Poder Legislativo, não podendo o Governo alteral-a depois de sua publicação.
+
+§ 3º Cada distrido elegerá um Deputado á Assembléa Geral e o numero de membros da Assembléa Legislativa Provincial marcado no art. 1º § 16 do Decreto Legislativo n. 842 de 19 de Setembro de 1855.
+
+Quanto ás Provincias de Santo Catharina, Paraná, Espirito Santo e Amazonas, que têm de ser divididas em dous districtos, elegerá cada uma dellas 22 membros, cabendo 11 por districto.
+
+Art. 18. O juiz de direito que exercer jurisdicção na cidade ou villa designado pelo Governo para cabeça do districto eleitoral, ou, em caso de falta, o seu substituto formado em direito, ou finalmente, na falta deste ultimo, o juiz de direito da comarca mais vizinha comporá com os presidentes das mesas eleitoraes uma junta por elle presidida, a qual fará a apuração geral dos votos dos diversas eleições do mesmo districto para Deputado á Assembléa Geral ou membros das Assembléas Legislativas Provinciaes.
+
+A esta apuração se procederá pelas authenticas das actas daquellas eleições, dentro do prazo de 20 dias, contados do em que ellas se tiverem feito, precedendo annuncio por editaes e aviso aos ditos presidentes com declaração do dia, hora e logar da reunião.
+
+Para que a junta apuradora possa funccionar é necessaria a presença, pelo menos, de quatro presidentes de assembléas eleitoraes. Na falta destes, serão chamados pela ordem de sua votação os juizes de paz da parochia ou do districto, onde funccionar a junta. Si ainda estes não comparecerem, recorrer-se-ha aos juizes de paz da parochia ou do districto mais vizinho.
+
+Na apuração a junta se limitará a sommar os votos mencionados nas differentes authenticas, attendendo sómente ás das eleições feitas perante mesas organizadas pela fórma determinada nos §§ 7º a 11 do art. 15, procedendo no mais como dispõe a legislação vigente. Os eleitores presentes, que quizerem, assignarão a acta da apuração.
+
+§ 1º Na cidade, onde houver mais de um juiz de direito, será presidente da junta apuradora o mais antigo, tendo preferencia o de mais idade quando fôr igual a antiguidade; e, segundo a mesma regra, serão substituido; uns pelos outros no caso de falta ou impedimento.
+
+No municipio em que, nos termos do § 1º n. I do artigo antecedente, houver dous ou mais districtos eleitoraes, seguir-se-ha para a presidencia de cada junta apuradora a regra acima estabelecida, correspondendo a antiguidade do juiz de direito ao numero dos districtos eleitoraes, de modo que o mais antigo sirva no 1º, o immediato no 2º e assim por diante.
+
+§ 2º Não se considerará eleito Deputado á Assembléa Geral o cidadão que não reunir a maioria dos votos dos eleitores, que concorrerem á eleição.
+
+Neste caso o presidente da junta expedirá os necessarios avisos para se proceder á nova eleição vinte dias depois da apuração geral.
+
+Na segunda eleição, para a qual servirão nas assembléas eleitoraes as mesmas mesas da primeira, só poderão ser votados os dous cidadãos que nesta tiverem obtido maior numero de votos, sendo sufficiente para eleger o Deputado a maioria dos votos, que forem apurados.
+
+§ 3º Na eleição dos membros das Assembléas Legislativas Provinciaes cada eleitor votará em um só nome.
+
+Serão considerados eleitos os cidadãos que reunirem votação igual, pelo menos, ao quociente eleitoral, calculado sobre o numero total dos eleitores que concorrerem á eleição. Si algum ou alguns dos cidadãos não reunirem aquella votação, proceder-se-ha, quanto aos logares não preenchidos, á nova eleição pela fórma disposta no paragrapho antecedente, observando-se tambem, quanto ao numero dos nomes sobre os quaes deva recahir a nova votação, a regro estabelecida no mesmo paragrapho.
+
+Art. 19. Concluida definitivamente a eleição e transcripta no livro de notas de um dos tabelliães do logar a acta da apuração geral dos votos, a junta apuradora expedirá diplomas aos eleitos - Deputado á Assembléa Geral ou membros da Assembléa Legislativa Provincial, remettendo as cópias authenticas da acta da apuração dos votos ao Ministro do Imperio, na Côrte, ao Presidente, nas provincias, e á Camara dos Deputados ou á Assembléa Legislativa Provincial, conforme fôr a eleição, ficando revogado o art. 90 da Lei n. 387 de 19 de Agosto de 1846.
+
+Art. 20. No caso de reconhecer a Camara dos Deputados ou a Assembléa Legislativa Provincial que um ou mais dos eleitos estão comprehendidos em qualquer das incompatibilidades especificadas no art. 11, serão declarados nullos os votos que lhes tiverem sido dado, e proceder-se-ha á nova eleição, no qual não poderão ser votados o cidadão ou cidadãos, cuja eleição tiver sido por esse motivo annullada.
+
+Proceder-se-ha tambem á nova eleição, si da annullação de votos pela Camara ou Assembléa resultar a exclusão de algum dos que tiverem obtido o respectivo diploma.
+
+Art. 21. No caso de vaga do Deputado á Assembléa Geral ou de membro de Assembléa Legislativa Provincial, que occorrer durante a legislatura, proceder-se-ha á nova eleição para o preenchimento do logar, dentro do prazo de tres mezes, contados do dia em que, na Côrte o Governo e nas provincias o Presidente, tiverem conhecimento certo da vaga, ou em que receberem communicação desta, feita pelo Presidente da Camara dos Deputados, no primeiro caso, ou pelo Presidente da Assembléa Legislativa Provincial, no segundo. Estas communicações serão dirigidas pelo Correio sob registro.
+
+Da eleição de vereadores e juizes de paz
+
+Art. 22. Na eleição de vereadores cada eleitor votará em um só nome.
+
+As Camaras Municipaes continuarão a fazer a apuração geral dos votos do municipio.
+
+Serão declarados vereadores os cidadãos que, até ao numero dos que deverem compor a Camara do municipio, reunirem votação igual, pelo menos, ao quociente eleitoral, calculado sobre o numero total dos eleitores que concorrerem á eleição. Si algum ou alguns dos cidadãos não reunirem aquella votação, proceder-se-ha á nova eleição pelo modo determinado no § 3º do art. 18.
+
+No processo desta eleição e em todos os seus termos serão observadas as disposições da legislação vigente, com as alterações feitas nesta lei.
+
+§ 1º Quando se tiver deixado de proceder á eleição em parochias, districtos de paz ou secções, cujo numero de eleitores exceder á metade dos de todo o municipio, ou quando nas eleições annulladas houver concorrido maior numero de eleitores do que nas julgadas válidas, ficarão sem effeito as das outras parochias, districtos de paz e secções, e se procederá á nova eleição geral no municipio.
+
+Em nenhum outro caso se fará nova eleição geral.
+
+§ 2º Na Côrte, nas capitaes das provincias e nas demais cidades ou vereadores só poderão ser reeleitos quatro annos depois de findar o quatriennio em que servirem.
+
+§ 3º No caso de morte, escusa ou mudança de domicilio de algum vereador proceder-se-ha á eleição para preenchimento de vaga.
+
+§ 4º Quando, em razão de vagas ou de faltas de comparecimento, não puderem reunir-se vereadores em numero necessario para celebrarem-se as sessões, serão chamados para perfazerem a maioria dos membros da Camara os precisos immediatos em votos aos vereadores. Si, no caso da ultima parte do § 3º do art. 18, se houver procedido a duas eleições para vereadores, aquelles immediatos serão os da primeira eleição.
+
+Só poderão ser chamados, em taes casos, os immediatos em votos aos vereadores, até numero igual ao dos vereadores de que a Camara se compuzer.
+
+§ 5º As Camaras Municipaes continuarão a compor-se do mesmo numero de vereadores marcado na legislação vigente, com excepção das seguintes que terão: a do municipio da Côrte 21 membros; as das capitaes das Provincias da Bahia e Pernambuco 17; as das capitaes das do Pará, Maranhão, Ceará, Rio de Janeiro, Minas Geraes, S. Paulo e S. Pedro do Rio Grande do Sul 13; e as das capitaes das demais provincias 11.
+
+Cada uma das mesmas Camaras terá um presidente e um vice-presidente, os quaes serão eleitos annualmente, na 1ª sessão, pelos vereadores d'entre si.
+
+§ 6º As Camaras não poderão funccionar sem a presença da maioria de seus membros.
+
+Ao vereador que faltar á sessão, sem motivo justificado, será imposta a multa de 10$ nas cidades e de 5$ nas villas.
+
+Art. 23. A eleição dos juizes de paz continuará a fazer-se pelo modo determinado na legislação vigente, com as alterações feitas nesta lei.
+
+A apuração dos votos será feita pela Camara Municipal respectiva, quando a parochia ou districto de paz estiver dividido em secções.
+
+Art. 24. As funcções de vereador e de juiz de paz são incompativeis com as de empregos publicos retribuidos; e não podem ser accumuladas com as de Senador, Deputado á Assembléa Geral e membro de Assembléa Legislativa Provincial, durante as respectivas sessões.
+
+Art. 25. Feita a primeira eleição de Deputados á Assembléa Geral pelo modo estabelecido nesta lei, proceder-se-ha tambem á eleição das Camaras Municipaes e dos juizes de paz em todo o Imperio no primeiro dia util do mez de Julho, que se seguir, começando a correr o quatriennio no dia 7 de Janeiro subsequente.
+
+Art. 26. Quando alguma villa fôr elevada á categoria de cidade, a respectiva Camara Municipal continuará a funccionar com o numero de vereadores, que tiver, até á posse dos que forem nomeados na eleição geral para o quatriennio seguinte.
+
+Art. 27. A disposição da ultima parte do n. IV do § 1º do art. 17 não impede a eleição de Camaras e juizes de paz nos municipios, parochias e districtos de paz, que forem novamente creados, comtanto que o sejam dentro dos limites marcados para os districtos eleitoraes.
+
+Art. 28. O juiz de direito da comarca continúa a ser o funccionario competente para conhecer da validade ou nullidade, não só da eleição de vereadores e juizes de paz, mas tambem da apuração dos votos, decidindo todas as questões concernentes a estes assumptos, pela fórma que dispõe a legislação vigente.
+
+§ 1º Nas comarcas que tiverem mais de um juiz de direito competirão essas attribuições ao juiz de direito do 1º districto criminal, e, na sua falta, aos que deverem substituil-o.
+
+§ 2º Das decisões do juiz de direito sobre as eleições de vereadores e juizes de paz, em conformidade deste artigo, haverá recurso para a Relação do districto. O recurso será julgado, no prazo de 30 dias, por todos os seus membros presentes.
+
+Parte penal
+
+Art. 29. Além dos crimes contra o livre gozo e exercicio dos direitos politicos do cidadão, mencionados nos arts. 100, 101, e 102 do Codigo Criminal, serão tambem considerados crimes os definidos nos paragraphos seguintes e punidos com as penas nelle estabelecidas:
+
+§ 1º Apresentar-se algum individuo com titulo eleitoral de outrem, votando ou pretendendo votar:
+
+Penas: prisão de um a nove mezes e multa de 100$ a 300$000.
+
+Nas mesmas penas incorrerá o eleitor que concorrer para esta fraude, fornecendo o seu titulo.
+
+§ 2º Votar o eleitor por mais de uma vez na mesma eleição, aproveitando-se de alistamento multiplo:
+
+Penas: privação do direito do voto activo e passivo por quatro a oito annos e multa de 100$ a 300$000.
+
+§ 3º Deixar a autoridade competente de incluir no alistamento dos eleitores cidadão que, nos termos desta lei, tenha provado estar nas condições de eleitor, incluir o que não estiver em taes condições ou excluir o que não se achar comprehendido em alguns dos casos do § 5º do art. 8º;
+
+Demorar a extracção, expedição e entrega dos titulos ou documentos, de modo que o eleitor não possa votar ou instruir o recurso por elle interposto;
+
+Penas: suspensão do emprego por seis a dezoito mezes e multa de 200$ a 600$000.
+
+§ 4º Deixar a autoridade competente de preparar e enviar ao juiz de direito, nos termos do § 8º do art. 6º, os requerimentos dos cidadãos que pretenderem ser alistados e as relações que os devem acompanhar:
+
+Penas: suspensão do emprego por um a tres annos e multa de 300$ a 1:000$000.
+
+Nas mesmas penas incorrerá o empregado que occultar ou extraviar titulos de eleitor e documentos, que lhe forem entregues, relativos ao alistamento.
+
+§ 5º Passar certidão, attestado ou documento falsos, que induza a inclusão no alistamento ou a exclusão:
+
+Penas: as do art. 129 § 8º do Codigo Criminal.
+
+Ao que se servir da certidão, attestado ou documentos falsos para se fazer alistar:
+
+Penas: as do art. 167 do Codigo Criminal.
+
+§ 6º Impedir ou obstar de qualquer maneira a reunião da mesa eleitoral ou da junta apuradora no logar designado:
+
+Penas: prisão por um a tres annos e multa de 500$ a 1:500$000.
+
+§ 7º Apresentar-se alguem munido de armas de qualquer natureza:
+
+Penas: prisão por seis mezes a um anno e multa de 100$ a 300$000.
+
+Si as armas estiverem occultas:
+
+Penas dobradas.
+
+§ 8º Violar de qualquer maneira o escrutinio, rasgar ou inutilizar livros e papeis relativos ao processo da eleição:
+
+Penas: prisão com trabalho por um a tres annos e multa de 1:000$ a 3:000$, além das penas em que incorrer por outros crimes.
+
+§ 9º Occultar, extraviar ou subtrahir alguem o titulo do eleitor:
+
+Penas: prisão por um a seis mezes e multa de 100$ a 300$000.
+
+§ 10. Deixar a mesa eleitoral de receber o voto do eleitor que se apresentar com o respectivo titulo:
+
+Penas: privação do voto activo e passivo por dous a quatro annos e multa de 400$ a 1:200$000.
+
+§ 11. Reunir-se a mesa eleitoral ou a junta apuradora fóra do logar designado para a eleição ou apuração:
+
+Penas: prisão por seis a dezoito mezes e multa de 500$ a 1:500$000.
+
+§ 12. Alterarem o presidente e os membros da mesa eleitoral ou junta apuradora o dia e a hora da eleição, ou induzirem por outro qualquer meio, os eleitores em erro a este respeito:
+
+Penas: privação do direito do voto activo ou passivo por quatro a oito annos e multa de 500$ a 1:500$000.
+
+§ 13. Fazer parte ou concorrer para a formação de mesa eleitoral ou de junta apuradora illegitimas:
+
+Penas: privação do voto activo e passivo por quatro a oito annos e multa de 300$ a 1:000$000.
+
+§ 14. Deixar de comparecer, sem causa participada, para a formação da mesa eleitoral, conforme determina o § 10 do art. 15:
+
+Penas: privação do voto activo e passivo por dous a quatro annos e multa de 200$ a 600$000.
+
+Si por esta falta não se puder formar a mesa:
+
+Penas: privação do voto activo e passivo por quatro a oito annos e multa de 400$ a 1:200$000.
+
+§ 15. O presidente da provincia que, por demora na expedição das ordens, der causa a se não concluirem em tempo as eleições:
+
+Penas: suspensão do emprego por seis mezes a um anno.
+
+§ 16. A omissão ou negligencia dos promotores publicos no cumprimento das obrigações, que lhes são impostas por esta lei, será punida com suspensão do emprego por um a tres annos e multa de 300$ a 1:000$000.
+
+§ 17. As disposições dos arts. 56 e 57 do Codigo Criminal são applicaveis aos multados que não tiverem meios ou não quizerem satisfazer as multas.
+
+Art. 30. No processo e julgamento dos crimes previstos no artigo antecedente, ainda quando commettidos por pessoas que não são empregados publicos, se observarão as disposições do art. 25 §§ 1º e 5º da Lei n. 261 de 3 de Dezembro de 1841 e respectivos regulamentos.
+
+§ 1º Nestes processos observar-se-ha o disposto nos arts. 98 e 100 da Lei de 3 de Dezembro de 1841, quanto ao pagamento de custas e sellos, e não serão retardados pela superveniencia de férias.
+
+As primeiras certidões serão passadas gratuitamente.
+
+§ 2º Aos promotores publicos das respectivas comarcas serão intimadas todas as decisões proferidas pelas autoridades competentes afim de promoverem a responsabilidade dos funccionarios que nella houverem incorrido ou requererem o que fôr de direito.
+
+Art. 31. Serão multados administrativamente quando deixarem de cumprir quaesquer das obrigações que lhes são impostas:
+
+§ 1º Pelo Ministro do Imperio na Côrte e pelo Presidente nas provincias:
+
+I. Os juizes de direito e as Camaras Municipaes, funccionando como apuradores de actas de assembléas eleitoraes: na quantia de 100$ a 300$ os primeiros, e de 50$ a 200$ cada vereador.
+
+II. Os funccionarios e empregados publicos que deixarem de prestar as informações exigidas para o alistamento dos eleitores: na quantia de 50$ a 200$ cada um.
+
+III. Os tabelliães incumbidos da transcripção de acta de apuração dos votos: na quantia de 50$ a 100$000.
+
+§ 3º Pelas mesas eleitoraes:
+
+I. Os membros destas que não comparecerem, ausentarem-se ou deixarem de assignar a acta sem motivo justificado: na quantia de 50$ a 100$000.
+
+II. Os cidadãos convocados para a formação das mesmas mesas que não comparecerem ou que, tendo comparecido, não assignarem a acta: na quantia de 50$ a 100$000.
+
+III. Os escrivães de paz ou de subdelegacia de Policia, chamados para qualquer serviço em virtude desta lei: na quantia de 50$ a 100$000.
+
+§ 4º Da imposição das multas administrativas cabe recurso na Côrte para o Governo, e nas provincias para o Presidente.
+
+Art. 32. As multas estabelecidas nesta lei farão parte da renda municipal do termo em que residir a pessoa multada, e serão cobradas executivamente.
+
+Disposições geraes
+
+Art. 33. No caso de empate nas apurações ultimas de votos em qualquer eleição, será preferido o cidadão que fôr mais velho em idade.
+
+Art. 34. As Camaras Municipaes fornecerão os livros necessarios para os trabalhos do alistamento dos eleitores e os de talões, devendo estes conter impressos os titulos de eleitor, bem como fornecerão os livros, urnas e mais objectos necessarios para a eleição.
+
+A importancia desses livros e demais objectos será paga pelo Governo, quando as Camaras não puderem, por falta de meios, satisfazer a despeza.
+
+No caso de não serem fornecidos pelas Camaras Municipaes os mencionados livros, supprir-se-ha a falta por outros, que serão numerados e rubricados, com termo de abertura e encerramento, pelos juizes de direito ou juizes municipaes e pelos presidentes das mesas eleitoraes ou juntas apuradoras.
+
+Art. 35. Emquanto não estiver concluido definitivamente o primeiro alistamento geral dos eleitores, conforme se determina nesta lei, não haverá eleições para Deputados á Assembléa Geral, salvo o caso previsto no art. 29 da Constituição, para Senadores, membros das Assembléas Legislativas Provinciaes, vereadores e juizes de paz.
+
+O Governo poderá espaçar até ao ultimo dia util do mez de Dezembro de 1881 a eleição geral dos Deputados para a proxima legislatura.
+
+Art. 36. Em acto distincto ou não das instrucções, que serão expedidas para a execução desta lei, o Governo colligirá todas as disposições das leis vigentes e dos diversos actos do Poder Executivo, relativos a eleições, que estejam em harmonia com a mesma lei e convenha conservar.
+
+Este trabalho será sujeito á approvação do Poder Legislativo no começo da primeira sessão da proxima legislatura; e, depois de approvado, considerar-se-hão revogadas as leis e disposições anteriores relativas as eleições, cessando desde que fôr publicado esse trabalho a attribuição concedida ao Governo no art. 120 da Lei n. 387 de 19 de Agosto de 1846.
+
+Art. 37. Ficam revogadas as disposições em contrario.
+
+O Barão Homem de Mello, do Meu Conselho, Ministro e Secretario de Estado dos Negocios do Imperio, assim o tenha entendido e faça executar. Palacio do Rio de Janeiro em 9 de Janeiro de 1881, 60º da Independencia e do Imperio.
+
+Com a rubrica de Sua Magestade o Imperador.
+
+Barão Homem de Mello.
+
+Chancellaria-mór do Imperio. - Manoel Pinto de Souza Dantas.
+
+Transitou em 10 de Janeiro de 1881. - José Bento da Cunha Figueiredo Junior. - Registrado.
+
+Publicado na Secretaria de Estado dos Negocios do Imperio em 10 de Janeiro de 1881. - O Director da 1ª Directoria, Manoel Jesuino Ferreira.

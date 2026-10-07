@@ -1,0 +1,1282 @@
+=== PROVENIÊNCIA ===
+Documento: Decreto nº 21.076, de 24 de fevereiro de 1932 (Código Eleitoral)
+Id: decreto-21076-1932
+Data do ato: 1932-02-24
+Tipo: decreto | Autoridade: Chefe do Governo Provisório (Getúlio Vargas) | Status da norma: revogado
+Fonte (URL exata): https://www2.camara.leg.br/legin/fed/decret/1930-1939/decreto-21076-24-fevereiro-1932-507583-publicacaooriginal-1-pe.html
+Publicação original (informada pela fonte): Este texto não substitui o original publicado no Diário Oficial da União - Seção 1 de 26/02/1932
+Data de captura: 2026-10-07
+Tipo de versão: original de época
+Status da conferência: texto original conferido contra a fonte
+Observações: Câmara dos Deputados, publicação original (DOU 26/02/1932). Voto feminino, voto secreto e Justiça Eleitoral. Comparação automática com o Planalto: 98.8% dos trechos de 4 palavras do texto gravado aparecem na página do Planalto e 98.6% dos da página do Planalto aparecem no texto gravado (a diferença vem de notas editoriais, redação posterior e ortografia atualizada; não é leitura integral).
+Lacunas: Sem lacunas de artigos (1 a 144 presentes).
+SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 96ffcec7ecad9e30cd7a8f906fd7976db64862bd14abcea48cd90ffc3d8182b0
+Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
+Aviso: cópia para consulta; não substitui o texto oficial publicado.
+=== TEXTO ===
+DECRETO Nº 21.076, DE 24 DE FEVEREIRO DE 1932
+
+Decreta o Código Eleitoral.
+
+O Chefe do Governo Provisorio da Republica dos Estados Unidos do Brasil
+
+Decreta o seguinte:
+
+CODIGO ELEITORAL
+
+PARTE PRIMEIRA
+
+Introdução
+
+Art. 1º Este Codigo regula em todo o país o alistamento eleitoral e as eleições federais, estaduais e municipais.
+
+Art. 2º E' eleitor o cidadão maior de 21 anos, sem distinção de sexo, alistado na fórma deste Codigo.
+
+Art. 3º As condições da cidadania e os casos em que se suspendem ou perdem os direitos de cidadão, regulam-se pelas leis atualmente em vigor, nos termos do decreto n. 19.398, de 11 de novembro de 1930, art. 4º, entendendo-se, porém, que:
+
+a) o preceito firmado no art. 69, n. 5, da Constituição de 1891, rege igualmente a nacionalidade da mulher estrangeira casada com brasileiro;
+
+b) a mulher brasileira não perde sua cidadania pelo casamento com estrangeiro;
+
+c) o motivo de convicção filosofica ou política é equiparado ao de crença religiosa, para os efeitos do art. 72, § 29, da mencionada Constituição;
+
+d) a parte final do art. 72, § 29, desta, sómente abrange condecorações ou títulos que envolvam fóros de nobreza, privilégios ou obrigações incompativeis com o serviço da Republica.
+
+Art. 4º Não podem alistar-se eleitores:
+
+a) os mendigos;
+
+b) os analfabetos;
+
+c) as praças de pré, excetuados os alunos das escolas militares de ensino superior.
+
+Parágrafo único. Na expressão praças de pré, não se compreendem:
+
+1º) os aspirantes a oficial e os sub-oficiais;
+
+2º) os guardas civis e quaisquer funcionários da fiscalização administrativa, federal ou local.
+
+PARTE SEGUNDA
+
+Da Justiça Eleitoral
+
+Art. 5º É instituida a Justiça Eleitoral, com funções contenciosas e administrativas.
+
+Parágrafo único. São orgãos da Justiça Eleitoral:
+
+1º) um Tribunal Superior, na Capital da República;
+
+2º) um Tribunal Regional, na Capital de cada Estado, no Distrito Federal, e na séde do Governo do Território do Acre;
+
+3º) juizes eleitorais nas comarcas, distritos ou termos judiciários.
+
+Art. 6º Aos magistrados eleitorais são asseguradas as garantias da magistratura federal.
+
+Art. 7º Salvo motivo justificado perante o Tribunal Superior, a exoneração de seus membros ou a de membros dos Tribunais Regionais sómente póde ser solicitada dois anos depois de efetivo exercicio.
+
+Art. 8º Ao cidadão, que tenha servido efetivamente dois anos nos tribunais eleitorais, é licito recusar nova nomeação.
+
+CAPÍTULO I
+
+DO TRIBUNAL SUPERIOR
+
+Art. 9º Compõe-se o Tribunal Superior de oito membros efetivos e oito substitutos.
+
+§ 1º É seu presidente o vice-presidente do Supremo Tribunal Federal.
+
+§ 2º Os demais membros são designados do seguinte modo:
+
+a) dois efetivos e dois substitutos, sorteados dentre os ministros do Supremo Tribunal Federal;
+
+b) dois efetivos e dois substitutos, sorteados dentre os desembargadores da Côrte de Apelação do Distrito Federal;
+
+c) três efetivos e quatro substitutos, escolhidos pelo Chefe do Governo Provisorio dentre 15 cidadãos, propostos pelo Supremo Tribunal Federal.
+
+§ 3º Sómente póde figurar na proposta quem reúna os seguintes requisitos:
+
+1º) ter notavel saber jurídico e idoneidade moral;
+
+2º) não ser funcionario demissivel ad nutum ;
+
+3º) não fazer parte da administração de sociedade ou empresa que tenha contrato com os poderes publicos, ou gose, mediante concessão, de isenções, favores ou privilegios;
+
+4º) ser domiciliado na séde do Tribunal.
+
+Art. 10. Não podem fazer parte do Tribunal Superior pessoas que tenham, entre si, parentesco até o 4º gráu; sobrevindo este, exclue-se o juiz por último designado.
+
+Art. 11. Ao juiz do Tribunal Superior, por sessão a que compareça, é abonado o seguinte subsidio:
+
+a) 100$000, sem prejuiso dos vencimentos integrais, quando exerça outra função pública remunerada;
+
+b) 150$000, em caso contrario.
+
+Art. 12. Dentre seus membros, elege o Tribunal Superior um vice-presidente, e um procurador para as funções do Ministério Público.
+
+Art. 13. Salvo disposição em contrario, delibera o Tribunal Superior por maioria de votos, em sessão pública, com a presença de cinco membros, pelo menos, além do que ocupar a presidencia, que tem apenas voto de desempate.
+
+Art. 14. São atribuições do Tribunal Superior:
+
+1) elaborar seu regimento e o dos Tribunais Regionais;
+
+2) organizar sua secretaria dentro da verba orçamentaria fixada;
+
+3) superintender sua secretaria e propor ao Chefe do Governo provisorio a nomeação dos respectivos funcionarios;
+
+4) fixar normas uniformes para a aplicação das leis e regulamentos eleitorais, expedindo instruções que entenda necessarias;
+
+5) julgar, em ultima instancia, os recursos interpostos das decisões dos Tribunais Regionais;
+
+6) conceder originariamente habeas-corpus , sempre que proceda de Tribunal Regional a coação alegada;
+
+7) decidir conflitos de jurisdição entre Tribunais Regionais ou entre juizes eleitorais de regiões diferentes;
+
+8) propor ao chefe do Governo Provisorio as providencias necessarias, para que as eleições se realizem no tempo e fórma determinados em lei.
+
+Art. 15. As decisões do Tribunal Superior, nas materias de sua competencia, põem termo aos processos.
+
+SECÇÃO UNICA
+Da Secretaria do Tribunal Superior
+
+Art. 16. Divide-se a secretaria do Tribunal Superior em duas secções: 1ª, a do expediente; 2ª, a do registro e arquivo eleitorais.
+
+Art. 17. Tem a secretaria um diretor, um vice-diretor e os funcionarios julgados necessarios.
+
+Parágrafo único. O diretor é, ao mesmo tempo, secretario do Tribunal Superior.
+
+Art. 18. Incumbe á secretaria:
+
+1) publicar o Boletim Eleitoral ;
+
+2) realizar operações técnicas de carater eleitoral;
+
+3) prestar informações de natureza eleitoral, solicitadas pelos partidos politicos;
+
+4) em geral, exercer as atribuições que lhe sejam conferidas em regimento, bem como cumprir as determinações do Tribunal Superior.
+
+Art. 19. Alem das publicações ordenadas pelo Tribunal Superior, devem constar do Boletim Eleitoral :
+
+a) as inscrições arquivadas até o dia anterior á publicação do Boletim;
+
+b) as inscrições canceladas e revalidadas;
+
+c) as decisões que alterem direitos eleitorais;
+
+d) a relação dos atestados de óbito remetidos pelos oficiais competentes.
+
+Art. 20. Compreende o arquivo eleitoral os seguintes registros:
+
+1) o datiloscopico;
+
+2) o patronimico;
+
+3) o domiciliario;
+
+4) o fotografico;
+
+5) o de processos;
+
+6) o eleitoral nacional;
+
+7) o de inscrições plurais:
+
+8) o de cancelamentos;
+
+9) o de inhabilitados;
+
+10) o supletorio nacional.
+
+CAPÍTULO II
+
+DOS TRIBUNAIS REGIONAIS
+
+Art. 21. Compõem-se os Tribunais Regionais de seis membros efetivos e seis substitutos.
+
+§ 1º Preside ao Tribunal Regional:
+
+1) nos Estados, o vice-presidente do Tribunal de Justiça de mais alta graduação;
+
+2) no Distrito Federal, o vice-presidente da Corte de Apelação;
+
+3) no Território do Acre, o presidente do Tribunal de Apelação.
+
+§ 2º Os demais membros são designados do seguinte modo:
+
+I. Quanto aos Estados:
+
+a) o juiz federal, servindo o da 2ª Vara, se houver mais de uma;
+
+Parágrafo único. Na falta ou impedimento do juiz efetivo, funcionará o juiz da 1ª Vara, ou, si houver apenas uma, o juiz de direito mais antigo da capital do Estado;
+
+b) dois efetivos e dois substitutos, sorteados dentre os membros do Tribunal de Justiça local;
+
+c) dois efetivos e tres substitutos, escolhidos pelo Chefe do Governo Provisorio, dentre 12 cidadãos propostos pelo Tribunal de Justiça local.
+
+II. Quanto ao Distrito Federal:
+a) o juiz federal da 2ª Vara e, em sua falta ou impedimento, respectivamente, o da 1ª e o da 3ª;
+
+b) dois efetivos e dois substitutos, sorteados dentre os desembargadores da Côrte de Apelação;
+
+c) dois efetivos e tres substitutos, escolhidos pelo Chefe do Govêrno Provisório dentre 12 cidadãos propostos pela Côrte de Apelação.
+
+III. Quanto ao Territorio do Acre:
+a) o juiz federal e, em sua falta ou impedimento, o juiz de direito da séde do governo;
+
+b) os dois outros membros do Tribunal de Apelação;
+
+c) dois efetivos e cinco substitutos, nomeados pelo Chefe do Govêrno Provisorio dentre 12 cidadãos propostos pelo Tribunal de Apelação.
+
+Art. 22. Por sessão a que compareça, o juiz do Tribunal Regional é abonado o seguinte subsidio:
+
+a) 80$, sem prejuizo dos vencimentos integrais, quando exerça outra função pública remunerada;
+
+b) 120$, em caso contrário.
+
+Art. 23. São atribuições do Tribunal Regional:
+
+1) cumprir e fazer cumprir as decisões e determinações do Tribunal Superior;
+
+2) organizar sua secretaria dentro da verba orçamentaria fixada;
+
+3) superintender sua secretaria, bem como as repartições eleitorais da respectiva região;
+
+4) propôr ao Chefe do Govêrno Provisorio a nomeação dos funccionarios da mesma secretaria e dos encarregados das identificações nos cartorios eleitorais;
+
+5) decidir, em primeira instancia, os processos eleitorais;
+
+6) processar e julgar os crimes eleitorais;
+
+7) julgar, em segunda instancia, os recursos interpostos das decisões dos juizes eleitorais;
+
+8) conceder habeas-corpus em matéria eleitoral;
+
+9) fazer publicar, diariamente, no jornal oficial, a lista dos inscritos na vespera;
+
+10) dar publicidade a todas as resoluções, de carater eleitoral, referentes á região respectiva;
+
+11) fazer a apuração dos sufragios e proclamar os eleitos.
+
+Art. 24. Dentro de 15 dias depois de instalados, devem os Tribunais Regionais, para o efeito do alistamento;
+
+a) dividir em zonas o territorio de sua jurisdição;
+
+b) designar as varas eleitorais e os ofícios que ficam incumbidos do serviço de qualificação e identificação.
+
+Art. 25. Aplicam-se aos Tribunais Regionais as disposições dos arts. 9º, § 3º, 10, 12 e 13, reduzida, porém, ao minimo de quatro o número de membros que devem estar presentes á sessão.
+
+SECÇÃO UNICA
+Da Secretaria dos Tribunais Regionais
+
+Art. 26. Divide-se a secretaria de cada Tribunal Regional em duas secções: 1ª, a do expediente; 2ª, a do registro e arquivo eleitorais.
+
+Art. 27. Cada secretaria tem um diretor e os funcionários julgados necessarios.
+
+Parágrafo único. O diretor é, ao mesmo tempo, secretario do Tribunal Regional.
+
+Art. 28. Incumbe á secretaria:
+
+1) realizar ou ultimar a inscrição dos alistaveis;
+
+2) receber e classificar os processos eleitorais remetidos pelos cartorios;
+
+3) coligir a prova nos processos de exclusão;
+
+4) expedir titulos eleitorais;
+
+5) prestar as informações solicitadas pelos partidos politicos;
+
+6) em geral, exercer as atribuições que lhes sejam conferidas em regimento, bem como cumprir as determinações do Tribunal Regional.
+
+Art. 29. Devem os arquivos regionais compreender, pelo menos, os seguintes registros:
+
+1) o datiloscopico ;
+
+2) o patronimico;
+
+3) o domiciliario;
+
+4) o fotografico;
+
+5) o de processos.
+
+CAPÍTULO III
+
+DOS JUIZES ELEITORAIS
+
+Art. 30. Cabem aos juizes locais vitalicios, pertencentes á magistratura, as funções de juiz eleitoral.
+
+§ 1º Onde haja mais de uma vara, o Tribunal Regional designa aquela, ou aquelas, a que se atribue a jurisdição eleitoral.
+
+§ 2º Nas varas de mais de um oficio, servirá o escrivão que for indicado pelo Tribunal.
+
+Art. 31. Compete aos juizes eleitorais:
+
+1) cumprir e fazer cumprir as determinações do Tribunal Superior ou Regional;
+
+2) preparar os processos eleitorais, servindo tambem como juizes de instrução, ao Tribunal Regional, em virtude de delegação expressa deste;
+
+3) dirigir e fiscalizar os serviços de identificação nos cartorios eleitorais;
+
+4) despachar, em primeira instancia, os requerimentos de qualificação e as listas de cidadãos incontestavelmente alistaveis, enviadas pelas autoridades competentes.
+
+Parágrafo único. Nas comarcas, municipios, ou termos, em que não existam juizes nas condições previstas pelo artigo 30, preparam os processos as autoridades judiciarias locais, mais graduadas, remetendo-os, para julgamento, ao juiz que preencha tais requisitos, na comarca, distrito ou termo mais proximo.
+
+Art. 32. Aos juizes eleitorais é abonado o subsidio de um conto e duzentos mil reis por ano, pago em quotas mensais.
+
+SECÇÃO UNICA
+Dos cartorios eleitorais
+
+Art. 33. Subordinado a cada juiz eleitoral, funciona, diariamente, das 9 ás 12 e das 13 ás 17 horas, um cartorio, que tem a seu cargo as operações iniciais de inscrição.
+
+Art. 34. Compõe-se o cartorio do respectivo escrivão e dos funcionarios nomeados pelo Tribunal Regional.
+
+Art. 35. Ao escrivão designado para os serviços eleitorais é abonada a gratificação de seiscentos mil réis, por ano, paga em quotas mensais.
+
+PARTE TERCEIRA
+
+Do alistamento
+
+TÍTULO I
+
+Da qualificação
+
+Art. 36. Faz-se a qualificação ex-officio ou por iniciativa do cidadão.
+
+CAPÍTULO I
+DA QUALIFICAÇÃO "EX-OFFICIO"
+
+Art. 37. São qualificados ex-officio:
+
+a) os magistrados, os militares de terra e mar, os funcionarios públicos efetivos;
+
+b) os professores de estabelecimentos de ensino oficiais ou fiscalizados pelo Governo;
+
+c) as pessoas que exerçam, com diploma cientifico, profissão liberal;
+
+d) os comerciantes com firma registrada e os socios de firma comercial registrada;
+
+e) os reservistas de 1ª categoria do Exercito e da Armada, licenciados nos anos anteriores.
+
+§ 1º Os chefes das repartições públicas, civis ou militares, os diretores de escolas, os presidentes das ordens dos advogados, os chefes das repartições onde se registrem os diplomas e as firmas sociais, são obrigados, nos 15 dias imediatos á abertura do alistamento, a fornecer ao juiz eleitoral, sob cuja jurisdição estejam, listas de todos os cidadãos qualificaveis ex-officio.
+
+§ 2º Devem as listas conter, em referencia a cada cidadão, o nome e prenome, o cargo e profissão que exerça, e o que conste quanto á nacionalidade, idade e residencia.
+
+§ 3º Recebidas as listas, declara o juiz qualificados os que se encontrem nas condições legais, dando disto conhecimento ao Tribunal Regional.
+
+§ 4º Sempre que as listas sejam omissas, podem os interessados reclamar perante o juiz, o qual deve pedir informações a quem tenha de prestá-las, nos termos do § 1º.
+
+§ 5º As secretarias dos Tribunais, ou os cartorios eleitorais, fornecerão aos qualificados, diretamente ou pelo correio, as formulas para a inscrição.
+
+CAPÍTULO II
+
+DA QUALIFICAÇÃO REQUERIDA
+
+Art. 38. Deve o requerimento de qualificação:
+
+1) ser escrito e firmado pelo peticionario, com a letra e assinatura legalmente reconhecidas;
+
+2) declarar a idade, naturalidade, filiação, estado civil, profissão e residencia do alistando;
+
+3) conter a afirmação de se achar o mesmo, segundo a lei, quite quanto ao serviço militar, ou de não estar obrigado a êste;
+
+4) ser instruido com a prova:
+
+a) de maioridade do alistando;
+
+b) da qualidade de nacional, si nascido no estrangeiro o requerente.
+
+§ 1º Apresentado o requerimento, é permitido ao alistando identificar-se, no cartorio de seu domicilio eleitoral, mesmo antes de deferida a sua qualificação.
+
+§ 2º Deferida a qualificação, entrega-se o processo ao requerente, mediante recibo, em livro especial, sob a guarda do escrivão.
+
+TÍTULO II
+
+Da inscrição
+
+Art. 39. Qualificado, ex-officio ou não, deve o alistando, para ser inscrito, comparecer á secretaria do Tribunal ou ao cartorio eleitoral, onde será identificado, si já o não tiver sido, na forma do § 1º do artigo anterior.
+
+CAPÍTULO I
+
+DO MODO DA INSCRIÇÃO
+
+Art. 40. O pedido de inscrição é acompanhado:
+
+a) de tres fotografias do alistando;
+
+b) da prova de qualificação, quando requerida (artigo 38, § 2).
+
+Parágrafo único. As fotografias, com as dimensões aproximadas de tres centimetros por quatro, apresentarão a imagem nitida da cabeça descoberta, tomada de frente.
+
+Art. 41. O pedido de inscrição é entregue contra recibo, em que o funcionario da secretaria ou do cartorio eleitoral, si já não tiver sido identificado o alistando, ou não fôr possivel identificá-lo imediatamente, marcará, observando a ordem da apresentação, o dia e a hora em que deve êste comparecer para identificar-se.
+
+Parágrafo único. Não sendo tomado em consideração o pedido, póde o alistando requerer sua inscrição ao presidente do Tribunal Regional, ou ao juiz eleitoral.
+
+Art. 42. Compete á secretaria do Tribunal ou ao cartorio eleitoral.
+
+1) organizar a ficha datiloscopica do peticionario, em tres vias, tomando-lhe a assinatura e as impressões digitais das duas mãos, sucessivamente, a começar pela direita, e fazendo as anotações que no caso caibam;
+
+2) preparar três vias do titulo eleitoral, devendo cada uma conter a fotografia do alistando, sua assinatura e impressão digito-polegar direita, ou, na falta do polegar, a de outro dedo, que é então indicado.
+
+§ 1º Si, por qualquer motivo, deixa o alistando de comparecer no dia e hora designados, póde a identificação ser feita a qualquer tempo, depois de atendidos os que já estejam presentes para o mesmo fim.
+
+§ 2º É necessária a presença do alistando, apenas, para a tomada das impressões e assinatura.
+
+Art. 43. Aos delegados de partido, ou a qualquer eleitor, é licito, dentro de cinco dias depois de noticiada em edital, impugnar, por escrito, qualquer inscrição.
+
+Parágrafo único. O processo de impugnação será o do art. 55.
+
+Art. 44. Os cartorios eleitorais remeterão semanalmente os processos concluidos á secretaria do Tribunal Regional, e esta, à secretaria do Tribunal Superior, as peças destinadas ao seu arquivo.
+
+CAPÍTULO II
+
+DA EXPEDIÇÃO DO TITULO
+
+Art. 45. Cabe aos Tribunais Regionais ordenar ás respectivas secretarias a entrega imediata do titulo eleitoral:
+
+a) quando não impugnada, no prazo legal, a inscrição do alistando;
+
+b) quando rejeitada a impugnação em sentença irrecorrivel.
+
+Parágrafo único. Deve o titulo ser entregue ao eleitor ou a quem apresente e restitua o recibo mencionado no art. 41, com a assinatura do eleitor no verso.
+CAPÍTULO III
+
+DO DOMICILIO ELEITORAL
+
+Art. 46. Ao cidadão é permitida, para o exercicio do voto, a escolha de domicilio diferente de seu domicilio civil.
+
+Parágrafo único. Domicilio eleitoral é o lugar onde o cidadão comparece para inscrever-se.
+
+Art. 47. O eleitor que preferir outro domicilio deverá promover sua transferencia no respectivo registro.
+
+§ 1º Mudando-se o domicilio dentro da mesma região, basta o requerimento de transferencia.
+
+§ 2º Sendo a mudança para outra região, deve-se repetir, na secretaria do Tribunal ou no cartorio eleitoral, o processo estabelecido no art. 42.
+
+§ 3º Não se admite mudança de domicilio senão um ano, pelo menos, depois de inscrito o eleitor, ou de anotada a mudança anterior.
+
+§ 4º O eleitor que transferir seu domicilio eleitoral não poderá votar antes de decorridos tres meses.
+
+§ 5º Os funcionarios publicos, civis ou militares, quando removidos, poderão requerer transferencia de domicilio sem as restrições estabelecidas nos §§ 3º e 4º dêste artigo.
+
+Art. 48. A secretaria do Tribunal Regional do novo domicilio registrará a mudança, comunicando o fato á secretaria do Tribunal Superior, para os devidos efeitos.
+
+Parágrafo único. A mudança de domicilio é anotada no título do eleitor.
+
+TÍTULO III
+
+Da revisão
+
+Art. 49. Cancelam-se as incrições cuja ilegalidade ou caducidade se verificar.
+
+CAPÍTULO I
+
+DAS CAUSAS DE CANCELAMENTO
+
+Art. 50. São causas de cancelamento:
+
+1) qualquer infração ao art. 38;
+
+2) condenação nos termos e com os efeitos do art. 55 do Código Penal;
+
+3) suspensão ou perda dos direitos politicos;
+
+4) pluralidade de inscrição;
+
+5) falecimento;
+
+6) ausencia declarada em juizo, de acôrdo com a lei civil.
+
+CAPÍTULO II
+
+DA EXCLUSÃO E SEU PROCESSO
+
+Art. 51. A exclusão dos inscritos é promovida ex-officio ou a requerimento de qualquer eleitor ou delegado de partido.
+
+Parágrafo único. Durante o processo de exclusão, e enquanto não for determinado o cancelamento de sua inscrição, póde o eleitor votar.
+
+Art. 52. Qualquer eleitor ou delegado de partido pode, tambem, assumir a defesa do excluendo.
+
+Art. 53. Dá-se a exclusão ex-officio, chegando ao conhecimento da secretária do Tribunal Regional alguma das causas de cancelamento.
+
+§ 1º Ao comandante da Região Militar cabe provocar a exclusão ex-officio dos inscritos não quites de suas obrigações militares.
+
+§ 2º Prova falsidade ou pluralidade de inscrição o atestado, expedido pela secretaria do Tribunal Superior, de haver, no arquivo eleitoral, fichas datiloscopicas da mesma pessôa inscrita sob nomes diversos ou em diferentes lugares.
+
+Art. 54. Apurado o fato determinativo de exclusão, enviam-se ao juiz eleitoral os documentos comprobatorios, observando-se, no que fôr aplicavel, o processo estabelecido no artigo seguinte.
+
+Art. 55. Na exclusão promovida a requerimento, tomará o juiz eleitoral estas providencias:
+
+a) mandará autuar e registrar a petição;
+
+b) publicará edital, com prazo de 10 dias, para ciencia do interessado, que poderá contestar dentro de cinco dias;
+
+c) concederá dilação probatoria, de 5 a 10 dias, si requerida;
+
+d) a seguir, remeterá o processo, com sua informação, ao Tribunal Regional, que resolverá dentro de 10 dias.
+
+§ 1º Si, decretada a exclusão, nenhum recurso fôr interposto, o Tribunal Regional comunicará a sentença ao Tribunal Superior, que determinará o cancelamento da inscrição.
+
+§ 2º Havendo recurso, o Tribunal Regional fará subirem os autos ao Tribunal Superior, que decidirá no prazo maximo de 10 dias.
+
+§ 3º Confirmada a decisão recorrida, o Tribunal Superior ordenará á secretaria o cancelamento da inscrição.
+PARTE QUARTA
+
+Das eleições
+
+TÍTULO I
+
+Do sistema eleitoral
+
+Art. 56. O sistema de eleição é o do sufragio universal direto, voto secreto e representação proporcional.
+
+CAPÍTULO I
+
+DO VOTO SECRETO
+
+Art. 57. Resguarda o sigilo do voto um dos processos mencionados abaixo.
+
+I - Consta o primeiro das seguintes providencias:
+
+1) uso de sobrecartas oficiais, uniformes, opacas, numeradas de 1 a 9 em séries, pelo presidente, á medida que são entregues aos eleitores;
+
+2) isolamento do eleitor em gabinete indevassavel, para o só efeito de introduzir a cedula de sua escolha na sobrecarta e, em seguida, fecha-la;
+
+3) verificação da identidade da sobrecarta, a vista do número e rubricas;
+
+4) emprego de uma suficientemente ampla para que se não acumulem as sobrecartas na ordem em que são recebidas.
+
+II - Consta o segundo das seguintes providencias:
+
+1) registro obrigatorio dos candidatos, até 5 dias antes da eleição;
+
+2) uso das máquinas de votar, regulado oportunamente pelo Tribunal Superior, de acôrdo com o regime dêste Código.
+
+CAPÍTULO II
+
+DA REPRESENTAÇÃO PROPORCIONAL
+
+Art. 58. Processa-se a representação proporcional nos termos seguintes.
+
+1º E' permitido a qualquer partido, aliança de partidos, ou grupo de cem eleitores, no minimo, registrar, no Tribunal Regional, até cinco dias antes da eleição, a lista de seus candidatos, encimada por uma legenda.
+
+Parágrafo único. Considera-se avulso o candidato que não conste de lista registrada.
+
+2º Faz-se a votação em dois turnos simultaneos, em uma cedula só, encimada, ou não, de legenda.
+
+3º Nas cedulas, estarão impressos ou dactilografados, um em cada linha, os nomes dos candidatos, em numero que não exceda ao dos elegendos mais um, reputando-se não escritos os excedentes.
+
+4º Considera-se votado em primeiro turno o primeiro nome de cada cedula, e, em segundo, os demais, salvo o disposto na letra b do n. 5.
+
+5º Estão eleitos em primeiro turno:
+
+a) os candidatos que tenham obtido o quociente eleitoral (n. 6);
+
+b) na ordem da votação obtida, tantos candidatos registrados sob a mesma legenda quantos indicar o quociente partidario (n. 7).
+
+§ 1º Para o efeito de apurar-se a ordem da votação, contam-se ao candidato de lista registrada os votos que lhe tenham sido dados em cedulas sem legenda ou sob legenda diversa.
+
+§ 2º Tratando-se de candidato registrado em mais de uma lista, considera-se o mesmo eleito sob a legenda em que tenha obtido maior número de votos.
+
+6º Determina-se o quociente eleitoral, dividindo o número de eleitores que concorreram á eleição pelo número de lugares a preencher no circulo eleitoral, desprezada a fração.
+
+7º Determina-se o quociente partidario, dividindo, pelo quociente eleitoral o número de votos emitidos em cedulas sob a mesma legenda, desprezada a fracção.
+
+8º Estão eleitos em segundo turno os outros candidatos mais votados, até serem preenchidos os lugares que não o foram no primeiro turno.
+
+9º Contendo a cedula um só nome e legenda registrada, considera-se esse nome votado em primeiro turno, e, em segundo, toda a lista registrada sob a referida legenda.
+
+10º Contendo a cedula legenda registrada e nome estranho á respectiva lista, considera-se inexistente a legenda.
+
+11º Contendo a cedula apenas legenda registrada, considera-se voto para a respectiva lista em segundo turno e voto em branco no primeiro.
+
+12º Pode-se repetir o primeiro nome da cedula: neste caso, considera-se votado o candidato em primeiro e segundo turno, muito embora não se deva reputar simultaneamente eleito nos dois turnos.
+
+13º Não se somam votos do primeiro turno com os do segundo, nem se acumulam votos em qualquer turno.
+
+14º Em caso de empate, está eleito o candidato mais idoso.
+
+15º Nas secções eleitorais onde se use a máquina de votar, serão observadas estas regras:
+
+a) o voto é dado na máquina, dispensando-se a cedula;
+
+b) é obrigatório o registro dos candidatos até cinco dias antes da eleição;
+
+c) a máquina estará preparada de modo que cada eleitor não possa votar, no primeiro turno, em mais de um nome, e só o possa, no segundo, até o número de lugares a preencher.
+
+16º São suplentes dos candidatos registrados, na ordem decrescente da votação, os demais candidatos votados em segundo turno sob a mesma legenda.
+
+TÍTULO II
+
+Das condições de elegibilidade
+
+Art. 59. São condições de elegibilidade:
+
+1º) ser eleitor;
+
+2º) ter mais de quatro anos de cidadania.
+
+Art. 60. Serão determinadas em lei especial os casos de inelegibilidade.
+
+TÍTULO III
+
+Dos atos preparatorios das eleições
+
+CAPÍTULO I
+
+DAS SECÇÕES ELEITORAIS
+
+Art. 61. Cada municipio que não tenha mais de 400 eleitores constitue uma secção eleitoral.
+
+Parágrafo único. Quando o eleitorado do municipio exceda áquele numero, o Tribunal Regional o distribue em secções, com o máximo de 400, atendendo aos meios de transporte e á maior comodidade dos eleitores.
+
+Art. 62. Incumbe ao Tribunal Regional:
+
+a) dar imediato conhecimento aos juizes eleitorais dos lugares onde devam funcionar as Mesas Receptoras;
+
+b) remeter, pelo menos 30 dias antes da eleição, aos juizes e ás Mesas Receptoras as listas, em folhetos avulsos, dos eleitores do município.
+
+Parágrafo único. Devem as listas ser afixadas em logar público, na séde do cartorio eleitoral e nos locais em que hajam de funcionar as Mesas Receptoras.
+
+Art. 63. O eleitor, cujo nome tenha sido omitido, póde reclamar contra o fáto verbalmente, por escrito ou por telegrama, ao juiz, ao Tribunal Regional, ou, diretamente, ao Tribunal Superior.
+
+§ 1º A reclamação tambem póde ser feita por intermedio dos delegados de partido.
+
+§ 2º Verificada a procedencia da reclamação, providencia a autoridade competente para que o eleitor seja logo incluido em lista.
+
+CAPÍTULO II
+
+DAS MESAS RECEPTORAS
+
+Art. 64. A cada secção eleitoral corresponde uma Mesa Receptora de votos.
+
+Art. 65. Formam a Mesa Receptora um presidente, um 1º e um 2º suplentes, nomeados pelo Tribunal Regional, 60 dias antes da eleição, e dois secretarios, nomeados nos termos do art. 68.
+
+§ 1º São condições para ser nomeado presidente ou suplente da Mesa Receptora:
+
+a) ser eleitor;
+
+b) ser, de preferencia, magistrado, membro do ministerio público, professor, diplomado em profissão liberal, serventuario de justiça formado em direito, contribuinte de imposto direto;
+
+c) não ser funcionario demissivel ad nutum, nem pertencer á magistratura eleitoral;
+
+§ 2º O Tribunal Regional publicará as nomeações, comunicando-as, pelo correio ou pelo telégrafo, aos nomeados, e, no mesmo ato, os convocará para constituirem as Mesas, no dia e lugares designados, ás 7 horas da manhã.
+
+Art. 66. Os suplentes das Mesas Receptoras auxiliam e substituem o presidente, de modo que haja sempre quem responda, pessoalmente, pela ordem e regularidade do processso eleitoral.
+
+§ 1º E' anotada a hora exata em que se substituam os membros da Mesa.
+
+§ 2º O presidente deve estar presente ao ato de abertura e de encerramento das eleições, salvo força maior, comunicado o impedimento aos dois suplentes pelo menos 24 horas antes da abertura dos trabalhos, ou, imediatamente, si se dér dentro dêsse prazo ou no curso da eleição.
+
+§ 3º Os dois suplentes não pódem ausentar-se ao mesmo tempo, nem o presidente com um dêles.
+
+§ 4º Não comparecendo o presidente á hora certa, assume a presidencia o primeiro suplente e, na sua falta, ou impedimento, o segundo.
+
+§ 5º Não se reunindo a Mesa por falta ou impedimento do presidente e suplentes, assiste aos eleitores a faculdade de votar em outra que esteja sob a jurisdição do mesmo juiz, sendo os votos recebidos com a nota do fato, em folha de observação.
+
+Art. 67. São atribuições do presidente da Mesa Receptora:
+
+1º) receber os sufragios dos eleitores;
+
+2º) decidir imediatamente todas as dificuldades, ou dúvidas que ocorrerem;
+
+3º) manter a ordem, para o que disporá da força pública necessaria;
+
+4º) comunicar ao Tribunal Regional as ocurrencias cuja solução dêle dependerem, e, nos casos de urgencia, recorrer ao juiz eleitoral, que providenciará.
+
+Art. 68. Cada Mesa Receptora tem dois secretarios, nomeados pelo presidente 24 horas, pelo menos, antes de começar a eleição.
+
+§ 1º Devem os secretarios ser eleitores e, de preferencia, serventuarios de justiça.
+
+§ 2º Sua nomeação é comunicada imediatamente, por telegrama, ou carta, ao presidente do Tribunal Regional, e publicada pela imprensa ou por edital afixado á frente do edificio onde tenha de funcionar a Mesa.
+
+§ 3º Compete aos secretarios:
+
+a) dar aos eleitores a senha de entrada, nos termos do art. 81;
+
+b) tomar, no caso de protesto quanto á identidade do eleitor, suas impressões digitais;
+
+c) cumprir as demais obrigações que lhes sejam atribuidas em regulamentos ou instruções.
+
+§ 4º O cargo de secretario é irrenunciavel.
+
+§ 5º No impedimento ou falta dos secretarios, funciona o substituto que o presidente nomear.
+
+Art. 69. O presidente, suplentes, secretarios, fiscais, ou delegados de partidos, assim como as autoridades, podem votar perante as Mesas em que servirem, ainda que alistados em outra secção, anotando-se o fato na ata respectiva.
+
+CAPÍTULO III
+
+DO MATERIAL PARA A VOTAÇÃO
+
+Art. 70. Ás Mesas Receptoras onde a votação não seja feita por meio de máquinas remeterá o Tribunal Regional:
+
+1º) listas dos eleitores da secção correspondente;
+
+2º) uma urna fechada e lacrada, na fechadura e no orificio para a entrada de cedulas, ficando as chaves sob a guarda do presidente do Tribunal;
+
+3) sobrecartas de papel opaco, tendo impressos o escudo nacional e estas palavras: "Firma do presidente .............. Firma do secretario...................., Municipio.............., Secção n.................., Sobrecarta n..........
+
+4º) fórmulas para atas;
+
+5º) folhas para assinaturas e observações;
+
+6) utensilios e folhas para impressões digitais;
+
+7º) cedulas de qualquer candidato, ou partido, que lhe tenham sido enviadas para serem postas á disposição dos eleitores no gabinete indevassavel;
+
+8º) objetos que considere indispensaveis ao funcionamento das Mesas.
+
+Parágrafo único. Deixará o Tribunal Regional de remeter urnas e sobrecartas ás Mesas Receptoras onde se empreguem máquinas de votar, que virão seladas e lacradas.
+
+Art. 71. Devem as cedulas ser:
+
+a) de fórma retangular;
+
+b) de cor branca;
+
+c) de dimensões tais que, dobradas ao meio, ou em quatro, caibam nas sobrecartas oficiais;
+
+d) impressas ou datilografadas e sem mais dizeres ou sinais que os nomes dos candidatos e uma legenda devidamente registrada.
+
+TÍTULO IV
+
+Da votação
+
+CAPÍTULO I
+
+DOS LUGARES DAS VOTAÇÕES
+
+Art. 72. Funcionam as Mesas Receptoras em lugares designados pelos Tribunais Regionais, sob proposta dos juizes eleitorais, publicando-se a designação.
+
+§ 1º Dar-se-á preferencia a edificios publicos, recorrendo-se a edificios de propriedade particular quando aqueles não existam em número e condições requeridas.
+
+§ 2º Dez dias, pelo menos, antes do fixado para a eleição, devem os Tribunais Regionais comunicar aos chefes das repartições públicas e aos proprietarios; arrendatarios ou administradores das propriedades particulares, a resolução de serem utilizados os respectivos edificios, ou parte deles, para o funcionamento das Mesas Receptoras.
+
+§ 3º A propriedade particular será obrigatoria e gratuitamente cedida para esse fim.
+
+Art. 73. No local da votação, será separado do público o recinto da Mesa, e, ao lado desta, deverá achar-se a máquina de votar, ou um gabinete indevassavel, para que, dentro dêle, possam os eleitores, á medida que compareçam, colocar suas cedulas nas sobrecartas oficiais.
+
+CAPÍTULO II
+
+DA POLICIA DOS TRABALHOS ELEITORAIS
+
+Art. 74. Ao presidente da Mesa Receptora cabe a polícia dos trabalhos eleitorais.
+
+Parágrafo único. Sem ordem do presidente da Mesa, nenhuma força armada pode penetrar no lugar da votação, nem se colocar em suas imediações, a distancia menor de cem metros em torno.
+
+Art. 75. O presidente da Mesa fará retirar-se do local toda pessôa que não guardar a ordem e compostura devidas.
+
+Art. 76. Sómente têm direito a permanecer no recinto da Mesa os seus membros, os candidatos e seus fiscais, os delegados de partidos, e o eleitor durante o tempo necessario á votação.
+
+Art. 77. E' vedado oferecer cedulas de sufragio no local onde funcione a Mesa Receptora e nas suas imediações, dentro de um raio de cem metros.
+
+CAPÍTULO III
+
+DO INÍCIO DA VOTAÇÃO
+
+Art. 78. No dia marcado para a eleição, ás 7 horas, o presidente da Mesa, os suplentes e os secretarios verificam no local designado:
+
+1º) si estão em ordem os papeis e utensilios remetidos pelo Tribunal;
+
+2º) si a máquina de votar ou a urna destinada a recolher os sufragios têm os selos intactos;
+
+3º) si estão presentes fiscais de candidatos e delegados de partidos.
+
+Parágrafo único. Si os selos não estiverem intactos, será substituida a máquina, ou de novo cerrada a urna, pondo-se-lhe uma faixa de papel com a firma do presidente da Mesa e, facultativamente, a dos fiscais e delegados, registando-se, em ata, o incidente.
+
+Art. 79. Feita a verificação acima e supridas as deficiencias, o presidente, ás 8 horas em ponto, inutiliza o sêlo da máquina, ou do orifício da urna, á vista dos eleitores, e, declarando iniciados os trabalhos, assina, com os demais membros da Mesa, com os fiscais e delegados de partido que quizerem, a ata respectiva.
+
+Art. 80. O recebimento dos votos começa ás 8 horas, durando, seguidamente, até ás 18 horas.
+
+Parágrafo único. Em caso algum interrompe-se o ato eleitoral e, si isso acontecer, deverão constar em ata o tempo e as causas da interrupção.
+
+CAPÍTULO IV
+
+DO ATO DE VOTAR
+
+Art. 81. Observa-se na votação o seguinte:
+
+1º) cada eleitor recebe, á entrada do edificio, uma senha numerada, e, no momento, rubricada ou carimbada pelo secretario;
+
+2º) ao penetrar, cada um por sua vez, no recinto da Mesa, dirá o seu nome, e apresentará ao presidente o seu título de eleitor, o qual poderá ser examinado pelos fiscais e pelos delegados de partido;
+
+3º) achando-se em ordem o título e não sendo contestada a identidade do eleitor, o presidente da Mesa entregar-lhe-á uma sobrecarta oficial, aberta e vasia, numerada no ato, e convidará o eleitor a passar ao gabinete indevassavel, cuja porta ou cortina deverá cerrar-se em seguida;
+
+4º) no gabinete indevassavel, o eleitor, dentro do prazo maximo de um minuto, colocará a cedula de sua escolha na sobrecarta recebida, que fechará;
+
+5º) ao sair do gabinete, o eleitor depositará, na urna, a sobrecarta fechada;
+
+6º) antes, porem, o presidente, os fiscais e os delegados verificarão, sem tocá-la, si a sobrecarta que o eleitor vai depositar na uma é a mesma que lhe foi entregue;
+
+7º) si não fôr a mesma, será o eleitor convidado a voltar ao gabinete indevassavel e trazer seu voto na sobrecarta que recebeu, deixando de ser admitido a votar, si o não fizer e mencionando-se em ata a circumstancia;
+
+8º) colocado o voto na urna, o presidente da Mesa escreverá a palavra votou, na lista dos eleitores, ao lado do nome do votante, lançando no título dêste a data e sua rubrica;
+
+9º) em seguida, lançará o eleitor, na lista e em uma duplicata, que ficará com o presidente, a firma de que usa.
+
+§ 1º O presidente da Mesa poderá interrogar o eleitor sobre anotações do título, referentes á sua identidade, e mencionará, nas observações da lista dos eleitores, a dúvida suscitada.
+
+§ 2º Se a identidade do eleitor fôr contestada por qualquer fiscal, ou delegado, o presidente da Mesa tomará as seguintes providencias;
+
+a) escreverá, em sobrecarta maior que a entregue ao eleitor, o seguinte: "Impugnado por F..........";
+
+b) fará tomar, em seguida, as impressões digitais e a assinatura do eleitor em folha apropriada, que rubricará juntamente com o impugnante, depois de consignar o número e a serie da inscrição do eleitor;
+
+c) ao voltar êste do gabinete, com a sua cedula já encerrada na sobrecarta oficial, o presidente a colocará, sem dobrar, na sobrecarta maior, juntamente com a folha mencionada na letra anterior;
+
+d) entregará ao eleitor a sobrecarta para que a feche e coloque na urna;
+
+e) anotará, por fim, a impugnação, nas observações da lista de eleitores.
+
+§ 3º Proceder-se-á, da mesma fórma se o nome do eleitor tiver sido omitido ou figurar erradamente na lista.
+
+Art. 82. Si se utilizarem máquinas de votar, o processo de votação será regulamentado oportunamente.
+
+Art. 83. No recinto da eleição, não se admitem discussões a respeito dos eleitores, e só se poderão admitir observações que se refiram á sua identidade, quando formuladas pela Mesa, pelos candidatos, seus fiscais ou delegados de partido.
+
+CAPÍTULO V
+
+DO ENCERRAMENTO DAS VOTAÇÕES
+
+Art. 84. Ás dezoito horas menos quinze minutos, o presidente suspenderá a entrega de senhas numeradas, admitindo, porém, a votar os que já tiverem senhas e estiverem presentes, os quais entregarão, desde logo, á mesa, seus títulos eleitorais.
+
+Art. 85. Terminada a votação, o presidente encerrará o ato eleitoral com as seguintes providencias:
+
+a) selará a máquina, ou a abertura da urna, com uma tira de papel forte, que levará sua assinatura, bem como a dos fiscais de candidatos e delegados de partidos, os quais tambem poderão apôr suas impressões digitais na tira;
+
+b) assinará e convidará os fiscais e delegados presentes a que assinem a lista eleitoral em duplicata, depois de riscar os nomes dos eleitores que não tiverem comparecido;
+
+c) mandará lavrar, ao pé das listas assinadas pelos eleitores, ata de que constem o número, por extenso, dos votantes e a menção de quaisquer protestos ou ocorrencias que devam ser consignados;
+
+d) assinará a ata com os demais membros da Mesa, com os candidatos, seus fiscais ou delegados de partido que quizerem;
+
+e) entregará á secretaria do Tribunal, ou á agência do correio mais proxima, pessoal e imediatamente, sob recibo em duplicata, com a indicação da hora, a urna ou máquina, e, dentro de sobrecarta rubricada por êle, e pelos fiscais e delegados que o quizerem, todos os documentos do ato eleitoral;
+
+f) enviará, por fim, ao Tribunal Regional, em sobrecarta á parte, um dos recibos.
+
+§ 1º A secretaria dos Tribunais Regionais e as agências do correio, no dia da eleição, devem conservar-se abertas e com pessoal suficiente a postos, para receber a urna ou máquina e os documentos acima referidos.
+
+§ 2º O presidente da Mesa garantirá, com a força de polícia de suas ordens, os agentes de correio, até que as urnas ou máquinas e os documentos por eles recebidos estejam em lugar seguro.
+
+§ 3º Os candidatos, seus fiscais ou delegados de partido têm direito de vigiar a urna, desde o momento da eleição, enquanto estiver na agência, e durante o percurso até o Tribunal Regional.
+
+§ 4º No Tribunal Regional ficarão as urnas á vista dos interessados de dia e de noite.
+TÍTULO V
+
+Da apuração
+
+Art. 86. Compete aos Tribunais Regionais a apuração dos sufragios e proclamação dos eleitos nas regiões eleitorais respectivas.
+
+Parágrafo único. Dos trabalhos de cada dia, será lavrada ata parcial, assinada pelo presidente, demais membros e secretario do Tribunal, devendo da mesma constar qualquer interrupção e os motivos desta.
+
+Art. 87. Começa a apuração no dia seguinte ao das eleições e, salvo motivo justificado perante o Tribunal Superior, devem terminar dentro de trinta dias, não se podendo interromper no tocante a cada secção eleitoral.
+
+Art. 88. A apuração pode ser feita simultaneamente em duas ou tres turmas, cada uma com a presença minima de dois membros do Tribunal.
+
+Art. 89. Á medida que se realizar a apuração, podem os fiscais de candidatos e os delegados de partido deduzir suas impugnações.
+
+CAPÍTULO I
+
+DOS ATOS PRELIMINARES
+
+Art. 90. Com respeito a cada secção, preliminarmente, deve o Tribunal verificar:
+
+1) si há indicios de haverem sido violadas as máquinas ou as urnas;
+
+2) si cada uma vem acompanhada dos documentos do ato eleitoral;
+
+3) si o número de sobrecartas, na urna, corresponde ao dos votantes;
+
+4) si houve entrega imediata da urna e demais documentos á secretaria do TribunaI, ou agência do correio mais proxima;
+
+5) si o número de urnas é igual ao número de Mesas Receptoras.
+
+§ 1º Si houver indicio de violação da urna ou da máquina, o Tribunal, antes de proceder á apuração, fará examiná-las por peritos, com assistencia do Ministerio Público.
+
+§ 2º Si houver falta de uma ou mais urnas, ou si não vierem acompanhadas dos documentos legais, ou si o numero de sobrecartas autenticadas, em cada urna, não corresponder ao declarado na ata pelo presidente da Mesa, o Tribunal fará lavrar um termo do que verificar, deixando de computar os votos da secção.
+
+§ 3º Neste caso, ordenará o presidente que, na secção respectiva, se realize nova eleição, sob a presidencia do juiz eleitoral.
+
+CAPÍTULO II
+
+DA CONTAGEM DE VOTOS
+
+Art. 91. Feita a verificação a que se refere o capítulo anterior, passará o Tribunal à contagem dos votos, observadas as seguintes regras:
+
+1) o presidente examinará os registros dos votos encerrados nas máquinas, ou, si não tiverem sido usadas, lerá ou fará ler por outro membro do Tribunal, em voz alta, as cedulas extraídas, uma a uma, das urnas;
+
+2) si houver, na mesma sobrecarta, mais de uma cedula, valerá uma delas, si forem iguais, e não valerá nenhuma, si forem diferentes;
+
+3) será nula a cedula que não preencher os requisitos do art. 71;
+
+4) no caso de falta ortografica, diferença leve de nomes ou prenomes, inversão, ou supressão de algum dêstes, decidir-se-á pela validade do voto em favor do candidato notorio, desde que não seja possivel confusão com outro candidato que figure em chapa;
+
+5) as impugnações de cedulas serão resolvidas no inicio da apuração.
+
+§ 1º Si as impressões digitais do eleitor impugnado não coincidirem com as existentes na folha pessoal de sua inscrição, o voto será declarado nulo; se coincidirem, o voto prevalecerá, voltando a cedula à urna; num ou noutro caso, providenciará o Ministério Público, quanto ao processo a instaurar-se contra o eleitor fraudulento ou contra o autor da falsa impugnação.
+
+§ 2º Si sôbre qualquer fato da apuração não houver, desde logo, unanimidade, entre os membros presentes do Tribunal, reservar-se-á para o final dos trabalhos a discussão da dúvida, que então se resolverá por maioria de votos.
+
+CAPÍTULO III
+
+DA PROCLAMAÇÃO DOS ELEITOS
+
+Art. 92. Terminada a apuração, o presidente do Tribunal anunciará, em voz alta:
+
+1) a soma total dos votos liquidos em toda a região;
+
+2) o quociente eleitoral, que resultou, para o primeiro turno;
+
+3) os nomes votados, na ordem decrescente dos votos recebidos;
+
+4) os nomes dos eleitos no primeiro turno;
+
+5) os nomes dos eleitos no segundo turno;
+
+6 ) os nomes dos suplentes.
+
+Art. 93. Da apuração será lavrada ata geral, assinada pelo presidente, demais membros e secretario do Tribunal.
+
+Art. 94. Qualquer candidato, fiscal de candidato ou delegado de partido póde recorrer das decisões tomadas durante a apuração.
+
+Parágrafo único. Esta ata, acompanhada de todos os documentos enviados pelas Mesas Receptoras, será, remetida, em pacote lacrado, ao presidente do Tribunal Superior.
+
+CAPÍTULO IV
+
+DOS DIPLOMAS
+
+Art. 95. O candidato eleito recebe, como diploma, um extrato da ata geral.
+
+§ 1º O Tribunal concederá, a requerimento de qualquer interessado, certidão da ata geral, selando-a com
+50$000.
+
+§ 2º Contestado o diploma, enquanto o Tribunal Superior não decidir o recurso interposto, póde o diplomado tomar assento na assembléa, exercendo o mandato em toda a plenitude.
+
+§ 3º A nulidade de votos só importa nulidade do diploma, quando, deduzidos os votos nulos, ficar o seu titular em inferioridade de votação em segundo turno, a outro da mesma chapa de partido ou quando, sendo candidato não registrado, ficar sua votação inferior ao quociente eleitoral.
+
+Art. 96. As vagas que, por qualquer motivo, houver na representação de cada partido, aliança de partidos ou candidatos registrados, serão, preenchidas pelos suplentes respectivos, na ordem em que forem declarados eleitos.
+
+Parágrafo único. Si não houver suplentes, a vaga será provida mediante eleição, dentro de 30 dias.
+
+TÍTULO VI
+
+Das nulidades
+
+Art. 97. Será nula a votação:
+
+1) realizada perante Mesa Receptora constituida por modo diferente do prescrito neste Codigo;
+
+2) realizada em dia, hora ou lugar diverso do legalmente designado;
+
+3) feita mediante listas de eleitores falsas ou fraudulentas;
+
+4) quando a urna não houver sido remetida em tempo, salvo fôrça maior, ao Tribunal Regional, ou não tiver sido acompanhada dos documentos do ato eleitoral, ou quando o número das sobrecartas autenticadas nela existentes fôr superior ao número de votantes consignado na ata;
+
+5) Quando se provar que foi recusada, sem fundamento legal, aos candidatos, a seus fiscais, ou a delegados de partidos, a assistencia aos atos eleitorais e sua fiscalização;
+
+6) quando se provar violação do sigilo absoluto do voto;
+
+7) quando se provar coação, ou fraude, que altere o resultado final do pleito.
+
+Parágrafo único. Si a nulidade atingir a mais de metade dos votos de uma região eleitoral, julgar-se-ão prejudicadas as demais votações, e mandar-se-á fazer nova eleição.
+
+PARTE QUINTA
+
+Disposições comuns
+
+TÍTULO I
+
+Das garantias eleitorais
+
+Art. 98. Ficam assegurados aos eleitores os direitos e garantias ao exercicio do voto, nos termos seguintes:
+
+§ 1º Ninguem pode impedir ou embaraçar o exercicio do sufragio.
+
+§ 2º Nenhuma autoridade pode, desde cinco dias antes e até 24 horas depois do encerramento da eleição, prender ou deter qualquer eleitor, salvo flagrante delito.
+
+§ 3º Desde 24 horas antes até 24 horas depois da eleição, não se permitirão comicios, manifestações ou reuniões publicas, de carater politico.
+
+§ 4º Nenhuma autoridade estranha à Mesa Receptora pode intervir, sob pretexto algum, em seu funcionamento.
+
+§ 5º Os membros das Mesas Receptoras, os fiscais de candidatos e os delegados de partido são inviolaveis durante o exercicio de suas funções, não podendo ser presos, ou detidos, salvo flagrante delito em crime inafiançavel.
+
+§ 6º É proibida, durante o ato eleitoral, a presença de força pública dentro do edifício em que funcione a Mesa Receptora ou nas suas imediações.
+
+§ 7º Será feriado nacional o dia da eleição.
+
+§ 8º O Tribunal, Superior e os Tribunais Regionais darão habeas-corpus para fazer cessar qualquer coação ou violencia atual ou iminente.
+
+§ 9º Nos casos urgentes, o habeas-corpus poderá ser requerido ao juiz eleitoral, que o decidirá sem demora, com recurso necessário para o Tribunal Regional.
+
+TÍTULO II
+
+Da interferEncia dos partidos e eleitores
+
+CAPÍTULO I
+
+DA FISCALIZAÇÃO
+
+Art. 99. Consideram-se partidos politicos para os efeitos deste decreto:
+
+1) os que adquirirem personalidade jurídica, mediante inscrição no registro a que se refere o art. 18 do Código Civil;
+
+2) os que, não a tendo adquirido, se apresentarem para as mesmos fins, em carater provisorio, com um minimo de quinhentos eleitores;
+
+3) as associações de classe legalmente constituidas.
+
+Parágrafo único. Uns e outros deverão comunicar por escrito ao Tribunal Superior e aos Tribunais Regionais das regiões em que atuarem a sua constituição, denominação, orientação política, seus orgãos representativos, o enderêço de sua séde principal, e o de um representante legal pelo menos.
+
+Art. 100. Para todos os atos referentes ao alistamento, é facultado aos partidos políticos, por meio de delegados seus ou representantes, que nomeiem junto aos juizes ou Tribunais eleitorais:
+
+1) examinar, no arquivo eleitoral, em companhia dos funcionarios designados, e com a aquiescencia prévia do Tribunal Superior, quaisquer autos ou documentos;
+
+2) apresentar alegações e protestos, por escrito, recorrer, produzir todo genero de provas e denunciar perante a autoridade competente os funcionários eleitorais;
+
+3) acompanhar o processo de qualificação e inscrição dos eleitores;
+
+4) requerer que, com sua assistência, de interrogue em forma sumaria, o alistando quanto á identidade e se verifique seu conhecimento de leitura e escrita.
+
+Art. 101. Para os atos referentes á votação e apuração, podem, quando registados, nomear fiscais:
+
+a) os candidatos, individualmente ou em conjunto;
+
+b) os partidos e as alianças de partido.
+
+§ 1º Qualquer candidato avulso, não registrado, pode nomear fiscais junto ás Mesas ou Tribunais, mediante comunicação escrita, assinada pelo menos por 50 eleitores, com as firmas reconhecidas.
+
+§ 2º Os partidos, bem como os candidatos registrados, podem ter junto a cada Mesa Receptora, um delegado, e, até três, junto ao Tribunal Regional.
+
+Art. 102. As observações dos fiscais ou delegados sôbre as votações serão registradas em fórmulas especiais, assinadas pelo observante, pelo presidente da Mesa, e seus secretarios.
+
+CAPÍTULO II
+
+DOS RECURSOS
+
+Art. 103. Dos atos, resoluções ou despachos dos juizes eleitorais caberá recurso, dentro de cinco dias, para o Tribunal Regional.
+
+§ 1º A petição de recurso deve ser fundamentada e conter indicação das provas em que se basear o recorrente.
+
+§ 2º O Juiz recorrido, dentro de 48 horas, fará subirem os autos ao Tribunal Regional, com sua resposta e os documentos em que se fundar, si entender, que não é caso de reconsiderar sua decisão.
+
+§ 3º Ao tomar conhecimento do processo, sempre que o entenda conveniente, pode o Tribunal Regional atribuir efeito suspensivo ao recurso, dando ciencia disso ao juiz recorrido.
+
+§ 4º Si o recorrente ou recorrido houver protestado por provas, será concedido, para isso, o prazo improrrogavel de quinze dias.
+
+§ 5º Processa-se a prova perante um membro do Tribunal ou juiz, designado pelo presidente.
+
+Art. 104. Para o Tribunal Regional, dentro de cinco dias, caberá recurso dos atos, resoluções ou despachos de seu presidente.
+
+Art. 105. Dos atos, resoluções ou despachos dos Tribunais Regionais, caberá recurso, dentro de dez dias, para o Tribunal Superior, observando o processo do artigo antecedente.
+
+Art. 106. O Tribunal Superior, nas decisões proferidas em recursos interpostos contra o reconhecimento de candidatos, tornará desde logo extensivos ao resultado geral da eleição os efeitos do julgado, com audiencia dos candidatos interessados.
+
+TÍTULO III
+
+Da sanção penal
+
+CAPÍTULO I
+
+DOS DELITOS
+
+Art. 107. São delitos eleitorais:
+
+§ 1º Inscrever-se fraudulentamente mais de uma vez como eleitor: Pena - tres meses a um ano de prisão celular.
+
+§ 2º Fazer falsa declaração para fins eleitorais, ou, de que possa resultar qualificação ex-officio: Pena - multa de 500$ a 5:000$ conversivel em prisão celular, nos termos das leis penais.
+
+§ 3º Fornecer ou usar documentos falsos ou falsificados, para fins eleitorais: Pena - um a quatro anos de prisão celular, e perda do cargo público que exerça.
+
+§ 4º Efeituar o funcionario inscrição de alistando não qualificado pela autoridade competente, ou não identificado devidamente: Pena - dois a seis anos de prisão celular, perda do cargo público que exerça, além de inhabilitação por dez anos para exercer qualquer outro.
+
+§ 5º Reter titulo eleitoral contra a vontade do eleitor: Pena - um a quatro anos de prisão celular e perda do cargo público que exerça.
+
+§ 6º Reconhecer o tabelião, para fins eleitorais, letra ou firma que não seja verdadeira: Pena - dois a seis anos de prisão celular, e perda do cargo.
+
+§ 7º Atestar, junto aos tabeliães, como verdadeira, para fins eleitorais, letra ou firma que o não seja: Pena - seis meses a dois anos de prisão celular.
+
+§ 8º Perturbar ou obstar, de qualquer forma, o processo de alistamento: Pena - quinze dias a seis meses de prisão celular.
+
+§ 9º Subtrair, danificar, ou ocultar documento ou objeto das repartições eleitorais: Pena - um a quatro anos de prisão celular, perda do cargo público que exerça e multa de 20 % o dos danos causados.
+
+§ 10. Recusar ou renunciar, antes de dois anos de efetivo exercicio, sem causa justificada e aceita pelo Tribunal competente, o cargo ou munus público de natureza eleitoral, para que seja nomeado ou sorteado, ou passar, nas mesmas condições, seu exercicio: Pena - multa de 2:000$ a 5:000$, perda do cargo público que exerça, além de inhabilitação, por dois anos, para exercer qualquer outro.
+
+§ 11. Deixar o juiz eleitoral, ou membro do Tribunal, com violação de dispositivo expresso de lei, de julgar qualificado, ou de mandar inscrever, no registro eleitoral, cidadão que prove evidentemente estar no caso de ser eleitor: Pena - suspensão do cargo por seis meses a um ano.
+
+§ 12. Embaraçar o juiz, ou qualquer magistrado eleitoral, o reconhecimento de direitos individuais, de natureza eleitoral. Pena - seis meses a dois anos de prisão celular e, em caso de reincidencia, perda do cargo.
+
+§ 13 Deixar o juiz eleitoral, ou qualquer magistrado, ou autoridade eleitoral, de remeter aos representantes da justiça os papeis e documentos, para que se inicie a ação penal por delitos eleitorais, cuja existencia seja patente de documentos, papeis ou atos, submetidos ao seu conhecimento: Pena - as do parágrafo anterior.
+
+§ 14. Não cumprir, nos prazos legais, qualquer funcionario dos juizos e repartições eleitorais, os deveres que lhe são impostos por este código: Pena - multa de 200$ a 1:000$, a criterio do juiz, e suspensão até 30 dias do exercicio do cargo.
+
+§ 15. Alegar o cidadão idade falsa, para fugir aos efeitos do art. 119: Pena - multa de 500$ a 5:000$, conversivel em prisão, nos termos da lei penal.
+
+§ 16. Recusar a autoridade eclesiastica aos interessados a verificação dos lançamentos de batismo, ou de casamento, anteriores a 1889 ou recusar-lhes certidão de assentos existentes: Pena - multa de 200$ a 1:000$ e privação dos direitos políticos no caso de reincidencia.
+
+§ 17. Violar qualquer das garantias eleitorais do art. 98: Pena - trinta dias a seis mêses de prisão celular, e perda de cargo público que exerça, além das demais penas em que incorra.
+
+§ 18. Votar ou tentar votar mais de uma vez, ou em lugar de outrem: Pena - seis mêses a tres anos de prisão celular e perda do cargo público que exerça.
+
+§ 19. Oferecer ou entregar cedulas de sufragio, seja a quem for, onde funcione Mesa Receptora de votos, ou em suas proximidades dentro de um raio de cem metros: Pena - tres a doze mêses de prisão celular, e perda do cargo público que exerça.
+
+§ 20. Violar ou tentar violar o sigilo do voto: Pena - seis mêses a tres anos de prisão celular e perda do cargo público que exerça.
+
+§ 21 Oferecer, prometer, solicitar, exigir ou receber dinheiro, dadiva ou qualquer vantagem, para obter ou dar voto, ou para conseguir abstenção, ou para abster-se de voto: Pena - seis mêses a dois anos de prisão celular.
+
+§ 22. Falsificar ou substituir atas ou documentos eleitorais: Pena - dois a oito anos de prisão celular, e perda do cargo público que exerça.
+
+§ 23. Praticar ou instigar desordens, tumultos ou agressões que prejudiquem o andamento regular dos atos eleitorais: Pena - um a quatro anos de prisão celular, e perda do cargo público, que exerça além das demais penas em que incorra.
+
+§ 24. Arrebatar, subtrair, destruir ou ocultar urna, ou documentos eleitorais, violar os selos das urnas ou os involucros de documentos: Pena - tres a dez anos de prisão celular e perda de cargo público que exerça.
+
+§ 25. Praticar ou ocultar ato de que decorra nulidade da eleição: Pena - seis mêses a dois anos de prisão celular, além de perda do cargo público que exerça.
+
+§ 26. Recusar ou renunciar, sem causa justificada e aceita pelo Tribunal Regional, o cargo de membro de Mesa Receptora: Pena - perda do cargo público, que exerça, e multa de 1:000$ a 2:000$, conversivel em prisão, na forma do Codigo Penal.
+
+§ 27. Deixar de mencionar nas atas os protestos formulados pelos fiscais, delegados de partido, ou candidatos ou deixar de remetê-los ao Tribunal Regional: Pena - seis mêses a dois anos de prisão celular.
+
+§ 28. Faltar voluntariamente, em casos não especificados nos paragrafos anteriores, ao cumprimento de qualquer obrigação que este codigo expressamente impõe: Pena - oito a cem dias de prisão celular, ou, se fôr funcionario suspensão por dois a seis mêses do exercicio do cargo.
+
+Art. 108. As infrações eleitorais definidas acima são crimes inafiançaveis e de ação pública.
+
+§ 1º A autoridade judiciaria que verificar a existencia de algum fato delituoso definido neste Codigo, providenciará para que seja iniciada a ação penal.
+
+§ 2º Não se suspende a execução de pena nos crimes eleitorais.
+
+Art. 109. Em todos os delitos de natureza eleitoral a reincidencia elevará a pena ao máximo.
+
+Parágrafo único. Haverá reincidencia sempre que o criminoso, depois de condenado por sentença irrecorrivel, cometer crime eleitoral, embora não infrinja a mesma disposição de lei.
+
+CAPÍTULO II
+
+DA AÇÃO PENAL
+
+Art. 110. A iniciativa da ação penal, pelos crimes eleitorais, definidos neste Codigo, compete aos procuradores eleitorais, ou a qualquer eleitor.
+
+§ 1º A denúncia será oferecida ao presidente do Tribunal Regional que, depois de mandar autuá-la e de ouvir o procurador, si não fôr ele o denunciante, designará, por distribuição, um de seus membros, para servir de juiz preparador.
+
+§ 2º O juiz preparador mandará citar o acusado, para, dentro do prazo de cinco dias, a contar da citação, oferecer defesa escrita.
+
+§ 3º Apresentada a defesa, ou findo o prazo respectivo, a preparador concederá ás partes uma dilação probatoria comum, de 10 dias.
+
+§ 4º Após a dilação probatoria, o denunciante e o denunciado terão, sucessivamente, o prazo de cinco dias, para oferecer alegações finais.
+
+§ 5º Expirado o prazo das alegações finais, o juiz preparador submeterá a causa á decisão do Tribunal na forma do seu regimento, sendo permitida ás partes, na sessão de julgamento, defesa oral do seu direito, pelo tempo que o regimento conceder.
+
+§ 6º O juiz preparador, finda a dilação, poderá decretar a prisão preventiva do acusado, nos casos previstos na legislação em vigor.
+
+Art. 111. Para os atos e diligencias, que se devam realizar fóra da sede do Tribunal, o juiz preparador delegará atribuição ao juiz eleitoral do logar onde tenham de ser praticados, ou, em seu impedimento, ao de comarca ou termo mais proximo.
+
+§ 1º Em tais atos, que podem ser acompanhados pelos delegados de partido, o procurador eleitoral será, representado pelo orgam do ministerio público estadual da comarca e, na falta dele, por um procurador ad-hoc, nomeado pelo mesmo juiz.
+
+§ 2º O juiz eleitoral que, por delegação do juiz preparador, ordenar a citação do acusado, receber-lhe-á a defesa para encaminhá-la ao Tribunal.
+
+Art. 112. Dos despachos do juiz eleitoral e do juiz preparador, caberá recurso para o Tribunal Regional, nos casos em que se admite, segundo a lei processual comum, recurso dos juizes substitutos para os juizes seccionais.
+
+Art. 113. Das decisõersdo Tribunal Regional haverá recurso para o Tribunal Superior, nos mesmos casos em que se admite, para o Supremo Tribunal Federal, recurso das decisões criminais dos juizes seccionais, observada a mesma fórma processual, no que não fôr alterada pelo regimento.
+
+Art. 114. O crime comum, ou de responsabilidade, conexo com crime eleitoral, será processado e julgado pelas autoridades judiciarias competentes para o conhecimento deste.
+
+Art. 115. Em todos os termos do processo penal, poderá o acusado defender-se por procurador, enquanto não fôr ordenada sua prisão.
+
+Art. 116. A ação por qualquer dos crimes de natureza eleitoral prescreverá em 10 anos, observadas as causas de interrupção e suspensão estabelecidas na lei penal comum.
+
+Art. 117. Contra as decisões passadas em julgado somente poderá haver o recurso da revisão.
+
+Art. 118. As leis processuais da justiça federal serão aplicadas subsidiariamente aos casos não regulados neste Codigo e no regimento dos tribunais eleitorais.
+
+TÍTULO IV
+
+Disposições gerais
+
+Art. 119. O cidadão alistavel, um ano depois de completar maioridade ou um ano depois de entrar em vigor este Codigo, deverá apresentar seu titulo de eleitor para poder efetuar os seguintes átos:
+
+a) desempenhar ou continuar desempenhando funções ou empregos publicos, ou profissões para as quais se exija a nacionalidade brasileira;
+
+b) provar identidade em todos os casos exigidos por lei, decretos ou regulamentos.
+
+Art. 120. Não se aplicam as disposições do artigo anterior:
+
+a) aos cidadãos residentes no estrangeiro, ou domiciliados no Brasil, ha menos de um ano;
+
+b) aos homens maiores de sessenta anos, e ás mulheres em qualquer idade.
+
+Art. 121. Os homens maiores de sessenta anos e as mulheres em qualquer idade podem isentar-se de qualquer obrigação ou serviço de natureza eleitoral.
+
+Art. 122. Não dependem de petição escrita, nem de despacho de juizes as certidões de assentamento, notas e averbações concernentes ou destinadas aos processos eleitorais.
+
+Art. 123. O serviço eleitoral e o criminal respectivo preferem a qualquer outro, e são isentos de onus não expressamente estipulado neste Codigo.
+
+Art. 124. E' concedida franquia postal, telegrafica, telefonica, radiotelegrafica ou radiotelefonica nas linhas oficiais, ou nas que estejam obrigadas ao serviço oficial, para as transmissões de natureza eleitoral, expedidas pelas autoridades e repartições competentes.
+
+Art. 125. As secretarias e os cartorios da justiça eleitoral não poderão, sob pretexto algum, restituir os documentos que instruirem os processos eleitorais.
+
+Art. 126. Dentro de 10 dias seguintes ao encerramento do período de alistamento, o Tribunal Superior publicará, no Boletim Eleitoral, os nomes de todos os eleitores.
+
+§ 1º A lista de nomes será feita por Estado, por Municipio ou suas divisões eleitorais.
+
+§ 2º Designar-se-ão, com o nome, prenome e domicilio do inscrito, a série e o número de sua inscrição.
+
+§ 3º No dia do encerramento do período inscricional, todos os cartorios eleitorais comunicarão, telegraficamente, ou, na falta de telegrafo, por ofício, á Repartição Regional, o número dos cidadãos inscritos com indicação do número de ordem da primeira e da última inscrição efeituada.
+
+Art. 127. O eleitor que, por justo motivo, não puder estar no seu domicilio no dia da eleição, pedirá ao juiz eleitoral resalva que o habilite a votar em outra secção eleitoral, dentro da mesma circunscrição.
+
+§ 1º A ressalva só é valida para a eleição a que se referir.
+
+§ 2º Na secção em que votar, o voto será recebido com as formalidades dos impugnados por identidade, remetida a resalva respectiva, com os papeis da eleição, ao Tribunal apurador.
+
+Art. 128. Sempre que os Tribunais Regionais deixarem de fazer, nos prazos legais, salvo motivo justificado, qualquer ato ordenado por êste Código, o Tribunal Superior, ex-officio, ou a requerimento da parte interessada, poderá realizá-lo, comunicando sua resolução ao tribunal faltoso.
+
+Parágrafo único. Analogamente praticarão os, Tribunais Regionais em relação aos juizes eleitorais.
+
+Art. 129. Não se admitem, como prova no alistamento eleitoral, públicas-fórmas ou justificações.
+
+Art. 130. O serviço de qualquer das secretarias dos Tribunais será organizado de modo que toda modificação operada em seus registros seja comunicada á secretaria do Tribunal Superior e por esta, á secretaria do Tribunal Regional a que interessar a modificação.
+
+Art. 131. Os cegos alfabetizados, que reunam as demais condições de alistamento, podem qualificar-se mediante petição por eles apenas assinada.
+
+Parágrafo único. Suas cedulas, no ato de votar, serão colocadas na sobrecarta e na urna pelo presidente da Mesa.
+
+Art. 132. As repartições públicas são obrigadas, no prazo máximo de dez dias, a fornecer ás autoridades, aos representantes dos partidos, ou a qualquer alistando, as informações e certidões que solicitarem, relativas á matéria eleitoral.
+
+Art. 133. As autoridades eclesiasticas fornecerão, gratuitamente, aos interessados, as certidões de batismo de pessoas nascidas antes de 1889, podendo o requerente, si lhe fôr negada a existencia do assentamento de batismo, pessoalmente e por determinação do juiz eleitoral, revistar os livros, em presença da autoridade eclesiastica ou seu representante.
+
+Art. 134. Os tabeliães não podem deixar de reconhecer, nos documentos necessários á instrução dos requerimentos e recursos eleitorais, as firmas de pessôas de seu conhecimento, ou das que se apresentarem com dois abonadores seus conhecidos.
+
+Parágrafo único. Si a letra e a firma a serem reconhecidas forem de alistando, poderá o tabelião exigir que o requerimento seja escrito e assinado em sua presença; ou, si se tratar de documento, o tabelião poderá exigir que seu signatario escreva em sua presença para a devida conferição.
+
+Art. 135. Os escrivães ou oficiais, encarregados dos registros de óbitos, são obrigados a remeter, semanalmente, á secretaria do Tribunal Regional respectivo, lista em duplicata de todos os obitos de pessôas de maior idade e nacionalidade brasileira, registrados na semana anterior.
+
+Art. 136. Os escrivães, ou secretarios dos juizos ou tribunais, são obrigados a enviar, mensalmente, ao Tribunal Superior, comunicação da sentença ou ato que declare ou signifique suspensão, perda ou reaquisição da cidadania.
+
+Art. 137. O sorteio dos magistrados, para a formação dos tribunais eleitorais, se fará, em sessão pública, dentro de dez dias depois de entrar em vigor êste Codigo.
+
+Art. 138. Enquanto o Tribunal Superior não organizar o seu regimento, vigorará o do Supremo Tribunal Federal, no que fôr aplicavel.
+
+Art. 139. Ficam sem efeito todos os alistamentos eleitorais da União ou dos Estados, efetuados até esta data.
+
+§ 1º Os escrivães dos juizos eleitorais restituirão, sob recibo independente de traslado, e a requerimento do alistado ou seu procurador, os documentos com que instruiram o processo do seu alistamento anterior a êste Codigo.
+
+§ 2º Por esta restituição não serão cobradas custas ou taxas.
+
+Art. 140. Ao atual Juiz de Direito da Vara Eleitoral do Distrito Federal são assegurados todos os direitos e vantagens que a Constituição e as leis lhe garantem, com a competência para todos os casos previstos no art. 85, §§ 3º, 4º e 5º, do decreto n. 16.273, de 20 de dezembro de 1923, e decreto n. 20.661, de 16 de novembro de 1931, mantidos para esse fim os atuais serventuarios.
+
+Art. 141. Terão preferencia, na nomeação, para os cargos administrativos dos tribunais, respeitadas as condições de capacidade, os funcionarios do extinto Registro Geral dos Eleitores.
+
+Art. 142. No decreto em que convocar os eleitores para a eleição de representantes á Constituinte, o Governo determinará o número de representantes nacionais que a cada Estado caiba eleger, bem como o modo e as condições de representação das associações profissionais.
+
+Parágrafo único. Cada Estado, o Distrito Federal e o Território do Acre constituirá uma região eleitoral.
+
+Art. 143. Pelo Ministério da Justiça e Negocios Interiores correrão as despesas com a execução deste Codigo.
+
+Art. 144. O Codigo Eleitoral entrará em vigor trinta dias depois de oficialmente publicado.
+
+Rio de Janeiro, 24 de fevereiro de 1932, 111º da Independencia 44º da Republica.
+
+GETULIO VARGAS.
+J. Mauricio Cardoso.
+Protogenes P. Guimarães.
+Oswaldo Aranha.
+José Fernandes Leite de Castro.
+José Americo de Almeida.
+Lindolfo Collor.
+Francisco Campos.
+Afranio de Mello Franco.
+Mario Barbosa Carneiro, encarregado do expediente da Agricultura, na ausencia do Ministro.

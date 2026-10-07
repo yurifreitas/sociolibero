@@ -1,0 +1,77 @@
+=== PROVENIÊNCIA ===
+Documento: Decreto nº 842, de 19 de setembro de 1855 (Lei dos Círculos)
+Id: decreto-842-1855
+Data do ato: 1855-09-19
+Tipo: decreto | Autoridade: Assembleia Geral / Imperador | Status da norma: revogado
+Fonte (URL exata): https://www2.camara.leg.br/legin/fed/decret/1824-1899/decreto-842-19-setembro-1855-558297-publicacaooriginal-79444-pl.html
+Publicação original (informada pela fonte): Este texto não substitui o original publicado no Coleção de Leis do Império do Brasil de 1855
+Data de captura: 2026-10-07
+Tipo de versão: original de época
+Status da conferência: texto extraído de fonte única; não conferido com segunda fonte
+Observações: Câmara dos Deputados, publicação original. Altera a Lei de 19/08/1846 (divide as províncias em distritos de um deputado).
+Lacunas: Texto curto, sem lacunas detectadas.
+SHA-256 do texto (UTF-8, tudo que vem depois da linha "=== TEXTO ===" até o último caractere, sem a quebra de linha final): 15cdd88e35db9d4ac2056e2e8c39e35454b250e1c204247109d0e1244284698e
+Domínio público: sim. Lei 9.610/1998, art. 8º, IV: textos de leis, decretos, regulamentos, decisões judiciais e demais atos oficiais não são objeto de direito autoral.
+Aviso: cópia para consulta; não substitui o texto oficial publicado.
+=== TEXTO ===
+DECRETO Nº 842, DE 19 DE SETEMBRO DE 1855
+
+Altera a Lei de 19 de Agosto de 1846.
+
+Hei por bem Sanccionar e Mandar que se execute a Resolução seguinte da Assembléa Geral Legislativo.
+
+Art. 1º A Lei de 19 de Agosto de 1846 será observada com as seguintes alterações:
+
+§ 1º Os Membros das Juntas de Qualificação, e os das Mesas das Assembléas Parochiaes, que tem de ser tirados d'entre os Eleitores, e Supplentes, conforme a disposição do artigo 8º, e seguintes da dita Lei, serão eleitos, dous pelos referidos Eleitores, e na sua falta pelas pessoas designadas no Artigo 10º, e dous pelos Supplentes, e na sua falta das pessoas designadas no Artigo 12º, podendo os votos recahir em quaesquer Cidadãos da Parochia que tenhão as qualidades para Eleitor.
+
+§ 2º A eleição dos Secretarios e Escrutadores dos Collegios Eleitoraes continuará a ser feita por escrutinio secreto, votando porêm cada Eleitor em dous nomes sómente. Serão Secretarios os dous mais votados, e Escrutadores os dous immediatos em votos.
+
+§ 3º As Provincias do Imperio serão divididas em tantos Districtos Eleitoraes quantos forem os seus Deputados á Assembléa Geral.
+
+§ 4º A primeira divisão será feita pelo Governo, ouvidos os Presidentes das Provincias, e só por Lei poderá ser alterada. Na divisão guardará o Governo as seguintes bases:
+
+1ª As Freguezias, de que se compuzer cada Districto Eleitoral, serão unidas entre si sem interrupção.
+
+2ª Os differentes Districtos Eleitoraes de cada Provincia serão designados por numeros ordinaes, e iguaes, quanto for possivel, em população de pessoas livres.
+
+§ 5º O Governo designará para cabeça de cada Districto Eleitoral a Cidade, ou Villa mais central, onde se reunirão em hum só Collegio no dia marcado para a eleição dos Deputados á Assembléa Geral, e no edificio, que o Governo tambem designar, todos os Eleitores do Districto; e depois de observadas as formalidades para a organisação do Collegio, e as mais de que trata o Capitulo 1º do Titulo 3º da Lei, procederão á eleição de hum Deputado, votando cada Eleitor por cedula não assignada, e escripta em papel fornecido pela Mesa. Recolhidos os votos em escrutinio secreto, contados e apurados, ficará eleito Deputado o Cidadão que obtiver maioria absoluta de votos.
+
+§ 6º Se ninguem obtiver maioria absoluta de votos, proceder-se-ha immediatamente a segundo escrutinio, votando cada Eleitor unicamente em hum dos quatro Cidadãos mais votados no primeiro escrutinio. Se ainda no segundo escrutinio ninguem obtiver maioria absoluta de votos, proceder-se-ha immediatamente a terceiro, votando cada Eleitor unicamente em hum dos dous Cidadãos mais votados no segundo escrutinio, e ficará eleito Deputado o que obtiver maioria absoluta de votos. No caso de empate decidirá a sorte, e aquelle contra quem ella decidir será declarado Supplente.
+
+§ 7º Fóra do caso da ultima parte do paragrapho antecedente, finda a eleição de Deputado, proceder-se-ha á eleição de hum Supplente, observando-se a respeito della o mesmo que fica determinado para a eleição de Deputados.
+
+§ 8º Tanto para o Deputado, como para o Supplente, servirá de Diploma huma copia authentica da Acta, dispensada a remessa da copia destinada á Camara da Capital pela disposição do Artigo 79 da Lei.
+
+§ 9º O Governo, não obstante a regra estabelecida no paragrapho 5º, poderá subdividir em mais de hum Collegio os Districtos em que pela disseminação da população for muito difficil a reunião de todos os Eleitores em hum só Collegio, com tanto que nunca a distancia do lugar em que se reunir o Collegio seja menor de trinta leguas de sua extremidade.
+
+§ 10º Quando o Districto tiver mais de hum Collegio reunidos os Eleitores em cada hum delles nos edificios designados pelo Governo, e observadas as formalidades indicadas no paragrapho 5º, procederão á eleição na fórma do mesmo paragrapho, devendo porêm a cedula de cada Eleitor conter dous nomes, hum para Deputado, e outro para Supplente, sem que se faça essa designação. Recolhidos, contados e apurados os votos, se lavrará a Acta, que será no mesmo acto transcripta no livro das notas do Tabellião do lugar, e assignada pela Mesa e Eleitores que o quizerem, sendo obrigado o dito Tabellião a dar logo traslado a quem o requerer. Desta Acta continuarão a ser extrahidas as tres copias de que trata o Artigo 79 da Lei, sendo porêm remettida á Camara Municipal da cabeça do Districto a que era destinada á da Capital da Provncia.
+
+§ 11º A remessa das Actas nunca deixará de ser feita pelo Correio, dentro do prazo, e com todas as formalidades prescriptas no Artigo 79 da Lei, ainda quando por duplicata hajão de chegar particularmente ao seu destino.
+
+§ 12º Trinta dias depois do marcado para a eleição a Camara Municipal da cabeça do Districto, reunida com os Eleitores do respectivo Collegio, que serão convocados, fará com elles a apuração, procedendo na fórma dos Artigos 85, 86 e 87 da Lei.
+
+O Cidadão que reunir maioria de votos será declarado, Deputado, e Supplente o seu immediato, ainda que só tenhão maioria relativa. Os Diplomas serão expedidos pela Camara Municipal na fórma do Artigo 88 da Lei.
+
+§ 13º O Cidadão que for eleito Deputado por mais de hum Districto terá opção do Districto que quizer representar, e será substituido pelo respectivo Supplente, e na falta deste proceder-se-ha á nova eleição. A opção será feita dentro de tres dias depois da verificação dos poderes; e na falta della a preferencia se regulará pela disposição do Artigo 124 da Lei.
+
+§ 14º As Provincias do Rio de Janeiro e Sergipe darão mais dous Deputados, e mais hum a de Piauhy.
+
+§ 15º A eleição dos Membros das Assembléas Provinciaes será tambem feita por Districtos, guardando-se a respeito della as mesmas regras estabelecidas para a eleição dos Deputados, e alterando-se o seu numero da maneira declarada no paragrapho seguinte.
+
+§ 16º A Assembléa Provincial da Bahia terá 42 Membros, a tres por Districto; a de Minas Geraes 40, a dous por Districto; a de Pernambuco 39, a tres por Districto; a de S. Paulo 36, a quatro por Districto; a do Rio de Janeiro, tantos quantos derem os seus Districtos á razão de 5, exceptuados o Districto ou Districtos da Côrte, e seu Municipio; a do Ceará 32, a quatro por Districto; as de S. Pedro e Maranhão 30, a cinco por Districto; a do Pará 30, a dez por Districto; as das Alagoas e Parahiba 30, a seis por Districto; a de Sergipe 24, a seis por Districto; a de Piauhy 24, a oito por Districto; as de Goyaz, Rio Grande do Norte e Mato Grosso 22, a onze por Districto; a de Santa Catharina, Espirito Santo, Amazonas e Paraná 20.
+
+§ 17º Nas Provincias que tiverem hum só Districto Eleitoral, o Governo dividirá pelos Collegios do mesmo Districto o numero dos Membros, de que se compuzer a Assembléa Provincial, elegendo cada Collegio o numero sómente dos que houver de dar.
+
+§ 18º Os Districtos ou subdivisões do Districto que derem até quatro Membros á Assembléa Provincial darão dous Supplentes; os que derem cinco até seis Membros, darão tres Supplentes; os que derem sete até oito, darão quatro Supplentes; e assim por diante.
+
+§ 19º Fica revogado o Artigo 111 da Lei.
+
+§ 20º Os Presidentes de Provincia, e seus Secretarios, os Commandantes de Armas, e Generaes em Chefe, os Inspectores de Fazenda Geral e Provincial, os Chefes de Policia, os Delegados e Subdelegados, os Juizes de Direito e Municipaes, não poderão ser votados para Membros das Assembléas Provinciaes, Deputados ou Senadores nos Collegios Eleitoraes dos Districtos em que exercerem autoridade ou jurisdicção. Os votos que recahirem em taes Empregados serão reputados nullos.
+
+Art. 2º Ficão revogadas todas as disposições em contrario.
+
+Luiz Pedreira do Coutto Ferraz, do Meu Conselho, Ministro e Secretario d'Estado dos Negocios do Imperio, assim o tenha entendido e faça executar. Palacio do Rio de Janeiro em dezenove de Setembro de mil oitocentos e cincoenta e cinco, trigesimo quarto da Independencia e do Imperio.
+
+Com a Rubrica de Sua Magestade o Imperador.
+
+Luiz Pedreira do Coutto Ferraz.
