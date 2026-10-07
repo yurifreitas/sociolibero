@@ -1,0 +1,9 @@
+.wrap { position: relative; overflow-x: auto; }
+.table { width: 100%; min-width: 880px; font-size: var(--fs-13); }
+.table th { text-align: left; font-weight: 600; color: var(--text-subtle); font-size: var(--fs-11); letter-spacing: .06em; text-transform: uppercase; padding: var(--space-3); border-bottom: 1px solid var(--border); white-space: nowrap; }
+.table td { padding: var(--space-3); border-bottom: 1px solid var(--border-soft); vertical-align: top; color: var(--text-muted); }
+.table td b { color: var(--text); font-weight: 600; }
+.n { text-align: right !important; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.sub { font-size: var(--fs-12); color: var(--text-subtle); margin-top: 2px; }
+.warn { font-size: var(--fs-12); color: var(--warn-text); margin-top: 2px; }
+.hi td { background: color-mix(in oklch, var(--warn-soft) 55%, transparent); }

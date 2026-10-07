@@ -2,7 +2,6 @@ import { Skeleton } from '@/components/atoms/Skeleton'
 import { ErrorState } from '@/components/molecules/ErrorState'
 import { Notice } from '@/components/molecules/Notice'
 import { SectionHeader } from '@/components/molecules/SectionHeader'
-import { DataStatusBanner } from '@/components/organisms/DataStatusBanner'
 import { ProvenanceCard } from '@/components/organisms/ProvenanceCard'
 import { PageTemplate } from '@/components/templates/PageTemplate'
 import { useElections, useForensics, useIndex } from '@/features/data/hooks'
@@ -26,7 +25,6 @@ export default function MetodoPage() {
   return (
     <PageTemplate width="narrow">
       <SectionHeader level={1} title="Método & Fontes" description="De onde vem cada número, como foi tratado e o que ele não permite concluir." />
-      {index && <DataStatusBanner index={index} />}
 
       <section className={styles.sec}>
         <SectionHeader level={2} title="Proveniência por eleição" description="Arquivo de origem, data do download e SHA-256 do arquivo baixado. O mesmo hash deve sair ao baixar de novo." />

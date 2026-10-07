@@ -4,11 +4,10 @@ import { Skeleton } from '@/components/atoms/Skeleton'
 import { EmptyState } from '@/components/molecules/EmptyState'
 import { ErrorState } from '@/components/molecules/ErrorState'
 import { Field } from '@/components/molecules/Field'
-import { Notice } from '@/components/molecules/Notice'
+import { InlineNote } from '@/components/molecules/InlineNote'
 import { StatTile } from '@/components/molecules/StatTile'
 import { fInt, fPct } from '@/lib/format'
 import { SectionHeader } from '@/components/molecules/SectionHeader'
-import { DataStatusBanner } from '@/components/organisms/DataStatusBanner'
 import { DigitChart } from '@/components/organisms/DigitChart'
 import { FingerprintHeatmap } from '@/components/organisms/FingerprintHeatmap'
 import { PowerCurves } from '@/components/organisms/PowerCurves'
@@ -89,22 +88,20 @@ export default function ForensePage() {
           </div>
         }
       />
-      <DataStatusBanner index={index} />
-      <Notice tone="warn" title="Anomalia estatística não é prova de fraude">
-        Desvios aparecem por acaso (com milhares de testes, alguns serão “significativos”), por diferenças legítimas entre
-        regiões e por municípios pequenos. Cada teste traz suas limitações; veja também a validação com fraude sintética abaixo.
-      </Notice>
+      <InlineNote id="forense-aviso" tone="warn" baseId="forense" dismissible={false} title="Anomalia estatística não é prova de fraude.">
+        Desvios aparecem por acaso (com milhares de testes, alguns serão “significativos”), por diferenças legítimas entre regiões e por municípios pequenos. Cada teste traz suas limitações; veja a validação com fraude sintética abaixo.
+      </InlineNote>
 
       {!f ? (
         <Skeleton height={360} />
       ) : (
         <>
-          <section aria-labelledby="fp" style={{ display: 'grid', gap: 'var(--space-6)' }}>
+          <section aria-labelledby="fp" style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: 'var(--space-6)' }}>
             <SectionHeader title="Impressão digital nacional" level={2} description="Densidade de comparecimento × voto no mais votado. A forma da nuvem é o objeto de análise." />
             {nac?.fingerprint ? <FingerprintHeatmap fp={nac.fingerprint} /> : <EmptyState title="Impressão digital indisponível" />}
           </section>
 
-          <section style={{ display: 'grid', gap: 'var(--space-6)' }}>
+          <section style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: 'var(--space-6)' }}>
             <SectionHeader title="Dígitos das contagens" level={2} description="Último dígito deve ser aproximadamente uniforme; o 2º dígito segue (com ressalvas) a Lei de Benford." />
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: 'var(--space-12)' }}>
               {nac?.ultimo_digito && <DigitChart title="Último dígito" data={nac.ultimo_digito} note="Com muitas contagens, qualquer desvio mínimo gera p baixo: olhe o tamanho do desvio, não só o p." />}
@@ -113,7 +110,7 @@ export default function ForensePage() {
           </section>
 
           {nac?.calibracao && (
-            <section style={{ display: 'grid', gap: 'var(--space-6)' }}>
+            <section style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: 'var(--space-6)' }}>
               <SectionHeader
                 title="Calibração: quantos falsos alarmes esperar"
                 level={2}
@@ -162,7 +159,7 @@ export default function ForensePage() {
             </section>
           )}
 
-          <section style={{ display: 'grid', gap: 'var(--space-6)' }}>
+          <section style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: 'var(--space-6)' }}>
             <SectionHeader
               title="Validação com fraude sintética"
               level={2}
@@ -179,7 +176,7 @@ export default function ForensePage() {
             )}
           </section>
 
-          <section style={{ display: 'grid', gap: 'var(--space-6)' }}>
+          <section style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: 'var(--space-6)' }}>
             <SectionHeader
               title="Municípios de maior prioridade de auditoria"
               level={2}

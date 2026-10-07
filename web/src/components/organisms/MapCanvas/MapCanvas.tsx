@@ -11,13 +11,15 @@ export type MapCanvasProps = {
   onSelect: (idx: number) => void
   renderTooltip: (idx: number) => ReactNode
   ariaLabel: string
+  /** enquadra a vista numa caixa (coordenadas de mundo); `key` muda → reenquadra. null volta ao Brasil */
+  focus?: { key: string; bbox: readonly [number, number, number, number] } | null
 }
 
 type View = { scale: number; tx: number; ty: number }
 const MAX_ZOOM = 80
 const cssVar = (name: string) => getComputedStyle(document.documentElement).getPropertyValue(name).trim()
 
-export function MapCanvas({ geometry, plan, selected, onSelect, renderTooltip, ariaLabel }: MapCanvasProps) {
+export function MapCanvas({ geometry, plan, selected, onSelect, renderTooltip, ariaLabel, focus }: MapCanvasProps) {
   const wrapRef = useRef<HTMLDivElement>(null)
   const canvasRef = useRef<HTMLCanvasElement>(null)
   const overlayRef = useRef<HTMLCanvasElement>(null)
@@ -89,6 +91,22 @@ export function MapCanvas({ geometry, plan, selected, onSelect, renderTooltip, a
         outline.addPath(f.path)
       }
       ctx.stroke(outline)
+    }
+    if (p.hatch) {
+      // hachura diagonal só onde não há valor (RS sem índice): o cinza liso poderia ser lido como “baixo”
+      ctx.save()
+      ctx.clip(p.hatch, 'evenodd')
+      ctx.strokeStyle = ink.current.text
+      ctx.globalAlpha = 0.55
+      ctx.lineWidth = 0.7 / scale
+      const step = 4.5 / scale
+      ctx.beginPath()
+      for (let x = vx0 - (vy1 - vy0); x < vx1; x += step) {
+        ctx.moveTo(x, vy1)
+        ctx.lineTo(x + (vy1 - vy0), vy0)
+      }
+      ctx.stroke()
+      ctx.restore()
     }
     snap.current.view = { ...view.current }
     snap.current.dirty = false
@@ -226,6 +244,34 @@ export function MapCanvas({ geometry, plan, selected, onSelect, renderTooltip, a
     return () => c.removeEventListener('wheel', onWheel)
   }, [zoomAt])
 
+  // enquadramento (ex.: camada do RS): reenquadra quando a chave muda; sem foco, volta ao Brasil inteiro
+  const focusKey = focus?.key ?? ''
+  useEffect(() => {
+    const { w, h } = size.current
+    if (!w || !h) return
+    if (!focus) {
+      if (touched.current) {
+        fitView()
+        snap.current.dirty = true
+        composed.current = null
+        requestDraw()
+      }
+      return
+    }
+    const [x0, y0, x1, y1] = focus.bbox
+    const bw = Math.max(1, x1 - x0)
+    const bh = Math.max(1, y1 - y0)
+    const sc = Math.min(w / bw, h / bh) * 0.9
+    const fit = size.current.fit
+    const scale = Math.min(fit * MAX_ZOOM, Math.max(fit, sc))
+    view.current = { scale, tx: w / 2 - ((x0 + x1) / 2) * scale, ty: h / 2 - ((y0 + y1) / 2) * scale }
+    touched.current = true
+    lastGesture.current = performance.now()
+    snap.current.dirty = true
+    composed.current = null
+    requestDraw()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [focusKey, requestDraw, fitView])
   // plano de cores / seleção mudaram → redesenha (e relê a tinta do tema)
   useEffect(() => {
     planRef.current = plan

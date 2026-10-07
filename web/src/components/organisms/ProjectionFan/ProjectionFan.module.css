@@ -1,0 +1,14 @@
+.fig { margin: 0; display: flex; flex-direction: column; gap: var(--space-2); min-width: 0; }
+.head { display: flex; flex-direction: column; gap: 2px; font-size: var(--fs-14); }
+.head span { font-size: var(--fs-12); color: var(--text-subtle); }
+.svg { width: 100%; height: auto; overflow: visible; }
+.grid { stroke: var(--border-soft); stroke-width: 1; }
+.tick { fill: var(--text-subtle); font-size: 11px; font-variant-numeric: tabular-nums; }
+.end { fill: currentColor; font-size: 14px; font-weight: 700; font-variant-numeric: tabular-nums; }
+.endSm { fill: var(--text-muted); font-size: 11px; font-variant-numeric: tabular-nums; }
+.det { font-size: var(--fs-12); color: var(--text-muted); }
+.det summary { cursor: pointer; padding: var(--space-1) 0; }
+.tbl { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; margin-top: var(--space-2); }
+.tbl th, .tbl td { text-align: right; padding: 3px var(--space-2); border-bottom: 1px solid var(--border-soft); font-weight: 400; }
+.tbl thead th { color: var(--text-subtle); font-weight: 600; }
+.tbl tbody th { text-align: left; color: var(--text-muted); }

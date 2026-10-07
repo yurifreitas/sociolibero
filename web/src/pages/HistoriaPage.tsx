@@ -3,24 +3,30 @@ import { Button } from '@/components/atoms/Button'
 import { Skeleton } from '@/components/atoms/Skeleton'
 import { ChipGroup } from '@/components/molecules/ChipGroup'
 import { EmptyState } from '@/components/molecules/EmptyState'
+import { PageGate } from '@/components/molecules/PageGate'
 import { ErrorState } from '@/components/molecules/ErrorState'
-import { Notice } from '@/components/molecules/Notice'
+import { InlineNote } from '@/components/molecules/InlineNote'
 import { SectionHeader } from '@/components/molecules/SectionHeader'
 import { Tabs } from '@/components/molecules/Tabs'
+import { AneisPanel } from '@/components/organisms/AneisPanel'
 import { DirectionList } from '@/components/organisms/DirectionList'
+import { EvolucoesPanel } from '@/components/organisms/EvolucoesPanel'
 import { EventPanel } from '@/components/organisms/EventPanel'
 import { HistoryTimeline, type TimelineSelection } from '@/components/organisms/HistoryTimeline'
 import { PeriodPanel } from '@/components/organisms/PeriodPanel'
 import { PrincipleList } from '@/components/organisms/PrincipleList'
 import { PageTemplate } from '@/components/templates/PageTemplate'
+import { useAneis } from '@/features/aneis/hooks'
 import { useHistoria, useIndex } from '@/features/data/hooks'
+import { useCenariosMacro, useEvolucoes } from '@/features/evolucoes/hooks'
 import { eventTrilhas, isCrossing, parseYear, TRILHAS, trilhaLabel } from '@/features/historia/model'
 import { oklchToRgb, rgbCss } from '@/lib/color'
 import { useTheme } from '@/lib/theme'
 import { useUrlState } from '@/lib/useUrlState'
 import styles from './HistoriaPage.module.css'
 
-type Aba = 'linha' | 'principios' | 'direcoes'
+type Aba = 'linha' | 'principios' | 'direcoes' | 'evolucoes' | 'aneis'
+const ABAS: Aba[] = ['principios', 'direcoes', 'evolucoes', 'aneis']
 const HUES = [250, 165, 70, 20, 310, 210]
 const csv = (s: string | null) => new Set((s ?? '').split(',').filter(Boolean))
 const toCsv = (s: Set<string>) => (s.size ? [...s].join(',') : null)
@@ -39,7 +45,12 @@ export default function HistoriaPage() {
   const histQ = useHistoria(index ? (index.historia ?? 'historia.json') : null)
   const data = histQ.data
 
-  const aba: Aba = get('aba') === 'principios' || get('aba') === 'direcoes' ? (get('aba') as Aba) : 'linha'
+  const aba: Aba = ABAS.find((a) => a === get('aba')) ?? 'linha'
+  const evQ = useEvolucoes(aba === 'evolucoes')
+  const cmQ = useCenariosMacro(aba === 'evolucoes')
+  const anQ = useAneis(aba === 'aneis')
+  const anelSel = get('an')
+  const edgeRaw = Number(get('ae'))
   const selCat = csv(get('cat'))
   const selTr = csv(get('tr'))
   const sel: TimelineSelection = useMemo(() => {
@@ -84,7 +95,7 @@ export default function HistoriaPage() {
   if (!index || histQ.isPending)
     return (
       <PageTemplate>
-        <div style={{ display: 'grid', gap: 16 }} aria-busy="true">
+        <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: 16 }} aria-busy="true">
           <Skeleton width={260} height={40} />
           <Skeleton height={44} />
           <Skeleton height={320} />
@@ -122,14 +133,16 @@ export default function HistoriaPage() {
       <SectionHeader
         level={1}
         title="História institucional"
-        description="Períodos, eventos e conceitos sobre a distribuição de poderes no Brasil, em três trilhas paralelas, com fontes e indicação de verificação."
+        description="Períodos, eventos e conceitos sobre a distribuição de poderes no Brasil, em três trilhas paralelas, com fontes e indicação de verificação. As abas Evoluções e Anéis olham para frente: cadeias de Markov entre regimes e laços causais."
       />
       {data.meta?.mock && (
-        <Notice tone="warn" title="Conteúdo de demonstração (MOCK)">
+        <InlineNote id="historia-mock" tone="warn" dismissible={false} title="Conteúdo de demonstração (MOCK).">
           Os textos abaixo são marcadores de posição para desenvolver a interface. Não descrevem fatos.
-        </Notice>
+        </InlineNote>
       )}
-      {data.meta?.aviso && <Notice tone="info">{data.meta.aviso}</Notice>}
+      <InlineNote id="historia-aviso" tone="info" baseId="historia">
+        Linha do tempo compilada de fontes secundárias. “Link ok” significa que a URL abriu e trata do tema, não que cada número foi conferido; itens “de memória” ou “aproximados” pedem fonte primária.
+      </InlineNote>
 
       <Tabs<Aba>
         label="Seções de história"
@@ -139,6 +152,8 @@ export default function HistoriaPage() {
           { key: 'linha', label: 'Linha do tempo', count: data.eventos.length },
           { key: 'principios', label: 'Princípios', count: nPrinc },
           { key: 'direcoes', label: 'Direções', count: nDir },
+          { key: 'evolucoes', label: 'Evoluções', count: undefined },
+          { key: 'aneis', label: 'Anéis', count: undefined },
         ]}
       >
         {aba === 'linha' && (
@@ -199,6 +214,20 @@ export default function HistoriaPage() {
           (nPrinc > 0 ? <PrincipleList items={data.principios ?? []} /> : <EmptyState title="Sem princípios publicados" />)}
         {aba === 'direcoes' &&
           (nDir > 0 ? <DirectionList items={data.direcoes ?? []} /> : <EmptyState title="Sem direções publicadas" />)}
+        {aba === 'evolucoes' && <PageGate query={evQ} file="evolucoes.json">{(ev) => <EvolucoesPanel ev={ev} cm={cmQ.data} />}</PageGate>}
+        {aba === 'aneis' && (
+          <PageGate query={anQ} file="aneis.json">
+            {(d) => (
+              <AneisPanel
+                data={d}
+                selected={anelSel && d.aneis.some((a) => a.id === anelSel) ? anelSel : null}
+                edge={Number.isInteger(edgeRaw) && get('ae') != null ? edgeRaw : null}
+                onSelect={(id) => update({ an: id, ae: null })}
+                onEdge={(i) => update({ ae: i == null ? null : String(i) })}
+              />
+            )}
+          </PageGate>
+        )}
       </Tabs>
     </PageTemplate>
   )

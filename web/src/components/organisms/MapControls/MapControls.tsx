@@ -21,6 +21,10 @@ export type MapControlsProps = {
   onSetor: (s: SetorKey) => void
   needsCandidate: boolean
   needsSector: boolean
+  /** anos disponíveis para métricas por ano (violência); vazio = não se aplica */
+  years?: number[]
+  ano?: number
+  onAno?: (y: number) => void
 }
 
 export function MapControls(p: MapControlsProps) {
@@ -71,6 +75,17 @@ export function MapControls(p: MapControlsProps) {
                 <option key={s.key} value={s.key}>
                   {s.label}
                 </option>
+              ))}
+            </Select>
+          )}
+        </Field>
+      )}
+      {p.years && p.years.length > 0 && (
+        <Field label="Ano" hint="Atlas municipal vai até 2022; 2020 e 2023 usam o SIM.">
+          {(id) => (
+            <Select id={id} value={String(p.ano)} onChange={(e) => p.onAno?.(Number(e.target.value))}>
+              {[...p.years!].reverse().map((y) => (
+                <option key={y} value={String(y)}>{y}</option>
               ))}
             </Select>
           )}

@@ -188,6 +188,8 @@ export const DecisaoSchema = z.looseObject({
   reversibilidade: z.string(),
   base_evidencia: z.string(),
   iniciativa_congresso: z.boolean().nullish(),
+  origem: z.string().nullish(),
+  limite_modelo: z.string().nullish(),
   p_aprovacao: z.looseObject({ direita: z.number(), esquerda: z.number() }),
   impacto_2035: Impacto,
 })

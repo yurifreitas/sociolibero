@@ -1,0 +1,11 @@
+.close { appearance: none; border: 1px solid var(--border-strong); background: var(--surface); color: var(--text-muted); border-radius: var(--radius-sm); padding: 6px 12px; font: inherit; font-size: var(--fs-12); cursor: pointer; min-height: 32px; }
+.close:hover { color: var(--text); background: var(--surface-2); }
+.close:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.stack { display: flex; height: 18px; border-radius: 999px; overflow: hidden; background: var(--surface-3); gap: 2px; }
+.stack span { display: block; min-width: 4px; }
+.legend { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-6); font-size: var(--fs-13); color: var(--text-muted); }
+.legend li { display: inline-flex; align-items: center; gap: 8px; }
+.legend i { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+.legend b { color: var(--text); font-weight: 600; text-transform: capitalize; }
+.questions { list-style: decimal; margin: 0; padding-left: 1.4em; display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-3); font-size: var(--fs-14); color: var(--text-muted); }
+.questions li { padding: var(--space-4) var(--space-4) var(--space-4) var(--space-2); line-height: 1.55; }

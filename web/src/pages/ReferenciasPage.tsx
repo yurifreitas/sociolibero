@@ -22,7 +22,7 @@ export default function ReferenciasPage() {
         description="Projetos, artigos e bases que inspiram a metodologia. “A confirmar” indica referência ainda não checada na fonte."
       />
       {!index || refQ.isPending ? (
-        <div style={{ display: 'grid', gap: 12 }} aria-busy="true">
+        <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: 12 }} aria-busy="true">
           <Skeleton height={28} width={220} />
           <Skeleton height={72} />
           <Skeleton height={72} />

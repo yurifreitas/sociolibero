@@ -1,22 +1,46 @@
 *, *::before, *::after { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; scroll-padding-top: calc(var(--chrome-h) + var(--space-4)); }
 body {
-  margin: 0; background: var(--bg); color: var(--text);
-  font: 400 var(--fs-14)/1.55 var(--font-ui); -webkit-font-smoothing: antialiased;
+  margin: 0; color: var(--text); background: var(--bg);
+  font: 400 var(--fs-14)/1.55 var(--font-ui); -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+  font-feature-settings: 'cv11', 'ss01', 'calt';
+}
+/* Brilho de fundo numa camada fixa composta (barato), em vez de background-attachment: fixed (repinta a cada rolagem) */
+body::before {
+  content: ''; position: fixed; inset: 0; z-index: -1; pointer-events: none; transform: translateZ(0);
+  background:
+    radial-gradient(900px 420px at 12% -8%, var(--glow), transparent 70%),
+    radial-gradient(700px 360px at 92% -12%, color-mix(in oklch, var(--accent) 10%, transparent), transparent 70%);
 }
 h1, h2, h3, h4, p { margin: 0; }
-h1, h2, h3 { line-height: 1.2; letter-spacing: -0.015em; font-weight: 600; }
-a { color: var(--brand); text-underline-offset: 3px; }
+h1, h2, h3 { line-height: 1.18; letter-spacing: -0.02em; font-weight: 600; text-wrap: balance; }
+p { text-wrap: pretty; }
+a { color: var(--brand); text-underline-offset: 3px; text-decoration-thickness: 1px; }
 button, input, select { font: inherit; color: inherit; }
 table { border-collapse: collapse; }
 td, th, .num { font-variant-numeric: tabular-nums; }
-code, kbd, pre { font-family: var(--font-mono); font-size: .92em; }
+code, kbd, pre { font-family: var(--font-mono); font-size: .9em; font-variant-numeric: tabular-nums; }
 :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
 ::selection { background: var(--brand-soft); }
 .sr-only {
   position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden;
   clip: rect(0 0 0 0); white-space: nowrap; border: 0;
 }
+
+/* Superfície em camadas: hairline + realce superior sutil (brilho de borda), sem sombra pesada */
+.card {
+  background: var(--surface); border: 1px solid var(--border-soft); border-radius: var(--radius-lg);
+  box-shadow: inset 0 1px 0 var(--hairline-hi), var(--shadow-1);
+}
+.eyebrow { font-size: var(--fs-11); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--text-subtle); }
+
+/* View transitions entre rotas: troca curta com leve deslocamento */
+@keyframes vt-out { to { opacity: 0; transform: translateY(-4px); } }
+@keyframes vt-in { from { opacity: 0; transform: translateY(6px); } }
+::view-transition-old(root) { animation: vt-out 120ms var(--ease-out) both; }
+::view-transition-new(root) { animation: vt-in 200ms var(--ease-out) both; }
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .001ms !important; transition-duration: .001ms !important; }
+  ::view-transition-old(root), ::view-transition-new(root) { animation: none !important; }
 }

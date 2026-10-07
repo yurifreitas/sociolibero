@@ -126,12 +126,15 @@ export interface FillPlan {
   colors: string[]
   /** bin de cor de cada município (para desenhar só os visíveis quando há zoom) */
   featureBin: Uint16Array
+  /** municípios a hachurar (ex.: RS sem índice), nunca preenchidos como se tivessem valor */
+  hatch: Path2D | null
 }
 
 /** Agrupa os municípios em ≤257 Path2D por cor: 257 fills por quadro em vez de 5570. */
-export function buildFillPlan(g: MapGeometry, values: Float64Array, domain: Domain, theme: Theme, nodata: string): FillPlan {
+export function buildFillPlan(g: MapGeometry, values: Float64Array, domain: Domain, theme: Theme, nodata: string, hatchMask?: Uint8Array): FillPlan {
   const bins = Array.from({ length: LUT_SIZE + 1 }, () => new Path2D())
   const featureBin = new Uint16Array(g.features.length)
+  const hatch = hatchMask ? new Path2D() : null
   const span = domain.max - domain.min || 1
   const lmin = Math.log1p(domain.min)
   const lspan = Math.log1p(domain.max) - lmin || 1
@@ -143,9 +146,10 @@ export function buildFillPlan(g: MapGeometry, values: Float64Array, domain: Doma
       b = Math.min(LUT_SIZE - 1, Math.max(0, Math.round(t * (LUT_SIZE - 1))))
     }
     featureBin[i] = b
+    if (hatch && hatchMask?.[i]) hatch.addPath((g.features[i] as MapFeature).path)
     bins[b]?.addPath((g.features[i] as MapFeature).path)
   }
   const colors = lut(domain.kind, theme).map(rgbCss)
   colors.push(nodata)
-  return { bins, colors, featureBin }
+  return { bins, colors, featureBin, hatch }
 }

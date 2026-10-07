@@ -1,0 +1,1 @@
+export { MacroIntegration } from './MacroIntegration'

@@ -6,8 +6,8 @@ import { ErrorState } from '@/components/molecules/ErrorState'
 import { Field } from '@/components/molecules/Field'
 import { Select } from '@/components/atoms/Select'
 import { MunicipalityPanel } from '@/components/organisms/MunicipalityPanel'
-import { DataStatusBanner } from '@/components/organisms/DataStatusBanner'
 import { PageTemplate } from '@/components/templates/PageTemplate'
+import { useClimaRs } from '@/features/climars/hooks'
 import { useElections, useExposicao, useForensics, useGeo, useIndex, useTerritorios } from '@/features/data/hooks'
 import { namesFromGeo } from '@/features/data/names'
 import type { Election } from '@/features/data/schemas'
@@ -23,6 +23,7 @@ export default function MunicipioPage() {
   const elQs = useElections(index?.eleicoes.map((e) => e.id) ?? [])
   const expQ = useExposicao(index ? (index.exposicao ?? 'exposicao.json') : null)
   const terrQ = useTerritorios(index ? (index.territorios ?? 'territorios.json') : null)
+  const rsQ = useClimaRs(ibge.startsWith('43')) // RS: camada de risco climático (1,2 MB), só quando é município gaúcho
 
   const eId = get('e') && index?.eleicoes.some((x) => x.id === get('e')) ? (get('e') as string) : index?.eleicoes[0]?.id
   const forAvail = !!(eId && index?.forense.includes(eId))
@@ -37,7 +38,7 @@ export default function MunicipioPage() {
   if (loading)
     return (
       <PageTemplate width="narrow">
-        <div style={{ display: 'grid', gap: 16 }} aria-busy="true">
+        <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: 16 }} aria-busy="true">
           <Skeleton width={260} height={40} />
           <Skeleton height={120} />
           <Skeleton height={240} />
@@ -52,7 +53,7 @@ export default function MunicipioPage() {
   if (!place || !election)
     return (
       <PageTemplate width="narrow">
-        <EmptyState icon="map" title="Município não encontrado" action={<Link to="/">Voltar ao mapa</Link>}>
+        <EmptyState icon="map" title="Município não encontrado" action={<Link to="/mapa">Voltar ao mapa</Link>}>
           Não há município com o código IBGE “{ibge}” na malha carregada.
         </EmptyState>
       </PageTemplate>
@@ -61,7 +62,7 @@ export default function MunicipioPage() {
   return (
     <PageTemplate width="narrow">
       <div className={styles.top}>
-        <Link to={`/?e=${election.meta.id}&mun=${ibge}`} className={styles.back}>
+        <Link to={`/mapa?e=${election.meta.id}&mun=${ibge}`} className={styles.back}>
           ← Voltar ao mapa
         </Link>
         <div className={styles.pick}>
@@ -76,7 +77,6 @@ export default function MunicipioPage() {
           </Field>
         </div>
       </div>
-      <DataStatusBanner index={index} />
       <MunicipalityPanel
         ibge={ibge}
         nome={place.nome}
@@ -86,6 +86,7 @@ export default function MunicipioPage() {
         allElections={all}
         exposicao={expQ.data}
         territorios={terrQ.data}
+        climaRs={rsQ.data}
         variant="full"
       />
     </PageTemplate>

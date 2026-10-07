@@ -1,0 +1,25 @@
+.wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--space-8); align-items: start; }
+.svg { width: 100%; height: auto; max-width: 520px; margin: 0 auto; overflow: visible; }
+.node { cursor: pointer; outline: none; }
+.node:focus-visible .disc { stroke: var(--focus); stroke-width: 3.2; }
+.disc { fill: var(--surface); stroke-width: 2; }
+.r { stroke: var(--st-parcial); }
+.b { stroke: var(--st-derivado); }
+.on { fill: color-mix(in oklch, var(--brand) 22%, var(--surface)); stroke-width: 3.4; }
+.num { font-size: 13px; font-weight: 700; fill: var(--text); pointer-events: none; font-variant-numeric: tabular-nums; }
+.side { display: flex; flex-direction: column; gap: var(--space-4); min-width: 0; }
+.legend { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); margin: 0; padding: 0; list-style: none; font-size: var(--fs-12); color: var(--text-muted); }
+.legend i { display: inline-block; width: 18px; height: 3px; border-radius: 2px; margin-right: 6px; vertical-align: middle; }
+.names { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: minmax(0, 1fr); gap: 2px; }
+.nm { display: block; width: 100%; text-align: left; border: 0; background: none; padding: 6px var(--space-2); border-radius: var(--radius-sm); cursor: pointer; color: var(--text-muted); font: inherit; font-size: var(--fs-13); }
+.nm:hover { background: var(--surface-2); color: var(--text); }
+.nm:focus-visible { outline: 2px solid var(--focus); outline-offset: 1px; }
+.nm b { display: inline-block; min-width: 1.6em; font-variant-numeric: tabular-nums; color: var(--text); }
+.nm em { font-style: normal; color: var(--text-subtle); }
+.nmOn { background: var(--brand-soft); color: var(--text); }
+.det { border: 1px solid var(--border-soft); border-radius: var(--radius-lg); padding: var(--space-4); background: var(--surface-2); }
+.h4 { margin: 0 0 var(--space-2); font-size: var(--fs-13); }
+.det ul { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-3); font-size: var(--fs-13); color: var(--text-muted); }
+.det li p { margin: 2px 0 0; font-size: var(--fs-12); color: var(--text-subtle); line-height: 1.5; }
+.none { margin: 0; font-size: var(--fs-13); color: var(--text-subtle); }
+@media (max-width: 900px) { .wrap { grid-template-columns: 1fr; } }

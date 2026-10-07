@@ -1,0 +1,17 @@
+.card { position: relative; display: flex; flex-direction: column; gap: var(--space-3); padding: var(--space-5); min-width: 0; overflow: hidden; transition: transform var(--dur-2) var(--ease-spring), border-color var(--dur-2) var(--ease-out); }
+.card::after { content: ''; position: absolute; inset: 0; pointer-events: none; background: radial-gradient(420px 160px at 0% 0%, var(--glow), transparent 70%); opacity: .55; }
+.card:hover { transform: translateY(-2px); border-color: var(--border-strong); }
+.card > * { position: relative; z-index: 1; }
+.head { display: flex; align-items: flex-start; justify-content: space-between; gap: var(--space-3); }
+.label { margin: 0; font-size: var(--fs-12); font-weight: 600; letter-spacing: .02em; color: var(--text-muted); line-height: 1.35; }
+.base { flex: none; display: inline-flex; align-items: center; gap: 6px; height: 22px; padding: 0 9px 0 7px; border-radius: var(--radius-full); border: 1px solid var(--border-soft); background: var(--surface-2); color: var(--text-muted); font-size: var(--fs-11); font-weight: 600; cursor: pointer; transition: border-color var(--dur-1) var(--ease-out), color var(--dur-1) var(--ease-out); }
+.base:hover { border-color: var(--border-strong); color: var(--text); }
+.main { display: flex; align-items: baseline; flex-wrap: wrap; gap: var(--space-2) var(--space-3); }
+.value { margin: 0; display: inline-flex; align-items: baseline; gap: 6px; font-size: var(--fs-32); font-weight: 650; letter-spacing: -0.035em; line-height: 1.05; }
+.lg .value { font-size: var(--fs-48); }
+.unit { font-size: var(--fs-13); font-weight: 500; letter-spacing: 0; color: var(--text-muted); }
+.delta { display: inline-flex; align-items: center; padding: 2px 9px; border-radius: var(--radius-full); font-size: var(--fs-12); font-weight: 600; font-variant-numeric: tabular-nums; background: var(--surface-2); color: var(--text-muted); }
+.pos { background: color-mix(in oklch, var(--pos) 15%, var(--surface)); color: var(--pos); }
+.neg { background: color-mix(in oklch, var(--neg) 15%, var(--surface)); color: var(--neg); }
+.spark { margin-top: auto; }
+.foot { margin: 0; margin-top: auto; font-size: var(--fs-12); color: var(--text-subtle); line-height: 1.45; }

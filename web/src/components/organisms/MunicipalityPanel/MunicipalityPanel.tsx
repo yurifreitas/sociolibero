@@ -8,6 +8,8 @@ import { fInt, fPct } from '@/lib/format'
 import { pctOf, ranking } from '@/features/data/selectors'
 import { SETORES } from '@/features/map/metrics'
 import { TerritoryBlock } from '@/components/organisms/TerritoryBlock'
+import { ClimaRsBlock } from '@/components/organisms/ClimaRsBlock'
+import type { ClimaRs } from '@/features/climars/schemas'
 import type { Election, Exposicao, Forensics, Territorios } from '@/features/data/schemas'
 import styles from './MunicipalityPanel.module.css'
 
@@ -20,11 +22,12 @@ export type MunicipalityPanelProps = {
   allElections?: Election[]
   exposicao?: Exposicao | null
   territorios?: Territorios | null
+  climaRs?: ClimaRs | null
   variant: 'compact' | 'full'
   onClose?: () => void
 }
 
-export function MunicipalityPanel({ ibge, nome, uf, election, forensics, allElections, exposicao, territorios, variant, onClose }: MunicipalityPanelProps) {
+export function MunicipalityPanel({ ibge, nome, uf, election, forensics, allElections, exposicao, territorios, climaRs, variant, onClose }: MunicipalityPanelProps) {
   const row = election.linhas[ibge]
   const full = variant === 'full'
   const exp = exposicao?.linhas[ibge]
@@ -99,6 +102,8 @@ export function MunicipalityPanel({ ibge, nome, uf, election, forensics, allElec
               </ul>
             </div>
           )}
+
+          {climaRs?.linhas[ibge] && <ClimaRsBlock row={climaRs.linhas[ibge]} meta={climaRs.meta} compact={!full} />}
 
           {territorios && <TerritoryBlock territorios={territorios} ibge={ibge} compact={!full} />}
 

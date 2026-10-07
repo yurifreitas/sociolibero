@@ -2,6 +2,8 @@ import type { ScaleKind } from '@/lib/color'
 import { fCompact, fInt, fNum1, fPct, fPp, fSigned1, fZ } from '@/lib/format'
 import { quantile, sortedFinite } from '@/lib/stats'
 import type { Election, ElectionRow, Exposicao, Forensics, SetorKey, Territorios } from '@/features/data/schemas'
+import type { ClimaRs } from '@/features/climars/schemas'
+import type { HumanoMunicipal } from '@/features/gente/schemas'
 import { toPercent } from '@/features/territorios/model'
 
 export type MetricKey =
@@ -17,6 +19,10 @@ export type MetricKey =
   | 'pop_indigena'
   | 'pop_quilombola'
   | 'ti_area'
+  | 'homicidios'
+  | 'vitimas_negras'
+  | 'mae_adolescente'
+  | 'risco_rs'
 
 export interface MetricDef {
   key: MetricKey
@@ -29,6 +35,10 @@ export interface MetricDef {
   needsSector: boolean
   /** vem de territorios.json (null = sem dado, nunca zero) */
   territory?: boolean
+  /** vem de clima_rs_municipal.json (só RS; sem índice = hachurado, nunca promovido) */
+  climaRs?: boolean
+  /** vem de humano_municipal.json (por ano; null = sem dado) */
+  humano?: { min: number; max: number; defaultYear: number }
   help: string
 }
 
@@ -44,6 +54,10 @@ export const METRICS: MetricDef[] = [
   { key: 'exposicao', label: 'Estrutura econômica (% do VAB)', kind: 'seq', election: false, forensic: false, needsCandidate: false, needsSector: true, help: 'Participação do setor na estrutura econômica municipal (IBGE).' },
   { key: 'pop_indigena', label: 'População indígena (% da população)', kind: 'earth', election: false, forensic: false, needsCandidate: false, needsSector: false, territory: true, help: 'População indígena ÷ população total do município (Censo). Escala logarítmica.' },
   { key: 'pop_quilombola', label: 'População quilombola (% da população)', kind: 'earth', election: false, forensic: false, needsCandidate: false, needsSector: false, territory: true, help: 'População quilombola ÷ população total do município (Censo). Escala logarítmica.' },
+  { key: 'homicidios', label: 'Homicídios por 100 mil habitantes', kind: 'warm', election: false, forensic: false, needsCandidate: false, needsSector: false, humano: { min: 2010, max: 2023, defaultYear: 2022 }, help: 'Taxa de homicídios por município de residência (Atlas da Violência; 2020 e 2023 pelo SIM). Taxas de municípios pequenos oscilam por acaso.' },
+  { key: 'vitimas_negras', label: 'Vítimas de homicídio negras (%)', kind: 'warm', election: false, forensic: false, needsCandidate: false, needsSector: false, humano: { min: 2015, max: 2023, defaultYear: 2023 }, help: 'Pretos e pardos ÷ vítimas com raça informada (SIM). Só municípios com pelo menos 10 vítimas com raça informada.' },
+  { key: 'mae_adolescente', label: 'Nascidos de mães até 17 anos (%)', kind: 'warm', election: false, forensic: false, needsCandidate: false, needsSector: false, humano: { min: 2014, max: 2023, defaultYear: 2023 }, help: 'Nascidos vivos de mães de até 17 anos ÷ nascidos vivos (SINASC). Só municípios com pelo menos 30 nascimentos.' },
+  { key: 'risco_rs', label: 'Risco climático RS: prioridade preventiva (0–100)', kind: 'warm', election: false, forensic: false, needsCandidate: false, needsSector: false, climaRs: true, help: 'Índice de PRIORIDADE preventiva dos 497 municípios do RS (impacto observado em 2024, déficit de prevenção e exposição). Não é previsão de cheia. Município sem índice aparece hachurado e fora do ranking, nunca promovido.' },
   { key: 'ti_area', label: 'Terras indígenas no município (ha)', kind: 'earth', election: false, forensic: false, needsCandidate: false, needsSector: false, territory: true, help: 'Área de terras indígenas sobreposta ao município, em hectares. Escala logarítmica.' },
 ]
 export const metricDef = (k: string): MetricDef => METRICS.find((m) => m.key === k) ?? (METRICS[0] as MetricDef)
@@ -83,8 +97,36 @@ export interface MetricContext {
   forensics?: Forensics
   exposicao?: Exposicao | null
   territorios?: Territorios | null
+  humano?: HumanoMunicipal | null
+  climaRs?: ClimaRs | null
+  ano?: number
   candidate?: string
   setor?: SetorKey
+}
+
+const pick = (row: Record<string, Record<string, number | null>> | undefined, f: string, y: number): number | null => row?.[f]?.[String(y)] ?? null
+
+/** Violência e nascimentos por município e ano. null = sem dado (nunca vira zero). */
+function humanoValue(key: MetricKey, ibge: string, ctx: MetricContext): number | null {
+  const row = ctx.humano?.linhas[ibge]
+  const y = ctx.ano
+  if (!row || y == null) return null
+  if (key === 'homicidios') {
+    const taxa = pick(row, 'taxa_homicidios', y)
+    if (taxa != null) return taxa
+    // 2020 (Atlas municipal com defeito na origem) e 2023 (sem Atlas municipal): SIM ÷ população
+    const sim = pick(row, 'sim_homicidios', y)
+    const pop = pick(row, 'pop', y)
+    return sim != null && pop != null && pop > 0 ? (sim / pop) * 100_000 : null
+  }
+  if (key === 'vitimas_negras') {
+    const n = pick(row, 'vitimas_raca_informada', y)
+    const p = pick(row, 'pct_vitimas_negras', y)
+    return n != null && n >= 10 ? p : null
+  }
+  const nasc = pick(row, 'nascidos', y)
+  const mae = pick(row, 'mae_ate_17', y)
+  return nasc != null && nasc >= 30 && mae != null ? (mae / nasc) * 100 : null
 }
 
 export function valueOf(key: MetricKey, ibge: string, ctx: MetricContext, compare: boolean): number | null {
@@ -100,6 +142,8 @@ export function valueOf(key: MetricKey, ibge: string, ctx: MetricContext, compar
     if (key === 'ti_area') return r.ti_area_ha ?? null
     return toPercent(t, key === 'pop_indigena' ? r.pct_indigena : r.pct_quilombola)
   }
+  if (key === 'risco_rs') return ctx.climaRs?.linhas[ibge]?.indice.score_atual ?? null
+  if (key === 'homicidios' || key === 'vitimas_negras' || key === 'mae_adolescente') return humanoValue(key, ibge, ctx)
   if (key === 'exposicao') {
     const r = ctx.exposicao?.linhas[ibge]
     return r && ctx.setor ? r[ctx.setor] * 100 : null
@@ -143,6 +187,7 @@ export function domainFor(def: MetricDef, values: Float64Array, compare: boolean
     return { min: -m, max: m, kind: 'div' }
   }
   if (def.key === 'score') return { min: 0, max: Math.max(40, hi || 0), kind: def.kind }
+  if (def.key === 'risco_rs') return { min: 0, max: 60, kind: def.kind }
   if (!Number.isFinite(lo) || lo === hi) return { min: 0, max: 1, kind: def.kind }
   return { min: lo, max: hi, kind: def.kind }
 }
@@ -151,16 +196,18 @@ export function formatValue(key: MetricKey, v: number | null | undefined, compar
   if (v == null || Number.isNaN(v)) return 'sem dado'
   if (compare) return fPp(v)
   if (key === 'ti_area') return `${fInt(v)} ha`
+  if (key === 'homicidios') return `${fNum1(v)} por 100 mil`
   if (key === 'zt' || key === 'zn') return fZ(v)
-  if (key === 'score') return fNum1(v)
+  if (key === 'score' || key === 'risco_rs') return fNum1(v)
   if (key === 'margem') return `${fNum1(v)} pp`
   return fPct(v)
 }
 export const formatTick = (key: MetricKey, v: number, compare: boolean): string => {
   if (compare) return fSigned1(v)
   if (key === 'ti_area') return fCompact(v)
+  if (key === 'homicidios') return String(Math.round(v))
   if (key === 'pop_indigena' || key === 'pop_quilombola') return v < 1 ? fNum1(v) + '%' : `${Math.round(v)}%`
   if (key === 'zt' || key === 'zn') return fZ(v)
-  if (key === 'score') return String(Math.round(v))
+  if (key === 'score' || key === 'risco_rs') return String(Math.round(v))
   return `${Math.round(v)}${key === 'margem' ? ' pp' : '%'}`
 }

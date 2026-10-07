@@ -1,0 +1,21 @@
+.fig { margin: 0; padding: var(--space-4) var(--space-4) var(--space-3); overflow-x: auto; }
+.svg { width: 100%; min-width: 760px; height: auto; display: block; }
+.grid { stroke: var(--border-soft); stroke-width: 1; stroke-dasharray: 2 4; }
+.tick { fill: var(--text-subtle); font-size: 10.5px; font-variant-numeric: tabular-nums; }
+.c1500 { stroke: var(--warn); stroke-width: 1.2; }
+.c1500t { fill: var(--warn-text); font-size: 10.5px; }
+.pA { fill: color-mix(in oklch, var(--brand) 22%, var(--surface-2)); }
+.pB { fill: color-mix(in oklch, var(--accent) 22%, var(--surface-2)); }
+.pText { fill: var(--text); font-size: 12px; font-weight: 600; }
+.lane { fill: var(--text-subtle); font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; }
+.cBar, .eBar { cursor: pointer; transition: opacity var(--dur-1) var(--ease-out), filter var(--dur-1); }
+.cBar { fill: color-mix(in oklch, var(--accent) 70%, transparent); stroke: var(--accent); stroke-width: 1; stroke-dasharray: 3 2; }
+.eBar { fill: color-mix(in oklch, var(--brand) 70%, transparent); stroke: var(--brand); stroke-width: 1; }
+.cBar:hover, .eBar:hover { filter: brightness(1.15); }
+.cBar:focus-visible, .eBar:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.on { stroke: var(--text); stroke-width: 2; stroke-dasharray: none; }
+.cap { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); font-size: var(--fs-12); color: var(--text-subtle); padding: var(--space-2) var(--space-2) 0; }
+.swC, .swE { display: inline-block; width: 12px; height: 8px; border-radius: 2px; margin-right: 4px; }
+.swC { background: var(--accent); }
+.swE { background: var(--brand); }
+@media (prefers-reduced-motion: reduce) { .cBar, .eBar { transition: none; } }

@@ -1,0 +1,13 @@
+.axis { stroke: var(--border); stroke-width: 1; }
+.zero { stroke: var(--text-subtle); stroke-width: 1.2; }
+.ic { stroke: var(--text-subtle); stroke-width: 3; stroke-linecap: round; opacity: .55; }
+.icHit { stroke: var(--warn); stroke-width: 3.5; stroke-linecap: round; }
+.r { fill: var(--text-muted); }
+.rHit { fill: var(--warn-text); }
+.det { margin-top: var(--space-1); font-size: var(--fs-12); }
+.det summary { cursor: pointer; color: var(--text-subtle); }
+.det summary:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.det p { margin: var(--space-1) 0 0; line-height: 1.5; }
+.more { appearance: none; border: 1px solid var(--border-strong); background: var(--surface); color: var(--text-muted); border-radius: 999px; padding: 6px 14px; font: inherit; font-size: var(--fs-13); cursor: pointer; min-height: 36px; }
+.more:hover { color: var(--text); background: var(--surface-2); }
+.more:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }

@@ -1,0 +1,21 @@
+.rail {
+  position: sticky; top: var(--header-h); z-index: 19; height: var(--rail-h); display: flex; align-items: center; gap: var(--space-3);
+  padding: 0 var(--space-6); background: color-mix(in oklch, var(--bg) 95%, var(--surface-2));
+  border-bottom: 1px solid var(--border-soft);
+}
+.caption { display: inline-flex; align-items: center; gap: 6px; flex: none; font-size: var(--fs-11); font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--text-subtle); }
+.scroller { flex: 1; min-width: 0; overflow-x: auto; scrollbar-width: none; mask-image: linear-gradient(90deg, transparent 0, #000 8px, #000 calc(100% - 28px), transparent 100%); padding: 0 8px; margin: 0 -8px; }
+.scroller::-webkit-scrollbar { display: none; }
+.chips { display: flex; align-items: center; gap: var(--space-2); margin: 0; padding: 0; list-style: none; width: max-content; }
+.warn { font-size: var(--fs-12); color: var(--text-muted); }
+.more { height: 28px; padding: 0 10px; border-radius: var(--radius-full); border: 1px dashed var(--border-strong); background: transparent; color: var(--text-muted); font-size: var(--fs-12); font-weight: 600; cursor: pointer; }
+.more:hover { background: var(--surface-2); color: var(--text); }
+.open {
+  flex: none; display: inline-flex; align-items: center; gap: var(--space-2); height: 30px; padding: 0 6px 0 11px; border-radius: var(--radius-md);
+  background: var(--surface); border: 1px solid var(--border); color: var(--text); font-size: var(--fs-12); font-weight: 500; cursor: pointer;
+  box-shadow: inset 0 1px 0 var(--hairline-hi); transition: border-color var(--dur-1) var(--ease-out), transform var(--dur-1) var(--ease-spring);
+}
+.open:hover { border-color: var(--border-strong); }
+.open:active { transform: scale(.98); }
+.count { display: inline-flex; align-items: center; justify-content: center; min-width: 18px; height: 18px; padding: 0 5px; border-radius: 9px; background: color-mix(in oklch, var(--st-preliminar) 22%, var(--surface)); color: var(--st-preliminar); font: 600 var(--fs-11)/1 var(--font-mono); }
+@media (max-width: 860px) { .caption, .openLabel, .open kbd { display: none; } .open { padding: 0 10px; } .rail { padding: 0 var(--space-3); gap: var(--space-2); } }

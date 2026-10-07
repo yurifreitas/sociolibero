@@ -2,11 +2,10 @@ import { useMemo } from 'react'
 import { Skeleton } from '@/components/atoms/Skeleton'
 import { EmptyState } from '@/components/molecules/EmptyState'
 import { ErrorState } from '@/components/molecules/ErrorState'
-import { Notice } from '@/components/molecules/Notice'
+import { InlineNote } from '@/components/molecules/InlineNote'
 import { SectionHeader } from '@/components/molecules/SectionHeader'
 import { SegmentedControl } from '@/components/molecules/SegmentedControl'
 import { StatTile } from '@/components/molecules/StatTile'
-import { DataStatusBanner } from '@/components/organisms/DataStatusBanner'
 import { DecisionDetail } from '@/components/organisms/DecisionDetail'
 import { DecisionFilters } from '@/components/organisms/DecisionFilters'
 import { DecisionScatter } from '@/components/organisms/DecisionScatter'
@@ -81,7 +80,7 @@ export default function DecisoesPage() {
   if (!index || decQ.isPending)
     return (
       <PageTemplate>
-        <div style={{ display: 'grid', gap: 16 }} aria-busy="true">
+        <div style={{ display: 'grid', gridTemplateColumns: 'minmax(0, 1fr)', gap: 16 }} aria-busy="true">
           <Skeleton width={320} height={40} />
           <Skeleton height={48} />
           <Skeleton height={420} />
@@ -117,11 +116,9 @@ export default function DecisoesPage() {
         title="Decisões econômicas e institucionais"
         description="O que cada decisão custa ou rende em 2035, e quão viável ela é, dado o quórum exigido e a composição do Congresso eleita em 2026."
       />
-      <DataStatusBanner index={index} />
-      <Notice tone="warn" title="Os efeitos são julgamentos editáveis">
-        Todas as decisões trazem <code>base_evidencia = “julgamento”</code>: são premissas do modelo, não estimativas econométricas.{' '}
-        {data.meta.aviso} Compare ordens de grandeza e discuta as premissas; não use como previsão.
-      </Notice>
+      <InlineNote id="decisoes-julgamento" tone="warn" baseId="decisoes" dismissible={false} title="Os efeitos são julgamentos editáveis.">
+        Todas as decisões trazem <code>base_evidencia = “julgamento”</code>: são premissas do modelo, não estimativas econométricas. Compare ordens de grandeza e discuta as premissas; não use como previsão.
+      </InlineNote>
 
       <section className={styles.controls} aria-label="Controles">
         <div className={styles.row}>

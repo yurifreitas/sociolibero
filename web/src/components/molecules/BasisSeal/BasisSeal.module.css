@@ -1,0 +1,6 @@
+.wrap { display: inline-flex; align-items: center; gap: var(--space-1); flex-wrap: wrap; }
+.basis { display: inline-flex; align-items: center; gap: 5px; height: 22px; padding: 0 8px; border-radius: var(--radius-full); font-size: var(--fs-11); font-weight: 600; letter-spacing: .02em; border: 1px solid color-mix(in oklch, currentColor 38%, transparent); background: color-mix(in oklch, currentColor 9%, transparent); white-space: nowrap; }
+.measured { color: var(--st-oficial); }
+.modeled { color: var(--st-derivado); }
+.synthetic { color: var(--st-julgamento); }
+.none { color: var(--st-prep); border-style: dashed; }

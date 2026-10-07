@@ -42,7 +42,7 @@ export function ExposureHighlights({ exposicao, names, setor, onSetor, electionI
       </ol>
       <p className={styles.muted}>
         Top 10 de {fInt(total)} municípios pela participação do setor na estrutura econômica (IBGE).{' '}
-        <Link to={`/?m=exposicao&s=${setor}&e=${electionId}`}>Ver no mapa</Link>
+        <Link to={`/mapa?m=exposicao&s=${setor}&e=${electionId}`}>Ver no mapa</Link>
       </p>
     </section>
   )

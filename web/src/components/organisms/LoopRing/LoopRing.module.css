@@ -1,0 +1,25 @@
+.fig { margin: 0; display: flex; flex-direction: column; gap: var(--space-3); min-width: 0; }
+.svg { width: 100%; height: auto; overflow: visible; }
+.core { fill: color-mix(in oklch, currentColor 12%, var(--surface)); stroke: currentColor; stroke-width: 2; }
+.r { color: var(--st-parcial); }
+.b { color: var(--st-derivado); }
+.letter { font-size: 34px; font-weight: 750; fill: var(--text); letter-spacing: -.02em; }
+.kind { font-size: 11px; fill: var(--text-subtle); letter-spacing: .08em; text-transform: uppercase; }
+.edge { transition: opacity var(--dur-2) var(--ease-out); }
+.dim { opacity: .22; }
+.hit { cursor: pointer; }
+.sign { fill: var(--surface); stroke-width: 2; }
+.contested { stroke-dasharray: 3 2.5; fill: color-mix(in oklch, var(--st-parcial) 18%, var(--surface)); }
+.signSel { stroke-width: 3.2; }
+.signText { font-size: 17px; font-weight: 750; pointer-events: none; }
+.node { pointer-events: none; }
+.label { fill: var(--text); font-size: 13.5px; font-weight: 550; paint-order: stroke; stroke: var(--bg); stroke-width: 4px; stroke-linejoin: round; }
+.branchLabel { font-size: 12px; font-weight: 450; fill: var(--text-muted); }
+.legend { display: flex; flex-wrap: wrap; gap: var(--space-2) var(--space-4); margin: 0; padding: 0; list-style: none; font-size: var(--fs-12); color: var(--text-muted); align-items: center; }
+.legend li { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { display: inline-block; width: 28px; height: 0; border-top: 3px solid var(--st-derivado); }
+.lgDot { border-top-style: dotted !important; }
+.lgDash { border-top-style: dashed !important; }
+.lgSign { display: inline-grid; place-items: center; width: 18px; height: 18px; border-radius: 50%; border: 1.6px solid var(--st-derivado); color: var(--st-derivado); font-weight: 700; font-size: 13px; line-height: 1; }
+.lgNeg { border-color: var(--neg); color: var(--neg); }
+@media (prefers-reduced-motion: reduce) { .edge { transition: none; } }

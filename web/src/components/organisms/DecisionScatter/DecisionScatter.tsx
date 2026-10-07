@@ -89,6 +89,7 @@ export function DecisionScatter({ decisoes, visibleIds, impact, presidencia, sel
           const cy = y(gs[i] ?? 0)
           const r = 5 + d.controversia * 7
           const isActive = d.id === active
+          const flat = Math.abs(gs[i] ?? 0) < 1e-6 || Math.abs(d.impacto_2035[impact]) < 0.05
           const color = rgbCss(colors[Math.round(((d.ideologia + 1) / 2) * 255)] as never)
           return (
             <g key={d.id} opacity={visible ? 1 : 0.12} style={{ pointerEvents: visible ? 'auto' : 'none' }}>
@@ -96,7 +97,9 @@ export function DecisionScatter({ decisoes, visibleIds, impact, presidencia, sel
                 cx={cx}
                 cy={cy}
                 r={r}
-                fill={color}
+                fill={flat ? 'var(--surface)' : color}
+                stroke={flat ? color : undefined}
+                strokeWidth={flat ? 2.2 : undefined}
                 className={isActive ? styles.dotOn : styles.dot}
                 tabIndex={visible ? 0 : -1}
                 role="button"
@@ -123,6 +126,7 @@ export function DecisionScatter({ decisoes, visibleIds, impact, presidencia, sel
           <i className={styles.swatchL} /> cor = ideologia da proposta (esquerda → direita)
         </span>
         <span>tamanho = controvérsia</span>
+        <span>anel vazio = sem efeito macro estimável</span>
         <span>efeito = variação vs. cenário pragmático <strong>se aprovada</strong></span>
       </figcaption>
     </figure>

@@ -1,7 +1,7 @@
 .controls { display: flex; flex-direction: column; gap: var(--space-6); }
 .row { display: flex; flex-wrap: wrap; gap: var(--space-4) var(--space-8); }
-.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: var(--space-3); }
-.main { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(360px, 1fr); gap: var(--space-12); align-items: start; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(190px, 100%), 1fr)); gap: var(--space-3); }
+.main { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(min(360px, 100%), 1fr); gap: var(--space-12); align-items: start; }
 .detail { min-width: 0; }
 .expo { margin-top: var(--space-12); padding-top: var(--space-8); border-top: 1px solid var(--border); }
 .table { font-size: var(--fs-14); }

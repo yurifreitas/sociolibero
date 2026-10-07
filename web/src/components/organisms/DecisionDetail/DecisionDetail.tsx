@@ -1,6 +1,7 @@
+import { Link } from 'react-router-dom'
 import { Badge } from '@/components/atoms/Badge'
 import { Icon } from '@/components/atoms/Icon'
-import { Notice } from '@/components/molecules/Notice'
+import { InlineNote } from '@/components/molecules/InlineNote'
 import { QuorumBar } from '@/components/molecules/QuorumBar'
 import { StatTile } from '@/components/molecules/StatTile'
 import { fNum1, fPct, fSigned1 } from '@/lib/format'
@@ -14,6 +15,20 @@ export type DecisionDetailProps = {
   presidencia: Presidencia
   impact: ImpactKey
   onClose: () => void
+}
+
+/** 'pilares:V01,V02 · potencias:agua-doce · clima:seca' → links para as páginas de origem. */
+function origemLinks(origem?: string | null) {
+  const out: { key: string; to: string; label: string }[] = []
+  for (const part of String(origem ?? '').split('·').map((x) => x.trim()).filter(Boolean)) {
+    const [kind, rest] = part.split(':')
+    for (const id of (rest ?? '').split(',').map((x) => x.trim()).filter(Boolean)) {
+      if (kind === 'pilares') out.push({ key: `p${id}`, to: `/pilares?aba=viabilizacao#${id}`, label: `proposta ${id}` })
+      else if (kind === 'potencias') out.push({ key: `o${id}`, to: `/potenciais#${id}`, label: `potência: ${id}` })
+      else if (kind === 'clima') out.push({ key: `c${id}`, to: '/clima', label: `clima: ${id}` })
+    }
+  }
+  return out
 }
 
 const REV: Record<string, 'pos' | 'warn' | 'neg'> = { alta: 'pos', média: 'warn', media: 'warn', baixa: 'neg' }
@@ -42,6 +57,20 @@ export function DecisionDetail({ decisao: d, meta, presidencia, impact, onClose 
       </header>
 
       <p className={styles.racional}>{d.racional}</p>
+      {d.limite_modelo && (
+        <p className={styles.limit} role="note">
+          <Icon name="info" size={14} /> <span><b>Limite do modelo.</b> {d.limite_modelo}</span>
+        </p>
+      )}
+      {origemLinks(d.origem).length > 0 && (
+        <ul className={styles.origem} aria-label="Origem desta decisão">
+          {origemLinks(d.origem).map((l) => (
+            <li key={l.key}>
+              <Link to={l.to}>{l.label}</Link>
+            </li>
+          ))}
+        </ul>
+      )}
 
       <section aria-label="Viabilidade política" className={styles.block}>
         <h3 className={styles.h3}>Viabilidade: instrumento e quórum × composição eleita em 2026</h3>
@@ -107,10 +136,9 @@ export function DecisionDetail({ decisao: d, meta, presidencia, impact, onClose 
         </div>
       </section>
 
-      <Notice tone="warn" title={`Base de evidência: ${d.base_evidencia}`}>
-        {meta.aviso} Os efeitos são julgamentos editáveis (<code>base_evidencia = {d.base_evidencia}</code>), não estimativas
-        econométricas. Use para comparar ordens de grandeza e discutir premissas, não para prever.
-      </Notice>
+      <InlineNote id="decisao-base" tone="warn" baseId="decisoes" title={`Base de evidência: ${d.base_evidencia}.`}>
+        Efeito julgado, não medido (<code>base_evidencia = {d.base_evidencia}</code>). Use para comparar ordens de grandeza, não para prever.
+      </InlineNote>
     </article>
   )
 }

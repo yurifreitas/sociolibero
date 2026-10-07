@@ -1,0 +1,23 @@
+.card { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--space-3); padding: var(--space-5) var(--space-6); min-width: 0; }
+.head { display: flex; justify-content: space-between; align-items: flex-start; gap: var(--space-4); flex-wrap: wrap; }
+.title { font-size: var(--fs-16); }
+.sub { margin: 2px 0 0; font-size: var(--fs-12); color: var(--text-subtle); }
+.svg { width: 100%; height: auto; overflow: visible; }
+.future { fill: color-mix(in oklch, var(--surface-2) 60%, transparent); }
+.grid { stroke: var(--border-soft); stroke-width: 1; }
+.tick { font: 500 10px var(--font-mono); fill: var(--text-subtle); }
+.band { opacity: .16; }
+.obs { stroke: var(--text); stroke-width: 2.2; stroke-linejoin: round; stroke-linecap: round; }
+.proj { stroke-width: 2.2; stroke-dasharray: 6 4; stroke-linecap: round; }
+.end { font: 600 11px var(--font-ui); text-transform: capitalize; }
+.note { margin: 0; font-size: var(--fs-12); color: var(--text-muted); }
+.kv { display: grid; grid-template-columns: max-content 1fr; gap: 4px var(--space-4); margin: 0; font-size: var(--fs-12); color: var(--text-muted); }
+.kv dt { color: var(--text-subtle); }
+.kv dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+.lim { margin: 0; font-size: var(--fs-12); color: var(--text-muted); }
+.lim b { color: var(--text); }
+.table summary { cursor: pointer; font-size: var(--fs-12); color: var(--brand); }
+.scroll { max-height: 240px; overflow: auto; margin-top: var(--space-2); border: 1px solid var(--border-soft); border-radius: var(--radius-sm); }
+.table table { width: 100%; font-size: var(--fs-12); }
+.table th, .table td { padding: 4px 10px; text-align: left; border-bottom: 1px solid var(--border-soft); white-space: nowrap; }
+.table thead th { position: sticky; top: 0; background: var(--surface-2); }

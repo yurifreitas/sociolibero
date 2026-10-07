@@ -3,18 +3,20 @@ import { Skeleton } from '@/components/atoms/Skeleton'
 import { ErrorState } from '@/components/molecules/ErrorState'
 import { LegendBar } from '@/components/molecules/LegendBar'
 import { ProvenanceLine } from '@/components/molecules/ProvenanceLine'
-import { DataStatusBanner } from '@/components/organisms/DataStatusBanner'
 import { MapCanvas } from '@/components/organisms/MapCanvas'
 import { MapControls } from '@/components/organisms/MapControls'
 import { MunicipalityPanel } from '@/components/organisms/MunicipalityPanel'
 import { RankTable } from '@/components/organisms/RankTable'
 import { MapTemplate } from '@/components/templates/MapTemplate'
 import { useElection, useExposicao, useForensics, useGeo, useIndex, useTerritorios } from '@/features/data/hooks'
+import { useClimaRs } from '@/features/climars/hooks'
+import { NIVEL } from '@/components/organisms/ClimaRsBlock'
+import { useHumanoMunicipal } from '@/features/gente/hooks'
 import type { SetorKey } from '@/features/data/schemas'
 import { buildFillPlan, buildGeometry } from '@/features/map/geometry'
 import { computeValues, domainFor, formatTick, formatValue, metricDef, valueAt, type MetricKey } from '@/features/map/metrics'
 import { TERRITORY_WARNING } from '@/features/territorios/model'
-import { Notice } from '@/components/molecules/Notice'
+import { InlineNote } from '@/components/molecules/InlineNote'
 import { lut, rgbCss } from '@/lib/color'
 import { useTheme } from '@/lib/theme'
 import { useUrlState } from '@/lib/useUrlState'
@@ -40,6 +42,9 @@ export default function MapaPage() {
   const forQ = useForensics(eId, forAvail)
   const expQ = useExposicao(index ? (index.exposicao ?? 'exposicao.json') : null)
   const terrQ = useTerritorios(index ? (index.territorios ?? 'territorios.json') : null)
+  const wantedDef = metricDef(get('m') ?? 'voto')
+  const hmQ = useHumanoMunicipal(!!wantedDef.humano)
+  const rsQ = useClimaRs(!!wantedDef.climaRs)
 
   const geometry = useMemo(() => (geoQ.data ? buildGeometry(geoQ.data) : null), [geoQ.data])
 
@@ -47,10 +52,15 @@ export default function MapaPage() {
   if (!forAvail) for (const k of ['score', 'zt', 'zn'] as const) unavailable[k] = 'sem forense neste pleito'
   if (!expQ.data) unavailable.exposicao = 'dados indisponíveis'
   if (!terrQ.data) for (const k of ['pop_indigena', 'pop_quilombola', 'ti_area'] as const) unavailable[k] = 'dados indisponíveis'
+  if (rsQ.isError || (rsQ.isSuccess && !rsQ.data)) unavailable.risco_rs = 'dados indisponíveis'
+  if (hmQ.isError || (hmQ.isSuccess && !hmQ.data)) for (const k of ['homicidios', 'vitimas_negras', 'mae_adolescente'] as const) unavailable[k] = 'dados indisponíveis'
 
   const wanted = (get('m') ?? 'voto') as MetricKey
   const metric: MetricKey = unavailable[wanted] ? 'voto' : wanted
   const def = metricDef(metric)
+  const yearsAvail = def.humano ? (hmQ.data?.anos ?? []).filter((y) => y >= (def.humano?.min ?? 0) && y <= (def.humano?.max ?? 0)) : []
+  const yParam = Number(get('y'))
+  const ano = def.humano ? (yearsAvail.includes(yParam) ? yParam : def.humano.defaultYear) : undefined
   const candidates = elQ.data?.meta.candidatos ?? []
   const candParam = get('c')
   const leader = useMemo(() => {
@@ -66,13 +76,27 @@ export default function MapaPage() {
   const values = useMemo(() => {
     if (!geometry || !elQ.data) return null
     const ibges = geometry.features.map((f) => f.ibge)
-    return computeValues(metric, ibges, { election: elQ.data, other: otherQ.data, forensics: forQ.data, exposicao: expQ.data, territorios: terrQ.data, candidate: cand, setor }, compare)
-  }, [geometry, elQ.data, otherQ.data, forQ.data, expQ.data, terrQ.data, metric, cand, setor, compare])
+    return computeValues(metric, ibges, { election: elQ.data, other: otherQ.data, forensics: forQ.data, exposicao: expQ.data, territorios: terrQ.data, humano: hmQ.data, climaRs: rsQ.data, ano, candidate: cand, setor }, compare)
+  }, [geometry, elQ.data, otherQ.data, forQ.data, expQ.data, terrQ.data, hmQ.data, rsQ.data, ano, metric, cand, setor, compare])
 
   const domain = useMemo(() => (values ? domainFor(def, values, compare) : null), [values, def, compare])
+  // RS sem índice (cobertura insuficiente) é hachurado: o cinza liso poderia ser lido como “risco baixo”
+  const hatchMask = useMemo(() => {
+    if (!geometry || !values || !def.climaRs || !rsQ.data) return undefined
+    const m = new Uint8Array(values.length)
+    for (let i = 0; i < m.length; i++) if (geometry.features[i]?.uf === 'RS' && Number.isNaN(values[i] as number)) m[i] = 1
+    return m
+  }, [geometry, values, def.climaRs, rsQ.data])
+  const rsFocus = useMemo(() => {
+    if (!geometry || !def.climaRs) return null
+    let b: [number, number, number, number] | null = null
+    for (const f of geometry.features)
+      if (f.uf === 'RS') b = b ? [Math.min(b[0], f.bbox[0]), Math.min(b[1], f.bbox[1]), Math.max(b[2], f.bbox[2]), Math.max(b[3], f.bbox[3])] : [f.bbox[0], f.bbox[1], f.bbox[2], f.bbox[3]]
+    return b ? { key: 'rs', bbox: b } : null
+  }, [geometry, def.climaRs])
   const plan = useMemo(
-    () => (geometry && values && domain ? buildFillPlan(geometry, values, domain, theme, cssVar('--map-nodata')) : null),
-    [geometry, values, domain, theme],
+    () => (geometry && values && domain ? buildFillPlan(geometry, values, domain, theme, cssVar('--map-nodata'), hatchMask) : null),
+    [geometry, values, domain, theme, hatchMask],
   )
 
   const stops = useMemo(() => {
@@ -87,11 +111,16 @@ export default function MapaPage() {
   const rank = useMemo(() => {
     if (!geometry || !values) return null
     const idxs: number[] = []
-    for (let i = 0; i < values.length; i++) if (!Number.isNaN(values[i] as number)) idxs.push(i)
+    // taxas de município pequeno oscilam por acaso: o ranking de violência só inclui ≥ 20 mil habitantes
+    const popOf = (i: number) => {
+      const pop = hmQ.data?.linhas[geometry.features[i]!.ibge]?.pop
+      return pop?.[String(ano)] ?? pop?.['2022'] ?? 0
+    }
+    for (let i = 0; i < values.length; i++) if (!Number.isNaN(values[i] as number) && (!def.humano || popOf(i) >= 20000)) idxs.push(i)
     idxs.sort((a, b) => (values[b] as number) - (values[a] as number))
     const row = (i: number) => ({ idx: i, nome: geometry.features[i]!.nome, uf: geometry.features[i]!.uf, label: formatValue(metric, values[i] as number, compare) })
     return { top: idxs.slice(0, 8).map(row), bottom: idxs.slice(-8).reverse().map(row) }
-  }, [geometry, values, metric, compare])
+  }, [geometry, values, metric, compare, def.humano, hmQ.data, ano])
 
   // ---- estados de carga/erro ----
   if (indexQ.isError)
@@ -111,10 +140,13 @@ export default function MapaPage() {
     const f = geometry?.features[idx]
     if (!f || !values) return null
     const row = election?.linhas[f.ibge]
+    const rs = def.climaRs ? rsQ.data?.linhas[f.ibge] : undefined
     return (
       <div className={styles.tip}>
         <strong>{f.nome} <span className={styles.uf}>{f.uf}</span></strong>
-        <span className={styles.tipValue}>{formatValue(metric, values[idx] as number, compare)}</span>
+        <span className={styles.tipValue}>{def.climaRs && f.uf === 'RS' && Number.isNaN(values[idx] as number) ? 'sem índice' : formatValue(metric, values[idx] as number, compare)}</span>
+        {rs && <span className={styles.tipMeta}>{rs.indice.score_atual != null ? `prioridade ${NIVEL[rs.indice.nivel_atual ?? ''] ?? '—'} · cobertura ${rs.indice.cobertura_peso?.toFixed(2).replace('.', ',') ?? '—'}` : `cobertura insuficiente (${rs.indice.cobertura_peso?.toFixed(2).replace('.', ',') ?? '—'}): fora do ranking`}</span>}
+        {def.climaRs && f.uf !== 'RS' && <span className={styles.tipMeta}>fora do RS: camada não cobre</span>}
         <span className={styles.tipMeta}>{def.label}{compare ? ' · diferença' : ''}</span>
         {row && <span className={styles.tipMeta}>{new Intl.NumberFormat('pt-BR').format(row.aptos)} eleitores aptos</span>}
       </div>
@@ -127,7 +159,6 @@ export default function MapaPage() {
         <h1 className={styles.h1}>Eleições por município</h1>
         <p className={styles.sub}>5.570 municípios · cada número é rastreável à fonte.</p>
       </div>
-      <DataStatusBanner index={index} />
       <MapControls
         elections={index.eleicoes}
         election={eId ?? ''}
@@ -145,6 +176,9 @@ export default function MapaPage() {
         onSetor={(s) => update({ s })}
         needsCandidate={def.needsCandidate}
         needsSector={def.needsSector}
+        years={yearsAvail}
+        ano={ano}
+        onAno={(y) => update({ y: String(y) })}
       />
       {domain && (
         <LegendBar
@@ -156,10 +190,22 @@ export default function MapaPage() {
         />
       )}
       <p className={styles.help}>{def.help}</p>
+      {def.humano && (
+        <InlineNote id="mapa-humano" tone="warn" baseId="humano-municipal" title="Violência por município.">
+          Dados via projeto Arandu/trans (proveniência indireta). O Atlas municipal vai até 2022; 2020 e 2023 usam o SIM, porque o Atlas municipal de 2020 tem defeito na origem. O ranking só inclui municípios com 20 mil habitantes ou mais.
+        </InlineNote>
+      )}
+      {def.climaRs && (
+        <InlineNote id="mapa-risco-rs" tone="warn" baseId="clima-rs" title="Prioridade preventiva, não previsão de cheia.">
+          Só o Rio Grande do Sul (497 municípios), com dados do projeto climate (proveniência indireta; snapshot de 09/08/2026). Impacto e déficit são auto-declaração da prefeitura ao IBGE. <strong>Município hachurado não tem índice</strong> (cobertura de peso abaixo de 0,60) e fica fora do ranking: não é “risco baixo”.
+        </InlineNote>
+      )}
+      {def.climaRs && rsQ.isPending && <p className={styles.help}>Carregando risco climático do RS (1,2 MB)…</p>}
+      {def.humano && hmQ.isPending && <p className={styles.help}>Carregando violência por município (14 MB)…</p>}
       {def.territory && terrQ.data && (
-        <Notice tone="warn" title="Como ler">
+        <InlineNote id="mapa-territorio" tone="info" baseId="funai-incra" title="Como ler.">
           {TERRITORY_WARNING} Municípios sem dado aparecem em cinza (não como zero).{terrQ.data.meta?.aviso ? ` ${terrQ.data.meta.aviso}` : ''}
-        </Notice>
+        </InlineNote>
       )}
       {election && <ProvenanceLine meta={election.meta} />}
       {rank && geometry && (
@@ -178,6 +224,7 @@ export default function MapaPage() {
       onSelect={(i) => update({ mun: i >= 0 ? (geometry.features[i]?.ibge ?? null) : null })}
       renderTooltip={tooltip}
       ariaLabel={`Mapa coroplético por município: ${def.label}${election ? `, ${election.meta.rotulo}` : ''}`}
+      focus={rsFocus}
     />
   ) : (
     <div className={styles.loading} aria-busy="true">
@@ -196,6 +243,7 @@ export default function MapaPage() {
         forensics={forQ.data}
         exposicao={expQ.data}
         territorios={terrQ.data}
+        climaRs={rsQ.data}
         variant="compact"
         onClose={() => update({ mun: null })}
       />

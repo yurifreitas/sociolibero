@@ -9,6 +9,7 @@ export const CATEGORY_LABEL: Record<string, string> = {
   visualizacao: 'Visualização',
   'antifraude-gastos': 'Antifraude em gastos públicos',
   'seguranca-urna': 'Segurança da urna',
+  'clima-risco': 'Clima, risco e adaptação (projeto climate)',
 }
 
 export function groupByCategory(refs: Reference[]): [string, Reference[]][] {
