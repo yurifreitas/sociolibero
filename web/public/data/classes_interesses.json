@@ -1,0 +1,2926 @@
+{
+ "meta": {
+  "gerado_em": "2026-10-07",
+  "aviso": "Classes, interesses e regras eleitorais: hipóteses de leitura apoiadas em historiografia e teoria, não medições. Mesmo método para esquerda, centro e direita; sem acusar pessoas; 'interesse' é hipótese teórica com a leitura contrária ao lado. A maior parte das fontes é secundária (Wikipédia, jornais, artigos); fontes oficiais (Planalto, TSE, Câmara, Senado) em geral não foram abertas. 'Péssima decisão' é o rótulo do pedido de pesquisa: aqui significa decisão com custo ou efeito documentado e criticada, ao lado da leitura contrária. O estado da tramitação reflete as fontes lidas até 07/10/2026.",
+  "criterio_verificacao": "verificado=true somente se o fato ou número foi lido numa página ou PDF efetivamente aberto nesta coleta. Resumos de busca, fatos de memória, páginas que retornaram erro e dados herdados do repositório (eleicoes_timeline.json etc.) ficam false. Contagem (número observado: votos, R$ fixados em lei, eleitores) é separada de estimativa (indicador calculado, alegação, 'cerca de' ou ausência de medição). Onde duas fontes divergem, a divergência fica em 'nota' ou 'limites'.",
+  "contagens": {
+   "classes": 23,
+   "teorias": 17,
+   "teorias_verificadas": 10,
+   "celulas_matriz": 79,
+   "matriz_por_valor": {
+    "perde": 22,
+    "ambiguo": 30,
+    "ganha": 27
+   },
+   "ganhou_perdeu_itens": 50,
+   "ganhou_perdeu_verificados": 35,
+   "pessimas_decisoes": 19,
+   "decisoes_custo_contagem_verificada": 14,
+   "decisoes_custo_contagem_nao_verificada": 0,
+   "decisoes_custo_estimativa_verificada": 5,
+   "decisoes_custo_estimativa_nao_verificada": 0,
+   "futuro": 14
+  }
+ },
+ "classes": [
+  {
+   "id": "escravizados-libertos-negros",
+   "nome": "Escravizados, libertos e populações negras",
+   "periodos": [
+    "acucar",
+    "ouro-diamantes",
+    "agroexportacao-imperial",
+    "cafe-escravidao-abolicao",
+    "borracha-cafe-republica-velha",
+    "industrializacao-vargas",
+    "desenvolvimentismo",
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Trabalho cativo até 1888; depois trabalho livre sem terra nem capital inicial (economia_historica.json, classe 'escravizados-libertos-negros').",
+   "interesses": {
+    "voto": "Acesso ao voto sem barreira de alfabetização ou renda e sem coação do eleitor.",
+    "sistema": "Regras de representação que não diluam minorias; mais tarde, reserva de candidaturas e de fundos (hipótese).",
+    "financiamento": "Acesso a recursos de campanha para candidaturas negras (a Câmara aprovou em 2021 contagem em dobro dos votos a candidaturas negras e femininas para a distribuição de fundos até 2030, texto sujeito a destaques e ao Senado).",
+    "terra": "Acesso à terra e a título; a Lei de Terras (1850) fez da compra a única via de acesso.",
+    "estado": "Proteção contra violência e políticas de inclusão (educação, cotas); tributos pouco relevantes como interesse eleitoral direto (hipótese)."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "A exclusão por alfabetização tinha justificativa declarada de qualificação cívica e valia para todos os cor; libertos alfabetizados podiam votar. A ausência de dado por raça impede dizer qual fração foi barrada por cor e qual por escolaridade.",
+   "aliados": [
+    "abolicionistas urbanos (profissionais liberais, jornalistas)",
+    "movimentos negros (MNU, 1978; repositório)",
+    "setores da Igreja (hipótese)"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Lei de Terras (Lei 601, 1850)",
+     "efeito": "perde: compra como única via de acesso à terra, em país onde a abolição de 1888 veio sem terra",
+     "evidencia": "A fonte lida diz que a lei tornou a terra inacessível a libertos e imigrantes pobres, criando escassez que 'torna o trabalho disponível'.",
+     "fonte": "Lei de Terras - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Lei_de_Terras",
+     "verificado": true
+    },
+    {
+     "regra": "Constituição de 1891: exclusão de analfabetos",
+     "efeito": "perde: libertos e descendentes, em sua maioria sem escolarização, ficam fora do voto",
+     "evidencia": "Exclusão de analfabetos lida no verbete; taxa de analfabetismo de 82,6% em 1890 (≥5 anos) só em resumo de busca (estimativa). Composição racial do eleitorado não foi lida.",
+     "fonte": "Constituição brasileira de 1891 - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Constitui%C3%A7%C3%A3o_brasileira_de_1891",
+     "verificado": true
+    },
+    {
+     "regra": "EC 25/1985: voto do analfabeto",
+     "efeito": "ganha: expansão do eleitorado; sem dado lido sobre a composição racial do ganho",
+     "evidencia": "Nicolau: em 1986 o eleitorado cresce 10,6 pontos percentuais da população por recadastramento e incorporação dos analfabetos.",
+     "fonte": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext)",
+     "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+     "verificado": true
+    }
+   ],
+   "movimentos_ids": [
+    "abolicionismo",
+    "sufragismo-feminino"
+   ],
+   "fontes": [
+    "REPOEH",
+    "TERRAS",
+    "C1891",
+    "NIC"
+   ]
+  },
+  {
+   "id": "povos-indigenas",
+   "nome": "Povos indígenas",
+   "periodos": [
+    "pau-brasil",
+    "acucar",
+    "ouro-diamantes",
+    "agroexportacao-imperial",
+    "cafe-escravidao-abolicao",
+    "borracha-cafe-republica-velha",
+    "industrializacao-vargas",
+    "desenvolvimentismo",
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Territórios e economia própria; sucessivamente alvo de escambo, cativeiro, aldeamento e tutela (economia_historica.json).",
+   "interesses": {
+    "voto": "Voto e alistamento sem tutela e com acesso às seções (hipótese); a tutela estatal limitou a capacidade civil até 1988 (economia_historica.json, de memória).",
+    "sistema": "Representação própria ou vagas reservadas (proposta em debate, não verificada aqui).",
+    "financiamento": "Recursos para candidaturas de comunidades sem renda monetária (hipótese).",
+    "terra": "Demarcação e posse exclusiva do território (CF/88, arts. 231-232, segundo o repositório).",
+    "estado": "Consulta prévia (OIT 169) e proteção contra invasões; tema em disputa com o agro (ver 'agro-agronegocio')."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "O repositório trata o 'marco temporal' como disputa em aberto: parte dos juristas lê a regra como segurança jurídica para ocupantes de boa-fé; o texto do projeto e as decisões não foram lidos aqui.",
+   "aliados": [
+    "setores da Igreja (CEBs, CIMI; hipótese)",
+    "ambientalistas",
+    "Judiciário (ADPF 709; repositório)"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Lei de Terras (1850)",
+     "efeito": "perde: terras de aldeamento ficam potencialmente devolutas e novas ocupações por posse deixam de valer",
+     "evidencia": "O verbete lido lista indígenas e ocupantes tradicionais entre os que perdem.",
+     "fonte": "Lei de Terras - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Lei_de_Terras",
+     "verificado": true
+    },
+    {
+     "regra": "CF/88 (arts. 231-232)",
+     "efeito": "ganha: reconhecimento de direitos originários sobre as terras (segundo o repositório)",
+     "evidencia": "Citado em economia_historica.json para o ciclo 'decada-perdida-hiperinflacao'; texto da Constituição não relido.",
+     "fonte": "Repositório: web/public/data/economia_historica.json (síntese por ciclo; fatos 'de memória' marcados lá)",
+     "url": "web/public/data/economia_historica.json",
+     "verificado": false
+    }
+   ],
+   "movimentos_ids": [
+    "mst"
+   ],
+   "fontes": [
+    "REPOEH",
+    "TERRAS"
+   ]
+  },
+  {
+   "id": "camponeses-posseiros",
+   "nome": "Camponeses e posseiros",
+   "periodos": [
+    "acucar",
+    "ouro-diamantes",
+    "agroexportacao-imperial",
+    "cafe-escravidao-abolicao",
+    "borracha-cafe-republica-velha",
+    "industrializacao-vargas",
+    "desenvolvimentismo",
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Lavradores, agregados e trabalhadores rurais sem título, em estrutura de terra concentrada (economia_historica.json).",
+   "interesses": {
+    "voto": "Voto sem dependência do proprietário (voto livre de cabresto).",
+    "sistema": "Representação distrital ou proporcional que dê voz a eleitorado rural disperso (hipótese ambígua).",
+    "financiamento": "Pouco acesso; dependência de movimentos e sindicatos.",
+    "terra": "Título, posse segura e reforma agrária.",
+    "estado": "Crédito rural, previdência rural e proteção trabalhista (fora da CLT até décadas depois, segundo o repositório)."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "A literatura posterior a Leal discute o quanto o voto de cabresto era coação e o quanto era troca percebida como vantajosa pelo eleitor; o verbete lido não aprofunda esse debate.",
+   "aliados": [
+    "MST",
+    "CEBs e pastorais",
+    "sindicatos rurais"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Lei de Terras (1850)",
+     "efeito": "perde: posse sem título deixa de gerar propriedade nova",
+     "evidencia": "Verbete lido: 'pequenos agricultores e trabalhadores livres sem capital' entre os que perdem; ocupantes já estabelecidos podiam titular.",
+     "fonte": "Lei de Terras - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Lei_de_Terras",
+     "verificado": true
+    },
+    {
+     "regra": "Voto aberto e dependência do proprietário (República Velha)",
+     "efeito": "perde: troca de subsistência na fazenda por voto controlado",
+     "evidencia": "Leal, segundo o verbete lido: trabalhadores rurais aceitam o 'voto de cabresto' em troca de subsistência, sem proteção legal.",
+     "fonte": "Coronelismo, Enxada e Voto - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Coronelismo,_Enxada_e_Voto",
+     "verificado": true
+    },
+    {
+     "regra": "Código Eleitoral de 1932 (voto secreto)",
+     "efeito": "ambíguo: ganha sigilo, mas o comparecimento seguiu em 3,3% da população",
+     "evidencia": "Nicolau: 3,3% da população votou para a Câmara em 1933.",
+     "fonte": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext)",
+     "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+     "verificado": true
+    }
+   ],
+   "movimentos_ids": [
+    "mst",
+    "cebs-igreja"
+   ],
+   "fontes": [
+    "REPOEH",
+    "LEAL",
+    "TERRAS",
+    "NIC"
+   ]
+  },
+  {
+   "id": "oligarquia-agraria-coroneis",
+   "nome": "Oligarquia agrária e coronéis",
+   "periodos": [
+    "acucar",
+    "ouro-diamantes",
+    "agroexportacao-imperial",
+    "cafe-escravidao-abolicao",
+    "borracha-cafe-republica-velha",
+    "industrializacao-vargas"
+   ],
+   "base_material": "Propriedade da terra e controle de trabalho cativo e depois dependente; mediação entre o eleitor local e o governo estadual (Leal).",
+   "interesses": {
+    "voto": "Eleitorado pequeno, identificável e dependente (voto aberto).",
+    "sistema": "Distrito e verificação de poderes controlados por situações estaduais.",
+    "financiamento": "Sem financiamento regulado; custos pagos por favores e cargos.",
+    "terra": "Propriedade segura e acesso exclusivo à terra devoluta (Lei de Terras).",
+    "estado": "Autonomia estadual e transferências federais sem fiscalização; federalismo da Constituição de 1891."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "Leal descreve o coronelismo como compromisso entre poder privado em declínio e poder público em expansão, o que sugere dependência mútua e não só domínio unilateral do coronel.",
+   "aliados": [
+    "governadores",
+    "elites urbanas regionais",
+    "oficiais da Guarda Nacional (Império)"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Voto aberto e Comissão Verificadora (política dos governadores, 1898)",
+     "efeito": "ganha: eleitos alinhados são validados e opositores 'degolados'",
+     "evidencia": "Verbete lido: Comissão Verificadora valida os eleitos alinhados ao presidente; apoio federal incondicional a situações estaduais; 'voto de cabresto' e 'currais eleitorais'.",
+     "fonte": "Política dos governadores - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Pol%C3%ADtica_dos_governadores",
+     "verificado": true
+    },
+    {
+     "regra": "Lei de Terras (1850)",
+     "efeito": "ganha: terras devolutas só por compra à vista; ocupantes já estabelecidos titulam",
+     "evidencia": "Verbete lido lista grandes proprietários do Nordeste e do Sudeste entre os beneficiados.",
+     "fonte": "Lei de Terras - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Lei_de_Terras",
+     "verificado": true
+    },
+    {
+     "regra": "Código Eleitoral de 1932 (voto secreto e Justiça Eleitoral)",
+     "efeito": "perde (hipótese): a verificação sai do Legislativo estadual",
+     "evidencia": "Regra segundo o repositório; efeito sobre coronéis não medido nas fontes lidas.",
+     "fonte": "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui)",
+     "url": "web/public/data/eleicoes_timeline.json",
+     "verificado": false
+    }
+   ],
+   "movimentos_ids": [
+    "republicanismo",
+    "aliancaliberal-1930"
+   ],
+   "fontes": [
+    "LEAL",
+    "GOV",
+    "TERRAS",
+    "REPO"
+   ]
+  },
+  {
+   "id": "burguesia-mercantil-financeira",
+   "nome": "Burguesia mercantil e financeira",
+   "periodos": [
+    "pau-brasil",
+    "acucar",
+    "ouro-diamantes",
+    "agroexportacao-imperial",
+    "cafe-escravidao-abolicao",
+    "borracha-cafe-republica-velha",
+    "industrializacao-vargas",
+    "desenvolvimentismo",
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Comércio de exportação e importação, crédito, bancos e investimento; renda de juros e de intermediação.",
+   "interesses": {
+    "voto": "Neutro ou favorável a qualificação por renda (hipótese); poder de influência por canais não eleitorais.",
+    "sistema": "Regras que deem previsibilidade e acesso a decisores (hipótese).",
+    "financiamento": "Doações de pessoa jurídica como canal legal de acesso (até 2015); depois, preferência por tetos e transparência ou por candidatos autofinanciados (hipótese).",
+    "terra": "Segurança de títulos e de hipotecas.",
+    "estado": "Estabilidade monetária, autonomia do BC e juros (ver decisoes.json: reduzir-autonomia-bc)."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "Dado de doação não mostra que doação causou decisão: doadores também podem financiar quem já votaria a favor de seus interesses. O STF citou que empresas ligadas a esquemas de corrupção respondiam por 40% das doações aos grandes partidos (Politize); a leitura contrária é que a regra anterior era transparente e rastreável.",
+   "aliados": [
+    "elites agrárias exportadoras",
+    "capital estrangeiro",
+    "tecnocracia econômica"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Doações de empresas permitidas até 2015",
+     "efeito": "ganha (hipótese): canal legal e declarado de influência",
+     "evidencia": "Politize (dados TSE): em 2014 empresas doaram cerca de R$ 3 bilhões, perto de 80% das doações; pessoas físicas R$ 552,5 milhões.",
+     "fonte": "Politize!, 'Como o fim do financiamento de empresas influenciou as eleições de 2016' (cita TSE e STF)",
+     "url": "https://www.politize.com.br/como-fim-do-financiamento-empresas-influenciou-eleicoes-2016/",
+     "verificado": true
+    },
+    {
+     "regra": "STF proíbe doação de empresas (setembro de 2015)",
+     "efeito": "perde o canal direto; autofinanciamento sobe de 15,9% (2012) para 47,2% (2016)",
+     "evidencia": "Politize: doações do 1º turno caem de R$ 7,2 bi (2012) para R$ 2,5 bi (2016), queda de 65%.",
+     "fonte": "Politize!, 'Como o fim do financiamento de empresas influenciou as eleições de 2016' (cita TSE e STF)",
+     "url": "https://www.politize.com.br/como-fim-do-financiamento-empresas-influenciou-eleicoes-2016/",
+     "verificado": true
+    }
+   ],
+   "movimentos_ids": [],
+   "fontes": [
+    "MARXREPO",
+    "POLITIZE"
+   ]
+  },
+  {
+   "id": "burguesia-industrial",
+   "nome": "Burguesia industrial",
+   "periodos": [
+    "borracha-cafe-republica-velha",
+    "industrializacao-vargas",
+    "desenvolvimentismo",
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Fábricas, proteção tarifária, crédito subsidiado e demanda interna; dependência de câmbio e de custo do trabalho.",
+   "interesses": {
+    "voto": "Ampliar mercado interno via urbanização pode favorecer expansão do voto urbano (hipótese ambígua).",
+    "sistema": "Representação classista (1933) como canal direto (repositório).",
+    "financiamento": "Doações empresariais até 2015; alinhamento com partidos de governo.",
+    "terra": "Baixo interesse direto; conflito histórico com agroexportação sobre câmbio e tarifas (hipótese).",
+    "estado": "Proteção industrial, crédito do BNDES e política de conteúdo local (ver visoes_pessimistas.json: credito-subsidiado-bndes-2009-2015)."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "A literatura sobre 'burguesia nacional' discute se a indústria brasileira teve projeto próprio ou dependeu do Estado e do capital estrangeiro (ver tese-07 de marx_capitalismo.json).",
+   "aliados": [
+    "Estado desenvolvimentista",
+    "sindicatos patronais (CNI)",
+    "militares (1964-85)"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Constituinte de 1933-34: bancada classista (40 de 254 por organizações de empregados e empregadores)",
+     "efeito": "ganha: representação direta como classe",
+     "evidencia": "Segundo eleicoes_timeline.json (const-1933): 214 deputados por voto direto e 40 por organizações de empregados e empregadores.",
+     "fonte": "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui)",
+     "url": "web/public/data/eleicoes_timeline.json",
+     "verificado": false
+    },
+    {
+     "regra": "Doações de empresas até 2015 e FEFC depois",
+     "efeito": "ambíguo: perde canal direto em 2015; fundo público reduz dependência",
+     "evidencia": "Valores do FEFC e das doações lidos em outras linhas (Politize; Wikipédia).",
+     "fonte": "Politize!, 'Como o fim do financiamento de empresas influenciou as eleições de 2016' (cita TSE e STF)",
+     "url": "https://www.politize.com.br/como-fim-do-financiamento-empresas-influenciou-eleicoes-2016/",
+     "verificado": true
+    }
+   ],
+   "movimentos_ids": [
+    "getulismo-ptb",
+    "jk-desenvolvimentismo"
+   ],
+   "fontes": [
+    "REPOEH",
+    "REPO",
+    "POLITIZE"
+   ]
+  },
+  {
+   "id": "classe-media-urbana-funcionalismo",
+   "nome": "Classe média urbana, profissionais e funcionalismo",
+   "periodos": [
+    "cafe-escravidao-abolicao",
+    "borracha-cafe-republica-velha",
+    "industrializacao-vargas",
+    "desenvolvimentismo",
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Profissões liberais, bacharéis, servidores e aposentados; renda ligada a escolaridade e emprego público.",
+   "interesses": {
+    "voto": "Qualificação por alfabetização favorece quem a possui (hipótese); defesa de voto livre e de fiscalização.",
+    "sistema": "Preferência declarada por regras 'moralizadoras' e por voto de opinião (hipótese; UDN e jornadas de 2013 como casos em eleicoes_timeline.json).",
+    "financiamento": "Teto de gastos e transparência; ceticismo com fundo público (hipótese).",
+    "terra": "Pouco interesse direto.",
+    "estado": "Estabilidade do emprego, previdência e qualidade de serviços; tributos e inflação corroem renda (ver decisoes.json: reforma-administrativa)."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "A literatura (Carvalho, Gomes) aponta que parte das camadas médias apoiou ampliação de direitos (CEBs, Diretas Já); tratar a classe média como bloco único contradiz essa evidência.",
+   "aliados": [
+    "imprensa",
+    "Judiciário e Ministério Público (hipótese)",
+    "setor financeiro (pontualmente)"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Lei Saraiva (1881): alfabetização e renda",
+     "efeito": "ganha peso relativo no eleitorado que sobra (hipótese)",
+     "evidencia": "Nicolau: de 1.100.008 votantes (1873) para 142.856 eleitores (1882), queda de 87%; composição por profissão não lida.",
+     "fonte": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext)",
+     "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+     "verificado": true
+    },
+    {
+     "regra": "Marcha da Família com Deus (1964)",
+     "efeito": "base social do movimento antes do AI-1, perde direitos políticos depois (cassações atingem todo o espectro)",
+     "evidencia": "Segundo eleicoes_timeline.json, camadas médias urbanas; AI-1 e cassações em outra linha.",
+     "fonte": "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui)",
+     "url": "web/public/data/eleicoes_timeline.json",
+     "verificado": false
+    },
+    {
+     "regra": "Reforma administrativa (proposta)",
+     "efeito": "perde (hipótese do modelo): servidores como perdedores",
+     "evidencia": "decisoes.json lista 'servidores' como perdedores e 'contribuintes' como ganhadores; é hipótese do modelo.",
+     "fonte": "Repositório: web/public/data/decisoes.json (deltas e ganhadores/perdedores são hipóteses do modelo)",
+     "url": "web/public/data/decisoes.json",
+     "verificado": false
+    }
+   ],
+   "movimentos_ids": [
+    "udn-antigetulismo",
+    "marcha-familia-1964",
+    "jornadas-2013",
+    "lavajato-antipetismo"
+   ],
+   "fontes": [
+    "REPOEH",
+    "NIC"
+   ]
+  },
+  {
+   "id": "operariado-urbano",
+   "nome": "Operariado urbano formal e sindicatos",
+   "periodos": [
+    "borracha-cafe-republica-velha",
+    "industrializacao-vargas",
+    "desenvolvimentismo",
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Emprego industrial e de serviços formais; sindicatos oficiais e independentes; CLT (1943) e Justiça do Trabalho.",
+   "interesses": {
+    "voto": "Voto amplo e sem barreira de alfabetização (hipótese); alistamento por sindicatos em 1945.",
+    "sistema": "Representação proporcional e partidos de massa; acesso a rádio e TV em campanha.",
+    "financiamento": "Contribuições de filiados e sindicais; tetos que reduzam vantagem patronal (hipótese).",
+    "terra": "Baixo interesse direto; apoio histórico à reforma agrária por aliança.",
+    "estado": "Legislação trabalhista, salário mínimo, previdência e fiscalização."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "O conceito de 'populismo' como manipulação de massas foi criticado (Ângela de Castro Gomes, no eleicoes_timeline.json): trabalhadores teriam aderido a um pacto com ganhos reais.",
+   "aliados": [
+    "Igreja (CEBs)",
+    "intelectuais",
+    "setores da classe média"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Alistamento ex officio (1945)",
+     "efeito": "ganha: eleitores cadastrados passam de 1,44 milhão (1933) para 6,17 milhões (1945); 21% ex officio",
+     "evidencia": "Nicolau: cadastramento por empresas, sindicatos e ordens; 54% no Distrito Federal e 31% em São Paulo.",
+     "fonte": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext)",
+     "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+     "verificado": true
+    },
+    {
+     "regra": "Lei Falcão (1976)",
+     "efeito": "perde (hipótese): campanha limitada a nome, número, currículo e retrato, num cenário em que o MDB usava o horário gratuito",
+     "evidencia": "Verbete lido: restrições a discursos, músicas e imagens; vigência 1976-1984.",
+     "fonte": "Lei Falcão - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Lei_Falc%C3%A3o",
+     "verificado": true
+    },
+    {
+     "regra": "Estado Novo (1937)",
+     "efeito": "ambíguo: legislação trabalhista (CLT, 1943) convive com fim de eleições e extinção de partidos",
+     "evidencia": "Verbete lido: nenhum pleito de 1937 a 1945; partidos extintos em 02/12/1937. CLT segundo o repositório.",
+     "fonte": "Estado Novo (Brasil) - Wikipédia (secundária; lidos os primeiros 100 mil caracteres)",
+     "url": "https://pt.wikipedia.org/wiki/Estado_Novo_(Brasil)",
+     "verificado": true
+    }
+   ],
+   "movimentos_ids": [
+    "getulismo-ptb",
+    "sindicalismo-abc-pt",
+    "queremismo-1945"
+   ],
+   "fontes": [
+    "REPOEH",
+    "NIC",
+    "FALCAO",
+    "ESTNOVO"
+   ]
+  },
+  {
+   "id": "informais-e-precarizados",
+   "nome": "Trabalhadores informais, autônomos e domésticos",
+   "periodos": [
+    "industrializacao-vargas",
+    "desenvolvimentismo",
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Renda fora do contrato formal; domésticas e rurais fora da CLT original; informalidade crescente após os anos 1980 (economia_historica.json).",
+   "interesses": {
+    "voto": "Comparecimento sem custo de deslocamento e de dia perdido (hipótese).",
+    "sistema": "Voto de proximidade (distrital) ou de legenda; pouco acesso a candidaturas.",
+    "financiamento": "Quase nenhum acesso; recebem de fundos por intermediários.",
+    "terra": "Moradia e posse urbana (hipótese).",
+    "estado": "Transferências, previdência e acesso a crédito; tributos regressivos pesam mais (hipótese)."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "Informalidade é heterogênea (empreendedor por escolha e trabalhador sem alternativa); tratar como classe única apaga essa diferença.",
+   "aliados": [
+    "igrejas",
+    "associações de bairro",
+    "partidos de massa"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "CLT (1943): cobertura formal",
+     "efeito": "perde: domésticas e rurais fora da cobertura original",
+     "evidencia": "Segundo economia_historica.json (classe 'escravizados-libertos-negros' e 'camponeses-posseiros'); texto da CLT não relido.",
+     "fonte": "Repositório: web/public/data/economia_historica.json (síntese por ciclo; fatos 'de memória' marcados lá)",
+     "url": "web/public/data/economia_historica.json",
+     "verificado": false
+    },
+    {
+     "regra": "EC 25/1985: voto do analfabeto",
+     "efeito": "ganha: entrada de eleitores sem escolaridade formal",
+     "evidencia": "Nicolau: eleitorado de 1986 sobe 10,6 pontos percentuais da população; chega a 50% em 1986 e permanece.",
+     "fonte": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext)",
+     "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+     "verificado": true
+    }
+   ],
+   "movimentos_ids": [
+    "lulismo"
+   ],
+   "fontes": [
+    "REPOEH",
+    "NIC"
+   ]
+  },
+  {
+   "id": "militares",
+   "nome": "Militares (corporação)",
+   "periodos": [
+    "agroexportacao-imperial",
+    "cafe-escravidao-abolicao",
+    "borracha-cafe-republica-velha",
+    "industrializacao-vargas",
+    "desenvolvimentismo",
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Salário e carreira estatais, orçamento de defesa e autonomia institucional; histórico de intervenção política.",
+   "interesses": {
+    "voto": "Praças e soldados excluídos do voto em 1891; depois, direito de voto em reformas posteriores (não lidas).",
+    "sistema": "Eleição indireta e quórum fácil para emendas em 1964-1985.",
+    "financiamento": "Pouco interesse direto.",
+    "terra": "Fronteira e segurança territorial.",
+    "estado": "Autonomia de carreira, orçamento e ordem pública."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "A literatura discute se 'os militares' agiam como corporação ou como facções com agendas distintas; os atos acima são normas do regime, não preferências medidas de cada oficial.",
+   "aliados": [
+    "setores da classe média (1964)",
+    "elites econômicas (hipótese)",
+    "Estados Unidos (segundo fontes em eleicoes_timeline.json; disputado)"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "AI-1 (09/04/1964)",
+     "efeito": "ganha: Congresso vira colégio eleitoral e Castelo Branco é eleito com 361 votos (98,63%)",
+     "evidencia": "Verbete lido: lista de cassações a partir de 10/04/1964; cerca de 3.535 atos punitivos até outubro de 1965.",
+     "fonte": "Ato Institucional nº 1 - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Ato_Institucional_N%C3%BAmero_Um",
+     "verificado": true
+    },
+    {
+     "regra": "AI-2 (27/10/1965)",
+     "efeito": "ganha: eleição indireta em votação nominal e aberta; STF de 11 para 16 ministros; poder de cassar por 10 anos",
+     "evidencia": "Verbete lido; vigência até 15/03/1967.",
+     "fonte": "Ato Institucional nº 2 - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Ato_Institucional_N%C3%BAmero_Dois",
+     "verificado": true
+    },
+    {
+     "regra": "Pacote de Abril (1977)",
+     "efeito": "ganha: um terço do Senado por escolha indireta; mandato presidencial de 5 para 6 anos",
+     "evidencia": "Verbete lido; número de biônicos (22) só em resumo de busca.",
+     "fonte": "Pacote de Abril - Wikipédia (secundária; verbete curto)",
+     "url": "https://pt.wikipedia.org/wiki/Pacote_de_Abril",
+     "verificado": true
+    }
+   ],
+   "movimentos_ids": [
+    "marcha-familia-1964",
+    "mdb-oposicao"
+   ],
+   "fontes": [
+    "AI1",
+    "AI2",
+    "PACOTE",
+    "C1891"
+   ]
+  },
+  {
+   "id": "igreja-catolica",
+   "nome": "Igreja Católica",
+   "periodos": [
+    "pau-brasil",
+    "acucar",
+    "ouro-diamantes",
+    "agroexportacao-imperial",
+    "cafe-escravidao-abolicao",
+    "borracha-cafe-republica-velha",
+    "industrializacao-vargas",
+    "desenvolvimentismo",
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Rede de paróquias, escolas e obras sociais; padroado no Império; CEBs de base popular nos anos 1970-80.",
+   "interesses": {
+    "voto": "Direito de voto do clero (regular excluído em 1891) e de fiéis sem barreira de alfabetização.",
+    "sistema": "Representação que preserve voz de grupos religiosos e popular.",
+    "financiamento": "Isenções tributárias e apoio a escolas; participação em campanha é limitada por lei (não lido).",
+    "terra": "Pastorais da terra (CPT) ligadas a conflito fundiário.",
+    "estado": "Ensino religioso, isenções e relação com o Estado após 1891 (separação; não lido)."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "A Igreja não é um ator único: o repositório registra tanto CEBs quanto mobilização da Marcha da Família com Deus, e disputa sobre infiltração política.",
+   "aliados": [
+    "MST e camponeses",
+    "operariado (CEBs)",
+    "setores conservadores (Marcha da Família)"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Constituição de 1891: exclusão de religiosos sujeitos a voto de obediência",
+     "efeito": "perde o voto do clero regular",
+     "evidencia": "Verbete lido: excluídos 'religiosos sujeitos ao voto de obediência'.",
+     "fonte": "Constituição brasileira de 1891 - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Constitui%C3%A7%C3%A3o_brasileira_de_1891",
+     "verificado": true
+    },
+    {
+     "regra": "Pluripartidarismo e redemocratização (1979-82)",
+     "efeito": "ambíguo: CEBs como base de militância do PT e, ao mesmo tempo, Igreja em frentes conservadoras",
+     "evidencia": "eleicoes_timeline.json (cebs-igreja): 14 milhões de católicos organizados e 1,8 milhão de adultos atuantes, números da página lida lá, controvertidos.",
+     "fonte": "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui)",
+     "url": "web/public/data/eleicoes_timeline.json",
+     "verificado": false
+    }
+   ],
+   "movimentos_ids": [
+    "cebs-igreja",
+    "marcha-familia-1964",
+    "constituinte-1987"
+   ],
+   "fontes": [
+    "C1891",
+    "REPO"
+   ]
+  },
+  {
+   "id": "igrejas-evangelicas",
+   "nome": "Igrejas evangélicas",
+   "periodos": [
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Redes de templos, mídia própria e rendas de contribuição; crescimento populacional de 21,6% (2010) para 26,9% (2022), segundo resumo de busca de dados do IBGE (repositório).",
+   "interesses": {
+    "voto": "Facilitar comparecimento e registro de fiéis (hipótese).",
+    "sistema": "Lista aberta e voto de preferência favorecem candidatos com base organizada (hipótese); distritão favoreceria quem concentra voto (hipótese).",
+    "financiamento": "Arrecadação própria e mídia; indiferente ou favorável a limites de gasto (hipótese).",
+    "terra": "Pouco interesse direto.",
+    "estado": "Costumes, isenções e liberdade religiosa (Frente Parlamentar Evangélica)."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "'Voto evangélico' como bloco é disputado (eleicoes_timeline.json): a filiação à frente parlamentar, a identidade religiosa e a ligação com igreja são medidas diferentes.",
+   "aliados": [
+    "agro (FPA)",
+    "setores conservadores",
+    "uma parte do campo popular"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Fim das coligações proporcionais (EC 97/2017; vigor em 2020)",
+     "efeito": "ambíguo: reduz o NEP, o que pode favorecer partidos maiores com base evangélica ou conservadora, ou não",
+     "evidencia": "NEP da Câmara cai de 16,5 (2018) para 9,2 (2022); Nicolau atribui parte da queda à 'compactação da direita'.",
+     "fonte": "Schaefer, B. M. 'O fim das coligações proporcionais e a reconfiguração das alianças majoritárias no Brasil', Cadernos Adenauer XXVII (2026) nº 1 (PDF lido)",
+     "url": "https://www.kas.de/documents/d/brasilien/cadernos-adenauer1_2026_web-capitulo-5",
+     "verificado": true
+    },
+    {
+     "regra": "Constituinte 1986: 32 constituintes evangélicos",
+     "efeito": "ganha presença no Legislativo",
+     "evidencia": "Só resumo de busca (eleicoes_timeline.json, movimento 'evangelicos'); contagens divergem conforme a definição de 'bancada evangélica' (96, 102+13 e 209+26).",
+     "fonte": "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui)",
+     "url": "web/public/data/eleicoes_timeline.json",
+     "verificado": false
+    }
+   ],
+   "movimentos_ids": [
+    "evangelicos",
+    "bolsonarismo"
+   ],
+   "fontes": [
+    "KAS",
+    "P360NEP",
+    "REPO"
+   ]
+  },
+  {
+   "id": "mulheres",
+   "nome": "Mulheres",
+   "periodos": [
+    "industrializacao-vargas",
+    "desenvolvimentismo",
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Trabalho produtivo e de cuidado; renda menor em média (economia_historica.json); direitos políticos ampliados em 1932-34.",
+   "interesses": {
+    "voto": "Voto igual e alistamento sem tutela.",
+    "sistema": "Reserva de candidaturas e de cadeiras (hipótese).",
+    "financiamento": "Distribuição proporcional de fundos a candidaturas femininas; a Câmara aprovou contagem em dobro dos votos femininos e negros em 2021 (texto-base; Senado não lido).",
+    "terra": "Titulação em nome da mulher em programas de terra (hipótese).",
+    "estado": "Cuidado, creche, licenças e proteção no trabalho."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "O debate historiográfico (eleicoes_timeline.json) opõe o papel do Estado (Código de 1932) ao das sufragistas; a data das primeiras eleitoras estaduais (1927-28) não foi lida aqui.",
+   "aliados": [
+    "sufragistas",
+    "movimentos de trabalhadoras",
+    "setores progressistas e liberais"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Código Eleitoral de 1932 e Constituição de 1934",
+     "efeito": "ganha: voto feminino; mas comparecimento total em 1933 foi 3,3% da população",
+     "evidencia": "Nicolau; primeira mulher eleita constituinte segundo eleicoes_timeline.json.",
+     "fonte": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext)",
+     "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+     "verificado": true
+    },
+    {
+     "regra": "Voto obrigatório para mulheres (1945)",
+     "efeito": "ganha: alistamento obrigatório estendido a todas",
+     "evidencia": "Nicolau: eleitores cadastrados de 1,44 milhão (1933) para 6,17 milhões (1945).",
+     "fonte": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext)",
+     "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+     "verificado": true
+    }
+   ],
+   "movimentos_ids": [
+    "sufragismo-feminino"
+   ],
+   "fontes": [
+    "NIC",
+    "REPOEH"
+   ]
+  },
+  {
+   "id": "imigrantes",
+   "nome": "Imigrantes",
+   "periodos": [
+    "cafe-escravidao-abolicao",
+    "borracha-cafe-republica-velha",
+    "industrializacao-vargas"
+   ],
+   "base_material": "Mão de obra de café e indústria; 3,52 milhões entre 1890 e 1929 segundo Wikipédia (repositório); subsídio paulista à imigração.",
+   "interesses": {
+    "voto": "Naturalização e voto a filhos nascidos no Brasil (hipótese).",
+    "sistema": "Pouco interesse direto.",
+    "financiamento": "Associações comunitárias e comércio.",
+    "terra": "Acesso a lotes e colonato; a Lei de Terras tornou a terra de compra, o que limitou o acesso de imigrantes pobres.",
+    "estado": "Contratos de trabalho, escola e segurança jurídica."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "Parte dos imigrantes (sobretudo italianos em SP) acumulou capital e terra em poucas décadas; a evidência por coorte não foi lida.",
+   "aliados": [
+    "elites agrárias (colonato)",
+    "indústria nascente",
+    "governo paulista"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Lei de Terras (1850)",
+     "efeito": "perde: terra de compra afasta imigrantes pobres de lotes próprios",
+     "evidencia": "Verbete lido: a valorização da terra 'deslocaria trabalhadores livres nacionais e imigrantes', tornando trabalho disponível.",
+     "fonte": "Lei de Terras - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Lei_de_Terras",
+     "verificado": true
+    }
+   ],
+   "movimentos_ids": [],
+   "fontes": [
+    "REPOEH",
+    "TERRAS"
+   ]
+  },
+  {
+   "id": "oligarquias-estaduais-nordeste",
+   "nome": "Elites políticas estaduais do Nordeste",
+   "periodos": [
+    "acucar",
+    "ouro-diamantes",
+    "agroexportacao-imperial",
+    "cafe-escravidao-abolicao",
+    "borracha-cafe-republica-velha",
+    "industrializacao-vargas",
+    "desenvolvimentismo",
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Propriedade rural, redes de clientela, empregos públicos e transferências federais; peso do Nordeste no Senado e na Câmara pelo desenho federativo (não verificado aqui).",
+   "interesses": {
+    "voto": "Eleitorado dependente de rede local (hipótese).",
+    "sistema": "Voto distrital ou majoritário no estado que concentre poder em máquinas locais (hipótese).",
+    "financiamento": "Recursos públicos (fundo partidário, FEFC, emendas) sobre doação privada.",
+    "terra": "Segurança de propriedade e acesso a água e crédito.",
+    "estado": "Transferências federais, FPE e obras (não lido); federalismo cooperativo."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "O Nordeste não é bloco: o repositório registra Nordeste como base do lulismo em 2006 e 2022; elites estaduais e eleitorado de baixa renda não coincidem.",
+   "aliados": [
+    "governadores",
+    "bancadas regionais",
+    "transferências federais"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Política dos governadores (1898)",
+     "efeito": "ganha: apoio federal sem oposição nos estados",
+     "evidencia": "Verbete lido: apoio incondicional a governos estaduais em troca de bancadas fiéis ao presidente.",
+     "fonte": "Política dos governadores - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Pol%C3%ADtica_dos_governadores",
+     "verificado": true
+    },
+    {
+     "regra": "Pacote de Abril (1977): senadores biônicos",
+     "efeito": "ambíguo: um senador por estado em 22 estados, com sobrerrepresentação do Senado; efeito por região não lido",
+     "evidencia": "Número de 22 só em resumo de busca.",
+     "fonte": "Resumo de busca (InfoEscola/Marxists.org) sobre senadores biônicos; páginas não abertas",
+     "url": "https://www.infoescola.com/historia-do-brasil/senadores-bionicos/",
+     "verificado": false
+    }
+   ],
+   "movimentos_ids": [
+    "lulismo"
+   ],
+   "fontes": [
+    "GOV",
+    "BIONICOS"
+   ]
+  },
+  {
+   "id": "elites-sudeste",
+   "nome": "Elites agrárias, industriais e financeiras do Sudeste",
+   "periodos": [
+    "agroexportacao-imperial",
+    "cafe-escravidao-abolicao",
+    "borracha-cafe-republica-velha",
+    "industrializacao-vargas",
+    "desenvolvimentismo",
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Café (SP, RJ, MG), indústria e finanças paulistas e cariocas; hegemonia do 'café com leite' (economia_historica.json).",
+   "interesses": {
+    "voto": "Eleitorado restrito e controlado, sob situação estadual.",
+    "sistema": "Regras que sustentem o revezamento entre grandes Estados.",
+    "financiamento": "Financiamento por partido republicano estadual.",
+    "terra": "Terra e valorização do café via Estado.",
+    "estado": "Valorização do café e crédito; federalismo da Constituição de 1891."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "O Sudeste também abrigou o abolicionismo e o republicanismo (eleicoes_timeline.json); tratar suas elites como bloco conservador omite a divisão interna entre cafeicultores do Oeste Paulista e do Vale.",
+   "aliados": [
+    "elites agrárias",
+    "banqueiros",
+    "imprensa"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Política dos governadores e revezamento SP-MG",
+     "efeito": "ganha enquanto o acordo vigorou",
+     "evidencia": "Verbete lido: o sistema colapsa em 1930 quando um candidato de SP prevaleceu sobre a preferência de MG, desencadeando a Revolução de 1930.",
+     "fonte": "Política dos governadores - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Pol%C3%ADtica_dos_governadores",
+     "verificado": true
+    },
+    {
+     "regra": "Revolução de 1930 e Estado Novo",
+     "efeito": "perde poder político, mantém renda",
+     "evidencia": "economia_historica.json: elites agrárias 'perdem poder político, mantêm renda' no ciclo industrialização-vargas.",
+     "fonte": "Repositório: web/public/data/economia_historica.json (síntese por ciclo; fatos 'de memória' marcados lá)",
+     "url": "web/public/data/economia_historica.json",
+     "verificado": false
+    }
+   ],
+   "movimentos_ids": [
+    "republicanismo",
+    "aliancaliberal-1930"
+   ],
+   "fontes": [
+    "GOV",
+    "REPOEH"
+   ]
+  },
+  {
+   "id": "agro-agronegocio",
+   "nome": "Agro e agronegócio",
+   "periodos": [
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Exportação de grãos e carnes, crédito rural, terra e tecnologia; boom de commodities 2000s.",
+   "interesses": {
+    "voto": "Pouco interesse direto na regra de voto.",
+    "sistema": "Preferência por regras que mantenham bancada setorial organizada em frente parlamentar (hipótese).",
+    "financiamento": "Doações empresariais até 2015; depois, fundo público e autofinanciamento.",
+    "terra": "Segurança de título e oposição a desapropriações e demarcações (pauta da FPA em eleicoes_timeline.json).",
+    "estado": "Crédito rural, renegociação de dívidas, flexibilização ambiental e infraestrutura logística."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "A presença em partidos de espectros distintos (62/19/19) sugere que o interesse setorial se organiza por tema, não por ideologia; ao mesmo tempo, a medida de 'bancada' muda conforme a votação.",
+   "aliados": [
+    "evangélicos (bancadas)",
+    "setor financeiro",
+    "elites estaduais"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Frente Parlamentar da Agropecuária: bancada transversal",
+     "efeito": "ganha poder de barganha por tema (120 a 200 votos, segundo a página lida lá)",
+     "evidencia": "eleicoes_timeline.json: cerca de 62% dos membros de partidos de direita ou centro-direita, 19% de centro-esquerda e 19% do PMDB; dado de página secundária, não relido.",
+     "fonte": "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui)",
+     "url": "web/public/data/eleicoes_timeline.json",
+     "verificado": false
+    },
+    {
+     "regra": "Fim das doações de empresas (2015)",
+     "efeito": "perde canal direto (hipótese)",
+     "evidencia": "Mudança comprovada em Politize; efeito setorial sobre o agro não lido.",
+     "fonte": "Politize!, 'Como o fim do financiamento de empresas influenciou as eleições de 2016' (cita TSE e STF)",
+     "url": "https://www.politize.com.br/como-fim-do-financiamento-empresas-influenciou-eleicoes-2016/",
+     "verificado": false
+    }
+   ],
+   "movimentos_ids": [
+    "ruralista",
+    "bolsonarismo",
+    "evangelicos"
+   ],
+   "fontes": [
+    "REPO"
+   ]
+  },
+  {
+   "id": "trabalhadores-de-aplicativos",
+   "nome": "Trabalhadores de aplicativos e plataformas",
+   "periodos": [
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Renda por tarefa via plataformas digitais; sem vínculo CLT; peso crescente na informalidade pós-2015 (não verificado nas fontes lidas).",
+   "interesses": {
+    "voto": "Facilitar comparecimento em jornada irregular (hipótese).",
+    "sistema": "Pouco interesse direto; alvo frequente de campanha nas redes.",
+    "financiamento": "Quase nenhum.",
+    "terra": "Sem interesse direto.",
+    "estado": "Regulação do trabalho por plataforma, previdência e tributos sobre autônomos."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "Não há evidência lida de que a classe tenha interesse homogêneo (parte valoriza a flexibilidade, parte pede vínculo).",
+   "aliados": [
+    "plataformas (interesses divergentes)",
+    "sindicatos (parcialmente)",
+    "campanhas digitais"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Abstenção em 2024: 21,68% (33,8 milhões)",
+     "efeito": "ambíguo: sem dado lido sobre abstenção por ocupação; incluído apenas para marcar a lacuna",
+     "evidencia": "Poder360 (TSE): 2024, 21,68% (33,8 de 155,9 milhões); 2022, 20,79% no 1º turno; 2020, 23,15%.",
+     "fonte": "Poder360, 'Abstenção é a 2ª maior desde 2000 e só perde para a pandemia' (dados TSE)",
+     "url": "https://www.poder360.com.br/poder-eleicoes/abstencao-e-a-2a-maior-desde-2000-e-so-perde-para-a-pandemia/",
+     "verificado": true
+    }
+   ],
+   "movimentos_ids": [],
+   "fontes": [
+    "ABST"
+   ]
+  },
+  {
+   "id": "idosos-aposentados",
+   "nome": "Eleitorado idoso e aposentados",
+   "periodos": [
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Renda de previdência e de benefícios; peso crescente no eleitorado.",
+   "interesses": {
+    "voto": "Voto facultativo após os 70 anos; facilidade de comparecimento (hipótese).",
+    "sistema": "Pouco interesse; votam mais por tradição.",
+    "financiamento": "Pouco interesse direto.",
+    "terra": "Moradia e patrimônio.",
+    "estado": "Previdência, saúde e correção de benefícios (ver decisoes.json: reforma-previdencia-2)."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "Peso do grupo não implica voto unificado; sem pesquisa por faixa etária lida, o efeito sobre políticas é hipótese.",
+   "aliados": [
+    "profissionais de saúde",
+    "partidos de governo (hipótese)"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Envelhecimento do eleitorado",
+     "efeito": "ganha peso relativo: 60+ chega a 23,6% do eleitorado em 2026 (37,4 milhões; +4,5 milhões frente a 2022)",
+     "evidencia": "SBT News (TSE, 20/07/2026): eleitorado total de 158.745.463.",
+     "fonte": "SBT News, 'Eleições 2026 terá 2,3 milhões de eleitores a mais que 2022' (dados TSE de 20/07/2026)",
+     "url": "https://sbtnews.sbt.com.br/noticia/politica/eleicoes-2026-tera-2-3-milhoes-de-eleitores-a-mais-que-2022",
+     "verificado": true
+    },
+    {
+     "regra": "Idosos em 20,4% do eleitorado em 2022",
+     "efeito": "ponto de comparação",
+     "evidencia": "Só em resumo de busca.",
+     "fonte": "Resumo de busca (IHU-Unisinos/Poder360/TSE) sobre idosos 20,4% em 2022 e 16-17 anos 1.836.081 em 2024",
+     "url": "https://www.poder360.com.br/brasil/numero-de-eleitores-de-16-e-17-anos-cresce-781-em-2024-diz-tse/",
+     "verificado": false
+    }
+   ],
+   "movimentos_ids": [],
+   "fontes": [
+    "SBT26"
+   ]
+  },
+  {
+   "id": "jovens-16-17",
+   "nome": "Jovens eleitores (16 e 17 anos) e coortes novas",
+   "periodos": [
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Estudantes e primeiros empregos; voto facultativo aos 16 desde 1988 (segundo eleicoes_timeline.json).",
+   "interesses": {
+    "voto": "Manter voto facultativo aos 16 e simplificar alistamento (hipótese).",
+    "sistema": "Voto de opinião e listas abertas; baixa filiação partidária.",
+    "financiamento": "Quase nenhum acesso.",
+    "terra": "Sem interesse direto.",
+    "estado": "Educação, emprego e clima."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "O aumento de 2024 vem de uma base pequena (2020: 1.030.563, em resumo de busca); mudança de cadastramento durante a pandemia afeta a comparação.",
+   "aliados": [
+    "movimentos estudantis",
+    "plataformas",
+    "partidos (campanhas voltadas a jovens)"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Voto facultativo aos 16",
+     "efeito": "efeito sobre composição: 3,57 milhões de eleitores de até 18 anos (2,25% do eleitorado) em 2026",
+     "evidencia": "SBT News (TSE).",
+     "fonte": "SBT News, 'Eleições 2026 terá 2,3 milhões de eleitores a mais que 2022' (dados TSE de 20/07/2026)",
+     "url": "https://sbtnews.sbt.com.br/noticia/politica/eleicoes-2026-tera-2-3-milhoes-de-eleitores-a-mais-que-2022",
+     "verificado": true
+    },
+    {
+     "regra": "Eleitores de 16 e 17 anos em 2024",
+     "efeito": "1.836.081 (alta de 78,1% sobre 2020)",
+     "evidencia": "Só em resumo de busca.",
+     "fonte": "Resumo de busca (IHU-Unisinos/Poder360/TSE) sobre idosos 20,4% em 2022 e 16-17 anos 1.836.081 em 2024",
+     "url": "https://www.poder360.com.br/brasil/numero-de-eleitores-de-16-e-17-anos-cresce-781-em-2024-diz-tse/",
+     "verificado": false
+    }
+   ],
+   "movimentos_ids": [],
+   "fontes": [
+    "SBT26",
+    "IDOSOSBUSCA"
+   ]
+  },
+  {
+   "id": "baixa-renda-transferencias",
+   "nome": "Baixa renda beneficiária de transferências (subproletariado)",
+   "periodos": [
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Renda de trabalho precário somada a Bolsa Família (11,1 milhões de famílias em 2006 e 12,7 milhões em 2010, segundo eleicoes_timeline.json).",
+   "interesses": {
+    "voto": "Voto facilitado e sem custo; defesa contra coação.",
+    "sistema": "Voto de partido ou de candidatura de proximidade.",
+    "financiamento": "Quase nenhum acesso.",
+    "terra": "Moradia e posse urbana.",
+    "estado": "Manutenção e ampliação de transferências; estabilidade de preços."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "Zucco e outros (eleicoes_timeline.json) associam expansão do programa a ganhos do governo nas regiões pobres; críticas apontam outros fatores (emprego, salário mínimo, voto retrospectivo) e o número exato do efeito é disputado.",
+   "aliados": [
+    "partidos de governo social",
+    "Igreja e redes comunitárias",
+    "sindicatos"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Realinhamento de 2006 (Singer)",
+     "efeito": "ganha: o eleitorado de baixa renda do Nordeste passa a apoiar o PT, segundo a tese",
+     "evidencia": "Verbete lido: Singer descreve o lulismo como mudança dentro da ordem, com continuidade macroeconômica e políticas distributivas.",
+     "fonte": "Lulismo - Wikipédia (secundária; lidos os primeiros 100 mil caracteres)",
+     "url": "https://pt.wikipedia.org/wiki/Lulismo",
+     "verificado": true
+    }
+   ],
+   "movimentos_ids": [
+    "lulismo"
+   ],
+   "fontes": [
+    "LULISMO"
+   ]
+  },
+  {
+   "id": "elite-politica-profissional",
+   "nome": "Elite política profissional (parlamentares e direções partidárias)",
+   "periodos": [
+    "desenvolvimentismo",
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Mandatos, controle de listas e acesso a fundo público e a emendas.",
+   "interesses": {
+    "voto": "Pouco interesse direto; preocupação com custo de campanha.",
+    "sistema": "Regras que preservem reeleição e controle sobre candidaturas (hipótese de escolha pública).",
+    "financiamento": "Fundo público estável (FEFC de R$ 4,96 bi em 2022, 2024 e 2026) e fundo partidário.",
+    "terra": "Sem interesse direto.",
+    "estado": "Execução de emendas e orçamento; autonomia diante do Executivo e do Judiciário."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "Escolha pública descreve incentivos, não motivos individuais; a mesma regra de fundo também reduz a dependência de doadores privados.",
+   "aliados": [
+    "partidos",
+    "governadores",
+    "prefeitos"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "FEFC (Lei 13.487/2017)",
+     "efeito": "ganha: fundo público substitui parte das doações; R$ 1,716 bi (2018), R$ 2,035 bi (2020), R$ 4,962 bi (2022, 2024 e 2026)",
+     "evidencia": "Wikipédia (FEFC).",
+     "fonte": "Fundo Especial de Financiamento de Campanha - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Fundo_Especial_de_Financiamento_de_Campanha",
+     "verificado": true
+    },
+    {
+     "regra": "Cláusula de desempenho (EC 97/2017)",
+     "efeito": "perde (partidos pequenos): 2% em 2022, 2,5% em 2026, 3% em 2030",
+     "evidencia": "Valores segundo eleicoes_timeline.json (ec97-fefc-2017); EC não lida no Planalto.",
+     "fonte": "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui)",
+     "url": "web/public/data/eleicoes_timeline.json",
+     "verificado": false
+    },
+    {
+     "regra": "Orçamento secreto (RP9)",
+     "efeito": "ganha discricionariedade: cerca de R$ 16 bi em 2021 e similar em 2022",
+     "evidencia": "Wikipédia (orçamento secreto); STF julgou inconstitucional em 19/12/2022 (InfoMoney, 6 x 5).",
+     "fonte": "Orçamento secreto - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Or%C3%A7amento_secreto",
+     "verificado": true
+    }
+   ],
+   "movimentos_ids": [],
+   "fontes": [
+    "FEFC",
+    "RP9WP",
+    "RP9IM",
+    "KAS"
+   ]
+  },
+  {
+   "id": "burocracia-juridica-controle",
+   "nome": "Burocracia jurídica e de controle (Judiciário, MP, TCU, Justiça Eleitoral)",
+   "periodos": [
+    "desenvolvimentismo",
+    "milagre-endividamento",
+    "decada-perdida-hiperinflacao",
+    "estabilizacao-real",
+    "boom-commodities-inclusao",
+    "recessao-ajuste-polarizacao",
+    "retomada-incerteza"
+   ],
+   "base_material": "Carreiras públicas e competência normativa; Justiça Eleitoral criada em 1932.",
+   "interesses": {
+    "voto": "Cadastro biométrico e fiscalização de alistamento.",
+    "sistema": "Regras claras e competência para regulamentar (hipótese).",
+    "financiamento": "Prestação de contas e fiscalização.",
+    "terra": "Sem interesse direto.",
+    "estado": "Autonomia, orçamento próprio e competência normativa e de controle."
+   },
+   "status_interesses": "hipótese teórica",
+   "leitura_contraria": "A leitura contrária é que o poder de remoção responde a abuso de plataformas e de campanhas; a de quem discorda é que concentra decisão em poucos órgãos. As duas são interpretações de resolução, não medições.",
+   "aliados": [
+    "imprensa",
+    "organizações da sociedade civil",
+    "partidos (conforme o caso)"
+   ],
+   "ganhou_perdeu": [
+    {
+     "regra": "Res. TSE 23.714/2022 (desinformação)",
+     "efeito": "ganha competência: o STF manteve a resolução por 9 votos a 2 em 25/10/2022",
+     "evidencia": "Poder360: ordem de remoção em até 2 horas, suspensão de perfis, multa de R$ 100 mil por hora; divergência de Nunes Marques e André Mendonça (censura prévia).",
+     "fonte": "Poder360, 'Por 9 votos a 2, STF mantém norma que aumenta poderes do TSE'",
+     "url": "https://www.poder360.com.br/justica/por-9-votos-a-2-stf-mantem-norma-que-aumenta-poderes-do-tse/",
+     "verificado": true
+    },
+    {
+     "regra": "AI-2 (1965): STF de 11 para 16 ministros",
+     "efeito": "perde independência, em leitura crítica; ganha número de cadeiras",
+     "evidencia": "Verbete lido.",
+     "fonte": "Ato Institucional nº 2 - Wikipédia (secundária)",
+     "url": "https://pt.wikipedia.org/wiki/Ato_Institucional_N%C3%BAmero_Dois",
+     "verificado": true
+    }
+   ],
+   "movimentos_ids": [],
+   "fontes": [
+    "P3609x2",
+    "AI2",
+    "REPOVP"
+   ]
+  }
+ ],
+ "teorias": [
+  {
+   "id": "marx-engels-classe-estado",
+   "autor": "Karl Marx e Friedrich Engels",
+   "ano": "1848-1890",
+   "ideia": "Classes definidas pela posição nas relações de produção; o Estado e o direito pertencem à superestrutura e regulam o conflito entre elas. Engels (1890) corrige a leitura economicista: a produção é o elemento determinante 'em última instância', não o único.",
+   "aplicacao_brasil": "Leitura aplicada, como hipótese, às barreiras de renda e alfabetização do Império, à Lei de Terras e ao voto de cabresto; o projeto já remete a tese-07 (capitalismo dependente) e tese-09 (limite do próprio Marx) de marx_capitalismo.json.",
+   "leitura_contraria": "O repositório documenta que Marx não deixou uma teoria do Estado acabada, que a 'fatalidade' da expropriação foi restrita à Europa Ocidental (tese-09) e que o determinismo é leitura disputada (m07). Aplicar categorias de 1848-67 ao Brasil de 1881 ou 2026 exige a mediação de autores brasileiros (Caio Prado, Florestan, Cardoso e Faletto).",
+   "fontes": [
+    "Repositório: web/public/data/marx_capitalismo.json (textos com verificado_literal registrado lá) [não lido] web/public/data/marx_capitalismo.json"
+   ],
+   "verificado": false,
+   "marx_capitalismo_ids": [
+    "t01-prefacio-1859-base",
+    "t02-prefacio-1859-grilhoes",
+    "t15-capital1-normalarbeitstag",
+    "t16-capital1-fabrikgesetz",
+    "t26-capital1-staatsgewalt",
+    "t60-engels-bloch",
+    "tese-07-capitalismo-dependente-brasil",
+    "tese-09-escopo-do-proprio-marx",
+    "m07-economicismo-determinismo"
+   ]
+  },
+  {
+   "id": "weber-classe-estamento-partido",
+   "autor": "Max Weber",
+   "ano": "1922 (póstumo)",
+   "ideia": "Três ordens de poder distintas: classe (posição de mercado), estamento (honra e estilo de vida) e partido (organização para obter poder). Classes e estamentos não coincidem; partidos podem representar uns ou outros.",
+   "aplicacao_brasil": "Útil para separar o interesse econômico da elite agrária (classe) do estamento burocrático de Faoro e dos partidos como atores com interesse próprio em regras (fundo, coligação).",
+   "leitura_contraria": "A tripartição foi criticada por não explicar sozinha a mudança de regime; no Brasil, partidos de massa e partidos de quadro misturam bases de classe e estamento, de modo que a classificação sempre é aproximada.",
+   "fontes": [
+    "Weber, M. Wirtschaft und Gesellschaft (1922), seção 'Classe, estamento, partido' (não lido nesta coleta; verbete retornou 404) [não lido] https://en.wikipedia.org/wiki/Class,_Status,_Party"
+   ],
+   "verificado": false
+  },
+  {
+   "id": "gramsci-hegemonia",
+   "autor": "Antonio Gramsci",
+   "ano": "1929-1935 (Cadernos do Cárcere)",
+   "ideia": "A classe dominante governa por consenso (instituições culturais, Igreja, escola, imprensa), não só por coerção; contra isso, 'guerra de posição' cultural.",
+   "aplicacao_brasil": "Hipótese para ler a alfabetização como critério 'natural' de cidadania em 1881 e 1891, o papel da imprensa e da Igreja, e a disputa por narrativa em campanhas digitais.",
+   "leitura_contraria": "Hegemonia é difícil de medir: o conceito explica qualquer estabilidade a posteriori. Autores liberais e pluralistas argumentam que o consenso reflete preferências reais e não manufaturadas.",
+   "fontes": [
+    "Cultural hegemony - Wikipédia (secundária) [lido] https://en.wikipedia.org/wiki/Cultural_hegemony"
+   ],
+   "verificado": true
+  },
+  {
+   "id": "olson-acao-coletiva",
+   "autor": "Mancur Olson",
+   "ano": "1965",
+   "ideia": "Grupos pequenos e concentrados organizam-se com custos menores; grandes grupos precisam de incentivos seletivos; por isso interesses concentrados tendem a prevalecer sobre os difusos.",
+   "aplicacao_brasil": "Explica por que setores concentrados (frentes parlamentares, grandes doadores, corporações) pesam em regras de financiamento e emendas, e por que eleitores dispersos têm pouca voz na regra de voto.",
+   "leitura_contraria": "Grupos grandes também se organizaram no Brasil (sindicatos, MST, evangélicos) por incentivos não materiais; a teoria é criticada por subestimar identidades e ideologia.",
+   "fontes": [
+    "The Logic of Collective Action - Wikipédia (secundária) [lido] https://en.wikipedia.org/wiki/The_Logic_of_Collective_Action"
+   ],
+   "verificado": true
+  },
+  {
+   "id": "przeworski-democracia-capitalismo",
+   "autor": "Adam Przeworski",
+   "ano": "1985; 1991; 2000",
+   "ideia": "Partidos operários, em minoria, têm de moderar o programa para ganhar votos de classe média (1985); democracia como sistema em que partidos perdem eleições (1991); desenvolvimento estabiliza democracias mas não as produz (2000, com Limongi).",
+   "aplicacao_brasil": "Ajuda a ler o lulismo como acomodação (Singer) e a relação entre renda e sobrevivência da democracia brasileira; é a base do estado 'democracia eleitoral' na cadeia de Markov de EVOLUCOES_MARKOV.md.",
+   "leitura_contraria": "Os testes estatísticos de 2000 usam países em muitos contextos; o caso brasileiro pode fugir da média (a cadeia do repositório rejeita parte do pressuposto markoviano).",
+   "fontes": [
+    "Adam Przeworski - Wikipédia (secundária) [lido] https://en.wikipedia.org/wiki/Adam_Przeworski",
+    "Modernization theory - Wikipédia (secundária; Lipset 1959 e Przeworski & Limongi 1997) [lido] https://en.wikipedia.org/wiki/Modernization_theory"
+   ],
+   "verificado": true
+  },
+  {
+   "id": "acemoglu-robinson-sufragio",
+   "autor": "Daron Acemoglu e James Robinson",
+   "ano": "2000 (QJE); 2006 (livro, não lido)",
+   "ideia": "Elites estendem o sufrágio como compromisso crível de redistribuição quando a ameaça de revolução torna o repasse sob o regime antigo pouco crível; democracia como equilíbrio de conflito.",
+   "aplicacao_brasil": "Hipótese para as ampliações do voto no Brasil: 1932 (revolução de 1930 e Revolução Constitucionalista), 1945 (fim do Estado Novo), 1985-88 (redemocratização); a Lei Saraiva seria o oposto, com restrição sem ameaça organizada.",
+   "leitura_contraria": "A ameaça revolucionária no Brasil de 1932-1985 é discutível; Nicolau mostra que o eleitorado de 1933 foi de 3,3% da população apesar das regras, o que sugere que a mudança de regra por si não bastou. O resumo do artigo foi recebido em busca, sem leitura do PDF.",
+   "fontes": [
+    "Acemoglu, D.; Robinson, J. 'Why Did the West Extend the Franchise?', QJE 115(4), 2000, pp. 1167-1199 (resumo recebido via busca; PDF não lido) [não lido] https://ideas.repec.org/a/oup/qjecon/v115y2000i4p1167-1199..html",
+    "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext) [lido] https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf"
+   ],
+   "verificado": false
+  },
+  {
+   "id": "boix-democracia-redistribuicao",
+   "autor": "Carles Boix",
+   "ano": "2003",
+   "ideia": "A democratização depende da desigualdade e da mobilidade do capital: elites aceitam democracia quando ela custa menos que a repressão e o capital pode sair.",
+   "aplicacao_brasil": "Hipótese sobre a elite agrária (ativo imóvel, pouca mobilidade, resistência a regras) e a financeira (ativo móvel, menos custo de aceitar regras redistributivas).",
+   "leitura_contraria": "A teoria foi testada sobretudo com dados europeus; ativos de exportação primária no Brasil têm especificidade própria. A tese não foi lida (só a referência).",
+   "fontes": [
+    "Boix, C. Democracy and Redistribution. Cambridge UP, 2003 (verbete da Wikipédia lido só para a referência) [lido] https://en.wikipedia.org/wiki/Carles_Boix"
+   ],
+   "verificado": false
+  },
+  {
+   "id": "meltzer-richard",
+   "autor": "Allan Meltzer e Scott Richard",
+   "ano": "1981",
+   "ideia": "Quanto mais baixa a renda do eleitor mediano em relação à média, maior a demanda por redistribuição; ampliar o voto aos mais pobres tende a elevar o tamanho do governo.",
+   "aplicacao_brasil": "Hipótese de leitura para a resistência à expansão do voto (alfabetização) por elites e para a ampliação de transferências após 1985; e para o voto obrigatório e o analfabeto em 1985.",
+   "leitura_contraria": "Evidência empírica é mista: o aumento do eleitorado pobre nem sempre eleva gasto redistributivo; clientelismo e voto de identidade quebram a previsão. Só a referência foi lida.",
+   "fontes": [
+    "Meltzer, A.; Richard, S. 'A Rational Theory of the Size of Government', JPE 89(5), 1981, pp. 914-927 (lida só a referência; sem resumo) [lido] https://ideas.repec.org/a/ucp/jpolec/v89y1981i5p914-27.html"
+   ],
+   "verificado": false
+  },
+  {
+   "id": "lipset-modernizacao",
+   "autor": "Seymour M. Lipset",
+   "ano": "1959",
+   "ideia": "Desenvolvimento econômico (industrialização, urbanização, riqueza, educação) correlaciona-se com democracia.",
+   "aplicacao_brasil": "Servia a explicações do tipo 'o voto amplia-se com a alfabetização' (1985, quando o analfabeto passou a votar).",
+   "leitura_contraria": "Przeworski e Limongi (1997) concluem que a renda ajuda democracias a sobreviver mas não as faz surgir; o Brasil de 1964 mostra ditadura em período de crescimento.",
+   "fontes": [
+    "Modernization theory - Wikipédia (secundária; Lipset 1959 e Przeworski & Limongi 1997) [lido] https://en.wikipedia.org/wiki/Modernization_theory"
+   ],
+   "verificado": true
+  },
+  {
+   "id": "moore-origens-sociais",
+   "autor": "Barrington Moore Jr.",
+   "ano": "1966",
+   "ideia": "Três rotas para a modernidade: revolução burguesa (democracia liberal), revolução de cima (fascismo) e revolução camponesa (comunismo), a depender da aliança entre burguesia e proprietários.",
+   "aplicacao_brasil": "Hipótese: aliança entre elite agrária exportadora e burguesia fraca produziu rotas de 'revolução pelo alto' (1930, 1964); 'Sem burguesia, sem democracia'.",
+   "leitura_contraria": "O Brasil não aparece no estudo; autores críticos apontam que a tese foi feita sobre poucos casos e sobreestima a agricultura como determinante.",
+   "fontes": [
+    "Social Origins of Dictatorship and Democracy - Wikipédia (secundária) [lido] https://en.wikipedia.org/wiki/Social_Origins_of_Dictatorship_and_Democracy"
+   ],
+   "verificado": true
+  },
+  {
+   "id": "leal-coronelismo",
+   "autor": "Victor Nunes Leal",
+   "ano": "1948 (tese) / 1949 (livro)",
+   "ideia": "O coronelismo é um compromisso entre poder privado decadente e poder público em expansão: coronéis entregam votos a governadores e recebem proteção e recursos; trabalhadores rurais, em dependência, entregam voto por subsistência.",
+   "aplicacao_brasil": "Base da leitura do voto aberto, do 'bico de pena' e da política dos governadores como um sistema de trocas em três níveis.",
+   "leitura_contraria": "Estudos posteriores discutem se o voto de cabresto era só coação ou também troca percebida como vantagem pelo eleitor; o ano de publicação consta como 1948 no verbete lido e 1949 em listas bibliográficas (divergência não resolvida).",
+   "fontes": [
+    "Coronelismo, Enxada e Voto - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Coronelismo,_Enxada_e_Voto"
+   ],
+   "verificado": true
+  },
+  {
+   "id": "faoro-donos-do-poder",
+   "autor": "Raymundo Faoro",
+   "ano": "1958",
+   "ideia": "Patrimonialismo: o poder público é exercido como se fosse privado por um estamento burocrático de origem portuguesa que se renova e se adapta, sem ser apenas expressão de uma classe econômica.",
+   "aplicacao_brasil": "Leitura do Estado brasileiro como ator com interesse próprio nas regras (cargos, fundos, controle de listas); Nicolau cita Faoro ao discutir fraude nos cadastros de votantes até 1880.",
+   "leitura_contraria": "Críticos (marxistas e institucionalistas) dizem que a tese subestima conflitos de classe e que o 'estamento' é difícil de delimitar empiricamente.",
+   "fontes": [
+    "Os Donos do Poder - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Os_Donos_do_Poder",
+    "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext) [lido] https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf"
+   ],
+   "verificado": true
+  },
+  {
+   "id": "carvalho-cidadania",
+   "autor": "José Murilo de Carvalho",
+   "ano": "2001",
+   "ideia": "Brasil teria invertido a sequência britânica de direitos (civis, políticos, sociais): direitos sociais vieram antes (1930-45), com direitos civis e políticos fracos; a cidadania é construída 'de cima'.",
+   "aplicacao_brasil": "Ajuda a ler a CLT (1943) convivendo com o fim das eleições (1937-45) e o voto amplo com direitos civis frágeis.",
+   "leitura_contraria": "Críticos apontam que a sequência europeia é um modelo idealizado e que o Brasil teve ações populares e conquistas por baixo (abolicionismo, sindicalismo). A obra não foi lida (verbete retornou 404).",
+   "fontes": [
+    "Carvalho, J. M. Cidadania no Brasil: o longo caminho (2001) (verbete retornou 404; não lido) [não lido] https://pt.wikipedia.org/wiki/Cidadania_no_Brasil:_O_Longo_Caminho"
+   ],
+   "verificado": false
+  },
+  {
+   "id": "nicolau-voto-participacao",
+   "autor": "Jairo Nicolau",
+   "ano": "artigo lido (CES-Coimbra, data não conferida); livro de 2002 (não lido)",
+   "ideia": "A restrição do voto no Brasil foi por qualificação (renda, alfabetização), não por nascimento; a ampliação real veio com o alistamento ex officio (1945), a urbanização e, em 1986, a entrada do analfabeto; a urna eletrônica reduziu voto inválido; coligações proporcionais explicavam a fragmentação.",
+   "aplicacao_brasil": "Fonte direta das contagens de eleitorado nesta pesquisa (1,1 milhão de votantes em 1873; 142 mil eleitores em 1882; 2,3% de participação média na República Velha; 50% desde 1986) e da leitura da fragmentação (NEP).",
+   "leitura_contraria": "Dados de 1889-1930 têm fraude em larga escala (o próprio autor adverte); NEP depende de como se contam votos e partidos, e a mesma queda de NEP tem valores diferentes (9,2 em Schaefer; 12,7 em Poder360 citando Nicolau, medidos em momentos diferentes).",
+   "fontes": [
+    "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext) [lido] https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+    "Schaefer, B. M. 'O fim das coligações proporcionais e a reconfiguração das alianças majoritárias no Brasil', Cadernos Adenauer XXVII (2026) nº 1 (PDF lido) [lido] https://www.kas.de/documents/d/brasilien/cadernos-adenauer1_2026_web-capitulo-5",
+    "Poder360, 'Câmara tem maior redução na fragmentação desde 1995' (cita Nicolau/FGV) [lido] https://www.poder360.com.br/congresso/camara-tem-maior-reducao-na-fragmentacao-desde-1995/",
+    "Nicolau, J. História do voto no Brasil (2002) (não lido; o artigo 'A participação eleitoral' foi lido) [não lido]"
+   ],
+   "verificado": true
+  },
+  {
+   "id": "abranches-presidencialismo-coalizao",
+   "autor": "Sérgio Abranches",
+   "ano": "1988",
+   "ideia": "Proporcionalidade, multipartidarismo e presidente com poderes amplos obrigam a formar grandes coalizões; o custo é alta instabilidade e distribuição de cargos.",
+   "aplicacao_brasil": "Base para ler fragmentação (NEP 16,5 em 2018), emendas e o interesse de partidos médios em regras de coligação e de fundo.",
+   "leitura_contraria": "Limongi e Figueiredo mostram que as regras internas do Congresso concentram poder nos líderes e dão ao Executivo governabilidade maior que a prevista por Abranches.",
+   "fontes": [
+    "Presidencialismo de coalizão - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Presidencialismo_de_coaliz%C3%A3o",
+    "Schaefer, B. M. 'O fim das coligações proporcionais e a reconfiguração das alianças majoritárias no Brasil', Cadernos Adenauer XXVII (2026) nº 1 (PDF lido) [lido] https://www.kas.de/documents/d/brasilien/cadernos-adenauer1_2026_web-capitulo-5"
+   ],
+   "verificado": true
+  },
+  {
+   "id": "singer-lulismo",
+   "autor": "André Singer",
+   "ano": "c. 2009-2012 (datas não conferidas)",
+   "ideia": "O lulismo seria 'mudança dentro da ordem': continuidade macroeconômica somada a transferências, com realinhamento do subproletariado em 2006.",
+   "aplicacao_brasil": "Hipótese para a classe 'baixa-renda-transferencias' e o voto regional em 2006 e 2022 (eleicoes_timeline.json, movimento 'lulismo').",
+   "leitura_contraria": "Críticos (Maringoni, no verbete lido) leem o modelo como um pacto conservador dependente de crescimento; Singer documenta a queda do modelo no governo Dilma. O peso do Bolsa Família no voto é disputado.",
+   "fontes": [
+    "Lulismo - Wikipédia (secundária; lidos os primeiros 100 mil caracteres) [lido] https://pt.wikipedia.org/wiki/Lulismo"
+   ],
+   "verificado": true
+  },
+  {
+   "id": "nobre-imobilismo",
+   "autor": "Marcos Nobre",
+   "ano": "2013",
+   "ideia": "O sistema político seria organizado em torno de um 'pemedebismo': blocos de poder que travam mudanças e preservam alianças amplas; a democracia pós-1988 teria 'imobilismo em movimento'.",
+   "aplicacao_brasil": "Hipótese para reformas eleitorais que não saem do Congresso (novo Código parado desde 2021) e para a persistência de regras de interesse dos grandes partidos.",
+   "leitura_contraria": "Cientistas políticos mostram que houve mudanças institucionais significativas (reeleição, coligações, financiamento, cláusula); 'imobilismo' é uma caracterização contestável. Obra não pesquisada nesta coleta.",
+   "fontes": [
+    "Nobre, M. Imobilismo em movimento (2013) (não pesquisado) [não lido]"
+   ],
+   "verificado": false
+  }
+ ],
+ "matriz_regra_x_classe": [
+  {
+   "regra": "Lei Saraiva (1881): voto direto, alfabetização e prova de renda",
+   "classe_id": "escravizados-libertos-negros",
+   "ganha_ou_perde": "perde",
+   "nota": "Libertos pobres e analfabetos ficam fora; sem dado por raça."
+  },
+  {
+   "regra": "Lei Saraiva (1881): voto direto, alfabetização e prova de renda",
+   "classe_id": "camponeses-posseiros",
+   "ganha_ou_perde": "perde",
+   "nota": "Eleitorado rural dependente cai com o corte de renda e de alfabetização (hipótese)."
+  },
+  {
+   "regra": "Lei Saraiva (1881): voto direto, alfabetização e prova de renda",
+   "classe_id": "oligarquia-agraria-coroneis",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Eleitorado menor é mais controlável, mas o voto direto retira o filtro dos eleitores de 2º grau (hipótese)."
+  },
+  {
+   "regra": "Lei Saraiva (1881): voto direto, alfabetização e prova de renda",
+   "classe_id": "classe-media-urbana-funcionalismo",
+   "ganha_ou_perde": "ganha",
+   "nota": "Alfabetizados e com renda comprovada permanecem (hipótese)."
+  },
+  {
+   "regra": "Lei Saraiva (1881): voto direto, alfabetização e prova de renda",
+   "classe_id": "informais-e-precarizados",
+   "ganha_ou_perde": "perde",
+   "nota": "Renda irregular dificulta a prova de renda (hipótese)."
+  },
+  {
+   "regra": "Lei Saraiva (1881): voto direto, alfabetização e prova de renda",
+   "classe_id": "elite-politica-profissional",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Voto direto altera a disputa; efeito medido: queda de 87% do corpo de votantes (Nicolau)."
+  },
+  {
+   "regra": "Constituição de 1891: exclusão de analfabetos, voto aberto e sem obrigatoriedade",
+   "classe_id": "escravizados-libertos-negros",
+   "ganha_ou_perde": "perde",
+   "nota": "Exclusão por escolaridade."
+  },
+  {
+   "regra": "Constituição de 1891: exclusão de analfabetos, voto aberto e sem obrigatoriedade",
+   "classe_id": "camponeses-posseiros",
+   "ganha_ou_perde": "perde",
+   "nota": "Voto aberto e dependência do proprietário."
+  },
+  {
+   "regra": "Constituição de 1891: exclusão de analfabetos, voto aberto e sem obrigatoriedade",
+   "classe_id": "oligarquia-agraria-coroneis",
+   "ganha_ou_perde": "ganha",
+   "nota": "Eleitorado pequeno e controlável (Leal)."
+  },
+  {
+   "regra": "Constituição de 1891: exclusão de analfabetos, voto aberto e sem obrigatoriedade",
+   "classe_id": "militares",
+   "ganha_ou_perde": "perde",
+   "nota": "Praças e soldados excluídos do voto (verbete lido)."
+  },
+  {
+   "regra": "Constituição de 1891: exclusão de analfabetos, voto aberto e sem obrigatoriedade",
+   "classe_id": "igreja-catolica",
+   "ganha_ou_perde": "perde",
+   "nota": "Religiosos sujeitos a voto de obediência excluídos."
+  },
+  {
+   "regra": "Constituição de 1891: exclusão de analfabetos, voto aberto e sem obrigatoriedade",
+   "classe_id": "mulheres",
+   "ganha_ou_perde": "perde",
+   "nota": "Mulheres excluídas do voto."
+  },
+  {
+   "regra": "Constituição de 1891: exclusão de analfabetos, voto aberto e sem obrigatoriedade",
+   "classe_id": "elites-sudeste",
+   "ganha_ou_perde": "ganha",
+   "nota": "Revezamento SP-MG com eleitorado restrito."
+  },
+  {
+   "regra": "Política dos governadores e Comissão Verificadora (1898)",
+   "classe_id": "oligarquia-agraria-coroneis",
+   "ganha_ou_perde": "ganha",
+   "nota": "Apoio federal a situações estaduais em troca de bancadas alinhadas."
+  },
+  {
+   "regra": "Política dos governadores e Comissão Verificadora (1898)",
+   "classe_id": "elites-sudeste",
+   "ganha_ou_perde": "ganha",
+   "nota": "Hegemonia do café com leite até 1930."
+  },
+  {
+   "regra": "Política dos governadores e Comissão Verificadora (1898)",
+   "classe_id": "oligarquias-estaduais-nordeste",
+   "ganha_ou_perde": "ganha",
+   "nota": "Autonomia estadual com apoio federal."
+  },
+  {
+   "regra": "Política dos governadores e Comissão Verificadora (1898)",
+   "classe_id": "camponeses-posseiros",
+   "ganha_ou_perde": "perde",
+   "nota": "Eleitor rural subordinado a rede de favores."
+  },
+  {
+   "regra": "Política dos governadores e Comissão Verificadora (1898)",
+   "classe_id": "classe-media-urbana-funcionalismo",
+   "ganha_ou_perde": "perde",
+   "nota": "Oposição urbana sem canal eleitoral efetivo (hipótese)."
+  },
+  {
+   "regra": "Código Eleitoral de 1932: voto secreto, voto feminino e Justiça Eleitoral",
+   "classe_id": "mulheres",
+   "ganha_ou_perde": "ganha",
+   "nota": "Voto feminino; comparecimento total ainda 3,3% em 1933."
+  },
+  {
+   "regra": "Código Eleitoral de 1932: voto secreto, voto feminino e Justiça Eleitoral",
+   "classe_id": "operariado-urbano",
+   "ganha_ou_perde": "ganha",
+   "nota": "Voto secreto reduz coação patronal (hipótese)."
+  },
+  {
+   "regra": "Código Eleitoral de 1932: voto secreto, voto feminino e Justiça Eleitoral",
+   "classe_id": "oligarquia-agraria-coroneis",
+   "ganha_ou_perde": "perde",
+   "nota": "Verificação deixa o Legislativo estadual (hipótese)."
+  },
+  {
+   "regra": "Código Eleitoral de 1932: voto secreto, voto feminino e Justiça Eleitoral",
+   "classe_id": "burocracia-juridica-controle",
+   "ganha_ou_perde": "ganha",
+   "nota": "Cria a Justiça Eleitoral."
+  },
+  {
+   "regra": "Código Eleitoral de 1932: voto secreto, voto feminino e Justiça Eleitoral",
+   "classe_id": "camponeses-posseiros",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Sigilo sem alfabetização e sem acesso ao título."
+  },
+  {
+   "regra": "Estado Novo (1937): fim das eleições e extinção dos partidos",
+   "classe_id": "operariado-urbano",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "CLT (1943) sem eleições."
+  },
+  {
+   "regra": "Estado Novo (1937): fim das eleições e extinção dos partidos",
+   "classe_id": "burguesia-industrial",
+   "ganha_ou_perde": "ganha",
+   "nota": "Proteção industrial e canal estatal (hipótese)."
+  },
+  {
+   "regra": "Estado Novo (1937): fim das eleições e extinção dos partidos",
+   "classe_id": "militares",
+   "ganha_ou_perde": "ganha",
+   "nota": "Papel de sustentação do regime (hipótese)."
+  },
+  {
+   "regra": "Estado Novo (1937): fim das eleições e extinção dos partidos",
+   "classe_id": "elite-politica-profissional",
+   "ganha_ou_perde": "perde",
+   "nota": "Mandatos e partidos extintos."
+  },
+  {
+   "regra": "Estado Novo (1937): fim das eleições e extinção dos partidos",
+   "classe_id": "elites-sudeste",
+   "ganha_ou_perde": "perde",
+   "nota": "Perda de poder político, manutenção de renda (economia_historica.json)."
+  },
+  {
+   "regra": "Estado Novo (1937): fim das eleições e extinção dos partidos",
+   "classe_id": "oligarquias-estaduais-nordeste",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Centralização reduz o poder estadual (hipótese)."
+  },
+  {
+   "regra": "AI-2 (1965): extinção dos partidos, bipartidarismo e eleição indireta",
+   "classe_id": "militares",
+   "ganha_ou_perde": "ganha",
+   "nota": "Controle do processo de escolha do presidente."
+  },
+  {
+   "regra": "AI-2 (1965): extinção dos partidos, bipartidarismo e eleição indireta",
+   "classe_id": "elite-politica-profissional",
+   "ganha_ou_perde": "perde",
+   "nota": "Todos os partidos dissolvidos; só ARENA e MDB."
+  },
+  {
+   "regra": "AI-2 (1965): extinção dos partidos, bipartidarismo e eleição indireta",
+   "classe_id": "operariado-urbano",
+   "ganha_ou_perde": "perde",
+   "nota": "PTB extinto; sem canal próprio (hipótese)."
+  },
+  {
+   "regra": "AI-2 (1965): extinção dos partidos, bipartidarismo e eleição indireta",
+   "classe_id": "burocracia-juridica-controle",
+   "ganha_ou_perde": "perde",
+   "nota": "STF ampliado de 11 para 16 e sujeito a cassação por AI."
+  },
+  {
+   "regra": "AI-2 (1965): extinção dos partidos, bipartidarismo e eleição indireta",
+   "classe_id": "classe-media-urbana-funcionalismo",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Parte apoiou 1964; cassações atingem vários espectros."
+  },
+  {
+   "regra": "Lei Falcão (1976): propaganda limitada a nome, número, currículo e retrato",
+   "classe_id": "operariado-urbano",
+   "ganha_ou_perde": "perde",
+   "nota": "Canal de rádio e TV da oposição restrito (hipótese)."
+  },
+  {
+   "regra": "Lei Falcão (1976): propaganda limitada a nome, número, currículo e retrato",
+   "classe_id": "classe-media-urbana-funcionalismo",
+   "ganha_ou_perde": "perde",
+   "nota": "Menos informação sobre candidatos."
+  },
+  {
+   "regra": "Lei Falcão (1976): propaganda limitada a nome, número, currículo e retrato",
+   "classe_id": "militares",
+   "ganha_ou_perde": "ganha",
+   "nota": "Reação ao desempenho oposicionista de 1974 (fonte lida cita o contexto)."
+  },
+  {
+   "regra": "Lei Falcão (1976): propaganda limitada a nome, número, currículo e retrato",
+   "classe_id": "elite-politica-profissional",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Menor custo de campanha para todos; menor diferenciação."
+  },
+  {
+   "regra": "Pacote de Abril (1977): senadores biônicos, mandato de 6 anos e quórum menor",
+   "classe_id": "militares",
+   "ganha_ou_perde": "ganha",
+   "nota": "Maioria no Senado independente do voto popular."
+  },
+  {
+   "regra": "Pacote de Abril (1977): senadores biônicos, mandato de 6 anos e quórum menor",
+   "classe_id": "oligarquias-estaduais-nordeste",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Um senador por estado; efeito regional não lido."
+  },
+  {
+   "regra": "Pacote de Abril (1977): senadores biônicos, mandato de 6 anos e quórum menor",
+   "classe_id": "elite-politica-profissional",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Membros da situação ganham, oposição perde."
+  },
+  {
+   "regra": "Pacote de Abril (1977): senadores biônicos, mandato de 6 anos e quórum menor",
+   "classe_id": "classe-media-urbana-funcionalismo",
+   "ganha_ou_perde": "perde",
+   "nota": "Voto popular perde peso no Senado."
+  },
+  {
+   "regra": "Pacote de Abril (1977): senadores biônicos, mandato de 6 anos e quórum menor",
+   "classe_id": "operariado-urbano",
+   "ganha_ou_perde": "perde",
+   "nota": "Voto popular perde peso no Senado."
+  },
+  {
+   "regra": "EC 25/1985: voto do analfabeto (e recadastramento)",
+   "classe_id": "informais-e-precarizados",
+   "ganha_ou_perde": "ganha",
+   "nota": "Entrada de eleitores sem escolaridade formal."
+  },
+  {
+   "regra": "EC 25/1985: voto do analfabeto (e recadastramento)",
+   "classe_id": "escravizados-libertos-negros",
+   "ganha_ou_perde": "ganha",
+   "nota": "Fim da barreira de escolaridade; sem dado por raça."
+  },
+  {
+   "regra": "EC 25/1985: voto do analfabeto (e recadastramento)",
+   "classe_id": "camponeses-posseiros",
+   "ganha_ou_perde": "ganha",
+   "nota": "Fim da barreira de escolaridade."
+  },
+  {
+   "regra": "EC 25/1985: voto do analfabeto (e recadastramento)",
+   "classe_id": "baixa-renda-transferencias",
+   "ganha_ou_perde": "ganha",
+   "nota": "Eleitorado sobe 10,6 pontos percentuais em 1986 (Nicolau)."
+  },
+  {
+   "regra": "EC 25/1985: voto do analfabeto (e recadastramento)",
+   "classe_id": "oligarquia-agraria-coroneis",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Mais eleitores, mas voto secreto e fiscalização mudaram o contexto."
+  },
+  {
+   "regra": "Reeleição (EC 16/1997)",
+   "classe_id": "elite-politica-profissional",
+   "ganha_ou_perde": "ganha",
+   "nota": "Executivos em exercício ganham opção; vale para todos os partidos."
+  },
+  {
+   "regra": "Reeleição (EC 16/1997)",
+   "classe_id": "burocracia-juridica-controle",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Mais disputa sobre uso da máquina e abuso de poder (hipótese)."
+  },
+  {
+   "regra": "Reeleição (EC 16/1997)",
+   "classe_id": "burguesia-mercantil-financeira",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Continuidade de política econômica é preferida; custo de captura pode subir (hipótese)."
+  },
+  {
+   "regra": "Reeleição (EC 16/1997)",
+   "classe_id": "classe-media-urbana-funcionalismo",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Accountability retrospectiva versus vantagem do incumbente."
+  },
+  {
+   "regra": "Reeleição (EC 16/1997)",
+   "classe_id": "baixa-renda-transferencias",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Continuidade de programas versus acesso à máquina (hipótese)."
+  },
+  {
+   "regra": "Doações de empresas (até 2015) e fim pelo STF",
+   "classe_id": "burguesia-mercantil-financeira",
+   "ganha_ou_perde": "ganha",
+   "nota": "Canal legal de acesso até 2015; perde o canal direto depois."
+  },
+  {
+   "regra": "Doações de empresas (até 2015) e fim pelo STF",
+   "classe_id": "agro-agronegocio",
+   "ganha_ou_perde": "ganha",
+   "nota": "Idem (hipótese)."
+  },
+  {
+   "regra": "Doações de empresas (até 2015) e fim pelo STF",
+   "classe_id": "burguesia-industrial",
+   "ganha_ou_perde": "ganha",
+   "nota": "Idem (hipótese)."
+  },
+  {
+   "regra": "Doações de empresas (até 2015) e fim pelo STF",
+   "classe_id": "elite-politica-profissional",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Perde a doação privada, ganha fundo público."
+  },
+  {
+   "regra": "Doações de empresas (até 2015) e fim pelo STF",
+   "classe_id": "informais-e-precarizados",
+   "ganha_ou_perde": "ganha",
+   "nota": "Menor assimetria de recursos entre candidatos (hipótese)."
+  },
+  {
+   "regra": "Doações de empresas (até 2015) e fim pelo STF",
+   "classe_id": "operariado-urbano",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Menos dependência de doador, mas autofinanciamento sobe de 15,9% para 47,2% (Politize)."
+  },
+  {
+   "regra": "FEFC (2017) e cláusula de desempenho (EC 97/2017)",
+   "classe_id": "elite-politica-profissional",
+   "ganha_ou_perde": "ganha",
+   "nota": "Fundo de R$ 4,962 bi em 2022, 2024 e 2026 controlado pelos partidos."
+  },
+  {
+   "regra": "FEFC (2017) e cláusula de desempenho (EC 97/2017)",
+   "classe_id": "igrejas-evangelicas",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Partidos médios e grandes tendem a ganhar; pequenos perdem."
+  },
+  {
+   "regra": "FEFC (2017) e cláusula de desempenho (EC 97/2017)",
+   "classe_id": "agro-agronegocio",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Frente transversal depende de partidos médios e grandes."
+  },
+  {
+   "regra": "FEFC (2017) e cláusula de desempenho (EC 97/2017)",
+   "classe_id": "burocracia-juridica-controle",
+   "ganha_ou_perde": "ganha",
+   "nota": "Mais fiscalização de fundo público."
+  },
+  {
+   "regra": "FEFC (2017) e cláusula de desempenho (EC 97/2017)",
+   "classe_id": "mulheres",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Distribuição de fundo com reserva é objeto de disputa."
+  },
+  {
+   "regra": "Fim das coligações proporcionais (EC 97/2017; vigor em 2020)",
+   "classe_id": "elite-politica-profissional",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "NEP cai de 16,5 (2018) para 9,2 (2022); partidos pequenos perdem."
+  },
+  {
+   "regra": "Fim das coligações proporcionais (EC 97/2017; vigor em 2020)",
+   "classe_id": "igrejas-evangelicas",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Depende de pertencer a partido médio ou grande."
+  },
+  {
+   "regra": "Fim das coligações proporcionais (EC 97/2017; vigor em 2020)",
+   "classe_id": "agro-agronegocio",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Frente transversal reorganiza-se em poucos partidos."
+  },
+  {
+   "regra": "Fim das coligações proporcionais (EC 97/2017; vigor em 2020)",
+   "classe_id": "classe-media-urbana-funcionalismo",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Menos partidos de aluguel; menos voz a nichos."
+  },
+  {
+   "regra": "Fim das coligações proporcionais (EC 97/2017; vigor em 2020)",
+   "classe_id": "operariado-urbano",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Federações e fusões dão organização, mas reduzem opções."
+  },
+  {
+   "regra": "Orçamento secreto (RP9): emendas de relator sem autoria identificável",
+   "classe_id": "elite-politica-profissional",
+   "ganha_ou_perde": "ganha",
+   "nota": "Discricionariedade na alocação; cerca de R$ 16 bi em 2021."
+  },
+  {
+   "regra": "Orçamento secreto (RP9): emendas de relator sem autoria identificável",
+   "classe_id": "oligarquias-estaduais-nordeste",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Distribuição regional não lida."
+  },
+  {
+   "regra": "Orçamento secreto (RP9): emendas de relator sem autoria identificável",
+   "classe_id": "burocracia-juridica-controle",
+   "ganha_ou_perde": "perde",
+   "nota": "STF declarou inconstitucional em 19/12/2022 (6 x 5, InfoMoney)."
+  },
+  {
+   "regra": "Orçamento secreto (RP9): emendas de relator sem autoria identificável",
+   "classe_id": "classe-media-urbana-funcionalismo",
+   "ganha_ou_perde": "perde",
+   "nota": "Menor rastreabilidade do gasto (hipótese)."
+  },
+  {
+   "regra": "Orçamento secreto (RP9): emendas de relator sem autoria identificável",
+   "classe_id": "informais-e-precarizados",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Obras e equipamentos locais versus sobrepreço denunciado; efeito não medido."
+  },
+  {
+   "regra": "Voto obrigatório (desde 1932, para a regra geral)",
+   "classe_id": "informais-e-precarizados",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Comparecimento forçado, mas com multa baixa (R$ 3,51 segundo Wikipédia, não conferido em TRE)."
+  },
+  {
+   "regra": "Voto obrigatório (desde 1932, para a regra geral)",
+   "classe_id": "baixa-renda-transferencias",
+   "ganha_ou_perde": "ganha",
+   "nota": "Participação maior (efeito sobre voto de esquerda 'até 20 pontos' em referendos, segundo Wikipédia; contestado)."
+  },
+  {
+   "regra": "Voto obrigatório (desde 1932, para a regra geral)",
+   "classe_id": "idosos-aposentados",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Facultativo após 70 anos."
+  },
+  {
+   "regra": "Voto obrigatório (desde 1932, para a regra geral)",
+   "classe_id": "jovens-16-17",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Facultativo aos 16."
+  },
+  {
+   "regra": "Voto obrigatório (desde 1932, para a regra geral)",
+   "classe_id": "trabalhadores-de-aplicativos",
+   "ganha_ou_perde": "ambiguo",
+   "nota": "Custo do dia perdido sem dado."
+  }
+ ],
+ "pessimas_decisoes": [
+  {
+   "id": "lei-de-terras-1850",
+   "ano": 1850,
+   "titulo": "Lei de Terras (Lei 601, 18/09/1850): compra como única via de acesso à terra",
+   "mecanismo_do_dano": "Segundo a crítica historiográfica reproduzida no verbete lido, a compra à vista como única via de acesso torna a terra escassa para quem não tem capital e, assim, mantém trabalho disponível para grandes proprietários, no ano da proibição efetiva do tráfico atlântico (1850; fato de memória, não lido nesta coleta). O vínculo com o voto é indireto: sem terra, sem renda comprovável (Lei Saraiva).",
+   "custo_ou_efeito": {
+    "valor": "Lei única de 1850; efeito sobre o acesso à terra não medido em número nas fontes lidas",
+    "tipo": "estimativa",
+    "fonte": "Lei de Terras - Wikipédia (secundária)",
+    "url": "https://pt.wikipedia.org/wiki/Lei_de_Terras",
+    "verificado": true,
+    "nota": "Sem valor numérico lido; a 'estimativa' refere-se à ausência de medição, não a um número estimado."
+   },
+   "quem_pagou": "Pequenos agricultores sem capital, indígenas e ocupantes tradicionais, futuros libertos e imigrantes pobres (verbete lido).",
+   "leitura_contraria": "O verbete lido registra que ocupantes já estabelecidos podiam titular sua posse; defensores da lei viam nela a regularização fundiária e a receita do Estado com a venda de terras devolutas. Se a lei 'causou' escassez de trabalho livre é controvérsia historiográfica.",
+   "eleicoes_ids": [],
+   "historia_ids": [],
+   "fontes": [
+    "Lei de Terras - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Lei_de_Terras"
+   ]
+  },
+  {
+   "id": "lei-saraiva-1881",
+   "ano": 1881,
+   "titulo": "Lei Saraiva (1881): voto direto, alfabetização e prova de renda",
+   "mecanismo_do_dano": "Exigências mais rigorosas de alfabetização e comprovação de renda reduzem o corpo de votantes ao substituir o sistema em dois graus por voto direto; milhares perdem o direito de votar (Nicolau).",
+   "custo_ou_efeito": {
+    "valor": "Votantes: 1.100.008 (1873, 10,9% da população) para 142.856 eleitores (1882, 1,2%); queda de 87%. Em eleitores de 2º grau: 20.020 para 142.856, alta de 614%.",
+    "tipo": "contagem",
+    "fonte": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext)",
+    "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+    "verificado": true
+   },
+   "quem_pagou": "Votantes sem alfabetização ou sem renda comprovada, em especial os de baixa renda; quem já estava inscrito manteve o direito (repositório).",
+   "leitura_contraria": "Nicolau adverte que os dados de 1873 devem ser lidos com cuidado e cita a suspeita de Faoro de fraude no cadastramento de votantes; a comparação entre 'votantes' (1873) e 'eleitores' (1882) mistura definições. A lei também instituiu o voto direto pela primeira vez.",
+   "eleicoes_ids": [
+    "lei-saraiva-1881"
+   ],
+   "historia_ids": [
+    "sexa-1885",
+    "ventre-1871"
+   ],
+   "fontes": [
+    "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext) [lido] https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+    "Os Donos do Poder - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Os_Donos_do_Poder"
+   ]
+  },
+  {
+   "id": "exclusao-analfabeto-1891",
+   "ano": 1891,
+   "titulo": "Constituição de 1891: exclusão de analfabetos do voto",
+   "mecanismo_do_dano": "A exigência de saber ler e escrever num país de alta taxa de analfabetismo e sem política de escola correspondente (não lida aqui) excluiu a maioria da população; o voto continua aberto e sem obrigatoriedade.",
+   "custo_ou_efeito": {
+    "valor": "Participação média de 2,3% da população nas eleições presidenciais de 1894-1930; 5% em 1930.",
+    "tipo": "contagem",
+    "fonte": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext)",
+    "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+    "verificado": true,
+    "nota": "Nicolau adverte que os dados de 1889-1930 sofrem fraude em larga escala."
+   },
+   "quem_pagou": "Analfabetos (incluindo libertos e descendentes), mulheres, praças e religiosos de voto de obediência (verbete lido).",
+   "leitura_contraria": "O critério já valia desde 1881 (analfabetos inscritos antes foram mantidos), tinha justificativa declarada de capacidade cívica e se aplicava a todos independente da cor; a taxa de analfabetismo de 82,6% em 1890 (≥5 anos) só consta em resumo de busca.",
+   "eleicoes_ids": [
+    "pres-1891",
+    "pres-1894",
+    "pres-1898"
+   ],
+   "historia_ids": [
+    "c1891",
+    "rep-1889"
+   ],
+   "fontes": [
+    "Constituição brasileira de 1891 - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Constitui%C3%A7%C3%A3o_brasileira_de_1891",
+    "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext) [lido] https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+    "Resumo de busca (IBGE 1956/artigos) sobre analfabetismo de 82,6% em 1890; páginas não abertas [não lido] https://biblioteca.ibge.gov.br/visualizacao/livros/livp145051.pdf"
+   ]
+  },
+  {
+   "id": "voto-aberto-bico-de-pena-1891-1932",
+   "ano": 1891,
+   "titulo": "Voto aberto e atas 'a bico de pena' na República Velha",
+   "mecanismo_do_dano": "Voto assinado pelo eleitor e apuração controlada por situações estaduais permitem coação e fraude; Nicolau adverte que os resultados são pouco confiáveis; Leal descreve a troca de voto por subsistência e favores.",
+   "custo_ou_efeito": {
+    "valor": "Os resultados de 1894 são descritos como impossíveis de determinar 'exatamente' por fraude e coação (eleicoes_timeline.json, página lida lá); fraude 'em larga escala' (Nicolau).",
+    "tipo": "estimativa",
+    "fonte": "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext)",
+    "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+    "verificado": true,
+    "nota": "Não há contagem de votos fraudados; todo número de fraude é estimativa ausente."
+   },
+   "quem_pagou": "Eleitores dependentes e oposições estaduais; o conjunto do eleitorado, pela perda de informação sobre preferências.",
+   "leitura_contraria": "Leal vê no coronelismo um compromisso de mão dupla entre poder privado em declínio e poder público em expansão; a Lei Rosa e Silva (1904) tentou garantir representação a minorias com voto cumulativo (efeitos não lidos). O termo 'bico de pena' não foi lido em fonte nesta coleta.",
+   "eleicoes_ids": [
+    "pres-1894",
+    "pres-1898",
+    "lei-rosa-silva-1904"
+   ],
+   "historia_ids": [
+    "c1891"
+   ],
+   "fontes": [
+    "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext) [lido] https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+    "Coronelismo, Enxada e Voto - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Coronelismo,_Enxada_e_Voto",
+    "Constituição brasileira de 1891 - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Constitui%C3%A7%C3%A3o_brasileira_de_1891"
+   ]
+  },
+  {
+   "id": "politica-dos-governadores-1898",
+   "ano": 1898,
+   "titulo": "Política dos governadores e Comissão Verificadora de Poderes (1898)",
+   "mecanismo_do_dano": "A Comissão valida os eleitos alinhados ao presidente; governadores recebem apoio federal sem oposição em troca de bancadas fiéis; a oposição estadual fica sem via institucional.",
+   "custo_ou_efeito": {
+    "valor": "Vigência de 1898 a 1930 (32 anos); colapso em 1930 por divergência entre SP e MG.",
+    "tipo": "contagem",
+    "fonte": "Política dos governadores - Wikipédia (secundária)",
+    "url": "https://pt.wikipedia.org/wiki/Pol%C3%ADtica_dos_governadores",
+    "verificado": true
+   },
+   "quem_pagou": "Oposições estaduais e eleitores sem alternativa; o federalismo de acordo substitui competição por troca.",
+   "leitura_contraria": "Campos Sales defendia que o poder havia passado do centro aos estados ('o que pensam os Estados pensa a União') e via no arranjo uma forma de estabilidade política; Ruy Barbosa criticou as oligarquias estaduais (verbete lido).",
+   "eleicoes_ids": [
+    "pres-1898"
+   ],
+   "historia_ids": [
+    "governadores-1898",
+    "rev-1930"
+   ],
+   "fontes": [
+    "Política dos governadores - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Pol%C3%ADtica_dos_governadores"
+   ]
+  },
+  {
+   "id": "estado-novo-1937",
+   "ano": 1937,
+   "titulo": "Estado Novo: fechamento do Congresso e suspensão das eleições (10/11/1937)",
+   "mecanismo_do_dano": "Fechamento do Legislativo, extinção dos partidos (02/12/1937) e governo por decreto-lei eliminam a competição eleitoral por 8 anos.",
+   "custo_ou_efeito": {
+    "valor": "Congresso fechado em 10/11/1937; partidos extintos em 02/12/1937; nenhuma eleição até dezembro de 1945; plebiscito previsto nunca convocado.",
+    "tipo": "contagem",
+    "fonte": "Estado Novo (Brasil) - Wikipédia (secundária; lidos os primeiros 100 mil caracteres)",
+    "url": "https://pt.wikipedia.org/wiki/Estado_Novo_(Brasil)",
+    "verificado": true
+   },
+   "quem_pagou": "Eleitores, parlamentares e partidos de todo o espectro, incluindo os que haviam apoiado o regime (o integralismo teve o partido extinto).",
+   "leitura_contraria": "O regime alegou ameaça comunista (Plano Cohen, divulgado em 30/09/1937, segundo eleicoes_timeline.json); a legislação trabalhista (CLT, 1943) e a industrialização do período são vistas por defensores como ganhos (repositório).",
+   "eleicoes_ids": [
+    "estado-novo-1937",
+    "pres-1945"
+   ],
+   "historia_ids": [
+    "estado-novo-1937",
+    "c1934"
+   ],
+   "fontes": [
+    "Estado Novo (Brasil) - Wikipédia (secundária; lidos os primeiros 100 mil caracteres) [lido] https://pt.wikipedia.org/wiki/Estado_Novo_(Brasil)",
+    "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui) [não lido] web/public/data/eleicoes_timeline.json"
+   ]
+  },
+  {
+   "id": "ai2-bipartidarismo-1965",
+   "ano": 1965,
+   "titulo": "AI-2 (27/10/1965): dissolução dos partidos e bipartidarismo",
+   "mecanismo_do_dano": "Todos os partidos são dissolvidos e só ARENA e MDB podem operar; eleição presidencial indireta, aberta e nominal; STF passa de 11 a 16 ministros; poder de cassar por 10 anos.",
+   "custo_ou_efeito": {
+    "valor": "Partidos: de múltiplos para 2; STF: 11 para 16; vigência até 15/03/1967.",
+    "tipo": "contagem",
+    "fonte": "Ato Institucional nº 2 - Wikipédia (secundária)",
+    "url": "https://pt.wikipedia.org/wiki/Ato_Institucional_N%C3%BAmero_Dois",
+    "verificado": true
+   },
+   "quem_pagou": "Partidos extintos e seus eleitores, oposição que só podia agir via MDB, e o Judiciário (STF com maioria ampliada).",
+   "leitura_contraria": "Em 1974 o MDB elegeu 16 das 22 vagas do Senado em disputa (eleicoes_timeline.json), o que leitores veem como o bipartidarismo canalizando o voto de oposição; o regime justificava a medida pela ordem política (não lido).",
+   "eleicoes_ids": [
+    "ai2-1965",
+    "geral-1974",
+    "geral-1982"
+   ],
+   "historia_ids": [
+    "ai2-1965",
+    "ai3-ai4-1966"
+   ],
+   "fontes": [
+    "Ato Institucional nº 2 - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Ato_Institucional_N%C3%BAmero_Dois",
+    "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui) [não lido] web/public/data/eleicoes_timeline.json"
+   ]
+  },
+  {
+   "id": "cassacoes-e-inelegibilidades-1964",
+   "ano": 1964,
+   "titulo": "Cassações de mandatos e suspensões de direitos políticos (AI-1 em diante)",
+   "mecanismo_do_dano": "Retiram mandatos e candidaturas sem processo judicial regular, alterando a composição do Legislativo e inibindo candidaturas.",
+   "custo_ou_efeito": {
+    "valor": "Cerca de 3.535 atos punitivos até outubro de 1965 (Wikipédia); 173 deputados federais cassados de 1964 a 1977 (resumo de busca, não verificado).",
+    "tipo": "contagem",
+    "fonte": "Ato Institucional nº 1 - Wikipédia (secundária)",
+    "url": "https://pt.wikipedia.org/wiki/Ato_Institucional_N%C3%BAmero_Um",
+    "verificado": true,
+    "nota": "O total de 3.535 vem de verbete secundário e a fonte original não foi relida; a contagem de deputados está em resumo de busca."
+   },
+   "quem_pagou": "Cassados, seus eleitores e partidos (parlamentares de vários partidos e governadores, ex-presidentes).",
+   "leitura_contraria": "Os atos tinham base formal nos AIs e a justificativa de 'limpeza' e segurança nacional (não lida); a inelegibilidade por decisão judicial e por lei posterior tem natureza diferente (processo e contraditório), o que impede somar tudo como o mesmo tipo de instrumento.",
+   "eleicoes_ids": [
+    "indireta-1964",
+    "ai2-1965"
+   ],
+   "historia_ids": [
+    "ai1-1964",
+    "ai5-1968",
+    "ec1-1969"
+   ],
+   "fontes": [
+    "Ato Institucional nº 1 - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Ato_Institucional_N%C3%BAmero_Um",
+    "Resumo de busca sobre 173 deputados federais cassados 1964-1977; páginas não abertas [não lido] https://www2.camara.leg.br/atividade-legislativa/comissoes/comissoes-permanentes/cdhm/noticias/convite-devolucao-dos-mandatos-dos-deputados-anexo/view"
+   ]
+  },
+  {
+   "id": "lei-falcao-1976",
+   "ano": 1976,
+   "titulo": "Lei Falcão (Lei 6.339, 01/07/1976): propaganda limitada",
+   "mecanismo_do_dano": "Limita a propaganda eleitoral a foto, nome, partido e currículo, proibindo discursos, imagens e música com letra; reduz a informação sobre propostas.",
+   "custo_ou_efeito": {
+    "valor": "Lei 6.339/76; vigência de 1976 a 1984.",
+    "tipo": "contagem",
+    "fonte": "Lei Falcão - Wikipédia (secundária)",
+    "url": "https://pt.wikipedia.org/wiki/Lei_Falc%C3%A3o",
+    "verificado": true
+   },
+   "quem_pagou": "Oposição (MDB), que ganhava força, e eleitores com menos informação sobre propostas.",
+   "leitura_contraria": "A lei vale para todos os candidatos, e leis de restrição de propaganda existem em outras democracias (não pesquisado); o regime a apresentava como forma de igualar o acesso (não lido).",
+   "eleicoes_ids": [
+    "lei-falcao-1976",
+    "geral-1974"
+   ],
+   "historia_ids": [
+    "pacote-1977"
+   ],
+   "fontes": [
+    "Lei Falcão - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Lei_Falc%C3%A3o",
+    "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui) [não lido] web/public/data/eleicoes_timeline.json"
+   ]
+  },
+  {
+   "id": "pacote-de-abril-1977",
+   "ano": 1977,
+   "titulo": "Pacote de Abril (13/04/1977): senadores indiretos, mandato de 6 anos e quórum reduzido",
+   "mecanismo_do_dano": "Um terço do Senado por escolha indireta, mandato presidencial de 5 para 6 anos e redução do quórum de emendas permitem maioria independente do voto popular e mudança constitucional com menos votos.",
+   "custo_ou_efeito": {
+    "valor": "13/04/1977; quórum de emenda de 2/3 para maioria absoluta (verbete; eleicoes_timeline.json diz 'maioria simples'); senadores indiretos em 1978: 22, segundo resumo de busca (não verificado).",
+    "tipo": "contagem",
+    "fonte": "Pacote de Abril - Wikipédia (secundária; verbete curto)",
+    "url": "https://pt.wikipedia.org/wiki/Pacote_de_Abril",
+    "verificado": true,
+    "nota": "O número de 22 senadores só consta em resumo de busca e foi mantido como não verificado."
+   },
+   "quem_pagou": "Eleitores e oposição, pela perda de peso do voto popular no Senado.",
+   "leitura_contraria": "A medida foi resposta à derrota governista de 1974 (verbete e repositório); o regime a apresentava como reforma de procedimento (não lido).",
+   "eleicoes_ids": [
+    "pacote-abril-1977",
+    "indireta-1978",
+    "geral-1978"
+   ],
+   "historia_ids": [
+    "pacote-1977"
+   ],
+   "fontes": [
+    "Pacote de Abril - Wikipédia (secundária; verbete curto) [lido] https://pt.wikipedia.org/wiki/Pacote_de_Abril",
+    "Resumo de busca (InfoEscola/Marxists.org) sobre senadores biônicos; páginas não abertas [não lido] https://www.infoescola.com/historia-do-brasil/senadores-bionicos/"
+   ]
+  },
+  {
+   "id": "emenda-dante-de-oliveira-1984",
+   "ano": 1984,
+   "titulo": "Rejeição da Emenda Dante de Oliveira (25/04/1984)",
+   "mecanismo_do_dano": "A emenda das eleições diretas fica 22 votos abaixo dos 320 necessários; a eleição de 1985 permanece indireta.",
+   "custo_ou_efeito": {
+    "valor": "298 sim, 65 não, 3 abstenções e 113 ausentes; 320 necessários (2/3 de 480).",
+    "tipo": "contagem",
+    "fonte": "Emenda Dante de Oliveira - Wikipédia (secundária)",
+    "url": "https://pt.wikipedia.org/wiki/Emenda_Dante_de_Oliveira",
+    "verificado": true
+   },
+   "quem_pagou": "Eleitorado que apoiou as Diretas Já e queria voto direto em 1985.",
+   "leitura_contraria": "Os ausentes (113) e contrários tinham razões que não foram lidas; a transição pelo Colégio em 1985 (Tancredo Neves) ocorreu com pacto e sem ruptura violenta, o que parte dos historiadores vê como saldo positivo (repositório, não relido).",
+   "eleicoes_ids": [
+    "diretas-1984",
+    "colegio-1985"
+   ],
+   "historia_ids": [
+    "dante-1984",
+    "colegio-1985"
+   ],
+   "fontes": [
+    "Emenda Dante de Oliveira - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Emenda_Dante_de_Oliveira",
+    "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui) [não lido] web/public/data/eleicoes_timeline.json"
+   ]
+  },
+  {
+   "id": "reeleicao-1997",
+   "ano": 1997,
+   "titulo": "Emenda da reeleição (EC 16/1997) e a denúncia de compra de votos",
+   "mecanismo_do_dano": "Críticos: compra de votos por deputados para aprovar a emenda e vantagem do incumbente no uso da máquina; defensores: accountability retrospectiva e continuidade. A denúncia e a interpretação são disputadas.",
+   "custo_ou_efeito": {
+    "valor": "R$ 200 mil em dinheiro, segundo gravações de dois deputados publicadas pela Folha em 13/05/1997 (alegação); os dois renunciaram em 21/05/1997; Senado aprovou em 2º turno em 04/06/1997; Câmara em 28/01/1997 por 336 x 17 x 6 (resumo de busca).",
+    "tipo": "estimativa",
+    "fonte": "Poder360, 'Entenda como foi a compra de votos a favor da emenda da reeleição em 1997'",
+    "url": "https://www.poder360.com.br/brasil/entenda-como-foi-a-compra-de-votos-a-favor-da-emenda-da-reeleicao-em-1997/",
+    "verificado": true,
+    "nota": "A contagem de 336 x 17 x 6 só consta em resumo de busca. Nomes de pessoas citadas nas gravações foram omitidos de propósito."
+   },
+   "quem_pagou": "Não há apuração judicial que identifique o custo: a PGR arquivou os pedidos e a CPI não prosperou (Poder360). O pagador, se houve, não foi identificado em juízo.",
+   "leitura_contraria": "O ex-presidente que sancionou a emenda disse em 2010 que a compra provavelmente existiu, mas não pelo governo federal nem pelo seu partido; em 2020 chamou a reeleição de 'erro'; as pessoas citadas nas gravações negaram. A reeleição foi usada por chefes do Executivo de vários partidos (repositório: 2006, 2014).",
+   "eleicoes_ids": [
+    "ec16-1997",
+    "pres-1998"
+   ],
+   "historia_ids": [
+    "ec16-1997"
+   ],
+   "fontes": [
+    "Poder360, 'Entenda como foi a compra de votos a favor da emenda da reeleição em 1997' [lido] https://www.poder360.com.br/brasil/entenda-como-foi-a-compra-de-votos-a-favor-da-emenda-da-reeleicao-em-1997/",
+    "Resumo de busca sobre a votação de 28/01/1997 (336 x 17, 6 abstenções); página de origem não aberta [não lido] https://www.poder360.com.br/brasil/entenda-como-foi-a-compra-de-votos-a-favor-da-emenda-da-reeleicao-em-1997/",
+    "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui) [não lido] web/public/data/eleicoes_timeline.json"
+   ]
+  },
+  {
+   "id": "financiamento-empresarial-ate-2015",
+   "ano": 2015,
+   "titulo": "Financiamento empresarial de campanhas e sua proibição pelo STF (ADI 4650, 17/09/2015)",
+   "mecanismo_do_dano": "Críticos: dependência de grandes doadores e acesso privilegiado; a proibição levou ao autofinanciamento. Defensores: doação declarada e rastreável.",
+   "custo_ou_efeito": {
+    "valor": "Em 2014, empresas doaram cerca de R$ 3 bi (aproximadamente 80% das doações) e pessoas físicas R$ 552,5 mi; doações do 1º turno de 2016 caem 65% (de R$ 7,2 bi em 2012 para R$ 2,5 bi); autofinanciamento sobe de 15,9% para 47,2%.",
+    "tipo": "contagem",
+    "fonte": "Politize!, 'Como o fim do financiamento de empresas influenciou as eleições de 2016' (cita TSE e STF)",
+    "url": "https://www.politize.com.br/como-fim-do-financiamento-empresas-influenciou-eleicoes-2016/",
+    "verificado": true
+   },
+   "quem_pagou": "Candidatos sem patrimônio próprio (autofinanciamento sobe) e o eleitor, se a influência dos doadores na decisão for real (hipótese não medida).",
+   "leitura_contraria": "O STF citou que empresas envolvidas em esquemas de corrupção respondiam por 40% das doações aos principais partidos (Politize); defensores da doação privada dizem que a proibição estimula caixa dois e favorece ricos, e que a influência não está provada.",
+   "eleicoes_ids": [
+    "pres-2014",
+    "adi4650-2015",
+    "municipal-2016"
+   ],
+   "historia_ids": [
+    "lj-2014"
+   ],
+   "fontes": [
+    "Politize!, 'Como o fim do financiamento de empresas influenciou as eleições de 2016' (cita TSE e STF) [lido] https://www.politize.com.br/como-fim-do-financiamento-empresas-influenciou-eleicoes-2016/"
+   ]
+  },
+  {
+   "id": "fundo-eleitoral-2017",
+   "ano": 2017,
+   "titulo": "Fundo Especial de Financiamento de Campanha (Lei 13.487/2017)",
+   "mecanismo_do_dano": "Críticos: o fundo público, distribuído conforme critérios partidários, dá poder à direção dos partidos e custa ao contribuinte; defensores: substitui doação privada e reduz desigualdade de acesso.",
+   "custo_ou_efeito": {
+    "valor": "R$ 1.716.209.431 (2018); R$ 2.034.954.824 (2020); R$ 4.961.519.777 (2022, 2024 e 2026).",
+    "tipo": "contagem",
+    "fonte": "Fundo Especial de Financiamento de Campanha - Wikipédia (secundária)",
+    "url": "https://pt.wikipedia.org/wiki/Fundo_Especial_de_Financiamento_de_Campanha",
+    "verificado": true
+   },
+   "quem_pagou": "Contribuinte (custo fiscal); candidatos de fora das direções, pela concentração dos recursos (hipótese).",
+   "leitura_contraria": "Sem doação empresarial, o custo declarado das campanhas caiu (doações de 1º turno -65% entre 2012 e 2016, Politize); partidos de todos os espectros têm acesso por regra comum; o valor de 2022 não foi comparado ao custo de campanhas em outros países (não pesquisado).",
+   "eleicoes_ids": [
+    "ec97-fefc-2017",
+    "pres-2018",
+    "pres-2022-t1",
+    "municipal-2024"
+   ],
+   "historia_ids": [],
+   "fontes": [
+    "Fundo Especial de Financiamento de Campanha - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Fundo_Especial_de_Financiamento_de_Campanha",
+    "Politize!, 'Como o fim do financiamento de empresas influenciou as eleições de 2016' (cita TSE e STF) [lido] https://www.politize.com.br/como-fim-do-financiamento-empresas-influenciou-eleicoes-2016/"
+   ]
+  },
+  {
+   "id": "coligacoes-proporcionais-ate-2017",
+   "ano": 2017,
+   "titulo": "Coligações proporcionais e fragmentação partidária (até a EC 97/2017)",
+   "mecanismo_do_dano": "O voto numa legenda ajudava a eleger candidato de outra da coligação, o que sustentava muitos partidos pequenos; a literatura associa o arranjo à alta fragmentação e ao custo de formar coalizão (Abranches).",
+   "custo_ou_efeito": {
+    "valor": "NEP da Câmara de 16,5 em 2018 (último pleito com coligações) e 9,2 em 2022; outra medida (Nicolau, início do mandato): 16,5 em 2019 e 12,7 em 2022; partidos com bancada: 30 (2019) e 23 (abril de 2022).",
+    "tipo": "estimativa",
+    "fonte": "Schaefer, B. M. 'O fim das coligações proporcionais e a reconfiguração das alianças majoritárias no Brasil', Cadernos Adenauer XXVII (2026) nº 1 (PDF lido)",
+    "url": "https://www.kas.de/documents/d/brasilien/cadernos-adenauer1_2026_web-capitulo-5",
+    "verificado": true,
+    "nota": "Há duas séries de NEP para 2022 (9,2 e 12,7); a diferença é de momento de medição e não foi reconciliada."
+   },
+   "quem_pagou": "Governabilidade (custo de coalizão), segundo Abranches; eleitor cujo voto elegeu candidato de outro partido (quociente da coligação).",
+   "leitura_contraria": "Nicolau atribui parte da queda do NEP à 'compactação da direita' por migrações e à criação do União Brasil; o fim das coligações também tirou espaço de partidos pequenos de nicho, e a medida de NEP depende do momento do cálculo (eleição versus início do mandato).",
+   "eleicoes_ids": [
+    "ec97-fefc-2017",
+    "pres-2018",
+    "municipal-2020",
+    "pres-2022-t1"
+   ],
+   "historia_ids": [],
+   "fontes": [
+    "Schaefer, B. M. 'O fim das coligações proporcionais e a reconfiguração das alianças majoritárias no Brasil', Cadernos Adenauer XXVII (2026) nº 1 (PDF lido) [lido] https://www.kas.de/documents/d/brasilien/cadernos-adenauer1_2026_web-capitulo-5",
+    "Poder360, 'Câmara tem maior redução na fragmentação desde 1995' (cita Nicolau/FGV) [lido] https://www.poder360.com.br/congresso/camara-tem-maior-reducao-na-fragmentacao-desde-1995/",
+    "Presidencialismo de coalizão - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Presidencialismo_de_coaliz%C3%A3o"
+   ]
+  },
+  {
+   "id": "orcamento-secreto-rp9-2020",
+   "ano": 2020,
+   "titulo": "Emendas de relator (RP9, 'orçamento secreto'), 2020-2022",
+   "mecanismo_do_dano": "Emendas sem autoria identificável impedem rastrear quem indicou o gasto e o destino, com efeito sobre transparência e controle (STF).",
+   "custo_ou_efeito": {
+    "valor": "Cerca de R$ 16 bi em 2021 e valor similar em 2022; R$ 19,4 bi reservados para 2023 (reserva, não execução).",
+    "tipo": "estimativa",
+    "fonte": "Orçamento secreto - Wikipédia (secundária)",
+    "url": "https://pt.wikipedia.org/wiki/Or%C3%A7amento_secreto",
+    "verificado": true,
+    "nota": "O valor de 2022 (R$ 16,5 bi) em resumo de busca não foi lido e foi mantido de fora do valor verificado."
+   },
+   "quem_pagou": "Controle externo e quem não participa da indicação; municípios sem acesso (hipótese não medida); eventuais sobrepreços ('tratoraço', reportagem de 2021, alegação).",
+   "leitura_contraria": "O STF declarou a prática inconstitucional em 19/12/2022 (6 x 5, InfoMoney; o verbete da Wikipédia dá contagem diferente nos votos parciais); em 19-20/12/2022 o Congresso aprovou mudanças com 328 deputados e 44 senadores para manter o mecanismo (Wikipédia); defensores veem nas emendas uma atribuição legítima do Legislativo sobre o orçamento.",
+   "eleicoes_ids": [
+    "pres-2022-t1"
+   ],
+   "historia_ids": [
+    "rp9-2021"
+   ],
+   "fontes": [
+    "Orçamento secreto - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Or%C3%A7amento_secreto",
+    "InfoMoney, 'STF declara orçamento secreto inconstitucional, por 6 votos a 5' [lido] https://www.infomoney.com.br/?p=2011420",
+    "Resumo de busca (Conjur/Migalhas) sobre RP9: R$ 16,5 bi em 2022; páginas não abertas [não lido] https://www.conjur.com.br/2024-dez-30/a-adpf-854-e-o-aperfeicoamento-do-processo-orcamentario-brasileiro//?print=1"
+   ]
+  },
+  {
+   "id": "distritao-rejeitado-2017-2021",
+   "ano": 2021,
+   "titulo": "Propostas de distritão (rejeitadas em 2017 e 2021)",
+   "mecanismo_do_dano": "Críticos: elimina voto de legenda, personaliza e favorece candidatos já conhecidos; defensores: simplicidade e redução da fragmentação. A proposta não foi adotada: 'quem pagou' é hipotético.",
+   "custo_ou_efeito": {
+    "valor": "19/09/2017: 205 sim, 238 não, 1 abstenção (308 necessários); 11/08/2021: destaque que retirou o distritão do texto, 423 x 35.",
+    "tipo": "contagem",
+    "fonte": "Estado de Minas, 'Plenário da Câmara rejeita alterar sistema eleitoral para distritão' (19/09/2017)",
+    "url": "https://www.em.com.br/app/noticia/politica/2017/09/19/interna_politica,901896/plenario-da-camara-rejeita-alterar-sistema-eleitoral-para-distritao.shtml",
+    "verificado": true
+   },
+   "quem_pagou": "Não aplicável (não adotado); os críticos apontam partidos pequenos, minorias e candidaturas novas como os que pagariam.",
+   "leitura_contraria": "A literatura sobre SNTV (equivalente do distritão) registra que o sistema aumenta a fragmentação e a representação de partidos pequenos em comparação com o majoritário distrital (Wikipédia), o que contraria um dos argumentos favoráveis (redução da fragmentação) e também o argumento crítico de prejuízo a pequenos; Japão a abandonou em 1994.",
+   "eleicoes_ids": [],
+   "historia_ids": [],
+   "fontes": [
+    "Estado de Minas, 'Plenário da Câmara rejeita alterar sistema eleitoral para distritão' (19/09/2017) [lido] https://www.em.com.br/app/noticia/politica/2017/09/19/interna_politica,901896/plenario-da-camara-rejeita-alterar-sistema-eleitoral-para-distritao.shtml",
+    "Conjur, 'Câmara aprova texto-base da reforma eleitoral' (12/08/2021) [lido] https://www.conjur.com.br/2021-ago-12/camara-aprova-texto-base-reforma-eleitoral-votacao-continua//?print=1",
+    "Single non-transferable vote - Wikipédia (secundária) [lido] https://en.wikipedia.org/wiki/Single_non-transferable_vote"
+   ]
+  },
+  {
+   "id": "voto-impresso-rejeitado-2021",
+   "ano": 2021,
+   "titulo": "PEC do voto impresso (rejeitada em 10/08/2021)",
+   "mecanismo_do_dano": "Defensores: auditabilidade independente do voto; críticos: custo, risco ao sigilo e à rastreabilidade e a abertura de contestação permanente. A proposta não foi adotada.",
+   "custo_ou_efeito": {
+    "valor": "229 sim, 218 não, 1 abstenção; 308 necessários.",
+    "tipo": "contagem",
+    "fonte": "CNN Brasil, 'PEC do voto impresso é rejeitada pelo plenário da Câmara'",
+    "url": "https://www.cnnbrasil.com.br/politica/pec-do-voto-impresso-e-rejeitada-em-1-turno-na-camara/",
+    "verificado": true
+   },
+   "quem_pagou": "Não aplicável (não adotado); os críticos citam custo de impressão e risco ao sigilo; os defensores citam perda de auditabilidade.",
+   "leitura_contraria": "A urna eletrônica reduziu votos inválidos (Nicolau) e é auditada por testes públicos (não lidos); a confiança no sistema é matéria de pesquisa (não lida). Segundo a CNN, a PEC 135/2019 foi apresentada pela deputada Bia Kicis (PSL-DF); a votação de 2021 não seguiu uma linha partidária única (contagem por partido não lida).",
+   "eleicoes_ids": [
+    "urna-1996",
+    "pres-2022-t1"
+   ],
+   "historia_ids": [
+    "voto-impresso-2021"
+   ],
+   "fontes": [
+    "CNN Brasil, 'PEC do voto impresso é rejeitada pelo plenário da Câmara' [lido] https://www.cnnbrasil.com.br/politica/pec-do-voto-impresso-e-rejeitada-em-1-turno-na-camara/",
+    "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext) [lido] https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf"
+   ]
+  },
+  {
+   "id": "desinformacao-propaganda-res-23714-2022",
+   "ano": 2022,
+   "titulo": "Decisões contestadas sobre propaganda e desinformação (Res. TSE 23.714/2022)",
+   "mecanismo_do_dano": "Críticos: remoção em 2 horas e suspensão de perfis pelo TSE podem funcionar como censura prévia e concentram decisão; defensores: o dano da desinformação eleitoral é rápido e irreversível.",
+   "custo_ou_efeito": {
+    "valor": "STF manteve a resolução em 25/10/2022 por 9 x 2 (divergência de Nunes Marques e André Mendonça); multa de R$ 100 mil por hora.",
+    "tipo": "contagem",
+    "fonte": "Poder360, 'Por 9 votos a 2, STF mantém norma que aumenta poderes do TSE'",
+    "url": "https://www.poder360.com.br/justica/por-9-votos-a-2-stf-mantem-norma-que-aumenta-poderes-do-tse/",
+    "verificado": true,
+    "nota": "O prazo de remoção aparece como 2 horas na fonte lida e como 1 hora no período final no resumo de busca; divergência não resolvida."
+   },
+   "quem_pagou": "Não definido: depende de quais conteúdos foram removidos e do que foi desinformação, dado que não foi lido.",
+   "leitura_contraria": "A resolução foi aprovada por unanimidade no TSE e mantida por 9 x 2 no STF (Poder360); os votos divergentes apontam censura prévia; o Inquérito 4781 (fake news) é outra decisão contestada do mesmo campo (historia.json).",
+   "eleicoes_ids": [
+    "pres-2022-t1",
+    "pres-2022-t2"
+   ],
+   "historia_ids": [
+    "fake-2019",
+    "eleicao-2022"
+   ],
+   "fontes": [
+    "Poder360, 'Por 9 votos a 2, STF mantém norma que aumenta poderes do TSE' [lido] https://www.poder360.com.br/justica/por-9-votos-a-2-stf-mantem-norma-que-aumenta-poderes-do-tse/",
+    "Resumo de busca sobre a Res. TSE 23.714/2022 (multa de R$ 100 a 150 mil por hora) [não lido] https://sintse.tse.jus.br/documentos/2022/Out/24/diario-da-justica-eletronico-tse-edicao-eleitoral/resolucao-no-23-714-de-20-de-outubro-de-2022-dispoe-sobre-o-enfrentamento-a-desinformacao-que-atinja"
+   ]
+  }
+ ],
+ "futuro": [
+  {
+   "id": "novo-codigo-eleitoral-plp-112-2021",
+   "proposta": "Novo Código Eleitoral (PLP 112/2021): consolidação da legislação eleitoral e partidária",
+   "status": "Aprovado na Câmara em 2021; parado na CCJ do Senado (relator Marcelo Castro, mais de 400 emendas, votação adiada diversas vezes em 2025); não vale para 2026 pela anualidade (CF, art. 16) (Diário do Nordeste, lido).",
+   "quem_ganha_perde": "Conteúdo amplo (cotas e proteção a candidatas, contas partidárias, rotulagem de IA e proibição de deepfake, auditoria por universidades e sociedade civil, inelegibilidade): ganhos e perdas dependem de cada artigo. Hipótese: a elite política e a burocracia de controle têm interesse nos detalhes de inelegibilidade e de prestação de contas; mulheres e sociedade civil nas cotas e na auditoria.",
+   "evidencia_comparada": "Não pesquisada nesta coleta. A consolidação de normas num único código é prática comum em países de tradição civilista (afirmação de memória, não lida).",
+   "riscos": "Risco de 'pacote' em que se inclua regra de interesse imediato dos próprios decisores (hipótese); risco de aprovar perto do pleito com efeito sobre a anualidade.",
+   "sinais_precoces": [
+    "número de emendas e de adiamentos por mês",
+    "data de aprovação em relação ao prazo de um ano antes do pleito",
+    "artigos que alterem inelegibilidade, prazo de prestação de contas ou sanções (comparar texto da Câmara e do Senado)",
+    "uso de urgência"
+   ],
+   "aneis_ids": [
+    "controle-externo-eleitor",
+    "legitimidade-impunidade",
+    "captura-concentracao"
+   ],
+   "decisoes_ids": [
+    "anistia-politica"
+   ],
+   "mecanismo_na_cadeia": "Estados da cadeia (EVOLUCOES_MARKOV.md): 0 autocracia fechada, 1 autocracia eleitoral, 2 democracia eleitoral (Brasil, desde 1987), 3 democracia liberal. Hipótese: regras que reduzem sanções ou inelegibilidades diminuem o custo esperado de irregularidade (anel controle-externo-eleitor) e aumentam P(2→1) na margem; regras de auditoria fazem o oposto. Efeito não está no modelo; só institutional_risk é simulado.",
+   "fontes": [
+    "Diário do Nordeste, 'Sem Novo Código Eleitoral, o que o Legislativo deixou pendente para as eleições de 2026' [lido] https://diariodonordeste.verdesmares.com.br/pontopoder/sem-novo-codigo-eleitoral-o-que-o-legislativo-deixou-pendente-para-as-eleicoes-de-2026-1.3722458"
+   ],
+   "nota_decisoes": "Mapeamento por hipótese: 'anistia-politica' é a decisão de decisoes.json mais próxima de flexibilização de sanção política."
+  },
+  {
+   "id": "distritao-e-distrital-misto",
+   "proposta": "Distritão (voto majoritário nominal em distrito estadual) e sistema distrital misto",
+   "status": "Distritão rejeitado em 19/09/2017 (205 x 238) e em 11/08/2021 (destaque que o retirou, 423 x 35). Situação do distrital misto em 2026 não verificada (EM e Conjur, lidos).",
+   "quem_ganha_perde": "Distritão: ganham candidatos já conhecidos e com base concentrada (hipótese); perdem partidos pequenos e candidaturas novas, segundo críticos; defensores dizem que reduz fragmentação. Distrital misto: ganham eleitores que querem um representante local e as direções, que controlam a lista (hipótese).",
+   "evidencia_comparada": "SNTV (o equivalente ao distritão) foi usada no Japão até 1994 e hoje em Vanuatu, Kuwait e outros; a fonte lida diz que ela 'aumenta a fragmentação e a representação de partidos pequenos' em relação ao majoritário distrital e estimula competição entre candidatos do mesmo partido (SNTV, Wikipédia). Mistos: Alemanha, Nova Zelândia (de memória, não lido).",
+   "riscos": "Risco de personalização, maior custo individual e mais peso do dinheiro e da fama; no distrital misto, risco de redistritamento enviesado (hipótese).",
+   "sinais_precoces": [
+    "NEP da Câmara e fração de votos sem eleito",
+    "taxa de reeleição de incumbentes",
+    "gasto por candidato eleito e participação de celebridades e redes",
+    "proporção de mulheres e de candidaturas negras eleitas"
+   ],
+   "aneis_ids": [
+    "captura-concentracao",
+    "controle-externo-eleitor"
+   ],
+   "decisoes_ids": [],
+   "mecanismo_na_cadeia": "Estados da cadeia (EVOLUCOES_MARKOV.md): 0 autocracia fechada, 1 autocracia eleitoral, 2 democracia eleitoral (Brasil, desde 1987), 3 democracia liberal. Hipótese: mais competição individual muda NEP e o custo de campanha, não o estado do regime; efeito sobre 2→3 (aprofundamento) vem de responsabilização individual ao eleitor, hipótese não medida.",
+   "fontes": [
+    "Estado de Minas, 'Plenário da Câmara rejeita alterar sistema eleitoral para distritão' (19/09/2017) [lido] https://www.em.com.br/app/noticia/politica/2017/09/19/interna_politica,901896/plenario-da-camara-rejeita-alterar-sistema-eleitoral-para-distritao.shtml",
+    "Conjur, 'Câmara aprova texto-base da reforma eleitoral' (12/08/2021) [lido] https://www.conjur.com.br/2021-ago-12/camara-aprova-texto-base-reforma-eleitoral-votacao-continua//?print=1",
+    "Single non-transferable vote - Wikipédia (secundária) [lido] https://en.wikipedia.org/wiki/Single_non-transferable_vote"
+   ],
+   "nota_decisoes": "Sem decisão correlata em decisoes.json."
+  },
+  {
+   "id": "lista-fechada",
+   "proposta": "Lista fechada ou flexível (o eleitor vota no partido, não no candidato)",
+   "status": "Proposta recorrente; situação em 2026 não verificada nesta coleta.",
+   "quem_ganha_perde": "Ganham direções partidárias (controle da ordem), partidos programáticos e, com alternância de gênero, candidatas (hipótese); perdem candidatos independentes e o eleitor que vota na pessoa. Com FEFC de R$ 4,962 bi, o poder de quem distribui o fundo e ordena a lista se somaria (hipótese).",
+   "evidencia_comparada": "Espanha, Portugal, Israel, Turquia e África do Sul usam lista fechada; Brasil, Finlândia, Holanda, Áustria e Polônia usam variantes de lista aberta (Wikipédia, lida); a fonte lida não documenta efeitos sobre coesão.",
+   "riscos": "Risco de concentração de poder nas direções e de listas por critério pessoal (hipótese); mitigação é regra de seleção interna transparente.",
+   "sinais_precoces": [
+    "partidos com convenções públicas e regras de ordem da lista",
+    "proporção de dirigentes repetidos nas primeiras posições",
+    "queda do voto nulo e em branco ou aumento da abstenção quando a regra mudar"
+   ],
+   "aneis_ids": [
+    "captura-concentracao"
+   ],
+   "decisoes_ids": [
+    "reforma-administrativa"
+   ],
+   "mecanismo_na_cadeia": "Estados da cadeia (EVOLUCOES_MARKOV.md): 0 autocracia fechada, 1 autocracia eleitoral, 2 democracia eleitoral (Brasil, desde 1987), 3 democracia liberal. Hipótese: concentra a decisão em poucas direções; efeito sobre P(2→1) depende de haver competição interna e fiscalização, e não existe na cadeia.",
+   "fontes": [
+    "Party-list proportional representation - Wikipédia (secundária; sem efeitos documentados na parte lida) [lido] https://en.wikipedia.org/wiki/Party-list_proportional_representation",
+    "Fundo Especial de Financiamento de Campanha - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Fundo_Especial_de_Financiamento_de_Campanha"
+   ],
+   "nota_decisoes": "'reforma-administrativa' foi escolhida por hipótese (regra de carreira e controle); mapeamento fraco."
+  },
+  {
+   "id": "fim-da-reeleicao-e-mandatos-de-cinco-anos",
+   "proposta": "Fim da reeleição para Executivo e mandatos de cinco anos",
+   "status": "CCJ do Senado aprovou em 21/05/2025, em votação simbólica; falta plenário (49 votos em dois turnos) e Câmara; reeleição vedada a partir de 2030 e mandatos de 5 anos com eleições unificadas a partir de 2034; os termos mudaram durante a tramitação, inclusive o mandato de senadores (Diário do Nordeste, lido; situação posterior não verificada).",
+   "quem_ganha_perde": "Perdem a opção de reeleição presidentes, governadores e prefeitos em exercício (de todos os partidos); ganham oponentes que enfrentam menos incumbentes e eleitores que veem a reeleição como vantagem de máquina. Leitura oposta: o eleitor perde o instrumento de recompensar bom desempenho (hipótese).",
+   "evidencia_comparada": "O ex-presidente que sancionou a EC 16/1997 chamou a reeleição de 'erro' em 2020 (Poder360, lido); comparações com mandato único (México) e limite de dois mandatos (EUA) não foram pesquisadas.",
+   "riscos": "Risco de prorrogação de mandatos na transição, de proliferação de 'candidato de continuidade' e de perda de accountability retrospectiva (hipótese).",
+   "sinais_precoces": [
+    "mudanças de regra de transição entre as versões do texto",
+    "propostas de prorrogação de mandatos",
+    "taxa de reeleição de prefeitos e governadores antes e depois",
+    "uso de cargo para candidatura de aliados"
+   ],
+   "aneis_ids": [
+    "controle-externo-eleitor",
+    "legitimidade-impunidade"
+   ],
+   "decisoes_ids": [],
+   "mecanismo_na_cadeia": "Estados da cadeia (EVOLUCOES_MARKOV.md): 0 autocracia fechada, 1 autocracia eleitoral, 2 democracia eleitoral (Brasil, desde 1987), 3 democracia liberal. Hipótese: remove um mecanismo de recompensa e punição pelo eleitor (anel controle-externo-eleitor) e, por outro lado, reduz o incentivo ao uso da máquina; efeito líquido sobre 2→1 é incerto.",
+   "fontes": [
+    "Diário do Nordeste, 'CCJ do Senado aprova fim da reeleição e propõe mandato de cinco anos' [lido] https://diariodonordeste.verdesmares.com.br/pontopoder/ccj-do-senado-aprova-fim-da-reeleicao-e-propoe-mandato-de-cinco-anos-entenda-1.3652252",
+    "Poder360, 'Entenda como foi a compra de votos a favor da emenda da reeleição em 1997' [lido] https://www.poder360.com.br/brasil/entenda-como-foi-a-compra-de-votos-a-favor-da-emenda-da-reeleicao-em-1997/"
+   ],
+   "nota_decisoes": "Sem decisão correlata em decisoes.json."
+  },
+  {
+   "id": "unificacao-das-eleicoes",
+   "proposta": "Unificação das eleições municipais e gerais (2034)",
+   "status": "Parte da PEC acima (Senado, CCJ 21/05/2025); a Câmara não votou segundo as fontes lidas.",
+   "quem_ganha_perde": "Ganha o Estado (custo de uma eleição a menos) e partidos com candidatura nacional forte; perdem prefeitos e lideranças locais que se beneficiam do calendário próprio (hipótese). A nacionalização do voto municipal pode favorecer candidatos de partidos nacionais.",
+   "evidencia_comparada": "Não pesquisada; eleições simultâneas em vários níveis ocorrem em vários países (de memória, não lido).",
+   "riscos": "Risco de nacionalização excessiva da disputa local, cédula longa e voto inválido maior (Nicolau liga o voto inválido a cédulas complexas, lido).",
+   "sinais_precoces": [
+    "correlação entre o voto de prefeito e o de presidente no mesmo município (dados do repositório)",
+    "taxa de brancos e nulos por tipo de cédula",
+    "abstenção em municipais (2024: 21,68%) versus gerais (2022: 20,79%)"
+   ],
+   "aneis_ids": [
+    "controle-externo-eleitor"
+   ],
+   "decisoes_ids": [],
+   "mecanismo_na_cadeia": "Estados da cadeia (EVOLUCOES_MARKOV.md): 0 autocracia fechada, 1 autocracia eleitoral, 2 democracia eleitoral (Brasil, desde 1987), 3 democracia liberal. Hipótese: altera a frequência de pontos de controle do eleitor; efeito sobre estados 2→1 é incerto e não está no modelo.",
+   "fontes": [
+    "Diário do Nordeste, 'CCJ do Senado aprova fim da reeleição e propõe mandato de cinco anos' [lido] https://diariodonordeste.verdesmares.com.br/pontopoder/ccj-do-senado-aprova-fim-da-reeleicao-e-propoe-mandato-de-cinco-anos-entenda-1.3652252",
+    "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext) [lido] https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+    "Poder360, 'Abstenção é a 2ª maior desde 2000 e só perde para a pandemia' (dados TSE) [lido] https://www.poder360.com.br/poder-eleicoes/abstencao-e-a-2a-maior-desde-2000-e-so-perde-para-a-pandemia/"
+   ],
+   "nota_decisoes": "Sem decisão correlata em decisoes.json."
+  },
+  {
+   "id": "voto-facultativo",
+   "proposta": "Voto facultativo",
+   "status": "Proposta recorrente; sem tramitação lida nesta coleta. Voto obrigatório vale desde 1932 para a regra geral (Wikipédia: multa de cerca de R$ 3,51; não conferida em fonte oficial).",
+   "quem_ganha_perde": "Hipótese: partidos com base mobilizada (sindicatos, igrejas, máquinas locais) tendem a ganhar; eleitores de baixa renda e informais tendem a perder comparecimento. Efeito é debatido: a fonte lida cita estudos em que o voto obrigatório eleva o voto de esquerda 'até 20 pontos' em referendos e 7 a 10 pontos para o Partido Trabalhista na Austrália, e outro estudo de 2024 em que reduz a polarização.",
+   "evidencia_comparada": "Holanda revogou em 1967 e o comparecimento caiu de 95% para cerca de 80%; Chile acabou em 2012 e restabeleceu em 2022; Austrália mantém 91-96% (Compulsory voting, Wikipédia, lido).",
+   "riscos": "Queda do comparecimento de baixa renda e maior peso de organizações mobilizadas (hipótese); abstenção já é alta mesmo com obrigatoriedade (2024: 21,68%).",
+   "sinais_precoces": [
+    "comparecimento por faixa de renda e escolaridade (TSE por seção/município)",
+    "comparação do comparecimento de 16-17 e 70+ (já facultativos) com o de 18-69",
+    "abstenção por UF"
+   ],
+   "aneis_ids": [
+    "controle-externo-eleitor",
+    "desigualdade-educacao-produtividade"
+   ],
+   "decisoes_ids": [
+    "ampliar-assistencia",
+    "cortar-beneficios-fiscais"
+   ],
+   "mecanismo_na_cadeia": "Estados da cadeia (EVOLUCOES_MARKOV.md): 0 autocracia fechada, 1 autocracia eleitoral, 2 democracia eleitoral (Brasil, desde 1987), 3 democracia liberal. Hipótese (Meltzer-Richard): se o eleitor mediano se afasta da baixa renda, a demanda por redistribuição cai (decisoes ampliar-assistencia e cortar-beneficios-fiscais mudam de probabilidade de aprovação); efeito direto sobre os estados da cadeia não medido.",
+   "fontes": [
+    "Compulsory voting - Wikipédia (secundária; lidos os primeiros 100 mil caracteres) [lido] https://en.wikipedia.org/wiki/Compulsory_voting",
+    "Poder360, 'Abstenção é a 2ª maior desde 2000 e só perde para a pandemia' (dados TSE) [lido] https://www.poder360.com.br/poder-eleicoes/abstencao-e-a-2a-maior-desde-2000-e-so-perde-para-a-pandemia/"
+   ],
+   "nota_decisoes": "Mapeamento por hipótese (ligação eleitor mediano x redistribuição); não é efeito calculado pelo modelo."
+  },
+  {
+   "id": "voto-impresso",
+   "proposta": "Voto impresso (comprovante auditável)",
+   "status": "PEC 135/2019 rejeitada em 10/08/2021 (229 x 218; 308 necessários) (CNN, lida); sem proposta ativa verificada em 2026.",
+   "quem_ganha_perde": "Hipótese: ganham grupos que desconfiam da apuração eletrônica; perdem a eficiência e o sigilo, segundo críticos, e o Estado, pelo custo. Os dois lados são transversais: a discussão não seguiu uma linha partidária única nas fontes lidas.",
+   "evidencia_comparada": "Comparação internacional não pesquisada. A urna eletrônica (a partir de 1996) fez milhões de votos antes brancos ou nulos serem contados (Nicolau, lido).",
+   "riscos": "Risco de institucionalizar a contestação do resultado, e, em sentido oposto, de reduzir a auditabilidade independente (hipótese).",
+   "sinais_precoces": [
+    "número de ações que contestam urnas",
+    "taxa de confiança na urna (pesquisas, não lidas)",
+    "adoção de auditoria por cotejo de boletim de urna"
+   ],
+   "aneis_ids": [
+    "controle-externo-eleitor",
+    "legitimidade-impunidade"
+   ],
+   "decisoes_ids": [],
+   "mecanismo_na_cadeia": "Estados da cadeia (EVOLUCOES_MARKOV.md): 0 autocracia fechada, 1 autocracia eleitoral, 2 democracia eleitoral (Brasil, desde 1987), 3 democracia liberal. Hipótese: efeito sobre legitimidade (anel legitimidade-impunidade): a percepção de fraude reduz o custo político de romper regras; o mecanismo não está no modelo.",
+   "fontes": [
+    "CNN Brasil, 'PEC do voto impresso é rejeitada pelo plenário da Câmara' [lido] https://www.cnnbrasil.com.br/politica/pec-do-voto-impresso-e-rejeitada-em-1-turno-na-camara/",
+    "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext) [lido] https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf"
+   ],
+   "propostas_ids": [
+    "cotejo-boletim-de-urna",
+    "teste-modelo-urna-e-horario-bu"
+   ],
+   "nota_decisoes": "Sem decisão correlata em decisoes.json; ver propostas_ids para verificações independentes."
+  },
+  {
+   "id": "federacoes-e-clausula-de-barreira",
+   "proposta": "Federações partidárias e cláusula de desempenho (2% em 2022, 2,5% em 2026, 3% em 2030)",
+   "status": "Federações vigentes desde a Lei 14.208/2021; cláusula conforme EC 97/2017 (eleicoes_timeline.json; textos legais não lidos). NEP caiu de 16,5 (2018) a 9,2 (2022) (Schaefer, lido).",
+   "quem_ganha_perde": "Ganham partidos médios e grandes e federados; perdem partidos pequenos e nichos. Em 2019-2022, mais de 1/4 dos 513 deputados trocou de partido, com fluxo para PL, PP e Republicanos (Poder360, lido).",
+   "evidencia_comparada": "Alemanha usa cláusula de 5% (de memória, não lida); Turquia tem cláusula de 10% (de memória, não lida). A cláusula de 5% do Brasil (Lei 9.096/1995) foi derrubada pelo STF em 07/12/2006 (eleicoes_timeline.json).",
+   "riscos": "Risco de excesso de concentração e de redução de pluralidade; risco de federações usadas como cartel de fundo (hipótese).",
+   "sinais_precoces": [
+    "NEP e número de partidos com bancada",
+    "migrações partidárias por janela",
+    "proporção do FEFC concentrada nos 5 maiores partidos",
+    "votos desperdiçados em partidos abaixo da cláusula"
+   ],
+   "aneis_ids": [
+    "captura-concentracao"
+   ],
+   "decisoes_ids": [],
+   "mecanismo_na_cadeia": "Estados da cadeia (EVOLUCOES_MARKOV.md): 0 autocracia fechada, 1 autocracia eleitoral, 2 democracia eleitoral (Brasil, desde 1987), 3 democracia liberal. Hipótese: menos partidos aumentam a previsibilidade do voto e do tamanho das coalizões (Abranches) mas reduzem a variedade de entrada de novos competidores, com efeito incerto sobre P(2→3).",
+   "fontes": [
+    "Schaefer, B. M. 'O fim das coligações proporcionais e a reconfiguração das alianças majoritárias no Brasil', Cadernos Adenauer XXVII (2026) nº 1 (PDF lido) [lido] https://www.kas.de/documents/d/brasilien/cadernos-adenauer1_2026_web-capitulo-5",
+    "Poder360, 'Câmara tem maior redução na fragmentação desde 1995' (cita Nicolau/FGV) [lido] https://www.poder360.com.br/congresso/camara-tem-maior-reducao-na-fragmentacao-desde-1995/",
+    "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui) [não lido] web/public/data/eleicoes_timeline.json"
+   ],
+   "nota_decisoes": "Sem decisão correlata em decisoes.json."
+  },
+  {
+   "id": "fundo-eleitoral-e-financiamento",
+   "proposta": "Fundo eleitoral, doação privada e limites de gasto",
+   "status": "FEFC de R$ 4,962 bi em 2022, 2024 e 2026 (Wikipédia, lida); doação empresarial proibida desde o STF de 2015 (Politize, lido); proposta de retorno da doação empresarial não verificada.",
+   "quem_ganha_perde": "Fundo público: ganham direções partidárias e candidatos sem patrimônio; perde o contribuinte. Doação privada: ganham setores com capital concentrado (Olson) e doadores; perde quem não tem acesso. Autofinanciamento: ganham candidatos ricos (47,2% do financiamento em 2016).",
+   "evidencia_comparada": "Comparação internacional não pesquisada nesta coleta.",
+   "riscos": "Risco de captura pelo lado privado (doação) ou pelo lado partidário (fundo); risco de caixa dois quando o teto é baixo (hipótese).",
+   "sinais_precoces": [
+    "razão FEFC / gasto declarado",
+    "percentual de autofinanciamento",
+    "concentração do fundo nos 5 maiores partidos",
+    "doadores pessoa física acima de limite",
+    "condenações por abuso de poder econômico"
+   ],
+   "aneis_ids": [
+    "captura-concentracao"
+   ],
+   "decisoes_ids": [
+    "cortar-beneficios-fiscais",
+    "desoneracao-ampla",
+    "credito-subsidiado",
+    "perdao-dividas"
+   ],
+   "mecanismo_na_cadeia": "Estados da cadeia (EVOLUCOES_MARKOV.md): 0 autocracia fechada, 1 autocracia eleitoral, 2 democracia eleitoral (Brasil, desde 1987), 3 democracia liberal. Hipótese: o anel de captura liga concentração, influência e regras favoráveis; regras de financiamento mexem no elo 'influência'; os incentivos fiscais e de crédito de decisoes.json são as 'regras favoráveis' que esse anel afirma poder crescer com ela.",
+   "fontes": [
+    "Fundo Especial de Financiamento de Campanha - Wikipédia (secundária) [lido] https://pt.wikipedia.org/wiki/Fundo_Especial_de_Financiamento_de_Campanha",
+    "Politize!, 'Como o fim do financiamento de empresas influenciou as eleições de 2016' (cita TSE e STF) [lido] https://www.politize.com.br/como-fim-do-financiamento-empresas-influenciou-eleicoes-2016/",
+    "The Logic of Collective Action - Wikipédia (secundária) [lido] https://en.wikipedia.org/wiki/The_Logic_of_Collective_Action"
+   ],
+   "nota_decisoes": "Os ids de decisoes.json vêm da lista de decisões do anel captura-concentracao em aneis.json."
+  },
+  {
+   "id": "ia-e-deepfakes-em-campanha",
+   "proposta": "Inteligência artificial e deepfakes na propaganda (Res. TSE 23.732/2024 e seguintes)",
+   "status": "A Res. 23.732/2024 proíbe 'conteúdo sintético' que crie, substitua ou altere imagem ou voz para prejudicar ou favorecer candidatura (deepfake) e exige aviso de uso de IA (resumo de busca). Em 13/08/2026 o TSE adiou a discussão sobre o limite entre deepfake e conteúdo sintético rotulado, após um vídeo exibido numa convenção partidária em 25/07/2026 e uma reclamação de partido adversário; campanha de 16/08 a 01/10/2026 (Correio da Manhã, lido).",
+   "quem_ganha_perde": "Ganha quem tem acesso a IA barata e rapidez de produção (hipótese: campanhas bem financiadas e atores externos); perde o eleitor com pouca verificação e candidaturas pequenas sem equipe jurídica. Interesses são transversais: todos os campos podem usar e ser alvos.",
+   "evidencia_comparada": "Comparação internacional não pesquisada.",
+   "riscos": "Risco de ambiguidade (conteúdo rotulado versus enganoso) levar a decisões desiguais; risco de excesso de remoção (censura) e de falta de remoção (desinformação).",
+   "sinais_precoces": [
+    "tempo médio entre notificação e remoção",
+    "proporção de representações julgadas procedentes por campo político",
+    "número de peças sintéticas rotuladas e não rotuladas",
+    "decisões divergentes entre tribunais regionais"
+   ],
+   "aneis_ids": [
+    "legitimidade-impunidade",
+    "controle-externo-eleitor"
+   ],
+   "decisoes_ids": [],
+   "mecanismo_na_cadeia": "Estados da cadeia (EVOLUCOES_MARKOV.md): 0 autocracia fechada, 1 autocracia eleitoral, 2 democracia eleitoral (Brasil, desde 1987), 3 democracia liberal. Hipótese: a erosão da confiança na informação reduz o custo político de romper regras (anel legitimidade-impunidade); o modelo só simula o custo econômico.",
+   "fontes": [
+    "Resumo de busca (Conjur/Migalhas) sobre a Res. TSE 23.732/2024; texto oficial não aberto [não lido] https://www.conjur.com.br/2024-mar-21/propaganda-eleitoral-o-que-pode-e-o-que-nao-pode-a-partir-da-nova-resolucao-do-tse//?print=1",
+    "Correio da Manhã, 'TSE adia discussão sobre limites de deepfakes' (ago/2026) [lido] https://www.correiodamanha.com.br/politica/2026/08/310942-tse-adia-discussao-sobre-limites-de-deepfakes.html"
+   ],
+   "nota_decisoes": "Sem decisão correlata em decisoes.json."
+  },
+  {
+   "id": "plataformas-digitais-e-desinformacao",
+   "proposta": "Regulação de plataformas e combate à desinformação (Res. TSE 23.714/2022; STF, art. 19 do Marco Civil)",
+   "status": "Res. 23.714/2022 mantida em 25/10/2022 por 9 x 2 (Poder360, lido). STF decidiu em 26/06/2025, 8 x 3, que o art. 19 é parcialmente inconstitucional (resumo de busca, não verificado).",
+   "quem_ganha_perde": "Ganham o Judiciário e a Justiça Eleitoral (competência) e vítimas de campanhas de desinformação; perdem plataformas (obrigação de moderar) e, segundo divergências, a liberdade de expressão. Interesse transversal: qualquer campo pode ser autor ou alvo.",
+   "evidencia_comparada": "Comparação internacional (Lei de Serviços Digitais da UE etc.) não pesquisada.",
+   "riscos": "Risco de concentração de decisão em poucos juízes (voto divergente na Res. 23.714); risco oposto de campanhas sem controle.",
+   "sinais_precoces": [
+    "número de remoções por ordem do TSE",
+    "tempo de resposta das plataformas",
+    "reversões de decisão em instância superior",
+    "proporção de remoções por campo político"
+   ],
+   "aneis_ids": [
+    "controle-externo-eleitor",
+    "legitimidade-impunidade"
+   ],
+   "decisoes_ids": [
+    "ampliar-stf",
+    "remover-ministros-stf"
+   ],
+   "mecanismo_na_cadeia": "Estados da cadeia (EVOLUCOES_MARKOV.md): 0 autocracia fechada, 1 autocracia eleitoral, 2 democracia eleitoral (Brasil, desde 1987), 3 democracia liberal. Hipótese: aumenta o poder de órgãos de controle (anel controle-externo-eleitor funciona se detectar, divulgar, punir e ser lembrado); risco de atrito institucional descrito em decisoes.json para ampliar-stf e remover-ministros-stf.",
+   "fontes": [
+    "Poder360, 'Por 9 votos a 2, STF mantém norma que aumenta poderes do TSE' [lido] https://www.poder360.com.br/justica/por-9-votos-a-2-stf-mantem-norma-que-aumenta-poderes-do-tse/",
+    "Resumo de busca (Machado Meyer/InfoMoney) sobre STF, Tema 533 e 987, art. 19 do Marco Civil (26/06/2025, 8 x 3) [não lido] https://www.machadomeyer.com.br/pt/inteligencia-juridica/publicacoes-ij/direito-digital/stf-muda-regime-de-responsabilizacao-das-plataformas",
+    "Resumo de busca sobre a Res. TSE 23.714/2022 (multa de R$ 100 a 150 mil por hora) [não lido] https://sintse.tse.jus.br/documentos/2022/Out/24/diario-da-justica-eletronico-tse-edicao-eleitoral/resolucao-no-23-714-de-20-de-outubro-de-2022-dispoe-sobre-o-enfrentamento-a-desinformacao-que-atinja"
+   ],
+   "nota_decisoes": "'ampliar-stf' e 'remover-ministros-stf' entram só como risco de atrito, por hipótese; não são consequências desta regra."
+  },
+  {
+   "id": "seguranca-da-urna-e-auditoria",
+   "proposta": "Segurança da urna e auditoria independente (cotejo de boletins, testes públicos)",
+   "status": "Urna eletrônica em todo o país desde 2000 (eleicoes_timeline.json, resumo de busca); verificações propostas no repositório (propostas.json).",
+   "quem_ganha_perde": "Ganha a confiança no resultado (todos os campos); perdem quem se beneficia de dúvida. Custo de auditoria recai sobre o Estado e a sociedade civil.",
+   "evidencia_comparada": "Comparação internacional não pesquisada; o repositório propõe cotejo de BU e testes por modelo e horário.",
+   "riscos": "Risco de auditoria mal desenhada gerar falsos alarmes (regra 6 de RIGOR_DE_VALIDACAO.md: validar o nulo primeiro).",
+   "sinais_precoces": [
+    "fração p<0,05 em dados reais próxima de 5% (nulo)",
+    "boletins divergentes do resultado",
+    "tempo de divulgação de BU",
+    "contestações aceitas pela Justiça Eleitoral"
+   ],
+   "aneis_ids": [
+    "controle-externo-eleitor",
+    "legitimidade-impunidade"
+   ],
+   "decisoes_ids": [],
+   "mecanismo_na_cadeia": "Estados da cadeia (EVOLUCOES_MARKOV.md): 0 autocracia fechada, 1 autocracia eleitoral, 2 democracia eleitoral (Brasil, desde 1987), 3 democracia liberal. Hipótese: auditorias confiáveis aumentam o custo esperado de fraude e a legitimidade (anel controle-externo-eleitor); efeito não está no modelo.",
+   "fontes": [
+    "Nicolau, J. 'A participação eleitoral: evidências sobre o caso brasileiro' (PDF, CES-Coimbra; lido via pdftotext) [lido] https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
+    "Repositório: web/public/data/eleicoes_timeline.json (compilado em coleta anterior; fonte original citada lá, não relida aqui) [não lido] web/public/data/eleicoes_timeline.json"
+   ],
+   "propostas_ids": [
+    "cotejo-boletim-de-urna",
+    "teste-modelo-urna-e-horario-bu",
+    "rastreabilidade-5-mapas"
+   ],
+   "nota_decisoes": "Sem decisão correlata em decisoes.json."
+  },
+  {
+   "id": "eleitorado-envelhecendo-e-voto-aos-16",
+   "proposta": "Eleitorado envelhecendo e voto aos 16 anos (manter, ampliar ou rever)",
+   "status": "Voto facultativo aos 16 desde 1988. Em 2026, 158.745.463 eleitores; 60+ são 37,4 milhões (23,6%), 4,5 milhões a mais que em 2022; 3,57 milhões de até 18 anos (2,25%) (SBT News, dados TSE, lido).",
+   "quem_ganha_perde": "Ganha peso o eleitor idoso (previdência, saúde) e perde peso relativo o jovem; o voto aos 16 compensa parte (hipótese). Em Meltzer-Richard, a mudança do eleitor mediano altera a demanda por redistribuição.",
+   "evidencia_comparada": "Na Áustria (voto aos 16 desde 2007), mais jovens de 16-17 anos votaram do que os de 18-21 e houve 'aumento de voto entre 16 e 25' (Voting age, Wikipédia, lido). Outros países com voto aos 16: Argentina, Malta, Ecuador e outros.",
+   "riscos": "Risco de políticas de curto prazo favoráveis a idosos e de crédito eleitoral pouco sustentável (hipótese); risco de baixa participação de jovens se o alistamento for difícil.",
+   "sinais_precoces": [
+    "participação de 16-17 versus 18-24 por eleição",
+    "peso do 60+ no eleitorado e na abstenção",
+    "gasto previdenciário e de benefícios por ano eleitoral",
+    "propostas legislativas por faixa etária"
+   ],
+   "aneis_ids": [
+    "desigualdade-educacao-produtividade",
+    "fiscal-juros-divida"
+   ],
+   "decisoes_ids": [
+    "reforma-previdencia-2",
+    "ampliar-assistencia",
+    "educacao-tecnica-e-alfabetizacao"
+   ],
+   "mecanismo_na_cadeia": "Estados da cadeia (EVOLUCOES_MARKOV.md): 0 autocracia fechada, 1 autocracia eleitoral, 2 democracia eleitoral (Brasil, desde 1987), 3 democracia liberal. Hipótese: eleitor mediano mais velho eleva a demanda por previdência, o que pressiona o anel fiscal-juros-divida; efeito não calculado.",
+   "fontes": [
+    "SBT News, 'Eleições 2026 terá 2,3 milhões de eleitores a mais que 2022' (dados TSE de 20/07/2026) [lido] https://sbtnews.sbt.com.br/noticia/politica/eleicoes-2026-tera-2-3-milhoes-de-eleitores-a-mais-que-2022",
+    "Voting age - Wikipédia (secundária; lidos os primeiros 100 mil caracteres) [lido] https://en.wikipedia.org/wiki/Voting_age",
+    "Resumo de busca (IHU-Unisinos/Poder360/TSE) sobre idosos 20,4% em 2022 e 16-17 anos 1.836.081 em 2024 [não lido] https://www.poder360.com.br/brasil/numero-de-eleitores-de-16-e-17-anos-cresce-781-em-2024-diz-tse/"
+   ],
+   "nota_decisoes": "Mapeamento por hipótese de incidência fiscal."
+  },
+  {
+   "id": "abstencao",
+   "proposta": "Abstenção eleitoral (tendência e causas)",
+   "status": "2024: 21,68% (33,8 milhões de 155,9 milhões); 2022 (1º turno): 20,79%; 2020: 23,15%; 2016: 17,58%; 2008: 14,50%; 2004: 14,22% (Poder360, dados TSE, lido).",
+   "quem_ganha_perde": "Ganha quem tem base mobilizada; perde quem tem custo alto de comparecimento (baixa renda, informais, deslocados). Efeito sobre partidos depende de qual eleitor se abstém (não lido).",
+   "evidencia_comparada": "Compulsory voting (Wikipédia, lido): Austrália 91-96%; Holanda caiu a ~80% após o fim da obrigatoriedade.",
+   "riscos": "Risco de legitimidade reduzida e de sub-representação de baixa renda (hipótese).",
+   "sinais_precoces": [
+    "abstenção por UF, renda e idade",
+    "nulos e brancos",
+    "dias úteis no calendário e oferta de transporte",
+    "desistência de alistamento de 16-17"
+   ],
+   "aneis_ids": [
+    "controle-externo-eleitor",
+    "legitimidade-impunidade"
+   ],
+   "decisoes_ids": [],
+   "mecanismo_na_cadeia": "Estados da cadeia (EVOLUCOES_MARKOV.md): 0 autocracia fechada, 1 autocracia eleitoral, 2 democracia eleitoral (Brasil, desde 1987), 3 democracia liberal. Hipótese: abstenção alta reduz a cobrança eleitoral (anel controle-externo-eleitor: o eleitor 'lembra' e pune); efeito sobre 2→1 não medido.",
+   "fontes": [
+    "Poder360, 'Abstenção é a 2ª maior desde 2000 e só perde para a pandemia' (dados TSE) [lido] https://www.poder360.com.br/poder-eleicoes/abstencao-e-a-2a-maior-desde-2000-e-so-perde-para-a-pandemia/",
+    "Compulsory voting - Wikipédia (secundária; lidos os primeiros 100 mil caracteres) [lido] https://en.wikipedia.org/wiki/Compulsory_voting"
+   ],
+   "nota_decisoes": "Sem decisão correlata em decisoes.json."
+  }
+ ],
+ "limites": [
+  "Este arquivo é uma hipótese de leitura, não um modelo: não há estimativa causal do efeito de nenhuma regra sobre classes, partidos ou resultados.",
+  "Fontes oficiais (Planalto, TSE, Câmara, Senado, STF) em geral não foram lidas: a maior parte é secundária (Wikipédia, jornais, artigos), assinalada em cada campo; o que veio de resumo de busca está com verificado=false.",
+  "Interesses de classe são hipóteses teóricas do tipo 'o que tenderia a preferir dada a base material'; não são preferências medidas, nem se aplicam a indivíduos.",
+  "Classes e grupos são construções analíticas; as 23 linhas se sobrepõem (um evangélico pode ser informal, mulher e do Nordeste).",
+  "A matriz regra x classe tem 'ganha', 'perde' e 'ambiguo' como julgamento qualitativo, sem peso, sem soma e sem medida de intensidade; não se deve contar células.",
+  "Não foram lidos Weber, Carvalho, Nobre, Boix (tese), Meltzer e Richard (resumo) e Acemoglu e Robinson (PDF); anos e ideias vêm de memória ou de resumo.",
+  "Evidência comparada internacional foi pesquisada só para SNTV, voto aos 16, voto obrigatório e lista fechada ou aberta; as demais propostas estão marcadas como não pesquisadas.",
+  "Números de tramitação (PLP 112/2021, PEC do fim da reeleição) refletem as fontes lidas e podem ter mudado até 07/10/2026; não foi aberta a página da Câmara ou do Senado.",
+  "A cadeia de Markov do repositório não modela nenhuma destas regras; os trechos 'mecanismo_na_cadeia' e os ids de aneis e decisoes são mapeamentos por hipótese, não efeitos calculados.",
+  "Contagens divergentes entre fontes foram mantidas e anotadas: NEP de 2022 (9,2 e 12,7), votos do STF no orçamento secreto (6 x 5 e contagem parcial diferente), quórum do Pacote de Abril ('maioria absoluta' e 'maioria simples'), prazo de remoção da Res. 23.714 (2 h e 1 h), ano de Leal (1948 e 1949).",
+  "Nenhuma pessoa é acusada: nomes de quem foi citado em gravações sobre a reeleição foram omitidos; o que consta é alegação atribuída à fonte, com a negativa e o arquivamento registrados."
+ ]
+}
