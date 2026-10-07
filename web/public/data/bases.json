@@ -1,5 +1,5 @@
 {
- "gerado_em": "2026-10-07T20:27:18.469Z",
+ "gerado_em": "2026-10-07T22:36:56.623Z",
  "resumo": {
   "total": 40,
   "por_status": {
@@ -2964,36 +2964,42 @@
    ],
    "links": [
     {
+     "titulo": "Nicolau, 'A participação eleitoral: evidências sobre o caso brasileiro' (texto e",
      "url": "https://www.ces.uc.pt/lab2004/pdfs/JairoNicolau.pdf",
      "verificado": true,
      "n": 7,
      "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     },
     {
+     "titulo": "Engerman & Sokoloff (2005), Tabela 4",
      "url": "https://www.nber.org/system/files/working_papers/w8512/w8512.pdf",
      "verificado": true,
      "n": 2,
      "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema; PDF lido: Engerman e Sokoloff, The Evolution of Suffrage Institutions in the New World (NBER WP 8512)"
     },
     {
+     "titulo": "Constituição de 1824, art. 92 (transcrição em questão do ENEM 2011)",
      "url": "https://descomplica.com.br/gabarito-enem/questoes/2011/primeiro-dia/art-92-sao-excluidos-de-votar-nas-assembleias-paroquiais-os-menores-de-vinte-e-cinco-anos-nos/",
      "verificado": true,
      "n": 1,
      "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema (questão do Enem 2011 que cita o art. 92 da Constituição; fonte secundária, preferir o texto oficial)"
     },
     {
+     "titulo": "Lei Saraiva (Wikipédia, secundária)",
      "url": "https://pt.wikipedia.org/wiki/Lei_Saraiva",
      "verificado": true,
      "n": 1,
      "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     },
     {
+     "titulo": "Constituição de 1891, art. 70",
      "url": "https://www2.camara.leg.br/legin/fed/consti/1824-1899/constituicao-35081-24-fevereiro-1891-532699-publicacaooriginal-15017-pl.html",
      "verificado": true,
      "n": 1,
      "nota": "link_ok em 2026-10-07: URL respondeu 200 e o conteúdo bate com o tema"
     },
     {
+     "titulo": "Constituição de 1934, art. 108 e parágrafo único",
      "url": "https://portal2.fazenda.rj.gov.br/wp-content/uploads/2022/09/1934.pdf",
      "verificado": true,
      "n": 1,

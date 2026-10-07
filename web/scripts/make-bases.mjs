@@ -1,8 +1,8 @@
 // Gera public/data/bases.json: registro de bases, status, validações e avisos, lido dos metas REAIS.
 // Uso: pnpm bases (também roda em predev/prebuild). Nunca inventa número: tudo vem dos JSON ou de docs/METHODS.md.
-import { existsSync, readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, readFileSync, unlinkSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
-import { fileURLToPath } from 'node:url'
+import { fileURLToPath, pathToFileURL } from 'node:url'
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..')
 const DATA = join(ROOT, 'public', 'data')
@@ -1101,7 +1101,8 @@ if (ea) {
   const fs = ea.meta?.fontes ?? []
   const rs = ea.projecao_2038?.validacao_retrospectiva?.resumo_analfabetos
   const mun = ea.validacao?.municipal ?? {}
-  const fonteStr = (f) => (typeof f === 'string' ? { titulo: f.slice(0, 80), url: (f.match(/https?:\/\/\S+/) ?? [null])[0] } : f)
+  const fonteStr = (f) =>
+    typeof f === 'string' ? { titulo: f.slice(0, 80), url: (f.match(/https?:\/\/\S+/) ?? [null])[0] } : { ...f, titulo: f.titulo ?? f.citacao?.slice(0, 80) ?? f.url }
   add({
     id: 'eleitorado-analfabeto',
     nome: 'Eleitorado por instrução — perfil do TSE, comparecimento, cruzamentos e projeção a 2038',
@@ -1188,6 +1189,18 @@ const out = {
   resumo: { total: bases.length, por_status: porStatus, atencao: bases.filter((b) => b.status !== 'oficial').length },
   paginas,
   bases,
+}
+// valida contra o mesmo schema do front antes de gravar: falha aqui em vez de quebrar a Régua de evidência
+// schema.ts só tem `export type` como sintaxe TS: basta removê-las para rodar em Node puro
+const schemaSrc = readFileSync(join(ROOT, 'src', 'features', 'bases', 'schema.ts'), 'utf8').replace(/^export type .*$/gm, '').replace(/ as const/g, '')
+const tmp = join(ROOT, 'scripts', '.schema-check.mjs')
+writeFileSync(tmp, schemaSrc)
+const { BasesSchema } = await import(pathToFileURL(tmp).href)
+unlinkSync(tmp)
+const check = BasesSchema.safeParse(out)
+if (!check.success) {
+  for (const i of check.error.issues.slice(0, 10)) console.error(`bases.json fora do contrato: ${i.path.join('.')} — ${i.message}`)
+  process.exit(1)
 }
 writeFileSync(join(DATA, 'bases.json'), JSON.stringify(out, null, 1))
 console.log(`bases.json: ${bases.length} bases`, porStatus)
